@@ -1,33 +1,28 @@
 import { navbar } from "vuepress-theme-hope";
 
-export const zhNavbarConfig = navbar([
+export const enNavbarConfig = navbar([
   "/",
   {
-    text: "随笔",
+    text: "Documentation",
     icon: "note",
-    prefix: "/note/",
+    prefix: "/docs/",
     children: [
-      { text: "随笔", link: "", icon: "note", activeMatch: "^/note/$" },
+      { text: "Docs", link: "", icon: "note", activeMatch: "^/docs/$" },
       {
-        text: "诗集: 四季",
-        children: ["spring/", "summer/", "fall/", "winter/"],
+        text: "Standard ERP Procedures",
+        children: ["basic-steps/", "customer-relations/", "manufacturing/", "material-management/", "human-resource/", "performance-analysis/"],
       },
-      {
-        text: "其他作品",
-        children: ["life/", "poem/"],
-      },
-      "node-js/",
     ],
   },
   {
-    text: "代码笔记",
+    text: "Community",
     icon: "code",
     children: [
       {
-        text: "代码笔记",
+        text: "Community",
         icon: "code",
-        link: "/code/",
-        activeMatch: "^/code/$",
+        link: "/community/",
+        activeMatch: "^/community/$",
       },
       {
         text: "产品设计",
@@ -40,26 +35,69 @@ export const zhNavbarConfig = navbar([
     ],
   },
   {
-    text: "软件教程",
+    text: "Forums",
     icon: "software",
-    prefix: "/software/",
+    prefix: "/forums/",
     children: [
       {
-        text: "软件教程",
+        text: "Forums",
         icon: "software",
         link: "",
-        activeMatch: "^/software/$",
+        activeMatch: "^/forums/$",
       },
       "vscode/",
       "git/",
       "comsol/",
     ],
   },
+  {
+    text: "Downloads",
+    icon: "software",
+    prefix: "/downloads/",
+    children: [
+      {
+        text: "Downloads",
+        icon: "software",
+        link: "",
+        activeMatch: "^/downloads/$",
+      },
+      "vscode/",
+      "git/",
+      "comsol/",
+    ],
+  },
+  {
+    text: "About Us",
+    icon: "software",
+    prefix: "/about/",
+    children: [
+      {
+        text: "About Us",
+        icon: "software",
+        link: "",
+        activeMatch: "^/about/$",
+      },
+      "about/",
+      "git/",
+      "comsol/",
+    ],
+  },
 ]);
 
-export const enNavbarConfig = navbar([
-  "/en/",
-  "/en/note/",
-  "/en/code/",
-  "/en/software/",
+export const zhNavbarConfig = navbar([
+  "/zh/",
+  "/zh/docs/",
+  "/zh/community/",
+  "/zh/forumns/",
+  "/zh/downloads/",
+  "/zh/about/",
+]);
+
+export const esNavbarConfig = navbar([
+  "/es/",
+  "/es/docs/",
+  "/es/community/",
+  "/es/forums/",
+  "/es/downloads/",
+  "/es/about/",
 ]);

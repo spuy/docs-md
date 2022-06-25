@@ -2,9 +2,9 @@
 home: true
 layout: Blog
 icon: home
-title: 主页
+title: Home
 heroImage: /logo.svg
-heroText: 𝓜𝓻. 𝓗𝓸𝓹𝓮
+heroText: ADempiere ERP, created by people like you
 heroFullScreen: true
 tagline: Where there is light, there is hope
 projects:

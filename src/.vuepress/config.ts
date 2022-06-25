@@ -20,15 +20,15 @@ export default defineUserConfig({
 
   locales: {
     "/": {
-      lang: "zh-CN",
-      title: "Mr.Hope",
-      description: "Where there is light, there is hope.",
+      lang: "en-US",
+      title: "ADempiere Official Page",
+      description: "A official page for ADempiere community.",
     },
-
-    "/en/": {
-      title: "My name is Mr.Hope",
-      description: "Mr.Hope personal blog",
-    },
+    '/es/': {
+      title: 'Página Oficial de ADempiere',
+      lang: 'es-ES',
+      description: 'Una página oficial para la comunidad de ADempiere'
+    }
   },
 
   theme,
@@ -40,42 +40,83 @@ export default defineUserConfig({
       indexName: "mrhope",
       locales: {
         "/": {
-          placeholder: "搜索",
+          placeholder: "English",
           translations: {
             button: {
-              buttonText: "搜索",
-              buttonAriaLabel: "搜索",
+              buttonText: "Search",
+              buttonAriaLabel: "Search",
             },
             modal: {
               searchBox: {
-                resetButtonTitle: "清除查询条件",
-                resetButtonAriaLabel: "清除查询条件",
-                cancelButtonText: "取消",
-                cancelButtonAriaLabel: "取消",
+                resetButtonTitle: "Clear Conditions",
+                resetButtonAriaLabel: "Clear Conditions",
+                cancelButtonText: "Cancel",
+                cancelButtonAriaLabel: "Cancel",
               },
               startScreen: {
-                recentSearchesTitle: "搜索历史",
-                noRecentSearchesText: "没有搜索历史",
-                saveRecentSearchButtonTitle: "保存至搜索历史",
-                removeRecentSearchButtonTitle: "从搜索历史中移除",
-                favoriteSearchesTitle: "收藏",
-                removeFavoriteSearchButtonTitle: "从收藏中移除",
+                recentSearchesTitle: "History",
+                noRecentSearchesText: "No History",
+                saveRecentSearchButtonTitle: "Save to History",
+                removeRecentSearchButtonTitle: "Remove from History",
+                favoriteSearchesTitle: "Favorites",
+                removeFavoriteSearchButtonTitle: "Remove from Favorites",
               },
               errorScreen: {
-                titleText: "无法获取结果",
-                helpText: "你可能需要检查你的网络连接",
+                titleText: "Can't get results",
+                helpText: "You may need to check your internet connection",
               },
               footer: {
-                selectText: "选择",
-                navigateText: "切换",
-                closeText: "关闭",
-                searchByText: "搜索提供者",
+                selectText: "Choose",
+                navigateText: "Toggle",
+                closeText: "Close",
+                searchByText: "Search",
               },
               noResultsScreen: {
-                noResultsText: "无法找到相关结果",
-                suggestedQueryText: "你可以尝试查询",
-                reportMissingResultsText: "你认为该查询应该有结果？",
-                reportMissingResultsLinkText: "点击反馈",
+                noResultsText: "No result found",
+                suggestedQueryText: "You can try query",
+                reportMissingResultsText: "Do you think this query should have results？",
+                reportMissingResultsLinkText: "Click for Feedback",
+              },
+            },
+          },
+        },
+        "/es/": {
+          placeholder: "Español",
+          translations: {
+            button: {
+              buttonText: "Buscar",
+              buttonAriaLabel: "Buscar",
+            },
+            modal: {
+              searchBox: {
+                resetButtonTitle: "Limpiar Búsqueda",
+                resetButtonAriaLabel: "Limpiar Condiciones",
+                cancelButtonText: "Cancelar",
+                cancelButtonAriaLabel: "Cancelar",
+              },
+              startScreen: {
+                recentSearchesTitle: "Historial",
+                noRecentSearchesText: "No existen historias",
+                saveRecentSearchButtonTitle: "Guardar en Historias",
+                removeRecentSearchButtonTitle: "Eliminar de Historias",
+                favoriteSearchesTitle: "Favoritos",
+                removeFavoriteSearchButtonTitle: "Eliminar de Favoritos",
+              },
+              errorScreen: {
+                titleText: "No se pueden obtener resultados",
+                helpText: "Debería verificar su conexión a internet",
+              },
+              footer: {
+                selectText: "Seleccionar",
+                navigateText: "Palanca",
+                closeText: "Cerrar",
+                searchByText: "Buscar",
+              },
+              noResultsScreen: {
+                noResultsText: "No se encontraron resultados",
+                suggestedQueryText: "Intente nuevamente",
+                reportMissingResultsText: "Cree que la búsqueda debería devolver resultados?",
+                reportMissingResultsLinkText: "Haga Click para Responder",
               },
             },
           },

@@ -3,7 +3,7 @@ layout: Slide
 title: About Us
 icon: people
 tag:
-  - Self Introduction
+  - Self Intriduction
 timeline: false
 star: true
 ---

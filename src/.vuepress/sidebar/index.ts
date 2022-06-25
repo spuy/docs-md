@@ -19,7 +19,7 @@ import { comsol, git, software, vscode } from "./software";
 import { vue } from "./vue";
 import { css, html, jquery, website } from "./website";
 
-export const zhSidebarConig = sidebar({
+export const enSidebarConig = sidebar({
   "/software/vscode/": vscode,
 
   "/software/git/": git,
@@ -87,13 +87,24 @@ export const zhSidebarConig = sidebar({
   "/": ["", "note/", "code/", "software/", "about/"],
 });
 
-export const enSidebarConfig = sidebar({
-  "/en/note/": [""],
+export const zhSidebarConfig = sidebar({
+  "/zh/note/": [""],
 
-  "/en/code/": [""],
+  "/zh/code/": [""],
 
-  "/en/about/": ["", "site"],
+  "/zh/about/": ["", "site"],
 
   // fallback
-  "/en/": ["", "code/", "about/"],
+  "/zh/": ["", "code/", "about/"],
+});
+
+export const esSidebarConfig = sidebar({
+  "/es/note/": [""],
+
+  "/es/code/": [""],
+
+  "/es/about/": ["", "site"],
+
+  // fallback
+  "/es/": ["", "code/", "about/"],
 });

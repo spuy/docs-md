@@ -1,7 +1,7 @@
 import { hopeTheme } from "vuepress-theme-hope";
 
-import { enNavbarConfig, zhNavbarConfig } from "./navbar";
-import { enSidebarConfig, zhSidebarConig } from "./sidebar";
+import { enNavbarConfig, esNavbarConfig } from "./navbar";
+import { esSidebarConfig, enSidebarConig } from "./sidebar";
 
 export default hopeTheme({
   hostname: "https://mrhope.site",
@@ -24,8 +24,8 @@ export default hopeTheme({
 
   locales: {
     "/": {
-      navbar: zhNavbarConfig,
-      sidebar: zhSidebarConig,
+      navbar: enNavbarConfig,
+      sidebar: enSidebarConig,
 
       blog: {
         description: "VuePress 项目成员，前端开发者，理论物理硕士在读",
@@ -42,15 +42,14 @@ export default hopeTheme({
         },
       },
     },
-
-    "/en/": {
-      navbar: enNavbarConfig,
-      sidebar: enSidebarConfig,
+    "/es/": {
+      navbar: esNavbarConfig,
+      sidebar: esSidebarConfig,
 
       blog: {
         description:
           "VuePress project member, front-end developer, studying for a master's degree in theoretical physics",
-        intro: "/en/about/",
+        intro: "/es/about/",
         medias: {
           Gmail: "mailto:mister-hope@outlook.com",
           Steam: "https://steamcommunity.com/id/Mr-Hope/",
