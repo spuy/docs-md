@@ -4,11 +4,11 @@ import { enNavbarConfig, esNavbarConfig } from "./navbar";
 import { esSidebarConfig, enSidebarConig } from "./sidebar";
 
 export default hopeTheme({
-  hostname: "https://adempiere.io",
+  hostname: "https://erpcya.github.io/adempiere-site",
 
   author: {
     name: "ADempiere",
-    url: "https://adempiere.io",
+    url: "https://erpcya.github.io/adempiere-site",
   },
 
   iconAssets: "//at.alicdn.com/t/font_2410206_vuzkjonf4s9.css",
