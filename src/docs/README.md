@@ -6,58 +6,25 @@ star: 9
 sticky: 9
 ---
 
-这里是 Mr.Hope 的一些随笔，后续被整理进博客中。
+Most of the companies acquired different software to cover the different needs of their organizations, but later they realize how complicated it is to share and unify the information that each module and organization obtained.
 
-## 四季
+ADempiere, due to its ERP status, offers everything a company needs in a single software, [ADempiere ERP](http://adempiere.net/) wants to offer its readers a wide range of structured documents for users with high and low experience in handling ERP Software, in which each process of this powerful system will be explained efficiently and in detail, defining step by step the management of each one, its accounting, administrative and fiscal implications and finally the issuance of results that will allow optimum control of its operations..
 
-::: tip 介绍
+::: tip Intro
 
-这是我在高一写的散文诗集，最初发表在空间日志上。
-
-后续也写了一些诗补充了进去，其中以 “秋之思” 篇幅最多
-
-近日将其作为少年回忆，整理在博客中。
+Note that all [ADempiere ERP](http://adempiere.net/) ecosystem was created to be used on any organization with minimal changes. This documentation was created for end used, tech and implementor
 
 :::
 
-- [秋之思](fall/catalog.md)
+## Getting Started
+Learn how to improve the current documentation and make it better for you and everybody!.
 
-- [冬之语](winter/note.md)
+- [Basic Steps](basic-steps)
 
-- [春之诗](spring/1.md)
+- [How to Contribute](how-to-contribute)
 
-- [夏之歌](summer/1.md)
+## Dictionary Elements
+An auto-generated guide from the ADempiere dictionary with all the documentation found within the dictionary.
 
-::: tip 其他方式
-
-也可查看 [空间相册](https://user.qzone.qq.com/1178522294)
-
-:::
-
-## 笑谈人生
-
-::: tip 介绍
-
-这是我在高一写的人生感悟，最初发表在空间日志上。
-
-近日将其作为少年回忆，整理在博客中。
-
-:::
-
-- [点击前往](life/README.md)
-
-## 轻言细语
-
-::: tip 介绍
-
-这是我在高一写的一些小的散文诗，最初发表在空间日志上。
-
-近日将其作为少年回忆，整理在博客中。
-
-:::
-
-- [点击前往](poem/README.md)
-
-## Node.js 相关
-
-- [current-path 相关](node-js/current-path.md)
+- [Menu](auto-generated/menu)
+- [Forms](auto-generated/forms)

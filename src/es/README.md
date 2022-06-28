@@ -2,54 +2,26 @@
 home: true
 layout: Blog
 icon: home
-title: Home
+title: Inicio
 heroImage: /logo.svg
-heroText: 𝓜𝓻. 𝓗𝓸𝓹𝓮
+heroText: ADempiere ERP
+bgImage: /background.jpeg
 heroFullScreen: false
-tagline: Where there is light, there is hope
+tagline: Creado por personas como tu
 projects:
-  - name: vuepress
-    desc: Vue-powered Static Site Generator
-    link: https://v2.vuepress.vuejs.org/
-    icon: /assets/img/vuepress.png
+  - name: Release 3.9.4
+    desc: This is a great news for ADempiere Community
+    link: https://github.com/adempiere/adempiere/releases/tag/3.9.4
+    icon: /assets/icon/logo.png
+  - name: New UI for ADempiere
+    desc: Completely created on Javascript with Vue
+    link: https://github.com/adempiere/adempiere-vue
+    icon: /assets/img/vue-logo.png
+  - name: Discord Rooms
+    desc: Hey we are on Discord!
+    link: https://discord.gg/G8nWdaB2
+    icon: /assets/img/discord-logo.png
+  
 
-  - name: vuepress-theme-hope
-    desc: A vuepress theme with tons of features✨
-    link: https://vuepress-theme-hope.github.io/
-    icon: /assets/img/vuepress-hope-logo.svg
-
-  - name: Waline
-    desc: A safe and fast comment service
-    link: https://waline.js.org/en/
-    icon: https://waline.js.org/logo.png
-
-  - name: in NENU
-    desc: 570,000+ words NENU guide, a comprehensive introduction to NENU life, the best admission guide for NENU freshmen❤
-    link: https://github.com/Hope-Studio/inNENU-miniapp
-    icon: /assets/img/inNENU.png
-
-  - name: vuepress-plugin-md-enhance
-    desc: VuePress Markdown Enhance plugin
-    link: https://vuepress-theme-hope.github.io/v2/md-enhance/
-    icon: /assets/img/vuepress-hope-logo.svg
-
-  - name: vuepress-plugin-feed2
-    desc: VuePress2 Feed Plugin
-    link: https://vuepress-theme-hope.github.io/v2/feed/
-    icon: /assets/img/vuepress-hope-logo.svg
-
-  - name: vuepress-plugin-pwa2
-    desc: VuePress2 PWA Plugin
-    link: https://vuepress-theme-hope.github.io/v2/pwa/
-    icon: /assets/img/vuepress-hope-logo.svg
-
-  - name: "@mr-hope/gulp-sass"
-    type: project
-    desc: Sass Plugin for Gulp
-    link: https://github.com/Mister-Hope/gulp-sass
-
-  - name: mptool
-    desc: Light, effective miniapp framwork
-    link: https://github.com/miniapp-tool/mptool
-    icon: https://miniapp-tool.github.io/logo.png
+footer: '<a href="https://github.com/adempiere" rel="noopener noreferrer" target="_blank">Comunidad ADempiere</a> | <a href="/about/site">Acerca De</a>'
 ---

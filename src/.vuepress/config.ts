@@ -22,12 +22,12 @@ export default defineUserConfig({
     "/": {
       lang: "en-US",
       title: "ADempiere Official Page",
-      description: "A official page for ADempiere community.",
+      description: "A official page of ADempiere community.",
     },
     '/es/': {
       title: 'Página Oficial de ADempiere',
       lang: 'es-ES',
-      description: 'Una página oficial para la comunidad de ADempiere'
+      description: 'Página oficial de la comunidad de ADempiere'
     }
   },
 
@@ -37,7 +37,7 @@ export default defineUserConfig({
     docsearchPlugin({
       appId: "LDBQGQC8Q9",
       apiKey: "5c3a7145aeba231c3b85b742d24fc24f",
-      indexName: "mrhope",
+      indexName: "adempiere",
       locales: {
         "/": {
           placeholder: "English",

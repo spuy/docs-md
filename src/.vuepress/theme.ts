@@ -4,11 +4,11 @@ import { enNavbarConfig, esNavbarConfig } from "./navbar";
 import { esSidebarConfig, enSidebarConig } from "./sidebar";
 
 export default hopeTheme({
-  hostname: "https://mrhope.site",
+  hostname: "https://adempiere.io",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mrhope.site",
+    name: "ADempiere",
+    url: "https://adempiere.io",
   },
 
   iconAssets: "//at.alicdn.com/t/font_2410206_vuzkjonf4s9.css",
@@ -16,7 +16,7 @@ export default hopeTheme({
 
   logo: "/logo.svg",
 
-  repo: "https://github.com/Mister-Hope/Mister-Hope.github.io",
+  repo: "https://github.com/adempiere/adempiere-site",
 
   repoDisplay: false,
 
@@ -25,42 +25,35 @@ export default hopeTheme({
   locales: {
     "/": {
       navbar: enNavbarConfig,
-      sidebar: enSidebarConig,
+      // sidebar: enSidebarConig,
 
       blog: {
-        description: "VuePress 项目成员，前端开发者，理论物理硕士在读",
+        description: "ADempiere ERP Community",
         intro: "/about/",
         medias: {
-          QQ: "http://wpa.qq.com/msgrd?v=3&uin=1178522294&site=qq&menu=yes",
-          Qzone: "https://1178522294.qzone.qq.com/",
-          Gmail: "mailto:mister-hope@outlook.com",
-          Zhihu: "https://www.zhihu.com/people/mister-hope",
-          Steam: "https://steamcommunity.com/id/Mr-Hope/",
-          Weibo: "https://weibo.com/misterhope",
-          GitHub: "https://github.com/Mister-Hope",
-          Gitee: "https://gitee.com/Mister-Hope",
+          Gmail: "mailto:info@adempiere.io",
+          GitHub: "https://github.com/adempiere/adempiere-site",
         },
       },
     },
     "/es/": {
       navbar: esNavbarConfig,
-      sidebar: esSidebarConfig,
+      // sidebar: esSidebarConfig,
 
       blog: {
         description:
           "VuePress project member, front-end developer, studying for a master's degree in theoretical physics",
         intro: "/es/about/",
         medias: {
-          Gmail: "mailto:mister-hope@outlook.com",
-          Steam: "https://steamcommunity.com/id/Mr-Hope/",
-          GitHub: "https://github.com/Mister-Hope",
+          Gmail: "mailto:info@adempiere.io",
+          GitHub: "https://github.com/adempiere/adempiere-site",
         },
       },
     },
   },
 
   displayFooter: true,
-  copyright: "Copyright © 2019-present Mr.Hope",
+  copyright: "Copyright © 2022-present ADempiere Community",
 
   plugins: {
     blog: true,
@@ -104,9 +97,9 @@ export default hopeTheme({
         color: "#ffffff",
       },
       manifest: {
-        name: "Mr.Hope 的个人博客",
-        short_name: "Mr.Hope Blog",
-        description: "Mr.Hope 的个人博客",
+        name: "ADempiere ERP Community",
+        short_name: "ADempiere ERP",
+        description: "ADempiere ERP, created by peoples like you",
         theme_color: "#5c92d1",
         icons: [
           {
@@ -134,8 +127,8 @@ export default hopeTheme({
         ],
         shortcuts: [
           {
-            name: "分类",
-            short_name: "分类",
+            name: "Classification",
+            short_name: "Classification",
             icons: [
               {
                 src: "/assets/icon/category-maskable.png",
@@ -151,11 +144,11 @@ export default hopeTheme({
               },
             ],
             url: "/category/",
-            description: "文章分类分组",
+            description: "Classification Group",
           },
           {
-            name: "标签",
-            short_name: "标签",
+            name: "Label",
+            short_name: "Label",
             icons: [
               {
                 src: "/assets/icon/tag-maskable.png",
@@ -171,11 +164,11 @@ export default hopeTheme({
               },
             ],
             url: "/tag/",
-            description: "文章标签分组",
+            description: "Tag Grouping",
           },
           {
-            name: "时间线",
-            short_name: "时间线",
+            name: "Timeline",
+            short_name: "Timeline",
             icons: [
               {
                 src: "/assets/icon/timeline-maskable.png",
@@ -191,11 +184,11 @@ export default hopeTheme({
               },
             ],
             url: "/timeline/",
-            description: "时间线文章列表",
+            description: "Timeline Article List",
           },
           {
-            name: "个人介绍",
-            short_name: "个人介绍",
+            name: "Self Introduction",
+            short_name: "Self Introduction",
             icons: [
               {
                 src: "/assets/icon/about-maskable.png",
@@ -211,7 +204,7 @@ export default hopeTheme({
               },
             ],
             url: "/about/",
-            description: "个人介绍",
+            description: "Self Introduction",
           },
         ],
       },

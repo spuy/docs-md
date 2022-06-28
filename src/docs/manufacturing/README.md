@@ -1,16 +1,27 @@
 ---
-title: 设计文章
+title: Title
 icon: note
-date: 2020-09-26
-category: 设计
-tag:
-  - UI
+category: Title
+star: 9
+sticky: 9
 ---
 
-## 文章列表
+Replace this text by summary of index
 
-- [格式塔原则](gestalt-principle.md)
+::: tip Intro
 
-- [布局中的左和右](left-or-right.md)
+Replace this text by [ADempiere ERP](http://adempiere.net/) tip
 
-- [信息流介绍](infomation-flow.md)
+:::
+
+## Replace this by new section
+Replace this by section summary text.
+
+- [Replace by functionality Name](replace-by-folder-name)
+- [Replace by other functionality Name](replace-by-oter-folder-name)
+
+## Replace this by new section
+Replace this by section summary text.
+
+- [Replace by functionality Name](replace-by-folder-name)
+- [Replace by other functionality Name](replace-by-oter-folder-name)
