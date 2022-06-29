@@ -11,8 +11,8 @@ The collection includes a number of books covering the main topics of:
 * Functional Guide (**Generated automatically from ADempiere**)
 
 # More References
-- The official page is in: http://adempiere.net
-- The official Wiki is in: http://docs.adempiere.net
+- The official page is in: http://adempiere.io
+- The official Wiki is in: http://docs.adempiere.io
 - If you need report a bug see: https://github.com/adempiere/adempiere-site/issues
 
 ![Discord](https://img.shields.io/discord/876231677209374750)
