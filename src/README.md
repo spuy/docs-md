@@ -6,7 +6,7 @@ title: Home
 heroImage: /logo.svg
 heroText: ADempiere ERP
 bgImage: /background.jpg
-heroFullScreen: false
+heroFullScreen: true
 tagline: Created by people like you
 projects:
   - name: Release 3.9.4
