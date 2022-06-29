@@ -1,5 +1,5 @@
 ---
-title: ADempiere History
+title: Some History
 icon: note
 category: History
 star: 9
