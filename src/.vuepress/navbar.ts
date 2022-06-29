@@ -39,7 +39,7 @@ export const enNavbarConfig = navbar([
       { text: "Community", icon: "code", link: "", activeMatch: "^/community/$" },
       {
         text: "Community",
-        children: ["code-of-conduct/", "join/", "duties-and-rigths/"],
+        children: ["code-of-conduct", "duties-and-rigths"],
       }
     ],
   },
@@ -121,7 +121,7 @@ export const enNavbarConfig = navbar([
       { text: "Foundation", icon: "software", link: "", activeMatch: "^/foundation/$" },
       {
         text: "How To",
-        children: ["how-to-contribute/", "membership/", "board/", "statutes/", "sponsors/"]
+        children: ["how-to-contribute", "membership", "board", "statutes", "sponsors"]
       }
     ],
   }
