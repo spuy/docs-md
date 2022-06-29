@@ -4,7 +4,7 @@ import { enNavbarConfig, esNavbarConfig } from "./navbar";
 import { esSidebarConfig, enSidebarConig } from "./sidebar";
 
 export default hopeTheme({
-  hostname: "https://adempiere-site.erpya.com",
+  hostname: "https://github.com/adempiere/adempiere-site.github.io",
 
   author: {
     name: "ADempiere",
