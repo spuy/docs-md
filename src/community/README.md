@@ -1,5 +1,5 @@
 ---
-title: Community
+title: Who Are We?
 icon: note
 category: Community
 star: 9
