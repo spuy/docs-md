@@ -1,5 +1,5 @@
 ---
-title: Foundation
+title: About the Association
 icon: software
 category: Foundation
 star: 9
