@@ -10,7 +10,7 @@ heroFullScreen: false
 tagline: Creado por personas como tú
 projects:
   - name: Liberación 3.9.4
-    desc: Éste es una gran noticia para la Comunidad de ADempiere
+    desc: Ésta es una gran noticia para la Comunidad de ADempiere
     link: https://github.com/adempiere/adempiere/releases/tag/3.9.4
     icon: /assets/icon/logo.png
   - name: Nueva Interfaz de Usuario para ADempiere
