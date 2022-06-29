@@ -1,30 +1,18 @@
 ---
-title: Documentation
+title: Community
 icon: note
-category: Documentation
+category: Community
 star: 9
 sticky: 9
 ---
 
-Most of the companies acquired different software to cover the different needs of their organizations, but later they realize how complicated it is to share and unify the information that each module and organization obtained.
+## Who Are We?
+ 
+The ADempiere community is made up of various categories of people, and we are sure you must fit into at least one of them. There are contributors, developers, testers, writers, users, as well as businesses, authorities, experts, newbies and students. There is also a Council of trustees to be responsible for this community and the project's well-being.
 
-ADempiere, due to its ERP status, offers everything a company needs in a single software, [ADempiere ERP](http://adempiere.net/) wants to offer its readers a wide range of structured documents for users with high and low experience in handling ERP Software, in which each process of this powerful system will be explained efficiently and in detail, defining step by step the management of each one, its accounting, administrative and fiscal implications and finally the issuance of results that will allow optimum control of its operations..
+Each community has its own history and culture. This particular community has its roots within the [Compiere SourceForge project](http://sf.net/projects/compiere) over the last 3 years. We started as users and implementors of this great software project, and began to progress in leaps and bounds in our own capability to master it and even extend it for various end-users.
 
-::: tip Intro
+The community was generally grateful to Compiere's creator, Jorg Janke, and tolerated his business model of charging users for priority support, training and the user manual. Many of us contributed code, bug reports, fixes and recommendations on how this premiere Open Source ERP/CRM solution could continue to expand. And though Jorg Janke hardly responded to the forums' messages (even those that were directly aimed at him) the Compiere community enjoyed ample support and encouragement from other community seniors on a voluntary and vigilant basis.
 
-Note that all [ADempiere ERP](http://adempiere.net/) ecosystem was created to be used on any organization with minimal changes. This documentation was created for end used, tech and implementor
-
-:::
-
-## Getting Started
+Trouble set in soon after ComPiere Inc, USA, the commercial entity behind this project, purportedly obtained some USD6 million funding from an "angel" investor who soon joined its Board of Directors. Many among the paying partners of Compiere began to question new policy directions, this led to the Forking Debate, and eventually sparked off the Adempiere community. The name "Adempiere" is an Italian word related to "Compiere" (which means "to deliver or fulfill"), but also semantically reflects the core ideal of this community: "to fulfill towards completion, with respect and honour".
 Learn how to improve the current documentation and make it better for you and everybody!.
-
-- [Basic Steps](basic-steps)
-
-- [How to Contribute](how-to-contribute)
-
-## Dictionary Elements
-An auto-generated guide from the ADempiere dictionary with all the documentation found within the dictionary.
-
-- [Menu](auto-generated/menu)
-- [Forms](auto-generated/forms)
