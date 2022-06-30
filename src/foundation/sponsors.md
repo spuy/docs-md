@@ -49,7 +49,7 @@ The following companies are currently sponsoring ADempiere.
       <td align="center" valign="middle">
         <a href="http://www.ofbconsulting.com/">
           <img
-            src="http://www.ofbconsulting.com/images/logo_principal.png?crc=125178761"
+            src="https://user-images.githubusercontent.com/2333092/176774746-c29105f5-43bc-42d2-9fd5-bc407efc6ad6.png"
             alt="OFB Consulting"
             width="1000"
           >
@@ -66,7 +66,7 @@ The following companies are currently sponsoring ADempiere.
       <td align="center" valign="middle">
         <a href="http://www.openupsolutions.com/">
           <img
-            src="http://www.adempiere.net/documents/10184/85500/Openup+solutions+2017+320x200.jpg/266c1a8c-be41-4ca4-be3c-0c14e4127cce?t=1580417323903"
+            src="https://user-images.githubusercontent.com/2333092/176774741-74660872-d1bc-466d-8e4f-8febfb32246a.jpg"
             alt="Openup Solutions"
             width="1000"
           >
@@ -83,7 +83,7 @@ The following companies are currently sponsoring ADempiere.
       <td align="center" valign="middle">
         <a href="http://westfalia-it.com/">
           <img
-            src="http://www.adempiere.net/documents/10184/85500/Systemhaus+Westfalia.jpg/6018f1b9-33ac-48cb-b6ba-8e1f12045e11?t=1580508026819"
+            src="https://user-images.githubusercontent.com/2333092/176774738-1324d679-ef5d-4bba-a95f-bed948235910.jpg"
             alt="Systemhaus Westfalia"
             width="1000"
           >
@@ -124,7 +124,7 @@ The following companies are currently sponsoring ADempiere.
       <td align="center" valign="middle">
         <a href="https://www.catura.de/">
           <img
-            src="http://www.adempiere.net/documents/10184/85500/Catura_logo_300.png/d341983f-1892-43be-ae40-de43ae6cae88?t=1581425938105"
+            src="https://user-images.githubusercontent.com/2333092/176774729-f1f4e863-5468-4db0-be1f-842c7b539248.png"
             alt="Catura AG"
             width="400"
           >
@@ -141,7 +141,7 @@ The following companies are currently sponsoring ADempiere.
       <td align="center" valign="middle">
         <a href="http://www.efact.cl/">
           <img
-            src="http://www.adempiere.net/documents/10184/85500/efact_log.jpg/88868b02-6931-4ff7-80c3-c7553d4e05d1?t=1584030433952"
+            src="https://user-images.githubusercontent.com/2333092/176774720-670be9e7-8181-4870-be6c-4fbce9b31e33.jpg"
             alt="EFact"
             width="400"
           >
