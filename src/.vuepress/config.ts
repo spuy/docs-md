@@ -28,11 +28,11 @@ export default defineUserConfig({
       title: "ADempiere Official Page",
       description: "A official page of ADempiere community.",
     },
-    '/es/': {
-      title: 'Página Oficial de ADempiere',
-      lang: 'es-ES',
-      description: 'Página oficial de la comunidad de ADempiere'
-    }
+    "/es/": {
+      title: "Página Oficial de ADempiere",
+      lang: "es-ES",
+      description: "Página oficial de la comunidad de ADempiere",
+    },
   },
 
   theme,
@@ -78,7 +78,8 @@ export default defineUserConfig({
               noResultsScreen: {
                 noResultsText: "No result found",
                 suggestedQueryText: "You can try query",
-                reportMissingResultsText: "Do you think this query should have results？",
+                reportMissingResultsText:
+                  "Do you think this query should have results？",
                 reportMissingResultsLinkText: "Click for Feedback",
               },
             },
@@ -119,7 +120,8 @@ export default defineUserConfig({
               noResultsScreen: {
                 noResultsText: "No se encontraron resultados",
                 suggestedQueryText: "Intente nuevamente",
-                reportMissingResultsText: "Cree que la búsqueda debería devolver resultados?",
+                reportMissingResultsText:
+                  "Cree que la búsqueda debería devolver resultados?",
                 reportMissingResultsLinkText: "Haga Click para Responder",
               },
             },

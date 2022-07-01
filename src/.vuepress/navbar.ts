@@ -28,7 +28,7 @@ export const enNavbarConfig = navbar([
       {
         text: "Technology",
         children: ["technology/", "business-process/", "features/", "demo/"],
-      }
+      },
     ],
   },
   {
@@ -36,11 +36,16 @@ export const enNavbarConfig = navbar([
     icon: "group",
     prefix: "/community/",
     children: [
-      { text: "Community", icon: "group", link: "", activeMatch: "^/community/$" },
+      {
+        text: "Community",
+        icon: "group",
+        link: "",
+        activeMatch: "^/community/$",
+      },
       {
         text: "Community",
         children: ["code-of-conduct", "duties-and-rigths"],
-      }
+      },
     ],
   },
   {
@@ -66,23 +71,43 @@ export const enNavbarConfig = navbar([
       { text: "Docs", link: "", icon: "note", activeMatch: "^/docs/$" },
       {
         text: "Intro",
-        children: ["intro/basic-steps/", "intro/how-to-contribute/", "intro/auto-generated/"],
+        children: [
+          "intro/basic-steps/",
+          "intro/how-to-contribute/",
+          "intro/auto-generated/",
+        ],
       },
       {
         text: "ERP Standard Process",
-        children: ["standard-procedures/requisition-to-invoice/", "standard-procedures/quote-to-invoice/", "standard-procedures/open-items/", "standard-procedures/scm/", "standard-procedures/performance-analysis/"],
+        children: [
+          "standard-procedures/requisition-to-invoice/",
+          "standard-procedures/quote-to-invoice/",
+          "standard-procedures/open-items/",
+          "standard-procedures/scm/",
+          "standard-procedures/performance-analysis/",
+        ],
       },
       {
         text: "Material Management",
-        children: ["material-management/product/", "material-management/warehouse/"],
+        children: [
+          "material-management/product/",
+          "material-management/warehouse/",
+        ],
       },
       {
         text: "Manufacturing",
-        children: ["manufacturing/manufacturing/", "manufacturing/production-light/"],
+        children: [
+          "manufacturing/manufacturing/",
+          "manufacturing/production-light/",
+        ],
       },
       {
         text: "Human Resource and Payroll",
-        children: ["human-resource/human-resource/", "human-resource/payroll/", "human-resource/time-and-attendance/"],
+        children: [
+          "human-resource/human-resource/",
+          "human-resource/payroll/",
+          "human-resource/time-and-attendance/",
+        ],
       },
       {
         text: "Retail",
@@ -90,15 +115,23 @@ export const enNavbarConfig = navbar([
       },
       {
         text: "Verticals",
-        children: ["verticals/investment-and-loan/", "verticals/farmer-assistance-program/"],
+        children: [
+          "verticals/investment-and-loan/",
+          "verticals/farmer-assistance-program/",
+        ],
       },
       {
         text: "Locations",
-        children: ["locations/lve/", "locations/lmx/", "locations/lsv/", "locations/luy/"],
+        children: [
+          "locations/lve/",
+          "locations/lmx/",
+          "locations/lsv/",
+          "locations/luy/",
+        ],
       },
       "videos",
       "articles",
-      "links"
+      "links",
     ],
   },
   {
@@ -106,11 +139,16 @@ export const enNavbarConfig = navbar([
     icon: "software",
     prefix: "/downloads/",
     children: [
-      { text: "Downloads", icon: "software", link: "", activeMatch: "^/downloads/$" },
+      {
+        text: "Downloads",
+        icon: "software",
+        link: "",
+        activeMatch: "^/downloads/$",
+      },
       {
         text: "Binary Files",
-        children: ["docker", "helm", "operator", "binary"]
-      }
+        children: ["docker", "helm", "operator", "binary"],
+      },
     ],
   },
   {
@@ -118,13 +156,24 @@ export const enNavbarConfig = navbar([
     icon: "software",
     prefix: "/foundation/",
     children: [
-      { text: "Foundation", icon: "software", link: "", activeMatch: "^/foundation/$" },
+      {
+        text: "Foundation",
+        icon: "software",
+        link: "",
+        activeMatch: "^/foundation/$",
+      },
       {
         text: "How To",
-        children: ["how-to-contribute", "membership", "board", "statutes", "sponsors"]
-      }
+        children: [
+          "how-to-contribute",
+          "membership",
+          "board",
+          "statutes",
+          "sponsors",
+        ],
+      },
     ],
-  }
+  },
 ]);
 
 export const zhNavbarConfig = navbar([

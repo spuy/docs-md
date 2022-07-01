@@ -21,7 +21,6 @@ projects:
     desc: Estamos en Discord!
     link: https://discord.gg/G8nWdaB2
     icon: /assets/img/discord-logo.png
-  
 
 footer: '<a href="https://github.com/adempiere" rel="noopener noreferrer" target="_blank">Comunidad ADempiere</a> | <a href="/about/site">Acerca De</a>'
 ---

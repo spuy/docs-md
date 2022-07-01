@@ -10,6 +10,7 @@ tag:
 ---
 
 ## Jorg Janke - The Master Mind
+
 By the late 1980's, the German multinational enterprise software company SAP was looking for ways to migrate its ERP R/2 product to a client-server architecture, but in addition it wanted to build a multidimensional ERP, which meant deploying a multi-company, multi-language and multi-currency enterprise software among other things. In order to achieve this, they hired external advice from a German company called ADV/Orga, where Jorg Janke worked as software architect.
 
 Jorg's recommendation was to rewrite R/2 which would have put in place the required multidimensional features and as such conquered the world of ERP solutions. However SAP's decision at the end involved adding more layers to the core ERP programming structures, which in turn created inefficiencies and complexities that even today subsist on most SAP implementations and other ERP software as well.

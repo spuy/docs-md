@@ -11,6 +11,7 @@ tag:
 ---
 
 # ADempiere World Conference in Berlin
+
 **September 2nd till 4th of 2014**
 
 In May 2007 the 1st European ADempiere conference in Berlin – organized by the German ADempiere association – brought together developers from all over the world.

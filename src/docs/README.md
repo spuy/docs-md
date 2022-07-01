@@ -16,6 +16,7 @@ Note that all [ADempiere ERP](http://adempiere.net/) ecosystem was created to be
 :::
 
 ## Getting Started
+
 Learn how to improve the current documentation and make it better for you and everybody!.
 
 - [Basic Steps](basic-steps)
@@ -23,6 +24,7 @@ Learn how to improve the current documentation and make it better for you and ev
 - [How to Contribute](how-to-contribute)
 
 ## Dictionary Elements
+
 An auto-generated guide from the ADempiere dictionary with all the documentation found within the dictionary.
 
 - [Menu](auto-generated/menu)

@@ -9,7 +9,7 @@ tag:
 ---
 
 ## Who Are We?
- 
+
 The ADempiere community is made up of various categories of people, and we are sure you must fit into at least one of them. There are contributors, developers, testers, writers, users, as well as businesses, authorities, experts, newbies and students. There is also a Council of trustees to be responsible for this community and the project's well-being.
 
 Each community has its own history and culture. This particular community has its roots within the [Compiere SourceForge project](http://sf.net/projects/compiere) over the last 3 years. We started as users and implementors of this great software project, and began to progress in leaps and bounds in our own capability to master it and even extend it for various end-users.

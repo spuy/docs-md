@@ -8,9 +8,10 @@ A community page [VuePress](https://v2.vuepress.vuejs.org/) and [VuePress Theme 
 
 The collection includes a number of books covering the main topics of:
 
-* Functional Guide (**Generated automatically from ADempiere**)
+- Functional Guide (**Generated automatically from ADempiere**)
 
 # More References
+
 - The official page is in: http://adempiere.io
 - The official Wiki is in: http://docs.adempiere.io
 - If you need report a bug see: https://github.com/adempiere/adempiere-site/issues

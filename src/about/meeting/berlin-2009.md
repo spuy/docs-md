@@ -11,6 +11,7 @@ tag:
 ---
 
 ## 2nd. European ADempiere conference in Berlin
+
 **June 21st – 23rd 2009**
 
 For the first time in May 2007, developers from all over the world, involved in the open-source project ADempiere, met up for the first European ADempiere conference at the FHTW in Berlin.

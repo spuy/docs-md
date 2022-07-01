@@ -19,6 +19,7 @@ All community of [ADempiere ERP](http://adempiere.net/) is over [Gihub](http://g
 :::
 
 ## Github Releases
+
 All releases of [ADempiere ERP](http://adempiere.net/) are [here](https://github.com/adempiere/adempiere/releases/latest)
 
 <Releases/>

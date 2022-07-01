@@ -6,6 +6,7 @@ sticky: 9
 ---
 
 ## Platinum Sponsors
+
 The following companies are currently sponsoring ADempiere.
 
 <table>
@@ -157,8 +158,9 @@ The following companies are currently sponsoring ADempiere.
 </table>
 
 ## Become a Sponsor
-Companies that wish to sponsor the ADempiere community and the activities of the Foundation can purchase a sponsorship subscription. There are three levels: platinum, gold and silver with monthly subscription amounts of **$200**, **$100** and **$50** USD respectively.  The Subscriptions can also be purchased with a single yearly amount of **$2000**, **$1000** and **$500** **USD** respectively.  All funds provided will be controlled by the ADempiere Foundation and used to support the community.  
+
+Companies that wish to sponsor the ADempiere community and the activities of the Foundation can purchase a sponsorship subscription. There are three levels: platinum, gold and silver with monthly subscription amounts of **$200**, **$100** and **$50** USD respectively. The Subscriptions can also be purchased with a single yearly amount of **$2000**, **$1000** and **$500** **USD** respectively. All funds provided will be controlled by the ADempiere Foundation and used to support the community.
 
 Platinum sponsors are listed first on the page with a larger logo and can have a short descritpion included with the listing.
 
-Subscriptions can be purchsed through Paypal by selecting one of the options and clicking the "Subscribe" button below.  You will need a Paypal account or you can create one during the process.  If you need to cancel the subscription, you can do so through your Paypal account or by clicking the Unsubscribe button below.  After you submit your subscription, we will contact you to gather your company info.
+Subscriptions can be purchsed through Paypal by selecting one of the options and clicking the "Subscribe" button below. You will need a Paypal account or you can create one during the process. If you need to cancel the subscription, you can do so through your Paypal account or by clicking the Unsubscribe button below. After you submit your subscription, we will contact you to gather your company info.
