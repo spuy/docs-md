@@ -1,6 +1,5 @@
 ---
 title: Statutes
-icon: note
 category: Foundation
 star: 9
 sticky: 9

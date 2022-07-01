@@ -1,6 +1,5 @@
 ---
 title: The Beginning
-icon: note
 category: History
 star: 9
 sticky: 9

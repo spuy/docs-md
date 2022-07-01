@@ -1,6 +1,5 @@
 ---
 title: Title
-icon: note
 category: Title
 star: 9
 sticky: 9

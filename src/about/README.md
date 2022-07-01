@@ -1,6 +1,5 @@
 ---
 title: Some History
-icon: note
 category: History
 star: 9
 sticky: 9

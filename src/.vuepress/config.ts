@@ -1,8 +1,12 @@
 import { defineUserConfig } from "@vuepress/cli";
 import docsearchPlugin from "@vuepress/plugin-docsearch";
 import theme from "./theme";
+import { path } from "@vuepress/utils";
 
 export default defineUserConfig({
+  alias: {
+    "@MyComponent": path.resolve(__dirname, "components/MyComponent.vue"),
+  },
   dest: "dist",
 
   head: [

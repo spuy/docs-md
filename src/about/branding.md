@@ -1,6 +1,5 @@
 ---
 title: The Brand
-icon: note
 category: Branding
 star: 9
 sticky: 9

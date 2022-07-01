@@ -12,22 +12,21 @@ tag:
   - gz
 ---
 
-Replace this text by summary of index
+::: tip We are on Github
 
-::: tip Intro
-
-Replace this text by [ADempiere ERP](http://adempiere.net/) tip
+All community of [ADempiere ERP](http://adempiere.net/) is over [Gihub](http://github.com/adempiere). We have many projects for you with daily contributions.
 
 :::
 
-## Replace this by new section
-Replace this by section summary text.
+## Github Releases
+All releases of [ADempiere ERP](http://adempiere.net/) are [here](https://github.com/adempiere/adempiere/releases/latest)
 
-- [Replace by functionality Name](replace-by-folder-name)
-- [Replace by other functionality Name](replace-by-oter-folder-name)
+<MyComponent/>
 
-## Replace this by new section
-Replace this by section summary text.
-
-- [Replace by functionality Name](replace-by-folder-name)
-- [Replace by other functionality Name](replace-by-oter-folder-name)
+### [ADempiere 3.9.3](https://github.com/adempiere/adempiere/releases/tag/3.9.3)
+  - [Adempiere_393LTS.tar.gz](https://github.com/adempiere/adempiere/releases/download/3.9.3/Adempiere_393LTS.tar.gz)
+  - [Adempiere_393LTS.tar.gz.MD5](https://github.com/adempiere/adempiere/releases/download/3.9.3/Adempiere_393LTS.tar.gz.MD5)
+  - [Adempiere_393LTS.zip](https://github.com/adempiere/adempiere/releases/download/3.9.3/Adempiere_393LTS.zip)
+  - [Adempiere_393LTS.zip.MD5](https://github.com/adempiere/adempiere/releases/download/3.9.3/Adempiere_393LTS.zip.MD5)
+  - [Source code (zip)](https://github.com/adempiere/adempiere/archive/refs/tags/3.9.3.zip)
+  - [Source code (tar.gz)](https://github.com/adempiere/adempiere/archive/refs/tags/3.9.3.tar.gz)

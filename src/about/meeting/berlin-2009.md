@@ -1,6 +1,6 @@
 ---
 title: Berlin Conference 2009
-icon: note
+icon: date
 category: Foundation
 star: 9
 sticky: 9

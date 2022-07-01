@@ -1,7 +1,7 @@
 import { hopeTheme } from "vuepress-theme-hope";
 
 import { enNavbarConfig, esNavbarConfig } from "./navbar";
-import { esSidebarConfig, enSidebarConig } from "./sidebar";
+// import { esSidebarConfig, enSidebarConig } from "./sidebar";
 
 export default hopeTheme({
   hostname: "https://github.com/adempiere/adempiere-site.github.io",

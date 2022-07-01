@@ -1,6 +1,5 @@
 ---
 title: Members
-icon: note
 category: Foundation
 star: 9
 sticky: 9

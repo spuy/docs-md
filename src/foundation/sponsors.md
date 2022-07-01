@@ -1,6 +1,5 @@
 ---
 title: Sponsors
-icon: note
 category: Sponsors
 star: 9
 sticky: 9

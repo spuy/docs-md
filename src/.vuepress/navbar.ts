@@ -4,7 +4,7 @@ export const enNavbarConfig = navbar([
   "/",
   {
     text: "About",
-    icon: "code",
+    icon: "profile",
     prefix: "/about/",
     children: [
       { text: "About", icon: "software", link: "", activeMatch: "^/about/$" },
@@ -21,10 +21,10 @@ export const enNavbarConfig = navbar([
   },
   {
     text: "Product",
-    icon: "code",
+    icon: "engine",
     prefix: "/product/",
     children: [
-      { text: "Product", icon: "code", link: "", activeMatch: "^/product/$" },
+      { text: "Product", icon: "engine", link: "", activeMatch: "^/product/$" },
       {
         text: "Technology",
         children: ["technology/", "business-process/", "features/", "demo/"],
@@ -33,10 +33,10 @@ export const enNavbarConfig = navbar([
   },
   {
     text: "Community",
-    icon: "code",
+    icon: "group",
     prefix: "/community/",
     children: [
-      { text: "Community", icon: "code", link: "", activeMatch: "^/community/$" },
+      { text: "Community", icon: "group", link: "", activeMatch: "^/community/$" },
       {
         text: "Community",
         children: ["code-of-conduct", "duties-and-rigths"],
@@ -60,7 +60,7 @@ export const enNavbarConfig = navbar([
   },
   {
     text: "Documentation",
-    icon: "note",
+    icon: "creative",
     prefix: "/docs/",
     children: [
       { text: "Docs", link: "", icon: "note", activeMatch: "^/docs/$" },
@@ -96,9 +96,9 @@ export const enNavbarConfig = navbar([
         text: "Locations",
         children: ["locations/lve/", "locations/lmx/", "locations/lsv/", "locations/luy/"],
       },
-      "videos/",
-      "articles/",
-      "links/"
+      "videos",
+      "articles",
+      "links"
     ],
   },
   {

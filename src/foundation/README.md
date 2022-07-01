@@ -1,6 +1,6 @@
 ---
 title: About the Association
-icon: software
+icon: interact
 category: Foundation
 star: 9
 sticky: 9

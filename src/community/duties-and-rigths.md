@@ -1,6 +1,5 @@
 ---
 title: Basic Rules
-icon: note
 category: Community
 star: 9
 sticky: 9

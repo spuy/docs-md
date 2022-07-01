@@ -1,6 +1,5 @@
 ---
 title: Documentation
-icon: note
 category: Documentation
 star: 9
 sticky: 9
