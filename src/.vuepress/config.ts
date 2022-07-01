@@ -5,7 +5,7 @@ import { path } from "@vuepress/utils";
 
 export default defineUserConfig({
   alias: {
-    "@MyComponent": path.resolve(__dirname, "components/MyComponent.vue"),
+    "@Releases": path.resolve(__dirname, "components/Releases.vue"),
   },
   dest: "dist",
 

@@ -1,9 +1,9 @@
 // .vuepress/client.ts
 import { defineClientConfig } from "@vuepress/client";
-import MyComponent from "./components/MyComponent.vue";
+import Releases from "./components/Releases.vue";
 
 export default defineClientConfig({
   enhance: ({ app, router, siteData }) => {
-    app.component("MyComponent", MyComponent);
+    app.component("Releases", Releases);
   },
 });
