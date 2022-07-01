@@ -33,19 +33,7 @@ export default {
   },
   data() {
     return {
-      releasesList: [
-        {
-          name: "ADempiere 3.9.3",
-          html_url: "https://github.com/adempiere/adempiere/releases/tag/3.9.3",
-          assets: [
-            {
-              name: "Adempiere_393LTS.tar.gz",
-              browser_download_url:
-                "https://github.com/adempiere/adempiere/releases/download/3.9.3/Adempiere_393LTS.tar.gz",
-            },
-          ],
-        },
-      ],
+      releasesList:[]
     };
   },
 };
