@@ -109,7 +109,7 @@ export const enNavbarConfig = navbar([
       { text: "Downloads", icon: "software", link: "", activeMatch: "^/downloads/$" },
       {
         text: "Binary Files",
-        children: ["docker/", "helm/", "operator/", "binary/", "github/"]
+        children: ["docker", "helm", "operator", "binary"]
       }
     ],
   },

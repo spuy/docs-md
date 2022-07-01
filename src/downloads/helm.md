@@ -1,9 +1,11 @@
 ---
-title: Title
-icon: note
-category: Title
+title: Helm
+icon: download
+category: Download
 star: 9
 sticky: 9
+tag:
+  - Helm
 ---
 
 Replace this text by summary of index

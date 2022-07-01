@@ -1,9 +1,15 @@
 ---
-title: Title
-icon: note
-category: Title
+title: Binary Download
+icon: github
+category: Download
 star: 9
 sticky: 9
+tag:
+  - Github
+  - Release
+  - Assets
+  - tar
+  - gz
 ---
 
 Replace this text by summary of index
