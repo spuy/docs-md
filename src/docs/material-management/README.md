@@ -4,6 +4,7 @@ icon: note
 category: Title
 star: 9
 sticky: 9
+article: false
 ---
 
 Replace this text by summary of index

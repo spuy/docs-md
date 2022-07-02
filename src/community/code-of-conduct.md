@@ -5,6 +5,7 @@ star: 9
 sticky: 9
 tag:
   - Code of Conduct
+article: false
 ---
 
 ## Code of Conduct

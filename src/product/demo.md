@@ -6,6 +6,7 @@ sticky: 9
 tag:
   - Demo
   - Product
+article: false
 ---
 
 You can know many adempiere demo of many implementors around of world

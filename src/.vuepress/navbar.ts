@@ -64,21 +64,6 @@ export const enNavbarConfig = navbar([
     ],
   },
   {
-    text: "Support",
-    icon: "software",
-    prefix: "/support/",
-    children: [
-      {
-        text: "Support",
-        icon: "software",
-        link: "",
-        activeMatch: "^/support/$",
-      },
-      "community-ask/",
-      "professional-services/",
-    ],
-  },
-  {
     text: "Documentation",
     icon: "creative",
     prefix: "/docs/",

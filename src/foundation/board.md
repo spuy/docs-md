@@ -5,6 +5,7 @@ star: 9
 sticky: 9
 tag:
   - Board
+article: false
 ---
 
 ## Board Members 2016

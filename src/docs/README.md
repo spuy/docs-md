@@ -3,6 +3,7 @@ title: Documentation
 category: Documentation
 star: 9
 sticky: 9
+article: false
 ---
 
 Most of the companies acquired different software to cover the different needs of their organizations, but later they realize how complicated it is to share and unify the information that each module and organization obtained.

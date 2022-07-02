@@ -5,6 +5,7 @@ star: 9
 sticky: 9
 tag:
   - Duties and Rigths
+article: false
 ---
 
 ## Basic Rules of the Community

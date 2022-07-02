@@ -6,6 +6,7 @@ star: 9
 sticky: 9
 tag:
   - Foundation
+article: false
 ---
 
 ## About the Association

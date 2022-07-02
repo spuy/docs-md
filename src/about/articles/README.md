@@ -8,6 +8,7 @@ tag:
   - blog
   - Articles
   - Post
+article: false
 ---
 
 A complete blog with some articles created by ADempiere contributors

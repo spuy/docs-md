@@ -7,6 +7,7 @@ tag:
   - Logo
   - Branding
   - Brand Usage Rules
+article: false
 ---
 
 ## ADempiere Brand

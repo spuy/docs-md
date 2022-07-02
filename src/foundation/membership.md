@@ -5,6 +5,7 @@ star: 9
 sticky: 9
 tag:
   - Members
+article: false
 ---
 
 As a non-for-profit association, the ADempiere Foundation is controlled by its members. Members can take part in assemblies of the Foundation, vote on Foundation business, select the Board of Directors and server on the Board.

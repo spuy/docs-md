@@ -47,6 +47,8 @@ export default hopeTheme({
         medias: {
           Gmail: "mailto:info@adempiere.io",
           GitHub: "https://github.com/adempiere/adempiere-site",
+          Discord: "https://discord.gg/8eFAqkhb",
+          Twitter: "https://twitter.com/ADempiereERP",
         },
       },
     },

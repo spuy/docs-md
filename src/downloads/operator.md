@@ -6,6 +6,7 @@ star: 9
 sticky: 9
 tag:
   - Operator
+article: false
 ---
 
 Replace this text by summary of index

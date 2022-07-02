@@ -7,6 +7,7 @@ tag:
   - Product
   - ADempiere
   - Software
+article: false
 ---
 
 ![Benefits](/assets/img/product/benefits.jpg)

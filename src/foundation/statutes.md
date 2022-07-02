@@ -5,6 +5,7 @@ star: 9
 sticky: 9
 tag:
   - Statutes
+article: false
 ---
 
 ## Charter of ADempiere e.V.

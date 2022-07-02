@@ -6,6 +6,7 @@ sticky: 9
 tag:
   - History
   - Compiere
+article: false
 ---
 
 ::: tip ADempiere License

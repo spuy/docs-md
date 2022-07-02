@@ -7,6 +7,7 @@ tag:
   - Jorg Janke
   - Compiere
   - SAP
+article: false
 ---
 
 ## Jorg Janke - The Master Mind

@@ -7,6 +7,7 @@ tag:
   - Product
   - ADempiere
   - Software
+article: false
 ---
 
 ![Business Process](/assets/img/product/business-process.jpg)

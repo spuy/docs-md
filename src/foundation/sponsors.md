@@ -3,6 +3,7 @@ title: Sponsors
 category: Sponsors
 star: 9
 sticky: 9
+article: false
 ---
 
 ## Platinum Sponsors

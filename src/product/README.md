@@ -8,6 +8,7 @@ tag:
   - Purchase
   - Inventory
   - Accounting
+article: false
 ---
 
 ## Business Processes

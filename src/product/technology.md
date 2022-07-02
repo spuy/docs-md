@@ -5,6 +5,7 @@ star: 9
 sticky: 9
 tag:
   - Software
+article: false
 ---
 
 ![Technology](/assets/img/product/technology.jpg)
