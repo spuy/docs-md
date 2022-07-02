@@ -17,6 +17,15 @@ export const enNavbarConfig = navbar([
         prefix: "meeting/",
         children: ["berlin-2009", "berlin-2014"],
       },
+      {
+        text: "Articles",
+        prefix: "articles/",
+        children: [
+          "2015-06-22-the-future-of-adempiere-as-a-ddd-reactive-system",
+          "2015-08-06-world-announcement-for-adempiere",
+        ],
+      },
+      "articles/",
     ],
   },
   {
@@ -27,7 +36,13 @@ export const enNavbarConfig = navbar([
       { text: "Product", icon: "engine", link: "", activeMatch: "^/product/$" },
       {
         text: "Technology",
-        children: ["technology/", "business-process/", "features/", "demo/"],
+        children: [
+          "technology",
+          "business-process",
+          "benefits",
+          "source-code",
+          "demo",
+        ],
       },
     ],
   },
@@ -69,6 +84,8 @@ export const enNavbarConfig = navbar([
     prefix: "/docs/",
     children: [
       { text: "Docs", link: "", icon: "note", activeMatch: "^/docs/$" },
+      "videos",
+      "links",
       {
         text: "Intro",
         children: [
@@ -129,9 +146,6 @@ export const enNavbarConfig = navbar([
           "locations/luy/",
         ],
       },
-      "videos",
-      "articles",
-      "links",
     ],
   },
   {
