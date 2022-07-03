@@ -9,6 +9,7 @@ tag:
   - Blog
 
 author: Victor Pérez
+date: 2015-08-06
 ---
 
 We are pleased to announce the launch of a new and improved content portal for ADempiere thus reaching another milestone following the release of version 380, which confirms the traction and commitment from our community and all those behind this great Bazaar project.
