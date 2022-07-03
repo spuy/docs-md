@@ -11,6 +11,7 @@ tag:
   - Reactive System
 
 author: Victor Pérez
+date: 2015-06-22
 ---
 
 Before I start talking about modularity, I’d like to describe the path to define the most suitable architecture for a software like ADempiere.
