@@ -8,6 +8,7 @@ tag:
   - Conference
   - Berlin
   - Europe
+date: 2009-06-21
 ---
 
 ## 2nd. European ADempiere conference in Berlin
