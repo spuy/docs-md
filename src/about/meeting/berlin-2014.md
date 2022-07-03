@@ -8,6 +8,7 @@ tag:
   - Conference
   - Berlin
   - Europe
+date: 2014-09-04
 ---
 
 # ADempiere World Conference in Berlin
