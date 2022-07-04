@@ -69,68 +69,66 @@ export const enNavbarConfig = navbar([
     prefix: "/docs/",
     children: [
       { text: "Docs", link: "", icon: "note", activeMatch: "^/docs/$" },
-      "videos",
-      "links",
-      {
-        text: "Intro",
-        children: [
-          "intro/basic-steps/",
-          "intro/how-to-contribute/",
-          "intro/auto-generated/",
-        ],
-      },
-      {
-        text: "ERP Standard Process",
-        children: [
-          "standard-procedures/requisition-to-invoice/",
-          "standard-procedures/quote-to-invoice/",
-          "standard-procedures/open-items/",
-          "standard-procedures/scm/",
-          "standard-procedures/performance-analysis/",
-        ],
-      },
+      // {
+      //   text: "Intro",
+      //   children: [
+      //     "intro/basic-steps/",
+      //     "intro/how-to-contribute/",
+      //     "intro/auto-generated/",
+      //   ],
+      // },
+      // {
+      //   text: "ERP Standard Process",
+      //   children: [
+      //     "standard-procedures/requisition-to-invoice/",
+      //     "standard-procedures/quote-to-invoice/",
+      //     "standard-procedures/open-items/",
+      //     "standard-procedures/scm/",
+      //     "standard-procedures/performance-analysis/",
+      //   ],
+      // },
       {
         text: "Material Management",
         children: [
           "material-management/product/",
-          "material-management/warehouse/",
+          // "material-management/warehouse/",
         ],
       },
-      {
-        text: "Manufacturing",
-        children: [
-          "manufacturing/manufacturing/",
-          "manufacturing/production-light/",
-        ],
-      },
-      {
-        text: "Human Resource and Payroll",
-        children: [
-          "human-resource/human-resource/",
-          "human-resource/payroll/",
-          "human-resource/time-and-attendance/",
-        ],
-      },
-      {
-        text: "Retail",
-        children: ["retail/point-of-sales/", "retail/distribution/"],
-      },
-      {
-        text: "Verticals",
-        children: [
-          "verticals/investment-and-loan/",
-          "verticals/farmer-assistance-program/",
-        ],
-      },
-      {
-        text: "Locations",
-        children: [
-          "locations/lve/",
-          "locations/lmx/",
-          "locations/lsv/",
-          "locations/luy/",
-        ],
-      },
+      // {
+      //   text: "Manufacturing",
+      //   children: [
+      //     "manufacturing/manufacturing",
+      //     "manufacturing/production-light",
+      //   ],
+      // },
+      // {
+      //   text: "Human Resource and Payroll",
+      //   children: [
+      //     "human-resource/human-resource/",
+      //     "human-resource/payroll/",
+      //     "human-resource/time-and-attendance/",
+      //   ],
+      // },
+      // {
+      //   text: "Retail",
+      //   children: ["retail/point-of-sales/", "retail/distribution/"],
+      // },
+      // {
+      //   text: "Verticals",
+      //   children: [
+      //     "verticals/investment-and-loan/",
+      //     "verticals/farmer-assistance-program/",
+      //   ],
+      // },
+      // {
+      //   text: "Locations",
+      //   children: [
+      //     "locations/lve/",
+      //     "locations/lmx/",
+      //     "locations/lsv/",
+      //     "locations/luy/",
+      //   ],
+      // },
     ],
   },
   {

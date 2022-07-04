@@ -1,30 +1,16 @@
 ---
-title: Title
-icon: note
-category: Title
+title: Material Management
+category:
+  - Material Management
 star: 9
 sticky: 9
 article: false
+author: Yamel Senih
 ---
 
-Replace this text by summary of index
 
-::: tip Intro
+Master data includes records that give rise to transactions, therefore they are not modifiable on a regular basis, in this sense ADempiere ERP explains how to create your teachers in an ideal way, thus avoiding duplication and inconsistency in the data.
 
-Replace this text by [ADempiere ERP](http://adempiere.net/) tip
+Go to the follow content for learn more about it:
 
-:::
-
-## Replace this by new section
-
-Replace this by section summary text.
-
-- [Replace by functionality Name](replace-by-folder-name)
-- [Replace by other functionality Name](replace-by-oter-folder-name)
-
-## Replace this by new section
-
-Replace this by section summary text.
-
-- [Replace by functionality Name](replace-by-folder-name)
-- [Replace by other functionality Name](replace-by-oter-folder-name)
+[Product Definition](product)
