@@ -98,4 +98,3 @@ by ADempiere.
 Replenish](/assets/img/docs/material-management/product/replenish-save.png)
 
 Image 57. Save Changes Icon
-

@@ -27,7 +27,6 @@ Learn how to improve the current documentation and make it better for you and ev
 
 - [Forms](auto-generated/forms)
 
-
 ## ERP Standard Process
 
 **[Requisition to Invoice](standard-procedures/requisition-to-invoice)**

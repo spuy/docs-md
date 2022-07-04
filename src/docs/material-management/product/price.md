@@ -15,7 +15,7 @@ In this window the price lists used by the
 company, with its different list, limit and standard prices that
 possess the products, in order to be used at the time of
 make a purchase / sale with them. Each of the fields
-with the symbol (*) are required for registration.
+with the symbol (\*) are required for registration.
 
 Select the "**Price**" tab, located on the left side of the
 window "**Product**" and proceed to fill in the fields
