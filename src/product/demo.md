@@ -9,7 +9,7 @@ tag:
 article: false
 ---
 
-You can know many adempiere demo of many implementors around of world
+You can know many adempiere demo of many implementers around of world
 
 ::: tip User and Password for taste it
 
@@ -18,4 +18,4 @@ You can know many adempiere demo of many implementors around of world
 
 :::
 
-If you wand download it just go to [download.](../downloads)
+If you want to download it just go to [download.](../downloads)
