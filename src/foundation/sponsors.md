@@ -93,7 +93,7 @@ The following companies are currently sponsoring ADempiere.
       <td align="center" valign="middle">
         <h3><a href="http://westfalia-it.com/">Systemhaus Westfalia</a></h3><br/>
         <p align="left">
-        ERP Consultores y Asociados is a consulting and software development company in Venezuela with hundreds of implementations of ADempiere in Latin America.  They are the prime developers of the new ADempiere user interface.
+        Offers consultancy and development around ADempiere. It is based in El Salvador, with implementations in several countries and sectors.
         </p>
       </td>
     </tr>
