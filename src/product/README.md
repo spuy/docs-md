@@ -44,7 +44,7 @@ article: false
 ![image](https://user-images.githubusercontent.com/89487449/178350265-de5d763a-86e2-4da1-aad3-22c7d8ebb700.png)
 
 
-### Accounting Processes
+### Accounting Processes.
 
 - Period and year end
 - Financial and management accounting
@@ -63,7 +63,7 @@ article: false
 - Calendars are established for reporting and period access control purposes only.
 - Historical information is maintained for as long as is desired and is able to be reported on using the calendar function.
 
-## Reporting
+## Reporting.
 
 ::: tip
 
