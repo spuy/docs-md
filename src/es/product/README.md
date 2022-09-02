@@ -57,6 +57,7 @@ article: false
 
 ::: propina
 
+
     ADempiere proporciona capacidades integrales de generación de informes.
 
 :::
@@ -121,15 +122,16 @@ Herramientas de terceros como Jasper Reports; un equivalente basado en Java de C
 
 - **El diccionario de datos está 'activo', lo que significa que se usa en tiempo de ejecución y es sensible al contexto. Por ejemplo: 'sabe' que una venta en ventanilla no tiene plazo de pago y no lo muestra. Sin embargo, si cambia el tipo de transacción a un pedido estándar, un término de pago se convierte en una parte obligatoria de la transacción.**
 - **El diccionario de datos activos es ampliable por el usuario y puede incluir reglas e información especificadas por el usuario. La extensibilidad del Active Data Dictionary simplifica las extensiones del usuario a la aplicación, ya que gran parte de lo que de otro modo tendría que ser codificado por programadores puede ser creado por usuarios informados y autorizados (con privilegios de sistema) desde dentro de la aplicación**
+
 ## Compatibilidad
 
 **El soporte de software representa una parte sustancial de los costos de por vida de cualquier sistema complejo. Una arquitectura modular y flexible es esencial para garantizar:**
-
 - Comprensibilidad
 - Modificabilidad
 - Interoperabilidad
 - Reutilización
 - Capacidad de expansión
 - Portabilidad
+
 
 todos los cuales son necesarios para el software que puede soportarse de manera eficiente y rentable. Muchos problemas asociados con el soporte de software pueden atribuirse a deficiencias en la forma en que se diseñó el producto de software original. La falta de atención al diseño de arquitecturas de software modulares durante el desarrollo puede causar problemas y costos de soporte de software excesivos. ADempiere está diseñado para ser lo más flexible posible y adaptarse al cambio. A menos que la arquitectura del sistema permita el cambio, es probable que las modificaciones al software sean difíciles y propensas a fallas. La arquitectura de software de ADempiere aborda cuidadosamente la abstracción, la encapsulación y la ocultación de información para minimizar las dependencias. Al maximizar el uso del diseño orientado a objetos, el software se puede modificar fácilmente. Active Data Dictionary de ADempiere garantiza que el soporte de software se pueda simplificar al garantizar que los cambios se realicen en una ubicación con un impacto constante en toda la aplicación. Además, ADempiere no utiliza conjuntos de herramientas de terceros que puedan dejar de ser compatibles debido a la falta de interés de sus respectivos proveedores. Aparte de la propia base de datos de Oracle, el código fuente de todos los aspectos del sistema está abierto y disponible, lo que garantiza que la comunidad de usuarios siempre podrá brindar soporte para todos los aspectos del sistema.
