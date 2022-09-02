@@ -16,4 +16,3 @@ Vaya al siguiente contenido para obtener más información al respecto:
 
 [Definición de Producto](producto)
 
-
