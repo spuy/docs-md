@@ -57,7 +57,6 @@ article: false
 
 ::: propina
 
-
     ADempiere proporciona capacidades integrales de generación de informes.
 
 :::
