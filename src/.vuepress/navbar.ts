@@ -88,6 +88,13 @@ export const enNavbarConfig = navbar([
       //   ],
       // },
       {
+        text: "Develop Guide",
+        children: [
+          "develop-guide/getting-started/",
+          // "material-management/warehouse/",
+        ],
+      },
+      {
         text: "Material Management",
         children: [
           "material-management/product/",
