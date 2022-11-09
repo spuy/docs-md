@@ -35,6 +35,7 @@ article: false
 - Puede habilitar las funciones de Zoom desde cualquier tipo de lista desplegable.
 - Puede consultar los registros. La consulta reduce el número de registros en una ventana para permitir los criterios de entrada en un estilo mejorado de "consulta por ejemplo" (query by example).
 - Los propios usuarios pueden ajustar el contorno de la ventana y pueden definir pantallas especiales para una situación específica del cliente o cuando así lo requiera.
+
 ## Informes inteligentes
 
 - Los listados de informes a través del visor del sistema se basan en el diccionario de datos, dado que el visor de informes tiene acceso a las definiciones de datos, permite de forma nativa búsquedas detalladas y detalladas.

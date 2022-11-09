@@ -21,7 +21,6 @@ Toda la comunidad de [ADempiere ERP](http://adempiere.net/) se encuentra en [Git
 
 ## Github Lanzamientos
 
-
 Todos los lanzamientos de [ADempiere ERP](http://adempiere.net/) estan [aca](https://github.com/adempiere/adempiere/releases)
 
 <Releases/>

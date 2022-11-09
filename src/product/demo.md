@@ -18,7 +18,6 @@ You can know many adempiere demo of many implementers around of world
 
 :::
 
-
 Click here for [download.](../downloads)
 
 Once you download ADempiere you will be at this initial step which is the login. Use the credential written above and get started!
@@ -33,9 +32,5 @@ Last but not least! This is your main menu screen. It'll let you start and explo
 
 ![image](https://user-images.githubusercontent.com/89487449/179292854-6d4014e2-e607-4694-9380-5b923bc44d9b.png)
 
-
-
-
 =======
 If you want to download it just go to [download.](../downloads)
-

@@ -9,6 +9,7 @@ article: false
 ## Patrocinadores Platino
 
 Las siguientes empresas actualmente patrocinan ADempiere.
+
 <table>
   <tbody>
     <tr>

@@ -9,6 +9,7 @@ tag:
   - SAP
 article: false
 ---
+
 A fines de la década de 1980, la empresa multinacional alemana de software empresarial SAP estaba buscando formas de migrar su producto ERP R/2 a una arquitectura cliente-servidor, pero además quería construir un ERP multidimensional, lo que significaba implementar una multiempresa, software empresarial multilenguaje y multidivisa, entre otras cosas. Para lograrlo, contrataron el asesoramiento externo de una empresa alemana llamada ADV/Orga, donde Jorg Janke trabajaba como arquitecto de software.
 
 La recomendación de Jorg fue reescribir R/2, lo que habría implementado las funciones multidimensionales requeridas y, como tal, conquistado el mundo de las soluciones ERP. Sin embargo, la decisión de SAP al final involucró agregar más capas a las estructuras centrales de programación de ERP, lo que a su vez creó ineficiencias y complejidades que incluso hoy subsisten en la mayoría de las implementaciones de SAP y también en otro software de ERP.

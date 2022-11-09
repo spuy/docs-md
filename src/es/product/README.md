@@ -19,7 +19,7 @@ article: false
 - Grabación de pedidos.
 - Envío de las mercancías o prestación de los servicios.
 - Facturar al cliente.
-![image](https://user-images.githubusercontent.com/89487449/178346738-94e55508-4f6e-4052-9d55-4538278d6d97.png)
+  ![image](https://user-images.githubusercontent.com/89487449/178346738-94e55508-4f6e-4052-9d55-4538278d6d97.png)
 
 ### Procesos de compra
 
@@ -28,7 +28,7 @@ article: false
 - Recepción de bienes y servicios.
 - Recepción de facturas de proveedores.
 - Pago de Proveedores y Cobro de Deudas
-![image](https://user-images.githubusercontent.com/89487449/178349327-7a1b57bf-16f9-40f7-839d-e9123d5ec26f.png)
+  ![image](https://user-images.githubusercontent.com/89487449/178349327-7a1b57bf-16f9-40f7-839d-e9123d5ec26f.png)
 
 ### Procesos de inventario
 
@@ -37,7 +37,7 @@ article: false
 - Múltiples sitios de almacén y localizadores
 - Movimientos de existencias
 - Transporte
-![image](https://user-images.githubusercontent.com/89487449/178350265-de5d763a-86e2-4da1-aad3-22c7d8ebb700.png)
+  ![image](https://user-images.githubusercontent.com/89487449/178350265-de5d763a-86e2-4da1-aad3-22c7d8ebb700.png)
 
 ### Procesos Contables
 
@@ -46,7 +46,7 @@ article: false
 - Planes de cuentas
 - IVA/IVA/IVA
 - Reporting para otros organismos reguladores
-![image](https://user-images.githubusercontent.com/89487449/178353973-baaf9d2a-d6b4-42be-b767-d66d515c5f7a.png)
+  ![image](https://user-images.githubusercontent.com/89487449/178353973-baaf9d2a-d6b4-42be-b767-d66d515c5f7a.png)
 
 ## Información histórica en línea
 
@@ -61,13 +61,11 @@ article: false
 
 :::
 
-
     ADempiere proporciona capacidades integrales de generación de informes.
 
 :::
 
 ### Informes inteligentes
-
 
 - Para la mayoría de las aplicaciones, la generación de informes es una entidad separada o adicional. Los informes de ADempiere se basan en el diccionario de datos.
   - Dado que el visor del informe tiene acceso a las definiciones, esto permite profundizar en cualquier entidad a la que se haga referencia y profundizar en las entidades en las que se utiliza la entidad informada.
@@ -131,6 +129,7 @@ Los programadores de muchas aplicaciones que no utilizan la sofisticación de un
 ## Compatibilidad
 
 El soporte de software representa una parte sustancial de los costos de por vida de cualquier sistema complejo. Una arquitectura modular y flexible es esencial para garantizar:
+
 - Comprensibilidad
 - Modificabilidad
 - Interoperabilidad

@@ -7,6 +7,7 @@ tag:
   - Contribucion
 article: false
 ---
+
 ::: tip
 
 Hay varias maneras de contribuir al proyecto ADempiere y la Fundación ADempiere.

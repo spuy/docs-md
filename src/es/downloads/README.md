@@ -32,7 +32,7 @@ Tenemos muchas formas de descargar ADempiere, puede usar la forma que más le co
 
 [**Helm**](https://helm.sh/) es un administrador de paquetes para [kubernetes](https://kubernetes.io/) que básicamente ayudan a definir todo lo relacionado con el arduo trabajo de instalar y actualizar las aplicaciones de kubernetes. Ver más al respecto [aquí](helm.md).
 
-[**Operador**](https://operatorhub.io/) 
+[**Operador**](https://operatorhub.io/)
 es una forma alternativa de timón que permite implementar la aplicación sobre [kubernetes](https://kubernetes.io/). Ver más al respecto [aquí](operator.md).
 
 [**Github Lanzamientos**](https://github.com/adempiere) es el centro de muchas aplicaciones de código abierto y permite compartir código fuente, lanzamientos; Realice acciones para construir proyectos automáticamente. Tenemos todos los repositorios de la comunidad ADempiere sobre él. Ver más al respecto [aquí](binary.md).

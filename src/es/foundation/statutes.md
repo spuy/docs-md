@@ -30,11 +30,13 @@ ADempiere e.V. (ADeV) es el representante del sistema ERP gratuito y abierto Ade
   - Contribuciones a la información técnica del público en el ámbito de las actividades de la asociación y participación en ferias y seminarios para poner la información a disposición de un espectro más amplio de usuarios.
   - Organización de seminarios y presentaciones de acceso general para proporcionar educación continua a los participantes y usuarios del proyecto.
 - La asociación no perseguirá fines comerciales propios. No se esforzará por obtener un beneficio. No está permitido tener fines políticos e ideológicos.
+
 ### 3. Estatus sin fines de lucro
 
 - De acuerdo con sus deberes que se especifican en el § 2 de los estatutos, la asociación persigue, exclusiva y directamente, fines benéficos de acuerdo con la sección del código fiscal sobre ventajas fiscales (§§ 51ff. AO). No tiene fines de lucro y no persigue principalmente sus propios objetivos comerciales.
 - Los fondos de la asociación se utilizarán exclusivamente para los fines especificados en los estatutos. Los miembros reciben exclusivamente reembolsos de los gastos incurridos, pero no asignaciones directas de los fondos de la asociación.
 - Nadie puede beneficiarse de gastos de la asociación que no estén relacionados con el objeto de la asociación o mediante una compensación desproporcionadamente elevada. Para el reembolso de gastos prevalecerá la Ley Federal de Costos de Viajes, siempre que no sean aplicables otras disposiciones legales.
+
 ### 4. Tipos de afiliación y miembros de la asociación
 
 - Los miembros de la asociación pueden ser personas naturales y jurídicas que deseen apoyar y ayudar a perseguir los fines de la asociación. Para dar a los miembros la opción de retirarse del apoyo activo del desarrollo continuo de Adempiere sin renunciar a su membresía, están disponibles los siguientes tipos de membresías:
@@ -51,6 +53,7 @@ ADempiere e.V. (ADeV) es el representante del sistema ERP gratuito y abierto Ade
   - A pesar de múltiples advertencias, pagos de cuotas de membresía atrasados ​​por un plazo de 12 meses.
 - Antes de la adopción de una resolución, el miembro debe tener la oportunidad de proporcionar una justificación legal o tomar una declaración de posición. Se puede presentar una objeción a la exclusión al consejo de administración dentro de las cuatro semanas sobre las cuales se decidirá la siguiente reunión de miembros. Hasta que la asamblea de miembros tome una decisión, los derechos y obligaciones del miembro quedarán suspendidos.
 - Si un miembro deja la asociación o se disuelve la asociación, no procederá la reclamación de la devolución de los bienes económicos que se hayan aportado.
+
 ### 5. Órganos de la asociación
 
 Los órganos de la asociación son:
@@ -124,6 +127,7 @@ Antes de contratar empleados a tiempo completo, el consejo de administración re
   - Otras apropiaciones de terceros,
   - Cuotas por actividades de la asociación con fines benéficos tales como presentaciones.
 - Los socios pagarán las cuotas de acuerdo con una resolución de la asamblea de socios o de los socios activos a través de una votación por Internet, requiriéndose una mayoría simple para su aprobación. La regulación del monto de las cuotas de membresía será parte integrante de los estatutos.
+
 ### 14. Disolución de la asociación, uso de los bienes de la asociación
 
 - La disolución de la asociación sólo podrá ser adoptada por acuerdo de una asamblea de socios específicamente convocada para este fin. El acuerdo de disolución requerirá una mayoría de dos tercios de los miembros activos presentes. Si están presentes menos de la mitad de los miembros con derecho a voto, entonces la resolución requerirá una mayoría de tres cuartos de los miembros activos presentes.

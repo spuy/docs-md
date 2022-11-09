@@ -25,7 +25,6 @@ Manage your business branches, customer groups, sales channels and regions, slic
 Control one or many price lists and quickly swifting between them getting an accurate price for the product. Also includes tax prices between these actions and traceability at all times.
 ![image](https://user-images.githubusercontent.com/89487449/178361166-44400083-e42e-4276-a0b7-99384c20dd6b.png)
 
-
 ### Orders & Quotes
 
 Enter your business orders and quotes either manually or massively leveraging reliable import process from Excel spreadsheets, further automate order processing implementing Web Services allowing real time synchronization between separate systems. Detail backlog on ordered items, history and traceability of orders.

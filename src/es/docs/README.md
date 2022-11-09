@@ -28,7 +28,7 @@ Una guía autogenerada del diccionario ADempiere con toda la documentación que 
 
 ## Proceso Estándar ERP
 
-**[Solicitud a factura](procedimientos estándar/solicitud a factura)** 
+**[Solicitud a factura](procedimientos estándar/solicitud a factura)**
 
 En [ADempiere ERP](http://adempiere.net/), queremos garantizar el flujo productivo y administrativo de la empresa, por lo que es fundamental una gestión eficiente de las compras, que no es más que la adquisición de bienes o servicios, aquí te mostraremos cómo gestionar tus compras nacionales e internacionales en ADempiere ERP.
 

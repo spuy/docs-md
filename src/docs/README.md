@@ -12,7 +12,6 @@ ADempiere, due to its ERP status, offers everything a company needs in a single 
 
 ![image](https://user-images.githubusercontent.com/89487449/179278950-ec376474-8e27-44e6-9196-8e0984766905.png)
 
-
 ::: info Intro
 
 Note that all [ADempiere ERP](http://adempiere.net/) ecosystem was created to be used on any organization with minimal changes. This documentation was created for end used, tech and implementor
@@ -55,6 +54,6 @@ Learn about [Open Items](standard-procedures/open-items)
 **[Product](material-management/product)**
 
 Master data includes records that give rise to transactions, therefore they are not modifiable on a regular basis, in this sense ADempiere ERP explains how to create your teachers in an ideal way, thus avoiding duplication and inconsistency in the data.
-Within ADempiere's capability, it's designed to withstand multiples warehouses, keeping track of all transactions and receiving many other possibilities of getting these warehouses with their corresponding material in it such as an request from a product receipt or a delivery for a customer. 
+Within ADempiere's capability, it's designed to withstand multiples warehouses, keeping track of all transactions and receiving many other possibilities of getting these warehouses with their corresponding material in it such as an request from a product receipt or a delivery for a customer.
 
 Learn about [Data Management](material-management/product)

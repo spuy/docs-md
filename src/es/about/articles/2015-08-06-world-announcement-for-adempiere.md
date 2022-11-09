@@ -11,6 +11,7 @@ tag:
 author: Victor Pérez
 date: 2015-08-06
 ---
+
 Nos complace anunciar el lanzamiento de un nuevo y mejorado portal de contenido para ADempiere alcanzando así otro hito tras el lanzamiento de la versión 380, lo que confirma la tracción y el compromiso de nuestra comunidad y de todos los que están detrás de este gran proyecto Bazaar.
 
 Un grupo de personas comprometidas trabajó arduamente durante varios meses para crear un sitio profesional e informativo para nuestra solución comercial, un lugar donde las personas encontrarán toda la información necesaria para evaluar nuestras herramientas de gestión de procesos, rompiendo la dependencia de un proveedor de software en particular y evitando licencias altas. costos y, lo que es más importante, no requerir compromisos a largo plazo de terceros para instalarlo, ampliarlo y/o personalizarlo.
