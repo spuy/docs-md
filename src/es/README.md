@@ -2,7 +2,7 @@
 home: true
 layout: Blog
 icon: home
-title: Inicio
+title: 
 heroImage: /logo.svg
 heroText: ADempiere ERP
 bgImage: /background.jpeg

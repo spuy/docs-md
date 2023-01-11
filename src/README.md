@@ -2,9 +2,9 @@
 home: true
 layout: Blog
 icon: home
-title: Home
+title: 
 bgImage: /background.jpg
-heroFullScreen: true
+heroFullScreen: false
 projects:
   - name: Release 3.9.4
     desc: This is a great news for ADempiere Community

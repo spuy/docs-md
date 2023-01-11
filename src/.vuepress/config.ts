@@ -25,11 +25,11 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "en-US",
-      title: "ADempiere Official Page",
+      title: "ADempiere 3.9.4 a new generation ERP",
       description: "A official page of ADempiere community.",
     },
     "/es/": {
-      title: "Página Oficial de ADempiere",
+      title: "ADempiere 3.9.4 una nueva generación de ERP basada en las mejores prácticas",
       lang: "es-ES",
       description: "Página oficial de la comunidad de ADempiere",
     },
