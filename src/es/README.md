@@ -2,12 +2,8 @@
 home: true
 layout: Blog
 icon: home
-title: 
-heroImage: /logo.svg
-heroText: ADempiere ERP
-bgImage: /background.jpeg
-heroFullScreen: false
-tagline: Creado por personas como tú
+bgImage: /es/background.png
+heroFullScreen: true
 projects:
   - name: Liberación 3.9.4
     desc: Ésta es una gran noticia para la Comunidad de ADempiere
