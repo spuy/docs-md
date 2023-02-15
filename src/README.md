@@ -2,6 +2,7 @@
 home: true
 layout: Blog
 icon: home
+title: Home
 bgImage: /background.png
 heroFullScreen: true
 projects:
