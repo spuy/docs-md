@@ -10,6 +10,7 @@ The collection includes a number of books covering the main topics of:
 
 - Functional Guide (**Generated automatically from ADempiere**)
 
+
 # More References
 
 - The official page is in: http://adempiere.io
