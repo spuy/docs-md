@@ -63,3 +63,12 @@ Gestión de Saldos Pendientes
 
 La gestión de saldos pendientes en ADempiere te brinda la posibilidad de manejar las ordenes de pagos, selección de pagos, pagos, cobros, conciliaciones automaticas, cartera de morosidad y deudas pendientes de la empresa,ERPyA quiere enseñarte como gestionar tus saldos pendientes en ADempiere.
 
+Gestión de Ventas
+
+El proceso de ventas es la secuencia de fases para convertir una oportunidad en una venta, desde que se genera una cotización o propuesta hasta que se concluye la venta, si quieres saber como ADempiere contempla este proceso tan importante ERPyA te lo explica.
+
+# Para Mayor Información
+
+Nuestra página oficial es: E.R.P. Consultores y Asociados, C.A.
+
+Si desea reportar un error o una mejora puede hacerlo en: GitHub
