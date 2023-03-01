@@ -12,7 +12,7 @@ ADempiere, debido a su estado ERP, ofrece todo lo que una empresa necesita en un
 
 ::: info Intro
 
-Tenga en cuenta que todo el ecosistema [ADempiere ERP](http://adempiere.net/) se creó para ser utilizado en cualquier organización con cambios mínimos. Esta documentación fue creada para uso final, tecnología e implementación.
+Tenga en cuenta que todo el ecosistema [ADempiere ERP](http://adempiere.net/) se creó para ser utilizado en cualquier organización con cambios mínimos. Esta documentación fue creada para uso final, tecnología e implementación sd.
 
 :::
 
