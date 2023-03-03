@@ -18,12 +18,12 @@ Para acceder o iniciar sesión en ADempiere, el usuario requiere lo siguiente:
 
 Al ingresar a la url del servicio de ADempiere facilitada por un consultor de ERPyA, podrá visualizar la ventana **Login** o **Iniciar Sesión**, la cual cuenta con los campos necesarios para iniciar sesión en el idioma que el usuario lo requiera.
 
-![Ventana Login o Iniciar Sesión en ADempiere](/assets/img/docs/basic-rules/login.png)
+![Ventana Login o Iniciar Sesión en ADempiere](/assets/img/docs/basic-rules/login-login.png)
 
 
 Introduzca en el campo **Usuario**, el usuario previamente facilitado por el consultor de ERPyA.
 
-![Usuario](/assets/img/docs/basic-rules/user.png)
+![Usuario](/assets/img/docs/basic-rules/login-user.png)
 
 
 Introduzca en el campo **Contraseña**, la contraseña del usuario previamente facilitada por el consultor de ERPyA.
