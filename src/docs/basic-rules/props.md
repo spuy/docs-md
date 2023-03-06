@@ -40,15 +40,15 @@ Podrá visualizar la ventana “Proceso de Flujo de Trabajo”, con el registro 
 
 Luego de haber ubicado el flujo de trabajo activo, debe seleccionar la opción **Manejador de Procesos**.
 
-![Opción Manejador de Procesos](/assets/img/docs/basic-rules/process.png)
+![Opción Manejador de Procesos](/assets/img/docs/basic-rules/process-2.png)
 
 Podrá visualizar la ventana **Manejador de Procesos**, que se utiliza para actualizar o detener el proceso de flujo de trabajo.
 
-![Ventana Manejador de Procesos](/assets/img/docs/basic-rules/process-2.png)
+![Ventana Manejador de Procesos](/assets/img/docs/basic-rules/process-3.png)
 
 Seleccione el check **Anular Proceso**, para anular el flujo de trabajo.
 
-![Check Anular Proceso](/assets/img/docs/basic-rules/process-3.png)
+![Check Anular Proceso](/assets/img/docs/basic-rules/process-4.png)
 
 Finalmente, seleccione la opción **OK**, para ejecutar la acción requerida de acuerdo a lo indicado en la ventana **Manejador de Procesos**.
 
@@ -64,11 +64,11 @@ Seleccione la pestaña **Actividad**, para visualizar el registro que se encuent
 
 Luego seleccione la opción **Manejador de Actividades**.
 
-![Opción Manejador de Actividades](/assets/img/docs/basic-rules/activities.png)
+![Opción Manejador de Actividades](/assets/img/docs/basic-rules/activities-2.png)
 
 Podrá visualizar la ventana **Manejador de Actividades**, que se utiliza para actualizar o detener la actividad del flujo de trabajo.
 
-![Ventana Manejador de Actividades](/assets/img/docs/basic-rules/activities-2.png)
+![Ventana Manejador de Actividades](/assets/img/docs/basic-rules/activities-3.png)
 
 Seleccione el check **Anular Proceso**, para anular el flujo de trabajo.
 
@@ -77,6 +77,3 @@ Seleccione el check **Anular Proceso**, para anular el flujo de trabajo.
 Finalmente, seleccione la opción **OK**, para ejecutar la acción requerida de acuerdo a lo indicado en la ventana **Manejador de Actividades**.
 
 ![Opción OK](/assets/img/docs/basic-rules/ok-6.png)
-
-
-
