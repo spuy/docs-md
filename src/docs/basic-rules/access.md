@@ -8,33 +8,47 @@ article: false
 
 En ADempiere contamos con una serie de accesos rápidos que le permitirá al usuario realizar una determinada función de forma rápida y sencilla.
 
-![Accesos Rapidos de ADempiere](/assets/img/docs/basic-rules/access.png)
+![Accesos Rapidos de ADempiere](/assets/img/docs/basic-rules/bar-access-access.png)
+
+Imagen 1. Accesos Rápidos de ADempiere
 
 A continuación se definen los distintos tipos de accesos rápidos que este posee.
 
 **Acercar**: Le permitirá realizar una búsqueda rápida de un registro.
 
-![Opción Acercar](/assets/img/docs/basic-rules/acercar.png)
+![Opción Acercar](/assets/img/docs/basic-rules/bar-acces-zoom.png)
+
+Imagen 2. Opción Acercar
 
 **Refrescar**: Le permitirá actualizar el campo donde se encuentra ubicado.
 
-![Opción Refrescar](/assets/img/docs/basic-rules/refrescar.png)
+![Opción Refrescar](/assets/img/docs/basic-rules/bar-access-refres.png)
+
+Imagen 3. Opción Refrescar
 
 ***Valor de Preferencia**: Permitirá darle un valor preferencial al campo.
 
-![Opción Valor de Preferencia](/assets/img/docs/basic-rules/preferencia.png)
+![Opción Valor de Preferencia](/assets/img/docs/basic-rules/bar-access-preferences.png)
+
+Imagen 4. Opción Valor de Preferencia
 
 **Registro Nuevo:** Permitirá realizar un registro nuevo referente al campo donde se encuentra ubicado.
 
-![Opción Registro Nuevo](/assets/img/docs/basic-rules/nuevo.png)
+![Opción Registro Nuevo](/assets/img/docs/basic-rules/bar-access-new.png)
+
+Imagen 5. Opción Registro Nuevo
 
 **Actualizar:** Permitirá realizar modificaciones al registro del campo donde se encuentra ubicado.
 
-![Opción Actualizar](/assets/img/docs/basic-rules/atualiza.png)
+![Opción Actualizar](/assets/img/docs/basic-rules/bar-access-update.png)
+
+Imagen 6. Opción Actualizar
 
 **Bitácora Cambios:** Permitirá visualizar los cambios que se le ha realizado al campo donde se encuentra ubicado.
 
-![Opción Bitácora de Cambios](/assets/img/docs/basic-rules/bitacora.png)
+![Opción Bitácora de Cambios](/assets/img/docs/basic-rules/bar-access-bitacora.png)
+
+Imagen 7. Opción Bitácora de Cambios
 
 **Accesos Rápidos del Teclado:** Le permitirá realizar diferentes operaciones desde accesos rápido en las siguientes teclas.
 
