@@ -16,49 +16,17 @@ Asimismo, ofrece opciones con las cuales la empresa puede acceder a datos estad�
 
 El propósito de ERPyA es apoyar a nuestros clientes, dar respuestas rápidas y eficientes con el manejo de información para permitir la toma de decisiones y minimizar los costes.
 
-Tipo de Aplicación
-Elemento Contable
-Registro de Elemento Contable
-Apertura de Período Contable
-Documentos sin Aplicar
-Dimensiones Contables
-Dimensión Organización
-Dimensión Región de Ventas
-Dimensión Actividad
-Dimensión Proyecto
-Dimensión Socio del Negocio
-Dimensión Producto
-Dimensión Campaña
-Combinación Contable
-Conversión Monetaria
-Conversión Manual
-Conversión Automática
-Conversión Automática por Tipo de Conversión
-Distribución Contable
-Registro de Distribución Contable
-Consulta de Distribución Contable Aplicada
-Configuración Contable (Maestros)
-Cargo
-Producto
-Cliente
-Proveedor
-Empleado
-Catálogo de Conceptos
-Cuenta Bancaria
-Caja
-Impuestos
-Contabilidad de Transacciones
-Proceso de Egreso
-Proceso de Ingreso
-Proceso de Inventario
-Proceso de Nómina Regular
-Re-contabilizar Datos Contables de Cuentas de Ganancia y Perdida
-Gestión de Costos
-Costos de Material
-Costos Adicionales
-Reportes de Costos
-Diario Contable
-Diario de Nota Contable
-Reportes Contables
-Informe Financiero
-Reportes Detallados
+- [Tipo de Aplicación](type-application)
+- [Elemento Contable](element)
+- [Apertura de Período Contable](opening)
+- [Documentos sin Aplicar](document)
+- [Dimensiones Contables](dimensions)
+- [Combinación Contable](combination)
+- [Conversión Monetaria](conversion)
+- [Distribución Contable](distribution)
+- [Configuración Contable (Maestros)](configuration)
+- [Contabilidad de Transacciones](accounting)
+- [Re-contabilizar Datos Contables de Cuentas de Ganancia y Perdida](revenue)
+- [Gestión de Costos](costs)
+- [Diario Contable](diary)
+- [Reportes Contables](reports)
