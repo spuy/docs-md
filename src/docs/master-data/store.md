@@ -11,7 +11,8 @@ El presente material elaborado por ERPyA, pretende ofrecerle una explicación ef
 - Registro de Almacén
 - Ubicación
 
-Registro de Almacén
+Registro de Almacén
+
 Ubique y seleccione en el menú de ADempiere, la carpeta “Gestión de Materiales”, luego seleccione la carpeta “Reglas de Gestión de Materiales”, por último seleccione la ventana “Almacén y Ubicaciones”.
 
 menú de almacén y ubicaciones
