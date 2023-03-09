@@ -14,36 +14,14 @@ ADempiere cuenta con la carpeta “Gestión de Saldos Pendientes” el cual prop
 
 Por ello, ERPyA presenta la siguiente guía con instrucciones claras y precisas de cómo llevar a cabo cada uno de los procesos involucrados con la gestión saldos financieros y así obtener resultados exitosos; esta documentación está destinada a definir cada uno de los procedimientos para la gestión de los saldos pendientes de ADempiere para cualquier organización, es importante seguir al pie de la letra cada uno de los procedimientos descritos aquí recuerde que de eso dependerá el buen uso del ERP.
 
-Transferencia Bancaria
-Registro de Transferencia Bancaria
-Transferencia Bancaria de Nómina
-Selección de Pago
-Registro desde Orden
-Registro desde Factura
-Registro desde Nómina
-Registro desde Selección de Pago
-Imprimir / Exportar Pagos
-Registro de Imprimir / Exportar Pagos
-Registro de Imprimir / Exportar Pagos de Nómina
-Pago
-Registro de Pago
-Consultar Asignación
-Cobro
-Registro de Cobro
-Consultar Asignación
-Caja Reembolso
-Registro de Caja Reembolso
-Caja Viáticos
-Registro de Caja Viáticos
-Caja Cobranza
-Registro de Caja Cobranza
-Asignación de Pagos
-Asignación de Pagos/Cobros a Documentos por Pagar o Cobrar
-Cierre de Caja
-Registro de Cierre de Caja
-Cierre de Caja Nómina
-Conciliaciones Automáticas
-Descarga de Extracto Bancario desde Banco
-Registro de Conciliación Automática
-Crear Pagos desde Estado de Cuenta
-Pagos/Cobros sin Registros
+- [Transferencia Bancaria](transfer)
+- [Selección de Pago](selection)
+- [Imprimir / Exportar Pagos](print)
+- [Pago](pay)
+- [Cobro](payment)
+- [Caja Reembolso](refund-box)
+- [Caja Viáticos](travel-box)
+- [Caja Cobranza](collection-box)
+- [Asignación de Pagos](assignment)
+- [Cierre de Caja](close-box)
+- [Conciliaciones Automáticas](reconciliation)

@@ -24,50 +24,16 @@ De esta forma ADempiere agilizará notablemente las operaciones regulares al per
 
 Esta solución pasa a ser entonces un potente Quick Service por estar integrado con un ERP y está diseñado para ser utilizado en la indutria retail o restaurantes permitiendo un control total de sus resultados sin restar rendimiento en tiempo. Es por esto, que el enfoque de esta solución está en negocios que manejan cajas registradoras en la cual los clientes acuden a ejecutar un pedido y cancelarlo, para finalmente retirar sus productos.
 
-Configuración de Terminal PDV
-Interfaz de Punto de Venta
-Barra de Herramientas del Punto de Venta
-Panel de Búsqueda de Productos
-Sección de Información de Producto
-Barra de Edición de Productos
-Línea de la Orden de Venta
-Información de la Orden
-Totales (Bs.S)
-Panel de Socio del Negocio Cliente
-Catálogo de Productos
-Procedimiento de Inicio de Jornada Laboral PDV
-Imprimir Reportes X y Z
-Ejecución del Proceso
-Apertura de Caja
-Ejecución del Proceso
-Consultar Egreso e Ingreso Generado de la Apertura de Punto de Venta
-Consultar Registros Creados en la Ventana Cierre de Caja
-Toma de Pedido
-Ejecución del Proceso
-Cobrar Pedido
-Consultar Factura Generada
-Consultar Cobro Generado
-Consultar Registro en Cierre de Caja
-Copiar Orden Desde Otra
-Anular Transacción de Venta
-Ejecución del Proceso
-Consulta de Documentos Generados
-Completar Orden Preparada
-Ejecución del Proceso
-Consulta de Documentos Generados
-Anular Factura Fiscal
-Reversar Cobros
-Anular Factura
-Anular Orden de Venta
-Retiro Detallado de Punto de Venta
-Ejecución del Proceso
-Consulta de Pago y Cobro Generados en Caja
-Consultar Registro en Cierre de Caja
-Cierre de Caja del Punto de Venta
-Ejecución del Proceso
-Consultar Registro en Cierre de Caja
-Completar Registro en Cierre de Caja
-Traspaso a Banco
-Depósito de Caja
-Transferencia Bancaria
-Cierre de Caja
+- [Configuración de Terminal PDV](configuration)
+- [Interfaz de Punto de Venta](point-interface)
+- [Procedimiento de Inicio de Jornada Laboral PDV](procedure)
+- [Imprimir Reportes X y Z](print)
+- [Apertura de Caja](opening)
+- [Toma de Pedido](order-taking)
+- [Copiar Orden Desde Otra](order-copy)
+- [Anular Transacción de Venta](cancel)
+- [Completar Orden Preparada](complete)
+- [Anular Factura Fiscal](cancel-invoice)
+- [Retiro Detallado de Punto de Venta](detailed)
+- [Cierre de Caja del Punto de Venta](close-box)
+- [Traspaso a Banco](transfer)
