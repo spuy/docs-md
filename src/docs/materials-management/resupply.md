@@ -8,13 +8,14 @@ article: false
 
 El presente material elaborado por ERPyA, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar en ADempiere un proceso de reabastecimiento, en su versión 3.9.2 para la localización Venezuela.
 
-Proceso de Reabastecimiento
-Configuración Esencial
-Ejecución del Proceso
-Resultado Obtenido
+- Proceso de Reabastecimiento
+  - Configuración Esencial
+  - Ejecución del Proceso
+  - Resultado Obtenido
 
-Proceso de Reabastecimiento
-El proceso de reabastecimiento permite generar los respectivos documentos de movimiento de material, requisición, orden de compra, o de distribución, en estado “Borrador”. El comportamiento del proceso consta en el tipo de reabastecimiento seleccionado en la configuración del producto. ADempiere permite utilizar los siguientes tipos de reabastecimiento:
+## Proceso de Reabastecimiento
+
+El proceso de reabastecimiento permite generar los respectivos documentos de movimiento de material, requisición, orden de compra, o de distribución, en estado **Borrador**. El comportamiento del proceso consta en el tipo de reabastecimiento seleccionado en la configuración del producto. ADempiere permite utilizar los siguientes tipos de reabastecimiento:
 
 Mantener El Nivel Máximo
 
@@ -162,95 +163,97 @@ Unidad
 
 Para ejecutar correctamente el proceso de reabastecimiento de almacén, es necesario que se realicen los procedimientos que a continuación se explican.
 
-Configuración Esencial
-Ubique y seleccione en el menú de ADempiere, la carpeta “Gestión de Materiales”, luego seleccione la carpeta “Reglas de Gestión de Materiales”, por último seleccione la ventana “Producto”.
+### Configuración Esencial
+
+Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Materiales**, luego seleccione la carpeta **Reglas de Gestión de Materiales**, por último seleccione la ventana **Producto**.
 
 menú de producto
 
 Menú de ADempiere
 
-Podrá visualizar la ventana “Producto”, con todos los registros de los productos en ADempiere, en la cual debe ubicar el registro del producto involucrado en el proceso de reabastecimiento, para realizar la configuración esencial del mismo.
+Podrá visualizar la ventana **Producto**, con todos los registros de los productos en ADempiere, en la cual debe ubicar el registro del producto involucrado en el proceso de reabastecimiento, para realizar la configuración esencial del mismo.
 
 producto a configurar
 
 Imagen 2. Producto a Configurar
 
-Seleccione la pestaña “Reabastecer”, ubicada del lado izquierdo de la ventana “Producto” y realice el procedimiento explicado en el proceso Pestaña Reabastecer, del documento Registro de Producto, elaborado por ERPyA. Para el ejemplo del presente documento, se tienen las siguientes restricciones:
+Seleccione la pestaña **Reabastecer**, ubicada del lado izquierdo de la ventana **Producto** y realice el procedimiento explicado en el proceso Pestaña Reabastecer, del documento Registro de Producto, elaborado por ERPyA. Para el ejemplo del presente documento, se tienen las siguientes restricciones:
 
-“Almacén”: Comercialización
+**Almacén**: Comercialización
 
-“Tipo de Reabastecimiento”: Mantener El Nivel Máximo ó Reordenar por debajo del nivel mínimo
+**Tipo de Reabastecimiento**: Mantener El Nivel Máximo ó Reordenar por debajo del nivel mínimo
 
-“Nivel Mínimo”: 20
+**Nivel Mínimo**: 20
 
-“Nivel Máximo”: 40
+**Nivel Máximo**: 40
 
 configuración del producto
 
 Imagen 3. Configuración del Producto
 
-Ejecución del Proceso
-Ubique y seleccione en el menú de ADempiere, la carpeta “Gestión de Materiales”, luego seleccione la ventana de búsqueda inteligente “Reabastecimiento de Almacén”.
+### Ejecución del Proceso
+
+Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Materiales**, luego seleccione la ventana de búsqueda inteligente **Reabastecimiento de Almacén**.
 
 menú reabastecimiento de almacén
 
 Imagen 4. Menú Reabastecimiento de Almacén
 
-Podrá visualizar la ventana “Reabastecimiento de Almacén”, con diferentes campos que permiten filtrar la información para generar el documento requerido.
+Podrá visualizar la ventana **Reabastecimiento de Almacén**, con diferentes campos que permiten filtrar la información para generar el documento requerido.
 
 ventana reabastecimiento de almacén
 
 Imagen 5. Ventana Reabastecimiento de Almacén
 
-Seleccione en el campo “Producto”, el producto por el cual requiere filtrar la información.
+Seleccione en el campo **Producto**, el producto por el cual requiere filtrar la información.
 
 campo producto de la ventana reabastecimiento de almacén
 
 Imagen 6. Campo Producto de la Ventana Reabastecimiento de Almacén
 
-Seleccione en el campo “Categoría del Producto”, la categoría del producto por el cual requiere filtrar la información.
+Seleccione en el campo **Categoría del Producto**, la categoría del producto por el cual requiere filtrar la información.
 
 campo categoría del producto de la ventana reabastecimiento de almacén
 
 Imagen 7. Campo Categoría del Producto de la Ventana Reabastecimiento de Almacén
 
-Seleccione en el campo “Clase de Producto”, la clase del producto por la cual requiere filtrar la información.
+Seleccione en el campo **Clase de Producto**, la clase del producto por la cual requiere filtrar la información.
 
 campo clase de producto de la ventana reabastecimiento de almacén
 
 Imagen 8. Campo Clase de Producto de la Ventana Reabastecimiento de Almacén
 
-Seleccione en el campo “Clasificación de Producto”, la clasificación del producto por el cual requiere filtrar la información.
+Seleccione en el campo **Clasificación de Producto**, la clasificación del producto por el cual requiere filtrar la información.
 
 campo clasificación del producto de la ventana reabastecimiento de almacén
 
 Imagen 9. Campo Clasificación de Producto de la Ventana Reabastecimiento de Almacén
 
-Seleccione en el campo “Grupo de Producto”, el grupo de producto por el cual requiere filtrar la información.
+Seleccione en el campo **Grupo de Producto**, el grupo de producto por el cual requiere filtrar la información.
 
 campo grupo de producto de la ventana reabastecimiento de almacén
 
 Imagen 10. Campo Grupo de Producto de la Ventana Reabastecimiento de Almacén
 
-Seleccione en el campo “Almacén Fuente”, el almacén fuente por el cual requiere filtrar la información.
+Seleccione en el campo **Almacén Fuente**, el almacén fuente por el cual requiere filtrar la información.
 
 campo almacén fuente de la ventana reabastecimiento de almacén
 
 Imagen 11. Campo Almacén Fuente de la Ventana Reabastecimiento de Almacén
 
-Seleccione en el campo “Tipo de Reabastecimiento”, el tipo de reabastecimiento por el cual requiere filtrar la información.
+Seleccione en el campo **Tipo de Reabastecimiento**, el tipo de reabastecimiento por el cual requiere filtrar la información.
 
 campo tipo de reabastecimiento de la ventana reabastecimiento de almacén
 
 Imagen 12. Campo Tipo de Reabastecimiento de la Ventana Reabastecimiento de Almacén
 
-Seleccione en el campo “Almacén”, el almacén por el cual requiere filtrar la información.
+Seleccione en el campo **Almacén**, el almacén por el cual requiere filtrar la información.
 
 campo almacén de la ventana reabastecimiento de almacén
 
 Imagen 13. Campo Almacén de la Ventana Reabastecimiento de Almacén
 
-Seleccione la opción “Comenzar Búsqueda”, para filtar la información en base a lo seleccionado en los campos anteriormente explicados.
+Seleccione la opción **Comenzar Búsqueda**, para filtar la información en base a lo seleccionado en los campos anteriormente explicados.
 
 opción comenzar búsqueda de la ventana reabastecimiento de almacén
 
@@ -268,13 +271,13 @@ selección de producto a reabastecer
 
 Imagen 16. Selección de Producto a Reabastecer
 
-Al seleccionar el registro del produto, se habilita el campo de la columna “Cantidad a Ordenar”, con el valor que se requiere para cumplir con la cantidad de productos establecida en la configuración del mismo.
+Al seleccionar el registro del produto, se habilita el campo de la columna **Cantidad a Ordenar**, con el valor que se requiere para cumplir con la cantidad de productos establecida en la configuración del mismo.
 
 cantidad a ordenar
 
 Imagen 17. Campo Cantidad a Ordenar
 
-Seleccione en el campo “Crear”, el documento que requiere crear para reabastecer el producto en el almacén seleccionado.
+Seleccione en el campo **Crear**, el documento que requiere crear para reabastecer el producto en el almacén seleccionado.
 
 campo crear de la ventana reabastecimiento de almacén
 
@@ -282,15 +285,15 @@ Imagen 18. Campo Crear de la Ventana Reabastecimiento de Almacén
 
 Note
 
-Cuando se requiere generar el documento “Orden de Compra”, es obligatorio seleccionar el socio del negocio proveedor en la columna “Socio del Negocio” de la ventana “Reabastecimiento de Almacén”.
+Cuando se requiere generar el documento **Orden de Compra**, es obligatorio seleccionar el socio del negocio proveedor en la columna **Socio del Negocio** de la ventana **Reabastecimiento de Almacén**.
 
-Seleccione en el campo “Tipo de Documento”, el tipo de documento con el que requiere que se genere el documento en estado “Borrador”.
+Seleccione en el campo **Tipo de Documento**, el tipo de documento con el que requiere que se genere el documento en estado **Borrador**.
 
 campo tipo de documento de la ventana reabastecimiento de almacén
 
 Imagen 19. Campo Tipo de Documento de la Ventana Reabastecimiento de Almacén
 
-Seleccione la opción “OK”, para ejecutar el proceso “Reabastecimiento de Almacén”.
+Seleccione la opción **OK**, para ejecutar el proceso **Reabastecimiento de Almacén**.
 
 opción ok de la ventana reabastecimiento de almacén
 
@@ -302,26 +305,27 @@ número de documento generado en la ventana reabastecimiento de almacén
 
 Imagen 21. Número de Documento Generado en la Ventana Reabastecimiento de Almacén
 
-Resultado Obtenido
-Si en el campo “Crear”, de la ventana “Reabastecimiento de Almacén”, es seleccionada la opción “Mover Inventario”. La consulta del documento generado se realiza en la ventana “Movimiento de Inventario”, con ayuda del número de documento generado al ejecutar el proceso.
+### Resultado Obtenido
+
+Si en el campo **Crear**, de la ventana **Reabastecimiento de Almacén**, es seleccionada la opción **Mover Inventario**. La consulta del documento generado se realiza en la ventana **Movimiento de Inventario**, con ayuda del número de documento generado al ejecutar el proceso.
 
 consulta de mover inventario
 
 Imagen 20. Consulta de Mover Inventario
 
-Si en el campo “Crear”, de la ventana “Reabastecimiento de Almacén”, es seleccionada la opción “Orden de Compra”. La consulta del documento generado se realiza en la ventana “Órdenes de Compra”, con ayuda del número de documento generado al ejecutar el proceso.
+Si en el campo **Crear**, de la ventana **Reabastecimiento de Almacén**, es seleccionada la opción **Orden de Compra**. La consulta del documento generado se realiza en la ventana **Órdenes de Compra**, con ayuda del número de documento generado al ejecutar el proceso.
 
 consulta de orden de compra
 
 Imagen 21. Consulta de Orden de Compra
 
-Si en el campo “Crear”, de la ventana “Reabastecimiento de Almacén”, es seleccionada la opción “Orden de Distribución”. La consulta del documento generado se realiza en la ventana “Orden de Distribución”, con ayuda del número de documento generado al ejecutar el proceso.
+Si en el campo **Crear**, de la ventana **Reabastecimiento de Almacén**, es seleccionada la opción **Orden de Distribución**. La consulta del documento generado se realiza en la ventana **Orden de Distribución**, con ayuda del número de documento generado al ejecutar el proceso.
 
 consulta de orden de distribución
 
 Imagen 22. Consulta de Orden de Distribución
 
-Si en el campo “Crear”, de la ventana “Reabastecimiento de Almacén”, es seleccionada la opción “Requisición”. La consulta del documento generado se realiza en la ventana “Requisición”, con ayuda del número de documento generado al ejecutar el proceso.
+Si en el campo **Crear**, de la ventana **Reabastecimiento de Almacén**, es seleccionada la opción **Requisición**. La consulta del documento generado se realiza en la ventana **Requisición**, con ayuda del número de documento generado al ejecutar el proceso.
 
 consulta de requisición
 

@@ -8,30 +8,31 @@ article: false
 
 En esta ocasión ERPyA pretende ofrecerle una guía fácil para la definición de un rubro en ADempiere, es importante seguir paso a paso cada procedimiento, de ello dependerá el éxito de los registros resultantes.
 
-Registro de Rubro
-Cálculo de Peso
-Etapa del Cultivo
+- Registro de Rubro
+  - Cálculo de Peso
+  - Etapa del Cultivo
 
-Registro de Rubro
-Seleccione en el menú de ADempiere, la carpeta “Gestión de Asistencia Técnica Agricola”, luego selecione la carpeta “Configuración de Materia Prima”, por último seleccione la ventana “Rubro”.
+### Registro de Rubro
+
+Seleccione en el menú de ADempiere, la carpeta **Gestión de Asistencia Técnica Agricola**, luego selecione la carpeta **Configuración de Materia Prima**, por último seleccione la ventana **Rubro**.
 
 menú de rubro
 
 Imagen 1. Menú de ADempiere
 
-Podrá visualizar la ventana “Rubro”, con los diferentes rubros que contiene registrados ADempiere.
+Podrá visualizar la ventana **Rubro**, con los diferentes rubros que contiene registrados ADempiere.
 
 ventana rubro
 
 Imagen 2. Ventana Rubro
 
-Seleccione el icono “Registro Nuevo”, ubicado en la barra de herramientas de ADempiere, para crear un nuevo registro de rubro.
+Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de ADempiere, para crear un nuevo registro de rubro.
 
 icono registro nuevo de la ventana rubro
 
 Imagen 3. Icono Registro Nuevo de la Ventana Rubro
 
-Seleccione en el campo “Organización”, la organización para la cual esta registrando el rubro.
+Seleccione en el campo **Organización**, la organización para la cual esta registrando el rubro.
 
 Campo Organización
 
@@ -41,218 +42,219 @@ Warning
 
 Para que el rubro este disponible para todas las organizaciones, el mismo deberá estar registrado con la organización en (*) de lo contrario el rubro solo estará disponible para una sola organización.
 
-Introduzca en el campo “Código”, el código para el rubro que esta registrando.
+Introduzca en el campo **Código**, el código para el rubro que esta registrando.
 
 Campo Código
 
 Imagen 5. Campo Código
 
-Seleccione en el campo “Producto Padre”, el producto padre del rubro que se encuentra registrando.
+Seleccione en el campo **Producto Padre**, el producto padre del rubro que se encuentra registrando.
 
 campo producto padre
 
 Imagen 6. Campo Producto Padre
 
-Introduzca en el campo “Nombre”, el nombre del rubro que esta registrando.
+Introduzca en el campo **Nombre**, el nombre del rubro que esta registrando.
 
 Campo Nombre
 
 Imagen 7. Campo Nombre
 
-Introduzca en el campo “Descripción”, una breve descripción correspondiente al rubro que esta registrando.
+Introduzca en el campo **Descripción**, una breve descripción correspondiente al rubro que esta registrando.
 
 Campo Descripción
 
 Imagen 8. Campo Descripción
 
-Introduzca en el campo “Nota de Documento”, cualquier información adicional que considere necesaria.
+Introduzca en el campo **Nota de Documento**, cualquier información adicional que considere necesaria.
 
 Campo Nota de Documento
 
 Imagen 9. Campo Nota de Documento
 
-Introduzca en el campo “UPC/EAN”, el código de barras correspondiente al rubro que esta registrando.
+Introduzca en el campo **UPC/EAN**, el código de barras correspondiente al rubro que esta registrando.
 
 Campo UPC/EAN
 
 Imagen 10. Campo UPC/EAN
 
-Introduzca en el campo “UM Almacenamiento”, la unidad de medida de almacenamiento del rubro.
+Introduzca en el campo **UM Almacenamiento**, la unidad de medida de almacenamiento del rubro.
 
 Campo UM Almacenamiento
 
 Imagen 11. Campo UM Almacenamiento
 
-Seleccione en el campo “Categoría del Producto”, la categoría a la cual pertenece el rubro que esta registrando, la selección de este define el comportamiento del rubro que se esta registrando, dicho comportamiento se encuentra explicado en el documento Categorías de Productos elaborado por ERPyA.
+Seleccione en el campo **Categoría del Producto**, la categoría a la cual pertenece el rubro que esta registrando, la selección de este define el comportamiento del rubro que se esta registrando, dicho comportamiento se encuentra explicado en el documento Categorías de Productos elaborado por ERPyA.
 
 Campo Categoría del Producto
 
 Imagen 12. Campo Categoría del Producto
 
-Seleccione en el campo “Grupo de Producto”, el grupo al cual pertenece el rubro que esta registrando, la selección de este define el comportamiento del rubro que se esta registrando, dicho comportamiento se encuentra explicado en el documento Grupo de Productos elaborado por ERPyA.
+Seleccione en el campo **Grupo de Producto**, el grupo al cual pertenece el rubro que esta registrando, la selección de este define el comportamiento del rubro que se esta registrando, dicho comportamiento se encuentra explicado en el documento Grupo de Productos elaborado por ERPyA.
 
 Campo Grupo de Producto
 
 Imagen 13. Campo Grupo de Producto
 
-Seleccione en el campo “Clase de Producto”, la clase a la cual pertenece el rubro que esta registrando.
+Seleccione en el campo **Clase de Producto**, la clase a la cual pertenece el rubro que esta registrando.
 
 Campo Clase de Producto
 
 Imagen 14. Campo Clase de Producto
 
-Seleccione en el campo “Clasificación de Producto”, la clasificación a la cual pertenece el rubro que esta registrando.
+Seleccione en el campo **Clasificación de Producto**, la clasificación a la cual pertenece el rubro que esta registrando.
 
 Campo Clasificación de Producto
 
 Imagen 15. Campo Clasificación de Producto
 
-Seleccione en el campo “Categoría del Impuesto”, la agrupación de impuestos aplicale al rubro que esta registrando.
+Seleccione en el campo **Categoría del Impuesto**, la agrupación de impuestos aplicale al rubro que esta registrando.
 
 Campo Categoría del Impuesto
 
 Imagen 16. Campo Categoría del Impuesto
 
-Seleccione en el campo “Tipo de Impuesto”, el tipo de impuesto aplicable al rubro que esta registrando.
+Seleccione en el campo **Tipo de Impuesto**, el tipo de impuesto aplicable al rubro que esta registrando.
 
 Campo Tipo de Impuesto
 
 Imagen 17. Campo Tipo de Impuesto
 
-Seleccione en el campo “UM”, la unidad de medida del rubro.
+Seleccione en el campo **UM**, la unidad de medida del rubro.
 
 Campo UM
 
 Imagen 18. Campo UM
 
-Seleccione en el campo “Tipo de Producto”, el tipo de producto que esta registrando.
+Seleccione en el campo **Tipo de Producto**, el tipo de producto que esta registrando.
 
 Campo Tipo de Producto
 
 Imagen 19. Campo Tipo de Producto
 
-Introduzca en el campo “Peso”, el peso del rubro que esta registrando.
+Introduzca en el campo **Peso**, el peso del rubro que esta registrando.
 
 Campo Peso
 
 Imagen 20. Campo Peso
 
-Introduzca en el campo “Volumen”, el volumen del rubro que esta registrando.
+Introduzca en el campo **Volumen**, el volumen del rubro que esta registrando.
 
 Campo Volumen
 
 Imagen 21. Campo Volumen
 
-Podrá apreciar el checklist “Almacenado”, indicando que la empresa almacena el rubro que esta registrando.
+Podrá apreciar el checklist **Almacenado**, indicando que la empresa almacena el rubro que esta registrando.
 
 checklist Almacenado
 
 Imagen 22. Checklist Almacenado
 
-Seleccione en el campo “Ubicación”, la ubicación de almacenamiento dentro de la empresa del rubro que esta registrando.
+Seleccione en el campo **Ubicación**, la ubicación de almacenamiento dentro de la empresa del rubro que esta registrando.
 
 Campo Ubicación
 
 Imagen 23. Campo Ubicación
 
-Introduzca en el campo “Ancho de Anaquel”, el ancho requerido del anaquel para almacenar el rubro que esta registrando.
+Introduzca en el campo **Ancho de Anaquel**, el ancho requerido del anaquel para almacenar el rubro que esta registrando.
 
 Campo Ancho de Anaquel
 
 Imagen 24. Campo Ancho de Anaquel
 
-Introduzca en el campo “Altura del Anaquel”, la altura requerida del anaquel para almacenar el rubro que esta registrando.
+Introduzca en el campo **Altura del Anaquel**, la altura requerida del anaquel para almacenar el rubro que esta registrando.
 
 Campo Altura del Anaquel
 
 Imagen 25. Campo Altura del Anaquel
 
-Introduzca en el campo “Profundidad del Anaquel”, la profundidad requerida del anaquel para almacenar el rubro que esta registrando.
+Introduzca en el campo **Profundidad del Anaquel**, la profundidad requerida del anaquel para almacenar el rubro que esta registrando.
 
 Campo Profundidad del Anaquel
 
 Imagen 26. Campo Profundidad del Anaquel
 
-Introduzca en el campo “Unidades por Tarima”, el número de unidades del rubro que esta registrando que caben en una tarima.
+Introduzca en el campo **Unidades por Tarima**, el número de unidades del rubro que esta registrando que caben en una tarima.
 
 Campo Unidades por Tarima
 
 Imagen 27. Campo Unidades por Tarima
 
-Podrá visualizar el checklist “Comprado”, indicando que la organización compra el rubro que se esta registrando.
+Podrá visualizar el checklist **Comprado**, indicando que la organización compra el rubro que se esta registrando.
 
 checklist Comprado
 
 Imagen 28. Checklist Comprado
 
-Podrá visualizar el checklist “Vendido”, indicando que la organización compra el rubro que se esta registrando.
+Podrá visualizar el checklist **Vendido**, indicando que la organización compra el rubro que se esta registrando.
 
 checklist Vendido
 
 Imagen 29. Checklist Vendido
 
-Introduzca en el campo “Dirección Web Imagen”, la url de la imagen del rubro.
+Introduzca en el campo **Dirección Web Imagen**, la url de la imagen del rubro.
 
 Campo Dirección Web Imagen
 
 Imagen 30. Campo Dirección Web Imagen
 
-Introduzca en el campo “Dirección Web Descripción”, la url de la descripción del rubro.
+Introduzca en el campo **Dirección Web Descripción**, la url de la descripción del rubro.
 
 Campo Dirección Web Descripción
 
 Imagen 31. Campo Dirección Web Descripción
 
-Introduzca en el campo “Días de Caducidad”, el número de días límite de disponibilidad o garantía del rubro que esta registrando.
+Introduzca en el campo **Días de Caducidad**, el número de días límite de disponibilidad o garantía del rubro que esta registrando.
 
 Campo Días de Caducidad
 
 Imagen 32. Campo Días de Caducidad
 
-Introduzca en el campo “Días Mínimos Caducidad”, el número mínimo de días límite de disponibilidad o garantía del producto que esta registrando.
+Introduzca en el campo **Días Mínimos Caducidad**, el número mínimo de días límite de disponibilidad o garantía del producto que esta registrando.
 
 Campo Días Mínimos Caducidad
 
 Imagen 33. Campo Días Mínimos Caducidad
 
-Seleccione en el campo “Conjunto de Atributos”, el atributo del producto que esta registrando.
+Seleccione en el campo **Conjunto de Atributos**, el atributo del producto que esta registrando.
 
 Campo Conjunto de Atributos
 
 Imagen 34. Campo Conjunto de Atributos
 
-Seleccione en el campo “Instancia Conjunto de Atributos”, el conjunto de atributos perteneciente al producto que esta registrando.
+Seleccione en el campo **Instancia Conjunto de Atributos**, el conjunto de atributos perteneciente al producto que esta registrando.
 
 Campo Instancia Conjunto de Atributo
 
 Imagen 35. Campo Instancia Conjunto de Atributo
 
-Podrá visualizar el checklist “Rubro”, indicando que se esta registrando un rubro.
+Podrá visualizar el checklist **Rubro**, indicando que se esta registrando un rubro.
 
 checklist Rubro
 
 Imagen 36. Checklist Rubro
 
-Seleccione el icono “Guardar Cambios” en la barra de herramientas de ADempiere.
+Seleccione el icono **Guardar Cambios** en la barra de herramientas de ADempiere.
 
 Icono Guardar Cambios Pestaña Rubro
 
 Imagen 37. Icono Guardar Cambios
 
-Cálculo de Peso
-Seleccione la pestaña “Cálculo de Peso” y proceda al llenado de los campos.
+#### Cálculo de Peso
+
+Seleccione la pestaña **Cálculo de Peso** y proceda al llenado de los campos.
 
 pestaña cálculo de peso
 
 Imagen 38. Pestaña Cálculo de Peso
 
-Seleccione en el campo “Tipo de Cálculo de Peso”, el tipo de cálculo de peso correspondiente al registro que se encuentra realizando.
+Seleccione en el campo **Tipo de Cálculo de Peso**, el tipo de cálculo de peso correspondiente al registro que se encuentra realizando.
 
 campo tipo de cálculo de peso de la pestaña cálculo de peso
 
 Imagen 39. Campo Tipo de Cálculo de Peso
 
-Introduzca en el campo “Código”, el código correspondiente al registro que se encuentra realizando.
+Introduzca en el campo **Código**, el código correspondiente al registro que se encuentra realizando.
 
 campo código de la pestaña cálculo de peso
 
@@ -262,19 +264,19 @@ Note
 
 El código para el registro en el formato requerido; debe ser único. Un código le permite a usted un método rápido de encontrar un registro en particular.
 
-Seleccione en el campo “Secuencia”, la secuencia correspondiente al registro que se encuentra realizando.
+Seleccione en el campo **Secuencia**, la secuencia correspondiente al registro que se encuentra realizando.
 
 campo secuencia de la pestaña cálculo de peso
 
 Imagen 41. Campo Secuencia
 
-Introduzca en el campo “Nombre”, el nombre correspondiente al registro que se encuentra realizando.
+Introduzca en el campo **Nombre**, el nombre correspondiente al registro que se encuentra realizando.
 
 campo nombre de la pestaña cálculo de peso
 
 Imagen 42. Campo Nombre
 
-Introduzca en el campo “Nombre de Clase”, el nombre clase correspondiente al registro que se encuentra realizando.
+Introduzca en el campo **Nombre de Clase**, el nombre clase correspondiente al registro que se encuentra realizando.
 
 campo nombre de clase de la pestaña cálculo de peso
 
@@ -284,62 +286,63 @@ Note
 
 El nombre de clase identifica el nombre de la clase Java usada por este proceso.
 
-Introduzca en el campo “Descripción”, una breve descripción correspondiente al registro que se encuentra realizando.
+Introduzca en el campo **Descripción**, una breve descripción correspondiente al registro que se encuentra realizando.
 
 campo descripción de la pestaña cálculo de peso
 
 Imagen 44. Campo Descripción
 
-Seleccione en el campo “Tipo de Uso”, el tipo de uso para el cálculo de peso correspondiente al registro que se encuentra realizando.
+Seleccione en el campo **Tipo de Uso**, el tipo de uso para el cálculo de peso correspondiente al registro que se encuentra realizando.
 
 campo tipo de uso de la pestaña cálculo de peso
 
 Imagen 45. Campo Tipo de Uso
 
-Seleccione el icono “Guardar Cambios” en la barra de herramientas de ADempiere.
+Seleccione el icono **Guardar Cambios** en la barra de herramientas de ADempiere.
 
 Icono Guardar Cambios Pestaña Cálculo de Peso
 
 Imagen 46. Icono Guardar Cambios
 
-Etapa del Cultivo
-Seleccione la pestaña “Etapa del Cultivo” y proceda al llenado de los campos correspondientes.
+#### Etapa del Cultivo
+
+Seleccione la pestaña **Etapa del Cultivo** y proceda al llenado de los campos correspondientes.
 
 pestaña etapa del cultivo
 
 Imagen 47. Pestaña Etapa del Cultivo
 
-Seleccione en el campo “Código”, el código correspondiente al registro que se encuentra realizando.
+Seleccione en el campo **Código**, el código correspondiente al registro que se encuentra realizando.
 
 campo código de la pestaña etapa del cultivo
 
 Imagen 48. Campo Código
 
-Seleccione en el campo “Secuencia”, la secuencia correspondiente al registro que se encuentra realizando.
+Seleccione en el campo **Secuencia**, la secuencia correspondiente al registro que se encuentra realizando.
 
 campo secuencia de la pestaña etapa del cultivo
 
 Imagen 49. Campo Secuencia
 
-Introduzca en el campo “Nombre”, el nombre correspondiente al registro que se encuentra realizando.
+Introduzca en el campo **Nombre**, el nombre correspondiente al registro que se encuentra realizando.
 
 campo nombre de la pestaña etapa del cultivo
 
 Imagen 50. Campo Nombre
 
-Introduzca en el campo “Día Desde”, el día de inicio del cultivo del rubro.
+Introduzca en el campo **Día Desde**, el día de inicio del cultivo del rubro.
 
 campo dia desde de la pestaña etapa del cultivo
 
 Imagen 51. Campo Día Desde
 
-Introduzca en el campo “Día Hasta”, la día final del cultivo del rubro.
+Introduzca en el campo **Día Hasta**, la día final del cultivo del rubro.
 
 campo dia hasta de la pestaña etapa del cultivo
 
 Imagen 52. Campo Día Hasta
 
-Seleccione el icono “Guardar Cambios” en la barra de herramientas de ADempiere.
+Seleccione el icono **Guardar Cambios** en la barra de herramientas de ADempiere.
 
 Icono Guardar Cambios Pestaña Etapa del Cultivo
 

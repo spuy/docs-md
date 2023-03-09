@@ -8,12 +8,13 @@ article: false
 
 En esta ocasión ERPyA pretende ofrecerle una guía fácil para la definición de un productor en ADempiere, es importante seguir paso a paso cada procedimiento, de ello dependerá el éxito de los registros resultantes.
 
-Registro de Productor
-Pestaña Localización del Productor
-Pestaña Contacto
-Pestaña Finca
+- Registro de Productor
+  - Pestaña Localización del Productor
+  - Pestaña Contacto
+  - Pestaña Finca
 
-Registro de Productor
+## Registro de Productor
+
 Ubique y seleccione en el menú de ADempiere, la carpeta “Gestión de Asistencia Técnica Agricola”, luego seleccione la carpeta “Configuración de Asistencia Técnica”, por último seleccione la carpeta “Configuración de Productor”. Finalmente, seleccione la ventana “Productor”.
 
 Menú de Productor
@@ -148,7 +149,8 @@ Note
 
 Recuerde guardar el registro de los campos de la pestaña “Productor”, antes de seleccionar cualquier otra pestaña de la ventana “Productor”. El registro se guarda seleccionando el icono “Guardar Cambios”, ubicado en la barra de herramientas de ADempiere.
 
-Pestaña Localización del Productor
+### Pestaña Localización del Productor
+
 La localización de un productor es muy importante por diferentes motivos, ya que las transacciones de ventas serán realizadas al mismo, en esta pestaña se deben registrar con exactitud los datos de la dirección del mismo.
 
 Seleccione la pestaña “Localización” que se encuentra ubicada del lado izquierdo de la ventana productor.
@@ -251,7 +253,8 @@ Warning
 
 Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana productor.
 
-Pestaña Contacto
+### Pestaña Contacto
+
 En esta pestaña se registran todos los datos de contacto que se posea el productor.
 
 Seleccione la pestaña “Contacto” que se encuentra ubicada del lado izquierdo de la ventana productor, para proceder a llenar los campos necesarios.
@@ -364,7 +367,8 @@ Warning
 
 Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana productor.
 
-Pestaña Finca
+### Pestaña Finca
+
 Al seleccionar el productor en el registro de una finca, se carga de manera automática en la pestaña “Finca” de la ventana “Productor”, los datos registrados en la pestaña “Finca”, de la ventana “Finca”.
 
 pestaña finca de la ventana productor
