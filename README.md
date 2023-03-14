@@ -25,7 +25,7 @@ The collection includes a number of books covering the main topics of:
 - [Node 14x or later](https://nodejs.org/en/)
 
 
-Aeasy way for install is using [NVM](https://github.com/nvm-sh/nvm#install--update-script)
+A easy way for install is using [NVM](https://github.com/nvm-sh/nvm#install--update-script)
 ## Running the docs
 For build it just run `yarn build:vite`, if you want to run all doc just run `yarn dev:vite`, a result after run can be:
 
