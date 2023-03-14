@@ -14,7 +14,7 @@ ADempiere ofrece la posibilidad de contar con cierres contables ágiles, automat
 
 Asimismo, ofrece opciones con las cuales la empresa puede acceder a datos estadísticos, para crear informes personalizados, preparar presupuestos, manejo de costos de material, costos adicionales, distribuciones contables automáticas, centro de costos, actividades ABC y manejar todas las cuentas bajo dimensiones contables, y así, tener un mayor control sobre las operaciones financieras y los costos en los que incurre cada una de las actividades del negocio.
 
-El propósito de ERPyA es apoyar a nuestros clientes, dar respuestas rápidas y eficientes con el manejo de información para permitir la toma de decisiones y minimizar los costes.
+El propósito de **ERPyA** es apoyar a nuestros clientes, dar respuestas rápidas y eficientes con el manejo de información para permitir la toma de decisiones y minimizar los costes.
 
 - [Tipo de Aplicación](type-application)
 - [Elemento Contable](element)

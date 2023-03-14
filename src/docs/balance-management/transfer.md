@@ -6,33 +6,34 @@ sticky: 9
 article: false
 ---
 
-Una transferencia bancaria en ADempiere es el proceso mediante el cual se realizan los traslados de fondos entre cuentas, para simular y reflejar en ADempiere los movimientos realizados en los bancos reales, el procedimiento reflejará en la cuenta “Banco Desde”, un egreso y a su vez un ingreso en la cuenta “Banco Hasta”.
+Una transferencia bancaria en ADempiere es el proceso mediante el cual se realizan los traslados de fondos entre cuentas, para simular y reflejar en ADempiere los movimientos realizados en los bancos reales, el procedimiento reflejará en la cuenta **Banco Desde**, un egreso y a su vez un ingreso en la cuenta **Banco Hasta**.
 
 El presente material elaborado por ERPyA, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar una transferencia bancaria en ADempiere, en su versión 3.9.2 para la localización Venezuela.
 
-= Registro de Transferencia Bancaria
+- Registro de Transferencia Bancaria
   - Consultar Egreso Generado de la Transferencia Bancaria
   - Consultar Ingreso Generado de la transferencia Bancaria
 - Transferencia Bancaria de Nómina
 
-Registro de Transferencia Bancaria
+## Registro de Transferencia Bancaria
+
 Para realizar una transferencia bancaria en ADempiere deben seguir los siguientes pasos:
 
-Ubique yseleccione en el menú de ADempiere, la carpeta “Gestión de Saldos Pendientes”, luego seleccione el proceso “Transferencia Bancaria”.
+Ubique yseleccione en el menú de ADempiere, la carpeta **Gestión de Saldos Pendientes**, luego seleccione el proceso **Transferencia Bancaria**.
 
-Menú de ADempiere
+![Campo](/assets/img/docs/balance-management/ges-balance-image369.png)
 
 Imagen 1. Menú de ADempiere
 
-Podrá visualizar la ventana del proceso “Transferencia Bancaria” y proceder al llenado de los campos correspondientes.
+Podrá visualizar la ventana del proceso **Transferencia Bancaria** y proceder al llenado de los campos correspondientes.
 
-Ventana Transferencia Bancaria
+![Campo](/assets/img/docs/balance-management/ges-balance-image370.png)
 
 Imagen 2. Ventana Transferencia Bancaria
 
-Seleccione en el campo “Cuenta bancaria desde”, la cuenta a debitar el monto de la transferencia realizada.
+Seleccione en el campo **Cuenta bancaria desde**, la cuenta a debitar el monto de la transferencia realizada.
 
-Campo Cuenta Bancaria Desde
+![Campo](/assets/img/docs/balance-management/ges-balance-image371.png)
 
 Imagen 3. Campo Cuenta Bancaria Desde
 
@@ -40,9 +41,9 @@ Note
 
 La cuenta a debitar desde es la cuenta bancaria de donde saldrá la transferencia.
 
-Seleccione en el campo “Cuenta Bancaria a Transferir”, la cuenta a acreditar el monto de la transferencia realizada.
+Seleccione en el campo **Cuenta Bancaria a Transferir**, la cuenta a acreditar el monto de la transferencia realizada.
 
-Campo Cuenta Bancaria a Transferir
+![Campo](/assets/img/docs/balance-management/ges-balance-image372.png)
 
 Imagen 4. Campo Cuenta Bancaria a Transferir
 
@@ -50,21 +51,21 @@ Note
 
 La cuenta bancaria a transferir, es la cuenta en donde caerá la transferencia.
 
-Seleccione en el campo “Socio del Negocio”, el socio del negocio titular de la cuenta seleccionada.
+Seleccione en el campo **Socio del Negocio**, el socio del negocio titular de la cuenta seleccionada.
 
-Campo Socio del Negocio
+![Campo](/assets/img/docs/balance-management/ges-balance-image373.png)
 
 Imagen 5. Campo Socio del Negocio
 
-Seleccione en el campo “Moneda”, la moneda en la cual fue realizada la transferencia.
+Seleccione en el campo **Moneda**, la moneda en la cual fue realizada la transferencia.
 
-Campo Moneda
+![Campo](/assets/img/docs/balance-management/ges-balance-image374.png)
 
 Imagen 6. Campo Moneda
 
-Seleccione en el campo “Cargo”, el cargo correspondiente a la transferencia entre cuentas que se está realizando.
+Seleccione en el campo **Cargo**, el cargo correspondiente a la transferencia entre cuentas que se está realizando.
 
-Campo Cargo
+![Campo](/assets/img/docs/balance-management/ges-balance-image375.png)
 
 Imagen 7. Campo Cargo
 
@@ -72,110 +73,113 @@ Note
 
 El cargo a colocar en la transferencia bancaria depenrá de que tipo de transferencia se este realizando.
 
-Introduzca en el campo “No. del Documento”, la referencia correspondiente a la transferencia bancaria realizada.
+Introduzca en el campo **No. del Documento**, la referencia correspondiente a la transferencia bancaria realizada.
 
-Campo No. del Documento
+![Campo](/assets/img/docs/balance-management/ges-balance-image376.png)
 
 Imagen 8. Campo No. del Documento
 
 Note
 
-El número de documento a colocar en este campo es el número de la transferencia bancaria realizada del banco colocado en el campo “Cuenta bancaria desde”.
+El número de documento a colocar en este campo es el número de la transferencia bancaria realizada del banco colocado en el campo **Cuenta bancaria desde**.
 
-Introduzca en el campo “Documento Destino”, la referencia correspondiente a la transferencia bancaria realizada.
+Introduzca en el campo **Documento Destino**, la referencia correspondiente a la transferencia bancaria realizada.
 
-Campo Documento Destino
+![Campo](/assets/img/docs/balance-management/ges-balance-image377.png)
 
 Imagen 9. Campo Documento Destino
 
 Note
 
-El número de documento a colocar en este campo es el número de la transferencia bancaria realizada al banco seleccionado en el campo “Cuenta Bancaria a Transferir” (banco destino),el llenado de este campo aplicaría para aquellas transacciones de intercompañía el cual el personal que esté realizado el procedimiento conozca el número de transferencia en ambas cuentas bancarias (Banco a emisor/banco destino), si se desconoce el número de transferencia simplemente no se coloca, este campo no es un campo obligatorio por ello se puede obviar el llenado de este campo.
+El número de documento a colocar en este campo es el número de la transferencia bancaria realizada al banco seleccionado en el campo **Cuenta Bancaria a Transferir** (banco destino),el llenado de este campo aplicaría para aquellas transacciones de intercompañía el cual el personal que esté realizado el procedimiento conozca el número de transferencia en ambas cuentas bancarias (Banco a emisor/banco destino), si se desconoce el número de transferencia simplemente no se coloca, este campo no es un campo obligatorio por ello se puede obviar el llenado de este campo.
 
-Introduzca en el campo “Monto”, el monto total de la transferencia bancaria realizada.
+Introduzca en el campo **Monto**, el monto total de la transferencia bancaria realizada.
 
-Campo Monto
+![Campo](/assets/img/docs/balance-management/ges-balance-image378.png)
 
 Imagen 10. Campo Monto
 
-Introduzca en el campo “Descripción”, una breve descripción referente a la transferencia entre cuentas que está realizando.
+Introduzca en el campo **Descripción**, una breve descripción referente a la transferencia entre cuentas que está realizando.
 
-Campo Descripción
+![Campo](/assets/img/docs/balance-management/ges-balance-image379.png)
 
 Imagen 11. Campo Descripción
 
-Introduzca en el campo “Fecha de Estado de Cuenta”, la fecha de la transferencia bancaria realizada.
+Introduzca en el campo **Fecha de Estado de Cuenta**, la fecha de la transferencia bancaria realizada.
 
-Campo Fecha de Estado de Cuenta
+![Campo](/assets/img/docs/balance-management/ges-balance-image380.png)
 
 Imagen 12. Campo Fecha de Estado de Cuenta
 
-Introduzca en el campo “Fecha Contable”, la fecha de la transferencia bancaria realizada.
+Introduzca en el campo **Fecha Contable**, la fecha de la transferencia bancaria realizada.
 
-Campo Fecha Contable
+![Campo](/assets/img/docs/balance-management/ges-balance-image381.png)
 
 Imagen 13. Campo Fecha Contable
 
-Si desea que los pagos/cobros que se generen de esta transferencia bancarias se concilien de una vez puede tildar la opción “Conciliar Automáticamente”, si no tilda esta opción los pagos/cobros no se conciliaran y deberán ser conciliados a través Registro de Conciliación Automática
+Si desea que los pagos/cobros que se generen de esta transferencia bancarias se concilien de una vez puede tildar la opción **Conciliar Automáticamente**, si no tilda esta opción los pagos/cobros no se conciliaran y deberán ser conciliados a través Registro de Conciliación Automática
 
-Campo Conciliar Automáticamente
+![Campo](/assets/img/docs/balance-management/ges-balance-image382.png)
 
 Imagen 14. Campo Conciliar Automáticamente
 
-Seleccione la opción “OK”, para generar en ADempiere la transferencia entre cuentas bancarias.
+Seleccione la opción **OK**, para generar en ADempiere la transferencia entre cuentas bancarias.
 
-Opción OK
+![Campo](/assets/img/docs/balance-management/ges-balance-image383.png)
 
 Imagen 15. Opción OK
 
 Podrá apreciar el resultado del proceso de la siguiente manera.
 
-Resultado de Transferencia
+![Campo](/assets/img/docs/balance-management/ges-balance-image384.png)
 
 Imagen 16. Resultado de Transferencia
 
 Note
 
-Al realizar el proceso de transferencia bancaria, es generado un egreso en la cuenta seleccionada en el campo “Cuenta bancaria desde” y un ingreso en la cuenta seleccionada en el campo “Cuenta Bancaria a Transferir”.
+Al realizar el proceso de transferencia bancaria, es generado un egreso en la cuenta seleccionada en el campo **Cuenta bancaria desde** y un ingreso en la cuenta seleccionada en el campo **Cuenta Bancaria a Transferir**.
 
-De igual manera, cuando se está trabajando las transferencias bancarias con cajas es creado un documento de cobro en la ventana “Caja” reflejando el ingreso a la cuenta seleccionada en el campo “Cuenta Bancaria a Transferir” y un pago en la ventana “Pago/Cobro” reflejando el egreso de la cuenta seleccionada en el campo “Cuenta bancaria desde”.
+De igual manera, cuando se está trabajando las transferencias bancarias con cajas es creado un documento de cobro en la ventana **Caja** reflejando el ingreso a la cuenta seleccionada en el campo **Cuenta Bancaria a Transferir** y un pago en la ventana **Pago/Cobro** reflejando el egreso de la cuenta seleccionada en el campo **Cuenta bancaria desde**.
 
-Consultar Egreso Generado de la Transferencia Bancaria
-Si en la transferencia bancaria en el campo “Cuenta Bancaria Desde” fue seleccionada una cuenta bancaria el pago caerá en la ventana “Pago/Cobro” y tendrá como número de documento el número colocado en el campo “No. del Documento” de la transacción bancaria.
+### Consultar Egreso Generado de la Transferencia Bancaria
 
-Pago en Ventana Pago/Cobro
+Si en la transferencia bancaria en el campo **Cuenta Bancaria Desde** fue seleccionada una cuenta bancaria el pago caerá en la ventana **Pago/Cobro** y tendrá como número de documento el número colocado en el campo **No. del Documento** de la transacción bancaria.
+
+![Campo](/assets/img/docs/balance-management/ges-balance-image385.png)
 
 Imagen 17. Pago en Ventana Pago/Cobro
 
-Si en la transferencia bancaria en el campo “Cuenta Bancaria Desde” fue seleccionada una cuenta de caja el pago caerá en la ventana “Caja” y tendrá como número de documento el número colocado en el campo “No. del Documento” de la transacción bancaria.
+Si en la transferencia bancaria en el campo **Cuenta Bancaria Desde** fue seleccionada una cuenta de caja el pago caerá en la ventana **Caja** y tendrá como número de documento el número colocado en el campo **No. del Documento** de la transacción bancaria.
 
-Pago en Ventana Caja
+![Campo](/assets/img/docs/balance-management/ges-balance-image386.png)
 
 Imagen 18. Pago en Ventana Caja
 
-Consultar Ingreso Generado de la transferencia Bancaria
-Si en la transferencia bancaria en el campo “Cuenta Bancaria a Transferir” fue seleccionada una cuenta bancaria el cobro caerá en la ventana “Pago/Cobro”, si en el campo “Documento Destino” de la transferencia bancaria se colocó el número de la transacción este mismo debe aparecer como el número de documento del campo “No. del Documento” en la ventana “Pago/Cobro”.
+## Consultar Ingreso Generado de la transferencia Bancaria
 
-Cobro en Ventana Pago/Cobro
+Si en la transferencia bancaria en el campo **Cuenta Bancaria a Transferir** fue seleccionada una cuenta bancaria el cobro caerá en la ventana **Pago/Cobro**, si en el campo **Documento Destino** de la transferencia bancaria se colocó el número de la transacción este mismo debe aparecer como el número de documento del campo **No. del Documento** en la ventana **Pago/Cobro**.
+
+![Campo](/assets/img/docs/balance-management/ges-balance-image387.png)
 
 Imagen 19. Cobro en Ventana Pago/Cobro
 
 Note
 
-Si en el campo “Documento Destino” de la transferencia bancaria no se colocó el número de la transacción, el número de documento a mostrar del cobro en la ventana “Pago/Cobro” será el mismo que se número colocado en el campo “No. del Documento” de la transferencia bancaria.
+Si en el campo **Documento Destino** de la transferencia bancaria no se colocó el número de la transacción, el número de documento a mostrar del cobro en la ventana **Pago/Cobro** será el mismo que se número colocado en el campo **No. del Documento** de la transferencia bancaria.
 
-Si en la transferencia bancaria en el campo “Cuenta Bancaria a Transferir” fue seleccionada una cuenta de caja el cobro caerá en la ventana “Caja”, si en el campo “Documento Destino” de la transferencia bancaria se colocó el número de la transacción este mismo debe aparecer como el número de documento del campo “No. del Documento” en la ventana “Caja”.
+Si en la transferencia bancaria en el campo **Cuenta Bancaria a Transferir** fue seleccionada una cuenta de caja el cobro caerá en la ventana **Caja**, si en el campo **Documento Destino** de la transferencia bancaria se colocó el número de la transacción este mismo debe aparecer como el número de documento del campo **No. del Documento** en la ventana **Caja**.
 
-Cobro en Ventana Caja
+![Campo](/assets/img/docs/balance-management/ges-balance-image388.png)
 
 Imagen 20. Cobro en Ventana Caja
 
 Note
 
-Si en el campo “Documento Destino” de la transferencia bancaria no se colocó el número de la transacción, el número de documento a mostrar del cobro en la ventana “Caja” será el mismo que se número colocado en el campo “No. del Documento” de la transferencia bancaria.
+Si en el campo **Documento Destino** de la transferencia bancaria no se colocó el número de la transacción, el número de documento a mostrar del cobro en la ventana **Caja** será el mismo que se número colocado en el campo **No. del Documento** de la transferencia bancaria.
 
-Transferencia Bancaria de Nómina
-Luego de completar la selección de pago y de generar los pagos de nómina en la ventana imprimir exportar pagos procedemos a realizar la transferencia bancaria, ubicamos en el menú de ADempiere, la carpeta “Gestión de Saldos Pendientes”, luego seleccione “Transferencia Bancaria”. Este proceso es realizado con la finalidad que la empresa cancele a la cuenta de caja el monto total cancelado a los empleados por la nómina procesada.
+## Transferencia Bancaria de Nómina
+
+Luego de completar la selección de pago y de generar los pagos de nómina en la ventana imprimir exportar pagos procedemos a realizar la transferencia bancaria, ubicamos en el menú de ADempiere, la carpeta **Gestión de Saldos Pendientes**, luego seleccione **Transferencia Bancaria**. Este proceso es realizado con la finalidad que la empresa cancele a la cuenta de caja el monto total cancelado a los empleados por la nómina procesada.
 
 Cabe acotar que debe realizar la transferencia según el monto transferido a cada empleado
 
@@ -187,29 +191,29 @@ Warning
 
 Recuerde que al realizar la transferencia usted esta es registrando cada uno de los pagos que salen del banco. Por tal motivo debe tener especial cuidado en cuanto a monto y a número de referencia
 
-Seleccione en el campo “Cuenta Bancaria Desde” el nombre la cuenta bancaria original que utiliza la compañía para cancelar la nómina a los empleado. Esa será la cuenta que emitirá la transferencia bancaria.
+Seleccione en el campo **Cuenta Bancaria Desde** el nombre la cuenta bancaria original que utiliza la compañía para cancelar la nómina a los empleado. Esa será la cuenta que emitirá la transferencia bancaria.
 
-Seleccione en el campo “Cuenta Bancaria a Transferir” el nombre de la cuenta de la caja, esa cuenta es igual a la cuenta bancaria que usted seleccionó en su selección de pago, la cual se identifica al final del nombre con la palabra tránsito. Esa cuenta representará la cuenta que recibirá la transferencia bancaria.
+Seleccione en el campo **Cuenta Bancaria a Transferir** el nombre de la cuenta de la caja, esa cuenta es igual a la cuenta bancaria que usted seleccionó en su selección de pago, la cual se identifica al final del nombre con la palabra tránsito. Esa cuenta representará la cuenta que recibirá la transferencia bancaria.
 
-Seleccione en el campo “Socio de Negocio”, el socio de negocio registrado con los datos de su compañía.
+Seleccione en el campo **Socio de Negocio**, el socio de negocio registrado con los datos de su compañía.
 
-Seleccione en el campo “Moneda” debe registrar la moneda con la cual se está cancelando la nómina, en este caso será bolívares (VES).
+Seleccione en el campo **Moneda** debe registrar la moneda con la cual se está cancelando la nómina, en este caso será bolívares (VES).
 
-Seleccione en el campo “Cargo” el cargo denominado Efectivo en Tránsito Nómina, esté cargo se utiliza para indicar contablemente el registro del pago de la nómina.
+Seleccione en el campo **Cargo** el cargo denominado Efectivo en Tránsito Nómina, esté cargo se utiliza para indicar contablemente el registro del pago de la nómina.
 
-Seleccione en el campo “No. del Documento” debe registrar el mismo número de documento que le generó la selección de pago creada para la cancelación de su proceso de nómina. En caso de que realice transferencia bancarias particulares debe registrar el número de referencia de la transferencia.
+Seleccione en el campo **No. del Documento** debe registrar el mismo número de documento que le generó la selección de pago creada para la cancelación de su proceso de nómina. En caso de que realice transferencia bancarias particulares debe registrar el número de referencia de la transferencia.
 
-Seleccione en el campo “Documento Destino” el mismo número de documento que registró en el campo Nro. del Documento.
+Seleccione en el campo **Documento Destino** el mismo número de documento que registró en el campo Nro. del Documento.
 
-Seleccione en el campo “Monto” el monto total de la selección de pago que realizó anteriormente, ubique en la selección de pago el campo total total y allí encontrará el monto total de la selección de pago.
+Seleccione en el campo **Monto** el monto total de la selección de pago que realizó anteriormente, ubique en la selección de pago el campo total total y allí encontrará el monto total de la selección de pago.
 
-Seleccione en el campo “Descripción” una breve descripción de la transferencia realizada.
+Seleccione en el campo **Descripción** una breve descripción de la transferencia realizada.
 
-Seleccione en el campo “Fecha de Estado de Cuenta” la misma fecha con la que registró su selección de pago.
+Seleccione en el campo **Fecha de Estado de Cuenta** la misma fecha con la que registró su selección de pago.
 
-Seleccione en el campo “Fecha Contable” la misma fecha con la que registró su selección de pago.
+Seleccione en el campo **Fecha Contable** la misma fecha con la que registró su selección de pago.
 
-Transferencia Bancaria
+![Campo](/assets/img/docs/balance-management/ges-balance-image389.png)
 
 Imagen 1. Transferencia Bancaria
 
@@ -217,14 +221,14 @@ Warning
 
 Por favor NO tildar el check que dice conciliación automática
 
-Luego de que tenga todos los datos correctos proceda a culminar el proceso de transferencia bancaria tildando la opción de “OK”
+Luego de que tenga todos los datos correctos proceda a culminar el proceso de transferencia bancaria tildando la opción de **OK**
 
-Opción Ok
+![Campo](/assets/img/docs/balance-management/ges-balance-image390.png)
 
 Imagen 2. Opción OK
 
 Después de esto le aparecerá una ventana indicando que su transferencia bancaria fué creada
 
-Transferencia Creada
+![Campo](/assets/img/docs/balance-management/ges-balance-image391.png)
 
 Imagen 3. Transferencia Creada

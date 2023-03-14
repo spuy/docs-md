@@ -10,131 +10,136 @@ Una vez generada la selección de pago, podrá generar los pagos de los préstam
 
 Vaya a la ventana de Imprimir/Exporta Pago (Adjunto Imagen)
 
-Menú de Pagos
+![Campo](/assets/img/docs/loan-management/gep-loan-image30.png)
 
 Imagen 1. Menú de Pagos
 
 A continuación se desplegará la siguiente ventana (Adjunto Imagen)
 
-Imprimir y Exportar Pagos
+![Campo](/assets/img/docs/loan-management/gep-loan-image31.png)
 
 Imagen 2. Imprimir y Exportar Pagos
 
 Ingrese la selección de pagos generada en la sección Generar Selección de Pago, seleccionando la opción de búsqueda selección
 
-Búsqueda de Selección de Pagos
+![Campo](/assets/img/docs/loan-management/gep-loan-image32.png)
 
 Imagen 3. Búsqueda de Selección de Pagos
 
 A continuación se desplegará la siguiente ventana (Adjunto Imagen)
 
-Búsqueda de Pagos
+![Campo](/assets/img/docs/loan-management/gep-loan-image33.png)
 
 Imagen 4. Búsqueda de Pagos
 
 Seleccione la Selección de pago generada en la sección Generar Selección de Pago
 
-Generar Selección de Pagos
+![Campo](/assets/img/docs/loan-management/gep-loan-image34.png)
 
 Imagen 5. Generar Selección de Pagos
 
 Seleccione la opción imprimir text
 
-Imprimir Pago
+![Campo](/assets/img/docs/loan-management/gep-loan-image35.png)
 
 Imagen 6. Imprimir Pago
 
 A continuación ADempiere habrá generado el pago y usted verá el siguiente reporte (Adjunto Imagen)
 
-Reporte de Impresión de Pago
+![Campo](/assets/img/docs/loan-management/gep-loan-image36.png)
 
 Imagen 7. Reporte de Impresión de Pago
 
-Consulta de Pagos de Préstamo
+## Consulta de Pagos de Préstamo
+
 Existen dos posibles formas de consultar los pagos generados asociadas a un préstamo, a continuación serán explicadas.
 
-Pago/Cobro
+## Pago/Cobro
+
 Si el pago generado desde el proceso Generar Selección de Pago es generado con una cuenta bancaria podrá consultar con esta opción.
 
-Vaya a la ventana “Pago/Cobro” (Adjunto Imagen)
+Vaya a la ventana **Pago/Cobro** (Adjunto Imagen)
 
-Menú de Pago
+![Campo](/assets/img/docs/loan-management/gep-loan-image37.png)
 
 Imagen 8. Menú de Pago
 
 A continuación se desplegará la siguiente ventana (Adjunto Imagen).
 
-Ventana de Pago
+![Campo](/assets/img/docs/loan-management/gep-loan-image38.png)
 
 Imagen 9. Ventana de Pago
 
-Busque el registro desde la opción “Encontrar Registro” ubicada en la barra de herramientas.
+Busque el registro desde la opción **Encontrar Registro** ubicada en la barra de herramientas.
 
-Búsqueda de Pago
+![Campo](/assets/img/docs/loan-management/gep-loan-image39.png)
 
 Imagen 10. Búsqueda de Pago
 
 A continuación se desplegará el siguiente dialogo
 
-Ventana de Búsqueda de Pago
+![Campo](/assets/img/docs/loan-management/gep-loan-image40.png)
 
 Imagen 11. Ventana de Búsqueda de Pago
 
 Ingrese el número de la selección generada en el proceso Generar Selección de Pago
 
-Caja
+## Caja
+
 Si el pago generado desde el proceso Generar Selección de Pago es generado con una cuenta de caja podrá consultar con esta opción.
 
 Vaya a la ventana Caja (Adjunto Imagen)
 
-Menú de Caja
+![Campo](/assets/img/docs/loan-management/gep-loan-image41.png)
 
 Imagen 12. Menú de Caja
 
 A continuación se desplegará la siguiente ventana (Adjunto Imagen).
 
-Ventana de Caja
+![Campo](/assets/img/docs/loan-management/gep-loan-image42.png)
 
 Imagen 13. Ventana de Caja
 
-Busque el registro desde la opción “Encontrar Registro” ubicada en la barra de herramientas.
+Busque el registro desde la opción **Encontrar Registro** ubicada en la barra de herramientas.
 
-Ventana de Caja
+![Campo](/assets/img/docs/loan-management/gep-loan-image43.png)
 
 Imagen 14. Ventana de Caja
 
 A continuación se desplegará el siguiente dialogo
 
-Búsqueda de Caja
+![Campo](/assets/img/docs/loan-management/gep-loan-image44.png)
 
 Imagen 15. Búsqueda de Caja
 
 Ingrese el número de la selección generada en el proceso Generar Selección de Pago.
 
-Ventana de Préstamo:
+## Ventana de Préstamo:
+
 Una vez en la ventana de Préstamo
 
-Vaya a la opción “Visualiza Detalle(Donde es Usado)” ubicada en la barra de herramientas.
+Vaya a la opción **Visualiza Detalle(Donde es Usado)** ubicada en la barra de herramientas.
 
-Búsqueda de Referencia de Préstamo
+![Campo](/assets/img/docs/loan-management/gep-loan-image45.png)
 
 Imagen 16. Búsqueda de Referencia de Préstamo
 
 A continuación se desplegará el siguiente dialogo
 
-Referencia de Préstamo
+![Campo](/assets/img/docs/loan-management/gep-loan-image46.png)
 
 Imagen 17. Referencia de Préstamo
 
-Seleccione la opción “Pagos de Préstamos”
+Seleccione la opción **Pagos de Préstamos**
 
-Referencia de Préstamo Seleccionada
+![Campo](/assets/img/docs/loan-management/gep-loan-image47.png)
 
 Imagen 18. Referencia de Préstamo Seleccionada
 
 Esta opción lo llevará automáticamente a los pagos asociados a este préstamo.
 
-Contabilidad del Proceso
+## Contabilidad del Proceso
+
 ADempiere contabilizará el préstamo dependiendo de la contabilidad configurada en el cargo heredado desde la definición del producto financiero (Vea Configuración de Producto Financiero (Préstamo)).
 
 Cuenta

@@ -26,37 +26,39 @@ Capital
 
 Sin embargo existen casos en los cuales el solicitante retarda la cancelación de cuotas vencidas en estos casos ADempiere calcula intereses moratorios sobre la cuota vencida generando así una línea más en el documento.
 
-Interpretando la Ventana
+## Interpretando la Ventana
+
 Panel de Parámetros de Consulta de Amortización: En este panel dispone de los parámetros que serán de filtro para consultar las cuotas pendientes por Facturar.
 
-Consulta de Amortización
+![Campo](/assets/img/docs/loan-management/gep-loan-image12.png)
 
 Imagen 1. Consulta de Amortización
 
 Panel de resultados Para Selección de Cuotas: En este panel seleccionará las cuotas pendientes por Facturar.
 
-Para Selección de Cuotas
+![Campo](/assets/img/docs/loan-management/gep-loan-image13.png)
 
 Imagen 2. Para Selección de Cuotas
 
 Panel de Datos para Generar la Factura: En este panel indicará los datos para generar la factura.
 
-Interpretando la Ventana
+![Campo](/assets/img/docs/loan-management/gep-loan-image14.png)
 
 Imagen 3. Interpretando la Ventana
 
-Generar Factura desde Préstamo
+## Generar Factura desde Préstamo
+
 Se creó un Smart Browser permitiendo al usuario seleccionar múltiples cuotas de un préstamo en específico y generar de manera eficiente y segura, agrupando varias cuotas en una factura, ó discriminando por cuota si el usuario así lo desea de esta forma será generada una factura por cuota.
 
 Vaya a la ventana Generar Factura (Desde Préstamo) (Adjunto Imagen)
 
-Menú de Factura
+![Campo](/assets/img/docs/loan-management/gep-loan-image15.png)
 
 Imagen 4. Menú de Factura
 
 A continuación se desplegará la siguiente ventana (Adjunto Imagen)
 
-Generar Factura
+![Campo](/assets/img/docs/loan-management/gep-loan-image16.png)
 
 Imagen 5. Generar Factura
 
@@ -76,25 +78,25 @@ Vencido: Si selecciona la opción SI, filtrará las cuotas vencidas, si seleccio
 
 Seleccione la opción comenzar búsqueda
 
-Búsqueda
+![Campo](/assets/img/docs/loan-management/gep-loan-image17.png)
 
 Imagen 6. Búsqueda
 
 A continuación verá los siguientes resultados:
 
-Comenzar Búsqueda
+![Campo](/assets/img/docs/loan-management/gep-loan-image18.png)
 
 Imagen 7. Comenzar Búsqueda
 
 Seleccione la cuota que desea facturar:
 
-Resultado de Búsqueda
+![Campo](/assets/img/docs/loan-management/gep-loan-image19.png)
 
 Imagen 8. Resultado de Búsqueda
 
 Proceda a llenar los Datos para Generar la Factura.
 
-Llenando Datos
+![Campo](/assets/img/docs/loan-management/gep-loan-image20.png)
 
 Imagen 9. Llenando Datos
 
@@ -106,7 +108,7 @@ Dividir Factura: Esta opción debe ser marcada si desea dividir las facturas por
 
 Acción de Documento: Indique la acción de documento con la cual desea generar la selección.
 
-Datos para Facturar
+![Campo](/assets/img/docs/loan-management/gep-loan-image21.png)
 
 Imagen 10. Datos para Facturar
 
@@ -114,36 +116,37 @@ Si desea generar la selección de pago seleccione la opción ok OK, caso contrar
 
 Si seleccionó la opción OK el sistema generará la(s) factura(s) de forma exitosa generando el siguiente mensaje indicando el número(s) de la(s) factura(s) generada.
 
-Documentos Generados
+![Campo](/assets/img/docs/loan-management/gep-loan-image22.png)
 
 Imagen 11. Documentos Generados
 
-Consulta de Factura de Préstamo
+## Consulta de Factura de Préstamo
+
 Existen dos posibles formas de consultar las facturas generadas asociadas a un préstamo, a continuación serán explicadas.
 
 Ventanas en Documento por Cobrar
 
 Vaya a la ventana Documento por Cobrar (Adjunto Imagen)
 
-Factura
+![Campo](/assets/img/docs/loan-management/gep-loan-image23.png)
 
 Imagen 12. Menú de Factura
 
 A continuación se desplegará la siguiente ventana (Adjunto Imagen).
 
-Ventana de Factura
+![Campo](/assets/img/docs/loan-management/gep-loan-image24.png)
 
 Imagen 13. Ventana de Factura
 
-Busque el registro desde la opción “Encontrar Registro” ubicada en la barra de herramientas.
+Busque el registro desde la opción **Encontrar Registro** ubicada en la barra de herramientas.
 
-Buscar Factura
+![Campo](/assets/img/docs/loan-management/gep-loan-image25.png)
 
 Imagen 14. Buscar Factura
 
 A continuación se desplegará el siguiente dialogo
 
-Diálogo de Búsqueda
+![Campo](/assets/img/docs/loan-management/gep-loan-image26.png)
 
 Imagen 15. Diálogo de Búsqueda
 
@@ -153,27 +156,28 @@ Ventana de Préstamo:
 
 Una vez en la ventana de Préstamo
 
-Vaya a la opción “Visualiza Detalle(Donde es Usado)” ubicada en la barra de herramientas.
+Vaya a la opción **Visualiza Detalle(Donde es Usado)** ubicada en la barra de herramientas.
 
-Referencias de Factura
+![Campo](/assets/img/docs/loan-management/gep-loan-image27.png)
 
 Imagen 16. Referencias de Factura
 
 A continuación se desplegará el siguiente dialogo
 
-Lista de Referencias
+![Campo](/assets/img/docs/loan-management/gep-loan-image28.png)
 
 Imagen 17. Lista de Referencias
 
-Seleccione la opción “Documento por Cobrar de Cuota”
+Seleccione la opción **Documento por Cobrar de Cuota**
 
-Lista de Referencias Seleccionadas
+![Campo](/assets/img/docs/loan-management/gep-loan-image29.png)
 
 Imagen 18. Lista de Referencias Seleccionadas
 
 Esta opción lo llevará automáticamente a los pagos asociados a este préstamo.
 
-Contabilidad del Proceso
+## Contabilidad del Proceso
+
 ADempiere contabilizará el documento por cobrar dependiendo de la definición del producto financiero (Vea Configuración de Producto Financiero (Préstamo)), a continuación se detalla:
 
 Capital: Contabilidad definida en el producto asociado en producto financiero.

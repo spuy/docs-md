@@ -22,7 +22,8 @@ Basados en estas premisas ADempiere fue adecuado, convirtiendolo así en una her
 
 El material desarrollado propone la definición de un procedimiento previamente estudiado y modelado por consultores expertos en ADempiere, para configuración de ADempiere con enfoques en gestiones financieras.
 
-Requerimientos
+## Requerimientos
+
 Adempiere 3.90
 
 Aplicación de Cambios (Gestión Financiera).

@@ -14,11 +14,11 @@ Diagrama de Proceso Punto de Venta
 
 Imagen 1. Proceso de Punto de Venta
 
-El documento de entrega correspondiente a la venta, se genera de manera automática dependiendo de la configuración del tipo de documento “Orden POS”, utilizado en la ventana “Punto de Venta”. Dicha configuración en el tipo de documento indica lo siguiente:
+El documento de entrega correspondiente a la venta, se genera de manera automática dependiendo de la configuración del tipo de documento **Orden POS**, utilizado en la ventana **Punto de Venta**. Dicha configuración en el tipo de documento indica lo siguiente:
 
-Cuando se configura el tipo de documento indicando en el campo “Sub tipo OV” la opción “Orden Facturada (Automáticamente)”, se imprime automáticamente la factura al completar la orden.
+Cuando se configura el tipo de documento indicando en el campo **Sub tipo OV** la opción **Orden Facturada (Automáticamente)**, se imprime automáticamente la factura al completar la orden.
 
-De igual manera, el documento de entrega de la venta se genera de manera automática al seleccionar en el campo “Tipo de Documento para la Entrega”, la opción “Entrega Nacional POS”.
+De igual manera, el documento de entrega de la venta se genera de manera automática al seleccionar en el campo **Tipo de Documento para la Entrega**, la opción **Entrega Nacional POS**.
 
 De esta forma ADempiere agilizará notablemente las operaciones regulares al permitir administrar todas sus transacciones desde un terminal. Adicional a la automatización cuenta con la integración de los procesos alternos como contabilidad, inventarios y otros.
 

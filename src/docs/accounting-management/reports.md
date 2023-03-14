@@ -38,20 +38,21 @@ Detalles de Costos.
 
 A continuación, ERPyA desea ofrecer a sus clientes un material en el cual explicaremos de forma detallada las consideraciones, bondades y herramientas que ADempiere brinda para interpretar información contable que ayudará a complementar el análisis, permitiendo una visión clara a la hora de tomar decisiones en su empresa.
 
-Informe Financiero
-Generar Informe Financiero
-Balance de Comprobación
-Balance General
-Estado de Resultado
-Reportes Detallados
-Detalles de Asientos Contables
-Estado de Cuenta
-Balance de Prueba
-Asientos Diarios de Contabilidad
-Asientos Contables por Período
-Registros Contables No Conciliados
+- Informe Financiero
+- Generar Informe Financiero
+- Balance de Comprobación
+- Balance General
+- Estado de Resultado
+- Reportes Detallados
+- Detalles de Asientos Contables
+- Estado de Cuenta
+- Balance de Prueba
+- Asientos Diarios de Contabilidad
+- Asientos Contables por Período
+- Registros Contables No Conciliados
 
-Informe Financiero
+## Informe Financiero
+
 El informe financiero permite presentar el análisis de desempeño y el estado de las finanzas de forma precisa o detallada ocurrida en un periodo contable, generalmente contrastado con objetivos estimados para evaluar la rentabilidad de la actividades realizadas en la organización.
 
 Para este análisis es indispensable la recopilación de información precisa por actividad o centros de costos sobre todo en el área financiera, esto es por que esta información es la clave para descubrir el estado actual de la compañía y de esta forma ejecutar acciones que permitan corregir faltas, errores y deficiencias a corto y mediano plazo.
@@ -62,111 +63,112 @@ Para esto generalmente se requieren soluciones de edición y de presentación pe
 
 Es por ello que ERPyA ha diseñado para usted una gama de instructivos en los que detallaremos la utilidad y los resultados de esta funcionalidad.
 
-Generar Informe Financiero
-Balance de Comprobación
-Balance General
-Estado de Resultado
+- Generar Informe Financiero
+- Balance de Comprobación
+- Balance General
+- Estado de Resultado
 
-Generar Informe Financiero
-Para generar un informe financiero el usuario debe ubicarse en el menú de ADempiere. Debe seleccionar la carpeta “Análisis de Desempeño”, luego debe seleccionar la carpeta “Informes Financieros” y por último la ventana “Informe Financiero”.
+## Generar Informe Financiero
 
-Menú de ADempiere
+Para generar un informe financiero el usuario debe ubicarse en el menú de ADempiere. Debe seleccionar la carpeta **Análisis de Desempeño**, luego debe seleccionar la carpeta **Informes Financieros** y por último la ventana **Informe Financiero**.
+
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image493.png)
 
 Imagen 1. Menú de ADempiere
 
-El reporte de informe financiero es generado a través de la selección del proceso “Crear Informe”, el cual se encuentra ubicado en la parte inferior de la ventana “Informe Financiero”.
+El reporte de informe financiero es generado a través de la selección del proceso **Crear Informe**, el cual se encuentra ubicado en la parte inferior de la ventana **Informe Financiero**.
 
-Ventana Informe Financiero
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image494.png)
 
 Imagen 2. Ventana Informe Financiero
 
-Al seleccionar el proceso, el usuario podrá visualizar la ventana “Crear Informe”, esta ventana cuenta con diferentes campos que permiten filtrar la información en base a los campos que sean seleccionados, a continuación detallaremos cada uno de los campos:
+Al seleccionar el proceso, el usuario podrá visualizar la ventana **Crear Informe**, esta ventana cuenta con diferentes campos que permiten filtrar la información en base a los campos que sean seleccionados, a continuación detallaremos cada uno de los campos:
 
-Seleccione el periodo en el campo “Período”.
+Seleccione el periodo en el campo **Período**.
 
 El periodo no es un campo obligatorio, sin embargo, le permite definir el rango de fecha en el cual desea emitir los saldos contables para su informe financiero,recordando que cada periodo está previamente configurado y representa un determinado tiempo en el cual se registran y se reconocen operaciones económicas.
 
-Campo Período
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image495.png)
 
 Imagen 3. Campo Período
 
-Seleccione la organización en el campo “Organización”.
+Seleccione la organización en el campo **Organización**.
 
 La organización no es un campo obligatorio, sin embargo, representa una dimensión contable y le permite filtrar la información por organización cuando existe más de una, es decir, el informe financiero podrá emitir saldos contables de una organización al seleccionarla, si por el contrario, el campo está vacío ADempiere mostrará la información contable de todas las organizaciones.
 
-Campo Organización
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image496.png)
 
 Imagen 4. Campo Organización
 
-Seleccione el socio de negocio en el campo “Socio de Negocio”.
+Seleccione el socio de negocio en el campo **Socio de Negocio**.
 
 El socio de negocio no es un campo obligatorio, sin embargo, representa una dimensión contable y le permite filtrar la información por socio de negocio según su naturaleza, cliente, proveedor o empleado, es decir, el informe financiero podrá emitir saldos contables de un socio de negocio al seleccionarlo, si por el contrario, el campo está vacío ADempiere mostrará la información contable de todos los socios de negocios.
 
-Campo Socio del Negocio
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image497.png)
 
 Imagen 5. Campo Socio del Negocio
 
-Seleccione el producto en el campo “Producto”.
+Seleccione el producto en el campo **Producto**.
 
 El producto no es un campo obligatorio, sin embargo, representa una dimensión contable y le permite filtrar la información por producto, es decir, el informe financiero podrá emitir saldos contables de un producto al seleccionarlo, si por el contrario, el campo está vacío ADempiere mostrará la información contable de todos los productos.
 
-Campo Producto
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image498.png)
 
 Imagen 6. Campo Producto
 
-Seleccione la actividad en el campo “Actividad”.
+Seleccione la actividad en el campo **Actividad**.
 
 La actividad no es un campo obligatorio, sin embargo, representa una dimensión contable y le permite filtrar la información por actividad, que generalmente es utilizada en contabilidad para distribución de los costos y gastos según las actividades que se desarrollan en la empresa, es decir, el informe financiero podrá emitir saldos contables de una actividad al seleccionarla, si por el contrario, el campo está vacío ADempiere mostrará la información contable de todas las actividades.
 
-Campo Actividad
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image499.png)
 
 Imagen 7. Campo Actividad
 
-Seleccione la región de venta en el campo “Región de Venta”.
+Seleccione la región de venta en el campo **Región de Venta**.
 
 La región de venta no es un campo obligatorio, sin embargo, representa una dimensión contable y le permite filtrar la información por región de venta, que generalmente es utilizada para clasificar las zonas en las cuales la empresa establece negocios, es decir, el informe financiero podrá emitir saldos contables de una región de venta al seleccionarla, si por el contrario, el campo está vacío ADempiere mostrará la información contable de todas las regiones.
 
-Campo Región de Ventas
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image500.png)
 
 Imagen 8. Campo Región de Ventas
 
-Seleccione el centro de costo en el campo “Centro de Costo”.
+Seleccione el centro de costo en el campo **Centro de Costo**.
 
 El centro de costo no es un campo obligatorio, sin embargo, representa una dimensión contable y le permite filtrar la información por centro de costo, que generalmente es utilizado para segmentar los costos que genera una organización, permitiendo definir la ganancia o pérdida que le pueden añadir de forma directa o indirecta a una empresa, es decir, el informe financiero podrá emitir saldos contables de una región de venta al seleccionarla, si por el contrario, el campo está vacío ADempiere mostrará la información contable de todos los centros de costos.
 
-Campo Centro de Costos
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image501.png)
 
 Imagen 9. Campo Centro de Costos
 
-Seleccione el tipo de aplicación en el campo “Tipo de Aplicación”.
+Seleccione el tipo de aplicación en el campo **Tipo de Aplicación**.
 
-El tipo de aplicación no es un campo obligatorio, sin embargo, le permite filtrar la información por tipo de aplicación, que generalmente es utilizado para clasificar el tipo de contabilidad aplicado, el tipo de aplicación establecido por defecto es actual, basado en la configuración previa en las “Columnas de Informe” asociada al informe financiero, no obstante, podrá seleccionar entre, actual, presupuesto, reserva, compromiso y estadística, es decir, el informe financiero podrá emitir saldos contables de un tipo de aplicación específico al seleccionarlo, si por el contrario, el campo está vacío ADempiere mostrará la información contable del tipo de aplicación “Actual”. Para profundizar más este tema vaya a el documento: Tipo de Aplicación
+El tipo de aplicación no es un campo obligatorio, sin embargo, le permite filtrar la información por tipo de aplicación, que generalmente es utilizado para clasificar el tipo de contabilidad aplicado, el tipo de aplicación establecido por defecto es actual, basado en la configuración previa en las **Columnas de Informe** asociada al informe financiero, no obstante, podrá seleccionar entre, actual, presupuesto, reserva, compromiso y estadística, es decir, el informe financiero podrá emitir saldos contables de un tipo de aplicación específico al seleccionarlo, si por el contrario, el campo está vacío ADempiere mostrará la información contable del tipo de aplicación **Actual**. Para profundizar más este tema vaya a el documento: Tipo de Aplicación
 
-Campo Tipo de Aplicación
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image502.png)
 
 Imagen 10. Campo Tipo de Aplicación
 
-Seleccione la opción Si o No en el campo “Desplegar fuentes Fuentes”.
+Seleccione la opción Si o No en el campo **Desplegar fuentes Fuentes**.
 
-Desplegar fuentes Fuentes no es un campo obligatorio, sin embargo, le permite visualizar el saldo de las cuentas detalle que dan origen al saldo de las cuentas acumulativas, también llamadas cuentas de mayor, es decir, si selecciona la opción “Si”, el informe financiero mostrará el saldo de las cuentas de mayor y el saldo de las cuentas detalle que componen esta cuenta, si por el contrario, la opción seleccionada es “No” o el campo está vacío ADempiere mostrará el saldo contable únicamente de las cuentas definidas previamente en el “Grupo de Líneas del Informe” asociado al informe financiero.
+Desplegar fuentes Fuentes no es un campo obligatorio, sin embargo, le permite visualizar el saldo de las cuentas detalle que dan origen al saldo de las cuentas acumulativas, también llamadas cuentas de mayor, es decir, si selecciona la opción **Si**, el informe financiero mostrará el saldo de las cuentas de mayor y el saldo de las cuentas detalle que componen esta cuenta, si por el contrario, la opción seleccionada es **No** o el campo está vacío ADempiere mostrará el saldo contable únicamente de las cuentas definidas previamente en el **Grupo de Líneas del Informe** asociado al informe financiero.
 
-Campo Desplegar fuentes Fuentes
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image503.png)
 
 Imagen 11. Campo Desplegar fuentes Fuentes
 
-Seleccione la opción Si o No en el campo “Lista Transacciones”.
+Seleccione la opción Si o No en el campo **Lista Transacciones**.
 
-Lista Transacciones es un campo dependiente del campo “Desplegar fuentes Fuentes”, es decir solo estará habilitado cuando el campo “Desplegar fuentes Fuentes” esté establecido con la opción “Si”,”Lista Transacciones” no es un campo obligatorio, sin embargo, le permite visualizar el débito o crédito de las transacciones que dan origen al saldo de las cuentas detalles y a su vez a las cuentas acumulativas, también llamadas cuentas de mayor, es decir, si selecciona la opción “Si”, el informe financiero mostrará el monto de las transacciones que componen cada cuenta, si por el contrario, la opción seleccionada es “No” o el campo está vacío ADempiere mostrará el saldo contable únicamente de las cuentas detalles.
+Lista Transacciones es un campo dependiente del campo **Desplegar fuentes Fuentes**, es decir solo estará habilitado cuando el campo **Desplegar fuentes Fuentes** esté establecido con la opción **Si**,**Lista Transacciones** no es un campo obligatorio, sin embargo, le permite visualizar el débito o crédito de las transacciones que dan origen al saldo de las cuentas detalles y a su vez a las cuentas acumulativas, también llamadas cuentas de mayor, es decir, si selecciona la opción **Si**, el informe financiero mostrará el monto de las transacciones que componen cada cuenta, si por el contrario, la opción seleccionada es **No** o el campo está vacío ADempiere mostrará el saldo contable únicamente de las cuentas detalles.
 
-Campo Lista Transacciones
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image504.png)
 
 Imagen 12. Campo Lista Transacciones
 
 Seleccione la opción Si o No en el campo Listas Fuentes Primero.
 
-Listas Fuentes Primero se encuentra por defecto con la opción “No”, no es un campo obligatorio, sin embargo, le permite organizar su informe financiero, organizando las cuentas fuentes(cuentas detalle) listadas desde la opción “Desplegar fuentes Fuentes” y “Lista Transacciones” de forma que si la opción seleccionada en el campo “Listas Fuentes Primero” es “Si las cuentas detalle junto a las transacciones irán precediendo a las cuentas definidas previamente en el “Grupo de Líneas del Informe” asociado al informe financiero, si por el contrario, el campo está vacío ADempiere mostrará las cuentas detalle junto a las transacciones sucediendo a las cuentas definidas previamente en el “Grupo de Líneas del Informe” asociado al informe financiero.
+Listas Fuentes Primero se encuentra por defecto con la opción **No**, no es un campo obligatorio, sin embargo, le permite organizar su informe financiero, organizando las cuentas fuentes(cuentas detalle) listadas desde la opción **Desplegar fuentes Fuentes** y **Lista Transacciones** de forma que si la opción seleccionada en el campo **Listas Fuentes Primero** es **Si las cuentas detalle junto a las transacciones irán precediendo a las cuentas definidas previamente en el **Grupo de Líneas del Informe** asociado al informe financiero, si por el contrario, el campo está vacío ADempiere mostrará las cuentas detalle junto a las transacciones sucediendo a las cuentas definidas previamente en el **Grupo de Líneas del Informe** asociado al informe financiero.
 
-Campo Lista Fuentes Primero
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image505.png)
 
 Imagen 13. Checklist Lista Fuentes Primero
 
@@ -176,11 +178,11 @@ Reportando Jerarquías no es un campo obligatorio, sin embargo, le permite gener
 
 Imaginemos una organización cuya estructura en ventas está definida de la siguiente forma:
 
-Organigrama Venta
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image506.png)
 
 Imagen 14. Organigrama Ventas
 
-Si se desea ver un informe para realizar un análisis de desempeño de la entidad en la organización seguramente se evaluarán resultados en cuentas como ingresos, cuentas por cobrar, compromisos, costos y gastos asociado al departamento, región de ventas o incluso al empleado(gerente de ventas o vendedor), para esto ADempiere permite la creación de jerarquías para cualquier elemento seleccionado en el esquema contable y de esta forma reportar por estructuras y roles definidos previamente en “Informe de Jerarquías”.
+Si se desea ver un informe para realizar un análisis de desempeño de la entidad en la organización seguramente se evaluarán resultados en cuentas como ingresos, cuentas por cobrar, compromisos, costos y gastos asociado al departamento, región de ventas o incluso al empleado(gerente de ventas o vendedor), para esto ADempiere permite la creación de jerarquías para cualquier elemento seleccionado en el esquema contable y de esta forma reportar por estructuras y roles definidos previamente en **Informe de Jerarquías**.
 
 Basados en lo anteriormente expuesto, en este ejemplo se crearía una jerarquía asociando los siguientes árboles:
 
@@ -192,7 +194,7 @@ De esta forma se definirán todos los árboles necesarios para el ejemplo, para 
 
 Al generar el informe financiero con esta definición usted podrá observar un reporte basado en la estructura del informe de jerarquías con el saldo de las cuentas y las actividades fijadas en el mismo.
 
-Campo Reportando Jerarquías
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image507.png)
 
 Imagen 15. Campo Reportando Jerarquías
 
@@ -200,756 +202,765 @@ Seleccione el cubo de informe en el campo Cubo Informe.
 
 El cubo de informe no es un campo obligatorio, sin embargo, le permite generar un informe financiero con una información analizada en línea en una base de datos multidimensional de gran volumen, es decir, muestra datos procesados con una gran agilidad y rapidez reduciendo a gran escala el tiempo y los recursos empleados en el análisis, para explicarlo mejor veamos el siguiente ejemplo:
 
-Imaginemos una empresa en la que requiere dentro de una escala de tiempo incluir datos de un periodo contable, este llevaría por nombre “Junio 2020”, en el que se desean medir otras dimensiones del cubo para alcanzar información referente a un proyecto, los productos por categorías, y costos en los que incurre la empresa para alcanzar el proyecto.
+Imaginemos una empresa en la que requiere dentro de una escala de tiempo incluir datos de un periodo contable, este llevaría por nombre **Junio 2020**, en el que se desean medir otras dimensiones del cubo para alcanzar información referente a un proyecto, los productos por categorías, y costos en los que incurre la empresa para alcanzar el proyecto.
 
-Cubo de información
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image508.png)
 
 Imagen 16. Cubo de información
 
 Este cruce de la información permite analizar diversas situaciones y resultados llevando a cabo consultas de los datos masivos de manera eficiente y ligera para tomar decisiones acertadas.
 
-Campo Cubo Informe
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image509.png)
 
 Imagen 17. Campo Cubo Informe
 
-Luego de verificar los campos que contiene la ventana, el usuario debe seleccionar la opción “OK”, para que sea generado el informe.
+Luego de verificar los campos que contiene la ventana, el usuario debe seleccionar la opción **OK**, para que sea generado el informe.
 
-Ventana Crear Informe
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image510.png)
 
 Imagen 18. Ventana Crear Informe
 
-Balance de Comprobación
+## Balance de Comprobación
+
 Un informe financiero de balance de comprobación es un reporte que muestra los débitos, créditos y los saldos iniciales y finales de las cuentas.
 
-Para generar el reporte, debe realizar el procedimiento explicado en el documento Generar Informe Financiero, elaborado por ERPyA. Luego de que haya culminado el procedimiento, podrá visualizar la ventana “Informe” con el reporte financiero “Balance de Comprobación”.
+Para generar el reporte, debe realizar el procedimiento explicado en el documento Generar Informe Financiero, elaborado por ERPyA. Luego de que haya culminado el procedimiento, podrá visualizar la ventana **Informe** con el reporte financiero **Balance de Comprobación**.
 
-Primer Reporte
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image511.png)
 
 Imagen 3. Balance de Comprobación
 
 Note
 
-El reporte de balance de comprobación muestra la información en base al periodo de tiempo seleccionado en el campo “Periodo” de la ventana “Crear Informe”.
+El reporte de balance de comprobación muestra la información en base al periodo de tiempo seleccionado en el campo **Periodo** de la ventana **Crear Informe**.
 
-Balance General
+## Balance General
+
 Un informe financiero de balance general es un reporte que muestra la situación económica y financiera en un momento determinado.
 
 Para generar el reporte, debe realizar el procedimiento explicado en el documento Generar Informe Financiero, elaborado por ERPyA.
 
-Luego de que haya culminado el procedimiento, podrá visualizar la ventana “Informe”, donde debe seleccionar la opción “Balance General”, en el campo “Formato de Impresión” para poder visualizar el reporte requerido.
+Luego de que haya culminado el procedimiento, podrá visualizar la ventana **Informe**, donde debe seleccionar la opción **Balance General**, en el campo **Formato de Impresión** para poder visualizar el reporte requerido.
 
-Segundo Reporte
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image512.png)
 
 Imagen 4. Balance General
 
 Note
 
-El reporte de balance general muestra la información en base al periodo de tiempo seleccionado en el campo “Periodo” de la ventana “Crear Informe”.
+El reporte de balance general muestra la información en base al periodo de tiempo seleccionado en el campo **Periodo** de la ventana **Crear Informe**.
 
-Estado de Resultado
+## Estado de Resultado
+
 Un informe financiero de estado de resultado es un reporte que muestra los movimientos de los ingresos y egresos de la empresa.
 
 Para generar el reporte, debe realizar el procedimiento explicado en el documento Generar Informe Financiero, elaborado por ERPyA.
 
-Luego de que haya culminado el procedimiento, podrá visualizar la ventana “Informe”, donde debe seleccionar la opción “Estado de Resultado”, en el campo “Formato de Impresión” para poder visualizar el reporte requerido.
+Luego de que haya culminado el procedimiento, podrá visualizar la ventana **Informe**, donde debe seleccionar la opción **Estado de Resultado**, en el campo **Formato de Impresión** para poder visualizar el reporte requerido.
 
-Tercer Reporte
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image513.png)
 
 Imagen 5. Estado de Resultado
 
 Note
 
-El reporte de estado de resultado muestra la información en base al periodo de tiempo seleccionado en el campo “Periodo” de la ventana “Crear Informe”.
+El reporte de estado de resultado muestra la información en base al periodo de tiempo seleccionado en el campo **Periodo** de la ventana **Crear Informe**.
 
-Reportes Detallados
+## Reportes Detallados
+
 El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de generar reportes detallados de manera exitosa en la versión 3.9.2 de ADempiere en la localización Venezuela.
 
-Detalles de Asientos Contables
-Estado de Cuenta
-Balance de Prueba
-Asientos Diarios de Contabilidad
-Asientos Contables por Período
-Registros Contables No Conciliados
+- Detalles de Asientos Contables
+- Estado de Cuenta
+- Balance de Prueba
+- Asientos Diarios de Contabilidad
+- Asientos Contables por Período
+- Registros Contables No Conciliados
 
-Detalles de Asientos Contables
-Ubique y seleccione en el menú de ADempiere, la carpeta “Análisis de Desempeño”, luego seleccione el reporte “Detalles de Asientos Contables”.
+## Detalles de Asientos Contables
 
-Menú de ADempiere
+Ubique y seleccione en el menú de ADempiere, la carpeta **Análisis de Desempeño**, luego seleccione el reporte **Detalles de Asientos Contables**.
+
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image514.png)
 
 Imagen 1. Menú de ADempiere
 
-Podrá visualizar la ventana “Detalles de Asientos Contables”, con diferentes campos que le permiten a los usuarios filtrar la información para generar el reporte según lo requerido por el mismo.
+Podrá visualizar la ventana **Detalles de Asientos Contables**, con diferentes campos que le permiten a los usuarios filtrar la información para generar el reporte según lo requerido por el mismo.
 
-Ventana Detalles de Asientos Contables
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image515.png)
 
 Imagen 2. Ventana Detalles de Asientos Contables|
 
-Seleccione en el campo “Esquema Contable”, el esquema contable previamente definido para contabilizar las cuentas.
+Seleccione en el campo **Esquema Contable**, el esquema contable previamente definido para contabilizar las cuentas.
 
-Campo Esquema Contable de la Ventana Detalles de Asientos Contables
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image516.png)
 
 Imagen 3. Campo Esquema Contable de la Ventana Detalles de Asientos Contables
 
 Seleccione en el campo Organización, la organización para la cual esta realizando el detalle de asientos contables.
 
-Campo Organización de la Ventana Detalles de Asientos Contables
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image517.png)
 
 Imagen 4. Campo Organización de la Ventana Detalles de Asientos Contables
 
-Seleccione en el campo “Fecha Contable”, el rango de tiempo en el cual fueron realizadas las transacciones y de las cuales requiere el reporte.
+Seleccione en el campo **Fecha Contable**, el rango de tiempo en el cual fueron realizadas las transacciones y de las cuales requiere el reporte.
 
-Campo Fecha Contable de la Ventana Detalles de Asientos Contables
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image518.png)
 
 Imagen 5. Campo Fecha Contable de la Ventana Detalles de Asientos Contables
 
-Seleccione en el campo “Fecha de la Transacción”, el rango de tiempo en el cual fueron realizadas las transacciones y de las cuales requiere el reporte.
+Seleccione en el campo **Fecha de la Transacción**, el rango de tiempo en el cual fueron realizadas las transacciones y de las cuales requiere el reporte.
 
-Campo Fecha de la Transacción de la Ventana Detalles de Asientos Contables
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image519.png)
 
 Imagen 6. Campo Fecha de la Transacción de la Ventana Detalles de Asientos Contables
 
-Seleccione en el campo “Período”, el rango de tiempo para filtrar la búsqueda de la información.
+Seleccione en el campo **Período**, el rango de tiempo para filtrar la búsqueda de la información.
 
-Campo Período de la Ventana Detalles de Asientos Contables
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image520.png)
 
 Imagen 7. Campo Período de la Ventana Detalles de Asientos Contables
 
-Seleccione en el campo “Código de Cuenta”, el código de cuenta correspondiente.
+Seleccione en el campo **Código de Cuenta**, el código de cuenta correspondiente.
 
-Campo Código de Cuenta de la Ventana Detalles de Asientos Contables
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image521.png)
 
 Imagen 8. Campo Código de Cuenta de la Ventana Detalles de Asientos Contables
 
-Seleccione en el campo “Cuenta”, la cuenta de la cual requiere el reporte.
+Seleccione en el campo **Cuenta**, la cuenta de la cual requiere el reporte.
 
-Campo Cuenta de la Ventana Detalles de Asientos Contables
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image522.png)
 
 Imagen 9. Campo Cuenta de la Ventana Detalles de Asientos Contables
 
-Seleccione en el campo “Tipo de Cuenta”, el tipo de cuenta correspondiente a la cuenta seleccionada.
+Seleccione en el campo **Tipo de Cuenta**, el tipo de cuenta correspondiente a la cuenta seleccionada.
 
-Campo Tipo de Cuenta de la Ventana Detalles de Asientos Contables
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image523.png)
 
 Imagen 10. Campo Tipo de Cuenta de la Ventana Detalles de Asientos Contables
 
 Seleccione en el campo Tipo de Aplicación, el tipo de aplicación por el cual requiere filtrar la información.
 
-Campo Tipo de Aplicación de la Ventana Detalles de Asientos Contables
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image524.png)
 
 Imagen 11. Campo Tipo de Aplicación de la Ventana Detalles de Asientos Contables
 
-Seleccione en el campo “Categoría Contabilidad”, la categoría de contabilidad por la cual requiere filtrar la información.
+Seleccione en el campo **Categoría Contabilidad**, la categoría de contabilidad por la cual requiere filtrar la información.
 
-Campo Categoría Contabilidad de la Ventana Detalles de Asientos Contables
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image525.png)
 
 Imagen 12. Campo Categoría Contabilidad de la Ventana Detalles de Asientos Contables
 
-Seleccione en el campo “Presupuesto”, el presupuesto por el cual requiere filtrar la información.
+Seleccione en el campo **Presupuesto**, el presupuesto por el cual requiere filtrar la información.
 
-Campo Presupuesto de la Ventana Detalles de Asientos Contables
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image526.png)
 
 Imagen 13. Campo Presupuesto de la Ventana Detalles de Asientos Contables
 
-Introduzca en el campo “Descripción”, una breve descripción por la cual requiere filtrar la información.
+Introduzca en el campo **Descripción**, una breve descripción por la cual requiere filtrar la información.
 
-Campo Descripción de la Ventana Detalles de Asientos Contables
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image527.png)
 
 Imagen 14. Campo Descripción de la Ventana Detalles de Asientos Contables
 
-Seleccione en el campo “Moneda”, la moneda por la cual requiere filtrar la información para generar el reporte “Detalles de Asientos Contables”.
+Seleccione en el campo **Moneda**, la moneda por la cual requiere filtrar la información para generar el reporte **Detalles de Asientos Contables**.
 
-Campo Moneda de la Ventana Detalles de Asientos Contables
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image528.png)
 
 Imagen 15. Campo Moneda de la Ventana Detalles de Asientos Contables
 
-Seleccione en el campo “Tasa”, la tasa por la cual requiere filtrar la información.
+Seleccione en el campo **Tasa**, la tasa por la cual requiere filtrar la información.
 
-Campo Tasa de la Ventana Detalles de Asientos Contables
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image529.png)
 
 Imagen 16. Campo Tasa de la Ventana Detalles de Asientos Contables
 
-Seleccione en el campo “Grupo de Socio del Negocio”, el grupo de socio del negocio por el cual requiere filtrar la información.
+Seleccione en el campo **Grupo de Socio del Negocio**, el grupo de socio del negocio por el cual requiere filtrar la información.
 
-Campo Grupo de Socio del Negocio de la Ventana Detalles de Asientos Contables
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image530.png)
 
 Imagen 17. Campo Grupo de Socio del Negocio de la Ventana Detalles de Asientos Contables
 
-Seleccione en el campo “Socio del Negocio”, el socio del negocio por el cual requiere filtrar la información.
+Seleccione en el campo **Socio del Negocio**, el socio del negocio por el cual requiere filtrar la información.
 
-Campo Socio del Negocio de la Ventana Detalles de Asientos Contables
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image531.png)
 
 Imagen 18. Campo Socio del Negocio de la Ventana Detalles de Asientos Contables
 
-Seleccione en el campo “Categoría del Producto”, la categoría del producto por la cual requiere filtrar la información.
+Seleccione en el campo **Categoría del Producto**, la categoría del producto por la cual requiere filtrar la información.
 
-Campo Categoría del Producto de la Ventana Detalles de Asientos Contables
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image531.png)
 
 Imagen 19. Campo Categoría del Producto de la Ventana Detalles de Asientos Contables
 
-Seleccione en el campo “Producto”, el producto por el cual requiere filtrar la información.
+Seleccione en el campo **Producto**, el producto por el cual requiere filtrar la información.
 
-Campo Producto de la Ventana Detalles de Asientos Contables
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image532.png)
 
 Imagen 20. Campo Producto de la Ventana Detalles de Asientos Contables
 
-Seleccione en el campo “Activo Fijo”, el activo fijo por el cual requiere filtrar la información.
+Seleccione en el campo **Activo Fijo**, el activo fijo por el cual requiere filtrar la información.
 
-Campo Activo Fijo de la Ventana Detalles de Asientos Contables
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image533.png)
 
 Imagen 21. Campo Activo Fijo de la Ventana Detalles de Asientos Contables
 
-Seleccione en el campo “UPC/EAN”, el UPC/EAN por el cual requiere filtrar la información.
+Seleccione en el campo **UPC/EAN**, el UPC/EAN por el cual requiere filtrar la información.
 
-Campo UP/EAN de la Ventana Detalles de Asientos Contables
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image534.png)
 
 Imagen 22. Campo UP/EAN de la Ventana Detalles de Asientos Contables
 
-Seleccione en el campo “UM”, la UM por la cual requiere filtrar la información.
+Seleccione en el campo **UM**, la UM por la cual requiere filtrar la información.
 
-Campo UM de la Ventana Detalles de Asientos Contables
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image535.png)
 
 Imagen 23. Campo UM de la Ventana Detalles de Asientos Contables
 
-Seleccione en el campo “Cantidad”, la cantidad por la cual requiere filtrar la información.
+Seleccione en el campo **Cantidad**, la cantidad por la cual requiere filtrar la información.
 
-Campo Cantidad de la Ventana Detalles de Asientos Contables
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image536.png)
 
 Imagen 24. Campo Cantidad de la Ventana Detalles de Asientos Contables
 
-Seleccione en el campo “Ubicación”, la ubicación por la cual requiere filtrar la información.
+Seleccione en el campo **Ubicación**, la ubicación por la cual requiere filtrar la información.
 
-Campo Ubicación de la Ventana Detalles de Asientos Contables
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image537.png)
 
 Imagen 25. Campo Ubicación de la Ventana Detalles de Asientos Contables
 
-Seleccione en el campo “Impuesto”, el impuesto por el cual requiere filtrar la información.
+Seleccione en el campo **Impuesto**, el impuesto por el cual requiere filtrar la información.
 
-Campo Impuesto de la Ventana Detalles de Asientos Contables
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image538.png)
 
 Imagen 26. Campo Impuesto de la Ventana Detalles de Asientos Contables
 
-Seleccione en el campo “Actividad”, la actividad por la cual requiere filtrar la información.
+Seleccione en el campo **Actividad**, la actividad por la cual requiere filtrar la información.
 
-Campo Actividad de la Ventana Detalles de Asientos Contables
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image539.png)
 
 Imagen 27. Campo Actividad de la Ventana Detalles de Asientos Contables
 
-Seleccione en el campo “Centro de Costos”, el centro de costo por el cual requiere filtrar la información.
+Seleccione en el campo **Centro de Costos**, el centro de costo por el cual requiere filtrar la información.
 
-Campo Centro de Costos de la Ventana Detalles de Asientos Contables
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image540.png)
 
 Imagen 28. Campo Centro de Costos de la Ventana Detalles de Asientos Contables
 
-Seleccione la opción “OK” para generar el reporte “Detalle de Asientos Contables”.
+Seleccione la opción **OK** para generar el reporte **Detalle de Asientos Contables**.
 
-Opción OK de la Ventana Detalles de Asientos Contables
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image541.png)
 
 Imagen 29. Opción OK de la Ventana Detalles de Asientos Contables
 
-Podrá visualizar el reporte “Detalle de Asientos Contables” de la siguiente manera.
+Podrá visualizar el reporte **Detalle de Asientos Contables** de la siguiente manera.
 
-Reporte Detalles de Asientos Contables
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image542.png)
 
 Imagen 30. Reporte Detalles de Asientos Contables
 
-Estado de Cuenta
-Para generar un estado de cuenta el usuario debe ubicarse en el menú de ADempiere. Debe seleccionar la carpeta “Análisis de Desempeño”, luego debe seleccionar la carpeta “Informes Financieros” y por último el reporte “Estado de Cuenta”.
+## Estado de Cuenta
 
-Menú de ADempiere
+Para generar un estado de cuenta el usuario debe ubicarse en el menú de ADempiere. Debe seleccionar la carpeta **Análisis de Desempeño**, luego debe seleccionar la carpeta **Informes Financieros** y por último el reporte **Estado de Cuenta**.
+
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image543.png)
 
 Imagen 1. Menú de ADempiere
 
-Podrá visualizar la ventana del reporte “Estado de Cuenta”, con diferentes campos que le permiten al usuario en base a lo seleccionado, generar el reporte según lo requerido por el mismo.
+Podrá visualizar la ventana del reporte **Estado de Cuenta**, con diferentes campos que le permiten al usuario en base a lo seleccionado, generar el reporte según lo requerido por el mismo.
 
-Ventana Estado de Cuenta
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image544.png)
 
 Imagen 2. Ventana Estado de Cuenta
 
 Note
 
-Un reporte de estado de cuenta permite generar un informe detallado de las transacciones de una empresa, el mismo puede ser generado en base a las restricciones que sean seleccionadas en los diferentes campos que contiene la ventana “Estado de Cuenta”.
+Un reporte de estado de cuenta permite generar un informe detallado de las transacciones de una empresa, el mismo puede ser generado en base a las restricciones que sean seleccionadas en los diferentes campos que contiene la ventana **Estado de Cuenta**.
 
-Seleccione en el campo “Esquema Contable”, el esquema contable previamente definido para contabilizar las cuentas.
+Seleccione en el campo **Esquema Contable**, el esquema contable previamente definido para contabilizar las cuentas.
 
-Campo Esquema Contable de la Ventana Estado de Cuenta
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image545.png)
 
 Imagen 3. Campo Esquema Contable de la Ventana Estado de Cuenta
 
 Seleccione en el campo Tipo de Aplicación, el tipo de aplicación por el cual requiere filtrar la información.
 
-Campo Tipo de Aplicación de la Ventana Estado de Cuenta
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image546.png)
 
 Imagen 4. Campo Tipo de Aplicación de la Ventana Estado de Cuenta
 
-Seleccione en el campo “Período”, el rango de tiempo para filtrar la búsqueda de la información.
+Seleccione en el campo **Período**, el rango de tiempo para filtrar la búsqueda de la información.
 
-Campo Período de la Ventana Estado de Cuenta
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image547.png)
 
 Imagen 5. Campo Período de la Ventana Estado de Cuenta
 
-Seleccione en el campo “Fecha Contable”, el rango de tiempo en el cual fueron realizadas las transacciones y de las cuales requiere el reporte.
+Seleccione en el campo **Fecha Contable**, el rango de tiempo en el cual fueron realizadas las transacciones y de las cuales requiere el reporte.
 
-Campo Fecha Contable de la Ventana Estado de Cuenta
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image548.png)
 
 Imagen 6. Campo Fecha Contable de la Ventana Estado de Cuenta
 
-Seleccione en el campo “Tipo de Cuenta”, el tipo de cuenta para filtrar la búsqueda de la información.
+Seleccione en el campo **Tipo de Cuenta**, el tipo de cuenta para filtrar la búsqueda de la información.
 
-Campo Tipo de Cuenta de la Ventana Estado de Cuenta
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image549.png)
 
 Imagen 7. Campo Tipo de Cuenta de la Ventana Estado de Cuenta
 
-Seleccione en el campo “Cuenta”, la cuenta de la cual requiere el reporte.
+Seleccione en el campo **Cuenta**, la cuenta de la cual requiere el reporte.
 
-Campo Cuenta de la Ventana Estado de Cuenta
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image550.png)
 
 Imagen 8. Campo Cuenta de la Ventana Estado de Cuenta
 
 Seleccione en el campo Organización, la organización para la cual esta generando el reporte de estado de cuenta.
 
-Campo Organización de la Ventana Estado de Cuenta
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image551.png)
 
 Imagen 9. Campo Organización de la Ventana Estado de Cuenta
 
-Seleccione en el campo “Socio del Negocio”, el socio del negocio por el cual requiere filtrar la información.
+Seleccione en el campo **Socio del Negocio**, el socio del negocio por el cual requiere filtrar la información.
 
-Campo Socio del Negocio de la Ventana Estado de Cuenta
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image552.png)
 
 Imagen 10. Campo Socio del Negocio de la Ventana Estado de Cuenta
 
-Seleccione en el campo “Producto”, el producto por el cual requiere filtrar la información.
+Seleccione en el campo **Producto**, el producto por el cual requiere filtrar la información.
 
-Campo Producto de la Ventana Estado de Cuenta
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image553.png)
 
 Imagen 11. Campo Producto de la Ventana Estado de Cuenta
 
-Seleccione en el campo “Actividad”, la actividad por la cual requiere filtrar la información.
+Seleccione en el campo **Actividad**, la actividad por la cual requiere filtrar la información.
 
-Campo Actividad de la Ventana Estado de Cuenta
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image554.png)
 
 Imagen 12. Campo Actividad de la Ventana Estado de Cuenta
 
 Seleccione en el campo Región de Ventas, la región de ventas por la cual requiere filtrar la información.
 
-Campo Región de Ventas de la Ventana Estado de Cuenta
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image555.png)
 
 Imagen 13. Campo Región de Ventas de la Ventana Estado de Cuenta
 
 Seleccione en el campo Centro de Costos, el centro de costos por la cual requiere filtrar la información.
 
-Campo Centro de Costos de la Ventana Estado de Cuenta
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image556.png)
 
 Imagen 14. Campo Centro de Costos de la Ventana Estado de Cuenta
 
 Seleccione en el campo Reportando Jerarquías, la erarquía por la cual requiere filtrar la información.
 
-Campo Reportando Jerarquías de la Ventana Estado de Cuenta
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image557.png)
 
 Imagen 15. Campo Reportando Jerarquías de la Ventana Estado de Cuenta
 
-Seleccione la opción “OK” para generar el reporte de estado de cuenta.
+Seleccione la opción **OK** para generar el reporte de estado de cuenta.
 
-Opción OK de la Ventana Estado de Cuenta
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image558.png)
 
 Imagen 16. Opción OK de la ventana Estado de Cuenta
 
-Podrá visualizar el reporte “Estado de Cuenta” de la siguiente manera.
+Podrá visualizar el reporte **Estado de Cuenta** de la siguiente manera.
 
-Reporte Estado de Cuenta
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image559.png)
 
 Imagen 17. Reporte Estado de Cuenta
 
-Balance de Prueba
-Ubique y seleccione en el menú de ADempiere, la carpeta “Análisis de Desempeño”, luego seleccione la carpeta “Informes Financieros”, por último seleccione el reporte “Balance de Prueba”.
+## Balance de Prueba
 
-Menú de ADempiere
+Ubique y seleccione en el menú de ADempiere, la carpeta **Análisis de Desempeño**, luego seleccione la carpeta **Informes Financieros**, por último seleccione el reporte **Balance de Prueba**.
+
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image560.png)
 
 Imagen 1. Menú de ADempiere
 
-Podrá visualizar la ventana del reporte “Balance de Prueba”, con diferentes campos que le permiten al usuario filtrar la búsqueda de la información para generar el reporte requerido.
+Podrá visualizar la ventana del reporte **Balance de Prueba**, con diferentes campos que le permiten al usuario filtrar la búsqueda de la información para generar el reporte requerido.
 
-Ventana Reporte Balance de Prueba
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image561.png)
 
 Imagen 2. Ventana Reporte Balance de Prueba
 
-Seleccione en el campo “Esquema Contable”, el esquema contable por el cual requiere filtrar la información.
+Seleccione en el campo **Esquema Contable**, el esquema contable por el cual requiere filtrar la información.
 
-Campo Esquema Contable de la Ventana Balance de Prueba
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image562.png)
 
 Imagen 3. Campo Esquema Contable de la Ventana Balance de Prueba
 
-Seleccione en el campo “Período”, el periodo por el cual requiere filtrar la información.
+Seleccione en el campo **Período**, el periodo por el cual requiere filtrar la información.
 
-Campo Período de la Ventana Balance de Prueba
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image563.png)
 
 Imagen 4. Campo Período de la Ventana Balance de Prueba
 
-Seleccione en el campo “Fecha Contable”, el rango de fecha por el cual requiere filtrar la información.
+Seleccione en el campo **Fecha Contable**, el rango de fecha por el cual requiere filtrar la información.
 
-Campo Fecha Contable de la Ventana Balance de Prueba
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image564.png)
 
 Imagen 5. Campo Fecha Contable de la Ventana Balance de Prueba
 
-Seleccione en el campo “Organización”, la organización por la cual requiere filtrar la información.
+Seleccione en el campo **Organización**, la organización por la cual requiere filtrar la información.
 
-Campo Organización de la Ventana Balance de Prueba
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image565.png)
 
 Imagen 6. Campo Organización de la Ventana Balance de Prueba
 
-Seleccione en el campo “Cuenta”, la cuenta por la cual requiere filtrar la información.
+Seleccione en el campo **Cuenta**, la cuenta por la cual requiere filtrar la información.
 
-Campo Cuenta de la Ventana Balance de Prueba
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image566.png)
 
 Imagen 7. Campo Cuenta de la Ventana Balance de Prueba
 
-Introduzca en el campo “Código de Cuenta”, el código de la cuenta por el cual requiere filtrar la información.
+Introduzca en el campo **Código de Cuenta**, el código de la cuenta por el cual requiere filtrar la información.
 
-Campo Código de Cuenta de la Ventana Balance de Prueba
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image567.png)
 
 Imagen 8. Campo Código de Cuenta de la Ventana Balance de Prueba
 
-Seleccione en el campo “Socio del Negocio”, el socio del negocio por el cual requiere filtrar la información.
+Seleccione en el campo **Socio del Negocio**, el socio del negocio por el cual requiere filtrar la información.
 
-Campo Socio del Negocio de la Ventana Balance de Prueba
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image568.png)
 
 Imagen 9. Campo Socio del Negocio de la Ventana Balance de Prueba
 
-Seleccione en el campo “Producto”, el producto por el cual requiere filtrar la información.
+Seleccione en el campo **Producto**, el producto por el cual requiere filtrar la información.
 
-Campo Producto de la Ventana Balance de Prueba
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image569.png)
 
 Imagen 10. Campo Producto de la Ventana Balance de Prueba
 
-Seleccione en el campo “Proyecto”, el proyecto por el cual requiere filtrar la información.
+Seleccione en el campo **Proyecto**, el proyecto por el cual requiere filtrar la información.
 
-Campo Proyecto de la Ventana Balance de Prueba
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image570.png)
 
 Imagen 11. Campo Proyecto de la Ventana Balance de Prueba
 
-Seleccione en el campo “Actividad”, la actividad por la cual requiere filtrar la información.
+Seleccione en el campo **Actividad**, la actividad por la cual requiere filtrar la información.
 
-Campo Actividad de la Ventana Balance de Prueba
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image571.png)
 
 Imagen 12. Campo Actividad de la Ventana Balance de Prueba
 
-Seleccione en el campo “Región de Ventas”, la región de ventas por la cual requiere filtrar la información.
+Seleccione en el campo **Región de Ventas**, la región de ventas por la cual requiere filtrar la información.
 
-Campo Región de Ventas de la Ventana Balance de Prueba
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image572.png)
 
 Imagen 13. Campo Región de Ventas de la Ventana Balance de Prueba
 
-Seleccione en el campo “Campaña”, la campaña por la cual requiere filtrar la información.
+Seleccione en el campo **Campaña**, la campaña por la cual requiere filtrar la información.
 
-Campo Campaña de la Ventana Balance de Prueba
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image573.png)
 
 Imagen 14. Campo Campaña de la Ventana Balance de Prueba
 
-Seleccione en el campo “Tipo de Aplicación”, el tipo de aplicación por el cual requiere filtrar la información.
+Seleccione en el campo **Tipo de Aplicación**, el tipo de aplicación por el cual requiere filtrar la información.
 
-Campo Tipo de Aplicación de la Ventana Balance de Prueba
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image574.png)
 
 Imagen 15. Campo Tipo de Aplicación de la Ventana Balance de Prueba
 
-Seleccione en el campo “Reportando Jerarquías”, la jerarquía por la cual requiere filtrar la información.
+Seleccione en el campo **Reportando Jerarquías**, la jerarquía por la cual requiere filtrar la información.
 
-Campo Reportando Jerarquías de la Ventana Balance de Prueba
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image575.png)
 
 Imagen 16. Campo Reportando Jerarquías de la Ventana Balance de Prueba
 
-Seleccione la opción “OK” para generar el reporte “Balance de Prueba” en base a lo seleccionado en los diferentes campos que contempla la ventana.
+Seleccione la opción **OK** para generar el reporte **Balance de Prueba** en base a lo seleccionado en los diferentes campos que contempla la ventana.
 
-Opción Ok de la Ventana Balance de Prueba
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image576.png)
 
 Imagen 17. Opción OK de la Ventana Balance de Prueba
 
-Podrá visualizar el reporte “Balance de Prueba”, de la siguiente manera.
+Podrá visualizar el reporte **Balance de Prueba**, de la siguiente manera.
 
-Reporte Balance de Prueba
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image577.png)
 
 Imagen 18. Reporte Balance de Prueba
 
-Asientos Diarios de Contabilidad
-Ubique y seleccione en el menú de ADempiere, la carpeta “Análisis de Desempeño”, luego seleccione el reporte “Asientos Diarios de Contabilidad”.
+## Asientos Diarios de Contabilidad
 
-Menú de ADempiere
+Ubique y seleccione en el menú de ADempiere, la carpeta **Análisis de Desempeño**, luego seleccione el reporte **Asientos Diarios de Contabilidad**.
+
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image578.png)
 
 Imagen 1. Menú de ADempiere
 
-Podrá visualizar la ventana “Asientos Diarios de Contabilidad”, con diferentes campos que le permiten al usuario filtrar la búsqueda de información para generar el reporte en base a lo seleccionado en cada campo que contiene dicha ventana.
+Podrá visualizar la ventana **Asientos Diarios de Contabilidad**, con diferentes campos que le permiten al usuario filtrar la búsqueda de información para generar el reporte en base a lo seleccionado en cada campo que contiene dicha ventana.
 
-Ventana Asientos Diarios de Contabilidad
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image579.png)
 
 Imagen 2. Ventana Asientos Diarios de Contabilidad
 
-Seleccione en el campo “Esquema Contable”, el esquema contable por el cual requiere filtrar la búsqueda.
+Seleccione en el campo **Esquema Contable**, el esquema contable por el cual requiere filtrar la búsqueda.
 
-Campo Esquema Contable de la Ventana Asientos Diarios de Contabilidad
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image580.png)
 
 Imagen 3. Campo Esquema Contable de la Ventana Asientos Diarios de Contabilidad
 
-Seleccione en el campo “Organización”, la organicación de la cual requiere generar el reporte “Asientos Diarios de Contabilidad”.
+Seleccione en el campo **Organización**, la organicación de la cual requiere generar el reporte **Asientos Diarios de Contabilidad**.
 
-Campo Organización de la Ventana Asientos Diarios de Contabilidad
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image581.png)
 
 Imagen 4. Campo Organización de la Ventana Asientos Diarios de Contabilidad
 
-Seleccione en el campo “Fecha Contable”, el rango de fechas por el cual requiere filtrar la búsqueda.
+Seleccione en el campo **Fecha Contable**, el rango de fechas por el cual requiere filtrar la búsqueda.
 
-Campo Fecha Contable de la Ventana Asientos Diarios de Contabilidad
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image583.png)
 
 Imagen 5. Campo Fecha Contable de la Ventana Asientos Diarios de Contabilidad
 
-Seleccione en el campo “Período”, el período o rango de fechas por el cual requiere filtrar la búsqueda.
+Seleccione en el campo **Período**, el período o rango de fechas por el cual requiere filtrar la búsqueda.
 
-Campo Período de la Ventana Asientos Diarios de Contabilidad
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image583.png)
 
 Imagen 6. Campo Período de la Ventana Asientos Diarios de Contabilidad
 
-Seleccione en el campo “Cuenta”, la cuenta contable por la cual requiere filtrar la búsqueda.
+Seleccione en el campo **Cuenta**, la cuenta contable por la cual requiere filtrar la búsqueda.
 
-Campo Cuenta de la Ventana Asientos Diarios de Contabilidad
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image584.png)
 
 Imagen 7. Campo Cuenta de la Ventana Asientos Diarios de Contabilidad
 
-Seleccione en el campo “Categoría Contabilidad”, la categoría de contabilidad por la cual requiere filtrar la búsqueda.
+Seleccione en el campo **Categoría Contabilidad**, la categoría de contabilidad por la cual requiere filtrar la búsqueda.
 
-Campo Categoría Contabilidad de la Ventana Asientos Diarios de Contabilidad
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image585.png)
 
 Imagen 8. Campo Categoría Contabilidad de la Ventana Asientos Diarios de Contabilidad
 
-Seleccione en el campo “Tipo de Aplicación”, el tipo de aplicación por el cual requiere filtrar la búsqueda.
+Seleccione en el campo **Tipo de Aplicación**, el tipo de aplicación por el cual requiere filtrar la búsqueda.
 
-Campo Tipo de Aplicación de la Ventana Asientos Diarios de Contabilidad
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image586.png)
 
 Imagen 9. Campo Tipo de Aplicación de la Ventana Asientos Diarios de Contabilidad
 
-Seleccione en el campo “Presupuesto”, el presupuesto por el cual requiere filtrar la búsqueda.
+Seleccione en el campo **Presupuesto**, el presupuesto por el cual requiere filtrar la búsqueda.
 
-Campo Presupuesto de la Ventana Asientos Diarios de Contabilidad
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image587.png)
 
 Imagen 10. Campo Presupuesto de la Ventana Asientos Diarios de Contabilidad
 
-Seleccione en el campo “Socio del Negocio”, el socio del negocio por el cual requiere filtrar la búsqueda.
+Seleccione en el campo **Socio del Negocio**, el socio del negocio por el cual requiere filtrar la búsqueda.
 
-Campo Socio del Negocio de la Ventana Asientos Diarios de Contabilidad
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image588.png)
 
 Imagen 11. Campo Socio del Negocio de la Ventana Asientos Diarios de Contabilidad
 
-Seleccione en el campo “Producto”, el producto por el cual requiere filtrar la búsqueda.
+Seleccione en el campo **Producto**, el producto por el cual requiere filtrar la búsqueda.
 
-Campo Producto de la Ventana Asientos Diarios de Contabilidad
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image589.png)
 
 Imagen 12. Campo Producto de la Ventana Asientos Diarios de Contabilidad
 
-Seleccione en el campo “Activo Fijo”, el activo fijo por el cual requiere filtrar la búsqueda.
-
-Campo Activo Fijo de la Ventana Asientos Diarios de Contabilidad
+Seleccione en el campo **Activo Fijo**, el activo fijo por el cual requiere filtrar la búsqueda.
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image590.png)
 
 Imagen 13. Campo Activo Fijo de la Ventana Asientos Diarios de Contabilidad
 
-Seleccione en el campo “Ubicación”, la ubicación por la cual requiere filtrar la búsqueda.
+Seleccione en el campo **Ubicación**, la ubicación por la cual requiere filtrar la búsqueda.
 
-Campo Ubicación de la Ventana Asientos Diarios de Contabilidad
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image591.png)
 
 Imagen 14. Campo Ubicación de la Ventana Asientos Diarios de Contabilidad
 
-Seleccione en el campo “Impuesto”, el impuesto por el cual requiere filtrar la búsqueda.
+Seleccione en el campo **Impuesto**, el impuesto por el cual requiere filtrar la búsqueda.
 
-Campo Impuesto de la Ventana Asientos Diarios de Contabilidad
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image592.png)
 
 Imagen 15. Campo Impuesto de la Ventana Asientos Diarios de Contabilidad
 
-Seleccione en el campo “Moneda”, la moneda por la cual requiere filtrar la búsqueda.
+Seleccione en el campo **Moneda**, la moneda por la cual requiere filtrar la búsqueda.
 
-Campo Moneda de la Ventana Asientos Diarios de Contabilidad
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image593.png)
 
 Imagen 16. Campo Moneda de la Ventana Asientos Diarios de Contabilidad
 
-Seleccione en el campo “Tasa”, el rango de tasa, impuesto o conversión por el cual requiere filtrar la búsqueda.
+Seleccione en el campo **Tasa**, el rango de tasa, impuesto o conversión por el cual requiere filtrar la búsqueda.
 
-Campo Tasa de la Ventana Asientos Diarios de Contabilidad
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image594.png)
 
 Imagen 17. Campo Tasa de la Ventana Asientos Diarios de Contabilidad
 
-Seleccione en el campo “Actividad”, la actividad por la cual requiere filtrar la búsqueda.
+Seleccione en el campo **Actividad**, la actividad por la cual requiere filtrar la búsqueda.
 
-Campo Actividad de la Ventana Asientos Diarios de Contabilidad
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image595.png)
 
 Imagen 18. Campo Actividad de la Ventana Asientos Diarios de Contabilidad
 
-Seleccione en el campo “Centro de Costos”, el centro de costos por el cual requiere filtrar la búsqueda.
+Seleccione en el campo **Centro de Costos**, el centro de costos por el cual requiere filtrar la búsqueda.
 
-Campo Centro de Costos de la Ventana Asientos Diarios de Contabilidad
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image595.png)
 
 Imagen 19. Campo Centro de Costos de la Ventana Asientos Diarios de Contabilidad
 
-Seleccione la opción “OK” de la ventana “Asientos Diarios de Contabilidad” para generar el reporte en base a lo seleccionado en los campos explicados anteriormente.
+Seleccione la opción **OK** de la ventana **Asientos Diarios de Contabilidad** para generar el reporte en base a lo seleccionado en los campos explicados anteriormente.
 
-Opción OK de la Ventana Asientos Diarios de Contabilidad
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image597.png)
 
 Imagen 20. Opción OK de la Ventana Asientos Diarios de Contabilidad
 
-Podrá visualizar el reporte “Asientos Diarios de Contabilidad” de la siguiente manera.
+Podrá visualizar el reporte **Asientos Diarios de Contabilidad** de la siguiente manera.
 
-Reporte de Asientos Diarios de Contabilidad
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image598.png)
 
 Imagen 21. Reporte de Asientos Diarios de Contabilidad
 
-Asientos Contables por Período
-Ubique y seleccione en el menú de ADempiere, la carpeta “Análisis de Desempeño”, luego seleccione el reporte “Asientos Contables por Período”.
+## Asientos Contables por Período
 
-Menú de ADempiere
+Ubique y seleccione en el menú de ADempiere, la carpeta **Análisis de Desempeño**, luego seleccione el reporte **Asientos Contables por Período**.
+
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image599.png)
 
 Imagen 1. Menú de ADempiere
 
-Podrá visualizar la ventana “Asientos Contables por Período”, con diferentes campos que permiten filtrar la búsqueda de la información para generar el reporte requerido por el usuario.
+Podrá visualizar la ventana **Asientos Contables por Período**, con diferentes campos que permiten filtrar la búsqueda de la información para generar el reporte requerido por el usuario.
 
-Ventana Asientos Contables por Período
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image600.png)
 
 Imagen 2. Ventana Asientos Contables por Período
 
-Seleccione en el campo “Esquema Contable”, el esquema contable por el cual requiere filtrar la búsqueda de la información.
+Seleccione en el campo **Esquema Contable**, el esquema contable por el cual requiere filtrar la búsqueda de la información.
 
-Campo Esquema Contable de la Ventana Asientos Contables por Período
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image601.png)
 
 Imagen 3. Campo Esquema Contable de la Ventana Asientos Contables por Período
 
-Seleccione en el campo “Organización”, la organización de la cual requiere generar el reporte “Asientos Contables por Período”.
+Seleccione en el campo **Organización**, la organización de la cual requiere generar el reporte **Asientos Contables por Período**.
 
-Campo Organización de la Ventana Asientos Contables por Período
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image602.png)
 
 Imagen 4. Campo Organización de la Ventana Asientos Contables por Período
 
-Seleccione en el campo “Período”, el período por el cual requiere filtrar la búsqueda de la información.
+Seleccione en el campo **Período**, el período por el cual requiere filtrar la búsqueda de la información.
 
-Campo Período de la Ventana Asientos Contables por Período
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image603.png)
 
 Imagen 5. Campo Período de la Ventana Asientos Contables por Período
 
-Seleccione en el campo “Cuenta”, la cuenta por la cual requiere filtrar la búsqueda de la información.
+Seleccione en el campo **Cuenta**, la cuenta por la cual requiere filtrar la búsqueda de la información.
 
-Campo Cuenta de la Ventana Asientos Contables por Período
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image604.png)
 
 Imagen 6. Campo Cuenta de la Ventana Asientos Contables por Período
 
-Seleccione en el campo “Categoría Contabilidad”, la categoría de contabilidad por la cual requiere filtrar la búsqueda de la información.
+Seleccione en el campo **Categoría Contabilidad**, la categoría de contabilidad por la cual requiere filtrar la búsqueda de la información.
 
-Campo Categoría Contabilidad de la Ventana Asientos Contables por Período
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image605.png)
 
 Imagen 7. Campo Categoría Contabilidad de la Ventana Asientos Contables por Período
 
-Seleccione en el campo “Presupuesto”, el presupuesto por el cual requiere filtrar la búsqueda de la información.
+Seleccione en el campo **Presupuesto**, el presupuesto por el cual requiere filtrar la búsqueda de la información.
 
-Campo Presupuesto de la Ventana Asientos Contables por Período
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image606.png)
 
 Imagen 8. Campo Presupuesto de la Ventana Asientos Contables por Período
 
-Seleccione en el campo “Tipo de Aplicación”, el tipo de aplicación por el cual requiere filtrar la búsqueda de la información.
+Seleccione en el campo **Tipo de Aplicación**, el tipo de aplicación por el cual requiere filtrar la búsqueda de la información.
 
-Campo Tipo de Aplicación de la Ventana Asientos Contables por Período
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image607.png)
 
 Imagen 9. Campo Tipo de Aplicación de la Ventana Asientos Contables por Período
 
-Seleccione en el campo “Moneda”, la moneda por la cual requiere filtrar la búsqueda de la información.
+Seleccione en el campo **Moneda**, la moneda por la cual requiere filtrar la búsqueda de la información.
 
-Campo Moneda de la Ventana Asientos Contables por Período
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image608.png)
 
 Imagen 10. Campo Moneda de la Ventana Asientos Contables por Período
 
-Seleccione en el campo “Tasa”, el rango de tasa, impuesto o conversión por el cual requiere filtrar la búsqueda.
+Seleccione en el campo **Tasa**, el rango de tasa, impuesto o conversión por el cual requiere filtrar la búsqueda.
 
-Campo Tasa de la Ventana Asientos Contables por Período
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image609.png)
 
 Imagen 11. Campo Tasa de la Ventana Asientos Contables por Período
 
-Seleccione en el campo “Socio del Negocio”, el socio del negocio por el cual requiere filtrar la búsqueda de la información.
+Seleccione en el campo **Socio del Negocio**, el socio del negocio por el cual requiere filtrar la búsqueda de la información.
 
-Campo Socio del Negocio de la Ventana Asientos Contables por Período
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image610.png)
 
 Imagen 12. Campo Socio del Negocio de la Ventana Asientos Contables por Período
 
-Seleccione en el campo “Producto”, el producto por el cual requiere filtrar la búsqueda de la información.
+Seleccione en el campo **Producto**, el producto por el cual requiere filtrar la búsqueda de la información.
 
-Campo Producto de la Ventana Asientos Contables por Período
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image611.png)
 
 Imagen 13. Campo Producto de la Ventana Asientos Contables por Período
 
-Seleccione en el campo “Activo Fijo”, el activo fijo por el cual requiere filtrar la búsqueda de la información.
+Seleccione en el campo **Activo Fijo**, el activo fijo por el cual requiere filtrar la búsqueda de la información.
 
-Campo Activo Fijo de la Ventana Asientos Contables por Período
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image612.png)
 
 Imagen 14. Campo Activo Fijo de la Ventana Asientos Contables por Período
 
-Seleccione en el campo “Ubicación”, la ubicación por la cual requiere filtrar la búsqueda de la información.
+Seleccione en el campo **Ubicación**, la ubicación por la cual requiere filtrar la búsqueda de la información.
 
-Campo Ubicación de la Ventana Asientos Contables por Período
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image613.png)
 
 Imagen 15. Campo Ubicación de la Ventana Asientos Contables por Período
 
-Seleccione en el campo “Impuesto”, el impuesto por el cual requiere filtrar la búsqueda de la información.
+Seleccione en el campo **Impuesto**, el impuesto por el cual requiere filtrar la búsqueda de la información.
 
-Campo Impuesto de la Ventana Asientos Contables por Período
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image614.png)
 
 Imagen 16. Campo Impuesto de la Ventana Asientos Contables por Período
 
-Seleccione en el campo “Actividad”, la actividad por la cual requiere filtrar la búsqueda de la información.
+Seleccione en el campo **Actividad**, la actividad por la cual requiere filtrar la búsqueda de la información.
 
-Campo Actividad de la Ventana Asientos Contables por Período
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image615.png)
 
 Imagen 17. Campo Actividad de la Ventana Asientos Contables por Período
 
-Seleccione en el campo “Centro de Costos”, el centro de costos por el cual requiere filtrar la búsqueda de la información.
+Seleccione en el campo **Centro de Costos**, el centro de costos por el cual requiere filtrar la búsqueda de la información.
 
-Campo Centro de Costos de la Ventana Asientos Contables por Período
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image616.png)
 
 Impuesto 18. Campo Centro de Costos de la Ventana Asientos Contables por Período
 
-Seleccione la opción “OK” para generar el reporte “Asientos Contables por Período” en base a lo seleccionado en los campos explicados anteriormente.
+Seleccione la opción **OK** para generar el reporte **Asientos Contables por Período** en base a lo seleccionado en los campos explicados anteriormente.
 
-Opción OK de la Ventana Asientos Contables por Período
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image617.png)
 
 Imagen 19. Opción OK de la Ventana Asientos Contables por Período
 
-Podrá visualizar de la siguiente manera el reporte “Asientos Contables por Período”.
+Podrá visualizar de la siguiente manera el reporte **Asientos Contables por Período**.
 
-Reporte Asientos Contables por Período
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image618.png)
 
 Imagen 20. Reporte Asientos Contables por Período
 
-Registros Contables No Conciliados
-Ubique y seleccione en el menú de ADempiere, la carpeta “Análisis de Desempeño”, luego seleccione el reporte “Registros Contables No Conciliados”.
+## Registros Contables No Conciliados
 
-Menú de ADempiere
+Ubique y seleccione en el menú de ADempiere, la carpeta **Análisis de Desempeño**, luego seleccione el reporte **Registros Contables No Conciliados**.
+
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image619.png)
 
 Imagen 1. Menú de ADempiere
 
-Podrá visualizar la ventana “Registros Contables No Conciliados”, con diferentes campos que permiten filtrar la información para generar el reporte requerido.
+Podrá visualizar la ventana **Registros Contables No Conciliados**, con diferentes campos que permiten filtrar la información para generar el reporte requerido.
 
-Ventana Registros Contables No Conciliados
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image620.png)
 
 Imagen 2. Ventana Registros Contables No Conciliados
 
-Seleccione en el campo “Cuenta”, la cuenta contable por la cual requiere filtrar la búsqueda de la información.
+Seleccione en el campo **Cuenta**, la cuenta contable por la cual requiere filtrar la búsqueda de la información.
 
-Campo Cuenta de la Ventana Registros Contables No Conciliados
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image621.png)
 
 Imagen 3. Campo Cuenta de la Ventana Registros Contables No Conciliados
 
-Seleccione en el campo “Fecha Contable”, el rango de fechas en las que se realizaron los movimientos.
+Seleccione en el campo **Fecha Contable**, el rango de fechas en las que se realizaron los movimientos.
 
-Campo Fecha Contable de la Ventana Registros Contables No Conciliados
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image622.png)
 
 Imagen 4. Campo Fecha Contable de la Ventana Registros Contables No Conciliados
 
-Seleccione la opción “OK”, para generar el reporte “Registros Contables No Conciliados” en base a lo seleccionado en los campos explicados anteriormente.
+Seleccione la opción **OK**, para generar el reporte **Registros Contables No Conciliados** en base a lo seleccionado en los campos explicados anteriormente.
 
-Opción OK de la Ventana Registros Contables No Conciliados
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image623.png)
 
 Imagen 5. Opción OK de la Ventana Registros Contables No Conciliados
 
-Podrá visualizar de la siguiente manera el reporte “Registros Contables No Conciliados”.
+Podrá visualizar de la siguiente manera el reporte **Registros Contables No Conciliados**.
 
-Reporte Registros Contables No Conciliados
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image624.png)
 
 Imagen 6. Reporte de Registros Contables No Conciliados
 

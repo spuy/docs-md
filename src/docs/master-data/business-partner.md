@@ -1358,97 +1358,97 @@ Imagen 8. Campo Descripción
 
 Seleccione el grupo de socio del negocio al que pertenezca el socio del negocio que esta registrando, para este ejemplo el grupo utilizado es **Empleados**.
 
-Campo Grupo de Socio del Negocio
+![Campo Grupo de Socio del Negocio](/assets/img/docs/master-data/mad-master-image1.png)
 
 Imagen 9. Campo Grupo de Socio del Negocio
 
 Seleccione en el campo **Regla de Pago** la forma de pago para las facturas, este campo indica de que forma serán pagadas las facturas al socio del negocio empleado.
 
-Campo Regla de Pago
+![Campo Regla de Pago](/assets/img/docs/master-data/mad-master-image2.png)
 
 Imagen 10. Campo Regla de Pago
 
 Introduzca en el campo **Dirección Web**, la dirección web para contactar al empleado, ya que es muy común que un empleado no posea una página web se puede ingresar una cuenta linkedin, bumeran, entre otros.
 
-Campo Dirección Web
+![Campo Dirección Web](/assets/img/docs/master-data/mad-master-image3.png)
 
 Imagen 11. Campo Dirección Web
 
 Seleccione en el campo **Genero**, el genero del socio del negocio que esta registrando. Para ejemplificar el registro se utiliza el genero **Femenino**.
 
-Campo Genero
+![Campo Genero](/assets/img/docs/master-data/mad-master-image4.png)
 
 Imagen 12. Campo Genero
 
 Seleccione en el campo **Grupo Sanguíneo**, el grupo sanguíneo del socio del negocio que esta registrando. Para ejemplificar el registro se utiliza el grupo sanguíneo **B +**.
 
-Campo Grupo Sanguíneo
+![Campo Sanguíneo](/assets/img/docs/master-data/mad-master-image5.png)
 
 Imagen 13. Campo Grupo Sanguíneo
 
 Seleccione en el campo **Cumpleaños**, la fecha de nacimiento del socio del negocio que esta registrando.
 
-Campo Cumpleaños
+![Campo Cumpleaños](/assets/img/docs/master-data/mad-master-image6.png)
 
 Imagen 14. Campo Cumpleaños
 
 Ingrese en el campo **Lugar de Nacimiento (Localización)**, el lugar de nacimiento del socio del negocio que esta registrando, con ayuda del identificador.
 
-Campo Lugar de Nacimiento (Localización)
+![Campo Lugar de Nacimiento (Localización)](/assets/img/docs/master-data/mad-master-image7.png)
 
 Imagen 15. Campo Lugar de Nacimiento (Localización)
 
 Seleccione en el campo **País**, el país donde nació el socio del negocio que esta registrando. Para ejemplificar el registro se utiliza el país **Venezuela**.
 
-Campo País
+![Campo País](/assets/img/docs/master-data/mad-master-image8.png)
 
 Imagen 16. Campo País
 
 Seleccione en el campo **Estado**, el estado donde nació el socio del negocio que esta registrando. Para ejemplificar el registro se utiliza el estado **Portuguesa**.
 
-Campo Estado
+![Campo Estado](/assets/img/docs/master-data/mad-master-image9.png)
 
 Imagen 17. Campo Estado
 
 Seleccione en el campo **Ciudad**, la ciudad donde nació el socio del negocio que esta registrando. Para ejemplificar el registro se utiliza la ciudad **Araure**.
 
-Campo Ciudad
+![Campo Ciudad](/assets/img/docs/master-data/mad-master-image10.png)
 
 Imagen 18. Campo Ciudad
 
 Introduzca en el campo **Dirección 1**, la dirección detallada del lugar donde nació el socio del negocio que esta registrando. Para ejemplificar el registro se utiliza la dirección **Av Dr Rafael Caldera**.
 
-Campo Dirección 1
+![Campo Dirección 1](/assets/img/docs/master-data/mad-master-image11.png)
 
 Imagen 19. Campo Dirección 1
 
 Introduzca en el campo **Dirección 2**, el nombre del lugar donde nació el socio del negocio que esta registrando. Para ejemplificar el registro se utiliza el nombre **Hospital J.M. Casal Ramos**.
 
-Campo Dirección 2
+![Campo Dirección 2](/assets/img/docs/master-data/mad-master-image12.png)
 
 Imagen 20. Campo Dirección 2
 
 Introduzca en el campo **Código Postal**, el código postal de la ciudad donde nació el socio del negocio que esta registrando. Para ejemplificar el registro se utiliza el código **3301**.
 
-Campo Código Postal
+![Campo Código Postal](/assets/img/docs/master-data/mad-master-image13.png)
 
 Imagen 21. Campo Código Postal
 
 Seleccione la opción **OK**, para cargar el registro al campo **Lugar de Nacimiento**.
 
-Opción OK
+![Opción OK](/assets/img/docs/master-data/mad-master-image14.png)
 
 Imagen 22. Opción OK
 
 Seleccione en el campo **Estado Marital**, el estado civil del socio del negocio que esta registrando. Para ejemplificar el registro se utiliza el estado marital **Casado**.
 
-Campo Estado Marital
+![Campo Estado Marital](/assets/img/docs/master-data/mad-master-image15.png)
 
 Imagen 23. Campo Estado Marital
 
 Seleccione el icono **Guardar Cambios** ubicado en la barra de herramientas para guardar los datos ingresados.
 
-Icono Guardar Cambios1
+![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-image16.png)
 
 Imagen 24. Icono Guardar Cambios
 
@@ -1462,7 +1462,7 @@ La información ingresada en esta pestaña puede variar al momento de la elabora
 
 Seleccione la pestaña **Información de Contrato** y proceda al llenado de los campos correspondientes.
 
-Pestaña Información de Contrato
+![Pestaña Información de Contrato](/assets/img/docs/master-data/mad-master-image17.png)
 
 Warning
 
@@ -1472,7 +1472,7 @@ Imagen 25. Pestaña Información de Contrato
 
 Introduzca en el campo **Nombre**, los (2) dos nombres de la persona a quien va emitido el contrato.
 
-Campo Nombre Contrato
+![Campo Nombre](/assets/img/docs/master-data/mad-master-image18.png)
 
 Imagen 26. Campo Nombre
 
@@ -1482,7 +1482,7 @@ Se ingresa la información del representante legal del socio del negocio emplead
 
 Introduzca en el campo **Nombre 2**, los (2) dos apellidos de la persona a quien va emitido el contrato.
 
-Campo Nombre 2 Contrato
+![Campo Nombre 2](/assets/img/docs/master-data/mad-master-image19.png)
 
 Imagen 27. Campo Nombre 2
 
@@ -1492,7 +1492,7 @@ Se ingresa la información del representante legal del socio del negocio emplead
 
 Introduzca en el campo **Código Nacional**, el código que identifica al socio del negocio empleado, este código es diferente a la cédula.
 
-Campo Código Nacional
+![Campo Código Nacional](/assets/img/docs/master-data/mad-master-image20.png)
 
 Imagen 28. Campo Código Nacional
 
@@ -1502,7 +1502,7 @@ Se recomienda que al ingresar el valor al campo **Código Nacional** no se ingre
 
 Introduzca en el campo **Código Seguridad Social**, el código del seguro social de la persona a quien va emitido el contrato.
 
-Campo Seguridad Social
+![Campo Código Seguridad Social](/assets/img/docs/master-data/mad-master-image21.png)
 
 Imagen 29. Campo Código Seguridad Social
 
@@ -1512,79 +1512,79 @@ El código de seguridad social se refiere al código del seguro social del emple
 
 Seleccione en el campo **Nacionalidad**, la nacionalidad de la persona a quien va emitido el contrato.
 
-Campo Nacionalidad
+![Campo Nacionalidad](/assets/img/docs/master-data/mad-master-image22.png)
 
 Imagen 30. Campo Nacionalidad
 
 Introduzca en el campo **Marca de Identificación**, una descripción que identifica al socio del negocio empleado.
 
-Campo Marca de Identificación
+![Campo Marca de Identificación](/assets/img/docs/master-data/mad-master-image23.png)
 
 Imagen 31. Campo Marca de Identificación
 
 Introduzca en el campo **Estado Marital**, el estado marital de la persona a quien va emitido el contrato.
 
-Campo Estado Marital2
+![Campo Estado Marital](/assets/img/docs/master-data/mad-master-image24.png)
 
 Imagen 32. Campo Estado Marital
 
 Introduzca en el campo **Nombre de Esposo(a)**, el nombre del esposo(a) de la persona a quien va emitido el contrato.
 
-Campo Nombre de Esposo(a)
+![Campo Nombre de Esposo(a)](/assets/img/docs/master-data/mad-master-image25.png)
 
 Imagen 33. Campo Nombre de Esposo(a)
 
 Seleccione en el campo **Fecha de Aniversario de Matrimonio**, la fecha en la que se realizó el matrimonio.
 
-Campo Fecha de Aniversario de Matrimonio
+![Campo Fecha de Aniversario de Matrimonio](/assets/img/docs/master-data/mad-master-image26.png)
 
 Imagen 34. Campo Fecha de Aniversario de Matrimonio
 
 Seleccione en el campo **Fecha de Nacimiento de Esposo(a)**, la fecha en la que nació el esposo(a).
 
-Campo Fecha de Nacimiento de Esposo(a)
+![Campo Fecha de Nacimiento de Esposo(a)](/assets/img/docs/master-data/mad-master-image27.png)
 
 Imagen 35. Campo Fecha de Nacimiento de Esposo(a)
 
 Introduzca en el campo **Código de Validación**, el código de marcaje del empleado en la empresa.
 
-Campo Código de Validación
+![Código de Validación](/assets/img/docs/master-data/mad-master-image28.png)
 
 Imagen 36. Código de Validación
 
 Seleccione en el campo **Nómina**, la nómina regular establecida para cada Empleado. Adempiere presenta las siguientes nóminas cuando el empleado posee un Salario Fijo (Nómina Semanal, Nómina Quincenal y Nómina Mensual), en cambio si el Empleado Posee un Salario Variable se encuentras disponibles (Nómina Semanal Mixta, Nómina Quincenal Mixta y Nómina Mensual Mixta)
 
-Campo Nómina
+![Campo Nómina](/assets/img/docs/master-data/mad-master-image29.png)
 
 Imagen 37. Campo Nómina
 
 Seleccione en el campo **Departamento Nómina**, el departamento al que pertenece el socio del negocio que esta resgistrando.
 
-Campo Departamento Nómina
+![Campo Departamento Nómina](/assets/img/docs/master-data/mad-master-image30.png)
 
 Imagen 38. Campo Departamento Nómina
 
 Seleccione en el campo **Puesto Nómina**, el puesto que tiene el socio del negocio que esta registrando.
 
-Campo Puesto Nómina
+![Campo Puesto Nómina](/assets/img/docs/master-data/mad-master-image31.png)
 
 Imagen 39. Campo Puesto Nómina
 
 Seleccione en el campo **Tipo de Trabajo**, el trabajo a desempeñar por el empleado en la empresa.
 
-Campo Tipo de Trabajo
+![Campo Tipo de Trabajo](/assets/img/docs/master-data/mad-master-image32.png)
 
 Imagen 4. Campo Tipo de Trabajo
 
 Introduzca en el campo **Fecha de Inicio**, la fecha de inicio del contrato que se esta creando.
 
-Campo Fecha de Inicio
+![Campo Fecha de Inicio](/assets/img/docs/master-data/mad-master-image33.png)
 
 Imagen 4. Campo Fecha de Inicio
 
 Seleccione en el campo **Fecha Final**, la fecha de culminación del contrato del socio del negocio que esta registrando.
 
-Campo Fecha Final
+![Campo Fecha Final](/assets/img/docs/master-data/mad-master-image34.png)
 
 Imagen 42. Campo Fecha Final
 
@@ -1594,163 +1594,163 @@ La fecha final del contrato depende del lapso de duración de contratos que las 
 
 Seleccione el checklist **Gerente**, para indicar que el socio del negocio que esta registrando es un gerente.
 
-Campo Gerente
+![Campo Gerente](/assets/img/docs/master-data/mad-master-image35.png)
 
 Imagen 43. Campo Gerente
 
 Seleccione en el campo **Grupo de Trabajo**, el grupo de trabajo al que pertenece el socio del negocio que esta registrando.
 
-Campo Grupo de Trabajo
+![Campo Grupo de Trabajo](/assets/img/docs/master-data/mad-master-image36.png)
 
 Imagen 44. Campo Grupo de Trabajo
 
 Seleccione en el campo **Tipo de Empleado**, el tipo de empleado al que pertenece el socio del negocio que esta registrando.
 
-Campo Tipo de Empleado
+![Campon Tipo de Empleado](/assets/img/docs/master-data/mad-master-image37.png)
 
 Imagen 45. Campon Tipo de Empleado
 
 Seleccione en el campo **Grupo de Turno**, el grupo de turno al que pertenece el socio del negocio que esta registrando.
 
-Campo Grupo de Turno
+![Campo Grupo de Turno](/assets/img/docs/master-data/mad-master-image38.png)
 
 Imagen 46. Campo Grupo de Turno
 
 Seleccione en el campo **Estado del Empleado**, el estado en el que se encuentra el empleado durante la fecha de inicio y final del contrato.
 
-Campo Estado del Empleado
+![Campo Estado del Empleado](/assets/img/docs/master-data/mad-master-image39.png)
 
 Imagen 47. Campo Estado del Empleado
 
 Seleccione en el campo **Educación Laboral**, la educación laboral del socio del negocio que esta registrando.
 
-Campo Educación Laboral
+![Campo Educación Laboral](/assets/img/docs/master-data/mad-master-image40.png)
 
 Imagen 48. Campo Educación Laboral
 
 Seleccione en el campo **Identificador de la Carrera**, la carrera del socio del negocio que esta registrando.
 
-Campo Identificador de la carrera
+![Campo Identificador de la Carrera](/assets/img/docs/master-data/mad-master-image41.png)
 
 Imagen 49. Campo Identificador de la Carrera
 
 Seleccione en el campo **Grado**, el grado de instrucción del socio del negocio que esta registrando.
 
-Campo Grado
+![Campo Grado](/assets/img/docs/master-data/mad-master-image42.png)
 
 Imagen 50. Campo Grado
 
 Seleccione en el campo **Designación**, la designación del socio del negocio que esta registrando.
 
-Campo Designación
+![Campo Designación](/assets/img/docs/master-data/mad-master-image43.png)
 
 Imagen 51. Campo Designación
 
 Seleccione en el campo **Profesión**, la profesión del socio del negocio que esta registrando.
 
-Campo Profesión
+![Campo Profesión](/assets/img/docs/master-data/mad-master-image44.png)
 
 Imagen 52. Campo Profesión
 
 Seleccione en el campo **Grado Académico**, nivel de instrucción del socio del negocio que esta registrando.
 
-Campo Grado Académico
+![Campo Grado Académico](/assets/img/docs/master-data/mad-master-image45.png)
 
 Imagen 53. Campo Grado Académico
 
 Seleccione en el campo **Tipo de Habilidad**, el tipo de habilidad del socio del negocio que esta registrando.
 
-Campo Tipo de Habilidad
+![Campo Tipo de Habilidad](/assets/img/docs/master-data/mad-master-image46.png)
 
 Imagen 54. Campo Tipo de Habilidad
 
 Seleccione en el campo **Oferta de Empleo**, la oferta de empleo del socio del negocio que esta registrando.
 
-Campo Oferta de Empleo
+![Campo Oferta de Empleo](/assets/img/docs/master-data/mad-master-image47.png)
 
 Imagen 55. Campo Oferta de Empleo
 
 Seleccione en el campo **Estructura Salarial**, la estructura salarial del socio del negocio que esta registrando.
 
-Campo Estructura Salarial
+![Campo Estructura Salarial](/assets/img/docs/master-data/mad-master-image48.png)
 
 Imagen 56. Campo Estructura Salarial
 
 Introduzca en el campo **Salario Diario**, el salario diario que le corresponde al socio del negocio que esta registrando.
 
-Campo Salario Diario
+![Campo Salario Diario](/assets/img/docs/master-data/mad-master-image49.png)
 
 Imagen 57. Campo Salario Diario
 
 Seleccione en el campo **Regla de Pago**, la regla de pago establecida para el socio del negocio que esta registrando.
 
-Campo Regla de Pago2
+![Campo Regla de Pago](/assets/img/docs/master-data/mad-master-image50.png)
 
 Imagen 58. Campo Regla de Pago
 
 Seleccione en el campo **Rango Salarial**, el rango salarial del socio del negocio que esta registrando.
 
-Campo Rango Salarial
+![Campo Rango Salarial](/assets/img/docs/master-data/mad-master-image51.png)
 
 Imagen 59. Campo Rango Salarial
 
 Introduzca en el campo **Salario Mensual**, el salario mensual del socio del negocio que esta registrando.
 
-Campo Salario Mensual
+![Campo Salario Mensual](/assets/img/docs/master-data/mad-master-image52.png)
 
 Imagen 60. Campo Salario Mensual
 
 Seleccione en el campo **Organización de la Transacción**, la organización de la transacción.
 
-Campo Organización de la Transacción
+![Campo Organización de la Transacción](/assets/img/docs/master-data/mad-master-image53.png)
 
 Imagen 61. Campo Organización de la Transacción
 
 Seleccione en el campo **Proyecto**, el proyecto financiero.
 
-Campo Proyecto
+![Campo Proyecto](/assets/img/docs/master-data/mad-master-image54.png)
 
 Imagen 62. Campo Proyecto
 
 Seleccione en el campo **Región de Ventas**, la región de ventas asignada al socio del negocio empleado para cubrir las transacciones que la empresa posee en dicha región.
 
-Campo Región de Ventas
+![Campo Región de Ventas](/assets/img/docs/master-data/mad-master-image55.png)
 
 Imagen 63. Campo Región de Ventas
 
 Seleccione la actividad en el campo **Actividad**.
 
-Campo Actividad
+![Campo Actividad](/assets/img/docs/master-data/mad-master-image56.png)
 
 Imagen 64. Campo Actividad
 
 Seleccione la campaña en el campo **Campaña**.
 
-Campo Campaña
+![Campo Campaña](/assets/img/docs/master-data/mad-master-image57.png)
 
 Imagen 65. Campo Campaña
 
 Seleccione en el campo **Imagen del Empleado**, la foto o imagen del socio del negocio empleado que esta registrando.
 
-Campo Imagen del Empleado
+![Campo Imagen del Empleado](/assets/img/docs/master-data/mad-master-image58.png)
 
 Imagen 66. Campo Imagen del Empleado
 
 Introduzca en el campo **Dirección Web**, la dirección web de la foto o imagen del socio del negocio que esta registrando.
 
-Campo Dirección Web2
+![Campo Dirección Web](/assets/img/docs/master-data/mad-master-image59.png)
 
 Imagen 67. Campo Dirección Web
 
 Seleccione en el campo **Imagen del Pulgar**, la imagen del pulgar del socio del negocio que esta registrando.
 
-Campo Imagen del Pulgar
+![Campo Imagen del Pulgar](/assets/img/docs/master-data/mad-master-image60.png)
 
 Imagen 68. Campo Imagen del Pulgar
 
 Seleccione en el campo **Logo**, el logo de la empresa.
 
-Logo
+![Logo](/assets/img/docs/master-data/mad-master-image61.png)
 
 Imagen 69. Logo
 
@@ -1764,19 +1764,19 @@ En una empresa los empleados poseen caracteristicas diferentes, Estas caracteris
 
 Seleccione la pestaña **Atributo de Empleado** y proceda al llenado de los campos correspondientes.
 
-### Pestaña Atributo de Empleado
+![Pestaña Atributo de Empleado](/assets/img/docs/master-data/mad-master-image62.png)
 
 Imagen 70. Pestaña Atributo de Empleado
 
 Seleccione en el campo **Relación con Socios del Negocio**, el socio del negocio correspondiente.
 
-Campo Relación con Socios del Negocio
+![Campo Relación con Socios del Negocio](/assets/img/docs/master-data/mad-master-image63.png)
 
 Imagen 71. Campo Relación con Socios del Negocio
 
 Seleccione en el campo **Concepto Nómina**, el Concepto de Nómina con el cual le creará el atributo al empleado.
 
-Campo Concepto Nómina
+![Campo Concepto Nómina](/assets/img/docs/master-data/mad-master-image64.png)
 
 Imagen 72. Campo Concepto Nómina
 
@@ -1786,43 +1786,43 @@ Al seleccionar cualquier valor en este campo podrá apreciar una serie de concep
 
 Introduzca en el campo **Descripción**, una breve descripción del registro de concepto de nómina que esta realizando.
 
-Campo Descripción Concepto
+![Campo Descripción](/assets/img/docs/master-data/mad-master-image65.png)
 
 Imagen 73. Campo Descripción
 
 Introduzca en el campo **No. de Referencia**, el número de referencia del socio del negocio que esta registrando.
 
-Campo No. de Referencia
+![Campo No. de Referencia](/assets/img/docs/master-data/mad-master-image66.png)
 
 Imagen 74. Campo No. de Referencia
 
 Introduzca en el campo **Monto**, el monto correspondiente al registro que esta realizando.
 
-Campo Monto
+![Campo Monto](/assets/img/docs/master-data/mad-master-image67.png)
 
 Imagen 75. Campo Monto
 
 Introduzca en el campo **Valor Máximo**, el valor máximo para el registro que esta realizando.
 
-Campo Valor Máximo
+![Campo Valor Máximo](/assets/img/docs/master-data/mad-master-image68.png)
 
 Imagen 76. Campo Valor Máximo
 
 Introduzca en el campo **Valor Mínimo**, el valor mínimo para el registro que esta realizando.
 
-Campo Valor Mínimo
+![Campo Valor Mínimo](/assets/img/docs/master-data/mad-master-image69.png)
 
 Imagen 77. Campo Valor Mínimo
 
 Seleccione en el campo **Válido Desde**, la fecha de inicio de aplicación del registro que esta realizando.
 
-Campo Válido Desde
+![Campo Válido Desde](/assets/img/docs/master-data/mad-master-image70.png)
 
 Imagen 78. Campo Válido Desde
 
 Seleccione en el campo **Válido Hasta**, la fecha final de aplicación del registro que se esta realizando.
 
-Campo Válido Hasta
+![Campo Válido Hasta](/assets/img/docs/master-data/mad-master-image71.png)
 
 Imagen 79. Campo Válido Hasta
 
@@ -1838,19 +1838,19 @@ En la pestaña **Días Libres de la Semana** se deben seleccionar los checklist 
 
 Seleccione la pestaña **Días Libres de la Semana** y proceda al llenado de los campos correspondientes.
 
-Pestaña Días Libres de la Semana
+![Pestaña Días Libres de la Semana](/assets/img/docs/master-data/mad-master-image72.png)
 
 Imagen 80. Pestaña Días Libres de la Semana
 
 Introduzca en el campo **Descripción**, una breve descripción de los días libres que le corresponden al socio del negocio que esta registrando. Este campo es opcional, sin embargo, sirve de referencia para el registro del socio del negocio empleado en la empresa cuando se utilizan turnos rotativos.
 
-Campo Descripción2
+![Campo Descripción](/assets/img/docs/master-data/mad-master-image73.png)
 
 Imagen 81. Campo Descripción
 
 Seleccione los checklist correspondientes a los días libres del socio del negocio empleado que esta registrando. Para ejemplificar el registro se tildan los días **Sábado** y **Domingo**.
 
-Checklist Días Libres de la Semana
+![Checklist Días Libres de la Semana](/assets/img/docs/master-data/mad-master-image74.png)
 
 Imagen 82. Checklist Días Libres de la Semana
 
@@ -1864,7 +1864,7 @@ La pestaña **Detalle de Pago**, muestra de forma resumida la información de pa
 
 Seleccione la pestaña **Detalle de Pago** y podrá apreciar la información de pago del socio del negocio empleado ingresada en la pestaña **Información de Contrato**.
 
-Pestaña Detalle de Pago
+![Pestaña Detalle de Pago](/assets/img/docs/master-data/mad-master-image75.png)
 
 Imagen 83. Pestaña Detalle de Pago
 
@@ -1872,19 +1872,19 @@ Si es necesario modificar los campos que contiene la ventana, proceda a realizar
 
 Introduzca en el campo **Salario Mensual**, el salario mensual que le corresponde al socio del negocio empleado que esta registrando.
 
-Campo Salario Mensual Detalle
+![Campo Salario Mensual](/assets/img/docs/master-data/mad-master-image76.png)
 
 Imagen 84. Campo Salario Mensual
 
 Introduzca en el campo **Salario Diario**, el salario diario que le corresponde al socio del negocio empleado que esta registrando.
 
-Campo Salario Diario Detalle
+![Campo Salario Diario](/assets/img/docs/master-data/mad-master-image77.png)
 
 Imagen 85. Campo Salario Diario
 
 Seleccione en el campo **Regla de Pago**, la forma de pago establecida para el socio del negocio empleado que esta registrando.
 
-Campo Regla de Pago Detalle
+![Campo Regla de Pago](/assets/img/docs/master-data/mad-master-image78.png)
 
 Imagen 86. Campo Regla de Pago
 
@@ -1894,46 +1894,47 @@ Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en 
 
 Regrese a la pestaña **Información de Contrato** para que pueda apreciar el comportamiento de los cambios realizados en la pestaña **Detalle de Pago**
 
-Pestaña Información de Contrato Detalle
+![Pestaña Información de Contrato](/assets/img/docs/master-data/mad-master-image79.png)
 
 Imagen 87. Pestaña Información de Contrato
 
-Pestaña Cuenta Bancaria
+### Pestaña Cuenta Bancaria
+
 En esta pestaña se registran los datos bancarios del socio del negocio empleado, esta información es necesaria para cancelar al empleado las remuneraciones correspondientes por los servicios prestados a la empresa.
 
 Seleccione la pestaña **Cuenta Bancaria** que se encuentra ubicada del lado izquierdo de la ventana socio del negocio y proceda al llenado de los campos correspondientes. Debe tildar la Opción que dice ACH para que aparezcan los campos que se describen a continuación. Recuerde que el llenado de está cuenta Bancaria es la Cuenta Nómina del empleado, utilizada para el pago de su nómina
 
-Pestaña Cuenta Bancaria
+![Pestaña Cuenta Bancaria](/assets/img/docs/master-data/mad-master-image80.png)
 
 Imagen 88. Pestaña Cuenta Bancaria
 
 En el campo **Banco** seleccione el banco a registrar con ayuda del ícono identificador (adjunto imagen).
 
-Campo Banco
+![Campo Banco](/assets/img/docs/master-data/mad-master-image81.png)
 
 Imagen 89. Campo Banco
 
 A continuación podrá apreciar la siguiente ventana con los diferentes bancos, dónde debe seleccionar el banco que posee el socio del negocio empleado y la opción **OK** para cargar los datos al formulario.
 
-Opción Ok
+![Opción OK](/assets/img/docs/master-data/mad-master-image82.png)
 
 Imagen 90. Opción OK
 
 Seleccione en el campo **Tipo de Cuenta Bancaria**, el tipo de cuenta bancaria correspondiente a la cuenta que esta registrando. Para ejemplificar el registro es utilizado el tipo de cuenta corriente.
 
-Campo Tipo de Cuenta Bancaria
+![Campo Tipo de Cuenta Bancaria](/assets/img/docs/master-data/mad-master-image83.png)
 
 Imagen 91. Campo Tipo de Cuenta Bancaria
 
 Introduzca en el campo **No. De Cuenta**, el número de cuenta bancaria que esta registrando.
 
-Campo No. De Cuenta
+![Campo No. De Cuenta](/assets/img/docs/master-data/mad-master-image84.png)
 
 Imagen 92. Campo No. De Cuenta
 
 Introduzca el código de identificación, cédula o rif del titular de la cuenta bancaria que esta registrando, en el campo **No. Seguro Social**.
 
-Campo No. Seguro Social Cuenta
+![Campo No. Seguro Social](/assets/img/docs/master-data/mad-master-image85.png)
 
 Imagen 93. Campo No. Seguro Social
 
@@ -1943,19 +1944,19 @@ Se recomienda que al ingresar el valor al campo **No. Seguro Social** no se ingr
 
 Introduzca el nombre de referencia en el campo **Nombre**, en este campo va el nombre del titular de la cuenta bancaria que esta registrando.
 
-Campo Nombre Titular
+![Campo Nombre Titular](/assets/img/docs/master-data/mad-master-image86.png)
 
 Imagen 94. Campo Nombre Titular
 
 Introduzca en el campo **Cta. Correo Electrónico**, el correo electrónico asociado a la cuenta bancaria que esta registrando.
 
-Campo Cta. Correo Electrónico
+![Campo Cta. Correo Electrónico](/assets/img/docs/master-data/mad-master-image87.png)
 
 Imagen 95. Campo Cta. Correo Electrónico
 
 Seleccione el icono **Guardar Cambios** en la barra de herramientas de ADempiere.
 
-Icono Guardar Cambios2
+![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-image88.png)
 
 Imagen 96. Icono Guardar Cambios
 
@@ -1969,49 +1970,49 @@ La experiencia laboral de las personas forman su hoja de vida laboral, en cada e
 
 Seleccione la pestaña **Experiencia Laboral** y proceda al llenado de los campos correspondientes.
 
-Pestaña Experiencia Laboral
+![Pestaña Experiencia Laboral](/assets/img/docs/master-data/mad-master-image89.png)
 
 Imagen 97. Pestaña Experiencia Laboral
 
 Introduzca en el campo **Compañía**, el nombre de la empresa en la cual trabajo el socio del negocio empleado que esta registrando.
 
-Campo Compañía Experiencia
+![Campo Compañía](/assets/img/docs/master-data/mad-master-image90.png)
 
 Imagen 98. Campo Compañía
 
 Seleccione en el campo **Desde Fecha**, la fecha en la cual comenzo a realizar sus actividades laborales en la empresa.
 
-Campo Desde Fecha
+![Campo Desde Fecha](/assets/img/docs/master-data/mad-master-image91.png)
 
 Imagen 99. Campo Desde Fecha
 
 Seleccione en el campo **A Fecha**, la fecha en la cual termino de realizar sus actividades laborales en la empresa.
 
-Campo A Fecha
+![Campo A Fecha](/assets/img/docs/master-data/mad-master-image92.png)
 
 Imagen 100. Campo A Fecha
 
 Introduzca en el campo **Designación (Enlazado)**,
 
-Campo Designación (Enlazado)
+![Campo Designación (Enlazado)](/assets/img/docs/master-data/mad-master-image93.png)
 
 Imagen 101. Campo Designación (Enlazado)
 
 Introduzca en el campo **Designación (Retirado)**,
 
-Campo Designación (Retirado)
+![Campo Designación (Retirado)](/assets/img/docs/master-data/mad-master-image94.png)
 
 Imagen 102. Campo Designación (Retirado)
 
 Introduzca en el campo **Comentarios**, cualquier información relevante con respecto a la experiencia en la empresa.
 
-Campo Comentarios
+![Campo Comentarios](/assets/img/docs/master-data/mad-master-image95.png)
 
 Imagen 103. Campo Comentarios
 
 Seleccione el icono **Guardar Cambios** en la barra de herramientas de ADempiere, para guardar los cambios realizados en la pestaña **Experiencia Laboral**.
 
-Icono Guardar Cambios3
+![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-image96.png)
 
 Imagen 104. Icono Guardar Cambios
 
@@ -2026,43 +2027,43 @@ El Estado asume la educación como proceso esencial para promover, fortalecer y 
 
 Seleccione la pestaña **Educación** y proceda al llenado de los campos correspondientes.
 
-Pestaña Educación
+![Pestaña Educación](/assets/img/docs/master-data/mad-master-image97.png)
 
 Imagen 105. Pestaña Educación
 
 Seleccione en el campo **Grado Académico**, del grado académico del socio del negocio empleado que esta registrando.
 
-Campo Grado Académico2
+![Campo Grado Académico](/assets/img/docs/master-data/mad-master-image98.png)
 
 Imagen 106. Campo Grado Académico
 
 Introduzca en el campo **Colegio**, el nombre de la institución o colegio donde obtuvo el grado académico que esta registrando.
 
-Campo Colegio
+![Campo Colegio](/assets/img/docs/master-data/mad-master-image99.png)
 
 Imagen 107. Campo Colegio
 
 Introduzca en el campo **Dirección de Escuela / Colegio**, la dirección de la institución o colegio donde obtuvo el grado académico que esta registrando.
 
-Campo Dirección de Escuela / Colegio
+![Campo Dirección de Escuela / Colegio](/assets/img/docs/master-data/mad-master-image100.png)
 
 Imagen 108. Campo Dirección de Escuela / Colegio
 
 Introduzca en el campo **Duración**, el tiempo de duración para obtener el grado académico seleccionado.
 
-Campo Duración
+![Campo Duración](/assets/img/docs/master-data/mad-master-image101.png)
 
 Imagen 109. Campo Duración
 
 Introduzca en el campo **Fecha de Finalización**, el año en el cual obtuvo el grado académico seleccionado.
 
-Campo Fecha de Finalización
+![Campo Fecha de Finalización](/assets/img/docs/master-data/mad-master-image102.png)
 
 Imagen 110. Campo Fecha de Finalización
 
 Introduzca en el campo **Comentarios**, cualquier información relevante para el registro.
 
-Campo Comentario
+![Campo Comentarios](/assets/img/docs/master-data/mad-master-image103.png)
 
 Imagen 111. Campo Comentarios
 
@@ -2075,19 +2076,19 @@ En esta pestaña se registran los datos de cada uno de los familiares que depend
 
 Seleccione la pestaña **Dependientes** y proceda al llenado de los campos correspondientes.
 
-Pestaña Dependientes
+![Pestaña Dependientes](/assets/img/docs/master-data/mad-master-image104.png)
 
 Imagen 112. Pestaña Dependientes
 
 Seleccione en el campo **Relación de Empleados**, la relación que tiene el dependiente con el socio del negocio empleado que esta registrando. Para ejemplificar el registro es utilizada la opción **Hijo (a)**.
 
-Campo Relación de Empleados
+![Campo Relación de Empleados](/assets/img/docs/master-data/mad-master-image105.png)
 
 Imagen 113. Campo Relación de Empleados
 
 Introduzca el código de identificación, cédula o rif del dependiente que esta registrando, en el campo **Código**.
 
-Campo Código2
+![Campo Código](/assets/img/docs/master-data/mad-master-image106.png)
 
 Imagen 114. Campo Código
 
@@ -2097,13 +2098,13 @@ Se recomienda que al ingresar el valor al campo **Código** no se ingrese ningú
 
 Introduzca en el campo **Nombre**, el nombre completo del dependiente que esta registrando.
 
-Campo Nombre Dependiente
+![Campo Nombre Dependiente](/assets/img/docs/master-data/mad-master-image107.png)
 
 Imagen 115. Campo Nombre Dependiente
 
 Seleccione en el campo **Socio del Negocio Relacionado**, el socio del negocio empleado que esta registrando.
 
-Campo Socio del Negocio Relacionado
+![Campo Socio del Negocio Relacionado](/assets/img/docs/master-data/mad-master-image108.png)
 
 Imagen 116. Campo Socio del Negocio Relacionado
 
@@ -2113,49 +2114,49 @@ El campo **Socio del Negocio Relacionado**, es utilizado cuando se va a realizar
 
 Seleccione en el campo **Cumpleaños**, la fecha de nacimiento del dependiente que esta registrando.
 
-Campo Cumpleaños Dependiente
+![Campo Cumpleaños Dependiente](/assets/img/docs/master-data/mad-master-image109.png)
 
 Imagen 117. Campo Cumpleaños Dependiente
 
 Seleccione en el campo **Genero**, el genero del dependiente que esta registrando.
 
-Campo Genero Dependiente
+![Campo Genero](/assets/img/docs/master-data/mad-master-image110.png)
 
 Imagen 118. Campo Genero
 
 Seleccione en el campo **Profesión**, la profesión del dependiente que esta registrando. Esta opción no es obligatoria, debe ser seleccionada si el dependiente posee cualquiera de las opciones que contiene este campo.
 
-Campo Profesión Dependiente
+![Campo Profesión](/assets/img/docs/master-data/mad-master-image111.png)
 
 Imagen 119. Campo Profesión
 
 Seleccione en el campo **Identificador de la Carrera**, la carrera del dependiente que esta registrando. Esta opción no es obligatoria, debe ser seleccionada si el dependiente posee cualquiera de las opciones que contiene este campo.
 
-Campo Identificador de la Carrera Dependiente
+![Campo Identificador de la Carrera](/assets/img/docs/master-data/mad-master-image112.png)
 
 Imagen 120. Campo Identificador de la Carrera
 
 Seleccione en el campo **Grado Académico**, el grado académico del dependiente que esta registrando. Esta opción no es obligatoria, debe ser seleccionada si el dependiente posee cualquiera de las opciones que contiene este campo.
 
-Campo Grado Académico3
+![Campo Grado Académico](/assets/img/docs/master-data/mad-master-image113.png)
 
 Imagen 121. Campo Grado Académico
 
 Seleccione en el campo **Grado**, el grado de instrucción del dependiente que esta registrando. Esta opción no es obligatoria, debe ser seleccionada si el dependiente posee cualquiera de las opciones que contiene este campo.
 
-Campo Grado Dependiente
+![Campo Grado Dependiente](/assets/img/docs/master-data/mad-master-image114.png)
 
 Imagen 122. Campo Grado Dependiente
 
 Tilde el checklist **Estudiante Activo**, si el dependiente que esta registrando se encuentra cursando estudios en la actualidad. Esta opción no es obligatoria, debe ser seleccionada solo si el dependiente se encuentra estudiando.
 
-Checklist Estudiante Activo
+![Checklist Estudiante Activo](/assets/img/docs/master-data/mad-master-image115.png)
 
 Imagen 123. Checklist Estudiante Activo
 
 Tilde el checklist **Becado**, si el dependiente que esta registrando se encuentra becado. Esta opción no es obligatoria, debe ser seleccionada solo si el dependiente se encuentra becado.
 
-Checklist Becado
+![Checklist Becado](/assets/img/docs/master-data/mad-master-image116.png)
 
 Imagen 124. Checklist Becado
 
@@ -2169,13 +2170,13 @@ La localización de un socio del negocio es muy importante para una empresa por 
 
 Seleccione la pestaña **Localización** y proceda al llenado de los campos correspondientes.
 
-Pestaña Localización
+![Pestaña Localización](/assets/img/docs/master-data/mad-master-image117.png)
 
 Imagen 125. Pestaña Localización
 
 Seleccione en el campo **Tipo de Contacto**, el tipo de contacto de la localización a registrar para el socio del negocio empleado. Para ejemplificar el registro es utilizada la opción **Primaria**.
 
-Campo Tipo de Contrato
+![Campo Tipo de Contrato](/assets/img/docs/master-data/mad-master-image118.png)
 
 Imagen 126. Campo Tipo de Contrato
 
@@ -2185,73 +2186,73 @@ En esta pestaña el campo **Tipo de Contacto** posee dos opciones, la opción **
 
 Introduzca en el campo **Persona de Contacto**, el nombre de la persona de contacto de la localización a registrar para el socio del negocio empleado.
 
-Campo Persona de Contacto
+![Campo Persona de Contacto](/assets/img/docs/master-data/mad-master-image119.png)
 
 Imagen 127. Campo Persona de Contacto
 
 Seleccione en el campo **Localización / Dirección** con ayuda del identificador, la localización referente al tipo de contacto seleccionado.
 
-Campo Localización / Dirección
+![Campo Localización / Dirección](/assets/img/docs/master-data/mad-master-image120.png)
 
 Imagen 128. Campo Localización / Dirección
 
 Seleccione en el campo **País**, el país donde se encuentra domiciliado el socio del negocio que esta registrando.
 
-Campo País Localización
+![Campo País Localización](/assets/img/docs/master-data/mad-master-image121.png)
 
 Imagen 129. Campo País Localización
 
 Seleccione en el campo **Estado**, el estado donde se encuentra domiciliado el socio del negocio que esta registrando.
 
-Campo Estado Localización
+![Campo Estado Localización](/assets/img/docs/master-data/mad-master-image122.png)
 
 Imagen 130. Campo Estado Localización
 
 Seleccione en el campo **Ciudad**, la ciudad donde se encuentra domiciliado el socio del negocio que esta registrando.
 
-Campo Ciudad Localización
+![Campo Ciudad Localización](/assets/img/docs/master-data/mad-master-image123.png)
 
 Imagen 131. Campo Ciudad Localización
 
 Introduzca la dirección detallada del socio del negocio empleado en el campo **Dirección 1** y seleccione la opción **OK**.
 
-Campo Dirección 1 Localización
+![Campo Dirección 1 Localización](/assets/img/docs/master-data/mad-master-image124.png)
 
 Imagen 132. Campo Dirección 1 Localización
 
 Introduzca en el campo **Teléfono**, el número de teléfono local de la dirección seleccionada.
 
-Campo Teléfono Localización
+![Campo Teléfono](/assets/img/docs/master-data/mad-master-image125.png)
 
 Imagen 133. Campo Teléfono
 
 Introduzca en el campo **Teléfono Móvil**, el número de teléfono móvil de la persona de contacto.
 
-Campo Teléfono Móvil Localización
+![Campo Teléfono Móvil](/assets/img/docs/master-data/mad-master-image126.png)
 
 Imagen 134. Campo Teléfono Móvil
 
 Introduzca en el campo **Teléfono Móvil**, el número de teléfono móvil alternativo de la persona de contacto.
 
-Campo Teléfono Móvil Alternativo
+![Campo Teléfono Móvil Alternativo](/assets/img/docs/master-data/mad-master-image127.png)
 
 Imagen 135. Campo Teléfono Móvil Alternativo
 
 Introduzca en el campo **Fax**, el fax de la persona de contacto.
 
-Campo Fax Localización
+![Campo Fax Localización](/assets/img/docs/master-data/mad-master-image128.png)
 
 Imagen 136. Campo Fax Localización
 
 Introduzca en el campo **Email**, el email de la persona de contacto.
 
-Campo Email Localización
+![Campo Email Localización](/assets/img/docs/master-data/mad-master-image129.png)
 
 Imagen 137. Campo Email Localización
 
 Seleccione el icono **Guardar Cambios** en la barra de herramientas de ADempiere, para guardar los cambios realizados en la pestaña **Localización**.
 
-Icono Guardar Cambios4
+![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-image130.png)
 
 Imagen 138. Icono Guardar Cambios
 
@@ -2265,97 +2266,97 @@ En esta pestaña se registra toda la información del socio del negocio empleado
 
 Seleccione la pestaña **Detalle de Seguro** y proceda al llenado de los campos correspondientes.
 
-Pestaña Detalle de Seguro
+![Pestaña Detalle de Seguro](/assets/img/docs/master-data/mad-master-image131.png)
 
 Imagen 139. Pestaña Detalle de Seguro
 
 Seleccione en el campo **Identificador del Tipo de Seguro**, el tipo de seguro que esta registrando al socio del negocio empleado. Para ejemplificar el registro es utilizado el tipo de seguro **Seguro de Salud o Enfermedad_SS-100005**.
 
-Campo Identificador del Tipo de Seguro
+![Campo Identificador del Tipo de Seguro](/assets/img/docs/master-data/mad-master-image132.png)
 
 Imagen 140. Campo Identificador del Tipo de Seguro
 
 Seleccione en el campo **Período Nómina**, el período de la nómina. Para ejemplificar el registro es utilizado el período de nómina **01/10/2019 Hacia 31/10/2019**.
 
-Campo Período Nómina
+![Campo Período Nómina](/assets/img/docs/master-data/mad-master-image133.png)
 
 Imagen 141. Campo Período Nómina
 
 Introduzca en el campo **Plan de Seguro**, el plan de seguro que esta registrando al socio del negocio empleado.
 
-Campo Plan de Seguro
+![Campo Plan de Seguro](/assets/img/docs/master-data/mad-master-image134.png)
 
 Imagen 142. Campo Plan de Seguro
 
 Introduzca en el campo **Referencia**, la referencia del seguro que esta registrando al socio del negocio empleado. Para ejemplificar el registro es utilizada la cédula del socio del negocio empleado.
 
-Campo Referencia
+![Campo Referencia](/assets/img/docs/master-data/mad-master-image135.png)
 
 Imagen 143. Campo Referencia
 
 Seleccione en el campo **Fecha Último Pago**, la fecha del último pago realizado al seguro.
 
-Campo Fecha Último Pago
+![Campo Fecha Último Pago](/assets/img/docs/master-data/mad-master-image136.png)
 
 Imagen 144. Campo Fecha Último Pago
 
 Seleccione en el campo **Frecuencia de Pago**, la frecuencia establecida para pagar el seguro.
 
-Campo Frecuencia de Pago
+![Campo Frecuencia de Pago](/assets/img/docs/master-data/mad-master-image137.png)
 
 Imagen 145. Campo Frecuencia de Pago
 
 Seleccione en el campo **Última Fecha de Prima**, la última fecha de pago de la prima.
 
-Campo Última Fecha de Prima
+![Campo Última Fecha de Prima](/assets/img/docs/master-data/mad-master-image138.png)
 
 Imagen 146. Campo Última Fecha de Prima
 
 Introduzca en el campo **Nombre del Asegurador**, el nombre de la empresa que ofrece el seguro.
 
-Campo Nombre del Asegurador
+![Campo Nombre del Asegurador](/assets/img/docs/master-data/mad-master-image139.png)
 
 Imagen 147. Campo Nombre del Asegurador
 
 Seleccione en el campo **Fecha de Pago**, la proxima fecha establecida para pagar el seguro.
 
-Campo Fecha de Pago
+![Campo Fecha de Pago](/assets/img/docs/master-data/mad-master-image140.png)
 
 Imagen 148. Campo Fecha de Pago
 
 Introduzca en el campo **Descripción**, una breve descripción del registro del seguro.
 
-Campo Descripción3
+![Campo Descripción](/assets/img/docs/master-data/mad-master-image141.png)
 
 Imagen 149. Campo Descripción
 
 Introduzca en el campo **Monto de Prima**, el monto establecido para pagar frecuentemente. El valor de este campo varía según el asegurador y el contrato de seguro.
 
-Campo Monto de Prima
+![Campo Monto de Prima](/assets/img/docs/master-data/mad-master-image142.png)
 
 Imagen 150. Campo Monto de Prima
 
 Introduzca en el campo **Cantidad de Cobertura**, el monto total establecido por el seguro para la disposición del empleado cuando lo necesite. El valor de este campo varía según el asegurador y el contrato de seguro.
 
-Campo Cantidad de Cobertura
+![Campo Cantidad de Cobertura](/assets/img/docs/master-data/mad-master-image143.png)
 
 Imagen 151. Campo Cantidad de Cobertura
 
 Introduzca en el campo **Cantidad Reclamada**, el monto total utilizado por el empleado.
 
-Campo Cantidad Reclamada
+![Campo Cantidad Reclamada](/assets/img/docs/master-data/mad-master-image144.png)
 
 Imagen 152. Campo Cantidad Reclamada
 
 Podrá apreciar en el campo **Saldo de Cuenta**, el monto total restante para la disposición del empleado cuando lo necesite. El valor de este campo es el resultante de la resta entre el valor del campo **Cantidad de Cobertura** y el valor del campo **Cantidad Reclamada**.
 
-Campo Saldo de Cuenta
+![Campo Saldo de Cuenta](/assets/img/docs/master-data/mad-master-image145.png)
 
 Imagen 153. Campo Saldo de Cuenta
 
 Seleccione el icono **Guardar Cambios** en la barra de herramientas de ADempiere para guardar el registro de la pestaña.
 
-Icono Guardar Cambios5
+![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-image146.png)
 
 Imagen 154. Icono Guardar Cambios
 
@@ -2369,31 +2370,31 @@ En esta pestaña se registran los diferentes permisos solicitados por el socio d
 
 Seleccione la pestaña **Detalle de Permiso** y proceda al llenado de los campos correspondientes.
 
-Pestaña Detalle de Permiso
+![Pestaña Detalle de Permiso](/assets/img/docs/master-data/mad-master-image147.png)
 
 Imagen 155. Pestaña Detalle de Permiso
 
 Seleccione en el campo **Tipo de Permiso**, el tipo de permiso solicitado por el socio del negocio empleado. Para ejemplificar el registro es utilizada la opción **Permiso por Paternidad_PPAT**.
 
-Campo Tipo de Permiso
+![Campo Tipo de Permiso](/assets/img/docs/master-data/mad-master-image148.png)
 
 Imagen 156. Campo Tipo de Permiso
 
 Seleccione en el campo **Válido Desde**, la fecha de inicio del permiso solicitado por el socio del negocio empleado. Para ejemplificar el registro es utilizada la fecha **24/10/2019**.
 
-Campo Válido Desde Permiso
+![Campo Válido Desde](/assets/img/docs/master-data/mad-master-image149.png)
 
 Imagen 157. Campo Válido Desde
 
 Seleccione en el campo **Válido Hasta**, la fecha de culminación del permiso solicitado por el socio del negocio empleado. Para ejemplificar el registro es utilizada la fecha **06/11/2019**.
 
-Campo Válido Hasta Permiso
+![Campo Válido Hasta](/assets/img/docs/master-data/mad-master-image150.png)
 
 Imagen 158. Campo Válido Hasta
 
 Podrá visualizar en el campo **Número de Permisos Asignados**, el número de permisos asignados al socio del negocio empleado.
 
-Campo Número de Permisos Asignados
+![Campo Número de Permisos Asignados](/assets/img/docs/master-data/mad-master-image151.png)
 
 Imagen 159. Campo Número de Permisos Asignados
 
@@ -2409,7 +2410,7 @@ Permisos Usados: Toma el valor **1** al completar el documento de la ventana **S
 
 Seleccione el icono **Guardar Cambios**, para guardar el registro de la pestaña **Detalle de Permiso**.
 
-Icono Guardar Cambios6
+![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-image152.png)
 
 Imagen 160. Icono Guardar Cambios
 
