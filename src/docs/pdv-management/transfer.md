@@ -16,7 +16,7 @@ Finalmente, se puede presentar el caso en el que se tengan todos los tipos de pa
 
 Para mejor referencia de lo explicado anteriormente, se presenta a continuación el diagrama del proceso **Traspaso a Banco**, con la finalidad dar a conocer el comportamiento de ADempiere ante dicho proceso.
 
-diagrama de traspaso a banco pos
+![Campo](/assets/img/docs/pdv-management/gep-pdv-image263.png)
 
 Imagen 1. Diagrama de Traspaso a Banco POS
 
@@ -26,25 +26,25 @@ Cada uno de los procesos nombrados anteriormente son explicados a continuación.
 
 Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Saldos Pendientes**, luego seleccione la carpeta **Diario de Caja**, por último seleccione la ventana **Depósito de Caja**.
 
-menu deposito a caja
+![Campo](/assets/img/docs/pdv-management/gep-pdv-image264.png)
 
 Imagen 2. Menú de ADempiere
 
 Podrá visualizar la ventana de búsqueda inteligente **Depósito de Caja**, que permite realizar el proceso de depósito de las diferentes cajas registradas en ADempiere. Esta ventana cuenta con diferentes campos que le permiten al usuario filtrar la búsqueda de registros en base a lo que sea seleccionado en los mismos.
 
-ventana deposito a caja
+![Campo](/assets/img/docs/pdv-management/gep-pdv-image265.png)
 
 Imagen 3. Ventana de Depósito a Caja
 
 Podrá visualizar en el campo **Tipo de Banco**, el tipo de banco que define el comportamiento de la ventana de búsqueda inteligente **Depósito de Caja**.
 
-campo tipo de banco de la ventana deposito a caja
+![Campo](/assets/img/docs/pdv-management/gep-pdv-image266.png)
 
 Imagen 4. Campo Tipo de Banco
 
 Seleccione en el campo **Cuenta Bancaria**, la cuenta caja por la cual requiere filtar la búsqueda de la información. Para este caso, se utiliza la cuenta **Caja Administración Ventas - –_Administración VES**.
 
-campo cuenta bancaria de la ventana deposito a caja
+![Campo](/assets/img/docs/pdv-management/gep-pdv-image267.png)
 
 Imagen 5. Campo Cuenta Bancaria
 
@@ -54,61 +54,61 @@ Para el realizar el depósito de caja a banco, se debe seleccionar la cuenta caj
 
 Seleccione en el campo **Socio del Negocio**, el socio del negocio por el cual requiere filtar la búsqueda de la información.
 
-campo socio del negocio de la ventana deposito a caja
+![Campo](/assets/img/docs/pdv-management/gep-pdv-image268.png)
 
 Imagen 6. Campo Socio del Negocio
 
 Seleccione en el campo **Tipo de Pago**, el tipo de pago por el cual requiere filtrar la búsqueda de la información.
 
-campo tipo de pago de la ventana deposito a caja
+![Campo](/assets/img/docs/pdv-management/gep-pdv-image269.png)
 
 Imagen 7. Campo Tipo de Pago
 
 Seleccione en el campo **Tipo de Documento**, el tipo de documento por el cual requiere filtar la búsquedade de la información.
 
-campo tipo de documento de la ventana deposito a caja
+![Campo](/assets/img/docs/pdv-management/gep-pdv-image270.png)
 
 Imagen 8. Campo Tipo de Documento
 
 Seleccione en el campo **Fecha de la Transacción**, la fecha de la transacción por la cual requiere filtrar la búsqueda de la información.
 
-campo fecha de la transaccion de la ventana deposito a caja
+![Campo](/assets/img/docs/pdv-management/gep-pdv-image271.png)
 
 Imagen 9. Campo Fecha de la Transacción
 
 Seleccione la opción **Comenzar Búsqueda**, para filtrar la búsqueda de la información en base a lo seleccionado en los campos anteriormente explicados.
 
-opcion comenzar busqueda de la ventana deposito a caja
+![Campo](/assets/img/docs/pdv-management/gep-pdv-image272.png)
 
 Imagen 10. Opción Comenzar Búsqueda
 
 Podrá visualizar el listado de las transacciones registradas en ADempiere, en base a lo seleccionado en los campos anteriormente explicados.
 
-listado de movimientos de la ventana deposito a caja
+![Campo](/assets/img/docs/pdv-management/gep-pdv-image273.png)
 
 Imagen 11. Listado de Transacciones de ADempiere
 
 Seleccione la transacción involucrada en el depósito que se encuentra realizando.
 
-seleccion de movimiento a depositar de la ventana deposito a caja
+![Campo](/assets/img/docs/pdv-management/gep-pdv-image274.png)
 
 Imagen 12. Selección de Transacción a Depositar
 
 Seleccione en el campo **Fecha de la Transacción**, la fecha con la cual se va a generar el depósito de caja que se encuentra realizando.
 
-campo fecha para la transaccion de la ventana deposito a caja
+![Campo](/assets/img/docs/pdv-management/gep-pdv-image275.png)
 
 Imagen 13. Campo Fecha de la Transacción
 
 Seleccione en el campo **Cuenta Bancaria**, la cuenta bancaria a la cual se va a realizar el depósito de caja que se encuentra realizando.
 
-campo cuenta bancaria a depositar de la ventana deposito a caja
+![Campo](/assets/img/docs/pdv-management/gep-pdv-image276.png)
 
 Imagen 14. Campo Cuenta Bancaria
 
 Seleccione en el campo **Socio del Negocio**, el socio del negocio involucrado en el depósito que se encuentra realizando. En este caso, el socio del negocio es la misma empresa.
 
-campo socio del negocio a depositar de la ventana deposito a caja
+![Campo](/assets/img/docs/pdv-management/gep-pdv-image277.png)
 
 Imagen 15. Campo Socio del Negocio
 
@@ -116,7 +116,7 @@ Introduzca en el campo **No. del Documento**, el número de documento con el cua
 
 Este campo se utiliza cuando se va a realizar un depósito que involucra una sola transacción. Cuando se va a realizar un depósito con más de una transacción, se recomienda tildar el check dividir depósito.
 
-campo nro del documento de la ventana deposito a caja
+![Campo](/assets/img/docs/pdv-management/gep-pdv-image278.png)
 
 Imagen 16. Campo No. de Documento
 
@@ -124,37 +124,37 @@ Seleccione el checklist **Dividir Depósito**, si requiere dividir el depósito 
 
 Este check permite generar tantos depósitos como movimientos sean seleccionados en el proceso, respetando su número de documento. Para este caso, no es necesario tildar el checklist **Dividir Depósito**.
 
-checklist dividir deposito de la ventana deposito a caja
+![Campo](/assets/img/docs/pdv-management/gep-pdv-image279.png)
 
 Imagen 17. Checklist Dividir Depósito
 
 Seleccione en el campo **Cargo**, el cargo correspondiente al depósito de caja que se encuentra realizando. Para este caso se utiliza el cargo **Efectivo en Tránsito Administración**.
 
-campo cargo de la ventana deposito a caja
+![Campo](/assets/img/docs/pdv-management/gep-pdv-image280.png)
 
 Imagen 18. Campo Cargo
 
 Seleccione en el campo **Tipo de Documento para Retiros**, el tipo de documento para retiros. Para este caso, no es necesario seleccionar el tipo de documento para retiros.
 
-campo tipo de documento para retiros de la ventana deposito a caja
+![Campo](/assets/img/docs/pdv-management/gep-pdv-image281.png)
 
 Imagen 19. Campo Tipo de Documento para Retiros
 
 Seleccione en el campo **Tipo de Documento para Depósito**, el tipo de documento para depósito. Para este caso, no es necesario seleccionar el tipo de documento para depósito.
 
-campo tipo de documento para deposito de la ventana deposito a caja
+![Campo](/assets/img/docs/pdv-management/gep-pdv-image282.png)
 
 Imagen 20. Campo Tipo de Documento
 
 El check **Conciliar Automáticamente**, permite que sea creado un registro de cierre de caja con la cuenta caja administrativa seleccionada anteriormente y asocia al mismo el registro del egreso que genera en la ventana **Caja**. Para este caso, es necesario destildar el check para crear el cierre de caja de manera manual según lo requerido por el usuario.
 
-check conciliar automáticamente del depósito de caja
+![Campo](/assets/img/docs/pdv-management/gep-pdv-image283.png)
 
 Imagen 21. Check Conciliar Automáticamente
 
 Seleccione la opción **OK**, para ejecutar el proceso y realizar el depósito de caja a banco.
 
-opcion ok de la ventana deposito a caja
+![Campo](/assets/img/docs/pdv-management/gep-pdv-image284.png)
 
 Imagen 21. Opción OK
 
@@ -162,13 +162,13 @@ Imagen 21. Opción OK
 
 Al consultar el documento de egreso generado en la ventana **Caja**, con ayuda del número de documento ingresado en el campo **No. del Documento** de la ventana **Depósito de Caja**.
 
-consulta de egreso en caja por deposito
+![Campo](/assets/img/docs/pdv-management/gep-pdv-image285.png)
 
 Imagen 22. Egreso Generado en Caja
 
 Al consultar el documento de ingreso generado en la ventana **Pago/Cobro**, con ayuda del número de documento ingresado en el campo **No. del Documento** de la ventana **Depósito de Caja**.
 
-consulta de ingreso en banco por deposito
+![Campo](/assets/img/docs/pdv-management/gep-pdv-image286.png)
 
 Imagen 23. Ingreso Generado en Banco
 
@@ -198,7 +198,7 @@ Realice el procedimiento regular para registrar una transferencia bancaria en AD
 
 **Fecha Contable**: La fecha en la cual se encuentra realizando la transferencia bancaria.
 
-transferencia bancaria de caja a banco por depositos
+![Campo](/assets/img/docs/pdv-management/gep-pdv-image287.png)
 
 Imagen 24. Transferencia Bancaria
 
@@ -210,13 +210,13 @@ Recuerde que se debe realizar una transferencia bancaria por cada pago móvil y 
 
 Al consultar el documento de egreso generado en la ventana **Caja**, con ayuda del número de documento ingresado en el campo **No. del Documento** de la ventana **Transferencia Bancaria**.
 
-consulta de egreso en caja por transferencia de deposito
+![Campo](/assets/img/docs/pdv-management/gep-pdv-image288.png)
 
 Imagen 25. Egreso Generado en Caja
 
 Al consultar el documento de ingreso generado en la ventana **Pago/Cobro**, con ayuda del número de documento ingresado en el campo **Documento Destino** de la ventana **Transferencia Bancaria**.
 
-consulta de ingreso en banco por por transferencia de deposito
+![Campo](/assets/img/docs/pdv-management/gep-pdv-image289.png)
 
 Imagen 26. Ingreso Generado en Banco
 
@@ -236,7 +236,7 @@ En la ejecución del procedimiento de cierre de caja, se debe considerar las sig
 
 Recuerde cargar las transacciones seleccionando la opción **Crear a Partir de Caja**, donde debe seleccionar los movimientos creados en la ventana **Caja**, obtenidos como resultado de los procesos Depósito de Caja y Transferencia Bancaria, previamente realizados.
 
-cierre de caja completo por traspaso a banco
+![Campo](/assets/img/docs/pdv-management/gep-pdv-image290.png)
 
 Imagen 27. Cierre de Caja
 
