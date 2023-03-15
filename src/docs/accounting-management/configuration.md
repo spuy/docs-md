@@ -232,7 +232,7 @@ Imagen 26. Campo Trabajo en Proceso
 
 Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por ERPyA.
 
-![Campo](/assets/img/docs/accounting-management/gec-accounting-image93.png)
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image998.png)
 
 Imagen 27. Combinación Contable del Campo Trabajo en Proceso
 

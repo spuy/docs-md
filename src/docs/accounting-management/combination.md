@@ -22,7 +22,7 @@ El alias no es un campo obligatorio, sin embargo, le permite definir un nombre a
 
 Imagen 2. Campo Alias de la Ventana Combinación
 
-Seleccione en el campo **Organización, la organización para la cual está realizando la configuración contable.
+Seleccione en el campo **Organización**, la organización para la cual está realizando la configuración contable.
 
 La organización puede ser o no obligatorio dependiendo de la definición del cliente, es decir, un cliente puede definir como obligatoria la organización, para este caso el registro de la combinación no podrá ser guardada si no selecciona una organización.
 
