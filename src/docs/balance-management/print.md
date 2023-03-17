@@ -9,7 +9,7 @@ article: false
 El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de generar un imprimir/exportar para culminar el procedimiento de manera exitosa en la versión 3.9.2 de ADempiere en la localización Venezuela.
 
 - Registro de Imprimir / Exportar Pagos
-- Consultar Documento de Pago Generado
+  - Consultar Documento de Pago Generado
 - Registro de Imprimir / Exportar Pagos de Nómina
 
 ## Registro de Imprimir / Exportar Pagos

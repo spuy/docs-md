@@ -23,7 +23,7 @@ Tasa de Conversión Diaria: Al trabajar con diferentes monedas en los procesos d
 
 En el caso de que el usuario intente crear una tasa de cambio con el mismo tipo de conversión y moneda utilizado previamente el mismo día, al intentar guardar el registro existirá una validación que no permitirá completar el proceso.
 
-caso de coincidencia de tasas a la fecha
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image997.png)
 
 Imagen 1. Ejemplo de Validación
 

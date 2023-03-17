@@ -156,7 +156,7 @@ Imagen 21. Icono Guardar Cambios
 
 Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Asistencia al Agricultor**, luego seleccione la carpeta **Configuración de Asistencia Técnica**, por último seleccione la carpeta **Configuración de Cultivo**. Finalmente seleccione la ventana **Ciclo de Siembra**.
 
-![Campo](/assets/img/docs/assistance-management/gea-assistance-image2322.png)
+![Campo](/assets/img/docs/assistance-management/gea-assistance-image232.png)
 
 Imagen 1. Menú de ADempiere
 
@@ -768,7 +768,7 @@ Imagen 36. Campo Almacén
 
 Introduzca en el campo **Comentarios**, los comentarios correspondientes al registro que se encuentra realizando.
 
-![Campo](/assets/img/docs/assistance-management/gea-assistance-imag326.png)
+![Campo](/assets/img/docs/assistance-management/gea-assistance-image326.png)
 
 Imagen 37. Campo Comentarios
 

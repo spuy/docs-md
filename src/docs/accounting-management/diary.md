@@ -355,7 +355,7 @@ Seleccione un periodo contable en el campo **Período**.
 
 El período es un campo obligatorio, le permite definir el periodo contable al que pertenece la nota contable, este es establecido inicialmente desde el valor seleccionado en la pestaña lote contable, y puede ser modificado si difiere del mismo.
 
-![Campo](/assets/img/docs/accounting-management/gec-accounting-image371.png)
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image372.png)
 
 Imagen 24. Campo Período de la Pestaña Nota Contable de la Ventana Diario Contable
 
@@ -559,7 +559,7 @@ Seleccione el grupo de activo en el campo **Grupo de Activos**.
 
 El grupo de activo fijo no es un campo obligatorio, sin embargo, le permite establecer un grupo de activo fijo en caso de querer distribuir entre todos los activos relacionados a este grupo la depreciación o revalorización del asiento.
 
-![Campo](/assets/img/docs/accounting-management/gec-accounting-image3922.png)
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image392.png)
 
 Imagen 44. Campo Grupo de Activos de la Pestaña Línea de la Ventana Diario Contable
 

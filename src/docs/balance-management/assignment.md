@@ -20,9 +20,9 @@ Imagen 1. Menú de ADempiere
 
 Podrá visualizar la ventana del proceso **Asignación de Pagos**, con diferentes campos que permiten filtrar la información en base a lo requerido.
 
-ventana asignación de pagos
-
 ![Campo](/assets/img/docs/balance-management/ges-balance-image2.png)
+
+Imagen 2. Ventana Asignación de Pagos
 
 Seleccione en el campo **Socio del Negocio**, el socio del negocio por el cual requiere filtrar la información.
 

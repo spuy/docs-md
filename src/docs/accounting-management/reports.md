@@ -39,17 +39,17 @@ Detalles de Costos.
 A continuación, ERPyA desea ofrecer a sus clientes un material en el cual explicaremos de forma detallada las consideraciones, bondades y herramientas que ADempiere brinda para interpretar información contable que ayudará a complementar el análisis, permitiendo una visión clara a la hora de tomar decisiones en su empresa.
 
 - Informe Financiero
-- Generar Informe Financiero
-- Balance de Comprobación
-- Balance General
-- Estado de Resultado
+  - Generar Informe Financiero
+  - Balance de Comprobación
+  - Balance General
+  - Estado de Resultado
 - Reportes Detallados
-- Detalles de Asientos Contables
-- Estado de Cuenta
-- Balance de Prueba
-- Asientos Diarios de Contabilidad
-- Asientos Contables por Período
-- Registros Contables No Conciliados
+  - Detalles de Asientos Contables
+  - Estado de Cuenta
+  - Balance de Prueba
+  - Asientos Diarios de Contabilidad
+  - Asientos Contables por Período
+  - Registros Contables No Conciliados
 
 ## Informe Financiero
 
@@ -389,7 +389,7 @@ Imagen 18. Campo Socio del Negocio de la Ventana Detalles de Asientos Contables
 
 Seleccione en el campo **Categoría del Producto**, la categoría del producto por la cual requiere filtrar la información.
 
-![Campo](/assets/img/docs/accounting-management/gec-accounting-image531.png)
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image995.png)
 
 Imagen 19. Campo Categoría del Producto de la Ventana Detalles de Asientos Contables
 
@@ -705,7 +705,7 @@ Imagen 4. Campo Organización de la Ventana Asientos Diarios de Contabilidad
 
 Seleccione en el campo **Fecha Contable**, el rango de fechas por el cual requiere filtrar la búsqueda.
 
-![Campo](/assets/img/docs/accounting-management/gec-accounting-image583.png)
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image582.png)
 
 Imagen 5. Campo Fecha Contable de la Ventana Asientos Diarios de Contabilidad
 
@@ -788,7 +788,7 @@ Imagen 18. Campo Actividad de la Ventana Asientos Diarios de Contabilidad
 
 Seleccione en el campo **Centro de Costos**, el centro de costos por el cual requiere filtrar la búsqueda.
 
-![Campo](/assets/img/docs/accounting-management/gec-accounting-image595.png)
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image596.png)
 
 Imagen 19. Campo Centro de Costos de la Ventana Asientos Diarios de Contabilidad
 

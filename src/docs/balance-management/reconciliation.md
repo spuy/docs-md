@@ -784,7 +784,7 @@ Imagen 21. Campo Socio Negocio Otro tipo de Pagos
 
 En el campo **Referencia TEF** debe aparecer el número de referencia del movimiento bancario.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image1190.png)
+![Campo](/assets/img/docs/balance-management/ges-balance-image190.png)
 
 Imagen 22. Campo Referencia TEF
 

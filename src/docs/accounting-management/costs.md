@@ -188,7 +188,8 @@ Seleccione la acción **Completar** y la opción **OK**, para completar el docum
 
 Imagen 10. Opción Completar
 
-Consultar Costos Adicionales
+## Consultar Costos Adicionales
+
 Ubique en el menú de ADempiere, la carpeta **Análisis de Desempeño**, luego seleccione la carpeta **Gestión de Costos**, por último seleccione el reporte **Detalle Costo del Producto**.
 
 ![Campo](/assets/img/docs/accounting-management/gec-accounting-image270.png)
@@ -633,7 +634,7 @@ Imagen 9. Campo Fecha de Movimiento de la Ventana Detalle de la Transacción de 
 
 Seleccione en el campo **Fecha Contable**, la fecha contable por la cual requiere filtrar la búsqueda de información.
 
-![Campo](/assets/img/docs/accounting-management/gec-accounting-image337.png)
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image996.png)
 
 Imagen 10. Campo Fecha Contable de la Ventana Detalle de la Transacción de Costos
 

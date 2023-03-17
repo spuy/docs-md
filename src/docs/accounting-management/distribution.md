@@ -391,7 +391,8 @@ Regrese a la pestaña **Distribución** y ubique el campo **Porcentaje Total**, 
 
 Imagen 48. Pestaña Distribución Contable y Campo Porcentaje Total
 
-Consulta de Distribución Contable Aplicada
+## Consulta de Distribución Contable Aplicada
+
 Ubique la factura por pagar **1000110** con monto total de **2.500.000,00**, expuesta anteriormente al principio del presente material y seleccione la opción **Contabilizado** ubicado en la parte inferior de la ventana **Documento por Pagar**.
 
 ![Campo](/assets/img/docs/accounting-management/gec-accounting-image458.png)

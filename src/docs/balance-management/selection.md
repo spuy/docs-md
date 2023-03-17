@@ -147,7 +147,7 @@ Campo **Regla de Pago**, este es un campo de búsqueda tipo lista, el cual al ti
 
 Si se selecciona la regla de pago **A Crédito** y tengo creadas una o varias órdenes de compras qué tienen establecida esa regla de pago, al realizar la búsqueda desde el smart browser ADempiere mostrará las órdenes que éste unicamente con esa regla de pago, si no existen órdenes de compras con esa regla de pago ADempiere no mostrará nada.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image31.png)
+![Campo](/assets/img/docs/balance-management/ges-balance-image231.png)
 
 Imagen 18. Campo Regla de Pago de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
 

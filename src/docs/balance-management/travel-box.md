@@ -141,7 +141,7 @@ Imagen 12. Egreso de Caja por Excedente de Viáticos
 
 Al consultar el ingreso a banco en la ventana **Pago/Cobro**, se puede visualizar el mismo de la siguiente manera.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image403.png)
+![Campo](/assets/img/docs/balance-management/ges-balance-image999.png)
 
 Imagen 13. Ingreso a Banco por Excedente de Viáticos
 
