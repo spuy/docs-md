@@ -10,8 +10,8 @@ Esta documentación está destinada a definir las listas de precios en ADempiere
 
 - Configuración del Esquema de Lista de Precios
 - Configuración de Lista de Precios Base
-- Crear Precios desde Crear Lista de Precios
-- Crear Precios desde Pestaña Precio de Producto
+  - Crear Precios desde Crear Lista de Precios
+  - Crear Precios desde Pestaña Precio de Producto
 - Crear Lista de Precios desde otra Lista de Precios
 - Crear Lista de Precios desde Última OC Procesada
 - Crear Entradas de Productos en Lista de Precios
@@ -474,7 +474,7 @@ Seleccione en el campo **Clasificación de Producto**, la clasificación por la 
 
 Si no es seleccionado ningún valor en este campo, se genera la lista de precios con todas las clasificaciones de productos.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image369.png)
+![Campo](/assets/img/docs/sales-management/gev-sales-image999.png)
 
 Imagen 18. Campo Clasificación de Producto
 

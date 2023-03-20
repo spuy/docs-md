@@ -100,8 +100,8 @@ Seleccione el icono **Guardar Cambios**, para guardar el registro de los campos 
 ![Campo](/assets/img/docs/balance-management/ges-balance-image79.png)
 
 Imagen 14. Icono Guardar Cambios
-
 Seleccione la opción **Completar**, ubicada en la parte inferior derecha de la ventana.
+
 
 ![Campo](/assets/img/docs/balance-management/ges-balance-image80.png)
 

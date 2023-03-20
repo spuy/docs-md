@@ -10,16 +10,16 @@ El presente material elaborado por ERPyA, pretende ofrecerle una explicación ef
 
 - Registro de Entregas (Cliente)
 - Generar Entrega desde Líneas de la Orden
-- Consultar Entregas Generadas
-- Imprimir Entregas Generadas
+  - Consultar Entregas Generadas
+  - Imprimir Entregas Generadas
 - Generar Entregas (Manual)
-- Consultar Entregas Generadas
+  - Consultar Entregas Generadas
 
 ## Registro de Entregas (Cliente)
 
 Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Entregas**, por último seleccione la ventana **Entregas (Cliente)**.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-imag124.png)
+![Campo](/assets/img/docs/sales-management/gev-sales-image124.png)
 
 Imagen 1. Menú de ADempiere
 

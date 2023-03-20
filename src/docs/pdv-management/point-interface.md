@@ -106,7 +106,7 @@ Imagen 16. Información de los Clientes en la Ventana Socio del Negocio del Icon
 
 Adicional a ello, la ventana cuenta con seis (6) iconos que permiten el registro de un nuevo cliente, la modificación de los registros existentes, el borrado de la consulta o búsqueda realizada, la recarga de la ventana para que sean actualizados los registros, la aceptación del cliente seleccionado y la cancelación de la selección del cliente. Esta acción se puede ejecutar seleccionando la convinación de las teclas **Alt+B**.
 
-![Campo](/assets/img/docs/pdv-management/gep-pdv-image192.png)
+![Campo](/assets/img/docs/pdv-management/gep-pdv-image191.png)
 
 Imagen 17. Iconos de la Ventana Socio del Negocio del Icono Cliente de la Barra de Herramientas del Punto de Venta
 
@@ -314,7 +314,7 @@ Imagen 48. Campo Categoría del Producto de la Sección Información de Producto
 
 **Categoría del Impuesto del Producto**: Muestra la categoría del impuesto a la que pertenece el producto seleccionado.
 
-![Campo](/assets/img/docs/pdv-management/gep-pdv-image23.png)
+![Campo](/assets/img/docs/pdv-management/gep-pdv-image223.png)
 
 Imagen 49. Campo Categoría del Impuesto del Producto de la Sección Información de Producto de la Ventana Punto de Venta
 

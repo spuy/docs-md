@@ -9,7 +9,7 @@ article: false
 En esta ocasión ERPyA pretende ofrecerle una guía fácil para la definición de una finca en ADempiere, es importante seguir paso a paso cada procedimiento, de ello dependerá el éxito de los registros resultantes.
 
 - Registro de Finca
-- Pestaña Lote de Finca
+  - Pestaña Lote de Finca
 
 ### Registro de Finca
 
@@ -141,7 +141,7 @@ Imagen 19. Pestaña Lote de Finca de la Ventana Finca
 
 Introduzca en el campo **Nombre**, el nombre correspondientes al lote que se encuentra registrando.
 
-![Campo](/assets/img/docs/assistance-management/gea-assistance-image20.png)a
+![Campo](/assets/img/docs/assistance-management/gea-assistance-image20.png)
 
 Imagen 20. Campo Nombre de la Pestaña Lote de Finca
 
