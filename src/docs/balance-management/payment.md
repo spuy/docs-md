@@ -13,7 +13,7 @@ En ADempiere un cobro es realizado previo a una recepción monetaria para reflej
 El presente material elaborado por ERPyA, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para elaborar un cobro correctamente en ADempiere, en su versión 3.9.2 para la localización Venezuela.
 
 - Registro de Cobro
-= Consultar Asignación
+- Consultar Asignación
 
 ## Registro de Cobro
 

@@ -10,16 +10,16 @@ El presente material elaborado por ERPyA pretende ofrecerle una explicación efi
 
 - Costos de Material
 - Costos Adicionales
-- Documentos por Pagar
-- Consultar Costos Adicionales
+  - Documentos por Pagar
+  - Consultar Costos Adicionales
 - Reportes de Costos
-- Consulta de Costo del Producto
-- Informe de Costos del Producto
-- Reporte de Costo del Producto
-- Valoración de Inventario a Fecha Efectiva
-- Valoración de Inventario
-- Detalle de Costos del Producto
-- Detalle de la Transacción del Costo
+  - Consulta de Costo del Producto
+  - Informe de Costos del Producto
+  - Reporte de Costo del Producto
+  - Valoración de Inventario a Fecha Efectiva
+  - Valoración de Inventario
+  - Detalle de Costos del Producto
+  - Detalle de la Transacción del Costo
 
 ## Costos de Material
 

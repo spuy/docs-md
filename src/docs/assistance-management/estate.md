@@ -6,7 +6,7 @@ sticky: 9
 article: false
 ---
 
-En esta ocasión ERPyA pretende ofrecerle una guía fácil para la definición de una finca en ADempiere, es importante seguir paso a paso cada procedimiento, de ello dependerá el éxito de los registros resultantes.
+En esta ocasión **ERPyA** pretende ofrecerle una guía fácil para la definición de una finca en ADempiere, es importante seguir paso a paso cada procedimiento, de ello dependerá el éxito de los registros resultantes.
 
 - Registro de Finca
   - Pestaña Lote de Finca

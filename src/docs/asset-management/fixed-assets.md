@@ -17,7 +17,7 @@ En ADempiere la gestión de activos fijos favorece la labor contable, registrand
 Los activos son agrupados mediante el **Grupo de Activo Fijo**, con la finalidad de parametrizar mediante una categoría la contabilidad de dichos activos, al momento de registrar un movimiento de **Activo Fijo**.
 
 - Grupo de Activos Fijos
-- Grupo de Activos Fijos
+  - Grupo de Activos Fijos
 
 
 ## Grupo de Activos Fijos

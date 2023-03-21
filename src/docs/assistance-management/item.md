@@ -12,7 +12,7 @@ En esta ocasión ERPyA pretende ofrecerle una guía fácil para la definición d
   - Cálculo de Peso
   - Etapa del Cultivo
 
-### Registro de Rubro
+## Registro de Rubro
 
 Seleccione en el menú de ADempiere, la carpeta **Gestión de Asistencia Técnica Agricola**, luego selecione la carpeta **Configuración de Materia Prima**, por último seleccione la ventana **Rubro**.
 
@@ -240,7 +240,7 @@ Seleccione el icono **Guardar Cambios** en la barra de herramientas de ADempiere
 
 Imagen 37. Icono Guardar Cambios
 
-#### Cálculo de Peso
+### Cálculo de Peso
 
 Seleccione la pestaña **Cálculo de Peso** y proceda al llenado de los campos.
 
@@ -304,7 +304,7 @@ Seleccione el icono **Guardar Cambios** en la barra de herramientas de ADempiere
 
 Imagen 46. Icono Guardar Cambios
 
-#### Etapa del Cultivo
+### Etapa del Cultivo
 
 Seleccione la pestaña **Etapa del Cultivo** y proceda al llenado de los campos correspondientes.
 

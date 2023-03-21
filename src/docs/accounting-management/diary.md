@@ -18,79 +18,28 @@ Imaginemos que una empresa requiere reconocer contablemente la inflación ocurri
 
 Sabiendo que la inflación representa una variación de precios con respecto a los bienes tangibles o intangible, entonces tenemos, que la inflación fue variable a través de los meses durante el año fiscal, quedando de la siguiente forma:
 
-Mes
-
-Variación
-
-Enero
-
-1,5
-
-Febrero
-
-2,8
-
-Marzo
-
-1,4
-
-Abril
-
-4,6
-
-Mayo
-
-2,9
-
-Junio
-
-2,8
-
-Julio
-
-6,5
-
-Agosto
-
-4,7
-
-Septiembre
-
-2,5
-
-Octubre
-
-3,5
-
-Noviembre
-
-5,1
-
-Diciembre
-
-4,7
+|    Mes     | Variación |
+|    ---     | --------- |
+|   Enero    |   1,5     |
+|  Febrero   |    2,8    |
+|   Marzo    |    1,4    |
+|   Abril    |    4,6    |
+|   Mayo     |    2,9    |
+|  Junio     |    2,8    |
+|  Julio     |    6,5    |
+|  Agosto    |    4,7    |
+| Septiembre |    2,5    |
+|  Octubre   |    3,5    |
+| Noviembre  |    5,1    |
+| Diciembre  |    4,7    |
 
 Si se desea registrar el asiento amortizando mes a mes el impacto económico que tuvo el activo, se debe realizar una nota contable por mes con el siguiente asiento contable:
 
-Cuenta
-
-Débito
-
-Crédito
-
-Cuenta API
-
-xxxx
-
-Diferencia Cambiaria
-
-xxxx
-
-Total
-
-xxxx
-
-xxxx
+|        Cuenta        | Débito | Crédito |
+|        ------        |  ----  |  ----   |
+|      Cuenta API      |  xxxx  |         |
+| Diferencia Cambiaria |        |  xxxx   |
+|      Total           |  xxxx  |  xxxx   |
 
 ADempiere ofrece la posibilidad de crear un lote contable, donde agrupará los asientos de todos los meses en un diario contable, por esa razón su estructura es la siguiente:
 
