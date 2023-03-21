@@ -60,7 +60,7 @@ Imagen 4. Icono Registro Nuevo de la Ventana Tipo de Conversión
 
 Seleccione en el campo **Organización**, la organización para la cual esta creando el registro de tipo de conversión.
 
-![Campo](/assets/img/docs/accounting-management/gec-accounting-image209.png)
+![Campo](/assets/img/docs/accounting-management/gec-accounting-image990.png)
 
 Imagen 5. Campo Organización de la Ventana Tipo de Conversión
 

@@ -534,6 +534,8 @@ Introduzca el año de expiración de la tarjeta de crédito del socio del negoci
 
 ![Campo Año de Expiración](/assets/img/docs/master-data/mad-master-year.png)
 
+Imagen 14. Campo Año de Expiración
+
 Introduzca el nombre de referencia de la tarjeta en el campo **Nombre**, en este campo va el nombre del titular de la tarjeta de crédito que esta registrando.
 
 ![Campo Nombre de Referencia de la Tarjeta](/assets/img/docs/master-data/mad-master-reference-card.png)

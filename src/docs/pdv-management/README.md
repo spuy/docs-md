@@ -10,7 +10,7 @@ ADempiere ofrece una solución a pequeñas empresas que requieran manejar transa
 
 Esta funcionalidad evita que los usuarios deban realizar una orden de venta, una factura, un cobro y una entrega para cumplir el proceso de venta, este punto de venta reduce estos cuatro pasos en dos pasos. Al generar una orden de venta y ser cobrada desde el punto de venta, ADempiere de forma automatica generará una factura y una entrega.
 
-Diagrama de Proceso Punto de Venta
+![Campo](/assets/img/docs/pdv-management/gep-pdv-image992.png)
 
 Imagen 1. Proceso de Punto de Venta
 
