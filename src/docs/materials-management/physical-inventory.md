@@ -129,6 +129,6 @@ Imagen 16. Acción Completar y Opción OK
 
 Al generar el reporte **Detalle de Almacenamiento** seleccionando la ubicación donde fue realizado el inventario físico y el producto por el cual fue realizado dicho inventario, se puede visualizar el reporte de la siguiente manera.
 
-Segundo Reporte de Detalle de Almacenamiento
+![Icono Guardar Cambios](/assets/img/docs/materials-management/inu-materials-image999.png)
 
 Imagen 17. Segundo Reporte de Detalle de Almacenamiento

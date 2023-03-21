@@ -516,6 +516,6 @@ Imagen 76. Campo Factor de Destino a Base
 
 Seleccione el icono **Guardar Cambios** en la barra de herramientas de ADempiere.
 
-![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-image228.png)
+![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-image999.png)
 
 Imagen 77. Icono Guardar Cambios

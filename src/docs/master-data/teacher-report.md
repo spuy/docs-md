@@ -140,42 +140,42 @@ Imagen 21. Campo Esq List Precios/Desc
 
 Seleccione en el campo **Lista de Precios**, la lista de precios por la cual requiere filtrar la búsqueda de información.
 
-![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-image290.png)
+![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-image270.png)
 
 Imagen 22. Campo Lista de Precios
 
 Seleccione en el campo **Grupo de Ventas**, el grupo de ventas por el cual requiere filtrar la búsqueda de información.
 
-![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-image291.png)
+![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-image271.png)
 
 Imagen 23. Campo Grupo de Ventas
 
 Seleccione en el campo **Tipo de Cuenta**, el tipo de cuenta por el cual requiere filtrar la búsqueda de información.
 
-![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-image292.png)
+![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-image272.png)
 
 Imagen 24. Campo Tipo de Cuenta
 
 Seleccione en el campo **Segmento**, el segmento por el cual requiere filtrar la búsqueda de información.
 
-![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-image293.png)
+![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-image273.png)
 
 Imagen 25. Campo Segmento
 
 Seleccione en el campo **Tipo de Industria**, el tipo de industria por el cual requiere filtrar la búsqueda de información.
 
-![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-image294.png)
+![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-image274.png)
 
 Imagen 26. Campo Tipo de Industria
 
 Seleccione la opción **OK**, para generar el reporte de acuerdo a lo seleccionado en la ventana **Directorio de Socios del Negocio**.
 
-![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-image295.png)
+![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-image275.png)
 
 Imagen 27. Opción OK
 
 Al filtrar el reporte ingresando solamente el nombre del socio del negocio en el campo **Nombre**, podrá visualizar el reporte de la siguiente manera.
 
-![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-image296.png)
+![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-image276.png)
 
 Imagen 28. Reporte Directorio de Socios del Negocio

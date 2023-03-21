@@ -9,13 +9,13 @@ article: false
 El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para definir la comisión de ventas en cualquier organización y realizar un cálculo exitoso de las mismas en la versión 3.9.2 de ADempiere en la localización Venezuela.
 
 - Definición de Comisiones
-- Pestaña Comisión
-- Pestaña Línea de Comisión
-- Pestaña Representantes de Ventas
+  - Pestaña Comisión
+  - Pestaña Línea de Comisión
+  - Pestaña Representantes de Ventas
 - Cálculo de Comisiones de Ventas
-- Pestaña Ejecución de Comisión
-- Pestaña Total Comisión
-- Pestaña Detalle de Comisión
+  - Pestaña Ejecución de Comisión
+  - Pestaña Total Comisión
+  - Pestaña Detalle de Comisión
 
 ## Definición de Comisiones
 

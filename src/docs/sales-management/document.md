@@ -12,8 +12,8 @@ En ADempiere es posible generar una factura de cuentas por cobrar de forma direc
 
 - Registro de Documento por Cobrar
 - Generar Factura desde Líneas de la Orden
-- Consultar Facturas Generadas
-- Imprimir Facturas Generadas
+  - Consultar Facturas Generadas
+  - Imprimir Facturas Generadas
 
 ## Registro de Documento por Cobrar
 

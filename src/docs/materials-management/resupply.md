@@ -167,7 +167,7 @@ Para ejecutar correctamente el proceso de reabastecimiento de almacén, es neces
 
 Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Materiales**, luego seleccione la carpeta **Reglas de Gestión de Materiales**, por último seleccione la ventana **Producto**.
 
-menú de producto
+[Icono Guardar Cambios](/assets/img/docs/materials-management/inu-materials-image998.png)
 
 Menú de ADempiere
 
@@ -316,7 +316,7 @@ Imagen 20. Consulta de Mover Inventario
 
 Si en el campo **Crear**, de la ventana **Reabastecimiento de Almacén**, es seleccionada la opción **Orden de Compra**. La consulta del documento generado se realiza en la ventana **Órdenes de Compra**, con ayuda del número de documento generado al ejecutar el proceso.
 
-![Icono Guardar Cambios](/assets/img/docs/materials-management/inu-materials-image112ng)
+![Icono Guardar Cambios](/assets/img/docs/materials-management/inu-materials-image112.png)
 
 Imagen 21. Consulta de Orden de Compra
 

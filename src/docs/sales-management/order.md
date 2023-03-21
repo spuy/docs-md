@@ -12,7 +12,7 @@ El presente material elaborado por ERPyA, pretende ofrecerle una explicación ef
 
 - Registro de Orden de Venta
 - Validación de Inventario en Orden de Venta
-- Funcionalidad de la Validación
+  - Funcionalidad de la Validación
 
 ## Registro de Orden de Venta
 
@@ -36,7 +36,7 @@ Imagen 3. Campo Organización
 
 Seleccione el tipo de documento a generar en el campo **Tipo de Documento Destino**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por ERPyA.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image264.png)
+![Campo](/assets/img/docs/sales-management/gev-sales-image265.png)
 
 Imagen 4. Campo Tipo de Documento Destino
 
