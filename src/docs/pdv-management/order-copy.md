@@ -12,7 +12,7 @@ Para explicar de manera detallada el procedimiento y la funcionalidad del proces
 
 En una determinada tienda se realiza una venta el día **04/08/2021**. Fecha en la cual se encuentra la tasa de cambio del **BCV-ABC Estándar C.A** en **1.933.493,43**.
 
-![Campo](/assets/img/docs/pdv-management/gep-pdv-image135.png)
+![Campo](/assets/img/docs/pdv-management/pdm-pdv-image135.png)
 
 Imagen 1. Tasa de Cambio del BCV-ABC Estándar C.A del día 04/08/2021
 
@@ -45,7 +45,7 @@ Para continuar con el ejemplo planteado anteriormente en el presente documento, 
 
 El día **06/08/2021**, se presenta el cliente de la factura **00000654**, asociada a la orden **OPOS-857**, realizando la devolución del producto **PICO PARA AIRE LARGO TRUPER**. Dicho cliente indica que requiere que el mismo sea cambiado porque se encuentra dañado.
 
-![Campo](/assets/img/docs/pdv-management/gep-pdv-image136.png)
+![Campo](/assets/img/docs/pdv-management/pdm-pdv-image136.png)
 
 Imagen 2. Tasa de Cambio del BCV-ABC Estándar C.A del día 06/08/2021
 
@@ -59,7 +59,7 @@ Para copiar una orden de venta desde el punto de venta, se debe realizar el sigu
 
 Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Órdenes de Venta**, por último seleccione la carpeta **Punto de Venta**. Para finalizar, seleccione la ventana **Punto de Venta**.
 
-![Campo](/assets/img/docs/pdv-management/gep-pdv-image137.png)
+![Campo](/assets/img/docs/pdv-management/pdm-pdv-image137.png)
 
 Imagen 3. Menú de ADempiere
 
@@ -69,19 +69,19 @@ Realice la búsqueda de registros de órdenes de venta generadas desde el punto 
 
 Seleccione en la ventana **Orden de Venta**, generada del icono **Registros Históricos**, la orden de venta que requiere copiar.
 
-![Campo](/assets/img/docs/pdv-management/gep-pdv-image138.png)
+![Campo](/assets/img/docs/pdv-management/pdm-pdv-image138.png)
 
 Imagen 4. Selección de Orden de Venta a Copiar
 
 Por último, seleccione la opción **OK** para ubicar en la ventana **Punto de Venta**, el registro de la orden de venta realizada desde el punto de venta.
 
-![Campo](/assets/img/docs/pdv-management/gep-pdv-image139.png)
+![Campo](/assets/img/docs/pdv-management/pdm-pdv-image139.png)
 
 Imagen 5. Selección de la Opción OK de la Orden de Venta a Copiar
 
 Podrá visualizar que el registro de la orden de venta ubicada se encuentra en estado **Completo**.
 
-![Campo](/assets/img/docs/pdv-management/gep-pdv-image140.png)
+![Campo](/assets/img/docs/pdv-management/pdm-pdv-image140.png)
 
 Imagen 6. Orden de Venta en Estado Completo
 
@@ -91,7 +91,7 @@ Es importante resaltar que cuando se presenta una devolución, la orden debe ser
 
 Seleccione la opción **Copiar Orden Desde Otra**, ubicada en el menú desplegado por el icono **Proceso** de la barra de herramientas de la ventana **Punto de Venta**, explicada en el documento Barra de Herramientas del Punto de Venta elaborado por ERPyA.
 
-![Campo](/assets/img/docs/pdv-management/gep-pdv-image141.png)
+![Campo](/assets/img/docs/pdv-management/pdm-pdv-image141.png)
 
 Imagen 7. Opción Copiar Orden Desde Otra
 
@@ -103,12 +103,12 @@ Para el presente ejemplo, el terminal con el cual se esta realizando la transacc
 
 Al seleccionar la opción **Copiar Orden Desde Otra**, se ejecuta el proceso de manera automática y podrá visualizar en la ventana **Punto de Venta**, el nuevo registro de la orden de venta en estado **Borrador** y con fecha actual **06/08/2021**.
 
-![Campo](/assets/img/docs/pdv-management/gep-pdv-image142.png)
+![Campo](/assets/img/docs/pdv-management/pdm-pdv-image142.png)
 
 Image 8. Nueva Orden Creada con el Proceso Copiar Orden Desde Otra
 
 Adicionalmente, puede visualizar que la orden contiene todos los productos y precios de la orden copiada.
 
-![Campo](/assets/img/docs/pdv-management/gep-pdv-image143.png)
+![Campo](/assets/img/docs/pdv-management/pdm-pdv-image143.png)
 
 Imagen 9. Productos y Precios de la Nueva Orden

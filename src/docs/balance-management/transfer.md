@@ -21,19 +21,19 @@ Para realizar una transferencia bancaria en ADempiere deben seguir los siguiente
 
 Ubique yseleccione en el menú de ADempiere, la carpeta **Gestión de Saldos Pendientes**, luego seleccione el proceso **Transferencia Bancaria**.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image369.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image369.png)
 
 Imagen 1. Menú de ADempiere
 
 Podrá visualizar la ventana del proceso **Transferencia Bancaria** y proceder al llenado de los campos correspondientes.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image370.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image370.png)
 
 Imagen 2. Ventana Transferencia Bancaria
 
 Seleccione en el campo **Cuenta bancaria desde**, la cuenta a debitar el monto de la transferencia realizada.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image371.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image371.png)
 
 Imagen 3. Campo Cuenta Bancaria Desde
 
@@ -43,7 +43,7 @@ La cuenta a debitar desde es la cuenta bancaria de donde saldrá la transferenci
 
 Seleccione en el campo **Cuenta Bancaria a Transferir**, la cuenta a acreditar el monto de la transferencia realizada.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image372.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image372.png)
 
 Imagen 4. Campo Cuenta Bancaria a Transferir
 
@@ -53,19 +53,19 @@ La cuenta bancaria a transferir, es la cuenta en donde caerá la transferencia.
 
 Seleccione en el campo **Socio del Negocio**, el socio del negocio titular de la cuenta seleccionada.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image373.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image373.png)
 
 Imagen 5. Campo Socio del Negocio
 
 Seleccione en el campo **Moneda**, la moneda en la cual fue realizada la transferencia.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image374.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image374.png)
 
 Imagen 6. Campo Moneda
 
 Seleccione en el campo **Cargo**, el cargo correspondiente a la transferencia entre cuentas que se está realizando.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image375.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image375.png)
 
 Imagen 7. Campo Cargo
 
@@ -75,7 +75,7 @@ El cargo a colocar en la transferencia bancaria depenrá de que tipo de transfer
 
 Introduzca en el campo **No. del Documento**, la referencia correspondiente a la transferencia bancaria realizada.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image376.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image376.png)
 
 Imagen 8. Campo No. del Documento
 
@@ -85,7 +85,7 @@ El número de documento a colocar en este campo es el número de la transferenci
 
 Introduzca en el campo **Documento Destino**, la referencia correspondiente a la transferencia bancaria realizada.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image377.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image377.png)
 
 Imagen 9. Campo Documento Destino
 
@@ -95,43 +95,43 @@ El número de documento a colocar en este campo es el número de la transferenci
 
 Introduzca en el campo **Monto**, el monto total de la transferencia bancaria realizada.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image378.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image378.png)
 
 Imagen 10. Campo Monto
 
 Introduzca en el campo **Descripción**, una breve descripción referente a la transferencia entre cuentas que está realizando.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image379.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image379.png)
 
 Imagen 11. Campo Descripción
 
 Introduzca en el campo **Fecha de Estado de Cuenta**, la fecha de la transferencia bancaria realizada.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image380.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image380.png)
 
 Imagen 12. Campo Fecha de Estado de Cuenta
 
 Introduzca en el campo **Fecha Contable**, la fecha de la transferencia bancaria realizada.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image381.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image381.png)
 
 Imagen 13. Campo Fecha Contable
 
 Si desea que los pagos/cobros que se generen de esta transferencia bancarias se concilien de una vez puede tildar la opción **Conciliar Automáticamente**, si no tilda esta opción los pagos/cobros no se conciliaran y deberán ser conciliados a través Registro de Conciliación Automática
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image382.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image382.png)
 
 Imagen 14. Campo Conciliar Automáticamente
 
 Seleccione la opción **OK**, para generar en ADempiere la transferencia entre cuentas bancarias.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image383.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image383.png)
 
 Imagen 15. Opción OK
 
 Podrá apreciar el resultado del proceso de la siguiente manera.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image384.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image384.png)
 
 Imagen 16. Resultado de Transferencia
 
@@ -145,13 +145,13 @@ De igual manera, cuando se está trabajando las transferencias bancarias con caj
 
 Si en la transferencia bancaria en el campo **Cuenta Bancaria Desde** fue seleccionada una cuenta bancaria el pago caerá en la ventana **Pago/Cobro** y tendrá como número de documento el número colocado en el campo **No. del Documento** de la transacción bancaria.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image385.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image385.png)
 
 Imagen 17. Pago en Ventana Pago/Cobro
 
 Si en la transferencia bancaria en el campo **Cuenta Bancaria Desde** fue seleccionada una cuenta de caja el pago caerá en la ventana **Caja** y tendrá como número de documento el número colocado en el campo **No. del Documento** de la transacción bancaria.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image386.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image386.png)
 
 Imagen 18. Pago en Ventana Caja
 
@@ -159,7 +159,7 @@ Imagen 18. Pago en Ventana Caja
 
 Si en la transferencia bancaria en el campo **Cuenta Bancaria a Transferir** fue seleccionada una cuenta bancaria el cobro caerá en la ventana **Pago/Cobro**, si en el campo **Documento Destino** de la transferencia bancaria se colocó el número de la transacción este mismo debe aparecer como el número de documento del campo **No. del Documento** en la ventana **Pago/Cobro**.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image387.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image387.png)
 
 Imagen 19. Cobro en Ventana Pago/Cobro
 
@@ -169,7 +169,7 @@ Si en el campo **Documento Destino** de la transferencia bancaria no se colocó 
 
 Si en la transferencia bancaria en el campo **Cuenta Bancaria a Transferir** fue seleccionada una cuenta de caja el cobro caerá en la ventana **Caja**, si en el campo **Documento Destino** de la transferencia bancaria se colocó el número de la transacción este mismo debe aparecer como el número de documento del campo **No. del Documento** en la ventana **Caja**.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image388.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image388.png)
 
 Imagen 20. Cobro en Ventana Caja
 
@@ -213,7 +213,7 @@ Seleccione en el campo **Fecha de Estado de Cuenta** la misma fecha con la que r
 
 Seleccione en el campo **Fecha Contable** la misma fecha con la que registró su selección de pago.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image389.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image389.png)
 
 Imagen 1. Transferencia Bancaria
 
@@ -223,12 +223,12 @@ Por favor NO tildar el check que dice conciliación automática
 
 Luego de que tenga todos los datos correctos proceda a culminar el proceso de transferencia bancaria tildando la opción de **OK**
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image390.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image390.png)
 
 Imagen 2. Opción OK
 
 Después de esto le aparecerá una ventana indicando que su transferencia bancaria fué creada
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image391.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image391.png)
 
 Imagen 3. Transferencia Creada

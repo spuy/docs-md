@@ -16,43 +16,43 @@ El presente material elaborado por ERPyA, pretende ofrecerle una explicación ef
 
 Realice el procedimiento regular para generar una orden de pago, explicado en el documento Registro desde Factura, elaborado por ERPyA.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image206.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image206.png)
 
 Imagen 1. Orden de Pago
 
 Luego realice el procedimiento regular para generar una selección de pago, igualmente explicado en el documento Registro desde Selección de Pago, elaborado por ERPyA.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image207.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image207.png)
 
 Imagen 2. Selección de Pago
 
 Por último, realice el procedimiento regular para generar un imprimir/exportar pagos, explicado en el documento Registro de Imprimir / Exportar Pagos, elaborado por ERPyA.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image208.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image208.png)
 
 Imagen 3. Imprimir Exportar Pagos
 
 Al consultar la pestaña **Pago Generado**, de la ventana **Selección de Pago**, se puede apreciar el registro del pago en la caja reembolso seleccionada en la selección de pago.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image209.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image209.png)
 
 Imagen 4. Pestaña Pago Generado
 
 Al consultar el registro creado en caja, se puede apreciar el registro de la selección de pago de la siguiente manera.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image210.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image210.png)
 
 Imagen 5. Registo en Caja Reembolso
 
 Realice el procedimiento regular para generar un cierre de caja, explicado en el documento Registro de Cierre de Caja, elaborado por ERPyA, seleccionando en el campo **Tipo de Documento** la opción **Cierre de Caja Reembolso**.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image211.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image211.png)
 
 Imagen 6. Cierre de Caja Reembolso
 
 Realice el procedimiento regular para generar una transferencia bancaria, explicado en el documento Registro de Transferencia Bancaria, elaborado por ERPyA.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image212.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image212.png)
 
 Imagen 7. Transferencia Bancaria
 
@@ -62,6 +62,6 @@ Al realizar el proceso de transferencia bancaria, es generado un egreso de banco
 
 Realice el procedimiento regular para generar un cierre de caja, explicado en el documento Registro de Cierre de Caja, elaborado por ERPyA, seleccionando en el campo **Tipo de Documento** la opción **Cierre de Caja Reembolso**.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image213.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image213.png)
 
 Imagen 8. Cierre de Caja Reembolso

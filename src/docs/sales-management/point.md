@@ -18,19 +18,19 @@ En ADempiere es posible generar una factura de cuentas por cobrar de forma direc
 
 Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Orden de Ventas**, por último seleccione la ventana **Punto de Venta**.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image304.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image304.png)
 
 Imagen 1. Menú de ADempiere
 
 Podrá visualizar la ventana **Punto de Venta** en ADempiere.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image305.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image305.png)
 
 Imagen 2. Ventana Punto de Venta
 
 Seleccione el icono **Nueva Orden**, ubicado en la barra de herramientas superior derecha.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image306.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image306.png)
 
 Imagen 3. Icono Registro Nueva Orden
 
@@ -38,31 +38,31 @@ Si desea relacionar su venta a un cliente fiscalmente, puede seleccionar un clie
 
 Para seleccionar cliente existente, proceda a tipear el nombre, RIF o cédula del cliente como lo muetras la Imagen.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image307.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image307.png)
 
 Imagen 4. Búsqueda de Cliente
 
 Para seleccionar cliente existente, proceda a tipear el nombre, RIF o cédula del cliente como lo muetras la Imagen.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image308.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image308.png)
 
 Imagen 4. Nuevo Cliente
 
 Seleccione la opción **Crear Nuevo Socio de Negocio**.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image309.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image309.png)
 
 Imagen 5. Opción Nuevo Cliente
 
 A continuación Seleccione la opción **Crear Nuevo Socio de Negocio**, y se desplegará la siguiente ventana.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image310.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image310.png)
 
 Imagen 6. Ventana Crear Socio de Negocio
 
 A continuación indique el código del cliente (Cédula/RIF) en el campo **Código**.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image311.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image311.png)
 
 Imagen 7. Código Socio de Negocio
 
@@ -74,7 +74,7 @@ A continuación indique el nombre o razón social del cliente en el campo **Nomb
 
 |Nombre Cliente|
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image312.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image312.png)
 
 Imagen 7. Nombre Socio de Negocio
 

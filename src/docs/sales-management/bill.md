@@ -16,19 +16,19 @@ A continuación se explica el procedimiento que debe ser realizado para generar 
 
 Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Facturas de Ventas**, por último seleccione el proceso **Generar Factura desde Orden de Salida**.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image1.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image1.png)
 
 Imagen 1. Menú de ADempiere
 
 Podrá visualizar la ventana **Generar Factura desde Orden de Salida** y proceder al llenado de los campos correspondientes para filtrar la búsqueda.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image2.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image2.png)
 
 Imagen 2. Ventana Generar Factura desde Orden de Salida
 
 Seleccione en el campo **Orden de Salida**, la orden de salida de la cual se va a filtrar la búsqueda.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image3.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image3.png)
 
 Imagen 3. Campo Orden de Salida
 
@@ -38,25 +38,25 @@ Para ejemplificar el registro solo es seleccionada la orden de salida como filtr
 
 Seleccione la opción **Comenzar Búsqueda** para realizar la búsqueda de los documentos según los filtros indicados.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image4.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image4.png)
 
 Imagen 4. Opción Comenzar Búsqueda
 
 Seleccione la orden de salida por la cual será generada la factura.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image5.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image5.png)
 
 Imagen 5. Seleccionar Orden de Salida
 
 Seleccione la opción **OK**, para generar la factura desde la orden de salida seleccionada.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image6.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image6.png)
 
 Imagen 6. Opción OK
 
 Podrá visualizar la siguiente ventana de confirmación donde debe seleccionar la opción **OK**.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image7.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image7.png)
 
 Imagen 7. Ventana de Confirmación y Opción OK
 
@@ -64,7 +64,7 @@ Imagen 7. Ventana de Confirmación y Opción OK
 
 Al consultar el registro en la ventana **Documentos por Cobrar**, puede visualizar la factura de cuentas por cobrar generada desde la orden de salida.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image8.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image8.png)
 
 Imagen 8. Factura desde Orden de Salida
 
@@ -72,6 +72,6 @@ Imagen 8. Factura desde Orden de Salida
 
 Al imprimir el registro en la ventana **Documentos por Cobrar**, seleccionando el icono **Imprimir** ubicado en la barra de herramientas de ADempiere, podrá visualizar de la siguiente manera la factura de ventas generada desde la orden de salida.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image9.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image9.png)
 
 Imagen 9. Factura Generada desde la Orden de Salida

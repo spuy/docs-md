@@ -21,79 +21,79 @@ El presente material elaborado por ERPyA, pretende ofrecerle una explicación ef
 
 Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Saldos Pendientes**, luego seleccione la ventana **Diario de Caja**, por último seleccione la ventana **Cierre de Caja**.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image17.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image17.png)
 
 Imagen 1. Menú de ADempiere
 
 Podrá visualizar la ventana **Cierre de Caja**, donde debe seleccionar el icono **Registro Nuevo** y proceder al llenado de los campos correspondientes.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image18.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image18.png)
 
 Imagen 2. Ventana Cierre de Caja y Selección de Icono Registro Nuevo
 
 Seleccione en el campo **Organización**, la organización para la cual está realizando el cierre de caja.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image19.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image19.png)
 
 Imagen 3. Campo Organización
 
 Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por ERPyA.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image20.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image20.png)
 
 Imagen 4. Campo Tipo de Documento
 
 Seleccione en el campo **Cuenta Bancaria**, la cuenta bancaria a la cual se le realizará el cierre de caja.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image21.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image21.png)
 
 Imagen 5. Campo Cuenta Bancaria
 
 Introduzca en el campo **Nombre**, el nombre de referencia del cierre de caja que está realizando.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image22.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image22.png)
 
 Imagen 6. Campo Nombre
 
 Introduzca en el campo **Descripción**, una breve descripción referente al documento que está realizando.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image23.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image23.png)
 
 Imagen 7. Campo Descripción
 
 Seleccione la opción **Crear a partir de Pagos**, para realizar el cierre de caja desde un ingreso generado anteriormente, este puede ser una selección de pago o una transferencia bancaria. Para ejemplificar el registro es utilizado el caso de una transferencia bancaria.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image24.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image24.png)
 
 Imagen 8. Opción Crear a Partir
 
 Podrá visualizar la siguiente ventana de búsqueda inteligente, donde debe seleccionar la opción **Comenzar Búsqueda** para buscar las transferencias entre cuentas realizadas.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image25.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image25.png)
 
 Imagen 9. Ventana de Búsqueda Inteligente y Selección de Opción Comenzar Búsqueda
 
 Seleccione el registro de la transferencia creada anteriormente y la opción **OK**, para cargar la información a la pestaña **Línea de Cierre de Caja**.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image26.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image26.png)
 
 Imagen 10. Selección de Transferencia y Opción OK
 
 Seleccione el icono **Refrescar** en la barra de herramientas de ADempiere, para refrescar el registro en la ventana **Cierre de Caja**.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image27.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image27.png)
 
 Imagen 11. Icono Refrescar
 
 Seleccione la opción **Completar**, ubicada en la parte inferior del documento.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image28.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image28.png)
 
 Imagen 12. Opción Completar
 
 Seleccione la acción **Completar** y la opción **OK**, para completar el documento.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image29.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image29.png)
 
 Imagen 13. Acción Completar y Opción OK
 
@@ -118,25 +118,25 @@ Seleccione en el Campo **Fecha de Estado de Cuenta** la fecha que registró en l
 
 Seleccione en el campo **Descripción**una información adicional que le ayude a identificar su cierre de caja, este campo no es obligatorio por lo tanto es opcional colocar la información en él.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image30.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image30.png)
 
 Imagen 1. Registro Cierre de Caja
 
 Seguidamente nos dirigimos a seleccionar el campo que dice **Crear a Partir de Caja**,
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image31.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image31.png)
 
 Imagen 2 .Campo Crear a Partir de Caja
 
 Luego nos aparecerá una ventana donde estará seleccionada el nombre de nuestra caja de nómina, también tendrá otras opciones disponibles de las cuales usted puede seleccionar la que más se adapte a su búsqueda para encontrar los movimientos que posee su caja. En este caso utilizaremos la fecha para encontrar los movimientos que posee la caja durante esa fecha.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image32.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image32.png)
 
 Imagen 3. Búsqueda de Parámetros
 
 Posteriormente aparecen los movimientos que tenga registrados en su caja, en la fecha que determinó en su búsqueda. En este caso nos aparecen el pago generado a los empleados en la selección de pago y por otro lado tendremos el monto total de la transferencia que realizamos con el monto total de la nómina.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image33.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image33.png)
 
 Imagen 4. Pagos a Cruzar
 
@@ -150,7 +150,7 @@ Seguidamente nos dirigimos a la ventana principal de nuestro cierre de caja y en
 
 Por último nos dirigimos a la ventana principal de nuestro cierre de caja y en el campo **Saldo Final** nos debe quedar un saldo de cero (0), eso quiere decir que los montos de la caja están correctos, el egreso de dinero que salió de nuestra caja para el pago de la nómina de los empleados y en monto ingresado a nuestra caja a través de la transferencia bancaria está correcto.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image34.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image34.png)
 
 Imagen 5. Saldo Final
 
@@ -160,6 +160,6 @@ Cabe destacar que el saldo final del cierre de la caja siempre debe quedar en ce
 
 Al finalizar este proceso proceda a finalizar el proceso completando su cierre de caja.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image35.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image35.png)
 
 Imagen 6. Completar el cierre de Caja

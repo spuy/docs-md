@@ -24,67 +24,67 @@ A continuación, se explica el procedimiento a seguir para configurar un esquema
 
 Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Materiales**, luego seleccione la carpeta **Reglas de Gestión de Materiales**, por último seleccione la ventana **Esquema de Lista de Precios**.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image313.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image313.png)
 
 Imagen 1. Menú de ADempiere
 
 Podrá viualizar la ventana **Esquema de Lista de Precios**, con los registros del esquema de lista de precios definidos para la organización.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image314.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image314.png)
 
 Imagen 2. Ventana Esquema de Lista de Precios
 
 Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de ADempiere y proceda al llenado de los campos correspondientes.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image315.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image315.png)
 
 Imagen 3. Icono Registro Nuevo
 
 Seleccione en el campo **Organización la organización para la cual se encuentra realizando el registro.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image316.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image316.png)
 
 Imagen 4. Campo Organización
 
 Introduzca en el campo **Nombre**, el nombre del esquema de lista de precios que se encuentra realizando.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image317.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image317.png)
 
 Imagen 5. Campo Nombre
 
 Introduzca en el campo **Descripción**, una breve descripción del registro que se encuentra realizando.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image318.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image318.png)
 
 Imagen 6. Campo Descripción
 
 Seleccione en el campo **Válido Desde**, la fecha de inicio de validez del registro que se encuentra realizando.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image319.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image319.png)
 
 Imagen 7. Campo Válido Desde
 
 Seleccione en el campo **Tipo de Descuento**, el tipo de cálculo del descuento comercial.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image320.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image320.png)
 
 Imagen 8. Campo Tipo de Descuento
 
 Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image321.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image321.png)
 
 Imagen 9. Icono Guardar Cambios
 
 Seleccione la pestaña **Línea de Esquema** y proceda al llenado de los campo correspondientes.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image322.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image322.png)
 
 Imagen 10. Pestaña Línea de Esquema
 
 Seleccione en el campo **Tipo de Conversión**, el tipo de conversión con el cual se va a trabajar. Para este ejemplo el tipo de conversión utilizado es **BCV**.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image323.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image323.png)
 
 Imagen 11. Campo Tipo de Conversión
 
@@ -96,7 +96,7 @@ Seleccione en el campo **Fecha de Conversión**, la fecha de conversión de la m
 
 Esta fecha indica el inicio del periodo de validez del registro que se encuentra realizando.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image324.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image324.png)
 
 Imagen 12. Campo Fecha de Conversión
 
@@ -104,7 +104,7 @@ Seleccione en el campo **Socio del Negocio**, el socio del negocio correspondien
 
 Al seleccionar un socio del negocio, la configuración que se realice en el presente registro, tendrá efecto solamente sobre dicho socio al momento de seleccionar el mismo en alguna transacción.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image325.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image325.png)
 
 Imagen 13. Campo Socio del Negocio
 
@@ -112,7 +112,7 @@ Seleccione en el campo **Producto**, el producto correspondiente al registro que
 
 Al seleccionar un producto, la configuración que se realice en el presente registro, tendrá efecto solamente sobre dicho producto al momento de seleccionar el mismo en alguna transacción.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image326.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image326.png)
 
 Imagen 14. Campo Producto
 
@@ -120,7 +120,7 @@ Seleccione en el campo **Categoría del Producto**, la categoría de producto co
 
 Al seleccionar una categoría de producto, la configuración que se realice en el presente registro, tendrá efecto solamente sobre dicha categoría al momento de seleccionar la misma en alguna transacción.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image327.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image327.png)
 
 Imagen 15. Campo Categoría del Producto
 
@@ -132,7 +132,7 @@ Seleccione en el campo **Grupo de Producto**, el grupo de producto correspondien
 
 Al seleccionar un grupo de producto, la configuración que se realice en el presente registro, tendrá efecto solamente sobre dicho grupo al momento de seleccionar el mismo en alguna transacción.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image328.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image328.png)
 
 Imagen 16. Campo Grupo de Producto
 
@@ -144,7 +144,7 @@ Seleccione en el campo **Clase de Producto**, la clase de producto correspondien
 
 Al seleccionar una clase de producto, la configuración que se realice en el presente registro, tendrá efecto solamente sobre dicha clase al momento de seleccionar la misma en alguna transacción.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image329.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image329.png)
 
 Imagen 17. Campo Clase de Producto
 
@@ -156,7 +156,7 @@ Seleccione en el campo **Clasificación de Producto**, la clasificación de prod
 
 Al seleccionar una clasificación de producto, la configuración que se realice en el presente registro, tendrá efecto solamente sobre dicha clasificación al momento de seleccionar la misma en alguna transacción.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image330.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image330.png)
 
 Imagen 18. Campo Clasificación de Producto
 
@@ -166,19 +166,19 @@ Al configurar el esquema de lista de precios por clasificación de producto y pr
 
 Introduzca en el campo **Línea de Producto**, la línea del producto correspondiente al registro que se encuentra realizando.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image331.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image331.png)
 
 Imagen 19. Campo Línea de Producto
 
 Introduzca en el campo **Grupo 1**, el grupo 1 correspondiente al registro que se encuentra realizando.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image332.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image332.png)
 
 Imagen 20. Campo Grupo 1
 
 Introduzca en el campo **Grupo 2**, el grupo 2 correspondiente al registro que se encuentra realizando.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image333.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image333.png)
 
 Imagen 21. Campo Grupo 2
 
@@ -186,7 +186,7 @@ El campo **Base del Precio de Lista, indica el precio a usar como la base para e
 
 El presente campo contiene predeterminada la opción **Precio de Lista**.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image334.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image334.png)
 
 Imagen 22. Campo Base del Precio de Lista
 
@@ -194,7 +194,7 @@ Introduzca en el campo **Margen Mínimo sobre el precio de lista**, el margen m�
 
 El margen mínimo sobre el precio de lista indica el margen mínimo para un producto. El margen es calculado substrayendo el precio de lista original del nuevo precio calculado. Si el campo contiene **0.00**, el margen es ignorado.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image335.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image335.png)
 
 Imagen 23. Campo Margen Mínimo sobre el precio de lista
 
@@ -202,7 +202,7 @@ Introduzca en el campo **Sobreprecio del Precio de Lista**, el sobreprecio del p
 
 El total de sobrecargo en el precio de lista indica el total a ser adicionado al precio antes de la multiplicación.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image336.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image336.png)
 
 Imagen 24. Campo Sobreprecio del Precio de Lista
 
@@ -210,7 +210,7 @@ Introduzca en el campo **Margen Máximo sobre el Precio de Lista**, el margen m�
 
 El margen máximo del precio de lista indica el margen máximo para un producto. El margen es calculado restando el precio de lista original del precio nuevo calculado. Si este campo contiene **0.00**, entonces es ignorado.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image337.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image337.png)
 
 Imagen 25. Campo Margen Máximo sobre el Precio de Lista
 
@@ -218,7 +218,7 @@ Introduzca en el campo **% Descuento Sobre Precio de Lista**, el porcentaje (%) 
 
 El porcentaje de descuento sobre precio de lista, indica el porcentaje de descuento que será restado del precio base. Un monto negativo indica el porcentaje que será añadido al precio base.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image338.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image338.png)
 
 Imagen 26. Campo % Descuento Sobre Precio de Lista
 
@@ -226,7 +226,7 @@ El campo **Redondeo del Precio de Lista**, indica como el precio de lista final 
 
 La opción seleccionada establece la regla de redondeo para la lista de precios final.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image339.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image339.png)
 
 Imagen 27. Campo Redondeo del Precio de Lista
 
@@ -234,7 +234,7 @@ El campo **Base para Precio Estándar**, indica el precio a usar como la base pa
 
 El presente campo tiene predeterminada la opción **Precio Estándar**.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image340.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image340.png)
 
 Imagen 28. Campo Base para Precio Estándar
 
@@ -242,7 +242,7 @@ Introduzca en el campo **Margen Mínimo del Precio Estándar**, el margen mínim
 
 El margen mínimo del precio estándar indica el margen mínimo para un producto. El margen se calcula restando el precio estándar original del precio nuevamente calculado. Si este campo contiene **0.00** entonces es ignorado.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image341.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image341.png)
 
 Imagen 29. Campo Margen Mínimo del Precio Estándar
 
@@ -250,7 +250,7 @@ Introduzca en el campo **Total de Sobreprecio al Precio Estándar**, el total de
 
 El total de sobreprecio del precio estándar, indica el total a ser añadido al precio antes de la multiplicación.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image342.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image342.png)
 
 Imagen 30. Campo Total de Sobreprecio al Precio Estándar
 
@@ -258,7 +258,7 @@ Introduzca en el campo **Margen Máximo del Precio Estándar**, el margen máxim
 
 El margen máximo del precio estándar indica el margen máximo para un producto. El margen se calcula restando el precio estándar original del precio nuevamente calculado. Si este campo contiene **0.00** entonces es ignorado.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image343.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image343.png)
 
 Imagen 31. Campo Margen Máximo del Precio Estándar
 
@@ -266,7 +266,7 @@ Introduzca en el campo **% Descuento Sobre Precio Estándar**, el porcentaje (%)
 
 El porcentaje de descuento en el precio estándar, indica el porcentaje de descuento que será restado del precio base. Un monto negativo indica el porcentaje que será añadido al precio base.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image344.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image344.png)
 
 Imagen 32. Campo % Descuento Sobre Precio Estándar
 
@@ -274,7 +274,7 @@ El campo **Redondeo del Precio Estándar**, indica como el precio estándar ser�
 
 La opción seleccionada establece la regla de redondeo para el precio calculado.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image345.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image345.png)
 
 Imagen 33. Campo Redondeo del Precio Estándar
 
@@ -282,7 +282,7 @@ El campo **Base para Precio Límite**, identifica el precio a ser usado como la 
 
 El presente campo tiene predeterminada la opción **Precio Límite (OC)**
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image346.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image346.png)
 
 Imagen 34. Campo Base para Precio Límite
 
@@ -290,7 +290,7 @@ Introduzca en el campo **Margen Mínimo del Precio Límite**, el margen mínimo 
 
 El margen mínimo del precio límite, indica el margen mínimo para un producto. El margen se calcula restando el precio límite original del nuevo precio calculado. Si este campo contiene **0.00**, entonces es ignorado.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image347.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image347.png)
 
 Imagen 35. Campo Margen Mínimo del Precio Límite
 
@@ -298,7 +298,7 @@ Introduzca en el campo **Total de Sobreprecio al Precio Límite**, el total de s
 
 El total de sobreprecio al precio límite, indica el total a ser adicionado al precio límite anterior a la multiplicación.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image348.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image348.png)
 
 Imagen 36. Campo Total de Sobreprecio al Precio Límite
 
@@ -306,7 +306,7 @@ Introduzca en el campo **Margen Máximo del Precio Límite**, el margen máximo 
 
 Identifica el margen máximo para un producto. El margen se calcula restando el precio límite original del nuevo precio calculado. Si este campo contiene **0.00**, entonces es ignorado
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image349.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image349.png)
 
 Imagen 37. Campo Margen Máximo del Precio Límite
 
@@ -314,7 +314,7 @@ Introduzca en el campo **% Descuento Sobre Precio Límite**, el porcentaje (%) d
 
 El porcentaje de descuento sobre el precio límite, indica el porcentaje de descuento que será restado del precio base. Un monto negativo indica el porcentaje que será añadido al precio base.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image350.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image350.png)
 
 Imagen 38. Campo % Descuento Sobre Precio Límite
 
@@ -322,13 +322,13 @@ El campo **Redondeo del Precio Límite**, indica el redondeo (si existe alguno) 
 
 La opción seleccionada establece la regla de redondeo para el resultado final.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image351.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image351.png)
 
 Imagen 39. Campo Redondeo del Precio Límite
 
 Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image352.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image352.png)
 
 Imagen 40. Icono Guardar Cambios
 
@@ -336,13 +336,13 @@ Imagen 40. Icono Guardar Cambios
 
 Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Materiales**, luego seleccione la carpeta **Reglas de Gestión de Materiales**, por último seleccione la ventana **Lista de Precios**.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image353.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image353.png)
 
 Imagen 1. Menú de ADempiere
 
 Podrá visualizar la ventana **Lista de Precios**, con todos los registros de listas de precios de compras y ventas.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image354.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image354.png)
 
 Imagen 2. Ventana Lista de Precios
 
@@ -352,25 +352,25 @@ La información de los campos que contiene la pestaña **Lista de Precios**, no 
 
 Ubique el registro de lista de precios de **Ventas (USD)**.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image355.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image355.png)
 
 Imagen 3. Lista de Precios Ventas (USD)
 
 Seleccione la pestaña **Versión**, para crear la versión de lista de precios base.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image356.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image356.png)
 
 Imagen 4. Pestaña Versión
 
 Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de ADempiere.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image357.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image357.png)
 
 Imagen 5. Icono Registro Nuevo
 
 Seleccione en el campo **Organización**, la organización para la cual se encuentra realizando el registro.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image358.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image358.png)
 
 Imagen 6. Campo Organización
 
@@ -382,31 +382,31 @@ Introduzca en el campo **Nombre**, el nombre correspondiente a la versión de li
 
 Este campo contiene como nombre por defecto, la fecha y la hora en el cual fue creado el registro.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image359.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image359.png)
 
 Imagen 7. Campo Nombre
 
 Introduzca en el campo **Descripción**, una breve descripción correspondiente al registro que se encuentra realizando.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image360.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image360.png)
 
 Imagen 8. Campo Descripción
 
 Seleccione en el campo **Esq List Precios/Desc**, el esquema de descuento correspondiente.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image361.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image361.png)
 
 Imagen 9. Campo Esq List Precios/Desc
 
 Seleccione en el campo **Válido Desde**, la fecha de inicio del periodo de validez del registro que se encuentra realizando.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image362.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image362.png)
 
 Imagen 10. Campo Válido Desde
 
 Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image363.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image363.png)
 
 Imagen 11. Icono Guardar Cambios
 
@@ -424,7 +424,7 @@ Si los precios de los productos se encuentran en una moneda diferente a la moned
 
 Seleccione la opción **Crear Lista de Precios**.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image364.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image364.png)
 
 Imagen 12. Opción Crear Lista de Precios
 
@@ -434,7 +434,7 @@ También puede acceder al proceso, seleccionando la opción **Crear Lista de Pre
 
 Podrá visualizar la ventana **Crear Lista de Precios**, con diferentes campos que permiten generar la lista de precios en base a lo requerido por el usuario.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image365.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image365.png)
 
 Imagen 13. Ventana Crear Lista de Precios
 
@@ -442,7 +442,7 @@ Seleccione en el campo **Producto**, el producto por el cual requiere generar la
 
 Si no es seleccionado ningún valor en este campo, se genera la lista de precios con todos los productos.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image366.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image366.png)
 
 Imagen 14. Campo Producto
 
@@ -450,7 +450,7 @@ Seleccione en el campo **Categoría del Producto**, la categoría del producto p
 
 Si no es seleccionado ningún valor en este campo, se genera la lista de precios con todas las categorías de productos.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image367.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image367.png)
 
 Imagen 15. Campo Categoría del Producto
 
@@ -458,7 +458,7 @@ Seleccione en el campo **Grupo de Producto**, el grupo de producto por el cual r
 
 Si no es seleccionado ningún valor en este campo, se genera la lista de precios con todos los grupos de productos.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image368.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image368.png)
 
 Imagen 16. Campo Grupo de Producto
 
@@ -466,7 +466,7 @@ Seleccione en el campo **Clase de Producto**, la clase de producto por la cual r
 
 Si no es seleccionado ningún valor en este campo, se genera la lista de precios con todas las clases de productos.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image369.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image369.png)
 
 Imagen 17. Campo Clase de Producto
 
@@ -474,13 +474,13 @@ Seleccione en el campo **Clasificación de Producto**, la clasificación por la 
 
 Si no es seleccionado ningún valor en este campo, se genera la lista de precios con todas las clasificaciones de productos.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image999.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image999.png)
 
 Imagen 18. Campo Clasificación de Producto
 
 Seleccione la opción **OK**, para ejecutar el proceso y generar la lista de precios en base a lo seleccionado.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image370.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image370.png)
 
 Imagen 19. Opción OK
 
@@ -494,13 +494,13 @@ Para cargar los precios de los productos de manera manual, debe realizar lo sigu
 
 Seleccione la pestaña **Precio de Producto** y proceda a llenar los campos correspondientes.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image371.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image371.png)
 
 Imagen 20. Pestaña Precio del Producto
 
 Seleccione en el campo **Producto**, el producto correspondiente al registro.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image372.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image372.png)
 
 Imagen 21. Campo Producto
 
@@ -508,7 +508,7 @@ Introduzca en el campo **Precio de Lista**, el precio de lista del producto.
 
 El precio de lista es el precio de lista oficial en la moneda del documento.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image373.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image373.png)
 
 Imagen 22. Campo Precio de Lista
 
@@ -516,7 +516,7 @@ Introduzca en el campo **Precio Estándar**, el precio estándar del producto.
 
 El precio estándar indica el precio estándar o normal para un producto en esta lista de precios.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image374.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image374.png)
 
 Imagen 23. Campo Precio Estándar
 
@@ -524,7 +524,7 @@ Introduzca en el campo **Precio Límite**, el precio límite del producto.
 
 El límite de precio indica el precio más bajo para un producto establecido en la moneda de la lista de precio.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image375.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image375.png)
 
 Imagen 24. Campo Precio Límite
 
@@ -532,13 +532,13 @@ Introduzca en el campo **PMVP**, el PMVP del producto.
 
 El PMVP indica el precio marcado de venta al público.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image376.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image376.png)
 
 Imagen 25. Campo PMVP
 
 Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image377.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image377.png)
 
 Imagen 26. Icono Guardar Cambios
 
@@ -548,13 +548,13 @@ Para ejemplificar el caso de creación de una lista de precios desde otra, se ti
 
 Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Materiales**, luego seleccione la carpeta **Reglas de Gestión de Materiales**, por último seleccione la ventana **Lista de Precios**.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image378.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image378.png)
 
 Imagen 1. Menú de ADempiere
 
 Podrá visualizar la ventana **Lista de Precios**, con todos los registros de listas de precios de compras y ventas.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image379.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image379.png)
 
 Imagen 2. Ventana Lista de Precios
 
@@ -564,25 +564,25 @@ La información de los campos que contiene la pestaña **Lista de Precios**, no 
 
 Ubique el registro de lista de precios de **Ventas (VES)**.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image380.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image380.png)
 
 Imagen 3. Lista de Precios Ventas (VES)
 
 Seleccione la pestaña **Versión**, para crear la versión de lista de precios desde otra versión de lista de precios.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image381.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image381.png)
 
 Imagen 4. Pestaña Versión
 
 Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de ADempiere.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image382.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image382.png)
 
 Imagen 5. Icono Registro Nuevo
 
 Seleccione en el campo **Organización**, la organización para la cual se encuentra realizando el registro.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image383.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image383.png)
 
 Imagen 6. Campo Organización
 
@@ -594,43 +594,43 @@ Introduzca en el campo **Nombre**, el nombre correspondiente a la versión de li
 
 Este campo contiene como nombre por defecto, la fecha y la hora en el cual fue creado el registro.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image384.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image384.png)
 
 Imagen 7. Campo Nombre
 
 Introduzca en el campo **Descripción**, una breve descripción correspondiente al registro que se encuentra realizando.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image385.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image385.png)
 
 Imagen 8. Campo Descripción
 
 Seleccione en el campo **Esq List Precios/Desc**, el esquema de descuento correspondiente.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image386.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image386.png)
 
 Imagen 9. Campo Esq List Precios/Desc
 
 Seleccione en el campo **Lista de Precios Base**, la versión de lista de precios base desde la cual requiere generar la lista de precios.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image387.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image387.png)
 
 Imagen 10. Campo Lista de Precios
 
 Seleccione en el campo **Válido Desde**, la fecha de inicio del periodo de validez del registro que se encuentra realizando.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image388.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image388.png)
 
 Imagen 11. Campo Válido Desde
 
 Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image389.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image389.png)
 
 Imagen 12. Icono Guardar Cambios
 
 Seleccione la opción **Crear Lista de Precios**.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image390.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image390.png)
 
 Imagen 13. Opción Crear Lista de Precios
 
@@ -640,7 +640,7 @@ También puede acceder al proceso, seleccionando la opción **Crear Lista de Pre
 
 Podrá visualizar la ventana **Crear Lista de Precios**, con diferentes campos que permiten generar la lista de precios en base a lo requerido por el usuario.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image391.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image391.png)
 
 Imagen 14. Ventana Crear Lista de Precios
 
@@ -648,7 +648,7 @@ Seleccione en el campo **Producto**, el producto por el cual requiere generar la
 
 Si no es seleccionado ningún valor en este campo, se genera la lista de precios con todos los productos.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image392.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image392.png)
 
 Imagen 15. Campo Producto
 
@@ -656,7 +656,7 @@ Seleccione en el campo **Categoría del Producto**, la categoría del producto p
 
 Si no es seleccionado ningún valor en este campo, se genera la lista de precios con todas las categorías de productos.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image393.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image393.png)
 
 Imagen 16. Campo Categoría del Producto
 
@@ -664,7 +664,7 @@ Seleccione en el campo **Grupo de Producto**, el grupo de producto por el cual r
 
 Si no es seleccionado ningún valor en este campo, se genera la lista de precios con todos los grupos de productos.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image394.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image394.png)
 
 Imagen 17. Campo Grupo de Producto
 
@@ -672,7 +672,7 @@ Seleccione en el campo **Clase de Producto**, la clase de producto por la cual r
 
 Si no es seleccionado ningún valor en este campo, se genera la lista de precios con todas las clases de productos.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image395.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image395.png)
 
 Imagen 18. Campo Clase de Producto
 
@@ -680,19 +680,19 @@ Seleccione en el campo **Clasificación de Producto**, la clasificación por la 
 
 Si no es seleccionado ningún valor en este campo, se genera la lista de precios con todas las clasificaciones de productos.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image396.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image396.png)
 
 Imagen 19. Campo Clasificación de Producto
 
 Seleccione la opción **OK**, para ejecutar el proceso y generar la lista de precios en base a lo seleccionado.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image397.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image397.png)
 
 Imagen 20. Opción OK
 
 Seleccione la pestaña **Precio de Producto** para verificar los precios de los productos, creados desde la lista de precios base seleccionada previamente.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image398.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image398.png)
 
 Imagen 21. Pestaña Precio de Producto
 
@@ -722,13 +722,13 @@ En base a las especificaciones nombradas anteriormente, se procede a explicar el
 
 Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Materiales**, luego seleccione la carpeta **Reglas de Gestión de Materiales**, por último seleccione la ventana **Lista de Precios**.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image399.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image399.png)
 
 Imagen 1. Menú de ADempiere
 
 Podrá visualizar la ventana **Lista de Precios**, con todos los registros de listas de precios de compras y ventas.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image400.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image400.png)
 
 Imagen 2. Ventana Lista de Precios
 
@@ -738,25 +738,25 @@ La información de los campos que contiene la pestaña **Lista de Precios**, no 
 
 Ubique el registro de lista de precios de **Ventas (VES)**.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image401.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image401.png)
 
 Imagen 3. Lista de Precios Ventas (VES)
 
 Seleccione la pestaña **Versión**.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image402.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image402.png)
 
 Imagen 4. Pestaña Versión
 
 Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de ADempiere.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image403.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image403.png)
 
 Imagen 5. Icono Registro Nuevo
 
 Seleccione en el campo **Organización**, la organización para la cual se encuentra realizando el registro.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image404.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image404.png)
 
 Imagen 6. Campo Organización
 
@@ -768,31 +768,31 @@ Introduzca en el campo **Nombre**, el nombre correspondiente a la versión de li
 
 Este campo contiene como nombre por defecto, la fecha y la hora en el cual fue creado el registro.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image405.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image405.png)
 
 Imagen 7. Campo Nombre
 
 Introduzca en el campo **Descripción**, una breve descripción correspondiente al registro que se encuentra realizando.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image406.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image406.png)
 
 Imagen 8. Campo Descripción
 
 Seleccione en el campo **Esq List Precios/Desc**, el esquema de descuento correspondiente.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image407.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image407.png)
 
 Imagen 9. Campo Esq List Precios/Desc
 
 Seleccione en el campo **Válido Desde**, la fecha de inicio del periodo de validez del registro que se encuentra realizando.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image408.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image408.png)
 
 Imagen 10. Campo Válido Desde
 
 Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image409.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image409.png)
 
 Imagen 11. Icono Guardar Cambios
 
@@ -802,7 +802,7 @@ Esta opción permite crear los precios de los productos desde la última orden d
 
 Si los precios de los productos se encuentran en una moneda diferente a la moneda de la compañía, ADempiere toma los precios de la pestaña **Compras** de cada producto y en base a la moneda que este asociada a dicha pestaña y a la moneda de la lista de precios, toma la configuración del esquema de lista de precios, realizando la conversión a la tasa de la fecha que tenga la versión de lista de precios y aplica el descuento o margen de ganancia configurado en el mismo (si lo tiene), para finalmente cargar dichos precios a la lista de precios.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image410.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image410.png)
 
 Imagen 12. Opción Crear Lista de Precios
 
@@ -812,7 +812,7 @@ También puede acceder al proceso, seleccionando la opción **Crear Lista de Pre
 
 Podrá visualizar la ventana **Crear Lista de Precios**, con diferentes campos que permiten generar la lista de precios en base a lo requerido por el usuario.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image411.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image411.png)
 
 Imagen 13. Ventana Crear Lista de Precios
 
@@ -820,7 +820,7 @@ Seleccione en el campo **Producto**, el producto por el cual requiere generar la
 
 Si no es seleccionado ningún valor en este campo, se genera la lista de precios con todos los productos.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image412.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image412.png)
 
 Imagen 14. Campo Producto
 
@@ -828,7 +828,7 @@ Seleccione en el campo **Categoría del Producto**, la categoría del producto p
 
 Si no es seleccionado ningún valor en este campo, se genera la lista de precios con todas las categorías de productos.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image413.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image413.png)
 
 Imagen 15. Campo Categoría del Producto
 
@@ -836,7 +836,7 @@ Seleccione en el campo **Grupo de Producto**, el grupo de producto por el cual r
 
 Si no es seleccionado ningún valor en este campo, se genera la lista de precios con todos los grupos de productos.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image414.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image414.png)
 
 Imagen 16. Campo Grupo de Producto
 
@@ -844,7 +844,7 @@ Seleccione en el campo **Clase de Producto**, la clase de producto por la cual r
 
 Si no es seleccionado ningún valor en este campo, se genera la lista de precios con todas las clases de productos.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image415.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image415.png)
 
 Imagen 17. Campo Clase de Producto
 
@@ -852,19 +852,19 @@ Seleccione en el campo **Clasificación de Producto**, la clasificación por la 
 
 Si no es seleccionado ningún valor en este campo, se genera la lista de precios con todas las clasificaciones de productos.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image416.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image416.png)
 
 Imagen 18. Campo Clasificación de Producto
 
 Seleccione la opción **OK**, para ejecutar el proceso y generar la lista de precios en base a lo seleccionado.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image417.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image417.png)
 
 Imagen 19. Opción OK
 
 Seleccione la pestaña **Precio de Producto** para verificar los precios de los productos, creados desde la pestaña **Compras** de cada producto.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image418.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image418.png)
 
 Imagen 20. Pestaña Precio de Producto
 
@@ -894,37 +894,37 @@ Ejemplo:
 
 Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Materiales**, luego seleccione la carpeta **Reglas de Gestión de Materiales**, por último seleccione la ventana **Lista de Precios**.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image419.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image419.png)
 
 Imagen 1. Menú de ADempiere
 
 Podrá visualizar la ventana **Lista de Precios**, donde debe ubicar el registro de la lista de precios a utilizar.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image420.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image420.png)
 
 Imagen 2. Ventana Lista de Precios
 
 Seleccione la pestaña **Versión**, para establecer la lista de precios de los productos.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image421.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image421.png)
 
 Imagen 3. Pestaña Versión
 
 Seleccione ĺa opción **Crear Entradas de Productos en Lista de Precios**, para establecer los precios de los productos desde el proceso.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image422.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image422.png)
 
 Imagen 4. Opción Crear Entradas de Productos en Lista de Precios
 
 También puede acceder al proceso, seleccionando la opción **Crear Entradas de Productos en Lista de Precios** desplegada del icono **Proceso ubicado en la barra de herramientas de ADempiere.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image423.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image423.png)
 
 Imagem 5. Opción Crear Entradas de Productos en Lista de Precios desde el Icono Proceso
 
 Podrá visualizar la ventana del proceso, donde debe seleccionar la opción **Comenzar Búsqueda** para buscar los productos registrados en ADempiere.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image424.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image424.png)
 
 Imagen 5. Opción Comenzar Búsqueda
 
@@ -938,24 +938,24 @@ En el campo **Precio Estándar**, se debe indicar el precio estándar o normal p
 
 En el campo **Precio Límite**, se debe indicar el pprecio más bajo para un producto establecido en la moneda de la lista de precio.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image425.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image425.png)
 
 Imagen 6. Ingresar Precios de Productos
 
 Luego de ingresar todos los precios de los productos requeridos, seleccione la opción **OK** para cargar dichos precios a la pestaña **Precio Producto**.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image426.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image426.png)
 
 Imagen 7. Opción OK para Cargar Precios
 
 Seleccione el icono **Refrescar**, ubicado en la barra de herramientas de ADempiere, para cargar a la pestaña **Precio Producto**, la información ingresada en la ventana del proceso **Crear Entradas de Productos en Lista de Precios**.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image427.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image427.png)
 
 Imagen 8. Icono Refrescar
 
 Seleccione la pestaña **Precio Producto**, para visualizar los registros cargados desde el proceso **Crear Entradas de Productos en Lista de Precios**.
 
-![Campo](/assets/img/docs/sales-management/gev-sales-image428.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image428.png)
 
 Imagen 9. Pestaña Precio Producto

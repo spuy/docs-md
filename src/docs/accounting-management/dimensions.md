@@ -12,19 +12,19 @@ Estas dimensiones contables sustituyen cuentas auxiliares utilizadas comúnmente
 
 Imaginemos una empresa que requiere ver el saldos contable de los pasivos de cada accionista de la empresa, para esto la empresa ha definido una cuentas llamada **CUENTAS POR PAGAR SOCIOS Y ACCIONISTAS-MARTÍN PIÑEROS** que muestra el detalle del pasivo del accionista Martín Piñeros. Así mismo, se agrega un nivel más al plan de cuentas, agregando tantas cuentas como accionistas existan, quedando de la siguiente forma:
 
-![Campo](/assets/img/docs/accounting-management/gec-accounting-image399.png)
+![Campo](/assets/img/docs/accounting-management/acm-accounting-image399.png)
 
 Imagen 1. Plan de cuentas con dimensiones
 
 Sin embargo, ADempiere contempla una visión holística y minimalista, que elimina la creación de múltiples cuentas contables para el detalle y a su vez las sustituye por las dimensiones contables, creando una combinación entre la cuenta contable y la dimensión, quedando de la siguiente forma:
 
-![Campo](/assets/img/docs/accounting-management/gec-accounting-image400.png)
+![Campo](/assets/img/docs/accounting-management/acm-accounting-image400.png)
 
 Imagen 2. Dimensión Contable de Socio de Negocio
 
 Por su parte, al crear una transacción con esta dimensión contable el resultado será el siguiente:
 
-![Campo](/assets/img/docs/accounting-management/gec-accounting-image401.png)
+![Campo](/assets/img/docs/accounting-management/acm-accounting-image401.png)
 
 Imagen 3. Dimensión Contable ADempiere
 
@@ -62,48 +62,48 @@ Se puede decir entonces que una dimensión es el respaldo que da una entidad a u
 
 Finalmente, esta funcionalidad es implementada desde los reportes contables detallados hasta los informes financieros, permitiendo esquematizar la información de forma segmentada por entidad.
 
-![Campo](/assets/img/docs/accounting-management/gec-accounting-image402.png)
+![Campo](/assets/img/docs/accounting-management/acm-accounting-image402.png)
 
 Imagen 4. Menú de ADempiere
 
 ## Dimensión Organización
 
-![Campo](/assets/img/docs/accounting-management/gec-accounting-image403.png)
+![Campo](/assets/img/docs/accounting-management/acm-accounting-image403.png)
 
 Imagen 5. Pestaña Dimensión Organización
 
 ## Dimensión Región de Ventas
 
-![Campo](/assets/img/docs/accounting-management/gec-accounting-image404.png)
+![Campo](/assets/img/docs/accounting-management/acm-accounting-image404.png)
 
 Imagen 6. Pestaña Dimensión Región de Ventas
 
 ## Dimensión Actividad
 
-![Campo](/assets/img/docs/accounting-management/gec-accounting-image405.png)
+![Campo](/assets/img/docs/accounting-management/acm-accounting-image405.png)
 
 Imagen 7. Pestaña Dimensión Actividad
 
 ## Dimensión Proyecto
 
-![Campo](/assets/img/docs/accounting-management/gec-accounting-image406.png)
+![Campo](/assets/img/docs/accounting-management/acm-accounting-image406.png)
 
 Imagen 8. Pestaña Dimensión Proyecto
 
 ## Dimensión Socio del Negocio
 
-![Campo](/assets/img/docs/accounting-management/gec-accounting-image407.png)
+![Campo](/assets/img/docs/accounting-management/acm-accounting-image407.png)
 
 Imagen 9. Pestaña Dimensión Socio del Negocio
 
 ## Dimensión Producto
 
-![Campo](/assets/img/docs/accounting-management/gec-accounting-image408.png)
+![Campo](/assets/img/docs/accounting-management/acm-accounting-image408.png)
 
 Imagen 10. Pestaña Dimensión Producto
 
 ## Dimensión Campaña
 
-![Campo](/assets/img/docs/accounting-management/gec-accounting-image409.png)
+![Campo](/assets/img/docs/accounting-management/acm-accounting-image409.png)
 
 Imagen 11. Pestaña Dimensión Campaña

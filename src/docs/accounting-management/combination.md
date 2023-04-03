@@ -10,7 +10,7 @@ Para realizar una configuración de combinación contable en ADempiere, se debe 
 
 Una vez ubicado en la ventana **Combinación**, proceda al llenado de los campos correspondientes para definir la combinación contable.
 
-![Campo](/assets/img/docs/accounting-management/gec-accounting-image48.png)
+![Campo](/assets/img/docs/accounting-management/acm-accounting-image48.png)
 
 Imagen 1. Ventana Combinación
 
@@ -18,7 +18,7 @@ Seleccione en el campo **Alias**, el alias correspondiente a la combinación con
 
 El alias no es un campo obligatorio, sin embargo, le permite definir un nombre a la combinación que define, por defecto ADempiere crea un alias.
 
-![Campo](/assets/img/docs/accounting-management/gec-accounting-image49.png)
+![Campo](/assets/img/docs/accounting-management/acm-accounting-image49.png)
 
 Imagen 2. Campo Alias de la Ventana Combinación
 
@@ -28,7 +28,7 @@ La organización puede ser o no obligatorio dependiendo de la definición del cl
 
 De esta forma, permite dimensionar el asiento contable por organización, para entender un poco más este tema vaya al documento: Dimensiones Contables.
 
-![Campo](/assets/img/docs/accounting-management/gec-accounting-image50.png)
+![Campo](/assets/img/docs/accounting-management/acm-accounting-image50.png)
 
 Imagen 3. Campo Organización de la Ventana Combinación
 
@@ -38,7 +38,7 @@ La actividad puede ser o no obligatoria dependiendo de la definición del client
 
 De esta forma, permite dimensionar el asiento contable por actividad, para entender un poco más este tema vaya al documento: Dimensiones Contables.
 
-![Campo](/assets/img/docs/accounting-management/gec-accounting-image51.png)
+![Campo](/assets/img/docs/accounting-management/acm-accounting-image51.png)
 
 Imagen 4. Campo Actividad de la Ventana Combinación
 
@@ -48,7 +48,7 @@ El socio de negocio puede ser o no obligatoria dependiendo de la definición del
 
 De esta forma, permite dimensionar el asiento contable por socio de negocio, para entender un poco más este tema vaya al documento: Dimensiones Contables.
 
-![Campo](/assets/img/docs/accounting-management/gec-accounting-image52.png)
+![Campo](/assets/img/docs/accounting-management/acm-accounting-image52.png)
 
 Imagen 5. Campo Socio del Negocio de la Ventana Combinación
 
@@ -56,7 +56,7 @@ Introduzca en el campo **Combinación**, el nombre de la combinación contable q
 
 La combinación no es un campo obligatorio, sin embargo, le permite definir un nombre a la combinación que define, por defecto ADempiere crea un nombre.
 
-![Campo](/assets/img/docs/accounting-management/gec-accounting-image53.png)
+![Campo](/assets/img/docs/accounting-management/acm-accounting-image53.png)
 
 Imagen 6. Campo Combinación de la Ventana Combinación
 
@@ -68,13 +68,13 @@ Seleccione con ayuda del identificador del campo **Cuenta**, la cuenta en la cua
 
 La cuenta es un campo obligatorio, y le permite seleccionar la cuenta en la cual será registrado el hecho contable.
 
-![Campo](/assets/img/docs/accounting-management/gec-accounting-image54.png)
+![Campo](/assets/img/docs/accounting-management/acm-accounting-image54.png)
 
 Imagen 7. Campo Cuenta de la Ventana Combinación
 
 Seleccione la cuenta en la que se desea hacer el movimiento y la opción **OK** para cargar la convinación de la misma a la ventana **Combinación**.
 
-![Campo](/assets/img/docs/accounting-management/gec-accounting-image55.png)
+![Campo](/assets/img/docs/accounting-management/acm-accounting-image55.png)
 
 Imagen 8. Selección de Cuenta y Opción Ok
 
@@ -84,7 +84,7 @@ El centro de costo puede ser o no obligatoria dependiendo de la definición del 
 
 De esta forma, permite dimensionar el asiento contable por centro de costo, para entender un poco más este tema vaya al documento: Dimensiones Contables.
 
-![Campo](/assets/img/docs/accounting-management/gec-accounting-image56.png)
+![Campo](/assets/img/docs/accounting-management/acm-accounting-image56.png)
 
 Imagen 9. Campo Centro de Costos de la Ventana Combinación
 
@@ -94,18 +94,18 @@ El producto puede ser o no obligatoria dependiendo de la definición del cliente
 
 De esta forma, permite dimensionar el asiento contable por producto, para entender un poco más este tema vaya al documento: Dimensiones Contables.
 
-![Campo](/assets/img/docs/accounting-management/gec-accounting-image57.png)
+![Campo](/assets/img/docs/accounting-management/acm-accounting-image57.png)
 
 Imagen 10. Campo Producto de la Ventana Combinación
 
 Seleccione el icono **Guardar**, ubicado del lado derecho de la ventana **Combinación**.
 
-![Campo](/assets/img/docs/accounting-management/gec-accounting-image58.png)
+![Campo](/assets/img/docs/accounting-management/acm-accounting-image58.png)
 
 Imagen 11. Icono Guardar de la Ventana Combinación
 
 Seleccione la opción **OK**, para cargar a la ventana **Diario Contable**, la información ingresada en la ventana **Combinación**.
 
-![Campo](/assets/img/docs/accounting-management/gec-accounting-image59.png)
+![Campo](/assets/img/docs/accounting-management/acm-accounting-image59.png)
 
 Imagen 12. Opción OK de la Ventana Combinación

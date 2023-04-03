@@ -16,31 +16,31 @@ Al terminar las ventas del día y luego de cuadrar la caja de ventas, se debe ge
 
 Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Sistema**, luego seleccione la carpeta **Reglas Generales**, por último seleccione la carpeta **Fiscal Device**. Finalmenete seleccione el reporte **Imprimir Reporte Fiscal**.
 
-![Campo](/assets/img/docs/pdv-management/gep-pdv-image258.png)
+![Campo](/assets/img/docs/pdv-management/pdm-pdv-image258.png)
 
 Imagen 1. Menú de ADempiere
 
 Podrá visualizar la ventana **Imprimir Reporte Fiscal**, con los campos necesarios para generar los reportes **X** y **Z** de la impresora fiscal.
 
-![Campo](/assets/img/docs/pdv-management/gep-pdv-image259.png)
+![Campo](/assets/img/docs/pdv-management/pdm-pdv-image259.png)
 
 Imagen 2. Ventana Imprimir Reporte Fiscal
 
 Seleccione en el campo **Impresora Fiscal**, la impresora fiscal en la cual requiere generar el reporte.
 
-![Campo](/assets/img/docs/pdv-management/gep-pdv-image260.png)
+![Campo](/assets/img/docs/pdv-management/pdm-pdv-image260.png)
 
 Imagen 3. Campo Impresora Fiscal de la Ventana Imprimir Reporte Fiscal
 
 Seleccione en el campo **Tipo de Comando Fiscal**, el tipo de reporte que requiere generar en la impresora seleccionada anteriormente.
 
-![Campo](/assets/img/docs/pdv-management/gep-pdv-image261.png)
+![Campo](/assets/img/docs/pdv-management/pdm-pdv-image261.png)
 
 Imagen 4. Campo Tipo de Comando Fiscal de la Ventana Imprimir Reporte Fiscal
 
 Seleccione la opción **OK**, para generar el reporte requerido en la impresora fiscal.
 
-![Campo](/assets/img/docs/pdv-management/gep-pdv-image262.png)
+![Campo](/assets/img/docs/pdv-management/pdm-pdv-image262.png)
 
 Imagen 5. Opción
 

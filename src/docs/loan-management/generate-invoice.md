@@ -23,19 +23,19 @@ Sin embargo existen casos en los cuales el solicitante retarda la cancelación d
 
 Panel de Parámetros de Consulta de Amortización: En este panel dispone de los parámetros que serán de filtro para consultar las cuotas pendientes por Facturar.
 
-![Campo](/assets/img/docs/loan-management/gep-loan-image12.png)
+![Campo](/assets/img/docs/loan-management/lom-loan-image12.png)
 
 Imagen 1. Consulta de Amortización
 
 Panel de resultados Para Selección de Cuotas: En este panel seleccionará las cuotas pendientes por Facturar.
 
-![Campo](/assets/img/docs/loan-management/gep-loan-image13.png)
+![Campo](/assets/img/docs/loan-management/lom-loan-image13.png)
 
 Imagen 2. Para Selección de Cuotas
 
 Panel de Datos para Generar la Factura: En este panel indicará los datos para generar la factura.
 
-![Campo](/assets/img/docs/loan-management/gep-loan-image14.png)
+![Campo](/assets/img/docs/loan-management/lom-loan-image14.png)
 
 Imagen 3. Interpretando la Ventana
 
@@ -45,13 +45,13 @@ Se creó un Smart Browser permitiendo al usuario seleccionar múltiples cuotas d
 
 Vaya a la ventana Generar Factura (Desde Préstamo) (Adjunto Imagen)
 
-![Campo](/assets/img/docs/loan-management/gep-loan-image15.png)
+![Campo](/assets/img/docs/loan-management/lom-loan-image15.png)
 
 Imagen 4. Menú de Factura
 
 A continuación se desplegará la siguiente ventana (Adjunto Imagen)
 
-![Campo](/assets/img/docs/loan-management/gep-loan-image16.png)
+![Campo](/assets/img/docs/loan-management/lom-loan-image16.png)
 
 Imagen 5. Generar Factura
 
@@ -71,25 +71,25 @@ Vencido: Si selecciona la opción SI, filtrará las cuotas vencidas, si seleccio
 
 Seleccione la opción comenzar búsqueda
 
-![Campo](/assets/img/docs/loan-management/gep-loan-image17.png)
+![Campo](/assets/img/docs/loan-management/lom-loan-image17.png)
 
 Imagen 6. Búsqueda
 
 A continuación verá los siguientes resultados:
 
-![Campo](/assets/img/docs/loan-management/gep-loan-image18.png)
+![Campo](/assets/img/docs/loan-management/lom-loan-image18.png)
 
 Imagen 7. Comenzar Búsqueda
 
 Seleccione la cuota que desea facturar:
 
-![Campo](/assets/img/docs/loan-management/gep-loan-image19.png)
+![Campo](/assets/img/docs/loan-management/lom-loan-image19.png)
 
 Imagen 8. Resultado de Búsqueda
 
 Proceda a llenar los Datos para Generar la Factura.
 
-![Campo](/assets/img/docs/loan-management/gep-loan-image20.png)
+![Campo](/assets/img/docs/loan-management/lom-loan-image20.png)
 
 Imagen 9. Llenando Datos
 
@@ -101,7 +101,7 @@ Dividir Factura: Esta opción debe ser marcada si desea dividir las facturas por
 
 Acción de Documento: Indique la acción de documento con la cual desea generar la selección.
 
-![Campo](/assets/img/docs/loan-management/gep-loan-image21.png)
+![Campo](/assets/img/docs/loan-management/lom-loan-image21.png)
 
 Imagen 10. Datos para Facturar
 
@@ -109,7 +109,7 @@ Si desea generar la selección de pago seleccione la opción ok OK, caso contrar
 
 Si seleccionó la opción OK el sistema generará la(s) factura(s) de forma exitosa generando el siguiente mensaje indicando el número(s) de la(s) factura(s) generada.
 
-![Campo](/assets/img/docs/loan-management/gep-loan-image22.png)
+![Campo](/assets/img/docs/loan-management/lom-loan-image22.png)
 
 Imagen 11. Documentos Generados
 
@@ -121,25 +121,25 @@ Ventanas en Documento por Cobrar
 
 Vaya a la ventana Documento por Cobrar (Adjunto Imagen)
 
-![Campo](/assets/img/docs/loan-management/gep-loan-image23.png)
+![Campo](/assets/img/docs/loan-management/lom-loan-image23.png)
 
 Imagen 12. Menú de Factura
 
 A continuación se desplegará la siguiente ventana (Adjunto Imagen).
 
-![Campo](/assets/img/docs/loan-management/gep-loan-image24.png)
+![Campo](/assets/img/docs/loan-management/lom-loan-image24.png)
 
 Imagen 13. Ventana de Factura
 
 Busque el registro desde la opción **Encontrar Registro** ubicada en la barra de herramientas.
 
-![Campo](/assets/img/docs/loan-management/gep-loan-image25.png)
+![Campo](/assets/img/docs/loan-management/lom-loan-image25.png)
 
 Imagen 14. Buscar Factura
 
 A continuación se desplegará el siguiente dialogo
 
-![Campo](/assets/img/docs/loan-management/gep-loan-image26.png)
+![Campo](/assets/img/docs/loan-management/lom-loan-image26.png)
 
 Imagen 15. Diálogo de Búsqueda
 
@@ -151,19 +151,19 @@ Una vez en la ventana de Préstamo
 
 Vaya a la opción **Visualiza Detalle(Donde es Usado)** ubicada en la barra de herramientas.
 
-![Campo](/assets/img/docs/loan-management/gep-loan-image27.png)
+![Campo](/assets/img/docs/loan-management/lom-loan-image27.png)
 
 Imagen 16. Referencias de Factura
 
 A continuación se desplegará el siguiente dialogo
 
-![Campo](/assets/img/docs/loan-management/gep-loan-image28.png)
+![Campo](/assets/img/docs/loan-management/lom-loan-image28.png)
 
 Imagen 17. Lista de Referencias
 
 Seleccione la opción **Documento por Cobrar de Cuota**
 
-![Campo](/assets/img/docs/loan-management/gep-loan-image29.png)
+![Campo](/assets/img/docs/loan-management/lom-loan-image29.png)
 
 Imagen 18. Lista de Referencias Seleccionadas
 

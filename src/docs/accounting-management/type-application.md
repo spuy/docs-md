@@ -58,7 +58,7 @@ Notas Contables
 
 El resultado con este tipo de aplicación, sería el siguiente:
 
-![Campo](/assets/img/docs/accounting-management/gec-accounting-image641.png)
+![Campo](/assets/img/docs/accounting-management/acm-accounting-image641.png)
 
 Imagen 1. Información Contable Actual
 
@@ -76,7 +76,7 @@ Orden de Venta
 
 El resultado con este tipo de aplicación, sería el siguiente:
 
-![Campo](/assets/img/docs/accounting-management/gec-accounting-image642.png)
+![Campo](/assets/img/docs/accounting-management/acm-accounting-image642.png)
 
 Imagen 2. Información Contable Compromisos
 
@@ -90,7 +90,7 @@ Nota Contable
 
 El resultado con este tipo de aplicación sería el siguiente asiento:
 
-![Campo](/assets/img/docs/accounting-management/gec-accounting-image643.png)
+![Campo](/assets/img/docs/accounting-management/acm-accounting-image643.png)
 
 Imagen 3. Información Contable Estadística
 
@@ -104,7 +104,7 @@ Nota Contable
 
 El resultado con este tipo de aplicación sería el siguiente asiento:
 
-![Campo](/assets/img/docs/accounting-management/gec-accounting-image644.png)
+![Campo](/assets/img/docs/accounting-management/acm-accounting-image644.png)
 
 Imagen 4. Información Contable Presupuesto
 
@@ -118,7 +118,7 @@ Requisión a Compra
 
 El resultado con este tipo de aplicación sería el siguiente asiento:
 
-![Campo](/assets/img/docs/accounting-management/gec-accounting-image645.png)
+![Campo](/assets/img/docs/accounting-management/acm-accounting-image645.png)
 
 Imagen 5. Información Contable Reserva
 

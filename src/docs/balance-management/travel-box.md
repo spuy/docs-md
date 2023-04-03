@@ -29,7 +29,7 @@ El proceso de registro de caja viáticos para el caso en el que el monto total d
 
 Se realiza la transferencia bancaria a caja viáticos por el monto correspondiente. Para ello, se debe ejecutar el procedimiento explicado en el documento Registro de Transferencia Bancaria, elaborado por ERPyA.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image392.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image392.png)
 
 Imagen 1. Transferencia Bancaria por Viáticos
 
@@ -39,13 +39,13 @@ Al realizar el proceso de transferencia bancaria, es generado un egreso de banco
 
 Al consultar el egreso de banco en la ventana **Pago/Cobro**, se puede visualizar el mismo de la siguiente manera.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image393.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image393.png)
 
 Imagen 2. Egreso de Banco por Viáticos
 
 Al consultar el ingreso a caja viáticos en la ventana **Caja**, se puede visualizar el mismo de la siguiente manera.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image394.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image394.png)
 
 Imagen 3. Ingreso a Caja por Viáticos
 
@@ -53,7 +53,7 @@ Imagen 3. Ingreso a Caja por Viáticos
 
 Se realiza la relación de factura por el monto correspondiente. Para ello, se debe ejecutar el procedimiento explicado en el documento Relación de Facturas o Justificación de Gastos, elaborado por ERPyA.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image395.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image395.png)
 
 Imagen 4. Relación de Facturas de Gastos
 
@@ -61,7 +61,7 @@ Imagen 4. Relación de Facturas de Gastos
 
 Se realiza el procedimiento regular para generar un cierre de caja, seleccionando la cuenta **Caja Viáticos** y el tipo de documento **Cierre de Caja Viáticos**. Para ello, se debe ejecutar el procedimiento explicado en el documento Registro de Cierre de Caja, elaborado por ERPyA.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image396.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image396.png)
 
 Imagen 5. Cierre de Caja Viáticos
 
@@ -77,7 +77,7 @@ El proceso de registro de caja viáticos para el caso en el que el monto total d
 
 Se realiza la transferencia bancaria a caja viáticos por el monto correspondiente. Para ello, se debe ejecutar el procedimiento explicado en el documento Registro de Transferencia Bancaria, elaborado por ERPyA.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image397.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image397.png)
 
 Imagen 6. Transferencia Bancaria por Viáticos
 
@@ -87,13 +87,13 @@ Al realizar el proceso de transferencia bancaria, es generado un egreso de banco
 
 Al consultar el egreso de banco en la ventana **Pago/Cobro**, se puede visualizar el mismo de la siguiente manera.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image398.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image398.png)
 
 Imagen 7. Egreso de Banco por Viáticos
 
 Al consultar el ingreso a caja viáticos en la ventana **Caja**, se puede visualizar el mismo de la siguiente manera.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image399.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image399.png)
 
 Imagen 8. Ingreso a Caja por Viáticos
 
@@ -101,7 +101,7 @@ Imagen 8. Ingreso a Caja por Viáticos
 
 Se realiza la relación de factura por el monto correspondiente. Para ello, se debe ejecutar el procedimiento explicado en el documento Relación de Facturas o Justificación de Gastos, elaborado por ERPyA.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image400.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image400.png)
 
 Imagen 9. Relación de Facturas de Gastos
 
@@ -113,7 +113,7 @@ Note
 
 Se selecciona el registro de la relación de factura realizada anteriormente con el monto total de la factura. Adicional a ello, se selecciona el registro de la transferencia bancaria realizada anteriormente. Lo anterior, con la finalidad de llevar la cuenta caja viáticos a su monto inicial, para este ejemplo el monto inicial es cero (0).
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image401.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image401.png)
 
 Imagen 10. Cierre de Caja Viáticos
 
@@ -125,7 +125,7 @@ Si el monto total de la transferencia bancaria realizada anteriormente a la caja
 
 Realice el procedimiento regular para generar una transferencia bancaria, explicado en el documento Registro de Transferencia Bancaria, elaborado por ERPyA.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image402.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image402.png)
 
 Imagen 11. Transferencia Bancaria por Excedente de Viáticos
 
@@ -135,13 +135,13 @@ Al realizar el proceso de transferencia bancaria, es generado un egreso de caja 
 
 Al consultar el egreso de caja viáticos en la ventana **Caja**, se puede visualizar el mismo de la siguiente manera.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image403.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image403.png)
 
 Imagen 12. Egreso de Caja por Excedente de Viáticos
 
 Al consultar el ingreso a banco en la ventana **Pago/Cobro**, se puede visualizar el mismo de la siguiente manera.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image999.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image999.png)
 
 Imagen 13. Ingreso a Banco por Excedente de Viáticos
 
@@ -149,7 +149,7 @@ Imagen 13. Ingreso a Banco por Excedente de Viáticos
 
 Ubique el registro del cierre de caja **CCV-2**, generado anteriormente en estado **Borrador** y seleccione la opción **Crear a Partir de Caja**, para seleccionar el registro de la transferencia bancaria realizada con el excedente de los viáticos. Finalmente, complete el cierre de caja para llevar la caja viáticos a su saldo inicial. Recuerde que el procedimiento regular para generar un cierre de caja, se encuentra explicado en el documento Registro de Cierre de Caja, elaborado por ERPyA.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image404.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image404.png)
 
 Imagen 14. Cierre de Caja Viáticos
 
@@ -165,7 +165,7 @@ El proceso de registro de caja viáticos para el caso en el que el monto total d
 
 Se realiza la transferencia bancaria a caja viáticos por el monto correspondiente. Para ello, se debe ejecutar el procedimiento explicado en el documento Registro de Transferencia Bancaria, elaborado por ERPyA.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image405.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image405.png)
 
 Imagen 15. Transferencia Bancaria por Viáticos
 
@@ -175,13 +175,13 @@ Al realizar el proceso de transferencia bancaria, es generado un egreso de banco
 
 Al consultar el egreso de banco en la ventana **Pago/Cobro**, se puede visualizar el mismo de la siguiente manera.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image406.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image406.png)
 
 Imagen 16. Egreso de Banco por Viáticos
 
 Al consultar el ingreso a caja viáticos en la ventana **Caja**, se puede visualizar el mismo de la siguiente manera.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image407.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image407.png)
 
 Imagen 17. Ingreso a Caja por Viáticos
 
@@ -189,7 +189,7 @@ Imagen 17. Ingreso a Caja por Viáticos
 
 Se realiza la relación de factura por el monto correspondiente. Para ello, se debe ejecutar el procedimiento explicado en el documento Registros de Montos no Reembolsables para Viáticos y Reembolsos. Finalmente, se debe ejecutar el procedimiento explicado en el documento Relación de Facturas o Justificación de Gastos, elaborado por ERPyA.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image408.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image408.png)
 
 Imagen 18. Relación de Facturas de Gastos
 
@@ -201,7 +201,7 @@ Note
 
 Se selecciona el registro de la relación de factura realizada anteriormente con el monto total de la factura. Adicional a ello, se selecciona el registro de la transferencia bancaria realizada anteriormente. Lo anterior, con la finalidad de llevar la cuenta caja viáticos a su monto inicial, para este ejemplo el monto inicial es cero (0).
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image409.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image409.png)
 
 Imagen 19. Cierre de Caja Viáticos
 
@@ -213,7 +213,7 @@ Si el monto total de la transferencia bancaria realizada anteriormente a la caja
 
 Se registra una caja utilizando el tipo de documento **Cobro Viáticos** y el cargo **Monto no Reembolsable**, con el monto correspondiente. Para ello, se debe ejecutar el procedimiento explicado en el documento Relación de Facturas o Justificación de Gastos, elaborado por ERPyA, donde se indica como registrar una caja utilizando un cargo en lugar de una factura.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image410.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image410.png)
 
 Imagen 20. Registro de Caja con Cargo
 
@@ -221,7 +221,7 @@ Imagen 20. Registro de Caja con Cargo
 
 Ubique el registro del cierre de caja **CCV-3**, generado anteriormente en estado **Borrador** y seleccione la opción **Crear a Partir de Caja**, para seleccionar el registro de la caja realizada con el monto gastado de más. Finalmente, complete el cierre de caja para llevar la caja viáticos a su saldo inicial. Recuerde que el procedimiento regular para generar un cierre de caja, se encuentra explicado en el documento Registro de Cierre de Caja, elaborado por ERPyA.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image411.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image411.png)
 
 Imagen 21. Cierre de Caja Viáticos
 

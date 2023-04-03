@@ -116,37 +116,37 @@ Para poder crear una conciliación automática en ADempiere debe seguir los sigu
 
 Ubique en el menú de ADempiere la carpeta **Gestión de Saldos Pendientes** y luego seleccione la ventana **Estado de Cuenta Bancario**.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image139.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image139.png)
 
 Imagen 1. Menú de ADempiere
 
 Seleccione el icono **Registro Nuevo** en la barra de herramientas de ADempiere y proceda al llenado de los campos correspondientes.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image140.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image140.png)
 
 Imagen 2. Icono de Registro Nuevo
 
 Seleccione en el campo **Organización**, la organización para la cual se está realizando el documento de estado de cuenta bancario, el valor en el mismo debe ser diferente del símbolo (*).
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image141.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image141.png)
 
 Imagen 3. Campo Organización
 
 Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por ERPyA.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image142.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image142.png)
 
 Imagen 4. Campo Tipo de Documento
 
 Seleccione en el campo **Cuenta Bancaria**, el banco con el que va a trabajar la conciliación.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image143.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image143.png)
 
 Imagen 5. Campo Cuenta Bancaria
 
 Seleccione el icono **Guardar** en la barra de herramientas de ADempiere para guardar los cambios realizados en el documento.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image144.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image144.png)
 
 Imagen 6. Icono Guardar
 
@@ -160,55 +160,55 @@ Para que ADempiere pueda conciliar y verificar los pagos/cobros en una cuenta ba
 
 Ya estando posicionados en la ventana **Estado de Cuenta Bancario** seleccione el icono **Proceso** en la barra de herramientas de ADempiere.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image145.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image145.png)
 
 Imagen 7. Icono Proceso
 
 Seleccione la opción **Carga de Estado de Cuentas** en el menú desplegado por el icono **Proceso**.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image146.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image146.png)
 
 Imagen 8. Opción Proceso
 
 Podrá apreciar la siguiente ventana y proceder al llenado de los campos correspondientes para cargar el extracto bancario.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image147.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image147.png)
 
 Imagen 9. Ventana Extracto Bancario
 
 Seleccione en el campo **Cargador de Estado de Cuenta**, el banco seleccionado en el campo **Cuenta Bancaria** de la ventana principal **Estado de Cuentas Bancario**.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image148.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image148.png)
 
 Imagen 10. Campo Cargador de Estado de Cuenta
 
 Seleccione en el campo **Nombre del Archivo** el estado de cuenta bancario a importar, correspondiente al banco seleccionado.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image149.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image149.png)
 
 Imagen 11. Campo Nombre del Archivo
 
 Seleccione la opción **Seleccionar Archivo**, para buscar el archivo a importar.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image150.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image150.png)
 
 Imagen 12. Opción Seleccionar Archivo
 
 Seleccione la opción **Cargar Archivo (Upload)**, para cargar el archivo seleccionado.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image151.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image151.png)
 
 Imagen 13. Opción Cargar Archivo
 
 Seleccione la opción **OK**, para importar el archivo a ADempiere.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image152.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image152.png)
 
 Imagen 14. Opción OK
 
 Podrá visualizar en la ventana un mensaje el cual indica la importación exitosa en ADempiere del extracto bancario y la cantidad de movimientos que posee el extracto bancario, para este caso como ejemplo está indicando que tiene 598 movimientos el extracto bancario.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image153.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image153.png)
 
 Imagen 15. Estado de Cuenta
 
@@ -222,19 +222,19 @@ Una vez seleccionado el banco con el que se realizará la conciliación bancaria
 
 Estando posicionados en la ventana **Estado de Cuenta bancario** Seleccione el icono **Proceso** en la barra de herramientas de ADempiere.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image154.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image154.png)
 
 Imagen 16. Icono Proceso
 
 Seleccione la opción **Conciliación de Estado de Cuenta** en el menú que es desplegado por el icono **Proceso**.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image155.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image155.png)
 
 Imagen 17. Menú Proceso
 
 Se le desplegará una ventana de búsqueda inteligente con campos por los cuales se filtrará la búsqueda para realizar la conciliación.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image156.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image156.png)
 
 Imagen 18. Filtrar Búsqueda
 
@@ -244,25 +244,25 @@ Puede observar que la ventana de búsqueda inteligente trae precargado el campo 
 
 Una vez definido el criterio de búsqueda, seleccione la opción **Refrescar** para que se muestre la información del estado de cuenta bancario importado y los pagos/cobros realizados en ADempiere.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image157.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image157.png)
 
 Imagen 19. Opción Refrescar
 
 Podrá apreciar los movimientos del estado de cuenta del lado izquierdo de la venta de busqueda inteligente.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image158.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image158.png)
 
 Imagen 20. Movimientos Importados
 
 Podrá apreciar del lado derecho de la ventana de búsqueda inteligente los movimientos registrados en ADempiere.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image159.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image159.png)
 
 Imagen 21. Movimientos de ADempiere
 
 Seleccione la opción **Simular Conciliación** para buscar coincidencia entre la información reflejada en ambos lados de la ventana de búsqueda inteligente.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image160.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image160.png)
 
 Imagen 22. Opción Simular Conciliación
 
@@ -272,7 +272,7 @@ La simulación de conciliación consiste en verificar las coincidencias que teng
 
 Podrá apreciar los movimientos con coincidencia en la parte inferior de la ventana de búsqueda inteligente.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image161.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image161.png)
 
 Imagen 23. Pagos con Coincidencia
 
@@ -286,7 +286,7 @@ Note
 
 Para los casos en los que el extracto bancario corresponda al **Banco del Tesoro** y al momento de realizar la simulación no se refleje ningún tipo de movimientos con coincidencia, se debe seleccionar de igual manera la opción **OK**, para que sean importados a la pestaña **Línea Estado Cuentas**, todos los registros del extracto bancario.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image162.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image162.png)
 
 Imagen 24. Opción OK
 
@@ -544,13 +544,13 @@ Una vez aplicado el proceso de conciliación automática, se debe verificar que 
 
 Seleccione la pestaña **Línea Estado Cuentas** para verificar que se encuentren los registros de todos los movimientos del estado de cuenta bancario cargado desde la ventana de búsqueda inteligente.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image163.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image163.png)
 
 Imagen 25. Pestaña Línea Estado Cuentas
 
 Podrá apreciar en la parte inferior derecha del documento, la cantidad de movimientos cargados a la pestaña **Línea Estado Cuentas**, estos deben coincidir con la cantidad de movimientos que se refleja al momento de hacer la _importación del extracto bancario
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image164.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image164.png)
 
 Imagen 26. Cantidad de Movimientos Cargados a la Pestaña Línea Estado Cuentas
 
@@ -566,7 +566,7 @@ En el caso de que existan movimientos con registros en ADempiere pero sin docume
 
 Ubique el registro de la línea sin documento **Pagos/Cobros** asociado y seleccione el documento con ayuda del identificador del campo **Pago**.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image165.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image165.png)
 
 Imagen 27. Registro del Movimiento en la Pestaña Línea Estado Cuentas
 
@@ -576,19 +576,19 @@ Este proceso es realizado cuando no coinciden los números de referencia del mov
 
 Seleccione el icono **Guardar Cambios** en la barra de herramientas de ADempiere, para guardar los cambios realizados.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image166.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image166.png)
 
 Imagen 28. Icono Guardar Cambios del Movimiento en la Pestaña Línea Estado Cuentas
 
 Regrese a la ventana principal **Estado Cuentas Bancario** y seleccione la opción **Completar**.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image167.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image167.png)
 
 Imagen 29. Pestaña Principal Estado Cuentas Bancario y Opción Completar
 
 Seleccione la acción **Completar** y la opción **OK** para completar el documento.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image168.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image168.png)
 
 Imagen 30. Acción Completar Documento
 
@@ -604,25 +604,25 @@ Los pagos o cobros sin registro en ADempiere pueden presentarse en las empresas 
 
 Luego de realizar el proceso de conciliación, ubique la pestaña **Línea Estado Cuentas**.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image169.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image169.png)
 
 Imagen 1. Pestaña Estado Cuentas para Pagos Cobros sin Registros
 
 Seleccione el icono **Proceso**, en la barra de herramientas de ADempiere.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image170.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image170.png)
 
 Imagen 2. Icono Proceso para Pagos Cobros sin Registros
 
 Seleccione la opción **Crear Pago desde Estado de Cuenta**.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image171.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image171.png)
 
 Imagen 3. Opción Crear Pago desde Estado de Cuenta
 
 Podrá visualizar la siguiente ventana de búsqueda inteligente con los **Pagos/Cobros** que no tuvieron coincidencias al momento de conciliar.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image172.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image172.png)
 
 Imagen 4. Ventana de Búsqueda Inteligente
 
@@ -636,25 +636,25 @@ Para aquellos movimientos que pertenezcan a comisiones bancarias estos deben ser
 
 En la ventana de búsqueda inteligente de **Crear Pago desde Estado de Cuenta** seleccione el o los pagos/cobros correspondientes a las comisiones.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image173.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image173.png)
 
 Imagen 5. Selección de Pagos/Cobros
 
 Seleccione en el campo **Tipo de Transacción** la opción **Cargo Bancario**.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image174.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image174.png)
 
 Imagen 6. Opción Cargo Bancario del Campo Tipo de Transacción
 
 Seleccione en el campo **Cargo** el cargo de comisión correspondiente, para este ejemplo es **Comisión FLAT**.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image175.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image175.png)
 
 Imagen 7. Campo Cargo
 
 Seleccione la opción **OK** para generar automáticamente el documento de pago/cobro en ADempiere.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image176.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image176.png)
 
 Imagen 8. Opción OK para Crear Pagos Cobros de Comisiones
 
@@ -666,7 +666,7 @@ Podrá visualizar el **Pago/Cobro** de cargos bancarios en la pestaña **Línea 
 
 En el campo **Pago** debe tener asociado el número del documento del **Pago/Cobro** que se seleccionó al momento de aplicar el proceso **Cargo Bancario**.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image177.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image177.png)
 
 Imagen 9. Campo Pago Comisiones
 
@@ -678,7 +678,7 @@ En el grupo de campos **Referencia** podrá visualizar lo siguiente:
 
 En el campo **Socio de Negocio** debe aparecer el banco con el que se está trabajando la conciliación.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image178.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image178.png)
 
 Imagen 10. Campo Socio Negocio Comisiones
 
@@ -688,13 +688,13 @@ Para este caso el socio del negocio a mostrar es el banco **Banesco** por que es
 
 En el campo **Cuenta Beneficiario TEF** debe aparecer **COMISIÓN TRF OTROS BCOS**.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image179.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image179.png)
 
 Imagen 11. Campo Cuenta Beneficiario TEF
 
 En el campo **Cantidad TEF** debe aparecer el mismo monto del movimiento bancario.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image180.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image180.png)
 
 Imagen 12. Campo Cantidad TEF
 
@@ -706,13 +706,13 @@ Si desea verificar el registro del pago/cobro generado en ADempiere puede realiz
 
 Puede presionar click derecho y seleccionar la opción **Acercar** y lo llevará a la ventana **Pago/Cobro** de ADempiere.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image181.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image181.png)
 
 Imagen 13. Pago Acercar
 
 Al encontrarse en la ventana **Pago/Cobro** puede observar que el registro contará con los mismos datos anteriormente mencionados que se encuentran en grupo de campos **Referencia**.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image182.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image182.png)
 
 Imagen 14. Ventana Pago/Cobro
 
@@ -726,19 +726,19 @@ Para este caso se tomará como ejemplo un préstamo bancario, el cual el socio d
 
 En la ventana de búsqueda inteligente **Crear Pago desde Estado de Cuenta** seleccione el o los pagos/cobros correspondientes a otros tipos de pagos.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image183.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image183.png)
 
 Imagen 15. Selección de Pagos/Cobros
 
 Seleccione en el campo **Tipo de Transacción** la opción **Otro Tipo de Pago**.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image184.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image184.png)
 
 Imagen 16. Otro tipo de Pago
 
 Seleccione el socio del negocio en el campo **Socio del Negocio**, para este ejemplo el socio a utilizar es **Estándar**.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image185.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image185.png)
 
 Imagen 17. Socio de Negocio Otro Tipo de Pago
 
@@ -748,7 +748,7 @@ Para este caso el socio de negocio es la persona que realizó la transferencia b
 
 Seleccione en el campo **Cargo** el cargo correspondiente al pago/cobro,siguiendo el ejemplo anteriormente comentado el cargo a utilizar es **Préstamo Bancario**.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image186.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image186.png)
 
 Imagen 18. Cargo Otro Tipo de Pago
 
@@ -758,7 +758,7 @@ El cargo a utilizar dependerá del tipo de transacción que se esté registrando
 
 Seleccione la opción **OK** para generar automáticamente el documento de pago/cobro en ADempiere.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image187.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image187.png)
 
 Imagen 19. OK Otro Tipo de Pago
 
@@ -766,7 +766,7 @@ Podrá visualizar el **Pago/Cobro** creado de **Otro Tipo de Pago** en la pesta�
 
 En el campo **Pago** debe tener asociado el número del documento del **Pago/Cobro** que se seleccionó al momento de aplicar el tipo de transacción **Otro Tipo de Pago**.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image188.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image188.png)
 
 Imagen 20. Campo Pago Otro tipo de Pago
 
@@ -778,19 +778,19 @@ En el grupo de campos **Referencia** podrá visualizar lo siguiente:
 
 En el campo **Socio de Negocio** debe aparecer el socio de negocio asociado al momento de aplicar el tipo de transacción **Otro Tipo de Pago**.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image189.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image189.png)
 
 Imagen 21. Campo Socio Negocio Otro tipo de Pagos
 
 En el campo **Referencia TEF** debe aparecer el número de referencia del movimiento bancario.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image190.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image190.png)
 
 Imagen 22. Campo Referencia TEF
 
 En el campo **Cantidad TEF** debe aparecer el mismo monto del movimiento bancario.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image191.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image191.png)
 
 Imagen 23. Campo Cantidad TEF Otro tipo de Pagos
 
@@ -802,13 +802,13 @@ Si desea verificar el registro del pago/cobro generado en ADempiere puede realiz
 
 Puede presionar click derecho y seleccionar la opción **Acercar** y lo llevará a la ventana **Pago/Cobro** de ADempiere.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image192.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image192.png)
 
 Imagen 24. Acercar Otro tipo de Pagos
 
 Al encontrarse en la ventana **Pago/Cobro** puede observar que el registro contará con los mismos datos anteriormente mencionados que se encuentran en grupo de campos **Referencia**.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image193.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image193.png)
 
 Imagen 25. Pago/Cobro Otro tipo de Pagos
 
@@ -826,25 +826,25 @@ Para poder llevar estas transacciones bancarias a **Pagos o Cobros sin Identific
 
 Podrá observar la ventana de búsqueda inteligente donde se muestran todos los movimientos bancarios que no se les encontró una coincidencia al momento de hacer la conciliación automática.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image194.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image194.png)
 
 Imagen 26. Movimientos Bancarios Pagos sin Identificar
 
 Seleccione el o los **Pago/Cobro** con procedencia desconocida.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image195.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image195.png)
 
 Imagen 27. Selección Pago sin Identificar
 
 Seleccione en el campo **Tipo de Transacción** la opción **Pago Sin Identificar**.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image196.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image196.png)
 
 Imagen 28. Pago Cobro sin Identificar
 
 Seleccione la opción **OK** para generar automáticamente el documento de **Pago/Cobro** en ADempiere y esté pueda ser asociado con el movimiento bancario desconocido.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image197.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image197.png)
 
 Imagen 29. Ok Pago Cobro sin Identificar
 
@@ -856,13 +856,13 @@ Podrá visualizar el **Pago/Cobro creado de **Pago sin Identificar** en la pesta
 
 La descripción de la **Línea Estado de Cuenta** debe tener como descripción **Pago no identificado**
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image198.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image198.png)
 
 Imagen 30. Descripción Pago Cobro sin Identificar
 
 En el campo **Pago** debe tener asociado el número del documento del **Pago/Cobro** que se creó al momento de aplicar el proceso **Pago Sin Identificar**
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image199.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image199.png)
 
 Imagen 31. Campo Pago sin Identificar
 
@@ -872,7 +872,7 @@ El n° de documento a mostrar debe coincidir con el n° que se muestra el campo 
 
 En el grupo de campos **Referencia** debe aparecer como **Socio de Negocio** **Pagos/Cobros Sin Identificar**, este es un socio de negocio que tomará temporalmente el **Pago/Cobro** sin identificar.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image200.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image200.png)
 
 Imagen 32. Referencia Pago Cobro sin Identificar
 
@@ -884,13 +884,13 @@ Si desea verificar el registro del pago/cobro generado en ADempiere puede realiz
 
 Puede presionar click derecho y seleccionar la opción **Acercar** y lo llevará a la ventana **Pago/Cobro** de ADempiere.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image201.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image201.png)
 
 Imagen 34. Acercar Pago Cobro sin Identificar
 
 Al encontrarse en la ventana **Pago/Cobro** puede observar que el registro contará con los mismos datos anteriormente mencionados que se encuentran en grupo de campos **Referencia**.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image202.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image202.png)
 
 Imagen 35. Pago/Cobro Sin identificar
 
@@ -900,7 +900,7 @@ Una vez identificado todos los movimientos bancarios y conciliado correctamente 
 
 Debe posicionarse en la ventana padre **Estado de Cuenta Bancario**.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image203.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image203.png)
 
 Imagen 36. Estado de Cuenta
 
@@ -908,7 +908,7 @@ Ubicar al finalizar la ventana en el grupo de campo **Estado** y el botón que d
 
 Grupo de Estado
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image204.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image204.png)
 
 Note
 
@@ -916,7 +916,7 @@ El nombre del botón cambiará dependiendo del estado en el que se encuentre el 
 
 Dar click a botón **Completar** y tildar **Ok** para la acción de documento seleccionada.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image205.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image205.png)
 
 Imagen 38. Botón Completar
 

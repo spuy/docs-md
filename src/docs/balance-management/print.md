@@ -18,19 +18,19 @@ Para poder generar los pagos de los documentos asociados a una selección de pag
 
 Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Saldos Pendientes**, luego seleccione ventana **Imprimir / Exportar Pagos**.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image103.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image103.png)
 
 Imagen 1. Menú de ADempiere
 
 Podrá visualizar la ventana **Imprimir / Exportar Pagos** el cual cuenta con los siguientes campos:
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image104.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image104.png)
 
 Imagen 2. Ventana Imprimir / Exportar Pagos
 
 Campo **Selección de Pago**,este es un campo tipo búsqueda el cual es utilizado para ubicar las selección de pagos de cuentas por pagar, el cual contiene los documentos los cuales se les generarán los pagos.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image105.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image105.png)
 
 Imagen 3. Campo Selección de Pago
 
@@ -38,7 +38,7 @@ Para ubicar la selección de pago está se puede realizar de dos maneras:
 
 La primera opción es colocar directamente dentro del campo **Selección de Pago** el número de documento de la **Selección de Pagos de Cuentas por Pagar**, al realizar dicho procedimiento en ADempiere traerá automáticamente la selección de pago.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image106.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image106.png)
 
 Imagen 4. Búsqueda Selección de Pago Directa
 
@@ -46,7 +46,7 @@ La segunda opción es tildar el botón de búsqueda que se encuentra al finaliza
 
 Campo **N° de Documento** en este campo se puede colocar el número de documento de la selección de pago.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image107.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image107.png)
 
 Imagen 5. Campo Nro de documento de ventana de búsqueda Selección de Pago
 
@@ -58,25 +58,25 @@ Esto permite realizar búsquedas más extensa del valor que se esté colocando, 
 
 Campo **Nombre**
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image108.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image108.png)
 
 Imagen 6. Campo Nombre de ventana de búsqueda **Selección de Pago**
 
 Dependiendo de la opción de búsqueda que se utilice, en la parte central de esta ventana se mostrará la o las selecciones de pagos que ubique ADempiere, tilde la selección de pago con la que desea trabajar.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image109.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image109.png)
 
 Imagen 7. Tildar selección de pago
 
 Al ubicar la selección de pago presione el botón **Ok** de la ventana de búsqueda, al tildar el botón ADempiere lo llevará nuevamente a la ventana principal **Imprimir/Exportar Pagos**
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image110.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image110.png)
 
 Imagen 8. Botón Ok
 
 Podrá Observar que el campo **Selección de Pago** se encuentra el número de documento de la selección de pago de cuentas por pagar.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image111.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image111.png)
 
 Imagen 9. Ventana de Registro guardado
 
@@ -84,7 +84,7 @@ Campo **Cuenta Bancaria** debe aparecer el banco con el que se encuentra trabaja
 
 Sí al momento de crear la selección de pago de cuentas por pagar, fue asociada el banco **Banco Provincial S.A. Banco Universal** esté debe aparecer en este campo con el número de cuenta correspondiente a él. Este banco es el banco en donde se emitirán los pagos
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image112.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image112.png)
 
 Imagen 10. Campo Cuenta Bancaria
 
@@ -94,7 +94,7 @@ Para realizar la creación de una selección de pagos de cuentas por pagar visit
 
 Campo **Regla de Pago ** este campo debe traer la regla de pago establecida en la selección de pagos de cuentas por pagar. Cabe destacar, que dependiendo de la regla de pago con la que cuente la selección de pago se definirá la acción que se utilizará para generar los pagos.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image113.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image113.png)
 
 Imagen 11. Campo Regla de Pago
 
@@ -102,19 +102,19 @@ Campo **Documento No.** este campo mostrará el número de documento de la regla
 
 Para las reglas de pagos **Cheque** si ADempiere está debidamente configurado está regla de pago bajo el banco con el que se esté trabajando, ADempiere irá incrementado su secuencia del número de documento con el número de cheque que realmente debe salir por ese banco.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image114.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image114.png)
 
 Imagen 12. Documento No
 
 Campo **Saldo Actual** este campo mostrará el saldo actual que posee el banco a mostrar en el campo **Cuenta Bancaria** qué es el mismo qué tiene asociada la selección de pago de cuentas por pagar.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image115.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image115.png)
 
 Imagen 13. Campo Saldo Actual
 
 Campo **Moneda** es la moneda con la que se emitirán los pagos, la moneda a mostrar es la misma que tiene asociada selección de pago de cuentas por pagar.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image116.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image116.png)
 
 Imagen 14. Campo Moneda
 
@@ -158,55 +158,55 @@ Sí la selección de pagos posee documentos asociados con diferentes socios de n
 
 En la selección de pagos tienen tres facturas asociadas con diferentes socios de negocios el número a mostrar en el total de pagos serán tres, entonces cuando se complete el procedimiento ADempiere generará tres pagos.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image117.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image117.png)
 
 Imagen 15. Número de Pagos
 
 Para generar los pagos de la selección de pago se pueden ADempiere cuenta con las siguientes opciones **Exportar Registros**, **Imprimir** dependiendo de la regla de pago con la que se encuentre trabajando la selección de pago se deben utilizar las siguientes opciones:
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image118.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image118.png)
 
 Imagen 16. Opciones Imprimir/Exportar Pagos
 
 Para las selecciones de pago que cuenten con las reglas de pago **A crédito, Débito directo, Depósito directo** se debe utilizar la opción **Exportar Registros**, esta opción genera los pagos de los documentos asociados a la selección de pago y le permitirá generar el archivo txt de esos pagos para poder ser cargado en el banco.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image119.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image119.png)
 
 Imagen 17. Opción Exportar Registros
 
 Al seleccionar la opción **Exportar Registros** ADempiere mostrará una ventana donde se observará las carpetas del equipo donde se encuentre trabajando, esto para que ubique y guarde el archivo txt que será llevado al banco.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image120.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image120.png)
 
 Imagen 18. Ventana para Ubicar el Txt
 
 Podrá observar una vez guarde el archivo txt, un mensaje del número de registro de líneas guardadas, este número a mostrar dependerá de los registros asociados a cada una de las líneas de la selección de pago.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image121.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image121.png)
 
 Imagen 19. Mensaje Número de Registro de Líneas Guardadas
 
 Una vez tildada la opción ok de la ventana del número de registro de líneas guardadas, ADempiere mostrará el siguiente mensaje donde indica que la impresión ha sido correcta, es decir que los pagos se han generado correctamente.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image122.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image122.png)
 
 Imagen 20. Mensaje Impresión Correcta
 
 Para las selecciones de pago que cuenten con las reglas de pago **A crédito, Cheque, Tarjeta de crédito** se debe utilizar la opción **Imprimir**, esta opción genera los pagos de los documentos asociados a la selección de pago y le permitirá imprimir el cheque desde ADempiere.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image123.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image123.png)
 
 Imagen 21. Opción Imprimir
 
 Podrá visualizar la siguiente ventana con el mensaje de confirmación, en la cual debe seleccionar la opción **OK**.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image124.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image124.png)
 
 Imagen 22. Ventana con Mensaje de Confirmación
 
 ADempiere genera el documento del registro del pago realizado a la factura desde la selección de pago.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image125.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image125.png)
 
 Imagen 23. Comprobante de Relación de Pago
 
@@ -218,13 +218,13 @@ Una de las opciones es ubicar los pagos directamente de la ventana **Pago/Cobro*
 
 Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Saldos Pendientes**, luego seleccione la ventana **Pago/Cobro**.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image126.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image126.png)
 
 Imagen 24. Menú de ADempiere
 
 Ubique en la barra de herramientas de ADempiere la opción **Encontrar Registro**.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image127.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image127.png)
 
 Imagen 25. Opción Encontrar Registro
 
@@ -234,13 +234,13 @@ Para este caso se desea ubicar los pagos generados desde la opción imprimir/exp
 
 Si no puede utilizar cualquiera de los criterios de búsqueda que le ofrece la ventana.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image128.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image128.png)
 
 Imagen 26. Ventana de búsqueda Encontrar Registros
 
 Dependiendo de los criterios de búsqueda utilizados, podrá observar en la ventana el pago generado.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image129.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image129.png)
 
 Imagen 27. Pago Generado
 
@@ -248,7 +248,7 @@ Otra opción de búsqueda es ubicar los pagos desde la ventana **Selección de P
 
 Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Saldos Pendientes**, luego seleccione la ventana **Selección de Pagos** y ubique la selección de pagos con la que trabajo en el proceso de imprimir/exportar pagos.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image130.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image130.png)
 
 Imagen 28. Ventana Selección de Pago
 
@@ -258,25 +258,25 @@ Recuerde que toda ventana en ADempiere cuenta en la barra de herramientas la opc
 
 Una vez ubicada la selección de pago tilde la pestaña **Pago Generado**, dentro de esta pestaña podrá observar un resumen de los pagos generados por socios de negocios con los que cuenta la selección de pago.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image131.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image131.png)
 
 Imagen 29. Pestaña Pago Generado
 
 Para visualizar mejor el pago generado ubique dentro de la pestaña y dentro del registro del socio del negocio en el que se encuentre posicionado, el campo **Pago**, ese campo mostrará el número de documento del pago generado al socio del negocio,
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image132.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image132.png)
 
 Imagen 30. Campo Pago de la Pestaña Pago Generado
 
 Ubíquese dentro del campo **Pago**, de click derecho y seleccione la opción acercar.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image133.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image133.png)
 
 Imagen 31. Opción acercar del campo Pago
 
 Al tildar la opción acercar, ADempiere lo llevará a la ventana **Pago/Cobro** y podrá ver de manera detallada los datos asociados a ese pago.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image134.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image134.png)
 
 Imagen 32. Ventana Pago/Cobro desde el acercar
 
@@ -298,25 +298,25 @@ La regla de pago debe decir **Débito Directo** en el campo **Regla de Pago**
 
 Después de realizado este procedimiento debe ir al icono llamado exportar que se encuentra en la parte inferior izquierda de la ventana.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image135.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image135.png)
 
 Imagen 1. Imprimir Exportar
 
 Para terminar este procedimiento el ADempiere le mostrará un mensaje de alerta que le dirá la cantidad de líneas que serán generadas dentro del formato txt, debe darle ok.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image136.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image136.png)
 
 Imagen 2. Líneas Exportadas
 
 Después le dará otro mensaje de alerta para que usted confirme si el archivo descargado es correcto, si usted no está seguro por favor seleccione la opción NO, sí el archivo es correcto proceda a confirmar este procedimiento.
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image137.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image137.png)
 
 Imagen 3. Confirmar Archivo Descargado
 
 Posteriormente se descargara el archivo txt, previamente configurado con los datos que requiere el banco emisor para que pueda ser subido al banco sin ningún problema
 
-![Campo](/assets/img/docs/balance-management/ges-balance-image138.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image138.png)
 
 Imagen 4. Archivo Descargado
 

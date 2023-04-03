@@ -28,55 +28,55 @@ El grupo de activo permite calificar a los productos como activos y definir su f
 
 Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Activos**, luego seleccione la ventana **Grupo de Activo Fijo**.
 
-![Campo](/assets/img/docs/asset-management/ena-asset-image19.png)
+![Campo](/assets/img/docs/asset-management/asm-asset-image19.png)
 
 Imagen 1. Menú de ADempiere
 
 Podrá visualizar la ventana **Grupo de Activo**, con el registro de los grupos de activos que la empresa posee en ADempiere.
 
-![Campo](/assets/img/docs/asset-management/ena-asset-image20.png)
+![Campo](/assets/img/docs/asset-management/asm-asset-image20.png)
 
 Imagen 2. Ventana Principal Grupo de Activo
 
 Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de ADempiere.
 
-![Campo](/assets/img/docs/asset-management/ena-asset-image21.png)
+![Campo](/assets/img/docs/asset-management/asm-asset-image21.png)
 
 Imagen 3. Icono Registro Nuevo
 
 Seleccione en el campo **Organización**, la organización para la cual esta realizando el registro de grupo de activo fijo.
 
-![Campo](/assets/img/docs/asset-management/ena-asset-image22.png)
+![Campo](/assets/img/docs/asset-management/asm-asset-image22.png)
 
 Imagen 4. Campo Organización
 
 Introduzca en el campo **Nombre**, el nombre correspondiente al grupo de activo fijo que esta registrando. Para ejemplificar el registro es utilizado el grupo de activo fijo **Mobiliario**.
 
-![Campo](/assets/img/docs/asset-management/ena-asset-image23.png)
+![Campo](/assets/img/docs/asset-management/asm-asset-image23.png)
 
 Imagen 5. Campo Nombre
 
 Introduzca en el campo **Descripción**, una breve descripción referente al grupo de activo fijo que esta registrando.
 
-![Campo](/assets/img/docs/asset-management/ena-asset-image24.png)
+![Campo](/assets/img/docs/asset-management/asm-asset-image24.png)
 
 Imagen 6. Campo Descripción
 
 Tilde el checklist **Propio**, si el grupo de activo fijo que esta registrando pertenece a la organización seleccionada.
 
-![Campo](/assets/img/docs/asset-management/ena-asset-image25.png)
+![Campo](/assets/img/docs/asset-management/asm-asset-image25.png)
 
 Imagen 7. Checklist Propio
 
 Tilde el checklist **Depreciar** para que ADempiere realice la depreciación del grupo de activos fijos que esta registrando.
 
-![Campo](/assets/img/docs/asset-management/ena-asset-image26.png)
+![Campo](/assets/img/docs/asset-management/asm-asset-image26.png)
 
 Imagen 8. Checklist Depreciar
 
 Para guardar el registro de los campos, seleccione el icono **Guardar Cambios **ubicado en la barra de herramientas de ADempiere.
 
-![Campo](/assets/img/docs/asset-management/ena-asset-image27.png)
+![Campo](/assets/img/docs/asset-management/asm-asset-image27.png)
 
 Imagen 9. Icono Guardar Cambios
 
@@ -84,13 +84,13 @@ Imagen 9. Icono Guardar Cambios
 
 Seleccione la pestaña **Grupo Cuenta** y proceda al llenado de los campos correspondientes.
 
-![Campo](/assets/img/docs/asset-management/ena-asset-image28.png)
+![Campo](/assets/img/docs/asset-management/asm-asset-image28.png)
 
 Imagen 10. Grupo Cuenta
 
 Seleccione en el campo **Organización**, la organización para la cual esta realizando la configuración contable del grupo de activo fijo.
 
-![Campo](/assets/img/docs/asset-management/ena-asset-image29.png)
+![Campo](/assets/img/docs/asset-management/asm-asset-image29.png)
 
 Imagen 11. Campo Organización de la Pestaña
 
@@ -106,31 +106,31 @@ Configuración contable del grupo **Mobiliario**, con organización Org1.
 
 Seleccione en el campo **Esquema Contable**, el esquema a utilizar para la configuración contable del grupo activo.
 
-![Campo](/assets/img/docs/asset-management/ena-asset-image30.png)
+![Campo](/assets/img/docs/asset-management/asm-asset-image30.png)
 
 Imagen 12. Esquema Contable
 
 Seleccione en el campo **Tipo de Aplicación**, generalmente actual, ver el documento **Tipo de Aplicación**, para tener una visión más clara.
 
-![Campo](/assets/img/docs/asset-management/ena-asset-image31.png)
+![Campo](/assets/img/docs/asset-management/asm-asset-image31.png)
 
 Imagen 13. Campo Tipo de Aplicación
 
 Seleccione en el campo **Tipo de Depreciación** Línea recta, este tipo de depreciación supone una cuota constante e invariable en función de la vida útil del activo objeto de depreciación.,
 
-![Campo](/assets/img/docs/asset-management/ena-asset-image32.png)
+![Campo](/assets/img/docs/asset-management/asm-asset-image32.png)
 
 Imagen 14. Campo Tipo de Depreciación
 
 Seleccione en el campo **Depreciación (Fiscal)** Línea recta, este tipo de depreciación supone una cuota constante e invariable en función de la vida útil del activo objeto de depreciación.
 
-![Campo](/assets/img/docs/asset-management/ena-asset-image33.png)
+![Campo](/assets/img/docs/asset-management/asm-asset-image33.png)
 
 Imagen 15. Campo Depreciación (Fiscal)
 
 Introduzca en el campo **Vida Útil - Años**, la cantidad de años de vida útil del grupo de activos fijos que esta registrando.
 
-![Campo](/assets/img/docs/asset-management/ena-asset-image34.png)
+![Campo](/assets/img/docs/asset-management/asm-asset-image34.png)
 
 Imagen 16. Campo Vida Útil - Años
 
@@ -140,31 +140,31 @@ Al ingresar un valor en el campo **Vida Útil - Años**, ADempiere refleja en lo
 
 Seleccione en el campo **Cuenta Costo Activo**, se refiere a la cuenta de activo del plan de cuentas en la que desea reflejar el costo del activo fijo.
 
-![Campo](/assets/img/docs/asset-management/ena-asset-image35.png)
+![Campo](/assets/img/docs/asset-management/asm-asset-image35.png)
 
 Imagen 17. Campo Cuenta Costo Activo
 
 Seleccione en el campo **Depreciación Acumulada**, se refiere a la cuenta compensatoria que reduce o disminuye la cuenta activos fijos.
 
-![Campo](/assets/img/docs/asset-management/ena-asset-image36.png)
+![Campo](/assets/img/docs/asset-management/asm-asset-image36.png)
 
 Imagen 18. Campo Depreciación Acumulada
 
 Seleccione en el campo **Cuenta Gastos Depreciación**, se refiere a una cuenta de gasto por concepto de desgaste resultante del uso o el deterioro físico del activo fijo.
 
-![Campo](/assets/img/docs/asset-management/ena-asset-image37.png)
+![Campo](/assets/img/docs/asset-management/asm-asset-image37.png)
 
 Imagen 19. Campo Cuenta Gastos Depreciación
 
 Seleccione en el campo **Ingresos por Disposición**, se refiere a la cuenta de ingreso por concepto de disposición del activo o venta del mismo.
 
-![Campo](/assets/img/docs/asset-management/ena-asset-image38.png)
+![Campo](/assets/img/docs/asset-management/asm-asset-image38.png)
 
 Imagen 20. Campo Ingresos por Disposición
 
 Seleccione en el campo **Perdidas por Disposición**, se refiere a la cuenta de gasto o perdida por concepto de disposición del activo o dar de baja.
 
-![Campo](/assets/img/docs/asset-management/ena-asset-image39.png)
+![Campo](/assets/img/docs/asset-management/asm-asset-image39.png)
 
 Imagen 21. Campo Perdidas por Disposición
 

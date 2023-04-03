@@ -16,13 +16,13 @@ A continuación se detalla las instrucciones para proceder a simular un préstam
 
 Vaya a la ventana de Simulador de Préstamo (Adjunto Imagen)
 
-![Campo](/assets/img/docs/loan-management/gep-loan-image1.png)
+![Campo](/assets/img/docs/loan-management/lom-loan-image1.png)
 
 Imagen 1. Menú de Préstamos
 
 A continuación se desplegará la siguiente ventana disponible para simular un préstamo.
 
-![Campo](/assets/img/docs/loan-management/gep-loan-image2.png)
+![Campo](/assets/img/docs/loan-management/lom-loan-image2.png)
 
 Imagen 2. Simulador de Préstamo
 
@@ -46,7 +46,7 @@ Moneda: ADempiere establece por herencia la moneda basada en la configuración d
 
 Tasa Financiera: ADempiere establece por herencia la tasa financiera basada en la configuración del producto financiero seleccionado, no puede ser modificado.
 
-![Campo](/assets/img/docs/loan-management/gep-loan-image3.png)
+![Campo](/assets/img/docs/loan-management/lom-loan-image3.png)
 
 Imagen 3. Simulador de Préstamo con Parámetros
 
@@ -54,7 +54,7 @@ Seleccione la opción procesar text
 
 A continuación verá los siguientes resultados:
 
-![Campo](/assets/img/docs/loan-management/gep-loan-image4.png)
+![Campo](/assets/img/docs/loan-management/lom-loan-image4.png)
 
 Imagen 4. Ejecución de Simulador
 
@@ -64,7 +64,7 @@ Panel de resultados de Amortización Estimada:
 
 La amortización estimada es generada basada en el sistema francés, el mismo consiste en mantener cuotas de amortización constantes, debido a esto, cada mes la entidad recibe intereses en función del capital pendiente, es decir, en los primeros períodos, la entidad percibe una cantidad mayor de intereses que de capital y en los períodos finales más capital e intereses menores, la frecuencia de las cuotas estimadas (Resultado) varía según la frecuencia de pago seleccionada como parámetro ó heredado desde el producto financiero, el número de cuotas dependerá del Nro de Cuota indicado en el simulador ó heredado desde el producto financiero.
 
-![Campo](/assets/img/docs/loan-management/gep-loan-image5.png)
+![Campo](/assets/img/docs/loan-management/lom-loan-image5.png)
 
 Imagen 5. Área de Simulación
 
@@ -72,7 +72,7 @@ Panel de resultados Totales Estimados:
 
 Los totales estimados le indicarán al solicitante el Total de Interés, Total de Impuesto, y el Total General en la cual es sumado el Capital más el Total de Interés más Total de Impuesto, arrojando entonces el monto que definitivamente se estima cancelará el solicitante si es procesado el préstamo.
 
-![Campo](/assets/img/docs/loan-management/gep-loan-image6.png)
+![Campo](/assets/img/docs/loan-management/lom-loan-image6.png)
 
 Imagen 6. Área de Totales
 
@@ -80,30 +80,30 @@ Imagen 6. Área de Totales
 
 Una vez procesada la simulación:
 
-![Campo](/assets/img/docs/loan-management/gep-loan-image7.png)
+![Campo](/assets/img/docs/loan-management/lom-loan-image7.png)
 
 Imagen 7. Ejecución de Simulador
 
 Seleccione la opción ok Ok
 
-![Campo](/assets/img/docs/loan-management/gep-loan-image8.png)
+![Campo](/assets/img/docs/loan-management/lom-loan-image8.png)
 
 Imagen 8. Área de Acciones
 
 A continuación se desplegará el siguiente dialogo
 
-![Campo](/assets/img/docs/loan-management/gep-loan-image9.png)
+![Campo](/assets/img/docs/loan-management/lom-loan-image9.png)
 
 Imagen 9. Área de Proceso
 
 Si desea generar el préstamo seleccione la opción ok Ok, caso contrario seleccione la opción cancelar Cancelar
 
-![Campo](/assets/img/docs/loan-management/gep-loan-image10.png)
+![Campo](/assets/img/docs/loan-management/lom-loan-image10.png)
 
 Imagen 10. Área de Pregunta
 
 Si seleccionó la opción OK el sistema generará el préstamo de forma exitosa generando el siguiente mensaje indicando el número del préstamo generado:
 
-![Campo](/assets/img/docs/loan-management/gep-loan-image11.png)
+![Campo](/assets/img/docs/loan-management/lom-loan-image11.png)
 
 Imagen 11. Área de Resultado
