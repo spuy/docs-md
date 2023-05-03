@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
-  <id>https://github.com/adempiere/adempiere-site.github.io/</id>
+  <id>https://docs-md.erpya.com/</id>
   <title/>
   <subtitle>A official page of ADempiere community.</subtitle>
-  <updated>2023-05-03T15:41:50.570Z</updated>
+  <updated>2023-05-03T16:02:37.581Z</updated>
   <generator>vuepress-plugin-feed2</generator>
-  <link rel="self" href="https://github.com/adempiere/adempiere-site.github.io/atom.xml"/>
-  <link rel="alternate" href="https://github.com/adempiere/adempiere-site.github.io/"/>
+  <link rel="self" href="https://docs-md.erpya.com/atom.xml"/>
+  <link rel="alternate" href="https://docs-md.erpya.com/"/>
   <category term="Articles"/>
   <category term="Foundation"/>
   <contributor>
@@ -14,8 +14,8 @@
   </contributor>
   <entry>
     <title type="html">The Future Of ADempiere as a DDD reactive system</title>
-    <id>https://github.com/adempiere/adempiere-site.github.io/about/articles/2015-06-22-the-future-of-adempiere-as-a-ddd-reactive-system.html</id>
-    <link href="https://github.com/adempiere/adempiere-site.github.io/about/articles/2015-06-22-the-future-of-adempiere-as-a-ddd-reactive-system.html"/>
+    <id>https://docs-md.erpya.com/about/articles/2015-06-22-the-future-of-adempiere-as-a-ddd-reactive-system.html</id>
+    <link href="https://docs-md.erpya.com/about/articles/2015-06-22-the-future-of-adempiere-as-a-ddd-reactive-system.html"/>
     <updated>2022-07-03T22:39:44.000Z</updated>
     <content type="html"><![CDATA[<p>Before I start talking about modularity, I’d like to describe the path to define the most suitable architecture for a software like ADempiere.</p>
 <p>During the last years I’ve been reading and analyzing the different approaches and architectures for software development and at the same time figure out which would be the best for ADempiere.</p>
@@ -107,8 +107,8 @@ victor.perez@e-evolution.com</p>
   </entry>
   <entry>
     <title type="html">World Announcement for ADempiere new and improved content portal</title>
-    <id>https://github.com/adempiere/adempiere-site.github.io/about/articles/2015-08-06-world-announcement-for-adempiere.html</id>
-    <link href="https://github.com/adempiere/adempiere-site.github.io/about/articles/2015-08-06-world-announcement-for-adempiere.html"/>
+    <id>https://docs-md.erpya.com/about/articles/2015-08-06-world-announcement-for-adempiere.html</id>
+    <link href="https://docs-md.erpya.com/about/articles/2015-08-06-world-announcement-for-adempiere.html"/>
     <updated>2022-07-03T22:40:14.000Z</updated>
     <content type="html"><![CDATA[<p>We are pleased to announce the launch of a new and improved content portal for ADempiere thus reaching another milestone following the release of version 380, which confirms the traction and commitment from our community and all those behind this great Bazaar project.</p>
 <p>A group of committed people worked hard for several months to build a professional and informative site for our business solution, a place where people will find all the required information to evaluate our process management tools, breaking dependence from a particular software provider and avoiding high license costs and more important not requiring long term commitments from third parties to install, extend and/or customize it.</p>
@@ -141,8 +141,8 @@ victor.perez@e-evolution.com</p>
   </entry>
   <entry>
     <title type="html">Berlin Conference 2009</title>
-    <id>https://github.com/adempiere/adempiere-site.github.io/about/meeting/berlin-2009.html</id>
-    <link href="https://github.com/adempiere/adempiere-site.github.io/about/meeting/berlin-2009.html"/>
+    <id>https://docs-md.erpya.com/about/meeting/berlin-2009.html</id>
+    <link href="https://docs-md.erpya.com/about/meeting/berlin-2009.html"/>
     <updated>2022-07-03T23:08:24.000Z</updated>
     <content type="html"><![CDATA[<h2 id="_2nd-european-adempiere-conference-in-berlin" tabindex="-1"> 2nd. European ADempiere conference in Berlin</h2>
 <p><strong>June 21st – 23rd 2009</strong></p>
@@ -158,8 +158,8 @@ victor.perez@e-evolution.com</p>
   </entry>
   <entry>
     <title type="html">Berlin Conference 2014</title>
-    <id>https://github.com/adempiere/adempiere-site.github.io/about/meeting/berlin-2014.html</id>
-    <link href="https://github.com/adempiere/adempiere-site.github.io/about/meeting/berlin-2014.html"/>
+    <id>https://docs-md.erpya.com/about/meeting/berlin-2014.html</id>
+    <link href="https://docs-md.erpya.com/about/meeting/berlin-2014.html"/>
     <updated>2022-07-03T23:09:03.000Z</updated>
     <content type="html"><![CDATA[<h1 id="adempiere-world-conference-in-berlin" tabindex="-1"> ADempiere World Conference in Berlin</h1>
 <p><strong>September 2nd till 4th of 2014</strong></p>
