@@ -68,39 +68,38 @@ export const enNavbarConfig = navbar([
     icon: "creative",
     prefix: "/docs/",
     children: [
-      { text: "Docs", link: "", icon: "note", activeMatch: "^/docs/$" },
-      // {
-      //   text: "Intro",
-      //   children: [
-      //     "intro/basic-steps/",
-      //     "intro/how-to-contribute/",
-      //     "intro/auto-generated/",
-      //   ],
-      // },
-      // {
-      //   text: "ERP Standard Process",
-      //   children: [
-      //     "standard-procedures/requisition-to-invoice/",
-      //     "standard-procedures/quote-to-invoice/",
-      //     "standard-procedures/open-items/",
-      //     "standard-procedures/scm/",
-      //     "standard-procedures/performance-analysis/",
-      //   ],
-      // },
+      { text: "ADempiere Estándar", link: "", icon: "note", activeMatch: "^/docs/$" },
       {
-        text: "Develop Guide",
+        text: "Gestión Básica",
         children: [
-          "develop-guide/getting-started/",
-          // "material-management/warehouse/",
+          "basic-rules/login",
+          "basic-rules/user-interface",
+          "basic-rules/icons-interface",
+          "basic-rules/toolbar",
+          "basic-rules/quick-access",
+          "basic-rules/props",
         ],
       },
       {
-        text: "Material Management",
+        text: "Datos Maestros",
         children: [
-          "material-management/product/",
-          // "material-management/warehouse/",
+          "master-data/business-partner",
+          "master-data/product",
+          "master-data/warehouse",
+          "master-data/reports"
         ],
       },
+      {
+        text: "Gestión de Materiales",
+        children: [
+          "material-management/inventory-move",
+          "material-management/internal-use-inventory",
+          "material-management/physical-inventory",
+          "material-management/ldm",
+          "material-management/replenishment",
+        ],
+      },
+      { text: "Verticales", link: "", icon: "note", activeMatch: "^/docs/verticals/$" },
     ],
   },
   {

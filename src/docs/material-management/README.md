@@ -1,15 +1,15 @@
 ---
-title: Material Management
-category:
-  - Material Management
+title: Gestión de Materiales
+category: Documentation
 star: 9
 sticky: 9
 article: false
-author: Yamel Senih
 ---
 
-Master data includes records that give rise to transactions, therefore they are not modifiable on a regular basis, in this sense ADempiere ERP explains how to create your teachers in an ideal way, thus avoiding duplication and inconsistency in the data.
+Esta documentación está destinada a definir cada uno de los procedimientos para la gestión de materiales de ADempiere para cualquier organización, es importante seguir al pie de la letra cada uno de los procedimientos descritos aquí recuerde que de eso dependerá el buen uso del ERP.
 
-Go to the follow content for learn more about it:
-
-[Product Definition](product)
+- [Movimiento de Inventario](inventory-movement)
+- [Inventario de Uso Interno](internal-use-inventory)
+- [Inventario Físico](physical-inventory)
+- [Lista de Materiales](materials-list)
+- [Reabastecimiento](resupply)
