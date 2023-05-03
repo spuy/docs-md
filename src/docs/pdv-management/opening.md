@@ -46,7 +46,7 @@ Para la apertura de una caja, es necesario que sean cumplidas las siguientes res
 
 En el campo Terminal PDV, se encuentran los diferentes terminales configurados para los socios del negocio que cumplen con el rol de empleados de la organización. En este campo se debe seleccionar el terminal al cual se le realizará la apertura de la caja. Un ejemplo sería **PDV Caja 01**.
 
-En el campo Caja**, se debe seleccionar la cuenta caja origen desde la cual se realizará la transferencia.
+En el campo Caja\*\*, se debe seleccionar la cuenta caja origen desde la cual se realizará la transferencia.
 
 Si la transferencia a realizar es en bolivares, se debe seleccionar la cuenta caja **Administración VES**.
 
@@ -76,7 +76,7 @@ En el campo **No. del Documento**, se debe ingresar el número de documento con 
 
 En el campo **Documento Destino**, se debe ingresar el número de documento con el cual será generado el ingreso monetario por el proceso que esta registrando. En este caso, un ejemplo sería: **Ingreso-Apertura10/02/2021**.
 
-En el campo **Monto**, se debe ingresar el monto total de la transferencia en la moneda seleccionada. En este caso, un ejemplo sería: **100,00.
+En el campo **Monto**, se debe ingresar el monto total de la transferencia en la moneda seleccionada. En este caso, un ejemplo sería: \*\*100,00.
 
 En el campo **Descripción**, se debe ingresar una descripción breve que explique de forma puntual la transferencia. En este caso, un ejemplo sería: **Apertura de Caja 1 del 10/02/2021 por 100 USD**.
 
@@ -116,7 +116,7 @@ Al realizar una apertura de caja se crean dos registros en estado **Borrador**, 
 
 El registro con la cuenta **Caja Administración POS**, se crea automáticamente con las siguientes restricciones:
 
-Cuenta: La cuenta **Caja Administración Ventas - –_Administración POS**, previamente seleccionada en el campo **Caja** de la ventana **Apertura de Punto de Venta**.
+Cuenta: La cuenta **Caja Administración Ventas - –\_Administración POS**, previamente seleccionada en el campo **Caja** de la ventana **Apertura de Punto de Venta**.
 
 Nombre: La descripción **Apertura de Caja 1 del 10/02/2021 por 100 USD**, previamente ingresada en el campo **Descripción** de la ventana **Apertura de Punto de Venta**.
 
@@ -142,7 +142,7 @@ Imagen 8. Pestaña Línea de Cierre de Caja Administración POS
 
 El registro con la cuenta **Caja 01**, se crea automáticamente con las siguientes restricciones:
 
-Cuenta: La cuenta **Caja POS - –_Caja PDV 01**, previamente seleccionada en el campo **Caja a Transferir** de la ventana **Apertura de Punto de Venta**.
+Cuenta: La cuenta **Caja POS - –\_Caja PDV 01**, previamente seleccionada en el campo **Caja a Transferir** de la ventana **Apertura de Punto de Venta**.
 
 Nombre: La descripción **Apertura de Caja 1 del 10/02/2021 por 100 USD**, previamente ingresada en el campo **Descripción** de la ventana **Apertura de Punto de Venta**.
 

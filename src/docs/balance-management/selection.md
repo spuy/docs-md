@@ -125,7 +125,7 @@ Campo **Moneda**, este campo se encuentra sólo lectura y la moneda a mostrar de
 
 Si el valor en el campo **Moneda** es **VES** (Bolívar) cuando se realice la búsqueda de los documentos ADempiere mostrara únicamente los que estén creados bajo esa moneda.
 
-Si el valor en el campo **Moneda** es USD** (Dólar) cuando se realice la búsqueda de los documentos ADempiere mostrara únicamente los que estén creados bajo esa moneda.
+Si el valor en el campo **Moneda** es USD\*\* (Dólar) cuando se realice la búsqueda de los documentos ADempiere mostrara únicamente los que estén creados bajo esa moneda.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image228.png)
 
@@ -525,9 +525,9 @@ Imagen 15. Campo Cuenta Bancaria de la Ventana de Búsqueda Inteligente del Proc
 
 Campo **Moneda**, este campo se encuentra sólo lectura y la moneda a mostrar dependerá de la moneda seleccionada en la ventana padre **Selección de Pago**; la moneda que aparezca en ese campo dentro del smart browser le indica a ADempiere que los documentos a buscar deben estar bajo esa moneda, ejemplo:
 
-Si el valor en el campo **Moneda*** es ****VES** (Bolívar) cuando se realice la búsqueda los documentos ADempiere mostrara únicamente los que estén creados bajo esa moneda.
+Si el valor en el campo **Moneda\*** es \***\*VES** (Bolívar) cuando se realice la búsqueda los documentos ADempiere mostrara únicamente los que estén creados bajo esa moneda.
 
-Si el valor en el campo **Moneda** es USD** (Dólar) cuando se realice la búsqueda los documentos ADempiere mostrara únicamente los que estén creados bajo esa moneda.
+Si el valor en el campo **Moneda** es USD\*\* (Dólar) cuando se realice la búsqueda los documentos ADempiere mostrara únicamente los que estén creados bajo esa moneda.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image282.png)
 
@@ -535,7 +535,7 @@ Imagen 16. Campo Moneda de la Ventana de Búsqueda Inteligente del Proceso Crear
 
 Campo **Regla de Pago**, este es un campo de búsqueda tipo lista el cual al tildarlo mostrará una serie de opciones de reglas de pagos, la opción a seleccionar en esté campo le indicará a ADempiere qué al momento de realizar la búsqueda ubique y muestre solo las facturas de compras que estén bajo la regla de pago seleccionada en ese campo,como por ejemplo:
 
-Si se selecciona la regla de pago **** A Crédito**** y tengo creadas una o varias facturas que tienen establecida esa regla de pago, al realizar la búsqueda desde el smart browser ADempiere mostrará las facturas que éste únicamente con esa regla de pago, si no existen facturas con esa regla de pago ADempiere no mostrará nada.
+Si se selecciona la regla de pago \***\* A Crédito\*\*** y tengo creadas una o varias facturas que tienen establecida esa regla de pago, al realizar la búsqueda desde el smart browser ADempiere mostrará las facturas que éste únicamente con esa regla de pago, si no existen facturas con esa regla de pago ADempiere no mostrará nada.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image283.png)
 
@@ -1208,4 +1208,3 @@ Note
 Es muy importante tener en cuenta que todo documento transaccional una vez se culmine con el llenado de los datos debe ser completado, para que ADempiere tome como válido los datos cargados en el documento.
 
 Hasta este punto llegaría el registro y la definición de los documentos que serán cancelados a través de una **Selección de Pago**, este paso a pesar de que se complete no garantiza que los pagos se han generados, para poder generar los pagos correspondientes a cada uno de los documentos asociados se necesita completar el procedimiento Registro de Imprimir / Exportar Pagos
-

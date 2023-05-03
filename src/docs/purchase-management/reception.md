@@ -28,7 +28,7 @@ Seleccione la opción **Registro Nuevo** en la barra de herramientas de ADempier
 
 Imagen 2. Registro Nuevo
 
-Seleccione en el campo **Organización**, la organización para la cual se esta realizando el documento de recepción de productos, el valor en el mismo debe ser diferente del símbolo (*).
+Seleccione en el campo **Organización**, la organización para la cual se esta realizando el documento de recepción de productos, el valor en el mismo debe ser diferente del símbolo (\*).
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image465.png)
 

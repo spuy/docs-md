@@ -102,7 +102,6 @@ Seleccione el icono **Guardar Cambios**, para guardar el registro de los campos 
 Imagen 14. Icono Guardar Cambios
 Seleccione la opción **Completar**, ubicada en la parte inferior derecha de la ventana.
 
-
 ![Campo](/assets/img/docs/balance-management/bam-balance-image80.png)
 
 Imagen 15. Opción Completar Documento

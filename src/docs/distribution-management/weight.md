@@ -141,4 +141,3 @@ Seleccione la acción **Completar** y la opción **OK**, para completar el docum
 ![Campo](/assets/img/docs/distribution-management/dim-distribution-image22.png)
 
 Imagen 22. Acción Completar y Opción OK de la Ventana Registro de Peso
-

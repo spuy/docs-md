@@ -101,7 +101,6 @@ Note
 
 Recuerde que el procedimiento para gestionar el cierre de caja debe realizarce diariamente.
 
-
 ## Cierre de Caja Nómina
 
 El último paso que debemos seguir para terminar de registrar el proceso de pago de nómina en ADempiere es el cierre de caja, donde llamaremos los pagos registrados en nuestra selección de pago y se cruzaran con la transferencia bancaria que realizamos previamente. Recuerde que para poder realizar este paso debemos de tener completo los pasos realizados anteriormente los cuales son: **Seleccion de Pago**, **Imprimir Exportar Pagos de Nómina** y la **Transferencia Bancaria**.

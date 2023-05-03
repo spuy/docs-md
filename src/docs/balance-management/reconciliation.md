@@ -126,7 +126,7 @@ Seleccione el icono **Registro Nuevo** en la barra de herramientas de ADempiere 
 
 Imagen 2. Icono de Registro Nuevo
 
-Seleccione en el campo **Organización**, la organización para la cual se está realizando el documento de estado de cuenta bancario, el valor en el mismo debe ser diferente del símbolo (*).
+Seleccione en el campo **Organización**, la organización para la cual se está realizando el documento de estado de cuenta bancario, el valor en el mismo debe ser diferente del símbolo (\*).
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image141.png)
 
@@ -548,7 +548,7 @@ Seleccione la pestaña **Línea Estado Cuentas** para verificar que se encuentre
 
 Imagen 25. Pestaña Línea Estado Cuentas
 
-Podrá apreciar en la parte inferior derecha del documento, la cantidad de movimientos cargados a la pestaña **Línea Estado Cuentas**, estos deben coincidir con la cantidad de movimientos que se refleja al momento de hacer la _importación del extracto bancario
+Podrá apreciar en la parte inferior derecha del documento, la cantidad de movimientos cargados a la pestaña **Línea Estado Cuentas**, estos deben coincidir con la cantidad de movimientos que se refleja al momento de hacer la \_importación del extracto bancario
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image164.png)
 
@@ -852,7 +852,7 @@ Note
 
 Al seleccionar la opción **OK** ADempiere creará un **Pago/Cobro** con las mismas características del movimiento bancario desconocido en cuanto monto, fecha, y moneda.
 
-Podrá visualizar el **Pago/Cobro creado de **Pago sin Identificar** en la pestaña **Línea Estado de Cuentas**, como la pestaña cuenta con varios registros, esté puede ser ubicado por el monto del movimiento bancario. Al ubicar el registro esté debe contar con las siguientes características:
+Podrá visualizar el **Pago/Cobro creado de **Pago sin Identificar** en la pestaña **Línea Estado de Cuentas\*\*, como la pestaña cuenta con varios registros, esté puede ser ubicado por el monto del movimiento bancario. Al ubicar el registro esté debe contar con las siguientes características:
 
 La descripción de la **Línea Estado de Cuenta** debe tener como descripción **Pago no identificado**
 
@@ -925,4 +925,3 @@ Al aplicar esta acción **Completar** el documento pasará a esta completo y est
 Note
 
 Es muy importante tener en cuenta que todo documento transaccional una vez se culmine con el llenado de los datos debe ser completado, para que ADempiere tome como válido los datos cargados en el documento.
-

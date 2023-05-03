@@ -80,7 +80,7 @@ Imagen 10. Campo Descripción de la Pestaña Encabezado de Producción de la Ven
 
 Note
 
-Si no es ingresado ningún valor en este campo al guardar el registro, ADempiere tomará el valor **Creado Desde Orden de Producción**, seguido del número de documento desde el cual es creado, para este caso el campo descripción queda de la siguiente forma: **Creado Desde Orden de Producción OPP-18.
+Si no es ingresado ningún valor en este campo al guardar el registro, ADempiere tomará el valor **Creado Desde Orden de Producción**, seguido del número de documento desde el cual es creado, para este caso el campo descripción queda de la siguiente forma: \*\*Creado Desde Orden de Producción OPP-18.
 
 Seleccione en el campo **Orden de Producción**, la orden de producción planeada por la cual se va a realizar la producción del producto.
 
@@ -124,7 +124,7 @@ Seleccione en el campo **Actividad**, la actividad correspondiente al registro q
 
 Imagen 17. Campo Actividad de la Pestaña Encabezado de Producción de la Ventana Producción
 
-Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere, para guardar el registro de los campos de la pestaña Producción**.
+Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere, para guardar el registro de los campos de la pestaña Producción\*\*.
 
 ![Campo](/assets/img/docs/production-management/prm-production-image18.png)
 

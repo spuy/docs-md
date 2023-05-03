@@ -76,7 +76,7 @@ Seleccione los préstamos que desea cancelar:
 
 Imagen 8. Selección de Préstamo
 
-Proceda a llenar los *Datos para Generar la Selección de Pago*.
+Proceda a llenar los _Datos para Generar la Selección de Pago_.
 
 ![Campo](/assets/img/docs/loan-management/lom-loan-image69.png)
 

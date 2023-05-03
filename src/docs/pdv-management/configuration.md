@@ -182,7 +182,7 @@ Introduzca en el campo **Peso Electrónico**, la ruta para las balanzas electró
 
 Imagen 24. Campo Escalas Electrónicas de la Ventana Terminal PDV
 
-Introduzca en el campo **Código de Solicitud de Medida, las medidas de balanzas electrónicas de dispositivos.
+Introduzca en el campo \*\*Código de Solicitud de Medida, las medidas de balanzas electrónicas de dispositivos.
 
 ![Campo](/assets/img/docs/pdv-management/pdm-pdv-image86.png)
 

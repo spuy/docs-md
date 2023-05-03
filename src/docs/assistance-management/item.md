@@ -40,7 +40,7 @@ Imagen 4. Campo Organización
 
 Warning
 
-Para que el rubro este disponible para todas las organizaciones, el mismo deberá estar registrado con la organización en (*) de lo contrario el rubro solo estará disponible para una sola organización.
+Para que el rubro este disponible para todas las organizaciones, el mismo deberá estar registrado con la organización en (\*) de lo contrario el rubro solo estará disponible para una sola organización.
 
 Introduzca en el campo **Código**, el código para el rubro que esta registrando.
 
@@ -347,4 +347,3 @@ Seleccione el icono **Guardar Cambios** en la barra de herramientas de ADempiere
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image160.png)
 
 Imagen 53. Icono Guardar Cambios
-

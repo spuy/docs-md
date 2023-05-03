@@ -189,7 +189,6 @@ Seleccione la pestaña **Reabastecer**, ubicada del lado izquierdo de la ventana
 
 ![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image92.png)
 
-
 Imagen 3. Configuración del Producto
 
 ### Ejecución del Proceso
@@ -322,7 +321,7 @@ Imagen 21. Consulta de Orden de Compra
 
 Si en el campo **Crear**, de la ventana **Reabastecimiento de Almacén**, es seleccionada la opción **Orden de Distribución**. La consulta del documento generado se realiza en la ventana **Orden de Distribución**, con ayuda del número de documento generado al ejecutar el proceso.
 
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-imag113.png)
+![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image113.png)
 
 Imagen 22. Consulta de Orden de Distribución
 

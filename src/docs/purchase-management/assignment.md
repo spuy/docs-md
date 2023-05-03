@@ -8,19 +8,19 @@ article: false
 
 Para realizar el procedimiento de asignación correctamente, es necesario cumplir con los siguientes requerimientos:
 
-Un documento de **Orden de Compra** directa, para este caso se presenta la orden de compra número **OCN-24**, relacionada con el socio del negocio **Estándar**, por la compra del producto **DOIS-000001 _Estandar** y con monto total de **2.500.000,00**.
+Un documento de **Orden de Compra** directa, para este caso se presenta la orden de compra número **OCN-24**, relacionada con el socio del negocio **Estándar**, por la compra del producto **DOIS-000001 \_Estandar** y con monto total de **2.500.000,00**.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image64.png)
 
 Imagen 1. Orden de Compra
 
-Un documento de **Recepción de Productos** desde la orden de compra previamente realizada, para este caso se presenta la recepción de productos número **RN-2**, relacionada con la orden de compra número **OCN-24** y el producto **DOIS-000001 _Estandar**.
+Un documento de **Recepción de Productos** desde la orden de compra previamente realizada, para este caso se presenta la recepción de productos número **RN-2**, relacionada con la orden de compra número **OCN-24** y el producto **DOIS-000001 \_Estandar**.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image65.png)
 
 Imagen 2. Recepción de Productos
 
-Una **Factura** manual, sin llamar dentro de la misma a la orden de compra o recepción anteriormente realizada. Para este caso se presenta la factura número **1000112**, relacionada con el socio del negocio **Estándar**, por la compra del producto **DOIS-000001 _Estandar** y con monto total de **2.500.000,00**.
+Una **Factura** manual, sin llamar dentro de la misma a la orden de compra o recepción anteriormente realizada. Para este caso se presenta la factura número **1000112**, relacionada con el socio del negocio **Estándar**, por la compra del producto **DOIS-000001 \_Estandar** y con monto total de **2.500.000,00**.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image66.png)
 

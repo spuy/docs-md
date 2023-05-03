@@ -42,7 +42,7 @@ Podrá visualizar en el campo **Tipo de Banco**, el tipo de banco que define el 
 
 Imagen 4. Campo Tipo de Banco
 
-Seleccione en el campo **Cuenta Bancaria**, la cuenta caja por la cual requiere filtar la búsqueda de la información. Para este caso, se utiliza la cuenta **Caja Administración Ventas - –_Administración VES**.
+Seleccione en el campo **Cuenta Bancaria**, la cuenta caja por la cual requiere filtar la búsqueda de la información. Para este caso, se utiliza la cuenta **Caja Administración Ventas - –\_Administración VES**.
 
 ![Campo](/assets/img/docs/pdv-management/pdm-pdv-image267.png)
 
@@ -176,7 +176,7 @@ Imagen 23. Ingreso Generado en Banco
 
 Realice el procedimiento regular para registrar una transferencia bancaria en ADempiere, el mismo se encuentra explicado de manera detallada en el documento Registro de Transferencia Bancaria, elaborado por ERPyA. Considerando las siguientes restricciones:
 
-**Cuenta Bancaria Desde**: La caja desde la cual requiere realizar la transferencia. Para este ejemplo es utilizada la caja **Caja Administración Ventas - –_Administración VES**.
+**Cuenta Bancaria Desde**: La caja desde la cual requiere realizar la transferencia. Para este ejemplo es utilizada la caja **Caja Administración Ventas - –\_Administración VES**.
 
 **Cuenta Bancaria a Transferir**: El banco al cual requiere realizar la transferencia. Para este ejemplo es utilizado el banco **Banco Provincial S.A. Banco Universal - 0108_01080000000000000019**.
 
@@ -228,7 +228,7 @@ Se selecciona la caja administrativa para llevar esta a cero (0) nuevamente, tra
 
 En la ejecución del procedimiento de cierre de caja, se debe considerar las siguientes restricciones:
 
-**Cuenta**: Caja Administración Ventas - –_Administración VES
+**Cuenta**: Caja Administración Ventas - –\_Administración VES
 
 **Tipo de Documento**: Cierre de Caja de Administrativo
 
@@ -239,4 +239,3 @@ Recuerde cargar las transacciones seleccionando la opción **Crear a Partir de C
 ![Campo](/assets/img/docs/pdv-management/pdm-pdv-image290.png)
 
 Imagen 27. Cierre de Caja
-

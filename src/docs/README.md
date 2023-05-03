@@ -20,6 +20,7 @@ Note that all [ADempiere ERP](http://adempiere.net/) ecosystem was created to be
 
 3.9.4 Team
 Main contributors among many other volunteers that collaborated in this very significant new ADempiere version include:
+
 - Director Victor Perez (e-evolution)
 - Key technical lead Mario Calderon (Westfalia)
 - Key Technical lead Yamil Senih (ERP Consultores y Asociados)
@@ -32,10 +33,10 @@ Main contributors among many other volunteers that collaborated in this very sig
 - Scrum Master Alberto Abudinen (OFB)
 
 ## Develop Guide
+
 A complete guide for any developer become to ADempiere.
 
 Learn about [Getting Started](develop-guide/getting-started)
-
 
 ## Standard Procedures for ADempiere ERP
 

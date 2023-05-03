@@ -30,7 +30,7 @@ Seleccione en el icono **Registro Nuevo**, ubicado en la barra de herramientas d
 
 Imagen 3. Icono Registro Nuevo
 
-Seleccione en el campo **Organización, la organización para la cual esta realizando el documento.
+Seleccione en el campo \*\*Organización, la organización para la cual esta realizando el documento.
 
 ![Campo](/assets/img/docs/production-management/prm-production-image58.png)
 
@@ -112,7 +112,7 @@ Podrá visualizar en el campo **Cantidad Órdenes**, la cantidad solicitada del 
 
 Imagen 16. Campo Cantidad Órdenes de la Ventana Órdenes de Producción Planeadas
 
-Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere, para guardar el registro de los campos de la pestaña Lote de Producción**.
+Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere, para guardar el registro de los campos de la pestaña Lote de Producción\*\*.
 
 ![Campo](/assets/img/docs/production-management/prm-production-image71.png)
 

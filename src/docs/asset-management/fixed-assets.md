@@ -19,7 +19,6 @@ Los activos son agrupados mediante el **Grupo de Activo Fijo**, con la finalidad
 - Grupo de Activos Fijos
   - Grupo de Activos Fijos
 
-
 ## Grupo de Activos Fijos
 
 El grupo de activo permite calificar a los productos como activos y definir su forma de contabilizar asociando el grupo a la categoria de productos, en este sentido podría tener varias categorias de productos asociadas a un grupo. Esto implicaría de igual manera, que al crear un producto cuya categoría esté asociado a un grupo de activo, este evento generará una transacción de activo, en este caso una adición de activo, que a su vez genera un hecho contable en la cuenta contable correspondiente.
@@ -98,7 +97,7 @@ Note
 
 ADempiere permite que una compañía que posee más de una organización, registre la configuración contable del grupo de activo fijo por organización. El registro podría ser:
 
-Grupo Activo Fijo **Mobiliario** de la Empresa Estándar con Organización (*):
+Grupo Activo Fijo **Mobiliario** de la Empresa Estándar con Organización (\*):
 
 Configuaración contable del grupo **Mobiliario**, con organización Estándar.
 

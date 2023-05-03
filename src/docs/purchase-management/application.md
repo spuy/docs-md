@@ -24,7 +24,7 @@ En ADempiere es posible generar una solicitud de cotización a partir de una req
   - Consultar el Reporte de Respuesta de Solicitud para Cotización
   - Caso 2: Solicitud para Cotización (Con Respuesta) por Tipo Cotiza Sólo el Total
   - Consultar el Reporte de Respuesta de Solicitud para Cotización
-  -Caso 3: Solicitud para Cotización (Con Respuesta) por Tipo Cótiza todas las Líneas
+    -Caso 3: Solicitud para Cotización (Con Respuesta) por Tipo Cótiza todas las Líneas
   - Consultar el Reporte de Respuesta de Solicitud para Cotización
 - Valuación de Respuestas de la Solicitud para Cotización
   - Caso 1: Solicitud para Cotización por Tipo Cotiza Líneas Seleccionadas
@@ -38,7 +38,6 @@ En ADempiere es posible generar una solicitud de cotización a partir de una req
   - Caso 1: Solicitud para Cotización por Tipo Cotiza Líneas Seleccionadas
   - Caso 2: Solicitud para Cotización (Con Respuesta) por Tipo Cotiza Sólo el Total
   - Caso 3: Solicitud para Cotización (Con Respuesta) por Tipo Cótiza todas las Líneas
-
 
 ## Crear Tema de Solicitud para Cotizar
 
@@ -130,7 +129,7 @@ Comercialización Nacional (Servicios)
 
 Para establecer que la cotización se requiere por categoría de producto o servicio, se debe agregar en la pestaña restricción del suscriptor, específicamente en el campo **Categoría del Producto**, la categoría de productos que contiene los servicios o productos que requiere cotizar.
 
-Seleccione el producto a restringir en el campo **Producto**. Para ejemplificar el caso de la restricción de productos al proveedor **Estándar 1, es utilizado el producto **Coleto**.
+Seleccione el producto a restringir en el campo **Producto**. Para ejemplificar el caso de la restricción de productos al proveedor **Estándar 1, es utilizado el producto **Coleto\*\*.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image11.png)
 
@@ -188,7 +187,7 @@ Seleccione en el campo **Agente Comercial**, el agente comercial que esta solici
 
 Imagen 17. Campo Agente Comercial
 
-Seleccione en el campo **Asunto SCP (RfQ), el tema registrado anteriormente que categoriza la lista de proveedores ofertantes.
+Seleccione en el campo \*\*Asunto SCP (RfQ), el tema registrado anteriormente que categoriza la lista de proveedores ofertantes.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image18.png)
 
@@ -498,6 +497,7 @@ Ubique en la ventana **Solicitud para Cotización (Con Respuesta)** el registro 
 Imagen 55. Checklist Ganador Seleccionado
 
 ### Caso 2: Solicitud para Cotización (Con Respuesta) por Tipo Cotiza Sólo el Total
+
 Ubique en la ventana **Solicitud para Cotización (Con Respuesta)** el registro del **Caso 2: Solicitud para Cotización (Con Respuesta) por Tipo Cotiza Sólo el Total** y navegue entre los registros de cada socio del negocio proveedor para buscar el registro que tenga el checklist **Ganador Seleccionado** tildado de la siguiente manera.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image56.png)

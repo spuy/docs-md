@@ -26,7 +26,7 @@ Seleccione el icono **Registro Nuevo** en la barra de herramientas de ADempiere,
 
 Imagen 2. Icono Registro Nuevo
 
-Seleccione en el campo **Organización**, la organización para la cual se esta realizando el documento de requisición de productos o servicios, el valor en el mismo debe ser diferente del símbolo (*).
+Seleccione en el campo **Organización**, la organización para la cual se esta realizando el documento de requisición de productos o servicios, el valor en el mismo debe ser diferente del símbolo (\*).
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image480.png)
 
@@ -131,4 +131,3 @@ Seleccione la acción **Completar** y la opción **OK** para completar el docume
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image496.png)
 
 Imagen 19. Completar Documento
-

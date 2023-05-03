@@ -42,7 +42,7 @@ Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la 
 
 Imagen 4. Campo Tipo de Documento
 
-Seleccione en el campo **Cuenta** la cuenta caja correspondiente al documento que esta realizando. Para ejemplificar el registro es utilizada la opción **Caja Cobranza - –_Cobranza Nacional**.
+Seleccione en el campo **Cuenta** la cuenta caja correspondiente al documento que esta realizando. Para ejemplificar el registro es utilizada la opción **Caja Cobranza - –\_Cobranza Nacional**.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image40.png)
 
@@ -108,7 +108,7 @@ Luego podrá visualizar la ventana de búsqueda inteligente **Depósito de Caja*
 
 Imagen 13. Ventana de Búsqueda Inteligente Depósito de Caja
 
-Seleccione en el campo **Cuenta Bancaria**, la caja cobranza seleccionada en el campo **Cuenta** de la ventana **Caja**. Para ejemplificar el registro es utilizada la cuenta bancaria **Caja Cobranza - –_Cobranza Nacional**.
+Seleccione en el campo **Cuenta Bancaria**, la caja cobranza seleccionada en el campo **Cuenta** de la ventana **Caja**. Para ejemplificar el registro es utilizada la cuenta bancaria **Caja Cobranza - –\_Cobranza Nacional**.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image49.png)
 

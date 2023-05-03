@@ -4,11 +4,11 @@ import { enNavbarConfig, esNavbarConfig } from "./navbar";
 // import { esSidebarConfig, enSidebarConig } from "./sidebar";
 
 export default hopeTheme({
-  hostname: "https://github.com/adempiere/adempiere-site.github.io",
+  hostname: "https://docs-md.erpya.com",
 
   author: {
-    name: "ADempiere",
-    url: "https://adempiere-site.erpya.com",
+    name: "ERP Consultores y Asociados, C.A.",
+    url: "https://erpya.com",
   },
 
   iconAssets: "//at.alicdn.com/t/font_2410206_vuzkjonf4s9.css",
@@ -41,7 +41,7 @@ export default hopeTheme({
   },
 
   displayFooter: true,
-  copyright: "Copyright © 2022-present ADempiere Community",
+  copyright: "Copyright © 2022-present ERP Consultores y Asociados, C.A.",
 
   plugins: {
     blog: true,
@@ -85,9 +85,9 @@ export default hopeTheme({
         color: "#ffffff",
       },
       manifest: {
-        name: "ADempiere ERP Community",
-        short_name: "ADempiere ERP",
-        description: "ADempiere ERP, created by peoples like you",
+        name: "ERP Consultores y Asociados, C.A.",
+        short_name: "ERPyA",
+        description: "ERP Consultores y Asociados, C.A.",
         theme_color: "#5c92d1",
         icons: [
           {

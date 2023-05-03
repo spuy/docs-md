@@ -18,26 +18,26 @@ Imagen 1. Tasa de Cambio del BCV-ABC Estándar C.A del día 04/08/2021
 
 Transacción de la cual se obtiene como resultado la siguiente factura impresa:
 
-| SENIAT |      |      |
-| ------ | ----- | ---- |
-| RIF/C.I.: V00000000 |
-| RAZON SOCIAL: Cliente Unico | 
-| Araure - Portuguesa |   
-| Orden OPOS-857 |         
-| Empleado Vendedor |  
-| FACTURA |
-| FACTURA: | 00000654 |
-| FECHA: 21-12-2020 | HORA: 11:59 |
-| 1908 |
-| PICO PARA AIRE LARGO TRUPER | (G) | Bs 8.068.152.07 |
-| SUBTTL | Bs 8.068.152.07 |
-| BI G16.00% Bs 8.068.152.07 | IVA G16.00% | Bs 1.290.904.33 |
-| TOTAL | Bs 9.359.056.40 |
-| EFECTIVO 1 | Bs 9.359.056.40 |
-| Cant. Articulos: 1 |
-| Empleado Vendedor |
+| SENIAT                        |                 |                 |
+| ----------------------------- | --------------- | --------------- |
+| RIF/C.I.: V00000000           |
+| RAZON SOCIAL: Cliente Unico   |
+| Araure - Portuguesa           |
+| Orden OPOS-857                |
+| Empleado Vendedor             |
+| FACTURA                       |
+| FACTURA:                      | 00000654        |
+| FECHA: 21-12-2020             | HORA: 11:59     |
+| 1908                          |
+| PICO PARA AIRE LARGO TRUPER   | (G)             | Bs 8.068.152.07 |
+| SUBTTL                        | Bs 8.068.152.07 |
+| BI G16.00% Bs 8.068.152.07    | IVA G16.00%     | Bs 1.290.904.33 |
+| TOTAL                         | Bs 9.359.056.40 |
+| EFECTIVO 1                    | Bs 9.359.056.40 |
+| Cant. Articulos: 1            |
+| Empleado Vendedor             |
 | Terminal PDV Caja 01 Vendedor |
-| MH | Z7C0001234 |
+| MH                            | Z7C0001234      |
 
 Un registro de orden de compra puede ser copiado cuando el mismo se encuentre en estado **Completo**. La unica condición que tiene el proceso para su ejecución, es que el registro de la orden que requiere copiar, no se encuentre en estado **Cerrado**. Si la orden a copiar se encuentra en estado **Cerrado**, el proceso no se ejecuta.
 

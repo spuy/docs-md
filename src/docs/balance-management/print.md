@@ -124,7 +124,7 @@ Sí la selección de pago posee dos o más documentos de un mismos socio de nego
 
 En la selección de pago se encuentra cuatro (3) facturas asociadas, dos de esas facturas pertenecen a un mismo proveedor **Dhl Express Aduanas Venezuela C.A.**
 
-La **Factura N°1** tiene el total de pago 10.000,00 del socio del negocio **Dhl Express Aduanas Venezuela C.A.** a la cuenta bancaria **100 % Banco, Banco Universal, C.A._0156 **
+La **Factura N°1** tiene el total de pago 10.000,00 del socio del negocio **Dhl Express Aduanas Venezuela C.A.** a la cuenta bancaria **100 % Banco, Banco Universal, C.A.\_0156 **
 
 La **Factura N°2** tiene un total pagado 30.000,00 con el mismo socio de negocio y la misma cuenta bancaria de la **Factura N°1**.
 
@@ -132,7 +132,7 @@ La factura **Factura N°3** tiene un total de pago de 15.000,00 a otro socio de 
 
 El número a mostrar en el total de pagos será 2 , ya que la factura N°1 y la Factura N° 2 pertenecen a un mismo socio de negocio y apuntan a una misma cuenta bancaria, ADempiere realizará un pago para esas dos facturas, cuando se complete el procedimiento se generará los siguientes pagos:
 
-El **Pago N°1** a la cuenta **100 % Banco, Banco Universal, C.A._0156 ** del socio de negocio **Dhl Express Aduanas Venezuela C.A.** por un total de 40.000,00.
+El **Pago N°1** a la cuenta **100 % Banco, Banco Universal, C.A.\_0156 ** del socio de negocio **Dhl Express Aduanas Venezuela C.A.** por un total de 40.000,00.
 
 El **Pago N°2** la cuenta bancaria **Mercantil C.A. Banco Universal_0105** del otro socio del negocio por un total de 15.000,00.
 
@@ -140,7 +140,7 @@ Sí la selección de pago posee dos o más documentos de un mismos socio de nego
 
 En la selección de pago se encuentra tres (3) facturas asociadas, dos de esas facturas pertenecen a un mismo proveedor **Dhl Express Aduanas Venezuela C.A.** :
 
-La **Factura N° 1** tiene el total de pago 10.000,00 está asociada la cuenta bancaria **100 % Banco, Banco Universal, C.A._0156 **.
+La **Factura N° 1** tiene el total de pago 10.000,00 está asociada la cuenta bancaria **100 % Banco, Banco Universal, C.A.\_0156 **.
 
 La **factura N° 2** es del mismos proveedor de la factura N°1 con un total pagado 30.000,00 y está asociada a la cuenta bancaria **Mercantil C.A. Banco Universal_0105**.
 
@@ -148,7 +148,7 @@ La **Factura N°3** se encuentra asociada a otro proveedor por un total de 40.00
 
 El número a mostrar en el total de pagos serán tres, a pesar de que esté posee dos facturas con un mismo socio de negocio en este caso no se unirán los pagos por qué en la selección de pago las facturas del socio de negocio que se repite poseen cuentas bancarias diferentes, entonces cuando se complete el procedimiento ADempiere generará tres pagos:
 
-El **Pago N°1** al socio del negocio **Dhl Express Aduanas Venezuela C.A.** a la cuenta bancaria **100 % Banco, Banco Universal, C.A._0156 ** por 10.000,00
+El **Pago N°1** al socio del negocio **Dhl Express Aduanas Venezuela C.A.** a la cuenta bancaria **100 % Banco, Banco Universal, C.A.\_0156 ** por 10.000,00
 
 El **Pago N°2** al socio del negocio **Dhl Express Aduanas Venezuela C.A.** a la cuenta bancaria **Mercantil C.A. Banco Universal_0105** por 30.000,00.
 

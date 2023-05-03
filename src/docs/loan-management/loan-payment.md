@@ -142,8 +142,8 @@ Esta opción lo llevará automáticamente a los pagos asociados a este préstamo
 
 ADempiere contabilizará el préstamo dependiendo de la contabilidad configurada en el cargo heredado desde la definición del producto financiero (Vea Configuración de Producto Financiero (Préstamo)).
 
-|            Cuenta                         |  Débito Contabilizado | Crédito Contabilizado |
-|            ------                         | --------------------  | --------------------- |
-| 12410 - Prestamos por Cobrar              |       20.000,00       |         0,00          |
-| 89900 - Cheques y Depósito en Circulación |          0,00         |       20.000,00       |
-|            Total                          |       20.000,00       |       20.000,00 
+| Cuenta                                    | Débito Contabilizado | Crédito Contabilizado |
+| ----------------------------------------- | -------------------- | --------------------- |
+| 12410 - Prestamos por Cobrar              | 20.000,00            | 0,00                  |
+| 89900 - Cheques y Depósito en Circulación | 0,00                 | 20.000,00             |
+| Total                                     | 20.000,00            | 20.000,00             |

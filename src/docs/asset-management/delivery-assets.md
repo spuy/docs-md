@@ -98,7 +98,7 @@ Seleccione en el campo **Socio del Negocio**, el socio del negocio al cual se le
 
 Imagen 15. Campo Socio del Negocio
 
-Seleccione en el campo **Fecha del Movimiento la fecha en la cual se encuentra realizando la entrega.
+Seleccione en el campo \*\*Fecha del Movimiento la fecha en la cual se encuentra realizando la entrega.
 
 ![Campo](/assets/img/docs/asset-management/asm-asset-image16.png)
 

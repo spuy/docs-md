@@ -12,20 +12,20 @@ La forma en la que ADempiere ha diseñado esta funcionalidad, le permitirá estr
 
 Imaginemos una empresa que recibe un documento por pagar por concepto de consumo eléctrico, este está definido como un cargo en la factura, el resultado predeterminado será el siguiente:
 
-| Cuenta          | Débito    | Crédito   | 
-| ------          | ------    | -------   |          
-| Gasto Eléctrico | 2.500.000 |           |
-|Cuentas por Pagar|           | 2.500.000 |
-|    Total        | 2.500.000 | 2.500.000 |
+| Cuenta            | Débito    | Crédito   |
+| ----------------- | --------- | --------- |
+| Gasto Eléctrico   | 2.500.000 |           |
+| Cuentas por Pagar |           | 2.500.000 |
+| Total             | 2.500.000 | 2.500.000 |
 
 Para este caso la empresa requiere distribuir un 60% del consumo eléctrico al costo de producción y un 40% a la cuenta de gasto común, quedando el asiento de la distribución de la siguiente manera:
 
-|      Cuenta       |  Débito   |  Crédito  |
-| ------            | ------    | -------   |
+| Cuenta            | Débito    | Crédito   |
+| ----------------- | --------- | --------- |
 | Gasto Eléctrico   | 1.000.000 |           |
 | Costo Eléctrico   | 1.500.000 |           |
 | Cuentas por Pagar |           | 2.500.000 |
-|       Total       | 2.500.000 | 2.500.000 |
+| Total             | 2.500.000 | 2.500.000 |
 
 El ejemplo anterior define de manera gráfica a que se refiere una distribución contable, ahora bien, ADempiere le ofrece la oportunidad de establecer un comportamiento para que estas distribuciones sean ejecutadas de forma automática al ejecutar cualquier documento.
 

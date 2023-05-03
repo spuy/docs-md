@@ -8,14 +8,14 @@ article: false
 
 El documento por cobrar a generar (Fiscal o no Fiscal) será emitido por concepto de cuota vencida, con los siguientes conceptos dependiendo del préstamo inicial solicitado(Producto Financiero) y su configuración (Vea Configuración de Producto Financiero (Préstamo)):
 
-  - Préstamo con Interés Gravado:
-  - Capital
-  - Interés + IVA
-  - Préstamo con Interés Exento:
-  - Capital
-  - Interés
-  - Préstamo sin Interés:
-  - Capital
+- Préstamo con Interés Gravado:
+- Capital
+- Interés + IVA
+- Préstamo con Interés Exento:
+- Capital
+- Interés
+- Préstamo sin Interés:
+- Capital
 
 Sin embargo existen casos en los cuales el solicitante retarda la cancelación de cuotas vencidas en estos casos ADempiere calcula intereses moratorios sobre la cuota vencida generando así una línea más en el documento.
 
@@ -179,10 +179,10 @@ Interés: Contabilidad definida en el cargo asociado en la tasa financiera relac
 
 IVA: Contabilidad definida en la tasa de impuesto asociada en el cargo perteneciente a la tasa financiera relacionada en el producto financiero.
 
-| Cuenta | Débito Contabilizado | Crédito Contabilizado |
-| ------ | -------------------- | --------------------- |
-| 12410 - Prestamos por Cobrar | 0,00 | 1.522,36 |
-| 12410 - Interés por Cobrar | 0,00 | 316,48 |
-| 22000 - IVA | 0,00 | 69,6256 | 
-| 12110 - Cuentas por Cobrar Comerciales | 1908,4656 | 0,00 |
-| Total | 1908,4656 | 1908,4656 |
+| Cuenta                                 | Débito Contabilizado | Crédito Contabilizado |
+| -------------------------------------- | -------------------- | --------------------- |
+| 12410 - Prestamos por Cobrar           | 0,00                 | 1.522,36              |
+| 12410 - Interés por Cobrar             | 0,00                 | 316,48                |
+| 22000 - IVA                            | 0,00                 | 69,6256               |
+| 12110 - Cuentas por Cobrar Comerciales | 1908,4656            | 0,00                  |
+| Total                                  | 1908,4656            | 1908,4656             |

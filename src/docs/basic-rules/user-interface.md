@@ -75,7 +75,6 @@ Para eliminar un elemento de la sección artículos recientes, se debe arrastrar
 
 Imagen 9. Icono Eliminar de la Sección Artículos Recientes
 
-
 ## Icono Actualizar de la Sección Artículos Recientes
 
 Para actualizar la lista de los elementos en la sección artículos recientes, se debe hacer clic en el icono actualizar.

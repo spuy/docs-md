@@ -24,7 +24,7 @@ En el menú de ADempiere, ubique y seleccione la carpeta **Gestión de Materiale
 
 Imagen 1. Menú de ADempiere
 
-En esta ventana se registran los datos principales que la empresa requiere conocer de los productos, con la finalidad de ser utilizada al momento de realizar alguna compra / venta con dicho producto. Cada uno de los campos con el símbolo (*) son obligatorios para el registro.
+En esta ventana se registran los datos principales que la empresa requiere conocer de los productos, con la finalidad de ser utilizada al momento de realizar alguna compra / venta con dicho producto. Cada uno de los campos con el símbolo (\*) son obligatorios para el registro.
 
 Podrá visualizar la ventana **Producto**, dónde debe seleccionar el icono **Registro Nuevo**, que se encuentra ubicado en la barra de herramientas de ADempiere.
 
@@ -40,7 +40,7 @@ Imagen 3. Campo Organización
 
 Warning
 
-Para que el producto este disponible para todas las organizaciones, el mismo deberá estar registrado con la organización en (*) de lo contrario el producto solo estará disponible para una sola organización.
+Para que el producto este disponible para todas las organizaciones, el mismo deberá estar registrado con la organización en (\*) de lo contrario el producto solo estará disponible para una sola organización.
 
 Introduzca en el campo **Código**, el código para el producto que esta registrando, este código es definido por un estándar de códificación establecido en ERPyA para la Codificación Estándar de Productos.
 
@@ -382,7 +382,7 @@ Imagen 57. Icono Guardar Cambios
 
 ### Pestaña Compras
 
-En esta ventana se registran los precios y reglas de compras por socios del negocio, con la finalidad de ser utilizada al momento de realizar alguna compra de dicho producto. Cada uno de los campos con el símbolo (*) son obligatorios para el registro.
+En esta ventana se registran los precios y reglas de compras por socios del negocio, con la finalidad de ser utilizada al momento de realizar alguna compra de dicho producto. Cada uno de los campos con el símbolo (\*) son obligatorios para el registro.
 
 Warning
 
@@ -470,7 +470,7 @@ Imagen 70. Icono Guardar Cambios
 
 ### Pestaña Precio
 
-En esta ventana se registran las listas de precios utilizadas por la empresa, con sus diferentes precios de lista, límite y estándar que poseen los productos, con la finalidad de ser utilizada al momento de realizar alguna compra / venta con los mismos. Cada uno de los campos con el símbolo (*) son obligatorios para el registro.
+En esta ventana se registran las listas de precios utilizadas por la empresa, con sus diferentes precios de lista, límite y estándar que poseen los productos, con la finalidad de ser utilizada al momento de realizar alguna compra / venta con los mismos. Cada uno de los campos con el símbolo (\*) son obligatorios para el registro.
 
 Seleccione la pestaña **Precio**, ubicada del lado izquierdo de la ventana **Producto** y proceda al llenado de los campos correspondientes.
 
@@ -494,7 +494,7 @@ Imagen 73. Icono Guardar Cambios
 
 ### Pestaña Conversión Unidad de Medida
 
-En esta ventana se registran las conversiones de las diferentes unidades de medida utilizadas por la empresa, con la finalidad de aplicar dichas conversiones al momento de realizar alguna compra / venta de un producto. Cada uno de los campos con el símbolo (*) son obligatorios para el registro.
+En esta ventana se registran las conversiones de las diferentes unidades de medida utilizadas por la empresa, con la finalidad de aplicar dichas conversiones al momento de realizar alguna compra / venta de un producto. Cada uno de los campos con el símbolo (\*) son obligatorios para el registro.
 
 Seleccione la pestaña **Conversión Unidad de Medida**, ubicada del lado izquierdo de la ventana **Producto** y proceda al llenado de los campos correspondientes.
 

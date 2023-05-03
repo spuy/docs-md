@@ -75,6 +75,7 @@ Por último, para iniciar sesión en el servicio de ADempiere, debe seleccionar 
 
 ![Opción OK para acceder a ADempiere](/assets/img/docs/basic-rules/bar-login-ok-2.png)
 Imagen 12. Opción OK para acceder a ADempiere
+
 ## Recuperar Contrasena
 
 Si el usuario no recuerda la contraseña para iniciar sesión puede recuperarla seleccionando la interrogante **¿Se te olvidó tu contraseña?**.
@@ -101,7 +102,6 @@ Automáticamente se cargará una pestaña en el navegador, con la url indicada e
 
 ![Pestaña Cargada Automáticamente](/assets/img/docs/basic-rules/bar-login-eyelash.png)
 
-
 Introduzca en el campo **Nueva Contraseña**, la contraseña para iniciar sesión en ADempiere.
 
 ![Campo Nueva Contraseña](/assets/img/docs/basic-rules/bar-login-new.png)
@@ -110,7 +110,6 @@ Imagen 18. Campo Nueva Contraseña
 Introduzca en el campo **Repita la Nueva Contraseña**, la contraseña ingresada en el campo **Nueva Contraseña**, para iniciar sesión en ADempiere.
 
 ![Campo Repita la Nueva Contraseña](/assets/img/docs/basic-rules/bar-login-repeat.png)
-
 
 Seleccione la opción **OK**, para guardar la nueva contraseña ingresada.
 

@@ -128,4 +128,3 @@ Al generar el reporte **Detalle de Almacenamiento** del producto **Bolígrafo** 
 ![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image18.png)
 
 Imagen 18. Detalle de Almacenamiento después del Movimiento
-

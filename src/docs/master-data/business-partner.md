@@ -27,7 +27,7 @@ En el menú de ADempiere, ubique y seleccione la carpeta **Relación con Socio d
 
 Imagen 1. Menú de ADempiere
 
-En esta ventana se registran los datos principales que la empresa requiere del socio del negocio cliente. Cada uno de los campos con el símbolo (*) son obligatorios para el registro.
+En esta ventana se registran los datos principales que la empresa requiere del socio del negocio cliente. Cada uno de los campos con el símbolo (\*) son obligatorios para el registro.
 
 A continuación visualizará la ventana **Socio del Negocio**, dónde debe seleccionar el icono de **Registro Nuevo** que se encuentra ubicado en la barra de herramientas de ADempiere.
 
@@ -39,7 +39,7 @@ Proceda al llenado de los campos necesarios que a continuación se detallan.
 
 Seleccione la organización en el campo **Organización**.
 
-La organización le permite definir la entidad legal ó una sub-unidad a la cual pertenece el socio de negocio, si la organización es (*), este estará disponible para todas las organizaciones al procesar documentos y transacciones, pero si por el contrario, ha seleccionado una organización diferente, este registro únicamente estará disponible para la organización seleccionada.
+La organización le permite definir la entidad legal ó una sub-unidad a la cual pertenece el socio de negocio, si la organización es (\*), este estará disponible para todas las organizaciones al procesar documentos y transacciones, pero si por el contrario, ha seleccionado una organización diferente, este registro únicamente estará disponible para la organización seleccionada.
 
 ![Campo Organización](/assets/img/docs/master-data/mad-master-organization.png)
 
@@ -47,7 +47,7 @@ Imagen 3. Campo Organización
 
 Warning
 
-Generalmente los **Socios de Negocios** son registros compartidos entre entidades organizacionales, por esta razón **ERPyA** recomienda la creación con organización (*) para evitar duplicidad e inconvenientes contables, de esta forma garantizamos la homogeneidad de los datos maestros.
+Generalmente los **Socios de Negocios** son registros compartidos entre entidades organizacionales, por esta razón **ERPyA** recomienda la creación con organización (\*) para evitar duplicidad e inconvenientes contables, de esta forma garantizamos la homogeneidad de los datos maestros.
 
 Introduzca el código de socio del negocio en el campo **Código**.
 
@@ -221,7 +221,7 @@ Adicionalmente, define en el socio de negocio funciones y parámetros a partir d
 
 Imagen 18. Campo Grupo de Socio del Negocio
 
-Seleccione el tipo de cuenta en el campo **Tipo de Cuenta****.
+Seleccione el tipo de cuenta en el campo **Tipo de Cuenta\*\***.
 
 El tipo de cuenta no es un campo obligatorio, sin embargo, le permite a los vendedores conocer con perfección las características de sus clientes y los diferentes tipos de clientes definidos en la empresa y así realizar un mejor estudio de mercado.
 
@@ -432,28 +432,28 @@ De igual manera, un proveedor externo puede ser un proveedor internacional, este
 
 ### Registro de Proveedor
 
-  Para registrar un proveedor, es necesario que sea realizado el procedimiento regular explicado en el documento **Registro de Socio del Negocio**, elaborado por **ERPyA**.
+Para registrar un proveedor, es necesario que sea realizado el procedimiento regular explicado en el documento **Registro de Socio del Negocio**, elaborado por **ERPyA**.
 
-  Luego de culminar el procedimieto de registro de socio del negocio, seleccione la pestaña **Proveedor** que se encuentra del lado izquierdo de la ventana socio del negocio, para identificar al socio del negocio como proveedor de la empresa.
+Luego de culminar el procedimieto de registro de socio del negocio, seleccione la pestaña **Proveedor** que se encuentra del lado izquierdo de la ventana socio del negocio, para identificar al socio del negocio como proveedor de la empresa.
 
-  Esta pestaña le indica a ADempiere si el socio del negocio que se esta registrando es un proveedor
+Esta pestaña le indica a ADempiere si el socio del negocio que se esta registrando es un proveedor
 
 ![Pestaña Proveedor](/assets/img/docs/master-data/mad-master-proveedor.png)
 
-   Imagen 1. Pestaña Proveedor
+Imagen 1. Pestaña Proveedor
 
-  Nota
-  La pestaña **Proveedor** se compone de:
+Nota
+La pestaña **Proveedor** se compone de:
 
-  - Un checklist **Proveedor**.
-  - Los datos principales del socio del negocio donde los campos **Compañía**, **Organización**, **Código** y **Nombre**, vienen cargados de la ventana principal **Socio  del Negocio**.
-  - Ademas posee un grupo de campos que definen la configuración de retenciones a aplicar al socio del negocio, dichos campos se encuentran explicados en los documentos Configuración Esencial de la Retención de IVA, Configuración Esencial de la Retención de ISLR y Configuración Esencial de la Retención Municipal.
+- Un checklist **Proveedor**.
+- Los datos principales del socio del negocio donde los campos **Compañía**, **Organización**, **Código** y **Nombre**, vienen cargados de la ventana principal **Socio del Negocio**.
+- Ademas posee un grupo de campos que definen la configuración de retenciones a aplicar al socio del negocio, dichos campos se encuentran explicados en los documentos Configuración Esencial de la Retención de IVA, Configuración Esencial de la Retención de ISLR y Configuración Esencial de la Retención Municipal.
 
-  Seleccione el checklist **Proveedor** para habilitar en ADempiere el socio del negocio como proveedor de la compañía u organización.
+Seleccione el checklist **Proveedor** para habilitar en ADempiere el socio del negocio como proveedor de la compañía u organización.
 
 ![Checklist Proveedor](/assets/img/docs/master-data/mad-master-checklist.png)
 
- Imagen 2. Checklist Proveedor 
+Imagen 2. Checklist Proveedor
 
 Warning
 De no ser tildado el checklist **Proveedor**, ADempiere no tomará el socio del negocio como proveedor.
@@ -1294,7 +1294,7 @@ En la ventana **Empleado (Todos)**, se registran todos los datos personales y la
 
 Note
 
-Cada uno de los campos con el símbolo (*) son obligatorios para el registro.
+Cada uno de los campos con el símbolo (\*) son obligatorios para el registro.
 
 A continuación podrá apreciar la ventana **Empleado (Todos)**, dónde debe seleccionar el icono de **Registro Nuevo** que se encuentra ubicado en la barra de herramientas de ADempiere.
 
@@ -1308,7 +1308,6 @@ Seleccione en el campo **Compañía**, la compañía para la cual esta registran
 
 ![Campo Compañía](/assets/img/docs/master-data/mad-master-company.png)
 
-
 Imagen 3. Campo Compañía
 
 Seleccione en el campo **Organización**, la organización para la cual esta registrando el socio del negocio empleado.
@@ -1319,7 +1318,7 @@ Imagen 4. Campo Organización
 
 Warning
 
-Para que el socio del negocio este disponible para todas las organizaciones, el mismo deberá estar registrado con la organización en (*), de lo contrario el socio del negocio solo estará disponible para una sola organización.
+Para que el socio del negocio este disponible para todas las organizaciones, el mismo deberá estar registrado con la organización en (\*), de lo contrario el socio del negocio solo estará disponible para una sola organización.
 
 Introduzca el código de identificación, cédula o rif del socio del negocio en el campo **Código**, el valor introducido en este campo automáticamente se reflejará en el campo **Número Identificación**.
 
@@ -1354,7 +1353,6 @@ Si el socio del negocio que esta registrando posee solo un apellido, se debe ing
 Introduzca en el campo **Descripción**, una descripción corta con respecto al socio del negocio empleado.
 
 ![Campo Descripción](/assets/img/docs/master-data/mad-master-description-20.png)
-
 
 Imagen 8. Campo Descripción
 
@@ -1468,7 +1466,7 @@ Seleccione la pestaña **Información de Contrato** y proceda al llenado de los 
 
 Warning
 
-La Información de Contrato se debe realizar con la Organización a la Pertenezca el empleado, por eso debe Cambiar La Organización de (*) a la Organización Principal del Empleado.
+La Información de Contrato se debe realizar con la Organización a la Pertenezca el empleado, por eso debe Cambiar La Organización de (\*) a la Organización Principal del Empleado.
 
 Imagen 25. Pestaña Información de Contrato
 
@@ -1832,7 +1830,7 @@ Warning
 
 Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana empleado (todos).
 
-### Pestaña Días Libres de la Semana 
+### Pestaña Días Libres de la Semana
 
 Según lo establecido en el artículo 173 de la LOTTT, una jornada de trabajo no excederá de cinco días a la semana y el trabajador o trabajadora tendrá derecho a dos días de descanso, continuos y remunerados durante cada semana de labor.
 
@@ -2023,6 +2021,7 @@ Warning
 Si el empleado posee otras referencias laborales para registrar, seleccione el icono **Registro Nuevo** en la barra de herramientas de ADempiere en la pestaña **Experiencia Laboral** y proceda al llenado de los campos explicados anteriormente.
 
 ### Pestaña Educación
+
 La ley órganica de educación en su artículo 4 de educación y cultura, establece la educación como derecho humano y deber social fundamental orientada al desarrollo del potencial creativo de cada ser humano en condiciones históricamente determinadas, constituye el eje central en la creación, transmisión y reproducción de las diversas manifestaciones y valores culturales, invenciones, expresiones, representaciones y características propias para apreciar, asumir y transformar la realidad.
 
 El Estado asume la educación como proceso esencial para promover, fortalecer y difundir los valores culturales de la venezolanidad.
@@ -2074,6 +2073,7 @@ Warning
 Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana empleado (todos).
 
 ### Pestaña Dependientes
+
 En esta pestaña se registran los datos de cada uno de los familiares que dependen o no del socio del negocio empleado que esta registrando, esta información es utilizada por la empresa para asuntos de seguros, actividades recreativas y sociales, becas, donaciones, pagos, entre otros motivos.
 
 Seleccione la pestaña **Dependientes** y proceda al llenado de los campos correspondientes.
@@ -2419,4 +2419,3 @@ Imagen 160. Icono Guardar Cambios
 Note
 
 Este procedimiento realizado aplica solo para los Socios del Negocio que cumplan el rol de Empleado en una compañía.
-

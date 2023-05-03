@@ -373,4 +373,3 @@ Seleccione la pestaña **Asignaciones**, para visualizar la información del mon
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image157.png)
 
 Imagen 59. Pestaña Asignaciones de la Ventana Consulta de Asignación
-

@@ -32,7 +32,7 @@ Estas cuentas han sido estandarizadas a nivel mundial de la siguiente forma:
 
 | Activos | Pasivos | Patrimonio | Ingresos | Costos | Gastos |
 | ------- | ------- | ---------- | -------- | ------ | ------ |
-|    1    |    2    |     3      |    4     |    5   |   6    |
+| 1       | 2       | 3          | 4        | 5      | 6      |
 
 En ADempiere los códigos de las cuentas son conformados con números con la siguiente estructura:
 
@@ -44,7 +44,7 @@ Para este ejemplo podríamos establecer la siguiente figura:
 
 | Activos | Corrientes | Disponibles | Banco | Cuenta Bancaria |
 | ------- | ---------- | ----------- | ----- | --------------- |
-|    1    |     1      |      1      |  0001 |      0001       |
+| 1       | 1          | 1           | 0001  | 0001            |
 
 El elemento contable es necesario para la definición del esquema contable, que a su vez define el óptimo funcionamiento de ADempiere, esto es porque cada transacción administrativa generará un asiento contable y por ende son requeridas las cuentas contables.
 

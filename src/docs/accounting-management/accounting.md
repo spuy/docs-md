@@ -173,7 +173,6 @@ Podrá visualizar el asiento contable generado por la transacción anteriormente
 
 Imagen 17. Asiento Contable de la Ventana Estado de Cuentas Bancario
 
-
 ## Proceso de Ingreso
 
 ### Orden de Venta

@@ -33,7 +33,7 @@ Note
 
 Un ejemplo de este caso puede ser cuando el usuario crea una tasa de cambio de moneda **VES** a moneda **USD** con una tasa multiplicadora 2 entonces automáticamente se creará una tasa de cambio de moneda **USD** a **VES** con la tasa multiplicadora 0.5
 
-../../../_images/tasa-cambio-reciproca.gif
+../../../\_images/tasa-cambio-reciproca.gif
 Video 1. Tasa de Cambio
 
 En el siguiente enlace puede descargar un ejemplo del mismo para visualizarlo mejor Convert Video

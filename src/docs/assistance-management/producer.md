@@ -23,7 +23,7 @@ Imagen 1. Menú de ADempiere
 
 Podrá visualizar la ventana **Productor**, con los diferentes registros de productores que contiene ADempiere.
 
-En esta ventana se registran los datos principales que la empresa requiere del productor. Cada uno de los campos con el símbolo (*) son obligatorios para el registro.
+En esta ventana se registran los datos principales que la empresa requiere del productor. Cada uno de los campos con el símbolo (\*) son obligatorios para el registro.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image162.png)
 
@@ -37,7 +37,7 @@ Imagen 3. Icono Registro Nuevo de la Ventana Productor
 
 Seleccione en el campo **Organización**, la organización para la cual se encuentra realizando el registro del productor.
 
-La organización le permite definir la entidad legal ó una sub-unidad a la cual pertenece el productor, si la organización es (*), este estará disponible para todas las organizaciones al procesar documentos y transacciones, pero si por el contrario, ha seleccionado una organización diferente, este registro únicamente estará disponible para la organización seleccionada.
+La organización le permite definir la entidad legal ó una sub-unidad a la cual pertenece el productor, si la organización es (\*), este estará disponible para todas las organizaciones al procesar documentos y transacciones, pero si por el contrario, ha seleccionado una organización diferente, este registro únicamente estará disponible para la organización seleccionada.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image164.png)
 
@@ -107,7 +107,7 @@ Crédito Detenido: Establecido de forma manual, bloqueando la posibilidad de com
 
 Imagen 11. Campo Estado de Crédito
 
-Podrá visualizar el saldo actual que posee el productor en el campo **Saldo Actual.
+Podrá visualizar el saldo actual que posee el productor en el campo \*\*Saldo Actual.
 
 El saldo actual es un campo solo lectura, actualizado de forma automática, aumentando o disminuyendo al emitir cuentas por cobrar o cuentas por pagar, controlando el estado de crédito.
 
@@ -309,7 +309,7 @@ Seleccione en el campo **Saludo**, la forma de saludar a la persona de contacto 
 
 Imagen 39. Campo Saludo
 
-Seleccione en el campo **Dirección del Socio del Negocio, la dirección de ubicación de la persona de contacto con el productor.
+Seleccione en el campo \*\*Dirección del Socio del Negocio, la dirección de ubicación de la persona de contacto con el productor.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image200.png)
 

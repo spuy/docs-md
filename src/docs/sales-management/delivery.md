@@ -353,7 +353,6 @@ Seleccione la acción **Completar** y la opción **OK**, para completar el docum
 
 Imagen 55. Acción Completar y Opción Ok
 
-
 ## Generar Entrega desde Líneas de la Orden
 
 Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Entregas**, por último seleccione la ventana **Generar Entrega desde Líneas de la Orden**.
@@ -601,4 +600,3 @@ Podrá visualizar el documento de entrega buscado. El mismo es generado con el e
 ![Campo](/assets/img/docs/sales-management/sam-sales-image215.png)
 
 Imagen 14. Documento de Entrega Generada
-

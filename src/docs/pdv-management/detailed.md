@@ -208,7 +208,7 @@ Imagen 26. Cobro Creado desde la Ventana Retiros de Puntos de Venta
 
 ## Consultar Registro en Cierre de Caja
 
-Cada forma de pago y moneda por la que se realiza un retiro de fondos, se genera un documento de egreso y uno de ingreso en la ventana **Caja**. Por cada documento generado se crea una línea con el mismo asociado, en la pestaña **Línea de Cierre de Caja**, de la ventana **Cierre de Caja** correspondiente a los registros creados en estado **Borrador al realizar la apertura de caja.
+Cada forma de pago y moneda por la que se realiza un retiro de fondos, se genera un documento de egreso y uno de ingreso en la ventana **Caja**. Por cada documento generado se crea una línea con el mismo asociado, en la pestaña **Línea de Cierre de Caja**, de la ventana **Cierre de Caja** correspondiente a los registros creados en estado \*\*Borrador al realizar la apertura de caja.
 
 Registro de **Caja Administrativa** en la ventana **Cierre de Caja**.
 

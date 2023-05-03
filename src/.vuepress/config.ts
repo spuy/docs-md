@@ -28,11 +28,6 @@ export default defineUserConfig({
       title: "",
       description: "A official page of ADempiere community.",
     },
-    "/es/": {
-      title: "",
-      lang: "es-ES",
-      description: "Página oficial de la comunidad de ADempiere",
-    },
   },
 
   theme,
@@ -44,48 +39,6 @@ export default defineUserConfig({
       indexName: "adempiere",
       locales: {
         "/": {
-          placeholder: "English",
-          translations: {
-            button: {
-              buttonText: "Search",
-              buttonAriaLabel: "Search",
-            },
-            modal: {
-              searchBox: {
-                resetButtonTitle: "Clear Conditions",
-                resetButtonAriaLabel: "Clear Conditions",
-                cancelButtonText: "Cancel",
-                cancelButtonAriaLabel: "Cancel",
-              },
-              startScreen: {
-                recentSearchesTitle: "History",
-                noRecentSearchesText: "No History",
-                saveRecentSearchButtonTitle: "Save to History",
-                removeRecentSearchButtonTitle: "Remove from History",
-                favoriteSearchesTitle: "Favorites",
-                removeFavoriteSearchButtonTitle: "Remove from Favorites",
-              },
-              errorScreen: {
-                titleText: "Can't get results",
-                helpText: "You may need to check your internet connection",
-              },
-              footer: {
-                selectText: "Choose",
-                navigateText: "Toggle",
-                closeText: "Close",
-                searchByText: "Search",
-              },
-              noResultsScreen: {
-                noResultsText: "No result found",
-                suggestedQueryText: "You can try query",
-                reportMissingResultsText:
-                  "Do you think this query should have results？",
-                reportMissingResultsLinkText: "Click for Feedback",
-              },
-            },
-          },
-        },
-        "/es/": {
           placeholder: "Español",
           translations: {
             button: {

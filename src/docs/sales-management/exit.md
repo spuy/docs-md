@@ -54,4 +54,3 @@ Imagen 15. Factura Número 85933 Generada desde la Orden de Salida
 Note
 
 Podrá visualizar que la búsqueda inteligente **Generar Factura desde Orden de Salida**, genera una factura por socio del negocio; agrupando en una sola línea de la factura la cantidad total de un mismo producto que se ubique en diferentes órdenes de ventas.
-

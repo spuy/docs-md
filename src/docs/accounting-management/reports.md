@@ -12,13 +12,13 @@ Es elemental garantizar que los integrantes de stakeholders estén conformes con
 
 Un gran desafío para los gestores de la empresa es encontrar objetivos comunes entre todos los miembros de los stakeholders que inciden en la organización para garantizar un crecimiento sustentable, para esto es necesario e imprescindible contar con reportes que reflejen la situación económica de la compañía, uno de estos reportes financieros suele ser los estados financieros, estos cuentan generalmente con cuatro componentes básicos:
 
-  - Balance de Comprobación.
+- Balance de Comprobación.
 
-  - Estado de Situación Financiera o Balance General.
+- Estado de Situación Financiera o Balance General.
 
-  - Estado de Resultados.
+- Estado de Resultados.
 
-  - Estado de Flujos de Efectivo.
+- Estado de Flujos de Efectivo.
 
 ADempiere contempla una solución a esta necesidad, donde además de estados financieros se incluyen reportes que evidencia en detalle las transacciones realizadas durante el ejercicio, así como las operaciones que incorporan a los saldos en los estados financieros básicos.
 
@@ -26,15 +26,15 @@ Es importante acotar, que en ocasiones es necesario preparar otros reportes fina
 
 Sin embargo, aun cuando existen factores relevantes al medir el flujo de efectivo o la rentabilidad, es aún más importante conocer la situación real del negocio, generando información adicional de forma detallada, con los reportes que ADempiere ofrece para nuestros clientes:
 
-  - Libros Diarios.
+- Libros Diarios.
 
-  - Estado de Cuenta o Mayor Analítico.
+- Estado de Cuenta o Mayor Analítico.
 
-  - Libro de Inventarios.
+- Libro de Inventarios.
 
-  - Libro de Impuestos y Retenciones.
+- Libro de Impuestos y Retenciones.
 
-  - Detalles de Costos.
+- Detalles de Costos.
 
 A continuación, ERPyA desea ofrecer a sus clientes un material en el cual explicaremos de forma detallada las consideraciones, bondades y herramientas que ADempiere brinda para interpretar información contable que ayudará a complementar el análisis, permitiendo una visión clara a la hora de tomar decisiones en su empresa.
 
@@ -166,7 +166,7 @@ Imagen 12. Campo Lista Transacciones
 
 Seleccione la opción Si o No en el campo Listas Fuentes Primero.
 
-Listas Fuentes Primero se encuentra por defecto con la opción **No**, no es un campo obligatorio, sin embargo, le permite organizar su informe financiero, organizando las cuentas fuentes(cuentas detalle) listadas desde la opción **Desplegar fuentes Fuentes** y **Lista Transacciones** de forma que si la opción seleccionada en el campo **Listas Fuentes Primero** es **Si las cuentas detalle junto a las transacciones irán precediendo a las cuentas definidas previamente en el **Grupo de Líneas del Informe** asociado al informe financiero, si por el contrario, el campo está vacío ADempiere mostrará las cuentas detalle junto a las transacciones sucediendo a las cuentas definidas previamente en el **Grupo de Líneas del Informe** asociado al informe financiero.
+Listas Fuentes Primero se encuentra por defecto con la opción **No**, no es un campo obligatorio, sin embargo, le permite organizar su informe financiero, organizando las cuentas fuentes(cuentas detalle) listadas desde la opción **Desplegar fuentes Fuentes** y **Lista Transacciones** de forma que si la opción seleccionada en el campo **Listas Fuentes Primero** es **Si las cuentas detalle junto a las transacciones irán precediendo a las cuentas definidas previamente en el **Grupo de Líneas del Informe** asociado al informe financiero, si por el contrario, el campo está vacío ADempiere mostrará las cuentas detalle junto a las transacciones sucediendo a las cuentas definidas previamente en el **Grupo de Líneas del Informe\*\* asociado al informe financiero.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image505.png)
 
@@ -963,4 +963,3 @@ Podrá visualizar de la siguiente manera el reporte **Registros Contables No Con
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image624.png)
 
 Imagen 6. Reporte de Registros Contables No Conciliados
-

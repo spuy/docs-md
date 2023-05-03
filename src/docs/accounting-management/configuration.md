@@ -872,7 +872,6 @@ Note
 
 Recuerde guardar el registro de los campos de la pestaña **Contabilidad**, seleccionando el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere.
 
-
 ## Impuestos
 
 Ubique y seleccione en el menú de ADempiere, la carpeta **Análisis de Desempeño**, luego seleccione la carpeta **Reglas Contables**, por último seleccione la ventana **Tasa de Impuesto**.

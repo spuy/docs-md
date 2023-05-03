@@ -77,4 +77,3 @@ A continuación indique el nombre o razón social del cliente en el campo **Nomb
 ![Campo](/assets/img/docs/sales-management/sam-sales-image312.png)
 
 Imagen 7. Nombre Socio de Negocio
-

@@ -132,7 +132,6 @@ Seleccione la acción **Completar** y la opción **OK**, para completar el docum
 
 Imagen 15. Acción Completar y Opción OK
 
-
 ### Crear Orden de Compra desde Líneas de la Requisición
 
 En ADempiere es posible generar automáticamente mediante el proceso **Crear Orden de Compra desde Líneas de la Requisición**, un documento de **Orden de Compra** con la información suministrada en el documento de **Requisición** previamente elaborado.
@@ -141,10 +140,9 @@ El presente material elaborado por ERPyA, pretende ofrecerle una explicación ef
 
 Crear Orden de Compra desde Líneas de la Requisición
 
-
 ### Crear Orden de Compra desde Líneas de la Requisición
 
-Para ejecutar el procedimiento de manera correcta, debe existir obligatoriamente un registro de requisición en estado **Completo. En este caso, se tiene como ejemplo la requisición **RCN-4**.
+Para ejecutar el procedimiento de manera correcta, debe existir obligatoriamente un registro de requisición en estado **Completo. En este caso, se tiene como ejemplo la requisición **RCN-4\*\*.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image330.png)
 
@@ -452,7 +450,6 @@ Seleccione la acción **Completar** y la opción **OK**, para completar el proce
 
 Imagen 50. Acción Completar y Opción OK
 
-
 ## Orden de Compra Directa
 
 Una orden de compra es un documento elaborado por el departamento de compras de una empresa determinada, contiene los productos y servicios que dicha empresa necesita, la cantidad y los precios acordados con el proveedor a la que va dirigida, así como el sello del departamento de compras y la firma del jefe de dicho departamento.
@@ -465,7 +462,7 @@ Registro de Orden de Compra Directa
 
 Una Orden de Compra en ADempiere, es un tipo de documento emitido por la empresa para realizar pedidos a sus diferentes proveedores. En ella se detalla: la cantidad a comprar, el tipo de producto, precio y condiciones de pago, así como también la forma de entrega.
 
-Para el registro de un documento en ADempiere debe tener en cuenta que existen campos que son de carácter obligatorio, estos campos están identificados con el carácter especial:(*) de color rojo.
+Para el registro de un documento en ADempiere debe tener en cuenta que existen campos que son de carácter obligatorio, estos campos están identificados con el carácter especial:(\*) de color rojo.
 
 Warning
 
@@ -497,7 +494,7 @@ Imagen 4. Campo Organización
 
 Warning
 
-El valor en el campo organización debe ser diferente del símbolo (*) ya que éste símbolo hace referencia a todas las Organizaciones.
+El valor en el campo organización debe ser diferente del símbolo (\*) ya que éste símbolo hace referencia a todas las Organizaciones.
 
 En el campo **No. de Documento**, no es necesario ingresarlo en forma manual, al momento de realizar un registro, ADempiere genera un número de secuencia automáticamente para el documento, al seleccionar la opción guardar del nuevo registro de orden de compra.
 
@@ -541,21 +538,21 @@ Si el Socio de negocio, tiene más de una dirección registrada, debe selecciona
 
 Imagen 11. Campo Dirección del Socio del Negocio
 
-En la sección de **Entrega****, se encuentran los siguientes grupos de campos: almacén, entrega directa y usuario, estos hacen referencia a:
+En la sección de **Entrega\*\***, se encuentran los siguientes grupos de campos: almacén, entrega directa y usuario, estos hacen referencia a:
 
-**Almacén, en el cual se requiere el producto o servicio (Es de Carácter obligatorio)
+\*\*Almacén, en el cual se requiere el producto o servicio (Es de Carácter obligatorio)
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image391.png)
 
 Imagen 12 . Campo Almacén
 
-**Entrega Directa, Indica que el proveedor realizará la entrega directamente al cliente.
+\*\*Entrega Directa, Indica que el proveedor realizará la entrega directamente al cliente.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image392.png)
 
 Imagen 13. Campo Entrega Directa
 
-**Usuario, Indica el Nombre del usuario de sistema.
+\*\*Usuario, Indica el Nombre del usuario de sistema.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image393.png)
 
@@ -609,7 +606,7 @@ Warning
 
 Recuerde guardar el registro de la ventana, seleccionando el icono **Guardar** ubicado en la barra de herramientas, una vez guardado el nuevo registro, podrá avanzar a la pestaña **Línea Orden Compra**.
 
-Seleccione la pestaña **Línea Orden Compra** y proceda seleccionando el Producto o Servicio a ordenar. Si la orden de compra contiene varios productos, el campo **Nro. de Línea****, indicará el orden y despliegue de los mismos dentro del documento. Una vez que guarde el primer producto, deberá seleccionar nuevo, incrementando así el número de líneas por productos en el documento.
+Seleccione la pestaña **Línea Orden Compra** y proceda seleccionando el Producto o Servicio a ordenar. Si la orden de compra contiene varios productos, el campo **Nro. de Línea\*\***, indicará el orden y despliegue de los mismos dentro del documento. Una vez que guarde el primer producto, deberá seleccionar nuevo, incrementando así el número de líneas por productos en el documento.
 
 Warning
 
@@ -627,25 +624,25 @@ En la Sección **Cantidades**, se encuentra el siguiente grupo de Campos: cantid
 
 Imagen 23. Campo Cantidad
 
-**Unidad de Medida, indica la unidad de medida del producto ordenado.
+\*\*Unidad de Medida, indica la unidad de medida del producto ordenado.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image403.png)
 
 Imagen 24. Campo Unidad de Medida
 
-**Cantidad Facturada, indica la cantidad de un producto que ha sido facturado.
+\*\*Cantidad Facturada, indica la cantidad de un producto que ha sido facturado.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image404.png)
 
 Imagen 25. Campo Cantidad Facturada
 
-**Cantidad Reservada, indica la cantidad del producto que ha sido reservado para otras órdenes.
+\*\*Cantidad Reservada, indica la cantidad del producto que ha sido reservado para otras órdenes.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image405.png)
 
 Imagen 26. Campo Cantidad Reservada
 
-**Cantidad Entregada, indica la cantidad de un producto que ha sido entregado.
+\*\*Cantidad Entregada, indica la cantidad de un producto que ha sido entregado.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image406.png)
 
@@ -749,7 +746,7 @@ Imagen 3. Campo Organización
 
 Warning
 
-El valor en el campo organización debe ser diferente del símbolo (*) ya que éste símbolo hace referencia a todas las Organizaciones.
+El valor en el campo organización debe ser diferente del símbolo (\*) ya que éste símbolo hace referencia a todas las Organizaciones.
 
 En el campo **No. de Documento**, no es necesario ingresarlo en forma manual, al momento de realizar un registro, ADempiere genera un número de secuencia automáticamente para el documento, al seleccionar la opción guardar del nuevo registro de orden de compra multimoneda.
 
@@ -801,7 +798,7 @@ Si el socio de negocio, tiene más de una dirección registrada, debe selecciona
 
 Imagen 11. Campo Dirección del Socio del Negocio
 
-Seleccione en el campo ***Dirección Factura**, la dirección del socio del negocio para la factura.
+Seleccione en el campo **\*Dirección Factura**, la dirección del socio del negocio para la factura.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image429.png)
 
@@ -975,7 +972,7 @@ En el campo **Cantidad Reservada**, se indica la cantidad del producto que ha si
 
 Imagen 35. Campo Cantidad Reservada
 
-Seleccione en el campo **Cantidad Facturada, la cantidad de un producto que ha sido facturado.
+Seleccione en el campo \*\*Cantidad Facturada, la cantidad de un producto que ha sido facturado.
 
 Este campo estará en cero (0), hasta que sea generado un documento de cuentas por pagar (factura) con dicho producto, asociando la orden de compra.
 

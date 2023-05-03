@@ -341,7 +341,7 @@ Seleccione en el campo **Socio del Negocio**, el socio del negocio para filtrar 
 
 Imagen 4. Campo Socio del Negocio
 
-Seleccione en el campo **F. Documento, el rango de fecha del documento para filtrar la información.
+Seleccione en el campo \*\*F. Documento, el rango de fecha del documento para filtrar la información.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image76.png)
 

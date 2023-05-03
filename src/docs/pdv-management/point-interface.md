@@ -188,7 +188,7 @@ Se puede filtrar la información con ayuda del socio del negocio de la orden, in
 
 Imagen 30. Campo Socio del Negocio del Grupo de Campos Entrar Consulta de la Ventana Orden de Venta Desplegada por el Icono Registros Históricos
 
-Se puede filtrar la información por rango de fecha, seleccionando el checklist **Fecha**, para que se habiliten los campos **Desde** y **Hasta, e ingresando en dichos campos el rango de fecha para buscar la orden.
+Se puede filtrar la información por rango de fecha, seleccionando el checklist **Fecha**, para que se habiliten los campos **Desde** y \*\*Hasta, e ingresando en dichos campos el rango de fecha para buscar la orden.
 
 ![Campo](/assets/img/docs/pdv-management/pdm-pdv-image205.png)
 

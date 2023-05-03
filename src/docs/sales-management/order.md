@@ -250,7 +250,6 @@ Seleccione la acción **Completar** y la opción **OK**, para completar el docum
 
 Imagen 39. Opción Completar
 
-
 ## Validación de Inventario en Orden de Venta
 
 Para validar la disponibilidad de los productos en las ventas por medio de las órdenes de venta, ya sea desde la ventana **Órdenes de Venta** o desde el formulario **Punto de Venta**, ERPyA realizó una actualización en los tipos de documentos de órdenes de venta. Dicha actualización consta de un check que establece como regla principal la disponibilidad en almacén de los productos cargados a la orden.

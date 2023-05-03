@@ -40,7 +40,7 @@ Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de A
 
 Imagen 3. Icono Registro Nuevo
 
-Seleccione en el campo **Organización la organización para la cual se encuentra realizando el registro.
+Seleccione en el campo \*\*Organización la organización para la cual se encuentra realizando el registro.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image316.png)
 
@@ -182,7 +182,7 @@ Introduzca en el campo **Grupo 2**, el grupo 2 correspondiente al registro que s
 
 Imagen 21. Campo Grupo 2
 
-El campo **Base del Precio de Lista, indica el precio a usar como la base para el cálculo de una nueva lista de precios.
+El campo \*\*Base del Precio de Lista, indica el precio a usar como la base para el cálculo de una nueva lista de precios.
 
 El presente campo contiene predeterminada la opción **Precio de Lista**.
 
@@ -376,7 +376,7 @@ Imagen 6. Campo Organización
 
 Note
 
-La organización seleccionada en la lista de precios, debe coincidir con la organización seleccionada en la tasa de cambio creada a la fecha. Si la lista de precios esta creada con organización (*), las tasas de cambio a utilizar deben estar creadas con organización (*).
+La organización seleccionada en la lista de precios, debe coincidir con la organización seleccionada en la tasa de cambio creada a la fecha. Si la lista de precios esta creada con organización (_), las tasas de cambio a utilizar deben estar creadas con organización (_).
 
 Introduzca en el campo **Nombre**, el nombre correspondiente a la versión de lista de precios que se encuentra creando.
 
@@ -430,7 +430,7 @@ Imagen 12. Opción Crear Lista de Precios
 
 Note
 
-También puede acceder al proceso, seleccionando la opción **Crear Lista de Precios** desplegada del icono **Proceso ubicado en la barra de herramientas de ADempiere.
+También puede acceder al proceso, seleccionando la opción **Crear Lista de Precios** desplegada del icono \*\*Proceso ubicado en la barra de herramientas de ADempiere.
 
 Podrá visualizar la ventana **Crear Lista de Precios**, con diferentes campos que permiten generar la lista de precios en base a lo requerido por el usuario.
 
@@ -588,7 +588,7 @@ Imagen 6. Campo Organización
 
 Note
 
-La organización seleccionada en la lista de precios, debe coincidir con la organización seleccionada en la tasa de cambio creada a la fecha. Si la lista de precios esta creada con organización (*), las tasas de cambio a utilizar deben estar creadas con organización (*).
+La organización seleccionada en la lista de precios, debe coincidir con la organización seleccionada en la tasa de cambio creada a la fecha. Si la lista de precios esta creada con organización (_), las tasas de cambio a utilizar deben estar creadas con organización (_).
 
 Introduzca en el campo **Nombre**, el nombre correspondiente a la versión de lista de precios que se encuentra creando.
 
@@ -636,7 +636,7 @@ Imagen 13. Opción Crear Lista de Precios
 
 Note
 
-También puede acceder al proceso, seleccionando la opción **Crear Lista de Precios** desplegada del icono **Proceso ubicado en la barra de herramientas de ADempiere.
+También puede acceder al proceso, seleccionando la opción **Crear Lista de Precios** desplegada del icono \*\*Proceso ubicado en la barra de herramientas de ADempiere.
 
 Podrá visualizar la ventana **Crear Lista de Precios**, con diferentes campos que permiten generar la lista de precios en base a lo requerido por el usuario.
 
@@ -762,7 +762,7 @@ Imagen 6. Campo Organización
 
 Note
 
-La organización seleccionada en la lista de precios, debe coincidir con la organización seleccionada en la tasa de cambio creada a la fecha. Si la lista de precios esta creada con organización (*), las tasas de cambio a utilizar deben estar creadas con organización (*).
+La organización seleccionada en la lista de precios, debe coincidir con la organización seleccionada en la tasa de cambio creada a la fecha. Si la lista de precios esta creada con organización (_), las tasas de cambio a utilizar deben estar creadas con organización (_).
 
 Introduzca en el campo **Nombre**, el nombre correspondiente a la versión de lista de precios que se encuentra creando.
 
@@ -808,7 +808,7 @@ Imagen 12. Opción Crear Lista de Precios
 
 Note
 
-También puede acceder al proceso, seleccionando la opción **Crear Lista de Precios** desplegada del icono **Proceso ubicado en la barra de herramientas de ADempiere.
+También puede acceder al proceso, seleccionando la opción **Crear Lista de Precios** desplegada del icono \*\*Proceso ubicado en la barra de herramientas de ADempiere.
 
 Podrá visualizar la ventana **Crear Lista de Precios**, con diferentes campos que permiten generar la lista de precios en base a lo requerido por el usuario.
 
@@ -880,13 +880,13 @@ Margen de Gancia por Categoría (Suministro de Dotaciones): 20%
 
 Resultado de Operación:
 
-Precio de Compra del Producto (DOIS-000001_Estandar) * Tasa de Cambio = Precio de Compra Convertido
+Precio de Compra del Producto (DOIS-000001_Estandar) \* Tasa de Cambio = Precio de Compra Convertido
 
 Precio de Compra Convertido + Margen de Gancia por Categoría (Suministro de Dotaciones) = Precio del Producto (DOIS-000001_Estandar) para la Venta
 
 Ejemplo:
 
-12,00 * 1.877.000,00 = 22.524.000,00
+12,00 \* 1.877.000,00 = 22.524.000,00
 
 22.524.000,00 + 20% = 27.028.800,00
 
@@ -916,7 +916,7 @@ Seleccione ĺa opción **Crear Entradas de Productos en Lista de Precios**, para
 
 Imagen 4. Opción Crear Entradas de Productos en Lista de Precios
 
-También puede acceder al proceso, seleccionando la opción **Crear Entradas de Productos en Lista de Precios** desplegada del icono **Proceso ubicado en la barra de herramientas de ADempiere.
+También puede acceder al proceso, seleccionando la opción **Crear Entradas de Productos en Lista de Precios** desplegada del icono \*\*Proceso ubicado en la barra de herramientas de ADempiere.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image423.png)
 

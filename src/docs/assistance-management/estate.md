@@ -21,7 +21,7 @@ Imagen 1. Menú de ADempiere
 
 Podrá visualizar la ventana **Finca**, con los diferentes registros de fincas que contiene ADempiere.
 
-En esta ventana se registran los datos principales que la empresa requiere de la finca. Cada uno de los campos con el símbolo (*) son obligatorios para el registro.
+En esta ventana se registran los datos principales que la empresa requiere de la finca. Cada uno de los campos con el símbolo (\*) son obligatorios para el registro.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image2.png)
 

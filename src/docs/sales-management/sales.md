@@ -83,7 +83,7 @@ Recaudo: El vendedor comisiona si todas sus facturas estan cobradas.
 
 Imagen 7. Campo Base del Cálculo
 
-El campo **Tipo de Frecuencia se usa para definir las fechas de inicio y fin del cálculo. Es decir, cada cuanto tiempo comisionará el vendedor:
+El campo \*\*Tipo de Frecuencia se usa para definir las fechas de inicio y fin del cálculo. Es decir, cada cuanto tiempo comisionará el vendedor:
 
 Anualmente: Cada año (365 días).
 
@@ -231,7 +231,7 @@ Podrá visualizar la ventana **Cálculo de Comisiones**, donde debe seleccionar 
 
 Imagen 2. Icono Registro Nuevo
 
-Seleccione en el campo **Organización**, la organización para la cual esta realizando el documento **Cálculo de Comisiones***.
+Seleccione en el campo **Organización**, la organización para la cual esta realizando el documento **Cálculo de Comisiones\***.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image504.png)
 

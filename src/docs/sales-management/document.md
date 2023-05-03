@@ -274,4 +274,3 @@ Al imprimir el registro en la ventana **Documentos por Cobrar**, seleccionando e
 ![Campo](/assets/img/docs/sales-management/sam-sales-image255.png)
 
 Imagen 19. Imprimir Facturas Generadas
-

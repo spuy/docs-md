@@ -35,7 +35,7 @@ Seleccione la opción **Registro Nuevo** en la barra de herramientas de ADempier
 
 Imagen 2. Registro Nuevo
 
-Seleccione en el campo **Organización**, la organización para la cual se esta realizando el documento por pagar de productos o servicios, el valor en el mismo debe ser diferente del símbolo (*).
+Seleccione en el campo **Organización**, la organización para la cual se esta realizando el documento por pagar de productos o servicios, el valor en el mismo debe ser diferente del símbolo (\*).
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image220.png)
 
@@ -379,7 +379,7 @@ Imagen 56. Campo Neto de Línea
 
 Note
 
-El total neto de la línea se obtiene de la operación (Cantidad * Precio Actual) sin fletes ni cargos. Cualquier cargo adicional o flete no es incluido.
+El total neto de la línea se obtiene de la operación (Cantidad \* Precio Actual) sin fletes ni cargos. Cualquier cargo adicional o flete no es incluido.
 
 De igual manera, podrá visualizar en el campo **Total de la Línea**, la cantidad total de la línea con los impuestos incluidos
 
@@ -616,7 +616,6 @@ Seleccione la acción **Completar** y la opción **OK**, para culminar el proced
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image309.png)
 
 Imagen 30. Acción Completar y Opción OK de la Ventana Documentos por Pagar desde Orden de Compra
-
 
 ## Conversión de Factura Automática
 
