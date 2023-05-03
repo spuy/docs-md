@@ -1,5 +1,5 @@
 ---
-title: About of Announcements
+title: Noticias de ERPyA
 icon: blog
 category: Articles
 star: 9
@@ -11,4 +11,4 @@ tag:
 article: false
 ---
 
-A complete blog with some articles created by ADempiere contributors
+Noticias de todo lo nuevo de [ERPyA](https://erpya.com/).

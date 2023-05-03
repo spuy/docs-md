@@ -1,26 +1,26 @@
 ---
-title: Binary Download
+title: Descarga Binaria
 icon: github
-category: Download
+category: Descarga
 star: 9
 sticky: 9
 tag:
   - Github
-  - Release
-  - Assets
+  - Descarga
+  - Bienes
   - tar
   - gz
 article: false
 ---
 
-::: tip We are on Github
+::: tip Nosotros estamos en Github
 
-All community of [ADempiere ERP](http://adempiere.net/) is over [Gihub](http://github.com/adempiere). We have many projects for you with daily contributions.
+Toda la comunidad de [ADempiere ERP](http://adempiere.net/) se encuentra en [Github](http://github.com/adempiere). Tenemos muchos proyectos para ti con aportes diarios.
 
 :::
 
-## Github Releases
+## Github Lanzamientos
 
-All releases of [ADempiere ERP](http://adempiere.net/) are [here](https://github.com/adempiere/adempiere/releases)
+Todos los lanzamientos de [ADempiere ERP](http://adempiere.net/) estan [aca](https://github.com/adempiere/adempiere/releases)
 
 <Releases/>

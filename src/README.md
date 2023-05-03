@@ -2,22 +2,22 @@
 home: true
 layout: Blog
 icon: home
-title: Home
+title: Inicio
 bgImage: /background.png
 heroFullScreen: true
 projects:
-  - name: Release 3.9.4
-    desc: This is a great news for ADempiere Community
+  - name: Liberación de ADempiere 3.9.4
+    desc: La versión 3.9.4 ya está disponible
     link: https://github.com/adempiere/adempiere/releases/tag/3.9.4
     icon: /assets/icon/logo.png
-  - name: New UI for ADempiere
-    desc: Completely created on Javascript with Vue
+  - name: Nueva Interfáz para ADempiere
+    desc: Completamente desarrollada con Vue JS
     link: https://github.com/adempiere/adempiere-vue
     icon: /assets/img/vue-logo.png
-  - name: Discord Rooms
-    desc: Hey we are on Discord!
-    link: https://discord.gg/8eFAqkhb
+  - name: Discord
+    desc: Estamos en Discord!
+    link: https://discord.gg/UWcyn7DEzV
     icon: /assets/img/discord-logo.png
 
-footer: '<a href="https://github.com/adempiere" rel="noopener noreferrer" target="_blank">ADempiere Community</a> | <a href="/about/site">About Site</a>'
+footer: '<a href="https://erpya.com" rel="noopener noreferrer" target="_blank">ERP Consultores y Asociados, C.A.</a> | <a href="/about">Nosotros</a>'
 ---

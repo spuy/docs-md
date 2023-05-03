@@ -24,9 +24,9 @@ export default defineUserConfig({
 
   locales: {
     "/": {
-      lang: "en-US",
+      lang: "es-ES",
       title: "",
-      description: "A official page of ADempiere community.",
+      description: "Página oficial de documentación ERP Consultores y Asociados, C.A.",
     },
   },
 

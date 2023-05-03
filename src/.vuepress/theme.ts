@@ -1,7 +1,6 @@
 import { hopeTheme } from "vuepress-theme-hope";
 
 import { enNavbarConfig, esNavbarConfig } from "./navbar";
-// import { esSidebarConfig, enSidebarConig } from "./sidebar";
 
 export default hopeTheme({
   hostname: "https://docs-md.erpya.com",
@@ -25,14 +24,13 @@ export default hopeTheme({
   locales: {
     "/": {
       navbar: enNavbarConfig,
-      // sidebar: enSidebarConig,
 
       blog: {
         description: "Documentación Oficial de ERP Consultores y Asociados, CA",
         intro: "/about/",
         medias: {
           Gmail: "mailto:info@erpya.com",
-          GitHub: "https://github.com/adempiere/adempiere-site",
+          GitHub: "https://github.com/erpcya",
           Discord: "https://discord.gg/UWcyn7DEzV",
           Twitter: "https://twitter.com/erpcya",
         },
