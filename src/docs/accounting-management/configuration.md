@@ -396,7 +396,7 @@ Imagen 1. Menú de ADempiere
 
 Podrá visualizar la ventana **Socio del Negocio**, con los diferentes registros de socios del negocio que contiene ADempiere.
 
-![Campo](/assets/img/docs/accounting-management/acm-accounting-imag118.png)
+![Campo](/assets/img/docs/accounting-management/acm-accounting-image118.png)
 
 Imagen 2. Ventana Socio del Negocio
 
