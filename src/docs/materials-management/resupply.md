@@ -250,7 +250,7 @@ Imagen 12. Campo Tipo de Reabastecimiento de la Ventana Reabastecimiento de Alma
 
 Seleccione en el campo **Almacén**, el almacén por el cual requiere filtrar la información.
 
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-imag102.png)
+![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image102.png)
 
 Imagen 13. Campo Almacén de la Ventana Reabastecimiento de Almacén
 

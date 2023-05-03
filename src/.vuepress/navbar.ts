@@ -101,41 +101,6 @@ export const enNavbarConfig = navbar([
           // "material-management/warehouse/",
         ],
       },
-      // {
-      //   text: "Manufacturing",
-      //   children: [
-      //     "manufacturing/manufacturing",
-      //     "manufacturing/production-light",
-      //   ],
-      // },
-      // {
-      //   text: "Human Resource and Payroll",
-      //   children: [
-      //     "human-resource/human-resource/",
-      //     "human-resource/payroll/",
-      //     "human-resource/time-and-attendance/",
-      //   ],
-      // },
-      // {
-      //   text: "Retail",
-      //   children: ["retail/point-of-sales/", "retail/distribution/"],
-      // },
-      // {
-      //   text: "Verticals",
-      //   children: [
-      //     "verticals/investment-and-loan/",
-      //     "verticals/farmer-assistance-program/",
-      //   ],
-      // },
-      // {
-      //   text: "Locations",
-      //   children: [
-      //     "locations/lve/",
-      //     "locations/lmx/",
-      //     "locations/lsv/",
-      //     "locations/luy/",
-      //   ],
-      // },
     ],
   },
   {

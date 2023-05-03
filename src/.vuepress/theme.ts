@@ -16,7 +16,7 @@ export default hopeTheme({
 
   logo: "/logo.svg",
 
-  repo: "https://github.com/adempiere/adempiere-site",
+  repo: "https://github.com/erpcya/docs",
 
   repoDisplay: false,
 
@@ -28,27 +28,13 @@ export default hopeTheme({
       // sidebar: enSidebarConig,
 
       blog: {
-        description: "ADempiere ERP Community",
+        description: "Documentación Oficial de ERP Consultores y Asociados, CA",
         intro: "/about/",
         medias: {
-          Gmail: "mailto:info@adempiere.io",
+          Gmail: "mailto:info@erpya.com",
           GitHub: "https://github.com/adempiere/adempiere-site",
-        },
-      },
-    },
-    "/es/": {
-      navbar: esNavbarConfig,
-      // sidebar: esSidebarConfig,
-
-      blog: {
-        description:
-          "VuePress project member, front-end developer, studying for a master's degree in theoretical physics",
-        intro: "/es/about/",
-        medias: {
-          Gmail: "mailto:info@adempiere.io",
-          GitHub: "https://github.com/adempiere/adempiere-site",
-          Discord: "https://discord.gg/8eFAqkhb",
-          Twitter: "https://twitter.com/ADempiereERP",
+          Discord: "https://discord.gg/UWcyn7DEzV",
+          Twitter: "https://twitter.com/erpcya",
         },
       },
     },
