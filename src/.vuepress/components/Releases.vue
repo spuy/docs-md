@@ -24,7 +24,7 @@ export default {
   },
   created() {
     axios
-      .get("https://api.github.com/repos/adempiere/adempiere/releases")
+      .get("https://api.github.com/repos/erpya/zk-ui/releases")
       .then((result) => {
         if (result.data) {
           this.releasesList = result.data;

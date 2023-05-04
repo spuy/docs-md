@@ -13,14 +13,20 @@ tag:
 article: false
 ---
 
-::: tip Nosotros estamos en Github
+::: tip Estamos en Github
 
-Toda la comunidad de [ADempiere ERP](http://adempiere.net/) se encuentra en [Github](http://github.com/adempiere). Tenemos muchos proyectos para ti con aportes diarios.
+Nuestros repositorios se encuentran en [Github](http://github.com/erpcya).
+
+Diariamente hacemos mejoras a nuestras versiones con la finalidad de mejorar las herramientas de apoyo de nuestros clientes.
 
 :::
 
-## Github Lanzamientos
+Nos encargamos de automatizar la construcción de cada imagen para tenerlas disponibles en minutos, ésto nos nos permite enfocar toda nuestra atención en mejorar el servicio y proveer mejoras considerables en menor tiempo.
 
-Todos los lanzamientos de [ADempiere ERP](http://adempiere.net/) estan [aca](https://github.com/adempiere/adempiere/releases)
+Toma tu tiempo y verifica las versiones que tenemos para ti.
+
+## Liberaciones de Github
+
+Todas las versiones de [ADempiere ERP](https://erpya.com) se encuentran [aquí](https://github.com/erpya/zk-ui/releases)
 
 <Releases/>
