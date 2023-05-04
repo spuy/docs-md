@@ -3,8 +3,8 @@ home: true
 layout: Blog
 icon: home
 title: Inicio
-bgImage: /background.svg
-heroFullScreen: true
+bgImage: /background.png
+heroFullScreen: false
 projects:
   - name: Liberación de ADempiere 3.9.4
     desc: La versión 3.9.4 ya está disponible
