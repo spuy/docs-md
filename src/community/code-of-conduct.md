@@ -1,6 +1,6 @@
 ---
 title: Código de Conducta
-category: Community
+category: Comunidad
 star: 9
 sticky: 9
 tag:

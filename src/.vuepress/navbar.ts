@@ -15,6 +15,12 @@ export const enNavbarConfig = navbar([
           "2023-01-01-adempiere-394",
         ],
       },
+      {
+        text: "Historia",
+        children: [
+          "the-beginning",
+        ],
+      },
     ],
   },
   {
@@ -30,7 +36,6 @@ export const enNavbarConfig = navbar([
           "business-process",
           "benefits",
           "source-code",
-          "demo",
         ],
       },
     ],
@@ -110,7 +115,7 @@ export const enNavbarConfig = navbar([
       },
       {
         text: "Binarios de Aplicaciones",
-        children: ["docker", "helm", "operator", "binary"],
+        children: ["docker", "binary"],
       },
     ],
   },
