@@ -3,11 +3,11 @@
   <id>https://docs-md.erpya.com/</id>
   <title/>
   <subtitle>Página oficial de documentación ERP Consultores y Asociados, C.A.</subtitle>
-  <updated>2023-05-04T16:22:45.798Z</updated>
+  <updated>2023-05-04T19:08:42.430Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://docs-md.erpya.com/atom.xml"/>
   <link rel="alternate" href="https://docs-md.erpya.com/"/>
-  <category term="News"/>
+  <category term="Noticias"/>
   <contributor>
     <name>Yamel Senih</name>
   </contributor>
@@ -15,13 +15,13 @@
     <title type="html">Liberación de ADempiere 3.9.4</title>
     <id>https://docs-md.erpya.com/about/news/2023-01-01-adempiere-394.html</id>
     <link href="https://docs-md.erpya.com/about/news/2023-01-01-adempiere-394.html"/>
-    <updated>2023-05-03T19:30:21.000Z</updated>
+    <updated>2023-05-04T19:06:12.000Z</updated>
     <content type="html"><![CDATA[<h2 id="adempiere-3-9-4-esta-aqui" tabindex="-1"> ADempiere 3.9.4 está aquí</h2>
 ]]></content>
     <author>
       <name>Yamel Senih</name>
     </author>
-    <category term="News" scheme=""/>
+    <category term="Noticias" scheme=""/>
     <contributor>
       <name>Yamel Senih</name>
     </contributor>

@@ -6,17 +6,17 @@
     <link>https://docs-md.erpya.com/</link>
     <description>Página oficial de documentación ERP Consultores y Asociados, C.A.</description>
     <language>es-ES</language>
-    <pubDate>Thu, 04 May 2023 16:22:45 GMT</pubDate>
-    <lastBuildDate>Thu, 04 May 2023 16:22:45 GMT</lastBuildDate>
+    <pubDate>Thu, 04 May 2023 19:08:42 GMT</pubDate>
+    <lastBuildDate>Thu, 04 May 2023 19:08:42 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <category>News</category>
+    <category>Noticias</category>
     <item>
       <title>Liberación de ADempiere 3.9.4</title>
       <link>https://docs-md.erpya.com/about/news/2023-01-01-adempiere-394.html</link>
       <guid>https://docs-md.erpya.com/about/news/2023-01-01-adempiere-394.html</guid>
       <source url="https://docs-md.erpya.com/rss.xml">Liberación de ADempiere 3.9.4</source>
-      <category>News</category>
+      <category>Noticias</category>
       <pubDate>Wed, 03 May 2023 19:30:21 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="adempiere-3-9-4-esta-aqui" tabindex="-1"> ADempiere 3.9.4 está aquí</h2>
 ]]></content:encoded>
