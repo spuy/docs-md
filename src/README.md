@@ -3,7 +3,7 @@ home: true
 layout: Blog
 icon: home
 title: Inicio
-bgImage: /background.png
+bgImage: /background.jpg
 heroFullScreen: false
 projects:
   - name: Liberación de ADempiere 3.9.4
