@@ -10,36 +10,40 @@ La mayoría de las empresas adquirieron diferentes softwares para cubrir las dif
 
 ADempiere, debido a su estado ERP, ofrece todo lo que una empresa necesita en un solo software, [ADempiere ERP](http://erpya.com/) quiere ofrecer a sus lectores una amplia gama de documentos estructurados para usuarios con alta y baja experiencia en el manejo de Software ERP, en los que cada proceso de este potente sistema será explicado de manera eficiente y detallada, definiendo paso a paso la gestión de cada uno, sus implicaciones contables, administrativas y fiscales y finalmente la emisión de resultados que permitan un control óptimo de sus operaciones.
 
-::: info Intro
+::: info Nota
 
 Tenga en cuenta que todo el ecosistema [ADempiere ERP](https://erpya.com/) se creó para ser utilizado en cualquier organización con cambios mínimos. Esta documentación fue creada para uso final, tecnología e implementación.
 
 :::
 
-## Proceso Estándar ERP
+## Menú Principal de Documentos
 
-**[Solicitud a factura](procedimientos estándar/solicitud a factura)**
+### Gestión Básica
 
-En [ADempiere ERP](https://erpya.com/), queremos garantizar el flujo productivo y administrativo de la empresa, por lo que es fundamental una gestión eficiente de las compras, que no es más que la adquisición de bienes o servicios, aquí te mostraremos cómo gestionar tus compras nacionales e internacionales en ADempiere ERP.
+- [Inicio de Sesión](basic-rules/login)
+- [Interfaz de Usuario](basic-rules/user-interface)
+- [Iconos de la Interfaz](basic-rules/icons-interface)
+- [Barra de Herramientas](basic-rules/toolbar)
+- [Accesos Rápidos](basic-rules/quick-access)
+- [Utilería](basic-rules/props)
 
-Más información sobre [Solicitud a factura](procedimientos estándar/solicitud a factura)
 
-**[Cotización a factura](procedimientos estándar/cotización a factura)**
+### Datos Maestros
 
-El proceso de venta es la secuencia de fases para convertir una oportunidad en una venta, desde que se genera un presupuesto o propuesta hasta que se concluye la venta, si quieres saber cómo ADempiere contempla este importante proceso [ADempiere ERP](https://erpya.com/) te lo explica.
+- [Socio del Negocio](master-data/business-partner)
+- [Producto](master-data/product)
+- [Almacén](master-data/warehouse)
+- [Reportes de Maestros](master-data/reports)
 
-Más información sobre [Cotizar a facturar](procedimientos estándar/cotización a factura)
+### Gestión de Materiales
 
-**[Open Items](procedimientos estándar/elementos abiertos)**
+- [Movimiento de Inventario](material-management/inventory-move)
+- [Inventario de Uso Interno](material-management/internal-use-inventory)
+- [Inventario Físico](material-management/physical-inventory)
+- [Lista de Materiales](material-management/ldm)
+- [Reabastecimiento](material-management/replenishment)
 
-La gestión de saldos pendientes en ADempiere te da la posibilidad de gestionar órdenes de pago, selección de pagos, pagos, cobros, conciliaciones automáticas, cartera morosa y deudas pendientes de la empresa, [ADempiere ERP](https://erpya.com/) quiere enseñarte a gestionar tus saldos pendientes en ADempiere.
+### Verticales de Negocio
 
-Más información sobre [Elementos abiertos](procedimientos estándar/elementos abiertos)
-
-## Gestión de Materiales
-
-**[Producto](gestión de materiales/product)**
-
-Los datos maestros incluyen registros que dan lugar a transacciones, por lo tanto no son modificables de forma regular, en este sentido ADempiere ERP explica cómo crear a sus profesores de una manera ideal, evitando así la duplicación e inconsistencia en los datos.
-
-Más información sobre [Gestión de datos](gestión de materiales/producto)
+- [Gestión de Asistencia al Agricultor](verticals/fap)
+- [Gestión de Préstamos e Inversiones](verticals/investment-and-loan)
