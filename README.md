@@ -12,9 +12,9 @@ The collection includes a number of books covering the main topics of:
 
 # More References
 
-- The official page is in: http://adempiere.io
-- The official Wiki is in: http://docs.adempiere.io
-- If you need report a bug see: https://github.com/adempiere/adempiere-site/issues
+- The official page is in: https://erpya.com
+- The official Wiki is in: http://docs.erpya.com
+- If you need report a bug see: https://github.com/erpcya/docs
 
 ![Discord](https://img.shields.io/discord/876231677209374750)
 
