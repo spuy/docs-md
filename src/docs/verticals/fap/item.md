@@ -1,5 +1,5 @@
 ---
-title: Rubro
+title: Rubro (Semilla)
 category: Documentation
 star: 9
 sticky: 9
