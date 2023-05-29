@@ -117,6 +117,10 @@ export const enNavbarConfig = navbar([
         text: "Binarios de Aplicaciones",
         children: ["docker", "binary"],
       },
+      {
+        text: "Actualizaciones",
+        children: ["updates/", "updates/rs-54.x"],
+      },
     ],
   },
 ]);
