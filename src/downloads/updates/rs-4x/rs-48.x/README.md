@@ -1,5 +1,5 @@
 ---
-title: Lista de Versiones 49.x
+title: Lista de Versiones 48.x
 icon: app
 category: Actualizaciones
 star: 9
@@ -11,7 +11,7 @@ tag:
 article: false
 ---
 
-A continuación se encuentra una listas con las versiones relacionadas a la **macro versión** **rs-54.x**
+A continuación se encuentra una listas con las versiones relacionadas a la **macro versión** **rs-48.x**
 
 - [rs-48.9](rs-48.9.md)
 - [rs-48.8](rs-48.8.md)
