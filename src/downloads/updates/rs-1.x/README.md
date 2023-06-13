@@ -1,5 +1,5 @@
 ---
-title: Versiones de Aplicaciones
+title: rs-1.x
 icon: app
 category: Actualizaciones
 star: 9

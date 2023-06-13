@@ -83,6 +83,14 @@ export const enNavbarConfig = navbar([
           "verticals/investment-and-loan",
         ],
       },
+      {
+        text: "Localización Venezuela",
+        children: [
+          "lve/document-utility/product-group",
+          "lve/document-utility/product-category",
+          "lve/document-utility/group-of-business-partners",
+        ],
+      },
     ],
   },
   {
@@ -119,7 +127,14 @@ export const enNavbarConfig = navbar([
       },
       {
         text: "Actualizaciones",
-        children: ["updates/", "updates/rs-54.x"],
+        children: [
+          "updates/", 
+          "updates/rs-5.x", 
+          "updates/rs-4.x",
+          "updates/rs-3.x",
+          "updates/rs-2.x",
+          "updates/rs-1.x"
+        ],
       },
     ],
   },
