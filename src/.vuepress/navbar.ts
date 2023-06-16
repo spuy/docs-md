@@ -86,9 +86,8 @@ export const enNavbarConfig = navbar([
       {
         text: "Localización Venezuela",
         children: [
-          "lve/document-utility/product-group",
-          "lve/document-utility/product-category",
-          "lve/document-utility/group-of-business-partners",
+          "lve/document-utility",
+          "lve/procedures",
         ],
       },
     ],
