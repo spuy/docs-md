@@ -88,6 +88,8 @@ export const enNavbarConfig = navbar([
         children: [
           "lve/document-utility",
           "lve/procedures",
+          "lve/report",
+          "lve/standard-coding",
         ],
       },
     ],
