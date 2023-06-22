@@ -1,5 +1,5 @@
 ---
-title: Generar Reporte de ARC en ADempiere
+title: Generar Reporte de Ventas Brutas desde el Proceso Resumen de Facturas de ADempiere
 icon: app
 category: Localización Venezuela
 star: 9
@@ -10,7 +10,7 @@ tag:
 article: false
 ---
 
-**Generar Reporte**
+**Generar Reporte de Ventas Brutas desde el Proceso Resumen de Facturas de ADempiere**
 ===================
 
 Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Consulta de Facturas**", por último seleccione el reporte "**Resumen de Facturas**".
