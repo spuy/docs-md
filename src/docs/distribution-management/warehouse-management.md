@@ -50,6 +50,15 @@ También puede generarse de manera manual permitiendo así una agrupación de or
    ![image](https://github.com/erpcya/docs/assets/9578152/30bd3f01-6bf0-45f1-a1da-e18b266be282)
 3. Luego seleccione la opción Operación de Salida
    ![image](https://github.com/erpcya/docs/assets/9578152/b38bfe7f-422b-404b-b03b-9de62651a355)
+4. Luego seleccione la opción Generar Orden de Salida desde orden de Venta/Distribución
+   ![image](https://github.com/erpcya/docs/assets/9578152/3c08e0fd-7632-469a-b42f-bfa5abad8a3a)
+5. A continuación verá el siguiente formulario
+6. ![image](https://github.com/erpcya/docs/assets/9578152/9fac4a98-ef2d-452c-a44d-ba9eb1b74066)
+7. En este formulario se procede a colocar los datos de filtro para la búsqueda
+8. Procedemos a selecionar las órdenes de ventas que vamos a enviar a salida
+9. Luego las lineas de las órdenes de ventas (Productos)
+10. Finalmente seleccionamos la opción ok.
 
+**_En este punto de manera automática, se genera la orden de distribución y movimiento de inventario para mover la mercancia a la puerta de embarque o almacén de venta_**
 
 
