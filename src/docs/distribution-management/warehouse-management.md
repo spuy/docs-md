@@ -24,4 +24,32 @@ Pero su principio básico es proveer la información para permitir el control ef
 - Lista de preparación de Pedido (Picking List)
 - Envío a Puerta de Embarque
 
-Ahora bien en Adempiere existe dos formas en las que se puede ejecutar este proceso, de forma auto
+Ahora bien, en Adempiere existe dos formas en las que se puede ejecutar este proceso, de forma automática bajo la siguiente estructura:
+
+- Orden de Venta
+- Generación de Orden de Salida Automática
+- Generación de Orden de Distribución Automática
+- Generación de Movimiento de Inventario desde Almacén Origen a Puerta de Embarque
+- Reporte de Planificación de Embarque (Picking List)
+
+También puede generarse de manera manual permitiendo así una agrupación de ordne de venta y planificación de orden de flete, bajo la siguiente estructura:
+
+- Orden de Venta
+- Orden de Salida
+- Generación de Orden de Distribución Automática
+- Generación de Movimiento de Inventario desde Almacén Origen a Puerta de Embarque
+- Orden de Flete
+- Reporte de Orden de Flete
+- Reporte de Planificación de Embarque
+
+ 
+##  Orden de Salida Automática
+
+1. Cree una orden de Venta de manera habitual ver manual: https://docs.erpya.com/docs/sales-management/order.html
+2. Vaya a la sección gestión Avanzada de Almacén
+   ![image](https://github.com/erpcya/docs/assets/9578152/30bd3f01-6bf0-45f1-a1da-e18b266be282)
+3. Luego seleccione la opción Operación de Salida
+   ![image](https://github.com/erpcya/docs/assets/9578152/b38bfe7f-422b-404b-b03b-9de62651a355)
+
+
+
