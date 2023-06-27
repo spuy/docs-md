@@ -43,22 +43,54 @@ También puede generarse de manera manual permitiendo así una agrupación de or
 - Reporte de Planificación de Embarque
 
  
-##  Orden de Salida Automática
+##  Orden de Salida Manual
 
 1. Cree una orden de Venta de manera habitual ver manual: https://docs.erpya.com/docs/sales-management/order.html
 2. Vaya a la sección gestión Avanzada de Almacén
+
    ![image](https://github.com/erpcya/docs/assets/9578152/30bd3f01-6bf0-45f1-a1da-e18b266be282)
-3. Luego seleccione la opción Operación de Salida
+   
+4. Luego seleccione la opción Operación de Salida
+
    ![image](https://github.com/erpcya/docs/assets/9578152/b38bfe7f-422b-404b-b03b-9de62651a355)
-4. Luego seleccione la opción Generar Orden de Salida desde orden de Venta/Distribución
+   
+6. Luego seleccione la opción Generar Orden de Salida desde orden de Venta/Distribución
+
    ![image](https://github.com/erpcya/docs/assets/9578152/3c08e0fd-7632-469a-b42f-bfa5abad8a3a)
-5. A continuación verá el siguiente formulario
-6. ![image](https://github.com/erpcya/docs/assets/9578152/9fac4a98-ef2d-452c-a44d-ba9eb1b74066)
-7. En este formulario se procede a colocar los datos de filtro para la búsqueda
-8. Procedemos a selecionar las órdenes de ventas que vamos a enviar a salida
-9. Luego las lineas de las órdenes de ventas (Productos)
-10. Finalmente seleccionamos la opción ok.
+   
+7. A continuación verá el siguiente formulario
+ 
+  ![image](https://github.com/erpcya/docs/assets/9578152/9fac4a98-ef2d-452c-a44d-ba9eb1b74066)
+  
+8. En este formulario se procede a colocar los datos de filtro para la búsqueda
+9. Procedemos a selecionar las órdenes de ventas que vamos a enviar a salida
+10. Luego las lineas de las órdenes de ventas (Productos)
+11. Finalmente seleccionamos la opción ok.
+
+::: info Nota
 
 **_En este punto de manera automática, se genera la orden de distribución y movimiento de inventario para mover la mercancia a la puerta de embarque o almacén de venta_**
+
+:::
+
+12. Finalmente vaya a la opción Gestión de Distribución->Gestión de Flete-> Generar Orden de Flete
+13. A continuación verá el siguiente formulario
+    
+    ![image](https://github.com/erpcya/docs/assets/9578152/93ac3f95-ad7b-4911-b256-b7c3b1cdad7f)
+    
+15. Seleccione la Orden de Salida previamente generada.
+16. Seleccione la fecha en la que se realizará el envío de la mercancia.
+17. De igual modo coloque el transporte, Vehículo, y conductor responsable de la carga.
+
+
+##  Orden de Salida Automática
+
+1. Cree una orden de Venta de manera habitual ver manual: https://docs.erpya.com/docs/sales-management/order.html
+
+::: info Nota
+
+**_En este punto de manera automática, se genera la orden de Salida,orden de distribución y movimiento de inventario para mover la mercancia a la puerta de embarque o almacén de venta_**
+
+:::
 
 
