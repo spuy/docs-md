@@ -24,7 +24,10 @@ Pero su principio básico es proveer la información para permitir el control ef
 - Lista de preparación de Pedido (Picking List)
 - Envío a Puerta de Embarque
 
-Ahora bien, en Adempiere existe dos formas en las que se puede ejecutar este proceso, de forma automática bajo la siguiente estructura:
+![Tablero en blanco (1)](https://github.com/erpcya/docs/assets/9578152/e4b1b815-edaf-480e-ba76-7f2aab312c3a)
+
+
+Ahora bien, en Adempiere existen dos formas en las que se puede ejecutar este proceso, de forma automática bajo la siguiente estructura:
 
 - Orden de Venta
 - Generación de Orden de Salida Automática
@@ -69,7 +72,7 @@ También puede generarse de manera manual permitiendo así una agrupación de or
 
 ::: info Nota
 
-**_En este punto de manera automática, se genera la orden de distribución y movimiento de inventario para mover la mercancia a la puerta de embarque o almacén de venta_**
+En este punto de manera automática, se genera la orden de distribución y movimiento de inventario para mover la mercancia a la puerta de embarque o almacén de venta.
 
 :::
 
@@ -89,7 +92,7 @@ También puede generarse de manera manual permitiendo así una agrupación de or
 
 ::: info Nota
 
-**_En este punto de manera automática, se genera la orden de Salida,orden de distribución y movimiento de inventario para mover la mercancia a la puerta de embarque o almacén de venta_**
+En este punto de manera automática, se genera la orden de Salida,orden de distribución y movimiento de inventario para mover la mercancia a la puerta de embarque o almacén de venta.
 
 :::
 
