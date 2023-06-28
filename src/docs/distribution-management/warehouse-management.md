@@ -45,8 +45,17 @@ También puede generarse de manera manual permitiendo así una agrupación de or
 - Reporte de Orden de Flete
 - Reporte de Planificación de Embarque
 
- 
-##  Orden de Salida Manual
+## ¿De qué servirá en tu Empresa?…
+
+1. Te da el control que necesitas en entradas, salidas y localización de productos en tus almacenes.
+2. Más precisión del inventario y estado actual.
+3. Optimización en la asignación de tareas de tus colaboradores.
+4. Disminución de erores en las notas de entrega de tus clientes.
+
+
+##  Ejecución en ADempiere
+
+###  Orden de Salida Manual
 
 ![image](https://github.com/erpcya/docs/assets/9578152/e3676964-a07c-4dc9-843b-a0627013b290)
 
@@ -71,7 +80,7 @@ En este punto de manera automática, se genera la orden de distribución y movim
 12. De igual modo coloque el transporte, Vehículo, y conductor responsable de la carga.
 
 
-##  Orden de Salida Automática
+###  Orden de Salida Automática
 
 ![image](https://github.com/erpcya/docs/assets/9578152/45d9943b-6e1e-4ab5-813e-453b53f48482)
 
@@ -82,5 +91,4 @@ En este punto de manera automática, se genera la orden de distribución y movim
 En este punto de manera automática, se genera la orden de Salida,orden de distribución y movimiento de inventario para mover la mercancia a la puerta de embarque o almacén de venta.
 
 :::
-
 
