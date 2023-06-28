@@ -24,7 +24,7 @@ Pero su principio básico es proveer la información para permitir el control ef
 - Lista de preparación de Pedido (Picking List)
 - Envío a Puerta de Embarque
 
-![Tablero en blanco (1)](https://github.com/erpcya/docs/assets/9578152/e4b1b815-edaf-480e-ba76-7f2aab312c3a)
+![WMS](https://github.com/erpcya/docs/assets/9578152/47f6b3cf-1e88-4a77-9c07-14483f433034)
 
 
 Ahora bien, en Adempiere existen dos formas en las que se puede ejecutar este proceso, de forma automática bajo la siguiente estructura:
