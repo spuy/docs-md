@@ -27,6 +27,18 @@ Pero su principio básico es proveer la información para permitir el control ef
 ![image](https://github.com/erpcya/docs/assets/9578152/80054ea0-78c6-4706-b485-b4f4a3c7a177)
 
 
+## ¿De qué servirá en tu Empresa?…
+
+1. Te da el control que necesitas en entradas, salidas y localización de productos en tus almacenes.
+2. Más precisión del inventario y estado actual.
+3. Optimización en la asignación de tareas de tus colaboradores.
+4. Disminución de erores en las notas de entrega de tus clientes.
+   
+![image](https://github.com/erpcya/docs/assets/9578152/891618f6-428d-4aa9-ae2a-4c516f0e7c63)
+
+
+##  Ejecución en ADempiere
+
 Ahora bien, en Adempiere existen dos formas en las que se puede ejecutar este proceso, de forma automática bajo la siguiente estructura:
 
 - Orden de Venta
@@ -44,17 +56,6 @@ También puede generarse de manera manual permitiendo así una agrupación de or
 - Orden de Flete
 - Reporte de Orden de Flete
 - Reporte de Planificación de Embarque
-
-## ¿De qué servirá en tu Empresa?…
-
-1. Te da el control que necesitas en entradas, salidas y localización de productos en tus almacenes.
-2. Más precisión del inventario y estado actual.
-3. Optimización en la asignación de tareas de tus colaboradores.
-4. Disminución de erores en las notas de entrega de tus clientes.
-
-
-##  Ejecución en ADempiere
-
 ###  Orden de Salida Manual
 
 ![image](https://github.com/erpcya/docs/assets/9578152/e3676964-a07c-4dc9-843b-a0627013b290)
