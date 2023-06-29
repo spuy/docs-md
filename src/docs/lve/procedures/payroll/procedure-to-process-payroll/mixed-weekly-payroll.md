@@ -39,7 +39,7 @@ Seleccione la fecha “Hasta” o el último día del período que seleccionó a
 
 A través de la fecha contable se determina contablemente la fecha de pago de la nómina semanal en ejecución, por tal motivo se recomienda colocar la fecha “**Hasta**” o el último día del período que seleccionó anteriormente.
 
-![Nómina Semanal Mixta](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/semanalmixta.png)
+![Nómina Semanal Mixta](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/semanalmixta.png)
 
 Imagen 1. Nómina Semanal Mixta
 
@@ -77,7 +77,7 @@ Para visualizar los Reportes de Nóminas  puede seguir los pasos que se encuentr
 
 - **Configuración de Reporte de Nómina**: Nómina Regular
 
-![Recibo de Pago Nómina Semanal Mixta](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/recibosemanalmixta.png)
+![Recibo de Pago Nómina Semanal Mixta](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/recibosemanalmixta.png)
 
 Imagen 2. Recibo de Pago Nómina Semanal Mixta
 
@@ -91,7 +91,7 @@ Imagen 2. Recibo de Pago Nómina Semanal Mixta
 
 - **Plantilla de Reporte de Nómina**: Detalle de Pago
 
-![Detalle de Pago Nómina Semanal Mixta](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/detallesemanalmixta.png)
+![Detalle de Pago Nómina Semanal Mixta](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/detallesemanalmixta.png)
 
 Imagen 3. Detalle de Pago Nómina Semanal Mixta
 
@@ -105,7 +105,7 @@ Imagen 3. Detalle de Pago Nómina Semanal Mixta
 
 - **Plantilla de Reporte de Nómina**: Resumen de Pago
 
-![Resumen de Pago Nómina Semanal Mixta](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/resumensemanalmixta.png)
+![Resumen de Pago Nómina Semanal Mixta](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/resumensemanalmixta.png)
 
 Imagen 4. Resumen de Pago Nómina Semanal Mixta
 
@@ -117,7 +117,7 @@ Imagen 4. Resumen de Pago Nómina Semanal Mixta
 
 - **Configuración de Reporte de Nómina**: Retenciones Parafiscales
 
-[Retenciones Nómina Semanal Mixta](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/retencionessemanalmixta.png)
+[Retenciones Nómina Semanal Mixta](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/retencionessemanalmixta.png)
 
 Imagen 5. Retenciones de Nómina Semanal Mixta
 
@@ -129,7 +129,7 @@ Imagen 5. Retenciones de Nómina Semanal Mixta
 
 - **Configuración de Reporte de Nómina**: Aportes Parafiscales
 
-![Aportes Nómina Semanal Mixta](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/aportessemanalmixta.png)
+![Aportes Nómina Semanal Mixta](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/aportessemanalmixta.png)
 
 Imagen 6. Aportes Nómina Semanal Mixta
 
@@ -141,7 +141,7 @@ Imagen 6. Aportes Nómina Semanal Mixta
 
 - **Configuración de Reporte de Nómina**: Provisiones
 
-![Provisiones Nómina Semanal Mixta](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/provisionessemanalmixta.png)
+![Provisiones Nómina Semanal Mixta](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/provisionessemanalmixta.png)
 
 Imagen 7. Provisiones de Nómina Semanal Mixta
 

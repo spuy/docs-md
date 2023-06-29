@@ -37,7 +37,7 @@ Seleccione el “**Socio de Negocio Empleado**” a quién se le procesa la nóm
 
 Si son vacaciones colectivas a todo el personal no debe seleccionar ningún socio de negocio, deje este campo en blanco para que le procese la nómina de vacaciones a todo el personal.
 
-![Nómina Vacaciones](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/vacaciones2.png)
+![Nómina Vacaciones](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/vacaciones2.png)
 
 Imagen 1. Nómina de Vacaciones
 
@@ -51,7 +51,7 @@ Para está nómina es obligatorio registrar la incidencia llamada "**Fecha de In
 |-------------------------------------------------------|----------------------|----------------|
 | Fecha de Inicio de Vacaciones                         |     ("IN_FIV")       |     Fecha      |
 
-![Incidencia Nómina Vacaciones](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/incidenciavacaciones1.png)
+![Incidencia Nómina Vacaciones](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/incidenciavacaciones1.png)
 
 Imagen 2. Incidencia Vacaciones
 
@@ -69,7 +69,7 @@ Para visualizar los reportes de nóminas  puede seguir los pasos que se encuentr
 
 - **Configuración de Reporte de Nómina**: Vacaciones
 
-![Recibo de Pago Nómina Vacaciones](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/recibovacaciones.png)
+![Recibo de Pago Nómina Vacaciones](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/recibovacaciones.png)
 
 Imagen 3. Recibo de Pago Nómina Vacaciones
 
@@ -83,7 +83,7 @@ Imagen 3. Recibo de Pago Nómina Vacaciones
 
 - **Plantilla de Reporte de Nómina**: Detalle de Pago
 
-![Detalle de Pago Nómina Vacaciones](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/detallevacaciones.png)
+![Detalle de Pago Nómina Vacaciones](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/detallevacaciones.png)
 
 Imagen 4. Detalle de Pago Nómina de Vacaciones
 
@@ -97,7 +97,7 @@ Imagen 4. Detalle de Pago Nómina de Vacaciones
 
 - **Plantilla de Reporte de Nómina**: Resumen de Pago
 
-![Resumen de Pago Nómina Vacaciones](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/resumenvacaciones.png)
+![Resumen de Pago Nómina Vacaciones](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/resumenvacaciones.png)
 
 Imagen 5. Resumen de Pago Nómina de Nómina de Vacaciones
 
@@ -109,7 +109,7 @@ Imagen 5. Resumen de Pago Nómina de Nómina de Vacaciones
 
 - **Configuración de Reporte de Nómina**: Retenciones Parafiscales
 
-![Retenciones Nómina Vacaciones](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/retencionesvacaciones.png)
+![Retenciones Nómina Vacaciones](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/retencionesvacaciones.png)
 
 Imagen 6. Retenciones de Nómina de Vacaciones
 
@@ -121,7 +121,7 @@ Imagen 6. Retenciones de Nómina de Vacaciones
 
 - **Configuración de Reporte de Nómina**: Aportes Parafiscales
 
-![Aportes Nómina Vacaciones](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/aportesvacaciones.png)
+![Aportes Nómina Vacaciones](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/aportesvacaciones.png)
 
 Imagen 7. Aportes Nómina de Vacaciones
 

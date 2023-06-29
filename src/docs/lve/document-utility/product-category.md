@@ -309,6 +309,6 @@ La categoría de producto suministros de reparación se encuentra identificada e
 
 Permite agrupar por categorías los productos utilizados y producidos por una empresa determinada, las mismas aplican a los productos las condiciones contables configuradas en cada una, así como también los métodos de costeo.
 
-![Categorías de ADempiere](/assets/img/document-utility/resources/product-category.png)
+![Categorías de ADempiere](/assets/img/docs/lve/document-utility/resources/product-category.png)
 
 Imagen 1. Categorías de ADempiere

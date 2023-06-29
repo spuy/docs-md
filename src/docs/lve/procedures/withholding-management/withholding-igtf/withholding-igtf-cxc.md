@@ -24,31 +24,31 @@ De esta manera se estará generando un débito fiscal de IGTF, que debe ser  dec
 
 Ubique la factura de cuenta por cobrar ya realizada al cliente, la misma debe estar en estado "**Completo**", para este ejemplo se utiliza la factura número "**111**".
 
-![Factura](/assets/img/procedures/withholding-management/resources/invoice.png)
+![Factura](/assets/img/docs/lve/procedures/withholding-management/resources/invoice.png)
 
 Imagen 1. Factura Aplicada al Socio del Negocio
 
 Seleccione el icono "**Proceso**" en la barra de herramientas para ejecutar la retención de IGTF.
 
-![Proceso](/assets/img/procedures/withholding-management/resources/proceso.png)
+![Proceso](/assets/img/docs/lve/procedures/withholding-management/resources/proceso.png)
 
 Imagen 2. Icono Proceso
 
 Podrá apreciar el menú desplegado por el icono "**Proceso**", el mismo muestra los Procesos disponibles en su rol para la ejecución.
 
-![DetalleProceso](/assets/img/procedures/withholding-management/resources/detalleprocesos.png)
+![DetalleProceso](/assets/img/docs/lve/procedures/withholding-management/resources/detalleprocesos.png)
 
 Imagen 3. Menú de Procesos
 
 Seleccione la opción "**Procesar Retención de IGTF**".
 
-![ProcesoIGTF](/assets/img/procedures/withholding-management/resources/procesoigtf.png)
+![ProcesoIGTF](/assets/img/docs/lve/procedures/withholding-management/resources/procesoigtf.png)
 
 Imagen 4. Proceso IGTF
 
 A continuación se desplegará la siguiente ventana.
 
-![VentanaProcesoIGTF](/assets/img/procedures/withholding-management/resources/ventanaprocesoigtf.png)
+![VentanaProcesoIGTF](/assets/img/docs/lve/procedures/withholding-management/resources/ventanaprocesoigtf.png)
 
 Imagen 5. Ventana de Proceso Generar IGTF
 
@@ -56,43 +56,43 @@ Proceda a vaciar la información necesaria.
 
 Seleccione "**Impuesto IGTF**" para el campo "**Tipo de Retención**".  
 
-![TipoRetencion](/assets/img/procedures/withholding-management/resources/tipoderetencion.png)
+![TipoRetencion](/assets/img/docs/lve/procedures/withholding-management/resources/tipoderetencion.png)
 
 Imagen 6. Tipo de Retención
 
 Seleccione "**Impuesto IGTF**" en el campo  "**Funcionalidades**".  
 
-![Funcionalidades](/assets/img/procedures/withholding-management/resources/funcionalidades.png)
+![Funcionalidades](/assets/img/docs/lve/procedures/withholding-management/resources/funcionalidades.png)
 
 Imagen 7. Funcionalidades
 
 Seleccione "**Impuesto IGTF (CxC)**" en el campo "**Retención**".  
 
-![Retención](/assets/img/procedures/withholding-management/resources/retencion.png)
+![Retención](/assets/img/docs/lve/procedures/withholding-management/resources/retencion.png)
 
 Imagen 8. Retención
 
 Seleccione "**Moneda**", para este caso indique la moneda del acuerdo del cobro, para el ejemplo utilizaremos USD ($).  
 
-![Moneda](/assets/img/procedures/withholding-management/resources/moneda.png)
+![Moneda](/assets/img/docs/lve/procedures/withholding-management/resources/moneda.png)
 
 Imagen 9. Moneda de Acuerdo de cobro
 
 Indique el "**Monto Base**", para este caso indique el monto del acuerdo del cobro, para el ejemplo indicaremos 70.  
 
-![MontoBase](/assets/img/procedures/withholding-management/resources/montobase.png)
+![MontoBase](/assets/img/docs/lve/procedures/withholding-management/resources/montobase.png)
 
 Imagen 10. Monto del Cobro
 
 Seleccione la opción "**OK**" Ubicada en el proceso para generar la retención.
 
-![OpcionOKP](/assets/img/procedures/withholding-management/resources/opcionokproceso.png)
+![OpcionOKP](/assets/img/docs/lve/procedures/withholding-management/resources/opcionokproceso.png)
 
 Imagen 11. Opción OK
 
 Al ejecutar el proceso, luego de unos segundos se visualiza en el campo descripción de la factura, el siguiente mensaje que será impreso en su documento en caso de trabajar con formato proforma.
 
-![DescripcionIGTF](/assets/img/procedures/withholding-management/resources/descripcionigtf.png)
+![DescripcionIGTF](/assets/img/docs/lve/procedures/withholding-management/resources/descripcionigtf.png)
 
 Imagen 12. Mensaje Impreso en la Factura
 
@@ -102,13 +102,13 @@ Si por algún motivo el monto del cobro debiera sufrir algún cambio, repita el 
 
 Seleccione el icono "**Visualiza Detalle**" en la barra de herramientas para apreciar donde es usado el documento, en este caso la factura.
 
-![VisualizaDetalle](/assets/img/procedures/withholding-management/resources/visualizadetalle.png)
+![VisualizaDetalle](/assets/img/docs/lve/procedures/withholding-management/resources/visualizadetalle.png)
 
 Imagen 13. Icono Visualiza Detalle
 
 Podrá apreciar el menú desplegado por el icono "**Visualiza Detalle**", el mismo muestra los documentos donde es utilizada la factura.
 
-![DetalleDocumento](/assets/img/procedures/withholding-management/resources/detalledocumento.png)
+![DetalleDocumento](/assets/img/docs/lve/procedures/withholding-management/resources/detalledocumento.png)
 
 Imagen 14. Menú del Icono Visualiza Detalle
 
@@ -132,85 +132,85 @@ Vaya a la factura origen y ubique las "**Retenciones Generadas**" para validar l
 
 Seleccione en el menú la opción "**Generar Retenciones**"
 
-![MenuGRetenciones](/assets/img/procedures/withholding-management/resources/generarretenciones.png)
+![MenuGRetenciones](/assets/img/docs/lve/procedures/withholding-management/resources/generarretenciones.png)
 
 Imagen 15. Menú Generar Retenciones
 
 Se visualiza la siguiente ventana  "**Generar Retenciones**"
 
-![VentanaGRetenciones](/assets/img/procedures/withholding-management/resources/vgenerarretenciones.png)
+![VentanaGRetenciones](/assets/img/docs/lve/procedures/withholding-management/resources/vgenerarretenciones.png)
 
 Imagen 15. Menú Generar Retenciones
 
 Indique el cliente al cual le generará el comprobante de retención en el campo "**Socio de Negocio**"
 
-![SeleccionSociodeNegocio](/assets/img/procedures/withholding-management/resources/seleccionsociodenegocio.png)
+![SeleccionSociodeNegocio](/assets/img/docs/lve/procedures/withholding-management/resources/seleccionsociodenegocio.png)
 
 Imagen 16. Selección del Cliente
 
 Indique la Factura, en caso querer emitir el comprobante a una factura en especifico en el campo "**Factura Fuente**", caso contrario, omita el campo y podrá filtrar todas las facturas pendientes por emisión de retención.
 
-![SeleccionFactura](/assets/img/procedures/withholding-management/resources/seleccionfactura.png)
+![SeleccionFactura](/assets/img/docs/lve/procedures/withholding-management/resources/seleccionfactura.png)
 
 Imagen 17. Selección de Factura
 
 Indique la organización en la que desea generar el comprobante en el campo "**Organización**"
 
-![SeleccionOrganizacion](/assets/img/procedures/withholding-management/resources/seleccionorganizacion.png)
+![SeleccionOrganizacion](/assets/img/docs/lve/procedures/withholding-management/resources/seleccionorganizacion.png)
 
 Imagen 18. Selección de Organización
 
 Para este caso, se omite el campo "**Manual**" siendo de esta manera falso, puesto que, para el caso de esta retención es calculada desde ADempiere.
 
-![SeleccionManual](/assets/img/procedures/withholding-management/resources/seleccionmanual.png)
+![SeleccionManual](/assets/img/docs/lve/procedures/withholding-management/resources/seleccionmanual.png)
 
 Imagen 19. Selección de Manual
 
 Indique el valor "**Impuesto IGTF (CxC)**" en el campo "**Retención**"
 
-![SeleccionRetención](/assets/img/procedures/withholding-management/resources/seleccionretencion.png)
+![SeleccionRetención](/assets/img/docs/lve/procedures/withholding-management/resources/seleccionretencion.png)
 
 Imagen 20. Selección de Retención
 
 Indique la moneda del pago en el campo "**Moneda**"
 
-![SeleccionMoneda](/assets/img/procedures/withholding-management/resources/seleccionmoneda.png)
+![SeleccionMoneda](/assets/img/docs/lve/procedures/withholding-management/resources/seleccionmoneda.png)
 
 Imagen 21. Selección de Moneda de Cobro
 
 Indique la Moneda a Convertir para el comprobante y monto a declarar, en el campo "**Moneda Hacia**", por defecto encontrará la moneda "**VES**" por ser la moneda oficial en Venezuela.
 
-![SeleccionMonedaHacia](/assets/img/procedures/withholding-management/resources/seleccionmonedahacia.png)
+![SeleccionMonedaHacia](/assets/img/docs/lve/procedures/withholding-management/resources/seleccionmonedahacia.png)
 
 Imagen 22. Selección de Moneda para Comprobante
 
 Indique el tipo de conversión con el cúal será convertido la retención del IGTF, en el campo "**Tipo de Conversión**", por defecto encontrará el tipo de conversión "**BCV**" por ser la tasa oficial en Venezuela.
 
-![SeleccionTipoConversion](/assets/img/procedures/withholding-management/resources/selecciontipoconversion.png)
+![SeleccionTipoConversion](/assets/img/docs/lve/procedures/withholding-management/resources/selecciontipoconversion.png)
 
 Imagen 23. Selección de Tipo de Conversión
 
 Seleccione la opción "**Comenzar Búsqueda**", para comenzar a ver los registros a generar como comprobantes.
 
-![BotonComenzarBusqueda](/assets/img/procedures/withholding-management/resources/botoncomenzarbusqueda.png)
+![BotonComenzarBusqueda](/assets/img/docs/lve/procedures/withholding-management/resources/botoncomenzarbusqueda.png)
 
 Imagen 24. Comenzar Búsqueda
 
 Visualizará los siguientes resultados
 
-![ResultadoComprobante](/assets/img/procedures/withholding-management/resources/resultadogcomprobante.png)
+![ResultadoComprobante](/assets/img/docs/lve/procedures/withholding-management/resources/resultadogcomprobante.png)
 
 Imagen 25. Resultados de Búsqueda
 
 Seleccione el registro al cúal generará el comprobante
 
-![SeleccionComprobante](/assets/img/procedures/withholding-management/resources/seleccioncomprobante.png)
+![SeleccionComprobante](/assets/img/docs/lve/procedures/withholding-management/resources/seleccioncomprobante.png)
 
 Imagen 26. Selección de Búsqueda
 
 Seleccione la opción "**OK**" que indica que se emitirá el comprobante del IGTF, ó débito por concepto de retención de IGTF.
 
-![SeleccionOKComprobante](/assets/img/procedures/withholding-management/resources/seleccionokcomprobante.png)
+![SeleccionOKComprobante](/assets/img/docs/lve/procedures/withholding-management/resources/seleccionokcomprobante.png)
 
 Imagen 26. Selección Botón OK
 
@@ -219,12 +219,12 @@ Imagen 26. Selección Botón OK
 
 Ubique la factura producto de "**Retención IGTF la opción**", seleccione el acercador.
 
-![AcercadorIGTFdeb](/assets/img/procedures/withholding-management/resources/acercadordebigtf.png)
+![AcercadorIGTFdeb](/assets/img/docs/lve/procedures/withholding-management/resources/acercadordebigtf.png)
 
 Seleccione la opción "**Documentos por Cobrar (Asignados)**"
 
-![DocAsignadosIGTF](/assets/img/procedures/withholding-management/resources/docasignadosigtf.png)
+![DocAsignadosIGTF](/assets/img/docs/lve/procedures/withholding-management/resources/docasignadosigtf.png)
 
 Seleccione la opción imprimir de manera regular y acontinuación verá el siguiente formato.
 
-![comprobanteIGTF](/assets/img/procedures/withholding-management/resources/comprobanteIGTF.png)
+![comprobanteIGTF](/assets/img/docs/lve/procedures/withholding-management/resources/comprobanteIGTF.png)

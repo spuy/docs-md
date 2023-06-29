@@ -30,7 +30,7 @@ Para obtener dicho reporte debemos seleccionar los siguientes campos principales
 | Configuración del Reporte de Nómina.                         | Seleccione en este caso Devengado Salario Integral                                                             |
 
 
-![Parámetros para generar el reporte](/assets/img/procedures/payroll/payroll-report/resources/integralsalaryreportparameters.png)
+![Parámetros para generar el reporte](/assets/img/docs/lve/procedures/payroll/payroll-report/resources/integralsalaryreportparameters.png)
 
 Imagen 1. Parámetros para generar el reporte.
 
@@ -50,6 +50,6 @@ En el siguiente ejemplo se presenta  el monto devengado salario integral  por el
 
 Si desea conocer el valor de dicho concepto durante varias nóminas, no seleccione el proceso de nómina y coloca un parametros de fechas con la finalidad de que pueda visualizar el monto obtenido durante varios procesos de nómina
 
-![Reporte Devengado Salario Integral](/assets/img/procedures/payroll/payroll-report/resources/integralsalary.png)
+![Reporte Devengado Salario Integral](/assets/img/docs/lve/procedures/payroll/payroll-report/resources/integralsalary.png)
 
 Imagen 2. Reporte Devengado Salario Integral.

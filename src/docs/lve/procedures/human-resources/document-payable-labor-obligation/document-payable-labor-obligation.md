@@ -28,7 +28,7 @@ Los tipos de documentos de los cuales dispone para realizar un documento por pag
 
 Recuerde que para este caso el tipo de documento determina la acción que realiza ese documento dentro de ADempiere y también determina  que pueda visualizar los diferentes cargos que tiene asociado ese tipo de documento.
 
-![Tipo de Documento](/assets/img/procedures/human-resources/document-payable-labor-obligation/resources/Documentosporpagar.png)
+![Tipo de Documento](/assets/img/docs/lve/procedures/human-resources/document-payable-labor-obligation/resources/Documentosporpagar.png)
 
 Imagen 1. Seleccione el Tipo de Documento con el que registrará su documento.
 
@@ -104,6 +104,6 @@ Seleccione en el campo “**Cargo**”, el nombre del cargo que desea registrar
     - Viajes Nacionales
     - Viáticos de Personal
 
-![Cargo](/assets/img/procedures/human-resources/document-payable-labor-obligation/resources/cargodoc.png)
+![Cargo](/assets/img/docs/lve/procedures/human-resources/document-payable-labor-obligation/resources/cargodoc.png)
 
 Imagen 2. Seleccione el Tipo de Cargo

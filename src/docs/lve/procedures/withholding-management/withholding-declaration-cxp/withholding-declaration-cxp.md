@@ -16,19 +16,19 @@ article: false
 
 Ubique y seleccione en el menú de ADempiere, la carpeta "**Manejo de Retenciones**", luego seleccione la ventana "**Generar Declaración de Retenciones**".
 
-![Menú de ADempiere 1](/assets/img/procedures/withholding-management/resources/menu-gen-dec-ret-iva.png)
+![Menú de ADempiere 1](/assets/img/docs/lve/procedures/withholding-management/resources/menu-gen-dec-ret-iva.png)
 
 Imagen 1. Menú de ADempiere
 
 Podrá visualizar la ventana de búsqueda inteligente "**Generar Declaración de Retenciones**", con los campos "**Tipo de Retención**" en el cual se selecciona el tipo de retención a declarar y "**Fecha Contable**" con el cual se establece el rango de fecha para filtrar la búsqueda.
 
-![Ventana Generar Declaración de Retenciones](/assets/img/procedures/withholding-management/resources/vent-gen-dec-ret-iva.png)
+![Ventana Generar Declaración de Retenciones](/assets/img/docs/lve/procedures/withholding-management/resources/vent-gen-dec-ret-iva.png)
 
 Imagen 2. Ventana de Búsqueda Inteligente Generar Declaración de Retenciones
 
 Seleccione en el campo "**Tipo de Retención**", el tipo de retención por la cual desea filtrar la búsqueda para realizar la declaración del mismo. Para ejemplificar el registro es utilizada la opción "**I.V.A_Retención de I.V.A.**".
 
-![Campo Tipo de Retención 1](/assets/img/procedures/withholding-management/resources/campo-tipo-ret1.png)
+![Campo Tipo de Retención 1](/assets/img/docs/lve/procedures/withholding-management/resources/campo-tipo-ret1.png)
 
 Imagen 3. Campo Tipo de Retención
 
@@ -36,13 +36,13 @@ Imagen 3. Campo Tipo de Retención
 
 Seleccione en el campo "**Fecha Contable**", el rango de fecha para filtrar la búsqueda de las retenciones aplicadas, según el tipo de retención seleccionado.
 
-![Campo Fecha Contable](/assets/img/procedures/withholding-management/resources/fec-cont-gen-dec1.png)
+![Campo Fecha Contable](/assets/img/docs/lve/procedures/withholding-management/resources/fec-cont-gen-dec1.png)
 
 Imagen 4. Campo Fecha Contable
 
 Seleccione la opción "**Comenzar Búsqueda**", para búscar los registros que tengan coincidencias con la información ingresada en los campos o filtros de búsqueda.
 
-![Opción Comenzar Búsqueda](/assets/img/procedures/withholding-management/resources/comenz-bus-gen-dec1.png)
+![Opción Comenzar Búsqueda](/assets/img/docs/lve/procedures/withholding-management/resources/comenz-bus-gen-dec1.png)
 
 Imagen 5. Opción Comenzar Búsqueda
 
@@ -50,7 +50,7 @@ El campo "**F. Documento**" es la fecha contable que tomará el documento de dec
 
 Seleccione las diferentes retenciones a declarar y posteriormente seleccione la opción "**OK**" para culminar el proceso "**Generar Declaración de Retenciones**".
 
-![Selección de Retención y Opción OK](/assets/img/procedures/withholding-management/resources/selec-reten-gen1.png)
+![Selección de Retención y Opción OK](/assets/img/docs/lve/procedures/withholding-management/resources/selec-reten-gen1.png)
 
 Imagen 6. Selección de Retenciones y Opción OK
 
@@ -58,7 +58,7 @@ En la ventana del proceso se muestran todas las retenciones aplicadas a los dife
 
 Podrá visualizar en la parte inferior izquierda de la ventana, el número del documento generado.
 
-![Número de Declaración Generada](/assets/img/procedures/withholding-management/resources/num-dec-gen1.png)
+![Número de Declaración Generada](/assets/img/docs/lve/procedures/withholding-management/resources/num-dec-gen1.png)
 
 Imagen 7. Número de Declaración Generada
 
@@ -71,13 +71,13 @@ El proceso genera un documento por pagar de tipo "**Declaración Municipal de Cu
 
 Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**", luego seleccione la ventana "**Documento por Pagar**".
 
-![Menú de ADempiere 2](/assets/img/procedures/withholding-management/resources/menu-doc-pagar.png)
+![Menú de ADempiere 2](/assets/img/docs/lve/procedures/withholding-management/resources/menu-doc-pagar.png)
 
 Imagen 8. Menú de ADempiere
 
 Al buscar el documento de declaración de retenciones, con el número de documento generado en la ventana del proceso "**Generar Declaración de Retenciones**", podrá visualizar el mismo de la siguiente manera.
 
-![Documento por Pagar 1](/assets/img/procedures/withholding-management/resources/doc-dec-ret1.png)
+![Documento por Pagar 1](/assets/img/docs/lve/procedures/withholding-management/resources/doc-dec-ret1.png)
 
 Imagen 9. Documento por pagar generado de tipo "**Declaración de IVA de Cuentas por Pagar**"
 
@@ -86,25 +86,25 @@ Imagen 9. Documento por pagar generado de tipo "**Declaración de IVA de Cuentas
 
 Ubique y seleccione en el menú de ADempiere, la carpeta "**Localización Venezuela**", luego seleccione la ventana "**Detalle de Retenciones**".
 
-![Menú de ADempiere 3](/assets/img/procedures/withholding-management/resources/menu-det-ret.png)
+![Menú de ADempiere 3](/assets/img/docs/lve/procedures/withholding-management/resources/menu-det-ret.png)
 
 Imagen 10. Menú de ADempiere
 
 Podrá visualizar la ventana del reporte "**Detalle de Retenciones**", con diferentes campos o filtros para realizar la búsqueda de la información según lo requerido por el usuario y generar el reporte de acuerdo a lo seleccionado en los mismos.
 
-![Ventana Detalle de Retenciones 1](/assets/img/procedures/withholding-management/resources/vent-det-ret1.png)
+![Ventana Detalle de Retenciones 1](/assets/img/docs/lve/procedures/withholding-management/resources/vent-det-ret1.png)
 
 Imagen 11. Ventana del Reporte Detalle de Retenciones
 
 Seleccione en el campo "**Fecha Contable**", el rango de fecha para filtrar la búsqueda de las declaraciones realizadas.
 
-![Campo Fecha Contable 1](/assets/img/procedures/withholding-management/resources/fec-cont-det-ret.png)
+![Campo Fecha Contable 1](/assets/img/docs/lve/procedures/withholding-management/resources/fec-cont-det-ret.png)
 
 Imagen 12. Campo Fecha Contable
 
 Seleccione en el campo "**Tipo de Retención**", el tipo de retención por la cual desea filtrar la búsqueda de las declaraciones realizadas. Para ejemplificar el registro es utilizada la opción "**I.V.A_Retención de I.V.A.**".
 
-![Campo Tipo de Retención 2](/assets/img/procedures/withholding-management/resources/tip-ret-det-ret.png)
+![Campo Tipo de Retención 2](/assets/img/docs/lve/procedures/withholding-management/resources/tip-ret-det-ret.png)
 
 Imagen 13. Campo Tipo de Retención
 
@@ -112,19 +112,19 @@ Recuerde que en el campo "**Tipo de Retención**", puede seleccionar cualquiera 
 
 Seleccione la opción "**OK**" para generar el reporte "**Detalle de Retenciones**"
 
-![Opción OK 1](/assets/img/procedures/withholding-management/resources/op-ok-det-ret.png)
+![Opción OK 1](/assets/img/docs/lve/procedures/withholding-management/resources/op-ok-det-ret.png)
 
 Imagen 14. Opción OK
 
 Podrá visualizar el reporte con todas las retenciones aplicadas a los diferentes socios del negocio que tengan coincidencias con la información ingresada en los campos o filtros de búsqueda.
 
-![Reporte de Detalle de Retenciones 1](/assets/img/procedures/withholding-management/resources/det-ret-apli1.png)
+![Reporte de Detalle de Retenciones 1](/assets/img/docs/lve/procedures/withholding-management/resources/det-ret-apli1.png)
 
 Imagen 15. Reporte de Detalle de Retenciones
 
 Para visualizar el reporte de las diferentes declaraciones de retenciones generadas a los diferentes socios del negocio que tengan coincidencias con la información ingresada en los campos o filtros de búsqueda, seleccione en el campo o filtro "**Formato de Impresión**", la opción "**Declaración_TXT_IVA**".
 
-![Reporte de Detalle de Declaraciones 1](/assets/img/procedures/withholding-management/resources/det-dec-apli1.png)
+![Reporte de Detalle de Declaraciones 1](/assets/img/docs/lve/procedures/withholding-management/resources/det-dec-apli1.png)
 
 Imagen 16. Reporte de Detalle de Declaraciones
 
@@ -132,13 +132,13 @@ La opción en el campo "**Formato de Impresión**", para visualizar el reporte d
 
 Seleccione el icono "**Exportar Registros**", para exportar el archivo o documento que debe ser importado a al portal del SENIAT.
 
-![Icono Exportar Registro 1](/assets/img/procedures/withholding-management/resources/ico-exp-reg.png)
+![Icono Exportar Registro 1](/assets/img/docs/lve/procedures/withholding-management/resources/ico-exp-reg.png)
 
 Imagen 17. Icono Exportar Registros
 
 Podrá visualizar la siguiente ventana donde debe seleccionar en el campo "**Archivo de Tipo**", la opción "**Declaración de I.V.A (txt) Archivo de exportación de  Declaración de I.V.A**" y posteriormente la opción "**OK**" para generar el archivo o documento de declaración de retenciones de IVA.
 
-![Archivo de Tipo 1](/assets/img/procedures/withholding-management/resources/arc-tipo1.png)
+![Archivo de Tipo 1](/assets/img/docs/lve/procedures/withholding-management/resources/arc-tipo1.png)
 
 Imagen 18. Campo Archivo de Tipo y Opción OK
 
@@ -146,7 +146,7 @@ La opción para generar el archivo o documento de declaración de retenciones de
 
 Podrá visualizar el archivo exportado en la parte inferior izquierda de la ventana del reporte "**Detalle de Retenciones**".
 
-![Archivo o Documento Exportado 1](/assets/img/procedures/withholding-management/resources/doc-generado.png)
+![Archivo o Documento Exportado 1](/assets/img/docs/lve/procedures/withholding-management/resources/doc-generado.png)
 
 Imagen 18. Archivo o Documento Exportado
 

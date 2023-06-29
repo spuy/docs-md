@@ -44,13 +44,13 @@ Si el empleado presenta en físico su factura
 
 - Seleccionas la regla de pago.
 
-![Registro de Caja](/assets/img/procedures/human-resources/document-payable-labor-obligation/resources/box.png)
+![Registro de Caja](/assets/img/docs/lve/procedures/human-resources/document-payable-labor-obligation/resources/box.png)
 
 Imagen 1. Registro de Caja
 
 Posteriormente procedemos a completar nuestra Caja.
 
-![Completar Caja](/assets/img/procedures/human-resources/document-payable-labor-obligation/resources/completer.png)
+![Completar Caja](/assets/img/docs/lve/procedures/human-resources/document-payable-labor-obligation/resources/completer.png)
 
 Imagen 2. Completar Caja
 
@@ -62,6 +62,6 @@ Para este caso por no disponer de factura debe seleccionar un **Cargo** referent
 
 Registre en el campo socio de negocio, el empleado solicitante.
 
-![Cargo](/assets/img/procedures/human-resources/document-payable-labor-obligation/resources/position.png)
+![Cargo](/assets/img/docs/lve/procedures/human-resources/document-payable-labor-obligation/resources/position.png)
 
 Imagen 3. Cargo

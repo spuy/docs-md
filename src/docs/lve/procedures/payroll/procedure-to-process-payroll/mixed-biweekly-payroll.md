@@ -39,7 +39,7 @@ Seleccione la fecha “Hasta” o el último día del período que seleccionó a
 
 A través de la fecha contable se determina contablemente la fecha de pago de la nómina quincenal en ejecución, por tal motivo se recomienda colocar la fecha “**Hasta**” o el último día del período que seleccionó anteriormente.
 
-![Nómina Quincenal Mixta](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/quincenalmixta.png)
+![Nómina Quincenal Mixta](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/quincenalmixta.png)
 
 Imagen 1. Nómina Quincenal Mixta
 
@@ -77,7 +77,7 @@ Resultados:
 
 - **Configuración de Reporte de Nómina**: Nómina Regular
 
-[Recibo de Pago Nómina Quincenal Mixta](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/reciboquincenalmixta.png)
+[Recibo de Pago Nómina Quincenal Mixta](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/reciboquincenalmixta.png)
 
 Imagen 2. Recibo de Pago Nómina Quincenal Mixta
 
@@ -91,7 +91,7 @@ Imagen 2. Recibo de Pago Nómina Quincenal Mixta
 
 - **Plantilla de Reporte de Nómina**: Detalle de Pago
 
-![Detalle de Pago Nómina Quincenal Mixta](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/detallequincenalmixtaa.png)
+![Detalle de Pago Nómina Quincenal Mixta](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/detallequincenalmixtaa.png)
 
 Imagen 3. Detalle de Pago Nómina Quincenal Mixta
 
@@ -105,7 +105,7 @@ Imagen 3. Detalle de Pago Nómina Quincenal Mixta
 
 - **Plantilla de Reporte de Nómina**: Resumen de Pago
 
-![Resumen de Pago Nómina Quincenal Mixta](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/resumenquincenalmixta.png)
+![Resumen de Pago Nómina Quincenal Mixta](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/resumenquincenalmixta.png)
 
 Imagen 4. Resumen de Pago Nómina Quincenal Mixta
 
@@ -117,7 +117,7 @@ Imagen 4. Resumen de Pago Nómina Quincenal Mixta
 
 - **Configuración de Reporte de Nómina**: Retenciones Parafiscales
 
-![Retenciones de Nómina Quincenal Mixta](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/retencionesquincenalmixta.png)
+![Retenciones de Nómina Quincenal Mixta](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/retencionesquincenalmixta.png)
 
 Imagen 5. Retenciones de Nómina Quincenal Mixta
 
@@ -129,7 +129,7 @@ Imagen 5. Retenciones de Nómina Quincenal Mixta
 
 - **Configuración de Reporte de Nómina**: Aportes Parafiscales
 
-![Aportes Nómina Quincenal Mixta](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/aportesquincenalmixta.png)
+![Aportes Nómina Quincenal Mixta](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/aportesquincenalmixta.png)
 
 Imagen 6. Aportes Nómina Quincenal Mixta
 
@@ -141,7 +141,7 @@ Imagen 6. Aportes Nómina Quincenal Mixta
 
 - **Configuración de Reporte de Nómina**: Provisiones
 
-![Provisiones Nómina Quincenal Mixta](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/provisionesquincenalmixta.png)
+![Provisiones Nómina Quincenal Mixta](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/provisionesquincenalmixta.png)
 
 Imagen 7. Provisiones de Nómina Quincenal Mixta
 

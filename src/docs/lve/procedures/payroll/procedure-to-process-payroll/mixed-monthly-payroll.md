@@ -39,7 +39,7 @@ Seleccione la fecha “Hasta” o el último día del período que seleccionó a
 
 A través de la fecha contable se determina contablemente la fecha de pago de la nómina mensual en ejecución, por tal motivo se recomienda colocar la fecha “**Hasta**” o el último día del período que seleccionó anteriormente.
 
-![Nomina Mensual Mixta](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/mensualmixta.png)
+![Nomina Mensual Mixta](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/mensualmixta.png)
 
 Imagen 1. Nómina Mensual Mixta
 
@@ -77,7 +77,7 @@ Para visualizar los reportes de nóminas  puede seguir los pasos que se encuentr
 
 - **Configuración de Reporte de Nómina**: Nómina Regular
 
-![Recibo de Pago Nómina Mensual Mixta](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/recibosmensualmixta.png)
+![Recibo de Pago Nómina Mensual Mixta](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/recibosmensualmixta.png)
 
 Imagen 2. Recibo de Pago Nómina Mensual Mixta
 
@@ -91,7 +91,7 @@ Imagen 2. Recibo de Pago Nómina Mensual Mixta
 
 - **Plantilla de Reporte de Nómina**: Detalle de Pago
 
-![Detalle de Pago Nómina Mensual Mixta](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/detallemensualmixta.png)
+![Detalle de Pago Nómina Mensual Mixta](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/detallemensualmixta.png)
 
 Imagen 3. Detalle de Pago Nómina Mensual Mixta
 
@@ -105,7 +105,7 @@ Imagen 3. Detalle de Pago Nómina Mensual Mixta
 
 - **Plantilla de Reporte de Nómina**: Resumen de Pago
 
-![Resumen de Pago Nómina Mensual Mixta](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/resumenmensualmixta.png)
+![Resumen de Pago Nómina Mensual Mixta](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/resumenmensualmixta.png)
 
 Imagen 4. Resumen de Pago Nómina Mensual Mixta
 
@@ -117,7 +117,7 @@ Imagen 4. Resumen de Pago Nómina Mensual Mixta
 
 - **Configuración de Reporte de Nómina**: Retenciones Parafiscales
 
-![Retenciones Nómina Mensual Mixta](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/retencionesmensualmixta.png)
+![Retenciones Nómina Mensual Mixta](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/retencionesmensualmixta.png)
 
 Imagen 5. Retenciones Nómina Mensual Mixta
 
@@ -129,7 +129,7 @@ Imagen 5. Retenciones Nómina Mensual Mixta
 
 - **Configuración de Reporte de Nómina**: Aportes Parafiscales
 
-![Aportes Nómina Mensual Mixta](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/aportesmensualmixta.png)
+![Aportes Nómina Mensual Mixta](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/aportesmensualmixta.png)
 
 Imagen 6. Aportes Nómina Mensual Mixta
 
@@ -141,7 +141,7 @@ Imagen 6. Aportes Nómina Mensual Mixta
 
 - **Configuración de Reporte de Nómina**: Provisiones
 
-![Provisiones Nómina Mensual Mixta](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/provisionesmensualmixta.png)
+![Provisiones Nómina Mensual Mixta](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/provisionesmensualmixta.png)
 
 Imagen 7. Provisiones de Nómina Mensual Mixta
 

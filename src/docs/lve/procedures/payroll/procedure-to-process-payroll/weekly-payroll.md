@@ -39,7 +39,7 @@ Seleccione la fecha “Hasta” o el último día del período que seleccionó a
 
 A través de la fecha contable se determina contablemente la fecha de pago de la nómina semanal en ejecución, por tal motivo se recomienda colocar la fecha “**Hasta**” o el último día del período que seleccionó anteriormente.
 
-![Nómina Semanal](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/semanal.png)
+![Nómina Semanal](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/semanal.png)
 
 Imagen 1. Nómina Semanal
 
@@ -78,7 +78,7 @@ Para visualizar los reportes de nóminas  puede seguir los pasos que se encuentr
 
 - **Configuración de Reporte de Nómina**: Nómina Regular
 
-![Recibo de Pago Nómina Semanal](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/recibosemanal.png)
+![Recibo de Pago Nómina Semanal](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/recibosemanal.png)
 
 Imagen 2. Recibo de Pago Nómina Semanal
 
@@ -92,7 +92,7 @@ Imagen 2. Recibo de Pago Nómina Semanal
 
 - **Plantilla de Reporte de Nómina**: Detalle de Pago
 
-![Detalle de Pago Nómina Semanal](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/detallesemanal.png)
+![Detalle de Pago Nómina Semanal](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/detallesemanal.png)
 
 Imagen 3. Recibo de Pago Nómina Semanal
 
@@ -106,7 +106,7 @@ Imagen 3. Recibo de Pago Nómina Semanal
 
 - **Plantilla de Reporte de Nómina**: Resumen de Pago
 
-![Resumen de Pago Nómina Semanal](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/resumensemanal.png)
+![Resumen de Pago Nómina Semanal](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/resumensemanal.png)
 
 Imagen 4. Resumen de Pago Nómina Semanal
 
@@ -118,7 +118,7 @@ Imagen 4. Resumen de Pago Nómina Semanal
 
 - **Configuración de Reporte de Nómina**: Retenciones Parafiscales
 
-![Retenciones Nómina Semanal](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/retencionessemanal.png)
+![Retenciones Nómina Semanal](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/retencionessemanal.png)
 
 Imagen 5. Retenciones de Nómina Semanal
 
@@ -130,7 +130,7 @@ Imagen 5. Retenciones de Nómina Semanal
 
 - **Configuración de Reporte de Nómina**: Aportes Parafiscales
 
-![Aportes Nómina Semanal](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/aportessemanal.png)
+![Aportes Nómina Semanal](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/aportessemanal.png)
 
 Imagen 6. Aportes de Nómina Semanal
 
@@ -142,7 +142,7 @@ Imagen 6. Aportes de Nómina Semanal
 
 - **Configuración de Reporte de Nómina**: Provisiones
 
-![Provisiones Nómina Semanal](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/provisionessemanal.png)
+![Provisiones Nómina Semanal](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/provisionessemanal.png)
 
 Imagen 7. Provisiones de Nómina Semanal
 

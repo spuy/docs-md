@@ -62,7 +62,7 @@ El Reporte de Bono de Alimentación lo utilizamos cuando queremos visualizar uni
 
 - En el ejemplo presentado se evidencia una nómina de bono de alimentación  procesada a un empleado al que llamaremos Estándar y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos que detallamos anteriormente.
 
-![Recibo de Nómina](/assets/img/procedures/payroll/payroll-report/resources/recibobonoalimentacion.png)
+![Recibo de Nómina](/assets/img/docs/lve/procedures/payroll/payroll-report/resources/recibobonoalimentacion.png)
 
 Imagen 1. Recibo de Pago
 
@@ -82,7 +82,7 @@ Detalle de Pago: Seleccione esta plantilla de reporte de bono de alimentación s
 
 - En el siguiente ejemplo presentado se evidencia una nómina de bono de alimentación procesada a 2 empleados y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos qué detallamos anteriormente.
 
-![Detalle de Pago](/assets/img/procedures/payroll/payroll-report/resources/detallebonodealimentacion2.png)
+![Detalle de Pago](/assets/img/docs/lve/procedures/payroll/payroll-report/resources/detallebonodealimentacion2.png)
 
 Imagen 2. Detalle de Pago. Misma nómina de Bono de Alimentación con diferentes empleados.
 
@@ -101,6 +101,6 @@ Imagen 2. Detalle de Pago. Misma nómina de Bono de Alimentación con diferentes
 
 - En el siguiente ejemplo presentado se evidencia una nómina de bono de alimentación procesada a 2 empleados y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos qué detallamos anteriormente para el reporte de nómina de bono de alimentación utilizando la plantilla de resumen de pagos
 
-![Resumen de Pago](/assets/img/procedures/payroll/payroll-report/resources/resumenbonoalimentacion33.png)
+![Resumen de Pago](/assets/img/docs/lve/procedures/payroll/payroll-report/resources/resumenbonoalimentacion33.png)
 
 Imagen 3. Resumen de Pago. Misma nómina con diferentes empleados.

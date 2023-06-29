@@ -14,7 +14,7 @@ article: false
 **Banco Occidental de Descuento**
 =================================
 
-Para la exportación de los archivos desde ADempiere al banco occidental de descuento, `ERPyA`_ soporta el siguiente formato facilitado por el banco, que puede ser descargado. El documento :download:`Formato Archivo Ordenes de Pago <EN-CP-E-0036_SOLICITUD_MASIVA_DE_ORDENES_DE_PAGOS__TXT_.xlsm>`, explica el formato que sirve de ayuda para la construcción de los archivos a cargar.
+Para la exportación de los archivos desde ADempiere al banco occidental de descuento, ERPyA_ soporta el siguiente formato facilitado por el banco, que puede ser descargado. El documento Formato Archivo Ordenes de Pago <EN-CP-E-0036_SOLICITUD_MASIVA_DE_ORDENES_DE_PAGOS__TXT_.xlsm>, explica el formato que sirve de ayuda para la construcción de los archivos a cargar.
 
 Adicional a ello, se puede visualizar dicho documento de la siguiente manera, luego de descargarlo.
 

@@ -19,7 +19,7 @@ El proceso para generar reportes de resumen de facturas permite generar múltipl
 
 La ventana "**Resumen de Facturas**" cuenta con 23 campos que ofrecen al usuario diferentes opciones para generar los reportes de los documentos que contengan similitud con los campos seleccionados en la misma.
 
-![Ventana Resumen de Facturas 1](/assets/img/report/gross-sales-report/resources/vent1.png)
+![Ventana Resumen de Facturas 1](/assets/img/docs/lve/report/gross-sales-report/resources/vent1.png)
 
 Imagen 1. Ventana Resumen de Facturas
 

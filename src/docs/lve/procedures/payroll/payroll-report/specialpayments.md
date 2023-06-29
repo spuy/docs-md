@@ -39,7 +39,7 @@ El Reporte de Pagos Especiales lo utilizamos cuando queremos visualizar unicamen
 
 - En el siguiente ejemplo presentado se evidencia una nómina pagos especiales procesada a 2 empleados y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos qué detallamos anteriormente.
 
-![Detalle de Pago 1](/assets/img/procedures/payroll/payroll-report/resources/detallepagosespeciales33.png)
+![Detalle de Pago 1](/assets/img/docs/lve/procedures/payroll/payroll-report/resources/detallepagosespeciales33.png)
 
 Imagen 1. Detalle de Pago. Misma nómina de Pagos Especiales con diferentes empleados.
 
@@ -58,6 +58,6 @@ Resumen de Pago:  Seleccione esta plantilla de reporte de pagos especiales para 
 
 - En el siguiente ejemplo presentado se evidencia una nómina de pagos especiales procesada a 2 empleados y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos qué detallamos anteriormente para el reporte de pagos especiales  utilizando la plantilla de resumen de pagos
 
-![Resumen de Pago 1](/assets/img/procedures/payroll/payroll-report/resources/resumenpagosespeciales33.png)
+![Resumen de Pago 1](/assets/img/docs/lve/procedures/payroll/payroll-report/resources/resumenpagosespeciales33.png)
 
 Imagen 2. Resumen de Pago. Misma nómina con diferentes empleados.

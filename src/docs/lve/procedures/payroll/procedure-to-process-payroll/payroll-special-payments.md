@@ -33,7 +33,7 @@ Seleccione la fecha “Hasta” o el último día del período que seleccionó a
 
 A través de la fecha contable se determina contablemente la fecha de pago de la nómina de pagos especiales en ejecución, por tal motivo se recomienda colocar la fecha “**Hasta**” o el último día del período que seleccionó anteriormente.
 
-![Nómina Pagos Especiales](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/pagosespeciales.png)
+![Nómina Pagos Especiales](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/pagosespeciales.png)
 
 Imagen 1. Nómina Pagos Especiales
 
@@ -61,7 +61,7 @@ También tenemos disponible en el atributo del empleado  un factor llamado Pagos
 
 Para conocer cómo registrar una atributo del empleado puede utilizar el siguiente enlace ''Atributo del Empleado''
 
-![Factor Nómina Pagos Especiales](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/factorpagosespeciales.png)
+![Factor Nómina Pagos Especiales](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/factorpagosespeciales.png)
 
 Imagen 3. Factor Nómina Pagos Especiales
 
@@ -83,7 +83,7 @@ Para visualizar los reportes de nóminas  puede seguir los pasos que se encuentr
 
 - **Plantilla de Reporte de Nómina**: Detalle de Pago
 
-![Detalle de Pago Nómina Pagos Especiales](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/detallepagosespeciales.png)
+![Detalle de Pago Nómina Pagos Especiales](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/detallepagosespeciales.png)
 
 Imagen 3. Detalle de Pago Nómina Pagos Especiales
 
@@ -97,6 +97,6 @@ Imagen 3. Detalle de Pago Nómina Pagos Especiales
 
 - **Plantilla de Reporte de Nómina**: Resumen de Pago
 
-![Resumen de Pago Nómina Pagos Especiales](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/resumenpagosespeciales.png)
+![Resumen de Pago Nómina Pagos Especiales](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/resumenpagosespeciales.png)
 
 Imagen 4. Resumen de Pago Nómina Pagos Especiales

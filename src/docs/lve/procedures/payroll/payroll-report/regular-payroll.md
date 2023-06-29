@@ -76,7 +76,7 @@ El reporte de nómina regular contiene los datos principales de todo proceso de 
 
 - En el ejemplo presentado se evidencia una nómina mensual  procesada a un empleado al que llamaremos Estándar y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos que detallamos anteriormente.
 
-![Recibo de Nómina](/assets/img/procedures/payroll/payroll-report/resources/recibopago11.png)
+![Recibo de Nómina](/assets/img/docs/lve/procedures/payroll/payroll-report/resources/recibopago11.png)
 
 Imagen 1. Recibo de Pago
 
@@ -96,13 +96,13 @@ Imagen 1. Recibo de Pago
 
 - En el siguiente ejemplo presentado se evidencia una nómina mensual  procesada a  2 empleados y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos qué detallamos anteriormente.
 
-![Detalle de Pago 1](/assets/img/procedures/payroll/payroll-report/resources/DetalledePago11.png)
+![Detalle de Pago 1](/assets/img/docs/lve/procedures/payroll/payroll-report/resources/DetalledePago11.png)
 
 - Imagen 2. Detalle de Pago. Misma nómina con diferentes empleados.
 
 - En el ejemplo presentado se evidencia detalle de pago del reporte de nómina regular de 2 nóminas mensuales procesada al mismo empleado y en ella se evidencian las asignaciones y las deducciones obtenidas, así como se encuentran todos los datos qué detallamos anteriormente.
 
-![Detalle de Pago 2](/assets/img/procedures/payroll/payroll-report/resources/Detalledepago22.png)
+![Detalle de Pago 2](/assets/img/docs/lve/procedures/payroll/payroll-report/resources/Detalledepago22.png)
 
 Imagen 3. Detalle de Pago. Diferentes nóminas procesadas al mismo empleado.
 
@@ -121,12 +121,12 @@ Imagen 3. Detalle de Pago. Diferentes nóminas procesadas al mismo empleado.
 
 - En el siguiente ejemplo presentado se evidencia una nómina mensual  procesada a  2 empleados y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos qué detallamos anteriormente para el reporte de nómina regular utilizando la plantilla de resumen de pagos
 
-![Resumen de Pago 1](/assets/img/procedures/payroll/payroll-report/resources/resumendepago11.png)
+![Resumen de Pago 1](/assets/img/docs/lve/procedures/payroll/payroll-report/resources/resumendepago11.png)
 
     Imagen 4. Resumen de Pago. Misma nómina con diferentes empleados.
 
 - En el ejemplo presentado se evidencia detalle de pago del reporte de nómina regular de 2 nóminas mensuales procesada al mismo empleado y en ella se evidencian las asignaciones y las deducciones obtenidas, así como se encuentran todos los datos qué detallamos anteriormente para el reporte de nómina regular utilizando la plantilla de resumen de pagos.
 
-![Resumen de Pago 2](/assets/img/procedures/payroll/payroll-report/resources/resumendepago22.png)
+![Resumen de Pago 2](/assets/img/docs/lve/procedures/payroll/payroll-report/resources/resumendepago22.png)
 
 Imagen 5. Resumen de Pago. Diferentes nóminas procesadas al mismo empleado.

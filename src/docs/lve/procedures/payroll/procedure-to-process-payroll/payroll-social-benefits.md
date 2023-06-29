@@ -34,7 +34,7 @@ Seleccione la fecha en la que esté ejecutando la nómina en el campo **Fecha Co
 
 La nómina de prestaciones sociales está configurada para que procese la asignación de garantía de prestaciones cada 3 meses al empleado, y la asignación de antiguedad de prestaciones cada año a partir del segundo año de servicio del empleado.
 
-![Nómina Prestaciones Sociales](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/prestacionessociales.png)
+![Nómina Prestaciones Sociales](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/prestacionessociales.png)
 
 Imagen 1. Nómina Prestaciones Sociales
 
@@ -58,7 +58,7 @@ Para visualizar los reportes de nóminas  puede seguir los pasos que se encuentr
 
 - **Configuración de Reporte de Nómina**: Préstaciones Sociales
 
-![Recibo de Pago Nómina Prestaciones Sociales](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/reciboprestacionessociales.png)
+![Recibo de Pago Nómina Prestaciones Sociales](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/reciboprestacionessociales.png)
 
 Imagen 2. Recibo de Pago Nómina Prestaciones Sociales
 
@@ -72,7 +72,7 @@ Imagen 2. Recibo de Pago Nómina Prestaciones Sociales
 
 - **Plantilla de Reporte de Nómina**: Detalle de Pago
 
-![Detalle de Pago Nómina Prestaciones Sociales](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/detalleprestacionessociales.png)
+![Detalle de Pago Nómina Prestaciones Sociales](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/detalleprestacionessociales.png)
 
 Imagen 3. Detalle de Pago Nómina Prestaciones Sociales
 
@@ -86,6 +86,6 @@ Imagen 3. Detalle de Pago Nómina Prestaciones Sociales
 
 - **Plantilla de Reporte de Nómina**: Resumen de Pago
 
-![Resumen de Pago Nómina Prestaciones Sociales](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/resumenprestacionessociales.png)
+![Resumen de Pago Nómina Prestaciones Sociales](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/resumenprestacionessociales.png)
 
 Imagen 4. Resumen de Pago Nómina Prestaciones Sociales

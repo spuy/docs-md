@@ -38,7 +38,7 @@ Seleccione la fecha “Hasta” o el último día del período que seleccionó a
 
 A través de la fecha contable se determina contablemente la fecha de pago de la nómina de bono de alimentación en ejecución, por tal motivo se recomienda colocar la fecha “**Hasta**” o el último día del período que seleccionó anteriormente.
 
-![Nómina Bono de Alimentación](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/bonodealimentacionpng.png)
+![Nómina Bono de Alimentación](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/bonodealimentacionpng.png)
 
 Imagen 1. Nómina Bono de Alimentación
 
@@ -66,7 +66,7 @@ Para visualizar los reportes de nóminas  puede seguir los pasos que se encuentr
 
 - **Configuración de Reporte de Nómina**: Bono de Alimentación
 
-![Recibo de Pago Nómina Bono de Alimentación](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/recibobonoalimentacion.png)
+![Recibo de Pago Nómina Bono de Alimentación](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/recibobonoalimentacion.png)
 
 Imagen 2. Recibo de Pago Nómina Bono de Alimentación
 
@@ -80,7 +80,7 @@ Imagen 2. Recibo de Pago Nómina Bono de Alimentación
 
 - **Plantilla de Reporte de Nómina**: Detalle de Pago
 
-![Detalle de Pago Nómina Bono de Alimentación](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/detallebonoalimentacion.png)
+![Detalle de Pago Nómina Bono de Alimentación](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/detallebonoalimentacion.png)
 
 Imagen 3. Detalle de Pago Nómina Bono de Alimentación
 
@@ -94,6 +94,6 @@ Imagen 3. Detalle de Pago Nómina Bono de Alimentación
 
 - **Plantilla de Reporte de Nómina**: Resumen de Pago
 
-![Resumen de Pago Nómina Bono de Alimentación](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/resumenbonodealimentacion.png)
+![Resumen de Pago Nómina Bono de Alimentación](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/resumenbonodealimentacion.png)
 
 Imagen 4. Resumen de Pago Nómina de Nómina de Vacaciones

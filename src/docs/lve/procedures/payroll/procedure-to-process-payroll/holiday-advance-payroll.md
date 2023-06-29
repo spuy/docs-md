@@ -35,7 +35,7 @@ Para procesar una “**Nómina de Anticipo de Vacaciones**” debemos realizar e
 
     Seleccione el “**Socio de Negocio Empleado**” a quién se le procesa la nómina de anticipo de vacaciones en el campo **Socio de Negocio**:
 
-![Nómina Anticipo de Vacaciones](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/anticipodevacaciones22.png)
+![Nómina Anticipo de Vacaciones](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/anticipodevacaciones22.png)
 
 Imagen 1. Nómina Anticipo de Vacaciones
 
@@ -48,7 +48,7 @@ Está nómina  por ser una nómina especial no debe registrarse con período
 | Fecha de Inicio de Anticipo de Vacaciones              |      ("IN_FIAV")      |     Fecha      |
 | Días de Anticipo de Vacaciones                         |       ("CR_DAV")      |    Cantidad    |
 
-![Novedades Anticipo de Vacaciones](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/novedadanticipovacaciones.png)
+![Novedades Anticipo de Vacaciones](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/novedadanticipovacaciones.png)
 
 Imagen 2. Novedades Anticipo de Vacaciones
 
@@ -66,7 +66,7 @@ Imagen 2. Novedades Anticipo de Vacaciones
 
           - **Configuración de Reporte de Nómina**: Anticipo de Vacaciones
 
-![Recibo de Pago Nómina Anticipo de Vacaciones](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/reciboanticipovacaciones33.png)
+![Recibo de Pago Nómina Anticipo de Vacaciones](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/reciboanticipovacaciones33.png)
 
 Imagen 2. Recibo de Pago Nómina Anticipo de Vacaciones
 
@@ -80,7 +80,7 @@ Imagen 2. Recibo de Pago Nómina Anticipo de Vacaciones
 
 - **Plantilla de Reporte de Nómina**: Detalle de Pago
 
-![Detalle de Pago Nómina Anticipo de Vacaciones](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/detalleanticipovacaciones11.png)
+![Detalle de Pago Nómina Anticipo de Vacaciones](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/detalleanticipovacaciones11.png)
 
 Imagen 3. Detalle de Pago Nómina Anticipo de Vacaciones
 
@@ -94,7 +94,7 @@ Imagen 3. Detalle de Pago Nómina Anticipo de Vacaciones
 
 - **Plantilla de Reporte de Nómina**: Resumen de Pago
 
-![Resumen de Pago Nómina Anticipo de Vacaciones](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/resumenanticipovacaciones11.png)
+![Resumen de Pago Nómina Anticipo de Vacaciones](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/resumenanticipovacaciones11.png)
 
 Imagen 4. Resumen de Pago Nómina Anticipo de Vacaciones
 
@@ -106,7 +106,7 @@ Imagen 4. Resumen de Pago Nómina Anticipo de Vacaciones
 
 - **Configuración de Reporte de Nómina**: Retenciones Parafiscales
 
-![Retenciones Nómina Anticipo de Vacaciones](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/retencionesanticipovacaciones11.png)
+![Retenciones Nómina Anticipo de Vacaciones](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/retencionesanticipovacaciones11.png)
 
 Imagen 5. Retenciones Nómina Anticipo de Vacaciones
 
@@ -118,7 +118,7 @@ Imagen 5. Retenciones Nómina Anticipo de Vacaciones
 
 - **Configuración de Reporte de Nómina**: Aportes Parafiscales
 
-![Aportes Nómina Anticipo de Vacaciones](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/aportesanticipovacaciones11.png)
+![Aportes Nómina Anticipo de Vacaciones](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/aportesanticipovacaciones11.png)
 
 Imagen 6. Aportes Nómina Anticipo de Vacaciones
   

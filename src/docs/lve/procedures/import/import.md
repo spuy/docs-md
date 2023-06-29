@@ -22,37 +22,37 @@ El expediente de importación representa la agrupación fiscal para un proceso d
 
 - Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Importación y Exportación**" y luego seleccione la ventana "**Expediente de Importación/Exportación**".
 
-![Menu Import](/assets/img/procedures/import/resources/menu1.png)
+![Menu Import](/assets/img/docs/lve/procedures/import/resources/menu1.png)
 
 Imagen 1. Menú de ADempiere
 
 - Seleccione el tipo de documento **"Expediente de Importación".
 
-![Tipo de Documento Import](/assets/img/procedures/import/resources/tipodocimport.png)
+![Tipo de Documento Import](/assets/img/docs/lve/procedures/import/resources/tipodocimport.png)
 
 Imagen 2. Tipo de Documento
 
 - Introduzca la fecha del expediente.
 
-![Fecha de Documento Import](/assets/img/procedures/import/resources/fechadocimport.png)
+![Fecha de Documento Import](/assets/img/docs/lve/procedures/import/resources/fechadocimport.png)
 
 Imagen 3. Fecha de Documento
 
 - Introduzca el número del expediente asignado en el campo **Número de Documento**.
 
-![Número de Documento Import](/assets/img/procedures/import/resources/ndocumentoimport.png)
+![Número de Documento Import](/assets/img/docs/lve/procedures/import/resources/ndocumentoimport.png)
 
 Imagen 4. Fecha de Documento
 
 - Introduzca la moneda en la cuál gestionará el expediente, es decir, la moneda de la compra de la mercancía.
 
-![Moneda de Documento Import](/assets/img/procedures/import/resources/monedaimport.png)
+![Moneda de Documento Import](/assets/img/docs/lve/procedures/import/resources/monedaimport.png)
 
 Imagen 5. Moneda de Documento
 
 Introduzca el tipo de conversión en la cuál gestionará el expediente, recuerde que generalmente es el tipo de cambio de curso legal.
 
-![Tipo de Cambio de Documento Import](/assets/img/procedures/import/resources/tipoconvimport.png)
+![Tipo de Cambio de Documento Import](/assets/img/docs/lve/procedures/import/resources/tipoconvimport.png)
 
 Imagen 6. Tipo de Cambio de Documento
 
@@ -60,19 +60,19 @@ Imagen 6. Tipo de Cambio de Documento
 
 Vaya a la siguiente pestaña **Tipo de Conversión Negociada**, para establecer la tasa asignada al expediente de importación.
 
-![Pestaña Tasa de Conversión](/assets/img/procedures/import/resources/pestanatcimport.png)
+![Pestaña Tasa de Conversión](/assets/img/docs/lve/procedures/import/resources/pestanatcimport.png)
 
 Imagen 7. Tipo de Cambio de Documento
 
 Indique el monto de la tasa de cambio asignada al expediente de importación.
 
-![Tasa de Cambio de Documento Import](/assets/img/procedures/import/resources/tasacambioimport.png)
+![Tasa de Cambio de Documento Import](/assets/img/docs/lve/procedures/import/resources/tasacambioimport.png)
 
 Imagen 8. Tipo de Cambio de Documento
 
 - Vea el expediente generado en el campo **Expediente Generado**, este registro es el valor utilizado para consultar los registros en reportes administrativos y contables.
 
-![Expediente Generado](/assets/img/procedures/import/resources/expgeneradoimport.png)
+![Expediente Generado](/assets/img/docs/lve/procedures/import/resources/expgeneradoimport.png)
 
 Imagen 9. Tipo de Cambio de Documento
 
@@ -106,19 +106,19 @@ A continuación se detalla los campos que son actualizados de manera automática
 
 - Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**" y luego seleccione la ventana "**Órdenes de Compra**".
 
-![Menú de ADempiere 1](/assets/img/procedures/import/resources/menu1.png)
+![Menú de ADempiere 1](/assets/img/docs/lve/procedures/import/resources/menu1.png)
 
 Imagen 10. Menú de ADempiere
 
 - Realice el procedimiento regular para realizar una orden de compra, explicado en el material **''Orden de compra''**.
 
-![Orden de Compra sin Completar](/assets/img/procedures/import/resources/orden1.png)
+![Orden de Compra sin Completar](/assets/img/docs/lve/procedures/import/resources/orden1.png)
 
 Imagen 11. Orden de Compra Importación sin Completar
 
 - Asigne el expediente creado anteriormente en el campo **Expediente Importación/Exportación**.
 
-![Expediente de OC](/assets/img/procedures/import/resources/ocexpgeneradoimport.png)
+![Expediente de OC](/assets/img/docs/lve/procedures/import/resources/ocexpgeneradoimport.png)
 
 Imagen 12. Expediente de Importación
 
@@ -128,19 +128,19 @@ Al colocar el expediente se establece el ''tipo de conversión negociado'' y el 
 
 - Seleccione la opción "**Completar**", ubicada en la parte inferior derecha del documento.
 
-![Opción Completar 1](/assets/img/procedures/import/resources/completar1.png)
+![Opción Completar 1](/assets/img/docs/lve/procedures/import/resources/completar1.png)
 
 Imagen 13. Opción Completar Documento
 
 - Seleccione la acción "**Completar**" y la opción "**OK**" para completar el documento "**Orden de Compra**".
 
-![ Acción Completar](/assets/img/procedures/import/resources/accion1.png)
+![ Acción Completar](/assets/img/docs/lve/procedures/import/resources/accion1.png)
 
 Imagen 14. Acción Completar
 
 - Podrá visualizar en la parte inferior de la orden de compra, el campo en estado "**Completo**" y el resultado de la conversión configurada anteriormente.
 
-![Orden de Compra Completa](/assets/img/procedures/import/resources/resultado1.png)
+![Orden de Compra Completa](/assets/img/docs/lve/procedures/import/resources/resultado1.png)
 
 Imagen 15. Orden de Compra Completa
 
@@ -148,13 +148,13 @@ Imagen 15. Orden de Compra Completa
 
 Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**" y luego seleccione la ventana "**Documentos por Pagar**".
 
-![Menú de ADempiere 4](/assets/img/procedures/import/resources/menu4.png)
+![Menú de ADempiere 4](/assets/img/docs/lve/procedures/import/resources/menu4.png)
 
 Imagen 16. Menú de ADempiere
 
 Realice el procedimiento regular para realizar un documento por pagar desde una Orden de Compra, explicado en el material **''Documento por pagar''**.
 
-![Factura de Importación](/assets/img/procedures/import/resources/facturaimpor.png)
+![Factura de Importación](/assets/img/docs/lve/procedures/import/resources/facturaimpor.png)
 
 Imagen 17. Factura de Cuentas por Pagar Importación
 
@@ -164,7 +164,7 @@ Imagen 17. Factura de Cuentas por Pagar Importación
 
 Asigne el expediente creaado anteriormente en el campo **Expediente Importación/Exportación**.
 
-![Expediente Factura CXP](/assets/img/procedures/import/resources/expfacturaimport.png)
+![Expediente Factura CXP](/assets/img/docs/lve/procedures/import/resources/expfacturaimport.png)
 
 Imagen 18. Expediente de Importación
 
@@ -172,7 +172,7 @@ Imagen 18. Expediente de Importación
 
 Vea el expediente creaado anteriormente en el campo **Expediente Importación/Exportación**.
 
-![Expediente Factura CXP](/assets/img/procedures/import/resources/expfacturaimport.png)
+![Expediente Factura CXP](/assets/img/docs/lve/procedures/import/resources/expfacturaimport.png)
 
 Imagen 18. Expediente de Importación
 
@@ -180,13 +180,13 @@ Imagen 18. Expediente de Importación
 
 Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**" y luego seleccione la ventana "**Documentos por Pagar**".
 
-![Menú de ADempiere 4](/assets/img/procedures/import/resources/menu4.png)
+![Menú de ADempiere 4](/assets/img/docs/lve/procedures/import/resources/menu4.png)
 
 Imagen 19. Menú de ADempiere
 
 Realice el procedimiento regular para realizar un documento por pagar desde una Orden de Compra, explicado en el material :ref:`documento/documento-por-pagar`.
 
-![Factura de Importación](/assets/img/procedures/import/resources/facturaimpor.png)
+![Factura de Importación](/assets/img/docs/lve/procedures/import/resources/facturaimpor.png)
 
 Imagen 20. Factura de Cuentas por Pagar Importación
 
@@ -198,13 +198,13 @@ Seleccione el tipo de documento: ''Facturas Gastos Internacionales Importación'
 
 Asigne el expediente creaado anteriormente en el campo **Expediente Importación/Exportación**.
 
-![Expediente Factura CXP](/assets/img/procedures/import/resources/expfacturaimport.png)
+![Expediente Factura CXP](/assets/img/docs/lve/procedures/import/resources/expfacturaimport.png)
 
 Imagen 21. Expediente de Importación
 
 Asigne la factura relacionada o factura de la mercacía creada anteriormente en el campo **Factura Relacionada**.
 
-![Factura Relacionada](/assets/img/procedures/import/resources/facturarelacionimport.png)
+![Factura Relacionada](/assets/img/docs/lve/procedures/import/resources/facturarelacionimport.png)
 
 Imagen 22. Factura Relacionada
 

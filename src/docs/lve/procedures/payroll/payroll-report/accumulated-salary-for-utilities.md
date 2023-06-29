@@ -25,7 +25,7 @@ Para obtener dicho reporte debemos configurarlo con los siguientes campos:
 
 **Configuración del Reporte de Nómina**: **Salario Acumulado Utilidades**
 
-![Reporte Salario para Utilidades](/assets/img/procedures/payroll/payroll-report/resources/salaryprofit.png)
+![Reporte Salario para Utilidades](/assets/img/docs/lve/procedures/payroll/payroll-report/resources/salaryprofit.png)
 
 Imagen 1. Parámetros para obtener el reporte salario para utilidades.
 
@@ -44,6 +44,6 @@ Los campos que podrá visualizar en este reporte son:
 |  Mes                                          | Corresponde al monto otorgado por el empleado por el concepto acumulado utilidades          |
 |  Total                                        | Corresponde al monto total obtenido por el concepto                                      |
 
-![Salario para Utilidades](/assets/img/procedures/payroll/payroll-report/resources/salaryprofit.png)
+![Salario para Utilidades](/assets/img/docs/lve/procedures/payroll/payroll-report/resources/salaryprofit.png)
 
 Imagen 2. Reporte Generado Salario para Utilidades.

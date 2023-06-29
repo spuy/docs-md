@@ -15,7 +15,7 @@ article: false
 **Anticipo de Vacaciones**
 ===========================
 
-El Reporte de Anticipo de Vacaciones lo utilizamos cuando queremos visualizar unicamente los resultados de la nómina de anticipo de vacaciones, en él usted podrá visualizar las asignaciones y las deducciones calculados en está nómina. Los parámetros utilizados para generar el reporte de nómina los encontrará en el documento proceso de nómina de anticipo vacaciones :ref:`documento/nomina-anticipo-vacaciones`, un documento que tambien le ayudará a identificar cada uno de los campos que se utilizan para obtener un reporte de nómina es el documento :ref:`documento/reporte-de-nómina`
+El Reporte de Anticipo de Vacaciones lo utilizamos cuando queremos visualizar unicamente los resultados de la nómina de anticipo de vacaciones, en él usted podrá visualizar las asignaciones y las deducciones calculados en está nómina. Los parámetros utilizados para generar el reporte de nómina los encontrará en el documento proceso de nómina de anticipo vacaciones documento nomina anticipo vacaciones, un documento que tambien le ayudará a identificar cada uno de los campos que se utilizan para obtener un reporte de nómina es el documento reporte de nómina.
 
 - Entre las asignaciones que se pueden visualizar en el reporte de anticipo de vacaciones se encuentran:
 
@@ -68,7 +68,7 @@ Entre las deducciones que se pueden visualizar en el reporte de vacaciones se en
 
 - En el ejemplo presentado se evidencia una nómina de anticipo de vacaciones  procesada a un empleado al que llamaremos Estándar y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos qué detallamos anteriormente.
 
-![Recibo de Pago Nómina Anticipo de Vacaciones](/assets/img/procedures/payroll/payroll-report/resources/reciboanticipovacaciones33.png)
+![Recibo de Pago Nómina Anticipo de Vacaciones](/assets/img/docs/lve/procedures/payroll/payroll-report/resources/reciboanticipovacaciones33.png)
 
 Imagen 1. Recibo de Pago Nómina Anticipo de Vacaciones
 
@@ -88,7 +88,7 @@ Imagen 1. Recibo de Pago Nómina Anticipo de Vacaciones
 
 - En el siguiente ejemplo presentado se evidencia una nómina de anticipo de vacaciones procesada a 1 empleados y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos qué detallamos anteriormente.
 
-![Detalle de Pago Nómina Anticipo de Vacaciones](/assets/img/procedures/payroll/payroll-report/resources/detalleanticipovacaciones11.png)
+![Detalle de Pago Nómina Anticipo de Vacaciones](/assets/img/docs/lve/procedures/payroll/payroll-report/resources/detalleanticipovacaciones11.png)
 
 Imagen 2. Detalle de Pago Nómina Anticipo de Vacaciones
 
@@ -107,6 +107,6 @@ Imagen 2. Detalle de Pago Nómina Anticipo de Vacaciones
 
 - En el siguiente ejemplo presentado se evidencia una nómina de anticipo de vacaciones procesada a 2 empleados y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos qué detallamos anteriormente para el reporte de nómina de anticipo de vacaciones utilizando la plantilla de resumen de pagos
 
-![Resumen de Pago Nómina Anticipo de Vacaciones](/assets/img/procedures/payroll/payroll-report/resources/resumenanticipovacaciones11.png)
+![Resumen de Pago Nómina Anticipo de Vacaciones](/assets/img/docs/lve/procedures/payroll/payroll-report/resources/resumenanticipovacaciones11.png)
 
 Imagen 3. Resumen de Pagos.

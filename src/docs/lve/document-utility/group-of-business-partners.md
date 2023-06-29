@@ -139,19 +139,19 @@ Un socio del negocio en ADempiere puede pertenecer a cualquier grupo de socios d
 
 | Grupos de Socios del Negocio:                   | El **Socio del Negocio Cliente** puede pertenecer a:| El **Socio del Negocio Proveedor** puede pertenecer a:| El **Socio del Negocio Empleado** puede pertenecer a:|
 |--------------------------------------------------------|-----------------------------------------------------|-------------------------------------------------------|------------------------------------------------------|
-| Grupo de Socios del Negocio Banco                      |                                                     | ![Check](/assets/img/document-utility/resources/check.png)                                               |                                                      |
-| Grupo de Socios del Negocio Clientes Nacionales        | ![Check](/assets/img/document-utility/resources/check.png)                                             |                                                       |![Check](/assets/img/document-utility/resources/check.png)                                                 |
-| Grupo de Socios del Negocio Clientes Internacionales   | ![Check](/assets/img/document-utility/resources/check.png)                                                |                                                       |                                                      |
-| Grupo de Socios del Negocio Empleados                  |                                                     |                                                       | ![Check](/assets/img/document-utility/resources/check.png)                                                 |
-| Grupo de Socios del Negocio Gobierno                   | ![Check](/assets/img/document-utility/resources/check.png)                                                | ![Check](/assets/img/document-utility/resources/check.png)                                                  |                                                      |
-| Grupo de Socios del Negocio Proveedores Nacionales     |                                                     | ![Check](/assets/img/document-utility/resources/check.png)                                                  | ![Check](/assets/img/document-utility/resources/check.png)                                                 |
-| Grupo de Socios del Negocio Proveedores Internacionales|                                                     | ![Check](/assets/img/document-utility/resources/check.png)                                                  |                                                      |
+| Grupo de Socios del Negocio Banco                      |                                                     | ![Check](/assets/img/docs/lve/document-utility/resources/check.png)                                               |                                                      |
+| Grupo de Socios del Negocio Clientes Nacionales        | ![Check](/assets/img/docs/lve/document-utility/resources/check.png)                                             |                                                       |![Check](/assets/img/docs/lve/document-utility/resources/check.png)                                                 |
+| Grupo de Socios del Negocio Clientes Internacionales   | ![Check](/assets/img/docs/lve/document-utility/resources/check.png)                                                |                                                       |                                                      |
+| Grupo de Socios del Negocio Empleados                  |                                                     |                                                       | ![Check](/assets/img/docs/lve/document-utility/resources/check.png)                                                 |
+| Grupo de Socios del Negocio Gobierno                   | ![Check](/assets/img/docs/lve/document-utility/resources/check.png)                                                | ![Check](/assets/img/docs/lve/document-utility/resources/check.png)                                                  |                                                      |
+| Grupo de Socios del Negocio Proveedores Nacionales     |                                                     | ![Check](/assets/img/docs/lve/document-utility/resources/check.png)                                                  | ![Check](/assets/img/docs/lve/document-utility/resources/check.png)                                                 |
+| Grupo de Socios del Negocio Proveedores Internacionales|                                                     | ![Check](/assets/img/docs/lve/document-utility/resources/check.png)                                                  |                                                      |
 
 **Importancia del Grupo de Socio del Negocio**
 ----------------------------------------------
 
 En ADempiere la agrupación de los socios del negocio registrados indican el comportamiento y la clasificación dentro del mismo, de igual manera permite un registro ordenado de todos los socios del negocio que una empresa tiene registrados.
 
-![Grupo de Socios del Negocio en ADempiere](/assets/img/document-utility/resources/group-of-business-partners.png)
+![Grupo de Socios del Negocio en ADempiere](/assets/img/docs/lve/document-utility/resources/\group-of-business-partners.png)
 
 Imagen 1. Grupo de Socios del Negocio en ADempiere

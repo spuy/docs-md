@@ -39,7 +39,7 @@ Seleccione la fecha “Hasta” o el último día del período que seleccionó a
 
 A través de la fecha contable se determina contablemente la fecha de pago de la nómina semanal en ejecución, por tal motivo se recomienda colocar la fecha “**Hasta**” o el último día del período que seleccionó anteriormente.
 
-![Nómina Utilidades](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/utilidades.png)
+![Nómina Utilidades](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/utilidades.png)
 
 Imagen 1. Nómina de Utilidades
 
@@ -61,7 +61,7 @@ Para visualizar los reportes de nóminas  puede seguir los pasos que se encuentr
 
 - **Configuración de Reporte de Nómina**: Utilidades
 
-![Recibo de Pago Nómina Utilidades](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/reciboutilidades.png)
+![Recibo de Pago Nómina Utilidades](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/reciboutilidades.png)
 
 Imagen 2. Recibo de Pago Nómina Utilidades
 
@@ -75,7 +75,7 @@ Imagen 2. Recibo de Pago Nómina Utilidades
 
 - **Plantilla de Reporte de Nómina**: Detalle de Pago
 
-![Detalle de Pago Nómina  Utilidades](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/detalleutilidades.png)
+![Detalle de Pago Nómina  Utilidades](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/detalleutilidades.png)
 
 Imagen 3. Detalle de Pago Nómina de  Utilidades
 
@@ -89,7 +89,7 @@ Imagen 3. Detalle de Pago Nómina de  Utilidades
 
 - **Plantilla de Reporte de Nómina**: Resumen de Pago
 
-![Resumen de Pago Nómina  Utilidades](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/resumenutilidades.png)
+![Resumen de Pago Nómina  Utilidades](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/resumenutilidades.png)
 
 Imagen 4. Resumen de Pago Nómina de Nómina de  Utilidades
 
@@ -101,7 +101,7 @@ Imagen 4. Resumen de Pago Nómina de Nómina de  Utilidades
 
 - **Configuración de Reporte de Nómina**: Retenciones Parafiscales
 
-![Retenciones Nómina Utilidades](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/retencionesutilidades.png)
+![Retenciones Nómina Utilidades](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/retencionesutilidades.png)
 
 Imagen 6. Retenciones de Nómina de Utilidades
 
@@ -113,7 +113,7 @@ Imagen 6. Retenciones de Nómina de Utilidades
 
 - **Configuración de Reporte de Nómina**: Aportes Parafiscales
 
-![Aportes Nómina Utilidades](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/aporteutilidades.png)
+![Aportes Nómina Utilidades](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/aporteutilidades.png)
 
 Imagen 7. Aportes Nómina de Utilidades
 

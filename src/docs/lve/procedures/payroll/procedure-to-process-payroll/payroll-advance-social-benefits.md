@@ -32,7 +32,7 @@ Cargo: Sueldos y Salarios por Pagar
 
 Seleccione la fecha en la que esté ejecutando la nómina en el campo **Fecha Contable**
 
-[Nomina Anticipo de Prestaciones Sociales](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/prestacionessociales.png)
+[Nomina Anticipo de Prestaciones Sociales](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/prestacionessociales.png)
 
 Imagen 1. Nómina Anticipo Prestaciones Sociales
 

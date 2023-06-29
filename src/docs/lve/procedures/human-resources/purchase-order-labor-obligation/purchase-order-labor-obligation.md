@@ -31,7 +31,7 @@ Seleccione en la ventana principal de la orden de compra el tipo de documento qu
 
 - Recuerde que para este caso el tipo de documento determina la acción que realiza ese documento dentro de ADempiere y también determina  que pueda visualizar los diferentes cargos que tiene asociado ese tipo de documento.
 
-![Tipo de Documento](/assets/img/procedures/human-resources/purchase-order-labor-obligation/resources/obligacionlaboral.png)
+![Tipo de Documento](/assets/img/docs/lve/procedures/human-resources/purchase-order-labor-obligation/resources/obligacionlaboral.png)
 
 Imagen 1. Seleccione el Tipo de Documento con el que registrará su documento.
 
@@ -98,6 +98,6 @@ En ADempiere un cargo representa un servicio, quiere decir que no contabiliza en
     - Viajes Nacionales
     - Viáticos de Personal
 
-![Cargo](/assets/img/procedures/human-resources/purchase-order-labor-obligation/resources/cargo.png)
+![Cargo](/assets/img/docs/lve/procedures/human-resources/purchase-order-labor-obligation/resources/cargo.png)
 
 Imagen 2. Seleccione el Tipo de Cargo

@@ -29,7 +29,7 @@ Para obtener dicho reporte debemos seleccionar los siguientes campos:
 | Estado del Documento            | Siempre es recomendable utilizar el estado COMPLETO, para que el reporte tome en cuenta solo los procesos de nóminas en estado Completo no los anulados, ni en borrador |
 | Configuración del Reporte de Nómina.                         | Seleccione en este caso Devengado Salario Normal |
 
-![Parámetros para generar el reporte](/assets/img/procedures/payroll/payroll-report/resources/reportparametersearningnormalsalary.png)
+![Parámetros para generar el reporte](/assets/img/docs/lve/procedures/payroll/payroll-report/resources/reportparametersearningnormalsalary.png)
 
 Imagen 1. Parámetros para generar el reporte.
 
@@ -50,6 +50,6 @@ En el siguiente ejemplo se presenta  el monto devengado por salario normal  por 
 
 Si desea conocer el valor de dicho concepto durante varias nóminas, no seleccione en el campo proceso de nómina y coloca un parametros de fechas con la finalidad de que pueda visualizar el monto obtenido durante varios procesos de nómina
 
-![Reporte Devengado Salario Normal](/assets/img/procedures/payroll/payroll-report/resources/normalsalary.png)
+![Reporte Devengado Salario Normal](/assets/img/docs/lve/procedures/payroll/payroll-report/resources/normalsalary.png)
 
 Imagen 2. Reporte Devengado Salario Normal

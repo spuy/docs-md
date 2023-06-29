@@ -19,15 +19,15 @@ ADempiere permite auto-generar una estimación de retenciones de ISLR a los docu
 
 Estas bondades de ADempiere dependerán de la oportuna configuración del proveedor en el cual debe indicar el porcentaje de retención del ISLR a aplicar al proveedor, el mismo puede variar según el resultado de las convinaciones entre el concepto de pago o servicio, el tipo de persona y la tarifa asociada al tipo de persona en cada concepto de pago o servicio. Dichas convinaciones se encuentran explicadas en la tabla de retenciones de ISLR, en el decreto 1.808 de la gaceta oficial número 36.203 publicada el 12 de mayo de 1997.
 
-![Tabla de Retención de ISLR 1](/assets/img/procedures/withholding-management/resources/tabla-islr1.png)
+![Tabla de Retención de ISLR 1](/assets/img/docs/lve/procedures/withholding-management/resources/tabla-islr1.png)
 
 Imagen 1. Tabla de Retención de ISLR
 
-![Tabla de Retención de ISLR 2](/assets/img/procedures/withholding-management/resources/tabla-islr2.png)
+![Tabla de Retención de ISLR 2](/assets/img/docs/lve/procedures/withholding-management/resources/tabla-islr2.png)
 
 Imagen 2. Tabla de Retención de ISLR
 
-![Tabla de Retención de ISLR 3](/assets/img/procedures/withholding-management/resources/tabla-islr3.png)
+![Tabla de Retención de ISLR 3](/assets/img/docs/lve/procedures/withholding-management/resources/tabla-islr3.png)
 
 Imagen 3. Tabla de Retención de ISLR
 

@@ -39,7 +39,7 @@ Seleccione la fecha “Hasta” o el último día del período que seleccionó a
 
 A través de la fecha contable se determina contablemente la fecha de pago de la nómina mensual en ejecución, por tal motivo se recomienda colocar la fecha “**Hasta**” o el último día del período que seleccionó anteriormente.
 
-![Nómina Mensual](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/mensual.png)
+![Nómina Mensual](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/mensual.png)
 
 Imagen 1. Nómina Mensual
 
@@ -80,7 +80,7 @@ Para visualizar los reportes de nóminas  puede seguir los pasos que se encuentr
 
 - **Configuración de Reporte de Nómina**: Nómina Regular
 
-![Recibo de Pago Nómina Mensual](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/recibomensual.png)
+![Recibo de Pago Nómina Mensual](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/recibomensual.png)
 
 Imagen 2. Recibo de Pago Nómina Mensual
 
@@ -94,7 +94,7 @@ Imagen 2. Recibo de Pago Nómina Mensual
 
 - **Plantilla de Reporte de Nómina**: Detalle de Pago
 
-![Detalle de Pago Nómina Mensual](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/detallemensual.png)
+![Detalle de Pago Nómina Mensual](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/detallemensual.png)
 
 Imagen 3. Detalle de Pago Nómina Mensual
 
@@ -108,7 +108,7 @@ Imagen 3. Detalle de Pago Nómina Mensual
 
 - **Plantilla de Reporte de Nómina**: Resumen de Pago
 
-![Resumen de Pago Nómina Mensual](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/resumenmensual.png)
+![Resumen de Pago Nómina Mensual](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/resumenmensual.png)
 
 Imagen 4. Resumen de Pago Nómina Mensual
 
@@ -120,7 +120,7 @@ Imagen 4. Resumen de Pago Nómina Mensual
 
 - **Configuración de Reporte de Nómina**: Retenciones Parafiscales
 
-![Retenciones Nómina Mensual](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/retencionesmensual.png)
+![Retenciones Nómina Mensual](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/retencionesmensual.png)
 
 Imagen 5. Retenciones de Nómina Mensual
 
@@ -132,7 +132,7 @@ Imagen 5. Retenciones de Nómina Mensual
 
 - **Configuración de Reporte de Nómina**: Aportes Parafiscales
 
-![Aportes Nómina Mensual](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/aportesmensual.png)
+![Aportes Nómina Mensual](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/aportesmensual.png)
 
 Imagen 6. Aportes de Nómina Mensual
 
@@ -144,7 +144,7 @@ Imagen 6. Aportes de Nómina Mensual
 
 - **Configuración de Reporte de Nómina**: Provisiones
 
-![Provisiones Nómina Mensual](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/provisionesmensual.png)
+![Provisiones Nómina Mensual](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/provisionesmensual.png)
 
 Imagen 7. Provisiones de Nómina Mensual
 

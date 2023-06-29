@@ -71,7 +71,7 @@ El Reporte de Utilidades lo utilizamos cuando queremos visualizar la nómina de 
 
 - En el ejemplo presentado se evidencia una nómina de utilidades procesada a un empleado al que llamaremos Estándar y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos qué detallamos anteriormente.
 
-![Recibo de Nómina](/assets/img/procedures/payroll/payroll-report/resources/reciboutilidades33.png)
+![Recibo de Nómina](/assets/img/docs/lve/procedures/payroll/payroll-report/resources/reciboutilidades33.png)
 
 Imagen 1. Recibo de Pago
 
@@ -91,7 +91,7 @@ Imagen 1. Recibo de Pago
 
 - En el siguiente ejemplo presentado se evidencia una nómina de utilidades procesada a  2 empleados y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos que detallamos anteriormente.
 
-![Detalle de Pago 1](/assets/img/procedures/payroll/payroll-report/resources/detalleUtilidades33.png)
+![Detalle de Pago 1](/assets/img/docs/lve/procedures/payroll/payroll-report/resources/detalleUtilidades33.png)
 
 Imagen 2. Detalle de Pago. Misma nómina con diferentes empleados.
 
@@ -110,6 +110,6 @@ Imagen 2. Detalle de Pago. Misma nómina con diferentes empleados.
 
 - En el siguiente ejemplo presentado se evidencia una nómina de utilidades  procesada a  2 empleados y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos que detallamos anteriormente para el reporte de nómina de utilidades utilizando la plantilla de resumen de pagos
 
-![Resumen de Pago 1](/assets/img/procedures/payroll/payroll-report/resources/resumenutilidades33.png)
+![Resumen de Pago 1](/assets/img/docs/lve/procedures/payroll/payroll-report/resources/resumenutilidades33.png)
 
 Imagen 3. Resumen de Pago. Misma nómina con diferentes empleados.

@@ -27,7 +27,7 @@ Es necesario que todos los socios del negocio cuenten con el registro de los sig
 
 - "**Usuario**": El usuario de acceso en ADempiere definido para el socio del negocio que se encuentra configurando. La selección de este campo permite que ADempiere tome el número de teléfono ingresado en el campo "**Teléfono**", el usuario definido en el campo "**Código**" y el nombre ingresado en el campo "**Nombre**", del registro de la pestaña "**Contacto (Usuario)**" del socio del negocio, cuando sea requerido en el construcción del archivo "**.txt**". Un ejemplo de este campo puede ser "**02550000000**", "**EstandarUsuario**" y "**Estandar Proveedor**".
 
-![pestaña contacto usuario](/assets/img/procedures/treasury-management/resources/user-contact-tab.png)
+![pestaña contacto usuario](/assets/img/docs/lve/procedures/treasury-management/resources/user-contact-tab.png)
 
 Imagen 1. Configuración de Contacto Usuario de la Ventana Socio del Negocio
 
@@ -37,7 +37,7 @@ Imagen 1. Configuración de Contacto Usuario de la Ventana Socio del Negocio
 - "**No. Seguro Social**": Número de cédula de identidad o registro de información fiscal (RIF), del socio del negocio titular de la cuenta bancaria. Un ejemplo de este campo puede ser "**V00000000**".
 - "**Cta. Correo Electrónico**": La dirección de correo electrónico del titular de la cuenta bancaria indicada anteriormente.
 
-![pestaña cuenta bancaria de la ventana socio del negocio](/assets/img/procedures/treasury-management/resources/bank-account-tab-of-the-business-partner-window.png)
+![pestaña cuenta bancaria de la ventana socio del negocio](/assets/img/docs/lve/procedures/treasury-management/resources/bank-account-tab-of-the-business-partner-window.png)
 
 Imagen 2. Configuración Bancaria de la Ventana Socio del Negocio
 
@@ -49,19 +49,19 @@ Para obtener un extracto bancario o archivo en formato "**.txt**", debe existir 
 
 Continuando con el ejemplo expuesto anteriormente, se crea el documento de selección de pago número "**1000035**".
 
-![ventana selección de pagos](/assets/img/procedures/treasury-management/resources/payment-selection-window.png)
+![ventana selección de pagos](/assets/img/docs/lve/procedures/treasury-management/resources/payment-selection-window.png)
 
 Imagen 3. Ventana Selección de Pagos
 
 Documento en el cual se tiene asociada la factura por pagar número "**1000150**", con monto de "**7.500.000,00**". Factura en la cual se encuentra involucrado el socio del negocio "**Estándar**" como socio proveedor.
 
-![pestaña línea selección de pagos](/assets/img/procedures/treasury-management/resources/payment-selection-line-tab.png)
+![pestaña línea selección de pagos](/assets/img/docs/lve/procedures/treasury-management/resources/payment-selection-line-tab.png)
 
 Imagen 4. Pestaña Línea Selección de Pagos
 
 Al momento de generar el archivo en formato "**.txt**", ADempiere toma de la pestaña "**Cuenta Bancaria**" los datos de los socios del negocio involucrados en el documento seleccionado en el campo "**Selección de Pago**" de la ventana "**Imprimir/Exportar Pagos**".
 
-![ventana imprimir exportar pagos](/assets/img/procedures/treasury-management/resources/print-window-export-payments.png)
+![ventana imprimir exportar pagos](/assets/img/docs/lve/procedures/treasury-management/resources/print-window-export-payments.png)
 
 Imagen 5. Ventana Imprimir/Exportar Pagos
 

@@ -39,7 +39,7 @@ El período de nómina define el período laborado que le está siendo cancelado
 
 - A través de la "**Fecha Contable**" se determina contablemente la fecha de pago de la nómina quincenal en ejecución, por tal motivo se recomienda colocar la fecha “Hasta” o el último día del período que seleccionó anteriormente.
 
-![Nómina Quincenal](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/quincenal1.png)
+![Nómina Quincenal](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/quincenal1.png)
 
 Imagen 1. Nómina Quincenal
 
@@ -75,7 +75,7 @@ Imagen 1. Nómina Quincenal
 
 - **Configuración de Reporte de Nómina**: Nómina Regular
 
-![Recibo de Pago Nómina Quincenal](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/reciboquincenal.png)
+![Recibo de Pago Nómina Quincenal](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/reciboquincenal.png)
 
 Imagen 2. Recibo de Pago Nómina Quincenal
 
@@ -89,7 +89,7 @@ Imagen 2. Recibo de Pago Nómina Quincenal
 
 - **Plantilla de Reporte de Nómina**: Detalle de Pago
 
-![Detalle de Pago Nómina Quincenal](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/detallequincenal.png)
+![Detalle de Pago Nómina Quincenal](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/detallequincenal.png)
 
 Imagen 3. Detalle de Pago Nómina Quincenal
 
@@ -103,7 +103,7 @@ Imagen 3. Detalle de Pago Nómina Quincenal
 
 - **Plantilla de Reporte de Nómina**: Resumen de Pago
 
-![Resumen de Pago Nómina Quincenal](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/resumenquincenal.png)
+![Resumen de Pago Nómina Quincenal](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/resumenquincenal.png)
 
 Imagen 4. Resumen de Pago Nómina Quincenal
 
@@ -115,7 +115,7 @@ Imagen 4. Resumen de Pago Nómina Quincenal
 
 - **Configuración de Reporte de Nómina**: Retenciones Parafiscales
 
-![Retenciones Nómina Quincenal](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/retencionesquincenal.png)
+![Retenciones Nómina Quincenal](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/retencionesquincenal.png)
 
 Imagen 5. Retenciones de Nómina Quincenal
 
@@ -127,7 +127,7 @@ Imagen 5. Retenciones de Nómina Quincenal
 
 -**Configuración de Reporte de Nómina**: Aportes Parafiscales
 
-![Aportes Nómina Quincenal](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/aportesquincenal.png)
+![Aportes Nómina Quincenal](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/aportesquincenal.png)
 
 Imagen 6. Aportes de Nómina Quincenal
 
@@ -139,7 +139,7 @@ Imagen 6. Aportes de Nómina Quincenal
 
 - **Configuración de Reporte de Nómina**: Provisiones
 
-![Provisiones Nómina Quincenal](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/provisionesquincenal.png)
+![Provisiones Nómina Quincenal](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/provisionesquincenal.png)
 
 Imagen 7. Provisiones de Nómina Quincenal
 

@@ -33,7 +33,7 @@ En ADempiere es posible reflejar los anticipos realizados a proveedores en trán
 
 - Ubique y seleccione en el menú de ADempiere la carpeta "**Gestión de Saldos Pendientes**", luego seleccione el proceso "**Transferencia Bancaria**".
 
-![Menú de ADempiere 11](/assets/img/procedures/import/resources/menutransf.png)
+![Menú de ADempiere 11](/assets/img/docs/lve/procedures/import/resources/menutransf.png)
 
 Imagen 1. Menú de ADempiere
 
@@ -87,7 +87,7 @@ Resultados:
 
 A continuación se presenta un ejemplo de la ventana "**Transferencia Bancaria**".
 
-![Ejemplo de Transferencia Bancaria](/assets/img/procedures/import/resources/transferencia.png)
+![Ejemplo de Transferencia Bancaria](/assets/img/docs/lve/procedures/import/resources/transferencia.png)
 
 Imagen 2. Ejemplo de Transferencia Bancaria
 
@@ -96,7 +96,7 @@ Imagen 2. Ejemplo de Transferencia Bancaria
 
 - Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione el proceso "**Transferencia Bancaria**".
 
-![Menú de ADempiere 1](/assets/img/procedures/import/resources/menutransf.png)
+![Menú de ADempiere 1](/assets/img/docs/lve/procedures/import/resources/menutransf.png)
 
 Imagen 1. Menú de ADempiere
 
@@ -128,7 +128,7 @@ Para realizar el procedimiento se debe tomar en cuenta lo siguiente:
 
 Quedando la ventana del proceso "**Transferencia Bancaria**", de la siguiente manera:
 
-![Transferencia Bancaria](/assets/img/procedures/import/resources/transferencia.png)
+![Transferencia Bancaria](/assets/img/docs/lve/procedures/import/resources/transferencia.png)
 
 Imagen 2. Transferencia Bancaria
 
@@ -138,7 +138,7 @@ Al seleccionar la opción "**OK**, ADempiere realiza la transferencia en base a 
 
 - **Resultado**: Se realiza un egreso en banco por el monto a cancelar.
 
-![Documento Pago Cobro](/assets/img/procedures/import/resources/pagocobro1.png)
+![Documento Pago Cobro](/assets/img/docs/lve/procedures/import/resources/pagocobro1.png)
 
 Imagen 3. Documento en Pago/Cobro
 
@@ -154,7 +154,7 @@ Imagen 3. Documento en Pago/Cobro
 
 - **Resultado**: Se realiza un ingreso en caja por el monto a cancelar.
 
-![Documento Caja](/assets/img/procedures/import/resources/docaja1.png)
+![Documento Caja](/assets/img/docs/lve/procedures/import/resources/docaja1.png)
 
 Imagen 4. Documento en Caja
 
@@ -172,12 +172,12 @@ El cierre de caja es realizado para indicar a ADempiere que al socio del negocio
 
 Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Diario de Caja**", por último seleccione la ventana "**Cierre de Caja**".
 
-![Menú de ADempiere 2](/assets/img/procedures/import/resources/menucierre1.png)
+![Menú de ADempiere 2](/assets/img/docs/lve/procedures/import/resources/menucierre1.png)
 
 Imagen 5. Menú de ADempiere
 
 - Realice el procedimiento regular para generar el cierre de caja, explicado en la **''Cierre caja importación''** del documento "**Importación**", seleccionando la caja proveedores en transito creada. Luego de completar el procedimiento podrá apreciar en el campo "**Saldo Final**", el saldo abierto que posee el socio del negocio proveedor.
 
-![Cierre de Caja](/assets/img/procedures/import/resources/cierrecaja3.png)
+![Cierre de Caja](/assets/img/docs/lve/procedures/import/resources/cierrecaja3.png)
 
 Imagen 6. Cierre de Caja

@@ -22,7 +22,7 @@ article: false
 
 El registro del producto se encuentra explicado de manera detallada en el material ''Producto'', elaborado por [ERPyA](http://erpya.com).
 
-![producto](/assets/img/procedures/consigment-management/consignment-sales/resources/product.png)
+![producto](/assets/img/docs/lve/procedures/consigment-management/consignment-sales/resources/product.png)
 
 Imagen 1. Producto
 
@@ -34,7 +34,7 @@ La orden de compra debe tener tildado obligatoriamente el check "**Entrega Direc
 
 El registro de la orden de compra para el proceso de consignación, se encuentra explicado de manera detallada en el material **''Orden de compra''**, elaborado por [ERPyA](http://erpya.com).
 
-[orden de compra](/assets/img/procedures/consigment-management/consignment-sales/resources/purchase-order.png)
+[orden de compra](/assets/img/docs/lve/procedures/consigment-management/consignment-sales/resources/purchase-order.png)
 
 Imagen 2. Orden de Compra
 

@@ -34,7 +34,7 @@ Seleccione la fecha en la que esté ejecutando la nómina en el campo **Fecha Co
 
 Está nómina  por ser una nómina especial no debe registrarse con período
 
-![Nomina de Liquidacion](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/payrollsettlementprocess.png)
+![Nomina de Liquidacion](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/payrollsettlementprocess.png)
 
 Imagen 1. Nómina de Liquidación
 
@@ -46,7 +46,7 @@ Para esta nómina es obligatorio registrar la incidencia llamada "**Fecha de Egr
 |-------------------------------------------------------|----------------------|----------------|
 | Fecha de Egreso del Trabajador                        |     ("IN_FET")       |     Fecha      |
 
-![Incidencia Nomina de Liquidacion](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/incidencepayrollsettlement.png)
+![Incidencia Nomina de Liquidacion](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/incidencepayrollsettlement.png)
 
 Imagen 2. Incidencia Nómina de Liquidación
 
@@ -64,7 +64,7 @@ Para visualizar los reportes de nóminas  puede seguir los pasos que se encuentr
 
 - **Configuración de Reporte de Nómina**: Liquidación
 
-![Recibo de Pago Nomina de Liquidacion](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/settlementreceipt.png)
+![Recibo de Pago Nomina de Liquidacion](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/settlementreceipt.png)
 
 Imagen 3. Recibo de Pago Nómina de Liquidación
 
@@ -78,7 +78,7 @@ Imagen 3. Recibo de Pago Nómina de Liquidación
 
 - **Plantilla de Reporte de Nómina**: Detalle de Pago
 
-![Detalle de Pago Nomina de Liquidacion](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/paymentdetail.png)
+![Detalle de Pago Nomina de Liquidacion](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/paymentdetail.png)
 
 Imagen 4. Detalle de Pago Nómina de Liquidación
 
@@ -92,7 +92,7 @@ Imagen 4. Detalle de Pago Nómina de Liquidación
 
 - **Plantilla de Reporte de Nómina**: Resumen de Pago
 
-![Resumen de Pago Nomina de Liquidacion](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/paymentsummary.png)
+![Resumen de Pago Nomina de Liquidacion](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/paymentsummary.png)
 
 Imagen 5. Resumen de Pago Nómina de Liquidación
 
@@ -104,7 +104,7 @@ Imagen 5. Resumen de Pago Nómina de Liquidación
 
 - **Configuración de Reporte de Nómina**: Retenciones Parafiscales
 
-![Retenciones](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/withholdings.png)
+![Retenciones](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/withholdings.png)
 
 Imagen 6. Resumen de Pago Nómina de Liquidación
 
@@ -116,7 +116,7 @@ Imagen 6. Resumen de Pago Nómina de Liquidación
 
 - **Configuración de Reporte de Nómina**: Aportes Parafiscales
 
-![Aportes](/assets/img/procedures/payroll/procedures-to-process-payroll/resources/contributions.png)
+![Aportes](/assets/img/docs/lve/procedures/payroll/procedures-to-process-payroll/resources/contributions.png)
 
 Imagen 7. Resumen de Pago Nómina de Liquidación
 

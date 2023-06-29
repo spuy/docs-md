@@ -29,7 +29,7 @@ El txt de Banavih es uno de los archivos que necesitamos subir al portal de FAOV
 
   - Posteriormente debe darle en el check list **OK**
 
-![Reporte](/assets/img/procedures/payroll/payroll-report/resources/banavih.png)
+![Reporte](/assets/img/docs/lve/procedures/payroll/payroll-report/resources/banavih.png)
 
 Imagen 1. Parámetros para obtener archivo.
 
