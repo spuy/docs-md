@@ -6,8 +6,16 @@ sticky: 9
 article: false
 ---
 
+## ¿Qué es WMS?…
+Las siglas WMS (Warehouse Management System) responden a la gestión avanzada de almacenes, que deberá brindar un soporte eficiente a las operaciones realizadas en un almacén y ofrecer una amplia visión de todos los recursos de la organización.
 
-ADempiere ofrece en su gestión de WMS(Warehouse Management Systems) o en español Sistema para la Gestión de almacenes una herramienta que apoya  las operaciones logísticas del almacén de una empresa:
+Sin importar el nivel de inventario que cada compañía posea, el WMS resulta funcional debido a que mejora la organización de los procesos y el manejo de los inventarios en tiempo real.Es por ello, que hoy es importante la inversión en herramientas técnologicas de gestión de almacenes.
+
+Su funcionalidad basicamente deber dar a conocer el lugar de almacenamiento de cada material, y mover de manera automática a el área de ventas los paquetes que deben ser generados con regla FIFO(First In, First Out) o en español **primero en entrar, primero en salir**.
+
+## ¿Qué ofrece ADempiere?…
+
+ADempiere ofrece en su gestión de WMS(Warehouse Management Systems) o en español sistema para la gestión de almacenes una herramienta que apoya  las operaciones logísticas del almacén de una empresa:
 
 - Control de inventarios.
 - Ubicación de las existencias.
@@ -27,7 +35,7 @@ Pero su principio básico es proveer la información para permitir el control ef
 ![image](https://github.com/erpcya/docs/assets/9578152/80054ea0-78c6-4706-b485-b4f4a3c7a177)
 
 
-## ¿De qué servirá en tu Empresa?…
+## ¿De qué servirá en tu Empresa?
 
 1. Te da el control que necesitas en entradas, salidas y localización de productos en tus almacenes.
 2. Más precisión del inventario y estado actual.
@@ -60,7 +68,7 @@ También puede generarse de manera manual permitiendo así una agrupación de or
 
 ![image](https://github.com/erpcya/docs/assets/9578152/e3676964-a07c-4dc9-843b-a0627013b290)
 
-1. Cree una orden de Venta de manera habitual. 
+1. Cree una [orden de Venta](https://docs.erpya.com/docs/sales-management/order.html) de manera habitual. 
 2. Vaya a la sección gestión Avanzada de Almacén
 3. Luego seleccione la opción Operación de Salida   
 4. Luego seleccione la opción Generar Orden de Salida desde orden de Venta/Distribución   
@@ -85,7 +93,7 @@ En este punto de manera automática, se genera la orden de distribución y movim
 
 ![image](https://github.com/erpcya/docs/assets/9578152/45d9943b-6e1e-4ab5-813e-453b53f48482)
 
-1. Cree una orden de Venta de manera habitual.
+1. Cree una [orden de Venta](https://docs.erpya.com/docs/sales-management/order.html) de manera habitual.
 
 ::: info Nota
 
