@@ -13,4 +13,5 @@ article: false
 
 A continuación se encuentra una listas con las versiones relacionadas a la **macro versión** **rs-55.x**
 
+- [rs-55.1](rs-55.1.md)
 - [rs-55.0](rs-55.0.md)
