@@ -6,14 +6,14 @@ sticky: 9
 article: false
 ---
 
-## ¿Qué es WMS?…
+## ¿Qué es WMS?
 Las siglas WMS (Warehouse Management System) responden a la gestión avanzada de almacenes, que deberá brindar un soporte eficiente a las operaciones realizadas en un almacén y ofrecer una amplia visión de todos los recursos de la organización.
 
 Sin importar el nivel de inventario que cada compañía posea, el WMS resulta funcional debido a que mejora la organización de los procesos y el manejo de los inventarios en tiempo real.Es por ello, que hoy es importante la inversión en herramientas técnologicas de gestión de almacenes.
 
 Su funcionalidad basicamente deber dar a conocer el lugar de almacenamiento de cada material, y mover de manera automática a el área de ventas los paquetes que deben ser generados con regla FIFO(First In, First Out) o en español **primero en entrar, primero en salir**.
 
-## ¿Qué ofrece ADempiere?…
+## ¿Qué ofrece ADempiere?
 
 ADempiere ofrece en su gestión de WMS(Warehouse Management Systems) o en español sistema para la gestión de almacenes una herramienta que apoya  las operaciones logísticas del almacén de una empresa:
 
