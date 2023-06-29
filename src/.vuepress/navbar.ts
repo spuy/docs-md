@@ -16,11 +16,18 @@ export const enNavbarConfig = navbar([
         ],
       },
       {
+        text: "Producto",
+        children: [
+          "product/services",
+        ],
+      },
+      {
         text: "Historia",
         children: [
           "the-beginning",
         ],
       },
+      
     ],
   },
   {
