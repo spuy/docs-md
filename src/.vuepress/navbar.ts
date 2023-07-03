@@ -16,12 +16,6 @@ export const enNavbarConfig = navbar([
         ],
       },
       {
-        text: "Producto",
-        children: [
-          "product/services",
-        ],
-      },
-      {
         text: "Historia",
         children: [
           "the-beginning",
@@ -36,6 +30,8 @@ export const enNavbarConfig = navbar([
     prefix: "/product/",
     children: [
       { text: "Producto", icon: "engine", link: "", activeMatch: "^/product/$" },
+      "services" ,
+      
       {
         text: "Tecnología",
         children: [

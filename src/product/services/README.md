@@ -5,9 +5,9 @@ star: 9
 sticky: 9
 tag:
   - Servicios
-  - Producto
+  - Adempiere
 
-article: true
+article: false
 ---
 
 El presente documento contiene la definición detallada de todos los entregables desarrollados por ERP Consultores y Asociados, C.A al momento de implementar una de sus soluciones en clientes así como los productos y servicios que se ofrecen adicional a lo convenido con el cliente. Usted se encuentra en completa libertad de leer este documento para conocer de manera detallada cada uno de los procesos, el alcance y lo que ERP Consultores y Asociados, C.A entregará al cliente.
