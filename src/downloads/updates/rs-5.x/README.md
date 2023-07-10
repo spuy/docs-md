@@ -27,4 +27,3 @@ A continuación se encuentra una lista de cada **macro versión**, tómate tu ti
 - [rs-52.x](rs-52.x/)
 - [rs-51.x](rs-51.x/)
 - [rs-50.x](rs-50.x/)
-
