@@ -31,12 +31,9 @@ orden de compra o la factura del proveedor. Sepa que está disponible para compr
 proveedores - Opcionalmente en escala de tiempo. Genere listas de reposición de Materiales basadas en ventas pasadas o niveles de inventario definidos; opcionalmente cree Requerimientos o
 directamente Órdenes de compra.
 
-Para referencia de la funcionalidad se tiene un instructivo completo con todos los productos y paquetes [aquí](https://docs.erpya.com/adempiere/quote-to-invoice/shipment/index.html)
-
 ## Alcance del Servicio
 
 - Instalación de la aplicación
 - [Sesión general de capacitación sobre la aplicación incluído en la instalación](../learning/training-session.md)
 - [Sesión de 3 horas de capacitación para el manejo operativo](../learning/training-session.md)
 - [Sesión de 2 horas de capacitación para el manejo administrativo](../learning/training-session.md)
-- [Documentación]([https://docs.erpya.com/adempiere/material-management/index.html](https://docs.erpya.com/adempiere/quote-to-invoice/shipment/index.html))

@@ -35,9 +35,9 @@ La vertical de servicio enfoca su entregable en las herramientas que permiten ll
 - [Compras](../products/requisition-to-invoice.md)
 - [Gestión Administrativa](../products/business-administration-management.md)
 - [Gestión de Tesorería](../products/open-items-management.md)
-- [Tributos](../docs/products/tributes.md)
+- [Tributos](../products/tributes.md)
 
 ## Productos relacionados
 
-- [Nómina](../products/payroll.md)
+- [Nómina](https://docs.erpya.com/docs/lve/procedures/payroll/)
 - [Contabilidad](../products/performance-analysis.md)

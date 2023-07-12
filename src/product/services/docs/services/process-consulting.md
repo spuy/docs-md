@@ -15,7 +15,7 @@ Este servicio corresponde a la consultoría de procesos para optimizar o mejorar
 
 ## ¿Qué tipo de cliente puede usarlo?
 
-- Cualquier cliente que desee alguna conmsultoría en un proceso específico como Compras, Ventas, Producción u otro.
+- Cualquier cliente que desee alguna consultoría en un proceso específico como Compras, Ventas, Producción u otro.
 
 ## Beneficios
 

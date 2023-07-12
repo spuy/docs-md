@@ -37,6 +37,4 @@ Adempiere le permite generar diarios para: Alocaciones, Revalúos y Reconciliaci
 
 ## Paquetes Relacionados
 
-[Análisis de Cuentas](/packages/accounting-analysis.md)
-
-Para referencia de la funcionalidad se tiene un instructivo completo con todos los productos y paquetes [aquí](https://docs.erpya.com/adempiere/performance-analysis/index.html)
+[Análisis de Cuentas](../packages/accounting-analysis.md)

@@ -27,12 +27,9 @@ Gestiona la Producción en base a una lista de materiales predefinida.
 - Registro de Producción
 - Lista de Materiales
 
-Para referencia de la funcionalidad se tiene un instructivo completo con todos los productos y paquetes [aquí](https://docs.erpya.com/adempiere/production-management/index.html#gestion-de-produccion)
-
 ## Alcance del Servicio
 
 - Instalación de la aplicación
 - [Sesión general de capacitación sobre la aplicación incluído en la instalación](../learning/training-session.md)
 - [Sesión de 2 horas de capacitación para el manejo operativo](../learning/training-session.md)
 - [Sesión de 2 horas de capacitación para el manejo administrativo](../learning/training-session.md)
-- [Documentación](https://docs.erpya.com/adempiere/production-management/index.html#gestion-de-produccion)

@@ -43,4 +43,3 @@ Dedicada a comercios retail con diversas cajas o puntos de venta.
 - [5 Sesiones de Capacitación a Vendedores](/learning/training-session.md)
 - [3 Sesiones de Capacitación a Supervisores](/learning/training-session.md)
 - [4 Sesiones de Capacitación a Genrentes](/learning/training-session.md)
-- Documentación en [POS](https://docs.erpya.com/adempiere-ui/adempiere/pos-management/point-of-sale-interface.html)
