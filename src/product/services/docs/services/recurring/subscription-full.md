@@ -28,7 +28,7 @@ Dado que constantemente E.R.P. Consultores y Asociados, C.A. se encuentra genera
 En E.R.P. Consultores y Asociados, C.A. hacemos un gran esfuerzo por mantener a nuestros clientes con lo mínimo para que puedan cumplir con algún requisito de ley. En el siguiente detalle se encuentran los cambios de ley forman parte de los cambios mantenidos por nosotros:
 
 - Libro de Compra
-- Libro de Ventaas
+- Libro de Ventas
 - Cambios en Impuestos
 - Cambios en Unidad Tributaria
 - Cambios en cálculos de retenciones
