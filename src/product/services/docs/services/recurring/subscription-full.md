@@ -37,7 +37,7 @@ En E.R.P. Consultores y Asociados, C.A. hacemos un gran esfuerzo por mantener a 
 - Para Nómina:
   - Aplicación de Salario Mínimo mensual
 
-Todos los cambios se realizan con el mínimo cuidado para que el cliente pueda operar a corde con la ley. Para los siguientes casos no aplica:
+Todos los cambios se realizan con el máximo cuidado para que el cliente pueda operar acorde con la ley. Para los siguientes casos no aplica:
 
 - Actualización de datos
 - Cuadre de saldos
