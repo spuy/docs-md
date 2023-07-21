@@ -56,7 +56,7 @@ Aplica para problemas físicos fortuitos donde esté en riesgo la integridad de 
 
 #### Detalle del backup
 
-Se realizan con la siguiente frequencia:
+Se realizan con la siguiente frecuencia:
 
 - Diaria: Backup liviano sin histórico de cambios o log
 - Semanal: Backup completo.
