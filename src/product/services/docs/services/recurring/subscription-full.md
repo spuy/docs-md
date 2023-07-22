@@ -63,7 +63,7 @@ Se realizan con la siguiente frecuencia:
 
 #### Condiciones
 
-- El buen funcionamiendo del backup dependerá de la infraestructura proporcionada por el cliente
+- El buen funcionamiento del backup dependerá de la infraestructura proporcionada por el cliente
 - El cliente debe proporcionar un enlace de internet constante para garantizar la subida de los backups
 - En caso de tener problemas con el internet ERPyA no se hará responsable de problemas con backups recientes
 
@@ -78,12 +78,12 @@ Este servicio es vital como garantía en caso de que el cliente tenga algún eve
 #### Bondades
 
 - Reinstalación del Sistema Operativo: Esto únicamente aplica cuando la instalación del mismo queda a cargo de ERPyA
-- Recuperación de la información: En caso de ser posible recuperar la información que se encuntra en los servidores, ERPyA hará todo lo posible para recuperarla. Si no se puede recuperar se utilizará el último backup más reciente disponible
+- Recuperación de la información: En caso de ser posible recuperar la información que se encuentra en los servidores, ERPyA hará todo lo posible para recuperarla. Si no se puede recuperar se utilizará el último backup más reciente disponible
 - Restablecimiento del servicio: Corresponde a levantar el servicio nuevamente en los servidores del cliente. En caso de que el cliente no disponga temporalmente del servidor se puede ofrecer el servicio en la nube con un costo bajo demanda o infraestructura.
 
 #### Condiciones
 
-- La resinstalación y recuperación total sólo se hará sobre el servidor definitivo de producción o en la nube según el servicio contratado
+- La reinstalación y recuperación total sólo se hará sobre el servidor definitivo de producción o en la nube según el servicio contratado
 - En caso de que el cliente desee la instalación en un servidor temporal la instalación definitiva será facturada
 
 ## Condiciones Generales
