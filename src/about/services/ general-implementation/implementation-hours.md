@@ -14,7 +14,7 @@ article: false
 
 Proceso de Negocio | Implementación | Acompañamiento | Total
 :-- | --: | --: | --:
-**Proceso de Egreso** | 36 | 16 | 52 
+**Proceso de Egreso** | **36** | 16 | 52 
   Compras | 9 | 4 |  
   Cuentas por Pagar | 9 | 4 |  
   Tributos | 9 | 4 |  
