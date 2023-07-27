@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <atom:link href="https://docs-md.erpya.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://ayuda.solopapp.com/rss.xml" rel="self" type="application/rss+xml"/>
     <title></title>
-    <link>https://docs-md.erpya.com/</link>
+    <link>https://ayuda.solopapp.com/</link>
     <description>Página oficial de documentación ERP Consultores y Asociados, C.A.</description>
     <language>es-ES</language>
-    <pubDate>Thu, 27 Jul 2023 21:37:18 GMT</pubDate>
-    <lastBuildDate>Thu, 27 Jul 2023 21:37:18 GMT</lastBuildDate>
+    <pubDate>Thu, 27 Jul 2023 22:36:01 GMT</pubDate>
+    <lastBuildDate>Thu, 27 Jul 2023 22:36:01 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Noticias</category>
     <category>Nosotros</category>
     <item>
       <title>Privacy Policy</title>
-      <link>https://docs-md.erpya.com/about/services/apps/play/privacy_policy.html</link>
-      <guid>https://docs-md.erpya.com/about/services/apps/play/privacy_policy.html</guid>
-      <source url="https://docs-md.erpya.com/rss.xml">Privacy Policy</source>
+      <link>https://ayuda.solopapp.com/about/services/apps/play/privacy_policy.html</link>
+      <guid>https://ayuda.solopapp.com/about/services/apps/play/privacy_policy.html</guid>
+      <source url="https://ayuda.solopapp.com/rss.xml">Privacy Policy</source>
       <pubDate>Wed, 26 Jul 2023 18:17:54 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="privacy-policy" tabindex="-1"> Privacy Policy</h1>
 <p>Last updated: June 24, 2023</p>
@@ -170,9 +170,9 @@
     </item>
     <item>
       <title>Liberación de ADempiere 3.9.4</title>
-      <link>https://docs-md.erpya.com/about/news/2023-01-01-adempiere-394.html</link>
-      <guid>https://docs-md.erpya.com/about/news/2023-01-01-adempiere-394.html</guid>
-      <source url="https://docs-md.erpya.com/rss.xml">Liberación de ADempiere 3.9.4</source>
+      <link>https://ayuda.solopapp.com/about/news/2023-01-01-adempiere-394.html</link>
+      <guid>https://ayuda.solopapp.com/about/news/2023-01-01-adempiere-394.html</guid>
+      <source url="https://ayuda.solopapp.com/rss.xml">Liberación de ADempiere 3.9.4</source>
       <category>Noticias</category>
       <pubDate>Wed, 03 May 2023 19:30:21 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="adempiere-3-9-4-esta-aqui" tabindex="-1"> ADempiere 3.9.4 está aquí</h2>
@@ -180,9 +180,9 @@
     </item>
     <item>
       <title>Nosotros</title>
-      <link>https://docs-md.erpya.com/about/</link>
-      <guid>https://docs-md.erpya.com/about/</guid>
-      <source url="https://docs-md.erpya.com/rss.xml">Nosotros</source>
+      <link>https://ayuda.solopapp.com/about/</link>
+      <guid>https://ayuda.solopapp.com/about/</guid>
+      <source url="https://ayuda.solopapp.com/rss.xml">Nosotros</source>
       <category>Nosotros</category>
       <pubDate>Sun, 06 Feb 2022 16:01:38 GMT</pubDate>
     </item>

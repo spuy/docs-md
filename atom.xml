@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es-ES">
-  <id>https://docs-md.erpya.com/</id>
+  <id>https://ayuda.solopapp.com/</id>
   <title/>
   <subtitle>Página oficial de documentación ERP Consultores y Asociados, C.A.</subtitle>
-  <updated>2023-07-27T21:37:18.589Z</updated>
+  <updated>2023-07-27T22:36:01.937Z</updated>
   <generator>vuepress-plugin-feed2</generator>
-  <link rel="self" href="https://docs-md.erpya.com/atom.xml"/>
-  <link rel="alternate" href="https://docs-md.erpya.com/"/>
+  <link rel="self" href="https://ayuda.solopapp.com/atom.xml"/>
+  <link rel="alternate" href="https://ayuda.solopapp.com/"/>
   <category term="Noticias"/>
   <category term="Nosotros"/>
   <contributor>
@@ -14,8 +14,8 @@
   </contributor>
   <entry>
     <title type="html">Privacy Policy</title>
-    <id>https://docs-md.erpya.com/about/services/apps/play/privacy_policy.html</id>
-    <link href="https://docs-md.erpya.com/about/services/apps/play/privacy_policy.html"/>
+    <id>https://ayuda.solopapp.com/about/services/apps/play/privacy_policy.html</id>
+    <link href="https://ayuda.solopapp.com/about/services/apps/play/privacy_policy.html"/>
     <updated>2023-07-26T18:17:54.000Z</updated>
     <content type="html"><![CDATA[<h1 id="privacy-policy" tabindex="-1"> Privacy Policy</h1>
 <p>Last updated: June 24, 2023</p>
@@ -170,8 +170,8 @@
   </entry>
   <entry>
     <title type="html">Liberación de ADempiere 3.9.4</title>
-    <id>https://docs-md.erpya.com/about/news/2023-01-01-adempiere-394.html</id>
-    <link href="https://docs-md.erpya.com/about/news/2023-01-01-adempiere-394.html"/>
+    <id>https://ayuda.solopapp.com/about/news/2023-01-01-adempiere-394.html</id>
+    <link href="https://ayuda.solopapp.com/about/news/2023-01-01-adempiere-394.html"/>
     <updated>2023-05-04T19:06:12.000Z</updated>
     <content type="html"><![CDATA[<h2 id="adempiere-3-9-4-esta-aqui" tabindex="-1"> ADempiere 3.9.4 está aquí</h2>
 ]]></content>
@@ -187,8 +187,8 @@
   </entry>
   <entry>
     <title type="html">Nosotros</title>
-    <id>https://docs-md.erpya.com/about/</id>
-    <link href="https://docs-md.erpya.com/about/"/>
+    <id>https://ayuda.solopapp.com/about/</id>
+    <link href="https://ayuda.solopapp.com/about/"/>
     <updated>2023-07-26T18:17:54.000Z</updated>
     <category term="Nosotros" scheme=""/>
     <published>2022-02-06T16:01:38.000Z</published>
