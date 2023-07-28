@@ -1,5 +1,5 @@
 ---
-title: Módulo I Mantenimiento de diccionario de aplicación de Adempiere (Creación de Ventanas)
+title: Módulo I Mantenimiento de diccionario de aplicación de SOLOP (Creación de Ventanas)
 category: Educación
 star: 9
 sticky: 9
@@ -9,19 +9,19 @@ tag:
 
 article: false
 ---
-## Módulo I: Mantenimiento de diccionario de aplicación de Adempiere (Creación de Ventanas)
+## Módulo I: Mantenimiento de diccionario de aplicación de SOLOP (Creación de Ventanas)
 
 ## Descripción del Taller
   
-  Se explicará en detalle el funcionamiento del diccionario de datos de Adempiere, su composición (tablas, campos y formularios de registro de datos), cómo   elaborar nuevos procesos, duplicar formularios e incluir en el menú. Se crearán nuevas tablas y campos y se añadirán en las ya existentes.
+  Se explicará en detalle el funcionamiento del diccionario de datos de SOLOP, su composición (tablas, campos y formularios de registro de datos), cómo   elaborar nuevos procesos, duplicar formularios e incluir en el menú. Se crearán nuevas tablas y campos y se añadirán en las ya existentes.
 
 ## Dirigido a
   
-  Ingenieros de Sistemas, para potenciar conocimientos funcionales del ERP; Egresados de áreas afines, ingenieros industriales; Desarrolladores, con         conocimientos básicos del lenguaje SQL o PL/SQL. Empresas que deseen evaluar Adempiere antes de decidir en su inversión. Empresas que deseen utilizar       Adempiere como plataforma de desarrollo.
+  Ingenieros de Sistemas, para potenciar conocimientos funcionales del ERP; Egresados de áreas afines, ingenieros industriales; Desarrolladores, con         conocimientos básicos del lenguaje SQL o PL/SQL. Empresas que deseen evaluar SOLOP antes de decidir en su inversión. Empresas que deseen utilizar       SOLOP como plataforma de desarrollo.
   
 ## Objetivos  : Al finalizar el taller el participante estará en capacidad de hacer
   
-  Mantenimiento básico en Adempiere así como crear aplicaciones nuevas, ventanas y procesos.
+  Mantenimiento básico en SOLOP así como crear aplicaciones nuevas, ventanas y procesos.
 
 ## Metodología  : Las clases son 100% prácticas; cada participante debe traer su laptop; \
   

@@ -6,7 +6,7 @@ sticky: 9
 article: false
 ---
 
-ADempiere permite definir diferentes conversiones monetarias y estas a su vez, diferentes tasas de cambio que permiten realizar la conversión una moneda a otra para gestionar de manera efectiva las transacciones de compra/venta de la empresa u organización. El proceso de conversión monetaria se puede realizar de forma manual o automática, y es explicado de manera detallada en sus respectivos documentos.
+SOLOP permite definir diferentes conversiones monetarias y estas a su vez, diferentes tasas de cambio que permiten realizar la conversión una moneda a otra para gestionar de manera efectiva las transacciones de compra/venta de la empresa u organización. El proceso de conversión monetaria se puede realizar de forma manual o automática, y es explicado de manera detallada en sus respectivos documentos.
 
 - Conversión Manual
 - Tipo de Conversión
@@ -17,7 +17,7 @@ ADempiere permite definir diferentes conversiones monetarias y estas a su vez, d
 
 ## Conversión Manual
 
-La conversión manual consiste en crear en ADempiere los tipos de conversión con los cuales va a trabajar la empresa. Esta funcionalidad permite lo siguiente:
+La conversión manual consiste en crear en SOLOP los tipos de conversión con los cuales va a trabajar la empresa. Esta funcionalidad permite lo siguiente:
 
 Tasa de Conversión Diaria: Al trabajar con diferentes monedas en los procesos de compra/venta de la organización, se vuelve obligatoría la creación de las tasas de cambio diariamente en los diferentes tipos de conversión con los que trabaja dicha organización. Adicional a ello, la fecha final del rango o periodo de la tasa de cambio, siempre debe ser igual a la fecha de inicio de dicho rango o periodo.
 
@@ -40,11 +40,11 @@ En el siguiente enlace puede descargar un ejemplo del mismo para visualizarlo me
 
 ## Tipo de Conversión
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Análisis de Desempeño**, luego seleccione la carpeta **Reglas Contables**, por último seleccione la ventana **Tipo de Conversión**.
+Ubique y seleccione en el menú de SOLOP, la carpeta **Análisis de Desempeño**, luego seleccione la carpeta **Reglas Contables**, por último seleccione la ventana **Tipo de Conversión**.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image207.png)
 
-Imagen 2. Menú de ADempiere
+Imagen 2. Menú de SOLOP
 
 Podrá visualizar la ventana **Tipo de Conversión**, con los diferentes registros que contiene dicha ventana.
 
@@ -52,7 +52,7 @@ Podrá visualizar la ventana **Tipo de Conversión**, con los diferentes registr
 
 Imagen 3. Ventana Tipo de Conversión
 
-Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de ADempiere.
+Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de SOLOP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image209.png)
 
@@ -96,21 +96,21 @@ Imagen 10. Checklist Predeterminado de la Ventana Tipo de Conversión
 
 Note
 
-Recuerde guardar los cambios realizados seleccionando el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere.
+Recuerde guardar los cambios realizados seleccionando el icono **Guardar Cambios**, ubicado en la barra de herramientas de SOLOP.
 
 ## Tasa de Conversión desde la Ventana Moneda
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Análisis de Desempeño**, luego seleccione la carpeta **Reglas Contables**, por último seleccione la ventana **Moneda**.
+Ubique y seleccione en el menú de SOLOP, la carpeta **Análisis de Desempeño**, luego seleccione la carpeta **Reglas Contables**, por último seleccione la ventana **Moneda**.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image215.png)
 
-Imagen 11. Menú de ADempiere
+Imagen 11. Menú de SOLOP
 
 Seleccione el registro de la moneda para la cual requiere registrar una tasa de conversión. Para ejemplificar el registro es utilizada la moneda **USD**.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image216.png)
 
-Imagen 12. Registro de Moneda USD en ADempiere
+Imagen 12. Registro de Moneda USD en SOLOP
 
 Seleccione la pestaña **Tasas de Cambio** para navegar entre los diferentes registros de tasas de cambio correspondientes a la moneda **USD**.
 
@@ -160,15 +160,15 @@ Imagen 19. Campo Factor de Base a Destino de la Pestaña Tasas de Cambio
 
 Note
 
-Recuerde guardar los cambios realizados seleccionando el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere.
+Recuerde guardar los cambios realizados seleccionando el icono **Guardar Cambios**, ubicado en la barra de herramientas de SOLOP.
 
 ## Tasa de Conversión desde la Ventana Tasa de Cambio
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Análisis de Desempeño**, luego seleccione la carpeta **Reglas Contables**, por último seleccione la ventana **Tasa de Cambio**.
+Ubique y seleccione en el menú de SOLOP, la carpeta **Análisis de Desempeño**, luego seleccione la carpeta **Reglas Contables**, por último seleccione la ventana **Tasa de Cambio**.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image224.png)
 
-Imagen 20. Menú de ADempiere
+Imagen 20. Menú de SOLOP
 
 Podrá visualizar la ventana **Tasa de Cambio**, con diferentes campos que permiten registrar las tasas de cambio según el tipo de conversión.
 
@@ -226,15 +226,15 @@ Imagen 29. Campo Factor de Destino a Base
 
 Note
 
-Recuerde guardar los cambios realizados seleccionando el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere.
+Recuerde guardar los cambios realizados seleccionando el icono **Guardar Cambios**, ubicado en la barra de herramientas de SOLOP.
 
 ## Conversión Automática
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Operaciones de Intercambio**, luego seleccione el proceso **Obtener Tasas de Cambio desde Proveedor**.
+Ubique y seleccione en el menú de SOLOP, la carpeta **Operaciones de Intercambio**, luego seleccione el proceso **Obtener Tasas de Cambio desde Proveedor**.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image234.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de SOLOP
 
 Podrá visualizar la ventana del proceso **Obtener Tasas de Cambio desde Proveedor**, para ejecutar el mismo.
 
@@ -274,13 +274,13 @@ Imagen 6. Resultado del Proceso Obtener Tasas de Cambio desde Proveedor
 
 ## Conversión Automática por Tipo de Conversión
 
-Ubique y seleccione en el mené de ADempiere, la carpeta **Análisis de Desempeño**, luego seleccione la carpeta **Reglas Contables**, por último seleccione la ventana **Tipo de Conversión**.
+Ubique y seleccione en el mené de SOLOP, la carpeta **Análisis de Desempeño**, luego seleccione la carpeta **Reglas Contables**, por último seleccione la ventana **Tipo de Conversión**.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image240.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de SOLOP
 
-Podrá visualizar la ventana **Tipo de Conversión**, con los registros de tipos de conversión que contiene ADempiere.
+Podrá visualizar la ventana **Tipo de Conversión**, con los registros de tipos de conversión que contiene SOLOP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image241.png)
 
@@ -298,7 +298,7 @@ Verifique que el registro de tipo de conversión seleccionado, tenga asociado el
 
 Imagen 4. Campo Proveedor de Tasas de Cambio
 
-Seleccione la opción **Obtener Tasas de Cambio desde Proveedor**, desplegada al seleccionar el icono **Proceso**, ubicado en la barra de herramientas de ADempiere.
+Seleccione la opción **Obtener Tasas de Cambio desde Proveedor**, desplegada al seleccionar el icono **Proceso**, ubicado en la barra de herramientas de SOLOP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image244.png)
 

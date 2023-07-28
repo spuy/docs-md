@@ -6,11 +6,11 @@ title: .
 bgImage: /background.jpg
 heroFullScreen: false
 projects:
-  - name: Liberación de ADempiere 3.9.4
+  - name: Liberación de SOLOP 3.9.4
     desc: La versión 3.9.4 ya está disponible
     link: https://github.com/adempiere/adempiere/releases/tag/3.9.4
     icon: /assets/icon/logo.png
-  - name: Nueva Interfáz para ADempiere
+  - name: Nueva Interfáz para SOLOP
     desc: Completamente desarrollada con Vue JS
     link: https://github.com/adempiere/adempiere-vue
     icon: /assets/img/vue-logo.png

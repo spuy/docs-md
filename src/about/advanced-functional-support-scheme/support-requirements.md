@@ -5,7 +5,7 @@ star: 9
 sticky: 9
 tag:
   - Servicios
-  - Adempiere
+  - SOLOP
 
 article: false
 ---

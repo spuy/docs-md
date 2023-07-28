@@ -6,9 +6,9 @@ sticky: 9
 article: false
 ---
 
-Cada transacción o proceso generado en cualquier organización de la compañía registrada en ADempiere, tiene como consecuencia un asiento contable que detalla la misma según su implicación contable.
+Cada transacción o proceso generado en cualquier organización de la compañía registrada en SOLOP, tiene como consecuencia un asiento contable que detalla la misma según su implicación contable.
 
-El presente material elaborado por **ERPyA** pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para obtener el asiento contable generado en cada una de las transacciones realizadas en ADempiere, en su versión 3.9.2 para la localización Venezuela.
+El presente material elaborado por **SOLOP** pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para obtener el asiento contable generado en cada una de las transacciones realizadas en SOLOP, en su versión 3.9.2 para la localización Venezuela.
 
 - Proceso de Egreso
   - Requisición
@@ -39,7 +39,7 @@ El presente material elaborado por **ERPyA** pretende ofrecerle una explicación
 
 ### Requisición
 
-Realice el procedimiento regular para generar una requisición en ADempiere, el mismo es explicado en el documento **Registro de Requisición a Compra**, elaborado por **ERPyA**.
+Realice el procedimiento regular para generar una requisición en SOLOP, el mismo es explicado en el documento **Registro de Requisición a Compra**, elaborado por **SOLOP**.
 
 Luego de que el documento de requisición se encuentre en estado **Completo**, seleccione la opción **Contabilizado**, ubicada en la parte inferior de la ventana **Requisición**.
 
@@ -55,7 +55,7 @@ Imagen 2. Asiento Contable de la Ventana Requisición
 
 ### Orden de Compra
 
-Realice el procedimiento regular para generar una orden de compra directa en ADempiere, el mismo es explicado en el documento **Registro de Orden de Compra Directa**, elaborado por **ERPyA**.
+Realice el procedimiento regular para generar una orden de compra directa en SOLOP, el mismo es explicado en el documento **Registro de Orden de Compra Directa**, elaborado por **ERPyA**.
 
 Luego de que el documento de orden de compra se encuentre en estado **Completo**, seleccione la opción **Contabilizado**, ubicada en la parte inferior de la ventana **Órdenes de Compra**.
 
@@ -71,7 +71,7 @@ Imagen 4. Asiento Contable de la Ventana Órdenes de Compra
 
 ### Factura de Cuentas por Pagar
 
-Realice el procedimiento regular para generar un documento por pagar en ADempiere, el mismo es explicado en el documento **Registro de Documento por Pagar**, elaborado por **ERPyA**.
+Realice el procedimiento regular para generar un documento por pagar en SOLOP, el mismo es explicado en el documento **Registro de Documento por Pagar**, elaborado por **ERPyA**.
 
 Luego de que el documento de factura por pagar se encuentre en estado **Completo**, seleccione la opción **Contabilizado**, ubicada en la parte inferior de la ventana **Documentos por Pagar**.
 
@@ -87,7 +87,7 @@ Imagen 6. Asiento Contable de la Ventana Documentos por Pagar
 
 ### Asignación Factura/Recepción
 
-Realice el procedimiento regular para generar una asignación en ADempiere, el mismo es explicado en el documento **Asignación de Factura a Recepción**, elaborado por **ERPyA**.
+Realice el procedimiento regular para generar una asignación en SOLOP, el mismo es explicado en el documento **Asignación de Factura a Recepción**, elaborado por **SOLOP**.
 
 Luego de realizar por completo el procedimiento de asignación, seleccione la opción **Contabilizado**, ubicada en la parte inferior de la ventana **Facturas Asignadas a Recepciones**.
 
@@ -103,7 +103,7 @@ Imagen 8. Asiento Contable de la Ventana Facturas Asignadas a Recepciones
 
 ### Recepción
 
-Realice el procedimiento regular para generar una recepción de productos en ADempiere, el mismo es explicado en el documento **Registro de Recepción de Productos**, elaborado por **ERPyA**.
+Realice el procedimiento regular para generar una recepción de productos en SOLOP, el mismo es explicado en el documento **Registro de Recepción de Productos**, elaborado por **SOLOP**.
 
 Luego de que el documento de recepción de productos se encuentre en estado **Completo**, seleccione la opción **Contabilizado**, ubicada en la parte inferior de la ventana **Recepción de Productos**.
 
@@ -119,7 +119,7 @@ Imagen 10. Asiento Contable de la Ventana Recepción de Productos
 
 ### Pago
 
-Realice el procedimiento regular para generar un pago en ADempiere, el mismo es explicado en el documento **Registro de Pago**, elaborado por **ERPyA**.
+Realice el procedimiento regular para generar un pago en SOLOP, el mismo es explicado en el documento **Registro de Pago**, elaborado por **SOLOP**.
 
 Luego de que el documento pago se encuentre en estado **Completo**, seleccione la opción **Contabilizado**, ubicada en la parte inferior de la ventana **Pago/Cobro**.
 
@@ -159,7 +159,7 @@ Imagen 15. Asiento Contable de la Asignación Factura/Pago
 
 ### Conciliación
 
-Realice el procedimiento regular para generar una conciliación en ADempiere, el mismo es explicado en el documento **Registro de Conciliación Automática**, elaborado por **ERPyA**.
+Realice el procedimiento regular para generar una conciliación en SOLOP, el mismo es explicado en el documento **Registro de Conciliación Automática**, elaborado por **SOLOP**.
 
 Luego de que el documento de conciliación automática se encuentre en estado **Completo**, seleccione la opción **Contabilizado**, ubicada en la parte inferior de la ventana **Estado de Cuentas Bancario**.
 
@@ -177,7 +177,7 @@ Imagen 17. Asiento Contable de la Ventana Estado de Cuentas Bancario
 
 ### Orden de Venta
 
-Realice el procedimiento regular para generar una orden de venta en ADempiere, el mismo es explicado en el documento **Registro de Orden de Venta**, elaborado por **ERPyA**.
+Realice el procedimiento regular para generar una orden de venta en SOLOP, el mismo es explicado en el documento **Registro de Orden de Venta**, elaborado por **SOLOP**.
 
 Luego de que el documento de orden de venta se encuentre en estado **Completo**, seleccione la opción **Contabilizado**, ubicada en la parte inferior de la ventana **Órdenes de Venta**.
 
@@ -193,7 +193,7 @@ Imagen 2. Asiento Contable de la Ventana Órdenes de Venta
 
 ### Factura de Cuentas por Cobrar
 
-Realice el procedimiento regular para generar una factura por cobrar en ADempiere, el mismo es explicado en el documento **Registro de Documento por Cobrar**, elaborado por **ERPyA**.
+Realice el procedimiento regular para generar una factura por cobrar en SOLOP, el mismo es explicado en el documento **Registro de Documento por Cobrar**, elaborado por **SOLOP**.
 
 Luego de que el documento por cobrar se encuentre en estado **Completo**, seleccione la opción **Contabilizado**, ubicada en la parte inferior de la ventana **Documentos por Cobrar**.
 
@@ -209,7 +209,7 @@ Imagen 4. Asiento Contable de la Ventana Documentos por Cobrar
 
 ### Entrega
 
-Realice el procedimiento regular para generar una entrega en ADempiere, el mismo es explicado en el documento **Registro de Entregas (Cliente)**, elaborado por **ERPyA**.
+Realice el procedimiento regular para generar una entrega en SOLOP, el mismo es explicado en el documento **Registro de Entregas (Cliente)**, elaborado por **SOLOP**.
 
 Luego de que el documento de entrega se encuentre en estado **Completo**, seleccione la opción **Contabilizado**, ubicada en la parte inferior de la ventana **Entregas (Cliente)**.
 
@@ -225,7 +225,7 @@ Imagen 6. Asiento Contable de la Ventana Entregas (Cliente)
 
 ### Cobro
 
-Realice el procedimiento regular para generar un cobro en ADempiere, el mismo es explicado en el documento **Registro de Cobro**, elaborado por **ERPyA**.
+Realice el procedimiento regular para generar un cobro en SOLOP, el mismo es explicado en el documento **Registro de Cobro**, elaborado por **SOLOP**.
 
 Luego de que el documento de cobro se encuentre en estado **Completo**, seleccione la opción **Contabilizado**, ubicada en la parte inferior de la ventana **Pago/Cobro**.
 
@@ -241,7 +241,7 @@ Imagen 8. Asiento Contable de la Ventana Pago/Cobro
 
 ### Asignación de Factura/Cobro
 
-Luego de haber registrado el cobro de la factura por cobrar, ADempiere genera de manera automática la asignación entre el cobro y la factura. Para visualizar el mismo se debe ubicar en la pestaña **Facturas Pagadas** de la ventana **Documentos por Pagar** y seleccionar la opción **Acercar** desplegada al hacer clic contrario sobre el campo **Asignación**.
+Luego de haber registrado el cobro de la factura por cobrar, SOLOP genera de manera automática la asignación entre el cobro y la factura. Para visualizar el mismo se debe ubicar en la pestaña **Facturas Pagadas** de la ventana **Documentos por Pagar** y seleccionar la opción **Acercar** desplegada al hacer clic contrario sobre el campo **Asignación**.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image26.png)
 
@@ -261,7 +261,7 @@ Imagen 11. Asiento Contable de la Ventana Consulta de Asignación
 
 ### Conciliación
 
-Realice el procedimiento regular para generar una conciliación en ADempiere, el mismo es explicado en el documento **Registro de Conciliación Automática**, elaborado por **ERPyA**.
+Realice el procedimiento regular para generar una conciliación en SOLOP, el mismo es explicado en el documento **Registro de Conciliación Automática**, elaborado por **SOLOP**.
 
 Luego de que el documento de conciliación automática se encuentre en estado **Completo**, seleccione la opción **Contabilizado**, ubicada en la parte inferior de la ventana **Estado de Cuentas Bancario**.
 
@@ -279,7 +279,7 @@ Imagen 13. Asiento Contable de la Ventana Estado de Cuentas Bancario
 
 ### Inventario Físico
 
-Realice el procedimiento regular para generar un inventario físico en ADempiere, el mismo es explicado en el documento Registro de Inventario Físico, elaborado por ERPyA.
+Realice el procedimiento regular para generar un inventario físico en SOLOP, el mismo es explicado en el documento Registro de Inventario Físico, elaborado por ERPyA.
 
 Luego de que el documento de inventario físico se encuentre en estado **Completo**, seleccione la opción **Contabilizado**, ubicada en la parte inferior de la ventana **Inventario Físico**.
 
@@ -295,7 +295,7 @@ Imagen 2. Asiento Contable de la Ventana Inventario Físico
 
 ### Inventario Uso Interno
 
-Realice el procedimiento regular para generar un inventario de uso interno en ADempiere, el mismo es explicado en el documento Registro de Inventario de Uso Interno, elaborado por ERPyA.
+Realice el procedimiento regular para generar un inventario de uso interno en SOLOP, el mismo es explicado en el documento Registro de Inventario de Uso Interno, elaborado por SOLOP.
 
 Luego de que el documento de inventario de uso interno se encuentre en estado **Completo**, seleccione la opción **Contabilizado**, ubicada en la parte inferior de la ventana **Inventario Uso Interno**.
 
@@ -311,7 +311,7 @@ Imagen 4. Asiento Contable de la Ventana Inventario Uso Interno
 
 ### Movimiento de Inventario
 
-Realice el procedimiento regular para generar un movimiento de inventario en ADempiere, el mismo es explicado en el documento Registro de Movimiento de Inventario, elaborado por ERPyA.
+Realice el procedimiento regular para generar un movimiento de inventario en SOLOP, el mismo es explicado en el documento Registro de Movimiento de Inventario, elaborado por SOLOP.
 
 Luego de que el documento de movimiento de inventario se encuentre en estado **Completo**, seleccione la opción **Contabilizado**, ubicada en la parte inferior de la ventana **Movimiento de Inventario**.
 
@@ -327,7 +327,7 @@ Imagen 6. Asiento Contable de la Ventana Movimiento de Inventario
 
 ### Producción
 
-Realice el procedimiento regular para generar una producción en ADempiere, el mismo es explicado en el documento Producción, elaborado por ERPyA.
+Realice el procedimiento regular para generar una producción en SOLOP, el mismo es explicado en el documento Producción, elaborado por SOLOP.
 
 Luego de que el documento de producción se encuentre en estado **Completo**, seleccione la opción **Contabilizado**, ubicada en la parte inferior de la ventana **Producción**.
 
@@ -345,7 +345,7 @@ Imagen 8. Asiento Contable de la Ventana Producción
 
 #### Proceso Nómina
 
-Realice el procedimiento regular para procesar las nóminas en ADempiere, el mismo se encuentra explicado en el documento Registro de Nómina, elaborado por ERPyA.
+Realice el procedimiento regular para procesar las nóminas en SOLOP, el mismo se encuentra explicado en el documento Registro de Nómina, elaborado por SOLOP.
 
 Luego de que se encuentren procesadas las nóminas, seleccione la opción **Contabilizado**, ubicada en la parte inferior de la ventana **Proceso Nómina**.
 
@@ -361,7 +361,7 @@ Imagen 2. Asiento Contable de la Nómina
 
 #### Pago de Nómina
 
-Realice el procedimiento regular para reflejar en ADempiere el pago de la nómina por empleado, el mismo se encuentra explicado en el documento Registro de Pagos de Nómina, elaborado por ERPyA.
+Realice el procedimiento regular para reflejar en SOLOP el pago de la nómina por empleado, el mismo se encuentra explicado en el documento Registro de Pagos de Nómina, elaborado por SOLOP.
 
 Note
 

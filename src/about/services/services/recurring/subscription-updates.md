@@ -17,11 +17,11 @@ Corresponde a un servicio mensual (no acumulativo) que permite tener múltiples 
 
 ### El cliente tendrá garantía de la aplicación
 
-Cualquier problema relacionado con las implementaciones de E.R.P. Consultores y Asociados, C.A. será resuelto en función de la urgencia del mismo.
+Cualquier problema relacionado con las implementaciones de SOLOP SOFTWARE será resuelto en función de la urgencia del mismo.
 
-### Se aplicarán actualizaciones de ADempiere
+### Se aplicarán actualizaciones de SOLOP
 
-Dado que constantemente E.R.P. Consultores y Asociados, C.A. se encuentra generando mejoras y actualizaciones a sus aplicaciones, dentro de este servicio se encuentra la instalación de las actualizaciones. Para una referencia de las notas de liberación de ERPyA puede consultar el siguiente [enlace](https://docs.erpya.com/downloads/updates/).
+Dado que constantemente SOLOP SOFTWARE se encuentra generando mejoras y actualizaciones a sus aplicaciones, dentro de este servicio se encuentra la instalación de las actualizaciones. Para una referencia de las notas de liberación de ERPyA puede consultar el siguiente [enlace](https://docs.erpya.com/downloads/updates/).
 
 ### Se aplicarán cambios establecidos en la ley para la localización Venezuela
 
@@ -46,8 +46,8 @@ Todos los cambios se realizan con el mínimo cuidado para que el cliente pueda o
 
 ## Condiciones Generales
 
-- Durante el uso de este servicio E.R.P. Consultores y Asociados, C.A. se compromete a realizar actualizaciones en el core de ADempiere para tener el mismo en una versión reciente y estable por lo cual durante el contrato de suscripción no es permitido que un tercero realice cambios en la aplicación.
-- Los cambios que el cliente decida realizar sobre la aplicación deben ser validados por el equipo de E.R.P. Consultores y Asociados, C.A.
-- En caso de no poseer el servicio de atención al cliente activo el cliente deberá realizar un ticket en la plataforma de tickets de ERPyA llenando la plantilla completamente
+- Durante el uso de este servicio SOLOP SOFTWARE se compromete a realizar actualizaciones en el core de SOLOP para tener el mismo en una versión reciente y estable por lo cual durante el contrato de suscripción no es permitido que un tercero realice cambios en la aplicación.
+- Los cambios que el cliente decida realizar sobre la aplicación deben ser validados por el equipo de SOLOP SOFTWARE
+- En caso de no poseer el servicio de atención al cliente activo el cliente deberá realizar un ticket en la plataforma de tickets de SOLOP llenando la plantilla completamente
 - Cada ticket será sometido a un análisis para determinar si aplica para hacer algún cambio en la aplicación
 - Los tickets serán atendidos en función de su urgencia, si un ticket no detiene la operación o existe otra forma de hacer el procedimiento será desestimado
