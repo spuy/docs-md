@@ -5,7 +5,7 @@ star: 9
 sticky: 9
 tag:
   - Servicios
-  - Adempiere
+  - SOLOP
 
 article: false
 ---
@@ -18,7 +18,7 @@ article: false
 
 ### Soporte Infraestructura
 
-- Incluye el soporte a la infraestructura que soporta Adempiere: base de datos y de aplicación, kubernetes y servicios de cola. A nivel de hardware: impresoras fiscales.
+- Incluye el soporte a la infraestructura que soporta SOLOP: base de datos y de aplicación, kubernetes y servicios de cola. A nivel de hardware: impresoras fiscales.
 
 ### Capacitación
 

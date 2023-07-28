@@ -17,15 +17,15 @@ Corresponde a un servicio mensual (no acumulativo) que permite tener múltiples 
 
 ### El cliente tendrá garantía de la aplicación
 
-Cualquier problema relacionado con las implementaciones de E.R.P. Consultores y Asociados, C.A. será resuelto en función de la urgencia del mismo.
+Cualquier problema relacionado con las implementaciones de SOLOP SOFTWARE será resuelto en función de la urgencia del mismo.
 
-### Se aplicarán actualizaciones de ADempiere
+### Se aplicarán actualizaciones de SOLOP
 
-Dado que constantemente E.R.P. Consultores y Asociados, C.A. se encuentra generando mejoras y actualizaciones a sus aplicaciones, dentro de este servicio se encuentra la instalación de las actualizaciones. Para una referencia de las notas de liberación de ERPyA puede consultar el siguiente [enlace](https://docs.erpya.com/downloads/updates/).
+Dado que constantemente SOLOP SOFTWARE se encuentra generando mejoras y actualizaciones a sus aplicaciones, dentro de este servicio se encuentra la instalación de las actualizaciones. Para una referencia de las notas de liberación de SOLOP puede consultar el siguiente [enlace](https://docs.erpya.com/downloads/updates/).
 
 ### Se aplicarán cambios establecidos en la ley para la localización Venezuela
 
-En E.R.P. Consultores y Asociados, C.A. hacemos un gran esfuerzo por mantener a nuestros clientes con lo mínimo para que puedan cumplir con algún requisito de ley. En el siguiente detalle se encuentran los cambios de ley forman parte de los cambios mantenidos por nosotros:
+En SOLOP SOFTWARE hacemos un gran esfuerzo por mantener a nuestros clientes con lo mínimo para que puedan cumplir con algún requisito de ley. En el siguiente detalle se encuentran los cambios de ley forman parte de los cambios mantenidos por nosotros:
 
 - Libro de Compra
 - Libro de Ventas
@@ -77,8 +77,8 @@ Este servicio es vital como garantía en caso de que el cliente tenga algún eve
 
 #### Bondades
 
-- Reinstalación del Sistema Operativo: Esto únicamente aplica cuando la instalación del mismo queda a cargo de ERPyA
-- Recuperación de la información: En caso de ser posible recuperar la información que se encuentra en los servidores, ERPyA hará todo lo posible para recuperarla. Si no se puede recuperar se utilizará el último backup más reciente disponible
+- Reinstalación del Sistema Operativo: Esto únicamente aplica cuando la instalación del mismo queda a cargo de SOLOP
+- Recuperación de la información: En caso de ser posible recuperar la información que se encuentra en los servidores, SOLOP hará todo lo posible para recuperarla. Si no se puede recuperar se utilizará el último backup más reciente disponible
 - Restablecimiento del servicio: Corresponde a levantar el servicio nuevamente en los servidores del cliente. En caso de que el cliente no disponga temporalmente del servidor se puede ofrecer el servicio en la nube con un costo bajo demanda o infraestructura.
 
 #### Condiciones
@@ -88,7 +88,7 @@ Este servicio es vital como garantía en caso de que el cliente tenga algún eve
 
 ## Condiciones Generales
 
-- Durante el uso de este servicio E.R.P. Consultores y Asociados, C.A. se compromete a realizar actualizaciones en el core de ADempiere para tener el mismo en una versión reciente y estable por lo cual durante el contrato de suscripción no es permitido que un tercero realice cambios en la aplicación.
-- Los cambios que el cliente decida realizar sobre la aplicación deben ser validados por el equipo de E.R.P. Consultores y Asociados, C.A.
+- Durante el uso de este servicio SOLOP SOFTWARE se compromete a realizar actualizaciones en el core de SOLOP para tener el mismo en una versión reciente y estable por lo cual durante el contrato de suscripción no es permitido que un tercero realice cambios en la aplicación.
+- Los cambios que el cliente decida realizar sobre la aplicación deben ser validados por el equipo de SOLOP SOFTWARE
 - El pago se realiza según los acuerdos de pago generales
-- Al suspender o pausar el servicio E.R.P. Consultores y Asociados, C.A. no se hará responsable por los entregables del mismo
+- Al suspender o pausar el servicio SOLOP SOFTWARE no se hará responsable por los entregables del mismo

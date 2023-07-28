@@ -11,7 +11,7 @@ article: false
 ---
 ## Contrato de Soporte y Mantenimiento de Software
 
-Entre SOLOP SOFTWARE, C.A., RIF J-40078831-5, con domicilio en Av. Municipalidad con Troncal 5 CC Buenaventura, Centro Empresarial Oficina M6, Araure, Estado Portuguesa. Venezuela. Y
+Entre SOLOP SOFTWARE, RIF J-40078831-5, con domicilio en Av. Municipalidad con Troncal 5 CC Buenaventura, Centro Empresarial Oficina M6, Araure, Estado Portuguesa. Venezuela. Y
 __________,  [en adelante el CLIENTE]. Se conviene lo siguiente:
 
 ## 1. Objeto del Contrato
@@ -29,7 +29,7 @@ Soporte   personal:   Servicio   de   asistencia   personal   para   resolución
 Conexión remota: Servicio de asistencia a través de conexión remota segura para solución de consultas, asesoramiento, resolución de problemas y/o notificación de problemas relacionados con el Software.
 Formación:  Acceso a los cursos de formación y tutoriales on-line, sobre diferentes aspectos relacionados con el Software.
 Documentación: Acceso a la librería de vídeos y manuales de SOLOP. Docs
-Actualizaciones:   SOLOP   pondrá   a   disposición   del   CLIENTE   las   nuevas   versiones   y/o actualizaciones del Software (aplica solamente para Adempiere como un servicio en la nube), de forma que las aplicaciones estén siempre al día y con las máximas prestaciones.
+Actualizaciones:   SOLOP   pondrá   a   disposición   del   CLIENTE   las   nuevas   versiones   y/o actualizaciones del Software (aplica solamente para SOLOP como un servicio en la nube), de forma que las aplicaciones estén siempre al día y con las máximas prestaciones.
 Área de Clientes: Mediante conexión segura a través de la web de SOLOP, el CLIENTE podrá  acceder a diferentes servicios (Gestor de Servicios On-Cloud, Ayuda on-line, información actualizada, etc.)
 2.3. SOLOP prestará el Servicio desde sus oficinas, por teléfono o por los medios que considere apropiados, dentro de las horas hábiles de trabajo y según el calendario laboral oficial:  Lunes a Viernes De 08:00 a 12:30 y de 13:30 a 17:00.
 2.4. El tiempo de respuesta promedio para las consultas será de veinticuatro (24) horas hábiles o inferior, si bien en caso de errores de la aplicación el tiempo de solución del problema puede ser mayor o incluso no tener solución a corto plazo. En estos casos SOLOP ofrecerá sugerencias para tratar de solventar el error.

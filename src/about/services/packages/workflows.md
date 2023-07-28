@@ -45,6 +45,6 @@ El ejemplo muestra tres niveles de aprobación y dos nodos (Aprobación y Envío
 
 ## Condiciones del Servicio
 
-- La configuración de la funcionalidad sólo estará limitada al manejo de flujos de trabajo de acuerdo con las herramientas que ofrece ADempiere
+- La configuración de la funcionalidad sólo estará limitada al manejo de flujos de trabajo de acuerdo con las herramientas que ofrece SOLOP
 - El precio del servicio varía en función de la cantidad de nodos y niveles de aprobación
 - Si existe alguna funcionalidad solicitada que requiera algún desarrollo, el mismo será estimado aparte como un documento de desarrollo de alcance

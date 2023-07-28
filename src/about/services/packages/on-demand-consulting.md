@@ -28,4 +28,4 @@ Esta consultoría se basa en solicitudes que genera el Cliente durante el proces
 
 ## Condiciones del Servicio
 
-- Esta consultoría tiene una vigiencia limitada al arranque del sistema en producción. Una vez que Adempiere entra en producción, éste servicio expira.
+- Esta consultoría tiene una vigiencia limitada al arranque del sistema en producción. Una vez que SOLOP entra en producción, éste servicio expira.

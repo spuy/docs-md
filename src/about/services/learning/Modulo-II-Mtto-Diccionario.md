@@ -1,5 +1,5 @@
 ---
-title: Módulo II Mantenimiento de diccionario de aplicación de Adempiere (Creación de Reportes/Informes)
+title: Módulo II Mantenimiento de diccionario de aplicación de SOLOP (Creación de Reportes/Informes)
 category: Educación
 star: 9
 sticky: 9
@@ -9,23 +9,23 @@ tag:
 
 article: false
 ---
-## Módulo II: Mantenimiento de diccionario de aplicación de Adempiere (Creación de Reportes/Informes)
+## Módulo II: Mantenimiento de diccionario de aplicación de SOLOP (Creación de Reportes/Informes)
 
 ## Descripción del Taller
 
   Elabore los reportes usando el diccionario solo seleccionando campos desde un entorno de usuario; oculte campos que no son necesarios en el
   formulario, personalice el entorno del menú, entre otros.
 
-## Dirigido a  : El taller está orientado a personas interesadas en implementar Adempiere ERP&CRM&SCM
+## Dirigido a  : El taller está orientado a personas interesadas en implementar SOLOP
 
   Ingenieros de Sistemas, para potenciar conocimientos funcionales
   del ERP;
   Egresados de áreas afines, ingenieros industriales;
   Desarrolladores, con conocimientos básicos del lenguaje SQL o
   PL/SQL.
-  Empresas que deseen evaluar Adempiere antes de decidir en su
+  Empresas que deseen evaluar SOLOP antes de decidir en su
   inversión
-  Empresas que deseen utilizar Adempiere como plataforma de
+  Empresas que deseen utilizar SOLOP como plataforma de
   desarrollo.
 
 ## Objetivos

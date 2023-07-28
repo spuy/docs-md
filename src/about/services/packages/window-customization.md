@@ -11,7 +11,7 @@ article: false
 ---
 # Adecuación de Ventanas
 
-Esta actividad permite hacer ligeros cambios de forma a las ventanas estándar de Adempiere.
+Esta actividad permite hacer ligeros cambios de forma a las ventanas estándar de SOLOP.
 
 ## Ejemplo básico
 
@@ -25,7 +25,7 @@ Se requiere añadir a la ventana de cobro el % de impuesto.
 
 - Ventana con las adecuaciones solicitadas
 - Capacitación sobre el uso de la nueva ventana
-- Un instructivo para futura referencia en la plataforma [ERP Docs](https://ayuda.solopapp.com/)
+- Un instructivo para futura referencia en la plataforma [ERP Docs](https://ayuda.solopapp.com)
 
 ## Condiciones del Servicio
 

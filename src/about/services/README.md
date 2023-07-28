@@ -5,7 +5,7 @@ star: 9
 sticky: 9
 tag:
   - Servicios
-  - Adempiere
+  - SOLOP
 
 article: false
 ---
@@ -61,9 +61,9 @@ Esta sección se encuentra específicamente relacionada con las aplicaciones des
 
 ## Educación
 
-La educación forma parte de los servicios que ofrece ERP Consultores y Asociados, C.A para capacitaciones en el uso de adempiere, aplicaciones derivadas y cualquier otro tipo de aprendizaje relacionado a los productos y servicio que ofrece. Después de instalar cualquier aplicación mantenida por ERP Consultores y Asociados, C.A usted podrá contratar alguna capacitación para ampliar sus conocimientos o para hacer más sencilla la rotación del personal.
+La educación forma parte de los servicios que ofrece ERP Consultores y Asociados, C.A para capacitaciones en el uso de SOLOP, aplicaciones derivadas y cualquier otro tipo de aprendizaje relacionado a los productos y servicio que ofrece. Después de instalar cualquier aplicación mantenida por ERP Consultores y Asociados, C.A usted podrá contratar alguna capacitación para ampliar sus conocimientos o para hacer más sencilla la rotación del personal.
 
-- [Diccionario de Aplicación de ADempiere](apps/adempiere-application-dictionary.md)
+- [Diccionario de Aplicación de SOLOP](apps/adempiere-application-dictionary.md)
 - [Sesión de Capacitación](learning/training-session.md)
 - [Configuración Contable Basica](learning/account-training.md)
 
@@ -91,7 +91,7 @@ Cada paquete de servicio es un pequeño proceso medible y finito dentro de las a
 - [Condiciones Generales](conditions.md)
 - [Contrato de Soporte](agreement-support.md)
 
-## Requerimientos para instalar un entorno productivo para el uso de Adempiere bajo Kubernetes
+## Requerimientos para instalar un entorno productivo para el uso de SOLOP bajo Kubernetes
 
 - [Requerimientos de Instalación](setup/kubernetes_requirements.md)
 

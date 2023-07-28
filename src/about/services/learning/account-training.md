@@ -11,7 +11,7 @@ article: false
 ---
 # Entrenamiento Contable
 
-Corresponde a una inducción que se da al personal de contabilidad para conocer el manejo contable de Adempiere.
+Corresponde a una inducción que se da al personal de contabilidad para conocer el manejo contable de SOLOP.
 
 ## ¿Qué se necesita para iniciar el entrenamiento?
 

@@ -8,7 +8,7 @@ A community page [VuePress](https://v2.vuepress.vuejs.org/) and [VuePress Theme 
 
 The collection includes a number of books covering the main topics of:
 
-- Functional Guide (**Generated automatically from ADempiere**)
+- Functional Guide (**Generated automatically from SOLOP**)
 
 # More References
 

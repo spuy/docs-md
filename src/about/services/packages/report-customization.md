@@ -11,7 +11,7 @@ article: false
 ---
 # Adecuación de Reportes
 
-Esta actividad permite presentar los reportes estándar de Adempiere con ligeros cambios de forma.
+Esta actividad permite presentar los reportes estándar de SOLOP con ligeros cambios de forma.
 
 ## Ejemplo básico
 

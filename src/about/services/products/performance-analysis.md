@@ -19,7 +19,7 @@ Las entradas contables son ingresadas de forma automática, basadas en reglas. E
 
 ## Reportes Integrados
 
-Se pueden crear reportes desde cualquier documento disponible en Adempiere. Se puede definir el diseño, ordenamiento, títulos, etc. para adecuarlo al uso de todos, para una organización específica o para Ud. mismo. Las Vistas de Reporte permiten listados analíticos o
+Se pueden crear reportes desde cualquier documento disponible en SOLOP. Se puede definir el diseño, ordenamiento, títulos, etc. para adecuarlo al uso de todos, para una organización específica o para Ud. mismo. Las Vistas de Reporte permiten listados analíticos o
 
 sumarizados. Con la facilidad de reporte, usted puede profundizar en detalles los elementos contenidos (por ejemplo, desde una orden a un asociado, reglas de pago, etc.) o navegar por referencia los ítems relacionados (desde una orden a facturas, envíos, etc. vinculado a esa orden).
 
@@ -33,7 +33,7 @@ esquema de contabilidad múltiple. Los Diarios Manuales le permiten crear entrad
 
 ## Asientos Diarios Generados
 
-Adempiere le permite generar diarios para: Alocaciones, Revalúos y Reconciliaciones
+SOLOP le permite generar diarios para: Alocaciones, Revalúos y Reconciliaciones
 
 ## Paquetes Relacionados
 

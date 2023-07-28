@@ -5,12 +5,12 @@ star: 9
 sticky: 9
 tag:
   - Servicios
-  - Adempiere
+  - SOLOP
 
 article: false
 ---
 
-  El presente documento describe un esquema de soporte funcional avanzado que utilizan el sistema **ERP & CRM & SCM Adempiere**. Los tipos de servicios ofrecidos son: Soporte Funcional, Soporte de Infraestructura, Capacitación y Mejoramiento Continuo.
+  El presente documento describe un esquema de soporte funcional avanzado que utilizan el sistema **SOLOP**. Los tipos de servicios ofrecidos son: Soporte Funcional, Soporte de Infraestructura, Capacitación y Mejoramiento Continuo.
 
 - [Tipos de Servicios](../advanced-functional-support-scheme/types-of-services.md)
 - [Modelo para proveer Soporte Funcional](model-to-provide-functional-support.md)

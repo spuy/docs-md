@@ -12,7 +12,7 @@ export const enNavbarConfig = navbar([
         text: "Noticias",
         prefix: "news/",
         children: [
-          "2023-01-01-adempiere-394",
+          "2023-01-01-SOLOP-394",
         ],
       },
       {
@@ -47,7 +47,7 @@ export const enNavbarConfig = navbar([
     icon: "creative",
     prefix: "/docs/",
     children: [
-      { text: "ADempiere Estándar", link: "", icon: "note", activeMatch: "^/docs/$" },
+      { text: "SOLOP Estándar", link: "", icon: "note", activeMatch: "^/docs/$" },
       {
         text: "Gestión Básica",
         children: [
@@ -108,7 +108,7 @@ export const enNavbarConfig = navbar([
         activeMatch: "^/community/$",
       },
       {
-        text: "Comunidad de ADempiere ERP",
+        text: "Comunidad de SOLOP ERP",
         children: ["code-of-conduct", "duties-and-rigths"],
       },
     ],

@@ -1,5 +1,5 @@
 ---
-title: Diccionario de Aplicación de ADempiere
+title: Diccionario de Aplicación de SOLOP
 category: Aplicaciones
 star: 9
 sticky: 9

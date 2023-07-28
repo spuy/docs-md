@@ -11,11 +11,11 @@ article: false
 ---
 # Configuración, Adiestramiento de Procesos Existentes no incluidos en la propuesta
 
-Estas actividades son las que se deben seguir para iniciar en producción un Proceso en Adempiere.
+Estas actividades son las que se deben seguir para iniciar en producción un Proceso en SOLOP.
 
 ## Ejemplo básico
 
-Se requiere que Adempiere emita a todos los clientes una carta de morosidad cuando la fecha de vencimiento de sus facturas sea mayor a 30 días:
+Se requiere que SOLOP emita a todos los clientes una carta de morosidad cuando la fecha de vencimiento de sus facturas sea mayor a 30 días:
 
 ## ¿Qué se necesita para iniciar la configuración, Adiestramiento de Procesos Existentes?
 
