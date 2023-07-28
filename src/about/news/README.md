@@ -11,4 +11,4 @@ tag:
 article: false
 ---
 
-Noticias de todo lo nuevo de [SOLOP](https://solopsoftware.com/).
+Noticias de todo lo nuevo de [SOLOP](https://solopsoftware.com).

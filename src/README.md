@@ -19,5 +19,5 @@ projects:
     link: https://discord.gg/UWcyn7DEzV
     icon: /assets/img/discord-logo.png
 
-footer: '<a href="https://solopsoftware.com/" rel="noopener noreferrer" target="_blank">SOLOP SOFTWARE</a> | <a href="/about">Nosotros</a>'
+footer: '<a href="https://solopsoftware.com" rel="noopener noreferrer" target="_blank">SOLOP SOFTWARE</a> | <a href="/about">Nosotros</a>'
 ---
