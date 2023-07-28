@@ -36,7 +36,7 @@ article: false
 
 ### Preguntas frecuentes:
 
-Tomando en cuenta el uso del Help Desk para solución a problemas o planteamiento de mejoras, se cuenta con una [Base de Datos de Conocimiento ERPyA](https://stackoverflowteams.com/c/erpya-customers/join?returnurl=%2fc%2ferpya-customers%2fquestions), dando respuesta rápida a casos o preguntas frecuentes.
+Tomando en cuenta el uso del Help Desk para solución a problemas o planteamiento de mejoras, se cuenta con una [Base de Datos de Conocimiento SOLOP](https://stackoverflowteams.com/c/erpya-customers/join?returnurl=%2fc%2ferpya-customers%2fquestions), dando respuesta rápida a casos o preguntas frecuentes.
 
 ### Atención a Usuario (hasta 10 horas mensuales):
 
