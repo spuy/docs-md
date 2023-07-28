@@ -24,13 +24,13 @@ Se requiere una reunión para aclarar dudas con respecto al proceso de conciliac
   - Cantidad de usuarios que recibirán la capacitación
   - Medio: Presencial o remoto
   - Fecha estimada para la entrega del servicio
-- La aprobación de la cotización enviada por ERPyA
+- La aprobación de la cotización enviada por SOLOP
 - La firma del documento que especifica el paquete de servicio para la sesión de consultoría general
 
 ## Entregable
 
 - Un video con la grabación en caso de ser remoto
-- Referencias a la documentación principal de [ERPyA](https://docs.erpya.com/)
+- Referencias a la documentación principal de [SOLOP](https://ayuda.solopapp.com/)
 
 ## Condiciones del Servicio
 

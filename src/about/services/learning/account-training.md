@@ -15,7 +15,7 @@ Corresponde a una inducción que se da al personal de contabilidad para conocer 
 
 ## ¿Qué se necesita para iniciar el entrenamiento?
 
-- La aprobación de la cotización enviada por ERPyA
+- La aprobación de la cotización enviada por SOLOP
 - La firma del documento que especifica el paquete de servicio para el Entrenamiento Contable
 
 ## Entregable

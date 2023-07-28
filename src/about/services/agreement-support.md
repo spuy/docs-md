@@ -16,15 +16,15 @@ __________,  [en adelante el CLIENTE]. Se conviene lo siguiente:
 
 ## 1. Objeto del Contrato
 
-1.1. Constituye el objeto del presente Contrato la prestación por parte de ERPCYA de los servicios de soporte, actualización y mantenimiento [en adelante, el "Servicio"], de los productos y programas informáticos relacionados en el Anexo [en adelante el "Software"]. Las características, especificaciones y condiciones generales del Servicio se detallan en el presente Contrato y las condiciones particulares del Servicio contratado por el CLIENTE se especifican en el Anexo del Contrato.
-1.2. Únicamente podrá quedar incluido en la cobertura del Servicio el Software desarrollado por ERPCYA, o aquellos productos y programas informáticos distribuidos por ERPCYA.
+1.1. Constituye el objeto del presente Contrato la prestación por parte de SOLOP SOFTWARE de los servicios de soporte, actualización y mantenimiento [en adelante, el "Servicio"], de los productos y programas informáticos relacionados en el Anexo [en adelante el "Software"]. Las características, especificaciones y condiciones generales del Servicio se detallan en el presente Contrato y las condiciones particulares del Servicio contratado por el CLIENTE se especifican en el Anexo del Contrato.
+1.2. Únicamente podrá quedar incluido en la cobertura del Servicio el Software desarrollado por SOLOP SOFTWARE, o aquellos productos y programas informáticos distribuidos por SOLOP SOFTWARE.
 
 ## 2. Condiciones del Servicio
 
-2.1. ERPCYA cuenta con los medios técnicos y organizativos necesarios para realizar la prestación del servicio, y pondrá a disposición del CLIENTE el personal técnico o profesional adecuado para su prestación.
+2.1. SOLOP cuenta con los medios técnicos y organizativos necesarios para realizar la prestación del servicio, y pondrá a disposición del CLIENTE el personal técnico o profesional adecuado para su prestación.
 2.2. El Servicio comprende las siguientes prestaciones por parte de SOLOP:
 Soporte   telefónico:   Servicio   de   asistencia   telefónica   para   solución   de   dudas, consultas, asesoramiento y/o notificación de problemas sobre cualquier aspecto del Software (Telf. +58-2556659451)
-Ayuda   on-line:   Servicio   de   asistencia   telemática   a   través   de   correo   electrónico (E-mail:info@erpya.com), Discord y/o del Área de Clientes de la web de SOLOP (www.erpya.com), para solución de dudas, consultas, asesoramiento y/o notificación de problemas sobre cualquier aspecto del Software.
+Ayuda   on-line:   Servicio   de   asistencia   telemática   a   través   de   correo   electrónico (E-mail:info@erpya.com), Discord y/o del Área de Clientes de la web de SOLOP (https://solopsoftware.com/), para solución de dudas, consultas, asesoramiento y/o notificación de problemas sobre cualquier aspecto del Software.
 Soporte   personal:   Servicio   de   asistencia   personal   para   resolución   de   consultas   sobre  el Funcionamiento del Software en las oficinas de SOLOP.
 Conexión remota: Servicio de asistencia a través de conexión remota segura para solución de consultas, asesoramiento, resolución de problemas y/o notificación de problemas relacionados con el Software.
 Formación:  Acceso a los cursos de formación y tutoriales on-line, sobre diferentes aspectos relacionados con el Software.

@@ -1,5 +1,5 @@
 ---
-title: Noticias de ERPyA
+title: Noticias de SOLOP
 icon: blog
 category: Noticias
 star: 9
@@ -11,4 +11,4 @@ tag:
 article: false
 ---
 
-Noticias de todo lo nuevo de [ERPyA](https://erpya.com/).
+Noticias de todo lo nuevo de [SOLOP](https://solopsoftware.com).
