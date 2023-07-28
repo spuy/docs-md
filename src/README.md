@@ -10,7 +10,7 @@ projects:
     desc: La versión 3.9.4 ya está disponible
     link: https://github.com/adempiere/adempiere/releases/tag/3.9.4
     icon: /assets/icon/logo.png
-  - name: Nueva Interfáz para ADempiere
+  - name: Nueva Interfáz para SOLOP
     desc: Completamente desarrollada con Vue JS
     link: https://github.com/adempiere/adempiere-vue
     icon: /assets/img/vue-logo.png
@@ -19,5 +19,5 @@ projects:
     link: https://discord.gg/UWcyn7DEzV
     icon: /assets/img/discord-logo.png
 
-footer: '<a href="https://erpya.com" rel="noopener noreferrer" target="_blank">ERP Consultores y Asociados, C.A.</a> | <a href="/about">Nosotros</a>'
+footer: '<a href="https://solopsoftware.com/" rel="noopener noreferrer" target="_blank">SOLOP SOFTWARE</a> | <a href="/about">Nosotros</a>'
 ---

@@ -20,7 +20,7 @@ Se requiere analizar los movimientos del mes de octubre de 2020 y cuadrar el bal
 ## ¿Qué se necesita para iniciar el análisis?
 
 - Un documento con las cuentas que se encuentran descuadradas
-- La aprobación de la cotización enviada por ERPyA
+- La aprobación de la cotización enviada por SOLOP
 - La firma del documento que especifica el paquete de servicio para el análisis contable
 
 ## Entregable
