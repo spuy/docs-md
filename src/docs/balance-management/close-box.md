@@ -6,24 +6,24 @@ sticky: 9
 article: false
 ---
 
-ADempiere contempla diferentes funcionalidades que le permiten a las empresas controlar los movimientos monetarios realizados en las diferentes cajas que la misma utiliza para gestionar las operaciones de compra, venta, préstamos, reembolso, entre otras operaciones que requieren del proceso que es realizado en caja.
+Solop ERP contempla diferentes funcionalidades que le permiten a las empresas controlar los movimientos monetarios realizados en las diferentes cajas que la misma utiliza para gestionar las operaciones de compra, venta, préstamos, reembolso, entre otras operaciones que requieren del proceso que es realizado en caja.
 
 El procedimiento cierre de caja permite controlar y dar seguimiento al dinero que la empresa asigna, presta, reembolsa, entre otras acciones que generan un ingreso o egreso a las diferentes cajas. El mismo debe realizarce a diario, ya que inicialmente el saldo en caja corresponde al monto **0,00**. De igual manera, al final del día el monto de la caja debe corresponder a los mismos **0,00**.
 
 El monto de la caja al final del día luego del proceso de cierre de caja, puede ser diferente al **0,00**, sólo en aquellos casos en los que la caja amerite un monto diferente y dependiento del proceso que se realice en la misma.
 
-El presente material elaborado por ERPyA, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar en ADempiere un cierre de caja, en su versión 3.9.2 para la localización Venezuela.
+El presente material elaborado por ERPyA, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar en Solop ERP un cierre de caja, en su versión 3.9.2 para la localización Venezuela.
 
 - Registro de Cierre de Caja
 - Cierre de Caja Nómina
 
 ## Registro de Cierre de Caja
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Saldos Pendientes**, luego seleccione la ventana **Diario de Caja**, por último seleccione la ventana **Cierre de Caja**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Saldos Pendientes**, luego seleccione la ventana **Diario de Caja**, por último seleccione la ventana **Cierre de Caja**.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image17.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana **Cierre de Caja**, donde debe seleccionar el icono **Registro Nuevo** y proceder al llenado de los campos correspondientes.
 
@@ -79,7 +79,7 @@ Seleccione el registro de la transferencia creada anteriormente y la opción **O
 
 Imagen 10. Selección de Transferencia y Opción OK
 
-Seleccione el icono **Refrescar** en la barra de herramientas de ADempiere, para refrescar el registro en la ventana **Cierre de Caja**.
+Seleccione el icono **Refrescar** en la barra de herramientas de Solop ERP, para refrescar el registro en la ventana **Cierre de Caja**.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image27.png)
 
@@ -103,7 +103,7 @@ Recuerde que el procedimiento para gestionar el cierre de caja debe realizarce d
 
 ## Cierre de Caja Nómina
 
-El último paso que debemos seguir para terminar de registrar el proceso de pago de nómina en ADempiere es el cierre de caja, donde llamaremos los pagos registrados en nuestra selección de pago y se cruzaran con la transferencia bancaria que realizamos previamente. Recuerde que para poder realizar este paso debemos de tener completo los pasos realizados anteriormente los cuales son: **Seleccion de Pago**, **Imprimir Exportar Pagos de Nómina** y la **Transferencia Bancaria**.
+El último paso que debemos seguir para terminar de registrar el proceso de pago de nómina en Solop ERP es el cierre de caja, donde llamaremos los pagos registrados en nuestra selección de pago y se cruzaran con la transferencia bancaria que realizamos previamente. Recuerde que para poder realizar este paso debemos de tener completo los pasos realizados anteriormente los cuales son: **Seleccion de Pago**, **Imprimir Exportar Pagos de Nómina** y la **Transferencia Bancaria**.
 
 Nos dirigimos a la ventana **Cierre de Caja**, ubicado en el menú **Gestión de Saldos Pendientes** en el sub directorio **Diario de Caja**, registramos los datos de la siguiente manera:
 

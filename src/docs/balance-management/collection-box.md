@@ -6,11 +6,11 @@ sticky: 9
 article: false
 ---
 
-El requerimiento principal para realizar el proceso de gestión de caja cobranza es tener una definición de caja creada, para esto contacte a un consultor de E.R.P. Consultores y Asociados. El procedimiento consta en reflejar en ADempiere el pago realizado por el socio del negocio cliente, por concepto de abono o anticipo de una orden de venta o factura de cuentas por cobrar. Dicho procedimiento se realiza registrando diariamente el cobro en caja y posteriormente el cierre de la misma.
+El requerimiento principal para realizar el proceso de gestión de caja cobranza es tener una definición de caja creada, para esto contacte a un consultor de E.R.P. Consultores y Asociados. El procedimiento consta en reflejar en Solop ERP el pago realizado por el socio del negocio cliente, por concepto de abono o anticipo de una orden de venta o factura de cuentas por cobrar. Dicho procedimiento se realiza registrando diariamente el cobro en caja y posteriormente el cierre de la misma.
 
 Luego del cierre de caja, el departamento de tesorería realiza el depósito de las cajas en sus respectivos bancos correspondientes, para que caja pueda realizar su cierre y llevar el saldo inicial a cero (0) nuevamente.
 
-El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para obtener un resultado exitoso al momento de realizar el proceso de caja cobranza en la versión 3.9.2 de ADempiere en la localización Venezuela.
+El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para obtener un resultado exitoso al momento de realizar el proceso de caja cobranza en la versión 3.9.2 de Solop ERP en la localización Venezuela.
 
 A continuación se explica detalladamente el procedimiento que se debe realizar para obtener un resultado exitoso en caja cobranza.
 
@@ -18,13 +18,13 @@ A continuación se explica detalladamente el procedimiento que se debe realizar 
 
 ## Registro de Caja Cobranza
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Saldos Pendientes**, luego seleccione la carpeta **Diario de Caja**, por último seleccione la ventana **Caja**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Saldos Pendientes**, luego seleccione la carpeta **Diario de Caja**, por último seleccione la ventana **Caja**.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image36.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
-Luego podrá visualizar la ventana **Caja**, donde debe seleccionar el icono **Registro Nuevo** ubicado en la barra de herramientas de ADempiere para crear un nuevo registro en caja.
+Luego podrá visualizar la ventana **Caja**, donde debe seleccionar el icono **Registro Nuevo** ubicado en la barra de herramientas de Solop ERP para crear un nuevo registro en caja.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image37.png)
 
@@ -76,7 +76,7 @@ Imagen 8. Campo Tipo de Pago
 
 Note
 
-Recuerde guardar los cambios realizados seleccionando el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere.
+Recuerde guardar los cambios realizados seleccionando el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
 
 Seleccione la opción **Completar**, ubicada en la parte inferior del documento.
 
@@ -96,11 +96,11 @@ Realice el procedimiento regular para generar un cierre de caja, explicado en el
 
 Imagen 11. Cierre de Caja Cobranza
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Saldos Pendientes**, luego seleccione la carpeta **Diario de Caja**, por último seleccione la ventana **Depósito de Caja**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Saldos Pendientes**, luego seleccione la carpeta **Diario de Caja**, por último seleccione la ventana **Depósito de Caja**.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image47.png)
 
-Imagen 12. Menú de ADempiere
+Imagen 12. Menú de Solop ERP
 
 Luego podrá visualizar la ventana de búsqueda inteligente **Depósito de Caja**, con diferentes campos o filtros para realizar la búsqueda de información en base a lo requerido por el usuario.
 
@@ -216,4 +216,4 @@ Imagen 30. Cierre de Caja Administrativo
 
 Note
 
-Para identificar los cobros sin registros en ADempiere, se debe realizar el procedimiento explicado en el proceso Pagos/Cobros sin Registros del documento **Conciliaciones Automáticas**.
+Para identificar los cobros sin registros en Solop ERP, se debe realizar el procedimiento explicado en el proceso Pagos/Cobros sin Registros del documento **Conciliaciones Automáticas**.

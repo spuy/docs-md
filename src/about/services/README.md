@@ -5,12 +5,12 @@ star: 9
 sticky: 9
 tag:
   - Servicios
-  - SOLOP
+  - Solop ERP
 
 article: false
 ---
 
-El presente documento contiene la definición detallada de todos los entregables desarrollados por ERP Consultores y Asociados, C.A al momento de implementar una de sus soluciones en clientes así como los productos y servicios que se ofrecen adicional a lo convenido con el cliente. Usted se encuentra en completa libertad de leer este documento para conocer de manera detallada cada uno de los procesos, el alcance y lo que ERP Consultores y Asociados, C.A entregará al cliente.
+El presente documento contiene la definición detallada de todos los entregables desarrollados por Solop ERP al momento de implementar una de sus soluciones en clientes así como los productos y servicios que se ofrecen adicional a lo convenido con el cliente. Usted se encuentra en completa libertad de leer este documento para conocer de manera detallada cada uno de los procesos, el alcance y lo que Solop ERP entregará al cliente.
 
 ## Verticales
 
@@ -63,13 +63,13 @@ Esta sección se encuentra específicamente relacionada con las aplicaciones des
 
 La educación forma parte de los servicios que ofrece ERP Consultores y Asociados, C.A para capacitaciones en el uso de SOLOP, aplicaciones derivadas y cualquier otro tipo de aprendizaje relacionado a los productos y servicio que ofrece. Después de instalar cualquier aplicación mantenida por ERP Consultores y Asociados, C.A usted podrá contratar alguna capacitación para ampliar sus conocimientos o para hacer más sencilla la rotación del personal.
 
-- [Diccionario de Aplicación de SOLOP](apps/adempiere-application-dictionary.md)
+- [Diccionario de Aplicación de Solop](apps/adempiere-application-dictionary.md)
 - [Sesión de Capacitación](learning/training-session.md)
 - [Configuración Contable Basica](learning/account-training.md)
 
 ## Paquetes de Servicio
 
-Cada paquete de servicio es un pequeño proceso medible y finito dentro de las aplicaciones mantenidas por ERP Consultores y Asociados, C.A, es muy común solicitar alguno de los siguientes cuando se desea mejorar la productividad o impulsar nuevos procesos o controles dentro del ERP.
+Cada paquete de servicio es un pequeño proceso medible y finito dentro de las aplicaciones mantenidas por Solop ERP, es muy común solicitar alguno de los siguientes cuando se desea mejorar la productividad o impulsar nuevos procesos o controles dentro del ERP.
 
 - [Flujos de Trabajo](packages/workflows.md)
 - [Actualización de Datos](packages/data-batch-update.md)
@@ -91,7 +91,7 @@ Cada paquete de servicio es un pequeño proceso medible y finito dentro de las a
 - [Condiciones Generales](conditions.md)
 - [Contrato de Soporte](agreement-support.md)
 
-## Requerimientos para instalar un entorno productivo para el uso de SOLOP bajo Kubernetes
+## Requerimientos para instalar un entorno productivo para el uso de Solop ERP bajo Kubernetes
 
 - [Requerimientos de Instalación](setup/kubernetes_requirements.md)
 
