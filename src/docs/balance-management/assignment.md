@@ -6,17 +6,17 @@ sticky: 9
 article: false
 ---
 
-El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de generar una asignación de pagos en ADempiere.
+El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de generar una asignación de pagos en Solop ERP.
 
 - Asignación de Pagos/Cobros a Documentos por Pagar o Cobrar
 
 ## Asignación de Pagos/Cobros a Documentos por Pagar o Cobrar
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Saldos Pendientes**, luego seleccione la ventana **Asignación de Pagos**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Saldos Pendientes**, luego seleccione la ventana **Asignación de Pagos**.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image1.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana del proceso **Asignación de Pagos**, con diferentes campos que permiten filtrar la información en base a lo requerido.
 

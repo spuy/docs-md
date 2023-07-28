@@ -12,7 +12,7 @@ La vida util de los activos fijos se representa en la utilidad que tienen para l
 
 Las empresas aplican a los activos fijos un método de depreciación para reconocer el desgaste sufrido por el activo en un determinado tiempo. Dicho desgaste puede deberse al uso que se le haya dado al activo, el tiempo que tenga el activo y la obsolescencia del mismo.
 
-En ADempiere la gestión de activos fijos favorece la labor contable, registrando mediante movimientos administrativos el valor de compra y vida útil de la activo fijo, en este sentido, permite realizar la depreciación o amortización contable, este proceso genera los asientos contables automáticamente.
+En Solop ERP la gestión de activos fijos favorece la labor contable, registrando mediante movimientos administrativos el valor de compra y vida útil de la activo fijo, en este sentido, permite realizar la depreciación o amortización contable, este proceso genera los asientos contables automáticamente.
 
 Los activos son agrupados mediante el **Grupo de Activo Fijo**, con la finalidad de parametrizar mediante una categoría la contabilidad de dichos activos, al momento de registrar un movimiento de **Activo Fijo**.
 
@@ -25,19 +25,19 @@ El grupo de activo permite calificar a los productos como activos y definir su f
 
 ## Grupo de Activos Fijos
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Activos**, luego seleccione la ventana **Grupo de Activo Fijo**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Activos**, luego seleccione la ventana **Grupo de Activo Fijo**.
 
 ![Campo](/assets/img/docs/asset-management/asm-asset-image19.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
-Podrá visualizar la ventana **Grupo de Activo**, con el registro de los grupos de activos que la empresa posee en ADempiere.
+Podrá visualizar la ventana **Grupo de Activo**, con el registro de los grupos de activos que la empresa posee en Solop ERP.
 
 ![Campo](/assets/img/docs/asset-management/asm-asset-image20.png)
 
 Imagen 2. Ventana Principal Grupo de Activo
 
-Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de ADempiere.
+Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/asset-management/asm-asset-image21.png)
 
@@ -67,13 +67,13 @@ Tilde el checklist **Propio**, si el grupo de activo fijo que esta registrando p
 
 Imagen 7. Checklist Propio
 
-Tilde el checklist **Depreciar** para que ADempiere realice la depreciación del grupo de activos fijos que esta registrando.
+Tilde el checklist **Depreciar** para que Solop ERP realice la depreciación del grupo de activos fijos que esta registrando.
 
 ![Campo](/assets/img/docs/asset-management/asm-asset-image26.png)
 
 Imagen 8. Checklist Depreciar
 
-Para guardar el registro de los campos, seleccione el icono **Guardar Cambios **ubicado en la barra de herramientas de ADempiere.
+Para guardar el registro de los campos, seleccione el icono **Guardar Cambios **ubicado en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/asset-management/asm-asset-image27.png)
 
@@ -95,7 +95,7 @@ Imagen 11. Campo Organización de la Pestaña
 
 Note
 
-ADempiere permite que una compañía que posee más de una organización, registre la configuración contable del grupo de activo fijo por organización. El registro podría ser:
+Solop ERP permite que una compañía que posee más de una organización, registre la configuración contable del grupo de activo fijo por organización. El registro podría ser:
 
 Grupo Activo Fijo **Mobiliario** de la Empresa Estándar con Organización (\*):
 
@@ -135,7 +135,7 @@ Imagen 16. Campo Vida Útil - Años
 
 Note
 
-Al ingresar un valor en el campo **Vida Útil - Años**, ADempiere refleja en los campos **Vida Útil - Años (Fiscal)**, **Vida Útil - Meses** y **Vida Útil - Meses (Fiscal)**, el equivalente al campo correspondiente.
+Al ingresar un valor en el campo **Vida Útil - Años**, Solop ERP refleja en los campos **Vida Útil - Años (Fiscal)**, **Vida Útil - Meses** y **Vida Útil - Meses (Fiscal)**, el equivalente al campo correspondiente.
 
 Seleccione en el campo **Cuenta Costo Activo**, se refiere a la cuenta de activo del plan de cuentas en la que desea reflejar el costo del activo fijo.
 
@@ -173,7 +173,7 @@ Ubique o cree de manera regular la categoría de producto a la que desea asociar
 
 Note
 
-Al ingresar un valor en el campo **Grupo de Activo Fijos**, ADempiere generará un activo fijo al crear una recepción de un producto asociado a esta categoría.
+Al ingresar un valor en el campo **Grupo de Activo Fijos**, Solop ERP generará un activo fijo al crear una recepción de un producto asociado a esta categoría.
 
 ## Producto
 

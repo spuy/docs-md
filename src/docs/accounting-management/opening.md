@@ -6,11 +6,11 @@ sticky: 9
 article: false
 ---
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Análisis de Desempeño**, luego seleccione la carpeta **Reglas Contables**, por último seleccione la ventana **Año Calendario Período**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Análisis de Desempeño**, luego seleccione la carpeta **Reglas Contables**, por último seleccione la ventana **Año Calendario Período**.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image486.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana **Año Calendario Período** con los registros que posee dicha ventana, donde debe ubicar el calendario en el cual requiere abrir el período contable. En este caso, el registro utilizado es el **Compañía Estándar Calendario**.
 

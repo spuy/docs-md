@@ -6,7 +6,7 @@ sticky: 9
 article: false
 ---
 
-El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de gestionar los costos en la versión 3.9.2 de ADempiere en la localización Venezuela.
+El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de gestionar los costos en la versión 3.9.2 de Solop ERP en la localización Venezuela.
 
 - Costos de Material
 - Costos Adicionales
@@ -23,13 +23,13 @@ El presente material elaborado por ERPyA pretende ofrecerle una explicación efi
 
 ## Costos de Material
 
-Para explicar el proceso de registro automático de costo de un producto y que el usuario pueda entender el mismo, es ubicado un producto sin relación con alguna transacción en ADempiere. Para este caso, es ubicado el producto **Estandar**, con código **DOIS-000001**.
+Para explicar el proceso de registro automático de costo de un producto y que el usuario pueda entender el mismo, es ubicado un producto sin relación con alguna transacción en Solop ERP. Para este caso, es ubicado el producto **Estandar**, con código **DOIS-000001**.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image251.png)
 
 Imagen 1. Ventana Producto
 
-Seleccione la pestaña **Costo** para verificar si el mismo posee algún registro, es decir, si ha sido utilizado en alguna transacción en ADempiere.
+Seleccione la pestaña **Costo** para verificar si el mismo posee algún registro, es decir, si ha sido utilizado en alguna transacción en Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image252.png)
 
@@ -77,7 +77,7 @@ Imagen 9. Tipo de Costo Facturación Promedio
 
 ## Costos Adicionales
 
-El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de generar costos adicionales a los productos en la versión 3.9.2 de ADempiere en la localización Venezuela.
+El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de generar costos adicionales a los productos en la versión 3.9.2 de Solop ERP en la localización Venezuela.
 
 Las empresas realizan un estudio sobre el costo de producción de un producto determinado con la finalidad de establecer el precio de venta en base a los resultados obtenidos. Con esto se quiere decir que según el método empleado por la empresa, se toma en cuenta el costo de la materia prima, el costo de la producción, impresión, empaque, flete y cualquier otro servicio o producto necesario para lograr un producto final, para obtener el precio de venta del producto acorde a los costos que implica la producción del mismo.
 
@@ -87,13 +87,13 @@ Un producto puede tener costos adicionales por flete, servicios de impresión, e
 
 ## Documentos por Pagar
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Compras**, luego seleccione la ventana **Documentos por Pagar**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Compras**, luego seleccione la ventana **Documentos por Pagar**.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image260.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
-Realice el procedimiento regular para generar una factura de cuentas por pagar, definido en el material Registro de Documento por Pagar de la versión 3.9.2 de ADempiere en la localización Venezuela.
+Realice el procedimiento regular para generar una factura de cuentas por pagar, definido en el material Registro de Documento por Pagar de la versión 3.9.2 de Solop ERP en la localización Venezuela.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image261.png)
 
@@ -117,7 +117,7 @@ Imagen 4. Campo Distribución de Costo
 
 Note
 
-Este campo permite establecer con que tipología sera realizada la distribución de costos. ADempiere utiliza cinco (5) tipologías para aplicar la distribución de costo a un producto.
+Este campo permite establecer con que tipología sera realizada la distribución de costos. Solop ERP utiliza cinco (5) tipologías para aplicar la distribución de costo a un producto.
 
 Cantidad.
 
@@ -157,7 +157,7 @@ Imagen 7. Distribución de Costos
 
 Note
 
-Según la tipología seleccionada anteriormente, ADempiere realiza la distribución de costos de la siguiente manera:
+Según la tipología seleccionada anteriormente, Solop ERP realiza la distribución de costos de la siguiente manera:
 
 Cantidad, realiza la distribución dividiendo el costo de la factura entre la cantidad del producto recepcionado.
 
@@ -189,11 +189,11 @@ Imagen 10. Opción Completar
 
 ## Consultar Costos Adicionales
 
-Ubique en el menú de ADempiere, la carpeta **Análisis de Desempeño**, luego seleccione la carpeta **Gestión de Costos**, por último seleccione el reporte **Detalle Costo del Producto**.
+Ubique en el menú de Solop ERP, la carpeta **Análisis de Desempeño**, luego seleccione la carpeta **Gestión de Costos**, por último seleccione el reporte **Detalle Costo del Producto**.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image270.png)
 
-Imagen 11. Menú de ADempiere
+Imagen 11. Menú de Solop ERP
 
 Podrá visualizar el reporte **Detalle Costo del Producto** de la siguiente manera.
 
@@ -203,7 +203,7 @@ Imagen 12. Pestaña Costo
 
 ## Reportes de Costos
 
-El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de gestionar los reportes de costos en la versión 3.9.2 de ADempiere en la localización Venezuela.
+El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de gestionar los reportes de costos en la versión 3.9.2 de Solop ERP.
 
 - Consulta de Costo del Producto
 - Informe de Costos del Producto
@@ -215,11 +215,11 @@ El presente material elaborado por ERPyA pretende ofrecerle una explicación efi
 
 ## Consulta de Costo del Producto
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Análisis de Desempeño**, luego seleccione la carpeta **Gestión de Costos**, por último seleccione la ventana **Costos del Producto**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Análisis de Desempeño**, luego seleccione la carpeta **Gestión de Costos**, por último seleccione la ventana **Costos del Producto**.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image272.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana **Encontrar Registro: Selección de Producto**, con campos que permiten filtrar la búsqueda del producto.
 
@@ -257,13 +257,13 @@ Podrá visualizar la ventana **Costos del Producto**, con el registro buscado de
 
 Imagen 7. Ventana Costos del Producto
 
-Seleccione la pestaña **Costo del Producto**, para visualizar los registros de costos del producto según el tipo de costo configurado en ADempiere.
+Seleccione la pestaña **Costo del Producto**, para visualizar los registros de costos del producto según el tipo de costo configurado en Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image279.png)
 
 Imagen 8. Pestaña Costo del Producto de la Ventana Costos del Producto
 
-Seleccione la pestaña **Detalle de Costo**, para visualizar de manera detallada los registros del costo del producto según el tipo de costo configurado en ADempiere.
+Seleccione la pestaña **Detalle de Costo**, para visualizar de manera detallada los registros del costo del producto según el tipo de costo configurado en Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image280.png)
 
@@ -271,11 +271,11 @@ Imagen 9. Pestaña Detalle de Costo de la Ventana Costos del Producto
 
 ## Informe de Costos del Producto
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Análisis de Desempeño**, luego seleccione la carpeta **Gestión de Costos**, por último seleccione el reporte **Informe de Costo del Producto**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Análisis de Desempeño**, luego seleccione la carpeta **Gestión de Costos**, por último seleccione el reporte **Informe de Costo del Producto**.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image281.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana del reporte para generar el **Informe de Costo del Producto**, con diferentes campos que le permiten al usuario filtrar la búsqueda de información para generar el informe de acuerdo a lo requerido por el mismo.
 
@@ -309,11 +309,11 @@ Imagen 6. Opción OK de la Ventana del Reporte para Generar el Informe de Costo 
 
 ## Reporte de Costo del Producto
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Análisis de Desempeño**, luego seleccione la carpeta **Gestión de Costos**, por último seleccione la ventana **Costo del Producto**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Análisis de Desempeño**, luego seleccione la carpeta **Gestión de Costos**, por último seleccione la ventana **Costo del Producto**.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image287.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana del reporte **Costo del Producto**, con diferentes campos que le permiten al usuario filtrar la búsqueda de la información y generar el reporte en base a lo seleccionado en dichos campos.
 
@@ -365,11 +365,11 @@ Imagen 9. Opción OK de la Ventana del Reporte Costo del Producto
 
 ## Valoración de Inventario a Fecha Efectiva
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Análisis de Desempeño**, luego seleccione la carpeta **Gestión de Costos**, por último seleccione el reporte **Valoración de Inventario a Fecha Efectiva**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Análisis de Desempeño**, luego seleccione la carpeta **Gestión de Costos**, por último seleccione el reporte **Valoración de Inventario a Fecha Efectiva**.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image296.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana **Valoración de Inventario a Fecha Efectiva**, con diferentes campos que le permiten al usuario filtrar la información en base a lo seleccionado en los mismos.
 
@@ -439,11 +439,11 @@ Imagen 12. Reporte Valoración de Inventario a Fecha Efectiva
 
 ## Valoración de Inventario
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Análisis de Desempeño**, luego seleccione la carpeta **Gestión de Costos**, por último seleccione el reporte **Valoración de Inventario**
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Análisis de Desempeño**, luego seleccione la carpeta **Gestión de Costos**, por último seleccione el reporte **Valoración de Inventario**
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image308.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana **Valoración de la Transacción**, con diferentes campos que permiten filtrar la búsqueda de la información para generar el reporte de acuerdo a lo requerido.
 
@@ -465,7 +465,7 @@ Imagen 4. Campo Almacén de la Ventana Valoración de la Transacción
 
 Note
 
-Para simular el proceso y generar el reporte de valoración de inventario, se deja el campo **Almacén** en blanco, indicando de esta manera que la búsqueda de la información se debe realizar en todos los almacenes registrados en ADempiere.
+Para simular el proceso y generar el reporte de valoración de inventario, se deja el campo **Almacén** en blanco, indicando de esta manera que la búsqueda de la información se debe realizar en todos los almacenes registrados en Solop ERP.
 
 Seleccione en el campo **Fecha de Movimiento**, el rango de fechas en el que se realizó el movimiento del producto y por el cual el usuario requiere filtrar la información.
 
@@ -527,11 +527,11 @@ Imagen 13. Reporte Valoración de la Transacción
 
 ## Detalle de Costos del Producto
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Análisis de Desempeño**, luego seleccione la carpeta **Gestión de Costos**, por último seleccione el reporte **Detalle Costo del Producto**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Análisis de Desempeño**, luego seleccione la carpeta **Gestión de Costos**, por último seleccione el reporte **Detalle Costo del Producto**.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image321.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana **Detalle Costo del Producto**, con diferentes campos que le permiten al usuario filtrar la información según lo requerido por el mismo.
 
@@ -577,11 +577,11 @@ Imagen 8. Reporte Detalle Costo del Producto
 
 ## Detalle de la Transacción del Costo
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Análisis de Desempeño**, luego seleccione la carpeta **Gestión de Costos**, por último seleccione el reporte **Detalle de la Transacción de Costos**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Análisis de Desempeño**, luego seleccione la carpeta **Gestión de Costos**, por último seleccione el reporte **Detalle de la Transacción de Costos**.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image329.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana **Detalle de la Transacción de Costos**, con diferentes campos que le permiten al usuario filtrar la búsqueda para generar el reporte **Detalle de la Transacción de Costos** según lo requerido.
 

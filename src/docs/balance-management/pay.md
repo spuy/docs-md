@@ -8,28 +8,28 @@ article: false
 
 Un pago es un egreso monetario por las compras de productos o adquisiciones de servicios de la empresa. Adicional a ello, se considera pago la cancelación de las deudas que una empresa posee con los socios de negocios por préstamos u otros motivos que generen cuentas por pagar.
 
-En ADempiere un pago es realizado previo a una autorización, siendo este muy delicado por tratarse del egreso monetario de la empresa. El procedimiento para realizar un pago en ADempiere tiene como requerimiento principal, que exista un documento por pagar o una orden de compra cuando se trata de un proceso de pago sencillo. Si se trata de un proceso mediante una programación de pago, el documento es generado al completar el proceso **Imprimir/Exportar**, mismo que requiere de los documentos **Orden de Pago** y **Selección de Pago**.
+En Solop ERP un pago es realizado previo a una autorización, siendo este muy delicado por tratarse del egreso monetario de la empresa. El procedimiento para realizar un pago en Solop ERP tiene como requerimiento principal, que exista un documento por pagar o una orden de compra cuando se trata de un proceso de pago sencillo. Si se trata de un proceso mediante una programación de pago, el documento es generado al completar el proceso **Imprimir/Exportar**, mismo que requiere de los documentos **Orden de Pago** y **Selección de Pago**.
 
-El presente material elaborado por ERPyA, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para elaborar un pago correctamente en ADempiere, en su versión 3.9.2 para la localización Venezuela.
+El presente material elaborado por ERPyA, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para elaborar un pago correctamente en Solop ERP, en su versión 3.9.2 para la localización Venezuela.
 
 - Registro de Pago
 - Consultar Asignación
 
 ## Registro de Pago
 
-Para ejemplificar el procedimiento de generar un pago en ADempiere, es utilizada la factura por pagar **1000099**.
+Para ejemplificar el procedimiento de generar un pago en Solop ERP, es utilizada la factura por pagar **1000099**.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image66.png)
 
 Imagen 1. Factura por Pagar
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Saldos Pendientes**, luego seleccione la ventana **Pago/Cobro**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Saldos Pendientes**, luego seleccione la ventana **Pago/Cobro**.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image67.png)
 
-Imagen 2. Menú de ADempiere
+Imagen 2. Menú de Solop ERP
 
-Luego podrá visualizar la ventana **Pago/Cobro**, donde debe seleccionar el icono **Registro Nuevo** que se encuentra ubicado en la barra de herramientas de ADempiere para crear un nuevo registro en la ventana **Pago/Cobro**.
+Luego podrá visualizar la ventana **Pago/Cobro**, donde debe seleccionar el icono **Registro Nuevo** que se encuentra ubicado en la barra de herramientas de Solop ERP para crear un nuevo registro en la ventana **Pago/Cobro**.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image68.png)
 

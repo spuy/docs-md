@@ -1,4 +1,4 @@
-# Oficial Documentation of ERP Consultores y Asociados, C.A.
+# Oficial Documentation of Solop ERP
 
 [![Original Author: Mr.Hope](https://img.shields.io/badge/Author-Mr.Hope-blue.svg?style=for-the-badge)](https://mrhope.site)
 [![License](https://img.shields.io/github/license/mister-hope/mister-hope.github.io?style=for-the-badge)](https://github.com/Mister-Hope/Mister-Hope.github.io/blob/master/LICENSE)
@@ -8,7 +8,7 @@ A community page [VuePress](https://v2.vuepress.vuejs.org/) and [VuePress Theme 
 
 The collection includes a number of books covering the main topics of:
 
-- Functional Guide (**Generated automatically from SOLOP**)
+- Functional Guide (**Generated automatically from Solop ERP**)
 
 # More References
 

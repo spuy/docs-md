@@ -6,7 +6,7 @@ sticky: 9
 article: false
 ---
 
-La dimensión contable es una funcionalidad incorporada por ADempiere utilizada para unir información haciendo un recuento de los hechos contables que componen cada entidad. De esta forma, se define dimensiones primarias o secundarias respecto a las principales, esto quiere decir, que puede existir una dimensión acumulativa que derive a su vez múltiples dimensiones que posibilitan la implementación de métricas sumarias de cada una o agrupadas por la dimensión padre.
+La dimensión contable es una funcionalidad incorporada por Solop ERP utilizada para unir información haciendo un recuento de los hechos contables que componen cada entidad. De esta forma, se define dimensiones primarias o secundarias respecto a las principales, esto quiere decir, que puede existir una dimensión acumulativa que derive a su vez múltiples dimensiones que posibilitan la implementación de métricas sumarias de cada una o agrupadas por la dimensión padre.
 
 Estas dimensiones contables sustituyen cuentas auxiliares utilizadas comúnmente por los contadores para visualizar en detalle saldos, por ejemplo de socios de negocios que actúan como accionistas, para entenderlo mejor veamos el siguiente ejemplo:
 
@@ -16,7 +16,7 @@ Imaginemos una empresa que requiere ver el saldos contable de los pasivos de cad
 
 Imagen 1. Plan de cuentas con dimensiones
 
-Sin embargo, ADempiere contempla una visión holística y minimalista, que elimina la creación de múltiples cuentas contables para el detalle y a su vez las sustituye por las dimensiones contables, creando una combinación entre la cuenta contable y la dimensión, quedando de la siguiente forma:
+Sin embargo, Solop ERP contempla una visión holística y minimalista, que elimina la creación de múltiples cuentas contables para el detalle y a su vez las sustituye por las dimensiones contables, creando una combinación entre la cuenta contable y la dimensión, quedando de la siguiente forma:
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image400.png)
 
@@ -26,9 +26,9 @@ Por su parte, al crear una transacción con esta dimensión contable el resultad
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image401.png)
 
-Imagen 3. Dimensión Contable ADempiere
+Imagen 3. Dimensión Contable Solop ERP
 
-Las entidades con las que ADempiere permite dimensionar los diferentes hechos contables son las siguientes:
+Las entidades con las que Solop ERP permite dimensionar los diferentes hechos contables son las siguientes:
 
 Organización: Representa una entidad legal dentro de la empresa, generalmente estructurada de forma dependiente a la compañía principal, esta puede ser una sucursal, tienda o franquicia.
 
@@ -46,7 +46,7 @@ Campaña: Representa la agrupación de actividades realizadas con la finalidad d
 
 Elementos Personalizados: A menudo los clientes han preguntado ¿Cómo hacemos si nosotros manejamos una dimensión u otro elemento para medir nuestro desempeño?.
 
-Pues bien, ADempiere deja a disposición del cliente cinco campos para personalizar a su criterio, los mismos, funcionan exactamente igual a las dimensiones anteriormente explicadas, estos son:
+Pues bien, Solop ERP deja a disposición del cliente cinco campos para personalizar a su criterio, los mismos, funcionan exactamente igual a las dimensiones anteriormente explicadas, estos son:
 
 Usuario1
 
@@ -64,7 +64,7 @@ Finalmente, esta funcionalidad es implementada desde los reportes contables deta
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image402.png)
 
-Imagen 4. Menú de ADempiere
+Imagen 4. Menú de Solop ERP
 
 ## Dimensión Organización
 

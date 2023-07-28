@@ -10,9 +10,9 @@ En contabilidad una nota contable simboliza un documento que se origina internam
 
 Generalmente estos registros carecen de soportes administrativos que justifiquen su origen o procedencia, en consecuencia, se hace necesario la realización de asientos contables que corrijan o ajusten los créditos y débitos faltantes en los balances.
 
-ADempiere por ser un software ERP no apoya la realización de notas contables, puesto que ofrece una gama amplia de procesos administrativos que a su vez generan los hechos contables que sustituyen los asientos contables manuales.
+Solop ERP por ser un software ERP no apoya la realización de notas contables, puesto que ofrece una gama amplia de procesos administrativos que a su vez generan los hechos contables que sustituyen los asientos contables manuales.
 
-Sin embargo, ADempiere cuenta con una solución llamada **Diario Contable** que permite la creación de registros contables en lotes, es decir, usted podrá esquematizar más de un periodo contable con asientos en un solo diario de contabilidad, para entenderlo mejor veamos el siguiente ejemplo:
+Sin embargo, Solop ERP cuenta con una solución llamada **Diario Contable** que permite la creación de registros contables en lotes, es decir, usted podrá esquematizar más de un periodo contable con asientos en un solo diario de contabilidad, para entenderlo mejor veamos el siguiente ejemplo:
 
 Imaginemos que una empresa requiere reconocer contablemente la inflación ocurrida durante un año y el impacto causado en el valor de sus activos, o lo que contablemente se conoce como una revaluación de activos o un ajuste por inflación (API).
 
@@ -41,13 +41,13 @@ Si se desea registrar el asiento amortizando mes a mes el impacto económico que
 | Diferencia Cambiaria |        | xxxx    |
 | Total                | xxxx   | xxxx    |
 
-ADempiere ofrece la posibilidad de crear un lote contable, donde agrupará los asientos de todos los meses en un diario contable, por esa razón su estructura es la siguiente:
+Solop ERP ofrece la posibilidad de crear un lote contable, donde agrupará los asientos de todos los meses en un diario contable, por esa razón su estructura es la siguiente:
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image344.png)
 
 Imagen 1. Estructura de Diario Contable
 
-Si se aplica el ejemplo anterior en un diario contable en ADempiere quedará de la siguiente forma:
+Si se aplica el ejemplo anterior en un diario contable en Solop ERP quedará de la siguiente forma:
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image345.png)
 
@@ -55,11 +55,11 @@ Imagen 1. Estructura de Diario Contable Aplicando el Ejemplo
 
 De esta manera tendríamos un lote contable, con doce notas contables y las líneas necesarias realizando los asientos correspondientes a cada mes, en las que se cargan y abonan las cuentas correspondientes para balancear el diario contable, cabe acotar, si su diario está desbalanceado y la configuración de la compañía no permite el desbalanceo, este no podrá ser completado.
 
-Adicionalmente, esta funcionalidad permite la realización de lotes de asientos agrupados por monedas o esquemas contables, recordando que ADempiere puede manejar la contabilización en múltiples esquemas y monedas.
+Adicionalmente, esta funcionalidad permite la realización de lotes de asientos agrupados por monedas o esquemas contables, recordando que Solop ERP puede manejar la contabilización en múltiples esquemas y monedas.
 
-Pese a que usted cuenta con esta bondad, no se recomienda la realización de notas contables para procesos contemplados en ADempiere, puesto cada transacción administrativa registra los hechos contables de forma automática, en consecuencia se sugiere sea utilizado solo en casos excepcionales.
+Pese a que usted cuenta con esta bondad, no se recomienda la realización de notas contables para procesos contemplados en Solop ERP, puesto cada transacción administrativa registra los hechos contables de forma automática, en consecuencia se sugiere sea utilizado solo en casos excepcionales.
 
-**ERPyA** quiere ofrecerle un instructivo paso a paso con el cual podrá alcanzar un registro exitoso como diario contable en ADempiere ERP & CRM,.
+**Solop ERP** quiere ofrecerle un instructivo paso a paso con el cual podrá alcanzar un registro exitoso como diario contable en Solop ERP,.
 
 - Diario de Nota Contable
 - Lote Contable
@@ -68,11 +68,11 @@ Pese a que usted cuenta con esta bondad, no se recomienda la realización de not
 
 ## Diario de Nota Contable
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Análisis de Desempeño**, luego seleccione la ventana **Diario Contable**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Análisis de Desempeño**, luego seleccione la ventana **Diario Contable**.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image346.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la siguiente ventana.
 
@@ -82,7 +82,7 @@ Imagen 2. Diario Contable
 
 ## Lote Contable
 
-Seleccione el icono **Registro Nuevo**, para crear un nuevo registro de diario contable en ADempiere.
+Seleccione el icono **Registro Nuevo**, para crear un nuevo registro de diario contable en Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image348.png)
 
@@ -114,7 +114,7 @@ Imagen 6. Campo Tipo de Aplicación de la Pestaña Lote Contable de la Ventana D
 
 Note
 
-Por defecto ADempiere establece el tipo de aplicación actual.
+Por defecto Solop ERP establece el tipo de aplicación actual.
 
 Seleccione un tipo de documento en el campo **Tipo de Documento**.
 
@@ -162,17 +162,17 @@ Imagen 11. Campo Período de la Pestaña Lote Contable de la Ventana Diario Cont
 
 Note
 
-Por defecto ADempiere establece el periodo correspondiente a la fecha actual.
+Por defecto Solop ERP establece el periodo correspondiente a la fecha actual.
 
 Seleccione la moneda en el campo **Moneda**.
 
-La moneda es un campo obligatorio, le permite definir la moneda con la cual se ejecuta el lote contable, recordemos que ADempiere maneja la metodología multi-moneda, de esta forma se podrá realizar lotes de asientos con una moneda diferente a la del esquema principal de la compañía.
+La moneda es un campo obligatorio, le permite definir la moneda con la cual se ejecuta el lote contable, recordemos que Solop ERP maneja la metodología multi-moneda, de esta forma se podrá realizar lotes de asientos con una moneda diferente a la del esquema principal de la compañía.
 
 Sin embargo, esta moneda es establecida en las notas contables y variará a criterio del usuario de ser necesario, para comprender mejor, veamos el siguiente ejemplo:
 
 Suponemos que es necesario realizar un asiento ajustando la depreciación anual de un activo, para esto se requiere realizar ajustes en moneda USD, aún cuando la moneda base del esquema es VES.
 
-En pro de mantener la integridad del balance, ADempiere ejecuta la conversión en la contabilidad a la moneda del esquema principal basados en la tasa de cambio correspondiente a la fecha de este documento.
+En pro de mantener la integridad del balance, Solop ERP ejecuta la conversión en la contabilidad a la moneda del esquema principal basados en la tasa de cambio correspondiente a la fecha de este documento.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image357.png)
 
@@ -180,7 +180,7 @@ Imagen 12. Campo Moneda de la Pestaña Lote Contable de la Ventana Diario Contab
 
 Note
 
-Por defecto ADempiere establece la moneda del esquema principal de la compañía actual.
+Por defecto Solop ERP establece la moneda del esquema principal de la compañía actual.
 
 Introduzca un monto en el campo **Cifra de Control**.
 
@@ -216,7 +216,7 @@ Imagen 16. Campo Total Crédito de la Pestaña Lote Contable de la Ventana Diari
 
 Note
 
-Recuerde guardar el registro de los campos con ayuda del icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere.
+Recuerde guardar el registro de los campos con ayuda del icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
 
 Pasos posterior al registro de la Nota Contable y Linea
 
@@ -242,7 +242,7 @@ Note
 
 ¡Recuerde!
 
-Para ADempiere, un documento que no se encuentre en estado **Completo**, es un documento **No Válido**, posterior a ser completado este documento podrá ser reactivado mientras el periodo contable esté activo.
+Para Solop ERP, un documento que no se encuentre en estado **Completo**, es un documento **No Válido**, posterior a ser completado este documento podrá ser reactivado mientras el periodo contable esté activo.
 
 ## Nota Contable
 
@@ -310,9 +310,9 @@ Imagen 24. Campo Período de la Pestaña Nota Contable de la Ventana Diario Cont
 
 Seleccione la moneda en el campo **Moneda**.
 
-La moneda es un campo obligatorio, le permite definir la moneda con la cual se ejecuta la nota contable, recordemos que ADempiere maneja la metodología multi-moneda, de esta forma se podrá realizar lotes de asientos con una moneda diferente a la del esquema principal de la compañía.
+La moneda es un campo obligatorio, le permite definir la moneda con la cual se ejecuta la nota contable, recordemos que Solop ERP maneja la metodología multi-moneda, de esta forma se podrá realizar lotes de asientos con una moneda diferente a la del esquema principal de la compañía.
 
-En pro de mantener la integridad del balance, ADempiere ejecuta la conversión en la contabilidad a la moneda del esquema principal basados en la tasa de cambio correspondiente a la fecha de este documento, esta es establecido inicialmente desde el valor seleccionado en la pestaña lote contable, y puede ser modificado si difiere del mismo.
+En pro de mantener la integridad del balance, Solop ERP ejecuta la conversión en la contabilidad a la moneda del esquema principal basados en la tasa de cambio correspondiente a la fecha de este documento, esta es establecido inicialmente desde el valor seleccionado en la pestaña lote contable, y puede ser modificado si difiere del mismo.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image373.png)
 
@@ -352,7 +352,7 @@ Imagen 29. Campo Total Crédito de la Pestaña Nota Contable de la Ventana Diari
 
 Note
 
-Recuerde guardar el registro de los campos con ayuda del icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere.
+Recuerde guardar el registro de los campos con ayuda del icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
 
 ## Línea
 
@@ -372,7 +372,7 @@ Imagen 31. Campo Descripción de la Pestaña Línea de la Ventana Diario Contabl
 
 Podrá visualizar el checklist **Generado**.
 
-El checklist generado es un campo solo lectura, actualizado automáticamente si esta línea de la nota es generada posterior a la ejecución de un proceso de ADempiere.
+El checklist generado es un campo solo lectura, actualizado automáticamente si esta línea de la nota es generada posterior a la ejecución de un proceso de Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image380.png)
 
@@ -380,7 +380,7 @@ Imagen 32. Checklist Generado de la Pestaña Línea de la Ventana Diario Contabl
 
 Seleccione la moneda en el campo **Moneda**.
 
-La moneda es un campo obligatorio, le permite definir la moneda con la cual se ejecuta el asiento, recordemos que ADempiere maneja la metodología multi-moneda, de esta forma se podrá realizar lotes de asientos con una moneda diferente a la del esquema principal de la compañía, esta es establecida inicialmente desde el valor seleccionado en la pestaña nota contable, y puede ser modificado si difiere del mismo.
+La moneda es un campo obligatorio, le permite definir la moneda con la cual se ejecuta el asiento, recordemos que Solop ERP maneja la metodología multi-moneda, de esta forma se podrá realizar lotes de asientos con una moneda diferente a la del esquema principal de la compañía, esta es establecida inicialmente desde el valor seleccionado en la pestaña nota contable, y puede ser modificado si difiere del mismo.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image381.png)
 
@@ -414,7 +414,7 @@ Note
 
 ¡Recuerde!
 
-El socio de negocio debe estar registrado previamente en ADempiere.
+El socio de negocio debe estar registrado previamente en Solop ERP.
 
 Seleccione en el campo **Producto**, el producto correspondiente al registro que está realizando.
 
@@ -428,7 +428,7 @@ Note
 
 ¡Recuerde!
 
-El producto debe estar registrado previamente en ADempiere.
+El producto debe estar registrado previamente en Solop ERP.
 
 Seleccione la actividad ABC en el campo **Actividad**.
 
@@ -442,7 +442,7 @@ Note
 
 ¡Recuerde!
 
-La actividad ABC debe estar registrada previamente en ADempiere.
+La actividad ABC debe estar registrada previamente en Solop ERP.
 
 Seleccione el centro de costo en el campo **Centro de Costos**.
 
@@ -456,7 +456,7 @@ Note
 
 ¡Recuerde!
 
-El centro de costo debe estar registrado previamente en ADempiere.
+El centro de costo debe estar registrado previamente en Solop ERP.
 
 Seleccione un alias de una combinación contable en el campo **Alias**.
 
@@ -470,7 +470,7 @@ Note
 
 ¡Recuerde!
 
-La combinación debe estar registrada previamente en ADempiere.
+La combinación debe estar registrada previamente en Solop ERP.
 
 Seleccione la combinación contable en el campo **Combinación**.
 
@@ -570,4 +570,4 @@ Imagen 50. Campo Cantidad de la Pestaña Línea de la Ventana Diario Contable
 
 Note
 
-Recuerde guardar el registro de los campos con ayuda del icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere.
+Recuerde guardar el registro de los campos con ayuda del icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.

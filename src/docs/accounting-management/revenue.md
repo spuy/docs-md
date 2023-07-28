@@ -6,11 +6,11 @@ sticky: 9
 article: false
 ---
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Análisis de Desempeño**, luego seleccione la ventana **Asientos Contables**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Análisis de Desempeño**, luego seleccione la ventana **Asientos Contables**.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image625.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Una vez visualizada la ventana **Asientos Contables**, se procede a ubicar el registro del asiento contable que requiere actualizar. Esta búsqueda se puede realizar seleccionando el filtro **Hecho Contable** e ingresando el **ID** del mismo. Como ejemplo se tiene el hecho contable **5726493**.
 

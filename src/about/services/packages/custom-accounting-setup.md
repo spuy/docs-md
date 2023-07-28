@@ -11,7 +11,7 @@ article: false
 ---
 # Configuración Contable Personalizada
 
-Esta configuración debe hacerse cuando el cliente desea usar y configurar su propio Plan de Cuentas en Adempiere.
+Esta configuración debe hacerse cuando el cliente desea usar y configurar su propio Plan de Cuentas en Solop.
 
 ## Ejemplo básico
 

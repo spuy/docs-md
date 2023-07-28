@@ -6,13 +6,13 @@ sticky: 9
 article: false
 ---
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Análisis de Desempeño**, luego seleccione la carpeta **Reglas Contables**, por último seleccione la ventana **Documentos sin Aplicar**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Análisis de Desempeño**, luego seleccione la carpeta **Reglas Contables**, por último seleccione la ventana **Documentos sin Aplicar**.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image460.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
-Podrá visualizar la ventana **Documentos sin Aplicar**, con los diferentes registros de documentos sin aplicar en ADempiere.
+Podrá visualizar la ventana **Documentos sin Aplicar**, con los diferentes registros de documentos sin aplicar en Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image461.png)
 

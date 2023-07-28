@@ -8,28 +8,28 @@ article: false
 
 Un cobro es un ingreso monetario por las ventas de productos o adquisiciones de servicios producidos por la empresa. Adicional a ello, se considera cobro la cancelación de las deudas que los socios del negocio poseen con una empresa determinada por préstamos u otros motivos que generen cuentas por cobrar.
 
-En ADempiere un cobro es realizado previo a una recepción monetaria para reflejar la misma, siendo este muy delicado por tratarse del ingreso monetario de la empresa. El procedimiento para realizar un cobro en ADempiere tiene como requerimiento principal, que exista un documento por cobrar o una orden de venta.
+En Solop ERP un cobro es realizado previo a una recepción monetaria para reflejar la misma, siendo este muy delicado por tratarse del ingreso monetario de la empresa. El procedimiento para realizar un cobro en Solop ERPe tiene como requerimiento principal, que exista un documento por cobrar o una orden de venta.
 
-El presente material elaborado por ERPyA, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para elaborar un cobro correctamente en ADempiere, en su versión 3.9.2 para la localización Venezuela.
+El presente material elaborado por ERPyA, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para elaborar un cobro correctamente en Solop ERP, en su versión 3.9.2 para la localización Venezuela.
 
 - Registro de Cobro
 - Consultar Asignación
 
 ## Registro de Cobro
 
-Para ejemplificar el procedimiento de generar un cobro en ADempiere, es utilizada la factura por cobrar **88**.
+Para ejemplificar el procedimiento de generar un cobro en Solop ERP, es utilizada la factura por cobrar **88**.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image85.png)
 
 Imagen 1. Factura por Cobrar
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Saldos Pendientes**, luego seleccione la ventana **Pago/Cobro**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Saldos Pendientes**, luego seleccione la ventana **Pago/Cobro**.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image86.png)
 
-Imagen 2. Menú de ADempiere
+Imagen 2. Menú de Solop ERP
 
-Luego podrá visualizar la ventana **Pago/Cobro**, donde debe seleccionar el icono **Registro Nuevo** que se encuentra ubicado en la barra de herramientas de ADempiere para crear un nuevo registro en la ventana **Pago/Cobro**.
+Luego podrá visualizar la ventana **Pago/Cobro**, donde debe seleccionar el icono **Registro Nuevo** que se encuentra ubicado en la barra de herramientas de Solop ERP para crear un nuevo registro en la ventana **Pago/Cobro**.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image87.png)
 
@@ -97,7 +97,7 @@ Imagen 13. Campo Tipo de Pago
 
 Note
 
-Recuerde guardar el registro de los campos seleccionando el icono **Guardar Cambios**, ubicado en el barra de herramientas de ADempiere.
+Recuerde guardar el registro de los campos seleccionando el icono **Guardar Cambios**, ubicado en el barra de herramientas de Solop ERP.
 
 Seleccione la opción **Completar**, ubicada en la parte inferior derecha de la ventana.
 

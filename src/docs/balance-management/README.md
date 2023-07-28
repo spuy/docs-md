@@ -10,9 +10,9 @@ Para que una compañía evolucione debe contar con una buena estructura y admini
 
 Del mismo modo, contar con una buena herramienta de trabajo permite tener actualizada y centralizada toda la información financiera, fomentar la integridad de los datos, permitir una mejor visualización de estrategias de costos, y la determinación del impacto financiero en una compañía.
 
-ADempiere cuenta con la carpeta **Gestión de Saldos Pendientes** el cual proporciona una serie de opciones y procesos que permite llevar a cabo el registro y control de los ingresos y egresos que se llevan en la compañía, los saldos pendientes, transacciones bancarias, conciliaciones.
+Solop ERP cuenta con la carpeta **Gestión de Saldos Pendientes** el cual proporciona una serie de opciones y procesos que permite llevar a cabo el registro y control de los ingresos y egresos que se llevan en la compañía, los saldos pendientes, transacciones bancarias, conciliaciones.
 
-Por ello, **ERPyA** presenta la siguiente guía con instrucciones claras y precisas de cómo llevar a cabo cada uno de los procesos involucrados con la gestión saldos financieros y así obtener resultados exitosos; esta documentación está destinada a definir cada uno de los procedimientos para la gestión de los saldos pendientes de ADempiere para cualquier organización, es importante seguir al pie de la letra cada uno de los procedimientos descritos aquí recuerde que de eso dependerá el buen uso del ERP.
+Por ello, **Solop ERP** presenta la siguiente guía con instrucciones claras y precisas de cómo llevar a cabo cada uno de los procesos involucrados con la gestión saldos financieros y así obtener resultados exitosos; esta documentación está destinada a definir cada uno de los procedimientos para la gestión de los saldos pendientes de Solop ERP para cualquier organización, es importante seguir al pie de la letra cada uno de los procedimientos descritos aquí recuerde que de eso dependerá el buen uso del ERP.
 
 - [Transferencia Bancaria](transfer)
 - [Selección de Pago](selection)

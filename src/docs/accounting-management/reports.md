@@ -20,11 +20,11 @@ Un gran desafío para los gestores de la empresa es encontrar objetivos comunes 
 
 - Estado de Flujos de Efectivo.
 
-ADempiere contempla una solución a esta necesidad, donde además de estados financieros se incluyen reportes que evidencia en detalle las transacciones realizadas durante el ejercicio, así como las operaciones que incorporan a los saldos en los estados financieros básicos.
+Solop ERP contempla una solución a esta necesidad, donde además de estados financieros se incluyen reportes que evidencia en detalle las transacciones realizadas durante el ejercicio, así como las operaciones que incorporan a los saldos en los estados financieros básicos.
 
-Es importante acotar, que en ocasiones es necesario preparar otros reportes financieros basados en las cifras de cuentas clasificadas para presentar a entidades financieras, prospectos de colocación, inversionistas, reportes anuales y reportes trimestrales, para ello ADempiere le permite definir informes financieros personalizados, en los que el cliente puede basarse en factores tales como ingresos, resultado del ejercicio, dividendos pagados, entre otros.
+Es importante acotar, que en ocasiones es necesario preparar otros reportes financieros basados en las cifras de cuentas clasificadas para presentar a entidades financieras, prospectos de colocación, inversionistas, reportes anuales y reportes trimestrales, para ello Solop ERP le permite definir informes financieros personalizados, en los que el cliente puede basarse en factores tales como ingresos, resultado del ejercicio, dividendos pagados, entre otros.
 
-Sin embargo, aun cuando existen factores relevantes al medir el flujo de efectivo o la rentabilidad, es aún más importante conocer la situación real del negocio, generando información adicional de forma detallada, con los reportes que ADempiere ofrece para nuestros clientes:
+Sin embargo, aun cuando existen factores relevantes al medir el flujo de efectivo o la rentabilidad, es aún más importante conocer la situación real del negocio, generando información adicional de forma detallada, con los reportes que Solop ERP ofrece para nuestros clientes:
 
 - Libros Diarios.
 
@@ -36,7 +36,7 @@ Sin embargo, aun cuando existen factores relevantes al medir el flujo de efectiv
 
 - Detalles de Costos.
 
-A continuación, ERPyA desea ofrecer a sus clientes un material en el cual explicaremos de forma detallada las consideraciones, bondades y herramientas que ADempiere brinda para interpretar información contable que ayudará a complementar el análisis, permitiendo una visión clara a la hora de tomar decisiones en su empresa.
+A continuación, ERPyA desea ofrecer a sus clientes un material en el cual explicaremos de forma detallada las consideraciones, bondades y herramientas que Solop ERP brinda para interpretar información contable que ayudará a complementar el análisis, permitiendo una visión clara a la hora de tomar decisiones en su empresa.
 
 - Informe Financiero
   - Generar Informe Financiero
@@ -59,7 +59,7 @@ Para este análisis es indispensable la recopilación de información precisa po
 
 Sin embargo, pese a que el objetivo es único, cada empresa decide la forma en la que debería incluirse o no cierta información en un informe financiero, porque cada una de ellas determina los detalles relevantes para el análisis o evaluación de desempeño en su organización.
 
-Para esto generalmente se requieren soluciones de edición y de presentación personalizadas, ADempiere ha modelado una innovadora funcionalidad que le permite definir desde cuentas específicas, actividades, centros de costos hasta cubos de informes, posibilitando así la presentación de la información precisa en un tiempo eficiente.
+Para esto generalmente se requieren soluciones de edición y de presentación personalizadas, Solop ERP ha modelado una innovadora funcionalidad que le permite definir desde cuentas específicas, actividades, centros de costos hasta cubos de informes, posibilitando así la presentación de la información precisa en un tiempo eficiente.
 
 Es por ello que ERPyA ha diseñado para usted una gama de instructivos en los que detallaremos la utilidad y los resultados de esta funcionalidad.
 
@@ -70,11 +70,11 @@ Es por ello que ERPyA ha diseñado para usted una gama de instructivos en los qu
 
 ## Generar Informe Financiero
 
-Para generar un informe financiero el usuario debe ubicarse en el menú de ADempiere. Debe seleccionar la carpeta **Análisis de Desempeño**, luego debe seleccionar la carpeta **Informes Financieros** y por último la ventana **Informe Financiero**.
+Para generar un informe financiero el usuario debe ubicarse en el menú de Solop ERP. Debe seleccionar la carpeta **Análisis de Desempeño**, luego debe seleccionar la carpeta **Informes Financieros** y por último la ventana **Informe Financiero**.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image493.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 El reporte de informe financiero es generado a través de la selección del proceso **Crear Informe**, el cual se encuentra ubicado en la parte inferior de la ventana **Informe Financiero**.
 
@@ -94,7 +94,7 @@ Imagen 3. Campo Período
 
 Seleccione la organización en el campo **Organización**.
 
-La organización no es un campo obligatorio, sin embargo, representa una dimensión contable y le permite filtrar la información por organización cuando existe más de una, es decir, el informe financiero podrá emitir saldos contables de una organización al seleccionarla, si por el contrario, el campo está vacío ADempiere mostrará la información contable de todas las organizaciones.
+La organización no es un campo obligatorio, sin embargo, representa una dimensión contable y le permite filtrar la información por organización cuando existe más de una, es decir, el informe financiero podrá emitir saldos contables de una organización al seleccionarla, si por el contrario, el campo está vacío Solop ERP mostrará la información contable de todas las organizaciones.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image496.png)
 
@@ -102,7 +102,7 @@ Imagen 4. Campo Organización
 
 Seleccione el socio de negocio en el campo **Socio de Negocio**.
 
-El socio de negocio no es un campo obligatorio, sin embargo, representa una dimensión contable y le permite filtrar la información por socio de negocio según su naturaleza, cliente, proveedor o empleado, es decir, el informe financiero podrá emitir saldos contables de un socio de negocio al seleccionarlo, si por el contrario, el campo está vacío ADempiere mostrará la información contable de todos los socios de negocios.
+El socio de negocio no es un campo obligatorio, sin embargo, representa una dimensión contable y le permite filtrar la información por socio de negocio según su naturaleza, cliente, proveedor o empleado, es decir, el informe financiero podrá emitir saldos contables de un socio de negocio al seleccionarlo, si por el contrario, el campo está vacío Solop ERP mostrará la información contable de todos los socios de negocios.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image497.png)
 
@@ -110,7 +110,7 @@ Imagen 5. Campo Socio del Negocio
 
 Seleccione el producto en el campo **Producto**.
 
-El producto no es un campo obligatorio, sin embargo, representa una dimensión contable y le permite filtrar la información por producto, es decir, el informe financiero podrá emitir saldos contables de un producto al seleccionarlo, si por el contrario, el campo está vacío ADempiere mostrará la información contable de todos los productos.
+El producto no es un campo obligatorio, sin embargo, representa una dimensión contable y le permite filtrar la información por producto, es decir, el informe financiero podrá emitir saldos contables de un producto al seleccionarlo, si por el contrario, el campo está vacío Solop ERP mostrará la información contable de todos los productos.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image498.png)
 
@@ -118,7 +118,7 @@ Imagen 6. Campo Producto
 
 Seleccione la actividad en el campo **Actividad**.
 
-La actividad no es un campo obligatorio, sin embargo, representa una dimensión contable y le permite filtrar la información por actividad, que generalmente es utilizada en contabilidad para distribución de los costos y gastos según las actividades que se desarrollan en la empresa, es decir, el informe financiero podrá emitir saldos contables de una actividad al seleccionarla, si por el contrario, el campo está vacío ADempiere mostrará la información contable de todas las actividades.
+La actividad no es un campo obligatorio, sin embargo, representa una dimensión contable y le permite filtrar la información por actividad, que generalmente es utilizada en contabilidad para distribución de los costos y gastos según las actividades que se desarrollan en la empresa, es decir, el informe financiero podrá emitir saldos contables de una actividad al seleccionarla, si por el contrario, el campo está vacío Solop ERP mostrará la información contable de todas las actividades.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image499.png)
 
@@ -126,7 +126,7 @@ Imagen 7. Campo Actividad
 
 Seleccione la región de venta en el campo **Región de Venta**.
 
-La región de venta no es un campo obligatorio, sin embargo, representa una dimensión contable y le permite filtrar la información por región de venta, que generalmente es utilizada para clasificar las zonas en las cuales la empresa establece negocios, es decir, el informe financiero podrá emitir saldos contables de una región de venta al seleccionarla, si por el contrario, el campo está vacío ADempiere mostrará la información contable de todas las regiones.
+La región de venta no es un campo obligatorio, sin embargo, representa una dimensión contable y le permite filtrar la información por región de venta, que generalmente es utilizada para clasificar las zonas en las cuales la empresa establece negocios, es decir, el informe financiero podrá emitir saldos contables de una región de venta al seleccionarla, si por el contrario, el campo está vacío Solop ERP mostrará la información contable de todas las regiones.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image500.png)
 
@@ -134,7 +134,7 @@ Imagen 8. Campo Región de Ventas
 
 Seleccione el centro de costo en el campo **Centro de Costo**.
 
-El centro de costo no es un campo obligatorio, sin embargo, representa una dimensión contable y le permite filtrar la información por centro de costo, que generalmente es utilizado para segmentar los costos que genera una organización, permitiendo definir la ganancia o pérdida que le pueden añadir de forma directa o indirecta a una empresa, es decir, el informe financiero podrá emitir saldos contables de una región de venta al seleccionarla, si por el contrario, el campo está vacío ADempiere mostrará la información contable de todos los centros de costos.
+El centro de costo no es un campo obligatorio, sin embargo, representa una dimensión contable y le permite filtrar la información por centro de costo, que generalmente es utilizado para segmentar los costos que genera una organización, permitiendo definir la ganancia o pérdida que le pueden añadir de forma directa o indirecta a una empresa, es decir, el informe financiero podrá emitir saldos contables de una región de venta al seleccionarla, si por el contrario, el campo está vacío Solop ERP mostrará la información contable de todos los centros de costos.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image501.png)
 
@@ -142,7 +142,7 @@ Imagen 9. Campo Centro de Costos
 
 Seleccione el tipo de aplicación en el campo **Tipo de Aplicación**.
 
-El tipo de aplicación no es un campo obligatorio, sin embargo, le permite filtrar la información por tipo de aplicación, que generalmente es utilizado para clasificar el tipo de contabilidad aplicado, el tipo de aplicación establecido por defecto es actual, basado en la configuración previa en las **Columnas de Informe** asociada al informe financiero, no obstante, podrá seleccionar entre, actual, presupuesto, reserva, compromiso y estadística, es decir, el informe financiero podrá emitir saldos contables de un tipo de aplicación específico al seleccionarlo, si por el contrario, el campo está vacío ADempiere mostrará la información contable del tipo de aplicación **Actual**. Para profundizar más este tema vaya a el documento: Tipo de Aplicación
+El tipo de aplicación no es un campo obligatorio, sin embargo, le permite filtrar la información por tipo de aplicación, que generalmente es utilizado para clasificar el tipo de contabilidad aplicado, el tipo de aplicación establecido por defecto es actual, basado en la configuración previa en las **Columnas de Informe** asociada al informe financiero, no obstante, podrá seleccionar entre, actual, presupuesto, reserva, compromiso y estadística, es decir, el informe financiero podrá emitir saldos contables de un tipo de aplicación específico al seleccionarlo, si por el contrario, el campo está vacío Solop ERP mostrará la información contable del tipo de aplicación **Actual**. Para profundizar más este tema vaya a el documento: Tipo de Aplicación
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image502.png)
 
@@ -150,7 +150,7 @@ Imagen 10. Campo Tipo de Aplicación
 
 Seleccione la opción Si o No en el campo **Desplegar fuentes Fuentes**.
 
-Desplegar fuentes Fuentes no es un campo obligatorio, sin embargo, le permite visualizar el saldo de las cuentas detalle que dan origen al saldo de las cuentas acumulativas, también llamadas cuentas de mayor, es decir, si selecciona la opción **Si**, el informe financiero mostrará el saldo de las cuentas de mayor y el saldo de las cuentas detalle que componen esta cuenta, si por el contrario, la opción seleccionada es **No** o el campo está vacío ADempiere mostrará el saldo contable únicamente de las cuentas definidas previamente en el **Grupo de Líneas del Informe** asociado al informe financiero.
+Desplegar fuentes Fuentes no es un campo obligatorio, sin embargo, le permite visualizar el saldo de las cuentas detalle que dan origen al saldo de las cuentas acumulativas, también llamadas cuentas de mayor, es decir, si selecciona la opción **Si**, el informe financiero mostrará el saldo de las cuentas de mayor y el saldo de las cuentas detalle que componen esta cuenta, si por el contrario, la opción seleccionada es **No** o el campo está vacío Solop ERP mostrará el saldo contable únicamente de las cuentas definidas previamente en el **Grupo de Líneas del Informe** asociado al informe financiero.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image503.png)
 
@@ -158,7 +158,7 @@ Imagen 11. Campo Desplegar fuentes Fuentes
 
 Seleccione la opción Si o No en el campo **Lista Transacciones**.
 
-Lista Transacciones es un campo dependiente del campo **Desplegar fuentes Fuentes**, es decir solo estará habilitado cuando el campo **Desplegar fuentes Fuentes** esté establecido con la opción **Si**,**Lista Transacciones** no es un campo obligatorio, sin embargo, le permite visualizar el débito o crédito de las transacciones que dan origen al saldo de las cuentas detalles y a su vez a las cuentas acumulativas, también llamadas cuentas de mayor, es decir, si selecciona la opción **Si**, el informe financiero mostrará el monto de las transacciones que componen cada cuenta, si por el contrario, la opción seleccionada es **No** o el campo está vacío ADempiere mostrará el saldo contable únicamente de las cuentas detalles.
+Lista Transacciones es un campo dependiente del campo **Desplegar fuentes Fuentes**, es decir solo estará habilitado cuando el campo **Desplegar fuentes Fuentes** esté establecido con la opción **Si**,**Lista Transacciones** no es un campo obligatorio, sin embargo, le permite visualizar el débito o crédito de las transacciones que dan origen al saldo de las cuentas detalles y a su vez a las cuentas acumulativas, también llamadas cuentas de mayor, es decir, si selecciona la opción **Si**, el informe financiero mostrará el monto de las transacciones que componen cada cuenta, si por el contrario, la opción seleccionada es **No** o el campo está vacío Solop ERP mostrará el saldo contable únicamente de las cuentas detalles.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image504.png)
 
@@ -166,7 +166,7 @@ Imagen 12. Campo Lista Transacciones
 
 Seleccione la opción Si o No en el campo Listas Fuentes Primero.
 
-Listas Fuentes Primero se encuentra por defecto con la opción **No**, no es un campo obligatorio, sin embargo, le permite organizar su informe financiero, organizando las cuentas fuentes(cuentas detalle) listadas desde la opción **Desplegar fuentes Fuentes** y **Lista Transacciones** de forma que si la opción seleccionada en el campo **Listas Fuentes Primero** es **Si las cuentas detalle junto a las transacciones irán precediendo a las cuentas definidas previamente en el **Grupo de Líneas del Informe** asociado al informe financiero, si por el contrario, el campo está vacío ADempiere mostrará las cuentas detalle junto a las transacciones sucediendo a las cuentas definidas previamente en el **Grupo de Líneas del Informe\*\* asociado al informe financiero.
+Listas Fuentes Primero se encuentra por defecto con la opción **No**, no es un campo obligatorio, sin embargo, le permite organizar su informe financiero, organizando las cuentas fuentes(cuentas detalle) listadas desde la opción **Desplegar fuentes Fuentes** y **Lista Transacciones** de forma que si la opción seleccionada en el campo **Listas Fuentes Primero** es **Si las cuentas detalle junto a las transacciones irán precediendo a las cuentas definidas previamente en el **Grupo de Líneas del Informe** asociado al informe financiero, si por el contrario, el campo está vacío Solop ERP mostrará las cuentas detalle junto a las transacciones sucediendo a las cuentas definidas previamente en el **Grupo de Líneas del Informe\*\* asociado al informe financiero.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image505.png)
 
@@ -182,7 +182,7 @@ Imaginemos una organización cuya estructura en ventas está definida de la sigu
 
 Imagen 14. Organigrama Ventas
 
-Si se desea ver un informe para realizar un análisis de desempeño de la entidad en la organización seguramente se evaluarán resultados en cuentas como ingresos, cuentas por cobrar, compromisos, costos y gastos asociado al departamento, región de ventas o incluso al empleado(gerente de ventas o vendedor), para esto ADempiere permite la creación de jerarquías para cualquier elemento seleccionado en el esquema contable y de esta forma reportar por estructuras y roles definidos previamente en **Informe de Jerarquías**.
+Si se desea ver un informe para realizar un análisis de desempeño de la entidad en la organización seguramente se evaluarán resultados en cuentas como ingresos, cuentas por cobrar, compromisos, costos y gastos asociado al departamento, región de ventas o incluso al empleado(gerente de ventas o vendedor), para esto Solop ERP permite la creación de jerarquías para cualquier elemento seleccionado en el esquema contable y de esta forma reportar por estructuras y roles definidos previamente en **Informe de Jerarquías**.
 
 Basados en lo anteriormente expuesto, en este ejemplo se crearía una jerarquía asociando los siguientes árboles:
 
@@ -268,7 +268,7 @@ El reporte de estado de resultado muestra la información en base al periodo de 
 
 ## Reportes Detallados
 
-El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de generar reportes detallados de manera exitosa en la versión 3.9.2 de ADempiere en la localización Venezuela.
+El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de generar reportes detallados de manera exitosa en la versión 3.9.2 de Solop ERP en la localización Venezuela.
 
 - Detalles de Asientos Contables
 - Estado de Cuenta
@@ -279,11 +279,11 @@ El presente material elaborado por ERPyA pretende ofrecerle una explicación efi
 
 ## Detalles de Asientos Contables
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Análisis de Desempeño**, luego seleccione el reporte **Detalles de Asientos Contables**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Análisis de Desempeño**, luego seleccione el reporte **Detalles de Asientos Contables**.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image514.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana **Detalles de Asientos Contables**, con diferentes campos que le permiten a los usuarios filtrar la información para generar el reporte según lo requerido por el mismo.
 
@@ -461,11 +461,11 @@ Imagen 30. Reporte Detalles de Asientos Contables
 
 ## Estado de Cuenta
 
-Para generar un estado de cuenta el usuario debe ubicarse en el menú de ADempiere. Debe seleccionar la carpeta **Análisis de Desempeño**, luego debe seleccionar la carpeta **Informes Financieros** y por último el reporte **Estado de Cuenta**.
+Para generar un estado de cuenta el usuario debe ubicarse en el menú de Solop ERP. Debe seleccionar la carpeta **Análisis de Desempeño**, luego debe seleccionar la carpeta **Informes Financieros** y por último el reporte **Estado de Cuenta**.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image543.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana del reporte **Estado de Cuenta**, con diferentes campos que le permiten al usuario en base a lo seleccionado, generar el reporte según lo requerido por el mismo.
 
@@ -569,11 +569,11 @@ Imagen 17. Reporte Estado de Cuenta
 
 ## Balance de Prueba
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Análisis de Desempeño**, luego seleccione la carpeta **Informes Financieros**, por último seleccione el reporte **Balance de Prueba**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Análisis de Desempeño**, luego seleccione la carpeta **Informes Financieros**, por último seleccione el reporte **Balance de Prueba**.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image560.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana del reporte **Balance de Prueba**, con diferentes campos que le permiten al usuario filtrar la búsqueda de la información para generar el reporte requerido.
 
@@ -679,11 +679,11 @@ Imagen 18. Reporte Balance de Prueba
 
 ## Asientos Diarios de Contabilidad
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Análisis de Desempeño**, luego seleccione el reporte **Asientos Diarios de Contabilidad**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Análisis de Desempeño**, luego seleccione el reporte **Asientos Diarios de Contabilidad**.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image578.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana **Asientos Diarios de Contabilidad**, con diferentes campos que le permiten al usuario filtrar la búsqueda de información para generar el reporte en base a lo seleccionado en cada campo que contiene dicha ventana.
 
@@ -806,11 +806,11 @@ Imagen 21. Reporte de Asientos Diarios de Contabilidad
 
 ## Asientos Contables por Período
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Análisis de Desempeño**, luego seleccione el reporte **Asientos Contables por Período**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Análisis de Desempeño**, luego seleccione el reporte **Asientos Contables por Período**.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image599.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana **Asientos Contables por Período**, con diferentes campos que permiten filtrar la búsqueda de la información para generar el reporte requerido por el usuario.
 
@@ -928,11 +928,11 @@ Imagen 20. Reporte Asientos Contables por Período
 
 ## Registros Contables No Conciliados
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Análisis de Desempeño**, luego seleccione el reporte **Registros Contables No Conciliados**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Análisis de Desempeño**, luego seleccione el reporte **Registros Contables No Conciliados**.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image619.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana **Registros Contables No Conciliados**, con diferentes campos que permiten filtrar la información para generar el reporte requerido.
 

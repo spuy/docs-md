@@ -8,11 +8,11 @@ article: false
 
 ## Entrega de Activos
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestón de Activos**, luego seleccione la carpeta **Transacciones de Activos Fijos**, por último seleccione la ventana de búsqueda inteligente (Smart Browser) **Entrega de Activos**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestón de Activos**, luego seleccione la carpeta **Transacciones de Activos Fijos**, por último seleccione la ventana de búsqueda inteligente (Smart Browser) **Entrega de Activos**.
 
 ![Campo](/assets/img/docs/asset-management/asm-asset-image1.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana de búsqueda inteligente **Entrega de Activos**, con diferentes campos que permiten filtrar la búsqueda en base a lo requerido por el usuario.
 
