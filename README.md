@@ -12,9 +12,9 @@ The collection includes a number of books covering the main topics of:
 
 # More References
 
-- The official page is in: https://erpya.com
-- The official Wiki is in: http://docs.erpya.com
-- If you need report a bug see: https://github.com/erpcya/docs
+- The official page is in: https://solopsoftware.com/
+- The official Wiki is in: https://ayuda.solopapp.com/
+- If you need report a bug see: https://soporte.solop.uy/
 
 ![Discord](https://img.shields.io/discord/876231677209374750)
 
