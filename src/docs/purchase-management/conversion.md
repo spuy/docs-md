@@ -14,7 +14,7 @@ La configuración del proceso consiste en activar el check **Generar Tipo de Con
 
 Imagen 1. Check en el Tipo de Documento Orden de Compra
 
-Al establecer la tasa negociada en la orden de compra y completar la misma, ADempiere crea un tipo de conversión con su respectiva tasa de cambio, donde el valor de la tasa es igual al valor ingresado en la orden. Adicionalmente, se reemplaza el valor del campo **Tipo de Conversión** de la pestaña **Orden de Compra**, asignando el tipo de conversión creado con la tasa negociada.
+Al establecer la tasa negociada en la orden de compra y completar la misma, Solop ERP crea un tipo de conversión con su respectiva tasa de cambio, donde el valor de la tasa es igual al valor ingresado en la orden. Adicionalmente, se reemplaza el valor del campo **Tipo de Conversión** de la pestaña **Orden de Compra**, asignando el tipo de conversión creado con la tasa negociada.
 
 Para explicar de manera detallada el proceso indicado anteriormente, se procede a realizar el registro del encabezado y las líneas de la orden de compra **OCN-11**, este se realiza en las pestañas **Orden de Compra** y **Línea Orden Compra** de la ventana **Órdenes de Compra**. De no conocer dicho procedimiento, puede consultar el material Registro de Orden de Compra Directa, sin completar el documento. Es decir, que la orden debe estar en estado **Borrador**.
 
@@ -96,4 +96,4 @@ Imagen 12. Tipo de Conversión de la Negociación en Pestaña Conversión de Mon
 
 Note
 
-Al momento de realizar el documento por pagar correspondiente a la orden de compra previamente creada, ADempiere respeta el tipo de conversión y la tasa de cambio negociada que contiene dicha orden, generando el documento con los mismos valores en cuanto al tipo de conversión y la tasa de cambio.
+Al momento de realizar el documento por pagar correspondiente a la orden de compra previamente creada, Solop ERP respeta el tipo de conversión y la tasa de cambio negociada que contiene dicha orden, generando el documento con los mismos valores en cuanto al tipo de conversión y la tasa de cambio.

@@ -6,23 +6,23 @@ sticky: 9
 article: false
 ---
 
-Una recepción de productos en ADempiere, es el proceso por el cual los productos procedentes de un proveedor llegan al almacén de una compañía u organización determinada.
+Una recepción de productos en Solop ERP, es el proceso por el cual los productos procedentes de un proveedor llegan al almacén de una compañía u organización determinada.
 
-Para que se pueda realizar un documento de recepción de una compra realizada, debe existir obligatoriamente un documento de **Orden de Compra** o un **Documento por Pagar**. Sin embargo, para recepcionar productos o servicios obsequiados a la compañía u organización, ADempiere permite que se complete el documento **Recepción de Productos** satisfactoriamente.
+Para que se pueda realizar un documento de recepción de una compra realizada, debe existir obligatoriamente un documento de **Orden de Compra** o un **Documento por Pagar**. Sin embargo, para recepcionar productos o servicios obsequiados a la compañía u organización, Solop ERP permite que se complete el documento **Recepción de Productos** satisfactoriamente.
 
-El presente material elaborado por ERPyA, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para elaborar una recepción de productos correctamente en ADempiere, en su versión 3.9.2 para la localización Venezuela.
+El presente material elaborado por ERPyA, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para elaborar una recepción de productos correctamente en Solop ERP, en su versión 3.9.2 para la localización Venezuela.
 
 - Registro de Recepción de Productos
 
 ## Registro de Recepción de Productos
 
-Ubique en el menú de ADempiere la carpeta **Gestión de Compras**, luego seleccione la ventana **Recepción de Productos**, adjunto imagen para referencia.
+Ubique en el menú de Solop ERP la carpeta **Gestión de Compras**, luego seleccione la ventana **Recepción de Productos**, adjunto imagen para referencia.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image463.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
-Seleccione la opción **Registro Nuevo** en la barra de herramientas de ADempiere, para crear un documento nuevo.
+Seleccione la opción **Registro Nuevo** en la barra de herramientas de Solop ERP, para crear un documento nuevo.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image464.png)
 

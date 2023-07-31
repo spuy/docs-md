@@ -6,9 +6,9 @@ sticky: 9
 article: false
 ---
 
-En ADempiere un producto es un artículo, recurso o servicio que puede ser producido, vendido o comprado por la empresa. El registro de estos, permite a la empresa dar seguimiento a la entrada y salida de los productos. De igual forma, permite conocer y controlar su cantidad en existencia para proceder a la compra, venta o adquisición de los mismos.
+En Solop ERP un producto es un artículo, recurso o servicio que puede ser producido, vendido o comprado por la empresa. El registro de estos, permite a la empresa dar seguimiento a la entrada y salida de los productos. De igual forma, permite conocer y controlar su cantidad en existencia para proceder a la compra, venta o adquisición de los mismos.
 
-El presente material elaborado por ERPyA, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para registrar en ADempiere un producto, en su versión 3.9.2 para la localización Venezuela.
+El presente material elaborado por ERPyA, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para registrar en Solop ERP un producto, en su versión 3.9.2 para la localización Venezuela.
 
 - Registro de Producto
   - Pestaña Reabastecer
@@ -18,15 +18,15 @@ El presente material elaborado por ERPyA, pretende ofrecerle una explicación ef
 
 ## Registro de Producto
 
-En el menú de ADempiere, ubique y seleccione la carpeta **Gestión de Materiales**, luego seleccione la carpeta **Reglas de Gestión de Materiales** y finalmente seleccione la ventana **Producto**, adjunto imagen para referencia.
+En el menú de Solop ERP, ubique y seleccione la carpeta **Gestión de Materiales**, luego seleccione la carpeta **Reglas de Gestión de Materiales** y finalmente seleccione la ventana **Producto**, adjunto imagen para referencia.
 
 ![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-image153.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 En esta ventana se registran los datos principales que la empresa requiere conocer de los productos, con la finalidad de ser utilizada al momento de realizar alguna compra / venta con dicho producto. Cada uno de los campos con el símbolo (\*) son obligatorios para el registro.
 
-Podrá visualizar la ventana **Producto**, dónde debe seleccionar el icono **Registro Nuevo**, que se encuentra ubicado en la barra de herramientas de ADempiere.
+Podrá visualizar la ventana **Producto**, dónde debe seleccionar el icono **Registro Nuevo**, que se encuentra ubicado en la barra de herramientas de Solop ERP.
 
 ![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-image154.png)
 
@@ -306,7 +306,7 @@ Introduzca en el campo **Código CPE**, el código CPE perteneciente al producto
 
 Imagen 47. Campo Código CPE
 
-Seleccione el icono **Guardar Cambios** en la barra de herramientas de ADempiere.
+Seleccione el icono **Guardar Cambios** en la barra de herramientas de Solop ERP.
 
 ![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-image200.png)
 
@@ -374,7 +374,7 @@ Seleccione en el campo **Tamaño Cantidad Lote**, el almacén fuente relacionado
 
 Imagen 56. Campo Tamaño Cantidad Lote
 
-Seleccione el icono **Guardar Cambios** en la barra de herramientas de ADempiere.
+Seleccione el icono **Guardar Cambios** en la barra de herramientas de Solop ERP.
 
 ![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-image209.png)
 
@@ -462,7 +462,7 @@ Introduzca en el campo **Costo por Orden**, el costo por la orden para el produc
 
 Imagen 69. Campo Costo por Orden
 
-Seleccione el icono **Guardar Cambios** en la barra de herramientas de ADempiere.
+Seleccione el icono **Guardar Cambios** en la barra de herramientas de Solop ERP.
 
 ![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-image222.png)
 
@@ -486,7 +486,7 @@ Seleccione en el campo **Versión de Lista de Precios**, la lista de precios que
 
 Imagen 72. Campo Versión de Lista de Precios
 
-Seleccione el icono **Guardar Cambios** en la barra de herramientas de ADempiere.
+Seleccione el icono **Guardar Cambios** en la barra de herramientas de Solop ERP.
 
 ![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-image225.png)
 
@@ -514,7 +514,7 @@ Introduzca en el campo **Factor de Destino a Base**, el número de productos que
 
 Imagen 76. Campo Factor de Destino a Base
 
-Seleccione el icono **Guardar Cambios** en la barra de herramientas de ADempiere.
+Seleccione el icono **Guardar Cambios** en la barra de herramientas de Solop ERP.
 
 ![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-image999.png)
 

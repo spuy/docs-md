@@ -6,7 +6,7 @@ sticky: 9
 article: false
 ---
 
-En esta ocasión ERPyA pretende ofrecerle una guía fácil para la definición de un rubro en ADempiere, es importante seguir paso a paso cada procedimiento, de ello dependerá el éxito de los registros resultantes.
+En esta ocasión ERPyA pretende ofrecerle una guía fácil para la definición de un rubro en Solop ERP, es importante seguir paso a paso cada procedimiento, de ello dependerá el éxito de los registros resultantes.
 
 - Registro de Rubro
   - Cálculo de Peso
@@ -14,19 +14,19 @@ En esta ocasión ERPyA pretende ofrecerle una guía fácil para la definición d
 
 ## Registro de Rubro
 
-Seleccione en el menú de ADempiere, la carpeta **Gestión de Asistencia Técnica Agricola**, luego selecione la carpeta **Configuración de Materia Prima**, por último seleccione la ventana **Rubro**.
+Seleccione en el menú de Solop ERP, la carpeta **Gestión de Asistencia Técnica Agricola**, luego selecione la carpeta **Configuración de Materia Prima**, por último seleccione la ventana **Rubro**.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image108.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
-Podrá visualizar la ventana **Rubro**, con los diferentes rubros que contiene registrados ADempiere.
+Podrá visualizar la ventana **Rubro**, con los diferentes rubros que contiene registrados Solop ERP.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image109.png)
 
 Imagen 2. Ventana Rubro
 
-Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de ADempiere, para crear un nuevo registro de rubro.
+Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de Solop ERP, para crear un nuevo registro de rubro.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image110.png)
 
@@ -234,7 +234,7 @@ Podrá visualizar el checklist **Rubro**, indicando que se esta registrando un r
 
 Imagen 36. Checklist Rubro
 
-Seleccione el icono **Guardar Cambios** en la barra de herramientas de ADempiere.
+Seleccione el icono **Guardar Cambios** en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image144.png)
 
@@ -298,7 +298,7 @@ Seleccione en el campo **Tipo de Uso**, el tipo de uso para el cálculo de peso 
 
 Imagen 45. Campo Tipo de Uso
 
-Seleccione el icono **Guardar Cambios** en la barra de herramientas de ADempiere.
+Seleccione el icono **Guardar Cambios** en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image153.png)
 
@@ -342,7 +342,7 @@ Introduzca en el campo **Día Hasta**, la día final del cultivo del rubro.
 
 Imagen 52. Campo Día Hasta
 
-Seleccione el icono **Guardar Cambios** en la barra de herramientas de ADempiere.
+Seleccione el icono **Guardar Cambios** en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image160.png)
 

@@ -12,11 +12,11 @@ Adicional a ello, se define la impresora, el tipo de conversión, la lista de pr
 
 A continuación se explica el procedimiento a seguir para configurar correctamente el terminal del punto de venta.
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Órdenes de Venta**, por último seleccione la carpeta **Punto de Venta**, finalmente seleccione la ventana **Terminal PDV**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Órdenes de Venta**, por último seleccione la carpeta **Punto de Venta**, finalmente seleccione la ventana **Terminal PDV**.
 
 ![Campo](/assets/img/docs/pdv-management/pdm-pdv-image62.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana **Terminal PDV** con diferentes campos que permiten una configuración de la caja, taquilla o auto-servicio en el cual se gestiona la orden, facturación y cobro de los productos por medio del punto de venta.
 
@@ -250,7 +250,7 @@ Seleccione el checklist **POS Compartido**, para indicar que el punto de venta e
 
 Imagen 34. Checklist POS Compartido de la Ventana Terminal PDV
 
-Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere para guardar el registro de los campos de la ventana **Terminal PDV**.
+Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP para guardar el registro de los campos de la ventana **Terminal PDV**.
 
 ![Campo](/assets/img/docs/pdv-management/pdm-pdv-image96.png)
 

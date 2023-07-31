@@ -6,17 +6,17 @@ sticky: 9
 article: false
 ---
 
-El presente material elaborado por **ERPyA**, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar en ADempiere una propuesta.
+El presente material elaborado por **ERPyA**, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar en Solop ERP una propuesta.
 
 - Registro de Propuesta
 
 ## Registro de Propuesta
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Órdenes de Venta** y por último seleccione la ventana **Órdenes de Venta**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Órdenes de Venta** y por último seleccione la ventana **Órdenes de Venta**.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image429.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana **Órdenes de Venta**, con los diferentes registros realizados en dicha ventana.
 
@@ -24,7 +24,7 @@ Podrá visualizar la ventana **Órdenes de Venta**, con los diferentes registros
 
 Imagen 2. Órdenes de Venta
 
-Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de ADempiere.
+Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image431.png)
 
@@ -38,7 +38,7 @@ Imagen 4. Campo Organización
 
 Introduzca en el campo **No. del Documento**, el número de documento correspondiente al registro que se encuentra realizando.
 
-Si no es ingresado ningún valor en este campo, al guardar el registro ADempiere toma el número de secuencia establecido para el documento.
+Si no es ingresado ningún valor en este campo, al guardar el registro Solop ERP toma el número de secuencia establecido para el documento.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image433.png)
 
@@ -128,7 +128,7 @@ Seleccione en el campo **Agente Comercial**, el agente comercial correspondiente
 
 Imagen 19. Campo Agente Comercial
 
-Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere.
+Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image448.png)
 
@@ -182,7 +182,7 @@ Podrá visualizar en el campo **Neto de Línea**, el monto total a pagar por el 
 
 Imagen 28. Campo Neto de Línea
 
-Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere.
+Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image457.png)
 
@@ -222,7 +222,7 @@ Note
 
 El documento **Propuesta**, debe quedar en estado **En Proceso**, para ello se debe seleccionar la opción **Preparar**.
 
-Seleccione el icono **Imprimir**, ubicado en la barra de herramientas de ADempiere.
+Seleccione el icono **Imprimir**, ubicado en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image463.png)
 

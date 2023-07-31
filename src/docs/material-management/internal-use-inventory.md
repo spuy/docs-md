@@ -6,13 +6,13 @@ sticky: 9
 article: false
 ---
 
-En ADempiere el inventario de uso interno permite registrar los productos que son utilizados por los diferentes departamentos de una determinada empresa.
+En Solop ERP el inventario de uso interno permite registrar los productos que son utilizados por los diferentes departamentos de una determinada empresa.
 
 Un inventario de uso interno es realizado cuando se posee en existencia cierta cantidad de un artículo, material o recurso que es utilizado internamente por los departamentos de la empresa con la finalidad de lograr un objetivo o como apoyo parar lograr una meta.
 
 La finalidad del proceso es restar de la cantidad de productos que se tienen en existencia en una determinada ubicación o almacén, la cantidad utilizada por los departamentos y por la cual es realizado el inventario. De igual manera, este proceso permite controlar y dar seguimiento a los productos para conocer su cantidad en existencia y proceder a la compra, venta o adquisición de los mismos.
 
-El presente material elaborado por **ERPyA**, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar en ADempiere un inventario de uso interno, en su versión 3.9.2 para la localización Venezuela.
+El presente material elaborado por **Solop ERP**, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar en Solop ERP un inventario de uso interno, en su versión 3.9.2 para la localización Venezuela.
 
 - Registro de Inventario de Uso Interno
 - Consultar Detalle de Almacenamiento
@@ -25,11 +25,11 @@ Para ejemplificar el inventario de uso interno, es generado el reporte **Detalle
 
 Imagen 1. Detalle de Almacenamiento antes del Movimiento
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Materiales**, luego seleccione la ventana **Inventario Uso Interno**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Materiales**, luego seleccione la ventana **Inventario Uso Interno**.
 
 ![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image2.png)
 
-Imagen 2. Menú de ADempiere
+Imagen 2. Menú de Solop ERP
 
 Podrá visualizar la ventana **Inventario Uso Interno** donde se encuentran los registros de los diferentes inventarios realizados para el uso interno de la organización.
 
@@ -37,7 +37,7 @@ Podrá visualizar la ventana **Inventario Uso Interno** donde se encuentran los 
 
 Imagen 3. Ventana Inventario de Uso Interno
 
-Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de ADempiere para crear un nuevo registro de inventario de uso interno.
+Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de Solop ERP para crear un nuevo registro de inventario de uso interno.
 
 ![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image4.png)
 

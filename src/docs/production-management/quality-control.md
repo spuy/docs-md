@@ -6,18 +6,18 @@ sticky: 9
 article: false
 ---
 
-Esta documentación está destinada a definir cada uno de los procedimientos para el control de calidad de los productos en ADempiere para cualquier organización, es importante seguir al pie de la letra cada uno de los procedimientos descritos aquí recuerde que de eso dependerá el buen uso del ERP.
+Esta documentación está destinada a definir cada uno de los procedimientos para el control de calidad de los productos en Solop ERP para cualquier organización, es importante seguir al pie de la letra cada uno de los procedimientos descritos aquí recuerde que de eso dependerá el buen uso del ERP.
 
 - Análisis de Calidad
 - Prueba de Calidad
 
 ## Análisis de Calidad
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Materiales**, luego seleccione la carpeta **Manejo de Materia Prima**, por último seleccione la carpeta **Análisis de Calidad**, finalmente seleccione la ventana **Análisis de Calidad**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Materiales**, luego seleccione la carpeta **Manejo de Materia Prima**, por último seleccione la carpeta **Análisis de Calidad**, finalmente seleccione la ventana **Análisis de Calidad**.
 
 ![Campo](/assets/img/docs/production-management/prm-production-image24.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana **Análisis de Calidad**, con los diferentes registros que contiene dicha ventana.
 
@@ -25,7 +25,7 @@ Podrá visualizar la ventana **Análisis de Calidad**, con los diferentes regist
 
 Imagen 2. Ventana Análisis de Calidad
 
-Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de ADempiere.
+Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/production-management/prm-production-image26.png)
 
@@ -45,7 +45,7 @@ Imagen 5. Campo No. del Documento de la Ventana Análisis de Calidad
 
 Note
 
-Si no es ingresado ningún valor en este campo, ADempiere asigna el número de secuencia establecido en la secuencia del tipo de documento utilizado.
+Si no es ingresado ningún valor en este campo, Solop ERP asigna el número de secuencia establecido en la secuencia del tipo de documento utilizado.
 
 Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por ERPyA.
 
@@ -71,7 +71,7 @@ Introduzca en el campo **Descripción**, una breve descripción referente al reg
 
 Imagen 9. Campo Descripción de la Ventana Análisis de Calidad
 
-El checklist **Transacción de Ventas**, indica que el registro se encuentra relacionado con transacciones de ventas en ADempiere.
+El checklist **Transacción de Ventas**, indica que el registro se encuentra relacionado con transacciones de ventas en Solop ERP.
 
 ![Campo](/assets/img/docs/production-management/prm-production-image33.png)
 
@@ -101,7 +101,7 @@ Podrá visualizar en el campo **Estado del Producto**, el estado en el que se en
 
 Imagen 14. Campo Estado del Producto de la Ventana Análisis de Calidad
 
-Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere, para guardar el registro de los campos de la ventana **Análisis de Calidad**.
+Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP, para guardar el registro de los campos de la ventana **Análisis de Calidad**.
 
 ![Campo](/assets/img/docs/production-management/prm-production-image38.png)
 
@@ -121,11 +121,11 @@ Imagen 17. Acción Completar y Opción OK de la Ventana Análisis de Calidad
 
 ## Prueba de Calidad
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Materiales**, luego seleccione la carpeta **Producción Ligera**, por último seleccione la ventana **Prueba de Calidad**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Materiales**, luego seleccione la carpeta **Producción Ligera**, por último seleccione la ventana **Prueba de Calidad**.
 
 ![Campo](/assets/img/docs/production-management/prm-production-image41.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana **Prueba de Calidad**, con todos los registros de prueba de calidad de los productos.
 
@@ -133,7 +133,7 @@ Podrá visualizar la ventana **Prueba de Calidad**, con todos los registros de p
 
 Imagen 2. Ventana Prueba de Calidad
 
-Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de ADempiere.
+Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/production-management/prm-production-image43.png)
 
@@ -157,7 +157,7 @@ Introduzca en el campo **Descripción**, una breve descripción referente al reg
 
 Imagen 6. Campo Descripción de la Ventana Prueba de Calidad
 
-Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere.
+Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/production-management/prm-production-image47.png)
 
@@ -199,7 +199,7 @@ Seleccione en el campo **Producto**, el producto correspondiente al registro que
 
 Imagen 13. Campo Producto de la Pestaña Producto de la Ventana Prueba de Calidad
 
-Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere, para guardar el registro de los campos de la pestaña **Producto**.
+Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP, para guardar el registro de los campos de la pestaña **Producto**.
 
 ![Campo](/assets/img/docs/production-management/prm-production-image54.png)
 

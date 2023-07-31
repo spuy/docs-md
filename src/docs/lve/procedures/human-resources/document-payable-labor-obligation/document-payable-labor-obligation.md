@@ -14,7 +14,7 @@ article: false
 **Documento por Pagar Obligación Laboral**
 ===========================================
 
-El documento por pagar de Obligación Laboral se elabora para evidenciar el registro del pago de las obligaciones que contrae el empleador con los entes gubernamentales del estado venezolano o cualquier otra obligación qué según la legislación venezolana le corresponda cancelar a la compañía. Por ello, ADempiere configura cargos con la finalidad de que le ayuden a expresar el servicio que desee cancelar.
+El documento por pagar de Obligación Laboral se elabora para evidenciar el registro del pago de las obligaciones que contrae el empleador con los entes gubernamentales del estado venezolano o cualquier otra obligación qué según la legislación venezolana le corresponda cancelar a la compañía. Por ello, Solop ERP configura cargos con la finalidad de que le ayuden a expresar el servicio que desee cancelar.
 
 - Para registrar un documento por pagar de obligación laboral puede seguir con los datos que se registraron en el proceso **''documento por pagar''**. Con los siguientes datos adicionales que se detallan a continuación.
 
@@ -26,17 +26,17 @@ Los tipos de documentos de los cuales dispone para realizar un documento por pag
 
 - Facturas de Cuentas por Pagar Parafiscales: este tipo de documento lo utilizará para realizar todos los pagos que contrae el empleador con los entes gubernamentales. Entre estos se encuentran el Instituto Venezolano de los Seguros Sociales (IVSS), El Banco Nacional de Vivienda y Hábitat (BANAVIH) y el Instituto Nacional de Capacitación y Educación Socialista (INCES)
 
-Recuerde que para este caso el tipo de documento determina la acción que realiza ese documento dentro de ADempiere y también determina  que pueda visualizar los diferentes cargos que tiene asociado ese tipo de documento.
+Recuerde que para este caso el tipo de documento determina la acción que realiza ese documento dentro de Solop ERP y también determina  que pueda visualizar los diferentes cargos que tiene asociado ese tipo de documento.
 
 ![Tipo de Documento](/assets/img/docs/lve/procedures/human-resources/document-payable-labor-obligation/resources/Documentosporpagar.png)
 
 Imagen 1. Seleccione el Tipo de Documento con el que registrará su documento.
 
-Seleccione la pestaña “**Línea Documento de Pago**” y proceda seleccionando el "**Producto o Servicio**" a ordenar. Si la orden de compra contiene varios productos, el campo "**Nro. de Línea**", indicará el orden y despliegue de los mismos dentro del documento. Una vez que guarde el primer cargo, deberá seleccionar el icono "**Registro Nuevo**", ubicado en la barra de herramientas de ADempiere, incrementando así el número de líneas por productos en el documento.
+Seleccione la pestaña “**Línea Documento de Pago**” y proceda seleccionando el "**Producto o Servicio**" a ordenar. Si la orden de compra contiene varios productos, el campo "**Nro. de Línea**", indicará el orden y despliegue de los mismos dentro del documento. Una vez que guarde el primer cargo, deberá seleccionar el icono "**Registro Nuevo**", ubicado en la barra de herramientas de Solop ERP, incrementando así el número de líneas por productos en el documento.
 
 Seleccione en el campo “**Cargo**”, el nombre del cargo que desea registrar
 
-    En ADempiere un cargo representa un servicio, quiere decir que no contabiliza en su inventario, entre los cargos que dispone ADempiere podemos mencionar los siguientes:
+    En Solop ERP un cargo representa un servicio, quiere decir que no contabiliza en su inventario, entre los cargos que dispone Solop ERP podemos mencionar los siguientes:
 
     - Aporte INCE
     - Aporte RPE

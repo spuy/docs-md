@@ -6,7 +6,7 @@ sticky: 9
 article: false
 ---
 
-Esta documentación está destinada a definir cada uno de los procedimientos de la elaboración de órdenes de compra en ADempiere para cualquier organización, es importante seguir al pie de la letra cada uno de los procedimientos descritos aquí recuerde que de eso dependerá el buen uso del ERP.
+Esta documentación está destinada a definir cada uno de los procedimientos de la elaboración de órdenes de compra en Solop ERP para cualquier organización, es importante seguir al pie de la letra cada uno de los procedimientos descritos aquí recuerde que de eso dependerá el buen uso del ERP.
 
 - Crear Orden de Compra desde Requisición
   - Registro de Orden de Compra desde Requisición
@@ -19,13 +19,13 @@ Esta documentación está destinada a definir cada uno de los procedimientos de 
 
 ## Crear Orden de Compra desde Requisición
 
-En ADempiere es posible generar automáticamente mediante el proceso **Crear OC desde Requisición**, un documento de **Orden de Compra** con la información suministrada en el documento de **Requisición** previamente elaborado.
+En Solop ERP es posible generar automáticamente mediante el proceso **Crear OC desde Requisición**, un documento de **Orden de Compra** con la información suministrada en el documento de **Requisición** previamente elaborado.
 
 La ventana del proceso **Crear OC desde Requisición**, contiene diferentes campos que permiten generar la orden de compra según lo seleccionando en los mismos.
 
 El proceso consiste en seleccionar el documento de requisición en el campo **Requisición de Material** y culminar el mismo seleccionando la opción **OK** para que posteriormente sea generado el documento **Orden de Compra**, indicando en la ventana del proceso el número de dicho documento.
 
-El presente material elaborado por ERPyA, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar en ADempiere una orden de compra desde una requisición, en su versión 3.9.2 para la localización Venezuela.
+El presente material elaborado por ERPyA, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar en Solop ERP una orden de compra desde una requisición, en su versión 3.9.2 para la localización Venezuela.
 
 - Registro de Orden de Compra desde Requisición
 - Consultar y Completar Orden de Compra Generada
@@ -38,11 +38,11 @@ Para ejemplificar el registro de crear orden de compra desde requisición, es ut
 
 Imagen 1. Documento de Requisición
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Compras**, luego seleccione el proceso **Crear OC desde Requisición**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Compras**, luego seleccione el proceso **Crear OC desde Requisición**.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image316.png)
 
-Imagen 2. Menú de ADempiere
+Imagen 2. Menú de Solop ERP
 
 Podrá visualizar la ventana del proceso **Crear OC desde Requisición** con diferentes campos que pueden ser utilizados para generar la orden de compra según lo requerido por el usuario.
 
@@ -86,11 +86,11 @@ Imagen 8. Ventana del Proceso Crear OC desde Requisición con el Número de Docu
 
 ### Consultar y Completar Orden de Compra Generada
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Compras**, luego seleccione la ventana **Órdenes de Compra**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Compras**, luego seleccione la ventana **Órdenes de Compra**.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image323.png)
 
-Imagen 9. Menú de ADempiere
+Imagen 9. Menú de Solop ERP
 
 Al buscar el documento **Orden de Compra** con ayuda del número de documento generado en la ventana del proceso **Crear OC desde Requisición**, se puede visualizar el mismo de la siguiente manera.
 
@@ -134,9 +134,9 @@ Imagen 15. Acción Completar y Opción OK
 
 ### Crear Orden de Compra desde Líneas de la Requisición
 
-En ADempiere es posible generar automáticamente mediante el proceso **Crear Orden de Compra desde Líneas de la Requisición**, un documento de **Orden de Compra** con la información suministrada en el documento de **Requisición** previamente elaborado.
+En Solop ERP es posible generar automáticamente mediante el proceso **Crear Orden de Compra desde Líneas de la Requisición**, un documento de **Orden de Compra** con la información suministrada en el documento de **Requisición** previamente elaborado.
 
-El presente material elaborado por ERPyA, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar en ADempiere una orden de compra desde las líneas de la requisición.
+El presente material elaborado por ERPyA, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar en Solop ERP una orden de compra desde las líneas de la requisición.
 
 Crear Orden de Compra desde Líneas de la Requisición
 
@@ -154,11 +154,11 @@ Dicha requisición contiene cuatro (4) líneas.
 
 Imagen 2. Pestaña Línea Requisición
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Compras**, luego seleccione el proceso **Crear Orden de Compra desde líneas de la Requisición**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Compras**, luego seleccione el proceso **Crear Orden de Compra desde líneas de la Requisición**.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image332.png)
 
-Imagen 3. Menú de ADempiere
+Imagen 3. Menú de Solop ERP
 
 Podrá visualizar la ventana del proceso **Crear Orden de Compra desde líneas de la Requisición**, con diferentes campos que le permite al usuario filtrar la información en base a lo requerido para generar la orden de compra con las líneas seleccionadas de dicha requisición.
 
@@ -454,27 +454,27 @@ Imagen 50. Acción Completar y Opción OK
 
 Una orden de compra es un documento elaborado por el departamento de compras de una empresa determinada, contiene los productos y servicios que dicha empresa necesita, la cantidad y los precios acordados con el proveedor a la que va dirigida, así como el sello del departamento de compras y la firma del jefe de dicho departamento.
 
-En ADempiere es posible generar una orden de compra directa. El presente material elaborado por ERPyA, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar en ADempiere una orden de compra, en su versión 3.9.2 para la localización Venezuela.
+En Solop ERP es posible generar una orden de compra directa. El presente material elaborado por ERPyA, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar en Solop ERP una orden de compra, en su versión 3.9.2 para la localización Venezuela.
 
 Registro de Orden de Compra Directa
 
 ### Registro de Orden de Compra Directa
 
-Una Orden de Compra en ADempiere, es un tipo de documento emitido por la empresa para realizar pedidos a sus diferentes proveedores. En ella se detalla: la cantidad a comprar, el tipo de producto, precio y condiciones de pago, así como también la forma de entrega.
+Una Orden de Compra en Solop ERP, es un tipo de documento emitido por la empresa para realizar pedidos a sus diferentes proveedores. En ella se detalla: la cantidad a comprar, el tipo de producto, precio y condiciones de pago, así como también la forma de entrega.
 
-Para el registro de un documento en ADempiere debe tener en cuenta que existen campos que son de carácter obligatorio, estos campos están identificados con el carácter especial:(\*) de color rojo.
+Para el registro de un documento en Solop ERP debe tener en cuenta que existen campos que son de carácter obligatorio, estos campos están identificados con el carácter especial:(\*) de color rojo.
 
 Warning
 
 Asegúrese de que cada campo que se encuentre identificado como carácter obligatorio, contenga la información requerida, de lo contrario no podrá completar el registro.
 
-Ubique en el menú de ADempiere la carpeta **Gestión de Compras**, luego seleccione la ventana **Órdenes de Compra**, adjunto imagen para referencia.
+Ubique en el menú de Solop ERP la carpeta **Gestión de Compras**, luego seleccione la ventana **Órdenes de Compra**, adjunto imagen para referencia.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image380.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
-Seleccione el icono **Registro Nuevo** en la barra de herramientas de ADempiere para crear un nuevo documento.
+Seleccione el icono **Registro Nuevo** en la barra de herramientas de Solop ERP para crear un nuevo documento.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image381.png)
 
@@ -496,7 +496,7 @@ Warning
 
 El valor en el campo organización debe ser diferente del símbolo (\*) ya que éste símbolo hace referencia a todas las Organizaciones.
 
-En el campo **No. de Documento**, no es necesario ingresarlo en forma manual, al momento de realizar un registro, ADempiere genera un número de secuencia automáticamente para el documento, al seleccionar la opción guardar del nuevo registro de orden de compra.
+En el campo **No. de Documento**, no es necesario ingresarlo en forma manual, al momento de realizar un registro, Solop ERP genera un número de secuencia automáticamente para el documento, al seleccionar la opción guardar del nuevo registro de orden de compra.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image384.png)
 
@@ -716,7 +716,7 @@ Imagen 37 Campo Impuesto
 
 Warning
 
-Recuerde guardar el registro de la pestaña **Línea Orden Compra** con el icono **Guardar** de la barra de herramientas de ADempiere, antes de cambiar a la ventana principal **Orden de Compra**.
+Recuerde guardar el registro de la pestaña **Línea Orden Compra** con el icono **Guardar** de la barra de herramientas de Solop ERP, antes de cambiar a la ventana principal **Orden de Compra**.
 
 Regrese a la ventana principal **Orden de Compra** y seleccione la opción **Completar** ubicada en la parte inferior derecha del documento.
 
@@ -726,13 +726,13 @@ Imagen 38. Opción Completar
 
 ## Orden de Compra Multimoneda
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Compras**, luego seleccione la ventana **Órdenes de Compra**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Compras**, luego seleccione la ventana **Órdenes de Compra**.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image418.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
-Seleccione el icono **Registro Nuevo** en la barra de herramientas de ADempiere para crear un nuevo documento.
+Seleccione el icono **Registro Nuevo** en la barra de herramientas de Solop ERP para crear un nuevo documento.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image419.png)
 
@@ -748,7 +748,7 @@ Warning
 
 El valor en el campo organización debe ser diferente del símbolo (\*) ya que éste símbolo hace referencia a todas las Organizaciones.
 
-En el campo **No. de Documento**, no es necesario ingresarlo en forma manual, al momento de realizar un registro, ADempiere genera un número de secuencia automáticamente para el documento, al seleccionar la opción guardar del nuevo registro de orden de compra multimoneda.
+En el campo **No. de Documento**, no es necesario ingresarlo en forma manual, al momento de realizar un registro, Solop ERP genera un número de secuencia automáticamente para el documento, al seleccionar la opción guardar del nuevo registro de orden de compra multimoneda.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image421.png)
 
@@ -982,7 +982,7 @@ Imagen 36. Campo Cantidad Facturada
 
 Introduzca en el campo **Precio**, el precio del producto seleccionado.
 
-Este precio está basado en la unidad de medida del producto, lo que quiere decir, que si el producto seleccionado tiene unidad de medida **Caja** y dicha caja contiene seis (6) unidades,ADempiere tomará el precio ingresado como precio de la caja y no como precio de cada unidad que compone la caja.
+Este precio está basado en la unidad de medida del producto, lo que quiere decir, que si el producto seleccionado tiene unidad de medida **Caja** y dicha caja contiene seis (6) unidades, Solop ERP tomará el precio ingresado como precio de la caja y no como precio de cada unidad que compone la caja.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image454.png)
 
@@ -1028,7 +1028,7 @@ Imagen 43. Campo Neto de Línea
 
 Warning
 
-Recuerde guardar el registro de la pestaña **Línea Orden Compra** con el icono **Guardar** de la barra de herramientas de ADempiere, antes de cambiar a la ventana principal **Orden de Compra**.
+Recuerde guardar el registro de la pestaña **Línea Orden Compra** con el icono **Guardar** de la barra de herramientas de Solop ERP, antes de cambiar a la ventana principal **Orden de Compra**.
 
 Regrese a la pestaña principal **Orden de Compra** y seleccione la opción **Completar** ubicada en la parte inferior derecha del documento.
 

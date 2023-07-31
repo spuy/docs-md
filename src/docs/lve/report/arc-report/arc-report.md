@@ -6,18 +6,18 @@ star: 9
 sticky: 9
 tag:
 
-  - Reportes de ADempiere
+  - Reportes de Solop ERP
 article: false
 ---
 
 **Generar Reporte ARC**
 =======================
 
-Ubique y seleccione en el menú de ADempiere, la carpeta "**Localización Venezuela**", luego seleccione el proceso "**ARC**".
+Ubique y seleccione en el menú de Solop ERP, la carpeta "**Localización Venezuela**", luego seleccione el proceso "**ARC**".
 
-![Menú de ADempiere 1](/assets/img/docs/lve/report/arc-report/resources/menu-arc1.png)
+![Menú de Solop ERP 1](/assets/img/docs/lve/report/arc-report/resources/menu-arc1.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana "**ARC**", donde debe seleccionar los campos por los cuales filtrará la búsqueda.
 
@@ -37,7 +37,7 @@ Introduzca en el campo "**Fecha Contable**", el rango de fecha de inicio y culmi
 
 Imagen 4. Campo Fecha Contable
 
-Seleccione e el campo "**Tipo de Retención**", la retención por la cual ADempiere filtrará la búsqueda de la información.
+Seleccione e el campo "**Tipo de Retención**", la retención por la cual Solop ERP filtrará la búsqueda de la información.
 
 ![Campo Tipo de Retención 1](/assets/img/docs/lve/report/arc-report/resources/tipo-retencion1.png)
 

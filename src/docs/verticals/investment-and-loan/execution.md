@@ -10,7 +10,7 @@ article: false
 
 La simulación de préstamos es ideal para realizar cálculos rápidos y consultas de préstamos a solicitantes, generando una tabla simulada de amortización completa, además de monto total estimado de impuesto a pagar, monto total estimado de interés a pagar y cuota fija estimada.
 
-Se creó un formulario o ventana personalizada convirtiendo a ADempiere en una herramienta eficiente y sumamente útil en cuanto a tomas de decisiones se trata tanto para la entidad (Prestamista) como para el solicitante sin ser necesario generar datos y guardar en nuestra base de datos, asimismo, reduce los tiempos de gestión del usuario con ADempiere.
+Se creó un formulario o ventana personalizada convirtiendo a Solop ERP en una herramienta eficiente y sumamente útil en cuanto a tomas de decisiones se trata tanto para la entidad (Prestamista) como para el solicitante sin ser necesario generar datos y guardar en nuestra base de datos, asimismo, reduce los tiempos de gestión del usuario con Solop ERP.
 
 A continuación se detalla las instrucciones para proceder a simular un préstamo de forma exitosa:
 
@@ -34,17 +34,17 @@ Producto Financiero: Seleccione el producto financiero o préstamo a aplicar pre
 
 Monto de Capital: Indique el monto del préstamo solicitado.
 
-Frecuencia de Pago: ADempiere establece por herencia la frecuencia configurada en el producto financiero seleccionado, sin embargo puede modificarlo.
+Frecuencia de Pago: Solop ERP establece por herencia la frecuencia configurada en el producto financiero seleccionado, sin embargo puede modificarlo.
 
 Fecha Inicio: Indique la fecha de inicio del préstamo.
 
-Fecha Final: ADempiere calcula y establece la fecha basada en la frecuencia y la fecha de inicio, sin embargo puede modificarlo.
+Fecha Final: Solop ERP calcula y establece la fecha basada en la frecuencia y la fecha de inicio, sin embargo puede modificarlo.
 
-Nro de Cuotas: ADempiere establece por herencia el Nro de cuotas basadas en la cantidad mínima de cuotas configurada en el producto financiero seleccionado, sin embargo puede modificarlo.
+Nro de Cuotas: Solop ERP establece por herencia el Nro de cuotas basadas en la cantidad mínima de cuotas configurada en el producto financiero seleccionado, sin embargo puede modificarlo.
 
-Moneda: ADempiere establece por herencia la moneda basada en la configuración del producto financiero seleccionado, sin embargo puede modificarlo.
+Moneda: Solop ERP establece por herencia la moneda basada en la configuración del producto financiero seleccionado, sin embargo puede modificarlo.
 
-Tasa Financiera: ADempiere establece por herencia la tasa financiera basada en la configuración del producto financiero seleccionado, no puede ser modificado.
+Tasa Financiera: Solop ERP establece por herencia la tasa financiera basada en la configuración del producto financiero seleccionado, no puede ser modificado.
 
 ![Campo](/assets/img/docs/loan-management/lom-loan-image3.png)
 

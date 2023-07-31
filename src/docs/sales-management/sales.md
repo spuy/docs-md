@@ -6,7 +6,7 @@ sticky: 9
 article: false
 ---
 
-El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para definir la comisión de ventas en cualquier organización y realizar un cálculo exitoso de las mismas en la versión 3.9.2 de ADempiere en la localización Venezuela.
+El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para definir la comisión de ventas en cualquier organización y realizar un cálculo exitoso de las mismas en la versión 3.9.2 de Solop ERP en la localización Venezuela.
 
 - Definición de Comisiones
   - Pestaña Comisión
@@ -21,21 +21,21 @@ El presente material elaborado por ERPyA pretende ofrecerle una explicación efi
 
 Una comisión es un porcentaje o cantidad de dinero que es cobrado por la venta de productos o servicios, las mismas estan sujetas a reglas o condiciones establecidas por la empresa a los vendedores. Las comisiones son pagadas a los vendedores para motivarlos a vender más productos o servicios.
 
-La definición de comisiones es una configuración que la empresa realiza en ADempiere para indicar cuando pagar una comisión y a quien pagarsela. La forma de pago de las comisiones depende de lo establecido en el grupo de comisión, la base para el cálculo, la moneda y el tipo de frecuencia para el pago.
+La definición de comisiones es una configuración que la empresa realiza en Solop ERP para indicar cuando pagar una comisión y a quien pagarsela. La forma de pago de las comisiones depende de lo establecido en el grupo de comisión, la base para el cálculo, la moneda y el tipo de frecuencia para el pago.
 
-El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente con respecto al procedimiento a seguir para realizar una definición de comisiones en la versión 3.9.2 de ADempiere, en la localización Venezuela.
+El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente con respecto al procedimiento a seguir para realizar una definición de comisiones en la versión 3.9.2 de Solop ERP, en la localización Venezuela.
 
 Para explicar el procedimiento detalladamente, se presentará un ejemplo en el cual se definen dos (2) comisiones, comisiones internas y externas, donde las internas se refiere a las comisiones para los trabajadores que laboran dentro de la empresa y externas a las comisiones para los trabajadores que laboran fuera de la empresa. El ejemplo contempla diferentes montos de comisión y apuntando a un mismo grupo de comisión (1000000_Comisión de Venta_M). A continuación es mostrado el procedimiento de la definición de comisiones de vendedores internos de la empresa, debe realizarce el mismo procedimiento para la definición de comisiones de vendedores externos.
 
 ## Pestaña Comisión
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Reglas de Ventas y Mercadotecnia**, por último seleccione la ventana **Definición de Comisiones**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Reglas de Ventas y Mercadotecnia**, por último seleccione la ventana **Definición de Comisiones**.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image479.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
-Podrá visualizar la ventana **Definición de Comisiones**, donde debe seleccionar el icono **Registro Nuevo** en la barra de herramientas de ADempiere y proceder al llenado de los campos correspondientes.
+Podrá visualizar la ventana **Definición de Comisiones**, donde debe seleccionar el icono **Registro Nuevo** en la barra de herramientas de Solop ERP y proceder al llenado de los campos correspondientes.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image480.png)
 
@@ -99,7 +99,7 @@ Imagen 8. Campo Tipo de Frecuencia
 
 Note
 
-Si la ventana **Grupo de Comisión** tiene un tipo de frecuencia asignado y la ventana **Definición de Comisión** tiene otro diferente, ADempiere realiza la validación para el cálculo de comisión tomando en cuenta el valor ingresado en el campo **Tipo de Frecuencia** de la ventana **Definición de Comisión**.
+Si la ventana **Grupo de Comisión** tiene un tipo de frecuencia asignado y la ventana **Definición de Comisión** tiene otro diferente, Solop ERP realiza la validación para el cálculo de comisión tomando en cuenta el valor ingresado en el campo **Tipo de Frecuencia** de la ventana **Definición de Comisión**.
 
 Seleccione en el campo **Cargo**, el cargo correspondiente al registro de definición de comisión que esta realizando.
 
@@ -135,7 +135,7 @@ Imagen 13. Campo Última Fecha de Ejecución
 
 Note
 
-Recuerde guardar los cambios realizados seleccionando el icono **Guardar Cambios** ubicado en la barra de herramientas de ADempiere.
+Recuerde guardar los cambios realizados seleccionando el icono **Guardar Cambios** ubicado en la barra de herramientas de Solop ERP.
 
 ## Pestaña Línea de Comisión
 
@@ -189,7 +189,7 @@ Imagen 21. Checklist Sólo Positivos
 
 Note
 
-Recuerde guardar los cambios realizados seleccionando el icono **Guardar Cambios** ubicado en la barra de herramientas de ADempiere.
+Recuerde guardar los cambios realizados seleccionando el icono **Guardar Cambios** ubicado en la barra de herramientas de Solop ERP.
 
 ## Pestaña Representantes de Ventas
 
@@ -207,25 +207,25 @@ Imagen 23. Campo Socio del Negocio
 
 Note
 
-Recuerde guardar los cambios realizados seleccionando el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere. Para realizar otro registro de vendedor debe seleccionar el icono **Registro Nuevo** y proceder al llenado de los campos correspondientes.
+Recuerde guardar los cambios realizados seleccionando el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP. Para realizar otro registro de vendedor debe seleccionar el icono **Registro Nuevo** y proceder al llenado de los campos correspondientes.
 
 ## Cálculo de Comisiones de Ventas
 
 El cálculo de las comisiones tiene como requerimiento principal tener configurada una definición de comisiones. Dicho cálculo de comisión toma en cuenta el tipo de frecuencia que tiene seleccionada la definición de comisión, así el grupo de comisión de la misma contenga otro tipo de frecuencia diferente.
 
-El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente con respecto al procedimiento a seguir para realizar el cálculo de comisiones en la versión 3.9.2 de ADempiere, en la localización Venezuela.
+El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente con respecto al procedimiento a seguir para realizar el cálculo de comisiones en la versión 3.9.2 de Solop ERP, en la localización Venezuela.
 
 Continuando con el ejemplo planteado en el documento Definición de Comisiones, se realiza de la siguiente manera el cálculo de las comisiones de los vendedores internos. Es necesario repetir el procedimiento para calcular las comisiones de los vendedores externos.
 
 ## Pestaña Ejecución de Comisión
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Reglas de Ventas y Mercadotecnia**, por último seleccione la ventana **Cálculo de Comisiones**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Reglas de Ventas y Mercadotecnia**, por último seleccione la ventana **Cálculo de Comisiones**.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image502.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
-Podrá visualizar la ventana **Cálculo de Comisiones**, donde debe seleccionar el icono **Registro Nuevo** ubicado en la barra de herramientas de ADempiere.
+Podrá visualizar la ventana **Cálculo de Comisiones**, donde debe seleccionar el icono **Registro Nuevo** ubicado en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image503.png)
 
@@ -275,7 +275,7 @@ Imagen 9. Campo Fecha Final
 
 Note
 
-Recuerde guardar los cambios realizados seleccionando el icono **Guardar Cambios** ubicado en la barra de herramientas de ADempiere.
+Recuerde guardar los cambios realizados seleccionando el icono **Guardar Cambios** ubicado en la barra de herramientas de Solop ERP.
 
 ## Pestaña Total Comisión
 

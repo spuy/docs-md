@@ -13,13 +13,13 @@ article: false
 **Configuración Esencial de la Retención Municipal**
 ====================================================
 
-ADempiere permite seleccionar por socio del negocio la retención municipal a aplicar en los documentos de compra/venta del mismo, a continuación se explica el procedimiento para seleccionar la retención municipal en un socio del negocio determinado.
+Solop ERP permite seleccionar por socio del negocio la retención municipal a aplicar en los documentos de compra/venta del mismo, a continuación se explica el procedimiento para seleccionar la retención municipal en un socio del negocio determinado.
 
-Ubique en el menú de ADempiere la carpeta "**Relación con Socios del Negocio**", luego seleccione la carpeta "**Reglas de Socios del Negocio**", por último seleccione la ventana "**Socio del Negocio**".
+Ubique en el menú de Solop ERP la carpeta "**Relación con Socios del Negocio**", luego seleccione la carpeta "**Reglas de Socios del Negocio**", por último seleccione la ventana "**Socio del Negocio**".
 
-![Menú de ADempiere 1](/assets/img/docs/lve/procedures/withholding-management/resources/menu.png)
+![Menú de Solop ERP 1](/assets/img/docs/lve/procedures/withholding-management/resources/menu.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Ubique el socio del negocio proveedor al cual se le va a configurar la retención municipal, para este ejemplo el socio del negocio proveedor es "**Standard Standard**".
 
@@ -45,9 +45,9 @@ Ubique en la parte inferior del documento los checklist para definir las retenci
 
 Imagen 5. Retenciones
 
-Al tildar el checklist en los campos de retenciones ubicados en la parte inferior del documento, significa para ADempiere que no se aplicará dicha retención seleccionada al socio del negocio.
+Al tildar el checklist en los campos de retenciones ubicados en la parte inferior del documento, significa para Solop ERP que no se aplicará dicha retención seleccionada al socio del negocio.
 
-Para realizar este ejemplo de la retención municipal y observar el comportamiento de los checklist en ADempiere, se tildan los checklist referentes a retención de IVA y ISLR.
+Para realizar este ejemplo de la retención municipal y observar el comportamiento de los checklist en Solop ERP, se tildan los checklist referentes a retención de IVA y ISLR.
 
 ![Checklist Retenciones](/assets/img/docs/lve/procedures/withholding-management/resources/check.png)
 
@@ -67,7 +67,7 @@ Seleccione la tasa de retención municipal en el campo "**Tasa de Retención Mun
 
 Imagen 8. Campo Tasa de Retención Municipal
 
-Guardar los cambios realizados en el socio del negocio con ayuda del icono "**Guardar Cambios**" de la barra de herramientas de ADempiere.
+Guardar los cambios realizados en el socio del negocio con ayuda del icono "**Guardar Cambios**" de la barra de herramientas de Solop ERP.
 
 **Ejecución de la Estimación de Retenciones**
 =============================================
@@ -108,16 +108,16 @@ La opción "**Log de Retención**" muestra el log de la retención no aplicada a
 
 Imagen 14. Opción Log de Retención
 
-ADempiere le genera al usuario por medio del icono "**Visualiza Detalle**", las alertas donde indica cuales fueron las retenciones aplicadas (**Retención Generada**) y cuales retenciones no fueron aplicadas (**Log**) según la configuración que tiene un socio del negocio determinado.
+Solop ERP le genera al usuario por medio del icono "**Visualiza Detalle**", las alertas donde indica cuales fueron las retenciones aplicadas (**Retención Generada**) y cuales retenciones no fueron aplicadas (**Log**) según la configuración que tiene un socio del negocio determinado.
 
 **Generar Retención Municipal Fiscal**
 ======================================
 
-Ubique en el menú de ADempiere la carpeta "**Manejo de Retenciones**" y seleccione la ventana de busqueda inteligente "**Generar Retenciones**".
+Ubique en el menú de Solop ERP la carpeta "**Manejo de Retenciones**" y seleccione la ventana de busqueda inteligente "**Generar Retenciones**".
 
-![Menú de ADempiere 2](/assets/img/docs/lve/procedures/withholding-management/resources/menugenerar.png)
+![Menú de Solop ERP 2](/assets/img/docs/lve/procedures/withholding-management/resources/menugenerar.png)
 
-Imagen 15. Menú de ADempiere
+Imagen 15. Menú de Solop ERP
 
 Podrá apreciar la ventana de busqueda inteligente con diferentes campos para filtrar la busqueda.
 
@@ -149,7 +149,7 @@ Seleccione la retención a generar y la opción "**OK**" para generar la retenci
 
 Imagen 20. Selección de Retención y Opción OK
 
-Podrá apreciar que el proceso se realizó correctamente con el mensaje "OK" mostrado por ADempiere al final de la ventana de busqueda inteligente.
+Podrá apreciar que el proceso se realizó correctamente con el mensaje "OK" mostrado por Solop ERP al final de la ventana de busqueda inteligente.
 
 ![Mensaje OK](/assets/img/docs/lve/procedures/withholding-management/resources/final.png)
 
@@ -158,11 +158,11 @@ Imagen 21. Mensaje OK
 **Imprimir Documento de la Retención Aplicada al Socio del Negocio**
 ====================================================================
 
-Ubique en el menú de ADempiere la carpeta "**Gestión de Compras**" y seleccione la ventana "**Documentos por Pagar**".
+Ubique en el menú de Solop ERP la carpeta "**Gestión de Compras**" y seleccione la ventana "**Documentos por Pagar**".
 
-![Menú de ADempiere 3](/assets/img/docs/lve/procedures/withholding-management/resources/menudoc.png)
+![Menú de Solop ERP 3](/assets/img/docs/lve/procedures/withholding-management/resources/menudoc.png)
 
-Imagen 22. Menú de ADempiere
+Imagen 22. Menú de Solop ERP
 
 Podrá apreciar la ventana "**Documentos por Pagar**" donde se encuentran todos los registros que posee la misma.
 
@@ -170,7 +170,7 @@ Podrá apreciar la ventana "**Documentos por Pagar**" donde se encuentran todos 
 
 Imagen 23. Ventana Documentos por Pagar
 
-Seleccione el icono "**Encontrar Registro**" en la barra de herramientas de ADempiere, para realizar una busqueda avanzada del documento de retención generado.
+Seleccione el icono "**Encontrar Registro**" en la barra de herramientas de Solop ERP, para realizar una busqueda avanzada del documento de retención generado.
 
 ![Icono Encontrar Registro](/assets/img/docs/lve/procedures/withholding-management/resources/iconobuscar.png)
 
@@ -212,7 +212,7 @@ Seleccione la opción "**OK**" para realizar la busqueda filtrada por los campos
   
 Imagen 30. Opción OK
 
-Seleccione en la barra de herramientas de ADempiere el icono "**Imprimir**", para imprimir el documento de retención buscado.
+Seleccione en la barra de herramientas de Solop ERP el icono "**Imprimir**", para imprimir el documento de retención buscado.
 
 ![Opción Imprimir](/assets/img/docs/lve/procedures/withholding-management/resources/opcionimp.png)
 

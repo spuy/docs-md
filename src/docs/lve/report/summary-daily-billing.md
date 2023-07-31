@@ -6,18 +6,18 @@ star: 9
 sticky: 9
 tag:
 
-  - Reportes de ADempiere
+  - Reportes de Solop ERP
 article: false
 ---
 
 **Facturación Diaria Resumida**
 ===============================
 
-Ubique y seleccione en el menú de ADempiere, la carpeta "**Localización Venezuela**", luego seleccione el reporte "**Facturación Diaria (Resumida)**".
+Ubique y seleccione en el menú de Solop ERP, la carpeta "**Localización Venezuela**", luego seleccione el reporte "**Facturación Diaria (Resumida)**".
 
-![Menú de ADempiere](/assets/img/docs/lve/report/resources/summary-daily-billing-menu.png)
+![Menú de Solop ERP](/assets/img/docs/lve/report/resources/summary-daily-billing-menu.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana "**Facturación Diaria (Resumida)**", con diferentes campos que le permiten al usuario generar un reporte de acuerdo a lo requerido por el mismo.
 

@@ -96,9 +96,9 @@ Al ejecutar el proceso, luego de unos segundos se visualiza en el campo descripc
 
 Imagen 12. Mensaje Impreso en la Factura
 
-Repita el procedimiento desde el punto dos, para registrar un nuevo pago con una moneda o criptoactivo diferente a la anterior, de esta manera ADempiere generará tantas retenciones como cobros con diferentes monedas existan.
+Repita el procedimiento desde el punto dos, para registrar un nuevo pago con una moneda o criptoactivo diferente a la anterior, de esta manera Solop ERP generará tantas retenciones como cobros con diferentes monedas existan.
 
-Si por algún motivo el monto del cobro debiera sufrir algún cambio, repita el procedimiento desde el punto dos, para registrar un nuevo cobro con la misma moneda anterior, de esta manera ADempiere anulará la retención anterior y generará la nueva retención.
+Si por algún motivo el monto del cobro debiera sufrir algún cambio, repita el procedimiento desde el punto dos, para registrar un nuevo cobro con la misma moneda anterior, de esta manera Solop ERP anulará la retención anterior y generará la nueva retención.
 
 Seleccione el icono "**Visualiza Detalle**" en la barra de herramientas para apreciar donde es usado el documento, en este caso la factura.
 
@@ -114,7 +114,7 @@ Imagen 14. Menú del Icono Visualiza Detalle
 
 Seleccione La opción "**Retención Generada**" muestra el documento de retención aplicado a la factura número "**111**" seleccionada para el ejemplo.
 
-ADempiere le genera al usuario por medio del icono "**Visualiza Detalle**", las alertas donde indica cuales fueron las retenciones aplicadas (**Retención Generada**) y cuales retenciones no fueron aplicadas (**Log**) según la configuración que tiene un socio del negocio determinado.
+Solop ERP le genera al usuario por medio del icono "**Visualiza Detalle**", las alertas donde indica cuales fueron las retenciones aplicadas (**Retención Generada**) y cuales retenciones no fueron aplicadas (**Log**) según la configuración que tiene un socio del negocio determinado.
 
 **Re-Generar IGTF desde Caja/Cobro**
 ------------------------------------
@@ -160,7 +160,7 @@ Indique la organización en la que desea generar el comprobante en el campo "**O
 
 Imagen 18. Selección de Organización
 
-Para este caso, se omite el campo "**Manual**" siendo de esta manera falso, puesto que, para el caso de esta retención es calculada desde ADempiere.
+Para este caso, se omite el campo "**Manual**" siendo de esta manera falso, puesto que, para el caso de esta retención es calculada desde Solop ERP.
 
 ![SeleccionManual](/assets/img/docs/lve/procedures/withholding-management/resources/seleccionmanual.png)
 

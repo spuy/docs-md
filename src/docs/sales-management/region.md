@@ -6,18 +6,18 @@ sticky: 9
 article: false
 ---
 
-Esta documentación está destinada a definir la región de ventas en ADempiere para cualquier organización, es importante seguir al pie de la letra cada uno de los procedimientos descritos aquí recuerde que de eso dependerá el buen uso del ERP.
+Esta documentación está destinada a definir la región de ventas en Solop ERP para cualquier organización, es importante seguir al pie de la letra cada uno de los procedimientos descritos aquí recuerde que de eso dependerá el buen uso del ERP.
 
 - Registro de Región de Ventas
 - Asignar Región de Ventas a Localización
 
 ## Registro de Región de Ventas
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Reglas de Ventas y Mercadotecnia**, por último seleccione la ventana **Región de Ventas**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Reglas de Ventas y Mercadotecnia**, por último seleccione la ventana **Región de Ventas**.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image465.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana **Región de Ventas**, con todos los registros de las diferentes regiones de venta que abarca la compañía u organización.
 
@@ -25,7 +25,7 @@ Podrá visualizar la ventana **Región de Ventas**, con todos los registros de l
 
 Imagen 2. Ventana Región de Ventas
 
-Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de ADempiere.
+Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image467.png)
 
@@ -45,7 +45,7 @@ Imagen 5. Campo Código de la Ventana Región de Ventas
 
 Note
 
-Si no es ingresado ningún valor en este campo, ADempiere tomará el número de secuencia definida para el registro.
+Si no es ingresado ningún valor en este campo, Solop ERP tomará el número de secuencia definida para el registro.
 
 Seleccione en el campo **Región de Ventas Padre**, la región de ventas padre correspondiente a la región de ventas que se encuentra definiendo.
 
@@ -83,13 +83,13 @@ Seleccione el checklist **Entidad Acumulada**, para indicar que el registro de r
 
 Imagen 11. Checklist Entidad Acumulada de la Ventana Región de Ventas
 
-Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere, para guardar el registro de los campos de la ventana **Región de Ventas**.
+Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP, para guardar el registro de los campos de la ventana **Región de Ventas**.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image476.png)
 
 Imagen 12. Icono Guardar Cambios de la Ventana Región de Ventas
 
-Al culminar el procedimiento de registro de regiones de ventas en ADempiere, podrá visualizar del lado izquierdo de la ventana, el resultado del árbol formado por los diferentes registros realizados.
+Al culminar el procedimiento de registro de regiones de ventas en Solop ERP, podrá visualizar del lado izquierdo de la ventana, el resultado del árbol formado por los diferentes registros realizados.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image477.png)
 

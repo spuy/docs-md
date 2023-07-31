@@ -57,11 +57,11 @@ Mayormente las órdenes son copiadas desde el punto de venta para mantener la ta
 
 Para copiar una orden de venta desde el punto de venta, se debe realizar el siguiente procedimiento:
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Órdenes de Venta**, por último seleccione la carpeta **Punto de Venta**. Para finalizar, seleccione la ventana **Punto de Venta**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Órdenes de Venta**, por último seleccione la carpeta **Punto de Venta**. Para finalizar, seleccione la ventana **Punto de Venta**.
 
 ![Campo](/assets/img/docs/pdv-management/pdm-pdv-image137.png)
 
-Imagen 3. Menú de ADempiere
+Imagen 3. Menú de Solop ERP
 
 La interfaz de la ventana **Punto de Venta**, se encuentra definida de forma específica en el documento Interfaz de Punto de Venta, elaborado por ERPyA.
 

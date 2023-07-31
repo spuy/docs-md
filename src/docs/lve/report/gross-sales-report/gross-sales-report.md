@@ -1,23 +1,23 @@
 ---
-title: Generar Reporte de Ventas Brutas desde el Proceso Resumen de Facturas de ADempiere
+title: Generar Reporte de Ventas Brutas desde el Proceso Resumen de Facturas de Solop ERP
 icon: app
 category: Localización Venezuela
 star: 9
 sticky: 9
 tag:
 
-  - Reportes de ADempiere
+  - Reportes de Solop ERP
 article: false
 ---
 
-**Generar Reporte de Ventas Brutas desde el Proceso Resumen de Facturas de ADempiere**
+**Generar Reporte de Ventas Brutas desde el Proceso Resumen de Facturas de Solop ERP**
 ===================
 
-Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Consulta de Facturas**", por último seleccione el reporte "**Resumen de Facturas**".
+Ubique y seleccione en el menú de Solop ERP, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Consulta de Facturas**", por último seleccione el reporte "**Resumen de Facturas**".
 
-![Menú de ADempiere 1](/assets/img/docs/lve/report/gross-sales-report/resources/menu1.png)
+![Menú de Solop ERP 1](/assets/img/docs/lve/report/gross-sales-report/resources/menu1.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana del proceso "**Resumen de Facturas**", el mismo contempla diferentes campos que pueden ser utilizados a criterio del usuario para filtrar la búsqueda en base a lo indicado en dichos campos.
 

@@ -6,7 +6,7 @@ sticky: 9
 article: false
 ---
 
-El presente material elaborado por ERPyA, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar una entrega en ADempiere, en su versión 3.9.2 para la localización Venezuela.
+El presente material elaborado por ERPyA, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar una entrega en Solop ERP, en su versión 3.9.2 para la localización Venezuela.
 
 - Registro de Entregas (Cliente)
 - Generar Entrega desde Líneas de la Orden
@@ -17,11 +17,11 @@ El presente material elaborado por ERPyA, pretende ofrecerle una explicación ef
 
 ## Registro de Entregas (Cliente)
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Entregas**, por último seleccione la ventana **Entregas (Cliente)**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Entregas**, por último seleccione la ventana **Entregas (Cliente)**.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image124.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana **Entregas (Cliente)**, con los registros de las entregas de productos realizadas a los clientes de las diferentes organizaciones.
 
@@ -29,7 +29,7 @@ Podrá visualizar la ventana **Entregas (Cliente)**, con los registros de las en
 
 Imagen 2. Ventana Entregas Cliente
 
-Seleccione el icono **Registro Nuevo**, para crear un nuevo registro de entrega a cliente en ADempiere.
+Seleccione el icono **Registro Nuevo**, para crear un nuevo registro de entrega a cliente en Solop ERP.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image126.png)
 
@@ -249,7 +249,7 @@ Imagen 38. Campo En Negociación de la Ventana Entregas Cliente
 
 Note
 
-Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere. La selección de este icono permite guardar el registro de los campos de la pestaña para proceder a posicionarse en otra pestaña de la misma ventana.
+Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP. La selección de este icono permite guardar el registro de los campos de la pestaña para proceder a posicionarse en otra pestaña de la misma ventana.
 
 Seleccione la pestaña **Línea de la Entrega**, para cargar los productos involucrados en la entrega.
 
@@ -355,11 +355,11 @@ Imagen 55. Acción Completar y Opción Ok
 
 ## Generar Entrega desde Líneas de la Orden
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Entregas**, por último seleccione la ventana **Generar Entrega desde Líneas de la Orden**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Entregas**, por último seleccione la ventana **Generar Entrega desde Líneas de la Orden**.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image179.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana **Generar Entrega desde Líneas de la Orden** y proceder al llenado de los campos correspondientes para filtrar la búsqueda.
 
@@ -461,7 +461,7 @@ Imagen 16. Resultado de la Entrega Generada desde Líneas de la Orden
 
 ## Consultar Entregas Generadas
 
-Para consultar la entrega generada en la ventana **Entregas (Cliente)**, debe seleccionar el icono **Encontrar Registro** ubicado en la barra de herramientas de ADempiere, para luego visualizar la ventana **Encontrar Registro: Entrega**.
+Para consultar la entrega generada en la ventana **Entregas (Cliente)**, debe seleccionar el icono **Encontrar Registro** ubicado en la barra de herramientas de Solop ERP, para luego visualizar la ventana **Encontrar Registro: Entrega**.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image195.png)
 
@@ -499,7 +499,7 @@ Imagen 22. Documento de Entrega Generada
 
 ### Imprimir Entregas Generadas
 
-Para imprimir el registro de la entrega generada en la ventana **Entregas (Cliente)**, seleccione el icono **Imprimir** ubicado en la barra de herramientas de ADempiere. Luego podrá visualizar de la siguiente manera la entrega generada desde las líneas de la orden.
+Para imprimir el registro de la entrega generada en la ventana **Entregas (Cliente)**, seleccione el icono **Imprimir** ubicado en la barra de herramientas de Solop ERP. Luego podrá visualizar de la siguiente manera la entrega generada desde las líneas de la orden.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image201.png)
 
@@ -507,11 +507,11 @@ Imagen 23. Imprimir Entregas Generadas
 
 ### Generar Entregas (Manual)
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Entregas**, por último seleccione la ventana **Generar Entregas (Manual)**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Entregas**, por último seleccione la ventana **Generar Entregas (Manual)**.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image202.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana **Generar Entregas (Manual)**, con diferentes campos que permiten filtrar la búsqueda de información automáticamente.
 
@@ -589,7 +589,7 @@ Imagen 12. Resultado del Proceso Generar Entregas Manual
 
 ## Consultar Entregas Generadas
 
-Para consultar la entrega generada en la ventana **Entregas (Cliente)** se debe seleccionar el icono **Encontrar Registro** ubicado en la barra de herramientas de ADempiere, para luego ingresar en el campo **No del Documento**, el número de documento de la entrega detallado en el resultado del proceso realizado antes y finalmente seleccionar la opción **OK** para realizar la búsqueda.
+Para consultar la entrega generada en la ventana **Entregas (Cliente)** se debe seleccionar el icono **Encontrar Registro** ubicado en la barra de herramientas de Solop ERP, para luego ingresar en el campo **No del Documento**, el número de documento de la entrega detallado en el resultado del proceso realizado antes y finalmente seleccionar la opción **OK** para realizar la búsqueda.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image14.png)
 

@@ -10,7 +10,7 @@ Una solicitud de cotización a proveedor es una requisición de productos o serv
 
 La definición del tema consiste en agrupar por categoría o grupo de productos, los diferentes proveedores que tiene la empresa. El proceso es realizado con la finalidad de enviar una misma solicitud de cotización a diferentes proveedores, obteniendo la cotización mas favorable para la empresa por medio del método de evaluación de costos de productos, generando una respuesta acorde a las reglas establecidas por el solicitante en el documento.
 
-En ADempiere es posible generar una solicitud de cotización a partir de una requisición o de forma directa, a continuación se explica el procedimiento a seguir generar una solicitud de cotización de forma directa.
+En Solop ERP es posible generar una solicitud de cotización a partir de una requisición o de forma directa, a continuación se explica el procedimiento a seguir generar una solicitud de cotización de forma directa.
 
 - Crear Tema de Solicitud para Cotizar
   - Pestaña Suscriptor
@@ -41,13 +41,13 @@ En ADempiere es posible generar una solicitud de cotización a partir de una req
 
 ## Crear Tema de Solicitud para Cotizar
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Compras**, luego seleccione la ventana **Tema de Solicitud para Cotizar**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Compras**, luego seleccione la ventana **Tema de Solicitud para Cotizar**.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image1.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
-Podrá visualizar la siguiente ventana con los registros que la empresa tiene de los diferentes temas de solicitud para cotizar. Seleccione el icono **Registro Nuevo** que se encuentra ubicado en la barra de herramientas de ADempiere y proceda al llenado de los campos correspondientes.
+Podrá visualizar la siguiente ventana con los registros que la empresa tiene de los diferentes temas de solicitud para cotizar. Seleccione el icono **Registro Nuevo** que se encuentra ubicado en la barra de herramientas de Solop ERP y proceda al llenado de los campos correspondientes.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image2.png)
 
@@ -59,7 +59,7 @@ Introduzca el nombre del tema de la solicitud para cotizar en el campo **Nombre*
 
 Imagen 3. Campo Nombre de Tema para Cotizar
 
-Seleccione el icono **Guardar Cambios** ubicado en la barra de herramientas de ADempiere para guardar el registro de los campos.
+Seleccione el icono **Guardar Cambios** ubicado en la barra de herramientas de Solop ERP para guardar el registro de los campos.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image4.png)
 
@@ -89,7 +89,7 @@ Seleccione la dirección del socio del negocio proveedor en el campo **Direcció
 
 Imagen 7. Campo Dirección del Socio del Negocio Proveedor
 
-Seleccione el icono **Guardar Cambios** ubicado en la barra de herramientas de ADempiere para guardar el registro de los campos.
+Seleccione el icono **Guardar Cambios** ubicado en la barra de herramientas de Solop ERP para guardar el registro de los campos.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image8.png)
 
@@ -97,7 +97,7 @@ Imagen 8. Icono Guardar Cambios
 
 Note
 
-Para registrar otro socio del negocio proveedor, debe seleccionar el icono **Registro Nuevo** ubicado en la barra de herramientas de ADempiere y repetir el procedimiento realizado antes. Para ejemplificar el caso se registran tres (3) socios del negocio que son **Estándar 1**, **Estándar 2** y **Estándar 3**.
+Para registrar otro socio del negocio proveedor, debe seleccionar el icono **Registro Nuevo** ubicado en la barra de herramientas de Solop ERP y repetir el procedimiento realizado antes. Para ejemplificar el caso se registran tres (3) socios del negocio que son **Estándar 1**, **Estándar 2** y **Estándar 3**.
 
 Podrá visualizar en la parte inferior derecha de la ventana, el número de registros que posee la ventana.
 
@@ -135,7 +135,7 @@ Seleccione el producto a restringir en el campo **Producto**. Para ejemplificar 
 
 Imagen 11. Campo Producto
 
-Seleccione el icono **Guardar Cambios** ubicado en la barra de herramientas de ADempiere para guardar el registro de los campos.
+Seleccione el icono **Guardar Cambios** ubicado en la barra de herramientas de Solop ERP para guardar el registro de los campos.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image12.png)
 
@@ -143,19 +143,19 @@ Imagen 12. Icono Guardar Cambios
 
 Note
 
-Para registrar otro producto, servicio o categoría debe seleccionar el icono **Registro Nuevo** ubicado en la barra de herramientas de ADempiere y repetir el procedimiento realizado antes.
+Para registrar otro producto, servicio o categoría debe seleccionar el icono **Registro Nuevo** ubicado en la barra de herramientas de Solop ERP y repetir el procedimiento realizado antes.
 
 ## Solicitud para Cotización
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Compras**, luego seleccione la ventana **Solicitud para Cotización**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Compras**, luego seleccione la ventana **Solicitud para Cotización**.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image13.png)
 
-Imagen 13. Menú de ADempiere
+Imagen 13. Menú de Solop ERP
 
 Note
 
-ADempiere permite que la solicitud para cotización sea realizada de tres (3) formas, definidas por el campo **Tipo SCP (RfQ)**.
+Solop ERP permite que la solicitud para cotización sea realizada de tres (3) formas, definidas por el campo **Tipo SCP (RfQ)**.
 
 Para ejemplificar el registro del presente documento, es presentado un caso por cada forma de cotización.
 
@@ -163,7 +163,7 @@ Para ejemplificar el registro del presente documento, es presentado un caso por 
 
 #### Pestaña SCP (RfQ)
 
-Podrá visualizar la siguiente ventana con los registros de solicitud de cotización que la empresa tiene. Seleccione el icono **Registro Nuevo** que se encuentra ubicado en la barra de herramientas de ADempiere y proceda al llenado de los campos correspondientes.
+Podrá visualizar la siguiente ventana con los registros de solicitud de cotización que la empresa tiene. Seleccione el icono **Registro Nuevo** que se encuentra ubicado en la barra de herramientas de Solop ERP y proceda al llenado de los campos correspondientes.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image14.png)
 
@@ -209,7 +209,7 @@ Seleccione en el campo **Fecha de Respuesta**, la fecha límite de espera de res
 
 Imagen 20. Campo Fecha de Respuesta
 
-Seleccione el icono **Guardar Cambios** ubicado en la barra de herramientas de ADempiere para guardar el registro de los campos.
+Seleccione el icono **Guardar Cambios** ubicado en la barra de herramientas de Solop ERP para guardar el registro de los campos.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image21.png)
 
@@ -229,7 +229,7 @@ Seleccione en el campo **Producto**, el producto que la empresa requiere que los
 
 Imagen 23. Campo Producto
 
-Seleccione el icono **Guardar Cambios** ubicado en la barra de herramientas de ADempiere para guardar el registro de los campos.
+Seleccione el icono **Guardar Cambios** ubicado en la barra de herramientas de Solop ERP para guardar el registro de los campos.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image24.png)
 
@@ -239,7 +239,7 @@ Note
 
 Esta pestaña permite registrar los diferentes productos o servicios que la empresa solicita que los socios del negocio proveedores coticen.
 
-Para registrar otro producto, debe seleccionar el icono **Registro Nuevo** ubicado en la barra de herramientas de ADempiere y repetir el procedimiento realizado antes. Para ejemplificar el caso se registran tres (3) productos que son **Desinfectante**, **Cera** y **Desengrasante**.
+Para registrar otro producto, debe seleccionar el icono **Registro Nuevo** ubicado en la barra de herramientas de Solop ERP y repetir el procedimiento realizado antes. Para ejemplificar el caso se registran tres (3) productos que son **Desinfectante**, **Cera** y **Desengrasante**.
 
 ### Pestaña Cantidad
 
@@ -261,7 +261,7 @@ Seleccione en el campo **Cantidad**, la cantidad de productos que la empresa req
 
 Imagen 27. Campo Cantidad del Producto o Servicio
 
-Seleccione el icono **Guardar Cambios** ubicado en la barra de herramientas de ADempiere para guardar el registro de los campos.
+Seleccione el icono **Guardar Cambios** ubicado en la barra de herramientas de Solop ERP para guardar el registro de los campos.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image28.png)
 
@@ -311,11 +311,11 @@ La forma **Cotiza todas las Líneas**, realiza la cotización comparando la igua
 
 ## Solicitud para Cotización con Respuesta
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Compras**, luego seleccione la ventana **Solicitud para Cotización**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Compras**, luego seleccione la ventana **Solicitud para Cotización**.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image33.png)
 
-Imagen 33. Menú de ADempiere
+Imagen 33. Menú de Solop ERP
 
 Podrá visualizar la ventana **Solicitud para Cotización con Respuesta**, con los registros de solicitud de cotización creados luego de seleccionar la opción **Crea e Invita**, de la ventana **Solicitud para Cotización**.
 
@@ -325,11 +325,11 @@ Imagen 34. Ventana de Solicitud para Cotización con Respuesta
 
 Note
 
-ADempiere crea tantos registros de solicitud de cotización con respuesta como proveedores tenga la solicitud de cotización realizada por la empresa. Cada registro creado de una solicitud de cotización contiene su mismo número de documento en el campo **SCP (RfQ)**.
+Solop ERP crea tantos registros de solicitud de cotización con respuesta como proveedores tenga la solicitud de cotización realizada por la empresa. Cada registro creado de una solicitud de cotización contiene su mismo número de documento en el campo **SCP (RfQ)**.
 
-Puede cambiar la vista de la ventana con ayuda del icono **Cambiar mono/multi registro**, ubicado en la barra de herramientas de ADempiere. De esta manera, puede visualizar en la pestaña **Línea Respuesta** los registros de productos por proveedor que posee la solicitud de cotización con respuesta.
+Puede cambiar la vista de la ventana con ayuda del icono **Cambiar mono/multi registro**, ubicado en la barra de herramientas de Solop ERP. De esta manera, puede visualizar en la pestaña **Línea Respuesta** los registros de productos por proveedor que posee la solicitud de cotización con respuesta.
 
-Ubique en el registro de la solicitud de cotización con respuesta, el socio del negocio proveedor para cargar a ADempiere la respuesta de cotización por producto.
+Ubique en el registro de la solicitud de cotización con respuesta, el socio del negocio proveedor para cargar a Solop ERP la respuesta de cotización por producto.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image35.png)
 
@@ -369,7 +369,7 @@ Introduzca en el campo **Precio**, la respuesta del precio cotizado por el socio
 
 Imagen 39. Campo Precio
 
-Seleccione el icono **Guardar Cambios** ubicado en la barra de herramientas de ADempiere para guardar el registro de los campos.
+Seleccione el icono **Guardar Cambios** ubicado en la barra de herramientas de Solop ERP para guardar el registro de los campos.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image40.png)
 
@@ -516,7 +516,7 @@ Imagen 57. Checklist Ganador Seleccionado
 
 ### Caso 1: Solicitud para Cotización por Tipo Cotiza Líneas Seleccionadas
 
-Ubique en la ventana **Solicitud para Cotización** el registro del **Caso 1: Solicitud para Cotización por Tipo Cotiza Líneas Seleccionadas** y seleccione la opción **Crear Orden de Compra**, ubicada en el icono **Proceso** de la barra de herramientas de ADempiere.
+Ubique en la ventana **Solicitud para Cotización** el registro del **Caso 1: Solicitud para Cotización por Tipo Cotiza Líneas Seleccionadas** y seleccione la opción **Crear Orden de Compra**, ubicada en el icono **Proceso** de la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image58.png)
 
@@ -528,7 +528,7 @@ Podrá visualizar la ventana **Crea Orden de Compra** donde debe seleccionar el 
 
 Imagen 59. Ventana Crea Orden de Compra
 
-ADempiere genera en la ventana **Orden de Compra**, tantas órdenes de compra como ganadores seleccionados existan. En el ejemplo de este caso existen 2 ganadores seleccionados que son los socios **Estándar 1** y **Estándar 2**.
+Solop ERP genera en la ventana **Orden de Compra**, tantas órdenes de compra como ganadores seleccionados existan. En el ejemplo de este caso existen 2 ganadores seleccionados que son los socios **Estándar 1** y **Estándar 2**.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image60.png)
 

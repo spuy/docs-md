@@ -6,18 +6,18 @@ star: 9
 sticky: 9
 tag:
 
-  - Reportes de ADempiere
+  - Reportes de Solop ERP
 article: false
 ---
 
 **Detalle de la Orden**
 =======================
 
-Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Órdenes de Venta**", por último seleccione el reporte "**Detalle de la Orden**".
+Ubique y seleccione en el menú de Solop ERP, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Órdenes de Venta**", por último seleccione el reporte "**Detalle de la Orden**".
 
 ![menú del reporte detalle de la orden](/assets/img/docs/lve/report/resources/order-detail-report-menu.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana del reporte "**Detalle de la Orden**", con diferentes campos que le permiten al usuario filtrar la información del reporte en base a lo requerido por el mismo.
 

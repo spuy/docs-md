@@ -6,18 +6,18 @@ star: 9
 sticky: 9
 tag:
 
-  - Reportes de ADempiere
+  - Reportes de Solop ERP
 article: false
 ---
 
 **Reporte de Detalle de Consignación**
 ======================================
 
-- Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**", luego seleccione el "**Reporte de Detalle de Consignación**".
+- Ubique y seleccione en el menú de Solop ERP, la carpeta "**Gestión de Compras**", luego seleccione el "**Reporte de Detalle de Consignación**".
 
 ![menú de reporte de detalle de consignación](/assets/img/docs/lve/report/resources/consignment-detail-report-menu.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 - Podrá visualizar la ventana del reporte de detalle de consignación con diferentes campos que le permiten al usuario, filtrar la información en base a lo requerido en su momento.
 

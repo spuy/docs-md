@@ -6,7 +6,7 @@ sticky: 9
 article: false
 ---
 
-Esta documentación está destinada a definir las listas de precios en ADempiere para cualquier organización, es importante seguir al pie de la letra cada uno de los procedimientos descritos aquí recuerde que de eso dependerá el buen uso del ERP.
+Esta documentación está destinada a definir las listas de precios en Solop ERP para cualquier organización, es importante seguir al pie de la letra cada uno de los procedimientos descritos aquí recuerde que de eso dependerá el buen uso del ERP.
 
 - Configuración del Esquema de Lista de Precios
 - Configuración de Lista de Precios Base
@@ -22,11 +22,11 @@ El esquema de lista de precios se puede configurar por tipo de conversión en di
 
 A continuación, se explica el procedimiento a seguir para configurar un esquema de lista de precios.
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Materiales**, luego seleccione la carpeta **Reglas de Gestión de Materiales**, por último seleccione la ventana **Esquema de Lista de Precios**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Materiales**, luego seleccione la carpeta **Reglas de Gestión de Materiales**, por último seleccione la ventana **Esquema de Lista de Precios**.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image313.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá viualizar la ventana **Esquema de Lista de Precios**, con los registros del esquema de lista de precios definidos para la organización.
 
@@ -34,7 +34,7 @@ Podrá viualizar la ventana **Esquema de Lista de Precios**, con los registros d
 
 Imagen 2. Ventana Esquema de Lista de Precios
 
-Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de ADempiere y proceda al llenado de los campos correspondientes.
+Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de Solop ERP y proceda al llenado de los campos correspondientes.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image315.png)
 
@@ -70,7 +70,7 @@ Seleccione en el campo **Tipo de Descuento**, el tipo de cálculo del descuento 
 
 Imagen 8. Campo Tipo de Descuento
 
-Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere.
+Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image321.png)
 
@@ -126,7 +126,7 @@ Imagen 15. Campo Categoría del Producto
 
 Note
 
-Al configurar el esquema de lista de precios por categoría de producto y procesar la lista de precios llamando dicho esquema, ADempiere no tomará en cuenta aquellos productos que se encuentren en una categoría diferente a la que fue incluida en el esquema.
+Al configurar el esquema de lista de precios por categoría de producto y procesar la lista de precios llamando dicho esquema, Solop ERP no tomará en cuenta aquellos productos que se encuentren en una categoría diferente a la que fue incluida en el esquema.
 
 Seleccione en el campo **Grupo de Producto**, el grupo de producto correspondiente al registro que se encuentra realizando.
 
@@ -138,7 +138,7 @@ Imagen 16. Campo Grupo de Producto
 
 Note
 
-Al configurar el esquema de lista de precios por grupo de producto y procesar la lista de precios llamando dicho esquema, ADempiere no tomará en cuenta aquellos productos que se encuentren en un grupo diferente al que fue incluido en el esquema.
+Al configurar el esquema de lista de precios por grupo de producto y procesar la lista de precios llamando dicho esquema, Solop ERP no tomará en cuenta aquellos productos que se encuentren en un grupo diferente al que fue incluido en el esquema.
 
 Seleccione en el campo **Clase de Producto**, la clase de producto correspondiente al registro que se encuentra realizando.
 
@@ -150,7 +150,7 @@ Imagen 17. Campo Clase de Producto
 
 Note
 
-Al configurar el esquema de lista de precios por clase de producto y procesar la lista de precios llamando dicho esquema, ADempiere no tomará en cuenta aquellos productos que se encuentren en una clase diferente a la que fue incluida en el esquema.
+Al configurar el esquema de lista de precios por clase de producto y procesar la lista de precios llamando dicho esquema, Solop ERP no tomará en cuenta aquellos productos que se encuentren en una clase diferente a la que fue incluida en el esquema.
 
 Seleccione en el campo **Clasificación de Producto**, la clasificación de producto correspondiente al registro que se encuentra realizando.
 
@@ -162,7 +162,7 @@ Imagen 18. Campo Clasificación de Producto
 
 Note
 
-Al configurar el esquema de lista de precios por clasificación de producto y procesar la lista de precios llamando dicho esquema, ADempiere no tomará en cuenta aquellos productos que se encuentren en una clasificación diferente a la que fue incluida en el esquema.
+Al configurar el esquema de lista de precios por clasificación de producto y procesar la lista de precios llamando dicho esquema, Solop ERP no tomará en cuenta aquellos productos que se encuentren en una clasificación diferente a la que fue incluida en el esquema.
 
 Introduzca en el campo **Línea de Producto**, la línea del producto correspondiente al registro que se encuentra realizando.
 
@@ -326,7 +326,7 @@ La opción seleccionada establece la regla de redondeo para el resultado final.
 
 Imagen 39. Campo Redondeo del Precio Límite
 
-Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere.
+Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image352.png)
 
@@ -334,11 +334,11 @@ Imagen 40. Icono Guardar Cambios
 
 ## Configuración de Lista de Precios Base
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Materiales**, luego seleccione la carpeta **Reglas de Gestión de Materiales**, por último seleccione la ventana **Lista de Precios**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Materiales**, luego seleccione la carpeta **Reglas de Gestión de Materiales**, por último seleccione la ventana **Lista de Precios**.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image353.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana **Lista de Precios**, con todos los registros de listas de precios de compras y ventas.
 
@@ -362,7 +362,7 @@ Seleccione la pestaña **Versión**, para crear la versión de lista de precios 
 
 Imagen 4. Pestaña Versión
 
-Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de ADempiere.
+Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image357.png)
 
@@ -404,7 +404,7 @@ Seleccione en el campo **Válido Desde**, la fecha de inicio del periodo de vali
 
 Imagen 10. Campo Válido Desde
 
-Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere.
+Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image363.png)
 
@@ -420,7 +420,7 @@ Para cargar los precios de los productos desde la opción **Crear Lista de Preci
 
 Esta opción permite crear los precios de los productos desde la última orden de compra procesada, basandose en el tipo de conversión, descuento y margen de ganancia, previamente configurado en el esquema de descuento.
 
-Si los precios de los productos se encuentran en una moneda diferente a la moneda de la compañía, ADempiere toma los precios de la pestaña **Compras** de cada producto y en base a la moneda que este asociada a dicha pestaña y a la moneda de la lista de precios, toma la configuración del esquema de lista de precios, realizando la conversión a la tasa de la fecha que tenga la versión de lista de precios y aplica el descuento o margen de ganancia configurado en el mismo (si lo tiene), para finalmente cargar dichos precios a la lista de precios.
+Si los precios de los productos se encuentran en una moneda diferente a la moneda de la compañía, Solop ERP toma los precios de la pestaña **Compras** de cada producto y en base a la moneda que este asociada a dicha pestaña y a la moneda de la lista de precios, toma la configuración del esquema de lista de precios, realizando la conversión a la tasa de la fecha que tenga la versión de lista de precios y aplica el descuento o margen de ganancia configurado en el mismo (si lo tiene), para finalmente cargar dichos precios a la lista de precios.
 
 Seleccione la opción **Crear Lista de Precios**.
 
@@ -430,7 +430,7 @@ Imagen 12. Opción Crear Lista de Precios
 
 Note
 
-También puede acceder al proceso, seleccionando la opción **Crear Lista de Precios** desplegada del icono \*\*Proceso ubicado en la barra de herramientas de ADempiere.
+También puede acceder al proceso, seleccionando la opción **Crear Lista de Precios** desplegada del icono \*\*Proceso ubicado en la barra de herramientas de Solop ERP.
 
 Podrá visualizar la ventana **Crear Lista de Precios**, con diferentes campos que permiten generar la lista de precios en base a lo requerido por el usuario.
 
@@ -536,7 +536,7 @@ El PMVP indica el precio marcado de venta al público.
 
 Imagen 25. Campo PMVP
 
-Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere.
+Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image377.png)
 
@@ -546,11 +546,11 @@ Imagen 26. Icono Guardar Cambios
 
 Para ejemplificar el caso de creación de una lista de precios desde otra, se tiene la versión de lista de precios base **2021-03-03 09:03:41**, creada en la lista de precios **Ventas (USD)**. De igual manera, se tiene la tasa de cambio de **VES** a **USD** y viceversa, con monto de **1.877.000,00**, a la fecha **03/03/2021**.
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Materiales**, luego seleccione la carpeta **Reglas de Gestión de Materiales**, por último seleccione la ventana **Lista de Precios**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Materiales**, luego seleccione la carpeta **Reglas de Gestión de Materiales**, por último seleccione la ventana **Lista de Precios**.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image378.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana **Lista de Precios**, con todos los registros de listas de precios de compras y ventas.
 
@@ -574,7 +574,7 @@ Seleccione la pestaña **Versión**, para crear la versión de lista de precios 
 
 Imagen 4. Pestaña Versión
 
-Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de ADempiere.
+Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image382.png)
 
@@ -622,7 +622,7 @@ Seleccione en el campo **Válido Desde**, la fecha de inicio del periodo de vali
 
 Imagen 11. Campo Válido Desde
 
-Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere.
+Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image389.png)
 
@@ -636,7 +636,7 @@ Imagen 13. Opción Crear Lista de Precios
 
 Note
 
-También puede acceder al proceso, seleccionando la opción **Crear Lista de Precios** desplegada del icono \*\*Proceso ubicado en la barra de herramientas de ADempiere.
+También puede acceder al proceso, seleccionando la opción **Crear Lista de Precios** desplegada del icono \*\*Proceso ubicado en la barra de herramientas de Solop ERP.
 
 Podrá visualizar la ventana **Crear Lista de Precios**, con diferentes campos que permiten generar la lista de precios en base a lo requerido por el usuario.
 
@@ -720,11 +720,11 @@ De igual manera, se tiene la tasa de cambio de **VES** a **USD** y viceversa, co
 
 En base a las especificaciones nombradas anteriormente, se procede a explicar el procedimiento a seguir para generar la lista de precios desde la última orden de compra procesada.
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Materiales**, luego seleccione la carpeta **Reglas de Gestión de Materiales**, por último seleccione la ventana **Lista de Precios**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Materiales**, luego seleccione la carpeta **Reglas de Gestión de Materiales**, por último seleccione la ventana **Lista de Precios**.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image399.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana **Lista de Precios**, con todos los registros de listas de precios de compras y ventas.
 
@@ -748,7 +748,7 @@ Seleccione la pestaña **Versión**.
 
 Imagen 4. Pestaña Versión
 
-Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de ADempiere.
+Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image403.png)
 
@@ -790,7 +790,7 @@ Seleccione en el campo **Válido Desde**, la fecha de inicio del periodo de vali
 
 Imagen 10. Campo Válido Desde
 
-Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere.
+Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image409.png)
 
@@ -800,7 +800,7 @@ Seleccione la opción **Crear Lista de Precios**.
 
 Esta opción permite crear los precios de los productos desde la última orden de compra procesada, basandose en el tipo de conversión, descuento y margen de ganancia, previamente configurado en el esquema de descuento.
 
-Si los precios de los productos se encuentran en una moneda diferente a la moneda de la compañía, ADempiere toma los precios de la pestaña **Compras** de cada producto y en base a la moneda que este asociada a dicha pestaña y a la moneda de la lista de precios, toma la configuración del esquema de lista de precios, realizando la conversión a la tasa de la fecha que tenga la versión de lista de precios y aplica el descuento o margen de ganancia configurado en el mismo (si lo tiene), para finalmente cargar dichos precios a la lista de precios.
+Si los precios de los productos se encuentran en una moneda diferente a la moneda de la compañía, Solop ERP toma los precios de la pestaña **Compras** de cada producto y en base a la moneda que este asociada a dicha pestaña y a la moneda de la lista de precios, toma la configuración del esquema de lista de precios, realizando la conversión a la tasa de la fecha que tenga la versión de lista de precios y aplica el descuento o margen de ganancia configurado en el mismo (si lo tiene), para finalmente cargar dichos precios a la lista de precios.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image410.png)
 
@@ -808,7 +808,7 @@ Imagen 12. Opción Crear Lista de Precios
 
 Note
 
-También puede acceder al proceso, seleccionando la opción **Crear Lista de Precios** desplegada del icono \*\*Proceso ubicado en la barra de herramientas de ADempiere.
+También puede acceder al proceso, seleccionando la opción **Crear Lista de Precios** desplegada del icono \*\*Proceso ubicado en la barra de herramientas de Solop ERP.
 
 Podrá visualizar la ventana **Crear Lista de Precios**, con diferentes campos que permiten generar la lista de precios en base a lo requerido por el usuario.
 
@@ -892,11 +892,11 @@ Ejemplo:
 
 ## Crear Entradas de Productos en Lista de Precios
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Materiales**, luego seleccione la carpeta **Reglas de Gestión de Materiales**, por último seleccione la ventana **Lista de Precios**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Materiales**, luego seleccione la carpeta **Reglas de Gestión de Materiales**, por último seleccione la ventana **Lista de Precios**.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image419.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana **Lista de Precios**, donde debe ubicar el registro de la lista de precios a utilizar.
 
@@ -916,13 +916,13 @@ Seleccione ĺa opción **Crear Entradas de Productos en Lista de Precios**, para
 
 Imagen 4. Opción Crear Entradas de Productos en Lista de Precios
 
-También puede acceder al proceso, seleccionando la opción **Crear Entradas de Productos en Lista de Precios** desplegada del icono \*\*Proceso ubicado en la barra de herramientas de ADempiere.
+También puede acceder al proceso, seleccionando la opción **Crear Entradas de Productos en Lista de Precios** desplegada del icono \*\*Proceso ubicado en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image423.png)
 
 Imagem 5. Opción Crear Entradas de Productos en Lista de Precios desde el Icono Proceso
 
-Podrá visualizar la ventana del proceso, donde debe seleccionar la opción **Comenzar Búsqueda** para buscar los productos registrados en ADempiere.
+Podrá visualizar la ventana del proceso, donde debe seleccionar la opción **Comenzar Búsqueda** para buscar los productos registrados en Solop ERP.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image424.png)
 
@@ -948,7 +948,7 @@ Luego de ingresar todos los precios de los productos requeridos, seleccione la o
 
 Imagen 7. Opción OK para Cargar Precios
 
-Seleccione el icono **Refrescar**, ubicado en la barra de herramientas de ADempiere, para cargar a la pestaña **Precio Producto**, la información ingresada en la ventana del proceso **Crear Entradas de Productos en Lista de Precios**.
+Seleccione el icono **Refrescar**, ubicado en la barra de herramientas de Solop ERP, para cargar a la pestaña **Precio Producto**, la información ingresada en la ventana del proceso **Crear Entradas de Productos en Lista de Precios**.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image427.png)
 

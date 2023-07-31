@@ -6,18 +6,18 @@ star: 9
 sticky: 9
 tag:
 
-  - Reportes de ADempiere
+  - Reportes de Solop ERP
 article: false
 ---
 
 **Detalle de Caja**
 ===================
 
-Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Diario de Caja**", por último seleccione el reporte "**Detalle de Caja**".
+Ubique y seleccione en el menú de Solop ERP, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Diario de Caja**", por último seleccione el reporte "**Detalle de Caja**".
 
 ![menú de detalle de caja](/assets/img/docs/lve/report/resources/box-detail-menu.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana del reporte "**Detalle de Caja**", con diferentes campos que le permiten al usuario filtrar la información del reporte en base a lo requerido por el mismo.
 
