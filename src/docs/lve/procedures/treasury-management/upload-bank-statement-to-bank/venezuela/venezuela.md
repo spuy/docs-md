@@ -14,14 +14,14 @@ article: false
 **Banco de Venezuela**
 ======================
 
-Para la exportación de los archivos desde ADempiere al banco de venezuela, [ERPyA](http://erpya.com) soporta el siguiente formato facilitado por el banco, que puede ser descargado. El documento [Formato Archivo de Pago a Proveedores](FormatoDeArchivoPagoProveedores.pdf), explica el formato que sirve de ayuda para la construcción el archivo a cargar.
+Para la exportación de los archivos desde Solop ERP al banco de venezuela, [Solop ERP](https://ayuda.solopapp.com/) soporta el siguiente formato facilitado por el banco, que puede ser descargado. El documento [Formato Archivo de Pago a Proveedores](FormatoDeArchivoPagoProveedores.pdf), explica el formato que sirve de ayuda para la construcción el archivo a cargar.
 
 Adicional a ello, cuenta con los documentos [Registro y Formato de Cheques](Venezuela_Verificación.xlsx) y [Registro y Formato de Cheque](Venezuela.xlsx).
 
 **Archivo para Pagos**
 ----------------------
 
-Al ejecutar el proceso de selección de pago de las siguientes facturas en ADempiere:
+Al ejecutar el proceso de selección de pago de las siguientes facturas en Solop ERP:
 
 - Factura "**1000162**" al socio del negocio "**Estándar**" por monto total de "**1.500.000,00**".
 - Factura "**1000163**" al socio del negocio "**Estándar**" por monto total de "**2.500.000,00**".

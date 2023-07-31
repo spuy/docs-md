@@ -15,7 +15,7 @@ article: false
 **Orden de Compra Obligación Laboral**
 =======================================
 
-La orden de compra obligación laboral se realiza cuando queremos registrar el pago de algún servicio solicitado para el personal como capacitación, adiestramiento, alimentación de personal, entre otros, el cual  fue adquirido por el departamento de recursos humanos y así solicitar al departamento de cuenta por pagar la cancelación del mismo al proveedor. Por ello, ADempiere configura cargos con la finalidad de que le ayuden a expresar realmente el servicio que desea cancelar.
+La orden de compra obligación laboral se realiza cuando queremos registrar el pago de algún servicio solicitado para el personal como capacitación, adiestramiento, alimentación de personal, entre otros, el cual  fue adquirido por el departamento de recursos humanos y así solicitar al departamento de cuenta por pagar la cancelación del mismo al proveedor. Por ello, Solop ERP configura cargos con la finalidad de que le ayuden a expresar realmente el servicio que desea cancelar.
 
 - Para registrar una orden de compra obligación laboral se puede seguir con los datos que se registraron en el proceso documento **''orden de compra''**. Con los siguientes datos adicionales que se detallan a continuación.
 
@@ -29,7 +29,7 @@ Seleccione en la ventana principal de la orden de compra el tipo de documento qu
 
 - Orden de compra Obligación Laboral: Este tipo de documento lo utilizamos cuando necesitamos representar el gasto que es asignado al empleado para el pago de cualquier obligación que este estipulado por la legislación venezolana, por ejemplo el pago de guarderias.
 
-- Recuerde que para este caso el tipo de documento determina la acción que realiza ese documento dentro de ADempiere y también determina  que pueda visualizar los diferentes cargos que tiene asociado ese tipo de documento.
+- Recuerde que para este caso el tipo de documento determina la acción que realiza ese documento dentro de Solop ERP y también determina  que pueda visualizar los diferentes cargos que tiene asociado ese tipo de documento.
 
 ![Tipo de Documento](/assets/img/docs/lve/procedures/human-resources/purchase-order-labor-obligation/resources/obligacionlaboral.png)
 
@@ -39,7 +39,7 @@ Imagen 1. Seleccione el Tipo de Documento con el que registrará su documento.
 
 - Seleccione en el campo “**Cargo**”, el nombre del cargo que desea registrar
 
-En ADempiere un cargo representa un servicio, quiere decir que no contabiliza en su inventario, entre los cargos que dispone ADempiere podemos mencionar los siguientes:
+En Solop ERP un cargo representa un servicio, quiere decir que no contabiliza en su inventario, entre los cargos que dispone Solop ERP podemos mencionar los siguientes:
 
     - Adiestramiento de Personal
     - Alimentación (Extra-Tiempos) de Personal

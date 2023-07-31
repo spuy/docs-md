@@ -13,13 +13,13 @@ article: false
 **Retenciones Estimadas de Orden de Compra**
 ============================================
 
-Realice el procedimiento regular para registrar una orden de compra en ADempiere.
+Realice el procedimiento regular para registrar una orden de compra en Solop ERP.
 
 ![registro de orden de compra](/assets/img/docs/lve/procedures/withholding-management/resources/purchase-order-record.png)
 
 Imagen 1. Registro de Orden de Compra
 
-Luego de completar el registro de la orden de compra, seleccione el icono "**Proceso**" ubicado en la barra de herramientas de ADempiere.
+Luego de completar el registro de la orden de compra, seleccione el icono "**Proceso**" ubicado en la barra de herramientas de Solop ERP.
 
 ![icono proceso de la orden de compra](/assets/img/docs/lve/procedures/withholding-management/resources/purchase-order-process-icon.png)
 
@@ -61,4 +61,4 @@ La opción "**Retención Generada**" muestra el documento de estimación de rete
 
 Imagen 8. Opción Retención Generada
 
-ADempiere le genera al usuario por medio del icono "**Visualiza Detalle**", las alertas donde indica cuales fueron las retenciones aplicadas (**Retención Generada**) y cuales retenciones no fueron aplicadas (**Log**) según la configuración que tiene un socio del negocio determinado.
+Solop ERP le genera al usuario por medio del icono "**Visualiza Detalle**", las alertas donde indica cuales fueron las retenciones aplicadas (**Retención Generada**) y cuales retenciones no fueron aplicadas (**Log**) según la configuración que tiene un socio del negocio determinado.

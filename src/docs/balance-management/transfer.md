@@ -6,9 +6,9 @@ sticky: 9
 article: false
 ---
 
-Una transferencia bancaria en ADempiere es el proceso mediante el cual se realizan los traslados de fondos entre cuentas, para simular y reflejar en ADempiere los movimientos realizados en los bancos reales, el procedimiento reflejará en la cuenta **Banco Desde**, un egreso y a su vez un ingreso en la cuenta **Banco Hasta**.
+Una transferencia bancaria en Solop ERP es el proceso mediante el cual se realizan los traslados de fondos entre cuentas, para simular y reflejar en Solop ERP los movimientos realizados en los bancos reales, el procedimiento reflejará en la cuenta **Banco Desde**, un egreso y a su vez un ingreso en la cuenta **Banco Hasta**.
 
-El presente material elaborado por **ERPyA**, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar una transferencia bancaria en ADempiere, en su versión 3.9.2 para la localización Venezuela.
+El presente material elaborado por **Solop ERP**, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar una transferencia bancaria en Solop ERP, en su versión 3.9.2 para la localización Venezuela.
 
 - Registro de Transferencia Bancaria
   - Consultar Egreso Generado de la Transferencia Bancaria
@@ -17,13 +17,13 @@ El presente material elaborado por **ERPyA**, pretende ofrecerle una explicació
 
 ## Registro de Transferencia Bancaria
 
-Para realizar una transferencia bancaria en ADempiere deben seguir los siguientes pasos:
+Para realizar una transferencia bancaria en Solop ERP deben seguir los siguientes pasos:
 
-Ubique yseleccione en el menú de ADempiere, la carpeta **Gestión de Saldos Pendientes**, luego seleccione el proceso **Transferencia Bancaria**.
+Ubique yseleccione en el menú de Solop ERP, la carpeta **Gestión de Saldos Pendientes**, luego seleccione el proceso **Transferencia Bancaria**.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image369.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana del proceso **Transferencia Bancaria** y proceder al llenado de los campos correspondientes.
 
@@ -123,7 +123,7 @@ Si desea que los pagos/cobros que se generen de esta transferencia bancarias se 
 
 Imagen 14. Campo Conciliar Automáticamente
 
-Seleccione la opción **OK**, para generar en ADempiere la transferencia entre cuentas bancarias.
+Seleccione la opción **OK**, para generar en Solop ERP la transferencia entre cuentas bancarias.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image383.png)
 
@@ -179,7 +179,7 @@ Si en el campo **Documento Destino** de la transferencia bancaria no se colocó 
 
 ## Transferencia Bancaria de Nómina
 
-Luego de completar la selección de pago y de generar los pagos de nómina en la ventana imprimir exportar pagos procedemos a realizar la transferencia bancaria, ubicamos en el menú de ADempiere, la carpeta **Gestión de Saldos Pendientes**, luego seleccione **Transferencia Bancaria**. Este proceso es realizado con la finalidad que la empresa cancele a la cuenta de caja el monto total cancelado a los empleados por la nómina procesada.
+Luego de completar la selección de pago y de generar los pagos de nómina en la ventana imprimir exportar pagos procedemos a realizar la transferencia bancaria, ubicamos en el menú de Solop ERP, la carpeta **Gestión de Saldos Pendientes**, luego seleccione **Transferencia Bancaria**. Este proceso es realizado con la finalidad que la empresa cancele a la cuenta de caja el monto total cancelado a los empleados por la nómina procesada.
 
 Cabe acotar que debe realizar la transferencia según el monto transferido a cada empleado
 

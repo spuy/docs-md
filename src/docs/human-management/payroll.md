@@ -6,7 +6,7 @@ sticky: 9
 article: false
 ---
 
-El presente material elaborado por **ERPyA** pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de realizar los procedimientos correspondientes a nómina en la versión 3.9.2 de ADempiere en la localización Venezuela.
+El presente material elaborado por **Solop ERP** pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de realizar los procedimientos correspondientes a nómina en la versión 3.9.2 de Solop ERP en la localización Venezuela.
 
 - Proceso de Nómina
   - Registro de Nómina
@@ -19,19 +19,19 @@ El presente material elaborado por **ERPyA** pretende ofrecerle una explicación
 
 ## Proceso de Nómina
 
-El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de procesar la nómina en la versión 3.9.2 de ADempiere en la localización Venezuela.
+El presente material elaborado por Solop ERP pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de procesar la nómina en la versión 3.9.2 de Solop ERP en la localización Venezuela.
 
 Registro de Nómina
 
 ### Registro de Nómina
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Recursos Humanos y Nómina**, luego seleccione la carpeta **Nómina**, por último seleccione la ventana **Proceso Nómina**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Recursos Humanos y Nómina**, luego seleccione la carpeta **Nómina**, por último seleccione la ventana **Proceso Nómina**.
 
 ![Campo](/assets/img/docs/human-management/hum-human-image1.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
-Podrá visualizar la ventana **Proceso Nómina**, donde debe seleccionar el icono **Registro Nuevo** ubicado en la barra de herramientas de ADempiere, para crear un nuevo registro de proceso de nómina.
+Podrá visualizar la ventana **Proceso Nómina**, donde debe seleccionar el icono **Registro Nuevo** ubicado en la barra de herramientas de Solop ERP, para crear un nuevo registro de proceso de nómina.
 
 ![Campo](/assets/img/docs/human-management/hum-human-image2.png)
 
@@ -57,7 +57,7 @@ Imagen 5. Campo Tipo de Documento Destino
 
 Note
 
-Los tipos de documentos de nómina se encuentran agrupados según su comportamiento, la Nominas Semanal y la Nómina Semanal Mixta se encuentran definidas en el Tipo de Documento **Nómina Semanal**. De igual forma ocurre con las diferentes nóminas regulares utilizadas en ADempiere.
+Los tipos de documentos de nómina se encuentran agrupados según su comportamiento, la Nominas Semanal y la Nómina Semanal Mixta se encuentran definidas en el Tipo de Documento **Nómina Semanal**. De igual forma ocurre con las diferentes nóminas regulares utilizadas en Solop ERP.
 
 Seleccione en el campo **Fecha Contable**, la fecha correspondiente a la fecha final del periodo de la nómina seleccionada, es decir la fecha hasta ingresada en el campo **Nombre**.
 
@@ -99,7 +99,7 @@ Seleccione en el campo **Tipo de Conversión**, el tipo de conversión correspon
 
 Imagen 11. Campo Tipo de Conversión
 
-Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere para guardar el registro de los campos de la ventana **Proceso Nómina**.
+Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP para guardar el registro de los campos de la ventana **Proceso Nómina**.
 
 ![Campo](/assets/img/docs/human-management/hum-human-image12.png)
 
@@ -127,17 +127,17 @@ Imagen 15. Selección de la acción Completar y la opción OK.
 
 Las novedades de nómina son todas aquellas incidencias que se deben cargar en la nómina de cada uno de los empleados.
 
-El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de registrar las novedades a los empleados, en la versión 3.9.2 de ADempiere en la localización Venezuela.
+El presente material elaborado por Solop ERP pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de registrar las novedades a los empleados, en la versión 3.9.2 de Solop ERP.
 
 Registro de Incidencias
 
 ### Registro de Incidencias
 
-Seleccione en el menú de ADempiere, la carpeta **Gestión de Recursos Humanos y Nómina**, luego seleccione la carpeta **Nómina**, por último seleccione la ventana **Novedades de Nómina**.
+Seleccione en el menú de Solop ERP, la carpeta **Gestión de Recursos Humanos y Nómina**, luego seleccione la carpeta **Nómina**, por último seleccione la ventana **Novedades de Nómina**.
 
 ![Campo](/assets/img/docs/human-management/hum-human-image16.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Seleccione en el campo **Proceso Nómina**, el proceso de nómina actual al cual le cargará las incidencias de los empleados. Dicho proceso se encuentra explicado en el documento Registro de Nómina elaborado por ERPyA.
 
@@ -201,7 +201,7 @@ Imagen 9. Incidencia Generada
 
 ## Pagos de Nómina
 
-El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de generar los pagos de nómina en la versión 3.9.2 de ADempiere en la localización Venezuela.
+El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de generar los pagos de nómina en la versión 3.9.2 de Solop ERP en la localización Venezuela.
 
 Registro de Pagos de Nómina
 
@@ -217,21 +217,21 @@ Proceda a realizar una **Transferencia Bancaria** donde reintegre el dinero que 
 
 Por último y para culminar el proceso de pago de nómina debe realizar un cierre de caja con la finalidad de conciliar los ingresos y egresos de nuestra **Caja en Tránsito de Nómina**, para ello debe cumplir los pasos que se detallan en el siguiente documento Cierre de Caja Nómina.
 
-Una vez finalizado y completado cada uno de estos procesos se da por culminado el registro de pagos de nómina en ADempiere.
+Una vez finalizado y completado cada uno de estos procesos se da por culminado el registro de pagos de nómina en Solop ERP.
 
 ## Reporte de Nómina
 
-El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de generar los reportes de nómina en la versión 3.9.2 de ADempiere en la localización Venezuela.
+El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de generar los reportes de nómina en la versión 3.9.2 de Solop ERP en la localización Venezuela.
 
 Generar Reporte de Nómina
 
 ### Generar Reporte de Nómina
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Recursos Humanos y Nómina**, luego seleccione la carpeta **Nómina**, por último seleccione la carpeta **Reporte de Nómina**, para posteriormente seleccionar el **Reporte de Nómina**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Recursos Humanos y Nómina**, luego seleccione la carpeta **Nómina**, por último seleccione la carpeta **Reporte de Nómina**, para posteriormente seleccionar el **Reporte de Nómina**.
 
 ![Campo](/assets/img/docs/human-management/hum-human-image25.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar en la ventana **Reporte de Nómina**, los diferentes campos que permiten generar el reporte de nómina de acuerdo a lo requerido por el usuario en su momento. Cabe destacar que estos campos son filtros los cuales nos permiten obtener la información más precisa del reporte que deseamos visualizar. No es obligatorio llenar todos campos, usted escogerá los que más se adapten a la información que usted desea obtener. A continuación se detallan cada uno de ellos
 
@@ -325,7 +325,7 @@ Seleccionar la opción **OK**, ubicada en la parte inferior derecha de la ventan
 
 Imagen 15. Opción Ok para Generar el Reporte
 
-El reporte que se visualiza a continuación es un **Recibo de Pago**. Es una de los tipos de reporte que encontrará en Adempiere.
+El reporte que se visualiza a continuación es un **Recibo de Pago**. Es una de los tipos de reporte que encontrará en Solop ERP.
 
 ![Campo](/assets/img/docs/human-management/hum-human-image40.png)
 

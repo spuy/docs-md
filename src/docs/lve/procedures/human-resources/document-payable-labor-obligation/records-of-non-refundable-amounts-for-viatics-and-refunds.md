@@ -14,7 +14,7 @@ article: false
 **Registros de Montos no Reembolsables para Viáticos y Reembolsos**
 ===================================================================
 
-Los montos no reembolsables son aquellos montos que no son reconocidos por la compañía puesto que el empleado se excedió del dinero otorgado para cubrir sus gastos de viáticos o reembolsos. En ADempiere los mismos se reflejan de la siguiente manera.
+Los montos no reembolsables son aquellos montos que no son reconocidos por la compañía puesto que el empleado se excedió del dinero otorgado para cubrir sus gastos de viáticos o reembolsos. En Solop ERP los mismos se reflejan de la siguiente manera.
 
 - Debe ubicar cual de las facturas presentadas por el empleado es la que le abulta el saldo que le fue otorgado a traves de la transferencia bancaria para el consumo de viáticos o reembolsos.
 

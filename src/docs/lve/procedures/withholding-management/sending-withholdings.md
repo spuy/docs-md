@@ -13,11 +13,11 @@ article: false
 **Enviar Retenciones**
 ======================
 
-Ubique y seleccione en el menú de ADempiere, la carpeta "**Manejo de Retenciones**", luego seleccione la ventana de búsqueda inteligente "**Enviar Retenciones**".
+Ubique y seleccione en el menú de Solop ERP, la carpeta "**Manejo de Retenciones**", luego seleccione la ventana de búsqueda inteligente "**Enviar Retenciones**".
 
 ![menú de envío de retenciones](/assets/img/docs/lve/procedures/withholding-management/resources/withholding-shipping-menu.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana de búsqueda inteligente "**Enviar Retenciones**", con diferentes campos que le permiten al usuario, filtrar la información para ejecutar el proceso en base a lo requerido por el mismo.
 
@@ -91,7 +91,7 @@ Podrá visualizar en la parte inferior izquierda de la ventana de búsqueda inte
 
 Imagen 13. Resultado del Proceso
 
-Finalmente, al acceder al correo electrónico y ubicar los mensajes enviados, podrá visualizar el correo enviado desde ADempiere.
+Finalmente, al acceder al correo electrónico y ubicar los mensajes enviados, podrá visualizar el correo enviado desde Solop ERP.
 
 ![correo enviado](/assets/img/docs/lve/procedures/withholding-management/resources/email-sent.png)
 

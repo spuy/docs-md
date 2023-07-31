@@ -14,13 +14,13 @@ article: false
 **Ejecución de la Estimación de Retenciones**
 ---------------------------------------------
 
-Realice el procedimiento regular para generar una factura de cuentas por cobrar, explicado en el documento ''Documento por cobrar'', elaborado por [ERPyA](http://erpya.com).
+Realice el procedimiento regular para generar una factura de cuentas por cobrar, explicado en el documento ''Documento por cobrar'', elaborado por [Solop ERP](https://ayuda.solopapp.com/m).
 
-Luego seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Facturas de Ventas**", por último seleccione la ventana "**Documento por Cobrar**".
+Luego seleccione en el menú de Solop ERP, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Facturas de Ventas**", por último seleccione la ventana "**Documento por Cobrar**".
 
 ![Menú de Factura por Cobrar](/assets/img/docs/lve/procedures/withholding-management/resources/invoice-receivable-menu.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 - Ubique el documento por cobrar al cual se le aplicará la retención de IVA, correspondiente a la factura de la venta realizada.
 
@@ -28,7 +28,7 @@ Imagen 1. Menú de ADempiere
 
 Imagen 2. Factura de Cuentas por Cobrar
 
-- Seleccione el icono "**Visualiza Detalle**", en la barra de herramientas de ADempiere para desplegar los diferentes registros donde es utilizado el documento, luego seleccione la opción "**Retención Generada**".
+- Seleccione el icono "**Visualiza Detalle**", en la barra de herramientas de Solop ERP para desplegar los diferentes registros donde es utilizado el documento, luego seleccione la opción "**Retención Generada**".
 
 ![Icono Visualiza Detalle](/assets/img/docs/lve/procedures/withholding-management/resources/icon-displays-detail.png)
 
@@ -36,7 +36,7 @@ Imagen 3. Icono Visualiza Detalle
 
 - La estimación de la retención se puede visualizar cuando el documento por cobrar se encuentre en estado "**Completo**".
 
-- Podrá visualizar la ventana "**Retención Generada**" con la estimación de la retención generada de manera automática por ADempiere.
+- Podrá visualizar la ventana "**Retención Generada**" con la estimación de la retención generada de manera automática por Solop ERP.
 
 ![Estimación de Retención de Cuentas por Cobrar](/assets/img/docs/lve/procedures/withholding-management/resources/accounts-receivable-retention-estimate.png)
 
@@ -74,11 +74,11 @@ Hasta este punto, solo se ve un precálculo o una estimación de la retención a
 **Generar Retención**
 ---------------------
 
-- Ubique y seleccione en el menú de ADempiere, la carpeta "**Manejo de Retenciones**", luego seleccione la ventana de búsqueda inteligente "**Generar Retenciones**".
+- Ubique y seleccione en el menú de Solop ERP, la carpeta "**Manejo de Retenciones**", luego seleccione la ventana de búsqueda inteligente "**Generar Retenciones**".
 
 ![menú generar retenciones de cuentas por cobrar](/assets/img/docs/lve/procedures/withholding-management/resources/menu-generate-accounts-receivable-withholdings.png)
 
-Imagen 9. Menú de ADempiere
+Imagen 9. Menú de Solop ERP
 
 Podrá visualizar la ventana "**Generar Retenciones**", con diferentes campos que permiten filtrar la búsqueda de los registros para generar las retenciones.
 
@@ -149,7 +149,7 @@ Seleccione la opción "**Comenzar Búsqueda**", para filtrar la información en 
 
 Imagen 20. Opción Comenzar Búsqueda
 
-Podrá visualizar los diferentes registros de estimaciones de retenciones generadas en ADempiere.
+Podrá visualizar los diferentes registros de estimaciones de retenciones generadas en Solop ERP.
 
 ![estimaciones de retenciones](/assets/img/docs/lve/procedures/withholding-management/resources/withholding-estimates.png)
 
@@ -164,7 +164,7 @@ Imagen 22. Selección de Registros para Retención
 Nota:
 El proceso permite seleccionar diferentes registros y generar una retención para todos.
 
-- Al seleccionar el registro, ADempiere permite modificar el monto de retención, en el campo "**Monto de Retención Convertido**".
+- Al seleccionar el registro, Solop ERP permite modificar el monto de retención, en el campo "**Monto de Retención Convertido**".
 
 ![campo monto de retención convertido](/assets/img/docs/lve/procedures/withholding-management/resources/converted-withholding-amount-field.png)
 
@@ -210,7 +210,7 @@ En la pestaña "**Línea de la Factura**", podrá visualizar un registro por cad
 
 Imagen 28. Líneas de la Retención
 
-Regrese a la pestaña principal "**Factura**" y seleccione en el icono "**Imprimir**" ubicado en la barra de herramientas de ADempiere, para visualizar el documento en PDF y poder imprimir el mismo.
+Regrese a la pestaña principal "**Factura**" y seleccione en el icono "**Imprimir**" ubicado en la barra de herramientas de Solop ERP, para visualizar el documento en PDF y poder imprimir el mismo.
 
 ![Icono Imprimir](/assets/img/docs/lve/procedures/withholding-management/resources/print-icon.png)
 
@@ -223,4 +223,4 @@ El PDF del documento "**Retención de IVA CxC**" quedaría de la siguiente maner
 Imagen 30. PDF del Documento Retención de IVA CxC
 
 Nota:
-El procedimiento para generar en ADempiere las retenciones de ISLR y municipales de cuentas por cobrar es el mismo explicado en el presente documento, tomando en cuenta las notas con relación a ellas en la descripción de los campos "**Tipo de Retención**" y "**Retención**".
+El procedimiento para generar en Solop ERP las retenciones de ISLR y municipales de cuentas por cobrar es el mismo explicado en el presente documento, tomando en cuenta las notas con relación a ellas en la descripción de los campos "**Tipo de Retención**" y "**Retención**".

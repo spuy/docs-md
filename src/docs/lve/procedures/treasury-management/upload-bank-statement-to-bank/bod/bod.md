@@ -14,7 +14,7 @@ article: false
 **Banco Occidental de Descuento**
 =================================
 
-Para la exportación de los archivos desde ADempiere al banco occidental de descuento, ERPyA_ soporta el siguiente formato facilitado por el banco, que puede ser descargado. El documento Formato Archivo Ordenes de Pago <EN-CP-E-0036_SOLICITUD_MASIVA_DE_ORDENES_DE_PAGOS__TXT_.xlsm>, explica el formato que sirve de ayuda para la construcción de los archivos a cargar.
+Para la exportación de los archivos desde Solop ERP al banco occidental de descuento, Solop ERP_ soporta el siguiente formato facilitado por el banco, que puede ser descargado. El documento Formato Archivo Ordenes de Pago <EN-CP-E-0036_SOLICITUD_MASIVA_DE_ORDENES_DE_PAGOS__TXT_.xlsm>, explica el formato que sirve de ayuda para la construcción de los archivos a cargar.
 
 Adicional a ello, se puede visualizar dicho documento de la siguiente manera, luego de descargarlo.
 
@@ -183,7 +183,7 @@ For the documents associated with the payment (TIPO=03), the following fields ar
 
 **Archivo para Pagos**
 
-Al ejecutar el proceso de selección de pago de las siguientes facturas en ADempiere:
+Al ejecutar el proceso de selección de pago de las siguientes facturas en Solop ERP:
 
 - Factura "**1000243**" al socio del negocio "**E.R.P. Consultores y Asociados, C.A.**" por monto total de "**15.000.000,00**".
 - Factura "**1000244**" al socio del negocio "**Dhl Express Aduanas Venezuela C.A.**" por monto total de "**1.845.895,87**".
@@ -211,7 +211,7 @@ La descripción del archivo anteriormente generado por el pago, se encuentra exp
 **BOD NÓNIMA**
 --------------
 
-[ERPyA](http://erpya.com) agrega soporte al siguiente formato de nómina facilitado por el banco, dicha actualización fue liberada en la versión ''versión 23.7'' de ADempiere. Para mayor información de la misma, puede consultar la nota de liberación indicada anteriormente.
+[ERPyA](http://erpya.com) agrega soporte al siguiente formato de nómina facilitado por el banco, dicha actualización fue liberada en la versión ''versión 23.7'' de Solop ERP. Para mayor información de la misma, puede consultar la nota de liberación indicada anteriormente.
 
 **Formato Archivo Beneficiarios de Pago (Del Cliente al Banco)**
 
@@ -289,7 +289,7 @@ NOTA:
 **Archivo para Pagos**
 
 
-Al ejecutar el proceso de selección de pago de la nómina quincenal "**NQ-13**" procesada en ADempiere, con los siguientes empleados:
+Al ejecutar el proceso de selección de pago de la nómina quincenal "**NQ-13**" procesada en Solop ERP, con los siguientes empleados:
 
 - Socio del Negocio "**Empleado Estándar**", con cédula de identidad "**000085007**", perteneciente a la nómina "**Quincenal**".
 - Socio del Negocio "**E.R.P. Consultores y Asociados, C.A.**", con cédula de identidad "**J400788315**", perteneciente a la nómina "**Quincenal**".

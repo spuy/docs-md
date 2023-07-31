@@ -6,7 +6,7 @@ sticky: 9
 article: false
 ---
 
-En ADempiere la utilería no es más que un conjunto de instrumentos o herramientas que tienen algún tipo de utilidad, es decir, que sirven para un fin en específico, a continuación se definen cada uno de ellos.
+En Solop ERP la utilería no es más que un conjunto de instrumentos o herramientas que tienen algún tipo de utilidad, es decir, que sirven para un fin en específico, a continuación se definen cada uno de ellos.
 
 **Buscar**: Le permitirá realizar una búsqueda de un documento en específico
 
@@ -14,7 +14,7 @@ En ADempiere la utilería no es más que un conjunto de instrumentos o herramien
 
 Imagen 1. Buscar
 
-**Calculadora:** En ADempiere contamos con una herramienta básica que le permitirá realizar una operación matemática dentro de un campo.
+**Calculadora:** En Solop ERP contamos con una herramienta básica que le permitirá realizar una operación matemática dentro de un campo.
 
 ![Calculadora](/assets/img/docs/basic-rules/bar-props-calculator.png)
 
@@ -32,7 +32,7 @@ Imagen 3. Reiniciar Cache
 
 Imagen 4. Reiniciar Contraseña
 
-**Flujo de Trabajo Activo:** Cuando se genera el siguiente mensaje como consecuencia de un flujo de trabajo activo en ADempiere.
+**Flujo de Trabajo Activo:** Cuando se genera el siguiente mensaje como consecuencia de un flujo de trabajo activo en Solop ERP.
 
 ![Flujo de Trabajo Activo](/assets/img/docs/basic-rules/bar-props-flow.png)
 

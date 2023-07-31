@@ -6,9 +6,9 @@ sticky: 9
 article: false
 ---
 
-ADempiere permite controlar el dinero que la empresa le asigna a sus trabajadores seleccionados, por medio de la caja creada a cada uno de ellos. El proceso **Caja Viáticos** es realizado con la finalidad de facilitar un dinero a un empleado y pueda ser utilizado para solventar situaciones de viajes laborales, por ende debe reflejarse en su caja correspondiente.
+Solop ERP permite controlar el dinero que la empresa le asigna a sus trabajadores seleccionados, por medio de la caja creada a cada uno de ellos. El proceso **Caja Viáticos** es realizado con la finalidad de facilitar un dinero a un empleado y pueda ser utilizado para solventar situaciones de viajes laborales, por ende debe reflejarse en su caja correspondiente.
 
-El presente material elaborado por ERPyA, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar en ADempiere viáticos de personal, en su versión 3.9.2 para la localización Venezuela.
+El presente material elaborado por Solop ERP, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar en Solop ERP viáticos de personal, en su versión 3.9.2 para la localización Venezuela.
 
 - Registro de Caja Viáticos
   - Viáticos Igual al Gasto
@@ -19,7 +19,7 @@ El presente material elaborado por ERPyA, pretende ofrecerle una explicación ef
 
 En el registro de caja viáticos de una empresa u organización, se pueden presentar diversos acontecimientos que permiten ejecutar el proceso de diferentes maneras. Siendo uno de ellos, el registro de caja viáticos cuando el monto de los viáticos resulta igual que el monto de los gastos. Otro caso puede ser, cuando el monto de los viáticos resulta mayor al monto de los gastos. Finalmente, se puede presentar el caso en el que el monto de los viáticos resulta menor al monto de los gastos.
 
-ADempiere permite controlar la caja viáticos en cualquiera de los acontecimientos expuestos anteriormente, para ello se debe seguir los procedimientos que se presentan a continuación.
+Solop ERP permite controlar la caja viáticos en cualquiera de los acontecimientos expuestos anteriormente, para ello se debe seguir los procedimientos que se presentan a continuación.
 
 ### Viáticos Igual al Gasto
 
@@ -51,7 +51,7 @@ Imagen 3. Ingreso a Caja por Viáticos
 
 #### Relación de Facturas
 
-Se realiza la relación de factura por el monto correspondiente. Para ello, se debe ejecutar el procedimiento explicado en el documento Relación de Facturas o Justificación de Gastos, elaborado por ERPyA.
+Se realiza la relación de factura por el monto correspondiente. Para ello, se debe ejecutar el procedimiento explicado en el documento Relación de Facturas o Justificación de Gastos, elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image395.png)
 
@@ -147,7 +147,7 @@ Imagen 13. Ingreso a Banco por Excedente de Viáticos
 
 #### Completar Cierre de Caja
 
-Ubique el registro del cierre de caja **CCV-2**, generado anteriormente en estado **Borrador** y seleccione la opción **Crear a Partir de Caja**, para seleccionar el registro de la transferencia bancaria realizada con el excedente de los viáticos. Finalmente, complete el cierre de caja para llevar la caja viáticos a su saldo inicial. Recuerde que el procedimiento regular para generar un cierre de caja, se encuentra explicado en el documento Registro de Cierre de Caja, elaborado por ERPyA.
+Ubique el registro del cierre de caja **CCV-2**, generado anteriormente en estado **Borrador** y seleccione la opción **Crear a Partir de Caja**, para seleccionar el registro de la transferencia bancaria realizada con el excedente de los viáticos. Finalmente, complete el cierre de caja para llevar la caja viáticos a su saldo inicial. Recuerde que el procedimiento regular para generar un cierre de caja, se encuentra explicado en el documento Registro de Cierre de Caja, elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image404.png)
 
@@ -163,7 +163,7 @@ El proceso de registro de caja viáticos para el caso en el que el monto total d
 
 ### Transferencia Bancaria por Viáticos
 
-Se realiza la transferencia bancaria a caja viáticos por el monto correspondiente. Para ello, se debe ejecutar el procedimiento explicado en el documento Registro de Transferencia Bancaria, elaborado por ERPyA.
+Se realiza la transferencia bancaria a caja viáticos por el monto correspondiente. Para ello, se debe ejecutar el procedimiento explicado en el documento Registro de Transferencia Bancaria, elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image405.png)
 
@@ -187,7 +187,7 @@ Imagen 17. Ingreso a Caja por Viáticos
 
 ### Relación de Facturas
 
-Se realiza la relación de factura por el monto correspondiente. Para ello, se debe ejecutar el procedimiento explicado en el documento Registros de Montos no Reembolsables para Viáticos y Reembolsos. Finalmente, se debe ejecutar el procedimiento explicado en el documento Relación de Facturas o Justificación de Gastos, elaborado por ERPyA.
+Se realiza la relación de factura por el monto correspondiente. Para ello, se debe ejecutar el procedimiento explicado en el documento Registros de Montos no Reembolsables para Viáticos y Reembolsos. Finalmente, se debe ejecutar el procedimiento explicado en el documento Relación de Facturas o Justificación de Gastos, elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image408.png)
 
@@ -195,7 +195,7 @@ Imagen 18. Relación de Facturas de Gastos
 
 ### Cierre de Caja En Borrador
 
-Realice el procedimiento regular para generar un cierre de caja, explicado en el documento Registro de Cierre de Caja, elaborado por ERPyA, seleccionando la cuenta **Caja Viáticos** y el tipo de documento **Cierre de Caja Viáticos**.
+Realice el procedimiento regular para generar un cierre de caja, explicado en el documento Registro de Cierre de Caja, elaborado por Solop ERP, seleccionando la cuenta **Caja Viáticos** y el tipo de documento **Cierre de Caja Viáticos**.
 
 Note
 
@@ -219,7 +219,7 @@ Imagen 20. Registro de Caja con Cargo
 
 ### Completar Cierre de Caja
 
-Ubique el registro del cierre de caja **CCV-3**, generado anteriormente en estado **Borrador** y seleccione la opción **Crear a Partir de Caja**, para seleccionar el registro de la caja realizada con el monto gastado de más. Finalmente, complete el cierre de caja para llevar la caja viáticos a su saldo inicial. Recuerde que el procedimiento regular para generar un cierre de caja, se encuentra explicado en el documento Registro de Cierre de Caja, elaborado por ERPyA.
+Ubique el registro del cierre de caja **CCV-3**, generado anteriormente en estado **Borrador** y seleccione la opción **Crear a Partir de Caja**, para seleccionar el registro de la caja realizada con el monto gastado de más. Finalmente, complete el cierre de caja para llevar la caja viáticos a su saldo inicial. Recuerde que el procedimiento regular para generar un cierre de caja, se encuentra explicado en el documento Registro de Cierre de Caja, elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image411.png)
 

@@ -14,12 +14,12 @@ article: false
 **Banco Nacional de Crédito**
 =============================
 
-Para la exportación de los archivos desde ADempiere al banco nacional de crédito, [ERPyA](http://erpya.com) soporta el siguiente formato facilitado por el banco, que puede ser descargado para su análisis y adaptación.
+Para la exportación de los archivos desde Solop ERP al banco nacional de crédito, [Solop ERP](https://ayuda.solopapp.com/) soporta el siguiente formato facilitado por el banco, que puede ser descargado para su análisis y adaptación.
 El banco cuenta con los documentos [Estructura TxT BNC](BNC_Estructura_TXT_RegPagos_2014.pdf)
 
 **Archivo para Pagos de Proveedores**
 
-Al ejecutar el proceso de selección de pago de las siguientes facturas en ADempiere:
+Al ejecutar el proceso de selección de pago de las siguientes facturas en Solop ERP:
 
 - Factura "**10007371**" al socio del negocio "**Proveedor Estándar**" por monto total de "**1.392,00**".
 - Factura "**10007381**" al socio del negocio "**Proveedor Estándar**" por monto total de "**1.554,00**".
@@ -79,7 +79,7 @@ Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en 
 
 **Archivo para Pagos de Nómina**
 
-Al ejecutar el proceso de selección de pago de la nómina quincenal "**NQ-19**" procesada en ADempiere, con los siguientes empleados:
+Al ejecutar el proceso de selección de pago de la nómina quincenal "**NQ-19**" procesada en Solop ERP, con los siguientes empleados:
 
 - Socio del Negocio "**Empleado Estándar Uno**", con cédula de identidad "**V000000001**", perteneciente a la nómina "**Quincenal**".
 - Socio del Negocio "**Empleado Estándar Dos**", con cédula de identidad "**V000000002**", perteneciente a la nómina "**Quincenal**".

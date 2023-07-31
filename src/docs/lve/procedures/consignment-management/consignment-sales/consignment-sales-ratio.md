@@ -12,13 +12,13 @@ article: false
 
 ## Relación de Ventas en Consignación
 
-Para la relación de las ventas en consignación, es obligatoria la configuración de las mismas. Dicha configuración se encuentra explicada en el material ''configuración de ventas en consignación'', elaborado por [ERPyA](http://erpya.com) y deben ser cumplidas de manera obligatoria para garantizar el correcto funcionamiento del procedimiento de ventas en consignación.
+Para la relación de las ventas en consignación, es obligatoria la configuración de las mismas. Dicha configuración se encuentra explicada en el material ''configuración de ventas en consignación'', elaborado por [Solop ERP](https://ayuda.solopapp.com/) y deben ser cumplidas de manera obligatoria para garantizar el correcto funcionamiento del procedimiento de ventas en consignación.
 
 Adicional a ello, la venta no debe estar incluida en ningún documento por pagar. De lo contrario, el registro no podrá ser visualizado al momento ser cargada la información a la pestaña "**Línea de Factura**", de la ventana "**Documentos por Pagar**".
 
-Luego de las modificaciones realizadas por [ERPyA](http://erpya.com) no es necesario realizar un documento por pagar (pre-factura), para relacionar la venta o uso interno de los productos en consignación. Si se requiere relacionar al proveedor o simplemente consultar las mismas, se puede generar el "**Reporte de Detalle de Consignación**".
+Luego de las modificaciones realizadas por [Solop ERP](https://ayuda.solopapp.com/) no es necesario realizar un documento por pagar (pre-factura), para relacionar la venta o uso interno de los productos en consignación. Si se requiere relacionar al proveedor o simplemente consultar las mismas, se puede generar el "**Reporte de Detalle de Consignación**".
 
-Para ejemplificar el caso se tienen los siguientes productos en consignación del proveedor "**E.R.P. Consultores y Asociados, C.A.**"
+Para ejemplificar el caso se tienen los siguientes productos en consignación del proveedor "**Solop ERP**"
 
     - 01-Tap            Tapabocas
     - 01-TerCont        Termos Contigo
@@ -43,7 +43,7 @@ Imagen 1. Reporte de Detalle de Consignación
 
 La factura de cuentas por pagar debe ser registrada cuando el proveedor realiza la entrega de la misma a cuentas por pagar. Si el proveedor hace entrega de más de una factura, se debe realizar por cada una de ellas, el procedimiento que se explica a continuación.
 
-Se debe crear en ADempiere, las facturas entregadas por el proveedor exactamente iguales.
+Se debe crear en Solop ERP, las facturas entregadas por el proveedor exactamente iguales.
 
 ### El documento por pagar deber ser creado bajo las restricciones contempladas en la factura entregada por el proveedor
 
@@ -55,7 +55,7 @@ Se debe crear en ADempiere, las facturas entregadas por el proveedor exactamente
 - Seleccione en el campo "**Tipo de Conversión**", el tipo de conversión establecido entre la organización y el proveedor.
 - Introduzca en el campo "**Nro de Control**", el número de control que contiene la factura entregada por el proveedor.
 
-- Luego de cargar la información necesaria en la pestaña principal "**Factura**", seleccione el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere.
+- Luego de cargar la información necesaria en la pestaña principal "**Factura**", seleccione el icono "**Proceso**", ubicado en la barra de herramientas de Solop ERP.
 
 ![icono proceso de la ventana documentos por pagar](/assets/img/docs/lve/procedures/consigment-management/consignment-sales/resources/window-process-icon-documents-payable.png)
 
@@ -132,7 +132,7 @@ Imagen 10. Selección de Registros
 
 Imagen 11. Opción OK
 
-Seleccione el icono "**Refrescar**", ubicado en la barra de herramientas de ADempiere, para actualizar la ventana "**Documentos por Pagar**" y se pueda visualizar la información cargada desde el proceso.
+Seleccione el icono "**Refrescar**", ubicado en la barra de herramientas de Solop ERP, para actualizar la ventana "**Documentos por Pagar**" y se pueda visualizar la información cargada desde el proceso.
 
 ![icono refrescar](/assets/img/docs/lve/procedures/consigment-management/consignment-sales/resources/refresh-icon.png)
 
@@ -152,7 +152,7 @@ Imagen 14. Pestaña Principal Factura
 
 - Si se requiere cambiar el tipo de conversión, es necesario recalcular la tasa para las líneas de la factura. Para ello, se debe realizar el siguiente procedimiento:
 
-  - Seleccione el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere
+  - Seleccione el icono "**Proceso**", ubicado en la barra de herramientas de Solop ERP
 
   - Seleccione la opción "**Recalcular Tasa para Líneas de Factura**", para recalcular los precios de los productos que contiene el documento por pagar, en base a la lista de precios y tipo de conversión seleccionada anteriormente.
 
@@ -160,7 +160,7 @@ Imagen 14. Pestaña Principal Factura
 
 - Seleccione la opción "**OK**", para ejecutar el proceso.
 
-Seleccione el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere.
+Seleccione el icono "**Proceso**", ubicado en la barra de herramientas de Solop ERP.
 
 ![icono proceso de la ventana documentos por pagar](/assets/img/docs/lve/procedures/consigment-management/consignment-sales/resources/window-process-icon-documents-payable.png)
 

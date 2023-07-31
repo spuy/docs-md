@@ -14,14 +14,14 @@ article: false
 **Banco del Caribe**
 ====================
 
-Para la exportación de los archivos desde ADempiere al banco del caribe, [ERPyA](http://erpya.com) soporta los siguientes formatos facilitados por el banco, que pueden ser descargados para su análisis y adaptación.
+Para la exportación de los archivos desde Solop ERP al banco del caribe, [Solop ERP](https://ayuda.solopapp.com/) soporta los siguientes formatos facilitados por el banco, que pueden ser descargados para su análisis y adaptación.
 
 El banco cuenta con el documento [Estructura del txt de Bancaribe](Estuctura_TXT_Bancaribe.pdf), que explica algunos formatos que sirven de ayuda para la construcción el archivo a cargar.
 
 **Archivo para Pagos a Otros Bancos**
 -------------------------------------
 
-Al ejecutar el proceso de selección de pago de las siguientes facturas en ADempiere:
+Al ejecutar el proceso de selección de pago de las siguientes facturas en Solop ERP:
 
 - Factura "**1000107**" al socio del negocio "**Estándar**" por monto total de "**1.000.000,00**".
 - Factura "**1000108**" al socio del negocio "**Dhl Express Aduanas Venezuela C.A.**" por monto total de "**4.000.000,00**".
@@ -50,7 +50,7 @@ Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en 
 **Archivo para Pagos del Mismo Banco del Caribe**
 -------------------------------------------------
 
-Al ejecutar el proceso de selección de pago de las siguientes facturas en ADempiere:
+Al ejecutar el proceso de selección de pago de las siguientes facturas en Solop ERP:
 
 - Factura "**1000112**" al socio del negocio "**Estándar**" por monto total de "**1.000.000,00**".
 - Factura "**1000113**" al socio del negocio "**Dhl Express Aduanas Venezuela C.A.**" por monto total de "**4.000.000,00**".

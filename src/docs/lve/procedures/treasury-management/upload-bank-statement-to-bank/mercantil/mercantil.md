@@ -14,7 +14,7 @@ article: false
 **Banco Mercantil**
 ===================
 
-Para la exportación de los archivos desde ADempiere al banco mercantil, `ERPyA`_ soporta los siguientes formatos facilitados por el banco, que pueden ser descargados para su análisis y adaptación.
+Para la exportación de los archivos desde Solop ERP al banco mercantil, `Solop ERP`_ soporta los siguientes formatos facilitados por el banco, que pueden ser descargados para su análisis y adaptación.
 
 El banco cuenta con los documentos [Contrato Pago a Proveedores](CONTRATO_PAGO_A_PROVEEDORES.doc), [Formato Estructura Nómina](FORMATO_ESTRUCTURA_NOMINA_.doc), [Formato Estructura Proveedores](FORMATO_ESTRUCTURA_PROVEEDORES.xls), [Formato Mercantil](Formato_Mercantil.doc), [Identificación de Clientes y Proveedores](Identificacion_de_Clientes_y_o_Prov.doc), [Contrato Servicio Pago Proveedores Sector Privado](MD.007_Servicio_Pago_Proveedores_Sector_Privado_Co.doc), [FORMATO PROVEEDORES FACIL](FORMATO_DE_PAGO_A_PROVEEDORES-FACIL.pdf), [FORMATO NÓMINA FACIL](Formato_de_Nomina_Facil.pdf), que explican los formatos para la construcción de los respectivos archivos a cargar.
 
@@ -94,7 +94,7 @@ Adicional a ello, cuenta con el documento [Archivos de Pagos](CODIGOS_SWIF.xls),
 
 **Archivo para Pagos**
 
-Al ejecutar el proceso de selección de pago de las siguientes facturas en ADempiere:
+Al ejecutar el proceso de selección de pago de las siguientes facturas en Solop ERP:
 
 - Factura "**1000737**" al socio del negocio "**Proveedor Estándar**" por monto total de "**1.392.000,00**".
 - Factura "**1000738**" al socio del negocio "**Proveedor Estándar**" por monto total de "**1.554.400,00**".
@@ -156,7 +156,7 @@ Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en 
 
 **Archivo para Pagos**
 
-Al ejecutar el proceso de selección de pago de las siguientes facturas en ADempiere:
+Al ejecutar el proceso de selección de pago de las siguientes facturas en Solop ERP:
 
 - Factura "**1000737**" al socio del negocio "**Proveedor Estándar**" por monto total de "**1.392.000,00**".
 - Factura "**1000738**" al socio del negocio "**Proveedor Estándar**" por monto total de "**1.554.400,00**".
@@ -218,7 +218,7 @@ Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en 
 
 **Archivo para Pagos**
 
-Al ejecutar el proceso de selección de pago de la nómina quincenal "**NQ-19**" procesada en ADempiere, con los siguientes empleados:
+Al ejecutar el proceso de selección de pago de la nómina quincenal "**NQ-19**" procesada en Solop ERP, con los siguientes empleados:
 
 - Socio del Negocio "**Empleado**", con cédula de identidad "**V0000005**", perteneciente a la nómina "**Quincenal**".
 - Socio del Negocio "**Estándar**", con cédula de identidad "**V00000009**", perteneciente a la nómina "**Quincenal**".
@@ -277,7 +277,7 @@ Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en 
 
 **Archivo para Pagos**
 
-Al ejecutar el proceso de selección de pago de la nómina quincenal "**NQ-19**" procesada en ADempiere, con los siguientes empleados:
+Al ejecutar el proceso de selección de pago de la nómina quincenal "**NQ-19**" procesada en Solop ERP, con los siguientes empleados:
 
 - Socio del Negocio "**Empleado**", con cédula de identidad "**V0000005**", perteneciente a la nómina "**Quincenal**".
 - Socio del Negocio "**Estándar**", con cédula de identidad "**V00000009**", perteneciente a la nómina "**Quincenal**".
