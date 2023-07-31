@@ -6,13 +6,13 @@ sticky: 9
 article: false
 ---
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Relaciones con Clientes**, luego seleccione la ventana **Planificación de Visita**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Relaciones con Clientes**, luego seleccione la ventana **Planificación de Visita**.
 
 ![Campo](/assets/img/docs/customer-management/cum-customer-image1.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
-Podrá visualizar la ventana **Planificación de Visita**, con los diferentes registros de planificación de visitas en ADempiere. Donde debe seleccionar el icono **Registro Nuevo**, ubicado en la barra de herramientas de ADempiere, para crear un nuevo registro de planificación.
+Podrá visualizar la ventana **Planificación de Visita**, con los diferentes registros de planificación de visitas en Solop ERP. Donde debe seleccionar el icono **Registro Nuevo**, ubicado en la barra de herramientas de Solop ERP, para crear un nuevo registro de planificación.
 
 ![Campo](/assets/img/docs/customer-management/cum-customer-image2.png)
 
@@ -62,7 +62,7 @@ Imagen 9. Campo Descripción
 
 Note
 
-Recuerde seleccionar el icono **Guardar Cambios**, ubicada en la barra de herramientas de ADempiere, para guardar el registro de los campos de la ventana **Planificación de Visita**.
+Recuerde seleccionar el icono **Guardar Cambios**, ubicada en la barra de herramientas de Solop ERP, para guardar el registro de los campos de la ventana **Planificación de Visita**.
 
 Seleccione la pestaña **Línea de Planificación**, para crear los diferentes registros de planificación de visitas correspondiente al tipo de visita seleccionada en el campo **Tipo de Visita**.
 
@@ -154,7 +154,7 @@ Imagen 23. Grupo de Checklist
 
 Note
 
-Recuerde seleccionar el icono **Guardar Cambios**, ubicada en la barra de herramientas de ADempiere, para guardar el registro de los campos de la ventana **Planificación de Visita**.
+Recuerde seleccionar el icono **Guardar Cambios**, ubicada en la barra de herramientas de Solop ERP, para guardar el registro de los campos de la ventana **Planificación de Visita**.
 
 Seleccione la pestaña **Secuencia**, para visualizar la secuencia de los diferentes registros de planificación de visitas correspondiente al tipo de visita seleccionada en el campo **Tipo de Visita**.
 

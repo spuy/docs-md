@@ -11,7 +11,7 @@ tag:
 article: false
 ---
 
-Para la exportación de los archivos desde ADempiere al banco provincial, [ERPyA](http://erpya.com) soporta los siguientes formatos facilitados por el banco, que pueden ser descargados para su análisis y adaptación.
+Para la exportación de los archivos desde Solop ERP al banco provincial, [Solop ERP](https://ayuda.solopapp.com/) soporta los siguientes formatos facilitados por el banco, que pueden ser descargados para su análisis y adaptación.
 
 El banco cuenta con los documentos [Archivo de Pago a Proveedores](DR_Abonos.pdf) y [Archivo de Pago de Nómina](DR_Afiliacion_RRHH.pdf), [Archivo de Configuración](provincial_conf.docx), que explican los formatos para la construcción del archivo a cargar.
 
@@ -20,7 +20,7 @@ El banco cuenta con los documentos [Archivo de Pago a Proveedores](DR_Abonos.pdf
 
 **Archivo para Pagos**
 
-Al ejecutar el proceso de selección de pago de las siguientes facturas en ADempiere:
+Al ejecutar el proceso de selección de pago de las siguientes facturas en Solop ERPe:
 
 - Factura "**1000737**" al socio del negocio "**Proveedor Estándar**" por monto total de "**1.392.000,00**".
 - Factura "**1000738**" al socio del negocio "**Proveedor Estándar**" por monto total de "**1.554.400,00**".
@@ -51,7 +51,7 @@ Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en 
 
 **Archivo para Pagos**
 
-Al ejecutar el proceso de selección de pago de la nómina quincenal "**NQ-19**" procesada en ADempiere, con los siguientes empleados:
+Al ejecutar el proceso de selección de pago de la nómina quincenal "**NQ-19**" procesada en Solop ERP, con los siguientes empleados:
 
 - Socio del Negocio "**Empleado**", con cédula de identidad "**V0000005**", perteneciente a la nómina "**Quincenal**".
 - Socio del Negocio "**Estándar**", con cédula de identidad "**V00000009**", perteneciente a la nómina "**Quincenal**".

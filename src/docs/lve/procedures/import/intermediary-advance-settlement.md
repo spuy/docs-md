@@ -13,11 +13,11 @@ article: false
 
 **Conciliación de Liquidación**
 
-- Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Diario de Caja**", por último seleccione la ventana "**Cierre de Caja**".
+- Ubique y seleccione en el menú de Solop ERP, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Diario de Caja**", por último seleccione la ventana "**Cierre de Caja**".
 
-![Menú de ADempiere 4](/assets/img/docs/lve/procedures/import/resources/menucierre1.png)
+![Menú de Solop ERP 4](/assets/img/docs/lve/procedures/import/resources/menucierre1.png)
 
-Imagen 18. Menú de ADempiere
+Imagen 18. Menú de Solop ERP
 
 - Realice el procedimiento regular para generar el cierre de caja, explicado en cierre caja importación del documento "**Importación**", seleccionando la caja intermediario creada. Luego de completar el procedimiento podrá apreciar en el campo "**Saldo Final**", el saldo abierto que posee el gestor intermediario.
 
@@ -31,7 +31,7 @@ Imagen 19. Cierre de Caja
 
 Imagen 20. Pestaña Línea de Cierre de Caja
 
-- Para generar el reporte del balance de caja y visualizar los saldos abiertos que posee el gestor intermediario, seleccione en la ventana "**Cierre de Caja**" el icono "**Informe**", que se encuentra ubicado en la barra de herramientas de ADempiere.
+- Para generar el reporte del balance de caja y visualizar los saldos abiertos que posee el gestor intermediario, seleccione en la ventana "**Cierre de Caja**" el icono "**Informe**", que se encuentra ubicado en la barra de herramientas de Solop ERP.
 
 ![Icono Informe](/assets/img/docs/lve/procedures/import/resources/cierrecaja2.png)
 

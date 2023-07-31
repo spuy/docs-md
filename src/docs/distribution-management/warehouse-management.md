@@ -13,16 +13,16 @@ Sin importar el nivel de inventario que cada compañía posea, el WMS resulta fu
 
 Su funcionalidad basicamente deber dar a conocer el lugar de almacenamiento de cada material, y mover de manera automática a el área de ventas los paquetes que deben ser generados con regla FIFO(First In, First Out) o en español **primero en entrar, primero en salir**.
 
-## ¿Qué ofrece ADempiere?
+## ¿Qué ofrece Solop ERP?
 
-ADempiere ofrece en su gestión de WMS(Warehouse Management Systems) o en español sistema para la gestión de almacenes una herramienta que apoya  las operaciones logísticas del almacén de una empresa:
+Solop ERP ofrece en su gestión de WMS(Warehouse Management Systems) o en español sistema para la gestión de almacenes una herramienta que apoya  las operaciones logísticas del almacén de una empresa:
 
 - Control de inventarios.
 - Ubicación de las existencias.
 - La distribución de un almacén.
 - Coordinación y optimización de los movimientos con método FIFO (First In, First Out)
 
-En general ADempiere satisfacen las necesidades de operaciones logísticas internas de la compañía.
+En general Solop ERP satisfacen las necesidades de operaciones logísticas internas de la compañía.
 
 Pero su principio básico es proveer la información para permitir el control eficiente del movimiento de materiales en el almacén. La secuencia operativa de un WMS incluye entre otras tareas:
 
@@ -45,9 +45,9 @@ Pero su principio básico es proveer la información para permitir el control ef
 ![image](https://github.com/erpcya/docs/assets/9578152/891618f6-428d-4aa9-ae2a-4c516f0e7c63)
 
 
-##  Ejecución en ADempiere
+##  Ejecución en Solop ERP
 
-Ahora bien, en Adempiere existen dos formas en las que se puede ejecutar este proceso, de forma automática bajo la siguiente estructura:
+Ahora bien, en Solop ERP existen dos formas en las que se puede ejecutar este proceso, de forma automática bajo la siguiente estructura:
 
 - Orden de Venta
 - Generación de Orden de Salida Automática

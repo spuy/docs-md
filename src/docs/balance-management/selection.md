@@ -6,13 +6,13 @@ sticky: 9
 article: false
 ---
 
-Una selección de pagos en ADempiere no es más que la agrupación de documentos de CxP o de compras que se necesitan ser cancelados ya sean en su totalidad o de manera parcial, dentro de la selección de pagos se encuentran los tipos de documentos **Orden de Pago** y la **Selección de Pagos de Cuentas por Pagar**, los cuales son utilizados para seguir los canales regulares entre los departamentos de compras, cuenta por pagar y tesorería.
+Una selección de pagos en Solop ERP no es más que la agrupación de documentos de CxP o de compras que se necesitan ser cancelados ya sean en su totalidad o de manera parcial, dentro de la selección de pagos se encuentran los tipos de documentos **Orden de Pago** y la **Selección de Pagos de Cuentas por Pagar**, los cuales son utilizados para seguir los canales regulares entre los departamentos de compras, cuenta por pagar y tesorería.
 
 La **Orden de Pago** es utilizada para crear aquellas solicitud de pago de los documentos pendientes por pagar, comúnmente es utilizada por los departamentos de compras y de cuentas pagar, ya qué ellos solo se encargan de agrupar aquellos documentos los cuales necesitan qué sean cancelados.
 
 La **Selección de Pagos de Cuentas por Pagar** es utilizada cuando se define cuales son los documentos que sí se les generará el pago y desde qué cuenta bancaria de la compañía saldrán la cancelación de los documentos seleccionados; la selección parte de la agrupación de facturas asociadas en la **Orden de Pago** este procedimiento es comúnmente realizado por el departamento de tesorería, ya qué ellos son los encargados de llevar los saldos en banco lo cual le permite tener una toma de decisión del banco a utilizar para saldar una factura de CxP o realizar un anticipo a proveedores.
 
-Para conocer mejor este procedimiento de la selección de pagos ERPyA ofrece una explicación eficiente y sencilla de este proceso para así obtener un resultado exitoso al momento de generar una orden de pago y posteriormente una selección de pago de cuentas por pagar para culminar el procedimiento de manera exitosa en la versión 3.9.2 de ADempiere en la localización Venezuela.
+Para conocer mejor este procedimiento de la selección de pagos ERPyA ofrece una explicación eficiente y sencilla de este proceso para así obtener un resultado exitoso al momento de generar una orden de pago y posteriormente una selección de pago de cuentas por pagar para culminar el procedimiento de manera exitosa en la versión 3.9.2 de Solop ERP en la localización Venezuela.
 
 - Registro desde Orden
 - Registro desde Factura
@@ -21,13 +21,13 @@ Para conocer mejor este procedimiento de la selección de pagos ERPyA ofrece una
 
 ## Registro desde Orden
 
-En muchas ocasiones se necesitan realizar anticipos a proveedores, una vez que se concrete la compra dependiendo de las reglas del negocio con la que cuente la compañía y el proveedor se realizan anticipos, los anticipos son aquellos pagos que se generan antes de una factura, por ello como ya existe una compra a un proveedor y se requiere aplicar un anticipo; para aplicar un anticipo a proveedores en ADempiere y realizar una **Orden de Pago** a través de una **Orden de Compra** se deben aplicar los siguientes pasos.
+En muchas ocasiones se necesitan realizar anticipos a proveedores, una vez que se concrete la compra dependiendo de las reglas del negocio con la que cuente la compañía y el proveedor se realizan anticipos, los anticipos son aquellos pagos que se generan antes de una factura, por ello como ya existe una compra a un proveedor y se requiere aplicar un anticipo; para aplicar un anticipo a proveedores en Solop ERP y realizar una **Orden de Pago** a través de una **Orden de Compra** se deben aplicar los siguientes pasos.
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Saldos Pendientes**, luego seleccione la ventana **Selección de Pago**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Saldos Pendientes**, luego seleccione la ventana **Selección de Pago**.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image214.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana **Selección de Pago**, con los diferentes registros realizados en dicha ventana.
 
@@ -35,7 +35,7 @@ Podrá visualizar la ventana **Selección de Pago**, con los diferentes registro
 
 Imagen 2. Ventana Selección de Pago
 
-Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de ADempiere, para crear un nuevo registro en la ventana **Selección de Pago**.
+Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de Solop ERP, para crear un nuevo registro en la ventana **Selección de Pago**.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image216.png)
 
@@ -43,7 +43,7 @@ Imagen 3. Icono Registro Nuevo de la Ventana Selección de Pago
 
 Seleccione en el campo **Organización**, la organización para la cual está realizando el documento **Orden de Pago**.
 
-Al seleccionar la organización con la que trabajará el registro a crear estará disponible únicamente bajo esa organización seleccionada, aunque la decisión de la organización a trabajar quedará al momento que inicie sesión en ADempiere.
+Al seleccionar la organización con la que trabajará el registro a crear estará disponible únicamente bajo esa organización seleccionada, aunque la decisión de la organización a trabajar quedará al momento que inicie sesión en Solop ERP.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image217.png)
 
@@ -103,7 +103,7 @@ Imagen 12. Campo Descripción del Documento Orden de Pago desde Orden
 
 Note
 
-Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere, para guardar el registro de los campos de la pestaña **Selección de Pago**.
+Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP, para guardar el registro de los campos de la pestaña **Selección de Pago**.
 
 Seleccione la opción **Crear Desde Orden**, para crear la orden de pago desde la orden de compra.
 
@@ -121,11 +121,11 @@ Imagen 14. Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
 
 Los campos a visualizar en el smart browser son los siguientes:
 
-Campo **Moneda**, este campo se encuentra sólo lectura y la moneda a mostrar dependerá de la moneda seleccionada en la ventana padre **Selección de Pago**; la moneda que aparezca en ese campo dentro del smart browser le indica a ADempiere que los documentos a buscar deben estar bajo esa moneda, ejemplo:
+Campo **Moneda**, este campo se encuentra sólo lectura y la moneda a mostrar dependerá de la moneda seleccionada en la ventana padre **Selección de Pago**; la moneda que aparezca en ese campo dentro del smart browser le indica a Solop ERP que los documentos a buscar deben estar bajo esa moneda, ejemplo:
 
-Si el valor en el campo **Moneda** es **VES** (Bolívar) cuando se realice la búsqueda de los documentos ADempiere mostrara únicamente los que estén creados bajo esa moneda.
+Si el valor en el campo **Moneda** es **VES** (Bolívar) cuando se realice la búsqueda de los documentos Solop ERP mostrara únicamente los que estén creados bajo esa moneda.
 
-Si el valor en el campo **Moneda** es USD\*\* (Dólar) cuando se realice la búsqueda de los documentos ADempiere mostrara únicamente los que estén creados bajo esa moneda.
+Si el valor en el campo **Moneda** es USD\*\* (Dólar) cuando se realice la búsqueda de los documentos Solop ERP mostrara únicamente los que estén creados bajo esa moneda.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image228.png)
 
@@ -137,31 +137,31 @@ Campo **Socio de Negocio**, este campo puede ser utilizado si desea ubicar las �
 
 Imagen 16. Campo Socio de Negocio de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
 
-Checklist **Transacción de Ventas**, esté checklist comúnmente se encuentra destildado, pero sí se tilda al momento de hacer la búsqueda en el smart browser ADempiere mostrará las **Ordenes de Ventas**, sí el check se encuentra destildado mostrará únicamente las **Ordenes de Compras**.
+Checklist **Transacción de Ventas**, esté checklist comúnmente se encuentra destildado, pero sí se tilda al momento de hacer la búsqueda en el smart browser Solop ERP mostrará las **Ordenes de Ventas**, sí el check se encuentra destildado mostrará únicamente las **Ordenes de Compras**.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image230.png)
 
 Imagen 17. Check Transacción de Ventas de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
 
-Campo **Regla de Pago**, este es un campo de búsqueda tipo lista, el cual al tildarlo mostrará una serie de opciones de reglas de pagos, la opción a seleccionar en esté campo le indicará a ADempiere qué al momento de realizar la búsqueda ubique y muestre solo las ordenes de compras que estén bajo la regla de pago seleccionada en ese campo, como por ejemplo:
+Campo **Regla de Pago**, este es un campo de búsqueda tipo lista, el cual al tildarlo mostrará una serie de opciones de reglas de pagos, la opción a seleccionar en esté campo le indicará a Solop ERP qué al momento de realizar la búsqueda ubique y muestre solo las ordenes de compras que estén bajo la regla de pago seleccionada en ese campo, como por ejemplo:
 
-Si se selecciona la regla de pago **A Crédito** y tengo creadas una o varias órdenes de compras qué tienen establecida esa regla de pago, al realizar la búsqueda desde el smart browser ADempiere mostrará las órdenes que éste unicamente con esa regla de pago, si no existen órdenes de compras con esa regla de pago ADempiere no mostrará nada.
+Si se selecciona la regla de pago **A Crédito** y tengo creadas una o varias órdenes de compras qué tienen establecida esa regla de pago, al realizar la búsqueda desde el smart browser Solop ERP mostrará las órdenes que éste unicamente con esa regla de pago, si no existen órdenes de compras con esa regla de pago Solop ERP no mostrará nada.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image231.png)
 
 Imagen 18. Campo Regla de Pago de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
 
-Campo **Tipo de Documento**, este es un campo de búsqueda tipo lista el cual al tildarlo mostrará una serie de opciones de los tipos de documentos que se encuentran asociados a las órdenes de compras, la opción a seleccionar en este campo le indicará a ADempiere qué al momento de realizar la búsqueda ubique y muestre solo las ordenes de compras que estén bajo el tipo de documento seleccionado en ese campo, como por ejemplo:
+Campo **Tipo de Documento**, este es un campo de búsqueda tipo lista el cual al tildarlo mostrará una serie de opciones de los tipos de documentos que se encuentran asociados a las órdenes de compras, la opción a seleccionar en este campo le indicará a Solop ERP qué al momento de realizar la búsqueda ubique y muestre solo las ordenes de compras que estén bajo el tipo de documento seleccionado en ese campo, como por ejemplo:
 
-Si se selecciona el tipo de documento **Orden de Compra Nacional** ADempiere mostrará cuando se realice la búsqueda unicamente las ordenes de compra que estén asociadas a ese tipo de documento, de lo contrario si no es seleccionado ningún tipo de documento ADempiere mostrará todas las órdenes de compras con todos los tipos de documentos que estén asociados a una orden de compra.
+Si se selecciona el tipo de documento **Orden de Compra Nacional** Solop ERP mostrará cuando se realice la búsqueda unicamente las ordenes de compra que estén asociadas a ese tipo de documento, de lo contrario si no es seleccionado ningún tipo de documento Solop ERP mostrará todas las órdenes de compras con todos los tipos de documentos que estén asociados a una orden de compra.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image232.png)
 
 Imagen 19. Campo Tipo de Documento de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
 
-Campo **Fecha de la Orden**, este campo es un campo tipo fecha el cual cuenta con dos recuadros con calendarios, el primero es para ser utilizada como fecha de la orden **Desde** y el segundo como fecha de la orden **Hasta**, al colocar una fecha en cualquiera de estas dos opciones (Fecha desde / Fecha hasta) ADempiere mostrará únicamente las ordenes de compras que están asociadas bajo ese rango de fechas, como por ejemplo:
+Campo **Fecha de la Orden**, este campo es un campo tipo fecha el cual cuenta con dos recuadros con calendarios, el primero es para ser utilizada como fecha de la orden **Desde** y el segundo como fecha de la orden **Hasta**, al colocar una fecha en cualquiera de estas dos opciones (Fecha desde / Fecha hasta) Solop ERP mostrará únicamente las ordenes de compras que están asociadas bajo ese rango de fechas, como por ejemplo:
 
-Si se coloca en el campo fecha desde la fecha **18/06/2020** y el campo fecha hasta **20/06/2020**, ADempiere mostrar las ordenes de compras que estén bajo ese rango de fechas.
+Si se coloca en el campo fecha desde la fecha **18/06/2020** y el campo fecha hasta **20/06/2020**, Solop ERP mostrar las ordenes de compras que estén bajo ese rango de fechas.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image233.png)
 
@@ -171,9 +171,9 @@ Note
 
 Para saber más sobre el campo **Fecha de la Orden** y qué acción implica sobre una orden de compra, visitar el documento Registro de Orden de Compra Directa.
 
-Campo **Fecha Prometida**, este campo es un campo tipo fecha el cual cuenta con dos recuadros con calendarios, el primero es para ser utilizada como fecha prometida **Desde** y el segundo como fecha prometida **Hasta**, al colocar una fecha en cualquiera de estas dos opciones (Fecha desde / Fecha hasta) ADempiere mostrará únicamente las ordenes de compras que están asociadas bajo ese rango de fechas, como por ejemplo:
+Campo **Fecha Prometida**, este campo es un campo tipo fecha el cual cuenta con dos recuadros con calendarios, el primero es para ser utilizada como fecha prometida **Desde** y el segundo como fecha prometida **Hasta**, al colocar una fecha en cualquiera de estas dos opciones (Fecha desde / Fecha hasta) Solop ERP mostrará únicamente las ordenes de compras que están asociadas bajo ese rango de fechas, como por ejemplo:
 
-Si se coloca en el campo fecha desde la fecha **20/06/2020** y el campo fecha hasta **25/06/2020**, ADempiere mostrar las ordenes de compras que estén bajo ese rango de fechas.
+Si se coloca en el campo fecha desde la fecha **20/06/2020** y el campo fecha hasta **25/06/2020**, Solop ERP mostrar las ordenes de compras que estén bajo ese rango de fechas.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image234.png)
 
@@ -183,7 +183,7 @@ Note
 
 Para saber más sobre el campo **Fecha Prometida** y qué acción implica sobre una orden de compra, visitar el documento Registro de Orden de Compra Directa
 
-Campo **Orden de Venta** este campo es un campo tipo búsqueda, aunque este campo tenga como orden de venta eso no significa que esté asociado para ubicar sólo las órdenes de ventas es un nombre estándar que maneja ADempiere y también es utilizado para esté caso para ubicar las órdenes de compras.
+Campo **Orden de Venta** este campo es un campo tipo búsqueda, aunque este campo tenga como orden de venta eso no significa que esté asociado para ubicar sólo las órdenes de ventas es un nombre estándar que maneja Solop ERP y también es utilizado para esté caso para ubicar las órdenes de compras.
 
 Este campo permite que sea ubicada una orden de compra en específico, para que al momento de realizar la búsqueda en el smart browser, esté muestre la orden de compra ubicada desde este campo.
 
@@ -191,7 +191,7 @@ Este campo permite que sea ubicada una orden de compra en específico, para que 
 
 Imagen 22. Campo Orden de Venta de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
 
-Luego de establecer los filtros de búsqueda y cual de ellos desea seleccionar, tilde la opción **Comenzar Búsqueda**, para buscar los diferentes registros de órdenes de compra que se encuentran en ADempiere.
+Luego de establecer los filtros de búsqueda y cual de ellos desea seleccionar, tilde la opción **Comenzar Búsqueda**, para buscar los diferentes registros de órdenes de compra que se encuentran en Solop ERP.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image236.png)
 
@@ -221,7 +221,7 @@ Seleccione la opción **OK** para cargar la información de la orden de compra a
 
 Imagen 27. Opción Ok de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
 
-Seleccione el icono **Refrescar**, ubicado en la barra de herramientas de ADempiere para refrescar la ventana **Selección de Pago** y pueda visualizar la información cargada desde la opción **Crear Desde Orden**.
+Seleccione el icono **Refrescar**, ubicado en la barra de herramientas de Solop ERP para refrescar la ventana **Selección de Pago** y pueda visualizar la información cargada desde la opción **Crear Desde Orden**.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image241.png)
 
@@ -297,7 +297,7 @@ Imagen 38. Campo Movimento de Nómina del Documento Orden de Pago desde Orden
 
 Campo **Regla de Pago**, se debe seleccionar la regla de pago con la que se emitirá el pago al proveedor.
 
-ADempiere cuenta cuenta con cinco (5) reglas de pagos, las cuales son:
+Solop ERP cuenta cuenta con cinco (5) reglas de pagos, las cuales son:
 
 A crédito: Esta regla de pago indica que dicho documento cuenta con un crédito de pago, sin embargo es crédito no es reflejado en la orden de pago si no en la regla de pago que tenga establecida el **Socio del Negocio** o la **Orden de Compra**.
 
@@ -343,7 +343,7 @@ Campo **Importe Fuente** en este campo debe aparecer el total de la abierto de l
 
 Imagen 44. Campo Importe Fuente del Documento Orden de Pago desde Orden
 
-Campo **Tipo de Conversión**, este campo tipo lista mostrará los tipos de conversión que se encuentren registrados en ADempiere, el tipo de conversión no es más que el tipo de índice el cual se le asociará el valor de las tasa o conversiones de monedas.
+Campo **Tipo de Conversión**, este campo tipo lista mostrará los tipos de conversión que se encuentren registrados en Solop ERP, el tipo de conversión no es más que el tipo de índice el cual se le asociará el valor de las tasa o conversiones de monedas.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image258.png)
 
@@ -415,19 +415,19 @@ Al aplicar esta acción **Completar** el documento pasará a estado completo y e
 
 Note
 
-Es muy importante tener en cuenta que todo documento transaccional una vez se culmine con el llenado de los datos debe ser completado, para que ADempiere tome como válido los datos cargados en el documento.
+Es muy importante tener en cuenta que todo documento transaccional una vez se culmine con el llenado de los datos debe ser completado, para que Solop ERP tome como válido los datos cargados en el documento.
 
 Hasta este punto llegaría el registro de órdenes a través de la ventana **Selección de Pago** con el tipo de documento **Orden de Pago** ya que solo se está creando la solicitud de los anticipos que se desean cancelar, en este paso a pesar de que se complete el documento esto no quiere decir que se han generado los pagos, para poder generar los pagos correspondientes a las órdenes asociadas a la **Orden de Pago** se necesita completar los procedimientos Registro desde Selección de Pago y el Registro de Imprimir / Exportar Pagos.
 
 ## Registro desde Factura
 
-Para realizar una **Orden de Pagos** en ADempiere el cual permite montar una solicitud de todas aquellas facturas que estén pendientes por pagar, se deben aplicar los siguientes pasos:
+Para realizar una **Orden de Pagos** en Solop ERP el cual permite montar una solicitud de todas aquellas facturas que estén pendientes por pagar, se deben aplicar los siguientes pasos:
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Saldos Pendientes**, luego seleccione la ventana **Selección de Pagos**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Saldos Pendientes**, luego seleccione la ventana **Selección de Pagos**.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image267.png)
 
-Imagen 1. Menú de ADempiere para el Documento Orden de Pago desde Factura
+Imagen 1. Menú de Solop ERP para el Documento Orden de Pago desde Factura
 
 Podrá visualizar la ventana **Selección de Pago**, con los diferentes registros en dicha ventana.
 
@@ -435,7 +435,7 @@ Podrá visualizar la ventana **Selección de Pago**, con los diferentes registro
 
 Imagen 2. Ventana Selección de Pago para el Documento Orden de Pago desde Factura
 
-Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de ADempiere, para crear un nuevo registro en la ventana **Selección de Pago**.
+Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de Solop ERP, para crear un nuevo registro en la ventana **Selección de Pago**.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image269.png)
 
@@ -443,7 +443,7 @@ Imagen 3. Icono Registro Nuevo de la Ventana Selección de Pago para el Document
 
 Seleccione en el campo **Organización**, la organización para la cual está realizando el documento **Orden de Pago**.
 
-Al seleccionar la organización con la que trabajará el registro a crear bajo estará disponible únicamente bajo esa organización seleccionada, aunque la decisión de la organización a trabajar quedará al momento que inicie sesión en ADempiere.
+Al seleccionar la organización con la que trabajará el registro a crear bajo estará disponible únicamente bajo esa organización seleccionada, aunque la decisión de la organización a trabajar quedará al momento que inicie sesión en Solop ERP.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image270.png)
 
@@ -517,33 +517,33 @@ Imagen 14. Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura
 
 Los campos a visualizar en el smart browser son los siguientes:
 
-Campo **Cuenta Bancaria**, este es un campo tipo lista donde aparecerá el listado de las cuentas bancarias cargadas en ADempiere.
+Campo **Cuenta Bancaria**, este es un campo tipo lista donde aparecerá el listado de las cuentas bancarias cargadas en Solop ERP.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image281.png)
 
 Imagen 15. Campo Cuenta Bancaria de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura
 
-Campo **Moneda**, este campo se encuentra sólo lectura y la moneda a mostrar dependerá de la moneda seleccionada en la ventana padre **Selección de Pago**; la moneda que aparezca en ese campo dentro del smart browser le indica a ADempiere que los documentos a buscar deben estar bajo esa moneda, ejemplo:
+Campo **Moneda**, este campo se encuentra sólo lectura y la moneda a mostrar dependerá de la moneda seleccionada en la ventana padre **Selección de Pago**; la moneda que aparezca en ese campo dentro del smart browser le indica a Solop ERP que los documentos a buscar deben estar bajo esa moneda, ejemplo:
 
-Si el valor en el campo **Moneda\*** es \***\*VES** (Bolívar) cuando se realice la búsqueda los documentos ADempiere mostrara únicamente los que estén creados bajo esa moneda.
+Si el valor en el campo **Moneda\*** es \***\*VES** (Bolívar) cuando se realice la búsqueda los documentos Solop ERP mostrara únicamente los que estén creados bajo esa moneda.
 
-Si el valor en el campo **Moneda** es USD\*\* (Dólar) cuando se realice la búsqueda los documentos ADempiere mostrara únicamente los que estén creados bajo esa moneda.
+Si el valor en el campo **Moneda** es USD\*\* (Dólar) cuando se realice la búsqueda los documentos Solop ERP mostrara únicamente los que estén creados bajo esa moneda.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image282.png)
 
 Imagen 16. Campo Moneda de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura
 
-Campo **Regla de Pago**, este es un campo de búsqueda tipo lista el cual al tildarlo mostrará una serie de opciones de reglas de pagos, la opción a seleccionar en esté campo le indicará a ADempiere qué al momento de realizar la búsqueda ubique y muestre solo las facturas de compras que estén bajo la regla de pago seleccionada en ese campo,como por ejemplo:
+Campo **Regla de Pago**, este es un campo de búsqueda tipo lista el cual al tildarlo mostrará una serie de opciones de reglas de pagos, la opción a seleccionar en esté campo le indicará a Solop ERP qué al momento de realizar la búsqueda ubique y muestre solo las facturas de compras que estén bajo la regla de pago seleccionada en ese campo,como por ejemplo:
 
-Si se selecciona la regla de pago \***\* A Crédito\*\*** y tengo creadas una o varias facturas que tienen establecida esa regla de pago, al realizar la búsqueda desde el smart browser ADempiere mostrará las facturas que éste únicamente con esa regla de pago, si no existen facturas con esa regla de pago ADempiere no mostrará nada.
+Si se selecciona la regla de pago \***\* A Crédito\*\*** y tengo creadas una o varias facturas que tienen establecida esa regla de pago, al realizar la búsqueda desde el smart browser Solop ERP mostrará las facturas que éste únicamente con esa regla de pago, si no existen facturas con esa regla de pago Solop ERP no mostrará nada.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image283.png)
 
 Imagen 17. Campo Regla de Pago de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura
 
-Campo **Término de Pago** este es un campo de búsqueda tipo lista el cual al tildarlo mostrará una serie de opciones de término de pago, la opción a seleccionar en esté campo le indicará a ADempiere qué al momento de realizar la búsqueda ubique y muestre solo las facturas de compras que estén bajo ese término de pago, seleccionado en ese campo,como por ejemplo:
+Campo **Término de Pago** este es un campo de búsqueda tipo lista el cual al tildarlo mostrará una serie de opciones de término de pago, la opción a seleccionar en esté campo le indicará a Solop ERP qué al momento de realizar la búsqueda ubique y muestre solo las facturas de compras que estén bajo ese término de pago, seleccionado en ese campo,como por ejemplo:
 
-Si se selecciona el término de pago **Contado** y tengo creadas una o varias facturas que tienen establecido ese término de pago, al realizar la búsqueda desde el smart browser ADempiere mostrará las facturas que éste únicamente con ese término de pago, si no existen facturas con ese término de pago ADempiere no mostrará nada.
+Si se selecciona el término de pago **Contado** y tengo creadas una o varias facturas que tienen establecido ese término de pago, al realizar la búsqueda desde el smart browser Solop ERP mostrará las facturas que éste únicamente con ese término de pago, si no existen facturas con ese término de pago Solop ERP no mostrará nada.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image284.png)
 
@@ -567,9 +567,9 @@ Campo **Orden de Venta**, en este campo tipo búsqueda al seleccionar una orden 
 
 Imagen 21. Campo Orden de Venta de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura
 
-Campo **Fecha de la Facturación**, este campo es un campo tipo fecha el cual cuenta con dos recuadros con calendarios, el primero es para ser utilizado como fecha de la factura **Desde** y el segundo como fecha de la factura **Hasta**, al colocar una fecha en cualquiera de estas dos opciones (Fecha desde / Fecha hasta) ADempiere mostrará únicamente las facturas que están asociadas bajo ese rango de fechas, como por ejemplo:
+Campo **Fecha de la Facturación**, este campo es un campo tipo fecha el cual cuenta con dos recuadros con calendarios, el primero es para ser utilizado como fecha de la factura **Desde** y el segundo como fecha de la factura **Hasta**, al colocar una fecha en cualquiera de estas dos opciones (Fecha desde / Fecha hasta) Solop ERP mostrará únicamente las facturas que están asociadas bajo ese rango de fechas, como por ejemplo:
 
-Si se coloca en el campo fecha desde la fecha **18/06/2020** y el campo fecha hasta **20/06/2020**, ADempiere mostrar las facturas que estén bajo ese rango de fechas.
+Si se coloca en el campo fecha desde la fecha **18/06/2020** y el campo fecha hasta **20/06/2020**, Solop ERP mostrar las facturas que estén bajo ese rango de fechas.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image289.png)
 
@@ -579,9 +579,9 @@ Note
 
 Para saber más sobre el campo **Fecha Facturación** y qué acción implica sobre un documento por pagar, visitar el documento Registro de Documento por Pagar.
 
-Campo de búsqueda **Fecha de Vencimiento** este campo es un campo tipo fecha el cual cuenta con dos recuadros con calendarios, el primero es para ser utilizada como fecha de vencimiento **Desde** y el segundo como fecha de vencimiento **Hasta**, al colocar una fecha en cualquiera de estas dos opciones (Fecha desde / Fecha hasta) ADempiere mostrará únicamente las facturas que están asociadas bajo ese rango de fechas, como por ejemplo:
+Campo de búsqueda **Fecha de Vencimiento** este campo es un campo tipo fecha el cual cuenta con dos recuadros con calendarios, el primero es para ser utilizada como fecha de vencimiento **Desde** y el segundo como fecha de vencimiento **Hasta**, al colocar una fecha en cualquiera de estas dos opciones (Fecha desde / Fecha hasta) Solop ERP mostrará únicamente las facturas que están asociadas bajo ese rango de fechas, como por ejemplo:
 
-Si se coloca en el campo fecha desde, la fecha **18/06/2020** y el campo fecha hasta **20/06/2020**, ADempiere mostrar las facturas que estén bajo ese rango de fechas; la fecha de vencimiento de una factura aplica más que todo para aquellas facturas las cuales cuentan con una regla de pago.
+Si se coloca en el campo fecha desde, la fecha **18/06/2020** y el campo fecha hasta **20/06/2020**, Solop ERP mostrar las facturas que estén bajo ese rango de fechas; la fecha de vencimiento de una factura aplica más que todo para aquellas facturas las cuales cuentan con una regla de pago.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image290.png)
 
@@ -599,23 +599,23 @@ Campo de búsqueda **Socio de Negocio**, este campo puede ser utilizado si desea
 
 Imagen 25. Campo Socio de Negocio de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura
 
-Campo **Tipo de Documento**, este es un campo de búsqueda tipo lista el cual al tildarlo mostrará una serie de opciones de los tipos de documentos que se encuentran asociados a las facturas, la opción a seleccionar en este campo le indicará a ADempiere qué al momento de realizar la búsqueda ubique y muestre sólo las facturas que estén bajo el tipo de documento seleccionado en ese campo, como por ejemplo:
+Campo **Tipo de Documento**, este es un campo de búsqueda tipo lista el cual al tildarlo mostrará una serie de opciones de los tipos de documentos que se encuentran asociados a las facturas, la opción a seleccionar en este campo le indicará a Solop ERP qué al momento de realizar la búsqueda ubique y muestre sólo las facturas que estén bajo el tipo de documento seleccionado en ese campo, como por ejemplo:
 
-Si se selecciona el tipo de documento **Factura de Cuentas por Pagar Nacional** ADempiere mostrará cuando se realice la búsqueda unicamente las facturas que estén asociadas a ese tipo de documento, de lo contrario si no es seleccionado ningún tipo de documento ADempiere mostrará todas las facturas con todos los tipos de documentos que estén asociados a una factura.
+Si se selecciona el tipo de documento **Factura de Cuentas por Pagar Nacional** Solop ERP mostrará cuando se realice la búsqueda unicamente las facturas que estén asociadas a ese tipo de documento, de lo contrario si no es seleccionado ningún tipo de documento Solop ERP mostrará todas las facturas con todos los tipos de documentos que estén asociados a una factura.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image293.png)
 
 Imagen 26. Campo Tipo de Documento de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura
 
-Campo de búsqueda **Asignar Requerimientos** este es un campo tipo lista, el cual contiene una serie de opciones el cual indica a ADempiere que dependiendo del requerimiento seleccionado ADempiere ubicara las facturas, dentro de los requerimientos de este campo están:
+Campo de búsqueda **Asignar Requerimientos** este es un campo tipo lista, el cual contiene una serie de opciones el cual indica a Solop ERP que dependiendo del requerimiento seleccionado Solop ERP ubicara las facturas, dentro de los requerimientos de este campo están:
 
-Ninguno: Si se selecciona este criterio de búsqueda, ADempiere ubicara todas las facturas en ADempiere , es decir ubicar las facturas que estén con órdenes o sin órdenes con recepciones o sin recepciones.
+Ninguno: Si se selecciona este criterio de búsqueda, Solop ERP ubicara todas las facturas en Solop ERP , es decir ubicar las facturas que estén con órdenes o sin órdenes con recepciones o sin recepciones.
 
-Orden de Compra: si se selecciona este criterio de búsqueda, ADempiere ubicara solo y únicamente las facturas que estén asociadas a una orden de compra, de lo contrario no mostrará ninguna factura.
+Orden de Compra: si se selecciona este criterio de búsqueda, Solop ERP ubicara solo y únicamente las facturas que estén asociadas a una orden de compra, de lo contrario no mostrará ninguna factura.
 
-Orden de Compra y Recibo: Si se selecciona este criterio de búsqueda, ADempiere ubicara solo y únicamente las facturas que tengan asociada una orden de compra y una recepción , de lo contrario no mostrará ninguna factura.
+Orden de Compra y Recibo: Si se selecciona este criterio de búsqueda, Solop ERP ubicara solo y únicamente las facturas que tengan asociada una orden de compra y una recepción , de lo contrario no mostrará ninguna factura.
 
-Recibo: Si se selecciona este criterio de búsqueda, ADempiere ubicara solo y únicamente las facturas que tengan asociada una recepción, de lo contrario no mostrará ninguna factura.
+Recibo: Si se selecciona este criterio de búsqueda, Solop ERP ubicara solo y únicamente las facturas que tengan asociada una recepción, de lo contrario no mostrará ninguna factura.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image294.png)
 
@@ -669,7 +669,7 @@ Seleccione la opción **OK**, para cargar a la pestaña **Línea de Selección d
 
 Imagen 36. Opción Ok de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura
 
-Seleccione el icono **Refrescar**, ubicado en la barra de herramientas de ADempiere para refrescar la ventana y pueda visualizar la información cargada desde la opción **Crear Desde Factura**.
+Seleccione el icono **Refrescar**, ubicado en la barra de herramientas de Solop ERP para refrescar la ventana y pueda visualizar la información cargada desde la opción **Crear Desde Factura**.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image303.png)
 
@@ -745,7 +745,7 @@ Imagen 47. Campo Movimento de Nómina del Documento Orden de Pago desde Factura
 
 Campo **Regla de Pago** se debe seleccionar la regla de pago con la que se emitirá el pago al proveedor.
 
-ADempiere cuenta cuenta con cinco (5) reglas de pagos, las cuales son:
+Solop ERP cuenta cuenta con cinco (5) reglas de pagos, las cuales son:
 
 A crédito: esta regla de pago indica que dicho documento cuenta con un crédito de pago, sin embargo es crédito no es reflejado en la orden de pago si no en la regla de pago que tenga establecida el **Socio del Negocio** o la **Orden de Compra**.
 
@@ -791,7 +791,7 @@ Campo **Importe Fuente** en este campo debe aparecer el total de la abierto de l
 
 Imagen 53. Campo Importe Fuente del Documento Orden de Pago desde Factura
 
-Campo **Tipo de Conversión**, este campo tipo lista mostrará los tipos de conversión que se encuentren registrados en ADempiere, el tipo de conversión no es más que el tipo de índice el cual se le asociará el valor de las tasa o conversiones de monedas.
+Campo **Tipo de Conversión**, este campo tipo lista mostrará los tipos de conversión que se encuentren registrados en Solop ERP, el tipo de conversión no es más que el tipo de índice el cual se le asociará el valor de las tasa o conversiones de monedas.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image320.png)
 
@@ -863,23 +863,23 @@ Al aplicar esta acción **Completar** el documento pasará a estar completo y es
 
 Note
 
-Es muy importante tener en cuenta que todo documento transaccional una vez se culmine con el llenado de los datos debe ser completado, para que ADempiere tome como válido los datos cargados en el documento.
+Es muy importante tener en cuenta que todo documento transaccional una vez se culmine con el llenado de los datos debe ser completado, para que Solop ERP tome como válido los datos cargados en el documento.
 
 Hasta este punto llegaría el registro de factura a través de la ventana **Selección de Pago** con el tipo de documento **Orden de Pago** ya que solo se está creando la solicitud de los facturas que están pendientes por pagar y necesitan ser canceladas, en este paso a pesar de que se complete el documento esto no quiere decir que se han generado los pagos, para poder generar los pagos correspondientes a las facturas asociadas a la **Orden de Pago** se necesita completar el procedimiento Registro desde Selección de Pago y el Registro de Imprimir / Exportar Pagos.
 
 ## Registro desde Nómina
 
-La selección de pagos de nómina representa una de las formas que requiere ADempiere para que usted registre el pago de la nómina a los empleados, luego de que usted completó la nómina de los empleados y está seguro de que todos los cálculos obtenidos son correctos, previa visualización en el reporte de nómina, debe comenzar el proceso donde registre los pagos de cada uno de los empleados.
+La selección de pagos de nómina representa una de las formas que requiere Solop ERP para que usted registre el pago de la nómina a los empleados, luego de que usted completó la nómina de los empleados y está seguro de que todos los cálculos obtenidos son correctos, previa visualización en el reporte de nómina, debe comenzar el proceso donde registre los pagos de cada uno de los empleados.
 
 Lo primero que debe hacer es dirigirse a la ventana **Selección de Pagos**, ubicada dentro de la carpeta principal del menú llamada **Gestión de Saldos Pendientes**.
 
 Registre los datos principales del pago con la siguiente información:
 
-Seleccione en el campo Tipo de Documento la opción **Selección de Pagos Nóminas**, el tipo de documento determina la acción a realizar del documento dentro de ADempiere.
+Seleccione en el campo Tipo de Documento la opción **Selección de Pagos Nóminas**, el tipo de documento determina la acción a realizar del documento dentro de Solop ERP.
 
 Seleccione en el campo **Fecha del Documento** la fecha en la que está realizando el documento, se recomienda utilizar la misma fecha contable con la que registró el proceso de nómina
 
-Seleccione en el campo **Fecha de Pago** la fecha de pago del documento. La fecha de pago determina la fecha en que se generarán los pagos dentro de ADempiere, es fundamental ya que en muchos casos esa será la fecha en la qué se generará el txt del banco, cualquier variación en la misma podría ocasionar que esté documento no sea aceptado por el mismo, se recomienda que la selección de pago se realice el mismo día en que subirá el txt al banco.
+Seleccione en el campo **Fecha de Pago** la fecha de pago del documento. La fecha de pago determina la fecha en que se generarán los pagos dentro de Solop ERP, es fundamental ya que en muchos casos esa será la fecha en la qué se generará el txt del banco, cualquier variación en la misma podría ocasionar que esté documento no sea aceptado por el mismo, se recomienda que la selección de pago se realice el mismo día en que subirá el txt al banco.
 
 Luego debe seleccionar en el Campo **Cuenta Bancaria** la Cuenta Bancaria que se va a disponer para el pago de la nómina, en este caso será una caja y estará identificada con el Nombre del Banco y al final de este llevará la palabra Tránsito. La Cuenta Bancaria identifica la cuenta del banco de la cual se van a emitir los pagos a los empleados
 
@@ -941,15 +941,15 @@ Para realizar una **Selección de Pago** la cual se encarga de definir de qué c
 
 Note
 
-Es muy importante tener en cuenta que para poder seguir el paso a paso que se detalla a continuación se debe tener previamente cargada en ADempiere la **Orden de Pago** si no se encuentra cargado en ADempiere pueden consultar el instructivo Registro desde Factura o Registro desde Orden
+Es muy importante tener en cuenta que para poder seguir el paso a paso que se detalla a continuación se debe tener previamente cargada en Solop ERP la **Orden de Pago** si no se encuentra cargado en Solop ERP pueden consultar el instructivo Registro desde Factura o Registro desde Orden
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Saldos Pendientes**, luego seleccione la ventana **Selección de Pagos**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Saldos Pendientes**, luego seleccione la ventana **Selección de Pagos**.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image336.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
-Podrá visualizar la ventana **Selección de Pago**, en la cual debe seleccionar el icono **Registro Nuevo** ubicado en la barra de herramientas de ADempiere.
+Podrá visualizar la ventana **Selección de Pago**, en la cual debe seleccionar el icono **Registro Nuevo** ubicado en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image337.png)
 
@@ -957,7 +957,7 @@ Imagen 2. Icono Registro Nuevo del Documento Registro desde Selección de Pago
 
 Seleccione en el campo **Organización**, la organización para la cual está realizando el documento **Selección de Pago**.
 
-Al seleccionar la organización con la que trabajará el registro a crear estará disponible únicamente bajo esa organización seleccionada, aunque la decisión de la organización a trabajar quedará al momento que inicie sesión en ADempiere.
+Al seleccionar la organización con la que trabajará el registro a crear estará disponible únicamente bajo esa organización seleccionada, aunque la decisión de la organización a trabajar quedará al momento que inicie sesión en Solop ERP.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image338.png)
 
@@ -1009,7 +1009,7 @@ Seleccione la opción **Crear Desde Selección de Pago**, para crear la selecci�
 
 Imagen 10. Opción Crear Desde Selección de Pago del Documento Registro desde Selección de Pago
 
-Al seleccionar el botón **Crear Desde Selección de Pago**, se desplegará otra ventana llamada Smart Browser (Ventana de Búsqueda Inteligente) donde podrá ubicar a las **Órdenes de Pago** cargadas en ADempiere. Podrá observar en la siguiente ventana de búsqueda inteligente una serie de campos para ser utilizados como criterio de búsqueda.
+Al seleccionar el botón **Crear Desde Selección de Pago**, se desplegará otra ventana llamada Smart Browser (Ventana de Búsqueda Inteligente) donde podrá ubicar a las **Órdenes de Pago** cargadas en Solop ERP. Podrá observar en la siguiente ventana de búsqueda inteligente una serie de campos para ser utilizados como criterio de búsqueda.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image346.png)
 
@@ -1033,7 +1033,7 @@ Imagen 13. Campo Socio del Negocio de la Ventana de Búsqueda Inteligente del Pr
 
 Campo **Factura**, permite filtrar la búsqueda por la factura previamente realizada.
 
-Es decir al colocar una factura en específico en el campo **Factura**, ADempiere traerá la **Orden de Pago** que ese asociada a esa factura.
+Es decir al colocar una factura en específico en el campo **Factura**, Solop ERP traerá la **Orden de Pago** que ese asociada a esa factura.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image349.png)
 
@@ -1047,7 +1047,7 @@ Imagen 15. Campo Regla de Pago de la Ventana de Búsqueda Inteligente del Proces
 
 Campo **Orden de Venta**, permite filtrar la búsqueda por la orden de venta previamente realizada.
 
-Es decir al colocar una orden en específico en el campo **Orden de Venta**, ADempiere traerá las ordenes que se encuentren asociada a una **Orden de Pago**.
+Es decir al colocar una orden en específico en el campo **Orden de Venta**, Solop ERP traerá las ordenes que se encuentren asociada a una **Orden de Pago**.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image351.png)
 
@@ -1085,7 +1085,7 @@ Seleccione la opción **OK**, para cargar a la pestaña **Línea de Selección d
 
 Imagen 21. Opción OK de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
 
-Seleccione el icono **Refrescar**, ubicado en la barra de herramientas de ADempiere para refrescar la ventana y pueda visualizar la información cargada desde la opción **Crear Desde Selección de Pago**.
+Seleccione el icono **Refrescar**, ubicado en la barra de herramientas de Solop ERP para refrescar la ventana y pueda visualizar la información cargada desde la opción **Crear Desde Selección de Pago**.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image357.png)
 
@@ -1131,7 +1131,7 @@ Imagen 26. Orden de Compra del Documento Registro desde Selección de Pago
 
 En el campo **Regla de Pago** se debe seleccionar la regla de pago con la que se emitirá el pago al proveedor.
 
-ADempiere cuenta cuenta con cinco (5) reglas de pagos, las cuales debe ser utilizadas de las siguientes manera:
+Solop ERP cuenta cuenta con cinco (5) reglas de pagos, las cuales debe ser utilizadas de las siguientes manera:
 
 Para lo pagos que serán generados a través de transferencia bancarias se deben tildar las siguientes reglas de pago:
 
@@ -1205,6 +1205,6 @@ Al aplicar esta acción **Completar** el documento pasará a esta completo y est
 
 Note
 
-Es muy importante tener en cuenta que todo documento transaccional una vez se culmine con el llenado de los datos debe ser completado, para que ADempiere tome como válido los datos cargados en el documento.
+Es muy importante tener en cuenta que todo documento transaccional una vez se culmine con el llenado de los datos debe ser completado, para que Solop ERP tome como válido los datos cargados en el documento.
 
 Hasta este punto llegaría el registro y la definición de los documentos que serán cancelados a través de una **Selección de Pago**, este paso a pesar de que se complete no garantiza que los pagos se han generados, para poder generar los pagos correspondientes a cada uno de los documentos asociados se necesita completar el procedimiento Registro de Imprimir / Exportar Pagos

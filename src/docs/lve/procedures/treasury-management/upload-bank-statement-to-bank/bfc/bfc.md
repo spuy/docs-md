@@ -14,7 +14,7 @@ article: false
 **Banco Fondo Común**
 =====================
 
-Para la exportación de los archivos desde ADempiere al banco fondo común, [ERPyA](http://erpya.com) soporta los siguientes formatos facilitados por el banco, que pueden ser descargados para su análisis y adaptación.
+Para la exportación de los archivos desde Solop ERP al banco fondo común, [Solop ERP](https://ayuda.solopapp.com/) soporta los siguientes formatos facilitados por el banco, que pueden ser descargados para su análisis y adaptación.
 
 El banco cuenta con el documento [Intructivo TXT Proveedores](Instructivo_TXT_Proveedores_BFC.pdf), que explica el formato que sirven de ayuda para la construcción el archivo a cargar.
 
@@ -29,7 +29,7 @@ Para configurar el **Código Empresa** puede hacerlo en **Gestión de Sistema** 
 
 **Archivo para Pagos**
 
-Al ejecutar el proceso de selección de pago de las siguientes facturas en ADempiere:
+Al ejecutar el proceso de selección de pago de las siguientes facturas en Solop ERP:
 
 - Factura "**1000142**" al socio del negocio "**Estándar**" por monto total de "**1.500.000,00**".
 - Factura "**1000143**" al socio del negocio "**Estándar**" por monto total de "**2.500.000,00**". 

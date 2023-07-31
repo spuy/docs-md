@@ -43,9 +43,9 @@ Imagen 4. Documento de Declaración
 
 Luego de anular la declaración y la retención asociada al documento por pagar, se debe realizar el siguiente procedimiento.
 
-Es importante que se anule la retención aplicada al documento por pagar para que ADempiere pueda re-procesar la retención. Si el documento ya posee una declaración, se debe anular primero la declaración y luego la retención.
+Es importante que se anule la retención aplicada al documento por pagar para que Solop ERP pueda re-procesar la retención. Si el documento ya posee una declaración, se debe anular primero la declaración y luego la retención.
 
-Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**", luego seleccione la ventana "**Documentos por Pagar**", por último ubique el registro del documento por pagar "**1000111**", para re-procesar la retención.
+Ubique y seleccione en el menú de Solop ERP, la carpeta "**Gestión de Compras**", luego seleccione la ventana "**Documentos por Pagar**", por último ubique el registro del documento por pagar "**1000111**", para re-procesar la retención.
 
 ![documento por pagar](/assets/img/docs/lve/procedures/withholding-management/resources/document-payable.png)
 
@@ -53,7 +53,7 @@ Imagen 5. Documento por Pagar
 
 Verifique la configuración de retención y modifique la misma de ser necesario. Las configuraciones de las retenciones se encuentran explicadas en los documentos [Retención de Iva](withholding-iva.md), [Retención Islr](withholding-islr.md) y [Retención Municipal](withholding-municipality.md).
 
-Seleccione el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere.
+Seleccione el icono "**Proceso**", ubicado en la barra de herramientas de Solop ERP.
 
 ![icono proceso del documento por pagar](/assets/img/docs/lve/procedures/withholding-management/resources/document-process-payable-icon.png)
 

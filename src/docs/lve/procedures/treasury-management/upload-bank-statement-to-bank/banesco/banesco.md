@@ -11,7 +11,7 @@ tag:
 article: false
 ---
 
-Para la exportación de los archivos desde ADempiere al banco banesco, [ERPyA](http://erpya.com) soporta los siguientes formatos facilitados por el banco, que pueden ser descargados para su análisis y adaptación.
+Para la exportación de los archivos desde Solop ERP al banco banesco, [Solop ERP](https://ayuda.solopapp.com/) soporta los siguientes formatos facilitados por el banco, que pueden ser descargados para su análisis y adaptación.
 
 El banco cuenta con los documentos [Generación del Archivo de Pago (PAYMUL) Asociado Comercial](Generacion_de_Archivos_de_Pagos.pdf) y [Archivos de Pagos](ARCHIVOS_DE_PAGOS.pdf), que explican los formatos para la construcción el archivo a cargar.
 
@@ -63,7 +63,7 @@ Adicional a ello, cuenta con el documento [Código Swift Actualizado](Codigo_Swi
 
 **Archivo para Pagos**
 
-Al ejecutar el proceso de selección de pago de las siguientes facturas en ADempiere:
+Al ejecutar el proceso de selección de pago de las siguientes facturas en Solop ERP:
 
 - Factura "**1000122**" al socio del negocio "**Estándar**" por monto total de "**1.500.000,00**".
 - Factura "**1000123**" al socio del negocio "**Estándar**" por monto total de "**2.525.000,00**".
@@ -126,7 +126,7 @@ Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en 
 
 **Archivo para Pagos**
 
-Al ejecutar el proceso de selección de pago de la nómina quincenal "**NQ-15**" procesada en ADempiere, con los siguientes empleados:
+Al ejecutar el proceso de selección de pago de la nómina quincenal "**NQ-15**" procesada en Solop ERP, con los siguientes empleados:
 
 - Socio del Negocio "**Empleado Estándar Uno**", con cédula de identidad "**V000000001**", perteneciente a la nómina "**Quincenal**".
 - Socio del Negocio "**Empleado Estándar Dos**", con cédula de identidad "**V000000002**", perteneciente a la nómina "**Quincenal**".

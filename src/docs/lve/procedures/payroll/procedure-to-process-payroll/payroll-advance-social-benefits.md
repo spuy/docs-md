@@ -15,13 +15,13 @@ article: false
 **Nómina Anticipo de Prestaciones Sociales**
 ============================================
 
-Para procesar una “**Nómina de Anticipo Prestaciones Sociales**” debemos realizar el proceso de nómina estándar mencionado en el ''Procedimiento para procesar nómina'' elaborado por [ERPyA](http://erpya.com). En esta ventana se registran los datos principales que ADempiere requiere para crear una nómina de anticipo prestaciones sociales, cada uno de los campos detallados a continuación son relevantes para obtener un registro exitoso:
+Para procesar una “**Nómina de Anticipo Prestaciones Sociales**” debemos realizar el proceso de nómina estándar mencionado en el ''Procedimiento para procesar nómina'' elaborado por [Solop ERP](https://ayuda.solopapp.com/). En esta ventana se registran los datos principales que Solop ERP requiere para crear una nómina de anticipo prestaciones sociales, cada uno de los campos detallados a continuación son relevantes para obtener un registro exitoso:
 
 Estatus del Documento:
 
 Seleccione “**Nómina Prestaciones Sociales**” en el campo “**Tipo de Documento**”
 
-El tipo de documento le permitirá definir la acción del documento que esté registrando en ADempiere.
+El tipo de documento le permitirá definir la acción del documento que esté registrando en Solop ERP.
 
 Selecciones “**Nómina de Anticipo Prestaciones Sociales**” en el campo “**Nómina**”
 

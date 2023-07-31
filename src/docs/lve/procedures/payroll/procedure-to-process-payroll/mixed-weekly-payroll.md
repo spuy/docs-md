@@ -15,13 +15,13 @@ article: false
  **Nómina Semanal Mixta**
 =========================
 
-Para procesar una “**Nómina Semanal Mixta**” debemos realizar el proceso de nómina estándar mencionado en el documento ''Procedimiento para procesar nómina'' elaborado por [ERPyA](http://erpya.com). En esta ventana se registran los datos principales que ADempiere requiere para crear una nómina de tipo semanal mixta, cada uno de los campos detallados a continuación son relevantes para obtener un registro exitoso:
+Para procesar una “**Nómina Semanal Mixta**” debemos realizar el proceso de nómina estándar mencionado en el documento ''Procedimiento para procesar nómina'' elaborado por [Solop ERP](https://ayuda.solopapp.com/). En esta ventana se registran los datos principales que Solop ERP requiere para crear una nómina de tipo semanal mixta, cada uno de los campos detallados a continuación son relevantes para obtener un registro exitoso:
 
 Estatus del documento:
 
 Seleccione **Nómina Semanal** en el campo "**Tipo de Documento**".
 
-El tipo de documento le permitirá definir la acción del documento que esté registrando en ADempiere.
+El tipo de documento le permitirá definir la acción del documento que esté registrando en Solop ERP.
 
 Seleccione **Nómina Semanal Mixta** en el campo "**Nómina**"
 
@@ -45,7 +45,7 @@ Imagen 1. Nómina Semanal Mixta
 
 Incidencias:
 
-Para esta nómina no son obligatorias las incidencias, pero en ADempiere se cuentan con las siguientes incidencias disponibles para la Nómina Semanal Mixta:
+Para esta nómina no son obligatorias las incidencias, pero en Solop ERP se cuentan con las siguientes incidencias disponibles para la Nómina Semanal Mixta:
 
 |           **INCIDENCIA**                              |     **CÓDIGO**       |    **TIPO**    |
 |-------------------------------------------------------|----------------------|----------------|

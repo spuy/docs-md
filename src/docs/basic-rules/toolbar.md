@@ -6,19 +6,19 @@ sticky: 9
 article: false
 ---
 
-En ADempiere contamos con una barra de herramientas la cual contiene una serie de iconos que realizan determinadas funciones. La barra de herramientas que a continuación será definida se encuentra ubicada en la ventana estándar de ADempiere.
+En Solop ERP contamos con una barra de herramientas la cual contiene una serie de iconos que realizan determinadas funciones. La barra de herramientas que a continuación será definida se encuentra ubicada en la ventana estándar de Solop ERP.
 
-Uno de los navegadores inteligentes que contempla ADempiere es el siguiente:
+Uno de los navegadores inteligentes que contempla Solop ERP es el siguiente:
 
-![Barra de Herramientas de ADempiere en Ventana Estándar](/assets/img/docs/basic-rules/bar-tools.png)
+![Barra de Herramientas de Solop ERP en Ventana Estándar](/assets/img/docs/basic-rules/bar-tools.png)
 
-Imagen 1. Barra de Herramientas de ADempiere en Ventana Estándar
+Imagen 1. Barra de Herramientas de Solop ERP en Ventana Estándar
 
 A continuación se define la operatividad de dicha barra de herramientas.
 
-![Barra de Herramientas de ADempiere en Ventana Estándar](/assets/img/docs/basic-rules/bar-operar.png)
+![Barra de Herramientas de Solop ERP en Ventana Estándar](/assets/img/docs/basic-rules/bar-operar.png)
 
-Imagen 2. Barra de Herramientas de ADempiere
+Imagen 2. Barra de Herramientas de Solop ERP
 
 | Icono                                               | Nombre                           | Descripción                                                                                                                                 |
 | --------------------------------------------------- | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |

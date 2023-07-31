@@ -14,7 +14,7 @@ article: false
 **Formatos de Importación de Nóminas**
 ======================================
 
-ADempiere requiere diferentes formatos de importación para ejecutar sus nóminas, dichos formatos se agrupan según la nómina a la que pertenecen:
+Solop ERP requiere diferentes formatos de importación para ejecutar sus nóminas, dichos formatos se agrupan según la nómina a la que pertenecen:
 
 - Nóminas Regulares.
 - Nómina de Vacaciones
@@ -46,7 +46,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 - **NQM**: Nómina Quincenal Mixta
 - **NMM**: Nómina Mensual Mixta
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se debe modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto creado en Solop ERP, dicho concepto **No se debe modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
 
@@ -95,7 +95,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 - **NQM**: Nómina Quincenal Mixta
 - **NMM**: Nómina Mensual Mixta
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se debe modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en Solop ERP, dicho concepto **No se debe modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
 
@@ -143,7 +143,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 - **NQM**: Nómina Quincenal Mixta
 - **NMM**: Nómina Mensual Mixta
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en Solop ERP, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
 
@@ -193,7 +193,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 - **NQM**: Nómina Quincenal Mixta
 - **NMM**: Nómina Mensual Mixta
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en Solop ERP, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
 
@@ -241,7 +241,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 - **NQM**: Nómina Quincenal Mixta
 - **NMM**: Nómina Mensual Mixta
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en Solop ERP, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
 
@@ -290,7 +290,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 - **NQM**: Nómina Quincenal Mixta
 - **NMM**: Nómina Mensual Mixta
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en Solop ERP, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
 
@@ -338,7 +338,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 - **NQM**: Nómina Quincenal Mixta
 - **NMM**: Nómina Mensual Mixta
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en Solop ERP, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
 
@@ -388,7 +388,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 - **NQM**: Nómina Quincenal Mixta
 - **NMM**: Nómina Mensual Mixta
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en Solop ERP, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
 
@@ -437,7 +437,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 - **NQM**: Nómina Quincenal Mixta
 - **NMM**: Nómina Mensual Mixta
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en Solop ERP, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
 
@@ -486,7 +486,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 - **NQM**: Nómina Quincenal Mixta
 - **NMM**: Nómina Mensual Mixta
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en Solop ERP, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
 
@@ -520,7 +520,7 @@ El formato para la importación de las nóminas semanal, quincenal, mensual, sem
 **Días Totales de la Nómina**
 -----------------------------
 
-El concepto días totales de la nómina (días hábiles laborados), se utiliza para calcular el promedio del salario en las vacaciones. Cabe destacar que los datos de este formulario son necesarios los tres (3) meses anteriores para los procesos de "**Nómina Semanal Mixta (NSM)**", "**Nómina Quincenal Mixta (NQM)**" o "**Nómina Mensual Mixta (NMM)**".  Sí su proceso de nómina es "**Nómina Semanal (NS)**", "**Nómina Quincenal (NM)**" o "**Nómina Mensual (NM)**", debe suministrar los datos solamente del mes anterior al momento de la implementación de ADempiere.
+El concepto días totales de la nómina (días hábiles laborados), se utiliza para calcular el promedio del salario en las vacaciones. Cabe destacar que los datos de este formulario son necesarios los tres (3) meses anteriores para los procesos de "**Nómina Semanal Mixta (NSM)**", "**Nómina Quincenal Mixta (NQM)**" o "**Nómina Mensual Mixta (NMM)**".  Sí su proceso de nómina es "**Nómina Semanal (NS)**", "**Nómina Quincenal (NM)**" o "**Nómina Mensual (NM)**", debe suministrar los datos solamente del mes anterior al momento de la implementación de Solop ERP.
 
 Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
 
@@ -535,7 +535,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 - **NQM**: Nómina Quincenal Mixta
 - **NMM**: Nómina Mensual Mixta
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en Solop ERP, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
 
@@ -588,7 +588,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 - **NQM**: Nómina Quincenal Mixta
 - **NMM**: Nómina Mensual Mixta
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en Solop ERP, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
 
@@ -637,7 +637,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 - **NQM**: Nómina Quincenal Mixta
 - **NMM**: Nómina Mensual Mixta
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en Solop ERP, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
 
@@ -686,7 +686,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 - **NQM**: Nómina Quincenal Mixta
 - **NMM**: Nómina Mensual Mixta
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en Solop ERP, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
 
@@ -735,7 +735,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 - **NQM**: Nómina Quincenal Mixta
 - **NMM**: Nómina Mensual Mixta
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en Solop ERP, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
 
@@ -768,7 +768,7 @@ El formato para la importación de las nóminas semanal, quincenal, mensual, sem
 **Salario Integral**
 --------------------
 
-Se utiliza para promediar el salario integral de los empleados. Cabe destacar que los datos de este formulario son necesarios solamente si existen procesos de "**Nóminas Semanales Mixta (NSM)**", "**Nóminas Quincenales Mixta (NQM)**" o "**Nóminas Mensuales Mixta (NMM)**". Sí su proceso de nómina es "**Nómina Semanal (NS)**", "**Nómina Quincenal (NM)**" o "**Nómina Mensual (NM)**", debe suministrar los datos solamente del mes anterior al momento de la implementación del ADempiere.
+Se utiliza para promediar el salario integral de los empleados. Cabe destacar que los datos de este formulario son necesarios solamente si existen procesos de "**Nóminas Semanales Mixta (NSM)**", "**Nóminas Quincenales Mixta (NQM)**" o "**Nóminas Mensuales Mixta (NMM)**". Sí su proceso de nómina es "**Nómina Semanal (NS)**", "**Nómina Quincenal (NM)**" o "**Nómina Mensual (NM)**", debe suministrar los datos solamente del mes anterior al momento de la implementación del Solop ERP.
 
 Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
 
@@ -783,7 +783,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 - **NQM**: Nómina Quincenal Mixta
 - **NMM**: Nómina Mensual Mixta
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en Solop ERP, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
 
@@ -823,7 +823,7 @@ El formato para la importación de las nóminas semanal, quincenal, mensual, sem
 **Salario Normal**
 ------------------
 
-Se utiliza para promediar el salario normal de los empleados. Cabe destacar que los datos de este formulario son necesarios para los procesos de "**Nómina Semanal Mixta (NSM)**", "**Nómina Quincenal Mixta (NQM)**" o "**Nómina Mensual Mixta (NMM)**". Sí su proceso de nómina es "**Nómina Semanal (NS)**", "**Nómina Quincenal (NM)**" o "**Nómina Mensual (NM)**", debe suministrar los datos solamente del mes anterior al momento de la implementación de ADempiere.
+Se utiliza para promediar el salario normal de los empleados. Cabe destacar que los datos de este formulario son necesarios para los procesos de "**Nómina Semanal Mixta (NSM)**", "**Nómina Quincenal Mixta (NQM)**" o "**Nómina Mensual Mixta (NMM)**". Sí su proceso de nómina es "**Nómina Semanal (NS)**", "**Nómina Quincenal (NM)**" o "**Nómina Mensual (NM)**", debe suministrar los datos solamente del mes anterior al momento de la implementación de Solop ERP.
 
 Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
 
@@ -838,7 +838,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 - **NQM**: Nómina Quincenal Mixta
 - **NMM**: Nómina Mensual Mixta
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en Solop ERP, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
 
@@ -893,7 +893,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 - **NQM**: Nómina Quincenal Mixta
 - **NMM**: Nómina Mensual Mixta
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en Solop ERP, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
 
@@ -942,7 +942,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 
 - **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en Solop ERP, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
 
@@ -982,7 +982,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 
 - **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en Solop ERP, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
 
@@ -1016,13 +1016,13 @@ El formato para la importación de la nómina de vacaciones es el siguiente:
 **Total de Asignaciones de la Nómina de Vacaciones Anterior**
 --------------------------------------------------------------
 
-Representa monto total devengado por el empleado por concepto de sus vacaciones anteriores. Ese dato debe ser suministrado para que ADempiere lo tome en cuenta al momento de calcular las utilidades del empleado, por ejemplo "si su periodo de utilidades está entre el primero de noviembre de 2019 hasta el 31 de octubre de 2020",  debe suministrar la información de las vacaciones que se procesaron durante ese período para que ese saldo pueda considerarse al momento de procesar su nómina de utilidades.
+Representa monto total devengado por el empleado por concepto de sus vacaciones anteriores. Ese dato debe ser suministrado para que Solop ERP lo tome en cuenta al momento de calcular las utilidades del empleado, por ejemplo "si su periodo de utilidades está entre el primero de noviembre de 2019 hasta el 31 de octubre de 2020",  debe suministrar la información de las vacaciones que se procesaron durante ese período para que ese saldo pueda considerarse al momento de procesar su nómina de utilidades.
 
 Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
 
 - **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en Solop ERP, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
 
@@ -1056,13 +1056,13 @@ El formato para la importación de la nómina de utilidades es el siguiente:
 **Días Totales de Vacaciones de la Nómina de Vacaciones Anterior**
 -------------------------------------------------------------------
 
-Representa el total de días (Días de disfrutes de vacaciones, días de descanso y días feriados) otorgados por el empleado durante el periodo de vacaciones anteriores. Ese dato debe ser suministrado para que ADempiere lo tome en cuenta al momento de calcular las utilidades del empleado, por ejemplo "si su periodo de utilidades está entre el primero de noviembre de 2019 hasta el 31 de octubre de 2020",  debe suministrar la información de las vacaciones que se procesaron durante ese período para que ese saldo pueda considerarse al momento de procesar su nómina de utilidades.
+Representa el total de días (Días de disfrutes de vacaciones, días de descanso y días feriados) otorgados por el empleado durante el periodo de vacaciones anteriores. Ese dato debe ser suministrado para que Solop ERP lo tome en cuenta al momento de calcular las utilidades del empleado, por ejemplo "si su periodo de utilidades está entre el primero de noviembre de 2019 hasta el 31 de octubre de 2020",  debe suministrar la información de las vacaciones que se procesaron durante ese período para que ese saldo pueda considerarse al momento de procesar su nómina de utilidades.
 
 Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
 
 - **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en Solop ERP, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
 
@@ -1107,7 +1107,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 
 - **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en Solop ERP, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
 
@@ -1157,7 +1157,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 
 - **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en Solop ERP, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
 
@@ -1202,7 +1202,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 
 - **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en Solop ERP, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
 
@@ -1247,7 +1247,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 
 - **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en Solop ERP, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
 
@@ -1292,7 +1292,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 
 - **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en Solop ERP, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
 
@@ -1332,7 +1332,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 
 - **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en Solop ERP, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
 
@@ -1351,7 +1351,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 
 - **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
 
-- Se debe registrar un formato indicando la porción de garantía de prestaciones del mes anterior y otro formato indicando el penultimo mes a la implementación de ADempiere que le correspondio al empleado por concepto de sus garantía de prestaciones.
+- Se debe registrar un formato indicando la porción de garantía de prestaciones del mes anterior y otro formato indicando el penultimo mes a la implementación de Solop ERP que le correspondio al empleado por concepto de sus garantía de prestaciones.
 
 **Formato de Importación**
 
@@ -1375,7 +1375,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 
 - **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en Solop ERP, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
 - **V**: Venezolano
@@ -1393,7 +1393,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 
 - **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
 
-- Se debe registrar un formato indicando la porción de intereses de garantía de prestaciones del mes anterior y otro formato indicando el penultimo mes a la implementación de ADempiere que le correspondio al empleado por concepto de sus garantía de prestaciones.
+- Se debe registrar un formato indicando la porción de intereses de garantía de prestaciones del mes anterior y otro formato indicando el penultimo mes a la implementación de Solop ERP que le correspondio al empleado por concepto de sus garantía de prestaciones.
 
 **Formato de Importación**
 
@@ -1417,7 +1417,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 
 - **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en Solop ERP, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
 - **V**: Venezolano
@@ -1456,7 +1456,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 
 - **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en Solop ERP, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
 - **V**: Venezolano
@@ -1495,7 +1495,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 
 - **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en Solop ERP, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
 - **V**: Venezolano

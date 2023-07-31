@@ -14,11 +14,11 @@ article: false
 **Generar Declaraciones de Retenciones**
 ========================================
 
-Ubique y seleccione en el menú de ADempiere, la carpeta "**Manejo de Retenciones**", luego seleccione la ventana "**Generar Declaración de Retenciones**".
+Ubique y seleccione en el menú de Solop ERP, la carpeta "**Manejo de Retenciones**", luego seleccione la ventana "**Generar Declaración de Retenciones**".
 
-![Menú de ADempiere 1](/assets/img/docs/lve/procedures/withholding-management/resources/menu-gen-dec-ret-iva.png)
+![Menú de Solop ERP 1](/assets/img/docs/lve/procedures/withholding-management/resources/menu-gen-dec-ret-iva.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana de búsqueda inteligente "**Generar Declaración de Retenciones**", con los campos "**Tipo de Retención**" en el cual se selecciona el tipo de retención a declarar y "**Fecha Contable**" con el cual se establece el rango de fecha para filtrar la búsqueda.
 
@@ -69,11 +69,11 @@ El proceso genera un documento por pagar de tipo "**Declaración Municipal de Cu
 **Consultar Declaración de Retenciones**
 ========================================
 
-Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**", luego seleccione la ventana "**Documento por Pagar**".
+Ubique y seleccione en el menú de Solop ERP, la carpeta "**Gestión de Compras**", luego seleccione la ventana "**Documento por Pagar**".
 
-![Menú de ADempiere 2](/assets/img/docs/lve/procedures/withholding-management/resources/menu-doc-pagar.png)
+![Menú de Solop ERP 2](/assets/img/docs/lve/procedures/withholding-management/resources/menu-doc-pagar.png)
 
-Imagen 8. Menú de ADempiere
+Imagen 8. Menú de Solop ERP
 
 Al buscar el documento de declaración de retenciones, con el número de documento generado en la ventana del proceso "**Generar Declaración de Retenciones**", podrá visualizar el mismo de la siguiente manera.
 
@@ -84,11 +84,11 @@ Imagen 9. Documento por pagar generado de tipo "**Declaración de IVA de Cuentas
 **Detalle de Declaraciones de Retenciones**
 ===========================================
 
-Ubique y seleccione en el menú de ADempiere, la carpeta "**Localización Venezuela**", luego seleccione la ventana "**Detalle de Retenciones**".
+Ubique y seleccione en el menú de Solop ERP, la carpeta "**Localización Venezuela**", luego seleccione la ventana "**Detalle de Retenciones**".
 
-![Menú de ADempiere 3](/assets/img/docs/lve/procedures/withholding-management/resources/menu-det-ret.png)
+![Menú de Solop ERP 3](/assets/img/docs/lve/procedures/withholding-management/resources/menu-det-ret.png)
 
-Imagen 10. Menú de ADempiere
+Imagen 10. Menú de Solop ERP
 
 Podrá visualizar la ventana del reporte "**Detalle de Retenciones**", con diferentes campos o filtros para realizar la búsqueda de la información según lo requerido por el usuario y generar el reporte de acuerdo a lo seleccionado en los mismos.
 
@@ -152,7 +152,7 @@ Imagen 18. Archivo o Documento Exportado
 
 .. note::
 
-La declaración de las retenciones municipales de cuentas por pagar, varia según el municipio donde se encuentre el socio del negocio al cual se le brinda el servicio ya que en cada municipio varía la retención del mismo. En ADempiere, dicha declaración es generada realizando los procesos ''generar declaración retenciones'' y consultar declaración retenciones''.
+La declaración de las retenciones municipales de cuentas por pagar, varia según el municipio donde se encuentre el socio del negocio al cual se le brinda el servicio ya que en cada municipio varía la retención del mismo. En Solop ERP, dicha declaración es generada realizando los procesos ''generar declaración retenciones'' y consultar declaración retenciones''.
 
 **Archivo TXT de IVA Exportado**
 --------------------------------

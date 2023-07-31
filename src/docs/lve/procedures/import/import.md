@@ -20,11 +20,11 @@ Dicha importación tiene como consecuencia para la empresa nacional la generaci�
 
 El expediente de importación representa la agrupación fiscal para un proceso de importación y es quién da paso al proceso de importación.
 
-- Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Importación y Exportación**" y luego seleccione la ventana "**Expediente de Importación/Exportación**".
+- Ubique y seleccione en el menú de Solop ERP, la carpeta "**Gestión de Importación y Exportación**" y luego seleccione la ventana "**Expediente de Importación/Exportación**".
 
 ![Menu Import](/assets/img/docs/lve/procedures/import/resources/menu1.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 - Seleccione el tipo de documento **"Expediente de Importación".
 
@@ -104,11 +104,11 @@ A continuación se detalla los campos que son actualizados de manera automática
 
 **Orden de Compra de Importación**
 
-- Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**" y luego seleccione la ventana "**Órdenes de Compra**".
+- Ubique y seleccione en el menú de Solop ERP, la carpeta "**Gestión de Compras**" y luego seleccione la ventana "**Órdenes de Compra**".
 
-![Menú de ADempiere 1](/assets/img/docs/lve/procedures/import/resources/menu1.png)
+![Menú de Solop ERP 1](/assets/img/docs/lve/procedures/import/resources/menu1.png)
 
-Imagen 10. Menú de ADempiere
+Imagen 10. Menú de Solop ERP
 
 - Realice el procedimiento regular para realizar una orden de compra, explicado en el material **''Orden de compra''**.
 
@@ -146,11 +146,11 @@ Imagen 15. Orden de Compra Completa
 
 **Documento por Pagar de Mercancía**
 
-Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**" y luego seleccione la ventana "**Documentos por Pagar**".
+Ubique y seleccione en el menú de Solop ERP, la carpeta "**Gestión de Compras**" y luego seleccione la ventana "**Documentos por Pagar**".
 
-![Menú de ADempiere 4](/assets/img/docs/lve/procedures/import/resources/menu4.png)
+![Menú de Solop ERP 4](/assets/img/docs/lve/procedures/import/resources/menu4.png)
 
-Imagen 16. Menú de ADempiere
+Imagen 16. Menú de Solop ERP
 
 Realice el procedimiento regular para realizar un documento por pagar desde una Orden de Compra, explicado en el material **''Documento por pagar''**.
 
@@ -178,11 +178,11 @@ Imagen 18. Expediente de Importación
 
 **Documento por Pagar de Costos CIF**
 
-Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**" y luego seleccione la ventana "**Documentos por Pagar**".
+Ubique y seleccione en el menú de Solop ERP, la carpeta "**Gestión de Compras**" y luego seleccione la ventana "**Documentos por Pagar**".
 
-![Menú de ADempiere 4](/assets/img/docs/lve/procedures/import/resources/menu4.png)
+![Menú de Solop ERP 4](/assets/img/docs/lve/procedures/import/resources/menu4.png)
 
-Imagen 19. Menú de ADempiere
+Imagen 19. Menú de Solop ERP
 
 Realice el procedimiento regular para realizar un documento por pagar desde una Orden de Compra, explicado en el material :ref:`documento/documento-por-pagar`.
 

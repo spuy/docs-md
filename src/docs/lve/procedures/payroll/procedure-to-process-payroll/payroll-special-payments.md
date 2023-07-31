@@ -14,13 +14,13 @@ article: false
 **Nómina Pagos Especiales**
 ===============================
 
-Para procesar una “**Nómina de Pagos Especiales**” debemos realizar el proceso de nómina estándar mencionado en el documento ''Procedimiento para procesar mómina'' elaborado por ''ERPyA''. En esta ventana se registran los datos principales que ADempiere requiere para crear una nómina de pagos especiales. El comportamiento de esta nómina puede representarse a través 2 formas diferentes, una de ellas parte del registro de una incidencia pagos especiales, la cual le  permitirá asignarle un monto diferente a cada empleado por cada nómina de pagos especiales que realice, también tiene disponible el  factor bono pagos especiales a través del mismo puede determinar un monto fijo de un pago especial que le otorgará al empleado por un período determinado de tiempo. Cada uno de los campos detallados a continuación son relevantes para obtener un registro exitoso:
+Para procesar una “**Nómina de Pagos Especiales**” debemos realizar el proceso de nómina estándar mencionado en el documento ''Procedimiento para procesar mómina'' elaborado por ''Solop ERP''. En esta ventana se registran los datos principales que Solop ERP requiere para crear una nómina de pagos especiales. El comportamiento de esta nómina puede representarse a través 2 formas diferentes, una de ellas parte del registro de una incidencia pagos especiales, la cual le  permitirá asignarle un monto diferente a cada empleado por cada nómina de pagos especiales que realice, también tiene disponible el  factor bono pagos especiales a través del mismo puede determinar un monto fijo de un pago especial que le otorgará al empleado por un período determinado de tiempo. Cada uno de los campos detallados a continuación son relevantes para obtener un registro exitoso:
 
 Estatus del Documento:
 
 Seleccione **Nómina por Pagos Especiales** en el campo "**Tipo de Documento**".
 
-El tipo de documento le permitirá definir la acción del documento que esté registrando en ADempiere.
+El tipo de documento le permitirá definir la acción del documento que esté registrando en Solop ERP.
 
 Seleccione **Nómina Pagos Especiales** en el campo "**Nómina**"
 

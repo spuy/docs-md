@@ -15,13 +15,13 @@ article: false
 **Orden de Pago Obligaciones Laborales**
 ========================================
 
-- Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la ventana "**Selección de Pagos**".
+- Ubique y seleccione en el menú de Solop ERP, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la ventana "**Selección de Pagos**".
 
-![Menú de ADempiere](/assets/img/docs/lve/procedures/payroll/loans-to-employees/resources/menu.png)
+![Menú de Solop ERP](/assets/img/docs/lve/procedures/payroll/loans-to-employees/resources/menu.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
-- Podrá visualizar la ventana "**Selección de Pago**", en la cual debe seleccionar el icono "**Registro Nuevo**" ubicado en la barra de herramientas de ADempiere.
+- Podrá visualizar la ventana "**Selección de Pago**", en la cual debe seleccionar el icono "**Registro Nuevo**" ubicado en la barra de herramientas de Solop ERP.
 
 ![Icono Registro Nuevo 1](/assets/img/docs/lve/procedures/payroll/loans-to-employees/resources/icono-nuevo.png)
 
@@ -69,7 +69,7 @@ Imagen 8. Campo Nombre de Referencia
 
 Imagen 9. Campo Descripción
 
-- Recuerde guardar el registro de campos de la ventana "**Selección de Pago**", seleccionando el icono "**Guardar Cambios**" ubicado en la barra de herramientas de ADempiere.
+- Recuerde guardar el registro de campos de la ventana "**Selección de Pago**", seleccionando el icono "**Guardar Cambios**" ubicado en la barra de herramientas de Solop ERP.
 
 - Seleccione la pestaña "**Línea de Selección de Pago**", para proceder a llenar los campos necesarios.
 
@@ -101,7 +101,7 @@ Imagen 13. Campo Cargo
 
 Imagen 14. Campo Regla de Pago
 
-- Recuerde guardar el registro de campos de la ventana "**Selección de Pago**", seleccionando el icono "**Guardar Cambios**" ubicado en la barra de herramientas de ADempiere.
+- Recuerde guardar el registro de campos de la ventana "**Selección de Pago**", seleccionando el icono "**Guardar Cambios**" ubicado en la barra de herramientas de Solop ERP.
 
 - Regrese a la ventana principal "**Selección de Pago**" y seleccione la opción "**Completar**", ubicada en la parte inferior del documento.
 

@@ -14,7 +14,7 @@ article: false
 **Banco Exterior**
 ==================
 
-Para la exportación de los archivos desde ADempiere al banco exterior, [ERPyA](http://erpya.com) soporta los siguientes formatos facilitados por el banco, que pueden ser descargados para su análisis y adaptación.
+Para la exportación de los archivos desde Solop ERP al banco exterior, [Solop ERP](https://ayuda.solopapp.com/) soporta los siguientes formatos facilitados por el banco, que pueden ser descargados para su análisis y adaptación.
 
 El banco cuenta con los documentos [Archivo de Pago a Proveedores](Asistente_Integral_Estructura_Pago_a_Proveedores.pdf) y [Archivo de Afiliación y Pago de Proveedores y Nómina](Pago_Nomina_y_Proveedores.pdf), que explican los formatos para la construcción del archivo a cargar.
 
@@ -33,7 +33,7 @@ El banco cuenta con los documentos [Archivo de Pago a Proveedores](Asistente_Int
 
 **Archivo para Pagos**
 
-Al ejecutar el proceso de selección de pago de las siguientes facturas en ADempiere:
+Al ejecutar el proceso de selección de pago de las siguientes facturas en Solop ERP:
 
 - Factura "**1000162**" al socio del negocio "**Estándar**" por monto total de "**1.500.000,00**".
 - Factura "**1000163**" al socio del negocio "**Estándar**" por monto total de "**2.500.000,00**".
@@ -60,7 +60,7 @@ La descripción del archivo anteriormente generado por el pago, se encuentra exp
 
 **Archivo para Pagos**
 
-Al ejecutar el proceso de selección de pago de la nómina quincenal "**NQ-18**" procesada en ADempiere, con los siguientes empleados:
+Al ejecutar el proceso de selección de pago de la nómina quincenal "**NQ-18**" procesada en Solop ERP, con los siguientes empleados:
 
 - Socio del Negocio "**Empleado Estándar Uno**", con cédula de identidad "**V000000001**", perteneciente a la nómina "**Quincenal**".
 - Socio del Negocio "**Empleado Estándar Dos**", con cédula de identidad "**V000000002**", perteneciente a la nómina "**Quincenal**".
