@@ -6,18 +6,18 @@ star: 9
 sticky: 9
 tag:
 
-  - Reportes de ADempiere
+  - Reportes de Solop ERP
 article: false
 ---
 
 **Venta de Productos por Proveedor**
 ====================================
 
-Seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Facturas de Ventas**", por último seleccione la carpeta "**Consulta de Facturas**". Finalmente, seleccione el reporte "**Venta de Productos por Proveedor**".
+Seleccione en el menú de Solop ERP, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Facturas de Ventas**", por último seleccione la carpeta "**Consulta de Facturas**". Finalmente, seleccione el reporte "**Venta de Productos por Proveedor**".
 
 ![menú de reporte venta de productos por proveedor](/assets/img/docs/lve/report/resources/report-menu-sale-of-products-by-supplier.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana del reporte "**Venta de Productos por Proveedor**", con diferentes campos que permiten filtrar la búsqueda de información en base a lo requero por el usuario.
 

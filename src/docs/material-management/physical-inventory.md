@@ -6,7 +6,7 @@ sticky: 9
 article: false
 ---
 
-En ADempiere un inventario físico permite modificar las cantidades de productos en existencia. Este es un procedimiento delicado, que solo se debe realizar cuando la cantidad en existencia registrada en ADempiere difiera de la cantidad real de existencia en la organización o almacén. El proceso consta en reemplazar la cantidad en existencia por la cantidad real contada.
+En Solop ERP un inventario físico permite modificar las cantidades de productos en existencia. Este es un procedimiento delicado, que solo se debe realizar cuando la cantidad en existencia registrada en Solop ERP difiera de la cantidad real de existencia en la organización o almacén. El proceso consta en reemplazar la cantidad en existencia por la cantidad real contada.
 
 Warning
 
@@ -14,7 +14,7 @@ Warning
 
 El procedimiento de inventario físico sólo debe ser realizado en casos críticos como la inconsistencia de cantidades de productos por motivo de robo, hurto o casos similares. De igual forma, deben estar presentes los responsables y supervisores del almacén donde existe la inconsistencia, así como también debe estar presente un representante de contabilidad y un jefe o gerente de la empresa para avalar el procedimiento.
 
-El presente material elaborado por **ERPyA**, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar en ADempiere un inventario físico, en su versión 3.9.2 para la localización Venezuela.
+El presente material elaborado por **Solop ERP**, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar en Solop ERP un inventario físico, en su versión 3.9.2 para la localización Venezuela.
 
 - Registro de Inventario Físico
 - Consultar Detalle de Almacenamiento
@@ -27,11 +27,11 @@ Para visualizar completamente el procedimiento del inventario físico, es genera
 
 Imagen 1. Primer Reporte de Detalle de Almacenamiento
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Materiales**, luego seleccione la ventana **Inventario Físico**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Materiales**, luego seleccione la ventana **Inventario Físico**.
 
 ![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image76.png)
 
-Imagen 2. Menú de ADempiere
+Imagen 2. Menú de Solop ERP
 
 Podrá visualizar la ventana **Inventario Físico**, donde debe seleccionar el icono **Registro Nuevo** para crear un nuevo registro de inventario físico.
 
@@ -71,7 +71,7 @@ Imagen 8. Campo Tipo de Documento
 
 Note
 
-Recuerde guardar el registro de los campos de la pestaña seleccionando el icono **Guardar Registros** ubicado en la barra de herramientas de ADempiere.
+Recuerde guardar el registro de los campos de la pestaña seleccionando el icono **Guardar Registros** ubicado en la barra de herramientas de Solop ERP.
 
 Seleccione la pestaña **Línea de Conteo de Inventario** y proceda al llenado de los campos correspondientes.
 
@@ -101,13 +101,13 @@ Note
 
 Debe ser ingresada la cantidad real que existe físicamente en el almacén seleccionado.
 
-Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere, para guardar el registro de los campos de la pestaña.
+Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP, para guardar el registro de los campos de la pestaña.
 
 ![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image87.png)
 
 Imagen 13. Icono Guardar Cambios
 
-Podrá visualizar que es cargada automáticamente la cantidad de productos en existencia que se encuentran registrados en ADempiere.
+Podrá visualizar que es cargada automáticamente la cantidad de productos en existencia que se encuentran registrados en Solop ERP.
 
 ![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image88.png)
 

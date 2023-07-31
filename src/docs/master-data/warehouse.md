@@ -6,26 +6,26 @@ sticky: 9
 article: false
 ---
 
-El presente material elaborado por ERPyA, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para registrar en ADempiere un almacén, en su versión 3.9.2 para la localización Venezuela.
+El presente material elaborado por ERPyA, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para registrar en Solop ERP un almacén, en su versión 3.9.2 para la localización Venezuela.
 
 - Registro de Almacén
 - Ubicación
 
 ## Registro de Almacén
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Materiales**, luego seleccione la carpeta **Reglas de Gestión de Materiales**, por último seleccione la ventana **Almacén y Ubicaciones**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Materiales**, luego seleccione la carpeta **Reglas de Gestión de Materiales**, por último seleccione la ventana **Almacén y Ubicaciones**.
 
 ![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-image229.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
-Podrá visualizar la ventana **Almacén y Ubicaciones**, con los diferentes registros de almacenes creados en ADempiere con sus respectivas ubicaciones.
+Podrá visualizar la ventana **Almacén y Ubicaciones**, con los diferentes registros de almacenes creados en Solop ERP con sus respectivas ubicaciones.
 
 ![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-image230.png)
 
 Imagen 2. Ventana Almacén y Ubicaciones
 
-Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de ADempiere.
+Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de Solop ERP.
 
 Este icono permite crear un nuevo registro en la ventana, para proceder al llenado de los campos correspondientes.
 

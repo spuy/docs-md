@@ -12,7 +12,7 @@ Este procedimiento crea un registro en la ventana **Cierre de Caja**, con la cue
 
 Adicional a ello, crea un registro en dicha ventana **Cierre de Caja**, con la cuenta **Caja POS**, a la cual ingresa el dinero. De igual manera, se asocia en la línea del registro, el **Cobro Nacional**, generado en **Caja** por la apertura.
 
-Para mejor referencia de lo explicado anteriormente, se presenta a continuación el diagrama del proceso **Apertura de Caja POS**, con la finalidad dar a conocer el comportamiento de ADempiere ante dicho proceso.
+Para mejor referencia de lo explicado anteriormente, se presenta a continuación el diagrama del proceso **Apertura de Caja POS**, con la finalidad dar a conocer el comportamiento de Solop ERP ante dicho proceso.
 
 Note
 
@@ -24,17 +24,17 @@ Imagen 1. Diagrama de Apertura de Caja POS
 
 Warning
 
-No debe realizar el proceso de apertura de caja si no es entregado fisicamente el dinero en la respectiva caja. De lo contrario, los saldos de la caja en ADempiere no tendrán ninguna coincidencia con los saldos que existen fisicamente en la caja.
+No debe realizar el proceso de apertura de caja si no es entregado fisicamente el dinero en la respectiva caja. De lo contrario, los saldos de la caja en Solop ERP no tendrán ninguna coincidencia con los saldos que existen fisicamente en la caja.
 
 ## Ejecución del Proceso
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Órdenes de Venta**, por último seleccione la carpeta **Punto de Venta**. Para finalizar, seleccione el proceso **Apertura de Punto de Venta**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Órdenes de Venta**, por último seleccione la carpeta **Punto de Venta**. Para finalizar, seleccione el proceso **Apertura de Punto de Venta**.
 
 ![Campo](/assets/img/docs/pdv-management/pdm-pdv-image126.png)
 
-Imagen 2. Menú de ADempiere
+Imagen 2. Menú de Solop ERP
 
-Podrá visualizar la ventana **Apertura de Punto de Venta**, con diferentes campos que permiten simular las transferencias monetarias entre las cuentas bancarias y cajas registradas en ADempiere.
+Podrá visualizar la ventana **Apertura de Punto de Venta**, con diferentes campos que permiten simular las transferencias monetarias entre las cuentas bancarias y cajas registradas en Solop ERP.
 
 ![Campo](/assets/img/docs/pdv-management/pdm-pdv-image127.png)
 
@@ -80,9 +80,9 @@ En el campo **Monto**, se debe ingresar el monto total de la transferencia en la
 
 En el campo **Descripción**, se debe ingresar una descripción breve que explique de forma puntual la transferencia. En este caso, un ejemplo sería: **Apertura de Caja 1 del 10/02/2021 por 100 USD**.
 
-En el campo **Fecha de Estado de Cuenta**, ADempiere establece la fecha en la que se esta realizando la transacción. Esta indica la fecha en la cual será generado el estado de cuenta que se encuentra procesando.
+En el campo **Fecha de Estado de Cuenta**, Solop ERP establece la fecha en la que se esta realizando la transacción. Esta indica la fecha en la cual será generado el estado de cuenta que se encuentra procesando.
 
-En el campo **Fecha Contable**, ADempiere establece la fecha en la que se esta realizando la transacción. Esta indica la fecha a ser usada en las cuentas de contabilidad general generadas desde este proceso.
+En el campo **Fecha Contable**, Solop ERP establece la fecha en la que se esta realizando la transacción. Esta indica la fecha a ser usada en las cuentas de contabilidad general generadas desde este proceso.
 
 ![Campo](/assets/img/docs/pdv-management/pdm-pdv-image128.png)
 
@@ -90,7 +90,7 @@ Imagen 4. Transferencia Bancaria de Apertura de Caja
 
 Note
 
-Recuerde seleccionar la opción **OK**, ubicada en la parte inferior de la ventana **Transferencia Bancaria**, para completar el proceso y simular en ADempiere el movimiento monetario realizado.
+Recuerde seleccionar la opción **OK**, ubicada en la parte inferior de la ventana **Transferencia Bancaria**, para completar el proceso y simular en Solop ERP el movimiento monetario realizado.
 
 ## Consultar Egreso e Ingreso Generado de la Apertura de Punto de Venta
 

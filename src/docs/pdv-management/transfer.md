@@ -6,15 +6,15 @@ sticky: 9
 article: false
 ---
 
-El procedimiento para registrar en ADempiere un traspaso monetario desde una caja a un banco determinado, se debe realizar de la siguiente manera.
+El procedimiento para registrar en Solop ERP un traspaso monetario desde una caja a un banco determinado, se debe realizar de la siguiente manera.
 
 Cuando se tiene solamente transacciones por tarjeta de débito o crédito, efectuadas por medio del punto de venta. Se debe realizar el proceso Depósito de Caja y por último el proceso Cierre de Caja, para llevar la caja a cero (0) nuevamente.
 
 Si por el contrario, se tiene solamente transacciones por pago móvil y transferencia bancaria. Se debe realizar el proceso Transferencia Bancaria por cada una de las transacciones y por último el proceso Cierre de Caja, para llevar la caja a cero (0) nuevamente.
 
-Finalmente, se puede presentar el caso en el que se tengan todos los tipos de pago anteriormente nombrados. Para ello se debe realizar primeramente el proceso Depósito de Caja, para reflejar en ADempiere las transacciones por tarjeta de débito o crédito. Luego se debe realizar el proceso Transferencia Bancaria, para reflejar en ADempiere las transacciones por pago móvil y transferencia bancaria. Por último el proceso Cierre de Caja, para ejecutar el cruce de los saldos y poder llevar la cuenta caja a cero (0) nuevamente.
+Finalmente, se puede presentar el caso en el que se tengan todos los tipos de pago anteriormente nombrados. Para ello se debe realizar primeramente el proceso Depósito de Caja, para reflejar en Solop ERP las transacciones por tarjeta de débito o crédito. Luego se debe realizar el proceso Transferencia Bancaria, para reflejar en Solop ERP las transacciones por pago móvil y transferencia bancaria. Por último el proceso Cierre de Caja, para ejecutar el cruce de los saldos y poder llevar la cuenta caja a cero (0) nuevamente.
 
-Para mejor referencia de lo explicado anteriormente, se presenta a continuación el diagrama del proceso **Traspaso a Banco**, con la finalidad dar a conocer el comportamiento de ADempiere ante dicho proceso.
+Para mejor referencia de lo explicado anteriormente, se presenta a continuación el diagrama del proceso **Traspaso a Banco**, con la finalidad dar a conocer el comportamiento de Solop ERP ante dicho proceso.
 
 ![Campo](/assets/img/docs/pdv-management/pdm-pdv-image263.png)
 
@@ -24,13 +24,13 @@ Cada uno de los procesos nombrados anteriormente son explicados a continuación.
 
 ## Depósito de Caja
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Saldos Pendientes**, luego seleccione la carpeta **Diario de Caja**, por último seleccione la ventana **Depósito de Caja**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Saldos Pendientes**, luego seleccione la carpeta **Diario de Caja**, por último seleccione la ventana **Depósito de Caja**.
 
 ![Campo](/assets/img/docs/pdv-management/pdm-pdv-image264.png)
 
-Imagen 2. Menú de ADempiere
+Imagen 2. Menú de Solop ERP
 
-Podrá visualizar la ventana de búsqueda inteligente **Depósito de Caja**, que permite realizar el proceso de depósito de las diferentes cajas registradas en ADempiere. Esta ventana cuenta con diferentes campos que le permiten al usuario filtrar la búsqueda de registros en base a lo que sea seleccionado en los mismos.
+Podrá visualizar la ventana de búsqueda inteligente **Depósito de Caja**, que permite realizar el proceso de depósito de las diferentes cajas registradas en Solop ERP. Esta ventana cuenta con diferentes campos que le permiten al usuario filtrar la búsqueda de registros en base a lo que sea seleccionado en los mismos.
 
 ![Campo](/assets/img/docs/pdv-management/pdm-pdv-image265.png)
 
@@ -82,11 +82,11 @@ Seleccione la opción **Comenzar Búsqueda**, para filtrar la búsqueda de la in
 
 Imagen 10. Opción Comenzar Búsqueda
 
-Podrá visualizar el listado de las transacciones registradas en ADempiere, en base a lo seleccionado en los campos anteriormente explicados.
+Podrá visualizar el listado de las transacciones registradas en Solop ERP, en base a lo seleccionado en los campos anteriormente explicados.
 
 ![Campo](/assets/img/docs/pdv-management/pdm-pdv-image273.png)
 
-Imagen 11. Listado de Transacciones de ADempiere
+Imagen 11. Listado de Transacciones de Solop ERP
 
 Seleccione la transacción involucrada en el depósito que se encuentra realizando.
 
@@ -174,7 +174,7 @@ Imagen 23. Ingreso Generado en Banco
 
 ## Transferencia Bancaria
 
-Realice el procedimiento regular para registrar una transferencia bancaria en ADempiere, el mismo se encuentra explicado de manera detallada en el documento Registro de Transferencia Bancaria, elaborado por ERPyA. Considerando las siguientes restricciones:
+Realice el procedimiento regular para registrar una transferencia bancaria en Solop ERP, el mismo se encuentra explicado de manera detallada en el documento Registro de Transferencia Bancaria, elaborado por ERPyA. Considerando las siguientes restricciones:
 
 **Cuenta Bancaria Desde**: La caja desde la cual requiere realizar la transferencia. Para este ejemplo es utilizada la caja **Caja Administración Ventas - –\_Administración VES**.
 
@@ -222,7 +222,7 @@ Imagen 26. Ingreso Generado en Banco
 
 ## Cierre de Caja
 
-Realice el procedimiento regular para registrar un cierre de caja en ADempiere, el mismo se encuentra explicado de manera detallada en el documento Registro de Cierre de Caja, elaborado por ERPyA.
+Realice el procedimiento regular para registrar un cierre de caja en Solop ERP, el mismo se encuentra explicado de manera detallada en el documento Registro de Cierre de Caja, elaborado por ERPyA.
 
 Se selecciona la caja administrativa para llevar esta a cero (0) nuevamente, transfiriendo el saldo de la caja al banco. Este proceso se debe realizar por cada caja administrativa a la que igreso dinero por las ventas del día.
 

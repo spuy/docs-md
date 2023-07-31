@@ -6,18 +6,18 @@ star: 9
 sticky: 9
 tag:
 
-  - Reportes de ADempiere
+  - Reportes de Solop ERP
 article: false
 ---
 
 **Detalles de Facturas y Margen (Margen según Compras)**
 ========================================================
 
-Seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Facturas de Ventas**", por último seleccione la carpeta "**Consulta de Facturas**". Finalmente, seleccione el reporte "**Detalles de Facturas y Margen**".
+Seleccione en el menú de Solop ERP, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Facturas de Ventas**", por último seleccione la carpeta "**Consulta de Facturas**". Finalmente, seleccione el reporte "**Detalles de Facturas y Margen**".
 
 ![menú detalles de facturas y margen según compras](/assets/img/docs/lve/report/resources/invoice-and-margin-details-menu.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana del reporte  "**Detalles de Facturas y Margen**", con diferentes campos que permiten filtrar la búsqueda de información en base a lo requerido por el usuario.
 

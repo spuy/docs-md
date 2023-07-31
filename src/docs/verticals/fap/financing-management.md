@@ -15,11 +15,11 @@ Esta documentación está destinada a definir cada uno de los procedimientos de 
 
 ### Definición de Costo de Cultivo
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Asistencia al Agricultor**, luego seleccione la carpeta **Inversión Agrícola y Préstamos**, por último seleccione la ventana **Definición de Costo de Cultivo**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Asistencia al Agricultor**, luego seleccione la carpeta **Inversión Agrícola y Préstamos**, por último seleccione la ventana **Definición de Costo de Cultivo**.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image23.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana **Definición de Costo de Cultivo**, con los diferentes registros de definiciones de costos de cultivo.
 
@@ -27,7 +27,7 @@ Podrá visualizar la ventana **Definición de Costo de Cultivo**, con los difere
 
 Imagen 2. Ventana Definición de Costo de Cultivo
 
-Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de ADempiere.
+Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image25.png)
 
@@ -97,7 +97,7 @@ Introduzca en el campo **Descripción**, una breve descripción referente al reg
 
 Imagen 13. Campo Descripción
 
-Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere.
+Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image36.png)
 
@@ -121,7 +121,7 @@ Introduzca en el campo **Descripción**, una breve descripción referente al reg
 
 Imagen 17. Campo Descripción
 
-Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere.
+Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image40.png)
 
@@ -141,11 +141,11 @@ Imagen 20. Acción Completar y Opción OK
 
 ### Crédito del Productor
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Asistencia al Agricultor**, luego seleccione la carpeta **Inversión Agrícola y Préstamos**, por último seleccione la ventana **Crédito del Productor**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Asistencia al Agricultor**, luego seleccione la carpeta **Inversión Agrícola y Préstamos**, por último seleccione la ventana **Crédito del Productor**.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image43.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana **Crédito del Productor**, con los diferentes registros de créditos de productores.
 
@@ -153,7 +153,7 @@ Podrá visualizar la ventana **Crédito del Productor**, con los diferentes regi
 
 Imagen 2. Ventana Crédito del Productor
 
-Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de ADempiere.
+Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image45.png)
 
@@ -219,7 +219,7 @@ Seleccione en el campo **Válido Hasta**, la fecha final del rango o periodo de 
 
 Imagen 13. Campo Válido Hasta
 
-Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere.
+Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image56.png)
 
@@ -237,7 +237,7 @@ Seleccione en el campo **Cultivo**, el cultivo correspondiente al registro que s
 
 Imagen 16. Campo Cultivo
 
-Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere.
+Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image59.png)
 
@@ -267,7 +267,7 @@ Introduzca en el campo **Descripción**, una breve descripción correspondiente 
 
 Imagen 21. Campo Descripción
 
-Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere.
+Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image64.png)
 
@@ -297,7 +297,7 @@ Seleccione en el campo **Válido Hasta**, la fecha final del rango o periodo de 
 
 Imagen 26. Campo Válido Hasta
 
-Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere.
+Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image69.png)
 
@@ -317,11 +317,11 @@ Imagen 29. Acción Completar y Opción OK
 
 ### Generar Orden de Compra desde Financiamiento Agrícola
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Asistencia al Agricultor**, luego seleccione la carpeta **Inversión Agrícola y Préstamos**. Por último seleccione la ventana de búsqueda inteligente **Generar Orden de Compra (Desde Financiamiento Agrícola)**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Asistencia al Agricultor**, luego seleccione la carpeta **Inversión Agrícola y Préstamos**. Por último seleccione la ventana de búsqueda inteligente **Generar Orden de Compra (Desde Financiamiento Agrícola)**.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image72.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana de búsqueda inteligente (smart browser) **Generar Orden de Compra (Desde Financiamiento Agrícola)**, con diferentes campos que permite filtrar la información para generar el documento enm base a lo requerido por el usuario.
 
@@ -415,11 +415,11 @@ Imagen 16. Orden de Compra
 
 ### Generar Anticipos desde Crédito al Productor
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Asistencia al Agricultor**, luego seleccione la carpeta **Inversión Agrícola y Préstamos**. Por último seleccione la ventana de búsqueda inteligente **Generar Anticipos desde Crédito al Productor**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Asistencia al Agricultor**, luego seleccione la carpeta **Inversión Agrícola y Préstamos**. Por último seleccione la ventana de búsqueda inteligente **Generar Anticipos desde Crédito al Productor**.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image88.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana de búsqueda inteligente (smart browser) **Generar Anticipos desde Crédito al Productor**, con diferentes campos que permite filtrar la información para generar el documento enm base a lo requerido por el usuario.
 

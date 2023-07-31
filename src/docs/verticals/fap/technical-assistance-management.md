@@ -18,11 +18,11 @@ Esta documentación está destinada a definir cada uno de los procedimientos de 
 
 ## Tipo de Cálculo de Peso
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Asistencia al Agricultor**, luego seleccione la carpeta **Configuración de Materia Prima**, por último seleccione la ventana **Tipo de Cálculo de Peso**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Asistencia al Agricultor**, luego seleccione la carpeta **Configuración de Materia Prima**, por último seleccione la ventana **Tipo de Cálculo de Peso**.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image211.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana **Tipo de Cálculo de Peso**, con los diferentes registros de cálculo de peso.
 
@@ -30,7 +30,7 @@ Podrá visualizar la ventana **Tipo de Cálculo de Peso**, con los diferentes re
 
 Imagen 2. Ventana Tipo de Cálculo de Peso
 
-Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de ADempiere.
+Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image213.png)
 
@@ -60,7 +60,7 @@ Introduzca en el campo **Descripción**, una breve descripción referente al reg
 
 Imagen 7. Campo Descripción
 
-Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere.
+Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image218.png)
 
@@ -146,7 +146,7 @@ Seleccione en el campo **Tipo de Uso**, el tipo de uso para el cálculo de peso 
 
 Imagen 20. Campo Tipo de Uso
 
-Seleccione el icono **Guardar Cambios** en la barra de herramientas de ADempiere.
+Seleccione el icono **Guardar Cambios** en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image231.png)
 
@@ -154,19 +154,19 @@ Imagen 21. Icono Guardar Cambios
 
 ## Ciclo de Siembra
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Asistencia al Agricultor**, luego seleccione la carpeta **Configuración de Asistencia Técnica**, por último seleccione la carpeta **Configuración de Cultivo**. Finalmente seleccione la ventana **Ciclo de Siembra**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Asistencia al Agricultor**, luego seleccione la carpeta **Configuración de Asistencia Técnica**, por último seleccione la carpeta **Configuración de Cultivo**. Finalmente seleccione la ventana **Ciclo de Siembra**.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image232.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
-Podrá visualizar la ventana **Ciclo de Siembra**, con los diferentes registros que posee la misma de los ciclos de siembra registrados en ADempiere.
+Podrá visualizar la ventana **Ciclo de Siembra**, con los diferentes registros que posee la misma de los ciclos de siembra registrados en Solop ERP.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image233.png)
 
 Imagen 2. Ciclo de Siembra
 
-Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de ADempiere.
+Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image234.png)
 
@@ -178,7 +178,7 @@ Seleccione en el campo **Organización**, la organización para la cual se encue
 
 Imagen 4. Campo Organización
 
-Introduzca en el campo **Código**, el código correspondiente al registro que se encuentra realizando. De no ingresar ningún valor en el campo, ADempiere establece de manera automática el código del registro.
+Introduzca en el campo **Código**, el código correspondiente al registro que se encuentra realizando. De no ingresar ningún valor en el campo, Solop ERP establece de manera automática el código del registro.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image236.png)
 
@@ -216,15 +216,15 @@ Imagen 10. Campo Descripción
 
 Note
 
-Recuerde guardar el registro de los campos, al seleccionar el icono **Guardar Cambios** ubicado en la barra de herramientas de ADempiere.
+Recuerde guardar el registro de los campos, al seleccionar el icono **Guardar Cambios** ubicado en la barra de herramientas de Solop ERP.
 
 ## Cultivo
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Asistencia al Agricultor**, luego seleccione la ventana **Cultivo**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Asistencia al Agricultor**, luego seleccione la ventana **Cultivo**.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image242.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana **Cultivo**, con los diferentes registros de cultivos.
 
@@ -232,7 +232,7 @@ Podrá visualizar la ventana **Cultivo**, con los diferentes registros de cultiv
 
 Imagen 2. Ventana Cultivo
 
-Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de ADempiere.
+Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image244.png)
 
@@ -340,7 +340,7 @@ Seleccione en el campo **Estado**, el estado del cultivo correspondiente al regi
 
 Imagen 20. Campo Estado
 
-Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere.
+Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image262.png)
 
@@ -362,9 +362,9 @@ Imagen 23. Acción Completar y Opción OK
 
 Un tipo de observación puede ser creado para indicar o realizar una sugerencia de un producto a un rubro determinado, en cual se indica la cantidad o dosis a aplicar a dicho rubro. Un ejemplo de ello puede ser, una observación que se realiza para que sea aplicado un insecticida a un rubro como maíz blanco u otro.
 
-A continuación, se explica el procedimiento que se debe realizar para generar de manera correcta, un tipo de observación en ADempiere.
+A continuación, se explica el procedimiento que se debe realizar para generar de manera correcta, un tipo de observación en Solop ERP.
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Asistencia al Agricultor**, luego seleccione la carpeta **Configuración de Asistencia Técnica**, por último seleccione la carpeta **Configuración de Cultivo**. Finalmente, seleccione la ventana **Tipo de Observación**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Asistencia al Agricultor**, luego seleccione la carpeta **Configuración de Asistencia Técnica**, por último seleccione la carpeta **Configuración de Cultivo**. Finalmente, seleccione la ventana **Tipo de Observación**.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image265.png)
 
@@ -376,7 +376,7 @@ Podrá visualizar la ventana **Tipo de Observación**, con los diferentes regist
 
 Imagen 2. Ventana Tipo de Observación
 
-Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de ADempiere y proceda al llenado de los campos correspondientes.
+Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de Solop ERP y proceda al llenado de los campos correspondientes.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image267.png)
 
@@ -390,7 +390,7 @@ Imagen 4. Campo Organización
 
 Introduzca en el campo **Código**, el código correspondiente al registro de tipo de observación que se encuentra realizando.
 
-Si no es ingresado ningún valor en el presente campo, al guargar el registro ADempiere establece de manera automática un correlativo correspondiente a la secuencia de documento que se encuentra realizando.
+Si no es ingresado ningún valor en el presente campo, al guargar el registro Solop ERP establece de manera automática un correlativo correspondiente a la secuencia de documento que se encuentra realizando.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image269.png)
 
@@ -408,7 +408,7 @@ Introduzca en el campo **Descripción**, una breve descripción referente al reg
 
 Imagen 7. Campo Descripción
 
-Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere.
+Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image272.png)
 
@@ -534,7 +534,7 @@ La cantidad ingresada va a depender de la unidad de medida del producto seleccio
 
 Imagen 23. Campo Dosis por Área
 
-Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere para guardar el registro de los campos de la ventana **Productos Sugeridos**.
+Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP para guardar el registro de los campos de la ventana **Productos Sugeridos**.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image288.png)
 
@@ -542,19 +542,19 @@ Imagen 24. Icono Guardar Cambios
 
 ## Hoja Técnica
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Asistencia al Agricultor**, luego seleccione la ventana **Hoja Técnica**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Asistencia al Agricultor**, luego seleccione la ventana **Hoja Técnica**.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image289.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
-Podrá visualizar la ventana **Hoja Técnica**, con diferentes registros de hojas técnicas en ADempiere.
+Podrá visualizar la ventana **Hoja Técnica**, con diferentes registros de hojas técnicas en Solop ERP.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image290.png)
 
 Imagen 2. Ventana Hoja Técnica
 
-Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de ADempiere.
+Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image291.png)
 
@@ -602,7 +602,7 @@ Introduzca en el campo **Comentarios**, los comentarios o información adicional
 
 Imagen 10. Campo Comentarios
 
-Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere.
+Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image300.png)
 
@@ -700,7 +700,7 @@ Seleccione en el campo **Acuerdo Financiero**, el acuerdo financiero correspondi
 
 Imagen 25. Campo Acuerdo Financiero
 
-Seleccione icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere.
+Seleccione icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image315.png)
 
@@ -772,7 +772,7 @@ Introduzca en el campo **Comentarios**, los comentarios correspondientes al regi
 
 Imagen 37. Campo Comentarios
 
-Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere.
+Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image327.png)
 
@@ -794,13 +794,13 @@ Imagen 40. Acción Completar y Opción OK
 
 Para generar una órdenes de venta desde una hoja técnica, es obligatorio que el documento **Hoja Técnica** se encuentre en estado **Completo**. A continuación, se explica el procedimiento para generar una orden de venta desde una hoja técnica.
 
-Ubica en el menú de ADempiere, la carpeta **Gestión de Asistencia al Agricultor**, luego seleccione la ventana **Hoja Técnica**.
+Ubica en el menú de Solop ERP, la carpeta **Gestión de Asistencia al Agricultor**, luego seleccione la ventana **Hoja Técnica**.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image330.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
-Podrá visualizar la ventana **Hoja Técnica**, con diferentes registros de hojas técnicas en ADempiere.
+Podrá visualizar la ventana **Hoja Técnica**, con diferentes registros de hojas técnicas en Solop ERP.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image331.png)
 

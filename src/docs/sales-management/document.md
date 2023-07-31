@@ -8,7 +8,7 @@ article: false
 
 Una factura en cuentas por cobrar, es el documento legal que representa una deuda contraída por un cliente determinado con la compañía u organización, por la compra de productos y servicios que el mismo necesita de forma directa o indirecta.
 
-En ADempiere es posible generar una factura de cuentas por cobrar de forma directa. El presente material elaborado por ERPyA, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar una factura de cuentas por cobrar en ADempiere, en su versión 3.9.2 para la localización Venezuela.
+En Solop ERP es posible generar una factura de cuentas por cobrar de forma directa. El presente material elaborado por ERPyA, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar una factura de cuentas por cobrar en Solop ERP, en su versión 3.9.2 para la localización Venezuela.
 
 - Registro de Documento por Cobrar
 - Generar Factura desde Líneas de la Orden
@@ -17,19 +17,19 @@ En ADempiere es posible generar una factura de cuentas por cobrar de forma direc
 
 ## Registro de Documento por Cobrar
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Facturas de Ventas**, por último seleccione la ventana **Documentos por Cobrar**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Facturas de Ventas**, por último seleccione la ventana **Documentos por Cobrar**.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image216.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
-Podrá visualizar la ventana **Documentos por Cobrar** con los diferentes registros de documentos de cuentas por cobrar en ADempiere.
+Podrá visualizar la ventana **Documentos por Cobrar** con los diferentes registros de documentos de cuentas por cobrar en Solop ERP.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image217.png)
 
 Imagen 2. Ventana Documento por Cobrar
 
-Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de ADempiere para crear un nuevo registro de factura de cuentas por cobrar.
+Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de Solop ERP para crear un nuevo registro de factura de cuentas por cobrar.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image218.png)
 
@@ -91,7 +91,7 @@ Imagen 12. Campo Término de Pago
 
 Note
 
-Recuerde guardar el registro de los campos con ayuda del icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere.
+Recuerde guardar el registro de los campos con ayuda del icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
 
 Seleccione la pestaña **Línea de la Factura** y proceda al llenado de los campos correspondientes.
 
@@ -137,7 +137,7 @@ Imagen 19. Campo Neto de Línea
 
 Note
 
-Recuerde guardar el registro de los campos con ayuda del icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere.
+Recuerde guardar el registro de los campos con ayuda del icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
 
 Seleccione la pestaña principal **Factura** y luego seleccione la opción **Completar** ubicada en la parte inferior del documento por cobrar.
 
@@ -153,11 +153,11 @@ Imagen 21. Acción Completar y Opción OK
 
 ## Generar Factura desde Líneas de la Orden
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Facturas de Ventas**, por último seleccione la ventana **Genera Factura desde Líneas de la Orden**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Facturas de Ventas**, por último seleccione la ventana **Genera Factura desde Líneas de la Orden**.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image237.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana **Genera Factura desde Líneas de la Orden** y proceder al llenado de los campos correspondientes para filtrar la búsqueda.
 
@@ -269,7 +269,7 @@ Imagen 18. Consulta de Facturas Generadas
 
 ## Imprimir Facturas Generadas
 
-Al imprimir el registro en la ventana **Documentos por Cobrar**, seleccionando el icono **Imprimir** ubicado en la barra de herramientas de ADempiere, podrá visualizar de la siguiente manera la factura de ventas generada desde la línea de la orden.
+Al imprimir el registro en la ventana **Documentos por Cobrar**, seleccionando el icono **Imprimir** ubicado en la barra de herramientas de Solop ERP, podrá visualizar de la siguiente manera la factura de ventas generada desde la línea de la orden.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image255.png)
 

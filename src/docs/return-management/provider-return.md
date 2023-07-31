@@ -6,11 +6,11 @@ sticky: 9
 article: false
 ---
 
-En ADempiere es posible generar una devolución de los productos o materiales comprados a un proveedor determinado, el presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar una “Devolución a Proveedor” de la forma correcta.
+En Solop ERP es posible generar una devolución de los productos o materiales comprados a un proveedor determinado, el presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar una “Devolución a Proveedor” de la forma correcta.
 
 El proceso para realizar una devolución a proveedor parte de una autorización de devolución a proveedor, generada para asegurar que se aplico un análisis y revisión de los productos recibidos, surgiendo de ello una contradicción que acarrea devolver uno, varios, o todos los productos recibidos. El procedimiento se realiza generando una autorización de devolución, para luego generar una devolución a proveedor. Todo el proceso culmina con una nota de crédito para reflejar en la factura de la compra el monto a disminuir por la cantidad de productos involucrados en la devolución.
 
-A continuación se especifican los pasos a seguir para generar en ADempiere una devolución de productos o materiales comprados al proveedor por una determinada empresa.
+A continuación se especifican los pasos a seguir para generar en Solop ERP una devolución de productos o materiales comprados al proveedor por una determinada empresa.
 
 - Autorización de Devolución a Proveedor
 - Devolución a Proveedor
@@ -48,15 +48,15 @@ Al consultar saldos abiertos se puede visualizar el saldo correspondiente al mon
 
 Imagen 4. Saldos Abiertos
 
-A continuación se define el proceso para la creación de una autorización de devolución a proveedor en ADempiere.
+A continuación se define el proceso para la creación de una autorización de devolución a proveedor en Solop ERP.
 
-Ubique en el menú de ADempiere la ventana “Gestión de Compras”, luego seleccione la ventana “Orden de Devolución (Proveedor)”.
+Ubique en el menú de Solop ERP la ventana “Gestión de Compras”, luego seleccione la ventana “Orden de Devolución (Proveedor)”.
 
 ![Campo](/assets/img/docs/return-management/rem-return-image50.png)
 
-Imagen 5. Menú de ADempiere
+Imagen 5. Menú de Solop ERP
 
-Seleccione el icono “Registro Nuevo” en la barra de herramientas de ADempiere y proceda al llenado de los campos correspondientes.
+Seleccione el icono “Registro Nuevo” en la barra de herramientas de Solop ERP y proceda al llenado de los campos correspondientes.
 
 ![Campo](/assets/img/docs/return-management/rem-return-image51.png)
 
@@ -64,7 +64,7 @@ Imagen 6. Icono de Registro Nuevo
 
 Warning
 
-Recuerde que cada campo es necesario e importante para obtener el registro exitoso del documento en ADempiere.
+Recuerde que cada campo es necesario e importante para obtener el registro exitoso del documento en Solop ERP.
 
 Seleccione en el campo “Organización”, la organización para la cual esta realizando el documento “Autorización de Devolución a Proveedor”.
 
@@ -98,9 +98,9 @@ Imagen 11. Dirección del Socio del Negocio
 
 Warning
 
-Recuerde guardar los cambios realizados en cada pestaña del documento con ayuda del icono “Guardar” en la barra de herramientas de ADempiere, al guardar los cambios realizados se asigna automáticamente el número del documento en el campo “No. del Documento”.
+Recuerde guardar los cambios realizados en cada pestaña del documento con ayuda del icono “Guardar” en la barra de herramientas de Solop ERP, al guardar los cambios realizados se asigna automáticamente el número del documento en el campo “No. del Documento”.
 
-Seleccione el icono “Proceso” ubicado en la barra de herramientas de ADempiere, luego seleccione la opción “Crear Orden de Devolución desde Entrega / Recibo” para crear la “Orden de Devolución” desde la recepción del producto.
+Seleccione el icono “Proceso” ubicado en la barra de herramientas de Solop ERP, luego seleccione la opción “Crear Orden de Devolución desde Entrega / Recibo” para crear la “Orden de Devolución” desde la recepción del producto.
 
 ![Campo](/assets/img/docs/return-management/rem-return-image57.png)
 
@@ -130,7 +130,7 @@ Imagen 15. Seleccionar Línea con el Producto a Devolver
 
 Warning
 
-Recuerde actualizar el registro de la ventana con ayuda del icono “Refrescar” ubicado en la barra de herramientas de ADempiere.
+Recuerde actualizar el registro de la ventana con ayuda del icono “Refrescar” ubicado en la barra de herramientas de Solop ERP.
 
 Seleccione la pestaña “Línea de Autorización” para verificar que los datos fueron cargados correctamente.
 
@@ -156,15 +156,15 @@ Imagen 18. Acción Completar
 
 ## Devolución a Proveedor
 
-Es el documento que refleja la devolución de uno, varios, o todos los productos o materiales comprados a un proveedor determinado. A continuación se define el proceso para la creación de una devolución a proveedor en ADempiere.
+Es el documento que refleja la devolución de uno, varios, o todos los productos o materiales comprados a un proveedor determinado. A continuación se define el proceso para la creación de una devolución a proveedor en Solop ERP.
 
-Ubique en el menú de ADempiere la ventana “Gestión de Devoluciones” y seleccione la ventana “Devolución a Proveedor”.
+Ubique en el menú de Solop ERP la ventana “Gestión de Devoluciones” y seleccione la ventana “Devolución a Proveedor”.
 
 ![Campo](/assets/img/docs/return-management/rem-return-image64.png)
 
-Imagen 19. Menú de ADempiere
+Imagen 19. Menú de Solop ERP
 
-Seleccione el icono “Registro Nuevo” en la barra de herramientas de ADempiere y proceda al llenado de los campos correspondientes.
+Seleccione el icono “Registro Nuevo” en la barra de herramientas de Solop ERP y proceda al llenado de los campos correspondientes.
 
 ![Campo](/assets/img/docs/return-management/rem-return-image65.png)
 
@@ -172,7 +172,7 @@ Imagen 20. Icono Registro Nuevo
 
 Warning
 
-Recuerde que cada campo es necesario e importante para obtener el registro exitoso del documento en ADempiere.
+Recuerde que cada campo es necesario e importante para obtener el registro exitoso del documento en Solop ERP.
 
 Seleccione en el campo “Organización”, la organización para la cual esta realizando el documento “Devolución a Proveedor”.
 
@@ -194,9 +194,9 @@ Imagen 23. Campo Socio del Negocio
 
 Warning
 
-Recuerde guardar los cambios realizados en cada pestaña del documento con ayuda del icono “Guardar” en la barra de herramientas de ADempiere, al guardar los cambios realizados se asigna automáticamente el número del documento en el campo “No. del Documento”.
+Recuerde guardar los cambios realizados en cada pestaña del documento con ayuda del icono “Guardar” en la barra de herramientas de Solop ERP, al guardar los cambios realizados se asigna automáticamente el número del documento en el campo “No. del Documento”.
 
-Seleccione el icono “Proceso” ubicado en la barra de herramientas de ADempiere, luego seleccione la opción “Crear Devolución Desde Orden (ADM)” para crear la “Devolución a Proveedor” desde la “Orden de Devolución” del producto.
+Seleccione el icono “Proceso” ubicado en la barra de herramientas de Solop ERP, luego seleccione la opción “Crear Devolución Desde Orden (ADM)” para crear la “Devolución a Proveedor” desde la “Orden de Devolución” del producto.
 
 ![Campo](/assets/img/docs/return-management/rem-return-image69.png)
 
@@ -226,7 +226,7 @@ Imagen 27. Seleccionar Línea con el Producto a Devolver
 
 Warning
 
-Recuerde actualizar el registro de la ventana con ayuda del icono “Refrescar” ubicado en la barra de herramientas de ADempiere.
+Recuerde actualizar el registro de la ventana con ayuda del icono “Refrescar” ubicado en la barra de herramientas de Solop ERP.
 
 Seleccione la pestaña “Línea de Autorización” para verificar que los datos fueron cargados correctamente.
 

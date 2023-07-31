@@ -8,7 +8,7 @@ article: false
 
 Una orden de venta es un documento elaborado para autorizar la venta de los productos y servicios que contiene, el mismo puede ser utilizado como pedido, pre factura o cotización. Desde una orden de venta se pueden generar entregas, guias y facturas.
 
-El presente material elaborado por ERPyA, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar en ADempiere una orden de venta, en su versión 3.9.2 para la localización Venezuela.
+El presente material elaborado por ERPyA, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar en Solop ERP una orden de venta, en su versión 3.9.2 para la localización Venezuela.
 
 - Registro de Orden de Venta
 - Validación de Inventario en Orden de Venta
@@ -16,13 +16,13 @@ El presente material elaborado por ERPyA, pretende ofrecerle una explicación ef
 
 ## Registro de Orden de Venta
 
-Ubique y seleccione en el menú de ADempiere la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Órdenes de Venta**, por último seleccione la ventana **Órdenes de Venta**.
+Ubique y seleccione en el menú de Solop ERP la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Órdenes de Venta**, por último seleccione la ventana **Órdenes de Venta**.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image262.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
-Seleccione el icono **Registro Nuevo** en la barra de herramientas de ADempiere, para realizar un nuevo documento.
+Seleccione el icono **Registro Nuevo** en la barra de herramientas de Solop ERP, para realizar un nuevo documento.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image263.png)
 
@@ -184,7 +184,7 @@ Seleccione en el campo **Actividad**, la actividad del negocio utilizada para el
 
 Imagen 28. Campo Actividad
 
-Seleccione el icono **Guardar Cambios** en la barra de herramientas de ADempiere, para guardar el registro de la pestaña **Orden**.
+Seleccione el icono **Guardar Cambios** en la barra de herramientas de Solop ERP, para guardar el registro de la pestaña **Orden**.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image290.png)
 
@@ -280,7 +280,7 @@ Esta configuración no aplica para las Órdenes de Devolución
 
 ## Funcionalidad de la Validación
 
-Cuando el check se encuentra habilitado, ADempiere sólo permitirá completar el registro de la orden de venta desde la ventana **Órdenes de Venta**, si todos los productos tienen disponibilidad en el almacén con el que se este trabajando. De no tener disponibilidad, será mostrado el siguiente mensaje:
+Cuando el check se encuentra habilitado, Solop ERP sólo permitirá completar el registro de la orden de venta desde la ventana **Órdenes de Venta**, si todos los productos tienen disponibilidad en el almacén con el que se este trabajando. De no tener disponibilidad, será mostrado el siguiente mensaje:
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image302.png)
 

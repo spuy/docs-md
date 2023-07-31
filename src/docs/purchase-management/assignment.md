@@ -26,11 +26,11 @@ Una **Factura** manual, sin llamar dentro de la misma a la orden de compra o rec
 
 Imagen 3. Factura por Pagar
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Compras**, luego seleccione el formulario **Asignar OC-Recibo-Factura**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Compras**, luego seleccione el formulario **Asignar OC-Recibo-Factura**.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image67.png)
 
-Imagen 4. Menú de ADempiere
+Imagen 4. Menú de Solop ERP
 
 Podrá visualizar la ventana **Asignar OC Recepción Factura**, con diferentes campos que le permiten al usuario realizar la asignación de las órdenes de compra, recepciones y facturas por pagar.
 

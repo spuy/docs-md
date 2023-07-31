@@ -6,17 +6,17 @@ sticky: 9
 article: false
 ---
 
-Esta documentación está destinada a definir el procedimiento correcto para generar en ADempiere, los diferentes reportes de los maestros.
+Esta documentación está destinada a definir el procedimiento correcto para generar en Solop ERP, los diferentes reportes de los maestros.
 
 - Directorio de Socios del Negocio
 
 ## Directorio de Socios del Negocio
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Relación con Socios del Negocio**, luego seleccione la carpeta **Reglas de Socios del Negocio**, por último seleccione el reporte **Directorio de Socios del Negocio**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Relación con Socios del Negocio**, luego seleccione la carpeta **Reglas de Socios del Negocio**, por último seleccione el reporte **Directorio de Socios del Negocio**.
 
 ![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-image249.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana del reporte **Directorio de Socios del Negocio**, con diferentes campos que permiten filtrar la información en base a lo requerido por el usuario.
 

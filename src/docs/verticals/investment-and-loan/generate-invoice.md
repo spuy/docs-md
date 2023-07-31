@@ -17,7 +17,7 @@ El documento por cobrar a generar (Fiscal o no Fiscal) será emitido por concept
 - Préstamo sin Interés:
 - Capital
 
-Sin embargo existen casos en los cuales el solicitante retarda la cancelación de cuotas vencidas en estos casos ADempiere calcula intereses moratorios sobre la cuota vencida generando así una línea más en el documento.
+Sin embargo existen casos en los cuales el solicitante retarda la cancelación de cuotas vencidas en estos casos Solop ERP calcula intereses moratorios sobre la cuota vencida generando así una línea más en el documento.
 
 ## Interpretando la Ventana
 
@@ -171,7 +171,7 @@ Esta opción lo llevará automáticamente a los pagos asociados a este préstamo
 
 ## Contabilidad del Proceso
 
-ADempiere contabilizará el documento por cobrar dependiendo de la definición del producto financiero (Vea Configuración de Producto Financiero (Préstamo)), a continuación se detalla:
+Solop ERP contabilizará el documento por cobrar dependiendo de la definición del producto financiero (Vea Configuración de Producto Financiero (Préstamo)), a continuación se detalla:
 
 Capital: Contabilidad definida en el producto asociado en producto financiero.
 

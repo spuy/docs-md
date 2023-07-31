@@ -14,11 +14,11 @@ La manufactura es originada desde una planificación previa, estimando metas u o
 
 ## Registro de Producción
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Materiales**, luego seleccione la ventana **Producción**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Materiales**, luego seleccione la ventana **Producción**.
 
 ![Campo](/assets/img/docs/production-management/prm-production-image1.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana **Producción**, con diferentes registros de producción.
 
@@ -26,7 +26,7 @@ Podrá visualizar la ventana **Producción**, con diferentes registros de produc
 
 Imagen 2. Ventana Producción
 
-Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de ADempiere, para crear un nuevo registro de producción.
+Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de Solop ERP, para crear un nuevo registro de producción.
 
 ![Campo](/assets/img/docs/production-management/prm-production-image3.png)
 
@@ -46,7 +46,7 @@ Imagen 5. Campo No del Documento de la Pestaña Encabezado de Producción de la 
 
 Note
 
-Si no es ingresado ningún valor en este campo, ADempiere tomará el número de documento correspondiente a la secuencia que tiene el tipo de documento establecido.
+Si no es ingresado ningún valor en este campo, Solop ERP tomará el número de documento correspondiente a la secuencia que tiene el tipo de documento establecido.
 
 Seleccione el tipo de documento a generar en el campo **Tipo de Documento Destino**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por ERPyA.
 
@@ -80,7 +80,7 @@ Imagen 10. Campo Descripción de la Pestaña Encabezado de Producción de la Ven
 
 Note
 
-Si no es ingresado ningún valor en este campo al guardar el registro, ADempiere tomará el valor **Creado Desde Orden de Producción**, seguido del número de documento desde el cual es creado, para este caso el campo descripción queda de la siguiente forma: \*\*Creado Desde Orden de Producción OPP-18.
+Si no es ingresado ningún valor en este campo al guardar el registro, Solop ERP tomará el valor **Creado Desde Orden de Producción**, seguido del número de documento desde el cual es creado, para este caso el campo descripción queda de la siguiente forma: \*\*Creado Desde Orden de Producción OPP-18.
 
 Seleccione en el campo **Orden de Producción**, la orden de producción planeada por la cual se va a realizar la producción del producto.
 
@@ -124,7 +124,7 @@ Seleccione en el campo **Actividad**, la actividad correspondiente al registro q
 
 Imagen 17. Campo Actividad de la Pestaña Encabezado de Producción de la Ventana Producción
 
-Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere, para guardar el registro de los campos de la pestaña Producción\*\*.
+Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP, para guardar el registro de los campos de la pestaña Producción\*\*.
 
 ![Campo](/assets/img/docs/production-management/prm-production-image18.png)
 

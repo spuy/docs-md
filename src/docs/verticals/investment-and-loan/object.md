@@ -18,13 +18,13 @@ Para este tipo de préstamo es importante definir el método de amortización a 
 
 Consiste en mantener cuotas de amortización constantes, debido a esto, cada mes la entidad recibe intereses en función del capital pendiente, es decir, en los primeros períodos, la entidad percibe una cantidad mayor de intereses que de capital y en los períodos finales más capital e intereses menores.
 
-Basados en estas premisas ADempiere fue adecuado, convirtiendolo así en una herramienta básica para realizar préstamos y tener un control diario de las operaciones realizadas, gestionar préstamos y controlar cobros de cuotas.
+Basados en estas premisas Solop ERP fue adecuado, convirtiendolo así en una herramienta básica para realizar préstamos y tener un control diario de las operaciones realizadas, gestionar préstamos y controlar cobros de cuotas.
 
-El material desarrollado propone la definición de un procedimiento previamente estudiado y modelado por consultores expertos en ADempiere, para configuración de ADempiere con enfoques en gestiones financieras.
+El material desarrollado propone la definición de un procedimiento previamente estudiado y modelado por consultores expertos en Solop ERP, para configuración de Solop ERP con enfoques en gestiones financieras.
 
 ## Requerimientos
 
-Adempiere 3.90
+Solop ERP 3.90
 
 Aplicación de Cambios (Gestión Financiera).
 

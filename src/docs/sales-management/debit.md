@@ -8,23 +8,23 @@ article: false
 
 Una nota de débito en cuentas por cobrar es un documento legal que se aplica a una factura para aumentar el monto de la misma. Esta siempre nace de un documento afectado ya sea de una factura o de una nota de crédito.
 
-A continuación es explicado el procedimiento para registrar en ADempiere una nota de débito de cuentas por cobrar.
+A continuación es explicado el procedimiento para registrar en Solop ERP una nota de débito de cuentas por cobrar.
 
 ## Registro de Nota de Débito
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Facturas de Ventas**, por último seleccione la ventana **Documentos por Cobrar**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Facturas de Ventas**, por último seleccione la ventana **Documentos por Cobrar**.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image67.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
-Podrá visualizar la ventana **Documentos por Cobrar**, con todos los registros de documentos por cobrar cargados a ADempiere.
+Podrá visualizar la ventana **Documentos por Cobrar**, con todos los registros de documentos por cobrar cargados a Solop ERP.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image68.png)
 
 Imagen 2. Ventana Documentos por Cobrar
 
-Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de ADempiere, para crear un nuevo registro en la ventana **Documentos por Cobrar**.
+Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de Solop ERP, para crear un nuevo registro en la ventana **Documentos por Cobrar**.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image69.png)
 
@@ -56,7 +56,7 @@ Imagen 7. Campo No del Documento de la Ventana Documentos por Cobrar
 
 Note
 
-Si no es ingresado ningún valor en el campo, ADempiere tomará el número de secuencia establecido para el tipo de documento al guardar el registro.
+Si no es ingresado ningún valor en el campo, Solop ERP tomará el número de secuencia establecido para el tipo de documento al guardar el registro.
 
 Introduzca en el campo **Referencia de Orden de Socio del Negocio**, la referencia de la orden del socio del negocio.
 
@@ -202,7 +202,7 @@ Seleccione en el campo **Región de Ventas**, la región de ventas relaconada co
 
 Imagen 31. Campo Región de Ventas de la Ventana Documentos por Cobrar
 
-Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere, para guardar el registro de los campos de la pestaña **Factura**.
+Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP, para guardar el registro de los campos de la pestaña **Factura**.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image98.png)
 
@@ -312,7 +312,7 @@ Podrá visualizar en el campo **Neto de Línea**, el neto de la línea.
 
 Imagen 49. Campo Neto de Línea de la Pestaña Línea de la Factura de la Ventana Documentos por Cobrar
 
-Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere, para guardar el registro de los campos de la pestaña **Línea de la Factura**.
+Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP, para guardar el registro de los campos de la pestaña **Línea de la Factura**.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image116.png)
 

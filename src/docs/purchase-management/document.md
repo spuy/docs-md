@@ -8,7 +8,7 @@ article: false
 
 Una factura en cuentas por pagar, es el documento legal que representa una deuda contraída por la compañía u organización con un proveedor determinado, por la compra de productos y servicios que la misma necesita de forma directa o indirecta para realizar sus actividades, afectando económicamente a la misma.
 
-En ADempiere es posible generar una factura de cuentas por pagar de forma directa. El presente material elaborado por ERPyA, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar una factura de cuentas por pagar en ADempiere, en su versión 3.9.2 para la localización Venezuela.
+En Solop ERP es posible generar una factura de cuentas por pagar de forma directa. El presente material elaborado por ERPyA, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar una factura de cuentas por pagar en Solop ERP, en su versión 3.9.2 para la localización Venezuela.
 
 - Registro de Documento por Pagar
   - Línea de la Factura
@@ -17,19 +17,19 @@ En ADempiere es posible generar una factura de cuentas por pagar de forma direct
 
 ## Registro de Documento por Pagar
 
-Ubique en el menú de ADempiere, la carpeta **Gestión de Compras**, luego seleccione la ventana **Documentos por Pagar**, adjunto imagen para referencia.
+Ubique en el menú de Solop ERP, la carpeta **Gestión de Compras**, luego seleccione la ventana **Documentos por Pagar**, adjunto imagen para referencia.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image217.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
-Podrá visualizar la ventana **Documentos por Pagar**, con todos los registros que contiene ADempiere referente a documentos por pagar.
+Podrá visualizar la ventana **Documentos por Pagar**, con todos los registros que contiene Solop ERP referente a documentos por pagar.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image218.png)
 
 Imagen 2. Ventana Documentos por Pagar
 
-Seleccione la opción **Registro Nuevo** en la barra de herramientas de ADempiere, para crear un documento nuevo en la ventana **Documentos por Pagar**.
+Seleccione la opción **Registro Nuevo** en la barra de herramientas de Solop ERP, para crear un documento nuevo en la ventana **Documentos por Pagar**.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image219.png)
 
@@ -65,7 +65,7 @@ Seleccione el tipo de documento a generar en el campo **Tipo de Documento Destin
 
 Imagen 7. Campo Tipo de Documento
 
-Introduzca el número del documento en el campo **No. de Documento**, el mismo no es obligatorio ya que ADempiere genera un número de secuencia automáticamente al ser guardado el registro del documento.
+Introduzca el número del documento en el campo **No. de Documento**, el mismo no es obligatorio ya que Solop ERP genera un número de secuencia automáticamente al ser guardado el registro del documento.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image224.png)
 
@@ -77,7 +77,7 @@ Seleccione en el campo **Fecha Facturación**, la fecha que posee el documento p
 
 Imagen 9. Campo Fecha Facturación
 
-Seleccione en el campo **Fecha Contable**, la fecha en la cual se esta realizando el documento por pagar en ADempiere.
+Seleccione en el campo **Fecha Contable**, la fecha en la cual se esta realizando el documento por pagar en Solop ERP.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image226.png)
 
@@ -95,7 +95,7 @@ Podrá visualizar en el campo **Dirección del Socio del Negocio**, la direcció
 
 Imagen 12. Campo Dirección del Socio del Negocio
 
-De igual manera, puede visualizar en el campo **Usuario**, el usuario en ADempiere del socio del negocio seleccionado anteriormente.
+De igual manera, puede visualizar en el campo **Usuario**, el usuario en Solop ERP del socio del negocio seleccionado anteriormente.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image229.png)
 
@@ -209,7 +209,7 @@ Seleccione en el campo **Retención de Terceros**, la retención correspondiente
 
 Imagen 31. Campo Retención de Terceros
 
-Seleccione el icono **Guardar** de la barra de herramientas de ADempiere, para guardar los cambios realizados.
+Seleccione el icono **Guardar** de la barra de herramientas de Solop ERP, para guardar los cambios realizados.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image248.png)
 
@@ -391,7 +391,7 @@ Note
 
 El total de la línea se obtiene de la operación (Neto de Línea + Total del Impuesto).
 
-Guarde el registro de los campos seleccionando el icono **Guardar Cambios** ubicado en la barra de herramientas de ADempiere.
+Guarde el registro de los campos seleccionando el icono **Guardar Cambios** ubicado en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image274.png)
 
@@ -433,19 +433,19 @@ Imagen 63. Acción Completar Documento
 
 ## Crear Factura desde Orden de Compra
 
-Ubique en el menú de ADempiere la carpeta **Gestión de Compras**, luego seleccione la ventana **Documentos por Pagar**, adjunto imagen para referencia.
+Ubique en el menú de Solop ERP la carpeta **Gestión de Compras**, luego seleccione la ventana **Documentos por Pagar**, adjunto imagen para referencia.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image280.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
-Podrá visualizar la ventana **Documentos por Pagar**, con todos los registros de documentos por pagar que se encuentran en ADempiere.
+Podrá visualizar la ventana **Documentos por Pagar**, con todos los registros de documentos por pagar que se encuentran en Solop ERP.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image281.png)
 
 Imagen 2. Ventana Documentos por Pagar
 
-Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de ADempiere para crear un nuevo registro.
+Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de Solop ERP para crear un nuevo registro.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image282.png)
 
@@ -465,7 +465,7 @@ Imagen 5. Campo No del Documento de la Ventana Documentos por Pagar desde Orden 
 
 Note
 
-Si no es ingresado ningún valor en este campo, ADempiere tomará el número de secuencia establecido para para el tipo de documento seleccionado.
+Si no es ingresado ningún valor en este campo, Solop ERP tomará el número de secuencia establecido para para el tipo de documento seleccionado.
 
 Introduzca en el campo **Descripción**, una breve descripción con respecto al documento que se encuentra realizando.
 
@@ -503,7 +503,7 @@ Podrá visualizar en el campo **Dirección del Socio del Negocio**, la direcció
 
 Imagen 11. Campo Dirección del Socio del Negocio de la Ventana Documentos por Pagar desde Orden de Compra
 
-De igual manera, podrá visualizar en el campo **Usuario**, el usuario dentro de ADempiere del socio del negocio seleccionado.
+De igual manera, podrá visualizar en el campo **Usuario**, el usuario dentro de Solop ERP del socio del negocio seleccionado.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image291.png)
 
@@ -533,7 +533,7 @@ Seleccione el checklist **Imprimir Descuento**, para imprimir el descuento en la
 
 Imagen 16. Checklist Imprimir Descuento de la Ventana Documentos por Pagar desde Orden de Compra
 
-Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere, para guardar el registro de los campos de la ventana **Documentos por Pagar**.
+Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP, para guardar el registro de los campos de la ventana **Documentos por Pagar**.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image296.png)
 
@@ -563,7 +563,7 @@ Al seleccionar la opción **Orden**, se habilita el campo **Orden de Venta**, pa
 
 Imagen 21. Campo Orden de Venta de la Ventana Crear Desde una Orden ADM Factura Recepción en una Factura
 
-Seleccione la opción **Comenzar Búsqueda**, para realizar la búsqueda de los registros en ADempiere según lo seleccionado anteriormente.
+Seleccione la opción **Comenzar Búsqueda**, para realizar la búsqueda de los registros en Solop ERP según lo seleccionado anteriormente.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image301.png)
 
@@ -581,7 +581,7 @@ Seleccione la opción **OK**, para cargar a la ventana **Documento por Pagar**, 
 
 Imagen 24. Opción OK de la Ventana Crear Desde una Orden ADM Factura Recepción en una Factura
 
-El proceso regresa a la ventana **Documentos por Pagar**, donde se debe seleccionar el icono **Refrescar**, ubicado en la barra de herramientas de ADempiere, para actualizar los campos en dicha ventana y sean visualizados los datos cargados desde el proceso anteriormente explicado.
+El proceso regresa a la ventana **Documentos por Pagar**, donde se debe seleccionar el icono **Refrescar**, ubicado en la barra de herramientas de Solop ERP, para actualizar los campos en dicha ventana y sean visualizados los datos cargados desde el proceso anteriormente explicado.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image304.png)
 

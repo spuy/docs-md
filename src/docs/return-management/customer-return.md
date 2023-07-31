@@ -6,9 +6,9 @@ sticky: 9
 article: false
 ---
 
-Esta documentación está destinada a definir la gestión de devoluciones de ADempiere para cualquier organización, es importante seguir al pie de la letra cada uno de los procedimientos descritos aquí recuerde que de eso dependerá el buen uso del ERP.
+Esta documentación está destinada a definir la gestión de devoluciones de Solop ERP para cualquier organización, es importante seguir al pie de la letra cada uno de los procedimientos descritos aquí recuerde que de eso dependerá el buen uso del ERP.
 
-La versión 3.9.2 de ADempiere en la localización Venezuela, contempla la documentación de los siguientes maestros necesarios para generar de manera existosa las transacciones del mismo.
+La versión 3.9.2 de Solop ERP en la localización Venezuela, contempla la documentación de los siguientes maestros necesarios para generar de manera existosa las transacciones del mismo.
 
 - Devolución de Cliente
   - Autorización de Devolución (Cliente)
@@ -25,7 +25,7 @@ La versión 3.9.2 de ADempiere en la localización Venezuela, contempla la docum
 
 ## Devolución de Cliente
 
-El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar una **Devolución de Cliente** en la versión 3.9.2 de ADempiere en la localización Venezuela. Dicho proceso de devolución es realizado generando un documento de autorización de devolución y porterior a ello, los documentos de devolución y nota de crédito correspondientes, los mismos son necesarios para reflejar el ingreso de los productos al almacén y disminuir el saldo de la factura.
+El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar una **Devolución de Cliente** en la versión 3.9.2 de Solop ERP en la localización Venezuela. Dicho proceso de devolución es realizado generando un documento de autorización de devolución y porterior a ello, los documentos de devolución y nota de crédito correspondientes, los mismos son necesarios para reflejar el ingreso de los productos al almacén y disminuir el saldo de la factura.
 
 - Autorización de Devolución (Cliente)
 - Devolución (Cliente)
@@ -35,13 +35,13 @@ El presente material elaborado por ERPyA pretende ofrecerle una explicación efi
 
 ### Autorización de Devolución (Cliente)
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Órdenes de Venta**, por último seleccione la ventana **Orden de Devolución (Cliente)**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Órdenes de Venta**, por último seleccione la ventana **Orden de Devolución (Cliente)**.
 
 ![Campo](/assets/img/docs/return-management/rem-return-image1.png)
 
 Imagen 1. Autorización de Devolución (Cliente)
 
-Seleccione el icono **Registro Nuevo**, en la barra de herramientas de ADempiere y proceda al llenado de los campos correspondientes.
+Seleccione el icono **Registro Nuevo**, en la barra de herramientas de Solop ERP y proceda al llenado de los campos correspondientes.
 
 ![Campo](/assets/img/docs/return-management/rem-return-image2.png)
 
@@ -169,11 +169,11 @@ Imagen 22. Acción Completar
 
 ### Devolución (Cliente)
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Entregas**, por último seleccione la ventana de búsqueda inteligente **Generar Entregas Desde Líneas de Orden**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Entregas**, por último seleccione la ventana de búsqueda inteligente **Generar Entregas Desde Líneas de Orden**.
 
 ![Campo](/assets/img/docs/return-management/rem-return-image23.png)
 
-Imagen 23. Menú de ADempiere
+Imagen 23. Menú de Solop ERP
 
 Seleccione en el campo **Socio del Negocio**, el socio del negocio seleccionado en el documento de **Orden de Devolución Cliente**.
 
@@ -211,11 +211,11 @@ Seleccione la opción **OK**, para generar el documento **Devolución (Cliente)*
 
 Imagen 29. Opción OK
 
-Seleccione en el menú de ADempiere, la carpeta **Gestión de Devoluciones**, luego seleccione la ventana **Devolución Cliente**.
+Seleccione en el menú de Solop ERP, la carpeta **Gestión de Devoluciones**, luego seleccione la ventana **Devolución Cliente**.
 
 ![Campo](/assets/img/docs/return-management/rem-return-image30.png)
 
-Imagen 30. Menú de ADempiere
+Imagen 30. Menú de Solop ERP
 
 Podrá apreciar el documento **Devolución Cliente**, creado desde la ventana de búsqueda inteligente.
 
@@ -235,11 +235,11 @@ Para generar el documento **Nota de Crédito por Devolución (Cliente)**, debe e
 
 Imagen 32. Factura 84884
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Facturas de Ventas**, por último seleccione la ventana de búsqueda inteligente **Generar Facturas desde Líneas de la Orden**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Facturas de Ventas**, por último seleccione la ventana de búsqueda inteligente **Generar Facturas desde Líneas de la Orden**.
 
 ![Campo](/assets/img/docs/return-management/rem-return-image33.png)
 
-Imagen 33. Menú de ADempiere
+Imagen 33. Menú de Solop ERP
 
 Seleccione en el campo **Socio del Negocio**, el socio del negocio del documento **Autorización de Devolución (Cliente)**.
 
@@ -283,11 +283,11 @@ Podrá visualizar el mensaje donde indica que se creó la nota de crédito desde
 
 Imagen 40. Mensaje de Creación de Nota de Crédito
 
-Seleccione en el menú de ADempiere, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Facturas de Ventas**, por último seleccione la ventana **Documentos por Cobrar**.
+Seleccione en el menú de Solop ERP, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Facturas de Ventas**, por último seleccione la ventana **Documentos por Cobrar**.
 
 ![Campo](/assets/img/docs/return-management/rem-return-image41.png)
 
-Imagen 41. Menú de ADempiere
+Imagen 41. Menú de Solop ERP
 
 Podrá apreciar el documento **Nota de Crédito por Devolución (Cliente)**, creado desde la ventana de búsqueda inteligente.
 

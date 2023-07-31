@@ -6,20 +6,20 @@ sticky: 9
 article: false
 ---
 
-En esta ocasión **ERPyA** pretende ofrecerle una guía fácil para la definición de una finca en ADempiere, es importante seguir paso a paso cada procedimiento, de ello dependerá el éxito de los registros resultantes.
+En esta ocasión **ERPyA** pretende ofrecerle una guía fácil para la definición de una finca en Solop ERP, es importante seguir paso a paso cada procedimiento, de ello dependerá el éxito de los registros resultantes.
 
 - Registro de Finca
   - Pestaña Lote de Finca
 
 ### Registro de Finca
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Asistencia Técnica Agricola**, luego seleccione la carpeta **Configuración de Asistencia Técnica**, por último seleccione la carpeta **Configuración de Productor**. Finalmente, seleccione la ventana **Finca**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Asistencia Técnica Agricola**, luego seleccione la carpeta **Configuración de Asistencia Técnica**, por último seleccione la carpeta **Configuración de Productor**. Finalmente, seleccione la ventana **Finca**.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image1.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
-Podrá visualizar la ventana **Finca**, con los diferentes registros de fincas que contiene ADempiere.
+Podrá visualizar la ventana **Finca**, con los diferentes registros de fincas que contiene Solop ERP.
 
 En esta ventana se registran los datos principales que la empresa requiere de la finca. Cada uno de los campos con el símbolo (\*) son obligatorios para el registro.
 
@@ -27,7 +27,7 @@ En esta ventana se registran los datos principales que la empresa requiere de la
 
 Imagen 2. Ventana Finca
 
-Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de ADempiere, para registrar una nueva finca.
+Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de Solop ERP, para registrar una nueva finca.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image3.png)
 
@@ -101,7 +101,7 @@ Imagen 14. Campo Área de la Ventana Finca
 
 Note
 
-El valor de este campo debe ser diferente de cero (0), corresponde al área de la finca que se encuentra registrando y es utilizado como requerimiento de ADempiere al momento de reflejar la finca a seleccionar en los documentos de **Cultivo** y **Hoja Técnica**.
+El valor de este campo debe ser diferente de cero (0), corresponde al área de la finca que se encuentra registrando y es utilizado como requerimiento de Solop ERP al momento de reflejar la finca a seleccionar en los documentos de **Cultivo** y **Hoja Técnica**.
 
 Tilde el checklist **Usa Lote de Finca**, para indicar que el registro de la finca contiene lotes o sub-divisiones.
 
@@ -125,7 +125,7 @@ El checklist **Válido**, indica que es valido el registro de la finca.
 
 Imagen 17. Checklist Válido de la Ventana Finca
 
-Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere, para guardar el registro de los campos de la ventana **Finca**.
+Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP, para guardar el registro de los campos de la ventana **Finca**.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image18.png)
 
@@ -151,7 +151,7 @@ Introduzca en el campo **Área**, el área del lote que se encuentra registrando
 
 Imagen 21. Campo Área de la Pestaña Lote de Finca
 
-Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de ADempiere, para guardar el registro de los campos de la pestaña **Lote de Finca**.
+Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP, para guardar el registro de los campos de la pestaña **Lote de Finca**.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image22.png)
 

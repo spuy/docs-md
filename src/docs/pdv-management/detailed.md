@@ -6,17 +6,17 @@ sticky: 9
 article: false
 ---
 
-Un retiro de fondos es realizado cuando por algún motivo se saca dinero de alguna de las cajas donde es realizado el proceso de venta de productos, la mayoria de las veces suele suceder por un alivio de caja, cancelación de un gasto, entre otros. A continuación es explicado el procedimiento regular para reflejar en ADempiere, un retiro de fondos.
+Un retiro de fondos es realizado cuando por algún motivo se saca dinero de alguna de las cajas donde es realizado el proceso de venta de productos, la mayoria de las veces suele suceder por un alivio de caja, cancelación de un gasto, entre otros. A continuación es explicado el procedimiento regular para reflejar en Solop ERP, un retiro de fondos.
 
 A continuación, se específica el procedimiento que se debe realizar para retirar correctamente los fondos de caja POS.
 
 ## Ejecución del Proceso
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Órdenes de Venta**, por último seleccione la carpeta **Punto de Venta**. Para finalizar, seleccione la ventana **Punto de Venta**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Órdenes de Venta**, por último seleccione la carpeta **Punto de Venta**. Para finalizar, seleccione la ventana **Punto de Venta**.
 
 ![Campo](/assets/img/docs/pdv-management/pdm-pdv-image97.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Si en el transcurso del día, se presenta un retiro de fondos en alguna de las cajas en la cual se encuentran realizando transacciones desde el punto de venta, seleccione la opción **Retiro de Caja (Detallado)**, ubicada en el menú desplegado por el icono **Proceso** de la barra de herramientas de la ventana **Punto de Venta**, explicada en el documento Barra de Herramientas del Punto de Venta elaborado por ERPyA.
 
@@ -56,7 +56,7 @@ Como ejemplo del proceso de retiro de fondos desde el punto de venta se tienen l
 
       - 40.577.378,71
 
-El retiro detallado de la caja, se debe realizar por moneda. Para el caso de la moneda **VES**, se debe tildar de manera Obligatoria, el check **Dividir Depósitos**, para que ADempiere genere un egreso de caja POS por el total de los movimientos con dicha moneda y un ingreso a caja administrativa por cada uno de los movimientos de cobro de dicha moneda.
+El retiro detallado de la caja, se debe realizar por moneda. Para el caso de la moneda **VES**, se debe tildar de manera Obligatoria, el check **Dividir Depósitos**, para que Solop ERP genere un egreso de caja POS por el total de los movimientos con dicha moneda y un ingreso a caja administrativa por cada uno de los movimientos de cobro de dicha moneda.
 
 En el campo **Terminal PDV**, podrá visualizar el terminal asociado al punto de venta desde el que accedió al proceso.
 
@@ -174,7 +174,7 @@ Imagen 22. Opción OK
 
 Note
 
-Por cada retiro de fondo realizado desde el punto de venta, ADempiere crea en la ventana **Caja** los siguientes documentos:
+Por cada retiro de fondo realizado desde el punto de venta, Solop ERP crea en la ventana **Caja** los siguientes documentos:
 
 Un documento de pago asociando en el campo **Cuenta**, la caja POS desde la cual se ejecuta el proceso. Dicho documento se puede visualizar en la ventana **Caja**.
 

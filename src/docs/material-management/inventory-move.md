@@ -6,11 +6,11 @@ sticky: 9
 article: false
 ---
 
-En ADempiere el movimiento de inventario permite mover de una ubicación o almacén a otro, los diferentes productos que se encuentran almacenados en una determinada empresa.
+En Solop ERP el movimiento de inventario permite mover de una ubicación o almacén a otro, los diferentes productos que se encuentran almacenados en una determinada empresa.
 
 Un movimiento de inventario puede ser realizado porque se requiere que sea distribuido algún material en los diferentes departamentos de la empresa, también puede realizarce porque no exista disponibilidad de un artículo, material o recurso que es indispensable o urgente para realizar alguna transacción de compra o venta.
 
-El presente material elaborado por **ERPyA**, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar en ADempiere un movimiento de inventario, en su versión 3.9.2 para la localización Venezuela.
+El presente material elaborado por **ERPyA**, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar en Solop ERP un movimiento de inventario, en su versión 3.9.2 para la localización Venezuela.
 
 - Registro de Movimiento de Inventario
 - Consultar Reporte de Almacenamiento
@@ -23,11 +23,11 @@ Para ejemplificar el procedimiento es generado el reporte **Detalle de Almacenam
 
 Imagen 1. Reporte Detalle Almacenamiento Antes del Movimiento
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Materiales**, luego seleccione la ventana **Movimiento de Inventario**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Materiales**, luego seleccione la ventana **Movimiento de Inventario**.
 
 ![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image20.png)
 
-Imagen 2. Menú de ADempiere
+Imagen 2. Menú de Solop ERP
 
 Podrá visualizar la ventana **Movimiento de Inventario** donde se encuentran los registros de los diferentes movimientos de inventarios realizados en la organización.
 
@@ -35,7 +35,7 @@ Podrá visualizar la ventana **Movimiento de Inventario** donde se encuentran lo
 
 Imagen 3. Ventana Movimiento de Inventario
 
-Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de ADempiere para crear un nuevo registro de movimiento inventario.
+Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de Solop ERP para crear un nuevo registro de movimiento inventario.
 
 ![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image22.png)
 
@@ -83,7 +83,7 @@ Imagen 10. Campo Fecha de Movimiento
 
 Note
 
-Recuerde guardar los cambios realizados en los campos de la pestaña **Movimiento**, seleccionando el icono **Guardar Cambios** ubicado en la barra de herramientas de ADempiere.
+Recuerde guardar los cambios realizados en los campos de la pestaña **Movimiento**, seleccionando el icono **Guardar Cambios** ubicado en la barra de herramientas de Solop ERP.
 
 Seleccione la pestaña **Línea del Movimiento** y proceda al llenado de los campos correspondientes.
 
@@ -127,7 +127,7 @@ Imagen 16. Campo Cantidad del Movimiento
 
 Note
 
-Recuerde guardar los cambios realizados en los campos de la pestaña **Línea del Movimiento**, seleccionando el icono **Guardar Cambios** ubicado en la barra de herramientas de ADempiere.
+Recuerde guardar los cambios realizados en los campos de la pestaña **Línea del Movimiento**, seleccionando el icono **Guardar Cambios** ubicado en la barra de herramientas de Solop ERP.
 
 Seleccione la pestaña principal **Movimiento**, luego seleccione la opción **Completar** ubicada en la parte inferior derecha de la ventana **Movimiento de Inventario**.
 

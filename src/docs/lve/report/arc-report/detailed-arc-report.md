@@ -6,18 +6,18 @@ star: 9
 sticky: 9
 tag:
 
-  - Reportes de ADempiere
+  - Reportes de Solop ERP
 article: false
 ---
 
 **Generar Reporte ARC Detallado**
 =================================
 
-Ubique y seleccione en el menú de ADempiere, la carpeta "**Localización Venezuela**", luego seleccione el proceso "**ARC**".
+Ubique y seleccione en el menú de Solop ERP, la carpeta "**Localización Venezuela**", luego seleccione el proceso "**ARC**".
 
-![Menú de ADempiere 1](/assets/img/docs/lve/report/arc-report/resources/menu-arc2.png)
+![Menú de Solop ERP 1](/assets/img/docs/lve/report/arc-report/resources/menu-arc2.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 Realice el procedimiento explicado en el documento [Reporte Arc](arc-report.md) para generar el reporte detallado del mismo, quedando la ventana "**ARC Detallado**" de la siguiente manera.
 

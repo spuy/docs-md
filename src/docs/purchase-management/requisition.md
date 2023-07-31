@@ -8,19 +8,19 @@ article: false
 
 Una requisición a compra es una solicitud realizada al departamento de compras, con el fin de abastecer de productos o servicios requeridos a un determinado departamento de una compañía. El documento de requisición puede ser elaborado por cualquier área o departamento de la misma, debe contener los datos dicho departamento solicitante y su jefe correspondiente.
 
-El presente material elaborado por **ERPyA** pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar una requisición a compra en ADempiere.
+El presente material elaborado por **Solop ERP** pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar una requisición a compra en Solop ERP.
 
 - Registro de Requisición a Compra
 
 ## Registro de Requisición a Compra
 
-Ubique en el menú de ADempiere la carpeta **Gestión de Compras**, luego seleccione la ventana **Requisición**, adjunto imagen para referencia.
+Ubique en el menú de Solop ERP la carpeta **Gestión de Compras**, luego seleccione la ventana **Requisición**, adjunto imagen para referencia.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image478.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
-Seleccione el icono **Registro Nuevo** en la barra de herramientas de ADempiere, para crear un nuevo documento de requisición.
+Seleccione el icono **Registro Nuevo** en la barra de herramientas de Solop ERP, para crear un nuevo documento de requisición.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image479.png)
 
@@ -38,7 +38,7 @@ Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la 
 
 Imagen 4. Campo Tipo de Documento
 
-Introduzca el número del documento en el campo **No. de Documento**, el mismo no es obligatorio ya que ADempiere genera un número de secuencia automáticamente al ser guardado el registro del documento.
+Introduzca el número del documento en el campo **No. de Documento**, el mismo no es obligatorio ya que Solop ERP genera un número de secuencia automáticamente al ser guardado el registro del documento.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image482.png)
 
@@ -80,7 +80,7 @@ Seleccione la lista de precios en el campo **Lista de Precios**, para una requis
 
 Imagen 11. Campo Lista de Precios
 
-Seleccione el icono **Guardar** de la barra de herramientas de ADempiere para guardar los cambios realizados.
+Seleccione el icono **Guardar** de la barra de herramientas de Solop ERP para guardar los cambios realizados.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image489.png)
 
@@ -110,7 +110,7 @@ Seleccione la unidad de medida del producto a solicitar en el campo **UM**, esta
 
 Imagen 16. Campo UM
 
-Seleccione el icono **Guardar** de la barra de herramientas de ADempiere para guardar los cambios realizados.
+Seleccione el icono **Guardar** de la barra de herramientas de Solop ERP para guardar los cambios realizados.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image494.png)
 
@@ -118,7 +118,7 @@ Imagen 17. Guardar Cambios
 
 Note
 
-Si el departamento requiere diferentes productos o servicios, puede seleccionar en la pestaña **Línea Requisición**, el icono **Registro Nuevo** en la barra de herramientas de ADempiere y proceder al llenado de los campos correspondientes explicados anteriormente.
+Si el departamento requiere diferentes productos o servicios, puede seleccionar en la pestaña **Línea Requisición**, el icono **Registro Nuevo** en la barra de herramientas de Solop ERP y proceder al llenado de los campos correspondientes explicados anteriormente.
 
 Regrese a la ventana principal **Requisición** y seleccione la opción **Completar**.
 
