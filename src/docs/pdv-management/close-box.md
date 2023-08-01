@@ -16,9 +16,9 @@ El retiro de fondos desde el punto de venta
 
 Cada uno de los procesos anteriormente nombrados, generan documentos que se asocian de manera automática a la línea de los registros creados en la ventana **Cierre de Caja**, con las cuentas **Caja POS** y **Caja Administrativa**.
 
-Adicional a ello, al ejecutar el proceso cierre de caja del punto de venta, ADempiere deja el cierre de caja creado con la cuenta **Caja Administrativa**, en estado **Borrador**, para que este sea completado de forma manual.
+Adicional a ello, al ejecutar el proceso cierre de caja del punto de venta, Solop ERP deja el cierre de caja creado con la cuenta **Caja Administrativa**, en estado **Borrador**, para que este sea completado de forma manual.
 
-Para mejor referencia de lo explicado anteriormente, se presenta a continuación el diagrama del proceso **Cierre de Caja**, con la finalidad dar a conocer el comportamiento de ADempiere ante dicho proceso.
+Para mejor referencia de lo explicado anteriormente, se presenta a continuación el diagrama del proceso **Cierre de Caja**, con la finalidad dar a conocer el comportamiento de Solop ERP ante dicho proceso.
 
 ![Campo](/assets/img/docs/pdv-management/pdm-pdv-image26.png)
 
@@ -28,11 +28,11 @@ A continuación, se específica el procedimiento que se debe realizar para ejecu
 
 ## Ejecución del Proceso
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Órdenes de Venta**, por último seleccione la carpeta **Punto de Venta**. Para finalizar, seleccione la ventana **Punto de Venta**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Órdenes de Venta**, por último seleccione la carpeta **Punto de Venta**. Para finalizar, seleccione la ventana **Punto de Venta**.
 
 ![Campo](/assets/img/docs/pdv-management/pdm-pdv-image27.png)
 
-Imagen 2. Menú de ADempiere
+Imagen 2. Menú de Solop ERP
 
 Luego de realizar desde el punto de venta todas las tomas de pedido del día, seleccione la opción **Cerrar Caja del Punto de Venta**, ubicada en el menú desplegado por el icono **Proceso** de la barra de herramientas de la ventana **Punto de Venta**, explicada en el documento Barra de Herramientas del Punto de Venta elaborado por ERPyA.
 
@@ -108,7 +108,7 @@ En el campo **Fecha de la Transacción**, el rango de fecha en el cual fue reali
 
 Imagen 14. Campo Fecha de la Ventana Cierre de Caja del Punto de Venta
 
-Para calcular el valor correspondiente a los siguientes campos, ADempiere realiza la conversión de todos los montos de los pagos y cobros de la caja, a la moneda de la caja para luego realizar los respectivos cálculos y obtener el valor de cada uno.
+Para calcular el valor correspondiente a los siguientes campos, Solop ERP realiza la conversión de todos los montos de los pagos y cobros de la caja, a la moneda de la caja para luego realizar los respectivos cálculos y obtener el valor de cada uno.
 
 En el campo **Total de la Línea**, la cantidad total de la línea con impuestos incluidos.
 
@@ -164,7 +164,7 @@ Imagen 20. Checklist Sobre/Sub Pago de la Ventana Cierre de Caja del Punto de Ve
 
 Note
 
-Si el punto de venta tuvo pagos de más (Sobre) o de menos (Sub), ADempiere calcula la diferencia. Para el caso expuesto en el presente material, no es necesario seleccionar el checklist.
+Si el punto de venta tuvo pagos de más (Sobre) o de menos (Sub), Solop ERP calcula la diferencia. Para el caso expuesto en el presente material, no es necesario seleccionar el checklist.
 
 Seleccione en el campo **Cargo**, el cargo correspondiente al cierre de caja que se encuentra realizando desde el punto de venta.
 
@@ -174,7 +174,7 @@ Imagen 21. Campo Cargo de la Ventana Cierre de Caja del Punto de Venta
 
 Note
 
-Cuando existen pagos de más (Sobre) o de menos (Sub), se selecciona un cargo y ADempiere genera una linea en el cierre contra el cargo seleccionado, permitiendo cuadrar la caja del día. Para el caso expuesto en el presente material, no es necesario seleccionar ningún cargo.
+Cuando existen pagos de más (Sobre) o de menos (Sub), se selecciona un cargo y Solop ERP genera una linea en el cierre contra el cargo seleccionado, permitiendo cuadrar la caja del día. Para el caso expuesto en el presente material, no es necesario seleccionar ningún cargo.
 
 Seleccione la opción **OK**, para realizar el cierre de caja del punto de venta con los cobros seleccionados y generar el documento pertinente en la ventana **Cierre de Caja**.
 

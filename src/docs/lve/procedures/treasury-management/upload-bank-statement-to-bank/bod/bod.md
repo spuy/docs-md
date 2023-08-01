@@ -185,11 +185,11 @@ For the documents associated with the payment (TIPO=03), the following fields ar
 
 Al ejecutar el proceso de selección de pago de las siguientes facturas en Solop ERP:
 
-- Factura "**1000243**" al socio del negocio "**E.R.P. Consultores y Asociados, C.A.**" por monto total de "**15.000.000,00**".
+- Factura "**1000243**" al socio del negocio "**Solop ERP**" por monto total de "**15.000.000,00**".
 - Factura "**1000244**" al socio del negocio "**Dhl Express Aduanas Venezuela C.A.**" por monto total de "**1.845.895,87**".
 - Factura "**1000245**" al socio del negocio "**Proveedor Estándar**" por monto total de "**225.000,00**".
 - Factura "**1000246**" al socio del negocio "**Bolivariana de Puertos  ( Bolipuertos)  S A**" por monto total de "**876.952.045,00**".
-- Factura "**1000247**" al socio del negocio "**E.R.P. Consultores y Asociados, C.A.**" por monto total de "**18.000.000,00**".
+- Factura "**1000247**" al socio del negocio "**Solop ERP**" por monto total de "**18.000.000,00**".
 
 Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en formato "**.txt**" con los detalles de los pagos a ser realizados desde el banco bod a terceros en el mismo banco, así como también a terceros en otros bancos, el mismo se puede descargar en el enlace [Archivo de Pago de Proveedores del Banco Occidental de Descuento](Banco_Occidental_de_Descuento_BU_CA_1000040.txt) y visualizar de la siguiente manera:
 

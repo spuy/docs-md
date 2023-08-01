@@ -44,7 +44,7 @@ Seleccione la opción imprimir text
 
 Imagen 6. Imprimir Pago
 
-A continuación ADempiere habrá generado el pago y usted verá el siguiente reporte (Adjunto Imagen)
+A continuación Solop ERP habrá generado el pago y usted verá el siguiente reporte (Adjunto Imagen)
 
 ![Campo](/assets/img/docs/loan-management/lom-loan-image36.png)
 
@@ -140,7 +140,7 @@ Esta opción lo llevará automáticamente a los pagos asociados a este préstamo
 
 ## Contabilidad del Proceso
 
-ADempiere contabilizará el préstamo dependiendo de la contabilidad configurada en el cargo heredado desde la definición del producto financiero (Vea Configuración de Producto Financiero (Préstamo)).
+Solop ERP contabilizará el préstamo dependiendo de la contabilidad configurada en el cargo heredado desde la definición del producto financiero (Vea Configuración de Producto Financiero (Préstamo)).
 
 | Cuenta                                    | Débito Contabilizado | Crédito Contabilizado |
 | ----------------------------------------- | -------------------- | --------------------- |

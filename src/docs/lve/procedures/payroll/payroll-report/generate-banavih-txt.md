@@ -15,7 +15,7 @@ article: false
 **Generar TXT de Banavih**
 ==========================
 
-El txt de Banavih es uno de los archivos que necesitamos subir al portal de FAOV en línea, el cual debe contener la información necesaria de la nómina procesada para el cálculo de los recursos a retener como aportes al fondo, en los siguientes pasos se mencionan el proceso que debemos seguir para generar este archivo desde ADempiere.
+El txt de Banavih es uno de los archivos que necesitamos subir al portal de FAOV en línea, el cual debe contener la información necesaria de la nómina procesada para el cálculo de los recursos a retener como aportes al fondo, en los siguientes pasos se mencionan el proceso que debemos seguir para generar este archivo desde Solop ERP.
 
 - Seleccione la ventana "**Reporte de Nómina**", ubicado en el menú "**Gestión de Recursos Humanos**", sub carpeta "**Reporte de Nómina**"
 
@@ -35,7 +35,7 @@ Imagen 1. Parámetros para obtener archivo.
 
 - Posteriormente puede ubicar en su carpeta de descarga, el archivo generado con el nombre que estará estructurado de la siguiente manera: la letra “**N**”, el número de cuenta nómina (**20 dígitos**), el mes de la nómina (**en formato MM**), el año de la nómina (**en formato AAAA**).
 
-Se presenta como ejemplo, un archivo que puede descargar en el enlace [N01050000000000000001012021.txt](N01050000000000000001012021.txt), para corroborar que coincida la estructura con el documento generado de ADempiere.
+Se presenta como ejemplo, un archivo que puede descargar en el enlace [N01050000000000000001012021.txt](N01050000000000000001012021.txt), para corroborar que coincida la estructura con el documento generado de Solop ERP.
 
 - Al descargar el mismo, se puede visualizar de la siguiente manera.
 

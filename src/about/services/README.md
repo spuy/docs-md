@@ -54,14 +54,14 @@ Son todos aquellos servicios que ya se encuentran definidos y tabulados, los mis
 
 ## Aplicaciones
 
-Esta sección se encuentra específicamente relacionada con las aplicaciones desarrolladas por ERP Consultores y Asociados, C.A para segmentos específicos de negocio y que se encuentran completamente integradas con el ERP.
+Esta sección se encuentra específicamente relacionada con las aplicaciones desarrolladas por Solop ERP para segmentos específicos de negocio y que se encuentran completamente integradas con el ERP.
 
 - [Fuerza de Ventas](apps/sales-force.md)
 - [Punto de Ventas](apps/pos.md)
 
 ## Educación
 
-La educación forma parte de los servicios que ofrece ERP Consultores y Asociados, C.A para capacitaciones en el uso de SOLOP, aplicaciones derivadas y cualquier otro tipo de aprendizaje relacionado a los productos y servicio que ofrece. Después de instalar cualquier aplicación mantenida por ERP Consultores y Asociados, C.A usted podrá contratar alguna capacitación para ampliar sus conocimientos o para hacer más sencilla la rotación del personal.
+La educación forma parte de los servicios que ofrece Solop ERP para capacitaciones en el uso de SOLOP, aplicaciones derivadas y cualquier otro tipo de aprendizaje relacionado a los productos y servicio que ofrece. Después de instalar cualquier aplicación mantenida por Solop ERP usted podrá contratar alguna capacitación para ampliar sus conocimientos o para hacer más sencilla la rotación del personal.
 
 - [Diccionario de Aplicación de Solop](apps/adempiere-application-dictionary.md)
 - [Sesión de Capacitación](learning/training-session.md)

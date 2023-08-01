@@ -18,11 +18,11 @@ En Venezuela para importar bienes o productos se generan tasas de impuestos sobr
 
 **Configuración Escencial**
 
-- Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Importación y Exportación**" y luego seleccione la ventana "**Impuestos Importación/Exportación**".
+- Ubique y seleccione en el menú de Solop ERP, la carpeta "**Gestión de Importación y Exportación**" y luego seleccione la ventana "**Impuestos Importación/Exportación**".
 
-![Menú de ADempiere](/assets/img/docs/lve/procedures/import/resources/confimpuestos.png)
+![Menú de Solop ERP](/assets/img/docs/lve/procedures/import/resources/confimpuestos.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 - Indique el nombre del impuesto o tasa arancelaria ejemplo: **Tasas Servicio Seniat (TSS)**
 
@@ -57,11 +57,11 @@ Imagen 6. Cargo de Impuesto
 **Generar Planillas de Gastos Arancelarios/Impuestos**
 ======================================================
 
-- Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Importación y Exportación**" y luego seleccione la ventana "**Generar Impuestos Importación/Exportación**".
+- Ubique y seleccione en el menú de Solop ERP, la carpeta "**Gestión de Importación y Exportación**" y luego seleccione la ventana "**Generar Impuestos Importación/Exportación**".
 
-![Menú de ADempiere 1](/assets/img/docs/lve/procedures/import/resources/procgenerartasas.png)
+![Menú de Solop ERP 1](/assets/img/docs/lve/procedures/import/resources/procgenerartasas.png)
 
-Imagen 7. Menú de ADempiere
+Imagen 7. Menú de Solop ERP
 
 - Indique el expediente de Importación, a continuación se despliega los impuestos que son opción para generar, esto siempre dependerá de la declaración única de importación y el resultado en planillas físicas.
 
@@ -105,11 +105,11 @@ Imagen 13. Moneda de Planilla
 
 Imagen 14. Moneda de Planilla
 
-- Al ejecutar el proceso su planilla quedará cargada de manera automática en **ADempiere** y computará como base para el **IVA**.
+- Al ejecutar el proceso su planilla quedará cargada de manera automática en **Solop ERP** y computará como base para el **IVA**.
 
 ![Menu Import](/assets/img/docs/lve/procedures/import/resources/menuimport.png)
 
-Imagen 15. Menú de ADempiere
+Imagen 15. Menú de Solop ERP
 
 ~~~
 **¡Importante!**
@@ -120,18 +120,18 @@ Repita los pasos anteriores para la generación del IVA, sabiendo que su base se
 
 ![Menu Import](/assets/img/docs/lve/procedures/import/resources/menuimport.png)
 
-Imagen 16. Menú de ADempiere
+Imagen 16. Menú de Solop ERP
 
 Repita este procedimiento hasta concluir la totalidad de las planillas.
 
 **Generar Planillas de IVA**
 ============================
 
-- Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Importación y Exportación**" y luego seleccione la ventana "**Generar Impuestos Importación/Exportación**".
+- Ubique y seleccione en el menú de Solop ERP, la carpeta "**Gestión de Importación y Exportación**" y luego seleccione la ventana "**Generar Impuestos Importación/Exportación**".
 
-![Menú de ADempiere 1](/assets/img/docs/lve/procedures/import/resources/procgenerartasas.png)
+![Menú de Solop ERP 1](/assets/img/docs/lve/procedures/import/resources/procgenerartasas.png)
 
-Imagen 17. Menú de ADempiere
+Imagen 17. Menú de Solop ERP
 
 - Indique el expediente de Importación, a continuación se despliega los impuestos que son opción para generar, esto siempre dependerá de la declaración única de importación y el resultado en planillas físicas.
 
@@ -181,10 +181,10 @@ Imagen 24. Moneda de Planilla
 
 Imagen 25. Moneda de Planilla
 
-- Al ejecutar el proceso su planilla quedará cargada de manera automática en **ADempiere** y computará como base para el **IVA**.
+- Al ejecutar el proceso su planilla quedará cargada de manera automática en **Solop ERP** y computará como base para el **IVA**.
 
 ![Menu Import](/assets/img/docs/lve/procedures/import/resources/menuimport.png)
 
-Imagen 26. Menú de ADempiere
+Imagen 26. Menú de Solop ERP
 
 - Finalmente, podrá ejecutar el **Libro de Compras** de manera regular, validando así que la base, impuesto y factura queden de manera correcta.

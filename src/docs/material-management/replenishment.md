@@ -6,7 +6,7 @@ sticky: 9
 article: false
 ---
 
-El presente material elaborado por ERPyA, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar en ADempiere un proceso de reabastecimiento, en su versión 3.9.2 para la localización Venezuela.
+El presente material elaborado por Solop ERP, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar en Solop ERP un proceso de reabastecimiento, en su versión 3.9.2 para la localización Venezuela.
 
 - Proceso de Reabastecimiento
   - Configuración Esencial
@@ -15,7 +15,7 @@ El presente material elaborado por ERPyA, pretende ofrecerle una explicación ef
 
 ## Proceso de Reabastecimiento
 
-El proceso de reabastecimiento permite generar los respectivos documentos de movimiento de material, requisición, orden de compra, o de distribución, en estado **Borrador**. El comportamiento del proceso consta en el tipo de reabastecimiento seleccionado en la configuración del producto. ADempiere permite utilizar los siguientes tipos de reabastecimiento:
+El proceso de reabastecimiento permite generar los respectivos documentos de movimiento de material, requisición, orden de compra, o de distribución, en estado **Borrador**. El comportamiento del proceso consta en el tipo de reabastecimiento seleccionado en la configuración del producto. Solop ERP permite utilizar los siguientes tipos de reabastecimiento:
 
 Mantener El Nivel Máximo
 
@@ -165,13 +165,13 @@ Para ejecutar correctamente el proceso de reabastecimiento de almacén, es neces
 
 ### Configuración Esencial
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Materiales**, luego seleccione la carpeta **Reglas de Gestión de Materiales**, por último seleccione la ventana **Producto**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Materiales**, luego seleccione la carpeta **Reglas de Gestión de Materiales**, por último seleccione la ventana **Producto**.
 
 [Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image998.png)
 
-Menú de ADempiere
+Menú de Solop ERP
 
-Podrá visualizar la ventana **Producto**, con todos los registros de los productos en ADempiere, en la cual debe ubicar el registro del producto involucrado en el proceso de reabastecimiento, para realizar la configuración esencial del mismo.
+Podrá visualizar la ventana **Producto**, con todos los registros de los productos en Solop ERP, en la cual debe ubicar el registro del producto involucrado en el proceso de reabastecimiento, para realizar la configuración esencial del mismo.
 
 ![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image91.png)
 
@@ -193,7 +193,7 @@ Imagen 3. Configuración del Producto
 
 ### Ejecución del Proceso
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Materiales**, luego seleccione la ventana de búsqueda inteligente **Reabastecimiento de Almacén**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Materiales**, luego seleccione la ventana de búsqueda inteligente **Reabastecimiento de Almacén**.
 
 ![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image93.png)
 

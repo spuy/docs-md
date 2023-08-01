@@ -8,7 +8,7 @@ article: false
 
 El proceso anular transacción de venta, permite realizar la devolución total de la venta, generando de manera automática y en estado **Completo**, los documentos **Orden de Devolución**, **Devolución** y **Nota de Crédito**.
 
-Para mejor referencia de lo explicado anteriormente, se presenta a continuación el diagrama del proceso **Anular Transacción de Venta**, con la finalidad dar a conocer el comportamiento de ADempiere ante dicho proceso.
+Para mejor referencia de lo explicado anteriormente, se presenta a continuación el diagrama del proceso **Anular Transacción de Venta**, con la finalidad dar a conocer el comportamiento de Solop ERP ante dicho proceso.
 
 ![Campo](/assets/img/docs/pdv-management/pdm-pdv-image14.png)
 
@@ -18,11 +18,11 @@ A continuación, se específica el procedimiento que se debe realizar para anula
 
 ## Ejecución del Proceso
 
-Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Órdenes de Venta**, por último seleccione la carpeta **Punto de Venta**. Para finalizar, seleccione la ventana **Punto de Venta**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Órdenes de Venta**, por último seleccione la carpeta **Punto de Venta**. Para finalizar, seleccione la ventana **Punto de Venta**.
 
 ![Campo](/assets/img/docs/pdv-management/pdm-pdv-image15.png)
 
-Imagen 2. Menú de ADempiere
+Imagen 2. Menú de Solop ERP
 
 La interfaz de la ventana **Punto de Venta**, se encuentra definida de forma específica en el documento Interfaz de Punto de Venta, elaborado por ERPyA. Realice cada uno de los procesos explicados a continuación para obtener un resultado exitoso en la anulación de la transacción de venta por el punto de venta.
 
@@ -46,13 +46,13 @@ Luego de ubicar la orden de venta que requiere anular, seleccione la opción **A
 
 Imagen 5. Opción Anular Transacción de Venta del Icono Proceso de la Barra de Herramientas del Punto de Venta
 
-Al seleccionar el proceso **Anular Transacción de Venta**, ADempiere muestra el mensaje para la confirmación de la ejecución del proceso, en el cual se debe seleccionar la opción **OK**, para ejecutar el mismo.
+Al seleccionar el proceso **Anular Transacción de Venta**, Solop ERP muestra el mensaje para la confirmación de la ejecución del proceso, en el cual se debe seleccionar la opción **OK**, para ejecutar el mismo.
 
 ![Campo](/assets/img/docs/pdv-management/pdm-pdv-image19.png)
 
 Imagen 6. Mensaje para Confirmación de Proceso
 
-Luego de ejecutar la acción anteriormente explicada, ADempiere muestra un mensaje con el resultado del proceso.
+Luego de ejecutar la acción anteriormente explicada, Solop ERP muestra un mensaje con el resultado del proceso.
 
 ![Campo](/assets/img/docs/pdv-management/pdm-pdv-image20.png)
 

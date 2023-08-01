@@ -6,8 +6,8 @@ export default hopeTheme({
   hostname: "https://ayuda.solopapp.com",
 
   author: {
-    name: "ERP Consultores y Asociados, C.A.",
-    url: "https://erpya.com",
+    name: "Solop ERP",
+    url: "https://solopsoftware.com/",
   },
 
   iconAssets: "//at.alicdn.com/t/font_2410206_vuzkjonf4s9.css",
@@ -26,7 +26,7 @@ export default hopeTheme({
       navbar: enNavbarConfig,
 
       blog: {
-        description: "Documentación Oficial de ERP Consultores y Asociados, CA",
+        description: "Documentación Oficial de Solop ERP",
         intro: "/about/",
         medias: {
           Gmail: "mailto:info@erpya.com",
@@ -39,7 +39,7 @@ export default hopeTheme({
   },
 
   displayFooter: true,
-  copyright: "Copyright © 2022-present ERP Consultores y Asociados, C.A.",
+  copyright: "Copyright © 2022-present Solop ERP",
 
   plugins: {
     blog: true,
@@ -83,9 +83,9 @@ export default hopeTheme({
         color: "#ffffff",
       },
       manifest: {
-        name: "ERP Consultores y Asociados, C.A.",
-        short_name: "ERPyA",
-        description: "ERP Consultores y Asociados, C.A.",
+        name: "Solop ERP",
+        short_name: "Solop ERP",
+        description: "Solop ERP",
         theme_color: "#5c92d1",
         icons: [
           {

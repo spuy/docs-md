@@ -21,7 +21,7 @@ For the purposes of this Privacy Policy:
 
 - __Application__ refers to Play, the software program provided by the Company.
 
-- __Company__ (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to ERP Consultores y Asociados, CC Buenaventura Araure Portuguesa.
+- __Company__ (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Solop ERP, CC Buenaventura Araure Portuguesa.
 
 - __Country__ refers to:  Venezuela
 

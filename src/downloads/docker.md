@@ -14,16 +14,16 @@ article: false
 
 ## Imágenes Oficiales
 
-Todas las imágenes oficiales de [ERPyA](https://erpya.com/) se encuentran [aquí](https://hub.docker.com/u/erpya). Invertimos muchas horas y recursos en hacer que nuestra infraestructura sea de clase mundial. No vamos por el camino fácil, en su lugar vamos por el camino correcto.
+Todas las imágenes oficiales de [Solop ERP](https://solopsoftware.com/) se encuentran [aquí](https://hub.docker.com/u/erpya). Invertimos muchas horas y recursos en hacer que nuestra infraestructura sea de clase mundial. No vamos por el camino fácil, en su lugar vamos por el camino correcto.
 
 Puedes ver los enlaces a nuestras imágenes en la siguiente lista
 
-- [ADempiere ZK UI](https://hub.docker.com/r/erpya/adempiere-zk-ui)
-- [ADempiere Vue UI](https://hub.docker.com/r/erpya/adempiere-vue)
-- [ADempiere gRPC Server](https://hub.docker.com/r/erpya/adempiere-grpc-server)
-- [ADempiere Proxy Server](https://hub.docker.com/r/erpya/proxy-adempiere-api)
-- [ADempiere Backend](https://hub.docker.com/r/erpya/backend)
-- [ADempiere Middleware](https://hub.docker.com/r/erpya/adempiere-middleware)
+- [Solop ERP ZK UI](https://hub.docker.com/r/erpya/adempiere-zk-ui)
+- [Solop ERP Vue UI](https://hub.docker.com/r/erpya/adempiere-vue)
+- [Solop ERP gRPC Server](https://hub.docker.com/r/erpya/adempiere-grpc-server)
+- [Solop ERP Proxy Server](https://hub.docker.com/r/erpya/proxy-adempiere-api)
+- [Solop ERP Backend](https://hub.docker.com/r/erpya/backend)
+- [Solop ERP Middleware](https://hub.docker.com/r/erpya/adempiere-middleware)
 - [Microservicio para Punto de Ventas](https://hub.docker.com/r/erpya/ms-point-of-sales-rs)
 
 ## Despliegue para Demo (Docker Compose)
