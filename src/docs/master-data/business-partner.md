@@ -47,7 +47,7 @@ Imagen 3. Campo Organización
 
 Warning
 
-Generalmente los **Socios de Negocios** son registros compartidos entre entidades organizacionales, por esta razón **ERPyA** recomienda la creación con organización (\*) para evitar duplicidad e inconvenientes contables, de esta forma garantizamos la homogeneidad de los datos maestros.
+Generalmente los **Socios de Negocios** son registros compartidos entre entidades organizacionales, por esta razón **Solop ERP** recomienda la creación con organización (\*) para evitar duplicidad e inconvenientes contables, de esta forma garantizamos la homogeneidad de los datos maestros.
 
 Introduzca el código de socio del negocio en el campo **Código**.
 
@@ -432,7 +432,7 @@ De igual manera, un proveedor externo puede ser un proveedor internacional, este
 
 ### Registro de Proveedor
 
-Para registrar un proveedor, es necesario que sea realizado el procedimiento regular explicado en el documento **Registro de Socio del Negocio**, elaborado por **ERPyA**.
+Para registrar un proveedor, es necesario que sea realizado el procedimiento regular explicado en el documento **Registro de Socio del Negocio**, elaborado por **Solop ERP**.
 
 Luego de culminar el procedimieto de registro de socio del negocio, seleccione la pestaña **Proveedor** que se encuentra del lado izquierdo de la ventana socio del negocio, para identificar al socio del negocio como proveedor de la empresa.
 
@@ -646,7 +646,7 @@ Esta categorización en ADempiere es conocida como **Grupo de Socio de Negocio*
 
 Para este caso, usted tendría por categoría diferentes cuentas contables, Cuenta por Cobrar Nacionales y Cuenta por Cobrar Internacionales respectivamente.
 
-Ahora bien, si es usted usuario de ADempiere, seguramente se ha hecho preguntas que le han complicado la operativa de algún modo. Para facilitar su día a día **ERPyA** quiere responder algunas preguntas frecuentes con las que nos topamos en nuestra experiencia como consultores e implementadores de ADempiere:
+Ahora bien, si es usted usuario de ADempiere, seguramente se ha hecho preguntas que le han complicado la operativa de algún modo. Para facilitar su día a día **Solop ERP** quiere responder algunas preguntas frecuentes con las que nos topamos en nuestra experiencia como consultores e implementadores de ADempiere:
 
 **¿Si un socio de negocio es proveedor o empleado, y ahora funge como cliente, debo crearlo nuevamente?**
 
@@ -696,7 +696,7 @@ Para concluir el preámbulo, le invitamos a tomar en cuenta cada una de estas ac
 
 ## Registro de Cliente
 
-Para registrar un cliente, es necesario que sea realizado el procedimiento regular explicado en el documento **Registro de Socio del Negocio**, elaborado por **ERPyA**.
+Para registrar un cliente, es necesario que sea realizado el procedimiento regular explicado en el documento **Registro de Socio del Negocio**, elaborado por **Solop ERP**.
 
 Luego de culminar el procedimieto de registro de socio del negocio, seleccione la pestaña **Cliente** que se encuentra del lado izquierdo de la ventana socio del negocio, para identificar al socio del negocio como cliente de la empresa.
 
@@ -1085,7 +1085,7 @@ Imagen 60. Campo Región de Ventas
 
 Note
 
-Para conocer más sobre las regiones de ventas que puede tener una compañía u organización, visite el documento **Registro de Región de Ventas**, elaborado por **ERPyA**.
+Para conocer más sobre las regiones de ventas que puede tener una compañía u organización, visite el documento **Registro de Región de Ventas**, elaborado por **Solop ERP**.
 
 Introduzca en el campo **Código SICA**, el código SICA del socio del negocio cliente.
 
@@ -1167,7 +1167,7 @@ Imagen 71. Campo Código
 
 Warning
 
-ERPyA tiene establecido como estándar de creación de usuario y contraseña en ADempiere, la inicial del primer nombre en minúscula, seguido del primer apellido completo, con la primera letra del mismo en mayúscula.
+Solop ERP tiene establecido como estándar de creación de usuario y contraseña en ADempiere, la inicial del primer nombre en minúscula, seguido del primer apellido completo, con la primera letra del mismo en mayúscula.
 
 Introduzca en el campo **Contraseña**, la contraseña de la persona de contacto con el socio del negocio cliente para ingresar a ADempiere.
 
@@ -1177,7 +1177,7 @@ Imagen 72. Campo Contraseña
 
 Warning
 
-ERPyA tiene establecido como estándar de creación de usuario y contraseña en ADempiere, la inicial del primer nombre en minúscula, seguido del primer apellido completo, con la primera letra del mismo en mayúscula.
+Solop ERP tiene establecido como estándar de creación de usuario y contraseña en ADempiere, la inicial del primer nombre en minúscula, seguido del primer apellido completo, con la primera letra del mismo en mayúscula.
 
 Seleccione el checklist **Usuario de Tienda Web**, para indicar que la persona de contacto con el socio del negocio es usuario de tienda web.
 

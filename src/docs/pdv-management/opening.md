@@ -40,7 +40,7 @@ Podrá visualizar la ventana **Apertura de Punto de Venta**, con diferentes camp
 
 Imagen 3. Ventana Apertura de Punto de Venta
 
-Realice en la ventana **Apertura de Punto de Venta**, el proceso regular para generar una transferencia bancaria, dicho procedimiento se encuentra explicado en el documento Registro de Transferencia Bancaria, elaborado por ERPyA.
+Realice en la ventana **Apertura de Punto de Venta**, el proceso regular para generar una transferencia bancaria, dicho procedimiento se encuentra explicado en el documento Registro de Transferencia Bancaria, elaborado por Solop ERP.
 
 Para la apertura de una caja, es necesario que sean cumplidas las siguientes restricciones en la ventana **Apertura de Punto de Venta**.
 

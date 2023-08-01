@@ -6,7 +6,7 @@ sticky: 9
 article: false
 ---
 
-El presente material elaborado por ERPyA, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar una entrega en Solop ERP, en su versión 3.9.2 para la localización Venezuela.
+El presente material elaborado por Solop ERP, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar una entrega en Solop ERP, en su versión 3.9.2 para la localización Venezuela.
 
 - Registro de Entregas (Cliente)
 - Generar Entrega desde Líneas de la Orden
@@ -77,7 +77,7 @@ Introduzca en el campo **Descripción**, una breve descripción de la entrega qu
 
 Imagen 10. Campo Descripción de la Ventana Entregas Cliente
 
-Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por ERPyA.
+Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image134.png)
 
@@ -435,7 +435,7 @@ Seleccione en el campo **Fecha de Envio**, la fecha en la cual se realizará la 
 
 Imagen 12. Campo Fecha de Envio de la Ventana Generar Entrega desde Líneas de la Orden
 
-El campo **Tipo de Documento**, se encuentra vacío y de sólo lectura ya que el tipo de documento a generar lo define la orden de venta seleccionada. De igual manera, el tipo de documento define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por ERPyA.
+El campo **Tipo de Documento**, se encuentra vacío y de sólo lectura ya que el tipo de documento a generar lo define la orden de venta seleccionada. De igual manera, el tipo de documento define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image191.png)
 

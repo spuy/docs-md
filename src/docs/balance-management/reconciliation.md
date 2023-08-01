@@ -14,7 +14,7 @@ Solop ERP cuenta con un proceso de conciliaciones automáticas el cual permite d
 
 Una conciliación automática es un proceso que se realiza con la finalidad de garantizar los saldos de las cuentas por cobrar y las cuentas por pagar que posee una empresa, el mismo compara la información del estado de cuenta real del banco con los registros y movimientos bancarios existentes en Solop ERP para corroborar que ambos coincidan y no existan errores en los saldos bancarios y en la contabilidad de la empresa.
 
-**ERPyA** pretende ofrecer una explicación eficiente a nuestros clientes del procedimiento de conciliación automática a través de una guía fácil y sencilla para así obtener resultados exitosos al momento de generar una conciliación en la versión 3.9.2 de Solop ERP en la localización Venezuela. A continuación se explica el procedimiento que se debe realizar para generar una conciliación bancaria de manera automática en Solop ERP.
+**Solop ERP** pretende ofrecer una explicación eficiente a nuestros clientes del procedimiento de conciliación automática a través de una guía fácil y sencilla para así obtener resultados exitosos al momento de generar una conciliación en la versión 3.9.2 de Solop ERP en la localización Venezuela. A continuación se explica el procedimiento que se debe realizar para generar una conciliación bancaria de manera automática en Solop ERP.
 
 - Descarga de Extracto Bancario desde Banco
 - Registro de Conciliación Automática
@@ -46,13 +46,13 @@ Note
 
 Haga click al NetCash para poder visualizar el paso a paso para las descargas de archivos, al dar click a la opción anteriormente comentada este lo redireccionará a la plataforma web del banco.
 
-ERPyA ofrece a nuestros clientes el ejemplo de extracto bancario BANCO PROVINCIAL SEPTIEMBRE 2019, con la finalidad de que sea descargado y utilizado para realizar el proceso de conciliación automática en Solop ERP.
+Solop ERP ofrece a nuestros clientes el ejemplo de extracto bancario BANCO PROVINCIAL SEPTIEMBRE 2019, con la finalidad de que sea descargado y utilizado para realizar el proceso de conciliación automática en Solop ERP.
 
 Extracto Bancario Venezuela
 
 Para poder hacer la descarga del extracto bancario del Banco de Venezuela debe iniciar sesión en el banco, una vez ingrese al banco siga las siguientes instrucciones indicadas bajo la plataforma Web del banco Banco de Venezuela, el estado de cuenta bancario a descargar de este banco debe ser bajo los formatos **fix.txt**, cualquiera de esos dos formatos son válidos para que Solop ERP acepte la importación del extracto bancario.
 
-ERPyA ofrece a nuestros clientes el ejemplo de extracto bancario BANCO DE VENEZUELA OCTUBRE 2019, con la finalidad de que sea descargado y utilizado para realizar el proceso de conciliación automática en Solop ERP.
+Solop ERP ofrece a nuestros clientes el ejemplo de extracto bancario BANCO DE VENEZUELA OCTUBRE 2019, con la finalidad de que sea descargado y utilizado para realizar el proceso de conciliación automática en Solop ERP.
 
 Extracto Bancario Tesoro
 
@@ -66,7 +66,7 @@ Warning
 
 Para la exportación del extracto bancario en formato **qif.**, es necesario ingresar a banesco y seleccionar la opción **Consultas**. Luego se debe seleccionar la opción **Cuentas**, llenar los parámetros y seleccionar la opción **Exportar**. Finalmente, se debe seleccionar la opción **Quicken/Money** para exportar el archivo en formato **qif.**
 
-ERPyA ofrece a nuestros clientes el ejemplo de extracto bancario BANCO BANESCO OCTUBRE 2019, con la finalidad de que sea descargado y utilizado para realizar el proceso de conciliación automática en Solop ERP.
+Solop ERP ofrece a nuestros clientes el ejemplo de extracto bancario BANCO BANESCO OCTUBRE 2019, con la finalidad de que sea descargado y utilizado para realizar el proceso de conciliación automática en Solop ERP.
 
 Note
 
@@ -76,7 +76,7 @@ Extracto Bancario Mercantil
 
 Para poder hacer la descarga del extracto bancario de Mercantil Banco debe iniciar sesión en el banco, una vez ingrese al banco siga las instrucciones indicadas bajo la platafoma Web en el apartado de Empresas donde se describe el paso a paso de como realizar la descarga de archivos o movimientos bancarios; el estado de cuenta bancario a descargar de este banco debe ser bajo los formatos **Mt940.txt** cualquiera de esos dos formatos son válidos para que Solop ERP acepte la importación del extracto bancario.
 
-ERPyA ofrece a nuestros clientes el ejemplo de extracto bancario BANCO MERCANTIL OCTUBRE 2019, con la finalidad de que sea descargado y utilizado para realizar el proceso de conciliación automática en Solop ERP.
+Solop ERP ofrece a nuestros clientes el ejemplo de extracto bancario BANCO MERCANTIL OCTUBRE 2019, con la finalidad de que sea descargado y utilizado para realizar el proceso de conciliación automática en Solop ERP.
 
 Note
 
@@ -94,13 +94,13 @@ Extracto Bancario BNC
 
 Para poder hacer la descarga del extracto bancario del Banco Nacional de Crédito debe iniciar sesión en el banco, una vez ingrese al banco siga las siguientes instrucciones indicadas bajo la plataforma Web del banco Banco Nacional de Crédito, el estado de cuenta bancario a descargar de este banco debe ser bajo el formato **.tsv**, el cual es el formato que aceptara Solop ERP al momento de realizar la importación del extracto bancario.
 
-ERPyA ofrece a nuestros clientes el ejemplo de extracto bancario BNC 2017, con la finalidad de que sea descargado y utilizado para realizar el proceso de conciliación automática en Solop ERP.
+Solop ERP ofrece a nuestros clientes el ejemplo de extracto bancario BNC 2017, con la finalidad de que sea descargado y utilizado para realizar el proceso de conciliación automática en Solop ERP.
 
 Extracto Bancario Banplus
 
 Para poder hacer la descarga del extracto bancario del Banplus debe iniciar sesión en el banco, una vez ingrese al banco siga las siguientes instrucciones indicadas bajo la plataforma Web del banco Banplus, el estado de cuenta bancario a descargar de este banco debe ser bajo el formato **.txt**, el cual es el formato que aceptara Solop ERP al momento de realizar la importación del extracto bancario.
 
-ERPyA ofrece a nuestros clientes el ejemplo de extracto bancario Banplus 2017, con la finalidad de que sea descargado y utilizado para realizar el proceso de conciliación automática en Solop ERP.
+Solop ERP ofrece a nuestros clientes el ejemplo de extracto bancario Banplus 2017, con la finalidad de que sea descargado y utilizado para realizar el proceso de conciliación automática en Solop ERP.
 
 De la misma manera, los bancos que no han sido mencionados bajo este material pueden ser descargados e importados en Solop ERP bajo los formatos **QIF**, **MT940** y **OFX / OFC**.
 
@@ -108,7 +108,7 @@ Note
 
 Ningún estado de cuenta bancario puede ser modificado o convertido manualmente a cualquiera de los formatos nombrados anteriormente, el usuario solo debe descargar el estado de cuenta bancario en los formatos indicados e importarlos a Solop ERP.
 
-Para realizar la importación del extracto bancario este proceso se explica en el documento Conciliaciones Automáticas elaborado por ERPyA.
+Para realizar la importación del extracto bancario este proceso se explica en el documento Conciliaciones Automáticas elaborado por Solop ERP.
 
 ## Registro de Conciliación Automática
 
@@ -132,7 +132,7 @@ Seleccione en el campo **Organización**, la organización para la cual se está
 
 Imagen 3. Campo Organización
 
-Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por ERPyA.
+Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image142.png)
 
@@ -596,7 +596,7 @@ Imagen 30. Acción Completar Documento
 
 El proceso **Crear Pagos desde Estado de Cuenta** es realizado por consecuencia de la existencia de **Pagos/Cobros** que se encuentran en el extracto bancario y al momento de la conciliación no se encuentra ninguna coincidencia con los movimientos registrados en Solop ERP; el mismo parte del proceso de conciliación automática donde al importar el extracto bancario verifica los movimientos registrado en Solop ERP, este realiza una verificación de coincidencias de **Pagos/Cobros** en ambos lados (Movimientos del extracto / Movimientos en Solop ERP), mayormente se encuentran muchos movimientos en el extracto bancario que no han sido registrados en Solop ERP y no solo es por que no se lleve un buen control de los registros si no que los extractos bancarios poseen detalladamente otros tipo de transacciones como comisiones bancarias que en algunos casos no son registrados en Solop ERP o poseen movimientos bancarios que se desconoce su procedencia, pero para este tipo de casos se encuentra el proceso **Crear Pagos desde Estado de Cuenta**, ya que es muy importante que todos los movimientos bancarios coincidan en su totalidad con los registros en Solop ERP o que los mismos logren ser identificados, ya que de lo contrario la conciliación no podrá ser completada en Solop ERP.
 
-El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para la creación de pagos y cobros sin registros en Solop ERP, partiendo desde el proceso de Conciliación Automática registro de pagos / cobros existentes en el extracto bancario importado, obteniendo un resultado exitoso al momento de conciliación de cuentas en la versión 3.9.2 de Solop ERP en la localización Venezuela.
+El presente material elaborado por Solop ERP pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para la creación de pagos y cobros sin registros en Solop ERP, partiendo desde el proceso de Conciliación Automática registro de pagos / cobros existentes en el extracto bancario importado, obteniendo un resultado exitoso al momento de conciliación de cuentas en la versión 3.9.2 de Solop ERP en la localización Venezuela.
 
 ## Pagos/Cobros sin Registros
 

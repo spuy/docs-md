@@ -6,7 +6,7 @@ sticky: 9
 article: false
 ---
 
-El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de realizar una configuración contable a los maestros de la versión 3.9.2 de SOLOP en la localización Venezuela.
+El presente material elaborado por Solop ERP pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de realizar una configuración contable a los maestros de la versión 3.9.2 de SOLOP en la localización Venezuela.
 
 - Cargo
 - Producto
@@ -44,7 +44,7 @@ Seleccione el icono ubicado del lado derecho del campo **Cargo Gasto**, para sel
 
 Imagen 4. Campo Cargo Gasto de la Pestaña Contabilidad de la Ventana Cargo
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por ERPyA.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image64.png)
 
@@ -56,7 +56,7 @@ Seleccione el icono ubicado del lado derecho del campo **Cargo Ingreso**, para s
 
 Imagen 6. Campo Cargo Ingreso de la Pestaña Contabilidad de la Ventana Cargo
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por ERPyA.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image66.png)
 
@@ -70,11 +70,11 @@ Imagen 8. Icono Guardar Cambios de la Combinación Contable del Cargo
 
 ## Producto
 
-Ubique en el menú de SOLOP, la carpeta **Gestión de Materiales**, luego seleccione la carpeta **Reglas de Gestión de Materiales**, por último seleccione la ventana **Producto**.
+Ubique en el menú de Solop ERP, la carpeta **Gestión de Materiales**, luego seleccione la carpeta **Reglas de Gestión de Materiales**, por último seleccione la ventana **Producto**.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image68.png)
 
-Imagen 1. Menú de SOLOP
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana **Producto** con todos los registros de los productos de la empresa.
 
@@ -98,7 +98,7 @@ Seleccione el icono ubicado del lado derecho del campo **Inventario de Producto*
 
 Imagen 4. Campo Inventario de Producto
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image72.png)
 
@@ -110,7 +110,7 @@ Seleccione el icono ubicado del lado derecho del campo **Costos o Gastos Product
 
 Imagen 6. Campo Costos o Gastos Producto
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image74.png)
 
@@ -122,7 +122,7 @@ Seleccione el icono ubicado del lado derecho del campo **Ajustar Costo**, para s
 
 Imagen 8. Campo Ajustar Costo
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image76.png)
 
@@ -134,7 +134,7 @@ Seleccione el icono ubicado del lado derecho del campo **Conciliación de Invent
 
 Imagen 10. Campo Conciliación de Inventario
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image78.png)
 
@@ -146,7 +146,7 @@ Seleccione el icono ubicado del lado derecho del campo **COGS del Producto**, pa
 
 Imagen 12. Campo COGS del Producto
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image80.png)
 
@@ -158,7 +158,7 @@ Seleccione el icono ubicado del lado derecho del campo **Variación Precio de OC
 
 Imagen 14. Campo Variación Precio de OC
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image82.png)
 
@@ -170,7 +170,7 @@ Seleccione el icono ubicado del lado derecho del campo **Variación en Precio de
 
 Imagen 16. Campo Variación en Precio de la Factura
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image84.png)
 
@@ -182,7 +182,7 @@ Seleccione el icono ubicado del lado derecho del campo **Varianza Costo Promedio
 
 Imagen 18. Campo Varianza Costo Promedio
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image86.png)
 
@@ -194,7 +194,7 @@ Seleccione el icono ubicado del lado derecho del campo **Descuento Comercial Rec
 
 Imagen 20. Campo Descuento Comercial Recibido
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image88.png)
 
@@ -206,7 +206,7 @@ Seleccione el icono ubicado del lado derecho del campo **Descuento Comercial Con
 
 Imagen 22. Campo Descuento Comercial Concedido
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image90.png)
 
@@ -218,7 +218,7 @@ Seleccione el icono ubicado del lado derecho del campo **Ingresos Producto**, pa
 
 Imagen 24. Campo Ingresos Producto
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image92.png)
 
@@ -230,7 +230,7 @@ Seleccione el icono ubicado del lado derecho del campo **Trabajo en Proceso**, p
 
 Imagen 26. Campo Trabajo en Proceso
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image998.png)
 
@@ -242,7 +242,7 @@ Seleccione el icono ubicado del lado derecho del campo **Existencia Piso**, para
 
 Imagen 28. Campo Existencia Piso
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image95.png)
 
@@ -256,13 +256,13 @@ Imagen 30. Icono Guardar Cambios de la Pestaña Contabilidad
 
 ## Cliente
 
-Ubique y seleccione en el menú de SOLOP, la carpeta **Relación con Socios del Negocio**, luego seleccione la carpeta **Reglas de Socios del Negocio**, por último seleccione la ventana **Socio del Negocio**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Relación con Socios del Negocio**, luego seleccione la carpeta **Reglas de Socios del Negocio**, por último seleccione la ventana **Socio del Negocio**.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image97.png)
 
-Imagen 1. Menú de SOLOP
+Imagen 1. Menú de Solop ERP
 
-Podrá visualizar la ventana **Socio del Negocio**, con los diferentes registros de socios del negocio que contiene SOLOP.
+Podrá visualizar la ventana **Socio del Negocio**, con los diferentes registros de socios del negocio que contiene Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image98.png)
 
@@ -286,7 +286,7 @@ Seleccione el identificador ubicado del lado derecho del campo **CxC de Clientes
 
 Imagen 5. Identificador del Campo CxC de Clientes
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image102.png)
 
@@ -298,7 +298,7 @@ Seleccione el identificador ubicado del lado derecho del campo **CxC Servicios**
 
 Imagen 7. Identificador del Campo CxC Servicios
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image104.png)
 
@@ -310,7 +310,7 @@ Seleccione el identificador ubicado del lado derecho del campo **CxC Pago Antici
 
 Imagen 9. Campo Pago Anticipado de Clientes
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image106.png)
 
@@ -318,17 +318,17 @@ Imagen 10. Combinación Contable del Campo Campo Pago Anticipado de Clientes
 
 Note
 
-Recuerde guardar el registro de los campos de la pestaña **Contabilidad Cliente**, seleccionando el icono **Guardar Cambios**, ubicado en la barra de herramientas de SOLOP.
+Recuerde guardar el registro de los campos de la pestaña **Contabilidad Cliente**, seleccionando el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
 
 ## Proveedor
 
-Ubique y seleccione en el menú de SOLOP, la carpeta **Relación con Socios del Negocio**, luego seleccione la carpeta **Reglas de Socios del Negocio**, por último seleccione la ventana **Socio del Negocio**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Relación con Socios del Negocio**, luego seleccione la carpeta **Reglas de Socios del Negocio**, por último seleccione la ventana **Socio del Negocio**.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image107.png)
 
-Imagen 1. Menú de SOLOP
+Imagen 1. Menú de Solop ERP
 
-Podrá visualizar la ventana **Socio del Negocio**, con los diferentes registros de socios del negocio que contiene SOLOP.
+Podrá visualizar la ventana **Socio del Negocio**, con los diferentes registros de socios del negocio que contiene Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image108.png)
 
@@ -352,7 +352,7 @@ Seleccione el identificador ubicado del lado derecho del campo **CxP del Proveed
 
 Imagen 5. Identificador del Campo CxP del Proveedor
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image112.png)
 
@@ -364,7 +364,7 @@ Seleccione el identificador ubicado del lado derecho del campo **CxP del Proveed
 
 Imagen 7. Identificador del Campo CxP del Proveedor de Servicios
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image114.png)
 
@@ -376,7 +376,7 @@ Seleccione el identificador ubicado del lado derecho del campo **Anticipo del Pr
 
 Imagen 9. Campo Anticipo del Proveedor
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-imag116.png)
 
@@ -384,17 +384,17 @@ Imagen 10. Combinación Contable del Campo Campo Anticipo del Proveedor
 
 Note
 
-Recuerde guardar el registro de los campos de la pestaña **Contabilidad Proveedor**, seleccionando el icono **Guardar Cambios**, ubicado en la barra de herramientas de SOLOP.
+Recuerde guardar el registro de los campos de la pestaña **Contabilidad Proveedor**, seleccionando el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
 
 ## Empleado
 
-Ubique y seleccione en el menú de SOLOP, la carpeta **Relación con Socios del Negocio**, luego seleccione la carpeta **Reglas de Socios del Negocio**, por último seleccione la ventana **Socio del Negocio**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Relación con Socios del Negocio**, luego seleccione la carpeta **Reglas de Socios del Negocio**, por último seleccione la ventana **Socio del Negocio**.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image117.png)
 
-Imagen 1. Menú de SOLOP
+Imagen 1. Menú de Solop ERP
 
-Podrá visualizar la ventana **Socio del Negocio**, con los diferentes registros de socios del negocio que contiene SOLOP.
+Podrá visualizar la ventana **Socio del Negocio**, con los diferentes registros de socios del negocio que contiene Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image118.png)
 
@@ -418,7 +418,7 @@ Seleccione el identificador ubicado del lado derecho del campo **Gastos de Emple
 
 Imagen 5. Identificador del Campo Gastos de Empleados
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image122.png)
 
@@ -430,7 +430,7 @@ Seleccione el identificador ubicado del lado derecho del campo **Pago Anticipado
 
 Imagen 7. Identificador del Campo Pago Anticipado a Empleados
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image124.png)
 
@@ -438,17 +438,17 @@ Imagen 8. Combinación Contable del Campo Pago Anticipado a Empleados
 
 Note
 
-Recuerde guardar el registro de los campos de la pestaña **Contabilidad Empleado**, seleccionando el icono **Guardar Cambios**, ubicado en la barra de herramientas de SOLOP.
+Recuerde guardar el registro de los campos de la pestaña **Contabilidad Empleado**, seleccionando el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
 
 ## Catálogo de Conceptos
 
-Ubique y seleccione en el menú de SOLOP, la carpeta **Gestión de Recursos Humanos y Nómina**, luego seleccione la carpeta **Nómina**, por último seleccione la ventana **Catálogo de Conceptos**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Recursos Humanos y Nómina**, luego seleccione la carpeta **Nómina**, por último seleccione la ventana **Catálogo de Conceptos**.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image125.png)
 
-Imagen 1. Menú de SOLOP
+Imagen 1. Menú de Solop ERP
 
-Podrá visualizar la ventana **Catálogo de Concepto**, con los diferentes registros de conceptos de nómina que contiene SOLOP.
+Podrá visualizar la ventana **Catálogo de Concepto**, con los diferentes registros de conceptos de nómina que contiene Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image126.png)
 
@@ -494,7 +494,7 @@ Seleccione el identificador ubicado del lado derecho del campo **Cuenta Gastos N
 
 Imagen 8. Identificador del Campo Cuenta Gastos Nómina de la Pestaña Contabilidad de Concepto
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image133.png)
 
@@ -506,7 +506,7 @@ Seleccione el identificador ubicado del lado derecho del campo **Cuenta Ingresos
 
 Imagen 10. Campo Cuenta Ingresos Nómina de la Pestaña Contabilidad de Concepto
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image135.png)
 
@@ -518,7 +518,7 @@ Seleccione en el campo **Centro de Costos**, el centro de costos por el cual est
 
 Imagen 12. Campo Centro de Costos de la Pestaña Contabilidad de Concepto
 
-Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de SOLOP para guardar el registro de los campos de la pestaña **Contabilidad de Concepto**.
+Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP para guardar el registro de los campos de la pestaña **Contabilidad de Concepto**.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image137.png)
 
@@ -526,13 +526,13 @@ Imagen 13. Icono Guardar Cambios de la Pestaña Contabilidad de Concepto
 
 ## Cuenta Bancaria
 
-Ubique y seleccione en el menú de SOLOP, la carpeta **Gestión del Sistema**, luego seleccione la carpeta **Reglas de la Organización**, por último seleccione la ventana **Banco**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión del Sistema**, luego seleccione la carpeta **Reglas de la Organización**, por último seleccione la ventana **Banco**.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image138.png)
 
-Imagen 1. Menú de SOLOP
+Imagen 1. Menú de Solop ERP
 
-Podrá visualizar la ventana **Banco**, con los diferentes registros de bancos que se encuentran en SOLOP.
+Podrá visualizar la ventana **Banco**, con los diferentes registros de bancos que se encuentran en Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image139.png)
 
@@ -556,7 +556,7 @@ Seleccione el identificador ubicado del lado derecho del campo **Bancos** para d
 
 Imagen 5. Identificador del Campo Bancos de la Pestaña Contabilidad de la Ventana Banco
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image143.png)
 
@@ -568,7 +568,7 @@ Seleccione el identificador ubicado del lado derecho del campo **Banco Movimient
 
 Imagen 7. Identificador del Campo Banco Movimientos no Conciliados de la Pestaña Contabilidad de la Ventana Banco
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image145.png)
 
@@ -580,7 +580,7 @@ Seleccione el identificador ubicado del lado derecho del campo **Recaudos sin As
 
 Imagen 9. Identificador del Campo Recaudos sin Asignar de la Pestaña Contabilidad de la Ventana Banco
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image147.png)
 
@@ -592,7 +592,7 @@ Seleccione el identificador ubicado del lado derecho del campo **Cuenta de Cobro
 
 Imagen 11. Identificador del Campo Cuenta de Cobros no identificados de la Pestaña Contabilidad de la Ventana Banco
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image149.png)
 
@@ -604,7 +604,7 @@ Seleccione el identificador ubicado del lado derecho del campo **Pagos sin Asign
 
 Imagen 13. Identificador del Campo Pagos sin Asignar de la Pestaña Contabilidad de la Ventana Banco
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image151.png)
 
@@ -616,7 +616,7 @@ Seleccione el identificador ubicado del lado derecho del campo **Gastos Bancario
 
 Imagen 15. Identificador del Campo Gastos Bancarios de la Pestaña Contabilidad de la Ventana Banco
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image153.png)
 
@@ -628,7 +628,7 @@ Seleccione el identificador ubicado del lado derecho del campo **Gastos por Inte
 
 Imagen 17. Identificador del Campo Gastos por Intereses Bancarios de la Pestaña Contabilidad de la Ventana Banco
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image155.png)
 
@@ -640,7 +640,7 @@ Seleccione el identificador ubicado del lado derecho del campo **Ingresos por In
 
 Imagen 19. Identificador del Campo Ingresos por Intereses Bancarios de la Pestaña Contabilidad de la Ventana Banco
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image157.png)
 
@@ -652,7 +652,7 @@ Seleccione el identificador ubicado del lado derecho del campo **Ganancias por R
 
 Imagen 21. Identificador del Campo Ganancias por Revaluación (Bancos) de la Pestaña Contabilidad de la Ventana Banco
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image159.png)
 
@@ -664,7 +664,7 @@ Seleccione el identificador ubicado del lado derecho del campo **Pérdida por Re
 
 Imagen 23. Identificador del Campo Pérdida por Revaluación (Bancos) de la Pestaña Contabilidad de la Ventana Banco
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image161.png)
 
@@ -676,7 +676,7 @@ Seleccione el identificador ubicado del lado derecho del campo **Cuenta de Ganan
 
 Imagen 25. Identificador del Campo Cuenta de Ganancia por Ajuste de la Pestaña Contabilidad de la Ventana Banco
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image163.png)
 
@@ -688,7 +688,7 @@ Seleccione el identificador ubicado del lado derecho del campo **Pérdida por Aj
 
 Imagen 27. Identificador del Campo Pérdida por Ajuste de la Pestaña Contabilidad de la Ventana Banco
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image165.png)
 
@@ -696,17 +696,17 @@ Imagen 28. Combinación Contable del Campo Pérdida por Ajuste de la Pestaña Co
 
 Note
 
-Recuerde guardar el registro de los campos de la pestaña **Contabilidad**, seleccionando el icono **Guardar Cambios**, ubicado en la barra de herramientas de SOLOP.
+Recuerde guardar el registro de los campos de la pestaña **Contabilidad**, seleccionando el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
 
 ## Caja
 
-Ubique y seleccione en el menú de SOLOP, la carpeta **Gestión del Sistema**, luego seleccione la carpeta **Reglas de la Organización**, por último seleccione la ventana **Definición de Diario de Caja**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión del Sistema**, luego seleccione la carpeta **Reglas de la Organización**, por último seleccione la ventana **Definición de Diario de Caja**.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image166.png)
 
-Imagen 1. Menú de SOLOP
+Imagen 1. Menú de Solop ERP
 
-Podrá visualizar la ventana **Definición de Diario de Caja**, con los diferentes registros de cajas que se encuentran en SOLOP.
+Podrá visualizar la ventana **Definición de Diario de Caja**, con los diferentes registros de cajas que se encuentran en Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image167.png)
 
@@ -730,7 +730,7 @@ Seleccione el identificador ubicado del lado derecho del campo **Bancos** para d
 
 Imagen 5. Identificador del Campo Bancos de la Pestaña Contabilidad de la Ventana Definición de Diario de Caja
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image171.png)
 
@@ -742,7 +742,7 @@ Seleccione el identificador ubicado del lado derecho del campo **Banco Movimient
 
 Imagen 7. Identificador del Campo Banco Movimientos no Conciliados de la Pestaña Contabilidad de la Ventana Definición de Diario de Caja
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image173.png)
 
@@ -754,7 +754,7 @@ Seleccione el identificador ubicado del lado derecho del campo **Recaudos sin As
 
 Imagen 9. Identificador del Campo Recaudos sin Asignar de la Pestaña Contabilidad de la Ventana Definición de Diario de Caja
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image175.png)
 
@@ -766,7 +766,7 @@ Seleccione el identificador ubicado del lado derecho del campo **Cuenta de Cobro
 
 Imagen 11. Identificador del Campo Cuenta de Cobros no identificados de la Pestaña Contabilidad de la Ventana Definición de Diario de Caja
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image177.png)
 
@@ -778,7 +778,7 @@ Seleccione el identificador ubicado del lado derecho del campo **Pagos sin Asign
 
 Imagen 13. Identificador del Campo Pagos sin Asignar de la Pestaña Contabilidad de la Ventana Definición de Diario de Caja
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image179.png)
 
@@ -790,7 +790,7 @@ Seleccione el identificador ubicado del lado derecho del campo **Gastos Bancario
 
 Imagen 15. Identificador del Campo Gastos Bancarios de la Pestaña Contabilidad de la Ventana Definición de Diario de Caja
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image181.png)
 
@@ -802,7 +802,7 @@ Seleccione el identificador ubicado del lado derecho del campo **Gastos por Inte
 
 Imagen 17. Identificador del Campo Gastos por Intereses Bancarios de la Pestaña Contabilidad de la Ventana Definición de Diario de Caja
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image183.png)
 
@@ -814,7 +814,7 @@ Seleccione el identificador ubicado del lado derecho del campo **Ingresos por In
 
 Imagen 19. Identificador del Campo Ingresos por Intereses Bancarios de la Pestaña Contabilidad de la Ventana Definición de Diario de Caja
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image185.png)
 
@@ -826,7 +826,7 @@ Seleccione el identificador ubicado del lado derecho del campo **Ganancias por R
 
 Imagen 21. Identificador del Campo Ganancias por Revaluación (Bancos) de la Pestaña Contabilidad de la Ventana Definición de Diario de Caja
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image187.png)
 
@@ -838,7 +838,7 @@ Seleccione el identificador ubicado del lado derecho del campo **Pérdida por Re
 
 Imagen 23. Identificador del Campo Pérdida por Revaluación (Bancos) de la Pestaña Contabilidad de la Ventana Definición de Diario de Caja
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image189.png)
 
@@ -850,7 +850,7 @@ Seleccione el identificador ubicado del lado derecho del campo **Cuenta de Ganan
 
 Imagen 25. Identificador del Campo Cuenta de Ganancia por Ajuste de la Pestaña Contabilidad de la Ventana Definición de Diario de Caja
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image191.png)
 
@@ -862,7 +862,7 @@ Seleccione el identificador ubicado del lado derecho del campo **Pérdida por Aj
 
 Imagen 27. Identificador del Campo Pérdida por Ajuste de la Pestaña Contabilidad de la Ventana Definición de Diario de Caja
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image193.png)
 
@@ -870,17 +870,17 @@ Imagen 28. Combinación Contable del Campo Pérdida por Ajuste de la Pestaña Co
 
 Note
 
-Recuerde guardar el registro de los campos de la pestaña **Contabilidad**, seleccionando el icono **Guardar Cambios**, ubicado en la barra de herramientas de SOLOP.
+Recuerde guardar el registro de los campos de la pestaña **Contabilidad**, seleccionando el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
 
 ## Impuestos
 
-Ubique y seleccione en el menú de SOLOP, la carpeta **Análisis de Desempeño**, luego seleccione la carpeta **Reglas Contables**, por último seleccione la ventana **Tasa de Impuesto**.
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Análisis de Desempeño**, luego seleccione la carpeta **Reglas Contables**, por último seleccione la ventana **Tasa de Impuesto**.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image194.png)
 
-Imagen 1. Menú de SOLOP
+Imagen 1. Menú de Solop ERP
 
-Podrá visualizar la ventana **Tasa de Impuesto**, con todos los impuestos que se encuentran registrados en SOLOP.
+Podrá visualizar la ventana **Tasa de Impuesto**, con todos los impuestos que se encuentran registrados en Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image195.png)
 
@@ -898,7 +898,7 @@ Seleccione el identificador ubicado del lado derecho del campo **Impuesto al Ven
 
 Imagen 4. Identificador del Campo Impuesto al Vender de la Pestaña Contabilidad de la Ventana Tasa de Impuesto
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image198.png)
 
@@ -910,7 +910,7 @@ Seleccione el identificador ubicado del lado derecho del campo **Impuesto Pagado
 
 Imagen 6. Identificador del Campo Impuesto Pagado de la Pestaña Contabilidad de la Ventana Tasa de Impuesto
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image200.png)
 
@@ -922,7 +922,7 @@ Seleccione el identificador ubicado del lado derecho del campo **Impuesto al Com
 
 Imagen 8. Identificador del Campo Impuesto al Comprar de la Pestaña Contabilidad de la Ventana Tasa de Impuesto
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image202.png)
 
@@ -934,7 +934,7 @@ Seleccione el identificador ubicado del lado derecho del campo **Impuesto Acredi
 
 Imagen 10. Identificador del Campo Impuesto Acreditado de la Pestaña Contabilidad de la Ventana Tasa de Impuesto
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image204.png)
 
@@ -946,7 +946,7 @@ Seleccione el identificador ubicado del lado derecho del campo **Gastos Impuesto
 
 Imagen 12. Identificador del Campo Gastos Impuesto de la Pestaña Contabilidad de la Ventana Tasa de Impuesto
 
-Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por SOLOP.
+Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image206.png)
 
@@ -954,4 +954,4 @@ Imagen 13. Combinación Contable del Campo Gastos Impuesto de la Pestaña Contab
 
 Note
 
-Recuerde guardar el registro de los campos de la pestaña **Contabilidad**, seleccionando el icono **Guardar Cambios**, ubicado en la barra de herramientas de SOLOP.
+Recuerde guardar el registro de los campos de la pestaña **Contabilidad**, seleccionando el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.

@@ -8,7 +8,7 @@ article: false
 
 Una factura en cuentas por pagar, es el documento legal que representa una deuda contraída por la compañía u organización con un proveedor determinado, por la compra de productos y servicios que la misma necesita de forma directa o indirecta para realizar sus actividades, afectando económicamente a la misma.
 
-En Solop ERP es posible generar una factura de cuentas por pagar de forma directa. El presente material elaborado por ERPyA, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar una factura de cuentas por pagar en Solop ERP, en su versión 3.9.2 para la localización Venezuela.
+En Solop ERP es posible generar una factura de cuentas por pagar de forma directa. El presente material elaborado por Solop ERP, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar una factura de cuentas por pagar en Solop ERP, en su versión 3.9.2 para la localización Venezuela.
 
 - Registro de Documento por Pagar
   - Línea de la Factura
@@ -59,7 +59,7 @@ En el campo **Referencia de Orden de Socio del Negocio**, se puede ingresar la r
 
 Imagen 6. Campo Referencia de Orden de Socio del Negocio
 
-Seleccione el tipo de documento a generar en el campo **Tipo de Documento Destino**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por ERPyA.
+Seleccione el tipo de documento a generar en el campo **Tipo de Documento Destino**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image223.png)
 
@@ -473,7 +473,7 @@ Introduzca en el campo **Descripción**, una breve descripción con respecto al 
 
 Imagen 6. Campo Descripción de la Ventana Documentos por Pagar desde Orden de Compra
 
-Seleccione el tipo de documento a generar en el campo **Tipo de Documento Destino**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por ERPyA.
+Seleccione el tipo de documento a generar en el campo **Tipo de Documento Destino**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image286.png)
 

@@ -10,7 +10,7 @@ En Solop ERP el movimiento de inventario permite mover de una ubicación o almac
 
 Un movimiento de inventario puede ser realizado porque se requiere que sea distribuido algún material en los diferentes departamentos de la empresa, también puede realizarce porque no exista disponibilidad de un artículo, material o recurso que es indispensable o urgente para realizar alguna transacción de compra o venta.
 
-El presente material elaborado por **ERPyA**, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar en Solop ERP un movimiento de inventario, en su versión 3.9.2 para la localización Venezuela.
+El presente material elaborado por **Solop ERP**, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar en Solop ERP un movimiento de inventario, en su versión 3.9.2 para la localización Venezuela.
 
 - Registro de Movimiento de Inventario
 - Consultar Reporte de Almacenamiento
@@ -69,7 +69,7 @@ Introduzca en el campo **Descripción**, una breve descripción del movimiento d
 
 Imagen 8. Campo Descripción
 
-Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por la empresa ERPyA.
+Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por la empresa Solop ERP.
 
 ![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image27.png)
 

@@ -211,7 +211,7 @@ La descripción del archivo anteriormente generado por el pago, se encuentra exp
 **BOD NÓNIMA**
 --------------
 
-[ERPyA](http://erpya.com) agrega soporte al siguiente formato de nómina facilitado por el banco, dicha actualización fue liberada en la versión ''versión 23.7'' de Solop ERP. Para mayor información de la misma, puede consultar la nota de liberación indicada anteriormente.
+[Solop ERP](https://solopsoftware.com/) agrega soporte al siguiente formato de nómina facilitado por el banco, dicha actualización fue liberada en la versión ''versión 23.7'' de Solop ERP. Para mayor información de la misma, puede consultar la nota de liberación indicada anteriormente.
 
 **Formato Archivo Beneficiarios de Pago (Del Cliente al Banco)**
 

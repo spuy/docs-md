@@ -1,12 +1,12 @@
 ---
-title: Verticales Oficiales de ERPyA
+title: Verticales Oficiales de Solop ERP
 category: Documentation
 star: 9
 sticky: 9
 article: false
 ---
 
-[ERPyA](https://erpya.com/) maneja muchas verticales de negocio.
+[Solop ERP](https://solopsoftware.com/) maneja muchas verticales de negocio.
 
 ::: info Intro
 

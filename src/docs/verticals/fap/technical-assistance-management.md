@@ -250,7 +250,7 @@ Introduzca en el campo **No. del Documento**, el número de documento correspond
 
 Imagen 5. Campo No. del Documento
 
-Seleccione el tipo de documento a generar en el campo **Tipo de Documento Destino**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por ERPyA.
+Seleccione el tipo de documento a generar en el campo **Tipo de Documento Destino**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image247.png)
 
@@ -566,7 +566,7 @@ Seleccione en el campo **Organización**, la organización para la cual se encue
 
 Imagen 4. Campo Organización
 
-Seleccione el tipo de documento a generar en el campo **Tipo de Documento Destino**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por ERPyA.
+Seleccione el tipo de documento a generar en el campo **Tipo de Documento Destino**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image293.png)
 
@@ -824,7 +824,7 @@ Podrá visualizar la ventana **Generar Orden de Venta (Desde Hoja Técnica)**, c
 
 Imagen 5. Ventana Generar Orden de Venta (Desde Hoja Técnica)
 
-Seleccione el tipo de documento a generar en el campo **Tipo de Documento Destino**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por ERPyA.
+Seleccione el tipo de documento a generar en el campo **Tipo de Documento Destino**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image335.png)
 

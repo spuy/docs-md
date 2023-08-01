@@ -1,5 +1,5 @@
 ---
-title: Documentación Oficial ERPyA
+title: Documentación Oficial Solop ERP
 category: Documentación
 star: 9
 sticky: 9

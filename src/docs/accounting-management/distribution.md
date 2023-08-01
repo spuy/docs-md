@@ -39,7 +39,7 @@ Para ello, es permitido decidir que dimensiones desea sean sobreescritas al ejec
 
 Por otra parte, ¿recuerda usted el Tipo de Aplicación?, pues sí, también puede sobreescribir la aplicación contable, transfiriendo el importe distribuido a uno o varios tipos de aplicación.
 
-Para que pueda conocer cómo y cuándo usar esta funcionalidad ERPyA ha estructurado un material, basado en la gama de opciones disponibles para establecer un patrón de comportamiento al ejecutar las distribuciones.
+Para que pueda conocer cómo y cuándo usar esta funcionalidad Solop ERP ha estructurado un material, basado en la gama de opciones disponibles para establecer un patrón de comportamiento al ejecutar las distribuciones.
 
 - Registro de Distribución Contable
 - Distribución Contable
@@ -114,7 +114,7 @@ Seleccione en el campo **Tipo de Aplicación**, el tipo de aplicación que será
 
 Imagen 10. Campo Tipo de Aplicación de la Ventana Distribución Contable
 
-Seleccione el tipo de documento en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por ERPyA.
+Seleccione el tipo de documento en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image420.png)
 

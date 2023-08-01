@@ -25,7 +25,7 @@ La ventana del proceso **Crear OC desde Requisición**, contiene diferentes camp
 
 El proceso consiste en seleccionar el documento de requisición en el campo **Requisición de Material** y culminar el mismo seleccionando la opción **OK** para que posteriormente sea generado el documento **Orden de Compra**, indicando en la ventana del proceso el número de dicho documento.
 
-El presente material elaborado por ERPyA, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar en Solop ERP una orden de compra desde una requisición, en su versión 3.9.2 para la localización Venezuela.
+El presente material elaborado por Solop ERP, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar en Solop ERP una orden de compra desde una requisición, en su versión 3.9.2 para la localización Venezuela.
 
 - Registro de Orden de Compra desde Requisición
 - Consultar y Completar Orden de Compra Generada
@@ -136,7 +136,7 @@ Imagen 15. Acción Completar y Opción OK
 
 En Solop ERP es posible generar automáticamente mediante el proceso **Crear Orden de Compra desde Líneas de la Requisición**, un documento de **Orden de Compra** con la información suministrada en el documento de **Requisición** previamente elaborado.
 
-El presente material elaborado por ERPyA, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar en Solop ERP una orden de compra desde las líneas de la requisición.
+El presente material elaborado por Solop ERP, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar en Solop ERP una orden de compra desde las líneas de la requisición.
 
 Crear Orden de Compra desde Líneas de la Requisición
 
@@ -454,7 +454,7 @@ Imagen 50. Acción Completar y Opción OK
 
 Una orden de compra es un documento elaborado por el departamento de compras de una empresa determinada, contiene los productos y servicios que dicha empresa necesita, la cantidad y los precios acordados con el proveedor a la que va dirigida, así como el sello del departamento de compras y la firma del jefe de dicho departamento.
 
-En Solop ERP es posible generar una orden de compra directa. El presente material elaborado por ERPyA, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar en Solop ERP una orden de compra, en su versión 3.9.2 para la localización Venezuela.
+En Solop ERP es posible generar una orden de compra directa. El presente material elaborado por Solop ERP, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar en Solop ERP una orden de compra, en su versión 3.9.2 para la localización Venezuela.
 
 Registro de Orden de Compra Directa
 
@@ -508,7 +508,7 @@ En el campo **Descripción**, Puede introduzca una breve descripción referente 
 
 Imagen 6. Campo Descripción
 
-Seleccione el tipo de documento a generar, en el campo **Tipo de Documento Destino**, la selección de éste define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra definido en el documento Tipo de Documento elaborado por ERPyA
+Seleccione el tipo de documento a generar, en el campo **Tipo de Documento Destino**, la selección de éste define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra definido en el documento Tipo de Documento elaborado por Solop ERP
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image386.png)
 
@@ -760,7 +760,7 @@ En el campo **Descripción**, Puede introduzca una breve descripción referente 
 
 Imagen 5. Campo Descripción
 
-Seleccione el tipo de documento a generar, en el campo **Tipo de Documento Destino**, la selección de éste define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra definido en el documento Tipo de Documento elaborado por ERPyA.
+Seleccione el tipo de documento a generar, en el campo **Tipo de Documento Destino**, la selección de éste define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra definido en el documento Tipo de Documento elaborado por Solop ERP.
 
 Para realizar una orden de compra multimoneda, puede ser utilizado cualquier tipo de documento de orden de compra.
 

@@ -98,7 +98,7 @@ Seleccione en el campo **Transferir transacción de caja a banco**, la cuenta a 
 
 Imagen 13. Campo Transferir Transacción de Caja a Banco de la Ventana Terminal PDV
 
-Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por ERPyA.
+Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por Solop ERP.
 
 Este campo permite definir el tipo de documento con el cual serán generadas las ventas desde el punto de venta. De igual manera, el comportamiento que este tendrá al completar el proceso.
 
@@ -212,7 +212,7 @@ Imagen 28. Campo Clase Para Impresión de Ticket de la Ventana Terminal PDV
 
 Note
 
-La información correspondiente a este campo debe ser ingresada por los consultores de ERPyA.
+La información correspondiente a este campo debe ser ingresada por los consultores de Solop ERP.
 
 Seleccione en el campo **Tipo de Conversión**, el tipo de conversión de moneda establecida para la lista de precios de venta seleccionada anteriormente.
 

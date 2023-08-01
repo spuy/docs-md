@@ -47,7 +47,7 @@ Note
 
 Si no es ingresado ningún valor en este campo, Solop ERP asigna el número de secuencia establecido en la secuencia del tipo de documento utilizado.
 
-Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por ERPyA.
+Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/production-management/prm-production-image29.png)
 

@@ -62,7 +62,7 @@ Al generar el reporte, tendrá la posibilidad de imprimir la orden de venta sele
 
 Imagen 9. Icono Imprimir de la Ventana Informe
 
-**Icono Tipo de Documento**: Permite cambiar el tipo de documento cargado por defecto, el mismo define el comportamiento del documento que se esta generando y se encuentra explicado en el material Tipo de Documento elaborado por ERPyA. Adicional a ello, se puede ejecutar esta acción seleccionando la tecla **F10**.
+**Icono Tipo de Documento**: Permite cambiar el tipo de documento cargado por defecto, el mismo define el comportamiento del documento que se esta generando y se encuentra explicado en el material Tipo de Documento elaborado por Solop ERP. Adicional a ello, se puede ejecutar esta acción seleccionando la tecla **F10**.
 
 ![Campo](/assets/img/docs/pdv-management/pdm-pdv-image184.png)
 

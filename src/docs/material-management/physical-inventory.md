@@ -10,7 +10,7 @@ En Solop ERP un inventario físico permite modificar las cantidades de productos
 
 Warning
 
-**ERPyA** no recomienda realizar inventario físico.
+**Solop ERP** no recomienda realizar inventario físico.
 
 El procedimiento de inventario físico sólo debe ser realizado en casos críticos como la inconsistencia de cantidades de productos por motivo de robo, hurto o casos similares. De igual forma, deben estar presentes los responsables y supervisores del almacén donde existe la inconsistencia, así como también debe estar presente un representante de contabilidad y un jefe o gerente de la empresa para avalar el procedimiento.
 
@@ -63,7 +63,7 @@ Introduzca en el campo **Fecha del Movimiento**, la fecha en la cual es realizad
 
 Imagen 7. Campo Fecha de Movimiento
 
-Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por ERPyA.
+Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por Solop ERP.
 
 ![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image82.png)
 

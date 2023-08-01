@@ -6,7 +6,7 @@ sticky: 9
 article: false
 ---
 
-El presente material elaborado por ERPyA, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar en ADempiere un proceso de reabastecimiento, en su versión 3.9.2 para la localización Venezuela.
+El presente material elaborado por Solop ERP, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar en ADempiere un proceso de reabastecimiento, en su versión 3.9.2 para la localización Venezuela.
 
 - Proceso de Reabastecimiento
   - Configuración Esencial
@@ -177,7 +177,7 @@ Podrá visualizar la ventana **Producto**, con todos los registros de los produc
 
 Imagen 2. Producto a Configurar
 
-Seleccione la pestaña **Reabastecer**, ubicada del lado izquierdo de la ventana **Producto** y realice el procedimiento explicado en el proceso Pestaña Reabastecer, del documento Registro de Producto, elaborado por ERPyA. Para el ejemplo del presente documento, se tienen las siguientes restricciones:
+Seleccione la pestaña **Reabastecer**, ubicada del lado izquierdo de la ventana **Producto** y realice el procedimiento explicado en el proceso Pestaña Reabastecer, del documento Registro de Producto, elaborado por Solop ERP. Para el ejemplo del presente documento, se tienen las siguientes restricciones:
 
 **Almacén**: Comercialización
 

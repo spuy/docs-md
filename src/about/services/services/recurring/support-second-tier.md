@@ -29,7 +29,7 @@ Este servicio es de gran apoyo para empresas que poseen un equipo de informátic
 ## Entregable
 
 - Atención via [Discord](https://discord.com/)
-- Acceso a la [Base de Datos de Conocimiento ERPyA](https://stackoverflow.com/c/erpya-customers/questions)
+- Acceso a la [Base de Datos de Conocimiento Solop ERP](https://stackoverflow.com/c/erpya-customers/questions)
 - Resumen mensual de atención al cliente
 - Informe de ticket y solución en caso de requerir algún procedimiento específico a realizar
 

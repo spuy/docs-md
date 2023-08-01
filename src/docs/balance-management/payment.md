@@ -10,7 +10,7 @@ Un cobro es un ingreso monetario por las ventas de productos o adquisiciones de 
 
 En Solop ERP un cobro es realizado previo a una recepción monetaria para reflejar la misma, siendo este muy delicado por tratarse del ingreso monetario de la empresa. El procedimiento para realizar un cobro en Solop ERPe tiene como requerimiento principal, que exista un documento por cobrar o una orden de venta.
 
-El presente material elaborado por ERPyA, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para elaborar un cobro correctamente en Solop ERP, en su versión 3.9.2 para la localización Venezuela.
+El presente material elaborado por Solop ERP, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para elaborar un cobro correctamente en Solop ERP, en su versión 3.9.2 para la localización Venezuela.
 
 - Registro de Cobro
 - Consultar Asignación
@@ -41,7 +41,7 @@ Seleccione en el campo **Organización**, la organización para la cual esta rea
 
 Imagen 4. Campo Organización
 
-Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por ERPyA.
+Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image89.png)
 

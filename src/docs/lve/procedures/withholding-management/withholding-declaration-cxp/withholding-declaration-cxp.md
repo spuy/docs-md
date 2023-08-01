@@ -46,7 +46,7 @@ Seleccione la opción "**Comenzar Búsqueda**", para búscar los registros que t
 
 Imagen 5. Opción Comenzar Búsqueda
 
-El campo "**F. Documento**" es la fecha contable que tomará el documento de declaración de retenciones al culminar el proceso "**Generar Declaración de Retenciones**". [ERPyA](http://erpya.com) recomienda ingresar la fecha en la que se declara la retención.
+El campo "**F. Documento**" es la fecha contable que tomará el documento de declaración de retenciones al culminar el proceso "**Generar Declaración de Retenciones**". [Solop ERP](https://solopsoftware.com/) recomienda ingresar la fecha en la que se declara la retención.
 
 Seleccione las diferentes retenciones a declarar y posteriormente seleccione la opción "**OK**" para culminar el proceso "**Generar Declaración de Retenciones**".
 
