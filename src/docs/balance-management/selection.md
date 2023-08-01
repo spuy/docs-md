@@ -12,7 +12,7 @@ La **Orden de Pago** es utilizada para crear aquellas solicitud de pago de los d
 
 La **Selección de Pagos de Cuentas por Pagar** es utilizada cuando se define cuales son los documentos que sí se les generará el pago y desde qué cuenta bancaria de la compañía saldrán la cancelación de los documentos seleccionados; la selección parte de la agrupación de facturas asociadas en la **Orden de Pago** este procedimiento es comúnmente realizado por el departamento de tesorería, ya qué ellos son los encargados de llevar los saldos en banco lo cual le permite tener una toma de decisión del banco a utilizar para saldar una factura de CxP o realizar un anticipo a proveedores.
 
-Para conocer mejor este procedimiento de la selección de pagos ERPyA ofrece una explicación eficiente y sencilla de este proceso para así obtener un resultado exitoso al momento de generar una orden de pago y posteriormente una selección de pago de cuentas por pagar para culminar el procedimiento de manera exitosa en la versión 3.9.2 de Solop ERP en la localización Venezuela.
+Para conocer mejor este procedimiento de la selección de pagos Solop ERP ofrece una explicación eficiente y sencilla de este proceso para así obtener un resultado exitoso al momento de generar una orden de pago y posteriormente una selección de pago de cuentas por pagar para culminar el procedimiento de manera exitosa en la versión 3.9.2 de Solop ERP en la localización Venezuela.
 
 - Registro desde Orden
 - Registro desde Factura
@@ -55,7 +55,7 @@ Introduzca en el campo **No. del Documento**, el número de documento correspond
 
 Imagen 5. Campo Número de Documento del Documento Orden de Pago desde Orden
 
-Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por ERPyA. Para ejemplificar el registro es utilizado el tipo de documento **Orden de Pago**.
+Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por Solop ERP. Para ejemplificar el registro es utilizado el tipo de documento **Orden de Pago**.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image219.png)
 
@@ -455,7 +455,7 @@ Introduzca en el campo **No. del Documento**, el número de documento correspond
 
 Imagen 5. Campo Número de Documento del Documento Orden de Pago desde Factura
 
-Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por ERPyA. Para ejemplificar el registro es utilizado el tipo de documento **Orden de Pago**.
+Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por Solop ERP. Para ejemplificar el registro es utilizado el tipo de documento **Orden de Pago**.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image272.png)
 
@@ -963,7 +963,7 @@ Al seleccionar la organización con la que trabajará el registro a crear estar�
 
 Imagen 3. Campo Organización del Documento Registro desde Selección de Pago
 
-Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por ERPyA. Para ejemplificar el registro es utilizado el tipo de documento **Selección de Pagos de Cuentas por Pagar**.
+Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por Solop ERP. Para ejemplificar el registro es utilizado el tipo de documento **Selección de Pagos de Cuentas por Pagar**.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image339.png)
 

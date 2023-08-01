@@ -14,7 +14,7 @@ article: false
 
 ## Imágenes Oficiales
 
-Todas las imágenes oficiales de [ERPyA](https://erpya.com/) se encuentran [aquí](https://hub.docker.com/u/erpya). Invertimos muchas horas y recursos en hacer que nuestra infraestructura sea de clase mundial. No vamos por el camino fácil, en su lugar vamos por el camino correcto.
+Todas las imágenes oficiales de [Solop ERP](https://solopsoftware.com/) se encuentran [aquí](https://hub.docker.com/u/erpya). Invertimos muchas horas y recursos en hacer que nuestra infraestructura sea de clase mundial. No vamos por el camino fácil, en su lugar vamos por el camino correcto.
 
 Puedes ver los enlaces a nuestras imágenes en la siguiente lista
 

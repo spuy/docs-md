@@ -51,7 +51,7 @@ Aplica para problemas físicos fortuitos donde esté en riesgo la integridad de 
 #### Bondades
 
 - Se dispone siempre de un backup reciente
-- Los backups son almacenados en el servidor y en la nube de ERPyA
+- Los backups son almacenados en el servidor y en la nube de Solop ERP
 - El cliente recibirá notificaciones de los backups realizados
 
 #### Detalle del backup
@@ -65,7 +65,7 @@ Se realizan con la siguiente frecuencia:
 
 - El buen funcionamiento del backup dependerá de la infraestructura proporcionada por el cliente
 - El cliente debe proporcionar un enlace de internet constante para garantizar la subida de los backups
-- En caso de tener problemas con el internet ERPyA no se hará responsable de problemas con backups recientes
+- En caso de tener problemas con el internet Solop ERP no se hará responsable de problemas con backups recientes
 
 ### Mantenimiento de Base de Datos
 

@@ -12,7 +12,7 @@ El procedimiento cierre de caja permite controlar y dar seguimiento al dinero qu
 
 El monto de la caja al final del día luego del proceso de cierre de caja, puede ser diferente al **0,00**, sólo en aquellos casos en los que la caja amerite un monto diferente y dependiento del proceso que se realice en la misma.
 
-El presente material elaborado por ERPyA, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar en Solop ERP un cierre de caja, en su versión 3.9.2 para la localización Venezuela.
+El presente material elaborado por Solop ERP, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar en Solop ERP un cierre de caja, en su versión 3.9.2 para la localización Venezuela.
 
 - Registro de Cierre de Caja
 - Cierre de Caja Nómina
@@ -37,7 +37,7 @@ Seleccione en el campo **Organización**, la organización para la cual está re
 
 Imagen 3. Campo Organización
 
-Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por ERPyA.
+Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image20.png)
 
@@ -109,7 +109,7 @@ Nos dirigimos a la ventana **Cierre de Caja**, ubicado en el menú **Gestión de
 
 Seleccionamos en el campo **Cuenta de la Caja** el nombre de la cuenta que se dispone para registrar los pagos de la nómina, en este caso será una caja y estará identificada porque indica el nombre del banco y al final la palabra tránsito.
 
-Seleccionamos el **Tipo de Documento** denominado **Cierre de Caja Nómina**, ese tipo de documento indica el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento**Tipo de Documento** elaborado por ERPyA.
+Seleccionamos el **Tipo de Documento** denominado **Cierre de Caja Nómina**, ese tipo de documento indica el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento**Tipo de Documento** elaborado por Solop ERP.
 
 Seleccione en el Campo **Nombre** un nombre referente a ese cierre de caja.
 

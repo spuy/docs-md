@@ -8,7 +8,7 @@ article: false
 
 Una orden de venta es un documento elaborado para autorizar la venta de los productos y servicios que contiene, el mismo puede ser utilizado como pedido, pre factura o cotización. Desde una orden de venta se pueden generar entregas, guias y facturas.
 
-El presente material elaborado por ERPyA, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar en Solop ERP una orden de venta, en su versión 3.9.2 para la localización Venezuela.
+El presente material elaborado por Solop ERP, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar en Solop ERP una orden de venta, en su versión 3.9.2 para la localización Venezuela.
 
 - Registro de Orden de Venta
 - Validación de Inventario en Orden de Venta
@@ -34,7 +34,7 @@ Seleccione en el campo **Organización**, la organización para la cual esta rea
 
 Imagen 3. Campo Organización
 
-Seleccione el tipo de documento a generar en el campo **Tipo de Documento Destino**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por ERPyA.
+Seleccione el tipo de documento a generar en el campo **Tipo de Documento Destino**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image265.png)
 
@@ -252,7 +252,7 @@ Imagen 39. Opción Completar
 
 ## Validación de Inventario en Orden de Venta
 
-Para validar la disponibilidad de los productos en las ventas por medio de las órdenes de venta, ya sea desde la ventana **Órdenes de Venta** o desde el formulario **Punto de Venta**, ERPyA realizó una actualización en los tipos de documentos de órdenes de venta. Dicha actualización consta de un check que establece como regla principal la disponibilidad en almacén de los productos cargados a la orden.
+Para validar la disponibilidad de los productos en las ventas por medio de las órdenes de venta, ya sea desde la ventana **Órdenes de Venta** o desde el formulario **Punto de Venta**, Solop ERP realizó una actualización en los tipos de documentos de órdenes de venta. Dicha actualización consta de un check que establece como regla principal la disponibilidad en almacén de los productos cargados a la orden.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image301.png)
 

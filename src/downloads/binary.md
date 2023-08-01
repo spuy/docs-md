@@ -15,7 +15,7 @@ article: false
 
 ::: tip Estamos en Github
 
-Nuestros repositorios se encuentran en [Github](http://github.com/erpcya).
+Nuestros repositorios se encuentran en [Github](https://github.com/spuy/docs-md).
 
 Diariamente hacemos mejoras a nuestras versiones con la finalidad de mejorar las herramientas de apoyo de nuestros clientes.
 
@@ -27,6 +27,6 @@ Toma tu tiempo y verifica las versiones que tenemos para ti.
 
 ## Liberaciones de Github
 
-Todas las versiones de [ADempiere ERP](https://erpya.com) se encuentran [aquí](https://github.com/erpya/zk-ui/releases)
+Todas las versiones de [Solop ERP](https://solopsoftware.com/) se encuentran [aquí](https://github.com/spuy/docs-md/releases)
 
 <Releases/>

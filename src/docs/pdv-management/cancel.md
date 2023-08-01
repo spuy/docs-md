@@ -24,9 +24,9 @@ Ubique y seleccione en el menú de ADempiere, la carpeta **Gestión de Ventas**,
 
 Imagen 2. Menú de ADempiere
 
-La interfaz de la ventana **Punto de Venta**, se encuentra definida de forma específica en el documento Interfaz de Punto de Venta, elaborado por ERPyA. Realice cada uno de los procesos explicados a continuación para obtener un resultado exitoso en la anulación de la transacción de venta por el punto de venta.
+La interfaz de la ventana **Punto de Venta**, se encuentra definida de forma específica en el documento Interfaz de Punto de Venta, elaborado por Solop ERP. Realice cada uno de los procesos explicados a continuación para obtener un resultado exitoso en la anulación de la transacción de venta por el punto de venta.
 
-Realice la búsqueda de registros de órdenes de venta generadas desde el punto de venta, seleccionando el icono **Registros Históricos** de la barra de herramientas de la ventana **Punto de Venta**, dicho proceso se encuentra explicado en el documento Barra de Herramientas del Punto de Venta, elaborado por ERPyA.
+Realice la búsqueda de registros de órdenes de venta generadas desde el punto de venta, seleccionando el icono **Registros Históricos** de la barra de herramientas de la ventana **Punto de Venta**, dicho proceso se encuentra explicado en el documento Barra de Herramientas del Punto de Venta, elaborado por Solop ERP.
 
 Seleccione en la ventana **Orden de Venta**, generada del icono **Registros Históricos**, la orden de venta que requiere anular.
 
@@ -40,7 +40,7 @@ Por último, seleccione la opción **OK** para ubicar en la ventana **Punto de V
 
 Imagen 4. Selección de la Opción OK de la Orden de Venta a Anular
 
-Luego de ubicar la orden de venta que requiere anular, seleccione la opción **Anular Transacción de Venta**, ubicada en el menú desplegado por el icono **Proceso** de la barra de herramientas de la ventana **Punto de Venta**, explicada en el documento Barra de Herramientas del Punto de Venta elaborado por ERPyA.
+Luego de ubicar la orden de venta que requiere anular, seleccione la opción **Anular Transacción de Venta**, ubicada en el menú desplegado por el icono **Proceso** de la barra de herramientas de la ventana **Punto de Venta**, explicada en el documento Barra de Herramientas del Punto de Venta elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/pdv-management/pdm-pdv-image18.png)
 

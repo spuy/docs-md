@@ -36,7 +36,7 @@ Sin embargo, aun cuando existen factores relevantes al medir el flujo de efectiv
 
 - Detalles de Costos.
 
-A continuación, ERPyA desea ofrecer a sus clientes un material en el cual explicaremos de forma detallada las consideraciones, bondades y herramientas que Solop ERP brinda para interpretar información contable que ayudará a complementar el análisis, permitiendo una visión clara a la hora de tomar decisiones en su empresa.
+A continuación, Solop ERP desea ofrecer a sus clientes un material en el cual explicaremos de forma detallada las consideraciones, bondades y herramientas que Solop ERP brinda para interpretar información contable que ayudará a complementar el análisis, permitiendo una visión clara a la hora de tomar decisiones en su empresa.
 
 - Informe Financiero
   - Generar Informe Financiero
@@ -61,7 +61,7 @@ Sin embargo, pese a que el objetivo es único, cada empresa decide la forma en l
 
 Para esto generalmente se requieren soluciones de edición y de presentación personalizadas, Solop ERP ha modelado una innovadora funcionalidad que le permite definir desde cuentas específicas, actividades, centros de costos hasta cubos de informes, posibilitando así la presentación de la información precisa en un tiempo eficiente.
 
-Es por ello que ERPyA ha diseñado para usted una gama de instructivos en los que detallaremos la utilidad y los resultados de esta funcionalidad.
+Es por ello que Solop ERP ha diseñado para usted una gama de instructivos en los que detallaremos la utilidad y los resultados de esta funcionalidad.
 
 - Generar Informe Financiero
 - Balance de Comprobación
@@ -190,7 +190,7 @@ Arbol de Actividad: La actividad se refiere a la actividad realizada en la organ
 
 Árbol de Cuentas: Las cuentas contables a evaluar para el ejemplo son las cuentas de ingreso, cuentas por cobrar, compromisos, costos y gastos, se definirá entonces un árbol con estas cuentas.
 
-De esta forma se definirán todos los árboles necesarios para el ejemplo, para profundizar a cerca de la creación de un Informe de Jerarquías vaya al instructivo que ERPyA ha diseñado para usted.
+De esta forma se definirán todos los árboles necesarios para el ejemplo, para profundizar a cerca de la creación de un Informe de Jerarquías vaya al instructivo que Solop ERP ha diseñado para usted.
 
 Al generar el informe financiero con esta definición usted podrá observar un reporte basado en la estructura del informe de jerarquías con el saldo de las cuentas y las actividades fijadas en el mismo.
 
@@ -224,7 +224,7 @@ Imagen 18. Ventana Crear Informe
 
 Un informe financiero de balance de comprobación es un reporte que muestra los débitos, créditos y los saldos iniciales y finales de las cuentas.
 
-Para generar el reporte, debe realizar el procedimiento explicado en el documento Generar Informe Financiero, elaborado por ERPyA. Luego de que haya culminado el procedimiento, podrá visualizar la ventana **Informe** con el reporte financiero **Balance de Comprobación**.
+Para generar el reporte, debe realizar el procedimiento explicado en el documento Generar Informe Financiero, elaborado por Solop ERP. Luego de que haya culminado el procedimiento, podrá visualizar la ventana **Informe** con el reporte financiero **Balance de Comprobación**.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image511.png)
 
@@ -238,7 +238,7 @@ El reporte de balance de comprobación muestra la información en base al period
 
 Un informe financiero de balance general es un reporte que muestra la situación económica y financiera en un momento determinado.
 
-Para generar el reporte, debe realizar el procedimiento explicado en el documento Generar Informe Financiero, elaborado por ERPyA.
+Para generar el reporte, debe realizar el procedimiento explicado en el documento Generar Informe Financiero, elaborado por Solop ERP.
 
 Luego de que haya culminado el procedimiento, podrá visualizar la ventana **Informe**, donde debe seleccionar la opción **Balance General**, en el campo **Formato de Impresión** para poder visualizar el reporte requerido.
 
@@ -254,7 +254,7 @@ El reporte de balance general muestra la información en base al periodo de tiem
 
 Un informe financiero de estado de resultado es un reporte que muestra los movimientos de los ingresos y egresos de la empresa.
 
-Para generar el reporte, debe realizar el procedimiento explicado en el documento Generar Informe Financiero, elaborado por ERPyA.
+Para generar el reporte, debe realizar el procedimiento explicado en el documento Generar Informe Financiero, elaborado por Solop ERP.
 
 Luego de que haya culminado el procedimiento, podrá visualizar la ventana **Informe**, donde debe seleccionar la opción **Estado de Resultado**, en el campo **Formato de Impresión** para poder visualizar el reporte requerido.
 
@@ -268,7 +268,7 @@ El reporte de estado de resultado muestra la información en base al periodo de 
 
 ## Reportes Detallados
 
-El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de generar reportes detallados de manera exitosa en la versión 3.9.2 de Solop ERP en la localización Venezuela.
+El presente material elaborado por Solop ERP pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de generar reportes detallados de manera exitosa en la versión 3.9.2 de Solop ERP en la localización Venezuela.
 
 - Detalles de Asientos Contables
 - Estado de Cuenta

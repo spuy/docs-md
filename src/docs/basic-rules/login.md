@@ -16,12 +16,12 @@ Para acceder o iniciar sesión en Solop ERP, el usuario requiere lo siguiente:
   - Clave: `Estandar`
 - Rol asignado al usuario creado por Solop ERP
 
-Al ingresar a la url del servicio de Solop ERP facilitada por un consultor de ERPyA, podrá visualizar la ventana **Login** o **Iniciar Sesión**, la cual cuenta con los campos necesarios para iniciar sesión en el idioma que el usuario lo requiera.
+Al ingresar a la url del servicio de Solop ERP facilitada por un consultor de Solop ERP, podrá visualizar la ventana **Login** o **Iniciar Sesión**, la cual cuenta con los campos necesarios para iniciar sesión en el idioma que el usuario lo requiera.
 
 ![Ventana Login o Iniciar Sesión en Solop ERP](/assets/img/docs/basic-rules/bar-login-login.png)
 Imagen 1. Ventana Login o Iniciar Sesión en Solop ERP
 
-Introduzca en el campo **Usuario**, el usuario previamente facilitado por el consultor de ERPyA.
+Introduzca en el campo **Usuario**, el usuario previamente facilitado por el consultor de Solop ERP.
 
 ![Usuario](/assets/img/docs/basic-rules/bar-login-user.png)
 Imagen 2. Usuario

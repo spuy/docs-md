@@ -24,9 +24,9 @@ Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Ventas**,
 
 Imagen 2. Menú de Solop ERP
 
-La interfaz de la ventana **Punto de Venta**, se encuentra definida de forma específica en el documento Interfaz de Punto de Venta, elaborado por ERPyA. Realice cada uno de los procesos explicados a continuación para obtener un resultado exitoso en la completación de una orden preparada por el punto de venta.
+La interfaz de la ventana **Punto de Venta**, se encuentra definida de forma específica en el documento Interfaz de Punto de Venta, elaborado por Solop ERP. Realice cada uno de los procesos explicados a continuación para obtener un resultado exitoso en la completación de una orden preparada por el punto de venta.
 
-Luego de realizar desde el punto de venta la toma de pedido, seleccione la opción **Completar Orden Preparada**, ubicada en el menú desplegado por el icono **Proceso** de la barra de herramientas de la ventana **Punto de Venta**, explicada en el documento Barra de Herramientas del Punto de Venta elaborado por ERPyA.
+Luego de realizar desde el punto de venta la toma de pedido, seleccione la opción **Completar Orden Preparada**, ubicada en el menú desplegado por el icono **Proceso** de la barra de herramientas de la ventana **Punto de Venta**, explicada en el documento Barra de Herramientas del Punto de Venta elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/pdv-management/pdm-pdv-image57.png)
 

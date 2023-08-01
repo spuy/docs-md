@@ -27,7 +27,7 @@ El proceso de registro de caja viáticos para el caso en el que el monto total d
 
 #### Transferencia Bancaria por Viáticos
 
-Se realiza la transferencia bancaria a caja viáticos por el monto correspondiente. Para ello, se debe ejecutar el procedimiento explicado en el documento Registro de Transferencia Bancaria, elaborado por ERPyA.
+Se realiza la transferencia bancaria a caja viáticos por el monto correspondiente. Para ello, se debe ejecutar el procedimiento explicado en el documento Registro de Transferencia Bancaria, elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image392.png)
 
@@ -59,7 +59,7 @@ Imagen 4. Relación de Facturas de Gastos
 
 #### Cierre de Caja
 
-Se realiza el procedimiento regular para generar un cierre de caja, seleccionando la cuenta **Caja Viáticos** y el tipo de documento **Cierre de Caja Viáticos**. Para ello, se debe ejecutar el procedimiento explicado en el documento Registro de Cierre de Caja, elaborado por ERPyA.
+Se realiza el procedimiento regular para generar un cierre de caja, seleccionando la cuenta **Caja Viáticos** y el tipo de documento **Cierre de Caja Viáticos**. Para ello, se debe ejecutar el procedimiento explicado en el documento Registro de Cierre de Caja, elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image396.png)
 
@@ -75,7 +75,7 @@ El proceso de registro de caja viáticos para el caso en el que el monto total d
 
 #### Transferencia Bancaria por Viáticos
 
-Se realiza la transferencia bancaria a caja viáticos por el monto correspondiente. Para ello, se debe ejecutar el procedimiento explicado en el documento Registro de Transferencia Bancaria, elaborado por ERPyA.
+Se realiza la transferencia bancaria a caja viáticos por el monto correspondiente. Para ello, se debe ejecutar el procedimiento explicado en el documento Registro de Transferencia Bancaria, elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image397.png)
 
@@ -99,7 +99,7 @@ Imagen 8. Ingreso a Caja por Viáticos
 
 #### Relación de Facturas
 
-Se realiza la relación de factura por el monto correspondiente. Para ello, se debe ejecutar el procedimiento explicado en el documento Relación de Facturas o Justificación de Gastos, elaborado por ERPyA.
+Se realiza la relación de factura por el monto correspondiente. Para ello, se debe ejecutar el procedimiento explicado en el documento Relación de Facturas o Justificación de Gastos, elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image400.png)
 
@@ -107,7 +107,7 @@ Imagen 9. Relación de Facturas de Gastos
 
 #### Cierre de Caja En Borrador
 
-Realice el procedimiento regular para generar un cierre de caja, explicado en el documento Registro de Cierre de Caja, elaborado por ERPyA, seleccionando la cuenta **Caja Viáticos** y el tipo de documento **Cierre de Caja Viáticos**.
+Realice el procedimiento regular para generar un cierre de caja, explicado en el documento Registro de Cierre de Caja, elaborado por Solop ERP, seleccionando la cuenta **Caja Viáticos** y el tipo de documento **Cierre de Caja Viáticos**.
 
 Note
 
@@ -123,7 +123,7 @@ Si el monto total de la transferencia bancaria realizada anteriormente a la caja
 
 #### Transferencia Bancaria por Excedente
 
-Realice el procedimiento regular para generar una transferencia bancaria, explicado en el documento Registro de Transferencia Bancaria, elaborado por ERPyA.
+Realice el procedimiento regular para generar una transferencia bancaria, explicado en el documento Registro de Transferencia Bancaria, elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image402.png)
 
@@ -211,7 +211,7 @@ Si el monto total de la transferencia bancaria realizada anteriormente a la caja
 
 ### Relación de Montos no Reembolsables
 
-Se registra una caja utilizando el tipo de documento **Cobro Viáticos** y el cargo **Monto no Reembolsable**, con el monto correspondiente. Para ello, se debe ejecutar el procedimiento explicado en el documento Relación de Facturas o Justificación de Gastos, elaborado por ERPyA, donde se indica como registrar una caja utilizando un cargo en lugar de una factura.
+Se registra una caja utilizando el tipo de documento **Cobro Viáticos** y el cargo **Monto no Reembolsable**, con el monto correspondiente. Para ello, se debe ejecutar el procedimiento explicado en el documento Relación de Facturas o Justificación de Gastos, elaborado por Solop ERP, donde se indica como registrar una caja utilizando un cargo en lugar de una factura.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image410.png)
 

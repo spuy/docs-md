@@ -36,7 +36,7 @@ Introduzca en el campo **No. del Documento**, el número de identificación del 
 
 Imagen 5. Campo No. del Documento de la Vantana Registro de Peso
 
-Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por ERPyA.
+Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/distribution-management/dim-distribution-image6.png)
 

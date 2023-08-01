@@ -49,7 +49,7 @@ Introduzca en el campo **Nombre**, el nombre de la nómina que se requiere proce
 
 Imagen 4. Campo Nombre
 
-Seleccione el tipo de documento a generar en el campo **Tipo de Documento Destino**, la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por ERPyA.
+Seleccione el tipo de documento a generar en el campo **Tipo de Documento Destino**, la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/human-management/hum-human-image5.png)
 
@@ -139,7 +139,7 @@ Seleccione en el menú de Solop ERP, la carpeta **Gestión de Recursos Humanos y
 
 Imagen 1. Menú de Solop ERP
 
-Seleccione en el campo **Proceso Nómina**, el proceso de nómina actual al cual le cargará las incidencias de los empleados. Dicho proceso se encuentra explicado en el documento Registro de Nómina elaborado por ERPyA.
+Seleccione en el campo **Proceso Nómina**, el proceso de nómina actual al cual le cargará las incidencias de los empleados. Dicho proceso se encuentra explicado en el documento Registro de Nómina elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/human-management/hum-human-image17.png)
 
@@ -201,7 +201,7 @@ Imagen 9. Incidencia Generada
 
 ## Pagos de Nómina
 
-El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de generar los pagos de nómina en la versión 3.9.2 de Solop ERP en la localización Venezuela.
+El presente material elaborado por Solop ERP pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de generar los pagos de nómina en la versión 3.9.2 de Solop ERP en la localización Venezuela.
 
 Registro de Pagos de Nómina
 
@@ -221,7 +221,7 @@ Una vez finalizado y completado cada uno de estos procesos se da por culminado e
 
 ## Reporte de Nómina
 
-El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de generar los reportes de nómina en la versión 3.9.2 de Solop ERP en la localización Venezuela.
+El presente material elaborado por Solop ERP pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de generar los reportes de nómina en la versión 3.9.2 de Solop ERP en la localización Venezuela.
 
 Generar Reporte de Nómina
 

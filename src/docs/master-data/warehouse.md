@@ -6,7 +6,7 @@ sticky: 9
 article: false
 ---
 
-El presente material elaborado por ERPyA, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para registrar en Solop ERP un almacén, en su versión 3.9.2 para la localización Venezuela.
+El presente material elaborado por Solop ERP, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para registrar en Solop ERP un almacén, en su versión 3.9.2 para la localización Venezuela.
 
 - Registro de Almacén
 - Ubicación

@@ -10,7 +10,7 @@ Una recepción de productos en Solop ERP, es el proceso por el cual los producto
 
 Para que se pueda realizar un documento de recepción de una compra realizada, debe existir obligatoriamente un documento de **Orden de Compra** o un **Documento por Pagar**. Sin embargo, para recepcionar productos o servicios obsequiados a la compañía u organización, Solop ERP permite que se complete el documento **Recepción de Productos** satisfactoriamente.
 
-El presente material elaborado por ERPyA, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para elaborar una recepción de productos correctamente en Solop ERP, en su versión 3.9.2 para la localización Venezuela.
+El presente material elaborado por Solop ERP, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para elaborar una recepción de productos correctamente en Solop ERP, en su versión 3.9.2 para la localización Venezuela.
 
 - Registro de Recepción de Productos
 
@@ -34,7 +34,7 @@ Seleccione en el campo **Organización**, la organización para la cual se esta 
 
 Imagen 3. Campo Organización
 
-Seleccione el tipo de documento a generar en el campo **Tipo de Documento Destino**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por ERPyA.
+Seleccione el tipo de documento a generar en el campo **Tipo de Documento Destino**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image466.png)
 

@@ -19,6 +19,6 @@ Solop ERP permite auto-generar una estimación de retenciones municipales a los 
 
 Estas bondades de Solop ERP dependerán de la oportuna configuración del proveedor en el cual debe indicar el porcentaje de retención municipal a aplicar al proveedor, el mismo puede variar según lo establecido en la ley de retención municipal correspondiente a cada municipio, donde se encuentre el socio del negocio al cual el proveedor le brinda el servicio ya que en cada municipio varía la retención del mismo.
 
-El presente material elaborado por [ERPyA](http://erpya.com) pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para configurar y obtener un resultado exitoso al momento de generar la estimación de retenciones y posteriormente el documento de retención municipal en la versión 3.9.2 de Solop ERP en la localización Venezuela.
+El presente material elaborado por [Solop ERP](https://solopsoftware.com/) pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para configurar y obtener un resultado exitoso al momento de generar la estimación de retenciones y posteriormente el documento de retención municipal en la versión 3.9.2 de Solop ERP en la localización Venezuela.
 
 - [Configuración Esencial de la Retención Municipal](withholding-municipality)

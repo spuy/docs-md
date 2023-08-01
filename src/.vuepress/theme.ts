@@ -7,7 +7,7 @@ export default hopeTheme({
 
   author: {
     name: "ERP Consultores y Asociados, C.A.",
-    url: "https://erpya.com",
+    url: "https://solopsoftware.com/",
   },
 
   iconAssets: "//at.alicdn.com/t/font_2410206_vuzkjonf4s9.css",
@@ -15,7 +15,7 @@ export default hopeTheme({
 
   logo: "/logo.svg",
 
-  repo: "https://github.com/erpcya/docs",
+  repo: "https://github.com/spuy/docs-md",
 
   repoDisplay: false,
 
@@ -30,7 +30,7 @@ export default hopeTheme({
         intro: "/about/",
         medias: {
           Gmail: "mailto:info@erpya.com",
-          GitHub: "https://github.com/erpcya",
+          GitHub: "https://github.com/spuy/docs-md",
           Discord: "https://discord.gg/UWcyn7DEzV",
           Twitter: "https://twitter.com/erpcya",
         },
@@ -84,7 +84,7 @@ export default hopeTheme({
       },
       manifest: {
         name: "ERP Consultores y Asociados, C.A.",
-        short_name: "ERPyA",
+        short_name: "Solop ERP",
         description: "ERP Consultores y Asociados, C.A.",
         theme_color: "#5c92d1",
         icons: [

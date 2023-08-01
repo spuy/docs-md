@@ -21,7 +21,7 @@ Cualquier problema relacionado con las implementaciones de SOLOP SOFTWARE será 
 
 ### Se aplicarán actualizaciones de SOLOP
 
-Dado que constantemente SOLOP SOFTWARE se encuentra generando mejoras y actualizaciones a sus aplicaciones, dentro de este servicio se encuentra la instalación de las actualizaciones. Para una referencia de las notas de liberación de ERPyA puede consultar el siguiente [enlace](https://docs.erpya.com/downloads/updates/).
+Dado que constantemente SOLOP SOFTWARE se encuentra generando mejoras y actualizaciones a sus aplicaciones, dentro de este servicio se encuentra la instalación de las actualizaciones. Para una referencia de las notas de liberación de Solop ERP puede consultar el siguiente [enlace](https://docs.erpya.com/downloads/updates/).
 
 ### Se aplicarán cambios establecidos en la ley para la localización Venezuela
 

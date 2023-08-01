@@ -8,7 +8,7 @@ article: false
 
 En Solop ERP un producto es un artículo, recurso o servicio que puede ser producido, vendido o comprado por la empresa. El registro de estos, permite a la empresa dar seguimiento a la entrada y salida de los productos. De igual forma, permite conocer y controlar su cantidad en existencia para proceder a la compra, venta o adquisición de los mismos.
 
-El presente material elaborado por ERPyA, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para registrar en Solop ERP un producto, en su versión 3.9.2 para la localización Venezuela.
+El presente material elaborado por Solop ERP, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para registrar en Solop ERP un producto, en su versión 3.9.2 para la localización Venezuela.
 
 - Registro de Producto
   - Pestaña Reabastecer
@@ -42,7 +42,7 @@ Warning
 
 Para que el producto este disponible para todas las organizaciones, el mismo deberá estar registrado con la organización en (\*) de lo contrario el producto solo estará disponible para una sola organización.
 
-Introduzca en el campo **Código**, el código para el producto que esta registrando, este código es definido por un estándar de códificación establecido en ERPyA para la Codificación Estándar de Productos.
+Introduzca en el campo **Código**, el código para el producto que esta registrando, este código es definido por un estándar de códificación establecido en Solop ERP para la Codificación Estándar de Productos.
 
 ![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-image156.png)
 
@@ -78,13 +78,13 @@ Introduzca en el campo **UM Almacenamiento**, la unidad de medida de almacenamie
 
 Imagen 9. Campo UM Almacenamiento
 
-Seleccione en el campo **Categoría del Producto**, la categoría a la cual pertenece el producto que esta registrando, la selección de este define el comportamiento del producto que se esta registrando, dicho comportamiento se encuentra explicado en el documento Categorías de Productos elaborado por ERPyA.
+Seleccione en el campo **Categoría del Producto**, la categoría a la cual pertenece el producto que esta registrando, la selección de este define el comportamiento del producto que se esta registrando, dicho comportamiento se encuentra explicado en el documento Categorías de Productos elaborado por Solop ERP.
 
 ![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-image162.png)
 
 Imagen 10. Campo Categoría del Producto
 
-Seleccione en el campo **Grupo de Producto**, el grupo al cual pertenece el producto que esta registrando, la selección de este define el comportamiento del producto que se esta registrando, dicho comportamiento se encuentra explicado en el documento Grupo de Productos elaborado por ERPyA.
+Seleccione en el campo **Grupo de Producto**, el grupo al cual pertenece el producto que esta registrando, la selección de este define el comportamiento del producto que se esta registrando, dicho comportamiento se encuentra explicado en el documento Grupo de Productos elaborado por Solop ERP.
 
 ![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-image163.png)
 

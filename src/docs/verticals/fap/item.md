@@ -6,7 +6,7 @@ sticky: 9
 article: false
 ---
 
-En esta ocasión ERPyA pretende ofrecerle una guía fácil para la definición de un rubro en Solop ERP, es importante seguir paso a paso cada procedimiento, de ello dependerá el éxito de los registros resultantes.
+En esta ocasión Solop ERP pretende ofrecerle una guía fácil para la definición de un rubro en Solop ERP, es importante seguir paso a paso cada procedimiento, de ello dependerá el éxito de los registros resultantes.
 
 - Registro de Rubro
   - Cálculo de Peso
@@ -84,13 +84,13 @@ Introduzca en el campo **UM Almacenamiento**, la unidad de medida de almacenamie
 
 Imagen 11. Campo UM Almacenamiento
 
-Seleccione en el campo **Categoría del Producto**, la categoría a la cual pertenece el rubro que esta registrando, la selección de este define el comportamiento del rubro que se esta registrando, dicho comportamiento se encuentra explicado en el documento Categorías de Productos elaborado por ERPyA.
+Seleccione en el campo **Categoría del Producto**, la categoría a la cual pertenece el rubro que esta registrando, la selección de este define el comportamiento del rubro que se esta registrando, dicho comportamiento se encuentra explicado en el documento Categorías de Productos elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image119.png)
 
 Imagen 12. Campo Categoría del Producto
 
-Seleccione en el campo **Grupo de Producto**, el grupo al cual pertenece el rubro que esta registrando, la selección de este define el comportamiento del rubro que se esta registrando, dicho comportamiento se encuentra explicado en el documento Grupo de Productos elaborado por ERPyA.
+Seleccione en el campo **Grupo de Producto**, el grupo al cual pertenece el rubro que esta registrando, la selección de este define el comportamiento del rubro que se esta registrando, dicho comportamiento se encuentra explicado en el documento Grupo de Productos elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/assistance-management/atm-assistance-image120.png)
 

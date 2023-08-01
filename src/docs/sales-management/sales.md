@@ -6,7 +6,7 @@ sticky: 9
 article: false
 ---
 
-El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para definir la comisión de ventas en cualquier organización y realizar un cálculo exitoso de las mismas en la versión 3.9.2 de Solop ERP en la localización Venezuela.
+El presente material elaborado por Solop ERP pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para definir la comisión de ventas en cualquier organización y realizar un cálculo exitoso de las mismas en la versión 3.9.2 de Solop ERP en la localización Venezuela.
 
 - Definición de Comisiones
   - Pestaña Comisión
@@ -23,7 +23,7 @@ Una comisión es un porcentaje o cantidad de dinero que es cobrado por la venta 
 
 La definición de comisiones es una configuración que la empresa realiza en Solop ERP para indicar cuando pagar una comisión y a quien pagarsela. La forma de pago de las comisiones depende de lo establecido en el grupo de comisión, la base para el cálculo, la moneda y el tipo de frecuencia para el pago.
 
-El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente con respecto al procedimiento a seguir para realizar una definición de comisiones en la versión 3.9.2 de Solop ERP, en la localización Venezuela.
+El presente material elaborado por Solop ERP pretende ofrecerle una explicación eficiente con respecto al procedimiento a seguir para realizar una definición de comisiones en la versión 3.9.2 de Solop ERP, en la localización Venezuela.
 
 Para explicar el procedimiento detalladamente, se presentará un ejemplo en el cual se definen dos (2) comisiones, comisiones internas y externas, donde las internas se refiere a las comisiones para los trabajadores que laboran dentro de la empresa y externas a las comisiones para los trabajadores que laboran fuera de la empresa. El ejemplo contempla diferentes montos de comisión y apuntando a un mismo grupo de comisión (1000000_Comisión de Venta_M). A continuación es mostrado el procedimiento de la definición de comisiones de vendedores internos de la empresa, debe realizarce el mismo procedimiento para la definición de comisiones de vendedores externos.
 
@@ -213,7 +213,7 @@ Recuerde guardar los cambios realizados seleccionando el icono **Guardar Cambios
 
 El cálculo de las comisiones tiene como requerimiento principal tener configurada una definición de comisiones. Dicho cálculo de comisión toma en cuenta el tipo de frecuencia que tiene seleccionada la definición de comisión, así el grupo de comisión de la misma contenga otro tipo de frecuencia diferente.
 
-El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente con respecto al procedimiento a seguir para realizar el cálculo de comisiones en la versión 3.9.2 de Solop ERP, en la localización Venezuela.
+El presente material elaborado por Solop ERP pretende ofrecerle una explicación eficiente con respecto al procedimiento a seguir para realizar el cálculo de comisiones en la versión 3.9.2 de Solop ERP, en la localización Venezuela.
 
 Continuando con el ejemplo planteado en el documento Definición de Comisiones, se realiza de la siguiente manera el cálculo de las comisiones de los vendedores internos. Es necesario repetir el procedimiento para calcular las comisiones de los vendedores externos.
 
@@ -237,7 +237,7 @@ Seleccione en el campo **Organización**, la organización para la cual esta rea
 
 Imagen 3. Campo Organización
 
-Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por ERPyA.
+Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image505.png)
 

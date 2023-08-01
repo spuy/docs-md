@@ -26,7 +26,7 @@ Solop ERP requiere diferentes formatos de importación para ejecutar sus nómina
 **Nóminas Regulares**
 =====================
 
-ERPyA requiere los siguientes formatos de importación de "**Nóminas Regulares**".
+Solop ERP requiere los siguientes formatos de importación de "**Nóminas Regulares**".
 
 **Acumulado Días Trabajados en el Año**
 ---------------------------------------
@@ -931,7 +931,7 @@ El formato para la importación de las nóminas semanal, quincenal, mensual, sem
 **Nómina de Vacaciones**
 ========================
 
-ERPyA requiere el siguiente formato de importación de "**Nómina de Vacaciones**".
+Solop ERP requiere el siguiente formato de importación de "**Nómina de Vacaciones**".
 
 **Fecha de Vacaciones Anteriores**
 ----------------------------------
@@ -1096,7 +1096,7 @@ El formato para la importación de la nómina de utilidades es el siguiente:
 **Nómina de Utilidades**
 ========================
 
-ERPyA requiere el siguiente formato de importación de "**Nómina de Utilidades**".
+Solop ERP requiere el siguiente formato de importación de "**Nómina de Utilidades**".
 
 **Fecha de Utilidades Anteriores**
 ----------------------------------
@@ -1146,7 +1146,7 @@ El formato para la importación de la nómina de utilidades es el siguiente:
 **Nómina Anticipo de Vacaciones**
 =================================
 
-ERPyA requiere el siguiente formato de importación de "**Nómina Anticipo de Vacaciones**".
+Solop ERP requiere el siguiente formato de importación de "**Nómina Anticipo de Vacaciones**".
 
 **Días Anticipo de Vacaciones**
 -------------------------------
@@ -1191,7 +1191,7 @@ El formato para la importación de la nómina de anticipo de vacaciones es el si
 **Nómina Anticipo de Prestaciones Sociales**
 ============================================
 
-ERPyA requiere el siguiente formato de importación de "**Nómina Anticipo de Prestaciones Sociales**".
+Solop ERP requiere el siguiente formato de importación de "**Nómina Anticipo de Prestaciones Sociales**".
 
 **Anticipo de Prestaciones Sociales**
 -------------------------------------
@@ -1236,7 +1236,7 @@ El formato para la importación de la nómina de anticipo de prestaciones social
 **Nómina de Prestaciones Sociales**
 ============================================
 
-ERPyA requiere el siguiente formato de importación para la "**Nómina de Prestaciones Sociales**".
+Solop ERP requiere el siguiente formato de importación para la "**Nómina de Prestaciones Sociales**".
 
 **Acumulado por Prestaciones de Garantía**
 ------------------------------------------

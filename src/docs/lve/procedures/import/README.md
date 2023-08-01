@@ -80,7 +80,7 @@ En forma paralela, el importador deberá realizar la gestión de negociación co
 
 ![Diagrama](/assets/img/docs/lve/procedures/import/resources/Compras_Import.png)
 
-El presente material elaborado por [ERPyA](https://erpya.com/), pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para la importación de productos en ADempiere, en su versión 3.9.2 para la localización Venezuela.
+El presente material elaborado por [Solop ERP](https://solopsoftware.com/), pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para la importación de productos en ADempiere, en su versión 3.9.2 para la localización Venezuela.
 
 - [Importación](import)
 - [Anticipo a Proveedores en Tránsito](advance-payment-to-transit-providers)

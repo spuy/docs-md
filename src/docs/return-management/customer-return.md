@@ -25,7 +25,7 @@ La versión 3.9.2 de Solop ERP en la localización Venezuela, contempla la docum
 
 ## Devolución de Cliente
 
-El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar una **Devolución de Cliente** en la versión 3.9.2 de Solop ERP en la localización Venezuela. Dicho proceso de devolución es realizado generando un documento de autorización de devolución y porterior a ello, los documentos de devolución y nota de crédito correspondientes, los mismos son necesarios para reflejar el ingreso de los productos al almacén y disminuir el saldo de la factura.
+El presente material elaborado por Solop ERP pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar una **Devolución de Cliente** en la versión 3.9.2 de Solop ERP en la localización Venezuela. Dicho proceso de devolución es realizado generando un documento de autorización de devolución y porterior a ello, los documentos de devolución y nota de crédito correspondientes, los mismos son necesarios para reflejar el ingreso de los productos al almacén y disminuir el saldo de la factura.
 
 - Autorización de Devolución (Cliente)
 - Devolución (Cliente)
@@ -53,7 +53,7 @@ Seleccione en el campo **Organización**, la organización para la cual esta rea
 
 Imagen 3. Campo Organización
 
-Seleccione el tipo de documento a generar en el campo **Tipo de Documento Destino**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por ERPyA.
+Seleccione el tipo de documento a generar en el campo **Tipo de Documento Destino**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/return-management/rem-return-image4.png)
 

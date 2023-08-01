@@ -174,7 +174,7 @@ Imagen 23. Ingreso Generado en Banco
 
 ## Transferencia Bancaria
 
-Realice el procedimiento regular para registrar una transferencia bancaria en Solop ERP, el mismo se encuentra explicado de manera detallada en el documento Registro de Transferencia Bancaria, elaborado por ERPyA. Considerando las siguientes restricciones:
+Realice el procedimiento regular para registrar una transferencia bancaria en Solop ERP, el mismo se encuentra explicado de manera detallada en el documento Registro de Transferencia Bancaria, elaborado por Solop ERP. Considerando las siguientes restricciones:
 
 **Cuenta Bancaria Desde**: La caja desde la cual requiere realizar la transferencia. Para este ejemplo es utilizada la caja **Caja Administración Ventas - –\_Administración VES**.
 
@@ -222,7 +222,7 @@ Imagen 26. Ingreso Generado en Banco
 
 ## Cierre de Caja
 
-Realice el procedimiento regular para registrar un cierre de caja en Solop ERP, el mismo se encuentra explicado de manera detallada en el documento Registro de Cierre de Caja, elaborado por ERPyA.
+Realice el procedimiento regular para registrar un cierre de caja en Solop ERP, el mismo se encuentra explicado de manera detallada en el documento Registro de Cierre de Caja, elaborado por Solop ERP.
 
 Se selecciona la caja administrativa para llevar esta a cero (0) nuevamente, transfiriendo el saldo de la caja al banco. Este proceso se debe realizar por cada caja administrativa a la que igreso dinero por las ventas del día.
 

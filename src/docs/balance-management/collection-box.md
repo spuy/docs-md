@@ -10,7 +10,7 @@ El requerimiento principal para realizar el proceso de gestión de caja cobranza
 
 Luego del cierre de caja, el departamento de tesorería realiza el depósito de las cajas en sus respectivos bancos correspondientes, para que caja pueda realizar su cierre y llevar el saldo inicial a cero (0) nuevamente.
 
-El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para obtener un resultado exitoso al momento de realizar el proceso de caja cobranza en la versión 3.9.2 de Solop ERP en la localización Venezuela.
+El presente material elaborado por Solop ERP pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para obtener un resultado exitoso al momento de realizar el proceso de caja cobranza en la versión 3.9.2 de Solop ERP en la localización Venezuela.
 
 A continuación se explica detalladamente el procedimiento que se debe realizar para obtener un resultado exitoso en caja cobranza.
 
@@ -36,7 +36,7 @@ Seleccione en el campo **Organización**, la organización para la cual esta rea
 
 Imagen 3. Campo Organización
 
-Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por ERPyA. Para ejemplificar el registro es utilizada la opción **Cobro Nacional**.
+Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por Solop ERP. Para ejemplificar el registro es utilizada la opción **Cobro Nacional**.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image39.png)
 
@@ -90,7 +90,7 @@ Seleccione la acción **Completar** y la opción **Ok** para completar el docume
 
 Imagen 10. Acción Completar
 
-Realice el procedimiento regular para generar un cierre de caja, explicado en el documento Registro de Cierre de Caja, elaborado por ERPyA, seleccionando en el campo **Tipo de Documento** la opción **Cierre de Caja Cobranza**.
+Realice el procedimiento regular para generar un cierre de caja, explicado en el documento Registro de Cierre de Caja, elaborado por Solop ERP, seleccionando en el campo **Tipo de Documento** la opción **Cierre de Caja Cobranza**.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image46.png)
 
@@ -208,7 +208,7 @@ Al consultar del documento de cobro generado en la ventana **Pago/Cobro**, con a
 
 Imagen 29. Documento de Cobro Generado en Pago/Cobro
 
-Realice el procedimiento regular para generar un cierre de caja, explicado en el documento Registro de Cierre de Caja, elaborado por ERPyA, seleccionando en el campo **Tipo de Documento** la opción **Cierre de Caja Administrativo**.
+Realice el procedimiento regular para generar un cierre de caja, explicado en el documento Registro de Cierre de Caja, elaborado por Solop ERP, seleccionando en el campo **Tipo de Documento** la opción **Cierre de Caja Administrativo**.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image65.png)
 
