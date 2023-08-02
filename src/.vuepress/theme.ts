@@ -6,7 +6,7 @@ export default hopeTheme({
   hostname: "https://ayuda.solopapp.com",
 
   author: {
-    name: "ERP Consultores y Asociados, C.A.",
+    name: "Solop ERP",
     url: "https://solopsoftware.com/",
   },
 
@@ -31,7 +31,7 @@ export default hopeTheme({
         medias: {
           Gmail: "mailto:info@erpya.com",
           GitHub: "https://github.com/spuy/docs-md",
-          Discord: "https://discord.gg/UWcyn7DEzV",
+          Discord: "https://discord.gg/CbrEeQwcqr",
           Twitter: "https://twitter.com/erpcya",
         },
       },
