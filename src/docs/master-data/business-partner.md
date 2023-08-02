@@ -8,11 +8,11 @@ article: false
 
 El socio del negocio generalmente es un sujeto jurídico o natural con el que la organización establece una alianza temporal o permanente a fin de obtener un beneficio común.
 
-En ADempiere no es la excepción, en este sentido, es un participante obligatorio en una transacción administrativa, este puede actuar como cliente, proveedor y empleado, es decir, no existe una transacción de egreso (Compras) o ingreso (Ventas) sin la previa definición del proveedor o cliente (Socio del Negocio), no existe una nómina sin un empleado (Socio del Negocio), en otras palabras, es obligatorio la previa configuración de esta entidad en ADempiere para emitir transacciones administrativas y contables.
+En Solop ERP no es la excepción, en este sentido, es un participante obligatorio en una transacción administrativa, este puede actuar como cliente, proveedor y empleado, es decir, no existe una transacción de egreso (Compras) o ingreso (Ventas) sin la previa definición del proveedor o cliente (Socio del Negocio), no existe una nómina sin un empleado (Socio del Negocio), en otras palabras, es obligatorio la previa configuración de esta entidad en Solop ERP para emitir transacciones administrativas y contables.
 
-Este registro tiene un rol determinante en los asientos contables generados en ADempiere, desempeñándose como una de las dimensiones contables más relevantes, permitiendo agrupar la información de forma eficiente para facilitar el control de aquello que deseamos cuantificar, por tal motivo, la correcta definición determinará los resultados en los asientos y reportes contables de los que disponen nuestros clientes, cabe considerar, que estos valores son heredados de forma predeterminada desde el grupo de socio de negocio seleccionado en este registro, no obstante, el usuario tiene la opción de modificar la configuración contable para casos excepcionales.
+Este registro tiene un rol determinante en los asientos contables generados en Solop ERP, desempeñándose como una de las dimensiones contables más relevantes, permitiendo agrupar la información de forma eficiente para facilitar el control de aquello que deseamos cuantificar, por tal motivo, la correcta definición determinará los resultados en los asientos y reportes contables de los que disponen nuestros clientes, cabe considerar, que estos valores son heredados de forma predeterminada desde el grupo de socio de negocio seleccionado en este registro, no obstante, el usuario tiene la opción de modificar la configuración contable para casos excepcionales.
 
-En esta ocasión **ERPyA** pretende ofrecerle una guía fácil para la definición básica de un socio de negocio en ADempiere, dentro de este orden de ideas, es importante seguir paso a paso cada procedimiento, de ello dependerá el éxito de los registros resultantes.
+En esta ocasión **Solop ERP** pretende ofrecerle una guía fácil para la definición básica de un socio de negocio en Solop ERP, dentro de este orden de ideas, es importante seguir paso a paso cada procedimiento, de ello dependerá el éxito de los registros resultantes.
 
 - Registro de Socio del Negocio
   - Proveedor
@@ -21,15 +21,15 @@ En esta ocasión **ERPyA** pretende ofrecerle una guía fácil para la definici�
 
 ## Registro de Socio del Negocio
 
-En el menú de ADempiere, ubique y seleccione la carpeta **Relación con Socio del Negocio**, luego seleccione la carpeta **Reglas de Socios del Negocio** y finalmente seleccione la ventana **Socio del Negocio**.
+En el menú de Solop ERP, ubique y seleccione la carpeta **Relación con Socio del Negocio**, luego seleccione la carpeta **Reglas de Socios del Negocio** y finalmente seleccione la ventana **Socio del Negocio**.
 
-![Menú de ADempiere](/assets/img/docs/master-data/mad-master-menu.png)
+![Menú de Solop ERP](/assets/img/docs/master-data/mad-master-menu.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 En esta ventana se registran los datos principales que la empresa requiere del socio del negocio cliente. Cada uno de los campos con el símbolo (\*) son obligatorios para el registro.
 
-A continuación visualizará la ventana **Socio del Negocio**, dónde debe seleccionar el icono de **Registro Nuevo** que se encuentra ubicado en la barra de herramientas de ADempiere.
+A continuación visualizará la ventana **Socio del Negocio**, dónde debe seleccionar el icono de **Registro Nuevo** que se encuentra ubicado en la barra de herramientas de Solop ERP.
 
 ![Ventana Principal Socio del Negocio](/assets/img/docs/master-data/mad-master-window.png)
 
@@ -55,7 +55,7 @@ El código es un dato único e irrepetible que protege la entrada de los registr
 
 Note
 
-Si no es ingresado un dato en este campo ADempiere genera un dato de tipo numérico autoincrementable.
+Si no es ingresado un dato en este campo Solop ERP genera un dato de tipo numérico autoincrementable.
 
 ![Campo Código](/assets/img/docs/master-data/mad-master-code.png)
 
@@ -115,9 +115,9 @@ El estado del crédito no es un campo obligatorio, sin embargo, le permite defin
 
 **Crédito Correcto**: Activa la gestión de crédito por estar dentro del límite de cŕedito.
 
-**Crédito Verificación**: Es establecido de forma automática por ADempiere al evaluar el crédito, cuando el saldo actual está por encima del % de crédito en verificación (por defecto es 90%) del límite de crédito pero no alcanza el 100%.
+**Crédito Verificación**: Es establecido de forma automática por Solop ERP al evaluar el crédito, cuando el saldo actual está por encima del % de crédito en verificación (por defecto es 90%) del límite de crédito pero no alcanza el 100%.
 
-**Crédito Retenido**: Es establecido de forma automática por ADempiere al evaluar el crédito, cuando el saldo actual está por encima del límite de crédito, bloqueando la posibilidad de completar ordenes de ventas, completar facturas y emitir entregas.
+**Crédito Retenido**: Es establecido de forma automática por Solop ERP al evaluar el crédito, cuando el saldo actual está por encima del límite de crédito, bloqueando la posibilidad de completar ordenes de ventas, completar facturas y emitir entregas.
 
 **Crédito Detenido**: Establecido de forma manual, bloqueando la posibilidad de completar ordenes de ventas, completar facturas y emitir entregas.
 
@@ -420,10 +420,10 @@ Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en 
 
 Un socio del negocio proveedor es aquella persona u organización que provee de productos y servicios a otra que lo necesite para su consumo, los transforme para su venta o los compre para venderlos sin modificaciones.
 
-ADempiere tiene la funcionalidad de permitirle a las organizaciones llevar un control de las transacciones realizadas con proveedores internos y externos.
+Solop ERP tiene la funcionalidad de permitirle a las organizaciones llevar un control de las transacciones realizadas con proveedores internos y externos.
 Un proveedor interno puede ser un proveedor nacional, este puede presentarse bajo tres (3) condiciones, proveedor empleado de la organización, proveedor cliente nacional de la organización o simplemente proveedor nacional.
 
-De igual manera, un proveedor externo puede ser un proveedor internacional, este puede presentarse bajo dos (2) condiciones, proveedor cliente internacional de la organización o simplemente proveedor internacional. A continuación se define el proceso para la creación de socio del negocio proveedor en ADempiere.
+De igual manera, un proveedor externo puede ser un proveedor internacional, este puede presentarse bajo dos (2) condiciones, proveedor cliente internacional de la organización o simplemente proveedor internacional. A continuación se define el proceso para la creación de socio del negocio proveedor en Solop ERP.
 
 - Registro de Proveedor
   - Pestaña Cuenta Bancaria
@@ -436,7 +436,7 @@ Para registrar un proveedor, es necesario que sea realizado el procedimiento reg
 
 Luego de culminar el procedimieto de registro de socio del negocio, seleccione la pestaña **Proveedor** que se encuentra del lado izquierdo de la ventana socio del negocio, para identificar al socio del negocio como proveedor de la empresa.
 
-Esta pestaña le indica a ADempiere si el socio del negocio que se esta registrando es un proveedor
+Esta pestaña le indica a Solop ERP si el socio del negocio que se esta registrando es un proveedor
 
 ![Pestaña Proveedor](/assets/img/docs/master-data/mad-master-proveedor.png)
 
@@ -449,14 +449,14 @@ La pestaña **Proveedor** se compone de:
 - Los datos principales del socio del negocio donde los campos **Compañía**, **Organización**, **Código** y **Nombre**, vienen cargados de la ventana principal **Socio del Negocio**.
 - Ademas posee un grupo de campos que definen la configuración de retenciones a aplicar al socio del negocio, dichos campos se encuentran explicados en los documentos Configuración Esencial de la Retención de IVA, Configuración Esencial de la Retención de ISLR y Configuración Esencial de la Retención Municipal.
 
-Seleccione el checklist **Proveedor** para habilitar en ADempiere el socio del negocio como proveedor de la compañía u organización.
+Seleccione el checklist **Proveedor** para habilitar en Solop ERP el socio del negocio como proveedor de la compañía u organización.
 
 ![Checklist Proveedor](/assets/img/docs/master-data/mad-master-checklist.png)
 
 Imagen 2. Checklist Proveedor
 
 Warning
-De no ser tildado el checklist **Proveedor**, ADempiere no tomará el socio del negocio como proveedor.
+De no ser tildado el checklist **Proveedor**, Solop ERP no tomará el socio del negocio como proveedor.
 
 Al tildar el checklist **Proveedor** podrá apreciar un grupo de campos necesarios para la compra de productos al mismo, dichos campos no son obligatorios ya que pueden ser definidos en el documento **Orden de Compra** al momento de su elaboración.
 
@@ -635,18 +635,18 @@ Este procedimiento realizado aplica solo para los Socios del Negocio que cumpl
 
 ## Cliente
 
-Si es usted un usuario en etapa de iniciación le recomendamos leer el capítulo anterior, Socios del Negocio de ADempiere, donde respondimos la interrogante común: **¿Qué es un Socio de Negocio?**, esto con la intención de proveer en este material una información más digerible.
+Si es usted un usuario en etapa de iniciación le recomendamos leer el capítulo anterior, Socios del Negocio de Solop ERP, donde respondimos la interrogante común: **¿Qué es un Socio de Negocio?**, esto con la intención de proveer en este material una información más digerible.
 
 Como resultado de lo anteriormente expuesto, se puede concluir que un socio de negocio que actúa como cliente, es una entidad jurídica o natural que adquiere productos o servicios provenientes de la empresa,estos pueden ser:
 
 - **Clientes Nacionales:** Realizan transacciones que generan ingresos a la empresa (Ventas) dentro del territorio.
 - **Clientes Internacionales:** Realizan transacciones que generan ingresos a la empresa(Ventas) fuera del territorio, esto se conoce como exportación.
 
-Esta categorización en ADempiere es conocida como **Grupo de Socio de Negocio** y es la base contable (en su mayoría) para las operaciones emitidas a partir de este registro maestro, no obstante, el usuario tiene la opción de realizar configuraciones excepcionales para ciertos clientes.
+Esta categorización en Solop ERP es conocida como **Grupo de Socio de Negocio** y es la base contable (en su mayoría) para las operaciones emitidas a partir de este registro maestro, no obstante, el usuario tiene la opción de realizar configuraciones excepcionales para ciertos clientes.
 
 Para este caso, usted tendría por categoría diferentes cuentas contables, Cuenta por Cobrar Nacionales y Cuenta por Cobrar Internacionales respectivamente.
 
-Ahora bien, si es usted usuario de ADempiere, seguramente se ha hecho preguntas que le han complicado la operativa de algún modo. Para facilitar su día a día **Solop ERP** quiere responder algunas preguntas frecuentes con las que nos topamos en nuestra experiencia como consultores e implementadores de ADempiere:
+Ahora bien, si es usted usuario de Solop ERP, seguramente se ha hecho preguntas que le han complicado la operativa de algún modo. Para facilitar su día a día **Solop ERP** quiere responder algunas preguntas frecuentes con las que nos topamos en nuestra experiencia como consultores e implementadores de Solop ERP:
 
 **¿Si un socio de negocio es proveedor o empleado, y ahora funge como cliente, debo crearlo nuevamente?**
 
@@ -658,7 +658,7 @@ Pues bien, la categoría generalmente hace referencia a la agrupación contable 
 
 **¿Cómo agrupar por vendedor a mis clientes para emitir un reporte?**
 
-Para ofrecer una eficiente administración en distribución y seguimiento de clientes y pedidos generados, ADempiere ofrece al usuario dos opciones:
+Para ofrecer una eficiente administración en distribución y seguimiento de clientes y pedidos generados, Solop ERP ofrece al usuario dos opciones:
 
 - **Por Región de Ventas:** De esta forma se asigna la región de venta a un cliente, a su vez, ésta depende de un asesor de ventas.Esto permite una mayor facilidad en el mantenimiento por ausencia de vendedores, si su cliente posee más de una dirección podría configurar más de un asesor.
 - **Por Asesor Especifico:** De esta forma se asigna un vendedor especifico al cliente directamente, omitiendo configuraciones en la localización.
@@ -675,11 +675,11 @@ Existen múltiples reglas que permiten predefinir valores en transacciones depen
 - **Programas de Pago:** Define esquemas de pagos y estructuras de cuotas para la cancelación de sus deudas.
 - **Lista de Precio:** Define lista de precio y moneda con la que generalmente el cliente cancela sus deudas.
 
-Entre muchos otros campos más que son predeterminados desde el socio de negocio, pasando por la orden de venta y la factura, ellos definen comportamientos en funcionalidades versátiles dentro de ADempiere.
+Entre muchos otros campos más que son predeterminados desde el socio de negocio, pasando por la orden de venta y la factura, ellos definen comportamientos en funcionalidades versátiles dentro de Solop ERP.
 
 **¿Cómo configuro un descuento para el cliente?**
 
-ADempiere le permite aplicar un Esquema de Descuentos(previamente configurado) al cliente, en este sentido, el usuario podrá definir reglas específicas aplicando % de descuentos planos o basado en volumen, si desea profundizar más el tema, le invitamos a ver nuestro instructivo de **Esquema de Descuentos**.
+Solop ERP le permite aplicar un Esquema de Descuentos(previamente configurado) al cliente, en este sentido, el usuario podrá definir reglas específicas aplicando % de descuentos planos o basado en volumen, si desea profundizar más el tema, le invitamos a ver nuestro instructivo de **Esquema de Descuentos**.
 
 **¿Cómo bloqueo el límite de crédito para el cliente?**
 
@@ -687,7 +687,7 @@ Podrá configurar estados de crédito para definir el comportamiento del anális
 
 **¿Cómo configuro un cliente exento de impuesto?**
 
-Para concluir el preámbulo, le invitamos a tomar en cuenta cada una de estas acotaciones, de seguro serán de utilidad, y a futuro le garantizará un eficiente manejo de una herramienta tan potente como lo es ADempiere.
+Para concluir el preámbulo, le invitamos a tomar en cuenta cada una de estas acotaciones, de seguro serán de utilidad, y a futuro le garantizará un eficiente manejo de una herramienta tan potente como lo es Solop ERP.
 
 - Registro de Cliente
   - Pestaña Cuenta Bancaria
@@ -1099,7 +1099,7 @@ Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en 
 
 ### Pestaña Contacto
 
-En esta pestaña se registran todos los datos de contacto que se posea el socio del negocio cliente. De igual manera, es creado su usuario de acceso en ADempiere.
+En esta pestaña se registran todos los datos de contacto que se posea el socio del negocio cliente. De igual manera, es creado su usuario de acceso en Solop ERP.
 
 Seleccione la pestaña **Contacto** que se encuentra ubicada del lado izquierdo de la ventana socio del negocio, para proceder a llenar los campos necesarios.
 
@@ -1159,7 +1159,7 @@ Seleccione el checklist **Usuario Interno**, para indicar que la persona de cont
 
 Imagen 70. Campo Usuario Interno
 
-Introduzca en el campo **Código**, el usuario de la persona de contacto con el socio del negocio cliente para ingresar a ADempiere.
+Introduzca en el campo **Código**, el usuario de la persona de contacto con el socio del negocio cliente para ingresar a Solop ERP.
 
 ![Campo Código](/assets/img/docs/master-data/mad-master-code-2.png)
 
@@ -1167,9 +1167,9 @@ Imagen 71. Campo Código
 
 Warning
 
-Solop ERP tiene establecido como estándar de creación de usuario y contraseña en ADempiere, la inicial del primer nombre en minúscula, seguido del primer apellido completo, con la primera letra del mismo en mayúscula.
+Solop ERP tiene establecido como estándar de creación de usuario y contraseña en Solop ERP, la inicial del primer nombre en minúscula, seguido del primer apellido completo, con la primera letra del mismo en mayúscula.
 
-Introduzca en el campo **Contraseña**, la contraseña de la persona de contacto con el socio del negocio cliente para ingresar a ADempiere.
+Introduzca en el campo **Contraseña**, la contraseña de la persona de contacto con el socio del negocio cliente para ingresar a Solop ERP.
 
 ![Campo Contraseña](/assets/img/docs/master-data/mad-master-password.png)
 
@@ -1177,7 +1177,7 @@ Imagen 72. Campo Contraseña
 
 Warning
 
-Solop ERP tiene establecido como estándar de creación de usuario y contraseña en ADempiere, la inicial del primer nombre en minúscula, seguido del primer apellido completo, con la primera letra del mismo en mayúscula.
+Solop ERP tiene establecido como estándar de creación de usuario y contraseña en Solop ERP, la inicial del primer nombre en minúscula, seguido del primer apellido completo, con la primera letra del mismo en mayúscula.
 
 Seleccione el checklist **Usuario de Tienda Web**, para indicar que la persona de contacto con el socio del negocio es usuario de tienda web.
 
@@ -1251,7 +1251,7 @@ Podrá apreciar el checklist **Acceso Total Socio del Negocio**, que al estar ti
 
 Imagen 84. Campo Acceso Total Socio del Negocio
 
-Seleccione el icono **Guardar Cambios** en la barra de herramientras de ADempiere, para guardar el registro de los campos.
+Seleccione el icono **Guardar Cambios** en la barra de herramientras de Solop ERP, para guardar el registro de los campos.
 
 ![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-save.png)
 
@@ -1265,9 +1265,9 @@ Este procedimiento realizado aplica solo para los Socios del Negocio que cumplan
 
 Un socio del negocio empleado es aquella persona que presta sus servicios como trabajador en una determinada empresa u organización, desempeñando un cargo y recibiendo un salario a cambio de sus servicios. En Venezuela los empleados de una organización se encuentra respaldados por la LOTTT, la forma de pago y condiciones de trabajo es acordada por ambas partes de acuerdo a lo establecido en dicha ley.
 
-ADempiere permite realizar un registro único y detallado de toda la información que la organización requiere del empleado en su respectivo momento, ya sea para pagos, capacitaciones, retenciones o remuneraciones. De igual manera, permite registrar información referente a seguro, experiencia laboral, educación, familiares, dependientes, entre otros.
+Solop ERP permite realizar un registro único y detallado de toda la información que la organización requiere del empleado en su respectivo momento, ya sea para pagos, capacitaciones, retenciones o remuneraciones. De igual manera, permite registrar información referente a seguro, experiencia laboral, educación, familiares, dependientes, entre otros.
 
-Dentro de sus funcionalidades, ADempiere permite a las organizaciones realizar de forma sencilla las operaciones necesarias para el cálculo de nómina, otorgando a los empleados de la organización su respectivo recibo de pago conforme a lo establecido en la ley. A continuación se define el proceso para la creación de socio del negocio empleado en ADempiere.
+Dentro de sus funcionalidades, Solop ERP permite a las organizaciones realizar de forma sencilla las operaciones necesarias para el cálculo de nómina, otorgando a los empleados de la organización su respectivo recibo de pago conforme a lo establecido en la ley. A continuación se define el proceso para la creación de socio del negocio empleado en Solop ERP.
 
 - Registro de Empleado
   - Pestaña Información de Contrato
@@ -1284,11 +1284,11 @@ Dentro de sus funcionalidades, ADempiere permite a las organizaciones realizar d
 
 ### Registro de Empleado
 
-En el menú de ADempiere, ubique y seleccione la carpeta **Gestión de Recursos Humanos y Nómina**, luego seleccione la carpeta **Recursos Humanos**, por último seleccione la carpeta **Configuración de Empleado** y la ventana **Empleado (Todos)**.
+En el menú de Solop ERP, ubique y seleccione la carpeta **Gestión de Recursos Humanos y Nómina**, luego seleccione la carpeta **Recursos Humanos**, por último seleccione la carpeta **Configuración de Empleado** y la ventana **Empleado (Todos)**.
 
-![Menú de ADempiere](/assets/img/docs/master-data/mad-master-menu-2.png)
+![Menú de Solop ERP](/assets/img/docs/master-data/mad-master-menu-2.png)
 
-Imagen 1. Menú de ADempiere
+Imagen 1. Menú de Solop ERP
 
 En la ventana **Empleado (Todos)**, se registran todos los datos personales y laborales que la empresa requiere del socio del negocio empleado, los mismos son utilizados y actualizados a lo largo de su período laboral en dicha empresa. La información del empleado desde el momento en el que inicia su período laboral, hasta el momento actual o el momento en el que termina, se encuentra distribuida en la ventana principal **Empleado** y sus (11) once pestañas, explicadas a continuación.
 
@@ -1296,7 +1296,7 @@ Note
 
 Cada uno de los campos con el símbolo (\*) son obligatorios para el registro.
 
-A continuación podrá apreciar la ventana **Empleado (Todos)**, dónde debe seleccionar el icono de **Registro Nuevo** que se encuentra ubicado en la barra de herramientas de ADempiere.
+A continuación podrá apreciar la ventana **Empleado (Todos)**, dónde debe seleccionar el icono de **Registro Nuevo** que se encuentra ubicado en la barra de herramientas de Solop ERP.
 
 ![Ventana Principal Empleados (Todos)](/assets/img/docs/master-data/mad-master-employee.png)
 
@@ -1552,7 +1552,7 @@ Introduzca en el campo **Código de Validación**, el código de marcaje del emp
 
 Imagen 36. Código de Validación
 
-Seleccione en el campo **Nómina**, la nómina regular establecida para cada Empleado. Adempiere presenta las siguientes nóminas cuando el empleado posee un Salario Fijo (Nómina Semanal, Nómina Quincenal y Nómina Mensual), en cambio si el Empleado Posee un Salario Variable se encuentras disponibles (Nómina Semanal Mixta, Nómina Quincenal Mixta y Nómina Mensual Mixta)
+Seleccione en el campo **Nómina**, la nómina regular establecida para cada Empleado. Solop ERP presenta las siguientes nóminas cuando el empleado posee un Salario Fijo (Nómina Semanal, Nómina Quincenal y Nómina Mensual), en cambio si el Empleado Posee un Salario Variable se encuentras disponibles (Nómina Semanal Mixta, Nómina Quincenal Mixta y Nómina Mensual Mixta)
 
 ![Campo Nómina](/assets/img/docs/master-data/mad-master-image29.png)
 
@@ -1760,7 +1760,7 @@ Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en 
 
 ### Pestaña Atributo de Empleado
 
-En una empresa los empleados poseen caracteristicas diferentes, Estas caracteristicas en Adempiere son llamadas Atributos. Un Atributo puede ser el Salario Diario de cada Empleado, El factor ARI, Una Deducción por un Préstamo, etc. Los mismos son definidos en la pestaña **Atributo de Empleado** para que sean aplicados a la nómina al momento de la ejecución. Los valores de estos atributos varian según el tipo de Concepto de Nómina. Cabe Destacar que un empleados puede poseer diferentes atributos.
+En una empresa los empleados poseen caracteristicas diferentes, Estas caracteristicas en Solop ERP son llamadas Atributos. Un Atributo puede ser el Salario Diario de cada Empleado, El factor ARI, Una Deducción por un Préstamo, etc. Los mismos son definidos en la pestaña **Atributo de Empleado** para que sean aplicados a la nómina al momento de la ejecución. Los valores de estos atributos varian según el tipo de Concepto de Nómina. Cabe Destacar que un empleados puede poseer diferentes atributos.
 
 Seleccione la pestaña **Atributo de Empleado** y proceda al llenado de los campos correspondientes.
 
@@ -1782,7 +1782,7 @@ Imagen 72. Campo Concepto Nómina
 
 Warning
 
-Al seleccionar cualquier valor en este campo podrá apreciar una serie de conceptos definidos por Adempiere y que se consideran atributos de cada empleado
+Al seleccionar cualquier valor en este campo podrá apreciar una serie de conceptos definidos por Solop ERP y que se consideran atributos de cada empleado
 
 Introduzca en el campo **Descripción**, una breve descripción del registro de concepto de nómina que esta realizando.
 
@@ -1954,7 +1954,7 @@ Introduzca en el campo **Cta. Correo Electrónico**, el correo electrónico asoc
 
 Imagen 95. Campo Cta. Correo Electrónico
 
-Seleccione el icono **Guardar Cambios** en la barra de herramientas de ADempiere.
+Seleccione el icono **Guardar Cambios** en la barra de herramientas de Solop ERP.
 
 ![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-image88.png)
 
@@ -1962,7 +1962,7 @@ Imagen 96. Icono Guardar Cambios
 
 Warning
 
-Si el empleado posee otra cuenta bancaria para registrar, seleccione el icono **Registro Nuevo** en la barra de herramientas de ADempiere en la pestaña **Cuenta Bancaria** y proceda al llenado de los campos explicados anteriormente.
+Si el empleado posee otra cuenta bancaria para registrar, seleccione el icono **Registro Nuevo** en la barra de herramientas de Solop ERP en la pestaña **Cuenta Bancaria** y proceda al llenado de los campos explicados anteriormente.
 
 ### Pestaña Experiencia Laboral
 
@@ -2010,7 +2010,7 @@ Introduzca en el campo **Comentarios**, cualquier información relevante con res
 
 Imagen 103. Campo Comentarios
 
-Seleccione el icono **Guardar Cambios** en la barra de herramientas de ADempiere, para guardar los cambios realizados en la pestaña **Experiencia Laboral**.
+Seleccione el icono **Guardar Cambios** en la barra de herramientas de Solop ERP, para guardar los cambios realizados en la pestaña **Experiencia Laboral**.
 
 ![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-image96.png)
 
@@ -2018,7 +2018,7 @@ Imagen 104. Icono Guardar Cambios
 
 Warning
 
-Si el empleado posee otras referencias laborales para registrar, seleccione el icono **Registro Nuevo** en la barra de herramientas de ADempiere en la pestaña **Experiencia Laboral** y proceda al llenado de los campos explicados anteriormente.
+Si el empleado posee otras referencias laborales para registrar, seleccione el icono **Registro Nuevo** en la barra de herramientas de Solop ERP en la pestaña **Experiencia Laboral** y proceda al llenado de los campos explicados anteriormente.
 
 ### Pestaña Educación
 
@@ -2252,7 +2252,7 @@ Introduzca en el campo **Email**, el email de la persona de contacto.
 
 Imagen 137. Campo Email Localización
 
-Seleccione el icono **Guardar Cambios** en la barra de herramientas de ADempiere, para guardar los cambios realizados en la pestaña **Localización**.
+Seleccione el icono **Guardar Cambios** en la barra de herramientas de Solop ERP, para guardar los cambios realizados en la pestaña **Localización**.
 
 ![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-image130.png)
 
@@ -2260,7 +2260,7 @@ Imagen 138. Icono Guardar Cambios
 
 Warning
 
-Si el empleado posee otra dirección de localización para registrar, seleccione el icono **Registro Nuevo** en la barra de herramientas de ADempiere en la pestaña **Localización** y proceda al llenado de los campos explicados anteriormente.
+Si el empleado posee otra dirección de localización para registrar, seleccione el icono **Registro Nuevo** en la barra de herramientas de Solop ERP en la pestaña **Localización** y proceda al llenado de los campos explicados anteriormente.
 
 ### Pestaña Detalle de Seguro
 
@@ -2356,7 +2356,7 @@ Podrá apreciar en el campo **Saldo de Cuenta**, el monto total restante para la
 
 Imagen 153. Campo Saldo de Cuenta
 
-Seleccione el icono **Guardar Cambios** en la barra de herramientas de ADempiere para guardar el registro de la pestaña.
+Seleccione el icono **Guardar Cambios** en la barra de herramientas de Solop ERP para guardar el registro de la pestaña.
 
 ![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-image146.png)
 
@@ -2364,7 +2364,7 @@ Imagen 154. Icono Guardar Cambios
 
 Warning
 
-Si el empleado posee otro seguro para registrar, seleccione el icono **Registro Nuevo** en la barra de herramientas de ADempiere en la pestaña **Detalle de Seguro** y proceda al llenado de los campos explicados anteriormente.
+Si el empleado posee otro seguro para registrar, seleccione el icono **Registro Nuevo** en la barra de herramientas de Solop ERP en la pestaña **Detalle de Seguro** y proceda al llenado de los campos explicados anteriormente.
 
 ### Pestaña Detalle de Permiso
 

@@ -25,7 +25,7 @@ La ventana del proceso **Crear OC desde Requisición**, contiene diferentes camp
 
 El proceso consiste en seleccionar el documento de requisición en el campo **Requisición de Material** y culminar el mismo seleccionando la opción **OK** para que posteriormente sea generado el documento **Orden de Compra**, indicando en la ventana del proceso el número de dicho documento.
 
-El presente material elaborado por Solop ERP, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar en Solop ERP una orden de compra desde una requisición, en su versión 3.9.2 para la localización Venezuela.
+El presente material elaborado por Solop ERP, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar en Solop ERP una orden de compra desde una requisición, en su versión 3.9.2.
 
 - Registro de Orden de Compra desde Requisición
 - Consultar y Completar Orden de Compra Generada
@@ -454,7 +454,7 @@ Imagen 50. Acción Completar y Opción OK
 
 Una orden de compra es un documento elaborado por el departamento de compras de una empresa determinada, contiene los productos y servicios que dicha empresa necesita, la cantidad y los precios acordados con el proveedor a la que va dirigida, así como el sello del departamento de compras y la firma del jefe de dicho departamento.
 
-En Solop ERP es posible generar una orden de compra directa. El presente material elaborado por Solop ERP, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar en Solop ERP una orden de compra, en su versión 3.9.2 para la localización Venezuela.
+En Solop ERP es posible generar una orden de compra directa. El presente material elaborado por Solop ERP, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar en Solop ERP una orden de compra, en su versión 3.9.2.
 
 Registro de Orden de Compra Directa
 

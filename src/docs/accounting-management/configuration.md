@@ -6,7 +6,7 @@ sticky: 9
 article: false
 ---
 
-El presente material elaborado por Solop ERP pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de realizar una configuración contable a los maestros de la versión 3.9.2 de SOLOP en la localización Venezuela.
+El presente material elaborado por Solop ERP pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de realizar una configuración contable a los maestros de la versión 3.9.2 de Solop ERP en la localización Venezuela.
 
 - Cargo
 - Producto
@@ -20,11 +20,11 @@ El presente material elaborado por Solop ERP pretende ofrecerle una explicación
 
 ## Cargo
 
-Ubique en el menú de SOLOP, la carpeta **Análisis de Desempeño**, luego seleccione la carpeta **Reglas Contables**, por último seleccione la ventana **Cargo**.
+Ubique en el menú de Solop ERP, la carpeta **Análisis de Desempeño**, luego seleccione la carpeta **Reglas Contables**, por último seleccione la ventana **Cargo**.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image60.png)
 
-Imagen 1. Menú de SOLOP
+Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana **Cargo** con todos los registros de los cargos utilizados en la empresa.
 

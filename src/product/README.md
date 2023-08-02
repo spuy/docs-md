@@ -1,5 +1,5 @@
 ---
-title: Características de ADempiere
+title: Características de Solop ERP
 category: Producto
 star: 9
 sticky: 9
@@ -52,7 +52,7 @@ article: false
 
 - Se pueden crear muchos calendarios con fines informativos y los períodos dentro de esos calendarios se definen con una fecha de inicio y una fecha de finalización que el usuario elija.
 - También se captura información de todos los cambios a la información estática registrando la fecha y hora del cambio así como el ID del usuario que creó y actualizó el registro.
-- **ADempiere almacena toda la información y transacciones ingresadas al sistema por el tiempo que la organización usuaria elija.**
+- **Solop ERP almacena toda la información y transacciones ingresadas al sistema por el tiempo que la organización usuaria elija.**
 - No existe el concepto de "fin de año" y proceso de depuración.
 - Los calendarios se establecen únicamente con fines informativos y de control de acceso a periodos.
 - La información histórica se mantiene durante el tiempo que se desee y se puede informar mediante la función de calendario.
@@ -61,13 +61,13 @@ article: false
 
 :::
 
-    ADempiere proporciona capacidades integrales de generación de informes.
+    Solop ERP proporciona capacidades integrales de generación de informes.
 
 :::
 
 ### Informes inteligentes
 
-- Para la mayoría de las aplicaciones, la generación de informes es una entidad separada o adicional. Los informes de ADempiere se basan en el diccionario de datos.
+- Para la mayoría de las aplicaciones, la generación de informes es una entidad separada o adicional. Los informes de Solop ERP se basan en el diccionario de datos.
   - Dado que el visor del informe tiene acceso a las definiciones, esto permite profundizar en cualquier entidad a la que se haga referencia y profundizar en las entidades en las que se utiliza la entidad informada.
   - Los enlaces se generan automáticamente, garantizando el cumplimiento de las definiciones de seguridad y acceso.
 - El visor de informes proporciona la selección de datos, secuenciación, agrupación, totalización y formato de visualización.
@@ -95,11 +95,11 @@ article: false
 
 ### Herramientas de informes de terceros
 
-Herramientas de terceros como Jasper Reports; un equivalente basado en Java de Crystal Reports, también se puede usar para crear informes si es necesario. La versión actual de Adempiere ya tiene JasperReports sustancialmente integrado a su motor de informes.
+Herramientas de terceros como Jasper Reports; un equivalente basado en Java de Crystal Reports, también se puede usar para crear informes si es necesario. La versión actual de Solop ERP ya tiene JasperReports sustancialmente integrado a su motor de informes.
 
 ### Personalización de informes
 
-ADempiere diferencia la 'vista' del 'modelo'. Con la excepción de Vistas de informe, el modelo generalmente se proporciona. Si proporciona una instrucción SQL Select, se puede crear una vista de informe, el usuario no necesita resolver las referencias de claves externas (que requieren el conocimiento del modelo de datos) ni preocuparse por la seguridad de los datos, ya que ADempiere resuelve estos problemas para el usuario. Esto permite la escritura de sentencias 'simples'. Pocas personas están de acuerdo en cómo debe verse cada informe. ADempiere permite al usuario definir el formato de cualquier reporte a nivel de Sistema, Cliente, Organización o Usuario:
+Solop ERP diferencia la 'vista' del 'modelo'. Con la excepción de Vistas de informe, el modelo generalmente se proporciona. Si proporciona una instrucción SQL Select, se puede crear una vista de informe, el usuario no necesita resolver las referencias de claves externas (que requieren el conocimiento del modelo de datos) ni preocuparse por la seguridad de los datos, ya que Solop ERP resuelve estos problemas para el usuario. Esto permite la escritura de sentencias 'simples'. Pocas personas están de acuerdo en cómo debe verse cada informe. Solop ERP permite al usuario definir el formato de cualquier reporte a nivel de Sistema, Cliente, Organización o Usuario:
 
 - Columnas de informe
 - Orden de las columnas
@@ -114,7 +114,7 @@ La selección de datos se realiza a través de Parámetros de informe al iniciar
 
 ## Datos y metadatos
 
-Los programadores de muchas aplicaciones que no utilizan la sofisticación de un Active Data Dictionary necesitan diseñar, codificar y probar cada pantalla. ADempiere utiliza el concepto más avanzado de un diccionario central de datos activos, también llamado repositorio de información. El diccionario de datos activos de ADempiere está en la capa de metadatos y sabe cómo acceder a los datos y cómo se relacionan los datos.
+Los programadores de muchas aplicaciones que no utilizan la sofisticación de un Active Data Dictionary necesitan diseñar, codificar y probar cada pantalla. Solop ERP utiliza el concepto más avanzado de un diccionario central de datos activos, también llamado repositorio de información. El diccionario de datos activos de Solop ERP está en la capa de metadatos y sabe cómo acceder a los datos y cómo se relacionan los datos.
 
 - **El diccionario de datos contiene:**
 
@@ -137,4 +137,4 @@ El soporte de software representa una parte sustancial de los costos de por vida
 - Capacidad de expansión
 - Portabilidad
 
-todos los cuales son necesarios para el software que puede soportarse de manera eficiente y rentable. Muchos problemas asociados con el soporte de software pueden atribuirse a deficiencias en la forma en que se diseñó el producto de software original. La falta de atención al diseño de arquitecturas de software modulares durante el desarrollo puede causar problemas y costos de soporte de software excesivos. ADempiere está diseñado para ser lo más flexible posible y adaptarse al cambio. A menos que la arquitectura del sistema permita el cambio, es probable que las modificaciones al software sean difíciles y propensas a fallas. La arquitectura de software de ADempiere aborda cuidadosamente la abstracción, la encapsulación y la ocultación de información para minimizar las dependencias. Al maximizar el uso del diseño orientado a objetos, el software se puede modificar fácilmente. Active Data Dictionary de ADempiere garantiza que el soporte de software se pueda simplificar al garantizar que los cambios se realicen en una ubicación con un impacto constante en toda la aplicación. Además, ADempiere no utiliza conjuntos de herramientas de terceros que puedan dejar de ser compatibles debido a la falta de interés de sus respectivos proveedores. Aparte de la propia base de datos de Oracle, el código fuente de todos los aspectos del sistema está abierto y disponible, lo que garantiza que la comunidad de usuarios siempre podrá brindar soporte para todos los aspectos del sistema.
+todos los cuales son necesarios para el software que puede soportarse de manera eficiente y rentable. Muchos problemas asociados con el soporte de software pueden atribuirse a deficiencias en la forma en que se diseñó el producto de software original. La falta de atención al diseño de arquitecturas de software modulares durante el desarrollo puede causar problemas y costos de soporte de software excesivos. Solop ERP está diseñado para ser lo más flexible posible y adaptarse al cambio. A menos que la arquitectura del sistema permita el cambio, es probable que las modificaciones al software sean difíciles y propensas a fallas. La arquitectura de software de Solop ERP aborda cuidadosamente la abstracción, la encapsulación y la ocultación de información para minimizar las dependencias. Al maximizar el uso del diseño orientado a objetos, el software se puede modificar fácilmente. Active Data Dictionary de Solop ERP garantiza que el soporte de software se pueda simplificar al garantizar que los cambios se realicen en una ubicación con un impacto constante en toda la aplicación. Además, Solop ERP no utiliza conjuntos de herramientas de terceros que puedan dejar de ser compatibles debido a la falta de interés de sus respectivos proveedores. Aparte de la propia base de datos de Oracle, el código fuente de todos los aspectos del sistema está abierto y disponible, lo que garantiza que la comunidad de usuarios siempre podrá brindar soporte para todos los aspectos del sistema.

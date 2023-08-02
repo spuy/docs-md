@@ -12,21 +12,21 @@ article: false
 
 ![Código fuente](/assets/img/product/source-code.png)
 
-## Repositorio de Proyectos Adempiere
+## Repositorio de Proyectos Solop ERP
 
-El repositorio principal de ADempiere se puede encontrar en[GitHub](https://github.com/adempiere/adempiere).
+El repositorio principal de Solop ERP se puede encontrar en[GitHub](https://github.com/spuy/docs-md).
 
 ::: tip Git
 
 Antes de continuar, consulte el[Git SCM Documentation](http://git-scm.com/doc)
 
-Para colaborar con el equipo de ADempiere, usamos el modelo Git Hub Fork and Pull. Desde el [GitHub website](https://help.github.com/articles/using-pull-requests/#fork--pull)
+Para colaborar con el equipo de Solop ERP, usamos el modelo Git Hub Fork and Pull. Desde el [GitHub website](https://help.github.com/articles/using-pull-requests/#fork--pull)
 
 :::
 
 ::: tip colaborar
 
-Para colaborar con el equipo de ADempiere, usamos el modelo Git Hub Fork and Pull. Desde el[GitHub website](https://help.github.com/articles/using-pull-requests/#fork--pull)
+Para colaborar con el equipo de Solop ERP, usamos el modelo Git Hub Fork and Pull. Desde el[GitHub website](https://help.github.com/articles/using-pull-requests/#fork--pull)
 
 :::
 
@@ -40,11 +40,11 @@ La configuración es fácil. Sigue estos pasos:
 
 - Instalar el software Git. Puede trabajar con la línea de comandos de Git o con cualquiera de las herramientas de GUI de Git. Como el repositorio está en GitHub, se recomienda seguir los [procedimientos de configuración de GitHub](https://help.github.com/articles/set-up-git/).
 - Crear una cuenta de GitHub
-- Crea tu tenedor personal del proyecto Adempiere
+- Crea tu tenedor personal del proyecto Solop ERP
 - Crea un clon local de tu bifurcación personal
 - ¡Empieza a desarrollar!
-- Encomienda tu trabajo a tu propio tenedor. Siga el [Procedimiento de desarrollo de software de Adempiere](http://wiki.adempiere.net/Software_Development_Procedure) para la denominación de sucursales.
-- Enviar una solicitud de extracción al proyecto Adempiere.
+- Encomienda tu trabajo a tu propio tenedor. Siga el [Procedimiento de desarrollo de software de Solop ERP](http://wiki.adempiere.net/Software_Development_Procedure) para la denominación de sucursales.
+- Enviar una solicitud de extracción al proyecto Solop ERP.
 
 ### Clonación de un repositorio
 
@@ -83,7 +83,7 @@ Para clonar un repositorio a través de una conexión a Internet lenta o intermi
   cd /opt/Development/repos
 
   # Crea un directorio para el repositorio y cámbialo
-  mkdir adempiere
+  mkdir Solop ERP
 
   # Ir a nueva carpeta
   cd admière
