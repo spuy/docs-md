@@ -6,7 +6,7 @@ export default hopeTheme({
   hostname: "https://ayuda.solopapp.com",
 
   author: {
-    name: "ERP Consultores y Asociados, C.A.",
+    name: "Solop ERP",
     url: "https://solopsoftware.com/",
   },
 
@@ -26,27 +26,27 @@ export default hopeTheme({
       navbar: enNavbarConfig,
 
       blog: {
-        description: "Documentación Oficial de ERP Consultores y Asociados, CA",
+        description: "Documentación Solop ERP",
         intro: "/about/",
         medias: {
-          Gmail: "mailto:info@erpya.com",
-          GitHub: "https://github.com/spuy/docs-md",
+          Gmail: "mailto:consultas@solop.uy",
           Discord: "https://discord.gg/UWcyn7DEzV",
-          Twitter: "https://twitter.com/erpcya",
+          Linkedin: "https://www.linkedin.com/company/solop/",
         },
       },
     },
   },
 
   displayFooter: true,
-  copyright: "Copyright © 2022-present ERP Consultores y Asociados, C.A.",
+  copyright: "Copyright © Solop ERP",
 
   plugins: {
     blog: true,
 
     comment: {
-      provider: "Waline",
-      serverURL: "https://<to-be-defined>",
+      // Comment box in footer page
+      //provider: "Waline",
+      //serverURL: "https://<to-be-defined>",
     },
 
     feed: {
@@ -71,7 +71,7 @@ export default hopeTheme({
 
     pwa: {
       favicon: "/favicon.ico",
-      themeColor: "#5c92d1",
+      themeColor: "#0080E1",
       cacheHTML: false,
       maxSize: 3072,
       apple: {
@@ -83,10 +83,10 @@ export default hopeTheme({
         color: "#ffffff",
       },
       manifest: {
-        name: "ERP Consultores y Asociados, C.A.",
+        name: "Solop ERP",
         short_name: "Solop ERP",
-        description: "ERP Consultores y Asociados, C.A.",
-        theme_color: "#5c92d1",
+        description: "Solop Software",
+        theme_color: "#0080E1",
         icons: [
           {
             src: "/assets/icon/chrome-192.png",
