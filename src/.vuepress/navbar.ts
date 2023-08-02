@@ -1,7 +1,11 @@
 import { navbar } from "vuepress-theme-hope";
 
 export const enNavbarConfig = navbar([
-  "/",
+  {
+    text: "Academia Solop",
+    icon: "home",
+    prefix: "/"
+  },
   {
     text: "Nosotros",
     icon: "profile",
