@@ -1,11 +1,11 @@
 ---
-title: Proceso de negocio de ADempiere
+title: Proceso de negocio de Solop ERP
 category: Producto
 star: 9
 sticky: 9
 tag:
   - Producto
-  - ADempiere
+  - Solop ERP
   - Software
 article: false
 ---
@@ -14,7 +14,7 @@ article: false
 
 ## Gestión comercial
 
-ADempiere puede procesar rápidamente pedidos de venta y producir envíos y facturas de clientes en función de la disponibilidad y las reglas comerciales, pasando por cobros de facturas y recibos bancarios, al mismo tiempo que brinda una excelente experiencia al cliente a través de interfaces de usuario amigables y herramientas de informes, lo que permite a los socios comerciales para colaborar mejor entre nosotros. Esto a su vez reduce el costo de las ventas y permite un giro más rápido y mayor. En sí mismo, el uso de ADempiere es posible mejoras circunstanciales en cada punto de venta y proceso de pago logrando mejoras dramáticas en los resultados generales tanto en ahorro de tiempo como en ahorro de costos directos.
+Solop ERP puede procesar rápidamente pedidos de venta y producir envíos y facturas de clientes en función de la disponibilidad y las reglas comerciales, pasando por cobros de facturas y recibos bancarios, al mismo tiempo que brinda una excelente experiencia al cliente a través de interfaces de usuario amigables y herramientas de informes, lo que permite a los socios comerciales para colaborar mejor entre nosotros. Esto a su vez reduce el costo de las ventas y permite un giro más rápido y mayor. En sí mismo, el uso de Solop ERP es posible mejoras circunstanciales en cada punto de venta y proceso de pago logrando mejoras dramáticas en los resultados generales tanto en ahorro de tiempo como en ahorro de costos directos.
 
 ### Gestión de clientes
 
@@ -34,7 +34,7 @@ Habilite la verificación automática de crédito del cliente y el estado del cr
 
 ### Aprobaciones
 
-Habilite las aprobaciones mediante ADempiere Workflows para los pedidos y envíos de sus clientes.
+Habilite las aprobaciones mediante Solop ERP Workflows para los pedidos y envíos de sus clientes.
 
 ### Reglas del negocio
 
@@ -52,7 +52,7 @@ Supervise y administre la cadena de suministro de su negocio de manera más efic
 
 ### Analice la oferta y la demanda en tiempo real
 
-ADempiere proporciona funciones fáciles de usar para planificar y controlar costos, mitigar riesgos y mantenerse competitivo. Puede realizar mediciones efectivas de control de costos en toda la organización y tener información precisa para analizar costos y tendencias, realizar un seguimiento de los costos actuales y brindar asesoramiento oportuno sobre la gestión de costos a todos los departamentos.
+Solop ERP proporciona funciones fáciles de usar para planificar y controlar costos, mitigar riesgos y mantenerse competitivo. Puede realizar mediciones efectivas de control de costos en toda la organización y tener información precisa para analizar costos y tendencias, realizar un seguimiento de los costos actuales y brindar asesoramiento oportuno sobre la gestión de costos a todos los departamentos.
 
 El sistema monitorea diferentes tipos de costos y los relaciona directamente con los gastos operativos y administrativos, lo que permite administrarlos de manera más efectiva, lo que permite una fácil detección de costos e ingresos de productos y servicios específicos, brinda información precisa para resolver discrepancias y, de lo contrario, fortalece las ventajas comerciales potenciales.
 
@@ -78,7 +78,7 @@ El sistema crea un registro de transacciones detallado de cada registro que se c
 
 ### Trazabilidad de documentos
 
-ADempiere permite realizar un seguimiento de las fechas de vencimiento, ya sea para el cobro y/o las cuentas por pagar. Tanto los cheques propios como los de terceros son ingresados ​​al sistema donde se realiza el seguimiento con total trazabilidad. Cada documento está vinculado a otros documentos dentro del sistema, lo que hace que esta información sea más confiable y precisa.
+Solop ERP permite realizar un seguimiento de las fechas de vencimiento, ya sea para el cobro y/o las cuentas por pagar. Tanto los cheques propios como los de terceros son ingresados ​​al sistema donde se realiza el seguimiento con total trazabilidad. Cada documento está vinculado a otros documentos dentro del sistema, lo que hace que esta información sea más confiable y precisa.
 
 ### Informes
 

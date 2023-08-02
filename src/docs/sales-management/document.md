@@ -8,7 +8,7 @@ article: false
 
 Una factura en cuentas por cobrar, es el documento legal que representa una deuda contraída por un cliente determinado con la compañía u organización, por la compra de productos y servicios que el mismo necesita de forma directa o indirecta.
 
-En Solop ERP es posible generar una factura de cuentas por cobrar de forma directa. El presente material elaborado por Solop ERP, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar una factura de cuentas por cobrar en Solop ERP, en su versión 3.9.2 para la localización Venezuela.
+En Solop ERP es posible generar una factura de cuentas por cobrar de forma directa. El presente material elaborado por Solop ERP, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar una factura de cuentas por cobrar en Solop ERP, en su versión 3.9.2.
 
 - Registro de Documento por Cobrar
 - Generar Factura desde Líneas de la Orden

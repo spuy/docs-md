@@ -37,7 +37,7 @@ Imagen 13. Factura Número 85933 Generada desde la Orden de Salida
 
 ## Imprimir Facturas Generadas
 
-Al imprimir el registro en la ventana **Documentos por Cobrar**, seleccionando el icono **Imprimir** ubicado en la barra de herramientas de ADempiere, podrá visualizar de la siguiente manera la factura de ventas generada desde la orden de salida.
+Al imprimir el registro en la ventana **Documentos por Cobrar**, seleccionando el icono **Imprimir** ubicado en la barra de herramientas de Solop ERP, podrá visualizar de la siguiente manera la factura de ventas generada desde la orden de salida.
 
 Factura **85932** correspondiente al socio del negocio **Socio Estándar 1**.
 

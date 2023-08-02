@@ -16,7 +16,7 @@ _Supongamos un caso, en el que un cliente que adquiere un producto manejado por 
 
 _Al ser procesadas las transacciones, el cliente aparece de dististas formas, con distintos códigos en las diferentes intalaciones del sistema en gestión. Probablemente la consecuencia sería que exista errores en la facturación u otro documento fiscal a causa de la redundancia de datos._
 
-Con este ejemplo visualizamos la gravedad que implica la falta de integración y coherencia de los datos maestros, ahora bien, **ERPyA** pretende ofrecerle instrucciones precisas en una documentación destinada a definir cada uno de los maestros de Solop ERP, es importante seguir al pie de la letra cada uno de los procedimientos descritos.
+Con este ejemplo visualizamos la gravedad que implica la falta de integración y coherencia de los datos maestros, ahora bien, **Solop ERP** pretende ofrecerle instrucciones precisas en una documentación destinada a definir cada uno de los maestros de Solop ERP, es importante seguir al pie de la letra cada uno de los procedimientos descritos.
 
 Nota
 

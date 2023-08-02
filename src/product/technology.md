@@ -12,7 +12,7 @@ article: false
 
 ## Elementos tecnológicos
 
-- ADempiere es una solución Java 100% pura.
+- Solop ERP es una solución Java 100% pura.
 - Se basa en la tecnología Oracle Database
 - Es compatible de forma nativa con la base de datos de código abierto de Postgresql
 - Cuenta con un cliente 100% Java
@@ -51,7 +51,7 @@ article: false
 
 Las aplicaciones comerciales cambian con el tiempo. Necesitan aprovechar las nuevas tecnologías y proporcionar una funcionalidad adicional más inteligente. Incluso las aplicaciones enlatadas deberían admitir funciones adicionales, aunque por lo general no son adecuadas para la integración con el núcleo funcional de una empresa en crecimiento.
 
-Adempiere utiliza los siguientes principios de diseño para crear una arquitectura sostenible:
+Solop ERP utiliza los siguientes principios de diseño para crear una arquitectura sostenible:
 
 Smalltalk MVC Architecture, que es una derivación del enfoque Model-View-Controller. Motor de reglas explícitas para lógica de transacciones complejas y recuperación de fallas segura de transacciones.
 
@@ -61,7 +61,7 @@ ERP tiene una arquitectura de objetos, cada objeto es lo más independiente posi
 
 Por lo general, las aplicaciones están diseñadas para estar libres de fallas (a prueba de fallas): se asume que todo funciona y que todos los datos se ingresan correctamente y son consistentes. En caso de falla, los expertos deben encontrar la causa y verificar si hubo daños. El usuario suele notar el problema. La realidad es que las aplicaciones a veces fallan.
 
-En contraste, ADempiere está diseñado para ser seguro contra fallas. Cada transacción se puede repetir y regenerar. La mayoría de las fallas son identificadas por el sistema y el usuario puede intentar resolver el problema. Si la recuperación no es posible, el error se aísla y el resto del sistema sigue funcionando. La transacción basada en el diseño desacoplado está habilitada.
+En contraste, Solop ERP está diseñado para ser seguro contra fallas. Cada transacción se puede repetir y regenerar. La mayoría de las fallas son identificadas por el sistema y el usuario puede intentar resolver el problema. Si la recuperación no es posible, el error se aísla y el resto del sistema sigue funcionando. La transacción basada en el diseño desacoplado está habilitada.
 
 El sistema verifica regularmente si una transacción está completa. Si una transacción no es completa y consistente debido a una falla del sistema, se informa al administrador y al usuario.
 
@@ -69,7 +69,7 @@ A medida que las aplicaciones se vuelven más complejas con combinaciones cada v
 
 ## Seguridad
 
-ADempiere admite funciones y seguridad de datos. La función de seguridad se basa en Roles de Usuario y Controles de Acceso Ventanas, Informes y Procesos.
+Solop ERP admite funciones y seguridad de datos. La función de seguridad se basa en Roles de Usuario y Controles de Acceso Ventanas, Informes y Procesos.
 
 La seguridad de los datos para la información del cliente y la Organización se mantiene a nivel de la base de datos a través del contexto de seguridad. Este es un nivel adicional de seguridad más allá de la identificación (login) del usuario habitual de la base de datos. Esto permite el uso de herramientas de terceros basadas en SQL para acceder a la base de datos. Antes de acceder a cualquier dato, el usuario debe identificarse mediante un procedimiento almacenado (procedimiento almacenado) con nombre de usuario, contraseña y, opcionalmente, rol de idioma. Esto proporciona las mismas reglas de acceso para herramientas de terceros que pueden existir en la aplicación.
 

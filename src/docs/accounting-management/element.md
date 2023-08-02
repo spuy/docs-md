@@ -8,7 +8,7 @@ article: false
 
 El elemento contable le permite definir de forma sistemática una estructura de cuentas y los parámetros que serán utilizados en el Tipo de Aplicación contable.
 
-Esta estructura actúa como el plan de cuentas contable, presentando una lista de cuentas contables en las cuales serán registrados los hechos contables generados desde los procesos administrativos de Solop ERP ERP. Estos elementos generalmente son ordenados bajo una codificación que facilitan el reconocimiento de cada cuenta.
+Esta estructura actúa como el plan de cuentas contable, presentando una lista de cuentas contables en las cuales serán registrados los hechos contables generados desde los procesos administrativos de Solop ERP. Estos elementos generalmente son ordenados bajo una codificación que facilitan el reconocimiento de cada cuenta.
 
 El método consiste en asignar un número decimal que nos permita asociar la clasificación de las cuentas:
 

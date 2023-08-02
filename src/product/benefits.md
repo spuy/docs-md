@@ -5,18 +5,18 @@ star: 9
 sticky: 9
 tag:
   - Producto
-  - ADempiere
+  - Solop ERP
   - Software
 article: false
 ---
 
 ![Beneficios](/assets/img/product/benefits.jpg)
 
-## Ventajas de ADempiere ERP/CRM
+## Ventajas de Solop ERP ERP/CRM
 
 ### Flexibilidad
 
-**ADempiere adopta estándares abiertos que permiten:**
+**Solop ERP adopta estándares abiertos que permiten:**
 
 - Estandarización, estabilidad e interoperabilidad del sistema
 - Visibilidad completa de datos

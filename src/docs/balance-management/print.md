@@ -6,7 +6,7 @@ sticky: 9
 article: false
 ---
 
-El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de generar un imprimir/exportar para culminar el procedimiento de manera exitosa en la versión 3.9.2 de Solop ERP en la localización Venezuela.
+El presente material elaborado por Solop ERP pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de generar un imprimir/exportar para culminar el procedimiento de manera exitosa en la versión 3.9.2 de Solop ERP en la localización Venezuela.
 
 - Registro de Imprimir / Exportar Pagos
   - Consultar Documento de Pago Generado

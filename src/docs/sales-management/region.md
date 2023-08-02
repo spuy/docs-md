@@ -97,7 +97,7 @@ Imagen 13. Árbol de Regiones de Ventas de la Ventana Región de Ventas
 
 ## Asignar Región de Ventas a Localización
 
-Para asignar una región de ventas a la localización del socio del negocio cliente, se debe realizar el procedimiento explicado en el documento de Registro de Cliente, elaborado por ERPyA, específicamente en la subsección del documento Pestaña Localización, donde se indica que se debe seleccionar en el campo **Región de Ventas**, la región o área de ventas en la que se encuentra localizado el socio del negocio cliente.
+Para asignar una región de ventas a la localización del socio del negocio cliente, se debe realizar el procedimiento explicado en el documento de Registro de Cliente, elaborado por Solop ERP, específicamente en la subsección del documento Pestaña Localización, donde se indica que se debe seleccionar en el campo **Región de Ventas**, la región o área de ventas en la que se encuentra localizado el socio del negocio cliente.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image478.png)
 
