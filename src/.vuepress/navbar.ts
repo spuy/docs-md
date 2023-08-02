@@ -4,7 +4,7 @@ export const enNavbarConfig = navbar([
   {
     text: "Academia Solop",
     icon: "home",
-    prefix: "/"
+    prefix: "/",
   },
   {
     text: "Nosotros",
