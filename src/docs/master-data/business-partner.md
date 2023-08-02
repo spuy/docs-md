@@ -2419,3 +2419,9 @@ Imagen 160. Icono Guardar Cambios
 Note
 
 Este procedimiento realizado aplica solo para los Socios del Negocio que cumplan el rol de Empleado en una compañía.
+
+
+Prueba Imagen
+
+![Ventana Socio del Negocio](/assets/img/docs/master-data/socio_de_negocio_imagen.png)
+
