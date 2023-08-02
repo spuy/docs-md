@@ -95,7 +95,7 @@ La impresión cuenta con diferentes formatos (tipos de agrupación): por product
 Al momento de aceptar la orden de salida es importante seleccionar la acción que se ejecutará sobre el documento: puede ser "completo" o "en proceso".
 
 En este caso se recomienda setear "en proceso", porque aun en esta instancia se encuentra pendiente realizar el "pickeo" para determinar la existencia real de los productos para completar los pedidos.
-![Ventana Orden de Salida](/assets/img/docs/distribution-managment/orden_de_salida.png)
+![Ventana Orden de Salida](/assets/img/docs/distribution-management/orden_de_salida.png)
 
 ***__Generar picking y entregas desde orden de salida__***
 
