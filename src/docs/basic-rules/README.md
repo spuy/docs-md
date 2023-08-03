@@ -14,3 +14,4 @@ El presente material se encuentra dirigido a cada uno de los usuarios de Solop E
 - [Barra de Herramientas](bar)
 - [Accesos Rápidos](access)
 - [Utilería](props)
+- [Carga Masiva de Datos](data-import)
