@@ -26,3 +26,4 @@ Sugerimos crear los registros maestros con organización “\*” para asegurar 
 - [Producto](product)
 - [Almacén](store)
 - [Reportes de Maestros](teacher-report)
+- [Socio del negocio para Educación](business-partner-education)
