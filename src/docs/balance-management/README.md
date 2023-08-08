@@ -25,3 +25,8 @@ Por ello, **Solop ERP** presenta la siguiente guía con instrucciones claras y p
 - [Asignación de Pagos](assignment)
 - [Cierre de Caja](close-box)
 - [Conciliaciones Automáticas](reconciliation)
+- [Gestión de Asignaciones](assignment-management)
+- [Cheques y Pagos](checks-and-payments)
+- [Cheques Diferidos](deferred-checks)
+- [Recibo](Receipt)
+- [Gestión de Transferencias](transfer-management)
