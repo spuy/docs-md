@@ -1,5 +1,5 @@
 ---
-title: Datos Maestros
+title: Socio del Negocio General
 category: Documentation
 star: 9
 sticky: 9
