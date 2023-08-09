@@ -1,10 +1,11 @@
 ---
-title: Estado de Cuenta Educación
+title: Gestión de Morosidad
 category: Documentation
 star: 9
 sticky: 9
 article: false
 ---
+# **Gestión de Morosidad**
 
 # **Estado de Cuenta por Cliente**
 
