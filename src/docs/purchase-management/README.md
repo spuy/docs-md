@@ -17,3 +17,4 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 - [Nota de Crédito](credit-note)
 - [Nota de Débito](debit-note)
 - [Tasa de Conversión Negociada](conversion)
+- [Cuentas por Pagar Agencia](accounts-payable-agency)
