@@ -70,6 +70,12 @@ Se definen los distintos Productos/Servicios que intervienen en el Contrato de S
 * **Monto de Línea de Contrato** 
   * Precio: Precio a facturarse cada vez
 
+  # **Orden de Compra Cliente Obligatoria para Facturar**
+
+Según el Contrato con el cliente se puede definir si es obligatorio o no que el Nro. de la Orden de Compra del Cliente esté definido en las Factura al cliente o no.
+
+Para aquellos Socios de Negocio que su contrato tiene definido en Y el check de “OC Necesaria para Facturar” en su contrato, para que el check de “Permite Facturar” pueda ser marcado en las Órdenes de Venta, se deberá completar el campo “OC Cliente” con el número de la Orden de Compra del Cliente y luego Marcar el “Permite Facturar” = SI\*\*
+
 ## **Partes del Contrato de Servicio de Agencia**
 
 Esta pestaña define las diferentes partes que intervienen en un Contrato de Servicios.
@@ -128,3 +134,17 @@ Generar una Devolución de Proveedor Espejo, es decir se generará una Devoluci�
 El proceso de “Generar Devoluciones” generará también una “Devolución Proveedor” por la Cantidad que se definió en el proceso, el precio será tomado desde la Orden de Compra correspondiente a la Recepción que se estará devolviendo.
 
 Para generar la Nota de Crédito del Proveedor se deberá ir directo a la ventana “Documentos por Pagar” y crear el cabezal de la Nota de Crédito Proveedor correspondiente. Luego se deberá crear las líneas a partir del Proceso “Crear Desde” desd donde se deberá seleccionar la opción “RMA”
+
+# **Crear Marca del Cliente obligatoria**
+
+Una Marca Cliente se creará desde la ventana “Campaña de Mercadeo”.
+
+En el cabezal de la ventana se deberá indicar el nombre de la Marca.
+
+Luego bajaremos a la pestaña Cliente donde deberemos completar los siguientes campos:
+
+* Sales Stage: Donde seleccionaremos “Marca Cliente”.
+* Socio del Negocio: Será el Socio del negocio al que le estamos creando dicha Marca.
+* Expected Close Date: Fecha de cierre esperada.
+
+A continuación se muestra un ejemplo del procedimiendo para crear una Marca Cliente
