@@ -1,5 +1,5 @@
 ---
-title: Cuentas por Cobrar Agencia
+title: Documentos por Cobrar Agencia
 category: Documentation
 star: 9
 sticky: 9
