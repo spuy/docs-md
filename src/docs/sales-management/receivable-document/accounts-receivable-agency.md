@@ -3,10 +3,13 @@ title: Documentos por Cobrar Agencia
 category: Documentation
 star: 9
 sticky: 9
+tag:
+  - Agencia
 article: false
+
 ---
 
-# **Cuentas por Cobrar Agencia**
+# **Documentos por Cobrar Agencia**
 
 Facturar en moneda distinta con la que se generó el Proyecto:
 

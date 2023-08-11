@@ -17,16 +17,4 @@ Asimismo, ofrece opciones con las cuales la empresa puede acceder a datos estad�
 El propósito de **Solop ERP** es apoyar a nuestros clientes, dar respuestas rápidas y eficientes con el manejo de información para permitir la toma de decisiones y minimizar los costes.
 
 - [Tipo de Aplicación](type-application)
-- [Elemento Contable](element)
-- [Apertura de Período Contable](opening)
-- [Documentos sin Aplicar](document)
-- [Dimensiones Contables](dimensions)
-- [Combinación Contable](combination)
-- [Conversión Monetaria](conversion)
-- [Distribución Contable](distribution)
-- [Configuración Contable (Maestros)](configuration)
-- [Contabilidad de Transacciones](accounting)
-- [Re-contabilizar Datos Contables de Cuentas de Ganancia y Perdida](revenue)
-- [Gestión de Costos](costs)
-- [Diario Contable](diary)
 - [Reportes Contables](reports)

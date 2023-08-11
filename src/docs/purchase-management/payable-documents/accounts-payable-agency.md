@@ -1,12 +1,15 @@
 ---
-title: Cuentas por Pagar Agencia
+title: Documentos por Pagar Agencia
 category: Documentation
 star: 9
 sticky: 9
+tag: 
+  - Agencia
 article: false
+
 ---
 
-# **Cuentas por Pagar Agencia**
+# **Documentos por Pagar Agencia**
 
 # **Ingreso de Factura de Compra**
 
