@@ -38,7 +38,7 @@ Posteriormente en la aplicación se procede a generar la carga desde la opción 
 ## Segundo Paso: Cargar Archivo en Ventana Cargador de Archivo
 Seleccionamos importar presupuesto (en formato de importación),  configuramos UTF-8 como formato de codificación de caracteres. Elegimos cargar el archivo y a partir de ese momento podremos visualizar los datos de los registros. Esto permite controlar que cada dato se visualice en el campo correcto antes de realizar la importación.
 
-![Ventana Cargador de Archivo](/assets/img/docs/distribution-management/bar-data-import1.png)
+![Ventana Cargador de Archivo](/assets/img/docs/basic-rules/bar-data-import1.png)
 
 El presupuesto genera un asiento que balancea con una cuenta presupuestal (no afecta la contabilidad actual ni de compromiso).
 
@@ -49,7 +49,7 @@ Se elige el lote y por defecto se poblará el esquema de cuentas (se definen los
 
 En la ventana emergente de importación de presupuesto se debe setear la fecha contable (en el caso de ser una carga anual seleccionamos el 1 de enero). Luego ingresamos el número de periodos (anual=12 meses), seteamos la organización, una descripción para el lote de ingreso manual y estado en el cual deseamos crear el Lote (borrador).
 
-![Ventana Importación de Presupuesto](/assets/img/docs/distribution-management/bar-data-import2.png)
+![Ventana Importación de Presupuesto](/assets/img/docs/basic-rules/bar-data-import2.png)
 
 Al confirmar importación podremos visualizar un lote de nota contable que se refleja en el diario contable.
 
@@ -64,7 +64,7 @@ Esto genera un reporte (informe) constituyendo diferentes columnas: actual (cont
 
 Es una herramienta útil de control para identificar desvíos entre lo presupuestado y la realidad.
 
-![Ventana Cargador de Archivo](/assets/img/docs/distribution-management/bar-data-import3.mp4)
+![Ventana Cargador de Archivo](/assets/img/docs/basic-rules/bar-data-import3.mp4)
 
 ## Carga Masiva: Asiento Diario
 
