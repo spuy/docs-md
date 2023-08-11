@@ -6,7 +6,7 @@ sticky: 9
 article: false
 ---
 
-# **Productos de Servicios**
+# Productos de Servicios
 
 Todos los productos que se utilizarán deberán estar definidos en la ventana “Producto”. Los Productos pueden ser Servicios o Artículos.
 

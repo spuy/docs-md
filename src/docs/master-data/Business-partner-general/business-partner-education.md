@@ -8,9 +8,9 @@ tag:
 article: false
 ---
 
-# **Estudiantes**
+# Estudiantes
 
-## **Socio del Negocio**
+## Socio del Negocio
 
 Un Socio del Negocio corresponde a una entidad con la que se hacen negocios. Hay tres tipos diferentes de Socios del Negocio:
 
@@ -46,7 +46,7 @@ Ejemplo de relleno de cabezal para un Estudiante:
 
 Es obligatorio ingresar la localización (domicilio) en un Socio de Negocio. Ingrese dónde está marcado.
 
-# **Familia**
+# Familia
 
 La Familia se crea como una agrupación donde dentro de la misma se podrán encontrar sus correspondientes miembros junto con el vínculo que los define (Padre, Madre, Hijo, Tutor).
 
@@ -70,7 +70,7 @@ Nombre de Familia: 2 Apellidos de la Familia
 
 Descripción Familia: Si se desea
 
-**Miembros (Pestaña)**
+## Miembros (Pestaña)
 
 Los Miembros de la Familia del Tipo de Vínculo Estudiante y el Responsable de Pago deben estar previamente ingresados como Socio del Negocio.
 

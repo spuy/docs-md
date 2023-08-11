@@ -6,7 +6,7 @@ sticky: 9
 article: false
 ---
 
-## ***__Carga Masiva: Presupuesto Contable__***
+# Carga Masiva: Presupuesto Contable
 
 La aplicación gestiona diferentes tipos de contabilidad:
 
@@ -56,7 +56,7 @@ Esto genera un reporte (informe) constituyendo diferentes columnas: actual (cont
 
 Es una herramienta útil de control para identificar desvíos entre lo presupuestado y la realidad.
 
-## ***__Carga Masiva: Asiento Diario__***
+## Carga Masiva: Asiento Diario
 
 El asiento diario se carga desde un formato de importación predeterminado seguido de una carga de archivo.
 

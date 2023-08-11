@@ -1,5 +1,5 @@
 ---
-title: Gestión de Compras
+title: Documentos por Pagar
 category: Documentation
 star: 9
 sticky: 9

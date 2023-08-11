@@ -8,9 +8,9 @@ tag:
 article: false
 ---
 
-# **Facturación Recurrente Educación**
+## Facturación Recurrente Educación
 
-# **Nota de Crédito Cliente**
+## Nota de Crédito Cliente
 
 La Nota de Crédito se generará desde la ventana Documentos por Cobrar a través de la opción “Crear desde”.
 
@@ -54,7 +54,7 @@ Para generar el Servicio a facturar se deberá definir la Fecha y la actividad (
 
 A continuación presentamos un gif con un ejemplo del proceso
 
-# **Facturación de Cuotas del Contrato de Servicios**
+# Facturación de Cuotas del Contrato de Servicios
 
 Para generar facturas de manera masiva se deberá utilizar el proceso de “Generar Factura desde Cuota de Contrato”.
 
