@@ -6,67 +6,67 @@ sticky: 9
 article: false
 ---
 
-# **Asignaciones**
+# Asignaciones
 
-# **Consulta de Asignación**
+## Consulta de Asignación
 
 Cada una de las asignaciones realizadas en el sistema se podrán ver individualmente desde la ventana “Consulta de Asignación”. Este documento es donde se realiza el Asiento Contable propio de la asignación, donde cancela las cuentas por pagar contra el desembolso realizado por ejemplo.
 
 El detalle de la asignación se ve en sus líneas donde se pueden realizar diversas combinaciones (Factura – Nota de crédito, Factura – Pago, Factura – Cargo o Pago - Cargo).
 
-# **Trazabilidad de Asignaciones en los Documentos**
+# Trazabilidad de Asignaciones en los Documentos
 
-## **Documentos por Pagar**
-
-Podrá ver las asignaciones a este documento en la pestaña de Pagos Asignados.
-
-Podrá navegar a la asignación haciendo clic en el documento.
-
-## **Documentos por Cobrar**
+## Documentos por Pagar
 
 Podrá ver las asignaciones a este documento en la pestaña de Pagos Asignados.
 
 Podrá navegar a la asignación haciendo clic en el documento.
 
-## **Recibo de Pago**
-
-Podrá ver las asignaciones a este documento en la pestaña de Documentos Asignados.
-
-Podrá navegar a la asignación haciendo clic en el documento.
-
-## **Recibo de Cobro**
-
-Podrá ver las asignaciones a este documento en la pestaña de Documentos Asignados.
-
-Podrá navegar a la asignación haciendo clic en el documento.
-
-# **Trazabilidad de Asignaciones en los Documentos**
-
-## **Documentos por Pagar**
+## Documentos por Cobrar
 
 Podrá ver las asignaciones a este documento en la pestaña de Pagos Asignados.
 
 Podrá navegar a la asignación haciendo clic en el documento.
 
-## **Documentos por Cobrar**
+## Recibo de Pago
+
+Podrá ver las asignaciones a este documento en la pestaña de Documentos Asignados.
+
+Podrá navegar a la asignación haciendo clic en el documento.
+
+## Recibo de Cobro
+
+Podrá ver las asignaciones a este documento en la pestaña de Documentos Asignados.
+
+Podrá navegar a la asignación haciendo clic en el documento.
+
+# Trazabilidad de Asignaciones en los Documentos
+
+## Documentos por Pagar
 
 Podrá ver las asignaciones a este documento en la pestaña de Pagos Asignados.
 
 Podrá navegar a la asignación haciendo clic en el documento.
 
-## **Recibo de Pago**
+## Documentos por Cobrar
+
+Podrá ver las asignaciones a este documento en la pestaña de Pagos Asignados.
+
+Podrá navegar a la asignación haciendo clic en el documento.
+
+## Recibo de Pago
 
 Podrá ver las asignaciones a este documento en la pestaña de Documentos Asignados.
 
 Podrá navegar a la asignación haciendo clic en el documento.
 
-## **Recibo de Cobro**
+## Recibo de Cobro
 
 Podrá ver las asignaciones a este documento en la pestaña de Documentos Asignados.
 
 Podrá navegar a la asignación haciendo clic en el documento.
 
-# **Asignación**
+# Asignación
 
 Es un documento que vincula dos o más elementos, de forma que se pueda tener una trazabilidad perfecta a causa de esta vinculación.
 
@@ -87,17 +87,17 @@ La Asignación disminuirá el Saldo Pendiente del Documento por Pagar/Cobrar.
 
 ### **Asignación por Nota de Crédito**
 
-**Documentos por Cobrar/Pagar                    Nota de Crédito de documento por Cobrar/Pagar**
+Documentos por Cobrar/Pagar                    Nota de Crédito de documento por Cobrar/Pagar
 
-**Asignación Nota de Crédito 1**
+Asignación Nota de Crédito 1
 
-**Asignación Nota de Crédito 2**
+Asignación Nota de Crédito 2
 
-**Asignación Nota de Crédito 3**
+Asignación Nota de Crédito 3
 
 ### **Asignación por Anulación**
 
-**Documentos por Cobrar/Pagar                    Anulación de documento por Cobrar/Pagar**
+Documentos por Cobrar/Pagar                    Anulación de documento por Cobrar/Pagar
 
 En cada oportunidad que un documento completo es Anulado el Sistema crea el Reverso de ese mismo documento y lo asigna mediante este documento.
 
@@ -147,13 +147,13 @@ es mayor al importe de la NC. En el caso que sea menor, entonces la NC se asigna
 
 En ningún caso se toman en cuenta las lineas de CFE referidos que no tienen factura seleccionada.
 
-## **Documentos por Pagar**
+## Documentos por Pagar
 
 ## **Pago (contado)**
 
 \+=============================+============+==========+ [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id1)21300 - Payment Selection [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id3)4\.700,00 [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id5)0\.00 | +—————————–+————+———-+ [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id7)11110 - Checking In-Transfer [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id9)143\.459,81 [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id11)4\.700,00 | +—————————–+————+———-+
 
-## **Cheque Diferido**
+## Cheque Diferido
 
 **Emisión de Cheque**
 
@@ -163,7 +163,7 @@ En ningún caso se toman en cuenta las lineas de CFE referidos que no tienen fac
 
 \+===============================+===================+ [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id25)21100 - Accounts Payable Trade [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id27)3\.000,00 [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id29)0\.00 | +——————————-+———+———+ [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id31)Cuenta Puente Diferidos [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id33)0\.00 [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id35)3\.000,00 | +——————————-+———+———+
 
-## **Asignación de Pagos**
+## Asignación de Pagos
 
 \+===============================+======+=====+ [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id37)21100 - Accounts Payable Trade [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id39)500 [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id41)0\.00 | +——————————-+——+—–+ [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id43)21300 - Payment Selection [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id45)0\.00 [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id47)500 | +——————————-+——+—–+
 

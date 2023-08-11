@@ -1,5 +1,5 @@
 ---
-title: Proyecto de Agencia
+title: Proyecto de Medios
 category: Documentation
 star: 9
 sticky: 9
@@ -8,49 +8,9 @@ tag:
 article: false
 ---
 
-# **Proyecto de Agencia**
+# Proyecto de Medios
 
-# **Proyecto de Agencia**
 
-Los Proyectos de Agencia podrán ser de dos tipos:
-
-* Proyectos de Medios
-* Proyectos de Agencia Creativa
-
-**Campos Automáticos a tener en cuenta:**
-
-* **Sello Origen:**
-
-Cuando se guarda un proyecto de agencia o de medios, se realiza lo siguiente:
-
-Según la Categoría de Proyecto se definirá el Sello Origen correspondiente que tenga definido el contrato en sus “Partes del Contrato”. Según las siguientes Categoría de Proyecto se obtendrá el sello definido para el siguiente tipo de empresa:
-
-Categoría de Proyecto     Tipo de Empresa
-
-Proyecto de Agencia         Agencia Creativa
-
-Proyecto de Medios          Agencia de Medios
-
-Proyecto RRPP                  Agencia RRPP
-
-**\*Si no se obtuvo sello de origen se lanza una excepción.**
-
-* **Agente Comercial:**
-
-Agente Comercial: El campo “Agente Comercial” en el cabezal de un Proyecto tomará de forma automática al usuario logueado en el sistema siempre que este tenga el check de “Agente comercial” en “Y”, en la Pestaña “Empleado” de la ventana “Socio de negocio”.
-
-# **Agencia de Medios**
-
-# **Gestión de Medios**
-
-## **Proyecto de Medios**
-
-El Proyecto de Medios centraliza el pedido realizado por el cliente, asociando todo tipo de documentos que hayan sido generados a lo largo de toda la organización, por ejemplo:
-
-* Orden de Compra
-* Orden de Venta
-* Cotizaciones
-* Tareas
 
 En un Proyecto de Medios se gestionará la Inversión que un cliente quiera realizar sobre los Tipos de Medio y Medios que desee.
 
@@ -72,7 +32,7 @@ En cada proyecto se definirá los siguientes puntos:
 
 **Reportes:** se podrá generar diferentes Reportes financieros sobre el estado de los proyectos.
 
-### **Campos del Proyecto**
+### Campos del Proyecto
 
 #### **Campos Manuales**
 
@@ -127,7 +87,7 @@ Los diferentes niveles posibles son: Proyecto, Fase y Tarea.
 
 **Nivel TAREA:** Se utilizará cuando el Proyecto sea de Pre-Compra o Inversión y luego su Consumo (En momentos diferentes).
 
-# **Checkin de la Pauta**
+## Checkin de la Pauta
 
 Luego de contar con una **“Orden de Publicidad (Compra y Consumo)”** en Estado “Completo”, la misma se deberá confirmar mediante el Checking.
 
@@ -250,7 +210,7 @@ La Orden de Venta se deberá Completar, de manera que se genere automáticamente
 
 Desde la Orden de Compra se podrá obtener la Representación Impresa de la misma que deberá ser enviada al Proveedor del Medio.
 
-## **Consumo**
+## Consumo
 
 Desde la tarea se deberá crear una Orden de Venta del Tipo “Orden de Venta (Consumo)” tomando los datos definidos en la misma y en sus líneas. En las Líneas de la Tarea se deberá definir los Productos a ser Consumidos, definiendo Fecha Emisión, Producto, Descripción del Programa, Cantidad y Precio.
 
@@ -266,7 +226,7 @@ La Orden de Venta (Consumo) se deberá Completar, de manera que se genere autom�
 
 Ambas consumirán sus Órdenes de Pre-Compra correspondientes (Orden de Venta y Orden de Compra), quedando a la espera de ser confirmados mediante el “Checking”.
 
-## **Checking**
+## Checking
 
 Luego de contar con una “Orden de Publicidad (Consumo)” o una “Orden de Publicidad (Compra y Consumo)” en Estado “Completo”, la misma se deberá confirmar mediante el Checking.
 
@@ -280,7 +240,7 @@ En caso de que dicha Cantidad a su vez deberá Liberar Saldo de una Pre-Compra a
 
 Creación de un “Proyecto de Medios” donde realizará la Inversión del cliente. La idea es que dentro de un mismo Proyecto se controle lo **Ordenado con lo Facturado**. Como se manejan diferentes criterios de Facturación que de recepción de Productos a inventario, se decide manejar mediante la FASE la “*Inversión”*, y mediante la Tarea y líneas de la Tarea la *“Recepción”*.
 
-# **Compra Inventario**
+# Compra Inventario
 
 ## **Se comienza generando un Proyecto con nivel de línea “Tarea”**
 
@@ -306,7 +266,7 @@ Para que el sistema permita elegir un Proveedor en el campo **Socio del negocio 
 * Esté creado con la Organización con la que se encuentra logueado el usuario o con Organización (\*).
 * En la ventana Socio de negocio, en su cabezal debe tener marcado el check de “activo” y en la pestaña Proveedor el check de “Proveedor”.
 
-## **Orden de Inventario:**
+## Orden de Inventario:
 
 Desde la Tarea se crea la **Orden de Inventario** donde se definirán los Productos a comprar. El proceso de generar una Compra de Inventario deberá comenzar realizando la definición de todos los Productos que se estarán adquiriendo para consumir en el futuro dentro las líneas de una Tarea de Proyecto.
 
@@ -349,7 +309,7 @@ Contablemente el sistema actualmente Descuenta el importe en cuestión por el pr
 
 Se quiere que contabilice correctamente dando la entrada contablemente del nuevo producto. No se desea realizar ningún asiento contable por esta transacción.
 
-# **Errores frecuentes**
+# Errores frecuentes
 
 ## **Error 1: No me aparece el Cliente para elegir en el proyecto:**
 
@@ -365,9 +325,9 @@ Además se deberá verificar que el contrato que se obtenga para ese Cliente ten
 
 Cuando esto sucede es probable que el contrato del proyecto en cuestión no tenga definido un sello origen para este Tipo de empresa, por lo que deberemos navegar al Contrato y en la pestaña Partes del contrato crear el sello origen correspondiente.
 
-# **Agencia Creativa**
+# Agencia Creativa
 
-# **Proyecto de Agencia Creativa**
+# Proyecto de Agencia Creativa
 
 El Proyecto de Agencia Creativa será donde se deba ingresar todo pedido realizado por el cliente. Desde el Proyecto se vinculará todos los documentos que se haya generado a causa dicho Pedido a lo largo de toda la organización (Solicitudes, Orden de Compra, Orden de Venta, Cotizaciones, Tareas, etc) y será desde donde se defina la facturación a realizar.
 
