@@ -8,10 +8,10 @@ article: false
 
 Esta documentación está destinada a definir cada uno de los procedimientos para la gestión de distribución de los productos en Solop ERP para cualquier organización, es importante seguir al pie de la letra cada uno de los procedimientos descritos aquí recuerde que de eso dependerá el buen uso del ERP.
 
-***__Distribución__***
+## ***__Distribución__***
 
 
-**Órdenes de venta (Tipo documento destino: orden de venta)**
+### **Órdenes de venta (Tipo documento destino: orden de venta)**
 
 
 Se debe seleccionar el socio de negocio.
@@ -33,7 +33,7 @@ Luego de setear todos los datos obligatorios se completa la orden de venta. Esto
 Los descuentos en la orden de venta pueden ingresarse manualmente o bien setearse en el socio de negocio.
 
 
-***__Órdenes de Venta: Tipo documento destino y subtipo OV__***
+### ***__Órdenes de Venta: Tipo documento destino y subtipo OV__***
 
 Para realizar un registro de orden de venta, el primer paso es seleccionar el tipo de orden de venta (tipo documento destino).
 
@@ -55,7 +55,7 @@ El subtipo OV orden prepagada genera entrega y cobro  (pero no la factura).
 
 El subtipo OV orden punto de venta genera todos los documentos (entrega, factura y cobro). Es una opción que ya no se utiliza. Se reemplazó por la orden facturada automáticamente.
 
-***__Orden de Venta: Regla de Entrega__***
+### ***__Orden de Venta: Regla de Entrega__***
 
 
 De acuerdo a la selección que se realice sobre la regla de entrega, el sistema presentará diferentes comportamientos.
@@ -65,7 +65,7 @@ Reglas de Entrega:
 * Disponibilidad: El ERP verifica que se posea el stock necesario de acierdp al producto y cantidades.
 * Forzado: el sistema realiza la entrega completa sin verificar stock. En caso que el stock sea insuficiente, quedará con cantidad "negativa".
 
-***__Generar Orden de Salida__***
+### ***__Generar Orden de Salida__***
 
 
 Luego de completar las órdenes de venta, el paso siguiente es **"generar orden de salida"**. En esta ventana se da origen al proceso de distribución.
@@ -97,7 +97,7 @@ Al momento de aceptar la orden de salida es importante seleccionar la acción qu
 En este caso se recomienda setear "en proceso", porque aun en esta instancia se encuentra pendiente realizar el "pickeo" para determinar la existencia real de los productos para completar los pedidos.
 ![Ventana Orden de Salida](/assets/img/docs/distribution-management/orden_de_salida.png)
 
-***__Generar picking y entregas desde orden de salida__***
+### ***__Generar picking y entregas desde orden de salida__***
 
 
 Se debe marcar todo lo que se encontró de los productos a entregar (resultado del picking) y se modifican las cantidades de acuerdo a las existencias reales.
@@ -108,7 +108,7 @@ El motivo por el cual puede haber diferencias entre la existencia que muestra el
 
 En esta instancia, al consultar una orden de venta (vinculada a nuestra orden de salida con estado completo) se puede observar la cantidad "entregada". Aun no se visualizará cantidad facturada.
 
-***__Crear Facturas Masivamente__***
+### ***__Crear Facturas Masivamente__***
 
 
 Una vez generado el picking y entrega, el paso siguiente es **crear las facturas masivamente**.
@@ -125,7 +125,7 @@ El formato de impresión de las facturas es gestionado por Solop (soporte). Aunq
 
 Una vez generadas las facturas, al consultar las órdenes de venta vinculadas, se podrá observar además de cantidades entregadas, las cantidades facturadas.
 
-***__Generar Cobros desde Orden de Salida__***
+### ***__Generar Cobros desde Orden de Salida__***
 
 
 El último paso de este proceso es **generar los cobros desde orden de salida.**  Se debe seleccionar la orden de salida.

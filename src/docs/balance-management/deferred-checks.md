@@ -6,9 +6,9 @@ sticky: 9
 article: false
 ---
 
-# **Cheques Diferidos**
+## **Cheques Diferidos**
 
-# **Cancelando un Documento por Pagar con un Cheque Recibido**
+## **Cancelando un Documento por Pagar con un Cheque Recibido**
 
 El sistema actualmente no cuenta con esta funcionalidad de una manera directa pero de todas formas se pueden registrar siguiente los siguientes pasos.
 
@@ -16,7 +16,7 @@ El sistema actualmente no cuenta con esta funcionalidad de una manera directa pe
 * Una vez se tenga la cuenta bancaria creada, deberá realizar el depósito del Cheque Diferido por Cobrar en la Cuenta Bancaria de “Endoso de Cheques”.
 * Luego de hacer el Depósito en dicha cuenta, deberá realizar directamente el pago correspondiente a el Socio de Negocio que desea entregar dicho Cheque Diferido por Cobrar.
 
-# **Gestión de Cheques Diferidos por Cobrar**
+## **Gestión de Cheques Diferidos por Cobrar**
 
 ## **Creación de Cheques Diferidos por Cobrar**
 
@@ -38,7 +38,7 @@ El Cheque Diferido por Cobrar será creado y lo podrá ver en la ventana de Cheq
 
 Los Cheques Diferidos por Cobrar son ingresados al momento de ingresar el Recibos de Cobro, creándolo en ese mismo momento desde esa ventana.
 
-# **Reporte de Cheques Diferidos por Cobrar**
+## **Reporte de Cheques Diferidos por Cobrar**
 
 ## **Ventana de Cheques Diferidos por Cobrar**
 
@@ -48,7 +48,7 @@ Esta ventana es solamente de lectura (consulta), ya que los cheques por cobrar s
 
 El Vencimiento desde la ventana se verá en la Pestaña “Vencimiento”. De todas maneras la manera más ágil de ver estos vencimientos será mediante el Reporte de “Cheques Diferidos”.
 
-# **Creación de Libretas/Resmas de Cheques Propios**
+## **Creación de Libretas/Resmas de Cheques Propios**
 
 Cómo primer paso para emitir cheques manuales en libretas, se deberán crear las libretas/resmas en el sistema, así como las secuencias para las mismas. Para ello se deberá ir a la ventana “Libreta/Resma Cheques” y “Secuencia de Documentos Controlados”.
 
@@ -68,7 +68,7 @@ Para ello ingrese el nombre, nombre a ser impreso, cuenta bancaria y la secuenci
 
 En la pestaña “Cheques” se visualiza el estado de los mismos.
 
-# **Débito de Cheques Propios**
+## **Débito de Cheques Propios**
 
 Los Débitos de Cheques Propios se deben realizar mediante el proceso automatizado de “Débito de Cheques”, el cual representa la salida de fondos de la empresa a causa del vencimiento de la fecha del cheque diferido.
 
@@ -82,7 +82,7 @@ El documento generado por este depósito podrá ser visualizado en la ventana �
 
 Luego veremos el documento generado en la ventana Depósito de Cheque Propio (solapa general).
 
-# **Gestión de Cheques Diferidos por Pagar**
+## **Gestión de Cheques Diferidos por Pagar**
 
 ## **Emisión de Cheque Diferido por Pagar**
 
@@ -142,7 +142,7 @@ Luego de oprimir el botón “Comenzar Búsqueda”, se cargan automáticamente 
 
 El documento generado por este depósito podrá ser visualizado en la ventana “Débito de Cheque Propio”.
 
-# **Débito de Cheque Propio (Documento)**
+## **Débito de Cheque Propio (Documento)**
 
 Esta ventana es igual a la ventana “Depósito Cheque Tercero”, con la diferencia que la cuenta seleccionada en el campo “Cuenta Bancaria” debe ser la cuenta del/los cheque/s a depositar.
 
@@ -204,17 +204,17 @@ Si está sustituyendo un Cheque diferido:
 
 **Para rechazar un Cheque diferido se deberá seguir el siguiente procedimiento:**
 
-# **Depósito del Cheque Diferido:**
+## **Depósito del Cheque Diferido:**
 
 * Para hacer el depósito del cheque diferido de tercero iremos a la ventana “Depósito de cheques” aplicaremos los filtros deseados y realizaremos la búsqueda “Smart browser”. Luego seleccionaremos el cheque a depositar indicando la Cuenta bancaria destino, la Fecha de la transacción y confirmaremos con el botón de OK. El documento generado por este depósito podrá ser visualizado en la ventana **“Depósito de Cheque Tercero”.**
 
-# **Asignar el Depósito a la Entrega/Salida del dinero desde la Cuenta Bancaria en la Conciliación Bancaria**
+## **Asignar el Depósito a la Entrega/Salida del dinero desde la Cuenta Bancaria en la Conciliación Bancaria**
 
-# **Luego de realizar el Match entre el Depósito y el Movimiento Bancario de la Conciliación Reversar el Depósito para que se genere un nuevo Depósito con signo contrario**
+## **Luego de realizar el Match entre el Depósito y el Movimiento Bancario de la Conciliación Reversar el Depósito para que se genere un nuevo Depósito con signo contrario**
 
-# **Realizar el Match en la conciliación entre el Reverso del Depósito con la Línea de la conciliación Bancaria del Rechazo**
+## **Realizar el Match en la conciliación entre el Reverso del Depósito con la Línea de la conciliación Bancaria del Rechazo**
 
-# **Depósito Cheque Diferido de Clientes (Proceso)**
+## **Depósito Cheque Diferido de Clientes (Proceso)**
 
 Los Depósitos de Cheques de Clientes se deben realizar mediante el proceso automatizado de “Depósito de Cheques”
 
@@ -242,7 +242,7 @@ Cheque: aquí se busca y selecciona el cheque a depositar. Si se desea depositar
 
 En caso de desear también se podrá generar los depósitos directo desde esta ventana. Para ello se deberá generar un nuevo registro y completar todos los campos. Para finalizar se procederá a Completar el documento, y de esa manera quedará realizado el depósito del cheque en la cuenta bancaria seleccionada.
 
-# **Gestión Avanzada de Cheques Diferidos**
+## **Gestión Avanzada de Cheques Diferidos**
 
 ## **Cheque Diferido por Pagar**
 

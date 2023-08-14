@@ -14,7 +14,7 @@ El Contrato de Servicios resume en un documento la representación de determinad
 
 Este se generará definiendo en Socio del Negocio al Alumno y en el campo “Responsable de Pago” al responsable de pago que se define en la Familia. La Factura por los servicios brindados en cada contrato será generada al Responsable de Pago definido.
 
-## **Cabezal ventana de Contrato de Servicio**
+### **Cabezal ventana de Contrato de Servicio**
 
 ### **Socio del Negocio**
 
@@ -26,7 +26,7 @@ Este se generará definiendo en Socio del Negocio al Alumno y en el campo “Res
 
 **Curso:** Se podrá identificar el Curso al que pertenece el Alumno. Este dato podrá irse actualizando año a año a medida que se avance en el curso.
 
-## **Fechas del Contrato**
+### **Fechas del Contrato**
 
 **Fecha del Documento:** Fecha en que se suscribe el Contrato.
 
@@ -48,7 +48,7 @@ Este se generará definiendo en Socio del Negocio al Alumno y en el campo “Res
 
 **Término de pago:** Inmediato, 10 días.
 
-## **Cuotas**
+### **Cuotas**
 
 Las cuotas podrán visualizarse con descuento incluido (en el caso que se definan descuentos en la línea del contrato) o con descuento aparte (en el caso que se definan descuentos como línea negativa) .
 
@@ -56,7 +56,7 @@ Para poder visualizar desde la Ventana de Contrato de Servicios todas las cuotas
 
 Una vez facturado se agregará el Check de Facturado a la línea de cuota misma como a la línea de su descuento.
 
-## **Descuentos**
+### **Descuentos**
 
 Un Contrato de Servicios podrá contar con más de un Descuento establecido, la Suma de ambos descuentos se podrán aplicar de dos maneras distintas: como línea negativa o en la línea del contrato.
 
@@ -64,7 +64,7 @@ Esta pestaña podrá actualizar de manera automática desde el proceso “Crear 
 
 Adicionalmente podrá definir un descuento especial pero de manera manual seleccionando el tipo, el porcentaje que corresponda y la Categoría de Producto sobre la cuál se deberá aplicar el descuento.
 
-## **Líneas del Contrato**
+### **Líneas del Contrato**
 
 Se define los distintos Productos/Servicios que intervienen en el Contrato de Servicios de manera recurrente.
 
@@ -86,11 +86,11 @@ Se define los distintos Productos/Servicios que intervienen en el Contrato de Se
 
 Producto definido en la Lista de Precios.  *% Descuento:*  En el caso que el descuento se defina en la línea del contrato este se definirá aquí mediante el Proceso de Actualizar Descuento de Líneas de Contrato. \* En el caso que el Descuento se defina como línea negativa, este campo indicará “0”.
 
-# **Actualización del Contrato de Servicio**
+### **Actualización del Contrato de Servicio**
 
-# **Actualización de Descuentos en Linea de Contrato**
+### **Actualización de Descuentos en Linea de Contrato**
 
-## **Actualización de Descuentos**
+### **Actualización de Descuentos**
 
 Este proceso se utilizará en caso que se decida definir los descuentos desde la línea del contrato.
 
@@ -98,13 +98,13 @@ Desde el cabezal de la ventana Contrato de Servicio, seleccionando el icono de P
 
 En base a todos los descuentos que tenga definido un Contrato se le definirá el Descuento final que tendrá realmente en las líneas de Servicios que entre en la condición de los Descuentos. Por ejemplo que sólo apliquen sobre los Productos de Categoría de Producto: Servicios Educativos (Cuotas).
 
-# **Actualización de Precios**
+### **Actualización de Precios**
 
-## **Listas de Precio**
+### **Listas de Precio**
 
 Existen Listas de Precios de Venta y de Compra, y a cada Socio del Negocio se le debe definir una. A los Alumnos, como son considerados Clientes se le debe definir en el cabezal de la ventana Socio de Negocio la Lista de Precios “Venta Pesos”
 
-## **Versiones de Listas de Precios**
+### **Versiones de Listas de Precios**
 
 A su vez existen versiones de una Lista de Precios, por ejemplo:
 

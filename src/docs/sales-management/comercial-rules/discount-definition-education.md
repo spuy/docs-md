@@ -8,13 +8,13 @@ tag:
 article: false
 ---
 
-# **Definición de Descuentos Educación**
+## **Definición de Descuentos Educación**
 
 Los descuentos pueden ser simples o tener cortes que le hacen variar el porcentaje de descuento según una variable.
 
 Esto se define en la ventana de Esquema de Descuento.
 
-## **Esquema de Descuento**
+### **Esquema de Descuento**
 
 Dentro de la Ventana “Esquema de Descuento” podremos observar todos los diferentes tipos de descuento que tenemos.
 

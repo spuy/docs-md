@@ -6,9 +6,9 @@ sticky: 9
 article: false
 ---
 
-# **Recibo**
+## **Recibo**
 
-# **Recibo de Pago**
+## **Recibo de Pago**
 
 El recibo de pago opera de manera similar al de Recibo de Cobro.
 
@@ -64,7 +64,7 @@ Acción igual a la explicada para Recibos de Cobro.
 
 Una vez terminado todos los pasos se deberá completar el documento.
 
-# **Recibo de Cobro**
+## **Recibo de Cobro**
 
 Es un documento que la empresa emite indicando que cobró a un tercero uno o varios Documentos por Cobrar, indicando qué Documentos está cobrando y con qué medios de pago le están pagando.
 
@@ -139,7 +139,7 @@ Opcionalmente podrá definir en el campo “Recibo de Canje” el nro del Recibo
 
 Al Completar un Recibo de Cobro, se completarán así como los Cobros definidos en el mismo como también se generará una Asignación entre todos los documentos definidos en sus pestañas. Será la Asignación el documento que realmente cancelará el Saldo Abierto de aquellos Documentos por Cobrar y Documentos por Pagar con sus correspondientes Pago/Cobro.
 
-# **Recibo Multimoneda**
+## **Recibo Multimoneda**
 
 Los pasos a seguir para generar un Recibo Multimoneda son los siguientes:
 
@@ -171,7 +171,7 @@ Elegimos las facturas y en total de pago indicamos el importe a asignar al Recib
 
 Por último, generamos el cobro/pago mediante la opción “Generar cheque diferido” o “Generar pago contado” según corresponda y completaremos el documento.
 
-# **Recibo de Cobro con Redondeo**
+## **Recibo de Cobro con Redondeo**
 
 Para generar un recibo de cobro se comenzará completando los siguientes campos:
 
@@ -207,7 +207,7 @@ Aquí **SI** deberemos marcar el check de Redondeo.
 
 Como último paso en todos los casos se deberá Completar el documento mediante el botón Completar.
 
-# **Impresión de Recibo de Cobro**
+## **Impresión de Recibo de Cobro**
 
 Es posible imprimir el detalle del Recibo de Cobro realizado a los clientes de la empresa con un formato y pre-numeración oficial.
 
@@ -216,7 +216,7 @@ Para esto presione imprimir en la Barra de Herramientas y el Reporte mostrará:
 * Documentos por Cobrar cancelados
 * Documentos de Pago recibidos
 
-# **Canje de Recibos (misma moneda)**
+## **Canje de Recibos (misma moneda)**
 
 Directamente desde el Recibo se puede generar un Canje de Recibos, ya sea desde un Recibo de Cobro como desde un Recibo de Pago.
 

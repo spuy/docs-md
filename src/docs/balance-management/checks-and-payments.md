@@ -8,7 +8,7 @@ article: false
 
 # **Cheques y Pagos**
 
-# **Rechazo de Cheques al Día**
+## **Rechazo de Cheques al Día**
 
 Para realizar rechazos de Cheques al Día se deberá seguir el siguiente procedimiento:
 
@@ -28,7 +28,7 @@ Para realizar rechazos de Cheques al Día se deberá seguir el siguiente procedi
 
 * Para realizar el Cobro del Cheque Rechazado una vez sea abonado por el Cliente se deberá utilizar el Smart Browser de Depósito de Cheques para que ingrese al banco el nuevo pago correspondiente.
 
-# **Opciones Para Emitir Cheques**
+## **Opciones Para Emitir Cheques**
 
 Muchas empresas emiten Cheques a Pagar a los efectos de cancelar los compromisos con sus proveedores.
 
@@ -81,7 +81,7 @@ De regreso en la ventana de libreta/resma de cheques, se debe ingresar el nombre
 
 En la pestaña “Cheques” se visualiza el estado de los mismos.
 
-# **Procesando transacciones de Caja/Bancos**
+## **Procesando transacciones de Caja/Bancos**
 
 En Solop ERP puede agregar rápidamente transacciones que registran los cobros de los clientes, los pagos a los proveedores, los reembolsos recibidos de proveedores, cargos y comisiones bancarias, retiros de Caja/Banco y diversos ajustes. Además, puede controlar las cuentas de Caja/Banco y administrar efectivamente estas transacciones.
 

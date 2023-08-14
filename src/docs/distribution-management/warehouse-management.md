@@ -7,6 +7,7 @@ article: false
 ---
 
 ## ¿Qué es WMS?
+
 Las siglas WMS (Warehouse Management System) responden a la gestión avanzada de almacenes, que deberá brindar un soporte eficiente a las operaciones realizadas en un almacén y ofrecer una amplia visión de todos los recursos de la organización.
 
 Sin importar el nivel de inventario que cada compañía posea, el WMS resulta funcional debido a que mejora la organización de los procesos y el manejo de los inventarios en tiempo real.Es por ello, que hoy es importante la inversión en herramientas técnologicas de gestión de almacenes.
@@ -64,6 +65,7 @@ También puede generarse de manera manual permitiendo así una agrupación de or
 - Orden de Flete
 - Reporte de Orden de Flete
 - Reporte de Planificación de Embarque
+
 ###  Orden de Salida Manual
 
 ![image](https://github.com/erpcya/docs/assets/9578152/e3676964-a07c-4dc9-843b-a0627013b290)

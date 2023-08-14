@@ -8,9 +8,9 @@ tag:
 article: false
 ---
 
-# Estudiantes
+## Estudiantes
 
-## Socio del Negocio
+### Socio del Negocio
 
 Un Socio del Negocio corresponde a una entidad con la que se hacen negocios. Hay tres tipos diferentes de Socios del Negocio:
 
@@ -46,7 +46,7 @@ Ejemplo de relleno de cabezal para un Estudiante:
 
 Es obligatorio ingresar la localización (domicilio) en un Socio de Negocio. Ingrese dónde está marcado.
 
-# Familia
+## Familia
 
 La Familia se crea como una agrupación donde dentro de la misma se podrán encontrar sus correspondientes miembros junto con el vínculo que los define (Padre, Madre, Hijo, Tutor).
 
@@ -70,7 +70,7 @@ Nombre de Familia: 2 Apellidos de la Familia
 
 Descripción Familia: Si se desea
 
-## Miembros (Pestaña)
+### Miembros (Pestaña)
 
 Los Miembros de la Familia del Tipo de Vínculo Estudiante y el Responsable de Pago deben estar previamente ingresados como Socio del Negocio.
 
@@ -85,13 +85,13 @@ Para crear una nueva Familia se deberá seleccionar:
 
 Puede ingresar también los Miembros de la Familia desde el Contrato de Servicios, posicionándose en Alumno, haciendo click derecho y seleccionando Registro nuevo.
 
-**Definir la cantidad de Hermanos en la Familia:**
+ ### **Definir la cantidad de Hermanos en la Familia:**
 
 Al momento de guardar un Socio del Negocio como Miembro de la Familia el sistema verificará que el mismo sea de Tipo de Relación = “Hijo” y que tenga un Contrato de Servicio creado en el sistema.
 
 En ese momento se actualizará automáticamente en la Ventana Familia el Campo “Hermanos”.
 
-**Orden de Creación de Contratos Recomendado:**
+### **Orden de Creación de Contratos Recomendado:**
 
 * Nombre Familia
 * Contrato
@@ -104,7 +104,7 @@ En ese momento se actualizará automáticamente en la Ventana Familia el Campo �
   * Familia
 * Miembros de Familia
 
-# **Documentos compartidos entre Organizaciones**
+## **Documentos compartidos entre Organizaciones**
 
 Cuando un Documento deba ser compartido entre diferentes Organizaciones se deberán crear con Organización “ \* ”
 
