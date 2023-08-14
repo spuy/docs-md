@@ -9,9 +9,9 @@ article: false
 
 ---
 
-# **Documentos por Pagar Agencia**
+## **Documentos por Pagar Agencia**
 
-# **Ingreso de Factura de Compra**
+## **Ingreso de Factura de Compra**
 
 ## **Precondiciones con Orden de Compra**
 
@@ -65,7 +65,7 @@ Seleccionar Líneas
 
 Culminaremos el proceso completando el documento.
 
-# **Ingreso de Nota de Crédito Proveedor**
+## **Ingreso de Nota de Crédito Proveedor**
 
 Para Ingresar una Nota de Crédito Proveedor, utilizaremos la ventana Documentos por pagar.
 

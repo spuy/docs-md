@@ -8,7 +8,7 @@ tag:
 article: false
 ---
 
-# Proyecto de Medios
+## Proyecto de Medios
 
 
 
@@ -95,11 +95,11 @@ El checking se puede acceder desde los Procesos definidos en el Proyecto de Medi
 
 Al realizar la búsqueda desde el SmartBrowser de Checkin, deberá seleccionar las líneas que han sido emitidas, confirmando a su vez la cantidad en cuestión de dicha emisión.
 
-# **Reporte “Detalle de Almacenamiento Simple”**
+## **Reporte “Detalle de Almacenamiento Simple”**
 
 Se podrá confirmar el ingreso de los productos al almacén mediante el reporte de “Detalle de Almacenamiento Simple” seleccionando el Almacén en cuestión.
 
-# **Proyecto de Medios Compra y Consumo**
+## **Proyecto de Medios Compra y Consumo**
 
 Se entiende como “Compra y Consumo” cuando se desee realizar una compra a un Medio en nombre de un Cliente y a su vez, en el mismo documento se solicita también su emisión.
 
@@ -240,7 +240,7 @@ En caso de que dicha Cantidad a su vez deberá Liberar Saldo de una Pre-Compra a
 
 Creación de un “Proyecto de Medios” donde realizará la Inversión del cliente. La idea es que dentro de un mismo Proyecto se controle lo **Ordenado con lo Facturado**. Como se manejan diferentes criterios de Facturación que de recepción de Productos a inventario, se decide manejar mediante la FASE la “*Inversión”*, y mediante la Tarea y líneas de la Tarea la *“Recepción”*.
 
-# Compra Inventario
+## Compra Inventario
 
 ## **Se comienza generando un Proyecto con nivel de línea “Tarea”**
 
@@ -309,7 +309,7 @@ Contablemente el sistema actualmente Descuenta el importe en cuestión por el pr
 
 Se quiere que contabilice correctamente dando la entrada contablemente del nuevo producto. No se desea realizar ningún asiento contable por esta transacción.
 
-# Errores frecuentes
+## Errores frecuentes
 
 ## **Error 1: No me aparece el Cliente para elegir en el proyecto:**
 
@@ -325,9 +325,9 @@ Además se deberá verificar que el contrato que se obtenga para ese Cliente ten
 
 Cuando esto sucede es probable que el contrato del proyecto en cuestión no tenga definido un sello origen para este Tipo de empresa, por lo que deberemos navegar al Contrato y en la pestaña Partes del contrato crear el sello origen correspondiente.
 
-# Agencia Creativa
+## Agencia Creativa
 
-# Proyecto de Agencia Creativa
+## Proyecto de Agencia Creativa
 
 El Proyecto de Agencia Creativa será donde se deba ingresar todo pedido realizado por el cliente. Desde el Proyecto se vinculará todos los documentos que se haya generado a causa dicho Pedido a lo largo de toda la organización (Solicitudes, Orden de Compra, Orden de Venta, Cotizaciones, Tareas, etc) y será desde donde se defina la facturación a realizar.
 
@@ -379,7 +379,7 @@ Según el usuario logueado en el sistema:
 
 Agente Comercial: Este campo en el cabezal de un Proyecto tomará de forma automática al usuario logueado en el sistema siempre que este tenga el check de “Agente comercial” en “Y”, en la Pestaña “Empleado” de la ventana “Socio de negocio”.
 
-# **Cotización para Clientes**
+## **Cotización para Clientes**
 
 El Ejecutivo de Cuentas creará un Proyecto en el cual definirá lo solicitado por el cliente. En caso de que el mismo incluya realizar una Cotización de determinados servicios/productos a diferentes proveedores externos se deberá seleccionar un Tipo de Proyecto que contemple la “Cotización”.
 
@@ -417,7 +417,7 @@ Al Completar la Orden de Venta luego de la aprobación del Cliente, automáticam
 
 En caso de contar con “% de Margen” (Mark-Up), el precio real enviado por la Cotización se definirá en la línea de la Orden de Compra. En caso de no existir “Mark-Up” los precios de la Orden de Venta y los precios de la Orden de Compra serán iguales.
 
-# **Compra Directa a un Proveedor en nombre de Cliente**
+## **Compra Directa a un Proveedor en nombre de Cliente**
 
 Cuando el Proyecto incluya realizar una compra específica a un proveedor pero que no es necesario pasar por el proceso de generar una Solicitud de Cotización (RFQ), se podrá gestionar la misma de forma directa desde una Fase.
 
@@ -456,7 +456,7 @@ Documentos sobre los que se debe realizar checking:
 
 Los Procesos desde la Barra de Herramientas no se actualizan automáticamente, por lo que si lo presionó desde la Fase, recordará los Procesos de la Fase. para solucionarlo deberá ingresar nuevamente a la ventana y presionar “Procesos” desde la pestaña de proyecto.
 
-# **Nivel de Línea**
+## **Nivel de Línea**
 
 ## **Nivel de Línea: Proyecto (Creativo Simple) / Primer Nivel**
 
@@ -512,7 +512,7 @@ TAREAS: Dentro de cada Fase se crearán las diferentes TAREAS a realizar. En el 
     * TAREA 2 (Tema a Cotizar)
     * TAREA 3 (Tema a Cotizar)
 
-# **Miembros del Proyecto**
+## **Miembros del Proyecto**
 
 En cada Proyecto se podrá agregar Miembros. Los Miembros del Proyecto serán todos aquellos usuarios, internos como externos que estén involucrados con el Proyecto.
 
@@ -524,7 +524,7 @@ La asignación de Miembros de una Cuenta se definirá dentro de la Ventana *Soci
 
 \*Pestaña “Miembros por Defecto” en Ventana Socio del Negocio.
 
-# **Solicitudes del Proyecto**
+## **Solicitudes del Proyecto**
 
 Dentro de cada Proyecto se podrá crear diferentes Solicitudes asociadas al mismo. La ventaja de generar las Solicitudes desde un Proyecto, Fase o Tarea es que tomará del contexto toda la información que necesite, como Proyecto, Cliente, etc.
 
@@ -585,7 +585,7 @@ Como verá, además de los usuarios vinculados, dentro de cada Solicitud se podr
 
 **Solicitud Pestaña Aviso de Actualizaciones**
 
-# **Tipo de Proyecto**
+## **Tipo de Proyecto**
 
 El sistema brinda diferentes “Plantillas” donde se puede definir una estructura Tipo en la cual basarse para crear un Proyecto. Esta puede utilizarse o no, según desee el usuario. La principal ventaja sería la creación automática de Fases o Tareas según el Tipo de Proyecto seleccionado ahorrando a uno crearlas manualmente. Principalmente es útil para los Proyectos donde existan cotizaciones.
 
@@ -595,7 +595,7 @@ Dentro de los diferentes Tipos de proyecto encontramos:
 * **Creativo + Cotización:** Utilizado cuando existe Creatividad y Cotización. Crea una Fase para cada una. Se necesita nivel de Proyecto “Tarea”
 * **Cotización:** Utilizado cuando es sólo para realizar una Cotización al Cliente. Crea una Fase de Cotización. Se necesita nivel de Proyecto “Tarea”
 
-# **Orden de Venta desde Proyecto**
+## **Orden de Venta desde Proyecto**
 
 En cada Proyecto, cuando un trabajo deba ser facturado al Cliente, se deberá generar una Orden de Venta vinculada al mismo.
 
@@ -629,9 +629,9 @@ Tener en cuenta que la Orden de Venta que se genere siempre tendrá en su Descri
 
 Las Órdenes de Venta cuentan con un control de Aprobación de Clientes. Para poder completar la Orden de Venta se deberá Marcar en “Y” el Check “Aprobado por Cliente” y además contar con un archivo adjunto a dicha Orden. La idea es que se adjunte la autorización que se tuvo del cliente para proceder con dicho pedido.
 
-# **Agencia de Producción**
+## **Agencia de Producción**
 
-# **Cotizaciones**
+## **Cotizaciones**
 
 ## **Cotización para Clientes**
 

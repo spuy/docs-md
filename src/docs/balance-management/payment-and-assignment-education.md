@@ -6,9 +6,9 @@ sticky: 9
 article: false
 ---
 
-# **Pago y Asignación Educación**
+## **Pago y Asignación Educación**
 
-# **Cobro por anticipo (Anualidad)**
+## **Cobro por anticipo (Anualidad)**
 
 Cuando un Responsable de Pago genera un pago por anticipado de la anualidad completa de un Contrato de Servicio, se debe generar un Cobro marcando el check de “Anticipo”.
 
@@ -26,7 +26,7 @@ Por último en la sección Documento seleccionaremos en el campo Tipo de pago el
 
 Luego de esto podemos proceder a completar el documento seleccionando el botón Completar.
 
-# **Asignación Masiva Automática con Exclusión**
+## **Asignación Masiva Automática con Exclusión**
 
 Para realizar una Asignación Masiva Automática con Exclusión se deberán seguir los siguientes pasos:
 
@@ -66,7 +66,7 @@ Luego si navegamos a la asignación desde la pestaña Facturas pagadas veremos q
 
 Si voy a la factura NO RECURRENTE puedo corroborar que esta no quedó paga aún, lo mismo podemos verificar en el reporte de Saldos pendientes.
 
-# **Asignación (Automática)**
+## **Asignación (Automática)**
 
 El proceso de Asignación automática permite generar de manera masiva asignaciones entre Facturas con Saldo Abierto contra Pago/Cobro que aún no estén asignados.
 

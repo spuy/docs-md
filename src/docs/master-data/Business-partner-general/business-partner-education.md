@@ -8,7 +8,7 @@ tag:
 article: false
 ---
 
-# Estudiantes
+## Estudiantes
 
 ## Socio del Negocio
 
@@ -46,7 +46,7 @@ Ejemplo de relleno de cabezal para un Estudiante:
 
 Es obligatorio ingresar la localización (domicilio) en un Socio de Negocio. Ingrese dónde está marcado.
 
-# Familia
+## Familia
 
 La Familia se crea como una agrupación donde dentro de la misma se podrán encontrar sus correspondientes miembros junto con el vínculo que los define (Padre, Madre, Hijo, Tutor).
 
@@ -104,7 +104,7 @@ En ese momento se actualizará automáticamente en la Ventana Familia el Campo �
   * Familia
 * Miembros de Familia
 
-# **Documentos compartidos entre Organizaciones**
+## **Documentos compartidos entre Organizaciones**
 
 Cuando un Documento deba ser compartido entre diferentes Organizaciones se deberán crear con Organización “ \* ”
 

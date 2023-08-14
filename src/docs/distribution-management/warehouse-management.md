@@ -64,6 +64,7 @@ También puede generarse de manera manual permitiendo así una agrupación de or
 - Orden de Flete
 - Reporte de Orden de Flete
 - Reporte de Planificación de Embarque
+
 ###  Orden de Salida Manual
 
 ![image](https://github.com/erpcya/docs/assets/9578152/e3676964-a07c-4dc9-843b-a0627013b290)

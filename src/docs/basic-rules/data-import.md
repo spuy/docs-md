@@ -6,7 +6,7 @@ sticky: 9
 article: false
 ---
 
-# Carga Masiva: Presupuesto Contable
+## Carga Masiva: Presupuesto Contable
 
 La aplicación gestiona diferentes tipos de contabilidad:
 

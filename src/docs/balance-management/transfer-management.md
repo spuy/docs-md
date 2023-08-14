@@ -6,7 +6,7 @@ sticky: 9
 article: false
 ---
 
-# **Transferencia Bancaria misma moneda**
+## **Transferencia Bancaria misma moneda**
 
 El Proceso de Transferencia Bancaria se utiliza para debitar y acreditar simultáneamente cuentas bancarias.
 
@@ -31,7 +31,7 @@ En el caso que la transferencia sea en una moneda diferente a la moneda de la em
 
 Es importante destacar que el Cargo determina el asiento contable que realizará, estipulando la cuenta puente que corresponda, por lo tanto el Cargo debe ser “Transferencia”.
 
-# **Transferencia Bancaria Multimoneda**
+## **Transferencia Bancaria Multimoneda**
 
 Desde el proceso “Transferencia Bancaria Multimoneda”, se podrá realizar una transferencia cuando las monedas de la Cuenta Bancaria origen y Cuenta Bancaria destino son diferentes, es decir, una moneda es la moneda base y la otra es una moneda extranjera.
 

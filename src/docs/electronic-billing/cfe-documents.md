@@ -6,7 +6,7 @@ sticky: 9
 article: false
 ---
 
-# **e-Factura**
+## **e-Factura**
 
 Si se requiere generar una e-Factura, es requisito que el Cliente disponga de un RUT definido en la definición del Socio del Negocio.
 
@@ -15,7 +15,7 @@ Ventana Socio del Negocio:
 * **Grupo de Impuestos:** Debe seleccionarse “RUT”
 * **Número de Identificación:** Debe ir el número del RUT
 
-# **e-Ticket**
+## **e-Ticket**
 
 Para los “e-ticket” no es requisito identificar el cliente a quién se está realizando el mismo (siempre y cuando no supere los 10.000 UI) permitiendo en estos casos generar e-Ticket a un Cliente por defecto (por ej: Mostrador) donde la venta sería un “Consumidor Final”.
 
@@ -27,7 +27,7 @@ En el caso de que se requiera incluir la Cédula en un Cliente, se puede hacer d
 
 * **En el campo “Número de Identificación” se coloca la cédula del SDN.**
 
-# **Envío del Comprobante Fiscal a DGI**
+## **Envío del Comprobante Fiscal a DGI**
 
 El Envío del Comprobante Fiscal Electrónico (CFE), ya sea e-Factura o e-Ticket se genera cuando se “Completa” el Documento en cuestión desde Solop ERP.
 
@@ -42,7 +42,7 @@ Al confirmar con el botón del check desde el “POS” o con el botón “Compl
 
 **NOTA:** Este lapso entre que el documento va a InvoiCy y DGI y es devuelto puede tener un tiempo de espera que variara dependiendo de diversas condiciones (ancho de banda del ISP, estado de procesamiento en DGI, etc.)
 
-# **Datos del CFE en Solop ERP:**
+## **Datos del CFE en Solop ERP:**
 
 Todos la información referente a la Facturación Electrónica del CFE se puede visualizar en la Pestaña CFE ubicada en la Ventana de Documentos por Cobrar.
 
@@ -60,7 +60,7 @@ Todos la información referente a la Facturación Electrónica del CFE se puede 
 
 Los mensajes de Error si no se logra Firmar el CFE se podrán visualizar en el campo “Información Extra del CFE”.
 
-# **Nota de Crédito en Facturación Electrónica**
+## **Nota de Crédito en Facturación Electrónica**
 
 La opción de Nota de Crédito para la ventana del POS aun no esta implementada, para generarla, se ingresa en Solop ERP mediante la ventana “Factura Cliente Simple” y se ingresa la información obligatoria como se muestra.
 

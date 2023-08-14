@@ -8,7 +8,7 @@ tag:
 article: false
 ---
 
-# **Definición de Descuentos Educación**
+## **Definición de Descuentos Educación**
 
 Los descuentos pueden ser simples o tener cortes que le hacen variar el porcentaje de descuento según una variable.
 

@@ -86,9 +86,9 @@ Se define los distintos Productos/Servicios que intervienen en el Contrato de Se
 
 Producto definido en la Lista de Precios.  *% Descuento:*  En el caso que el descuento se defina en la línea del contrato este se definirá aquí mediante el Proceso de Actualizar Descuento de Líneas de Contrato. \* En el caso que el Descuento se defina como línea negativa, este campo indicará “0”.
 
-# **Actualización del Contrato de Servicio**
+## **Actualización del Contrato de Servicio**
 
-# **Actualización de Descuentos en Linea de Contrato**
+## **Actualización de Descuentos en Linea de Contrato**
 
 ## **Actualización de Descuentos**
 
@@ -98,7 +98,7 @@ Desde el cabezal de la ventana Contrato de Servicio, seleccionando el icono de P
 
 En base a todos los descuentos que tenga definido un Contrato se le definirá el Descuento final que tendrá realmente en las líneas de Servicios que entre en la condición de los Descuentos. Por ejemplo que sólo apliquen sobre los Productos de Categoría de Producto: Servicios Educativos (Cuotas).
 
-# **Actualización de Precios**
+## **Actualización de Precios**
 
 ## **Listas de Precio**
 
