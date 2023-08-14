@@ -13,7 +13,7 @@ article: false
 
 El Contrato con un Socio de Negocio resume en un documento la representación de determinado acuerdo realizado con un Tercero. Este Acuerdo puede ser tanto con un Cliente como con un Proveedor y regulará condiciones para las transacciones a realizar entre ambos.
 
-## **Cabezal de la ventana Contrato de Servicio**
+### **Cabezal de la ventana Contrato de Servicio**
 
 Aquí deberán definirse los siguientes datos:
 
@@ -35,7 +35,7 @@ Aquí deberán definirse los siguientes datos:
 
       Para que este check pueda ser marcado, para aquellos Socios de Negocio que su contrato tiene definido “OC Necesaria para Facturar” se deberá completar el campo “OC Cliente” con el número de la Orden de Compra del Cliente y luego Marcar el “Permite Facturar” = SI
 
-## **Cálculo de Honorarios**
+### **Cálculo de Honorarios**
 
 El cálculo automático de honorarios (Cálculo de comisiones) se calculará al momento de completar las Órdenes de venta y lo harán sobre éstas, no sobre la Facturación.
 
@@ -51,11 +51,11 @@ Podremos acceder a la misma desde la ventana Cálculo de Comisiones mediante el 
 
 Esta se genera en una Orden de Venta distinta de la Orden de Venta de la Inversión del Cliente.
 
-## **Definición de Honorarios**
+### **Definición de Honorarios**
 
 Según el Contrato de servicio se obtendrán sus correspondientes Honorarios variables, según la definición que exista en la pestaña Honorarios, es decir, según los filtros definidos en estos registros.
 
-## **Líneas del Contrato de Servicio de Agencia**
+### **Líneas del Contrato de Servicio de Agencia**
 
 Se definen los distintos Productos/Servicios que intervienen en el Contrato de Servicios de manera recurrente.
 
@@ -73,13 +73,13 @@ Se definen los distintos Productos/Servicios que intervienen en el Contrato de S
 * **Monto de Línea de Contrato** 
   * Precio: Precio a facturarse cada vez
 
-  ## **Orden de Compra Cliente Obligatoria para Facturar**
+  ### **Orden de Compra Cliente Obligatoria para Facturar**
 
 Según el Contrato con el cliente se puede definir si es obligatorio o no que el Nro. de la Orden de Compra del Cliente esté definido en las Factura al cliente o no.
 
 Para aquellos Socios de Negocio que su contrato tiene definido en Y el check de “OC Necesaria para Facturar” en su contrato, para que el check de “Permite Facturar” pueda ser marcado en las Órdenes de Venta, se deberá completar el campo “OC Cliente” con el número de la Orden de Compra del Cliente y luego Marcar el “Permite Facturar” = SI\*\*
 
-## **Partes del Contrato de Servicio de Agencia**
+### **Partes del Contrato de Servicio de Agencia**
 
 Esta pestaña define las diferentes partes que intervienen en un Contrato de Servicios.
 
@@ -107,7 +107,7 @@ A continuación un ejemplo de como se deberá definir un registro de “Parte de
 
 De esta forma en los Proyectos se definirá el “Sello Origen” según el Tipo de empresa que tenga definida el Contrato con el cual estoy trabajando.
 
-## **Actualización de Cálculo de Honorarios**
+### **Actualización de Cálculo de Honorarios**
 
 Se deberán seguir los siguientes pasos:
 
@@ -118,7 +118,7 @@ De esta manera los Cálculos de comisiones generados antes de aplicar este proce
 
 Se generarán los nuevos Cálculos de comisiones aplicando los nuevos porcentajes definidos y una nueva Orden de venta honorarios en estado Completo.
 
-## **Devoluciones a Cliente**
+### **Devoluciones a Cliente**
 
 Se deberá realizar la “Devolución de Cliente” cuando un Cliente solicita o el Ejecutivo de Ventas solicita en nombre del cliente, la emisión de una Nota de Crédito debido a una “Entrega” (Delivery) No aceptada por el cliente.
 
@@ -132,13 +132,13 @@ Generar un Movimiento contrario a la Entrega realizada por el Checking. Restando
 
 Generar una Devolución de Proveedor Espejo, es decir se generará una Devolución Cliente y una Devolución Proveedor por la MISMA CANTIDAD definida. Dichas devoluciones luego quedarán a la espera de sus correspondientes Notas de Crédito. Administración podrá ver las Devoluciones Cliente que están pendientes de Generar Nota de Crédito y del lado del Proveedor estarán las “Devoluciones Proveedor” (o RMA) pendientes de generar Notas de Crédito Proveedor cuando estas lleguen.
 
-## **Devolución al Proveedor**
+### **Devolución al Proveedor**
 
 El proceso de “Generar Devoluciones” generará también una “Devolución Proveedor” por la Cantidad que se definió en el proceso, el precio será tomado desde la Orden de Compra correspondiente a la Recepción que se estará devolviendo.
 
 Para generar la Nota de Crédito del Proveedor se deberá ir directo a la ventana “Documentos por Pagar” y crear el cabezal de la Nota de Crédito Proveedor correspondiente. Luego se deberá crear las líneas a partir del Proceso “Crear Desde” desd donde se deberá seleccionar la opción “RMA”
 
-## **Crear Marca del Cliente obligatoria**
+### **Crear Marca del Cliente obligatoria**
 
 Una Marca Cliente se creará desde la ventana “Campaña de Mercadeo”.
 

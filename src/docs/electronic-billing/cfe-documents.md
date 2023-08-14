@@ -21,7 +21,7 @@ Para los “e-ticket” no es requisito identificar el cliente a quién se está
 
 Sólo para aquellos casos que supere los 10.000 UI se deberá identificar el Cliente con su Nombre y Número de Cédula.
 
-**¿Cómo defino el número de Cédula en un Cliente?**
+### **¿Cómo defino el número de Cédula en un Cliente?**
 
 En el caso de que se requiera incluir la Cédula en un Cliente, se puede hacer desde la ventana “Socio del Negocio”
 

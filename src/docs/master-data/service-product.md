@@ -18,11 +18,11 @@ Todos los productos que se utilizarán deberán estar definidos en la ventana �
 * **Comprado:** Si el producto es comprado definir “Si”.
 * **Vendido:** Si el producto es comprado definir “Si”.
 
-## **Pestaña Precio**
+### **Pestaña Precio**
 
 En esta pestaña se definirá la Versión de lista de precios que el producto tenga definida en la ventana Lista de Precios.
 
-## **Ventana Lista de Precios**
+### **Ventana Lista de Precios**
 
 Existen Listas de Precios de Venta y de Compra y a cada Socio del Negocio se le debe definir una.
 

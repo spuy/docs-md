@@ -14,7 +14,7 @@ Los descuentos pueden ser simples o tener cortes que le hacen variar el porcenta
 
 Esto se define en la ventana de Esquema de Descuento.
 
-## **Esquema de Descuento**
+### **Esquema de Descuento**
 
 Dentro de la Ventana “Esquema de Descuento” podremos observar todos los diferentes tipos de descuento que tenemos.
 
