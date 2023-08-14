@@ -1,4 +1,10 @@
-Purchases/Sales
+---
+title: Funcionalidad General del Sistema
+category: Documentation
+star: 9
+sticky: 9
+article: false
+---
 
 ## Funcionalidad General del Sistema
 
