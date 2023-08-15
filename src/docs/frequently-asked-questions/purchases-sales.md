@@ -69,7 +69,7 @@ Importante: El proceso de Facturación, si bien en el Contrato se define un Prec
 
 ### Solicitud de Nota de Crédito
 
-La Solicitud de Notas de Crédito por parte de los usuarios a ADministración se realiza en ADempiere mediante la creación de una Solicitud de Devolución de Cliente. Administración recepciona todas las Autorización de Devolución de Cliente para definir cuáles corresponden y si se les debe generar una Nota de Crédito sobre las cantidades definidas.
+La Solicitud de Notas de Crédito por parte de los usuarios a ADministración se realiza en Solop ERP mediante la creación de una Solicitud de Devolución de Cliente. Administración recepciona todas las Autorización de Devolución de Cliente para definir cuáles corresponden y si se les debe generar una Nota de Crédito sobre las cantidades definidas.
 
   
 Para ello hay que tener creado los Tipos de Documento de “Solicitud de Devolución” donde el Usuario definirá la “Entrega” que el Cliente solicita su NC. Dicho Documento debe tener el Tipo de Documento de Recepción así como también el Tipo de Documento de Facturación (en este caso Nota de Crédito).

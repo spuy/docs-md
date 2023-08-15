@@ -8,7 +8,7 @@ article: false
 
 ## Financiera/Contable
 
-**¿En el proceso de “Generar Cobro Contado” en Recibo de Cobro, en el campo “Cuenta bancaria” aparecen las cuentas bancarias de los clientes o propias también?**
+### **¿En el proceso de “Generar Cobro Contado” en Recibo de Cobro, en el campo “Cuenta bancaria” aparecen las cuentas bancarias de los clientes o propias también?**
 
 Cuentas Bancarias propias. Las cuentas Bancarias de Clientes no se definen de esta manera. 
 
@@ -18,7 +18,7 @@ Si bien se puede manejar las cuentas bancarias de clientes, esto es desde la pes
 Cuentas Bancarias propias. Las cuentas Bancarias de Clientes no se definen de esta manera. 
 
   
-**¿Cuándo se crea un Cheque Diferido por Cobrar, ¿Qué BANCO se define?** 
+### **¿Cuándo se crea un Cheque Diferido por Cobrar, ¿Qué BANCO se define?** 
 
 Se define un Banco, no una Cuenta Bancaria.
 
