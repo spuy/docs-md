@@ -10,7 +10,7 @@ article: false
 
 ### Gestión de Cheques Diferidos
 
-#### Libretas/Resmas de Cheques Propios
+### Libretas/Resmas de Cheques Propios
 
 Cómo primer paso para emitir cheques manuales en libretas, se deberán crear las libretas/resmas en el sistema, así como las secuencias para las mismas en las ventanas “Libreta/Resma Cheques” y “Secuencia de Documentos Controlados”. 
 
@@ -24,7 +24,7 @@ generar un nuevo registro en la ventana “Libreta/Resma Cheques”, completando
 
 En la pestaña “Cheques” se visualiza el estado de los mismos.
 
-#### Cheque Diferido Por Pagar
+### Cheque Diferido Por Pagar
 
 La emisión de cheques diferidos propios se debe realizar mediante la ventana “Cheque Diferido Por Pagar”. 
 
@@ -57,7 +57,7 @@ Check Conciliado al Anular un Pago/Cobro
 
 Al anularse un depósito de cheque de tercero, al reversar el documento se consulta si para el payment hay una linea de conciliación con dicho payment, si no la hay entonces se le marca el check de conciliado a ambos documentos.
 
-#### Rechazo de Cheque
+### Rechazo de Cheque
 
 Para hacer un rechazo de un pago/cobro se debe utilizar el siguiente proceso:
 
@@ -75,7 +75,7 @@ Se concilia el “Rechazo del Cheque” que está positivo con la “Reversión�
 
 El asiento se neutraliza.
 
-#### Conciliación Bancaria
+### Conciliación Bancaria
 
 \*Una conciliación sube y se baja con el pago que tenga asignado. 
 
@@ -93,7 +93,7 @@ se calcula con los saldos de las conciliaciones Completas o Cerradas (que es un 
 
 Es importante que no haya conciliaciones en estado CERRADO, ya que pueden no ser consideradas en los reportes.
 
-#### ¿Qué funcionalidad tiene la ventana Informe Financiero?
+### ¿Qué funcionalidad tiene la ventana Informe Financiero?
 
 Desde esta ventana se podrán emitir Informes financieros como Balances, Balancetes, Centro de Costos, etc.
 
@@ -112,7 +112,7 @@ Los balances mensuales se generan desde la ventana “Informe financiero.
 
 Esta columna representa el total acumulado de la cuenta, es decir, el saldo del mes para el que generamos el balance más el saldo anterior.
 
-#### ¿Cómo puedo visualizar el Mayor contable de una cuenta?
+### ¿Cómo puedo visualizar el Mayor contable de una cuenta?
 
 El reporte que se utiliza para visualizar el Mayor contable de una cuenta es **“Balance de prueba**”.
 
@@ -130,11 +130,11 @@ Los créditos se componen por :
 1. Los Cobros 
 2. Parte negativa de las Asignaciones.
 
-#### ¿ Qué representan los Saldos iniciales que aparecen en los mayores?
+### ¿ Qué representan los Saldos iniciales que aparecen en los mayores?
 
 Representan el Saldo acumulado dentro del ejercicio para el cual emito el Mayor, es decir, si solicito un Mayor para el período 01/04 - 30/04 figurará en éste un Saldo inicial que corresponderá al saldo acumulado del 01/01 al 31/03.
 
-#### ¿Cómo puedo obtener un reporte de las Ventas o de la Facturación mensual? (EDUCACIÓN)
+### ¿Cómo puedo obtener un reporte de las Ventas o de la Facturación mensual? (EDUCACIÓN)
 
 Esta información puede obtenerse mediante el reporte “Diario Compras y Ventas” marcando el check de Transacción de Ventas,.
 
