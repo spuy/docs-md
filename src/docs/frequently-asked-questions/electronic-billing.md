@@ -56,7 +56,7 @@ Si se supera dicho monto, al socio de negocio del comprobante se le puede asigna
 
 *EMISOR_049* = "CFE Error: Area Emisor (49) - Ciudad para domicilio fiscal no establecida";
 
-### Mensajes de Error CFE
+#### Mensajes de Error CFE
 
 ***CFE_NOTORG* = "CFE Error: Los documentos emitidos deben tener la compañía y organización con la que se inició sesión en el sistema";**
 
@@ -84,7 +84,7 @@ Si se supera dicho monto, al socio de negocio del comprobante se le puede asigna
 
 *EMISOR_049* = "CFE Error: Area Emisor (49) - Ciudad para domicilio fiscal no establecida";
 
-### Mensajes de Error CFE
+#### Mensajes de Error CFE
 
 ***CFE_NOTORG* = "CFE Error: Los documentos emitidos deben tener la compañía y organización con la que se inició sesión en el sistema";**
 
@@ -150,7 +150,7 @@ En caso de que se haya vencido, es muy probable que queden números de ese CAE s
 Y también cuando se vence, se tiene que adelantar la secuencia en Solop ERP para ese tipo de documento para que comience con la numeración del nuevo CAE que está mas adelante.
 
   
-**Evaluar que hacer con el CAE si había un cae previo si se vence o termina**
+#### **Evaluar que hacer con el CAE si había un cae previo si se vence o termina**
 
 Solop ERP gestiona las secuencia de los documentos que envía a InvoiCy, entonces.
 
@@ -164,7 +164,7 @@ Cuando se vence un CAE hay que:
 
 \* En invoicy ANULAR el rango de secuencias del cae vencido que no fueron emitidos para que sea informado en el reporte diario
 
-### Como Ver el formato de impresión de una e-Factura desde Solop ERP
+#### Como Ver el formato de impresión de una e-Factura desde Solop ERP
 
 Para visualizar el formato de impresión de las facturas se debe correr el proceso “Impresión de CFE Invoicy” desde la ventana “Documentos por cobrar”.
 
@@ -180,13 +180,13 @@ En estos casos que se genera un DxC manualmente desde la ventana, se debe intent
 
 \*Al preparar se crea automáticamente las Líneas CFE.
 
-### ¿Por qué motivo puede aparecer el siguiente error: “Error: CFE  Rechazado”?
+#### ¿Por qué motivo puede aparecer el siguiente error: “Error: CFE  Rechazado”?
 
 Lo mas probable es que se este intentando enviar un CFE que tenga una o mas lineas en cero (ya sea cantidad o precio o ambos). Es una validacion de DGI que no puede ir un producto con precio 0. Para resolverlo quitar la linea.
 
 Si es POS, se puede validar el error directamente en InvoiCy, con el numero de Factura, se ingresa a la consola, en inicio, se da clic en el documento y en la pestaña “Respuestas” se puede ver el detalle del error (es obligatorio informar el valor unitario del item).
 
-### ¿Por qué motivo puede aparecer el siguiente error: “Error: CFE - Rechazado - 607 Ninguna CAE Autorizada encontrada”?
+#### ¿Por qué motivo puede aparecer el siguiente error: “Error: CFE - Rechazado - 607 Ninguna CAE Autorizada encontrada”?
 
 El problema aquí es que NOexisten CAEs para las facturas o boletas.
 
@@ -197,11 +197,11 @@ De lo contrario si no los puede subir el cliente, nos lo pueden pasar a nosotros
 
 que no se han utilizado, y se debe adelantar en Solop ERP la secuencia del tipo de documento correspondiente, para coincidir con el número inicial del nuevo CAE vigente. 
 
-### ¿Por qué puede suceder el siguiente error: “ERROR: "CFE Error: Area Información de Referencia (3) - Error al parsear código de CFE" al completar una e-Nota de Crédito”?
+#### ¿Por qué puede suceder el siguiente error: “ERROR: "CFE Error: Area Información de Referencia (3) - Error al parsear código de CFE" al completar una e-Nota de Crédito”?
 
 Esto sucede cuando el documento referenciado es previo a facturación electrónica y por ese motivo no tiene prefijo. Para solucionarlo se indica referenciar en el campo descripción de CFE Referido a este documento en vez de en el campo Documento Asignado.
 
-### ¿Qué hay que tener en cuenta al generar un e-Ticket o una e-Factura?
+#### ¿Qué hay que tener en cuenta al generar un e-Ticket o una e-Factura?
 
 Puede ocurrir que cuando se esta generando una Orden de Venta, y dependiendo de si se desea generar una e-Factura o un e-Ticket, debe estar definido el RUT en el SDN.
 
@@ -211,11 +211,11 @@ Si lo que se desea generar es un e-Ticket, entonces el documento puede ser gener
 
 Otra causa posible es que, aunque exista un CAE vigente, se venció la secuencia anterior, quedando números sin usar. En ese caso se deben anular los números del CAE vencido 
 
-### ¿Por qué motivo puede suceder el siguiente error: “Tipo de documento no definido para Socio de Negocio…”?
+#### ¿Por qué motivo puede suceder el siguiente error: “Tipo de documento no definido para Socio de Negocio…”?
 
 Esto puede suceder ya que el Socio de negocio en cuestión tiene en esta ventana en blanco los campos “Número de identificación” y “Grupo de impuestos”.
 
-### ¿Por qué los datos de una factura en el sistema (cabezal, lineas, totales) se ven bien, pero al imprimir, una sale con los datos de otra? (CFE impresión factura se cruza una con la otra)
+#### ¿Por qué los datos de una factura en el sistema (cabezal, lineas, totales) se ven bien, pero al imprimir, una sale con los datos de otra? (CFE impresión factura se cruza una con la otra)
 
 **Sucede porque** hay un error al procesar los documentos en InvoiCy. Se debe revisar en InvoiCy si lo documentos ya se han ido para DGI (entrar en la consola, en inicio, y validar los datos de los CFE involucrados). Entonces lo que se debe hacer primero es dejar el ambiente de InvoiCy igual al de Solop ERP. Esto puede significar o no que se deba anular una factura en Solop ERP y volverla a hacer luego. Se debe validar los pasos a ejecutar y organizarlos.
 
@@ -351,7 +351,7 @@ COBRO por el importe de dicho CANJE. Este importe lo determinará la suma total 
 
 Por último, se deberá definir el NRO del Recibo de COBRO que será generado automáticamente. Este nro se debe definir en el campo “Nro. Recibo de Cobro”
 
-### Canje en Recibo de Cobro
+#### Canje en Recibo de Cobro
 
 Para el caso de la funcionalidad en el Documento / Ventana de “Recibo de Pago” se entiende al revés, pero la lógica es la misma.
 
@@ -453,7 +453,7 @@ Porcentaje: Porcentaje a retener (0-100)
 
 Monto máximo: a retener
 
-### Documentos a Aplicar
+#### Documentos a Aplicar
 
 En la pestaña Documentos a Aplicar se indicarán los documentos en el cual se deben generar retenciones.
 
@@ -476,22 +476,22 @@ Según la parametrización realizada en el Tipo de Retención, se evaluará si c
 
 Actualmente está parametrizado para que se revise en la acción Completar de la Factura
 
-### Al completar DxP
+#### Al completar DxP
 
 Si el documento cumple para generar retención, según la parametrización indicada más arriba, se generará un documento previo al resguardo en la ventana “Documento Retención Generado”
 
-### Generar Documento Retención de forma manual
+#### Generar Documento Retención de forma manual
 
 En caso de que por algún motivo algún DxP requiera generar su respectivo Documento Retención y no lo tenga generado, este proceso podrá ser lanzado desde la ventana Documentos por Pagar -> Engranaje en la pestaña cabezal -> Re-Procesar Retención
 
-### Observaciones Documento Retención
+#### Observaciones Documento Retención
 
   
 El Documento Retención Generado va a calcular los montos sin tener en cuenta la moneda del documento de origen y sin convertir montos, por lo tanto, para realizar el resguardo se tomará la línea de DxP y calculará la conversión de moneda según la fecha del DxP
 
 Los resguardos siempre se emiten en Moneda UYU.
 
-### Como generar retenciones
+#### Como generar retenciones
 
   
 Proceso Generar Retenciones
@@ -509,7 +509,7 @@ Este va a agrupar por retenciones, y evaluará:
   * **Hará sumatoria de todos los montos de Retención agrupados, convirtiendolos a UYU según moneda, dateInvoiced y Tipo de Conversión de la factura source relacionada**
   * Si el monto de la retención no supera la sumatoria de montos de la factura entonces no genero Resguardo
 
-### Observaciones
+#### Observaciones
 
 * El cargo definido en la factura a generar se tomará primero de la ventana (Tipo Retención -> Pestaña Configuración de Retención -> Campo Cargo) y si no está definido va a obtenerlo de la Definición de Retención del campo Cargo (WH_Definition.C_Charge_ID)
 * **Monto mínimo de la Retención (conversión a UYU)**: Se define monto y moneda tal que al 31/12 del año anterior se defina se obtenga la conversión a la moneda del esquema contable (UYU) para poder validar que el monto de los Documentos Retención, sumados por Definición Retención, sumen más que el mínimo, se tomará la moneda de la factura de origen relacionada para determinar la moneda.
