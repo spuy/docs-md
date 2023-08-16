@@ -13,3 +13,7 @@ El presente material se encuentra dirigido a cada uno de los usuarios de Solop E
 - [Compras/Ventas](purchases-sales)
 - [Facturación Electrónica](electronic-billings)
 - [Gestión Financiera](financial-management)
+- [Gestión Contable](accounting-management)
+- [Gestión de Materiales](materials-management)
+- [Gestión de Agencia](agency-management)
+- [Gestión de Educación](education-management)
