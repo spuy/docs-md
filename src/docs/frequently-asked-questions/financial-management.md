@@ -97,7 +97,7 @@ Es importante que no haya conciliaciones en estado CERRADO, ya que pueden no ser
 
 Desde esta ventana se podrán emitir Informes financieros como Balances, Balancetes, Centro de Costos, etc.
 
-Ejemplo de Informes Financieros en IVY
+Ejemplo de Informes Financieros
 
 * Balance Mes y Acumulado
 * Informe por Centro de Costos Acumulado
