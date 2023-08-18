@@ -6,6 +6,8 @@ sticky: 9
 article: false
 ---
 
+## Selección de Pago
+
 Una selección de pagos en Solop ERP no es más que la agrupación de documentos de CxP o de compras que se necesitan ser cancelados ya sean en su totalidad o de manera parcial, dentro de la selección de pagos se encuentran los tipos de documentos **Orden de Pago** y la **Selección de Pagos de Cuentas por Pagar**, los cuales son utilizados para seguir los canales regulares entre los departamentos de compras, cuenta por pagar y tesorería.
 
 La **Orden de Pago** es utilizada para crear aquellas solicitud de pago de los documentos pendientes por pagar, comúnmente es utilizada por los departamentos de compras y de cuentas pagar, ya qué ellos solo se encargan de agrupar aquellos documentos los cuales necesitan qué sean cancelados.
@@ -19,7 +21,7 @@ Para conocer mejor este procedimiento de la selección de pagos Solop ERP ofrece
 - Registro desde Nómina
 - Registro desde Selección de Pago
 
-## Registro desde Orden
+### Registro desde Orden
 
 En muchas ocasiones se necesitan realizar anticipos a proveedores, una vez que se concrete la compra dependiendo de las reglas del negocio con la que cuente la compañía y el proveedor se realizan anticipos, los anticipos son aquellos pagos que se generan antes de una factura, por ello como ya existe una compra a un proveedor y se requiere aplicar un anticipo; para aplicar un anticipo a proveedores en Solop ERP y realizar una **Orden de Pago** a través de una **Orden de Compra** se deben aplicar los siguientes pasos.
 
@@ -81,8 +83,6 @@ La información a colocar en este campo es una pequeña descripción de la orden
 
 Campo Descripción del Documento Orden de Pago desde Orden
 
-Note
-
 Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP, para guardar el registro de los campos de la pestaña **Selección de Pago**.
 
 Seleccione la opción **Crear Desde Orden**, para crear la orden de pago desde la orden de compra.
@@ -132,8 +132,6 @@ Campo **Fecha de la Orden**, este campo es un campo tipo fecha el cual cuenta co
 Si se coloca en el campo fecha desde la fecha **18/06/2020** y el campo fecha hasta **20/06/2020**, Solop ERP mostrar las ordenes de compras que estén bajo ese rango de fechas.
 
 Campo Fecha de la Orden de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
-
-Note
 
 Para saber más sobre el campo **Fecha de la Orden** y qué acción implica sobre una orden de compra, visitar el documento Registro de Orden de Compra Directa.
 
@@ -190,8 +188,6 @@ Seleccione la pestaña **Línea de Selección de Pago**, para verificar que la i
 ![Campo](/assets/img/docs/balance-management/bam-balance-image242.png)
 
 Imagen 9. Pestaña Línea de Selección de Pago del Documento Orden de Pago desde Orden
-
-Note
 
 En la pestaña **Línea de Selección de Pago** deberán aparecer las misma cantidad de órdenes seleccionadas desde la opción **Crear Desde Orden**.
 
@@ -321,7 +317,7 @@ Es muy importante tener en cuenta que todo documento transaccional una vez se cu
 
 Hasta este punto llegaría el registro de órdenes a través de la ventana **Selección de Pago** con el tipo de documento **Orden de Pago** ya que solo se está creando la solicitud de los anticipos que se desean cancelar, en este paso a pesar de que se complete el documento esto no quiere decir que se han generado los pagos, para poder generar los pagos correspondientes a las órdenes asociadas a la **Orden de Pago** se necesita completar los procedimientos Registro desde Selección de Pago y el Registro de Imprimir / Exportar Pagos.
 
-## Registro desde Factura
+### Registro desde Factura
 
 Para realizar una **Orden de Pagos** en Solop ERP el cual permite montar una solicitud de todas aquellas facturas que estén pendientes por pagar, se deben aplicar los siguientes pasos:
 
@@ -649,7 +645,7 @@ Es muy importante tener en cuenta que todo documento transaccional una vez se cu
 
 Hasta este punto llegaría el registro de factura a través de la ventana **Selección de Pago** con el tipo de documento **Orden de Pago** ya que solo se está creando la solicitud de los facturas que están pendientes por pagar y necesitan ser canceladas, en este paso a pesar de que se complete el documento esto no quiere decir que se han generado los pagos, para poder generar los pagos correspondientes a las facturas asociadas a la **Orden de Pago** se necesita completar el procedimiento Registro desde Selección de Pago y el Registro de Imprimir / Exportar Pagos.
 
-## Registro desde Nómina
+### Registro desde Nómina
 
 La selección de pagos de nómina representa una de las formas que requiere Solop ERP para que usted registre el pago de la nómina a los empleados, luego de que usted completó la nómina de los empleados y está seguro de que todos los cálculos obtenidos son correctos, previa visualización en el reporte de nómina, debe comenzar el proceso donde registre los pagos de cada uno de los empleados.
 
@@ -707,7 +703,7 @@ Completar la Selección
 
 Para este ejemplo de Selección de Pago se utilizó la cuenta de la caja asociada al Banco Nacional de Crédito.
 
-## Registro desde Selección de Pago
+### Registro desde Selección de Pago
 
 Para realizar una **Selección de Pago** la cual se encarga de definir de qué cuenta bancaria de la compañía saldrán los pagos pendientes a proveedores se deben realizar los siguientes pasos:
 
