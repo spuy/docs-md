@@ -4,8 +4,9 @@ category: Documentation
 star: 9
 sticky: 9
 article: false
+---
 
-## ***__Cálculo de interés por Mora sobre Facturas de colegios__***
+## Cálculo de interés por Mora sobre Facturas de colegios
 
 ### Primer paso: Cálculo de Morosidad
 
