@@ -11,3 +11,4 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 - [Gestión de Asignaciones](assignment-management)
 - [Asignación de Pagos](assignment)
 - [Pago y Asignación Educación](payment-and-assignment-education)
+- [Dar de Baja Cuentas por Recibir](unsubscribe-account-receivable)
