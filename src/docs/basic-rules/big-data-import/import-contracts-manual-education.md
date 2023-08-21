@@ -50,10 +50,10 @@ Luego de finalizado el proceso, se mostrará un aviso con la información de los
 
 ### Ejemplo de Importación Alumno-Contrato:
 
-![Datos de Acción sobre Documento](/assets/img/docs/basic-rules/bid-import-example.mp4)
+![Ejemplo de importación](/assets/img/docs/basic-rules/bid-import-example.mp4)
 
 ### Validación de entidades generadas por importación:
 
-![Datos de Acción sobre Documento](/assets/img/docs/basic-rules/bid-import-verification.mp4)
+![Validación de Datos Importación](/assets/img/docs/basic-rules/bid-import-verification.mp4)
 
 **NOTA:** este funcionamiento es similar al de todos los demás procesos de importación en el sistema (diario contable, estados de cuenta, etc).
