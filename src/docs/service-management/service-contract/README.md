@@ -10,3 +10,4 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 
 - [Contrato de Servicio de Agencia](service-agency-contract)
 - [Contrato de Servicio Educación](service-education-contract)
+- [Actualizar Contratos Educación (Cambio de Año)](update-education-contracts)
