@@ -63,3 +63,11 @@ Al  ejecutar el proceso, los Contratos seleccionados quedarán en estado "Cerrad
 * Correr el Proceso de Generación de cuotas de Contratos: Esto genera las cuotas mensuales según el rango fecha que se seleccione en "Fecha Hasta" (generalmente se elige generar hasta mitad de año por posibles cambios de precio en segundo semestre).
 
 ![Actualización de Precio y Generación de cuotas de Contrato](/assets/img/docs/service-management/sem-update5.png)
+
+### Ejemplo de Actualización de Contrato por cambio de año:
+
+![Actualización de Contrato](/assets/img/docs/service-management/sem-update-contract.mp4)
+
+#### Verificación de Datos en nuevo contrato:
+
+![Verificación de Datos](/assets/img/docs/service-management/sem-verification.mp4)

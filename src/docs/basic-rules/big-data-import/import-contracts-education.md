@@ -3,6 +3,8 @@ title: Carga de Contratos Masiva (Educación)
 category: Documentation
 star: 9
 sticky: 9
+tag:
+  - Educación
 article: false
 ---
 
