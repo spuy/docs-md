@@ -6,7 +6,7 @@ sticky: 9
 article: false
 ---
 
-## **Validación de datos en InvoiCy:**
+### **Validación de datos en InvoiCy:**
 
 Luego de completado un e-Ticket/e-Factura, se puede chequear el CFE emitido en InvoiCy (<http://openupsolutions.invoicy.com.uy>), e ingresando con los datos proporcionados por OpenUp.
 
@@ -20,7 +20,7 @@ De igual forma se puede chequear para cada documento detalles como los totales, 
 
 Finalmente, y en la parte inferior de la ventana de la ventana, hay controles que permiten realizar diferentes acciones.
 
-## **Estado del CFE:**
+### **Estado del CFE:**
 
 Finalmente en esta parte, se encuentra el “Estado” de los CFE.
 
@@ -30,7 +30,7 @@ Utilizando el lápiz se puede editar el documento para volver a intentar el env�
 
 Si la empresa a la que se le está facturando también está en el sistema de Facturación Electrónica InvoiCy envía una copia del documento por email a esta Empresa y una copia a DGI.
 
-## **Otros tipos de documentos:**
+### **Otros tipos de documentos:**
 
 También se puede consultar otros tipos de documentos, para verlos, en la ventana “Inicio” se pasa el mouse por encima de la barra que da acceso a filtros inmediatos de “Tipo” “Número”, “Fecha” y “Estado” y se selecciona.
 
@@ -76,7 +76,7 @@ La pantalla de edición del reporte fue creada para solucionar problemas de emis
 
 Cuando el reporte diario es rechazado, busque la orientación de nuestro soporte antes de editar la información del reporte e intentar reenviarlo, pues, probablemente el problema está en los CFE emitidos y estos deben ser corregidos antes del reporte en sí.
 
-## **CFE Recibidos:**
+### **CFE Recibidos:**
 
 En la pantalla de CFE recibidos serán mostrados todos los CFE emitidos para el RUT de la empresa, como muestra la figura más adelante:
 
@@ -110,7 +110,7 @@ La primera empresa que aparece en la lista es la empresa que está actualmente s
 
 También es posible digitar para buscar una casa principal o sucursal. El contenido de esa lista puede ser cambiado haciendo clic en “Mostrar todos los registros”, la siguiente imagen muestra la pantalla que será exhibida:
 
-## **Notificaciones en InvoiCy:**
+### **Notificaciones en InvoiCy:**
 
 InvoiCy posee un sistema de notificaciones para las más variadas situaciones del sistema. El ícono de las notificaciones se encuentra en el encabezado de la pantalla del sistema, como muestra la siguiente imagen:
 

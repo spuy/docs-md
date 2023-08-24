@@ -30,9 +30,9 @@ Dentro del cabezal del Cálculo de Morosidad se podrá visualizar la cantidad de
 
 Puede darse el escenario de que todas las notificaciones estén marcadas por la aplicación como “procesadas” pero esto no significa que se hayan enviado todas, sino que se debe consultarlas para confirmar que no existan rebotes por error en la dirección de mail por ejemplo.
 
-## **Estado de Cuenta por Cliente**
+### **Estado de Cuenta por Cliente**
 
-## **Envío masivo de Estado de Cuenta**
+### **Envío masivo de Estado de Cuenta**
 
 Una vez se generaron todas las entradas en el cálculo de morosidad “Estado de Cuenta” se podrá ir al Proceso de Envío de Estado de Cuenta por Correo”.
 
@@ -48,13 +48,13 @@ Dentro de los criterios podemos seleccionar:
 
 **Check de “Send EMail”:** Este check podrá ser desmarcado para realizar pruebas de envios sin enviar realmente el correo al Socio del Negocio. Este envio se pdorá visualizar en la ventana de Bitácora de Emails. Si se define el check en “Y” se enviará también el correo a los usuarios definidos como que se envie mail en la Familia del Responsable de Pago.
 
-## **Reporte de Estado de Cuenta**
+### **Reporte de Estado de Cuenta**
 
 Luego de generado el Cálculo de Morosidad, dentro de cada Registro en la pestaña “Entrada” se podrá obtener el Reporte de “Estado de Cuenta” oprimiendo desde los procesos de la Barra de Herramientas.
 
 Luego, nos figurará el siguiente cuadro al que confirmaremos mediante el botón de OK para así generar el reporte
 
-## **Bitácora de Emails**
+### **Bitácora de Emails**
 
 Por cada Proceso que se genere desde el “Enviar Estado de Cuenta por Correo” se generará un Lote en la ventana “Bitácora de Emails”. Dentro de este lote se detallarán en la pestaña de Emails cada uno de los correos que se enviaron detallando:
 

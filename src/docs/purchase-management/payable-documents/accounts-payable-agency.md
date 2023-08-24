@@ -11,9 +11,9 @@ article: false
 
 ## **Documentos por Pagar Agencia**
 
-## **Ingreso de Factura de Compra**
+### **Ingreso de Factura de Compra**
 
-## **Precondiciones con Orden de Compra**
+### **Precondiciones con Orden de Compra**
 
 Para poder ingresar una factura de una Orden de Compra, esta tiene que estar
 

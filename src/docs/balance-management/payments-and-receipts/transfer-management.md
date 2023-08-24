@@ -14,7 +14,7 @@ Este Proceso crea de manera automática un Pago en la Cuenta Origen (que emite l
 
 Estas Transferencias podrán involucrar una misma moneda debitada y acreditada o puede involucrar 2 monedas, una moneda de Origen y otra moneda de Destino. Aquí se verá la transferencia de una misma moneda, ya sea de la moneda esquema de la empresa como de cualquier otra. La Transferencia de distinta moneda se puede ver en Moneda Extranjera.
 
-## **Transferencias en la misma moneda**
+### **Transferencias en la misma moneda**
 
 * **Cuenta Bancaria origen:** Cuenta bancaria que emite los fondos
 * **Cuenta Bancaria destino:** Cuenta bancaria que recibe los fondos
@@ -31,7 +31,7 @@ En el caso que la transferencia sea en una moneda diferente a la moneda de la em
 
 Es importante destacar que el Cargo determina el asiento contable que realizará, estipulando la cuenta puente que corresponda, por lo tanto el Cargo debe ser “Transferencia”.
 
-## **Transferencia Bancaria Multimoneda**
+### **Transferencia Bancaria Multimoneda**
 
 Desde el proceso “Transferencia Bancaria Multimoneda”, se podrá realizar una transferencia cuando las monedas de la Cuenta Bancaria origen y Cuenta Bancaria destino son diferentes, es decir, una moneda es la moneda base y la otra es una moneda extranjera.
 
@@ -45,7 +45,7 @@ Esta operación debitará la cuenta bancaria USD y acreditará la cuenta Bancari
 
 La elección del cargo “Transferencia”, determinará los asientos contables de compra y venta utilizando la cuenta puente “Diferencia Compra ME”. La diferencia de cambio correspondiente a esta operación quedará como saldo en dicha cuenta.
 
-## **Operación de Cambio de Moneda**
+### **Operación de Cambio de Moneda**
 
 Para ello se utilizará la ventana Operación de Cambio
 
@@ -63,7 +63,7 @@ Al completar se generará automáticamente un documento de Pago por el importe c
 
 En cada Pago/Cobro que se genere se definirá por defecto el Cargo “Compra/Venta de Moneda Extranjera”. Este campo tendrá definida una cuenta contable donde se utilizará como Puente entre ambas transferencias (Pago - Cobro), permaneciendo en la misma la Diferencia de Cambio generada por la Cotización definida contra la Tasa de Cambio Contable del día.
 
-## **Operación de Cambio de Moneda con Selección de Pagos**
+### **Operación de Cambio de Moneda con Selección de Pagos**
 
 Opcionalmente también se puede generar una Operación de Cambio pero que en vez de generar directamente un Pago y un Cobro según los datos definidos, se generará según los datos una “Selección de Pagos” de manera que luego el Departamento de Tesorería pueda avalar la Compra/Venta de los dólares y realizar la transacción desde el Banco.
 

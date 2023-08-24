@@ -15,7 +15,7 @@ El presente material elaborado por **Solop ERP**, pretende ofrecerle una explica
   - Consultar Ingreso Generado de la transferencia Bancaria
 - Transferencia Bancaria de Nómina
 
-## Registro de Transferencia Bancaria
+### Registro de Transferencia Bancaria
 
 Para realizar una transferencia bancaria en Solop ERP deben seguir los siguientes pasos:
 
@@ -155,7 +155,7 @@ Si en la transferencia bancaria en el campo **Cuenta Bancaria Desde** fue selecc
 
 Imagen 18. Pago en Ventana Caja
 
-## Consultar Ingreso Generado de la transferencia Bancaria
+### Consultar Ingreso Generado de la transferencia Bancaria
 
 Si en la transferencia bancaria en el campo **Cuenta Bancaria a Transferir** fue seleccionada una cuenta bancaria el cobro caerá en la ventana **Pago/Cobro**, si en el campo **Documento Destino** de la transferencia bancaria se colocó el número de la transacción este mismo debe aparecer como el número de documento del campo **No. del Documento** en la ventana **Pago/Cobro**.
 
@@ -177,7 +177,7 @@ Note
 
 Si en el campo **Documento Destino** de la transferencia bancaria no se colocó el número de la transacción, el número de documento a mostrar del cobro en la ventana **Caja** será el mismo que se número colocado en el campo **No. del Documento** de la transferencia bancaria.
 
-## Transferencia Bancaria de Nómina
+### Transferencia Bancaria de Nómina
 
 Luego de completar la selección de pago y de generar los pagos de nómina en la ventana imprimir exportar pagos procedemos a realizar la transferencia bancaria, ubicamos en el menú de Solop ERP, la carpeta **Gestión de Saldos Pendientes**, luego seleccione **Transferencia Bancaria**. Este proceso es realizado con la finalidad que la empresa cancele a la cuenta de caja el monto total cancelado a los empleados por la nómina procesada.
 

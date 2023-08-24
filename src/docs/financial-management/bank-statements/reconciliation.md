@@ -32,7 +32,7 @@ Una conciliación automática es un proceso que se realiza con la finalidad de g
   - Pagos o Cobros sin Identificar
   - Completar Conciliación Bancaria
 
-## Descarga de Extracto Bancario desde Banco
+### Descarga de Extracto Bancario desde Banco
 
 Para que un extracto bancario pueda ser importado en Solop ERP este debe cumplir por Banco un formato en específico para que la importación sea exitosa, el siguiente material explica el procedimiento para descargar los formatos correctos de los estados de cuentas bancarios:
 
@@ -188,11 +188,11 @@ El extracto bancario puede poseer algunos registros que no han sido cargados en 
 
 Al seleccionar **Ok** Solop ERP lo llevará nuevamente a la ventana principal **Estado de Cuenta Bancario**.
 
-### Coincidencia Bancarias
+#### Coincidencia Bancarias
 
 Al momento de realizar la conciliación bancaria Solop ERP maneja una serie verificaciones para poder encontrar las coincidencias bancarias.
 
-### Revisión de Conciliaciones
+#### Revisión de Conciliaciones
 
 Una vez aplicado el proceso de conciliación automática, se debe verificar que tanto los pagos/cobros que coincidieron como los que no coincidieron se carguen correctamente dentro del registro de la conciliación bancaria en la que se este trabajando, para ello debe seguir los siguientes paso:
 
@@ -238,7 +238,7 @@ El proceso **Crear Pagos desde Estado de Cuenta** es realizado por consecuencia 
 
 El presente material elaborado por Solop ERP pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para la creación de pagos y cobros sin registros en Solop ERP, partiendo desde el proceso de Conciliación Automática registro de pagos / cobros existentes en el extracto bancario importado, obteniendo un resultado exitoso al momento de conciliación de cuentas en la versión 3.9.2 de Solop ERP en la localización Venezuela.
 
-## Pagos/Cobros sin Registros
+### Pagos/Cobros sin Registros
 
 Los pagos o cobros sin registro en Solop ERP pueden presentarse en las empresas por diferentes motivos los cuales pueden ser que no fueron registrados a tiempo o correctamente, o la cuenta bancaria a recibido un cobro por adelantado y este no ha sido notificado al personal que lleva los registros de los pagos/cobros en Solop ERP, el registro de los mismos puede realizarse de tres formas explicadas a continuación.
 

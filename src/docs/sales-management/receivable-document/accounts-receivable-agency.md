@@ -17,7 +17,7 @@ Si se desea facturar en una moneda distinta con la que se generó el Proyecto po
 
 En el caso que las Ordenes de venta estén Completas se deberán anular y generar de nuevo, ya que si se reactivan se tendrán que anular la Ordenes de Venta Honorarios que se generen.
 
-## Generar Órdenes de Venta recurrente desde Contrato de Servicios
+### Generar Órdenes de Venta recurrente desde Contrato de Servicios
 
 A partir de la definición de las líneas de un contrato se puede generar Órdenes de Venta según los Servicios Recurrentes que deban ser facturados según determinada recurrencia. De esta manera se podrán generar Órdenes de Venta según las mensualidades definidas en los Contratos.
 
@@ -31,7 +31,7 @@ Generar Orden de Venta desde Cuota a Facturar de Contrato de Servicios: Una vez 
 
 IMPORTANTE: Para poder generar las Órdenes de Venta FEE desde el proceso “Generar OV desde Cuota de Contrato” es obligatorio que el Cliente tenga creado un Proyecto en el cuál tenga definido el check de “Es por defecto para FEE”.
 
-## Orden de Venta a Facturar en Cuotas
+### Orden de Venta a Facturar en Cuotas
 
 Una Orden de venta podrá definirse que se pueda facturar en N Cuotas.
 
@@ -45,11 +45,11 @@ Para la generación de esta Orden de Venta o Compra, se sugiere definir una CANT
 * **Descripción:** Escribir en la Descripción de la FASE cómo se desea que sea Facturado para que Administración se entere y
 * **Cantidad:** Además en el Campo “Cantidad” de la Fase se deberá definir la Cantidad de Cuotas que se desea Facturar, ya sea por el Medio o al Cliente. Ver que como Precio Unitario se deberá visualizar el importe de cada una de las cuotas a ser Facturado.
 
-## Generar Factura desde Orden de Venta
+### Generar Factura desde Orden de Venta
 
 Las órdenes de venta generadas en el sistema pueden ser facturadas de manera ágil y masiva utilizando el proceso **“Generar Factura desde Línea de Orden”.**
 
-### Precondiciones
+#### Precondiciones
 
 Para poder facturar una Orden de Venta, esta tiene que estar
 
@@ -61,7 +61,7 @@ En este proceso se podrá aplicar el filtro que desee para encontrar aquellas l�
 
 Dentro de los filtros a definir podemos encontrar:
 
-### Generar Factura
+#### Generar Factura
 
 Y comenzaremos la búsqueda, a continuación obtendremos las líneas de Orden de Venta que cumplan con la condición.
 
@@ -87,7 +87,7 @@ En la parte inferior de esta ventana veremos distintas opciones utilizadas al mo
 * **Impuesto:** Agrupará por Impuesto definido en cada Línea de Orden seleccionada. Se generará una factura por tipo de impuesto encontrado. El criterio de agrupación no es por % (Ej: 22%, 10% o 0%), sino por diferente Tipo de Impuesto.
 * **Orden de Compra Cliente:** Si se selecciona este Criterio de Facturación se generará una Factura por cada Número de la Orden de Compra Cliente que se encuentre en todas las líneas seleccionadas. Este criterio de agrupación incluye además la clasificación según diferentes clientes.
 
-## **¿Por qué motivo puede no referenciarse un Proyecto en una factura?**
+### **¿Por qué motivo puede no referenciarse un Proyecto en una factura?**
 
 El Proyecto se referenciará en la factura siempre que el criterio de agrupación que se haya elegido para agrupar las lineas de Orden al correr el proceso Generar factura desde línea de Orden haya sido “Proyecto”.
 
@@ -107,7 +107,7 @@ Estos son requerimientos obligatorios por la naturaleza del CFE.
 
 Nota: En el caso que se defina la opción para Completar el documento se ejecutará automáticamente el proceso Generar líneas de CFE.
 
-### **Criterio de Facturación (definición de Líneas de Factura)**
+#### **Criterio de Facturación (definición de Líneas de Factura)**
 
 El **Criterio de Facturación** permite generar líneas más resumidas de la información que se está Facturando, adaptando así según la necesidad de cliente, definiendo en ellas la información exacta que el cliente desea recibir en cada “Concepto de Facturación”.
 
@@ -115,7 +115,7 @@ Debido a que el ERP puede tener una definición muy detallada de las “líneas 
 
 De esta manera, el **Criterio de Facturación** que tendrá cada Factura será criterio que se va a utilizar para generar las líneas que se detallarán en el CFE (e-Factura o e-Ticket).
 
-## Facturación de Honorarios en Línea independiente
+### Facturación de Honorarios en Línea independiente
 
 El Criterio de Facturación aplicará siempre para las líneas de “Inversión” del cliente, agrupando según el criterio seleccionado. Esto quiere decir que el criterio nunca aplicará la agrupación para aquellas líneas que correspondan a Honorarios Variables calculados en un Proyecto o Fase de Proyecto, estos siempre irán en una línea aparte detallando que son Honorarios.
 
@@ -163,7 +163,7 @@ En caso de que existan diferentes Agentes Comerciales definidos en las Órdenes 
 
 Si no tiene ninguno definido en el Socio del Negocio tomará el Agente Comercial definido en las Ordenes de Venta. Si estos son diferentes dará un error.
 
-## Generar Líneas de CFE
+### Generar Líneas de CFE
 
 En vista a que las líneas del Documento por Cobrar no siempre se corresponden con las líneas a enviar en el CFE e imprimir en la representación impresa, además de disponer en esta venta a de las líneas del documento (la pestaña convencional), se ha agregado una pestaña donde figuran las líneas que deberán enviarse en el CFE.
 
@@ -185,19 +185,19 @@ En el cabezal del Documento por Cobrar en la sección Facturación hay un campo 
 
 **Nota 2: Siempre que para todas las líneas de Factura tenga la misma fase de proyecto, en caso contrario quedará vacío**
 
-## **Configuración del Socio del Negocio**
+### **Configuración del Socio del Negocio**
 
-### **Criterio de Líneas en Factura**
+#### **Criterio de Líneas en Factura**
 
 En cada Socio del Negocio se podrá pre configurar el criterio de facturación que se desee. Esto se debe definir en la pestaña Cliente de la ventana Socio del Negocio en el campo Criterio de Facturación.
 
-### Facturar al Cliente en moneda diferente al Costo
+#### Facturar al Cliente en moneda diferente al Costo
 
 En caso que al Cliente se le deba Facturar en otra moneda, la Orden de Venta deberá ser en la misma moneda que se comprará al Proveedor, pero se podrá definir en la Orden de Venta una moneda diferente a ser Facturado junto con su Tasa de Cambio acordada.
 
 En caso de querer definir la Tasa de conversión luego de completar la Orden o modificar la misma luego de completarla se podrá hacer desde el proceso.
 
-## Facturación por Proyecto
+### Facturación por Proyecto
 
 Al facturar por Proyecto el sistema generará una línea por todas las líneas que posea el Proyecto con la descripción del mismo, la cual obtiene del campo “Detalle en Factura” del cabezal del Proyecto.
 
@@ -228,7 +228,7 @@ Generará también en la pestaña Línea de la factura CFE una línea cuya Descr
 
 **\*Siempre se agrupan las líneas que no sean Honorarios ya que éstos van en otra línea a parte.**
 
-## **Facturación por Fase**
+### **Facturación por Fase**
 
 Al facturar por Fase el sistema generará una línea agrupándolas por Fase del Proyecto con la descripción de las mismas, las cuales obtiene del campo “Detalle en Factura” de las fases del Proyecto.
 
@@ -252,7 +252,7 @@ Estas líneas tendrán definidas en el campo “Descripción” lo mismo que se 
 
 **Siempre se agrupan las líneas que no sean Honorarios ya que éstos van en otra línea a parte.**
 
-## **Nota de Crédito Cliente**
+### **Nota de Crédito Cliente**
 
 **Existen las siguientes razones por la cual se debe realizar una Nota de Crédito:**
 
@@ -264,7 +264,7 @@ Estas líneas tendrán definidas en el campo “Descripción” lo mismo que se 
 
 **NC Manual por Diferencia de Precio o Descuento Financiero:** NO RECOMENDADO
 
-## Generar Devoluciones a Cliente
+#### Generar Devoluciones a Cliente
 
 Se deberá realizar la “Devolución de Cliente” cuando un Cliente solicita o el Ejecutivo de Ventas solicita en nombre del cliente, la emisión de una Nota de Crédito debido a una “Entrega” (Delivery) No aceptada por el cliente. Esta “Devolución Cliente” deberá ser generada desde el Proceso “Generar Devoluciones”, seleccionando la Orden de Venta del Cliente que se querrá devolver.
 
@@ -274,23 +274,23 @@ Generar un Movimiento contrario a la Entrega realizada por el Checking. Restando
 
 Generar una Devolución de Proveedor Espejo, es decir se generará una Devolución Cliente y una Devolución Proveedor por la MISMA CANTIDAD definida. Dichas devoluciones luego quedarán a la espera de sus correspondientes Notas de Crédito. Administración podrá ver las Devoluciones Cliente que están pendientes de Generar Nota de Crédito y del lado del Proveedor estarán las “Devoluciones Proveedor” (o RMA) pendientes de generar Notas de Crédito Proveedor cuando estas lleguen.
 
-### **Generación de Nota de Crédito**
+#### **Generación de Nota de Crédito**
 
 Este acto se complementa con la Generación posterior de la “Nota de Crédito Cliente” a partir de la Devolución Cliente. Esta acción se podrá realizar mediante el Proceso “Generar Nota de Crédito por Devolución”
 
-### **Generar NC Desde Devolución**
+#### **Generar NC Desde Devolución**
 
 Para que aparezca la información se deberá seleccionar el Tipo de Documento “Devolución Cliente” y se recomienda definir en Acción del Documento “Preparar”se generará un Documento por Cobrar del tipo “e-Factura Nota de Crédito” en estado “En Proceso”. El encargado de facturación deberá tomar el mismo, verificar las Línea CFE y simplemente Completarlo. Dicho documento se debería haber generado con toda la información correspondiente de “Sello, Sello Origen, Contrato de Servicios, DxC que Asignará, Proyecto, etc.
 
-### **Control Nota de Crédito sólo si está facturado**
+#### **Control Nota de Crédito sólo si está facturado**
 
 Las devoluciones se podrán realizar siempre y cuando exista una Entrega/Recepción pero estas, si bien pueden aparecer no podrán ser Facturadas. Si se intenta Facturar dará Error “Not Invoiced” verificando así que dicha devolución sea sobre una línea que está Facturada.
 
-### **Servicio Facturado pero No Entregado**
+#### **Servicio Facturado pero No Entregado**
 
 Para este caso, debido a que el importe que se deberá generar una Nota de Crédito aún no fue Entregado, es decir no se realizó Checking, para solicitar la creación de una Nota de Crédito por las Cantidades que fueron Facturadas pero no fueron Entregadas bastará que el Usuario “Cierre” la Orden de Venta correspondiente. Al Cerrar una Orden de Venta las “Cantidad Ordenada” de sus líneas son llevadas a la “Cantidad Entregada”.
 
-### **Control de Facturación correcta en Órdenes de Venta**
+#### **Control de Facturación correcta en Órdenes de Venta**
 
 El sistema, luego de Cerrar una Orden, realizará un control de verificar si la Orden de Venta está Correctamente Facturada. Este Control implica 2 verificaciones:
 
@@ -298,7 +298,7 @@ Control de Cantidades: En cada una de sus líneas se verificará que su “Canti
 
 1. Control de Totales (Orden Modificada): Si en el primer control no encontró nada por lo que deba realizar una Solicitud de NC, se deberá continuar con el siguiente paso que será analizar el “Total de Líneas” de la Orden es Menor que el “Total de Líneas” del Documento por Pagar vinculado a la misma. En caso de que la Orden sea Menor que el DxP entonces deberá correr el proceso de “Solicitud de NC”.
 
-### **Generar Nota de Crédito Cliente desde la Factura**
+#### **Generar Nota de Crédito Cliente desde la Factura**
 
 Para generar una Nota de Crédito Cliente mediante la opción **“Crear desde”** se utilizará la ventana Documentos por Cobrar.
 
@@ -326,7 +326,7 @@ La misma quedará con el check “pagado” siempre que haya sido por el total d
 
 **NOTA: Para ingresar una Nota de crédito Proveedor se utiliza el mismo procedimiento de ingreso de una factura de compra, indicando como Tipo de documento una Nota de crédito.**
 
-## **Solicitud de Re-facturación**
+### **Solicitud de Re-facturación**
 
 En caso que se solicite realizar una Nota de Crédito a un Cliente pero sin modificar la Entrega correspondiente ya que está correcta, se deberá generar una Solicitud del Tipo “Solicitud de Nota de Crédito”.
 

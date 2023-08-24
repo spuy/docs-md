@@ -18,7 +18,7 @@ Luego tendremos el proceso de cálculo de mora correspondiente que sucede una ú
 
 Posteriormente a que se realicen todas las asignaciones y antes de correr un nuevo proceso de facturación masiva, se deberá correr manualmente el proceso de "Generar cálculo de Mora desde Facturas". Este proceso recorrerá todas las facturas que tengan días de vencido diferente de 0 y que no estén con una mora ya calculada y generará el correspondiente cálculo de mora (Transacción Financiera y Lote de transacción financiera). En los casos que exista un importe de mora > a 0 se generará automáticamente al Socio del Negocio de cada factura un "Concepto a Facturar" (Informe de Gasto) con el importe y el producto de interés de mora para que pueda ser facturado como un concepto más de la mensualidad. Considerar que estos conceptos se crean con fecha del día que se corre.
 
-## Cálculo de interés por mora en el Cálculo de Morosidad
+### Cálculo de interés por mora en el Cálculo de Morosidad
 
 Se modificó el proceso que genera el cálculo de morosidad para poder obtener y asignar al campo "Total de Tarifa" el importe de mora hasta la fecha, y ser mostrado a modo informativo en el PDF de estado de cuenta.
 
