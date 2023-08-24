@@ -24,6 +24,10 @@ Criterios existentes en la ventana para establecer el grupo de facturas que se m
 * Fecha de Facturación: Es un rango fecha desde/hasta, por defecto estará seteado en el día de la fecha. Permite seleccionar un rango en el cual se ajustarán los comprobantes.
 * Simulado: es un control tipo check (tildado por defecto) que al encontrarse tildado permite simular el ajuste para determinar los comprobantes que ingresan en la búsqueda de acuerdo a los criterios seleccionados. Esto no genera el ajuste de las facturas. Para ajustar efectivamente los comprobantes debe luego destildarse este control de SIMULADO y volver a ejecutar el proceso.
 
+![Filtros](/assets/img/docs/balance-management/bam-balance-image412.png)
+
 ### Resultado
 
 Al finalizar la ejecución del proceso, el sistema muestra un log con aquellos comprobantes ajustados y la cantidad de documentos que se han marcado como pagados.
+
+![Resultado](/assets/img/docs/balance-management/bam-balance-image413.png)
