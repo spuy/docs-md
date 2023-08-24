@@ -10,8 +10,6 @@ article: false
 
 ## Proyecto de Medios
 
-
-
 En un Proyecto de Medios se gestionará la Inversión que un cliente quiera realizar sobre los Tipos de Medio y Medios que desee.
 
 Sobre cada proyecto se podrá asignar Órdenes de Compra realizadas a los Medios, Órdenes de Venta (Órdenes de Facturación) a los Clientes así como también el registro de las correspondientes Facturas tanto de compra como de venta.
@@ -32,7 +30,7 @@ En cada proyecto se definirá los siguientes puntos:
 
 **Reportes:** se podrá generar diferentes Reportes financieros sobre el estado de los proyectos.
 
-### Campos del Proyecto
+#### Campos del Proyecto
 
 #### **Campos Manuales**
 
@@ -61,11 +59,11 @@ correspondiente que tenga definido el Contrato del Cliente en sus “Partes del 
 
 Según las siguientes Categoría de Proyecto se obtendrá el sello definido para el siguiente tipo de empresa:
 
-Categoría de Proyecto     Tipo de Empresa
+Categoría de Proyecto          Tipo de Empresa
 
-Proyecto de Agencia         Agencia Creativa
+Proyecto de Agencia            Agencia Creativa
 
-Proyecto de Medios          Agencia de Medios
+Proyecto de Medios             Agencia de Medios
 
 Proyecto RRPP                  Agencia RRPP
 
@@ -75,7 +73,7 @@ Proyecto de Medios Digitales Agencia de Medios Digitales
 
 * **Almacén:** El almacén en un proyecto se definirá de manera automática según el almacén que tenga definido el Cliente en la pestaña Cliente ventana Socio del Negocio.
 
-### **Tamaño del Proyecto (Campo “Nivel de Línea”)**
+#### **Tamaño del Proyecto (Campo “Nivel de Línea”)**
 
 Un Proyecto podrá tener diferentes niveles según su complejidad o tamaño. Dentro del Nivel seleccionado, se contará con una pestaña de Líneas donde se podrá definir cada uno de los Productos que se estará manejando. Sobre estos Productos definidos se generará una Orden de Venta al Cliente y una Orden de Compra al Proveedor del Medio.
 
@@ -87,7 +85,7 @@ Los diferentes niveles posibles son: Proyecto, Fase y Tarea.
 
 **Nivel TAREA:** Se utilizará cuando el Proyecto sea de Pre-Compra o Inversión y luego su Consumo (En momentos diferentes).
 
-## Checkin de la Pauta
+### Checkin de la Pauta
 
 Luego de contar con una **“Orden de Publicidad (Compra y Consumo)”** en Estado “Completo”, la misma se deberá confirmar mediante el Checking.
 
@@ -95,11 +93,11 @@ El checking se puede acceder desde los Procesos definidos en el Proyecto de Medi
 
 Al realizar la búsqueda desde el SmartBrowser de Checkin, deberá seleccionar las líneas que han sido emitidas, confirmando a su vez la cantidad en cuestión de dicha emisión.
 
-## **Reporte “Detalle de Almacenamiento Simple”**
+#### **Reporte “Detalle de Almacenamiento Simple”**
 
 Se podrá confirmar el ingreso de los productos al almacén mediante el reporte de “Detalle de Almacenamiento Simple” seleccionando el Almacén en cuestión.
 
-## **Proyecto de Medios Compra y Consumo**
+#### **Proyecto de Medios Compra y Consumo**
 
 Se entiende como “Compra y Consumo” cuando se desee realizar una compra a un Medio en nombre de un Cliente y a su vez, en el mismo documento se solicita también su emisión.
 
@@ -147,11 +145,11 @@ La Orden de Venta se deberá Completar, de manera que se genere automáticamente
 
 La Orden de Compra será del Tipo “Orden de Publicidad (Compra y Consumo)” se generará en estado Borrador por lo que se deberá navegar a la misma y Completarla para terminar con el proceso.
 
-### **Representación impresa:**
+#### **Representación impresa:**
 
 Desde la Ventana Orden de Compra se podrá obtener la Representación Impresa de la misma que deberá ser enviada al Proveedor del Medio.
 
-### **Checkin de la Pauta**
+#### **Checkin de la Pauta**
 
 Luego de contar con una “Orden de Publicidad (Compra y Consumo)” en Estado “Completo”, la misma se deberá confirmar mediante el Checking.
 
@@ -159,7 +157,7 @@ El checking se puede acceder desde los Procesos definidos en el Proyecto de Medi
 
 Al realizar la búsqueda desde el SmarBrowser de Checkin, deberá seleccionar las líneas que han sido emitidas, confirmando a su vez la cantidad en cuestión de dicha emisión.
 
-## **Compra paquete por importe**
+### **Compra paquete por importe**
 
 Se considera una Pre-Compra o Compra con Inversión cuando se realiza una compra a un Medio en nombre de un Cliente para que la misma pueda ser Consumida en un momento diferente a la Compra en cuestión.
 
@@ -171,7 +169,7 @@ En este caso los niveles serán clasificados de la siguiente manera:
 
 **TAREAS:** Dentro de cada Fase se crearán las diferentes TAREAS por cada Consumo que se consumirá la Inversión en cuestión. Los Productos se deberán definir en las Líneas de Tarea, definiendo Producto, Fecha Emisión, Descripción del Programa, Cantidad y Precio.
 
-## **Pre-Compra**
+### **Pre-Compra**
 
 Se comienza generando un Proyecto con nivel de línea “Tarea”:
 
@@ -210,7 +208,7 @@ La Orden de Venta se deberá Completar, de manera que se genere automáticamente
 
 Desde la Orden de Compra se podrá obtener la Representación Impresa de la misma que deberá ser enviada al Proveedor del Medio.
 
-## Consumo
+### Consumo
 
 Desde la tarea se deberá crear una Orden de Venta del Tipo “Orden de Venta (Consumo)” tomando los datos definidos en la misma y en sus líneas. En las Líneas de la Tarea se deberá definir los Productos a ser Consumidos, definiendo Fecha Emisión, Producto, Descripción del Programa, Cantidad y Precio.
 
@@ -226,7 +224,7 @@ La Orden de Venta (Consumo) se deberá Completar, de manera que se genere autom�
 
 Ambas consumirán sus Órdenes de Pre-Compra correspondientes (Orden de Venta y Orden de Compra), quedando a la espera de ser confirmados mediante el “Checking”.
 
-## Checking
+#### Checking
 
 Luego de contar con una “Orden de Publicidad (Consumo)” o una “Orden de Publicidad (Compra y Consumo)” en Estado “Completo”, la misma se deberá confirmar mediante el Checking.
 
@@ -240,9 +238,9 @@ En caso de que dicha Cantidad a su vez deberá Liberar Saldo de una Pre-Compra a
 
 Creación de un “Proyecto de Medios” donde realizará la Inversión del cliente. La idea es que dentro de un mismo Proyecto se controle lo **Ordenado con lo Facturado**. Como se manejan diferentes criterios de Facturación que de recepción de Productos a inventario, se decide manejar mediante la FASE la “*Inversión”*, y mediante la Tarea y líneas de la Tarea la *“Recepción”*.
 
-## Compra Inventario
+### Compra Inventario
 
-### **Se comienza generando un Proyecto con nivel de línea “Tarea”**
+#### **Se comienza generando un Proyecto con nivel de línea “Tarea”**
 
 * En la ventana de Proyecto de Medios se deberá crear un proyecto definiendo:
   * **Cliente**
@@ -257,16 +255,16 @@ Creación de un “Proyecto de Medios” donde realizará la Inversión del clie
 * Término de pago
 * Almacén del cliente
 
-### **Definición del Proveedor de la Inversión:**
+#### **Definición del Proveedor de la Inversión:**
 
-### **En la Fase del Proyecto se deberá definir el Proveedor donde se realizará la inversión**
+#### **En la Fase del Proyecto se deberá definir el Proveedor donde se realizará la inversión**
 
 Para que el sistema permita elegir un Proveedor en el campo **Socio del negocio Entrega Directa** es importante que el mismo:
 
 * Esté creado con la Organización con la que se encuentra logueado el usuario o con Organización (\*).
 * En la ventana Socio de negocio, en su cabezal debe tener marcado el check de “activo” y en la pestaña Proveedor el check de “Proveedor”.
 
-## Orden de Inventario:
+#### Orden de Inventario:
 
 Desde la Tarea se crea la **Orden de Inventario** donde se definirán los Productos a comprar. El proceso de generar una Compra de Inventario deberá comenzar realizando la definición de todos los Productos que se estarán adquiriendo para consumir en el futuro dentro las líneas de una Tarea de Proyecto.
 
@@ -280,11 +278,11 @@ Al Completar la Orden de Venta se generará la Orden de Compra al Proveedor defi
 
 Al completar la Orden de Compra de tipo de documento “Orden de Compra Inventario”, los Productos definidos en ella se habrán recepcionado automáticamente en el Almacén definido en el Proyecto. Ésta Almacén debería ser el Almacén definido para el Cliente por el cual se compró los productos.
 
-## **Reporte “Detalle de Almacenamiento Simple”**
+#### **Reporte “Detalle de Almacenamiento Simple”**
 
 Se podrá confirmar el ingreso de los productos al almacén mediante el reporte de “Detalle de Almacenamiento Simple” seleccionando el Almacén en cuestión.
 
-## **Orden de Venta y Orden de Compra a Facturar**
+#### **Orden de Venta y Orden de Compra a Facturar**
 
 Desde la **FASE** se deberá crear una “Orden de Venta Inversión”, ésta será realizada según el Producto genérico definido en la FASE (Ej: Inversión TV) y por el Importe Total. Este producto será el que finalmente será facturado, tanto al Cliente como por el Proveedor.
 
@@ -294,14 +292,14 @@ Para el caso que una Orden de Venta u Orden de Compra deba ser Facturada en dife
 * **Descripción:** Escribir en la Descripción de la FASE cómo se desea que sea Facturado para que Administración se entere.
 * **Cantidad:** Además se deberá definir en Cantidad las diferentes Cuotas que tendrá. Además en el Campo “Cantidad” de la Fase se deberá definir la Cantidad de Cuotas que se desea Facturar, ya sea por el Medio o al Cliente. Ver que como Precio Unitario se deberá visualizar el importe de cada una de las cuotas a ser Facturado.
 
-## **Consumo de Inventario**
+### **Consumo de Inventario**
 
 Cuando un cliente cuente con inventario previamente comprado y se quiera consumir parte del mismo, se deberá crear directamente una Orden de Venta del tipo “Orden de Pauta”. En la misma se deberá definir el *Proveedor* y el *Almacén* del Cliente definiendo “Entrega Directa” = N. En las líneas se deberá definir cada uno de los Productos que se desean emitir así como su Cantidad correspondiente. Esta Orden de Pauta una vez se confirme es la que generará la Entrega del Inventario bajándolo de stock.
 
 * Pendiente de definir: Ver cómo se quiere gestionar el Precio en las Órdenes de Pauta.
 * Esta Orden de Pauta no será facturada nunca ya que se entiende que ya se facturó mediante la Orden de Venta Inversión que se compró el Inventario.
 
-## **Conversión de Productos en Inventario**
+#### **Conversión de Productos en Inventario**
 
 Los productos que existan en inventario podrán ser canjeados por otros productos desde la ventana de “Inventario Uso Interno” (podrá definirse el nombre que deseen). En esta ventana se podrá realizar una Conversión entre un Producto que está actualmente en inventario por otro nuevo, disminuyendo el inventario de uno y aumentando el otro. Esta Conversión se realizará sin ningún tipo de control, siendo responsabilidad del usuario controlar que dicha conversión sea según lo acordado con el Proveedor.
 
@@ -309,9 +307,9 @@ Contablemente el sistema actualmente Descuenta el importe en cuestión por el pr
 
 Se quiere que contabilice correctamente dando la entrada contablemente del nuevo producto. No se desea realizar ningún asiento contable por esta transacción.
 
-## Errores frecuentes
+### Errores frecuentes
 
-### **Error 1: No me aparece el Cliente para elegir en el proyecto:**
+#### **Error 1: No me aparece el Cliente para elegir en el proyecto:**
 
 **Solución:**
 
@@ -319,15 +317,15 @@ Un Proyecto se podrá generar sólo a un Cliente que tenga un Contrato Activo en
 
 Además se deberá verificar que el contrato que se obtenga para ese Cliente tenga definido un Sello Origen en Contrato en cuestión para el Tipo de Proyecto que se esté generando (Medios, Creativo, Digital, RRPP).
 
-### **Error 2: No se encuentra Sello Origen**
+#### **Error 2: No se encuentra Sello Origen**
 
 **Solución:**
 
 Cuando esto sucede es probable que el contrato del proyecto en cuestión no tenga definido un sello origen para este Tipo de empresa, por lo que deberemos navegar al Contrato y en la pestaña Partes del contrato crear el sello origen correspondiente.
 
-## Agencia Creativa
+### Agencia Creativa
 
-### Proyecto de Agencia Creativa
+#### Proyecto de Agencia Creativa
 
 El Proyecto de Agencia Creativa será donde se deba ingresar todo pedido realizado por el cliente. Desde el Proyecto se vinculará todos los documentos que se haya generado a causa dicho Pedido a lo largo de toda la organización (Solicitudes, Orden de Compra, Orden de Venta, Cotizaciones, Tareas, etc) y será desde donde se defina la facturación a realizar.
 
@@ -379,7 +377,7 @@ Según el usuario logueado en el sistema:
 
 Agente Comercial: Este campo en el cabezal de un Proyecto tomará de forma automática al usuario logueado en el sistema siempre que este tenga el check de “Agente comercial” en “Y”, en la Pestaña “Empleado” de la ventana “Socio de negocio”.
 
-## **Cotización para Clientes**
+#### **Cotización para Clientes**
 
 El Ejecutivo de Cuentas creará un Proyecto en el cual definirá lo solicitado por el cliente. En caso de que el mismo incluya realizar una Cotización de determinados servicios/productos a diferentes proveedores externos se deberá seleccionar un Tipo de Proyecto que contemple la “Cotización”.
 
@@ -401,7 +399,7 @@ Fase generada automáticamente. Sólo se deberá agregar en el campo “Detalle 
 
 Campo “Ayuda”: se podrá agregar un comentario para que Producción considere en caso de ser necesario para realizar la cotización.
 
-## **Generar Orden de Venta desde Solicitud de Cotización**
+#### **Generar Orden de Venta desde Solicitud de Cotización**
 
 Una vez generada la Solicitud de Cotización (RFQ-Request for Quotation), evaluadas las respuestas, y aceptado una Respuesta de Cotización por el Cliente, se deberá proceder a generar una Orden de Venta al Cliente para que la misma se pueda aprobar mediante el flujo de aprobación estándar de la Orden de Venta.
 
@@ -413,11 +411,11 @@ Luego de generarla desde el proceso ubicado en el botón “Crear Orden de Venta
 
 Al Completar la Orden de Venta luego de la aprobación del Cliente, automáticamente se generará la Orden de Compra Enlazada según Entrega Directa.
 
-## **Orden de Venta con Margen**
+#### **Orden de Venta con Margen**
 
 En caso de contar con “% de Margen” (Mark-Up), el precio real enviado por la Cotización se definirá en la línea de la Orden de Compra. En caso de no existir “Mark-Up” los precios de la Orden de Venta y los precios de la Orden de Compra serán iguales.
 
-## **Compra Directa a un Proveedor en nombre de Cliente**
+#### **Compra Directa a un Proveedor en nombre de Cliente**
 
 Cuando el Proyecto incluya realizar una compra específica a un proveedor pero que no es necesario pasar por el proceso de generar una Solicitud de Cotización (RFQ), se podrá gestionar la misma de forma directa desde una Fase.
 
@@ -441,7 +439,7 @@ La Orden de Compra se podrá encontrar en el campo “Orden enlazada” de la Or
 
 IMPORTANTE: Tener en cuenta que el Producto definido en la línea de la Orden de Venta, deberá estar definido tanto en la Lista de Precios de la Orden de Venta, como también en la Lista de Precios que el Proveedor tenga definida por defecto en su definición de Socio del Negocio. Para evitar esto podemos dejar el campo Lista de Precios de Compra del Proveedor vacío.
 
-## **Checking**
+#### **Checking**
 
 Luego de contar con una “Orden de Compra” en Estado “Completo”, la misma se deberá confirmar mediante su delivery mediante el Checkin.
 
@@ -456,9 +454,9 @@ Documentos sobre los que se debe realizar checking:
 
 Los Procesos desde la Barra de Herramientas no se actualizan automáticamente, por lo que si lo presionó desde la Fase, recordará los Procesos de la Fase. para solucionarlo deberá ingresar nuevamente a la ventana y presionar “Procesos” desde la pestaña de proyecto.
 
-## **Nivel de Línea**
+#### **Nivel de Línea**
 
-### **Nivel de Línea: Proyecto (Creativo Simple) / Primer Nivel**
+#### **Nivel de Línea: Proyecto (Creativo Simple) / Primer Nivel**
 
 El Nivel Proyecto se deberá utilizar cuando la Campaña o Trabajo (Job) a realizar es simple. Esto quiere decir que el Proyecto tendrá directamente los “To-Do” a realizar, sin contar con ningún nivel o agrupación intermedia.
 
@@ -467,7 +465,7 @@ El Nivel Proyecto se deberá utilizar cuando la Campaña o Trabajo (Job) a reali
   * “To-Do” (Solicitud)
   * “To-Do” (Solicitud)
 
-### **Nivel de Línea: Fase (Campaña Multimedia) / Segundo Nivel**
+#### **Nivel de Línea: Fase (Campaña Multimedia) / Segundo Nivel**
 
 La Fase es el segundo nivel del Proyecto. Se deberá utilizar en los siguientes casos:
 
@@ -481,7 +479,7 @@ Cuando una Campaña cuente con diferentes “Materiales” se deberá definir el
   * Material 2 (FASE)
     * Solicitud (“To-Do”)
 
-### **Nivel de Línea: Tarea (Producción o Campaña Multimedia) / Tercer Nivel**
+#### **Nivel de Línea: Tarea (Producción o Campaña Multimedia) / Tercer Nivel**
 
 El Nivel de Proyecto hasta TAREA agrega un nivel adicional (3er Nivel) al Proyecto antes de llegar a la definición de Solicitudes (To-Do).
 
@@ -512,7 +510,7 @@ TAREAS: Dentro de cada Fase se crearán las diferentes TAREAS a realizar. En el 
     * TAREA 2 (Tema a Cotizar)
     * TAREA 3 (Tema a Cotizar)
 
-## **Miembros del Proyecto**
+#### **Miembros del Proyecto**
 
 En cada Proyecto se podrá agregar Miembros. Los Miembros del Proyecto serán todos aquellos usuarios, internos como externos que estén involucrados con el Proyecto.
 
@@ -524,15 +522,15 @@ La asignación de Miembros de una Cuenta se definirá dentro de la Ventana *Soci
 
 \*Pestaña “Miembros por Defecto” en Ventana Socio del Negocio.
 
-### **Solicitudes del Proyecto**
+#### **Solicitudes del Proyecto**
 
 Dentro de cada Proyecto se podrá crear diferentes Solicitudes asociadas al mismo. La ventaja de generar las Solicitudes desde un Proyecto, Fase o Tarea es que tomará del contexto toda la información que necesite, como Proyecto, Cliente, etc.
 
 Desde la ventana Proyecto se podrá visualizar todas las Solicitudes relacionadas, tanto desde la Pestaña de Solicitudes correspondiente como desde la Barra de herramientas (Ver todas las solicitudes).
 
-## **Proyecto Pestaña Solicitudes de Fase**
+#### **Proyecto Pestaña Solicitudes de Fase**
 
-### **Solicitud (To-Do)**
+#### **Solicitud (To-Do)**
 
 Una Solicitud refiere a una Tarea específica (To-Do) que tiene determinado *Asunto*, *Descripción* y está *Asignado A* un Usuario con determinada *Fecha de Siguiente Acción* y *Fecha de Fin*.
 
@@ -544,35 +542,35 @@ Cada Actualización que se realice sobre la Solicitud, el sistema estará envian
 
 *\*para ver más en detalle sobre las notificaciones ver “Notificaciones del Sistema”.*
 
-## **Ventana Todas las Solicitudes**
+#### **Ventana Todas las Solicitudes**
 
-### **Solicitudes Asignadas a uno**
+#### **Solicitudes Asignadas a uno**
 
 Esta ventana será la que el usuario siempre ingresará para ver todo lo que tiene pendiente de realizar, viendo claramente todo lo que tiene pendiente.
 
 En la ventana “Solicitudes” se podrán visualizar todas las Solicitudes que estén asignadas a uno mismo (su Usuario) o al Departamento que uno pertenece.
 
-## **Ventana Solicitud**
+### **Ventana Solicitud**
 
-### **Acceso directo a la ventana**
+#### **Acceso directo a la ventana**
 
 Esta ventana será de muy fácil acceso, existiendo un acceso directo desde la Bandeja de Entrada del usuario con el Botón “Solicitudes”. Al costado del nombre del botón se podrá visualizar la cantidad de sus Solicitudes que tiene “Vencidas”
 
-### **Todas las Solicitudes**
+#### **Todas las Solicitudes**
 
 En esta Ventana de “Todas las Solicitudes” se podrá visualizar todas las Solicitudes que estén creadas en el sistema. Cada usuario podrá ver las que le permita su Rol y en la misma se podrá aplicar los filtros deseados para buscar las que necesite ver.
 
-### **Solicitudes de Cuentas**
+#### **Solicitudes de Cuentas**
 
 La Ventana de “Solicitudes de Cuentas” está creada para que los Ejecutivos de cuenta específicamente (que serán “Gerentes de Proyecto” de todos aquellos proyectos que estén bajo su control) puedan visualizar en una misma ventana todas las Solicitudes que están pendientes dentro de los sus Proyectos.
 
 Estas podrán estar asignadas a ellos o a cualquier otro usuario.
 
-### **Historial de Actualizaciones de Solicitud (Feed)**
+#### **Historial de Actualizaciones de Solicitud (Feed)**
 
 Dentro de cada Solicitud se podrá visualizar el historial de actualizaciones que tuvo la misma a lo largo del tiempo. En cada Actualización se podrá visualizar el cambio realizado y por quién fue realizado. En caso de haber adjuntado una imagen la misma se podrá visualizar en modo “Registro único” sin tener que ver el adjunto en la Barra de Herramientas.
 
-### **Notificaciones de Actualización**
+#### **Notificaciones de Actualización**
 
 Cada Solicitud envía notificaciones de sus actualizaciones a los usuarios definidos como:
 
@@ -583,9 +581,9 @@ Cada Solicitud envía notificaciones de sus actualizaciones a los usuarios defin
 
 Como verá, además de los usuarios vinculados, dentro de cada Solicitud se podrá agregar diferentes usuarios para que les llegue vía correo electrónico las notificaciones por actualización de las mismas, independientemente de los demás criterios. Para ello simplemente se deberá navegar a la pestaña “Aviso de Actualización” y agregar manualmente el o los usuarios a recibir notificaciones.
 
-## **Solicitud Pestaña Aviso de Actualizaciones**
+#### **Solicitud Pestaña Aviso de Actualizaciones**
 
-### **Tipo de Proyecto**
+#### **Tipo de Proyecto**
 
 El sistema brinda diferentes “Plantillas” donde se puede definir una estructura Tipo en la cual basarse para crear un Proyecto. Esta puede utilizarse o no, según desee el usuario. La principal ventaja sería la creación automática de Fases o Tareas según el Tipo de Proyecto seleccionado ahorrando a uno crearlas manualmente. Principalmente es útil para los Proyectos donde existan cotizaciones.
 
@@ -595,7 +593,7 @@ Dentro de los diferentes Tipos de proyecto encontramos:
 * **Creativo + Cotización:** Utilizado cuando existe Creatividad y Cotización. Crea una Fase para cada una. Se necesita nivel de Proyecto “Tarea”
 * **Cotización:** Utilizado cuando es sólo para realizar una Cotización al Cliente. Crea una Fase de Cotización. Se necesita nivel de Proyecto “Tarea”
 
-### **Orden de Venta desde Proyecto**
+#### **Orden de Venta desde Proyecto**
 
 En cada Proyecto, cuando un trabajo deba ser facturado al Cliente, se deberá generar una Orden de Venta vinculada al mismo.
 
@@ -612,28 +610,28 @@ Una vez definido el *Producto/Servicio* en la Línea que corresponda, se deberá
 
 Las Órdenes de Venta generadas desde un Proyecto se pueden visualizar de diferentes maneras.
 
-### **Vista de la Orden de Venta desde la Pestaña del Proyecto**
+#### **Vista de la Orden de Venta desde la Pestaña del Proyecto**
 
 Una opción es desde la pestaña de “Orden de Venta” definida mismo en la Ventana de Proyecto de Agencia. En ella podrán ver de manera resumida todos los datos referente a una Orden de Venta que necesitan.
 
-### **Vista de la Orden de Venta navegando desde el Proyecto**
+#### **Vista de la Orden de Venta navegando desde el Proyecto**
 
 Otra opción puede ser utilizando la Navegación a Documentos Relacionados existente en todos los documentos
 
 Tener en cuenta que la Orden de Venta que se genere siempre tendrá en su Descripción el nombre del Proyecto / Fase / Tarea desde donde se generó. Además, se definirá en la Descripción de la línea de Orden de Venta la *Descripción* que se defina en la línea del Proyecto.
 
-### **Controles en la Orden de Venta**
+#### **Controles en la Orden de Venta**
 
 * Aprobado por Cliente
 * Archivo Adjunto
 
 Las Órdenes de Venta cuentan con un control de Aprobación de Clientes. Para poder completar la Orden de Venta se deberá Marcar en “Y” el Check “Aprobado por Cliente” y además contar con un archivo adjunto a dicha Orden. La idea es que se adjunte la autorización que se tuvo del cliente para proceder con dicho pedido.
 
-## **Agencia de Producción**
+### **Agencia de Producción**
 
-### **Cotizaciones**
+#### **Cotizaciones**
 
-### **Cotización para Clientes**
+#### **Cotización para Clientes**
 
 El Ejecutivo de Cuentas creará un Proyecto en el cual definirá lo solicitado por el cliente.
 
@@ -653,18 +651,18 @@ Dentro de la Fase *Producción*, el Ejecutivo de Cuenta deberá crear como TAREA
 
 En cada TAREA se podrá definir una *Categoría* de “Cotización a Proveedores” para que facilite su identificación. Además se podrá asignar a un *Responsable* de la misma; (para hacerlo el mismo deberá estar definido como “Miembro del Proyecto”).
 
-## **Fase generada automáticamente.**
+#### **Fase generada automáticamente.**
 
 Sólo se deberá agregar en el campo “Detalle Cotización” el detalle de lo que se desea Cotizar.
 
-### **Tareas con cada Cotización a realizar.**
+#### **Tareas con cada Cotización a realizar.**
 
 * **Descripción:** Se deberá definir el el texto que se enviará al Proveedor en la Solicitud de Cotización. Este podrá ser modificado si se desea luego por Producción.
 * **Ayuda:** Se podrá agregar un comentario para que Producción considere en caso de ser necesario para realizar la cotización.
 
-## **Generando Cotizaciones (Producción)**
+#### **Generando Cotizaciones (Producción)**
 
-### **Ventana: Tarea de Proyecto**
+#### **Ventana: Tarea de Proyecto**
 
 Dentro de la ventana Tarea de Proyecto, Producción podrá visualizar todas las Tareas que se deberán realizar en cada uno de los Proyectos.
 
