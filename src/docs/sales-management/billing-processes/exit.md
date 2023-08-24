@@ -19,7 +19,7 @@ Podrá visualizar la siguiente ventana de confirmación donde debe seleccionar l
 
 Imagen 11. Ventana de Confirmación y Opción OK
 
-## Consultar Facturas Generadas
+### Consultar Facturas Generadas
 
 Al consultar el registro en la ventana **Documentos por Cobrar**, puede visualizar las facturas de cuentas por cobrar generadas desde la orden de salida.
 
@@ -35,7 +35,7 @@ Documento por Cobrar **85933** correspondiente al socio del negocio **Socio Est�
 
 Imagen 13. Factura Número 85933 Generada desde la Orden de Salida
 
-## Imprimir Facturas Generadas
+### Imprimir Facturas Generadas
 
 Al imprimir el registro en la ventana **Documentos por Cobrar**, seleccionando el icono **Imprimir** ubicado en la barra de herramientas de Solop ERP, podrá visualizar de la siguiente manera la factura de ventas generada desde la orden de salida.
 

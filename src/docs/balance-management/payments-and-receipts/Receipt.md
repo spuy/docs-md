@@ -8,7 +8,7 @@ article: false
 
 ## **Recibo**
 
-## **Recibo de Pago**
+### **Recibo de Pago**
 
 El recibo de pago opera de manera similar al de Recibo de Cobro.
 
@@ -24,7 +24,7 @@ Para realizar un Recibo de Pago se deberá ingresar a la ventana “Recibo de Pa
 
 Acciones
 
-## **Asignar Facturas (Documentos por Pagar)**
+### **Asignar Facturas (Documentos por Pagar)**
 
 Haciendo click en este botón podrá seleccionar directamente qué facturas se estarán cobrando.
 
@@ -32,11 +32,11 @@ Si la suma de todos los Documentos seleccionados es igual al importe del Recibo 
 
 Si existe una diferencia pero no se selecciona un Cargo, los importes no cerrarán por lo que no se generará la Asignación automática.
 
-## **Seleccionar Cheque Diferido**
+### **Seleccionar Cheque Diferido**
 
 En caso de realizar un Pago con un Cheque Diferido se deberá generar el mismo previamente para luego desde el Recibo de Pago simplemente seleccionar el mismo.
 
-## **Generar Pago Contado**
+### **Generar Pago Contado**
 
 Definir con qué medio de pago se estará pagando (Contado, Cheque al día o Transferencia). Así como también el importe del mismo.
 
@@ -46,7 +46,7 @@ Importe Asignado: Total de facturas asignadas en el recibo
 
 Total Pendiente de Asignar: Total pendiente de asignar (Monto abierto del recibo). No puede ser positivo sin tener un Cargo asignado para saldar la diferencia.
 
-## **Ajuste**
+### **Ajuste**
 
 En caso de que exista una diferencia entre los Medios de Pago y los Documentos a Asignar (redondeo, gastos bancarios por transferencias, etc) , se podrá aplicar dicha diferencia a un Cargo.
 
@@ -56,7 +56,7 @@ Si existe diferencia y no se selecciona un Cargo, los importes no equilibrarán 
 
 Importe del Cargo: Diferencia existente entre los Medios de Pago seleccionados y los Documentos Asignados.
 
-## **Recibo de Canje**
+### **Recibo de Canje**
 
 Acción igual a la explicada para Recibos de Cobro.
 
@@ -64,7 +64,7 @@ Acción igual a la explicada para Recibos de Cobro.
 
 Una vez terminado todos los pasos se deberá completar el documento.
 
-## **Recibo de Cobro**
+### **Recibo de Cobro**
 
 Es un documento que la empresa emite indicando que cobró a un tercero uno o varios Documentos por Cobrar, indicando qué Documentos está cobrando y con qué medios de pago le están pagando.
 
@@ -74,7 +74,7 @@ El recibo de cobro tiene un total monetario que está formado por la suma de los
 
 El recibo de cobro tiene documentos afectados o “Documentos Por Cobrar”, que pueden afectarse total o parcialmente, la suma de esta relación puede ser igual o menor que el Recibo de Cobro pero nunca superior.
 
-## **Ingreso del Recibo de Cobro una moneda**
+### **Ingreso del Recibo de Cobro una moneda**
 
 Para realizar un Recibo de Cobro se deberá ingresar a la ventana llamada Recibo de Cobro.
 
@@ -96,7 +96,7 @@ En el caso que exista un importe Pendiente de asignar positivo, se le deberá as
 
 Esto permitirá que el sistema realice la asignación automática.
 
-## **Acciones**
+### **Acciones**
 
 Las acciones que se pueden realizar serán:
 
@@ -106,17 +106,17 @@ Las acciones que se pueden realizar serán:
 
 y se deberán realizar con los botones que está en la imagen de abajo.
 
-### **1- Asignar Facturas**
+#### **1- Asignar Facturas**
 
 Con el botón Asignar Facturas podrá seleccionar directamente qué Documentos por Cobrar está cobrando.
 
 Si la suma de todos los Documentos seleccionados es igual al importe del Recibo de Cobro se realizará la Asignación correspondiente de manera automática.
 
-### **2- Generar Documento de Cobro Diferido**
+#### **2- Generar Documento de Cobro Diferido**
 
 Definir el Cheque Diferido que se está recibiendo. Se deberá definir la siguiente información: Nro de Cheque, Banco del Cheque, Importe, Fecha de Emisión y Fecha. Vencimiento.
 
-### **3- Generar Cobro Contado**
+#### **3- Generar Cobro Contado**
 
 Seleccionar con qué medio de pago se estará cobrando. Contado, Cheque al día, cheque diferido, conforme, canje o Transferencia.
 
@@ -129,7 +129,7 @@ Cargo: Seleccionar entre los cargos definidos allí que se desea enviar la difer
 
 Importe del Cargo: Diferencia existente entre los Medios de Pago seleccionados y los Documentos Asignados.
 
-## **Recibo de Canje**
+### **Recibo de Canje**
 
 Si dentro del recibo se han ingresado Documentos por Cobrar, pero también Documentos por Pagar, estos serán sumarizados con signo contrario para la Asignación de Facturas. Al completar este Recibo estas Facturas serán Asignadas entre si descontando correctamente el Saldo y quedando las mismas como Canceladas también.
 
@@ -139,7 +139,7 @@ Opcionalmente podrá definir en el campo “Recibo de Canje” el nro del Recibo
 
 Al Completar un Recibo de Cobro, se completarán así como los Cobros definidos en el mismo como también se generará una Asignación entre todos los documentos definidos en sus pestañas. Será la Asignación el documento que realmente cancelará el Saldo Abierto de aquellos Documentos por Cobrar y Documentos por Pagar con sus correspondientes Pago/Cobro.
 
-## **Recibo Multimoneda**
+#### **Recibo Multimoneda**
 
 Los pasos a seguir para generar un Recibo Multimoneda son los siguientes:
 
@@ -171,7 +171,7 @@ Elegimos las facturas y en total de pago indicamos el importe a asignar al Recib
 
 Por último, generamos el cobro/pago mediante la opción “Generar cheque diferido” o “Generar pago contado” según corresponda y completaremos el documento.
 
-## **Recibo de Cobro con Redondeo**
+#### **Recibo de Cobro con Redondeo**
 
 Para generar un recibo de cobro se comenzará completando los siguientes campos:
 
@@ -187,7 +187,7 @@ Si no se marca el check de Redondeo, el importe asignado de Facturas y el import
 
 **Pueden existir dos situaciones:**
 
-## **COBRO SUPERIOR A FACTURAS (Signo Negativo)**
+### **COBRO SUPERIOR A FACTURAS (Signo Negativo)**
 
 * Puede ser que la Asignación por importe de Facturas sea menor al Cobro y se desee dejar un saldo abierto del Cobro.
 
@@ -197,7 +197,7 @@ En este caso **NO** se deberá marcar el check de Redondeo.
 
 Aquí **SI** deberemos marcar el check de Redondeo.
 
-## **FACTURAS SUPERIOR AL COBRO (Signo POSITIVO)**
+#### **FACTURAS SUPERIOR AL COBRO (Signo POSITIVO)**
 
 * **Asignación Parcial:** Para poder hacer una asignación Parcial de las Facturas se deberá seleccionar las mismas desde el Smartbrowser de Asignar Facturas por el importe que se desea asignar.
 
@@ -207,7 +207,7 @@ Aquí **SI** deberemos marcar el check de Redondeo.
 
 Como último paso en todos los casos se deberá Completar el documento mediante el botón Completar.
 
-## **Impresión de Recibo de Cobro**
+#### **Impresión de Recibo de Cobro**
 
 Es posible imprimir el detalle del Recibo de Cobro realizado a los clientes de la empresa con un formato y pre-numeración oficial.
 
@@ -216,7 +216,7 @@ Para esto presione imprimir en la Barra de Herramientas y el Reporte mostrará:
 * Documentos por Cobrar cancelados
 * Documentos de Pago recibidos
 
-## **Canje de Recibos (misma moneda)**
+#### **Canje de Recibos (misma moneda)**
 
 Directamente desde el Recibo se puede generar un Canje de Recibos, ya sea desde un Recibo de Cobro como desde un Recibo de Pago.
 
