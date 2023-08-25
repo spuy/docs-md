@@ -19,7 +19,7 @@ En esta ocasión **Solop ERP** pretende ofrecerle una guía fácil para la defin
   - Cliente
   - Empleado
 
-## Registro de Socio del Negocio
+### Registro de Socio del Negocio
 
 En el menú de Solop ERP, ubique y seleccione la carpeta **Relación con Socio del Negocio**, luego seleccione la carpeta **Reglas de Socios del Negocio** y finalmente seleccione la ventana **Socio del Negocio**.
 
@@ -41,11 +41,7 @@ Seleccione la organización en el campo **Organización**.
 
 La organización le permite definir la entidad legal ó una sub-unidad a la cual pertenece el socio de negocio, si la organización es (\*), este estará disponible para todas las organizaciones al procesar documentos y transacciones, pero si por el contrario, ha seleccionado una organización diferente, este registro únicamente estará disponible para la organización seleccionada.
 
-![Campo Organización](/assets/img/docs/master-data/mad-master-organization.png)
-
-Imagen 3. Campo Organización
-
-Warning
+Campo Organización
 
 Generalmente los **Socios de Negocios** son registros compartidos entre entidades organizacionales, por esta razón **Solop ERP** recomienda la creación con organización (\*) para evitar duplicidad e inconvenientes contables, de esta forma garantizamos la homogeneidad de los datos maestros.
 
@@ -53,15 +49,9 @@ Introduzca el código de socio del negocio en el campo **Código**.
 
 El código es un dato único e irrepetible que protege la entrada de los registros, evitando la duplicidad de los mismos, generalmente se refiere al número de identificación que acredite la identidad de una persona natural una entidad jurídica, por ejemplo, una cédula de identidad o un RIF.
 
-Note
-
 Si no es ingresado un dato en este campo Solop ERP genera un dato de tipo numérico autoincrementable.
 
-![Campo Código](/assets/img/docs/master-data/mad-master-code.png)
-
-Imagen 4. Campo Código
-
-Warning
+Campo Código
 
 Se recomienda no ingresar caracteres especiales como puntos, guiones u otros que alteren el registro en este campo.
 
@@ -71,41 +61,31 @@ El socio de negocio padre no es un campo obligatorio, sin embargo, es un campo q
 
 Imaginemos un proveedor de tipo cadena cuyo nombre es **Cadena Única C.A**, esta tendrá dos tiendas físicas, **Cadena Unica Centro C.A** y **Cadena Única Oriente C.A** respectivamente. Para este caso el **Socio de Negocio Padre** es **Cadena Única C.A**,quedando agrupado de forma que las dos tiendas serán hijas de **Cadena Única C.A**, de esta forma al emitir reportes financieros podríamos generarlos desde el Socio de Negocio Padre (**Cadena Única C.A**), agrupando todos los saldos de las tiendas por el padre ó podría generar los reportes únicamente por tienda.
 
-Note
-
 Generalmente esta opción es utilizada para franquicias, cadenas o corporaciones.
 
 Introduzca el nombre del socio del negocio en el campo **Nombre**.
 
 El nombre se refiere a la razón social, siendo esta el nombre ó la denominación con la que está registrado en los documentos legales, el nombre es utilizado a nivel administrativo, formal y jurídico.
 
-![Campo Nombre](/assets/img/docs/master-data/mad-master-name.png)
-
-Imagen 5. Campo Nombre
+Campo Nombre
 
 Introduzca el nombre 2 del socio del negocio en el campo **Nombre 2**.
 
 El nombre 2 varía su uso dependiendo de la naturaleza del socio del negocio (Cliente, Proveedor o Empleado), si es un cliente o un proveedor es opcional, y generalmente se utiliza para colocar la denominación comercial, por el contrario, si es un empleado es obligatorio, siendo este campo correspondiente al apellido, el mismo será impreso en los reportes administrativos y jurídicos.
 
-![Campo Nombre 2](/assets/img/docs/master-data/mad-master-name-2.png)
-
-Imagen 6. Campo Nombre 2
+Campo Nombre 2
 
 Introduzca una breve descripción referente al socio del negocio cliente en el campo **Descripción**.
 
 La descripción no es un campo obligatorio,sin embargo, le permite dejar descripciones o notas de interés para el registro.
 
-![Campo Descripción](/assets/img/docs/master-data/mad-master-description.png)
-
-Imagen 7. Campo Descripción
+Campo Descripción
 
 Seleccione el checklist **Entidad Acumulada**.
 
 Entidad acumulada no es un campo obligatorio, sin embargo, le permite definir al socio del negocio como entidad sumaria, lo que significa que si el socio de negocio tiene este check activo será un **Socio de Negocio Padre**.
 
-![Campo Entidad Acumulada](/assets/img/docs/master-data/mad-master-entity.png)
-
-Imagen 8. Campo Entidad Acumulada
+Campo Entidad Acumulada
 
 Seleccione en el campo **Estado de Crédito**.
 
@@ -129,9 +109,7 @@ Podrá visualizar el saldo actual que posee el cliente en el campo **Saldo Actua
 
 El saldo actual es un campo solo lectura, actualizado de forma automática, aumentando o disminuyendo al emitir cuentas por cobrar o cuentas por pagar, controlando el estado de crédito.
 
-![Campo Saldo Actual](/assets/img/docs/master-data/mad-master-balance.png)
-
-Imagen 10. Campo Saldo Actual
+Campo Saldo Actual
 
 Podrá visualizar el número de identificación autogenerado a partir del campo **Código** en el campo **Número de Identificación**
 
@@ -141,39 +119,29 @@ Seleccione el checklist **Exento de Impuesto en Venta**.
 
 Exento de Impuesto de Venta, no es un campo obligatorio, por defecto está establecido en falso, permite la omisión de impuestos al generar ordenes de ventas, es decir si un producto es gravado, hará una excepción para este socio de negocio, emitiendo la orden de venta con el producto en cuestión con impuesto (0%).
 
-![Campo Exento de Impuesto en Venta](/assets/img/docs/master-data/mad-master-tax.png)
-
-Imagen 11. Campo Exento de Impuesto en Venta
+Campo Exento de Impuesto en Venta
 
 Seleccione el checklist **Exento de Impuesto en Compra**, para definir al socio del negocio como exento de impuesto.
 
 Exento de Impuesto de Compra, no es un campo obligatorio, por defecto está establecido en falso, permite la omisión de impuestos al generar ordenes de compras, es decir si un producto es gravado, hará una excepción para este socio de negocio, emitiendo la orden de compra con el producto en cuestión con impuesto (0%).
 
-![Campo Exento de Impuesto en Compra](/assets/img/docs/master-data/mad-master-buys.png)
-
-Imagen 12. Campo Exento de Impuesto en Compra
+Campo Exento de Impuesto en Compra
 
 Seleccione el grupo de impuestos en el campo **Grupo de Impuestos**.
 
-![Campo Grupo de Impuestos](/assets/img/docs/master-data/mad-master-group.png)
-
-Imagen 13. Campo Grupo de Impuestos
+Campo Grupo de Impuestos
 
 Introduzca el código DUNS del socio del negocio en el campo **DUNS**.
 
 El código DUNS no es un campo obligatorio, sin embargo, le permite introducir el número DUNS (Data Universal Numbering System o Sistema Universal de Numeración de Datos), el mismo es un un número de identificación proporciona la identidad única a cada empresa a nivel internacional.
 
-![Campo DUNS](/assets/img/docs/master-data/mad-master-duns.png)
-
-Imagen 14. Campo DUNS
+Campo DUNS
 
 Introduzca el número de referencia socio del negocio en el campo **No. de Referencia**.
 
 El número de Referencia no es un campo obligatorio, sin embargo, le permite introducir un número fijo que utiliza el socio de negocio para gestiones administrativas, este tiene incidencia en las órdenes de compra o venta dependiendo la naturaleza de la entidad, siendo establecido de forma automática en las mismas.
 
-![Campo No. de Referencia](/assets/img/docs/master-data/mad-master-reference.png)
-
-Imagen 15. Campo No. de Referencia
+Campo No. de Referencia
 
 Introduzca el código NAICS o SIC del socio del negocio en el campo **NAICS/SIC**.
 
@@ -187,9 +155,7 @@ Introduzca la valuación ABC en el campo **Valuación ABC**.
 
 La valuación ABC no es un campo obligatorio, sin embargo, le permite establecer una evaluación clasificatoria del socio de negocio cliente.
 
-![Campo Valuación ABC](/assets/img/docs/master-data/mad-master-valuation.png)
-
-Imagen 17. Campo Valuación ABC
+Campo Valuación ABC
 
 Seleccione el grupo de socio del negocio en el campo **Grupo de Socio del Negocio**
 
@@ -217,17 +183,13 @@ Adicionalmente, define en el socio de negocio funciones y parámetros a partir d
 
 **Contabilidad**: Define cuentas contables en la que se realizarán los asientos contables dependiendo de la naturaleza del socio de negocio (Clientes o Proveedores).
 
-![Campo Grupo de Socio del Negocio](/assets/img/docs/master-data/mad-master-partner.png)
-
-Imagen 18. Campo Grupo de Socio del Negocio
+Campo Grupo de Socio del Negocio
 
 Seleccione el tipo de cuenta en el campo **Tipo de Cuenta\*\***.
 
 El tipo de cuenta no es un campo obligatorio, sin embargo, le permite a los vendedores conocer con perfección las características de sus clientes y los diferentes tipos de clientes definidos en la empresa y así realizar un mejor estudio de mercado.
 
-![Campo Tipo de Cuenta](/assets/img/docs/master-data/mad-master-account.png)
-
-Imagen 19. Campo Tipo de Cuenta
+Campo Tipo de Cuenta
 
 Seleccione el lenguaje en el campo **Lenguaje**.
 
@@ -241,41 +203,31 @@ Seleccione el tipo de industria en el campo **Tipo de Industria**.
 
 El tipo de industria no es un campo obligatorio, sin embargo, define la tipología de industria en la que se encuentra el Socio de Negocio.
 
-![Campo Tipo de Industria](/assets/img/docs/master-data/mad-master-industry.png)
-
-Imagen 21. Campo Tipo de Industria
+Campo Tipo de Industria
 
 Seleccione el segmento en el campo **Segmento**.
 
 El segmento no es un campo obligatorio, sin embargo, permite segmentar socios de negocios de manera rigurosa, identificar patrones que pueden ser usados para asignar un segmento.
 
-![Campo Segmento](/assets/img/docs/master-data/mad-master-segment.png)
-
-Imagen 22. Campo Segmento
+Campo Segmento
 
 Seleccione el grupo de ventas en el campo **Grupo de Ventas**.
 
 El grupo de ventas no es un campo obligatorio, sin embargo, permite categorizar al socio de negocio en un grupo de venta con objetivos referente a marketing y promociones.
 
-![Campo Grupo de Ventas](/assets/img/docs/master-data/mad-master-sales.png)
-
-Imagen 23. Campo Grupo de Ventas
+Campo Grupo de Ventas
 
 Introduzca la dirección de la página web en el campo **Dirección Web**.
 
 La dirección Web no es un campo obligatorio, sin embargo, permite registrar el sitio web del socio del negocio (Cliente y Proveedores) en el cual se administra la información de contacto de la empresa para solucionar sus inquietudes, realizar compras y gestión de solicitudes, aprovechando oportunidades de negocio que se encuentran en la red.
 
-![Campo Dirección Web](/assets/img/docs/master-data/mad-master-web.png)
-
-Imagen 24. Campo Dirección Web
+ Campo Dirección Web
 
 Seleccione el checklist **Prospecto Activo**.
 
 Prospecto Activo no es un campo obligatorio, por defecto está establecido en falso, sin embargo al seleccionarlo indica que el socio de negocio de tipo cliente está activo.
 
-![Campo Prospecto Activo](/assets/img/docs/master-data/mad-master-prospect.png)
-
-Imagen 25. Campo Prospecto Activo
+Campo Prospecto Activo
 
 Seleccione la opción **Liga Organización**, para ejecutar el proceso.
 
@@ -295,15 +247,9 @@ Para ejecutar este proceso debe tomar en cuenta los siguientes parámetros:
 
 Seleccione la opción **OK** y será ejecutado el proceso.
 
-Nota
-
 Las configuraciones por límite de acceso a rol es modificable desde los roles.
 
-![Campo Liga Organización](/assets/img/docs/master-data/mad-master-league.png)
-
-Imagen 26. Campo Liga Organización
-
-Warning
+ Campo Liga Organización
 
 La organización puede ser ligada únicamente a un socio de negocio, para corregir un error en la asignación de la organización, ejecute el proceso: Desliga de Socio de Negocio a organización.
 
@@ -311,33 +257,25 @@ Introduzca el valor de ingresos en el campo **Valor Esperado**.
 
 El valor esperado no es un campo obligatorio, sin embargo, permite ingresar un monto informativo de la rentabilidad esperada, basada en una estimación ingresos de un cliente.
 
-![Campo Valor Esperado](/assets/img/docs/master-data/mad-master-value.png)
-
-Imagen 27. Campo Valor Esperado
+Campo Valor Esperado
 
 Podrá visualizar el valor total de transacciones que posee el cliente en el campo **Valor Total Transacciones**.
 
 El valor total transacciones es un campo solo lectura, actualizado de forma automática, sumando cada ingreso generado por este cliente, el mismo permite evaluar la rentabilidad de un cliente potencial.
 
-![Campo Valor Total Transacciones](/assets/img/docs/master-data/mad-master-total.png)
-
-Imagen 28. Campo Valor Total Transacciones
+Campo Valor Total Transacciones
 
 Introduzca el costo de adquisición en el campo **Costo de Adquisición**.
 
 El costo de adquisición no es un campo obligatorio, sin embargo, permite registrar el monto total correspondiente al costo generado para lograr convertir un prospecto a cliente.
 
-![Campo Costo de Adquisición](/assets/img/docs/master-data/mad-master-acquisition.png)
-
-Imagen 29. Campo Costo de Adquisición
+Campo Costo de Adquisición
 
 Introduzca la cantidad de empleados en el campo **Empleados**.
 
 Empleados no es un campo obligatorio, sin embargo, le permite evaluar la cantidad de empleados de una empresa prospecto, funge como un dato informativo para ser utilizada en cotizaciones por ejemplo.
 
-![Campo Empleados](/assets/img/docs/master-data/mad-master-employes.png)
-
-Imagen 30. Campo Empleados
+Campo Empleados
 
 Introduzca el porcentaje de participación en el campo **Participación**.
 
@@ -345,9 +283,7 @@ La participación no es un campo obligatorio, sin embargo, le permite mantener e
 
 Esto puede generar fidelización del cliente, dando la oportunidad de evaluar promociones y descuentos para aquellos clientes en los cuales su participación sea alta, y a su vez, mayor oportunidad en el aumento de la cartera de cliente creando programas para ventas cruzadas y sugestivas, comercializando así más productos y servicios.
 
-![Campo Participación](/assets/img/docs/master-data/mad-master-participation.png)
-
-Imagen 31. Campo Participación
+Campo Participación
 
 Introduzca el número de ventas total en el campo **Volumen de Ventas**.
 
@@ -355,25 +291,19 @@ El volumen de ventas no es un campo obligatorio, sin embargo, permite registrar 
 
 Adicionalmente este datos es producto de supervisión para controlar volumen de ventas en comparación a pronósticos de ventas, estableciendo una estimación de cantidades mínimas a vender para mantener un equilibrio en la organización.
 
-![Campo Volumen de Ventas](/assets/img/docs/master-data/mad-master-volume.png)
-
-Imagen 32. Campo Volumen de Ventas
+Campo Volumen de Ventas
 
 Introduzca la fecha de la primera venta en el campo **Primera Venta**.
 
 La primera venta no es un campo obligatorio, sin embargo, permite registrar la fecha de la primera venta de forma informativa, útil para evaluar descuentos y promociones por aniversarios
 
-![Campo Primera Venta](/assets/img/docs/master-data/mad-master-first.png)
-
-Imagen 33. Campo Primera Venta
+Campo Primera Venta
 
 Seleccione el check **Entrega Directa**
 
 El check entrega directa no es un campo obligatorio, sin embargo, permite registrar el socio de forma informativa, útil para generar reportes e indicar que los envíos de las notas se envían del vendedor directamente al cliente.
 
-![Check Entrega Directa](/assets/img/docs/master-data/mad-master-direct.png)
-
-Imagen 34. Check Entrega Directa
+Check Entrega Directa
 
 Seleccione el tipo de persona en el campo **Tipo de Persona**.
 
@@ -387,25 +317,17 @@ El tipo de persona se refiere a la forma legal como está está constituida una 
 
 **Natural No Residente**: Persona Natural No Residente es una persona residente fuera del país, que asume las obligaciones, responsabilidades y resguarda las obligaciones con patrimonio propio.
 
-![Campo Tipo de Persona](/assets/img/docs/master-data/mad-master-person.png)
-
-Imagen 35. Campo Tipo de Persona
+Campo Tipo de Persona
 
 Adjunte el logo de la empresa en el campo **Logo**.
 
 El logo no es un campo obligatorio, sin embargo permite guardar logotipos de socios de negocios.
 
-![Campo Logo](/assets/img/docs/master-data/mad-master-logo.png)
-
-Imagen 36. Campo Logo
+Campo Logo
 
 Seleccione el icono **Guardar Cambios** ubicado en la barra de herramientas para guardar los datos ingresados.
 
-![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-keep.png)
-
-Imagen 37. Icono Guardar Cambios
-
-Warning
+Icono Guardar Cambios
 
 Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana socio del negocio.
 
@@ -442,7 +364,6 @@ Esta pestaña le indica a Solop ERP si el socio del negocio que se esta registra
 
 Imagen 1. Pestaña Proveedor
 
-Nota
 La pestaña **Proveedor** se compone de:
 
 - Un checklist **Proveedor**.
@@ -451,11 +372,8 @@ La pestaña **Proveedor** se compone de:
 
 Seleccione el checklist **Proveedor** para habilitar en Solop ERP el socio del negocio como proveedor de la compañía u organización.
 
-![Checklist Proveedor](/assets/img/docs/master-data/mad-master-checklist.png)
+Checklist Proveedor
 
-Imagen 2. Checklist Proveedor
-
-Warning
 De no ser tildado el checklist **Proveedor**, Solop ERP no tomará el socio del negocio como proveedor.
 
 Al tildar el checklist **Proveedor** podrá apreciar un grupo de campos necesarios para la compra de productos al mismo, dichos campos no son obligatorios ya que pueden ser definidos en el documento **Orden de Compra** al momento de su elaboración.
@@ -466,33 +384,23 @@ Imagen 3. Grupo de Campos Generados por el Checklist Proveedor
 
 El campo **Regla de Pago** establece la regla de pago definitiva para las compras al socio del negocio proveedor que se esta registrando, para este ejemplo la regla de pago utilizada es **A Crédito**.
 
-![Campo Regla de Pago](/assets/img/docs/master-data/mad-master-regla.png)
-
-Imagen 4. Campo Regla de Pago
+Campo Regla de Pago
 
 El campo **Lista de Precios de Compra** establece la lista de precios definitiva para las compras al socio del negocio proveedor que se esta registrando, para este ejemplo la lista de precios utilizada es **Compra (VES)**.
 
-![Campo Lista de Precios de Compra](/assets/img/docs/master-data/mad-master-price.png)
-
-Imagen 5. Campo Lista de Precios de Compra
+Campo Lista de Precios de Compra
 
 El campo **Término Pago Orden de Compra** establece el término de pago definitivo para las compras al socio del negocio proveedor que se esta registrando, para este ejemplo el término de pago utilizado es **Crédito a 15 días**.
 
-![Campo Término de Pago Orden de Compra](/assets/img/docs/master-data/mad-master-term.png)
-
-Imagen 6. Campo Término de Pago Orden de Compra
+Campo Término de Pago Orden de Compra
 
 El campo **Esquema del Descuento en OC** establece el descuento definitivo para las compras al socio del negocio proveedor que se esta registrando, para este ejemplo el esquema de descuento utilizado es **Compras Porcentaje Simple**.
 
-![Campo Esquema de Descuento en OC](/assets/img/docs/master-data/mad-master-schema.png)
-
-Imagen 7. Campo Esquema de Descuento en OC
+Campo Esquema de Descuento en OC
 
 El campo **Exento de (IGTF)** establece que no se aplicará el impuesto **IGTF** al socio del negocio proveedor que se esta registrando
 
-![Campo Exento de (IGTF)](/assets/img/docs/master-data/mad-master-igtf.png)
-
-Imagen 8. Campo Exento de (IGTF)
+Campo Exento de (IGTF)
 
 ### Pestaña Cuenta Bancaria
 
@@ -504,7 +412,7 @@ Seleccione la pestaña **Cuenta Bancaria** que se encuentra ubicada del lado izq
 
 Imagen 9. Pestaña Cuenta Bancaria
 
-### Checklist Activo
+#### Checklist Activo
 
 Seleccione en el campo **Tarjeta de Crédito**, el tipo de tarjeta de crédito que posee el socio del negocio proveedor que esta registrando.
 
@@ -545,7 +453,7 @@ Imagen 15. Campo Nombre de Referencia de la Tarjeta
 Warning
 Este proceso se realiza con la finalidad de registrar la tarjeta de crédito del socio del negocio.
 
-### Checklist ACH
+#### Checklist ACH
 
 Para registros de cuentas bancarias, tilde el checklist **ACH**, a continuación se reflejarán los campos para el registro de la cuenta bancaria del socio del negocio proveedor.
 
@@ -633,7 +541,7 @@ Imagen 27. Campo Teléfono
 Note
 Este procedimiento realizado aplica solo para los Socios del Negocio que cumplan el rol de Proveedor.
 
-## Cliente
+### Cliente
 
 Si es usted un usuario en etapa de iniciación le recomendamos leer el capítulo anterior, Socios del Negocio de Solop ERP, donde respondimos la interrogante común: **¿Qué es un Socio de Negocio?**, esto con la intención de proveer en este material una información más digerible.
 
@@ -694,7 +602,7 @@ Para concluir el preámbulo, le invitamos a tomar en cuenta cada una de estas ac
   - Pestaña Localización
   - Pestaña Contacto
 
-## Registro de Cliente
+#### Registro de Cliente
 
 Para registrar un cliente, es necesario que sea realizado el procedimiento regular explicado en el documento **Registro de Socio del Negocio**, elaborado por **Solop ERP**.
 
@@ -712,7 +620,6 @@ A continuación visualizará la siguiente imagen, dónde debe tildar el checklis
 
 Imagen 2. Checklist Cliente
 
-Warning
 Al tildar el checklist **Cliente**, podrá apreciar diferentes campos que establecen los términos o reglas para las transacciones de ventas al socio del negocio cliente que esta registrando. Dichos campos no son obligatorios porque pueden ser establecidos al momento de generar la orden de venta al socio del negocio.
 
 Introduzca en el campo **Copias del Documento**, el número de copias a ser impresas de cada documento generado al socio del negocio cliente.
@@ -845,7 +752,7 @@ Seleccione la pestaña **Cuenta Bancaria** que se encuentra ubicada del lado izq
 
 Imagen 23. Pestaña Cuenta Bancaria
 
-### Checklist Activo
+#### Checklist Activo
 
 Seleccione en el campo **Tarjeta de Crédito**, el tipo de tarjeta de crédito que posee el socio del negocio cliente que esta registrando.
 
@@ -877,11 +784,9 @@ Introduzca el año de expiración de la tarjeta de crédito del socio del negoci
 
 Imagen 28. Campo Año de Expiración
 
-Warning
-
 Este proceso se realiza con la finalidad de registrar la tarjeta de crédito del socio del negocio.
 
-### Checklist ACH
+#### Checklist ACH
 
 Para registros de cuentas bancarias, tilde el checklist **ACH**, a continuación se reflejarán los campos para el registro de la cuenta bancaria del socio del negocio.
 
@@ -918,8 +823,6 @@ Introduzca en el campo **No. De Cuenta**, el número de cuenta del socio del neg
 ![Campo No. De Cuenta](/assets/img/docs/master-data/mad-no-2.png)
 
 Imagen 34. Campo No. De Cuenta
-
-Warning
 
 Este proceso se realiza con la finalidad de registrar la cuenta del socio del negocio.
 
@@ -1083,8 +986,6 @@ Seleccione en el campo **Región de Ventas**, la región o área de ventas en la
 
 Imagen 60. Campo Región de Ventas
 
-Note
-
 Para conocer más sobre las regiones de ventas que puede tener una compañía u organización, visite el documento **Registro de Región de Ventas**, elaborado por **Solop ERP**.
 
 Introduzca en el campo **Código SICA**, el código SICA del socio del negocio cliente.
@@ -1092,8 +993,6 @@ Introduzca en el campo **Código SICA**, el código SICA del socio del negocio c
 ![Campo Código SICA](/assets/img/docs/master-data/mad-master-sica.png)
 
 Imagen 61. Campo Código SICA
-
-Warning
 
 Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana socio del negocio.
 
@@ -1106,8 +1005,6 @@ Seleccione la pestaña **Contacto** que se encuentra ubicada del lado izquierdo 
 ![Pestaña Contacto](/assets/img/docs/master-data/mad-master-contact.png)
 
 Imagen 62. Pestaña Contacto
-
-Warning
 
 El contacto (Usuario) permite registrar las diferentes personas de contacto que tiene la empresa con el socio del negocio cliente que esta registrando. Un ejemplo de esta pestaña puede ser, un jefe o persona de contacto por departamento para que a la hora de alguna venta de productos o servicios al socio del negocio cliente, se contacte a la persona correspondiente.
 
@@ -1165,8 +1062,6 @@ Introduzca en el campo **Código**, el usuario de la persona de contacto con el 
 
 Imagen 71. Campo Código
 
-Warning
-
 Solop ERP tiene establecido como estándar de creación de usuario y contraseña en Solop ERP, la inicial del primer nombre en minúscula, seguido del primer apellido completo, con la primera letra del mismo en mayúscula.
 
 Introduzca en el campo **Contraseña**, la contraseña de la persona de contacto con el socio del negocio cliente para ingresar a Solop ERP.
@@ -1174,8 +1069,6 @@ Introduzca en el campo **Contraseña**, la contraseña de la persona de contacto
 ![Campo Contraseña](/assets/img/docs/master-data/mad-master-password.png)
 
 Imagen 72. Campo Contraseña
-
-Warning
 
 Solop ERP tiene establecido como estándar de creación de usuario y contraseña en Solop ERP, la inicial del primer nombre en minúscula, seguido del primer apellido completo, con la primera letra del mismo en mayúscula.
 
@@ -1257,11 +1150,9 @@ Seleccione el icono **Guardar Cambios** en la barra de herramientras de Solop ER
 
 Imagen 85. Icono Guardar Cambios
 
-Note
-
 Este procedimiento realizado aplica solo para los Socios del Negocio que cumplan el rol de Cliente.
 
-## Empleado
+### Empleado
 
 Un socio del negocio empleado es aquella persona que presta sus servicios como trabajador en una determinada empresa u organización, desempeñando un cargo y recibiendo un salario a cambio de sus servicios. En Venezuela los empleados de una organización se encuentra respaldados por la LOTTT, la forma de pago y condiciones de trabajo es acordada por ambas partes de acuerdo a lo establecido en dicha ley.
 
@@ -1282,7 +1173,7 @@ Dentro de sus funcionalidades, Solop ERP permite a las organizaciones realizar d
   - Pestaña Detalle de Seguro
   - Pestaña Detalle de Permiso
 
-### Registro de Empleado
+#### Registro de Empleado
 
 En el menú de Solop ERP, ubique y seleccione la carpeta **Gestión de Recursos Humanos y Nómina**, luego seleccione la carpeta **Recursos Humanos**, por último seleccione la carpeta **Configuración de Empleado** y la ventana **Empleado (Todos)**.
 
@@ -1316,8 +1207,6 @@ Seleccione en el campo **Organización**, la organización para la cual esta reg
 
 Imagen 4. Campo Organización
 
-Warning
-
 Para que el socio del negocio este disponible para todas las organizaciones, el mismo deberá estar registrado con la organización en (\*), de lo contrario el socio del negocio solo estará disponible para una sola organización.
 
 Introduzca el código de identificación, cédula o rif del socio del negocio en el campo **Código**, el valor introducido en este campo automáticamente se reflejará en el campo **Número Identificación**.
@@ -1325,8 +1214,6 @@ Introduzca el código de identificación, cédula o rif del socio del negocio en
 ![Campo Código](/assets/img/docs/master-data/mad-master-code-20.png)
 
 Imagen 5. Campo Código
-
-Warning
 
 Se recomienda que al ingresar el valor al campo **Código** no se ingrese ningún prefijo, punto, guion o cualquier otro carácter.
 
@@ -1336,8 +1223,6 @@ Introduzca los (2) dos nombres del socio del negocio empleado en el campo **Nomb
 
 Imagen 6. Campo Nombre
 
-Note
-
 Si el socio del negocio que esta registrando posee solo un nombre, se debe ingresar solo ese nombre que posee.
 
 Introduzca en el campo **Nombre 2**, los (2) dos apellidos del socio del negocio empleado.
@@ -1345,8 +1230,6 @@ Introduzca en el campo **Nombre 2**, los (2) dos apellidos del socio del negocio
 ![Campo Nombre 2](/assets/img/docs/master-data/mad-master-name-21.png)
 
 Imagen 7. Campo Nombre 2
-
-Note
 
 Si el socio del negocio que esta registrando posee solo un apellido, se debe ingresar solo ese apellido que posee.
 
@@ -1463,8 +1346,6 @@ La información ingresada en esta pestaña puede variar al momento de la elabora
 Seleccione la pestaña **Información de Contrato** y proceda al llenado de los campos correspondientes.
 
 ![Pestaña Información de Contrato](/assets/img/docs/master-data/mad-master-image17.png)
-
-Warning
 
 La Información de Contrato se debe realizar con la Organización a la Pertenezca el empleado, por eso debe Cambiar La Organización de (\*) a la Organización Principal del Empleado.
 
@@ -1587,8 +1468,6 @@ Seleccione en el campo **Fecha Final**, la fecha de culminación del contrato de
 ![Campo Fecha Final](/assets/img/docs/master-data/mad-master-image34.png)
 
 Imagen 42. Campo Fecha Final
-
-Warning
 
 La fecha final del contrato depende del lapso de duración de contratos que las empresas tengan establecido como políticas de contratación.
 
@@ -1753,8 +1632,6 @@ Seleccione en el campo **Logo**, el logo de la empresa.
 ![Logo](/assets/img/docs/master-data/mad-master-image61.png)
 
 Imagen 69. Logo
-
-Warning
 
 Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana empleado (todos).
 
@@ -2362,8 +2239,6 @@ Seleccione el icono **Guardar Cambios** en la barra de herramientas de Solop ERP
 
 Imagen 154. Icono Guardar Cambios
 
-Warning
-
 Si el empleado posee otro seguro para registrar, seleccione el icono **Registro Nuevo** en la barra de herramientas de Solop ERP en la pestaña **Detalle de Seguro** y proceda al llenado de los campos explicados anteriormente.
 
 ### Pestaña Detalle de Permiso
@@ -2400,8 +2275,6 @@ Podrá visualizar en el campo **Número de Permisos Asignados**, el número de p
 
 Imagen 159. Campo Número de Permisos Asignados
 
-Warning
-
 Al seleccionar un tipo de permiso, el campo **Numero de Permisos Asignados** toma el valor **1** indicando que se esta asignando un permiso al empleado. Los campos **Total de Permisos** y **Balance**, toman automáticamente dicho valor.
 
 De igual manera, los campos **Permisos Usados** y **Última Fecha de Ejecución** se definen como campos de sólo lectura y toman los valores desde la ventana **Solicitud del Permiso**.
@@ -2416,11 +2289,6 @@ Seleccione el icono **Guardar Cambios**, para guardar el registro de la pestaña
 
 Imagen 160. Icono Guardar Cambios
 
-Note
-
 Este procedimiento realizado aplica solo para los Socios del Negocio que cumplan el rol de Empleado en una compañía.
-
-
-Prueba Imagen
 
 ![Ventana Socio del Negocio](/assets/img/docs/master-data/socio_de_negocio_imagen.png)
