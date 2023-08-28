@@ -6,7 +6,7 @@ sticky: 9
 article: false
 ---
 
-## Selección de Pago
+### Selección de Pago
 
 Una selección de pagos en Solop ERP no es más que la agrupación de documentos de CxP o de compras que se necesitan ser cancelados ya sean en su totalidad o de manera parcial, dentro de la selección de pagos se encuentran los tipos de documentos **Orden de Pago** y la **Selección de Pagos de Cuentas por Pagar**, los cuales son utilizados para seguir los canales regulares entre los departamentos de compras, cuenta por pagar y tesorería.
 
@@ -37,59 +37,27 @@ Podrá visualizar la ventana **Selección de Pago**, con los diferentes registro
 
 Imagen 2. Ventana Selección de Pago
 
-Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de Solop ERP, para crear un nuevo registro en la ventana **Selección de Pago**.
+Tipo de documento a generar en el campo **Tipo de Documento**: la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por Solop ERP. Para ejemplificar el registro es utilizado el tipo de documento **Orden de Pago**.
 
-Icono Registro Nuevo de la Ventana Selección de Pago
+Campo **F. Documento**: la fecha en la cual está realizando el documento **Orden de Pago**.
 
-Seleccione en el campo **Organización**, la organización para la cual está realizando el documento **Orden de Pago**.
+Campo **Fecha de Pago**: la fecha en la cual se debe generar el pago.
 
-Al seleccionar la organización con la que trabajará el registro a crear estará disponible únicamente bajo esa organización seleccionada, aunque la decisión de la organización a trabajar quedará al momento que inicie sesión en Solop ERP.
+Campo **Cuenta Bancaria**: la cuenta bancaria desde la cual requiere generar el pago.
 
-Campo Organización del Documento Orden de Pago desde Orden
+Campo **Moneda**: la moneda con la cual se requiere generar el pago.
 
-Introduzca en el campo **No. del Documento**, el número de documento correspondiente a la secuencia de numeración del documento que esta realizando.
-
- Campo Número de Documento del Documento Orden de Pago desde Orden
-
-Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por Solop ERP. Para ejemplificar el registro es utilizado el tipo de documento **Orden de Pago**.
-
-Campo Tipo de Documento del Documento Orden de Pago desde Orden
-
-Seleccione en el campo **F. Documento**, la fecha en la cual está realizando el documento **Orden de Pago**.
-
-Campo F. Documento del Documento Orden de Pago desde Orden
-
-Seleccione en el campo **Fecha de Pago**, la fecha en la cual se debe generar el pago.
-
-Campo Fecha de Pago del Documento Orden de Pago desde Orden
-
-Seleccione en el campo **Cuenta Bancaria**, la cuenta bancaria desde la cual requiere generar el pago.
-
-Campo Cuenta Bancaria del Documento Orden de Pago desde Orden
-
-Seleccione en el campo **Moneda**, la moneda con la cual se requiere generar el pago.
-
-Campo Moneda del Documento Orden de Pago desde Orden
-
-Introduzca en el campo **Nombre de Referencia**, un nombre de referencia para la identificación de la orden de pago que este realizando.
+Campo **Nombre de Referencia**: nombre de referencia para la identificación de la orden de pago que esté realizando.
 
 La información a colocar en este campo es una pequeña referencia de la orden pago que se esté creando por ejemplo: **Pago Anticipos a proveedores Servicios**.
 
-Campo Nombre de Referencia del Documento Orden de Pago desde Orden
-
-Introduzca en el campo **Descripción**, una breve descripción referente a la orden de pago que este realizando.
+Campo **Descripción**: breve descripción referente a la orden de pago que este realizando.
 
 La información a colocar en este campo es una pequeña descripción de la orden de pago que se esté realizando por ejemplo: **Primer anticipo a proveedores de servicios primera semana de Junio**.
 
-Campo Descripción del Documento Orden de Pago desde Orden
+Icono **Guardar Cambios**: ubicado en la barra de herramientas de Solop ERP, para guardar el registro de los campos de la pestaña **Selección de Pago**.
 
-Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP, para guardar el registro de los campos de la pestaña **Selección de Pago**.
-
-Seleccione la opción **Crear Desde Orden**, para crear la orden de pago desde la orden de compra.
-
-Al seleccionar el botón **Crear Desde Orden**, se desplegará otra ventana llamada Smart Browser (Ventana de Búsqueda Inteligente).
-
-Opción Crear desde Orden del Documento Orden de Pago desde Orden
+Seleccione la opción **Crear Desde Orden**, para crear la orden de pago desde la orden de compra, se desplegará otra ventana llamada Smart Browser (Ventana de Búsqueda Inteligente).
 
 Podrá visualizar la ventana de búsqueda inteligente del proceso **Crear Desde Orden**, con diferentes campos que le permiten al usuario filtrar la búsqueda de la información en base lo que seleccione en dichos campos
 
@@ -101,57 +69,37 @@ Los campos a visualizar en el smart browser son los siguientes:
 
 Campo **Moneda**, este campo se encuentra sólo lectura y la moneda a mostrar dependerá de la moneda seleccionada en la ventana padre **Selección de Pago**; la moneda que aparezca en ese campo dentro del smart browser le indica a Solop ERP que los documentos a buscar deben estar bajo esa moneda, ejemplo:
 
-Si el valor en el campo **Moneda** es **UYU** (Peso uruguayo) cuando se realice la búsqueda de los documentos Solop ERP mostrara únicamente los que estén creados bajo esa moneda.
+Si el valor en el campo **Moneda** es **UYU** (Peso uruguayo) cuando se realice la búsqueda de los documentos Solop ERP mostrara únicamente los que estén creados bajo esa moneda (lo mismo para el resto de las monedas).
 
-Si el valor en el campo **Moneda** es USD\*\* (Dólar) cuando se realice la búsqueda de los documentos Solop ERP mostrara únicamente los que estén creados bajo esa moneda.
+Campo **Socio de Negocio**: puede ser utilizado si desea ubicar las órdenes de compras que estén asociadas a un socio de negocio en específico.
 
-Campo Moneda de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
+Checklist **Transacción de Ventas**: comúnmente se encuentra destildado, pero si se tilda al momento de hacer la búsqueda en el smart browser Solop ERP mostrará las **Ordenes de Ventas**, sí el check se encuentra destildado mostrará únicamente las **Ordenes de Compras**.
 
-Campo **Socio de Negocio**, este campo puede ser utilizado si desea ubicar las órdenes de compras que estén asociadas a un socio de negocio en específico.
-
-Campo Socio de Negocio de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
-
-Checklist **Transacción de Ventas**, esté checklist comúnmente se encuentra destildado, pero sí se tilda al momento de hacer la búsqueda en el smart browser Solop ERP mostrará las **Ordenes de Ventas**, sí el check se encuentra destildado mostrará únicamente las **Ordenes de Compras**.
-
-Check Transacción de Ventas de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
-
-Campo **Regla de Pago**, este es un campo de búsqueda tipo lista, el cual al tildarlo mostrará una serie de opciones de reglas de pagos, la opción a seleccionar en esté campo le indicará a Solop ERP qué al momento de realizar la búsqueda ubique y muestre solo las ordenes de compras que estén bajo la regla de pago seleccionada en ese campo, como por ejemplo:
+Campo **Regla de Pago**: genera búsqueda tipo lista, el cual al tildarlo mostrará una serie de opciones de reglas de pagos, la opción a seleccionar en esté campo le indicará a Solop ERP qué al momento de realizar la búsqueda ubique y muestre solo las ordenes de compras que estén bajo la regla de pago seleccionada en ese campo, como por ejemplo:
 
 Si se selecciona la regla de pago **A Crédito** y tengo creadas una o varias órdenes de compras qué tienen establecida esa regla de pago, al realizar la búsqueda desde el smart browser Solop ERP mostrará las órdenes que éste unicamente con esa regla de pago, si no existen órdenes de compras con esa regla de pago Solop ERP no mostrará nada.
 
-Campo Regla de Pago de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
-
-Campo **Tipo de Documento**, este es un campo de búsqueda tipo lista el cual al tildarlo mostrará una serie de opciones de los tipos de documentos que se encuentran asociados a las órdenes de compras, la opción a seleccionar en este campo le indicará a Solop ERP qué al momento de realizar la búsqueda ubique y muestre solo las ordenes de compras que estén bajo el tipo de documento seleccionado en ese campo, como por ejemplo:
+Campo **Tipo de Documento**: genera búsqueda tipo lista el cual al tildarlo mostrará una serie de opciones de los tipos de documentos que se encuentran asociados a las órdenes de compras, la opción a seleccionar en este campo le indicará a Solop ERP qué al momento de realizar la búsqueda ubique y muestre solo las ordenes de compras que estén bajo el tipo de documento seleccionado en ese campo, como por ejemplo:
 
 Si se selecciona el tipo de documento **Orden de Compra Nacional** Solop ERP mostrará cuando se realice la búsqueda unicamente las ordenes de compra que estén asociadas a ese tipo de documento, de lo contrario si no es seleccionado ningún tipo de documento Solop ERP mostrará todas las órdenes de compras con todos los tipos de documentos que estén asociados a una orden de compra.
 
-Campo Tipo de Documento de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
-
-Campo **Fecha de la Orden**, este campo es un campo tipo fecha el cual cuenta con dos recuadros con calendarios, el primero es para ser utilizada como fecha de la orden **Desde** y el segundo como fecha de la orden **Hasta**, al colocar una fecha en cualquiera de estas dos opciones (Fecha desde / Fecha hasta) Solop ERP mostrará únicamente las ordenes de compras que están asociadas bajo ese rango de fechas, como por ejemplo:
+Campo **Fecha de la Orden**: formato tipo fecha el cual cuenta con dos recuadros con calendarios, el primero es para ser utilizada como fecha de la orden **Desde** y el segundo como fecha de la orden **Hasta**, al colocar una fecha en cualquiera de estas dos opciones (Fecha desde / Fecha hasta) Solop ERP mostrará únicamente las ordenes de compras que están asociadas bajo ese rango de fechas, como por ejemplo:
 
 Si se coloca en el campo fecha desde la fecha **18/06/2020** y el campo fecha hasta **20/06/2020**, Solop ERP mostrar las ordenes de compras que estén bajo ese rango de fechas.
 
-Campo Fecha de la Orden de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
-
 Para saber más sobre el campo **Fecha de la Orden** y qué acción implica sobre una orden de compra, visitar el documento Registro de Orden de Compra Directa.
 
-Campo **Fecha Prometida**, este campo es un campo tipo fecha el cual cuenta con dos recuadros con calendarios, el primero es para ser utilizada como fecha prometida **Desde** y el segundo como fecha prometida **Hasta**, al colocar una fecha en cualquiera de estas dos opciones (Fecha desde / Fecha hasta) Solop ERP mostrará únicamente las ordenes de compras que están asociadas bajo ese rango de fechas, como por ejemplo:
+Campo **Fecha Prometida**: formato tipo fecha el cual cuenta con dos recuadros con calendarios, el primero es para ser utilizada como fecha prometida **Desde** y el segundo como fecha prometida **Hasta**, al colocar una fecha en cualquiera de estas dos opciones (Fecha desde / Fecha hasta) Solop ERP mostrará únicamente las ordenes de compras que están asociadas bajo ese rango de fechas, como por ejemplo:
 
 Si se coloca en el campo fecha desde la fecha **20/06/2020** y el campo fecha hasta **25/06/2020**, Solop ERP mostrar las ordenes de compras que estén bajo ese rango de fechas.
 
-Campo Fecha Prometida de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
-
 Para saber más sobre el campo **Fecha Prometida** y qué acción implica sobre una orden de compra, visitar el documento Registro de Orden de Compra Directa
 
-Campo **Orden de Venta** este campo es un campo tipo búsqueda, aunque este campo tenga como orden de venta eso no significa que esté asociado para ubicar sólo las órdenes de ventas es un nombre estándar que maneja Solop ERP y también es utilizado para esté caso para ubicar las órdenes de compras.
+Campo **Orden de Venta**: formato tipo búsqueda, aunque este campo tenga como orden de venta eso no significa que esté asociado para ubicar sólo las órdenes de ventas es un nombre estándar que maneja Solop ERP y también es utilizado para esté caso para ubicar las órdenes de compras.
 
-Este campo permite que sea ubicada una orden de compra en específico, para que al momento de realizar la búsqueda en el smart browser, esté muestre la orden de compra ubicada desde este campo.
+Permite que sea ubicada una orden de compra en específico, para que al momento de realizar la búsqueda en el smart browser, esté muestre la orden de compra ubicada desde este campo.
 
-Campo Orden de Venta de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
-
-Luego de establecer los filtros de búsqueda y cual de ellos desea seleccionar, tilde la opción **Comenzar Búsqueda**, para buscar los diferentes registros de órdenes de compra que se encuentran en Solop ERP.
-
-Opción Comenzar Búsqueda de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
+Luego de establecer los filtros de búsqueda y cual de ellos desea seleccionar, al tildar **Comenzar Búsqueda**, ubica los diferentes registros de órdenes de compra que se encuentran en Solop ERP.
 
 Al tildar la opción **Comenzar Búsqueda**, se desplegará en la parte inferior del smart browser las órdenes de compras.
 
@@ -195,107 +143,61 @@ Podrá observar que en cada registro de la pestaña **Línea de Selección de Pa
 
 Campo **Selección de Pago** debe aparecer el número de la selección de pago con la que se está trabajando, este número es el número de documento de la orden de pago.
 
-Campo Selección de Pago del Documento Orden de Pago desde Orden
+Campo **No. Línea**: define el número de línea de cada registro asociado a la pestaña **Lńea Selección de Pago**, cada número de línea va incrementando de 10 en 10, es decir que sí existen 3 registros asociados en la pestaña, cada registro debe estar en 10, 20 y 30.
 
-Campo **No. Línea** este campo define el número de línea de cada registro asociado a la pestaña **Lńea Selección de Pago**, cada número de línea va incrementando de 10 en 10, es decir que sí existen 3 registros asociados en la pestaña, cada registro debe estar en 10, 20 y 30.
+Campo **Descripción**: es utilizado si se requiere dar una descripción en el registro de la línea.
 
-Campo N° Línea del Documento Orden de Pago desde Orden
+Checklist **Activo**: indica si el registro de la línea está activo o no.
 
-Campo **Descripción** este campo puede ser utilizado si se requiere dar una descripción en el registro de la línea.
+Campo **Socio del Negocio**: socio de negocio de la orden que se encuentra asociada al registro de la línea.
 
-Campo Descripción de la línea del Documento Orden de Pago desde Orden
+Campo **Cuenta Bancaria Socio del Negocio**: formato tipo lista deben aparecer las cuentas bancarias asociadas al socio del negocio, las cuentas bancarias a aparecer en este campo dependerá de las cuentas asociadas al momento de Registro de Proveedor.
 
-Checklist **Activo** esté check indica si el registro de la línea está activo o no.
-
-Checklist Activo del Documento Orden de Pago desde Orden
-
-Campo **Socio del Negocio**, debe aparecer el socio de negocio de la orden que se encuentra asociada al registro de la línea.
-
-Socio de Negocio del Documento Orden de Pago desde Orden
-
-Campo **Cuenta Bancaria Socio del Negocio**, en este campo tipo lista deben aparecer las cuentas bancarias asociadas al socio del negocio, las cuentas bancarias a aparecer en este campo dependerá de las cuentas asociadas al momento de Registro de Proveedor.
-
-La selección de la cuenta bancaria en este campo dependerá de las reglas del negocio que tenga la compañía con los proveedores.
-
-Campo Cuenta Bancaria Socio del Negocio del Documento Orden de Pago desde Orden
-
-Campo **Orden de Compra**, en este campo debe aparecer el número del documento de la orden seleccionada desde opción **Crear Desde Selección de Pago**.
-
-Campo Orden de Compra del Documento Orden de Pago desde Orden
+Campo **Orden de Compra**: debe aparecer el número del documento de la orden seleccionada desde opción **Crear Desde Selección de Pago**.
 
 En el campo **Factura**, para este caso no debe aparecer ninguna información ya que se está trabajando es con órdenes de compras, sí requiere realizar una **Orden de Pago** y asociar facturas verificar el instructivo Registro desde Factura.
 
-Campo Factura del Documento Orden de Pago desde Orden
-
-Campo **Movimiento Nómina** para este caso no debe aparecer ninguna información ya que se está trabajando es con órdenes de compras, sí requiere realizar una **Selección de Pago** y asociar a un movimiento de nómina verificar el instructivo Registro desde Nómina.
-
-Campo Movimento de Nómina del Documento Orden de Pago desde Orden
+Campo **Movimiento Nómina** para este caso no debe aparecer ninguna información ya que se está trabajando con órdenes de compras, sí requiere realizar una **Selección de Pago** y asociar a un movimiento de nómina verificar el instructivo Registro desde Nómina.
 
 Campo **Regla de Pago**, se debe seleccionar la regla de pago con la que se emitirá el pago al proveedor.
 
 Solop ERP cuenta cuenta con cinco (5) reglas de pagos, las cuales son:
 
-A crédito: Esta regla de pago indica que dicho documento cuenta con un crédito de pago, sin embargo es crédito no es reflejado en la orden de pago si no en la regla de pago que tenga establecida el **Socio del Negocio** o la **Orden de Compra**.
+**A crédito**: Esta regla de pago indica que dicho documento cuenta con un crédito de pago, sin embargo es crédito no es reflejado en la orden de pago si no en la regla de pago que tenga establecida el **Socio del Negocio** o la **Orden de Compra**.
 
-Débito directo. Está regla de pago indica que el pago a generar es un débito directo, lo cual en pocas palabras es una transferencia bancaria.
+**Débito directo**. Está regla de pago indica que el pago a generar es un débito directo, lo cual en pocas palabras es una transferencia bancaria.
 
-Depósito directo: Está regla de pago indica que el pago a generar es un depósito directo, está regla también entraría dentro de transferencia bancaria.
+**Depósito directo**: Está regla de pago indica que el pago a generar es un depósito directo, está regla también entraría dentro de transferencia bancaria.
 
-Cheque: Está regla de pago indica qué el pago a generar es a través de cheques bancarios.
+**Cheque**: Está regla de pago indica qué el pago a generar es a través de cheques bancarios.
 
-Tarjeta de crédito: Está regla de pago indica qué el pago a generar es a través de tarjeta de crédito.
-
-Campo Regla de Pago del Documento Orden de Pago desde Orden
+**Tarjeta de crédito**: Está regla de pago indica qué el pago a generar es a través de tarjeta de crédito.
 
 Campo **Programa de Pago de Factura**, se debe seleccionar el programa de pago que posea la factura, para este caso como estamos trabajando con ordenes no aplica este campo.
 
-Campo Programa de Pago del Documento Orden de Pago desde Orden
-
 Campo **Cargo** se debe seleccionar el cargo qué desee asociar al registro de la línea de la selección de pago.
-
-Campo Cargo del Documento Orden de Pago desde Orden
 
 Checklist **Anticipo** aparecerá tildado cuando el documento que se encuentre en la línea sea una orden de compra, de lo contrario no aparecerá tildado.
 
-Checklist Anticipo del Documento Orden de Pago desde Orden
-
 Checklist **Transacción de Ventas** esté checklist aparecerá tildado cuando en la línea se encuentre un documento de ventas o CxC.
-
-Checklist Transacción de Ventas del Documento Orden de Pago desde Orden
 
 Campo **Importe Fuente** en este campo debe aparecer el total de la abierto de la orden.
 
-Campo Importe Fuente del Documento Orden de Pago desde Orden
-
 Campo **Tipo de Conversión**, este campo tipo lista mostrará los tipos de conversión que se encuentren registrados en Solop ERP, el tipo de conversión no es más que el tipo de índice el cual se le asociará el valor de las tasa o conversiones de monedas.
 
-Campo tipo de Conversión del Documento Orden de Pago desde Orden
-
 Campo **Tasa de Cambio** , este campo tipo lista mostrará las tasas de cambios que se encuentren asociadas al tipo de cambio seleccionado en el campo **Tipo de Conversión**, la tasa de cambio no es más que la conversión de una moneda con otra en un fecha determinada.
-
-Campo Tasa de Cambio del Documento Orden de Pago desde Orden
 
 Estos dos campos **Tasa de Cambio** y **Tipo deConversióń** son utilizados en el caso de que se esté trabajando con documentos en moneda extranjera y se necesiten realizar los pagos con la moneda nacional.
 
 Campo **Total del Pago** debe aparecer el monto a pagar de la orden, este monto puede ser editado ya para este caso el anticipo a realizar puede ser por el total o solo una parte del total de la orden, todo dependerá del acuerdo de pagos que tenga la compañía con el proveedor.
 
-Total de Pago del Documento Orden de Pago desde Orden
-
 Campo **Total Abierto** debe aparecer el total abierto que tiene la orden.
-
-Total Abierto del Documento Orden de Pago desde Orden
 
 Checklist **Procesado**, esté al momento de crear la orden no estará tildado, cuando se generen los pagos desde el proceso Registro de Imprimir / Exportar Pagos, esté checklist aparecerá tildado.
 
-Checklist Procesado del Documento Orden de Pago desde Orden
-
 Campo **Total de Descuento** en este campo mostrará si la orden tiene un descuento o no.
 
-Campo Total de Descuento del Documento Orden de Pago desde Orden
-
 En el campo **Diferencia monto** debe aparecer la diferencia que pueda tener la orden entre el total abierto y el total a pagar.
-
-Diferencia Monto del Documento Orden de Pago desde Orden
 
 El resultado o valor a mostrar en este campo dependerá de los valores colocados en el campo **Total del Pago** y **Total Abierto**, si los valores de saldo en ambos campos son iguales este campo debe estar en cero (0).
 
@@ -303,13 +205,9 @@ Una vez definido el monto que se desea pagar en cada de las órdenes y verificad
 
 Ubique al finalizar la ventana, en el grupo de campo **Estado**, el botón que debe tener por nombre **Completar**.
 
-Grupo de Estado del Documento Orden de Pago desde Orden
-
 El nombre del botón cambiará dependiendo del estado en el que se encuentre el documento si el documento se encuentra en estado **Borrador** la acción a mostrar en el botón es **Completar** caso que se está aplicando para este documento, si el estado del documento está en estado **Completo** el botón cambiará su nombre a la siguiente acción que se pueda aplicar en el documento.
 
 Dar click al botón **Completar** y tildar **Ok** para la acción de documento seleccionada.
-
-Botón Completar del Documento Orden de Pago desde Orden
 
 Al aplicar esta acción **Completar** el documento pasará a estado completo y este no podrá ser modificado.
 
@@ -333,57 +231,31 @@ Podrá visualizar la ventana **Selección de Pago**, con los diferentes registro
 
 Imagen 2. Ventana Selección de Pago para el Documento Orden de Pago desde Factura
 
-Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de Solop ERP, para crear un nuevo registro en la ventana **Selección de Pago**.
+Icono **Registro Nuevo**: ubicado en la barra de herramientas de Solop ERP, para crear un nuevo registro en la ventana **Selección de Pago**.
 
-Icono Registro Nuevo de la Ventana Selección de Pago para el Documento Orden de Pago desde Factura
+Campo **Organización**: la organización para la cual está realizando el documento **Orden de Pago**.
 
-Seleccione en el campo **Organización**, la organización para la cual está realizando el documento **Orden de Pago**.
+campo **No. del Documento**: el número de documento correspondiente a la secuencia de numeración del documento que esta realizando.
 
-Al seleccionar la organización con la que trabajará el registro a crear bajo estará disponible únicamente bajo esa organización seleccionada, aunque la decisión de la organización a trabajar quedará al momento que inicie sesión en Solop ERP.
+Tipo de documento a generar en el campo **Tipo de Documento**: la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por Solop ERP. Para ejemplificar el registro es utilizado el tipo de documento **Orden de Pago**.
 
-Campo Organización del Documento Orden de Pago desde Factura
+Campo **F. Documento**: la fecha en la cual se está generando el documento de orden de pago.
 
-Introduzca en el campo **No. del Documento**, el número de documento correspondiente a la secuencia de numeración del documento que esta realizando.
+Campo **Fecha de Pago**: la fecha en la cual se debe realizar el pago.
 
-Campo Número de Documento del Documento Orden de Pago desde Factura
+Campo **Cuenta Bancaria**: la cuenta bancaria desde la cual requiere generar el pago.
 
-Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por Solop ERP. Para ejemplificar el registro es utilizado el tipo de documento **Orden de Pago**.
+Campo **Moneda**, la moneda para realizar la orden de pago.
 
-Campo Tipo de Documento del Documento Orden de Pago desde Factura
-
-Seleccione en el campo **F. Documento**, la fecha en la cual se está generando el documento de orden de pago.
-
-Campo F. Documento del Documento Orden de Pago desde Factura
-
-Seleccione en el campo **Fecha de Pago**, la fecha en la cual se debe realizar el pago.
-
-Campo Fecha de Pago del Documento Orden de Pago desde Factura
-
-Seleccione en el campo **Cuenta Bancaria**, la cuenta bancaria desde la cual requiere generar el pago.
-
-Campo Cuenta Bancaria del Documento Orden de Pago desde Factura
-
-Seleccione en el campo **Moneda**, la moneda para realizar la orden de pago.
-
-Campo Moneda del Documento Orden de Pago desde Factura
-
-Introduzca en el campo **Nombre de Referencia**, un nombre de referencia para la orden de pago que está realizando.
+Campo **Nombre de Referencia**: un nombre de referencia para la orden de pago que está realizando.
 
 La información a colocar en este campo es una pequeña referencia de la orden pago que se esté creando por ejemplo: **Pago proveedores Servicios**.
-
-Campo Nombre de Referencia del Documento Orden de Pago desde Factura
 
 Introduzca en el campo **Descripción**, una breve descripción referente a la orden de pago que está realizando.
 
 La información a colocar en este campo es una pequeña descripción de la orden de pago que se esté realizando por ejemplo: **Pagos a proveedores primera semana de Junio**
 
-Campo Descripción del Documento Orden de Pago desde Factura
-
-Seleccione la opción **Crear Desde Factura**, para crear la orden de pago desde la factura.
-
-Al seleccionar el botón **Crear Desde Factura**, se desplegará otra ventana llamada Smart Browser (Ventana de Búsqueda Inteligente) donde podrá ubicar a las facturas que estén pendientes por pagar.
-
-Opción Crear desde Factura del Documento Orden de Pago desde Factura
+Seleccione la opción **Crear Desde Factura**, para crear la orden de pago desde la factura, se desplegará otra ventana llamada Smart Browser (Ventana de Búsqueda Inteligente) donde podrá ubicar a las facturas que estén pendientes por pagar.
 
 Podrá observar la siguiente ventana de búsqueda inteligente una serie de campos para ser utilizados como criterio de búsqueda.
 
@@ -393,73 +265,49 @@ Imagen 3. Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura
 
 Los campos a visualizar en el smart browser son los siguientes:
 
-Campo **Cuenta Bancaria**, este es un campo tipo lista donde aparecerá el listado de las cuentas bancarias cargadas en Solop ERP.
+Campo **Cuenta Bancaria**: formato tipo lista donde aparecerá el listado de las cuentas bancarias cargadas en Solop ERP.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image281.png)
 
 Imagen 4. Campo Cuenta Bancaria de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura
 
-Campo **Moneda**, este campo se encuentra sólo lectura y la moneda a mostrar dependerá de la moneda seleccionada en la ventana padre **Selección de Pago**; la moneda que aparezca en ese campo dentro del smart browser le indica a Solop ERP que los documentos a buscar deben estar bajo esa moneda, ejemplo:
+Campo **Moneda**: se encuentra sólo lectura y la moneda a mostrar dependerá de la moneda seleccionada en la ventana padre **Selección de Pago**; la moneda que aparezca en ese campo dentro del smart browser le indica a Solop ERP que los documentos a buscar deben estar bajo esa moneda, ejemplo:
 
-Si el valor en el campo **Moneda\*** es \***\*VES** (Bolívar) cuando se realice la búsqueda los documentos Solop ERP mostrara únicamente los que estén creados bajo esa moneda.
+Si el valor en el campo **Moneda** es USD\*\* (Dólar) cuando se realice la búsqueda los documentos Solop ERP mostrara únicamente los que estén creados bajo esa moneda (lo mismo para las demás monedas).
 
-Si el valor en el campo **Moneda** es USD\*\* (Dólar) cuando se realice la búsqueda los documentos Solop ERP mostrara únicamente los que estén creados bajo esa moneda.
-
-Campo Moneda de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura
-
-Campo **Regla de Pago**, este es un campo de búsqueda tipo lista el cual al tildarlo mostrará una serie de opciones de reglas de pagos, la opción a seleccionar en esté campo le indicará a Solop ERP qué al momento de realizar la búsqueda ubique y muestre solo las facturas de compras que estén bajo la regla de pago seleccionada en ese campo,como por ejemplo:
+Campo **Regla de Pago**: formato búsqueda tipo lista el cual al tildarlo mostrará una serie de opciones de reglas de pagos, la opción a seleccionar en esté campo le indicará a Solop ERP qué al momento de realizar la búsqueda ubique y muestre solo las facturas de compras que estén bajo la regla de pago seleccionada en ese campo,como por ejemplo:
 
 Si se selecciona la regla de pago \***\* A Crédito\*\*** y tengo creadas una o varias facturas que tienen establecida esa regla de pago, al realizar la búsqueda desde el smart browser Solop ERP mostrará las facturas que éste únicamente con esa regla de pago, si no existen facturas con esa regla de pago Solop ERP no mostrará nada.
 
-Campo Regla de Pago de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura
-
-Campo **Término de Pago** este es un campo de búsqueda tipo lista el cual al tildarlo mostrará una serie de opciones de término de pago, la opción a seleccionar en esté campo le indicará a Solop ERP qué al momento de realizar la búsqueda ubique y muestre solo las facturas de compras que estén bajo ese término de pago, seleccionado en ese campo,como por ejemplo:
+Campo **Término de Pago**: formato búsqueda tipo lista el cual al tildarlo mostrará una serie de opciones de término de pago, la opción a seleccionar en esté campo le indicará a Solop ERP qué al momento de realizar la búsqueda ubique y muestre solo las facturas de compras que estén bajo ese término de pago, seleccionado en ese campo,como por ejemplo:
 
 Si se selecciona el término de pago **Contado** y tengo creadas una o varias facturas que tienen establecido ese término de pago, al realizar la búsqueda desde el smart browser Solop ERP mostrará las facturas que éste únicamente con ese término de pago, si no existen facturas con ese término de pago Solop ERP no mostrará nada.
 
-Campo Término de Pago de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura
+Campo **En negociación**: formato tipo lista donde al seleccionar cualquiera de las opciones (Sí / No) ubicará las facturas que estén en negociación.
 
-Campo **En negociación** este campo es un campo tipo lista donde al seleccionar cualquiera de las opciones (Sí / No) ubicará las facturas que estén en negociación.
+Campo **Sólo Vencidas**: formato tipo lista donde al seleccionar cualquiera de las opciones (Sí / No) ubicará las facturas que estén o no estén vencidas.
 
-Campo en Negociación de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura
+Campo **Orden de Venta**: formato tipo búsqueda al seleccionar una orden ya sea de venta o de compra, ubicara las facturas asociadas a esa orden.
 
-Campo **Sólo Vencidas** este campo es un campo tipo lista donde al seleccionar cualquiera de las opciones (Sí / No) ubicará las facturas que estén o no estén vencidas.
-
-Campo Sólo Vencidas de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura
-
-Campo **Orden de Venta**, en este campo tipo búsqueda al seleccionar una orden ya sea de venta o de compra, ubicara las facturas asociadas a esa orden.
-
-Campo Orden de Venta de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura
-
-Campo **Fecha de la Facturación**, este campo es un campo tipo fecha el cual cuenta con dos recuadros con calendarios, el primero es para ser utilizado como fecha de la factura **Desde** y el segundo como fecha de la factura **Hasta**, al colocar una fecha en cualquiera de estas dos opciones (Fecha desde / Fecha hasta) Solop ERP mostrará únicamente las facturas que están asociadas bajo ese rango de fechas, como por ejemplo:
+Campo **Fecha de la Facturación**: formato tipo fecha el cual cuenta con dos recuadros con calendarios, el primero es para ser utilizado como fecha de la factura **Desde** y el segundo como fecha de la factura **Hasta**, al colocar una fecha en cualquiera de estas dos opciones (Fecha desde / Fecha hasta) Solop ERP mostrará únicamente las facturas que están asociadas bajo ese rango de fechas, como por ejemplo:
 
 Si se coloca en el campo fecha desde la fecha **18/06/2020** y el campo fecha hasta **20/06/2020**, Solop ERP mostrar las facturas que estén bajo ese rango de fechas.
 
-Campo Fecha de Facturación de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura
-
 Para saber más sobre el campo **Fecha Facturación** y qué acción implica sobre un documento por pagar, visitar el documento Registro de Documento por Pagar.
 
-Campo de búsqueda **Fecha de Vencimiento** este campo es un campo tipo fecha el cual cuenta con dos recuadros con calendarios, el primero es para ser utilizada como fecha de vencimiento **Desde** y el segundo como fecha de vencimiento **Hasta**, al colocar una fecha en cualquiera de estas dos opciones (Fecha desde / Fecha hasta) Solop ERP mostrará únicamente las facturas que están asociadas bajo ese rango de fechas, como por ejemplo:
+Campo de búsqueda **Fecha de Vencimiento**: formato tipo fecha el cual cuenta con dos recuadros con calendarios, el primero es para ser utilizada como fecha de vencimiento **Desde** y el segundo como fecha de vencimiento **Hasta**, al colocar una fecha en cualquiera de estas dos opciones (Fecha desde / Fecha hasta) Solop ERP mostrará únicamente las facturas que están asociadas bajo ese rango de fechas, como por ejemplo:
 
 Si se coloca en el campo fecha desde, la fecha **18/06/2020** y el campo fecha hasta **20/06/2020**, Solop ERP mostrar las facturas que estén bajo ese rango de fechas; la fecha de vencimiento de una factura aplica más que todo para aquellas facturas las cuales cuentan con una regla de pago.
 
-Campo Fecha de Vencimiento de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura
+Campo de búsqueda **Días de Vencimiento**: es utilizado para colocar los días de vencimiento de una factura; estos días de vencimiento son configurados en la factura y aplica más que todo para aquellas facturas las cuales cuentan con una regla de pago a crédito.
 
-Campo de búsqueda **Días de Vencimiento** este campo es utilizado para colocar los días de vencimiento de una factura; estos días de vencimiento son configurados en la factura y aplica más que todo para aquellas facturas las cuales cuentan con una regla de pago a crédito.
+Campo de búsqueda **Socio de Negocio**: es utilizado si desea ubicar las facturas que estén asociadas a un socio de negocio en específico.
 
-Campo Días de Vencimiento de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura
-
-Campo de búsqueda **Socio de Negocio**, este campo puede ser utilizado si desea ubicar las facturas que estén asociadas a un socio de negocio en específico.
-
-Campo Socio de Negocio de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura
-
-Campo **Tipo de Documento**, este es un campo de búsqueda tipo lista el cual al tildarlo mostrará una serie de opciones de los tipos de documentos que se encuentran asociados a las facturas, la opción a seleccionar en este campo le indicará a Solop ERP qué al momento de realizar la búsqueda ubique y muestre sólo las facturas que estén bajo el tipo de documento seleccionado en ese campo, como por ejemplo:
+Campo **Tipo de Documento**: formato búsqueda tipo lista el cual al tildarlo mostrará una serie de opciones de los tipos de documentos que se encuentran asociados a las facturas, la opción a seleccionar en este campo le indicará a Solop ERP qué al momento de realizar la búsqueda ubique y muestre sólo las facturas que estén bajo el tipo de documento seleccionado en ese campo, como por ejemplo:
 
 Si se selecciona el tipo de documento **Factura de Cuentas por Pagar Nacional** Solop ERP mostrará cuando se realice la búsqueda unicamente las facturas que estén asociadas a ese tipo de documento, de lo contrario si no es seleccionado ningún tipo de documento Solop ERP mostrará todas las facturas con todos los tipos de documentos que estén asociados a una factura.
 
-Campo Tipo de Documento de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura
-
-Campo de búsqueda **Asignar Requerimientos** este es un campo tipo lista, el cual contiene una serie de opciones el cual indica a Solop ERP que dependiendo del requerimiento seleccionado Solop ERP ubicara las facturas, dentro de los requerimientos de este campo están:
+Campo de búsqueda **Asignar Requerimientos**: formato tipo lista, el cual contiene una serie de opciones el cual indica a Solop ERP que dependiendo del requerimiento seleccionado Solop ERP ubicara las facturas, dentro de los requerimientos de este campo están:
 
 Ninguno: Si se selecciona este criterio de búsqueda, Solop ERP ubicara todas las facturas en Solop ERP , es decir ubicar las facturas que estén con órdenes o sin órdenes con recepciones o sin recepciones.
 
@@ -469,23 +317,13 @@ Orden de Compra y Recibo: Si se selecciona este criterio de búsqueda, Solop ERP
 
 Recibo: Si se selecciona este criterio de búsqueda, Solop ERP ubicara solo y únicamente las facturas que tengan asociada una recepción, de lo contrario no mostrará ninguna factura.
 
-Campo Asignar Requerimientos de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura
+Campo de búsqueda **Sólo Descuento**: formato tipo lista el cual indica sí requiere aplicar para la condición de búsqueda que muestre solo las facturas con descuento o que no muestre ninguna factura que contenga aplicado un descuento.
 
-Campo de búsqueda **Sólo Descuento** Este campo es un campo tipo lista el cual indica sí requiere aplicar para la condición de búsqueda que muestre solo las facturas con descuento o que no muestre ninguna factura que contenga aplicado un descuento.
+Campo de búsqueda **Grupo de Socio del Negocio**: formato tipo lista el cual al seleccionar cualquiera de las opciones a mostrar de un grupo de socio del negocio, se mostrará solo y únicamente las facturas que estén asociada a ese grupo de socio del negocio.
 
-Campo Sólo Descuento de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura
-
-Campo de búsqueda **Grupo de Socio del Negocio** Este es un campo tipo lista el cual al seleccionar cualquiera de las opciones a mostrar de un grupo de socio del negocio, se mostrará solo y únicamente las facturas que estén asociada a ese grupo de socio del negocio.
-
-Campo Grupo de Socio del Negocio de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura
-
-Campo de búsqueda **Factura** Este campo tipo búsqueda permite ubicar una factura en específico , para que al momento de tildar la opción comenzar la búsqueda esté muestre únicamente la información de la factura ubicada dentro de esté campo de búsqueda.
-
-Campo Factura de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura
+Campo de búsqueda **Factura**: formsto tipo búsqueda permite ubicar una factura en específico , para que al momento de tildar la opción comenzar la búsqueda esté muestre únicamente la información de la factura ubicada dentro de esté campo de búsqueda.
 
 Dependiendo del criterio de búsqueda seleccionado tilde la opción **Comenzar Búsqueda**, para buscar las facturas de los socios del negocio proveedores.
-
-Opción Comenzar Búsqueda
 
 Al tildar la opción **Comenzar Búsqueda**, se desplegará en la parte inferior de la ventana las facturas que están pendientes por pagar.
 
@@ -495,67 +333,39 @@ Imagen 5. Listado de Facturas
 
 Seleccione las facturas que deseen asociar a la **Orden de Pago**.
 
-Seleccionar Factura y Opción OK
-
 Al seleccionar la factura indique cual es el total que se desea cancelar al proveedor de esa factura.
 
-Total a Cancelar
+Opción **OK**: para cargar a la pestaña **Línea de Selección de Pago** la información de las facturas seleccionadas.
 
-Seleccione la opción **OK**, para cargar a la pestaña **Línea de Selección de Pago** la información de las facturas seleccionadas.
+Icono **Refrescar**: ubicado en la barra de herramientas de Solop ERP para refrescar la ventana y pueda visualizar la información cargada desde la opción **Crear Desde Factura**.
 
-Opción Ok de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura
-
-Seleccione el icono **Refrescar**, ubicado en la barra de herramientas de Solop ERP para refrescar la ventana y pueda visualizar la información cargada desde la opción **Crear Desde Factura**.
-
-Icono Refrescar del Documento Orden de Pago desde Factura
-
-Seleccione la pestaña **Línea de Selección de Pago**, para verificar que la información cargada desde la opción **Crear Desde Factura** sea correcta.
-
-Pestaña Línea de Selección de Pago del Documento Orden de Pago desde Factura
+Pestaña **Línea de Selección de Pago**: para verificar que la información cargada desde la opción **Crear Desde Factura** sea correcta.
 
 En la pestaña **Línea de Selección de Pago** deberán aparecer las misma cantidad de facturas seleccionadas desde la opción **Crear Desde Factura**.
 
 Podrá observar que en cada registro de la pestaña **Línea de Selección de Pago** aparecerán las siguientes características:
 
-Campo **Selección de Pago** debe aparecer el número de la selección de pago con la que se está trabajando, este número es el número de documento de la orden de pago.
+Campo **Selección de Pago**: debe aparecer el número de la selección de pago con la que se está trabajando, este número es el número de documento de la orden de pago.
 
-Campo Selección de Pago del Documento Orden de Pago desde Factura
+Campo **No. Línea**: define el número de línea de cada registro asociado a la pestaña **Lńea Selección de Pago**, cada número de línea va incrementando de 10 en 10, es decir que sí existen 3 registros asociados en la pesta cada registro estar en 10, 20 y 30.
 
-Campo **No. Línea** este campo define el número de línea de cada registro asociado a la pestaña **Lńea Selección de Pago**, cada número de línea va incrementando de 10 en 10, es decir que sí existen 3 registros asociados en la pesta cada registro estar en 10, 20 y 30.
+Campo **Descripción**: es utilizado si se requiere dar una descripción en el registro de la línea.
 
-Campo N° Línea del Documento Orden de Pago desde Factura
+Checklist **Activo**: indica si el registro de la línea está activo o no.
 
-Campo **Descripción** este campo puede ser utilizado si se requiere dar una descripción en el registro de la línea.
+Campo **Socio del Negocio**: debe aparecer el socio de negocio de la factura que se encuentra asociada al registro de la línea.
 
-Campo Descripción del Documento Orden de Pago desde Factura
-
-Checklist **Activo** esté checklist indica si el registro de la línea está activo o no.
-
-Checklist Activo del Documento Orden de Pago desde Factura
-
-En el campo **Socio del Negocio** debe aparecer el socio de negocio de la factura que se encuentra asociada al registro de la línea.
-
-Socio de Negocio Factura del Documento Orden de Pago desde Factura
-
-Campo **Cuenta Bancaria Socio del Negocio**, en este campo tipo lista deben aparecer las cuentas bancarias asociadas al socio del negocio, las cuentas bancarias a aparecer en este campo dependerá de las cuentas asociadas al momento de crear Registro de Proveedor.
+Campo **Cuenta Bancaria Socio del Negocio**: en este campo tipo lista deben aparecer las cuentas bancarias asociadas al socio del negocio, las cuentas bancarias a aparecer en este campo dependerá de las cuentas asociadas al momento de crear Registro de Proveedor.
 
 La selección de la cuenta bancaria en este campo dependerá de las reglas del negocio que tenga la compañía con los proveedores.
 
-Campo Cuenta Bancaria Socio del Negocio del Documento Orden de Pago desde Factura
+Campo **Orden de Compra**: para este caso no debe aparecer ninguna información ya que se está trabajando son con facturas, sí requiere realizar una **Orden de Pago** y asociar órdenes verificar el instructivo Registro desde Orden.
 
-Campo **Orden de Compra** para este caso no debe aparecer ninguna información ya que se está trabajando son con facturas, sí requiere realizar una **Orden de Pago** y asociar órdenes verificar el instructivo Registro desde Orden.
+Campo **Factura**: debe aparecer el número del documento de la factura seleccionada desde opción **Crear Desde Factura**.
 
-Campo Orden de Compra del Documento Orden de Pago desde Factura
+Campo **Movimiento Nómina**: para este caso no debe aparecer ninguna información ya que se está trabajando son con órdenes de compras, sí requiere realizar una **Orden de Pago** y asociar a un movimiento de nómina verificar el instructivo Registro desde Nómina.
 
-En el campo **Factura** debe aparecer el número del documento de la factura seleccionada desde opción **Crear Desde Factura**.
-
-Campo Factura del Documento Orden de Pago desde Factura
-
-Campo **Movimiento Nómina** para este caso no debe aparecer ninguna información ya que se está trabajando son con órdenes de compras, sí requiere realizar una **Orden de Pago** y asociar a un movimiento de nómina verificar el instructivo Registro desde Nómina.
-
-Campo Movimento de Nómina del Documento Orden de Pago desde Factura
-
-Campo **Regla de Pago** se debe seleccionar la regla de pago con la que se emitirá el pago al proveedor.
+Campo **Regla de Pago**: se debe seleccionar la regla de pago con la que se emitirá el pago al proveedor.
 
 Solop ERP cuenta cuenta con cinco (5) reglas de pagos, las cuales son:
 
@@ -569,65 +379,37 @@ Cheque: está regla de pago indica qué el pago a generar es a través de cheque
 
 Tarjeta de crédito: está regla de pago indica qué el pago a generar es a través de tarjeta de crédito.
 
-Campo Regla de Pago del Documento Orden de Pago desde Factura
+Campo **Programa de Pago de Factura**: se debe seleccionar el programa de pago que posea la factura.
 
-Campo **Programa de Pago de Factura** se debe seleccionar el programa de pago que posea la factura.
+Campo **Cargo** se debe seleccionar el cargo que desee asociar al registro de la línea de la selección de pago.
 
-Campo Programa de Pago del Documento Orden de Pago desde Factura
+Checklist **Anticipo**: aparecerá tildado cuando el documento que se encuentre en la línea sea una orden de compra, de lo contrario no aparecerá tildado.
 
-Campo **Cargo** se debe seleccionar el cargo qué desee asociar al registro de la línea de la selección de pago.
+Checklist **Transacción de Ventas**: aparecerá tildado cuando en la línea se encuentre un documento de ventas o CxC.
 
-Campo Cargo del Documento Orden de Pago desde Factura
+Campo **Importe Fuente**: debe aparecer el total de la abierto de la orden.
 
-Checklist **Anticipo** aparecerá tildado cuando el documento que se encuentre en la línea sea una orden de compra, de lo contrario no aparecerá tildado.
+Campo **Tipo de Conversión**: formato tipo lista mostrará los tipos de conversión que se encuentren registrados en Solop ERP, el tipo de conversión no es más que el tipo de índice el cual se le asociará el valor de las tasa o conversiones de monedas.
 
-Checklist Anticipo del Documento Orden de Pago desde Factura
-
-Checklist **Transacción de Ventas** esté checklist aparecerá tildado cuando en la línea se encuentre un documento de ventas o CxC.
-
-Checklist Transacción de Ventas del Documento Orden de Pago desde Factura
-
-Campo **Importe Fuente** en este campo debe aparecer el total de la abierto de la orden.
-
-Campo Importe Fuente del Documento Orden de Pago desde Factura
-
-Campo **Tipo de Conversión**, este campo tipo lista mostrará los tipos de conversión que se encuentren registrados en Solop ERP, el tipo de conversión no es más que el tipo de índice el cual se le asociará el valor de las tasa o conversiones de monedas.
-
-Campo tipo de Conversión del Documento Orden de Pago desde Factura
-
-Campo **Tasa de Cambio** , este campo tipo lista mostrará las tasas de cambios que se encuentren asociadas al tipo de cambio seleccionado en el campo **Tipo de Conversión**, la tasa de cambio no es más que la conversión de una moneda con otra en un fecha determinada.
-
-Campo Tasa de Cambio del Documento Orden de Pago desde Factura
+Campo **Tasa de Cambio**: este campo tipo lista mostrará las tasas de cambios que se encuentren asociadas al tipo de cambio seleccionado en el campo **Tipo de Conversión**, la tasa de cambio no es más que la conversión de una moneda con otra en un fecha determinada.
 
 Estos dos campos **Tasa de Cambio** y **Tipo deConversióń** son utilizados en el caso de que se esté trabajando con documentos en moneda extranjera y se necesiten realizar los pagos con la moneda nacional.
 
-En el campo **Total del Pago** debe aparecer el monto a pagar de la factura, este monto puede ser editado ya que en algunos casos las facturas suelen ser pagadas de forma parcial, todo dependerá del acuerdo de pagos que tenga la compañía con el proveedor.
+Campo **Total del Pago**: debe aparecer el monto a pagar de la factura, este monto puede ser editado ya que en algunos casos las facturas suelen ser pagadas de forma parcial, todo dependerá del acuerdo de pagos que tenga la compañía con el proveedor.
 
-Total de Pago del Documento Orden de Pago desde Factura
+Campo **Total Abierto**: debe aparecer el total abierto que tiene la factura, si la factura ha sido pagada de manera parcial el total pendiente por pagar aparecerá en este campo.
 
-En el campo **Total Abierto** debe aparecer el total abierto que tiene la factura, si la factura ha sido pagada de manera parcial el total pendiente por pagar aparecerá en este campo.
+Checklist **Procesado**: esté al momento de crear la orden no estará tildado, cuando se generen los pagos desde el proceso Registro de Imprimir / Exportar Pagos, esté checklist aparecerá tildado.
 
-Total de Abierto del Documento Orden de Pago desde Factura
+Campo **Total de Descuento**: mostrará si la orden tiene un descuento o no.
 
-Checklist **Procesado**, esté al momento de crear la orden no estará tildado, cuando se generen los pagos desde el proceso Registro de Imprimir / Exportar Pagos, esté checklist aparecerá tildado.
-
-Checklist Procesado del Documento Orden de Pago desde Factura
-
-Campo **Total de Descuento** en este campo mostrará si la orden tiene un descuento o no.
-
-Campo Total de Descuento del Documento Orden de Pago desde Factura
-
-En el campo **Diferencia monto** debe aparecer la diferencia que pueda tener una factura entre el total abierto y el total a pagar.
-
-Diferencia Monto del Documento Orden de Pago desde Factura
+Campo **Diferencia monto**: debe aparecer la diferencia que pueda tener una factura entre el total abierto y el total a pagar.
 
 El resultado o valor a mostrar en este campo dependerá de los valores colocados en el campo **Total del Pago** y **Total Abierto**, si los valores de saldo en ambos campos son iguales este campo debe estar en cero (0).
 
 Una vez definido el monto que se desea pagar en cada factura y verificado que las facturas seleccionadas desde la opción **Crear Desde Factura** estén en la pestaña **Línea de Selección de Pago** se puede completar la **Orden de Pago** para ello regrese a la ventana principal **Selección de Pago**.
 
 Ubique al finalizar la ventana en el grupo de campo **Estado** y el botón que debe tener por nombre **Completar**
-
-Grupo de Estado del Documento Orden de Pago desde Factura
 
 El nombre del botón cambiará dependiendo del estado en el que se encuentre el documento si el documento se encuentra en estado **Borrador** la acción a mostrar en el botón es **Completar** caso que se está aplicando para este documento, si el estado del documento está en estado **Completo** el botón cambiará su nombre a la siguiente acción que se pueda aplicar en el documento.
 
@@ -638,8 +420,6 @@ Dar click a botón **Completar** y tildar **Ok** para la acción de documento se
 Imagen 6. Botón Completar del Documento Orden de Pago desde Factura
 
 Al aplicar esta acción **Completar** el documento pasará a estar completo y este no podrá ser modificado.
-
-Note
 
 Es muy importante tener en cuenta que todo documento transaccional una vez se culmine con el llenado de los datos debe ser completado, para que Solop ERP tome como válido los datos cargados en el documento.
 
@@ -653,25 +433,23 @@ Lo primero que debe hacer es dirigirse a la ventana **Selección de Pagos**, ubi
 
 Registre los datos principales del pago con la siguiente información:
 
-Seleccione en el campo Tipo de Documento la opción **Selección de Pagos Nóminas**, el tipo de documento determina la acción a realizar del documento dentro de Solop ERP.
+Campo Tipo de Documento: determina la acción a realizar del documento dentro de Solop ERP.
 
-Seleccione en el campo **Fecha del Documento** la fecha en la que está realizando el documento, se recomienda utilizar la misma fecha contable con la que registró el proceso de nómina
+Campo **Fecha del Documento**: la fecha en la que está realizando el documento, se recomienda utilizar la misma fecha contable con la que registró el proceso de nómina
 
-Seleccione en el campo **Fecha de Pago** la fecha de pago del documento. La fecha de pago determina la fecha en que se generarán los pagos dentro de Solop ERP, es fundamental ya que en muchos casos esa será la fecha en la qué se generará el txt del banco, cualquier variación en la misma podría ocasionar que esté documento no sea aceptado por el mismo, se recomienda que la selección de pago se realice el mismo día en que subirá el txt al banco.
+Campo **Fecha de Pago**: la fecha de pago del documento. La fecha de pago determina la fecha en que se generarán los pagos dentro de Solop ERP, es fundamental ya que en muchos casos esa será la fecha en la qué se generará el txt del banco, cualquier variación en la misma podría ocasionar que esté documento no sea aceptado por el mismo, se recomienda que la selección de pago se realice el mismo día en que subirá el txt al banco.
 
-Luego debe seleccionar en el Campo **Cuenta Bancaria** la Cuenta Bancaria que se va a disponer para el pago de la nómina, en este caso será una caja y estará identificada con el Nombre del Banco y al final de este llevará la palabra Tránsito. La Cuenta Bancaria identifica la cuenta del banco de la cual se van a emitir los pagos a los empleados
+Campo **Cuenta Bancaria**: la Cuenta Bancaria que se va a disponer para el pago de la nómina, en este caso será una caja y estará identificada con el Nombre del Banco y al final de este llevará la palabra Tránsito. La Cuenta Bancaria identifica la cuenta del banco de la cual se van a emitir los pagos a los empleados
 
-En el campo **Nombre de Referencia** puede colocarle un nombre referencia qué le ayude a identificar claramente la selección de pago, por ejemplo: Selección de Pago de la Nómina Semanal
+Campo **Nombre de Referencia**: puede colocarle un nombre referencia qué le ayude a identificar claramente la selección de pago, por ejemplo: Selección de Pago de la Nómina Semanal
 
-En el campo **Descripción** puede colocar también una breve descripción de la selección de pago, por ejemplo: Selección de pago de la nómina semanal del 01/06/2020 hasta el 07/06/2020
+Campo **Descripción**: puede colocar también una breve descripción de la selección de pago, por ejemplo: Selección de pago de la nómina semanal del 01/06/2020 hasta el 07/06/2020
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image329.png)
 
 Imagen 1. Selección de Pago
 
 Posteriormente usted debe seleccionar el campo que dice **Crear a partir del Movimiento de Recursos Humanos** este campo le indica que va a seleccionar los pagos de la nómina que desea cancelar. Inmediatamente le aparecerá una ventana con distintos filtros debido a que en ese momento puede tener diferentes procesos de nómina completos estos filtros que se detallan a continuación le ayudarán a encontrar de una manera más eficaz del proceso de nómina que se desea cancelar, entre ellos podemos seleccionar:
-
-Campo Crear a Partir de Movimiento de Movimiento de Recursos Humanos
 
 Nómina: Seleccione el tipo de nómina que desea cancelar, esta opción le permite filtrar todos los procesos de nóminas de este tipo que estén completos
 
@@ -691,23 +469,13 @@ Imagen 3. Selección de Movimiento de Nómina
 
 Diríjase a la pestaña **Línea de Selección de Pago**, en esta ventana verificaremos que estén correctamente todos los montos que le fueron asignados a cada empleado, es decir que en el concepto neto a pagar esté la cantidad correcta, además de esto usted debe verificar que se encuentren todos los empleados. Otro de los factores que debe tener en cuenta es que la regla del pago de los empleados sea Débito Directo, sí el empleado no tiene está regla de pago no serán regenerados por pagos para esté empleado, para conocer cómo determinar la regla de pago puede dirigirse al documento Pestaña Detalle de Pago en el cual se le detallan todos los pagos a seguir para configurar la regla de pago del socio de negocio empleado.
 
-Linea Selección de Pago
-
 Seleccione nuevamente la ventana principal Selección de Pago y verifique en el campo **Total Total** aparezca el monto total de lo que usted va a cancelar en su nómina.
 
-Campo Total Total
-
 Sí todos los datos descritos a continuación están correctos proceda a completar la selección de pago.
-
-Completar la Selección
-
-Para este ejemplo de Selección de Pago se utilizó la cuenta de la caja asociada al Banco Nacional de Crédito.
 
 ### Registro desde Selección de Pago
 
 Para realizar una **Selección de Pago** la cual se encarga de definir de qué cuenta bancaria de la compañía saldrán los pagos pendientes a proveedores se deben realizar los siguientes pasos:
-
-Note
 
 Es muy importante tener en cuenta que para poder seguir el paso a paso que se detalla a continuación se debe tener previamente cargada en Solop ERP la **Orden de Pago** si no se encuentra cargado en Solop ERP pueden consultar el instructivo Registro desde Factura o Registro desde Orden
 
@@ -719,45 +487,25 @@ Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana **Selección de Pago**, en la cual debe seleccionar el icono **Registro Nuevo** ubicado en la barra de herramientas de Solop ERP.
 
-Icono Registro Nuevo del Documento Registro desde Selección de Pago
+Campo **Organización**: organización para la cual está realizando el documento **Selección de Pago**.
 
-Seleccione en el campo **Organización**, la organización para la cual está realizando el documento **Selección de Pago**.
+Campo **Tipo de Documento**: la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por Solop ERP. Para ejemplificar el registro es utilizado el tipo de documento **Selección de Pagos de Cuentas por Pagar**.
 
-Al seleccionar la organización con la que trabajará el registro a crear estará disponible únicamente bajo esa organización seleccionada, aunque la decisión de la organización a trabajar quedará al momento que inicie sesión en Solop ERP.
+Campo **F. Documento**: la fecha en la cual se está generando el documento de selección de pago.
 
-Campo Organización del Documento Registro desde Selección de Pago
+Campo **Fecha de Pago**: la fecha en la cual se debe realizar el pago.
 
-Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por Solop ERP. Para ejemplificar el registro es utilizado el tipo de documento **Selección de Pagos de Cuentas por Pagar**.
+Campo **Cuenta Bancaria**: la cuenta bancaria desde la cual se le realizará el pago al socio del negocio proveedor.
 
-Campo Tipo de Documento del Documento Registro desde Selección de Pago
-
-Seleccione en el campo **F. Documento**, la fecha en la cual se está generando el documento de selección de pago.
-
-Campo F. Documento
-
-Seleccione en el campo **Fecha de Pago**, la fecha en la cual se debe realizar el pago.
-
-Campo Fecha de Pago del Documento Registro desde Selección de Pago
-
-Seleccione en el campo **Cuenta Bancaria**, la cuenta bancaria desde la cual se le realizará el pago al socio del negocio proveedor. Para ejemplificar el registro es utilizada la cuenta **Mercantil C.A. Banco Universal - 0105_0105-000000000000000**.
-
-Campo Cuenta Bancaria del Documento Registro desde Selección de Pago
-
-Introduzca en el campo **Nombre de Referencia**, un nombre de referencia de la selección de pago que está realizando.
+Campo **Nombre de Referencia**: un nombre de referencia de la selección de pago que está realizando.
 
 La información a colocar en este campo es una pequeña referencia de la selección de pago que se esté creando por ejemplo: **Pago Proveedores Servicios**.
 
-Campo Nombre de Referencia del Documento Registro desde Selección de Pago
+Campo **Descripción**: breve descripción referente a la selección de pago que está realizando.
 
-Introduzca en el campo **Descripción**, una breve descripción referente a la selección de pago que está realizando.
+La información a colocar en este campo es una pequeña descripción de la selección de pago que se esté realizando por ejemplo: **Pagos a proveedores primera semana de Julio**
 
-La información a colocar en este campo es una pequeña descripción de la selección de pago que se esté realizando por ejemplo: **Pagos a proveedores primera semana de Julio por el banco Mercantil**
-
-Campo Descripción del Documento Registro desde Selección de Pago
-
-Seleccione la opción **Crear Desde Selección de Pago**, para crear la selección de pago desde la solicitud de pago creada anteriormente.
-
-Opción Crear Desde Selección de Pago del Documento Registro desde Selección de Pago
+Opción **Crear Desde Selección de Pago**: para crear la selección de pago desde la solicitud de pago creada anteriormente.
 
 Al seleccionar el botón **Crear Desde Selección de Pago**, se desplegará otra ventana llamada Smart Browser (Ventana de Búsqueda Inteligente) donde podrá ubicar a las **Órdenes de Pago** cargadas en Solop ERP. Podrá observar en la siguiente ventana de búsqueda inteligente una serie de campos para ser utilizados como criterio de búsqueda.
 
@@ -773,33 +521,21 @@ Al desplegar el campo **Selección de Pago** podrá observar las **Órdenes de P
 
 Campo Selección de Pago de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
 
-Campo **Socio del Negocio**, permite filtrar la búsqueda por el socio del negocio seleccionado.
+Campo **Socio del Negocio**: permite filtrar la búsqueda por el socio del negocio seleccionado.
 
-Campo Socio del Negocio de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
-
-Campo **Factura**, permite filtrar la búsqueda por la factura previamente realizada.
+Campo **Factura**: permite filtrar la búsqueda por la factura previamente realizada.
 
 Es decir al colocar una factura en específico en el campo **Factura**, Solop ERP traerá la **Orden de Pago** que ese asociada a esa factura.
 
- Campo Factura de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
+Campo **Regla de Pago**: permite filtrar la búsqueda de los documentos que posean la regla de pago seleccionada y que se encuentren asociada a una **Orden de Pago**.
 
-Campo **Regla de Pago**, permite filtrar la búsqueda de los documentos que posean la regla de pago seleccionada y que se encuentren asociada a una **Orden de Pago**.
-
-Campo Regla de Pago de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
-
-Campo **Orden de Venta**, permite filtrar la búsqueda por la orden de venta previamente realizada.
+Campo **Orden de Venta**: permite filtrar la búsqueda por la orden de venta previamente realizada.
 
 Es decir al colocar una orden en específico en el campo **Orden de Venta**, Solop ERP traerá las ordenes que se encuentren asociada a una **Orden de Pago**.
 
-Campo Orden de Venta de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
-
 Campo **Cargo**, permite filtrar la búsqueda por el cargo previamente seleccionado en la factura.
 
- Campo Cargo de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
-
 Dependiendo del criterio de búsqueda seleccionado tilde la opción **Comenzar Búsqueda**, para ubicar los documentos los cuales pertenecerán a la selección de pagos para ser cancelados.
-
-Opción Comenzar Búsqueda de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
 
 Al tildar la opción **Comenzar Búsqueda**, se desplegará en la parte inferior de la ventana los documentos asociados a la **Orden de Pagos** seleccionada anteriormente.
 
@@ -811,45 +547,31 @@ Seleccione los documentos que deseen asociar a la **Selección de Pago**.
 
 La selección de los documentos dependerá de la toma de decisión que tenga el personal de tesorería, ya que dependiendo del banco asociado a la selección de pago ellos sabrán qué documentos podrán ser cancelados por ese banco y la regla de pago con la que contará ya que estos deben ser agrupados sí los pagos serán por transferencia solo se deben seleccionar los documentos que se les generarán los pagos por transferencia (Débito Directo) sí en tal caso serán cancelados por cheques deben ser seleccionado solo los que serán cancelados por esa regla de pago; si los documentos asociados a la **Orden de Pago** no son seleccionados en su totalidad para esta selección de pago, estos pueden ser asociados en otra seleccion de pago.
 
-Seleccionar Factura de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
+Opción **OK**: para cargar a la pestaña **Línea de Selección de Pago** la información de la solicitud de pago realizada anteriormente.
 
-Seleccione la opción **OK**, para cargar a la pestaña **Línea de Selección de Pago** la información de la solicitud de pago realizada anteriormente.
+Icono **Refrescar**: ubicado en la barra de herramientas de Solop ERP para refrescar la ventana y pueda visualizar la información cargada desde la opción **Crear Desde Selección de Pago**.
 
-Opción OK de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
+Pestaña **Línea de Selección de Pago**, para verificar que la información cargada desde la opción **Crear Desde Selección de Pago** sea correcta.
 
-Seleccione el icono **Refrescar**, ubicado en la barra de herramientas de Solop ERP para refrescar la ventana y pueda visualizar la información cargada desde la opción **Crear Desde Selección de Pago**.
-
-Icono Refrescar del Documento Registro desde Selección de Pago
-
-Seleccione la pestaña **Línea de Selección de Pago**, para verificar que la información cargada desde la opción **Crear Desde Selección de Pago** sea correcta.
-
-Pestaña Línea de Selección de Pago del Documento Registro desde Selección de Pago
-
-En la pestaña **Línea de Selección de Pago** deberán aparecer las misma cantidad de los documentos seleccionadas desde la opción **Crear Desde Selección de Pago**.
+Pestaña **Línea de Selección de Pago**: deberán aparecer las misma cantidad de los documentos seleccionadas desde la opción **Crear Desde Selección de Pago**.
 
 Podrá observar que en cada registro de la pestaña **Línea de Selección de Pago** aparecerán las siguientes características:
 
-Campo **Selección de Pago** debe aparecer el número de la selección de pago con la que se está trabajando, este número es el número de documento de la selección de pago.
+Campo **Selección de Pago**: debe aparecer el número de la selección de pago con la que se está trabajando, este número es el número de documento de la selección de pago.
 
-Campo **No. Línea** este campo define el número de línea de cada registro asociado a la pestaña **Lńea Selección de Pago**, cada número de línea va incrementando de 10 en 10, es decir que sí existen 3 registros asociados en la pestaña, cada registro debe estar en 10, 20 y 30.
+Campo **No. Línea**: define el número de línea de cada registro asociado a la pestaña **Lńea Selección de Pago**, cada número de línea va incrementando de 10 en 10, es decir que sí existen 3 registros asociados en la pestaña, cada registro debe estar en 10, 20 y 30.
 
-Campo **Descripción** este campo puede ser utilizado si se requiere dar una descripción en el registro de la línea.
+Campo **Descripción**: puede ser utilizado si se requiere dar una descripción en el registro de la línea.
 
-Checklist **Activo** esté check indica si el registro de la línea está activo o no.
+Checklist **Activo**: esté check indica si el registro de la línea está activo o no.
 
-En el campo **Socio del Negocio** debe aparecer el socio de negocio del documento que se encuentra asociada al registro de la línea.
+Campo **Socio del Negocio**: debe aparecer el socio de negocio del documento que se encuentra asociada al registro de la línea.
 
-Socio de Negocio del Documento Registro desde Selección de Pago
+Sí el documento asociado pertenece a una factura en el campo **Factura** debe aparecer el número del documento de la factura seleccionada desde opción **Crear Desde Selección de Pago**.
 
-Sí el documentos asociado pertenece a una factura en el campo **Factura** debe aparecer el número del documento de la factura seleccionada desde opción **Crear Desde Selección de Pago**.
+Sí el documento asociado pertenece a una orden de compra en el campo **Orden de Compra** debe aparecer el número del documento de la orden seleccionada desde opción **Crear Desde Selección de Pago**.
 
-Factura Cuentas por Pagar del Documento Registro desde Selección de Pago
-
-Sí el documentos asociado pertenece a una orden de compra en el campo **Orden de Compra** debe aparecer el número del documento de la orden seleccionada desde opción **Crear Desde Selección de Pago**.
-
-Orden de Compra del Documento Registro desde Selección de Pago
-
-En el campo **Regla de Pago** se debe seleccionar la regla de pago con la que se emitirá el pago al proveedor.
+Campo **Regla de Pago**: se debe seleccionar la regla de pago con la que se emitirá el pago al proveedor.
 
 Solop ERP cuenta cuenta con cinco (5) reglas de pagos, las cuales debe ser utilizadas de las siguientes manera:
 
@@ -871,23 +593,13 @@ Tarjeta de crédito.
 
 En una **Selección de Pagos de Cuentas por Pagar** no se pueden mezclar los métodos de pagos es decir, si los pagos a realizar son solo transferencia bancaria solamente se deben seleccionar los documentos que se les realizará los pagos por transferencia bancaria y asociar las reglas de pagos correspondientes, si los pagos a generar son a través de cheques o tarjetas sólo se deben crear una selección de pagos para este método de pago, no se pueden asociar asociar un método de pago de transferencia con cheques ya que esto alteraría el proceso de Registro de Imprimir / Exportar Pagos
 
-Regla de Pago del Documento Registro desde Selección de Pago
-
 El Checklist **Anticipo** aparecerá tildado cuando el documento que se encuentre en la línea sea una orden de compra, de lo contrario no aparecerá tildado.
 
-Checklist Anticipo del Documento Registro desde Selección de Pago
+Campo **Total del Pago**: debe aparecer el monto a pagar del documento asociado a la línea, el monto a mostrar es el mismo que fue establecido en la **Orden de Pago**
 
-En el campo **Total del Pago** debe aparecer el monto a pagar del documento asociado a la línea, el monto a mostrar es el mismo que fue establecido en la **Orden de Pago**
+Campo **Total Abierto**: debe aparecer el total abierto que tiene la factura, si la factura ha sido pagada de manera parcial el total pendiente por pagar aparecerá en este campo.
 
-Total de Pago del Documento Registro desde Selección de Pago
-
-En el campo **Total Abierto** debe aparecer el total abierto que tiene la factura, si la factura ha sido pagada de manera parcial el total pendiente por pagar aparecerá en este campo.
-
-Total de Abierto del Documento Registro desde Selección de Pago
-
-En el campo **Diferencia monto** debe aparecer la diferencia que pueda tener una factura entre el total abierto y el total a pagar.
-
-Diferencia Monto del Documento Registro desde Selección de Pago
+Campo **Diferencia monto**: debe aparecer la diferencia que pueda tener una factura entre el total abierto y el total a pagar.
 
 El resultado o valor a mostrar en este campo dependerá de los valores colocados en el campo **Total del Pago** y **Total Abierto**, si los valores de saldo en ambos campos son iguales este campo debe estar en cero (0).
 
@@ -895,17 +607,11 @@ Una verificado los documentos seleccionadas desde la opción **Crear Desde Selec
 
 Ubique al finalizar la ventana en el grupo de campo **Estado** y el botón que debe tener por nombre **Completar**
 
-Grupo de Estado del Documento Registro desde Selección de Pago
-
 El nombre del botón cambiará dependiendo del estado en el que se encuentre el documento si el documento se encuentra en estado **Borrador** la acción a mostrar en el botón es **Completar** caso que se está aplicando para este documento, si el estado del documento está en estado **Completo** el botón cambiará su nombre a la siguiente acción que se pueda aplicar en el documento.
 
 Dar click a botón **Completar** y tildar **Ok** para la acción de documento seleccionada.
 
-Botón Completar del Documento Registro desde Selección de Pago
-
 Al aplicar esta acción **Completar** el documento pasará a esta completo y este no podrá ser modificado.
-
-Note
 
 Es muy importante tener en cuenta que todo documento transaccional una vez se culmine con el llenado de los datos debe ser completado, para que Solop ERP tome como válido los datos cargados en el documento.
 
