@@ -85,6 +85,43 @@ El proceso de Asignación automática permite generar de manera masiva asignacio
 
 Cada Asignación generada desde el proceso de Asignación (Automático) tendrá definido en su Descripción el texto de “Asignación Auto”
 
+### **Asignación de Pagos Masiva**
+
+Este proceso permite generar la asignación de pagos respecto a Documentos por Cobrar (y/o documentos por pagar) masivamente por Socio del negocio o Grupo de Socio del Negocio.
+
+Posee los siguientes filtros:
+
+* Organización: Se encontrará configurada con aquella con la cual se ingresó al sistema por defecto.
+* Grupo de Socio del Negocio: Se encontrará configurada con el grupo "Familiar".
+* Socio del Negocio: Permite seleccionar un socio del negocio en el caso de querer solo realizar la asignación masiva sobre un caso en particular.
+* CP-CC: Permite seleccionar si solo se realizará la asignación masiva sobre documentos por pagar, sobre documentos por Cobrar o sobre ambos.
+* Factura asignada totalmente: es un check que se encuentra tildado por defecto con el objeto de que no genere asignaciones parciales (sino sobre el importe total abierto de la factura).
+
+![Filtros](/assets/img/docs/balance-management/bam-assignment-image2.png)
+
+El proceso aplica asignación en las siguientes condiciones:
+
+**1- Asignación por importe exacto**
+Importe Pago = Importe Factura
+
+Se busca de forma cronológica los pagos con saldo abierto, para cada uno de esos pagos se buscará si hay una factura cuyo saldo abierto sea igual al monto abierto del pago. Si se obtiene, se crea una asignación con el pago y la factura. Si encuentra varias facturas con el mismo importe entonces se aplicará sobre la factura de menor fecha asignando así siempre la menor.
+
+Si no encuentra ninguna factura que sea igual al saldo abierto del pago se tratará de asignar con el siguiente método.
+
+**2- Asignación de pagos con "N" (varias) Facturas**
+Importe Pago > Importe Factura
+
+Se recorren los pagos, y para cada uno se van recorriendo las facturas con saldo abierto en orden cronológico. Generan una asignación para cada pago y factura, hasta consumir el saldo de todos los pagos. El orden de las facturas a obtener será cronológico, asignando una a una las facturas.
+
+Se creará una asignación automática sólo si se cumple una de estas dos condiciones:
+
+* El saldo de pago es mayor o igual al de la factura.
+* Si el saldo de pago es menor al de la factura y se marcó el check de "Factura asignada totalmente" = NO (en ese caso la factura se asigna parcialmente)
+
+Mensaje del Resultado del Proceso:
+
+![Mensaje](/assets/img/docs/balance-management/bam-assignment-image1.png)
+
 ### **Preguntas Frecuentes**
 
 El proceso de Asignación (automático) considera Notas de Crédito?
