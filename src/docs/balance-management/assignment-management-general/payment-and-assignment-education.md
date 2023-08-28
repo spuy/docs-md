@@ -3,6 +3,8 @@ title: Pago y Asignación Educación
 category: Documentation
 star: 9
 sticky: 9
+tag:
+  - Educación
 article: false
 ---
 
