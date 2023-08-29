@@ -199,6 +199,10 @@ Es muy importante tener en cuenta que todo documento transaccional una vez se cu
 
 Hasta este punto llegaría el registro de órdenes a través de la ventana **Selección de Pago** con el tipo de documento **Orden de Pago** ya que solo se está creando la solicitud de los anticipos que se desean cancelar, en este paso a pesar de que se complete el documento esto no quiere decir que se han generado los pagos, para poder generar los pagos correspondientes a las órdenes asociadas a la **Orden de Pago** se necesita completar los procedimientos Registro desde Selección de Pago y el Registro de Imprimir / Exportar Pagos.
 
+### Ejemplo de Generar desde Orden:
+
+![Generar desde Orden](/assets/img/docs/balance-management/bam-balance-video1.mp4)
+
 ### Registro desde Factura
 
 Para realizar una **Orden de Pagos** en Solop ERP el cual permite montar una solicitud de todas aquellas facturas que estén pendientes por pagar, se deben aplicar los siguientes pasos:
@@ -404,6 +408,10 @@ Al aplicar esta acción **Completar** el documento pasará a estar completo y es
 Es muy importante tener en cuenta que todo documento transaccional una vez se culmine con el llenado de los datos debe ser completado, para que Solop ERP tome como válido los datos cargados en el documento.
 
 Hasta este punto llegaría el registro de factura a través de la ventana **Selección de Pago** con el tipo de documento **Orden de Pago** ya que solo se está creando la solicitud de los facturas que están pendientes por pagar y necesitan ser canceladas, en este paso a pesar de que se complete el documento esto no quiere decir que se han generado los pagos, para poder generar los pagos correspondientes a las facturas asociadas a la **Orden de Pago** se necesita completar el procedimiento Registro desde Selección de Pago y el Registro de Imprimir / Exportar Pagos.
+
+### Ejemplo de Generar desde Factura
+
+![Generar desde factura](/assets/img/docs/balance-management/bam-balance-video2.mp4)
 
 ### Registro desde Nómina
 
