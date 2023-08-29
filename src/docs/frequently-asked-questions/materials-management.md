@@ -32,7 +32,7 @@ Se crea una nueva instancia, si se desea se crea un nuevo Tipo de documento para
 
 La ventana de Detalle de Almacenamiento simple brinda el inventario al día, permitiendo filtrar por los siguientes parámetros:
 
-![Parámetros](/assets/img/docs/distribution-management/fra-asked-image1.png)
+![Parámetros](/assets/img/docs/frequently-asked-questions/fra-asked-image1.png)
 
 ### Solicitudes
 
