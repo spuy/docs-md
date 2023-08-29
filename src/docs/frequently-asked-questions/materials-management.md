@@ -20,13 +20,19 @@ Para que se permita completar una OC con RECEPCIÓN, se controla que todos los p
 
 Este aviso salta cuando el Producto está definido como “Almacenable” = Y. para que el mismo deje de aparecer se debe marcar como “N”
 
-### Actualización de stock
+#### Actualización de stock
 
 Para actualizar stock a una cantidad X
 
 Desde Gestión de materiales en la ventana Inventario Físico
 
 Se crea una nueva instancia, si se desea se crea un nuevo Tipo de documento para identificar las cargas
+
+#### Descargar inventario completo a la fecha
+
+La ventana de Detalle de Almacenamiento simple brinda el inventario al día, permitiendo filtrar por los siguientes parámetros:
+
+![Parámetros](/assets/img/docs/frequently-asked-questions/fra-asked-image1.png)
 
 ### Solicitudes
 
