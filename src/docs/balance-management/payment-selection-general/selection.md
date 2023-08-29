@@ -109,27 +109,11 @@ Imagen 4. Ordenes de Compras de la Ventana de Búsqueda Inteligente del Proceso 
 
 Seleccione las órdenes que deseen asociar a la **Orden de Pago**.
 
-![Campo](/assets/img/docs/balance-management/bam-balance-image238.png)
-
-Imagen 5. Seleccionar Órdenes de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
-
 Al seleccionar las órdenes indique en el campo **Total del Pago**, cual es el total del anticipo por cada orden.
-
-![Campo](/assets/img/docs/balance-management/bam-balance-image239.png)
-
-Imagen 6. Total Anticipo de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
 
 Seleccione la opción **OK** para cargar la información de la orden de compra a la pestaña **Línea de Selección de Pago**.
 
-![Campo](/assets/img/docs/balance-management/bam-balance-image240.png)
-
-Imagen 7. Opción Ok de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
-
 Seleccione el icono **Refrescar**, ubicado en la barra de herramientas de Solop ERP para refrescar la ventana **Selección de Pago** y pueda visualizar la información cargada desde la opción **Crear Desde Orden**.
-
-![Campo](/assets/img/docs/balance-management/bam-balance-image241.png)
-
-Imagen 8. Icono Refrescar del Documento Orden de Pago desde Orden
 
 Seleccione la pestaña **Línea de Selección de Pago**, para verificar que la información cargada desde la opción **Crear Desde Orden** sea correcta.
 
@@ -266,10 +250,6 @@ Imagen 3. Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura
 Los campos a visualizar en el smart browser son los siguientes:
 
 Campo **Cuenta Bancaria**: formato tipo lista donde aparecerá el listado de las cuentas bancarias cargadas en Solop ERP.
-
-![Campo](/assets/img/docs/balance-management/bam-balance-image281.png)
-
-Imagen 4. Campo Cuenta Bancaria de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura
 
 Campo **Moneda**: se encuentra sólo lectura y la moneda a mostrar dependerá de la moneda seleccionada en la ventana padre **Selección de Pago**; la moneda que aparezca en ese campo dentro del smart browser le indica a Solop ERP que los documentos a buscar deben estar bajo esa moneda, ejemplo:
 
