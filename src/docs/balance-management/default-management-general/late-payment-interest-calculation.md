@@ -20,29 +20,41 @@ Posteriormente a que se realicen todas las asignaciones y antes de correr un nue
 
 ### Cálculo de interés por mora en el Cálculo de Morosidad
 
-Se modificó el proceso que genera el cálculo de morosidad para poder obtener y asignar al campo "Total de Tarifa" el importe de mora hasta la fecha, y ser mostrado a modo informativo en el PDF de estado de cuenta.
+En el cálculo de morosidad se obtiene y asigna al campo "Total de Tarifa" el importe de mora hasta la fecha, y se muestra a modo informativo en el PDF de estado de cuenta.
 
 Para esto, si el nivel de morosidad tiene marcado el check "Cargo", primero se intenta obtener la tasa financiera definida en el SDN, si no existe entonces se toma la del nivel de morosidad, y como última opción se tomará desde el campo "Total de Tarifa" en el propio nivel de morosidad.
 
-**Cálculo de Mora sobre Factura**
+![Cálculo de morosidad](/assets/img/docs/balance-management/bam-default-image1.png)
 
-Para lograr este cálculo de manera exacta se realizaron los siguientes cambios en los DxC
+![Estado de Cuenta](/assets/img/docs/balance-management/bam-default-image2.png)
+
+![Morosidad](/assets/img/docs/balance-management/bam-default-image3.png)
+
+**Cálculo de Mora sobre Factura**
 
 ### Documentos por Cobrar
 
-Se creó el campo "Días de Vencido" en ventana de DxC (Foto 1), el mismo se calcula y se muestra cuando se marca el check de "Pagado" en el documento al momento de completarse la asiganción de pagos,.
+En el campo "Días de Vencido" en ventana de DxC, se calcula y se muestra cuando se marca el check de "Pagado" en el documento al momento de completarse la asiganción de pagos.
+
+![Documento por Cobrar](/assets/img/docs/balance-management/bam-default-image4.png)
 
 **Cálculo de "Días de Vencido"**
 
 Se obtienen los días de vencido a partir de la fecha de vencimiento de la factura y la fecha de la asignación. Si se le quita el check de pagado a la factura, se setea en cero los días de vencido.
 
-En la asignación se agregó la modificación para indicar que se trata de una asignación de nota de crédito, este tipo de asignación no es considerada en esta funcionalidad.
+En la asignación indica que se trata de una asignación de nota de crédito, este tipo de asignación no es considerada en esta funcionalidad.
+
+![Asignación](/assets/img/docs/balance-management/bam-default-image5.png)
 
 ### Proceso de Cálculo de Mora sobre Factura
 
-Se creó el **"Proceso de Cálculo de Mora sobre Factura"**. Este proceso se puede ejecutar masivamente desde el menú, o desde un DxC en particular.
+Este proceso se puede ejecutar masivamente desde el menú, o desde un DxC en particular.
 
-Este proceso obtiene los DxC que cumplan las siguientes condiciones:
+![Proceso del Menú](/assets/img/docs/balance-management/bam-default-image6.png)
+
+![Proceso del Documento](/assets/img/docs/balance-management/bam-default-image7.png)
+
+Obtiene los DxC que cumplan las siguientes condiciones:
 
 * Transacción de Ventas = SI
 * Pagado = SI
@@ -55,30 +67,50 @@ El proceso genera un lote de transacción financiera para cada factura procesada
 Si el término de pago de la factura tiene definido días de gracia, se considera esto para comparar con los días de vencido de la factura, y en caso que los días de vencido sean menores o  
 iguales a los días de gracia, entonces se genera el lote pero con importe en cero, y el informe de gasto no se genera.
 
+![Condición de Pago](/assets/img/docs/balance-management/bam-default-image8.png)
+
+![Lote de Transacción](/assets/img/docs/balance-management/bam-default-image9.png)
+
 Luego, los DxC generados por el SB de generar factura desde cuota, son tomados por el proceso de cálculo de mora y considerados en el PDF de estado de cuenta corriente.
 
 Se obtiene la tasa financiera definida en el SDN, y desde la misma el producto y el porcentaje para la versión actual.  
 Para obtener el importe de mora se utiliza el campo de "Días de Vencido" asignado previamente en el DxC.
 
+![Socio del Negocio](/assets/img/docs/balance-management/bam-default-image10.png)
+
+![Definición de Tasa](/assets/img/docs/balance-management/bam-default-image11.png)
+
+![Versión de Tasa](/assets/img/docs/balance-management/bam-default-image12.png)
+
 En el lote generado se agrega una descripción indicando que fue creado por el proceso
 
-**Mejora adicional al proceso de Mora:**
+![Batch](/assets/img/docs/balance-management/bam-default-image13.png)
 
-Con los cambios realizados se pasa a generar los lotes de transacción financiera e informes de gasto abiertos ambos por línea de factura, es decir que ambos documentos pasan a tener la misma cantidad de líneas que tiene el DxC desde el cual se ejecuta el proceso de mora. El importe de mora se muestra en cada línea de ambos documentos, y el totalizador en los cabezales.
+![Transacciones](/assets/img/docs/balance-management/bam-default-image14.png)
 
-Además, se pasa a contar con el dato de "Actividad" y "Línea de Contrato de Servicio", ambos datos son obtenidos desde la línea de DxC.
+**Generación de Lote de transacción:**
 
-**Complemento Mora: aplicación de interés:**
+Se generan los lotes de transacción financiera e informes de gasto abiertos ambos por línea de factura, es decir que ambos documentos poseen la misma cantidad de líneas que tiene el DxC desde el cual se ejecuta el proceso de mora. El importe de mora se muestra en cada línea de ambos documentos, y el totalizador en los cabezales.
 
-Se crea una configuración especial para definir la fecha que deseen para que sea considerada como **comienzo de aplicación de los días de vencimiento sobre facturas** sobre la cuál aplicar interés por mora.
+Se puede visualizar el dato de "Actividad" y "Línea de Contrato de Servicio", ambos datos son obtenidos desde la línea de DxC.
 
-Esta fecha se utilizará:
+**Aplicación de interés:**
+
+Se cuenta con una configuración especial para definir la fecha que deseen y sea considerada como **comienzo de aplicación de los días de vencimiento sobre facturas** sobre la cuál aplicar interés por mora.
+
+Esta fecha se utiliza:
 
 1. Días de Vencimiento en Facturas: Al marcarse el check de PAGADO en el DxC se calcularán los días de vencimiento según la diferencia entre la fecha de vencimiento de la Factura y la Fecha de Asignación que canceló la factura, siempre y cuando la Fecha de Vencimiento de la Factura sea MAYOR a la **"FECHA INICIO MORA"**, si la fecha de Vencimiento de la factura es MENOR **"FECHA INICIO MORA"** entonces se considerará la diferencia entre la Asignación y la Fecha de Inicio MORA para definir los días de Vencida de factura.
 
-1. Días de Vencimiento en línea de Cálculo de Morosidad: Lo explicado en el punto anterior también aplica para la definición de días de Vencimiento en las líneas en el cálculo de morosidad.
+![Días de Vencimiento](/assets/img/docs/balance-management/bam-default-image15.png)
 
-Se creó el configurador del sistema "UY_Dunning_Date_From" para setear la fecha desde la cual se aplicará la mora.
+2. Días de Vencimiento en línea de Cálculo de Morosidad: Lo explicado en el punto anterior también aplica para la definición de días de Vencimiento en las líneas en el cálculo de morosidad.
+
+![Días Vencimiento en Morosidad](/assets/img/docs/balance-management/bam-default-image16.png)
+
+En el configurador del sistema "UY_Dunning_Date_From" se setea la fecha desde la cual se aplicará la mora.
+
+![Configurador del Sistema](/assets/img/docs/balance-management/bam-default-image17.png)
 
 Esta fecha se utiliza al marcarse el check de PAGADO en el DxC, y en base a la misma se hace el cálculo y seteo de los días de vencido de la factura.
 
