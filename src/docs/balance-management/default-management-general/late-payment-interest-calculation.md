@@ -14,10 +14,6 @@ El proceso de Cálculo de Mora sobre Facturas se realiza en dos etapas. Primero 
 
 Luego tendremos el proceso de cálculo de mora correspondiente que sucede una única vez por Factura cuando ésta es cancelada en su totalidad. Al momento de realizar la asignación por el total de la factura, se marcará el check de Pagado junto con los dias de vencido que la misma tuvo. 
 
-### Segundo paso: Generar Cálculo de Mora desde Facturas
-
-Posteriormente a que se realicen todas las asignaciones y antes de correr un nuevo proceso de facturación masiva, se deberá correr manualmente el proceso de "Generar cálculo de Mora desde Facturas". Este proceso recorrerá todas las facturas que tengan días de vencido diferente de 0 y que no estén con una mora ya calculada y generará el correspondiente cálculo de mora (Transacción Financiera y Lote de transacción financiera). En los casos que exista un importe de mora > a 0 se generará automáticamente al Socio del Negocio de cada factura un "Concepto a Facturar" (Informe de Gasto) con el importe y el producto de interés de mora para que pueda ser facturado como un concepto más de la mensualidad. Considerar que estos conceptos se crean con fecha del día que se corre.
-
 ### Cálculo de interés por mora en el Cálculo de Morosidad
 
 En el cálculo de morosidad se obtiene y asigna al campo "Total de Tarifa" el importe de mora hasta la fecha, y se muestra a modo informativo en el PDF de estado de cuenta.
@@ -30,21 +26,11 @@ Para esto, si el nivel de morosidad tiene marcado el check "Cargo", primero se i
 
 ![Morosidad](/assets/img/docs/balance-management/bam-default-image3.png)
 
+### Segundo paso: Generar Cálculo de Mora desde Facturas
+
+Posteriormente a que se realicen todas las asignaciones y antes de correr un nuevo proceso de facturación masiva, se deberá correr manualmente el proceso de "Generar cálculo de Mora desde Facturas". Este proceso recorrerá todas las facturas que tengan días de vencido diferente de 0 y que no estén con una mora ya calculada y generará el correspondiente cálculo de mora (Transacción Financiera y Lote de transacción financiera). En los casos que exista un importe de mora > a 0 se generará automáticamente al Socio del Negocio de cada factura un "Concepto a Facturar" (Informe de Gasto) con el importe y el producto de interés de mora para que pueda ser facturado como un concepto más de la mensualidad. Considerar que estos conceptos se crean con fecha del día que se corre.
+
 **Cálculo de Mora sobre Factura**
-
-### Documentos por Cobrar
-
-En el campo "Días de Vencido" en ventana de DxC, se calcula y se muestra cuando se marca el check de "Pagado" en el documento al momento de completarse la asiganción de pagos.
-
-![Documento por Cobrar](/assets/img/docs/balance-management/bam-default-image4.png)
-
-**Cálculo de "Días de Vencido"**
-
-Se obtienen los días de vencido a partir de la fecha de vencimiento de la factura y la fecha de la asignación. Si se le quita el check de pagado a la factura, se setea en cero los días de vencido.
-
-En la asignación indica que se trata de una asignación de nota de crédito, este tipo de asignación no es considerada en esta funcionalidad.
-
-![Asignación](/assets/img/docs/balance-management/bam-default-image5.png)
 
 ### Proceso de Cálculo de Mora sobre Factura
 
@@ -115,3 +101,17 @@ En el configurador del sistema "UY_Dunning_Date_From" se setea la fecha desde la
 Esta fecha se utiliza al marcarse el check de PAGADO en el DxC, y en base a la misma se hace el cálculo y seteo de los días de vencido de la factura.
 
 Esto también aplica para la creación de las líneas en el cálculo de morosidad.
+
+### Documentos por Cobrar
+
+En el campo "Días de Vencido" en ventana de DxC, se calcula y se muestra cuando se marca el check de "Pagado" en el documento al momento de completarse la asiganción de pagos.
+
+![Documento por Cobrar](/assets/img/docs/balance-management/bam-default-image4.png)
+
+**Cálculo de "Días de Vencido"**
+
+Se obtienen los días de vencido a partir de la fecha de vencimiento de la factura y la fecha de la asignación. Si se le quita el check de pagado a la factura, se setea en cero los días de vencido.
+
+En la asignación indica que se trata de una asignación de nota de crédito, este tipo de asignación no es considerada en esta funcionalidad.
+
+![Asignación](/assets/img/docs/balance-management/bam-default-image5.png)

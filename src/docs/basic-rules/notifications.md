@@ -25,6 +25,7 @@ Este registro define el tipo de aplicación (ejemplo: correo electrónico) y la 
   Luego, el envío de estado de morosidad se realiza desde "Envío de Estado de cuenta por correo".
 
   Este proceso busca líneas de morosidad a enviar. Permite seleccionar por nivel de morosidad, por socio de negocio, por fecha. Y como parámetro se define el patrón de correo (de la organización correspondiente): generación de notificaciones desde línea de morosidad.
+
 * Notificación desde Solicitudes
 
   Generación de notificaciones desde solicitudes de trabajo (task, issues, request): es una entidad que puede vincularse a diferentes actores (usuarios) o documentos (proyecto, orden de venta, compra, facturas, etc.). Se puede generar desde cualquier documento.
@@ -34,6 +35,7 @@ Este registro define el tipo de aplicación (ejemplo: correo electrónico) y la 
   Al crear solicitud deben llenarse campos obligatorios como organización, tipo de solicitud, asunto (título), resumen (texto sobre el origen de la solicitud), fecha de siguiente acción (o en la cual se espera una primera respuesta), tipo de vencimiento, prioridad, departamento y final de tiempo o fecha de vencido.
 
   Una vez guardada la solicitud, desde la opcipon de Recipietne de cola de notificación se podrán visualizar las diferentes solicitudes creadas y su estado.
+
 * Notificación desde Proyectos
 
   Es posible vincular una solicitud a un proyecto (así como a otras entidades). O bien, en sentido contrario, es posible generar una solicitud que posteriormente será origen de un proyecto (en ambos casos quedarán vinculados). 
@@ -43,7 +45,10 @@ Este registro define el tipo de aplicación (ejemplo: correo electrónico) y la 
   Desde la ventana Proyecto se podrá visualizar todas las Solicitudes relacionadas, tanto desde la Pestaña de Solicitudes correspondiente como desde la Barra de herramientas (Ver todas las solicitudes).
 
   El objetivo de la vinculación entre proyecto y solicitud responde a la necesidad de ligar las diferentes tareas y requerimientos que se vayan generando a diferentes usuarios, y que tengan relación con un determinado proyecto.
+
 * Notificación desde Reportes
+
+  Desde las diferentes entidades del ERP existe una opción en la barra de comandos denominada "Informes". Desde allí es posible generar un reporte con aquella información que se esté visualizando en pantalla, seleccionar una extensión (ejemplo, PDF, HTML,, excel) y luego exportarlo. A su vez, esta exportación es posible enviarla por mail desde el sistema. Esto genera un registro de cola de notificación).
 
 ### Configuración de Notificaciones por Usuario
 
