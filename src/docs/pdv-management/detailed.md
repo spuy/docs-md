@@ -44,19 +44,19 @@ Como ejemplo del proceso de retiro de fondos desde el punto de venta se tienen l
 
       - 10,00
 
-    - Transferencia en Moneda **VES**
+    - Transferencia en Moneda **UYU**
 
       - 5.917.563,54
 
-    - Pago Móvil en Moneda **VES**
+    - Pago Móvil en Moneda **UYU**
 
       - 70.000.000,00
 
-    - Débito Directo en Moneda **VES**
+    - Débito Directo en Moneda **UYU**
 
       - 40.577.378,71
 
-El retiro detallado de la caja, se debe realizar por moneda. Para el caso de la moneda **VES**, se debe tildar de manera Obligatoria, el check **Dividir Depósitos**, para que Solop ERP genere un egreso de caja POS por el total de los movimientos con dicha moneda y un ingreso a caja administrativa por cada uno de los movimientos de cobro de dicha moneda.
+El retiro detallado de la caja, se debe realizar por moneda. Para el caso de la moneda **UYU**, se debe tildar de manera Obligatoria, el check **Dividir Depósitos**, para que Solop ERP genere un egreso de caja POS por el total de los movimientos con dicha moneda y un ingreso a caja administrativa por cada uno de los movimientos de cobro de dicha moneda.
 
 En el campo **Terminal PDV**, podrá visualizar el terminal asociado al punto de venta desde el que accedió al proceso.
 
