@@ -54,15 +54,36 @@ Luego de generado el Cálculo de Morosidad, dentro de cada Registro en la pesta�
 
 Luego, nos figurará el siguiente cuadro al que confirmaremos mediante el botón de OK para así generar el reporte
 
-### **Bitácora de Emails**
+### Notificaciones
 
-Por cada Proceso que se genere desde el “Enviar Estado de Cuenta por Correo” se generará un Lote en la ventana “Bitácora de Emails”. Dentro de este lote se detallarán en la pestaña de Emails cada uno de los correos que se enviaron detallando:
+* Notificación desde Cálculo de Morosidad
 
-* Correo Emisor
-* Correo Receptor
-* Asunto
-* Mensaje
-* Template de Correo utilizado
-* Estado: Si el envío se realizó con éxito (Enviado), Pendiente de envio o Error.
-* Texto de Respuesta: En caso de que haya tenido Error, el detalle de la razón del mismo podrá verse en este campo de Respuesta.
-* Adjunto: se podrá visualizar el Reporte que se envió como Adjunto en el correo como adjunto en el registro de Email.
+En la opción de Cálculo de Morosidad se generan las diferente entradas por deuda.
+
+Luego, el envío de estado de morosidad se realiza desde "Envío de Estado de cuenta por correo".
+
+Este proceso busca líneas de morosidad a enviar. Permite seleccionar por nivel de morosidad, por socio de negocio, por fecha. Y como parámetro se define el patrón de correo (de la organización correspondiente): generación de notificaciones desde línea de morosidad.
+
+#### Proceso de Envío de Cola de Notificaciones
+
+El registro de cola de notificación se genera con un destinatario (es uno a uno). El estado de procesado = NO cambia a "SI" cuando se realiza el envío de la notificación. En el caso de fallar o emitir error por envío, queda configurado como Procesado = NO (descripción del error) y Activo = no para que no ingrese en el siguiente lote de envío.
+
+#### Cola de Notificación
+
+Cuando se dispara una notificación desde el ERP, al generar registro de cola de notificación, se graba como procesado = No (no enviado) y con el check de Activo = SI
+
+El envío de notificación tiene diferentes funcionalidades: se puede generar desde
+
+El usuario
+
+La organización
+
+La compañia
+
+From Account name: desde donde se origina la notificación.
+
+#### Recipientes de Cola de Notificación
+
+Es un registro de notificaciones generados dentro del sistema y con sus diferentes destinatarios. 
+
+Genera auditoría o historial de envíos de notificación con sus correspondientes estados y descripción de error (en el caso de no haber sido enviados).
