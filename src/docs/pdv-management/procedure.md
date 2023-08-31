@@ -8,25 +8,21 @@ article: false
 
 Antes de emitir facturas desde el punto de venta, se deben realizar los siguientes procesos diariamente:
 
-Crear las tasas de cambio del día en las diferentes monedas (USD, EUR, entre otras), para los tipos de conversión **Monitor Dólar Vzla** y **BCV**.
+Crear las tasas de cambio del día en las diferentes monedas (USD, EUR, entre otras), para los tipos de conversión que corresponda a cada moneda.
 
-Las tasas de cambio del tipo de conversión **Monitor Dólar Vzla**, deben crearse considerando lo siguiente:
+Las tasas de cambio del tipo de conversión deben crearse considerando lo siguiente:
 
-VES a USD
+UYU a USD
 
-VES a EUR
+UYU a EUR
 
 USD a EUR
 
-Las tasas de cambio del tipo de conversión **BCV**, deben crearse con ayuda del proceso **Obtener Tasas de Cambio desde Proveedor**.
-
-Note
+Las tasas de cambio del tipo de conversión deben crearse con ayuda del proceso **Obtener Tasas de Cambio desde Proveedor**.
 
 Si desconoce el procedimiento para crear de manera automática las tasas de cambio del tipo de conversión **BCV**, puede consultar el material Conversión Automática por Tipo de Conversión.
 
 Crear la lista de precios de ventas (VES) y actualizar la lista de precios de ventas (USD).
-
-Note
 
 Si desconoce el procedimiento para crear la lista de precios de ventas, puede consultar el material Lista de Precios. De igual manera puede actualizar la lista de precios de ventas seleccionando la opción **Crear Lista de Precios** en la versión de la lista de precios que requiere actualizar.
 
