@@ -338,7 +338,7 @@ Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en 
 - Empleado
   - Registro de Empleado
 
-## Proveedor
+### Proveedor
 
 Un socio del negocio proveedor es aquella persona u organización que provee de productos y servicios a otra que lo necesite para su consumo, los transforme para su venta o los compre para venderlos sin modificaciones.
 
@@ -352,7 +352,7 @@ De igual manera, un proveedor externo puede ser un proveedor internacional, este
   - Pestaña Localización
   - Pestaña Contacto
 
-### Registro de Proveedor
+#### Registro de Proveedor
 
 Para registrar un proveedor, es necesario que sea realizado el procedimiento regular explicado en el documento **Registro de Socio del Negocio**, elaborado por **Solop ERP**.
 
