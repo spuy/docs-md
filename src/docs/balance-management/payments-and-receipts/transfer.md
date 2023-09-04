@@ -8,7 +8,7 @@ article: false
 
 Una transferencia bancaria en Solop ERP es el proceso mediante el cual se realizan los traslados de fondos entre cuentas, para simular y reflejar en Solop ERP los movimientos realizados en los bancos reales, el procedimiento reflejará en la cuenta **Banco Desde**, un egreso y a su vez un ingreso en la cuenta **Banco Hasta**.
 
-El presente material elaborado por **Solop ERP**, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar una transferencia bancaria en Solop ERP, en su versión 3.9.2 para la localización Venezuela.
+El presente material elaborado por **Solop ERP**, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar una transferencia bancaria en Solop ERP.
 
 - Registro de Transferencia Bancaria
   - Consultar Egreso Generado de la Transferencia Bancaria
@@ -197,7 +197,7 @@ Seleccione en el campo **Cuenta Bancaria a Transferir** el nombre de la cuenta d
 
 Seleccione en el campo **Socio de Negocio**, el socio de negocio registrado con los datos de su compañía.
 
-Seleccione en el campo **Moneda** debe registrar la moneda con la cual se está cancelando la nómina, en este caso será bolívares (VES).
+Seleccione en el campo **Moneda** debe registrar la moneda con la cual se está cancelando la nómina, en este caso será dólares (USD).
 
 Seleccione en el campo **Cargo** el cargo denominado Efectivo en Tránsito Nómina, esté cargo se utiliza para indicar contablemente el registro del pago de la nómina.
 

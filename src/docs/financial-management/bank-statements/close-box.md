@@ -12,7 +12,7 @@ El procedimiento cierre de caja permite controlar y dar seguimiento al dinero qu
 
 El monto de la caja al final del día luego del proceso de cierre de caja, puede ser diferente al **0,00**, sólo en aquellos casos en los que la caja amerite un monto diferente y dependiento del proceso que se realice en la misma.
 
-El presente material elaborado por Solop ERP, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar en Solop ERP un cierre de caja, en su versión 3.9.2 para la localización Venezuela.
+El presente material elaborado por Solop ERP, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar en Solop ERP un cierre de caja.
 
 - Registro de Cierre de Caja
 - Cierre de Caja Nómina

@@ -7,11 +7,11 @@ article: false
 ---
 ## **Conversión de Moneda**
 
-# **Analizando la Diferencia de Cambio no Realizada**
+### **Analizando la Diferencia de Cambio no Realizada**
 
 El proceso para realizar la verificación Contable con los Saldos Abiertos que existe en los Auxiliares se puede realizar mediante los siguientes pasos:
 
-## **Verificación del Ajuste Cuentas por Pagar y por Cobrar**
+### **Verificación del Ajuste Cuentas por Pagar y por Cobrar**
 
 1. Verificar que todos dan igual según Importe Fuente (Opcional)
    1. Obtención de Reporte de Saldos Abiertos cuentas por Cobrar
@@ -25,17 +25,17 @@ El proceso para realizar la verificación Contable con los Saldos Abiertos que e
    3. Obtención de Reporte de Saldos Abiertos cuentas por Pagar
    4. Balance de Prueba Cuenta “Cuenta por Pagar Comerciales”
 
-## **Explicación del Ajuste realziado por el Proceso de DIferencia de Cambio No Realizada**
+### **Explicación del Ajuste realziado por el Proceso de DIferencia de Cambio No Realizada**
 
 El proceso de diferencia de cambio No Realizada puede controlarse, para ello deberá exportar a Excel el Reporte que brinda el proceso del cálculo de Diferencia de Cambio No Realizada al momento que la ejecuta. Cuidado, este reporte presentará el cálculo realizado y no podrá obtenerse nuevamente a menos que genere el proceso una vez más, generando así el Asiento del Ajuste nuevamente.
 
 En la planilla verá documento por documento sus aplicaciones en moneda fuente, en moneda esquema, los importes revaluados considerando la tasa de cambio seleccionada y las diferencias a revaluar.
 
-# **Comprobación de Cálculo de Diferencia de Cambio no Realizada**
+## **Comprobación de Cálculo de Diferencia de Cambio no Realizada**
 
 Como forma de comprobación del proceso realizado usted podrá emitir los siguientes reportes:
 
-## **En Documentos por Pagar y Documentos por Cobrar**
+### **En Documentos por Pagar y Documentos por Cobrar**
 
 Emitir Reportes de Saldos Abiertos a la Fecha del proceso de:
 
@@ -93,13 +93,13 @@ Como resultado del proceso de revaluación, el sistema calcula las ganancias y p
 
 Usted especifica las cuentas en las que se publican las ganancias y pérdidas no realizadas en los recuadros Cuenta de ganancia no realizada y Cuenta de pérdida no realizada .
 
-# **Ajuste por Diferencia de Cambio de Entregas y Recepciones no Facturados**
+## **Ajuste por Diferencia de Cambio de Entregas y Recepciones no Facturados**
 
 El sistema cuenta con un Proceso de Ajuste de Diferencia de Cambio de aquellas Entregas o Recepciones que aún no fueron Facturadas. El proceso lo que realizará es simplemente para la Exposición al cierre de un período o ejercicio, ajustar aquellas Recepciones o Entregas que todavía no llegó su Factura o no ah sido Facturada adelantando así su revaluación al tipo de cambio de cierre de ejercicio.
 
 Considerar que este al ser un asiento de exposición al cierre de período, el mismo debe extornarse al período siguiente para permirir que se relaicen correctamente los procesos estándar re revaluación directo en los documentos.
 
-## **Ajuste Diferencia de Cambio Entregas y Recepciones sin Facturar**
+### **Ajuste Diferencia de Cambio Entregas y Recepciones sin Facturar**
 
 Para comenzar este proceso se deberán realizar los siguientes pasos
 
@@ -111,7 +111,7 @@ Para comenzar este proceso se deberán realizar los siguientes pasos
 6. Balance de prueba con vista de Moneda y SDN Cuenta “Recepciones sin Factura”
 7. Reporte de Unbilled Compras con TC Cierre de Mes
 
-# **Ajuste Diferencia de Cambio con Cheque Diferido**
+## **Ajuste Diferencia de Cambio con Cheque Diferido**
 
 **Documento por Pagar**
 
@@ -121,7 +121,7 @@ Para comenzar este proceso se deberán realizar los siguientes pasos
 
 **Asignación**
 
-# **Diferencias de Cambio sobre Documentos por Cobrar o Pagar**
+## **Diferencias de Cambio sobre Documentos por Cobrar o Pagar**
 
 Si su compañía usa diferentes monedas como monedas base, es posible que deba re expresar los saldos de las cuentas de la moneda base a cualquier moneda extranjera configurada para su uso en contabilidad. Esta operación se llama Conversión de Monedas.
 
@@ -145,7 +145,7 @@ El sistema advierte en el momento de realizar el asiento contable correspondient
 
 El Documentos que presentan las conversiones y realizan estos cálculos es la Asignación
 
-## **Asignación**
+### **Asignación**
 
 El documento “Asignación” es el responsable de realizar el cálculo de Diferencia de Cambio Realizada al momento de cancelar el saldo abierto de los Documentos (DxC, DxP, Pago, Cobro, Pago Diferido, Cobro Diferido).
 
@@ -169,7 +169,7 @@ Para los Ajustes de Impuesto se tomará la Cuenta Contable definida en el Campo 
 
 **Criterio de Definición de Cuentas Contables Resultado**
 
-# **Perdidas y Ganancias por Diferencias de Cambio Realizada**
+## **Perdidas y Ganancias por Diferencias de Cambio Realizada**
 
 Una Pérdida o Ganancia se genera cuando usted tiene transacciones de Cuenta por Pagar o Cuenta por Cobrar en una moneda diferente a la de su contabilidad y hay un cambio en la tasa de conversión de la moneda entre las fechas de realización de la transacción mediante el Documento por pagar/Cobrar y su correspondiente pago/Cobro.
 
@@ -180,7 +180,7 @@ Estas diferencias de cambio pueden ser:
 
 Solop ERP gestiona tanto las diferencias de cambio realizadas como las no realizadas.
 
-## **Diferencia de Cambio Realizada**
+### **Diferencia de Cambio Realizada**
 
 Es la determinada entre la fecha de origen del activo o pasivo en moneda extranjera y la fecha en que se recibe o efectúa el abono parcial o total.
 
@@ -205,7 +205,7 @@ El sistema advierte en el momento de realizar el asiento contable correspondient
 
 En el caso que esa diferencia de cambio realizada esté gravada por impuestos de venta o compra, Solop ERP realizará el cargo correspondiente a los impuestos por Pagar o Impuestos por Cobrar.
 
-# **Proceso de Revaluación de Cuentas Integrales - Cuentas Monetarias**
+## **Proceso de Revaluación de Cuentas Integrales - Cuentas Monetarias**
 
 Este Proceso tomará todas las Cuentas Contables Integrales definidas como Moneda Extranjera considerando la moneda que tenga definida dicha Cuenta Contable.
 
@@ -227,7 +227,7 @@ Tipo de Conversión: Tipo Conversión utilizada en el proceso
 
 Revalorización Tipo de Documento: GL (General Ledger) donde genera el asiento de revaluación
 
-## **Comprobación del Proceso de Diferencia de Cambio de Cuentas Monetarias**
+### **Comprobación del Proceso de Diferencia de Cambio de Cuentas Monetarias**
 
 Compare el saldo actual (en la moneda esquema) de las cuentas contables monetarias y el saldo que debería tener a la fecha de cierre del Período como producto de multiplicar los saldos en moneda extranjera por la Tasa de Cambio de cierre del Período.
 

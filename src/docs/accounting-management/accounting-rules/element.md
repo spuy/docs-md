@@ -48,7 +48,7 @@ Para este ejemplo podríamos establecer la siguiente figura:
 
 El elemento contable es necesario para la definición del esquema contable, que a su vez define el óptimo funcionamiento de Solop ERP, esto es porque cada transacción administrativa generará un asiento contable y por ende son requeridas las cuentas contables.
 
-En esta oportunidad ERPyA ha diseñado para usted un material en el cual se define detalladamente esta ventana que frecuentemente será visitada por usted, que ha decidido incursionar en el uso de Solop ERP ERP.
+En esta oportunidad Solop ERP ha diseñado para usted un material en el cual se define detalladamente esta ventana que frecuentemente será visitada por usted, que ha decidido incursionar en el uso de Solop ERP.
 
 - Registro de Elemento Contable
 

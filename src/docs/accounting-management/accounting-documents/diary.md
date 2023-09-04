@@ -480,7 +480,7 @@ La combinación no es un campo obligatorio, sin embargo, le permite crear una nu
 
 Imagen 41. Combinación Contable del Campo Combinación de la Pestaña Línea de la Ventana Diario Contable
 
-Si desea crear o modificar la combinación establecida, realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por ERPyA.
+Si desea crear o modificar la combinación establecida, realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento Combinación Contable elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image389.png)
 

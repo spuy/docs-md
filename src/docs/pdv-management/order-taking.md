@@ -36,7 +36,7 @@ Note
 
 Esta opción es habilitada cuando el socio del negocio vendedor tiene configurado más de un terminal de punto de venta.
 
-La interfaz de la ventana **Punto de Venta**, se encuentra definida de forma específica en el documento Interfaz de Punto de Venta, elaborado por ERPyA. Realice cada uno de los procesos explicados a continuación para obtener un resultado exitoso en la toma de pedido por el punto de venta.
+La interfaz de la ventana **Punto de Venta**, se encuentra definida de forma específica en el documento Interfaz de Punto de Venta, elaborado por Solop ERP. Realice cada uno de los procesos explicados a continuación para obtener un resultado exitoso en la toma de pedido por el punto de venta.
 
 Seleccione el icono **Registro Nuevo** para crear un nuevo registro de orden de venta.
 
@@ -120,7 +120,7 @@ Monto Total de la Orden en Moneda USD: 39,264453844045 (monto resultante del **M
 
 Monto Real a Pagar: 40,00 (monto que debe ser ingresado en el campo **Monto**)
 
-Cambio en Moneda VES: 1.422.173,66 (cambio que debe ser entregado al cliente)
+Cambio en Moneda UYU: 1.422.173,66 (cambio que debe ser entregado al cliente)
 
 Cobro Completo: SI (tildar)
 

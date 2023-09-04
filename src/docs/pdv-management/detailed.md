@@ -18,7 +18,7 @@ Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Ventas**,
 
 Imagen 1. Menú de Solop ERP
 
-Si en el transcurso del día, se presenta un retiro de fondos en alguna de las cajas en la cual se encuentran realizando transacciones desde el punto de venta, seleccione la opción **Retiro de Caja (Detallado)**, ubicada en el menú desplegado por el icono **Proceso** de la barra de herramientas de la ventana **Punto de Venta**, explicada en el documento Barra de Herramientas del Punto de Venta elaborado por ERPyA.
+Si en el transcurso del día, se presenta un retiro de fondos en alguna de las cajas en la cual se encuentran realizando transacciones desde el punto de venta, seleccione la opción **Retiro de Caja (Detallado)**, ubicada en el menú desplegado por el icono **Proceso** de la barra de herramientas de la ventana **Punto de Venta**, explicada en el documento Barra de Herramientas del Punto de Venta elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/pdv-management/pdm-pdv-image98.png)
 
@@ -136,7 +136,7 @@ Introduzca en el campo **No. del Documento**, el número de documento para los d
 
 Imagen 16. Campo No. del Documento
 
-En el caso de los retiros en moneda **VES**, tilde el check **Dividir Depósitos**, para generar un documento de egreso de la caja POS con la suma de todos los cobros y tantos documentos de ingreso a la caja administrativos como movimientos seleccionados en el proceso.
+En el caso de los retiros en moneda **UYU**, tilde el check **Dividir Depósitos**, para generar un documento de egreso de la caja POS con la suma de todos los cobros y tantos documentos de ingreso a la caja administrativos como movimientos seleccionados en el proceso.
 
 ![Campo](/assets/img/docs/pdv-management/pdm-pdv-image113.png)
 

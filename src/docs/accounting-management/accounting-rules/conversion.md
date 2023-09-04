@@ -31,7 +31,7 @@ Crear Tasa Recíproca: Esta funcionalidad permite que al guardar el registro sea
 
 Note
 
-Un ejemplo de este caso puede ser cuando el usuario crea una tasa de cambio de moneda **VES** a moneda **USD** con una tasa multiplicadora 2 entonces automáticamente se creará una tasa de cambio de moneda **USD** a **VES** con la tasa multiplicadora 0.5
+Un ejemplo de este caso puede ser cuando el usuario crea una tasa de cambio de moneda **UYU** a moneda **USD** con una tasa multiplicadora 2 entonces automáticamente se creará una tasa de cambio de moneda **USD** a **UYU** con la tasa multiplicadora 0.5
 
 ../../../\_images/tasa-cambio-reciproca.gif
 Video 1. Tasa de Cambio
@@ -128,7 +128,7 @@ Warning
 
 La tasa de cambio se debe crear de dólares a bolívares y de bolívares a dólares.
 
-Seleccione en el campo **Moneda Hacia**, la moneda para la cual requiere convertir el dinero. Para ejemplificar el registro es utilizada la moneda **VES**.
+Seleccione en el campo **Moneda Hacia**, la moneda para la cual requiere convertir el dinero. Para ejemplificar el registro es utilizada la moneda **UYU**.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image219.png)
 

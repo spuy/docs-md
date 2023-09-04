@@ -544,7 +544,7 @@ Imagen 26. Icono Guardar Cambios
 
 ## Crear Lista de Precios desde otra Lista de Precios
 
-Para ejemplificar el caso de creación de una lista de precios desde otra, se tiene la versión de lista de precios base **2021-03-03 09:03:41**, creada en la lista de precios **Ventas (USD)**. De igual manera, se tiene la tasa de cambio de **VES** a **USD** y viceversa, con monto de **1.877.000,00**, a la fecha **03/03/2021**.
+Para ejemplificar el caso de creación de una lista de precios desde otra, se tiene la versión de lista de precios base **2021-03-03 09:03:41**, creada en la lista de precios **Ventas (USD)**. De igual manera, se tiene la tasa de cambio de **UYU** a **USD** y viceversa, con monto de **1.877.000,00**, a la fecha **03/03/2021**.
 
 Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Materiales**, luego seleccione la carpeta **Reglas de Gestión de Materiales**, por último seleccione la ventana **Lista de Precios**.
 
@@ -562,11 +562,11 @@ Warning
 
 La información de los campos que contiene la pestaña **Lista de Precios**, no debe ser modificada por ningún motivo. De igual manera, no se debe tildar o destildar ningún check de los que contiene dicha pestaña.
 
-Ubique el registro de lista de precios de **Ventas (VES)**.
+Ubique el registro de lista de precios de **Ventas (UYU)**.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image380.png)
 
-Imagen 3. Lista de Precios Ventas (VES)
+Imagen 3. Lista de Precios Ventas (UYU)
 
 Seleccione la pestaña **Versión**, para crear la versión de lista de precios desde otra versión de lista de precios.
 
@@ -716,7 +716,7 @@ Note
 
 El producto debe estar incluido en una orden de compra y dicha orden debe estar en estado **Completo**. Recuerde que al completar la orden de compra, los precios de compra de los productos son cargados a la pestaña **Compras** de cada producto incluido en la orden.
 
-De igual manera, se tiene la tasa de cambio de **VES** a **USD** y viceversa, con monto de **1.877.000,00**, a la fecha **03/03/2021**.
+De igual manera, se tiene la tasa de cambio de **UYU** a **USD** y viceversa, con monto de **1.877.000,00**, a la fecha **03/03/2021**.
 
 En base a las especificaciones nombradas anteriormente, se procede a explicar el procedimiento a seguir para generar la lista de precios desde la última orden de compra procesada.
 
@@ -736,11 +736,11 @@ Warning
 
 La información de los campos que contiene la pestaña **Lista de Precios**, no debe ser modificada por ningún motivo. De igual manera, no se debe tildar o destildar ningún check de los que contiene dicha pestaña.
 
-Ubique el registro de lista de precios de **Ventas (VES)**.
+Ubique el registro de lista de precios de **Ventas (UYU)**.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image401.png)
 
-Imagen 3. Lista de Precios Ventas (VES)
+Imagen 3. Lista de Precios Ventas (UYU)
 
 Seleccione la pestaña **Versión**.
 

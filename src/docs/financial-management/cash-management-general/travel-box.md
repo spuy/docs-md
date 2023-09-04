@@ -8,7 +8,7 @@ article: false
 
 Solop ERP permite controlar el dinero que la empresa le asigna a sus trabajadores seleccionados, por medio de la caja creada a cada uno de ellos. El proceso **Caja Viáticos** es realizado con la finalidad de facilitar un dinero a un empleado y pueda ser utilizado para solventar situaciones de viajes laborales, por ende debe reflejarse en su caja correspondiente.
 
-El presente material elaborado por Solop ERP, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar en Solop ERP viáticos de personal, en su versión 3.9.2 para la localización Venezuela.
+El presente material elaborado por Solop ERP, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar en Solop ERP viáticos de personal.
 
 - Registro de Caja Viáticos
   - Viáticos Igual al Gasto

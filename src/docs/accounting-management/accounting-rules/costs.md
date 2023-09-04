@@ -6,7 +6,7 @@ sticky: 9
 article: false
 ---
 
-El presente material elaborado por Solop ERP pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de gestionar los costos en la versión 3.9.2 de Solop ERP en la localización Venezuela.
+El presente material elaborado por Solop ERP pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de gestionar los costos en Solop ERP.
 
 - Costos de Material
 - Costos Adicionales
@@ -77,7 +77,7 @@ Imagen 9. Tipo de Costo Facturación Promedio
 
 ## Costos Adicionales
 
-El presente material elaborado por Solop ERP pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de generar costos adicionales a los productos en la versión 3.9.2 de Solop ERP en la localización Venezuela.
+El presente material elaborado por Solop ERP pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de generar costos adicionales a los productos de Solop ERP.
 
 Las empresas realizan un estudio sobre el costo de producción de un producto determinado con la finalidad de establecer el precio de venta en base a los resultados obtenidos. Con esto se quiere decir que según el método empleado por la empresa, se toma en cuenta el costo de la materia prima, el costo de la producción, impresión, empaque, flete y cualquier otro servicio o producto necesario para lograr un producto final, para obtener el precio de venta del producto acorde a los costos que implica la producción del mismo.
 
@@ -93,7 +93,7 @@ Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Compras**
 
 Imagen 1. Menú de Solop ERP
 
-Realice el procedimiento regular para generar una factura de cuentas por pagar, definido en el material Registro de Documento por Pagar de la versión 3.9.2 de Solop ERP en la localización Venezuela.
+Realice el procedimiento regular para generar una factura de cuentas por pagar, definido en el material Registro de Documento por Pagar de Solop ERP.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image261.png)
 
