@@ -41,8 +41,6 @@ Seleccione la organización en el campo **Organización**.
 
 La organización le permite definir la entidad legal ó una sub-unidad a la cual pertenece el socio de negocio, si la organización es (\*), este estará disponible para todas las organizaciones al procesar documentos y transacciones, pero si por el contrario, ha seleccionado una organización diferente, este registro únicamente estará disponible para la organización seleccionada.
 
-Campo Organización
-
 Generalmente los **Socios de Negocios** son registros compartidos entre entidades organizacionales, por esta razón **Solop ERP** recomienda la creación con organización (\*) para evitar duplicidad e inconvenientes contables, de esta forma garantizamos la homogeneidad de los datos maestros.
 
 Introduzca el código de socio del negocio en el campo **Código**.
@@ -50,8 +48,6 @@ Introduzca el código de socio del negocio en el campo **Código**.
 El código es un dato único e irrepetible que protege la entrada de los registros, evitando la duplicidad de los mismos, generalmente se refiere al número de identificación que acredite la identidad de una persona natural una entidad jurídica, por ejemplo, una cédula de identidad o un RIF.
 
 Si no es ingresado un dato en este campo Solop ERP genera un dato de tipo numérico autoincrementable.
-
-Campo Código
 
 Se recomienda no ingresar caracteres especiales como puntos, guiones u otros que alteren el registro en este campo.
 
@@ -67,25 +63,17 @@ Introduzca el nombre del socio del negocio en el campo **Nombre**.
 
 El nombre se refiere a la razón social, siendo esta el nombre ó la denominación con la que está registrado en los documentos legales, el nombre es utilizado a nivel administrativo, formal y jurídico.
 
-Campo Nombre
-
 Introduzca el nombre 2 del socio del negocio en el campo **Nombre 2**.
 
 El nombre 2 varía su uso dependiendo de la naturaleza del socio del negocio (Cliente, Proveedor o Empleado), si es un cliente o un proveedor es opcional, y generalmente se utiliza para colocar la denominación comercial, por el contrario, si es un empleado es obligatorio, siendo este campo correspondiente al apellido, el mismo será impreso en los reportes administrativos y jurídicos.
-
-Campo Nombre 2
 
 Introduzca una breve descripción referente al socio del negocio cliente en el campo **Descripción**.
 
 La descripción no es un campo obligatorio,sin embargo, le permite dejar descripciones o notas de interés para el registro.
 
-Campo Descripción
-
 Seleccione el checklist **Entidad Acumulada**.
 
 Entidad acumulada no es un campo obligatorio, sin embargo, le permite definir al socio del negocio como entidad sumaria, lo que significa que si el socio de negocio tiene este check activo será un **Socio de Negocio Padre**.
-
-Campo Entidad Acumulada
 
 Seleccione en el campo **Estado de Crédito**.
 
@@ -109,8 +97,6 @@ Podrá visualizar el saldo actual que posee el cliente en el campo **Saldo Actua
 
 El saldo actual es un campo solo lectura, actualizado de forma automática, aumentando o disminuyendo al emitir cuentas por cobrar o cuentas por pagar, controlando el estado de crédito.
 
-Campo Saldo Actual
-
 Podrá visualizar el número de identificación autogenerado a partir del campo **Código** en el campo **Número de Identificación**
 
 El número de identificación se refiere al número que acredita la identidad de una persona natural una entidad jurídica, por ejemplo, una cédula de identidad o un RUT, este campo mantiene incidencia en la generación de documentos fiscales como facturas, retenciones y comprobantes ARC.
@@ -119,29 +105,19 @@ Seleccione el checklist **Exento de Impuesto en Venta**.
 
 Exento de Impuesto de Venta, no es un campo obligatorio, por defecto está establecido en falso, permite la omisión de impuestos al generar ordenes de ventas, es decir si un producto es gravado, hará una excepción para este socio de negocio, emitiendo la orden de venta con el producto en cuestión con impuesto (0%).
 
-Campo Exento de Impuesto en Venta
-
 Seleccione el checklist **Exento de Impuesto en Compra**, para definir al socio del negocio como exento de impuesto.
 
 Exento de Impuesto de Compra, no es un campo obligatorio, por defecto está establecido en falso, permite la omisión de impuestos al generar ordenes de compras, es decir si un producto es gravado, hará una excepción para este socio de negocio, emitiendo la orden de compra con el producto en cuestión con impuesto (0%).
 
-Campo Exento de Impuesto en Compra
-
 Seleccione el grupo de impuestos en el campo **Grupo de Impuestos**.
-
-Campo Grupo de Impuestos
 
 Introduzca el código DUNS del socio del negocio en el campo **DUNS**.
 
 El código DUNS no es un campo obligatorio, sin embargo, le permite introducir el número DUNS (Data Universal Numbering System o Sistema Universal de Numeración de Datos), el mismo es un un número de identificación proporciona la identidad única a cada empresa a nivel internacional.
 
-Campo DUNS
-
 Introduzca el número de referencia socio del negocio en el campo **No. de Referencia**.
 
 El número de Referencia no es un campo obligatorio, sin embargo, le permite introducir un número fijo que utiliza el socio de negocio para gestiones administrativas, este tiene incidencia en las órdenes de compra o venta dependiendo la naturaleza de la entidad, siendo establecido de forma automática en las mismas.
-
-Campo No. de Referencia
 
 Introduzca el código NAICS o SIC del socio del negocio en el campo **NAICS/SIC**.
 
@@ -154,8 +130,6 @@ Imagen 16. Campo NAICS/SIC
 Introduzca la valuación ABC en el campo **Valuación ABC**.
 
 La valuación ABC no es un campo obligatorio, sin embargo, le permite establecer una evaluación clasificatoria del socio de negocio cliente.
-
-Campo Valuación ABC
 
 Seleccione el grupo de socio del negocio en el campo **Grupo de Socio del Negocio**
 
@@ -183,13 +157,9 @@ Adicionalmente, define en el socio de negocio funciones y parámetros a partir d
 
 **Contabilidad**: Define cuentas contables en la que se realizarán los asientos contables dependiendo de la naturaleza del socio de negocio (Clientes o Proveedores).
 
-Campo Grupo de Socio del Negocio
-
 Seleccione el tipo de cuenta en el campo **Tipo de Cuenta\*\***.
 
 El tipo de cuenta no es un campo obligatorio, sin embargo, le permite a los vendedores conocer con perfección las características de sus clientes y los diferentes tipos de clientes definidos en la empresa y así realizar un mejor estudio de mercado.
-
-Campo Tipo de Cuenta
 
 Seleccione el lenguaje en el campo **Lenguaje**.
 
@@ -203,31 +173,21 @@ Seleccione el tipo de industria en el campo **Tipo de Industria**.
 
 El tipo de industria no es un campo obligatorio, sin embargo, define la tipología de industria en la que se encuentra el Socio de Negocio.
 
-Campo Tipo de Industria
-
 Seleccione el segmento en el campo **Segmento**.
 
 El segmento no es un campo obligatorio, sin embargo, permite segmentar socios de negocios de manera rigurosa, identificar patrones que pueden ser usados para asignar un segmento.
-
-Campo Segmento
 
 Seleccione el grupo de ventas en el campo **Grupo de Ventas**.
 
 El grupo de ventas no es un campo obligatorio, sin embargo, permite categorizar al socio de negocio en un grupo de venta con objetivos referente a marketing y promociones.
 
-Campo Grupo de Ventas
-
 Introduzca la dirección de la página web en el campo **Dirección Web**.
 
 La dirección Web no es un campo obligatorio, sin embargo, permite registrar el sitio web del socio del negocio (Cliente y Proveedores) en el cual se administra la información de contacto de la empresa para solucionar sus inquietudes, realizar compras y gestión de solicitudes, aprovechando oportunidades de negocio que se encuentran en la red.
 
- Campo Dirección Web
-
 Seleccione el checklist **Prospecto Activo**.
 
 Prospecto Activo no es un campo obligatorio, por defecto está establecido en falso, sin embargo al seleccionarlo indica que el socio de negocio de tipo cliente está activo.
-
-Campo Prospecto Activo
 
 Seleccione la opción **Liga Organización**, para ejecutar el proceso.
 
@@ -249,33 +209,23 @@ Seleccione la opción **OK** y será ejecutado el proceso.
 
 Las configuraciones por límite de acceso a rol es modificable desde los roles.
 
- Campo Liga Organización
-
 La organización puede ser ligada únicamente a un socio de negocio, para corregir un error en la asignación de la organización, ejecute el proceso: Desliga de Socio de Negocio a organización.
 
 Introduzca el valor de ingresos en el campo **Valor Esperado**.
 
 El valor esperado no es un campo obligatorio, sin embargo, permite ingresar un monto informativo de la rentabilidad esperada, basada en una estimación ingresos de un cliente.
 
-Campo Valor Esperado
-
 Podrá visualizar el valor total de transacciones que posee el cliente en el campo **Valor Total Transacciones**.
 
 El valor total transacciones es un campo solo lectura, actualizado de forma automática, sumando cada ingreso generado por este cliente, el mismo permite evaluar la rentabilidad de un cliente potencial.
-
-Campo Valor Total Transacciones
 
 Introduzca el costo de adquisición en el campo **Costo de Adquisición**.
 
 El costo de adquisición no es un campo obligatorio, sin embargo, permite registrar el monto total correspondiente al costo generado para lograr convertir un prospecto a cliente.
 
-Campo Costo de Adquisición
-
 Introduzca la cantidad de empleados en el campo **Empleados**.
 
 Empleados no es un campo obligatorio, sin embargo, le permite evaluar la cantidad de empleados de una empresa prospecto, funge como un dato informativo para ser utilizada en cotizaciones por ejemplo.
-
-Campo Empleados
 
 Introduzca el porcentaje de participación en el campo **Participación**.
 
@@ -283,27 +233,19 @@ La participación no es un campo obligatorio, sin embargo, le permite mantener e
 
 Esto puede generar fidelización del cliente, dando la oportunidad de evaluar promociones y descuentos para aquellos clientes en los cuales su participación sea alta, y a su vez, mayor oportunidad en el aumento de la cartera de cliente creando programas para ventas cruzadas y sugestivas, comercializando así más productos y servicios.
 
-Campo Participación
-
 Introduzca el número de ventas total en el campo **Volumen de Ventas**.
 
 El volumen de ventas no es un campo obligatorio, sin embargo, permite registrar el número de ventas efectivas de un cliente, estas cifras generalmente son auditadas en reuniones directivas para evaluar la rentabilidad y expansión del negocio o si por el contrario sus ventas disminuyen.
 
 Adicionalmente este datos es producto de supervisión para controlar volumen de ventas en comparación a pronósticos de ventas, estableciendo una estimación de cantidades mínimas a vender para mantener un equilibrio en la organización.
 
-Campo Volumen de Ventas
-
 Introduzca la fecha de la primera venta en el campo **Primera Venta**.
 
 La primera venta no es un campo obligatorio, sin embargo, permite registrar la fecha de la primera venta de forma informativa, útil para evaluar descuentos y promociones por aniversarios
 
-Campo Primera Venta
-
 Seleccione el check **Entrega Directa**
 
 El check entrega directa no es un campo obligatorio, sin embargo, permite registrar el socio de forma informativa, útil para generar reportes e indicar que los envíos de las notas se envían del vendedor directamente al cliente.
-
-Check Entrega Directa
 
 Seleccione el tipo de persona en el campo **Tipo de Persona**.
 
@@ -317,17 +259,11 @@ El tipo de persona se refiere a la forma legal como está está constituida una 
 
 **Natural No Residente**: Persona Natural No Residente es una persona residente fuera del país, que asume las obligaciones, responsabilidades y resguarda las obligaciones con patrimonio propio.
 
-Campo Tipo de Persona
-
 Adjunte el logo de la empresa en el campo **Logo**.
 
 El logo no es un campo obligatorio, sin embargo permite guardar logotipos de socios de negocios.
 
-Campo Logo
-
 Seleccione el icono **Guardar Cambios** ubicado en la barra de herramientas para guardar los datos ingresados.
-
-Icono Guardar Cambios
 
 Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana socio del negocio.
 
@@ -372,8 +308,6 @@ La pestaña **Proveedor** se compone de:
 
 Seleccione el checklist **Proveedor** para habilitar en Solop ERP el socio del negocio como proveedor de la compañía u organización.
 
-Checklist Proveedor
-
 De no ser tildado el checklist **Proveedor**, Solop ERP no tomará el socio del negocio como proveedor.
 
 Al tildar el checklist **Proveedor** podrá apreciar un grupo de campos necesarios para la compra de productos al mismo, dichos campos no son obligatorios ya que pueden ser definidos en el documento **Orden de Compra** al momento de su elaboración.
@@ -384,23 +318,13 @@ Imagen 3. Grupo de Campos Generados por el Checklist Proveedor
 
 El campo **Regla de Pago** establece la regla de pago definitiva para las compras al socio del negocio proveedor que se esta registrando, para este ejemplo la regla de pago utilizada es **A Crédito**.
 
-Campo Regla de Pago
-
-El campo **Lista de Precios de Compra** establece la lista de precios definitiva para las compras al socio del negocio proveedor que se esta registrando, para este ejemplo la lista de precios utilizada es **Compra (VES)**.
-
-Campo Lista de Precios de Compra
+El campo **Lista de Precios de Compra** establece la lista de precios definitiva para las compras al socio del negocio proveedor que se esta registrando, para este ejemplo la lista de precios utilizada es **Compra (UYU)**.
 
 El campo **Término Pago Orden de Compra** establece el término de pago definitivo para las compras al socio del negocio proveedor que se esta registrando, para este ejemplo el término de pago utilizado es **Crédito a 15 días**.
 
-Campo Término de Pago Orden de Compra
-
 El campo **Esquema del Descuento en OC** establece el descuento definitivo para las compras al socio del negocio proveedor que se esta registrando, para este ejemplo el esquema de descuento utilizado es **Compras Porcentaje Simple**.
 
-Campo Esquema de Descuento en OC
-
 El campo **Exento de (IGTF)** establece que no se aplicará el impuesto **IGTF** al socio del negocio proveedor que se esta registrando
-
-Campo Exento de (IGTF)
 
 ### Pestaña Cuenta Bancaria
 
@@ -416,80 +340,35 @@ Imagen 9. Pestaña Cuenta Bancaria
 
 Seleccione en el campo **Tarjeta de Crédito**, el tipo de tarjeta de crédito que posee el socio del negocio proveedor que esta registrando.
 
-![Campo Tarjeta de Crédito](/assets/img/docs/master-data/mad-master-card.png)
-
-Imagen 10. Campo Tarjeta de Crédito
-
 Introduzca en el campo **Número**, el número de tarjeta de crédito del socio del negocio proveedor que esta registrando.
-
-![Campo Número](/assets/img/docs/master-data/mad-master-number.png)
-
-Imagen 11. Campo Número
 
 Introduzca en el campo **Código Verificación**, el código de verificación de la tarjeta de crédito del socio del negocio proveedor que esta registrando, este código son los últimos tres números del reverso de la tarjeta.
 
-![Campo Código Verificación](/assets/img/docs/master-data/mad-master-check.png)
-
-Imagen 12. Campo Código Verificación
-
 Introduzca en el campo **Mes de Expiración**, el mes de expiración de la tarjeta de crédito del socio del negocio proveedor que esta registrando.
-
-![Campo Mes de Expiración](/assets/img/docs/master-data/mad-master-month.png)
-
-Imagen 13. Campo Mes de Expiración
 
 Introduzca el año de expiración de la tarjeta de crédito del socio del negocio proveedor que esta registrando en el campo **Año de Expiración**.
 
-![Campo Año de Expiración](/assets/img/docs/master-data/mad-master-year.png)
-
-Imagen 14. Campo Año de Expiración
-
 Introduzca el nombre de referencia de la tarjeta en el campo **Nombre**, en este campo va el nombre del titular de la tarjeta de crédito que esta registrando.
 
-![Campo Nombre de Referencia de la Tarjeta](/assets/img/docs/master-data/mad-master-reference-card.png)
-
-Imagen 15. Campo Nombre de Referencia de la Tarjeta
-
-Warning
 Este proceso se realiza con la finalidad de registrar la tarjeta de crédito del socio del negocio.
 
 #### Checklist ACH
 
 Para registros de cuentas bancarias, tilde el checklist **ACH**, a continuación se reflejarán los campos para el registro de la cuenta bancaria del socio del negocio proveedor.
 
-![Checklist ACH](/assets/img/docs/master-data/mad-master-ach.png)
-
-Imagen 16. Checklist ACH
-
 En el campo **Banco** seleccione el banco a registrar con ayuda del icono identificador (adjunto imagen).
-
-![Campo Banco](/assets/img/docs/master-data/mad-master-bank.png)
-
-Imagen 17. Campo Banco
 
 A continuación visualizará la siguiente ventana con los diferentes bancos, dónde debe seleccionar el banco que posee el socio del negocio proveedor y la opción **OK** para cargar los datos a la ventana.
 
 ![Ventana Bancos](/assets/img/docs/master-data/mad-master-windows.png)
 
-Imagen 18. Ventana Bancos
+Imagen 10. Ventana Bancos
 
 Seleccione en el campo **Tipo de Cuenta Bancaria**, el tipo de cuenta correspondiente a la cuenta del socio del negocio proveedor.
 
-![Campo Tipo de Cuenta Bancaria](/assets/img/docs/master-data/mad-master-banking.png)
-
-Imagen 19. Campo Tipo de Cuenta Bancaria
-
 Introduzca en el campo **No. De Cuenta**, el número de cuenta del socio del negocio proveedor que esta registrando.
 
-![Campo No. De Cuenta](/assets/img/docs/master-data/mad-master-no.png)
-
-Imagen 20. Campo No. De Cuenta
-
 Introduzca en el campo **Nombre**, el nombre del titular de la cuenta bancaria que esta registrando.
-
-![Campo Nombre del Titular de la Cuenta](/assets/img/docs/master-data/mad-master-title.png)
-
-Imagen 21. Campo Nombre del Titular de la Cuenta
 
 ### Pestaña Localización
 
@@ -624,123 +503,43 @@ Al tildar el checklist **Cliente**, podrá apreciar diferentes campos que establ
 
 Introduzca en el campo **Copias del Documento**, el número de copias a ser impresas de cada documento generado al socio del negocio cliente.
 
-![Campo Copias del Documento](/assets/img/docs/master-data/mad-master-document.png)
-
-Imagen 3. Campo Copias del Documento
-
 Seleccione en el campo **Regla de Facturación**, la regla establecida para facturar al socio del negocio cliente.
-
-![Campo Regla de Facturación](/assets/img/docs/master-data/mad-master-factura.png)
-
-Imagen 4. Campo Regla de Facturación
 
 Seleccione en el campo **Programa de Facturación**, la frecuencia usada cuando se generan las facturas.
 
-![Campo Programa de Facturación](/assets/img/docs/master-data/mad-master-program.png)
-
-Imagen 5. Campo Programa de Facturación
-
 Seleccione en el campo **Regla de Entrega**, la regla establecida para entregar al cliente los productos o servicios.
-
-![Campo Regla de Entrega](/assets/img/docs/master-data/mad-master-delivery.png)
-
-Imagen 6. Campo Regla de Entrega
 
 Seleccione en el campo **Vía de Entrega**, como serán entregados los productos o servicios de la orden.
 
-![Campo Vía de Entrega](/assets/img/docs/master-data/mad-master-via.png)
-
-Imagen 7. Campo Vía de Entrega
-
 Seleccione en el campo **Lista de Precios**, la lista de precios establecida para las ventas al socio del negocio cliente que esta registrando.
-
-![Campo Lista de Precios](/assets/img/docs/master-data/mad-master-list.png)
-
-Imagen 8. Campo Lista de Precios
 
 Seleccione en el campo **Esq List Precios/Desc**, el esquema para calcular el porcentaje de descuento comercial.
 
-![Campo Esq List Precios/Desc](/assets/img/docs/master-data/mad-master-list-price.png)
-
-Imagen 9. Campo Esq List Precios/Desc
-
 Podrá apreciar en el campo **% Descuento**, el porcentaje de descuento configurado en el esquema de descuento.
-
-![Campo % Descuento](/assets/img/docs/master-data/mad-master-desc.png)
-
-Imagen 10. Campo % Descuento
 
 Seleccione en el campo **Regla de Pago**, la forma de pago de las facturas establecida para el socio del negocio cliente que esta registrando.
 
-![Campo Regla de Pago](/assets/img/docs/master-data/mad-master-rule.png)
-
-Imagen 11. Campo Regla de Pago
-
 Seleccione en el campo **Término de Pago**, las condiciones de pago de las facturas establecida para el socio del negocio que esta registrando.
-
-![Campo Término de Pago](/assets/img/docs/master-data/mad-master-term-price.png)
-
-Imagen 12. Campo Término de Pago
 
 Seleccione en el campo **Agente Comercial**, asignado a la región donde se encuentra el socio del negocio cliente.
 
-![Campo Agente Comercial](/assets/img/docs/master-data/mad-master-agent.png)
-
-Imagen 13. Campo Agente Comercial
-
 Seleccione en el campo **Morosidad**, la regla de morocidad para facturas vencidas.
-
-![Campo Morosidad](/assets/img/docs/master-data/mad-master-morosidad.png)
-
-Imagen 14. Campo Morosidad
 
 Introduzca en el campo **Referencia de Orden de Socio del Negocio**, el número estándar de referencia para las órdenes de compra.
 
-![Campo Referencia de Orden de Socio del Negocio](/assets/img/docs/master-data/mad-master-business.png)
-
-Imagen 15. Campo Referencia de Orden de Socio del Negocio
-
 Seleccione el checklist **Imprimir Descuento**, si desea imprimir en la factura y en la orden de venta el descuento aplicado.
-
-![Campo Imprimir Descuento](/assets/img/docs/master-data/mad-master-print.png)
-
-Imagen 16. Campo Imprimir Descuento
 
 Introduzca en el campo **Descripción de Orden**, una descripción estándar para se utilizadas en las órdenes a generar al socio del negocio cliente que esta registrando.
 
-![Campo Descripción de Orden](/assets/img/docs/master-data/mad-master-description-2.png)
-
-Imagen 17. Campo Descripción de Orden
-
 Seleccione en el campo **Formato de Impresión**, el formato de impresión a utilizar en las facturas del socio del negocio cliente.
-
-![Campo Formato de Impresión](/assets/img/docs/master-data/mad-master-format.png)
-
-Imagen 18. Campo Formato de Impresión
 
 Introduzca en el campo **Mín de Vida útil %**, tiempo mínimo de vida útil que tienen los productos.
 
-![Campo Mín de Vida útil %](/assets/img/docs/master-data/mad-master-util.png)
-
-Imagen 19. Campo Mín de Vida útil %
-
 Introduzca en el campo **Límite de Crédito**, el límite de crédito establecido para el socio del negocio cliente que esta registrando.
-
-![Campo Límite de Crédito](/assets/img/docs/master-data/mad-master-limit.png)
-
-Imagen 20. Campo Límite de Crédito
 
 Podrá visualizar en el campo **Crédito Usado**, el crédito usado por el socio del negocio cliente que esta registrando.
 
-![Campo Crédito Usado](/assets/img/docs/master-data/mad-master-credit-used.png)
-
-Imagen 21. Campo Crédito Usado
-
 Introduzca en el campo **Tiempo Gracia Cobro**, los días de gracia que tiene el socio del negocio antes de que el agente comercial le realice el cobro.
-
-![Campo Tiempo de Gracia Cobro](/assets/img/docs/master-data/mad-master-time.png)
-
-Imagen 22. Campo Tiempo de Gracia Cobro
 
 ### Pestaña Cuenta Bancaria
 
