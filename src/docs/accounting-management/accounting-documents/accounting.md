@@ -8,7 +8,7 @@ article: false
 
 Cada transacción o proceso generado en cualquier organización de la compañía registrada en Solop ERP, tiene como consecuencia un asiento contable que detalla la misma según su implicación contable.
 
-El presente material elaborado por **Solop ERP** pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para obtener el asiento contable generado en cada una de las transacciones realizadas en Solop ERP, en su versión 3.9.2 para la localización Venezuela.
+El presente material elaborado por **Solop ERP** pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para obtener el asiento contable generado en cada una de las transacciones realizadas en Solop ERP.
 
 - Proceso de Egreso
   - Requisición
@@ -71,7 +71,7 @@ Imagen 4. Asiento Contable de la Ventana Órdenes de Compra
 
 ### Factura de Cuentas por Pagar
 
-Realice el procedimiento regular para generar un documento por pagar en SOLOP, el mismo es explicado en el documento **Registro de Documento por Pagar**, elaborado por **Solop ERP**.
+Realice el procedimiento regular para generar un documento por pagar en Solop ERP, el mismo es explicado en el documento **Registro de Documento por Pagar**, elaborado por **Solop ERP**.
 
 Luego de que el documento de factura por pagar se encuentre en estado **Completo**, seleccione la opción **Contabilizado**, ubicada en la parte inferior de la ventana **Documentos por Pagar**.
 
@@ -295,7 +295,7 @@ Imagen 2. Asiento Contable de la Ventana Inventario Físico
 
 ### Inventario Uso Interno
 
-Realice el procedimiento regular para generar un inventario de uso interno en SOLOP, el mismo es explicado en el documento Registro de Inventario de Uso Interno, elaborado por SOLOP.
+Realice el procedimiento regular para generar un inventario de uso interno en Solop ERP, el mismo es explicado en el documento Registro de Inventario de Uso Interno, elaborado por Solop ERP.
 
 Luego de que el documento de inventario de uso interno se encuentre en estado **Completo**, seleccione la opción **Contabilizado**, ubicada en la parte inferior de la ventana **Inventario Uso Interno**.
 

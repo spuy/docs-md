@@ -34,7 +34,7 @@ Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Ventas**,
 
 Imagen 2. Menú de Solop ERP
 
-Luego de realizar desde el punto de venta todas las tomas de pedido del día, seleccione la opción **Cerrar Caja del Punto de Venta**, ubicada en el menú desplegado por el icono **Proceso** de la barra de herramientas de la ventana **Punto de Venta**, explicada en el documento Barra de Herramientas del Punto de Venta elaborado por ERPyA.
+Luego de realizar desde el punto de venta todas las tomas de pedido del día, seleccione la opción **Cerrar Caja del Punto de Venta**, ubicada en el menú desplegado por el icono **Proceso** de la barra de herramientas de la ventana **Punto de Venta**, explicada en el documento Barra de Herramientas del Punto de Venta elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/pdv-management/pdm-pdv-image28.png)
 

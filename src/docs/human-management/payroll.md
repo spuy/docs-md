@@ -6,7 +6,7 @@ sticky: 9
 article: false
 ---
 
-El presente material elaborado por **Solop ERP** pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de realizar los procedimientos correspondientes a nómina en la versión 3.9.2 de Solop ERP en la localización Venezuela.
+El presente material elaborado por **Solop ERP** pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de realizar los procedimientos correspondientes a nómina en Solop ERP.
 
 - Proceso de Nómina
   - Registro de Nómina
@@ -19,7 +19,7 @@ El presente material elaborado por **Solop ERP** pretende ofrecerle una explicac
 
 ## Proceso de Nómina
 
-El presente material elaborado por Solop ERP pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de procesar la nómina en la versión 3.9.2 de Solop ERP en la localización Venezuela.
+El presente material elaborado por Solop ERP pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de procesar la nómina en Solop ERP.
 
 Registro de Nómina
 
@@ -201,7 +201,7 @@ Imagen 9. Incidencia Generada
 
 ## Pagos de Nómina
 
-El presente material elaborado por Solop ERP pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de generar los pagos de nómina en la versión 3.9.2 de Solop ERP en la localización Venezuela.
+El presente material elaborado por Solop ERP pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de generar los pagos de nómina en Solop ERP.
 
 Registro de Pagos de Nómina
 
@@ -221,7 +221,7 @@ Una vez finalizado y completado cada uno de estos procesos se da por culminado e
 
 ## Reporte de Nómina
 
-El presente material elaborado por Solop ERP pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de generar los reportes de nómina en la versión 3.9.2 de Solop ERP en la localización Venezuela.
+El presente material elaborado por Solop ERP pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de generar los reportes de nómina en Solop ERP.
 
 Generar Reporte de Nómina
 

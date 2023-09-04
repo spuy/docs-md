@@ -6,7 +6,7 @@ sticky: 9
 article: false
 ---
 
-El presente material elaborado por Solop ERP pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de generar facturas desde orden de salida en la versión 3.9.2 de Solop ERP en la localización Venezuela.
+El presente material elaborado por Solop ERP pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de generar facturas desde orden de salida en Solop ERP.
 
 El proceso **Generar Facturas desde Orden de Salida** cuenta con el checklist **Consolidado en un Documento** que al estar tildado permite agrupar todas las órdenes de salida que tenga un mismo socio del negocio para generar una factura. Si en las órdenes de salida seleccionadas se encuentran productos con un mismo código, Solop ERP suma en la factura todos los productos que posean el mismo código, ubicándolos en una sola línea.
 

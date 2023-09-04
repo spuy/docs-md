@@ -12,7 +12,7 @@ Un inventario de uso interno es realizado cuando se posee en existencia cierta c
 
 La finalidad del proceso es restar de la cantidad de productos que se tienen en existencia en una determinada ubicación o almacén, la cantidad utilizada por los departamentos y por la cual es realizado el inventario. De igual manera, este proceso permite controlar y dar seguimiento a los productos para conocer su cantidad en existencia y proceder a la compra, venta o adquisición de los mismos.
 
-El presente material elaborado por **Solop ERP**, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar en Solop ERP un inventario de uso interno, en su versión 3.9.2 para la localización Venezuela.
+El presente material elaborado por **Solop ERP**, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar en Solop ERP un inventario de uso interno.
 
 - Registro de Inventario de Uso Interno
 - Consultar Detalle de Almacenamiento
@@ -67,7 +67,7 @@ Introduzca en el campo **Fecha de Movimiento**, la fecha en la cual es realizado
 
 Imagen 8. Campo Fecha de Movimiento
 
-Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por la empresa ERPyA.
+Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por la empresa Solop ERP.
 
 ![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image9.png)
 

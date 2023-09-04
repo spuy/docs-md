@@ -113,7 +113,7 @@ Campo Saldo Actual
 
 Podrá visualizar el número de identificación autogenerado a partir del campo **Código** en el campo **Número de Identificación**
 
-El número de identificación se refiere al número que acredita la identidad de una persona natural una entidad jurídica, por ejemplo, una cédula de identidad o un RIF, este campo mantiene incidencia en la generación de documentos fiscales como facturas, retenciones y comprobantes ARC.
+El número de identificación se refiere al número que acredita la identidad de una persona natural una entidad jurídica, por ejemplo, una cédula de identidad o un RUT, este campo mantiene incidencia en la generación de documentos fiscales como facturas, retenciones y comprobantes ARC.
 
 Seleccione el checklist **Exento de Impuesto en Venta**.
 
@@ -794,7 +794,7 @@ Para registros de cuentas bancarias, tilde el checklist **ACH**, a continuación
 
 Imagen 29. Checklist ACH
 
-Introduzca en el campo **IBAN**, el código IBAN conformado por el código del país (2 dígitos) más el código de control de la localidad donde se encuentra la sucursal del banco (2 dígitos). Para ejemplificar el registro es utilizado el código **VE21**
+Introduzca en el campo **IBAN**, el código IBAN conformado por el código del país (2 dígitos) más el código de control de la localidad donde se encuentra la sucursal del banco (2 dígitos). Para ejemplificar el registro es utilizado el código **UY21**
 
 ![Campo IBAN](/assets/img/docs/master-data/mad-master-iban.png)
 
@@ -1281,7 +1281,7 @@ Ingrese en el campo **Lugar de Nacimiento (Localización)**, el lugar de nacimie
 
 Imagen 15. Campo Lugar de Nacimiento (Localización)
 
-Seleccione en el campo **País**, el país donde nació el socio del negocio que esta registrando. Para ejemplificar el registro se utiliza el país **Venezuela**.
+Seleccione en el campo **País**, el país donde nació el socio del negocio que esta registrando. Para ejemplificar el registro se utiliza el país **Uruguay**.
 
 ![Campo País](/assets/img/docs/master-data/mad-master-image8.png)
 
@@ -1293,7 +1293,7 @@ Seleccione en el campo **Estado**, el estado donde nació el socio del negocio q
 
 Imagen 17. Campo Estado
 
-Seleccione en el campo **Ciudad**, la ciudad donde nació el socio del negocio que esta registrando. Para ejemplificar el registro se utiliza la ciudad **Araure**.
+Seleccione en el campo **Ciudad**, la ciudad donde nació el socio del negocio que esta registrando. Para ejemplificar el registro se utiliza la ciudad **Montevideo**.
 
 ![Campo Ciudad](/assets/img/docs/master-data/mad-master-image10.png)
 
@@ -1901,7 +1901,7 @@ Si el empleado posee otras referencias laborales para registrar, seleccione el i
 
 La ley órganica de educación en su artículo 4 de educación y cultura, establece la educación como derecho humano y deber social fundamental orientada al desarrollo del potencial creativo de cada ser humano en condiciones históricamente determinadas, constituye el eje central en la creación, transmisión y reproducción de las diversas manifestaciones y valores culturales, invenciones, expresiones, representaciones y características propias para apreciar, asumir y transformar la realidad.
 
-El Estado asume la educación como proceso esencial para promover, fortalecer y difundir los valores culturales de la venezolanidad.
+El Estado asume la educación como proceso esencial para promover, fortalecer y difundir los valores culturales de Uruguay.
 
 Seleccione la pestaña **Educación** y proceda al llenado de los campos correspondientes.
 

@@ -6,7 +6,7 @@ sticky: 9
 article: false
 ---
 
-El presente material elaborado por Solop ERP pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de generar un imprimir/exportar para culminar el procedimiento de manera exitosa en la versión 3.9.2 de Solop ERP en la localización Venezuela.
+El presente material elaborado por Solop ERP pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de generar un imprimir/exportar para culminar el procedimiento de manera exitosa en Solop ERP.
 
 - Registro de Imprimir / Exportar Pagos
   - Consultar Documento de Pago Generado
@@ -122,9 +122,9 @@ Campo **Número de Pagos** debe mostrar los pagos a generar por cada uno de los 
 
 Sí la selección de pago posee dos o más documentos de un mismos socio de negocio y apuntan a una misma cuenta bancaria, Solop ERP generará un pago a ese socio de negocio con la suma de los documentos de ese proveedor, ejemplo:
 
-En la selección de pago se encuentra cuatro (3) facturas asociadas, dos de esas facturas pertenecen a un mismo proveedor **Dhl Express Aduanas Venezuela C.A.**
+En la selección de pago se encuentra cuatro (3) facturas asociadas, dos de esas facturas pertenecen a un mismo proveedor **Dhl Express Aduanas C.A.**
 
-La **Factura N°1** tiene el total de pago 10.000,00 del socio del negocio **Dhl Express Aduanas Venezuela C.A.** a la cuenta bancaria **100 % Banco, Banco Universal, C.A.\_0156 **
+La **Factura N°1** tiene el total de pago 10.000,00 del socio del negocio **Dhl Express Aduanas C.A.** a la cuenta bancaria **100 % Banco, Banco Universal, C.A.\_0156 **
 
 La **Factura N°2** tiene un total pagado 30.000,00 con el mismo socio de negocio y la misma cuenta bancaria de la **Factura N°1**.
 
@@ -132,13 +132,13 @@ La factura **Factura N°3** tiene un total de pago de 15.000,00 a otro socio de 
 
 El número a mostrar en el total de pagos será 2 , ya que la factura N°1 y la Factura N° 2 pertenecen a un mismo socio de negocio y apuntan a una misma cuenta bancaria, Solop ERP realizará un pago para esas dos facturas, cuando se complete el procedimiento se generará los siguientes pagos:
 
-El **Pago N°1** a la cuenta **100 % Banco, Banco Universal, C.A.\_0156 ** del socio de negocio **Dhl Express Aduanas Venezuela C.A.** por un total de 40.000,00.
+El **Pago N°1** a la cuenta **100 % Banco, Banco Universal, C.A.\_0156 ** del socio de negocio **Dhl Express C.A.** por un total de 40.000,00.
 
 El **Pago N°2** la cuenta bancaria **Mercantil C.A. Banco Universal_0105** del otro socio del negocio por un total de 15.000,00.
 
 Sí la selección de pago posee dos o más documentos de un mismos socio de negocio pero estos apuntan a diferentes cuentas bancarias, Solop ERP generará el pago por la cantidad de documentos asociados a ese proveedor que contenga cuentas bancarias diferentes, ejemplo:
 
-En la selección de pago se encuentra tres (3) facturas asociadas, dos de esas facturas pertenecen a un mismo proveedor **Dhl Express Aduanas Venezuela C.A.** :
+En la selección de pago se encuentra tres (3) facturas asociadas, dos de esas facturas pertenecen a un mismo proveedor **Dhl Express Aduanas C.A.** :
 
 La **Factura N° 1** tiene el total de pago 10.000,00 está asociada la cuenta bancaria **100 % Banco, Banco Universal, C.A.\_0156 **.
 
@@ -148,9 +148,9 @@ La **Factura N°3** se encuentra asociada a otro proveedor por un total de 40.00
 
 El número a mostrar en el total de pagos serán tres, a pesar de que esté posee dos facturas con un mismo socio de negocio en este caso no se unirán los pagos por qué en la selección de pago las facturas del socio de negocio que se repite poseen cuentas bancarias diferentes, entonces cuando se complete el procedimiento Solop ERP generará tres pagos:
 
-El **Pago N°1** al socio del negocio **Dhl Express Aduanas Venezuela C.A.** a la cuenta bancaria **100 % Banco, Banco Universal, C.A.\_0156 ** por 10.000,00
+El **Pago N°1** al socio del negocio **Dhl Express Aduanas C.A.** a la cuenta bancaria **100 % Banco, Banco Universal, C.A.\_0156 ** por 10.000,00
 
-El **Pago N°2** al socio del negocio **Dhl Express Aduanas Venezuela C.A.** a la cuenta bancaria **Mercantil C.A. Banco Universal_0105** por 30.000,00.
+El **Pago N°2** al socio del negocio **Dhl Express Aduanas C.A.** a la cuenta bancaria **Mercantil C.A. Banco Universal_0105** por 30.000,00.
 
 El **Pago N°3** al otro socio de negocio a la cuenta bancaria **Mercantil C.A. Banco Universal_0105** por un total de 40.000,00.
 

@@ -239,7 +239,7 @@ El reporte de estado de resultado muestra la información en base al periodo de 
 
 ### Reportes Detallados
 
-El presente material elaborado por Solop ERP pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de generar reportes detallados de manera exitosa en la versión 3.9.2 de Solop ERP en la localización Venezuela.
+El presente material elaborado por Solop ERP pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de generar reportes detallados de manera exitosa en Solop ERP.
 
 - Detalles de Asientos Contables
 - Estado de Cuenta

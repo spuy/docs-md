@@ -22,7 +22,7 @@ Las tasas de cambio del tipo de conversión deben crearse con ayuda del proceso 
 
 Si desconoce el procedimiento para crear de manera automática las tasas de cambio del tipo de conversión **BCV**, puede consultar el material Conversión Automática por Tipo de Conversión.
 
-Crear la lista de precios de ventas (VES) y actualizar la lista de precios de ventas (USD).
+Crear la lista de precios de ventas (UYU) y actualizar la lista de precios de ventas (USD).
 
 Si desconoce el procedimiento para crear la lista de precios de ventas, puede consultar el material Lista de Precios. De igual manera puede actualizar la lista de precios de ventas seleccionando la opción **Crear Lista de Precios** en la versión de la lista de precios que requiere actualizar.
 
