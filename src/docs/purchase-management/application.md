@@ -55,15 +55,7 @@ Imagen 2. Ventana Tema de Solicitud para Cotizar
 
 Introduzca el nombre del tema de la solicitud para cotizar en el campo **Nombre**.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image3.png)
-
-Imagen 3. Campo Nombre de Tema para Cotizar
-
 Seleccione el icono **Guardar Cambios** ubicado en la barra de herramientas de Solop ERP para guardar el registro de los campos.
-
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image4.png)
-
-Imagen 4. Icono Guardar Cambios
 
 ## Pestaña Suscriptor
 
@@ -73,37 +65,17 @@ Seleccione la pestaña **Suscriptor** y proceda al llenado de los campos corresp
 
 Imagen 5. Pestaña Suscriptor
 
-Note
-
 Esta pestaña permite registrar los diferentes socios del negocio proveedores que surten a la empresa de productos o servicios con relación al tema ingresado anteriormente.
 
 Seleccione el socio del negocio proveedor del producto o servicio referente al tema ingresado anteriormente.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image6.png)
-
-Imagen 6. Campo Socio del Negocio Proveedor
-
 Seleccione la dirección del socio del negocio proveedor en el campo **Dirección del Socio del Negocio**.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image7.png)
-
-Imagen 7. Campo Dirección del Socio del Negocio Proveedor
-
 Seleccione el icono **Guardar Cambios** ubicado en la barra de herramientas de Solop ERP para guardar el registro de los campos.
-
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image8.png)
-
-Imagen 8. Icono Guardar Cambios
-
-Note
 
 Para registrar otro socio del negocio proveedor, debe seleccionar el icono **Registro Nuevo** ubicado en la barra de herramientas de Solop ERP y repetir el procedimiento realizado antes. Para ejemplificar el caso se registran tres (3) socios del negocio que son **Estándar 1**, **Estándar 2** y **Estándar 3**.
 
 Podrá visualizar en la parte inferior derecha de la ventana, el número de registros que posee la ventana.
-
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image9.png)
-
-Imagen 9. Registros de la Pestaña Suscriptor
 
 ## Pestaña Restricción
 
@@ -112,8 +84,6 @@ Seleccione la pestaña **Restricción** y proceda al llenado de los campos corre
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image10.png)
 
 Imagen 10. Pestaña Restricción
-
-Note
 
 Esta pestaña permite registrar las diferentes categorías, productos o servicios que la empresa requiere que el proveedor incluya en la cotización.
 
@@ -131,17 +101,7 @@ Para establecer que la cotización se requiere por categoría de producto o serv
 
 Seleccione el producto a restringir en el campo **Producto**. Para ejemplificar el caso de la restricción de productos al proveedor **Estándar 1, es utilizado el producto **Coleto\*\*.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image11.png)
-
-Imagen 11. Campo Producto
-
 Seleccione el icono **Guardar Cambios** ubicado en la barra de herramientas de Solop ERP para guardar el registro de los campos.
-
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image12.png)
-
-Imagen 12. Icono Guardar Cambios
-
-Note
 
 Para registrar otro producto, servicio o categoría debe seleccionar el icono **Registro Nuevo** ubicado en la barra de herramientas de Solop ERP y repetir el procedimiento realizado antes.
 
@@ -171,49 +131,19 @@ Imagen 14. Ventana Solicitud para Cotización
 
 Seleccione en el campo **Organización**, la organización para la cual esta realizando la solicitud para cotización.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image15.png)
-
-Imagen 15. Campo Organización
-
 Introduzca el nombre de referencia de la solicitud para cotización en el campo **Nombre**.
-
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image16.png)
-
-Imagen 16. Campo Nombre
 
 Seleccione en el campo **Agente Comercial**, el agente comercial que esta solicitando la cotización de productos o servicios.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image17.png)
-
-Imagen 17. Campo Agente Comercial
-
 Seleccione en el campo \*\*Asunto SCP (RfQ), el tema registrado anteriormente que categoriza la lista de proveedores ofertantes.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image18.png)
-
-Imagen 18. Campo Asunto SCP (RfQ)
-
 Seleccione en el campo **Tipo SCP (RfQ)**, el tipo de cotización para que la solicitud sea cotizada en base a lo seleccionado. Para este ejemplo es utilizada la cotización por líneas seleccionadas.
-
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image19.png)
-
-Imagen 19. Campo Tipo SCP (RfQ)
-
-Note
 
 La forma **Cotiza Líneas Seleccionadas**, realiza la cotización por los productos o servicios ingresados en cada línea de la pestaña **Línea**.
 
 Seleccione en el campo **Fecha de Respuesta**, la fecha límite de espera de respuesta de los proveedores agrupados en el tema de la solicitud para cotizar.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image20.png)
-
-Imagen 20. Campo Fecha de Respuesta
-
 Seleccione el icono **Guardar Cambios** ubicado en la barra de herramientas de Solop ERP para guardar el registro de los campos.
-
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image21.png)
-
-Imagen 21. Icono Guardar Cambios
 
 ### Pestaña Línea
 
@@ -225,17 +155,7 @@ Imagen 22. Pestaña Línea
 
 Seleccione en el campo **Producto**, el producto que la empresa requiere que los socios del negocio proveedores coticen.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image23.png)
-
-Imagen 23. Campo Producto
-
 Seleccione el icono **Guardar Cambios** ubicado en la barra de herramientas de Solop ERP para guardar el registro de los campos.
-
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image24.png)
-
-Imagen 24. Icono Guardar Cambios
-
-Note
 
 Esta pestaña permite registrar los diferentes productos o servicios que la empresa solicita que los socios del negocio proveedores coticen.
 
@@ -251,23 +171,9 @@ Imagen 25. Pestaña Cantidad
 
 Seleccione en el campo **UM**, la unidad de medida que la empresa requiere que los socios del negocio coticen el producto.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image26.png)
-
-Imagen 26. Campo Unidad de Medida del Producto o Servicio
-
 Seleccione en el campo **Cantidad**, la cantidad de productos que la empresa requiere que los socios del negocio coticen en la unidad de medida seleccionada.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image27.png)
-
-Imagen 27. Campo Cantidad del Producto o Servicio
-
 Seleccione el icono **Guardar Cambios** ubicado en la barra de herramientas de Solop ERP para guardar el registro de los campos.
-
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image28.png)
-
-Imagen 28. Icono Guardar Cambios
-
-Note
 
 Esta pestaña se debe seleccionar y realizar el proceso explicado antes, por cada registro que tenga la pestaña **Línea**.
 
@@ -289,23 +195,11 @@ Imagen 30. Ventana Crea e Invita
 
 Realice el procedimiento regular para generar una **Solicitud para Cotización** explicado anteriormente, con la diferencia de que debe seleccionar en el campo **Tipo SCP (RfQ)**, la opción **Cotiza Sólo el Total**. Al culminar todo el procedimiento hasta el envío de la notificación a los socios del negocio proveedores, el registro quedaría de la siguiente manera.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image31.png)
-
-Imagen 31. Registro de la Solicitud para Cotización por Tipo Cotiza Sólo el Total
-
-Note
-
 La forma **Cotiza Sólo el Total**, realiza la cotización sumando el total de cada línea de la solicitud.
 
 ### Caso 3: Solicitud para Cotización por Tipo Cótiza todas las Líneas
 
 Realice el procedimiento regular para generar una **Solicitud para Cotización** explicado anteriormente, con la diferencia de que debe seleccionar en el campo **Tipo SCP (RfQ)**, la opción **Cotiza todas las Líneas**. Al culminar todo el procedimiento hasta el envío de la notificación a los socios del negocio proveedores, el registro quedaría de la siguiente manera.
-
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image32.png)
-
-Imagen 32. Registro de la Solicitud para Cotización por Tipo Cotiza todas las Líneas
-
-Note
 
 La forma **Cotiza todas las Líneas**, realiza la cotización comparando la igualdad que existe entre la cantidad de productos o servicios solicitados y la cantidad de productos o servicios ofertados por el proveedor.
 
@@ -351,10 +245,6 @@ Puede visualizar en la parte inferior derecha de la pestaña, la cantidad de reg
 
 Ubique el registro del producto para cargar la respuesta del socio del negocio proveedor.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image37.png)
-
-Imagen 37. Registro del Producto Desinfectante
-
 #### Pestaña Cantidad Respuesta
 
 Seleccione la pestaña **Cantidad Respuesta** para cargar el precio cotizado por el socio del negocio proveedor.
@@ -365,17 +255,7 @@ Imagen 38. Pestaña Cantidad Respuesta
 
 Introduzca en el campo **Precio**, la respuesta del precio cotizado por el socio del negocio proveedor.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image39.png)
-
-Imagen 39. Campo Precio
-
 Seleccione el icono **Guardar Cambios** ubicado en la barra de herramientas de Solop ERP para guardar el registro de los campos.
-
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image40.png)
-
-Imagen 40. Icono Guardar Cambios
-
-Note
 
 Esta pestaña se debe seleccionar y realizar el proceso explicado antes, por cada registro que tenga la pestaña **Línea Respuesta**.
 
@@ -415,10 +295,6 @@ Imagen 44. Reporte de Solicitud de Cotización con Respuesta Caso 1
 
 Realice el procedimiento regular para generar una **Solicitud para Cotización con Respuesta** explicado anteriormente.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image45.png)
-
-Imagen 45. Registro de la Solicitud para Cotización (Con Respuesta) por Tipo Cotiza Sólo el Total
-
 ## Consultar el Reporte de Respuesta de Solicitud para Cotización
 
 Al consultar la solicitud de cotización con respuesta de **Caso 2: Solicitud para Cotización (Con Respuesta) por Tipo Cotiza Sólo el Total**, se obtiene el siguiente reporte.
@@ -429,10 +305,6 @@ Imagen 46. Reporte de Solicitud de Cotización con Respuesta Caso 2
 
 Caso 3: Solicitud para Cotización (Con Respuesta) por Tipo Cótiza todas las Líneas
 Realice el procedimiento regular para generar una **Solicitud para Cotización con Respuesta** explicado anteriormente.
-
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image47.png)
-
-Imagen 47. Registro de la Solicitud para Cotización (Con Respuesta) por Tipo Cótiza todas las Líneas
 
 ## Consultar el Reporte de Respuesta de Solicitud para Cotización
 
