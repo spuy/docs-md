@@ -68,43 +68,17 @@ Recuerde que cada campo es necesario e importante para obtener el registro exito
 
 Seleccione en el campo “Organización”, la organización para la cual esta realizando el documento “Autorización de Devolución a Proveedor”.
 
-![Campo](/assets/img/docs/return-management/rem-return-image52.png)
-
-Imagen 7. Campo Organización
-
 Seleccione el tipo de documento a generar en el campo “Tipo de Documento Destino”, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por Solop ERP. Para este ejemplo el tipo de documento es “Autorización Devolución Proveedor Nacional”.
-
-![Campo](/assets/img/docs/return-management/rem-return-image53.png)
-
-Imagen 8. Campo Tipo de Documento
 
 Seleccione en el campo “Tipo Autorización Devolución”, el motivo o la condición del producto por el cual es requerida una autorización de devolución. Para este ejemplo el tipo de autorización es “Dañado”.
 
-![Campo](/assets/img/docs/return-management/rem-return-image54.png)
-
-Imagen 9. Campo Tipo Autorización Devolución
-
 Seleccione en el campo “Socio del Negocio”, el socio del negocio proveedor al cual se le realizará la devolución.
 
-![Campo](/assets/img/docs/return-management/rem-return-image55.png)
-
-Imagen 10. Campo Socio del Negocio
-
 Seleccione la dirección de localización del socio del negocio, en el campo “Dirección del Socio del Negocio”.
-
-![Campo](/assets/img/docs/return-management/rem-return-image56.png)
-
-Imagen 11. Dirección del Socio del Negocio
-
-Warning
 
 Recuerde guardar los cambios realizados en cada pestaña del documento con ayuda del icono “Guardar” en la barra de herramientas de Solop ERP, al guardar los cambios realizados se asigna automáticamente el número del documento en el campo “No. del Documento”.
 
 Seleccione el icono “Proceso” ubicado en la barra de herramientas de Solop ERP, luego seleccione la opción “Crear Orden de Devolución desde Entrega / Recibo” para crear la “Orden de Devolución” desde la recepción del producto.
-
-![Campo](/assets/img/docs/return-management/rem-return-image57.png)
-
-Imagen 12. Icono Proceso
 
 Podrá visualizar la siguiente ventana del proceso, donde debe seleccionar el documento de recepción donde se encuentra el producto.
 
@@ -112,23 +86,15 @@ Podrá visualizar la siguiente ventana del proceso, donde debe seleccionar el do
 
 Imagen 13. Ventana del Proceso y Selección del Documento de Recepción
 
-Note
-
 El campo “Socio del Negocio” viene precargado con la información seleccionada en el campo “Socio del Negocio” ubicado en la ventana “Orden de Devolución (Proveedor)”. Al seleccionar el identificador del campo “Entrega / Recibo” podrá visualizar las diferentes recepciones asociadas al socio del negocio que se encuentra seleccionado en dicho campo, permitiendole seleccionar la línea del documento de recepción donde se encuentra el producto involucrado en la devolución.
 
 Seleccione la opción “Comenzar Búsqueda” para buscar las líneas del documento de recepción seleccionado.
-
-![Campo](/assets/img/docs/return-management/rem-return-image59.png)
-
-Imagen 14. Opción Comenzar Búsqueda
 
 Seleccione la línea del documento de recepción donde se encuentra el producto que se va a devolver, luego seleccione la opción “OK” para cargar el registro a la pestaña “Línea de Autorización”.
 
 ![Campo](/assets/img/docs/return-management/rem-return-image60.png)
 
 Imagen 15. Seleccionar Línea con el Producto a Devolver
-
-Warning
 
 Recuerde actualizar el registro de la ventana con ayuda del icono “Refrescar” ubicado en la barra de herramientas de Solop ERP.
 
@@ -137,8 +103,6 @@ Seleccione la pestaña “Línea de Autorización” para verificar que los dato
 ![Campo](/assets/img/docs/return-management/rem-return-image61.png)
 
 Imagen 16. Pestaña Línea de Autorización
-
-Note
 
 Si la cantidad de productos a devolver es menor a la cantidad de productos recepcionados, recuerde ingresar en el campo “Cantidad”, el valor o la cantidad de productos a devolver.
 
@@ -176,31 +140,13 @@ Recuerde que cada campo es necesario e importante para obtener el registro exito
 
 Seleccione en el campo “Organización”, la organización para la cual esta realizando el documento “Devolución a Proveedor”.
 
-![Campo](/assets/img/docs/return-management/rem-return-image66.png)
-
-Imagen 21. Campo Organización
-
 Seleccione el tipo de documento a generar en el campo “Tipo de Documento Destino”, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por Solop ERP. Para este ejemplo el tipo de documento es “Devolución a Proveedor Nacional”.
 
-![Campo](/assets/img/docs/return-management/rem-return-image67.png)
-
-Imagen 22. Campo Tipo de Documento
-
 Seleccione en el campo “Socio del Negocio”, el socio del negocio proveedor al cual se le ralizará la devolución del producto.
-
-![Campo](/assets/img/docs/return-management/rem-return-image68.png)
-
-Imagen 23. Campo Socio del Negocio
-
-Warning
 
 Recuerde guardar los cambios realizados en cada pestaña del documento con ayuda del icono “Guardar” en la barra de herramientas de Solop ERP, al guardar los cambios realizados se asigna automáticamente el número del documento en el campo “No. del Documento”.
 
 Seleccione el icono “Proceso” ubicado en la barra de herramientas de Solop ERP, luego seleccione la opción “Crear Devolución Desde Orden (ADM)” para crear la “Devolución a Proveedor” desde la “Orden de Devolución” del producto.
-
-![Campo](/assets/img/docs/return-management/rem-return-image69.png)
-
-Imagen 24. Icono Proceso
 
 Podrá visualizar la siguiente ventana del proceso, donde debe seleccionar el documento de autorización de devolución creado anteriormente.
 
@@ -208,15 +154,9 @@ Podrá visualizar la siguiente ventana del proceso, donde debe seleccionar el do
 
 Imagen 25. Ventana del Proceso y Selección del Documento de Recepción
 
-Note
-
 El campo “Socio del Negocio” viene precargado con la información seleccionada en el campo “Socio del Negocio” ubicado en la ventana “Devolución a Proveedor”. Al seleccionar el identificador del campo “Orden de Venta” podrá visualizar las diferentes autorizaciones de devoluciones asociadas al socio del negocio que se encuentra seleccionado en dicho campo, permitiendole seleccionar la línea del documento de autorización de devolución a proveedor, donde se encuentra el producto involucrado en la devolución.
 
 Seleccione la opción “Comenzar Búsqueda” para buscar las líneas del documento de autorización seleccionado.
-
-![Campo](/assets/img/docs/return-management/rem-return-image71.png)
-
-Imagen 26. Opción Comenzar Búsqueda
 
 Seleccione la línea del documento de autorización de devolución donde se encuentra el producto que se va a devolver, luego seleccione la opción “OK” para cargar el registro a la pestaña “Línea de Devolución”.
 
