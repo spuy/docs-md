@@ -41,35 +41,13 @@ Imagen 3. Ventana Inventario Físico y Icono Registro Nuevo
 
 Seleccione en el campo **Organización**, la organización para la cual esta realizando el documento de inventario físico.
 
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image78.png)
-
-Imagen 4. Campo Organización
-
 Introduzca en el campo **Descripción**, una breve descripción referente al documento de inventario físico que esta realizando en la organización seleccionada.
-
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image79.png)
-
-Imagen 5. Campo Descripción|
 
 Seleccione en el campo **Almacén**, el lugar donde es almacenado el producto por el cual se esta realizando el inventario físico.
 
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image80.png)
-
-Imagen 6. Campo Almacén
-
 Introduzca en el campo **Fecha del Movimiento**, la fecha en la cual es realizado en el almacén el conteo real del producto por el cual se esta realizando el inventario físico.
 
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image81.png)
-
-Imagen 7. Campo Fecha de Movimiento
-
 Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por Solop ERP.
-
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image82.png)
-
-Imagen 8. Campo Tipo de Documento
-
-Note
 
 Recuerde guardar el registro de los campos de la pestaña seleccionando el icono **Guardar Registros** ubicado en la barra de herramientas de Solop ERP.
 
@@ -81,37 +59,15 @@ Imagen 9. Pestaña Línea de Conteo de Inventario
 
 Seleccione en el campo **Ubicación**, la ubicación exacta donde se encuentra localizado el producto dentro del almacén seleccionado. El mismo se puede seleccionar con ayuda del identificador ubicado del lado derecho del campo.
 
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image84.png)
-
-Imagen 10. Campo Ubicación
-
 Seleccione en el campo **Producto**, el producto por el cual se esta realizando el inventario físico.
 
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image85.png)
-
-Imagen 11. Campo Producto
-
 Introduzca en el campo **Cantidad Contada**, la cantidad real en existencia del producto seleccionado.
-
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image86.png)
-
-Imagen 12. Campo Cantidad Contada
-
-Note
 
 Debe ser ingresada la cantidad real que existe físicamente en el almacén seleccionado.
 
 Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP, para guardar el registro de los campos de la pestaña.
 
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image87.png)
-
-Imagen 13. Icono Guardar Cambios
-
 Podrá visualizar que es cargada automáticamente la cantidad de productos en existencia que se encuentran registrados en Solop ERP.
-
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image88.png)
-
-Imagen 14. Campo Cantidad en Libros
 
 Seleccione la pestaña principal **Conteo de Inventario** y luego la opción **Completar**, ubicada en la parte inferior derecha de la ventana.
 

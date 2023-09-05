@@ -207,39 +207,15 @@ Imagen 5. Ventana Reabastecimiento de Almacén
 
 Seleccione en el campo **Producto**, el producto por el cual requiere filtrar la información.
 
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image95.png)
-
-Imagen 6. Campo Producto de la Ventana Reabastecimiento de Almacén
-
 Seleccione en el campo **Categoría del Producto**, la categoría del producto por el cual requiere filtrar la información.
-
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image96.png)
-
-Imagen 7. Campo Categoría del Producto de la Ventana Reabastecimiento de Almacén
 
 Seleccione en el campo **Clase de Producto**, la clase del producto por la cual requiere filtrar la información.
 
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image97.png)
-
-Imagen 8. Campo Clase de Producto de la Ventana Reabastecimiento de Almacén
-
 Seleccione en el campo **Clasificación de Producto**, la clasificación del producto por el cual requiere filtrar la información.
-
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image98.png)
-
-Imagen 9. Campo Clasificación de Producto de la Ventana Reabastecimiento de Almacén
 
 Seleccione en el campo **Grupo de Producto**, el grupo de producto por el cual requiere filtrar la información.
 
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image99.png)
-
-Imagen 10. Campo Grupo de Producto de la Ventana Reabastecimiento de Almacén
-
 Seleccione en el campo **Almacén Fuente**, el almacén fuente por el cual requiere filtrar la información.
-
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image100.png)
-
-Imagen 11. Campo Almacén Fuente de la Ventana Reabastecimiento de Almacén
 
 Seleccione en el campo **Tipo de Reabastecimiento**, el tipo de reabastecimiento por el cual requiere filtrar la información.
 
@@ -249,15 +225,7 @@ Imagen 12. Campo Tipo de Reabastecimiento de la Ventana Reabastecimiento de Alma
 
 Seleccione en el campo **Almacén**, el almacén por el cual requiere filtrar la información.
 
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image102.png)
-
-Imagen 13. Campo Almacén de la Ventana Reabastecimiento de Almacén
-
 Seleccione la opción **Comenzar Búsqueda**, para filtar la información en base a lo seleccionado en los campos anteriormente explicados.
-
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image103.png)
-
-Imagen 14. Opción Comenzar Búsqueda de la Ventana Reabastecimiento de Almacén
 
 Podrá visualizar los diferentes registros de configuración de reabastecimiento que contienen los productos.
 

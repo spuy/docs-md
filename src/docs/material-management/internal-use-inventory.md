@@ -39,45 +39,17 @@ Imagen 3. Ventana Inventario de Uso Interno
 
 Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de Solop ERP para crear un nuevo registro de inventario de uso interno.
 
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image4.png)
-
-Imagen 4. Icono Registro Nuevo
-
 Seleccione en el campo **Organización**, la organización para la cual esta realizando el inventario de uso interno.
-
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image5.png)
-
-Imagen 5. Campo Organización
 
 Introduzca en el campo **Descripción**, una breve descripción referente al inventario que se esta realizando.
 
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image6.png)
-
-Imagen 6. Campo Descripción
-
 Seleccione en el campo **Almacén**, el almacén de la organización en el cual se encuentra localizado el producto.
-
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image7.png)
-
-Imagen 7. Campo Almacén
 
 Introduzca en el campo **Fecha de Movimiento**, la fecha en la cual es realizado el inventario de uso interno.
 
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image8.png)
-
-Imagen 8. Campo Fecha de Movimiento
-
 Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por la empresa Solop ERP.
 
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image9.png)
-
-Imagen 9. Campo Tipo de Documento
-
 La selección de la opción **Escáner de Código de Barras Producto**, permite escanear el código de barras del producto e ingresar su información a la pestaña **Línea Inventario, Uso Interno** de forma automática.
-
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image10.png)
-
-Imagen 10. Opción Escáner de Código de Barras de Producto
 
 Seleccione la pestaña **Línea Inventario, Uso Interno** y proceda al llenado de los campos correspondientes.
 
@@ -87,27 +59,11 @@ Imagen 11. Pestaña Línea de Inventario Uso Interno
 
 Seleccione en el campo **Ubicación**, el lugar exacto donde será localizado el producto.
 
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image12.png)
-
-Imagen 12. Campo Ubicación
-
 Seleccione en el campo **Producto**, el producto involucrado en el inventario de uso interno que esta realizando. Para ejemplificar el registro es utilizado el producto **Bolígrafo**.
-
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image13.png)
-
-Imagen 13. Campo Producto
 
 Introduzca en el campo **Cantidad Usada Internamente**, la cantidad que es utilizada internamente por el departamento de la organización que esta realizando el inventario de uso interno.
 
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image14.png)
-
-Imagen 14. Campo Cantidad Usada Internamente
-
 Seleccione en el campo **Cargo**, el cargo correspondiente al movimiento de material que esta realizando. Para ejemplificar el registro es utilizado el cargo **Insumos de Oficina**.
-
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image15.png)
-
-Imagen 15. Campo Cargo
 
 Seleccione la pestaña principal **Inventario Uso Interno**, para luego seleccionar la opción **Completar**, ubicada en la parte inferior derecha del documento.
 
