@@ -37,51 +37,19 @@ Imagen 3. Ventana Movimiento de Inventario
 
 Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de Solop ERP para crear un nuevo registro de movimiento inventario.
 
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image22.png)
-
-Imagen 4. Icono Registro Nuevo
-
 Seleccione en el campo **Organización**, la organización desde la cual se esta realizando el movimiento de inventario.
 
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image23.png)
-
-Imagen 5. Campo Organización
-
 Seleccione en el campo **Orden de Distribución**, la orden de distribución asignada para el movimiento de los productos del inventario.
-
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image24.png)
-
-Imagen 6. Campo Orden de Distribución
-
-Note
 
 Este campo debe ser llenado si el movimiento de inventario es realizado a consecuencia de una orden de distribución.
 
 Seleccione en el campo **Agente Comercial**, el usuario que gestiona el movimiento de inventario.
 
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image25.png)
-
-Imagen 7. Campo Agente Comercial
-
 Introduzca en el campo **Descripción**, una breve descripción del movimiento de inventario que esta realizando.
-
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image26.png)
-
-Imagen 8. Campo Descripción
 
 Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por la empresa Solop ERP.
 
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image27.png)
-
-Imagen 9. Campo Tipo de Documento
-
 Introduzca en el campo **Fecha de Movimiento**, la fecha en la cual se esta realizando el movimiento de productos.
-
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image28.png)
-
-Imagen 10. Campo Fecha de Movimiento
-
-Note
 
 Recuerde guardar los cambios realizados en los campos de la pestaña **Movimiento**, seleccionando el icono **Guardar Cambios** ubicado en la barra de herramientas de Solop ERP.
 
@@ -93,39 +61,15 @@ Imagen 11. Pestaña Línea de Movimiento
 
 Seleccione en el campo **Línea Orden Distribución**, la línea de la orden de distribución en la cual se encuentra el producto involucrado en el movimiento de inventario que esta realizando.
 
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image30.png)
-
-Imagen 12. Campo Línea Orden Distribución
-
-Note
-
 Este campo debe ser llenado si el movimiento de inventario es realizado a consecuencia de una orden de distribución.
 
 Seleccione en el campo **Producto**, el producto involucrado en el movimiento de inventario.
 
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image31.png)
-
-Imagen 13. Campo Producto
-
 Seleccione en el campo **Ubicación**, la ubicación exacta donde se encuentra localizado el producto.
-
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image32.png)
-
-Imagen 14. Campo Ubicación
 
 Seleccione en el campo **A Ubicación**, la ubicación exacta donde será almacenado o donde va dirigido el producto.
 
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image33.png)
-
-Imagen 15. Campo A Ubicación
-
 Seleccione en el campo **Cantidad del Movimiento**, la cantidad de productos involucrados en el movimiento de inventario.
-
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image34.png)
-
-Imagen 16. Campo Cantidad del Movimiento
-
-Note
 
 Recuerde guardar los cambios realizados en los campos de la pestaña **Línea del Movimiento**, seleccionando el icono **Guardar Cambios** ubicado en la barra de herramientas de Solop ERP.
 
