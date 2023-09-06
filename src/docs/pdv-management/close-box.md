@@ -48,39 +48,15 @@ Imagen 4. Ventana Cierre de Caja del Punto de Venta
 
 En el campo **Terminal PDV**, podrá visualizar el terminal configurado para el socio del negocio vendedor.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image30.png)
-
-Imagen 5. Campo Terminal PDV del Filtro de Búsqueda de la Ventana Cierre de Caja del Punto de Venta
-
 En el campo **Cuenta Bancaria**, podrá visualizar la cuenta caja asociada al socio del negocio vendedor en la configuración del terminal PDV.
-
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image31.png)
-
-Imagen 6. Campo Cuenta Bancaria del Filtro de Búsqueda de la Ventana Cierre de Caja del Punto de Venta
 
 Seleccione en el campo **Fecha de la Transacción**, el rango de fecha en el cual fue realizada la toma de pedido por medio del punto de venta.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image32.png)
-
-Imagen 7. Campo Fecha de la Transacción del Filtro de Búsqueda de la Ventana Cierre de Caja del Punto de Venta
-
 Seleccione en el campo **Tipo de Licitación**, el tipo de pago por el cual requiere filtrar las tomas de pedido realizadas.
-
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image33.png)
-
-Imagen 8. Campo Tipo de Licitación del Filtro de Búsqueda de la Ventana Cierre de Caja del Punto de Venta
 
 Indique en el campo **Cobros**, si las tomas de pedido realizadas fueron cobradas o no.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image34.png)
-
-Imagen 9. Campo Cobros del Filtro de Búsqueda de la Ventana Cierre de Caja del Punto de Venta
-
 Seleccione la opción **Comenzar Búsqueda**, para realizar la búsqueda de todas las tomas de pedido realizadas por el socio del negocio vendedor, según lo seleccionado en los campos anteriormente explicados.
-
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image35.png)
-
-Imagen 10. Opción Comenzar Búsqueda para Filtrar la Búsqueda de la Ventana Cierre de Caja del Punto de Venta
 
 Podrá visualizar el listado de todos los cobros realizados por las órdenes de ventas POS generadas desde el punto de venta. Así como también, las transacciones de apertura y retiros de fondos que se realicen en la caja durante el día, para realizar el cierre de caja debe seleccionar todos los registros de transacciones que contiene la misma.
 
@@ -92,95 +68,39 @@ En el grupo de campos **Parámetros**, podrá visualizar los siguientes campos:
 
 En el campo **Terminal PDV**, podrá visualizar el terminal configurado para el socio del negocio vendedor.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image37.png)
-
-Imagen 12. Campo Terminal PDV de la Ventana Cierre de Caja del Punto de Venta
-
 En el campo **Cuenta Bancaria**, podrá visualizar la cuenta caja asociada al socio del negocio vendedor en la configuración del terminal PDV.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image38.png)
-
-Imagen 13. Campo Cuenta Bancaria de la Ventana Cierre de Caja del Punto de Venta
-
 En el campo **Fecha de la Transacción**, el rango de fecha en el cual fue realizada la toma de pedido por medio del punto de venta.
-
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image39.png)
-
-Imagen 14. Campo Fecha de la Ventana Cierre de Caja del Punto de Venta
 
 Para calcular el valor correspondiente a los siguientes campos, Solop ERP realiza la conversión de todos los montos de los pagos y cobros de la caja, a la moneda de la caja para luego realizar los respectivos cálculos y obtener el valor de cada uno.
 
 En el campo **Total de la Línea**, la cantidad total de la línea con impuestos incluidos.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image40.png)
-
-Imagen 15. Campo Total de la Línea de la Ventana Cierre de Caja del Punto de Venta
-
-Note
-
 El valor de este campo proviene de la sumatoria del gran total de todas las órdenes de venta.
 
 En el campo **Total Pagado**, la monto total pagado de las órdenes de venta realizadas desde el punto de venta.
-
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image41.png)
-
-Imagen 16. Campo Total Pagado de la Ventana Cierre de Caja del Punto de Venta
-
-Note
 
 El valor de este campo proviene de la sumatoria de todos los cobros y pagos realizados en la caja, convertidos a la moneda de la caja, (Cobros Convertidos a la Moneda de la Caja + Pagos Convertidos a la Moneda de la Caja).
 
 En el campo **Total Abierto**, el monto total abierto de las órdenes de venta realizadas desde el punto de venta.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image42.png)
-
-Imagen 17. Campo Total Abierto de la Ventana Cierre de Caja del Punto de Venta
-
-Note
-
 Este valor proviene de la sumatoria de todos los montos pendientes por cobrar cuando las ordenes de ventas son a crédito.
 
 En el campo **Diferencia Monto**, podrá visualizar el monto resultante de la sumatoria del monto total de la apertura más el resultado del total cobrado menos el total de los retiros.
-
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image43.png)
-
-Imagen 18. Campo Diferencia Monto de la Ventana Cierre de Caja del Punto de Venta
-
-Note
 
 El valor de este campo proviene de la sumatoria de todos los montos pendientes por cobrar de las órdenes de venta, para el cálculo del mismo se emplea la fórmula (Total de la Apertura + (Total de los Cobros - Total de los Retiros)).
 
 El campo **Diferencia Edo. de Cuenta**, muestra el saldo que posee la cuenta caja en la que se encuentra realizando el proceso **Cierre de Caja**.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image44.png)
-
-Imagen 19. Campo Diferencia Edo. de Cuenta
-
 Tilde el checklist **Sobre/Sub Pago**, para indicar que existe un sobre pago (no contabilizado) o un sub pago (pago parcial).
-
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image45.png)
-
-Imagen 20. Checklist Sobre/Sub Pago de la Ventana Cierre de Caja del Punto de Venta
-
-Note
 
 Si el punto de venta tuvo pagos de más (Sobre) o de menos (Sub), Solop ERP calcula la diferencia. Para el caso expuesto en el presente material, no es necesario seleccionar el checklist.
 
 Seleccione en el campo **Cargo**, el cargo correspondiente al cierre de caja que se encuentra realizando desde el punto de venta.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image46.png)
-
-Imagen 21. Campo Cargo de la Ventana Cierre de Caja del Punto de Venta
-
-Note
-
 Cuando existen pagos de más (Sobre) o de menos (Sub), se selecciona un cargo y Solop ERP genera una linea en el cierre contra el cargo seleccionado, permitiendo cuadrar la caja del día. Para el caso expuesto en el presente material, no es necesario seleccionar ningún cargo.
 
 Seleccione la opción **OK**, para realizar el cierre de caja del punto de venta con los cobros seleccionados y generar el documento pertinente en la ventana **Cierre de Caja**.
-
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image47.png)
-
-Imagen 22. Opción OK de la Ventana Cierre de Caja del Punto de Venta
 
 ## Consultar Registro en Cierre de Caja
 
