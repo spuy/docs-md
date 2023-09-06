@@ -37,39 +37,15 @@ Imagen 3. Icono Registro Nuevo
 
 Seleccione en el campo **Organización**, la organización para la cual esta realizando el documento **Pago**.
 
-![Campo](/assets/img/docs/balance-management/bam-balance-image69.png)
-
-Imagen 4. Campo Organización
-
 Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por Solop ERP.
-
-![Campo](/assets/img/docs/balance-management/bam-balance-image70.png)
-
-Imagen 5. Campo Tipo de Documento
 
 Seleccione en el campo **Cuenta Bancaria**, la cuenta bancaria a la cual será realizado el pago.
 
-![Campo](/assets/img/docs/balance-management/bam-balance-image71.png)
-
-Imagen 6. Campo Cuenta Bancaria
-
 Introduzca en el campo **Descripción**, una breve descripción referente al pago que será realizado.
-
-![Campo](/assets/img/docs/balance-management/bam-balance-image72.png)
-
-Imagen 7. Campo Descripción
 
 Seleccione en el campo **Socio del Negocio**, el socio del negocio proveedor al cual le será realizado el pago.
 
-![Campo](/assets/img/docs/balance-management/bam-balance-image73.png)
-
-Imagen 8. Campo Socio del Negocio
-
 Seleccione la factura a pagar en el campo **Factura**, la misma puede ser seleccionada con ayuda del identificador de dicho campo.
-
-![Campo](/assets/img/docs/balance-management/bam-balance-image74.png)
-
-Imagen 9. Identificador del Campo Factura
 
 Podrá visualizar la siguiente ventana de información de factura, donde debe seleccionar la factura a pagar y la opción **OK** para cargar los datos a la ventana **Pago/Cobro**.
 
@@ -79,32 +55,13 @@ Imagen 10. Selección de Factura y Opción OK
 
 Podrá visualizar en el campo **Total del Pago** el monto total de la factura, mismo monto total que se va a cancelar con el documento **Pago** que se esta realizando.
 
-![Campo](/assets/img/docs/balance-management/bam-balance-image76.png)
-
-Imagen 11. Campo Total del Pago
-
 Seleccione en el campo **Moneda**, la moneda correspondiente al pago que se esta realizando.
-
-![Campo](/assets/img/docs/balance-management/bam-balance-image77.png)
-
-Imagen 12. Campo Moneda
 
 Seleccione en el campo **Tipo de Pago**, la forma utilizada para el pago.
 
-![Campo](/assets/img/docs/balance-management/bam-balance-image78.png)
-
-Imagen 13. Campo Tipo de Pago
-
 Seleccione el icono **Guardar Cambios**, para guardar el registro de los campos en la ventana **Pago/Cobro**.
 
-![Campo](/assets/img/docs/balance-management/bam-balance-image79.png)
-
-Imagen 14. Icono Guardar Cambios
 Seleccione la opción **Completar**, ubicada en la parte inferior derecha de la ventana.
-
-![Campo](/assets/img/docs/balance-management/bam-balance-image80.png)
-
-Imagen 15. Opción Completar Documento
 
 Seleccione la accion **Completar** y la opción **OK**, para completar el documento **Pago** que esta realizando.
 
