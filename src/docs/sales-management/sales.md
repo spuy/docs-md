@@ -43,27 +43,11 @@ Imagen 2. Icono Registro Nuevo
 
 Seleccione en el campo **Organización**, la organización para la cual esta realizando la definición de comisión.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image481.png)
-
-Imagen 3. Campo Organización
-
 Introduzca en el campo **Nombre**, el nombre que corresponde a la definición de comisión que esta realizando. Para ejemplificar el caso planteado anteriormente, es ingresado el nombre **Comisión de Venta Internos**
-
-![Campo](/assets/img/docs/sales-management/sam-sales-image482.png)
-
-Imagen 4. Campo Nombre
 
 Seleccione en el campo **Grupo de Comisión**, el grupo de comisión creado según el tipo de frecuencia. El mismo define el tipo de frecuencia a utilizar para el cálculo de la comisión.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image483.png)
-
-Imagen 5. Campo Grupo de Comisión
-
 Seleccione en el campo **Moneda**, la moneda a ser utilizada para calcular las comisiones correspondientes a la definición de comisión que esta realizando.
-
-![Campo](/assets/img/docs/sales-management/sam-sales-image484.png)
-
-Imagen 6. Campo Moneda
 
 El campo **Base del Cálculo** indica la regla que será tomada en cuenta para el calcular las comisiones al vendedor, el mismo contiene precargadas las siguientes opciones:
 
@@ -79,10 +63,6 @@ Pronóstico vs Orden: El vendedor comisiona por porcentaje, el mismo depende del
 
 Recaudo: El vendedor comisiona si todas sus facturas estan cobradas.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image485.png)
-
-Imagen 7. Campo Base del Cálculo
-
 El campo \*\*Tipo de Frecuencia se usa para definir las fechas de inicio y fin del cálculo. Es decir, cada cuanto tiempo comisionará el vendedor:
 
 Anualmente: Cada año (365 días).
@@ -93,47 +73,19 @@ Semanalmente: Cada semana (7 días).
 
 Trimestralmente: Cada tres meses (90 días).
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image486.png)
-
-Imagen 8. Campo Tipo de Frecuencia
-
-Note
-
 Si la ventana **Grupo de Comisión** tiene un tipo de frecuencia asignado y la ventana **Definición de Comisión** tiene otro diferente, Solop ERP realiza la validación para el cálculo de comisión tomando en cuenta el valor ingresado en el campo **Tipo de Frecuencia** de la ventana **Definición de Comisión**.
 
 Seleccione en el campo **Cargo**, el cargo correspondiente al registro de definición de comisión que esta realizando.
-
-![Campo](/assets/img/docs/sales-management/sam-sales-image487.png)
-
-Imagen 9. Campo Cargo
 
 Si el checklist **Pagado Totalmente** se encuentra tildado el vendedor comisiona por las facturas pagadas en su totalidad, de lo contrario comisiona por los pagos parciales de las facturas.
 
 Si el checklist **Calcular con Término de Pago** se encuentra tildado la comisión es calculada en base al término de pago que tenga la factura.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image488.png)
-
-Imagen 10. Checklist Calcular con Término de Pago
-
 Si el checklist **Permitir Devoluciones** se encuentra tildado la comisión es calculada en base a la nota de crédito que contiene asociada la factura.
-
-![Campo](/assets/img/docs/sales-management/sam-sales-image489.png)
-
-Imagen 11. Checklist Permitir Devoluciones
 
 Si el checklist **Lista Detalle** se encuentra tildado permite que los detalles de las comisiones sean mostrados en la ventana **Cálculo de Comisiones**.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image490.png)
-
-Imagen 12. Checklist Lista Detalle
-
 El campo **Última Fecha de Ejecución** se refiere a la fecha en la cual el proceso fue corrido por última vez.
-
-![Campo](/assets/img/docs/sales-management/sam-sales-image491.png)
-
-Imagen 13. Campo Última Fecha de Ejecución
-
-Note
 
 Recuerde guardar los cambios realizados seleccionando el icono **Guardar Cambios** ubicado en la barra de herramientas de Solop ERP.
 
@@ -147,47 +99,17 @@ Imagen 14. Pestaña Línea de Comisión
 
 El grupo de campos **Referencia** contiene campos que permiten establecer reglas o condiciones para el cálculo de las comisiones de los vendedores que se registran en la pestaña **Representantes de Ventas**.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image493.png)
-
-Imagen 15. Grupo de Campos **Referencia**
-
 Al tildar el checklist **Comisión sólo en Órdenes Específicas**, el vendedor comisiona sólo por la órdenes o facturas que tiene asignadas.
-
-![Campo](/assets/img/docs/sales-management/sam-sales-image494.png)
-
-Imagen 16. Checklist Comisión sólo en Órdenes Específicas
 
 Los campos **Organización**, **Grupo de Socio del Negocio**, **Socio del Negocio**, **Categoría del Producto**, **Clase de Producto**, **Clasificación de Producto**, **Grupo de Producto**, **Producto**, **Región de Ventas**, **Regla de Pago**, **Término de Pago**, **Proyecto**, **Campaña**, **Canal**, **Cumplimiento Mínimo (%)**, **Cumplimiento Máximo** y **Procentaje Máximo** pueden ser utilizados para indicar la regla de que los vendedores que se registran en la pestaña **Representantes de Ventas**, sólo comisionarán por las ventas que cumplan con lo seleccionado o ingresado en dichos campos.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image495.png)
-
-Imagen 17. Campo Producto
-
 Si el checklist **Es Porcentaje** se encuentra tildado, indica que la comisión es expresada en porcentaje. En caso contrario, indica que la comisión es expresada en cantidad.
-
-![Campo](/assets/img/docs/sales-management/sam-sales-image496.png)
-
-Imagen 18. Checklist Es Procentaje
 
 En el campo **Multiplicador** se introduce el monto de la comisión en porcentaje.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image497.png)
-
-Imagen 19. Campo Multiplicador
-
 En el campo **Cantidad Multiplicadora** se introduce el monto de la comisión en cantidad.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image498.png)
-
-Imagen 20. Campo Cantidad Multiplicadora
-
 Si el checklist **Sólo Positivos** se encuentra tildado, indica que no se toman en cuenta las notas de crédito para el cálculo de las comisiones.
-
-![Campo](/assets/img/docs/sales-management/sam-sales-image499.png)
-
-Imagen 21. Checklist Sólo Positivos
-
-Note
 
 Recuerde guardar los cambios realizados seleccionando el icono **Guardar Cambios** ubicado en la barra de herramientas de Solop ERP.
 
@@ -233,47 +155,17 @@ Imagen 2. Icono Registro Nuevo
 
 Seleccione en el campo **Organización**, la organización para la cual esta realizando el documento **Cálculo de Comisiones\***.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image504.png)
-
-Imagen 3. Campo Organización
-
 Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por Solop ERP.
-
-![Campo](/assets/img/docs/sales-management/sam-sales-image505.png)
-
-Imagen 4. Campo Tipo de Documento
 
 Seleccione en el campo **F. Documento**, la fecha en la cual esta realizando el documento **Cálculo de Comisiones**.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image506.png)
-
-Imagen 5. Campo Fecha del Documento
-
 Seleccione en el campo **Grupo de Comisión**, el grupo de comisión utilizado para la definición de comisiones.
-
-![Campo](/assets/img/docs/sales-management/sam-sales-image507.png)
-
-Imagen 6. Campo Grupo de Comisión
 
 Seleccione en el campo **Comisión**, la definición de comisión correspondiente al cálculo de comisiones que esta realizando.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image508.png)
-
-Imagen 7. Campo Comisión
-
 Introduzca en el campo **Fecha de Inicio**, la fecha establecida para comenzar a realizar el cálculo de comisiones.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image509.png)
-
-Imagen 8. Campo Fecha de Inicio
-
 Introduzca en el campo **Fecha Final**, la fecha establecida para finalizar el cálculo de comisiones que esta realizando.
-
-![Campo](/assets/img/docs/sales-management/sam-sales-image510.png)
-
-Imagen 9. Campo Fecha Final
-
-Note
 
 Recuerde guardar los cambios realizados seleccionando el icono **Guardar Cambios** ubicado en la barra de herramientas de Solop ERP.
 
