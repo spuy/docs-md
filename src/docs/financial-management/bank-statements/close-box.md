@@ -33,39 +33,15 @@ Imagen 2. Ventana Cierre de Caja y Selección de Icono Registro Nuevo
 
 Seleccione en el campo **Organización**, la organización para la cual está realizando el cierre de caja.
 
-![Campo](/assets/img/docs/balance-management/bam-balance-image19.png)
-
-Imagen 3. Campo Organización
-
 Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por Solop ERP.
-
-![Campo](/assets/img/docs/balance-management/bam-balance-image20.png)
-
-Imagen 4. Campo Tipo de Documento
 
 Seleccione en el campo **Cuenta Bancaria**, la cuenta bancaria a la cual se le realizará el cierre de caja.
 
-![Campo](/assets/img/docs/balance-management/bam-balance-image21.png)
-
-Imagen 5. Campo Cuenta Bancaria
-
 Introduzca en el campo **Nombre**, el nombre de referencia del cierre de caja que está realizando.
-
-![Campo](/assets/img/docs/balance-management/bam-balance-image22.png)
-
-Imagen 6. Campo Nombre
 
 Introduzca en el campo **Descripción**, una breve descripción referente al documento que está realizando.
 
-![Campo](/assets/img/docs/balance-management/bam-balance-image23.png)
-
-Imagen 7. Campo Descripción
-
 Seleccione la opción **Crear a partir de Pagos**, para realizar el cierre de caja desde un ingreso generado anteriormente, este puede ser una selección de pago o una transferencia bancaria. Para ejemplificar el registro es utilizado el caso de una transferencia bancaria.
-
-![Campo](/assets/img/docs/balance-management/bam-balance-image24.png)
-
-Imagen 8. Opción Crear a Partir
 
 Podrá visualizar la siguiente ventana de búsqueda inteligente, donde debe seleccionar la opción **Comenzar Búsqueda** para buscar las transferencias entre cuentas realizadas.
 
