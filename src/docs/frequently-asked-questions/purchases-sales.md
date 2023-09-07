@@ -10,36 +10,29 @@ article: false
 
 ### ¿Cuáles son los requisitos para poder eliminar un documento?
 
-Que no se haya utilizado el mismo en ningún otro documento. Si ya se referenció en cualquier otro documento, no se podrá borrar justamente por un tema de coherencia de la base de datos. 
-
-  
+Para eliminar un documento, la primera regla general es que no se haya utilizado el mismo en ningún otro documento. Si ya se referenció en cualquier otro registro, no se podrá borrar justamente por razones de coherencia/consistencia de la base de datos. 
+ 
 Más allá de esto, puede ser que un documento una vez creado no permita ser borrado. En este caso se deberá inactivar el mismo o Anular.
+Cabe destacar que si se trata de un documento que puede ingresar en un proceso masivo, lo ideal será anularlo (como por ejemplo un Contrato de Servicio, que pueda ingresar en la generación masiva de cuotas).
 
 #### ¿El proceso “Reabrir Orden” existe solamente para las Órdenes de Compra/Venta?
 
-SI, sólo existe para las Órdenes.
+SI, sólo existe para las Órdenes tanto de venta como de compra (en este último caso deberá encontrarse destildado el check Transacción de Ventas ).
 
 #### ¿Cómo hago para re contabilizar un asiento?
 
-Se debe abrir el asiento desde el documento en cuestión y hacer click en el botón “Re-Contabilizar” ubidado abajo a la izquierda. 
+Para re contabilizar un asiento se debe abrir el asiento desde el documento en cuestión y hacer click en el botón “Re-Contabilizar” ubidado en el extremo inferior izquierdo. 
 
-El Período de la fecha que dicho asiento fue contabilizado debe estar ABIERTO para permitir re-contabilizar.
+El Período de la fecha que dicho asiento fue contabilizado debe estar ABIERTO para permitir re-contabilizar (caso contrario, se deberá abrir el mismo desde la ventana Año, Calendario y Período).
 
 #### ¿Facturas ya pagadas se ven en el Estado de Cuenta Corriente y en Saldos pendientes?
 
-Si, en el estado de cuenta se ven las facturas Pagas. No se muestran en el reporte Saldos Pendientes justamente porque ya no tienen nada pendiente.
-
-El Estado de Cuenta Corriente muestra todo, facturas y pagos sin filtrar si esta paga o no, son todos los documentos.
-
-Ahora, este reporte no muestra DxP Cerrados.
+En el estado de cuenta se ven las facturas Pagas porque muestra todos los documentos (facturas y pagos) sin filtrar si se encuentra o no pagada (no muestra los documentos con estado cerrado).
+No se muestran en el reporte Saldos Pendientes justamente porque este reporte muestra solo facturas con saldo abierto o pendiente.
 
 #### ¿En el Cierre de Caja de Punto de Venta qué muestra el campo “Diferencia Monto”?
 
-El campo “Diferencia Monto” representa el monto resultante de la sumatoria del 
-
-Monto total de la apertura más el Total cobrado menos el Total de los retiros.
-
-Me confundió conceptualmente, solo porque lo entiendo como el saldo, o bien, si hay un total de la apertura, sería el total de cierre. “Diferencia” me confunde, porque sería diferencia si existe una inconsistencia entre ese valor de saldo o importe total de cierre y la existencia en caja.
+El campo “Diferencia Monto” representa el monto resultante de la sumatoria del Monto total de la apertura más el Total cobrado menos el Total de los retiros.
 
 ### Documentos por Cobrar
 
@@ -61,9 +54,10 @@ Dicha cuenta bancaria será la utilizada para realizar el Pago/Cobro.
 ### Como Generar Factura desde Cuota de Contrato
 
   
-Este proceso tomará todos los Informes de Gastos que existan creados en los contratos y generará la factura al “SDN a Facturar” que ellos tengan definido.
+Este proceso tomará todos los Informes de Gastos (Conceptos a Facturar) que existan creados en los contratos y generará la factura al “SDN a Facturar” que ellos tengan definido.
 
-Importante: El proceso de Facturación, si bien en el Contrato se define un Precio de Lista, al generar la Factura el Precio de lista se define automáticamente directo desde la Versión de Lista de Precios vigente para la fecha y no la obtendrá desde la Línea del Contrato. Esto puede llevar a que si no se Actualiza correctamente los precios de las Líneas del Contrato (tanto Precio de Lista como Precio), si bien el precio si será definido según el definido en la línea y en la Cuota del Contrato (Informe de Gastos), no así el Precio de Lista, definiendo si siempre el ACTUALIZADO. Esto puede llevar a que el % de Descuento REAL definido en la línea de La Factura quede desactualizado (ya que el Precio es el con descuento pero según un Precio de lista viejo, y el Precio de Lista que se defina en la factura será uno nuevo).
+Importante: El proceso de Facturación, si bien en el Contrato se define un Precio de Lista, al generar la Factura el Precio de lista se define automáticamente directo desde la Versión de Lista de Precios vigente para la fecha y no la obtendrá desde la Línea del Contrato. Esto puede llevar a que si no se Actualiza correctamente los precios de las Líneas del Contrato (tanto Precio de Lista como Precio), si bien el precio si será definido según el definido en la línea y en la Cuota del Contrato (Informe de Gastos), no así el Precio de Lista, definiendo siempre el ACTUALIZADO. 
+Esto puede llevar a que el % de Descuento REAL definido en la línea de La Factura quede desactualizado (ya que el Precio es el "con descuento" pero según un Precio de lista viejo, y el Precio de Lista que se defina en la factura será uno nuevo).
 
 ### Cómo generar una Nota de crédito
 
@@ -78,7 +72,7 @@ Luego de desde la Ventana se realiza la Devolución correspondiente y desde la m
 
 #### Procedimiento para realizar una Nota de Crédito
 
-Hay varios procesos de generar Notas de Crédito (Nota de Débito es otra cosa, es igual a una factura). 
+Hay varios procesos de generar Notas de Crédito (Nota de Débito es otra cosa, es similar a una factura). 
 
 1. Crear Desde (Orden de venta, Factura o Devolución)
 2. Copiar Líneas. (Factura)
@@ -142,11 +136,11 @@ Estas Notas de Débito NO TIENEN IVA, son todas exentas, ya que el que descuenta
 
 #### Se puede Generar desde el POS una factura a credito?
 
-Esa funcionalidad no esta implementada todavia en el POS, para hacerlo debe ir a Documentos Por Cobrar, 
+Esa funcionalidad no esta implementada todavia en el POS, para hacerlo debe realizarse desde la ventana Documentos Por Cobrar. 
 
 #### Como se define la Tasa de Cambio y POS:
 
-El tipo tasa de cambio esta definida en la ventana Terminal PDV en el campo “Tipo de Conversión”, si es “Company” no se carga automaticamente, la define el Cliente o la define OpenUp con una duración especifica. Si es “Spot”, existe un proceso que se ejecuta por medio del CRON y carga la tasa de forma automatica a diario.
+El tipo tasa de cambio esta definida en la ventana Terminal PDV en el campo “Tipo de Conversión”. Si es “Company” no se carga automaticamente, la define el Cliente o la define OpenUp con una duración especifica. Si es “Spot”, existe un proceso que se ejecuta por medio del CRON y carga la tasa de forma automatica a diario.
 
 ### Lista de Precio
 
@@ -177,18 +171,13 @@ Puede ser por 3 motivos:
 * Ver que Regla de facturación tiene la misma
 * Verificar en la línea de la Orden que no tenga Cantidades facturadas
 
-  
-¿El proceso “Reabrir Orden” existe solamente para las Órdenes de Compra/Venta?
-
-SI, sólo existe para las Órdenes.
-
 #### ERROR: Producto no está en lista de precios.
 
 Para solucionarlo se debe navegar al producto e agregar en la pestaña Precio la lista de precio que indica el mensaje.
 
 #### Cómo quitar aviso de “Producto sin Inventario” cuando no se desea controlar inventario?
 
-Se soluciona definiendo definiendo a los Productos con Tipo “ARTÍCULOS” como Almacenables “N”.
+Se soluciona definiendo a los Productos con Tipo “ARTÍCULOS” como Almacenables “N”.
 
 #### Se puede cambiar el nombre de un producto (o SDN) existente?
 
@@ -203,12 +192,6 @@ Es posible que la Orden de Venta ya tenga un Pago/Cobro asignado, si es asi, no 
 #### ¿Cómo genero una Factura Cliente (Documento por Cobrar) a Crédito manualmente?
 
 selecciona el botón forma de pago “A credito”, una vez seleccionado, se despliega el campo “Término de pago”, donde definirá el término deseado. Esta conducta se puede definir en las propiedades del SDN para el siguiente Documento por cobrar. Luego de ingresados todos los datos, se da clic en “Completar”.
-
-#### ¿En el Cierre de Caja de Punto de Venta qué muestra el campo “Diferencia Monto”?
-
-El campo “Diferencia Monto” representa el monto resultante de la sumatoria del 
-
-Monto total de la apertura más el Total cobrado menos el Total de los retiros.
 
 #### ¿En el Cierre de Caja de Punto de Venta qué muestra el campo “Diferencia Edo. de Cuenta”?
 

@@ -8,81 +8,11 @@ article: false
 
 ## Facturación Electrónica
 
-### Mensaje a enviar en caso de caída de servidor de Invoicy
-
-Al confirmar servidor caído:
-
-Si, efectivamente verificamos que no responde la página.
-
-Estamos trabajando en ello, ni bien tengamos novedades les confirmamos
-
-Al tener respuesta de parte de Invoicy:
-
-Estimados, ya nos han confirmado que Invoicy está trabajando en solucionar el problema. Ni bien se restablezca el servicio le estaremos notificando. 
-
-Disculpas por las molestias. 
-
 ### Enviar e-ticket
 
 Para enviar un E-Ticket, sólo es necesario que el receptor tenga definido el tipo de documento si el monto supera las 10.000 UI a fecha del 31/12 del año anterior.
 
 Si se supera dicho monto, al socio de negocio del comprobante se le puede asignar el tipo de documento “Otros” y colocar cualquier número como número de documento.
-
-### Mensajes de Error CFE
-
-***CFE_NOTORG* = "CFE Error: Los documentos emitidos deben tener la compañía y organización con la que se inició sesión en el sistema";**
-
-*IDDOC_002* = "CFE Error: No es un tipo de documento para emitir CFE";
-
-*IDDOC_002_2* = "CFE Error: El tipo de CFE no es un tipo aceptado por DGI";
-
-*IDDOC_003* = "CFE Error: Area Identificacion del Comprobante (3) - Falta Prefijo de la secuencia";
-
-*IDDOC_004* = "CFE Error: Area Identificacion del Comprobante (4) - Numero de comprobante no asignado al documento";
-
-*IDDOC_005* = "CFE Error: Area Identificacion del Comprobante (5) - Fecha del comprobante no establecida";
-
-*IDDOC_011* = "CFE Error: Area Identificacion del Comprobante (11) - Forma de pago no aceptada por DGI (Contado o Credito)";
-
-*EMISOR_ORG* = "CFE Error: Area Emisor - Empresa no establecida";
-
-***EMISOR_040* = "CFE Error: Area Emisor (40) - RUT no establecido";**
-
-*EMISOR_041* = "CFE Error: Area Emisor (41) - Razon Social no establecida";
-
-*EMISOR_047* = "CFE Error: Area Emisor (47) - Identificador de DGI para local no establecido";
-
-*EMISOR_048* = "CFE Error: Area Emisor (48) - Domicilio fiscal no establecido";
-
-*EMISOR_049* = "CFE Error: Area Emisor (49) - Ciudad para domicilio fiscal no establecida";
-
-#### Mensajes de Error CFE
-
-***CFE_NOTORG* = "CFE Error: Los documentos emitidos deben tener la compañía y organización con la que se inició sesión en el sistema";**
-
-*IDDOC_002* = "CFE Error: No es un tipo de documento para emitir CFE";
-
-*IDDOC_002_2* = "CFE Error: El tipo de CFE no es un tipo aceptado por DGI";
-
-*IDDOC_003* = "CFE Error: Area Identificacion del Comprobante (3) - Falta Prefijo de la secuencia";
-
-*IDDOC_004* = "CFE Error: Area Identificacion del Comprobante (4) - Numero de comprobante no asignado al documento";
-
-*IDDOC_005* = "CFE Error: Area Identificacion del Comprobante (5) - Fecha del comprobante no establecida";
-
-*IDDOC_011* = "CFE Error: Area Identificacion del Comprobante (11) - Forma de pago no aceptada por DGI (Contado o Credito)";
-
-*EMISOR_ORG* = "CFE Error: Area Emisor - Empresa no establecida";
-
-***EMISOR_040* = "CFE Error: Area Emisor (40) - RUT no establecido";**
-
-*EMISOR_041* = "CFE Error: Area Emisor (41) - Razon Social no establecida";
-
-*EMISOR_047* = "CFE Error: Area Emisor (47) - Identificador de DGI para local no establecido";
-
-*EMISOR_048* = "CFE Error: Area Emisor (48) - Domicilio fiscal no establecido";
-
-*EMISOR_049* = "CFE Error: Area Emisor (49) - Ciudad para domicilio fiscal no establecida";
 
 #### Mensajes de Error CFE
 
@@ -145,11 +75,9 @@ Cuando un cliente informa de que no tiene ninguna CAE autorizada, lo mas probabl
 En ambos casos se tiene que hacer la carga del nuevo CAE
 
 En caso de que se haya vencido, es muy probable que queden números de ese CAE sin utilizar, por lo que tienen que ser anulados para que se envíen en el reporte diario
-
   
 Y también cuando se vence, se tiene que adelantar la secuencia en Solop ERP para ese tipo de documento para que comience con la numeración del nuevo CAE que está mas adelante.
 
-  
 #### **Evaluar que hacer con el CAE si había un cae previo si se vence o termina**
 
 Solop ERP gestiona las secuencia de los documentos que envía a InvoiCy, entonces.
@@ -160,7 +88,7 @@ Solop ERP gestiona las secuencia de los documentos que envía a InvoiCy, entonce
 
 Cuando se vence un CAE hay que:
 
-\* Adelantar la secuencia en ADempiere
+\* Adelantar la secuencia en Solop ERP
 
 \* En invoicy ANULAR el rango de secuencias del cae vencido que no fueron emitidos para que sea informado en el reporte diario
 
@@ -207,7 +135,7 @@ Puede ocurrir que cuando se esta generando una Orden de Venta, y dependiendo de 
 
 Si lo que se desea es generar una e-Factura entonces el SDN debe tener definido el “Grupo de Impuestos” como RUT.
 
-Si lo que se desea generar es un e-Ticket, entonces el documento puede ser generado a un SDN generico (como mostrador) ya que no exige la identificacion del mismo, siempre y cuando no supere los 10000 UI.
+Si lo que se desea generar es un e-Ticket, entonces el documento puede ser generado a un SDN generico (como mostrador) ya que no exige la identificacion del mismo, siempre y cuando no supere los 10000 UY.
 
 Otra causa posible es que, aunque exista un CAE vigente, se venció la secuencia anterior, quedando números sin usar. En ese caso se deben anular los números del CAE vencido 
 
@@ -264,7 +192,7 @@ A este proceso se le agregó el check “Factura Asignada Totalmente”, mediant
 
 Cuando se marca el check “Asignación a las Primeras” llama a una función que permite asignar todo lo que se pueda, aunque el total de cobros sea distinto al de facturas, creando primero todas las líneas de asignación para los pago/cobro, y luego todas las líneas para las facturas. En este caso, si también se marcó el check “Factura Asignada Totalmente”, se controla e impide que la factura quede con saldo abierto.
 
-\- Funcionamiento con ambos check = Y (ver foto):
+\- Funcionamiento con ambos check = Y:
 
 El importe de cobros es mayor al importe de  facturas -> se genera asignación
 
@@ -297,11 +225,11 @@ Se utilizan los campos en pestaña "CFE Referidos" de "Total Abierto" y "Total A
 
 Si se genera una línea manualmente en pestaña "CFE Referidos", también se carga el importe abierto, y el importe asignado con igual valor.
 
-Luego, al momento de completarse la NC, se genera la asignación automática creando una línea por la NC, y las N líneas por cada una de las facturas presentes en los CFE Referidos, por el importe asignado indicado en cada una.
+Luego, al momento de completarse la Nota de Crédito, se genera la asignación automática creando una línea por la Nota de Crédito, y las N líneas por cada una de las facturas presentes en los CFE Referidos, por el importe asignado indicado en cada una.
 
-Al momento de ejecutarse este proceso, se verifica que cada una de las facturas siga teniendo un saldo abierto igual o mayor al indicado en la NC, y también que la moneda sea la misma de la NC, de lo contrario se retorna mensaje de error indicando el motivo.
+Al momento de ejecutarse este proceso, se verifica que cada una de las facturas siga teniendo un saldo abierto igual o mayor al indicado en la Nota de Crédito, y también que la moneda sea la misma de la Nota de Crédito, de lo contrario se retorna mensaje de error indicando el motivo.
 
-Al completarse la NC de DxP, se verifican las líneas de orden de los DxP asignados en pestaña "CFE Referidos", y en caso de que ninguna línea tenga cantidad ordenada distinta a la facturada, se quita el check de "En Negociacion" del DxP.
+Al completarse la Nota de Crédito de Documento por Cobrar, se verifican las líneas de orden de los Documentos por Cobrar asignados en pestaña "CFE Referidos", y en caso de que ninguna línea tenga cantidad ordenada distinta a la facturada, se quita el check de "En Negociacion" del Documento por Cobrar.
 
 **__NOTA__**
 
@@ -334,20 +262,17 @@ En ese caso, por ejemplo, si la Entidad debe pagar 1000 y a su vez debe cobrar 3
 
 Del lado de la otra Empresa (la que debía pagar 300 a la Entidad), la deuda quedaría saldada.
 
-Adempiere tiene una funcionalidad en su menú de "Recibo de Cobro" o "Recibo de Pago", con una caja de verificación llamada "Transacción de Venta". Cuando el menú es "Recibo de Cobro" y está marcada la caja de verificación, el sistema mostrará la relación de los "Documentos Por Cobrar".
+Solop ERP tiene una funcionalidad en su menú de "Recibo de Cobro" o "Recibo de Pago", con una caja de verificación llamada "Transacción de Venta". Cuando el menú es "Recibo de Cobro" y está marcada la caja de verificación, el sistema mostrará la relación de los "Documentos Por Cobrar".
 
 Cuando el menú es "Recibo de Pago" y está marcada la caja de verificación, el sistema mostrará la relación de los "Documentos Por Cobrar", con lo cual, se habilitará la opción de pagar por medio de la generación de un documento en "Canje".
 
 Este documento debe relacionar los Documentos Por Cobrar que se canjearán por el/los Documentos Por Pagar. Y cuando se completa, genera de forma automática el "Recibo de Pago".
 
-Adempiere tiene una funcionalidad en el Documento / Ventana de "Recibo de Cobro" o "Recibo de Pago" para incorporar al Recibo un Documento de CANJE. 
+Solop ERP tiene una funcionalidad en el Documento / Ventana de "Recibo de Cobro" o "Recibo de Pago" para incorporar al Recibo un Documento de CANJE. 
 
 Si estamos en un Recibo de Pago, el CANJE es realizado asignando un Documento por Cobrar desde la Asignación. Para ello se debe hacer click en el Botón de Asignar Facturas donde se abrirá la ventana para seleccionar los Documentos a Asignar. Por defecto la misma mostrará Documentos por Pagar (Transacción de Ventas = N), se debe marcar el Check "Transacción de Venta" en Y para que la ventana muestre todos los Documentos por Cobrar que existen para dicho SDN.
-
   
-Luego de seleccionar el mismo, al Completar el Recibo de Pago se generará un Recibo de
-
-COBRO por el importe de dicho CANJE. Este importe lo determinará la suma total de Documentos CANJEADOS (DxC asignados al Recibo de PAGO). 
+Luego de seleccionar el mismo, al Completar el Recibo de Pago se generará un Recibo de COBRO por el importe de dicho CANJE. Este importe lo determinará la suma total de Documentos CANJEADOS (DxC asignados al Recibo de PAGO). 
 
 Por último, se deberá definir el NRO del Recibo de COBRO que será generado automáticamente. Este nro se debe definir en el campo “Nro. Recibo de Cobro”
 
@@ -363,7 +288,7 @@ Para el caso de la funcionalidad en el Documento / Ventana de “Recibo de Pago�
 
 Para asignar el cheque al cobro, en el caso de que el estado del documento (Recio de Cobro) este en “Completo” se realiza la ventana Asignación manualmente.
 
-Como realizar recibo pago/cobro multimoneda
+#### Como realizar recibo pago/cobro multimoneda
 
 Cuando se marca el check “Multimoneda” en un recibo, se habilitan los siguientes campos obligatorios:
 
@@ -401,8 +326,6 @@ En este caso, si es multimoneda y el tipo de conversión es SPOT o COMPANY, se o
 Luego de guardarse el cabezal de recibo, si se modificó alguno de los 4 campos de multimoneda, se borran las tasas de conversión creadas y, si el tipo de conversión seleccionado es DOCUMENTO, entonces se vuelven a generar (ventana de Tasa de Cambio).
 
 Luego, al momento de completarse el recibo multimoneda, si el mismo genera una asignación, en dicha asignación se le setea también los siguientes campos:
-
- 
 
 * Multimoneda (check)
 * Tipo de Conversión
@@ -476,24 +399,23 @@ Según la parametrización realizada en el Tipo de Retención, se evaluará si c
 
 Actualmente está parametrizado para que se revise en la acción Completar de la Factura
 
-#### Al completar DxP
+#### Al completar Documento por Pagar
 
 Si el documento cumple para generar retención, según la parametrización indicada más arriba, se generará un documento previo al resguardo en la ventana “Documento Retención Generado”
 
 #### Generar Documento Retención de forma manual
 
-En caso de que por algún motivo algún DxP requiera generar su respectivo Documento Retención y no lo tenga generado, este proceso podrá ser lanzado desde la ventana Documentos por Pagar -> Engranaje en la pestaña cabezal -> Re-Procesar Retención
+En caso de que por algún motivo algún Documento por Pagar requiera generar su respectivo Documento Retención y no lo tenga generado, este proceso podrá ser lanzado desde la ventana Documentos por Pagar -> Engranaje en la pestaña cabezal -> Re-Procesar Retención
 
 #### Observaciones Documento Retención
 
   
-El Documento Retención Generado va a calcular los montos sin tener en cuenta la moneda del documento de origen y sin convertir montos, por lo tanto, para realizar el resguardo se tomará la línea de DxP y calculará la conversión de moneda según la fecha del DxP
+El Documento Retención Generado va a calcular los montos sin tener en cuenta la moneda del documento de origen y sin convertir montos, por lo tanto, para realizar el resguardo se tomará la línea de Documento por Pagar y calculará la conversión de moneda según la fecha del Documento por Pagar
 
 Los resguardos siempre se emiten en Moneda UYU.
 
 #### Como generar retenciones
 
-  
 Proceso Generar Retenciones
 
 El proceso “Generar Retenciones” va a generar los documentos Resguardos requeridos a partir de los “Documentos Retención” Completos pertenecientes al mes de la fecha ingresada en el proceso.
@@ -546,9 +468,7 @@ Otro tema es que el recibo multimoneda está hecho para generar un recibo de cob
 
 #### ¿Se puede rechazar un cheque diferido de tercero como un cheque diferido propio?
 
-No, pero no por ser de terceros sino por ser “diferido”. Para Rechazar un cheque hay que primero depositarlo, el cheque diferido en si no se deposita sino que se genera otro tipo de documento de “Depósito de cheque” que es quién se deposita (el Depósito actúa como un PAGO/COBRO y un Cheque Diferido actúa como una FACTURA). Para rechazar un Ch. Diferido habría que primero depositarlo y lo que se rechazaría sería el Depósito, no el cheque diferido.
-
-\*Esto no lo pidió nadie hasta el momento.
+No es posible, pero no por ser de terceros sino por ser “diferido”. Para Rechazar un cheque hay que primero depositarlo, el cheque diferido en si no se deposita sino que se genera otro tipo de documento de “Depósito de cheque” que es quién se deposita (el Depósito actúa como un PAGO/COBRO y un Cheque Diferido actúa como una FACTURA). Para rechazar un Ch. Diferido habría que primero depositarlo y lo que se rechazaría sería el Depósito, no el cheque diferido.
 
 #### ¿Cómo llegar a un recibo desde Documentos por cobrar?
 
@@ -571,19 +491,11 @@ El problema es que el término de pago definido tiene ciertos esquemas, para def
 Aparece cuando tiene SALDO ABIERTO pendiente de asignar. Si está COMPLETAMENTE asignada entonces no aparecerá. Si NO ESTÁ completamente asignada entonces sí aparecerá.
 
   
-Qué representa el SALDO INICIAL en el reporte de estado de cuenta corriente?
+#### Qué representa el SALDO INICIAL en el reporte de estado de cuenta corriente?
 
 Representa el saldo de todos los documentos para atrás, su saldo abierto.
 
-Si sacas el reporte desde la fecha desde pero para atrás te debería dar el mismo importe.
-
-#### ¿Facturas pagas se ven en el Estado de Cuenta Corriente y en Saldos pendientes?
-
-En el estado de cuenta se ven las facturas Pagas. No se muestran en el reporte Saldos Pendientes justamente porque ya no tienen nada pendiente.
-
-El estado de cuenta corriente muestra todo, Facturas y pagos sin filtrar si esta paga o no, son todos los documentos.
-
-Ahora, este reporte no muestra DxP Cerrados.
+Si se emite el reporte desde la fecha desde pero para atrás debería dar el mismo importe.
 
 #### Reporte de saldos Pendientes y Reporte de Estado de Cuenta Corriente no da igual saldo ¿Por qué?
 
@@ -599,4 +511,4 @@ Pedimos un listado de saldos pendientes a la fecha 31/12/2018 (ejemplo) y lo est
 
 #### Cómo me doy cuenta si una Consulta de Asignación fue generada manualemente desde la Forma “Asignación de Pagos”?
 
-Siempre pone el nombre del Usuario en el campo “Descripción”
+Siempre muestra el nombre del Usuario en el campo “Descripción”
