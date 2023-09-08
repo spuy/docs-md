@@ -14,7 +14,7 @@ article: false
 
 #### Definición de Sello Origen de un Proyecto
 
-Cuando se guarda un proyecto de agencia o de medios, se realiza lo siguiente: Según la Categoría de Proyecto se definirá el Sello Origen correspondiente que tenga definido el contrato en sus “Partes del Contrato”.
+Cuando se guarda un proyecto de agencia o de medios, se realiza lo siguiente: Según la Categoría de Proyecto se define el Sello Origen correspondiente que tenga definido el contrato en sus “Partes del Contrato”.
 
 Según las siguientes Categoría de Proyecto se obtendrá el sello definido para el siguiente tipo de empresa:
 
@@ -45,11 +45,11 @@ Los honorarios se definen en la ventana Definición de comisiones.
 
 #### Definición de Tipos de honorario y Porcentajes en un Contrato de servicio
 
-El porcentaje de honorarios que será considerado para el cálculo de Honorarios será obtenido según el “Contrato de Servicio”, según la definición que exista en la pestaña Honorarios, aplicando los filtros definidos en estos registros.
+El porcentaje de honorarios que será considerado para el cálculo de Honorarios será obtenido según el “Contrato de Servicio”, de acuerdo a la definición que exista en la pestaña Honorarios, aplicando los filtros definidos en estos registros.
 
-Considerar que estas definiciones actúan como si fuese un Diagrama de Venn, definiendo tantos conjuntos como definiciones se realicen. A medida que se vayan definiendo conjuntos más complejos se debe tener la precaución de no dejar conjuntos que en algún momento puedan duplicar ciertos productos ya que un producto puede estar en diferentes conjuntos según como se definan los mismos. En este proceso se debe actuar en concordancia con la definición de los productos para que se logre una correcta definición de ellos y los Conjuntos que se desean definir.
+Debe considerarse que estas definiciones actúan como si fuese un Diagrama de Venn, definiendo tantos conjuntos como definiciones se realicen. A medida que se vayan definiendo conjuntos más complejos se debe tener la precaución de no dejar conjuntos que en algún momento puedan duplicar ciertos productos ya que un producto puede estar en diferentes conjuntos según como se definan los mismos. En este proceso se debe actuar en concordancia con la definición de los productos para que se logre una correcta definición de ellos y los Conjuntos que se desean definir.
 
-Para que un producto sea considerado por un Honorario es necesario que por lo menos una que incluya el producto la contemple el honorario y que este último no tenga alguna que no esté en el producto.
+Para que un producto sea considerado por un Honorario es necesario que por lo menos una que incluya el producto contemple el honorario y que este último no tenga alguna que no esté en el producto.
 
 #### Definición de Comisiones al proveedor
 
@@ -83,15 +83,15 @@ En esta ventana, el Botón "Set Project Type" sirve para definir el Tipo de Proy
 
 ¿Qué determina que aparezca una línea de Orden de venta para facturar en el proceso Generar factura desde linea de orden?
 
-Lo que determina que aparezca o no la linea de orden para facturar en el proceso Generar factura desde linea de orden son las cantidades facturadas de la orden. Si ya se encuentran todas sus cantidades facturadas ésta no figurará. Por el contrario sí.
+Lo que determina que aparezca o no la linea de orden para facturar en el proceso Generar factura desde linea de orden son las cantidades facturadas de la orden. Si ya se encuentran todas sus cantidades facturadas ésta no figurará. Por el contrario, se mostrarán cuando presente un pendiente de facturación.
 
 #### ¿Por qué razón puede ser que un Cálculo de comisión solo haya considerado la línea de la orden que está facturada?
 
-Si generar el Cálculo luego de haber facturado da este error justamente porque encuentra solo lo facturado. En estos casos lo mejor seria que esto se corrija a mano.
+Si generar el Cálculo luego de haber facturado genera este error justamente porque encuentra solo lo facturado. En estos casos lo mejor seria que esto se corrija a mano.
 
 #### ¿Si Reactivo una Orden de Honorarios, le cambio el Contrato, la Completo y Recontabilizo el asiento de reconocimiento, cambia el Contrato en el Asiento?
 
-No lo cambia
+En este caso no lo cambia
 
 El asiento de reconocimiento se genera desde un proceso de Reconocimiento masivo, no es el asiento del documento Orden de Venta, son documentos diferentes.
 
@@ -163,11 +163,11 @@ Podremos acceder a los cálculos de Comisión realizados mediante el botón de �
 
 ¿Se pueden crear 2 socios de negocio con el mismo rut?
 
-Hay un control que verifica que no puedas hacer eso, pero en ciertos clientes cuando aplicamos el control como tenían duplicados los rut no se pudo aplicar ese control, hasta q no lo solucionen.
+Hay un control que verifica que no se permita hacer eso, pero en ciertos clientes cuando aplicamos el control como tenían duplicados los rut no se pudo aplicar ese control, hasta q no lo solucionen.
 
 #### ¿El check de fabricate en “Y” en la pestaña Proveedor de la ventana Socio del Negocio es requisito para que se calcule una comisión?
 
-No es requisito.
+En ese caso no es requisito.
 
 #### Con respecto a las comisiones del Proveedor, estas se definen en la ventana Socio del negocio del mismo pestaña Proveedor: **¿Esta definición toma en cuenta los campos Categoria de Producto o Clasificación del producto (por ejemplo), para calcular la comisión o no?**
 
@@ -175,15 +175,15 @@ Si claro, considera todo lo que se defina de filtro a aplicar.
 
 #### ¿Por qué sucede el siguiente Error de campo Almacén obligatorio al Actualizar Cálculos de comisión si el Almacén está definido?
 
-Este error sucede porque no elegimos Almacen al momento de loguearnos.
+Este error se produce porque no elegimos Almacen al momento de loguearnos.
 
 #### ¿Cómo se define para informar al sistema que una Orden de compra deba generar comisiones u honorarios?
 
 Se define según el Tipo de Documento. En el Tipo de documento debe tener definido en el campo "Tipo de Comisión" que comisión debe generar al completar el mismo.
 
-Las Ordenes de Venta deben tener acá "HONORARIOS"
+Las Ordenes de Venta deben tener seteado "HONORARIOS"
 
-Las órdenes de Compra deben tener acá "Comisiones"
+Las órdenes de Compra deben tener configurado "Comisiones"
 
 #### ¿Por que motivo puede NO VISUALIZARSE una Orden de Venta para Facturar?
 
@@ -200,14 +200,14 @@ Esto puede suceder porque el Socio de Negocio esté definido en otra Organizaci�
 
 #### ¿Dónde definir Cantidad de Cuotas y Forma de facturación en Proyecto de medios Compra inventario?
 
-En la fase en los campos:
+Se realiza en la fase, en los campos:
 
 * **Descripción:** Escribir en la Descripción de la FASE cómo se desea que sea Facturado para que Administración se entere y
 * **Cantidad:** Además en el Campo “Cantidad” de la Fase se deberá definir la Cantidad de Cuotas que se desea Facturar, ya sea por el Medio o al Cliente. Ver que como Precio Unitario se deberá visualizar el importe de cada una de las cuotas a ser Facturado.
 
 #### ¿Puedo modificar los importes de una factura si el proveedor no entrega exactamente lo solicitado?
 
-PuedoSi el proveedor **no entrega** exactamente lo solicitado:
+Es posible, en el caso que el proveedor **no entrega** exactamente lo solicitado:
 
 El sistema permite modificar las cantidades en las líneas.
 
@@ -294,7 +294,7 @@ Estamos viendo que hay determinada acción que al ANULAR un DxP estas Cantidades
 
 #### Nivel de Acceso a Datos en ROL:
 
-Según el Rol se puede definir un nivel de Acceso a Datos determinado. Esto significa que según el nivel de dicho Rol será los documentos que pueda visualizar en el sistema.
+Según el Rol se puede definir un nivel de Acceso a Datos determinado. Esto significa que según el nivel de dicho Rol definirá los documentos que pueda visualizar en el sistema.
 
 Por ejemplo si se desea que determinado Rol sólo visualice Documentos de determinada Organización, se deberá definir el nivel “Organización”
 
@@ -335,7 +335,7 @@ En algunos casos no hay acceso a la información, o por ejemplo no da acceso a b
 
 Otros casos del uso de Reinicia Cache es cuando se ha creado un formulario o reporte nuevo y no se visualiza el cambio en la apariencia del reporte por ejemplo.
 
-Para reiniciar desde Adempiere, en el cajón de búsqueda se escribe “Reinicia cache”, se selecciona, y se abrirá la ventana, con un botón en la parte inferior derecha con aspecto de “check”. Dar clic y se mostrará un mensaje en azul indicando que el cache se ha reiniciado.
+Para reiniciar desde Solop ERP, en el cajón de búsqueda se escribe “Reinicia cache”, se selecciona, y se abrirá la ventana, con un botón en la parte inferior derecha con aspecto de “check”. Dar clic y se mostrará un mensaje en azul indicando que el cache se ha reiniciado.
 
 ### Exportar registros desde una Ventana
 
@@ -348,8 +348,6 @@ Para reiniciar desde Adempiere, en el cajón de búsqueda se escribe “Reinicia
 7. En la barra de herramientas del reporte, seleccionar la ventana desplegable ubicada en el extremo izquierdo:  y seleccionar el formato deseado (XLSX, HTML, etc.).
 8. El reporte será descargado en el navegador.
 
-Cuales son las acciones sobre un documento:
-
 ### Acciones sobre un Documento
 
 Las acciones sobre el Documento son:
@@ -359,7 +357,7 @@ Las acciones sobre el Documento son:
 * Reversar - Corregir
 * Anular
 
-### **Cerrar un Documento**
+#### **Cerrar un Documento**
 
 **__Cerrar Orden de Venta/Compra:__**
 
@@ -376,10 +374,10 @@ Restaurar extornando la transacción con la fecha de HOY.
 Restaurar extornando la transacción con la fecha del Documento extornado.  
 Anular
 
-Pone a cero las cantidades.
+Setea en valor cero las cantidades.
 
 ##### Barra de Herramientas
 
 ##### No me aparece un Proceso desde los Procesos de la Barra de Herramientas
 
-Los Procesos desde la Barra de Herramientas no se actualizan automáticamente, por lo que si por ejemlo lo presionó desde la Pestaña “Fase” de la Ventana “Proyecto”, recordará los Procesos que existen para dicha pestaña y si luego los quiere visualizar desde la pestaña Padre como puede ser “Proyecto” no se visualizarán. Para solucionarlo deberá ingresar nuevamente a la ventana y presionar “Procesos” desde la pestaña Padre (por ej de proyecto).
+Los Procesos desde la Barra de Herramientas no se actualizan automáticamente, por lo que si por ejemplo se selecciona desde la Pestaña “Fase” de la Ventana “Proyecto”, recordará los Procesos que existen para dicha pestaña y si luego los quiere visualizar desde la pestaña Padre como puede ser “Proyecto” no se visualizarán. Para solucionarlo deberá ingresar nuevamente a la ventana y presionar “Procesos” desde la pestaña Padre (por ej de proyecto).
