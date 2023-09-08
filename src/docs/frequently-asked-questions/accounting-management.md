@@ -10,11 +10,12 @@ article: false
 
 ### Definición de Impuestos
 
-Para que tome diferentes cuentas contables definidas para un impuesto, como por ejemplo si es un Impuesto de GASTO o de VENTA, se deberá marcar el check en la Tasa de Impuesto 
+Para gestionar diferentes cuentas contables definidas para un impuesto, como por ejemplo si es un Impuesto de GASTO o de VENTA, se deberá marcar el check en la Tasa de Impuesto 
 
-Preguntas Frecuentes:  en un caso se reportó una cuenta que quedó sin número y fuera del árbol en Elemento Contable. El problema con esta cuenta se ve que fue mal creada... esto sería un error. al parecer al ser creada como que quedó sin tener definido el MENÚ. es una funcionalidad del sistema que es lo que necesita para que se pueda ver en el árbol. cuando pasa esto hay que verificar si tiene bien definido el Árbol en el elemento contable (Cuenta contable)
+Preguntas Frecuentes:  en un caso se reportó una cuenta que quedó sin número y fuera del árbol en Elemento Contable. El problema con esta cuenta se ve que fue mal creada. Esto sería un error. al parecer al ser creada quedó sin tener definido el MENÚ. 
+Es una funcionalidad del sistema que lo necesita para que se pueda ver en el árbol. cuando pasa esto hay que verificar si tiene bien definido el Árbol en el elemento contable (Cuenta contable)
 
-Comentario de Soporte: Al parecer la cuenta fue creada sin el MENU definido., seguramente esto sucedió debido a que se creó manualmente sin "Copiar Cuenta" por lo que no se está seteando el menú por defecto. 
+Comentario de Soporte: Al parecer la cuenta fue creada sin el MENU definido. Seguramente esto sucedió debido a que se creó manualmente sin "Copiar Cuenta" por lo que no se está seteando el menú por defecto. 
 
 ### Balance de Prueba
 
@@ -50,7 +51,7 @@ Pestaña: Control de Periodo (boton multiple, validar columna “Estado del peri
 
 En caso contrario (el campo “Estado del Periodo” debería indicar en este momento “Nunca Abierto”), seleccionar el Documento, boton monoregistro, hacer clic en la ventana desplegable “Accion del Periodo”, seleccionar la acción que se desea (en este caso “Abrir”), luego clic en el boton “Abrir/Cerrar”, se abrira una ventana para “Abrir/Cerrar”, clic en OK.
 
-El estado del Período ahora debería indicar “Abierto”.
+El estado del Período debería indicar “Abierto”.
 
 ### Errores
 
@@ -59,8 +60,6 @@ El estado del Período ahora debería indicar “Abierto”.
 Para abrir un periodo se debe ir a la ventana Año Calendario y Periodo seleccionar el periodo que corresponda y luego en Control de periodo se podrán visualizar todos los documentos para los cuales ese periodo está abierto.
 
 Observación: si un período se cierra “Permanentemente”, luego no se puede volver a abrir, ya que la SQL del update que realiza el sistema, filtra para no tomar en cuenta los registros con estado “P” (cerrado permanentemente). Lo que se debe hacer en ese caso, es actualizar los registros cambiando su estado a “C” (Cerrado).
-
-Como crear tasas de cambio
 
 ### Tasa de Cambio
 
@@ -72,7 +71,7 @@ Ventana: Tasa de Cambio
 
 Se debe tener los valores de: Moneda desde y hacia, factor de conversión y rango de fecha de validez. Con esos valores se crea el registro en el caso de que se requiera.
 
-En el ticket de North 19133 ocurrió que falló la actualización automática de la tasa de cambio diaria. Por lo cual, quedaron días sin cotización y al iniciar el proceso de cierre de mes identificaron que había asientos con valor cero. Se debió generar la actualización de los tipos de cambio por los días faltantes y luego recontabiliizar los casos reportados.
+En un soporte ocurrió que falló la actualización automática de la tasa de cambio diaria. Por lo cual, quedaron días sin cotización y al iniciar el proceso de cierre de mes identificaron que había asientos con valor cero. Se debió generar la actualización de los tipos de cambio por los días faltantes y luego recontabiliizar los casos reportados.
 
 ### Creación de Moneda:
 
@@ -104,27 +103,20 @@ TODO cambio de documentos que involucre cambio de fecha, requiere que luego del 
 
 En proceso “Factura Pérdida/Ganancia No Realizada”, si al ejecutarlo se obtiene error de que obtiene más de un registro para el mismo ID de asiento, esto se debe a que la factura tiene asociados más de un programa de pagos (pestaña de vencimientos).
 
-##### ¿Qué Cuentas Contables considera?
-
-MODIFICACIÓN: Para el caso de Contabilización a Cuentas Puente de Servicios, en algunos documentos debido a esta condición encontraba 2 Cuentas que debía actualizar cuando en realidad no debería, al menos de esta manera.
-
-Se quita este control para evitar que las tome en cuenta las cuentas de pasivo de los Líneas para hacer este ajuste luego de manera independiente ya que se debería considerar según la “Cantidad Pendiente de Entregar”
-
 #### Proceso de Diferencia de Cambio Entregas/Recepción No Facturadas
 
 #### Diferencia de Cambio Realizada
 
-Esta es la manera como funciona el sistema actualmente. Se adjuntan imágenes ejemplo:
+Esta es la manera como se comporta el sistema:
 
 * Envía Cuentas de **GANANCIA** en los **Documentos por Cobrar** o **Recibos de COBRO** y envía a cuentas de **PERDIDA** en los **Documentos por Pagar** y **Recibo de Pago**
-* Envía a Cuentas De Impuestos DIFERENTES según sea el Documento por Cobrar o por Pagar (Factura cliente o Factura Proveedor) o si es según un Ajuste por Diferencia de Cambio (Asignación
+* Envía a Cuentas De Impuestos DIFERENTES según sea el Documento por Cobrar o por Pagar (Factura cliente o Factura Proveedor) o si es según un Ajuste por Diferencia de Cambio (Asignación)
 
 #### Asignación entre Documentos por Pagar/Cobrar
 
 Cuando se realiza una Asignación entre Factura y Nota de Crédito, el ajuste de Diferencia de cambio que realiza es **sólo** por la diferencia entre “Cuentas por Cobrar Comerciales” sin ajustar el Impuesto en cuestión ya que dicho impuesto se entiende se ajustó correctamente de manera implícita en el Asiento de la Nota de Crédito.
 
 ### **Proceso “Asignación de pagos”**
-
   
 En el proceso de "Asignación de pagos" los pagos sin asignar que se hayan hecho 
 

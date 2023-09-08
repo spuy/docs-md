@@ -10,13 +10,10 @@ article: false
 
 ### ¿En el proceso de “Generar Cobro Contado” en Recibo de Cobro, en el campo “Cuenta bancaria” aparecen las cuentas bancarias de los clientes o propias también?
 
-Cuentas Bancarias propias. Las cuentas Bancarias de Clientes no se definen de esta manera. 
+Se muestran las Cuentas Bancarias propias. Las cuentas Bancarias de Clientes no se definen de esta manera. 
 
-Si bien se puede manejar las cuentas bancarias de clientes, esto es desde la pestaña “Cuenta Bancaria” de la ventana del SDN.  
-**Todas** esas cuentas bancarias son las de la Organización. Es donde mandas o desde donde sacas el dinero  de la empresa.
-
-Cuentas Bancarias propias. Las cuentas Bancarias de Clientes no se definen de esta manera. 
-
+Si bien se pueden gestionar las cuentas bancarias de clientes, esto es desde la pestaña “Cuenta Bancaria” de la ventana del SDN.  
+**Todas** esas cuentas bancarias (en el proceso mencionado) son las de la Organización. Es donde se envía o se extrae el dinero de la empresa. 
   
 ### ¿Cuándo se crea un Cheque Diferido por Cobrar, ¿Qué BANCO se define?
 
@@ -25,13 +22,12 @@ Se define un Banco, no una Cuenta Bancaria.
 El banco que se define es el del “CHEQUE DIFERIDO” que el cliente nos está entregando. 
 
 Las cuentas bancarias son con Nro de cuenta y no es necesario al momento de crear un cheque diferido del cliente.
-
   
-Ahora cuando se deba depositar este cheque diferido si necesitaremos saber exactamente la cuenta bancaria NUESTRA donde se debe depositar.
+Ahora cuando se deba depositar este cheque diferido si necesitaremos saber exactamente la cuenta bancaria de la organización donde se debe depositar.
 
 ### ¿Cómo sé si una cuenta bancaria es propia o de un cliente?
 
-Todas las cuentas bancarias esas son propias.
+Todas las cuentas bancarias (para cobro) son propias.
 
 Las Cuentas bancarias del Cliente se definen en la ventana del SDN, pestaña Cuenta bancaria
 
@@ -39,13 +35,13 @@ Las Cuentas bancarias del Cliente se definen en la ventana del SDN, pestaña Cue
 
 Los registros y las definiciones se rigen por ID de cuenta, no por nombre ni número; lo mismo con los SDN, Productos, etc
 
-Como las cuentas se manejan por ID, y no por el número ( a diferencia de Memory por ejemplo); cambiarle el número o el nombre no afecta en nada en toda la definición, el histórico va a pasar a ese número o nombre también. 
+Como las cuentas se manejan por ID, y no por el número ( a diferencia de Memory por ejemplo); cambiarle el número o el nombre no afecta en nada en toda la definición, el histórico va a pasar a ese número o nombre también (o sea, cambiarán el número o nombre de manera retroactiva, y no solo para tiempo futuro)
 
 ### ¿Qué representa el SALDO INICIAL en el reporte de estado de cuenta corriente?
 
 Representa el saldo de todos los documentos para atrás, su saldo abierto.
 
-Si sacas el reporte desde la fecha desde pero para atrás te debería dar el mismo importe.
+Si se emite el reporte desde la fecha desde pero para atrás debería dar el mismo importe.
 
 ### ¿Qué es un split?
 

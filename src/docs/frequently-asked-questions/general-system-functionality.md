@@ -10,7 +10,7 @@ article: false
 
 ### ¿Cómo me doy cuenta que es un proceso?
 
-Básicamente por el icono del menú y que al abrirlo se muestra un proceso y no una ventana con Campos. Da la opción de dar check y tiene ciertos parámetros con un título y descripción debajo
+Básicamente por el icono del menú y que al abrirlo se muestra un proceso y no una ventana con Campos. Brinda la opción de dar check y tiene ciertos parámetros con un título y descripción debajo
 
 
 ### ¿Cómo solicitar un Update de un Registro (actualización)?
