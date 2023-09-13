@@ -87,3 +87,13 @@ Si una Ventana, Proceso, Smartbrowser o Reporte no se encuentra en el arbol del 
 #### ¿Cómo saber si un registro está guardado?
 
 En un documento podemos saber si un registro está guardado visualizando el mismo abajo a la derecha. En este caso por ejemplo, aparece un \*1 esto quiere decir que aún no tiene número de registro guardado.
+
+### Proceso de Asignación
+
+El proceso de Asignación (automático) considera Notas de Crédito?
+
+No, el proceso sólo generará asignaciones entre Facturas y Pagos
+
+El proceso de Asignación (automático) considera Documentos por Pagar contra Documentos por Cobrar?
+
+No, el proceso sólo considerará DxC con Cobros y DxP contra Pagos.
