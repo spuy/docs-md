@@ -123,13 +123,3 @@ Se creará una asignación automática sólo si se cumple una de estas dos condi
 Mensaje del Resultado del Proceso:
 
 ![Mensaje](/assets/img/docs/balance-management/bam-assignment-image1.png)
-
-### **Preguntas Frecuentes**
-
-El proceso de Asignación (automático) considera Notas de Crédito?
-
-No, el proceso sólo generará asignaciones entre Facturas y Pagos
-
-El proceso de Asignación (automático) considera Documentos por Pagar contra Documentos por Cobrar?
-
-No, el proceso sólo considerará DxC con Cobros y DxP contra Pagos.
