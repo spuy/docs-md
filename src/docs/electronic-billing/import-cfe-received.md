@@ -6,13 +6,13 @@ sticky: 9
 article: false
 ---
 
-### Importación CFE Recibidos
+## Importación CFE Recibidos
 
 Cuando una empresa inicia actividad como Emisor Electrónico, se habilita la posibilidad de recibir las facturas digitales emitidas por sus proveedores. Esto permite generar la creación de esos Documentos por Pagar a partir de la importación automática de los comprobantes fiscales electrónicos (CFE).
 
 Para poder realizar este proceso se deberán realizar los siguientes pasos:
 
-#### 1. Importar CFE Recbidos
+### 1. Importar CFE Recbidos
 
 Este proceso se deberá realizar por organización y se podrá seleccionar Fecha desde - Fecha Hasta para obtener los CFE Recibidos que existan y que aún no hayan sido importados (también es posible filtrar por período). Al correr el proceso, se generarán todas las líneas de los CFE Recibidos en una ventana de “Importar Documentos por Pagar”. La ventana del proceso muestra un Log con el resultado de la carga de dato correspondientes a los CFE recibidos en invoicy (informa las facturas cargadas, sus líneas así como los errores que puedan haberse generado).
 
@@ -22,7 +22,7 @@ Como un control interno, es posible previamente visualizar aquellos CFE recibido
 
 ![Importar CFE Recibidos](/assets/img/docs/electronic-billing/elb-billing1.png)
 
-#### 2. Importar Documentos por Pagar
+### 2. Importar Documentos por Pagar
 
 La ventana “Importar Documentos por Pagar” refleja los datos por línea de la tabla intermedia tal como están definidas en la Facturación electrónica y donde el sistema brinda la posibilidad de agregarle información para lograr que puedan terminar de importarse los Documentos por pagar correctamente identificados e imputados en el sistema.
 
@@ -52,7 +52,7 @@ Para aquellos casos que se generan órdenes de compra y esta es obligatoria para
 
 ![Importar CFE Recibidos](/assets/img/docs/electronic-billing/elb-billing2.png)
 
-#### 3. Completar Datos de Factura Importada
+### 3. Completar Datos de Factura Importada
 
 Desde el botón de acción "Procesos" se selecciona **Completar Datos de Factura recibida**. Esto abre un smart browser (buscador inteligente) con filtros de búsqueda, tales como impuesto, Fecha de facturación, Número de Documento, Número de Identificación.
 
@@ -62,7 +62,7 @@ En este paso se deberán seleccionar las diferentes líneas y aplicar el dato fa
 
 ![Importar CFE Recibidos](/assets/img/docs/electronic-billing/elb-billing3.png)
 
-#### 4. Importación de Facturas
+### 4. Importación de Facturas
 
 Una vez completados los datos de cada registro de los documentos por pagar a importar, se Selecciona el Proceso Importación de Facturas.
 
@@ -73,7 +73,3 @@ Al aceptar genera un Log en ventana emergente con el resultado del proceso (cant
 En el caso de los posibles errores, se podrá visualizar el motivo de cada registro en la columna "Mensaje Error Importación" (en la misma ventana de Importar Documentos por Pagar).
 
 Esta última acción genera los registros por cada Documento por Pagar en el sistema con sus correspondientes líneas (en estado Borrador o Completo según se haya definido previamente).
-
-**Ejemplo Importar CFE Recibidos:**
-
-![Importar CFE Recibidos](/assets/img/docs/electronic-billing/elb-billing-video1.mp4)
