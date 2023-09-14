@@ -34,6 +34,12 @@ La ventana de Detalle de Almacenamiento simple brinda el inventario al día, per
 
 ![Parámetros](/assets/img/docs/frequently-asked-questions/fra-asked-image1.png)
 
+#### Descargar inventario completo a una fecha determinada
+
+La ventana Informe de Inventario Valorado permite realizar una consulta sobre el estado del inventario a una fecha determinada (con filtro Fecha). Permite filtrar por los siguientes parámetros
+
+![Parámetros 2](/assets/img/docs/frequently-asked-questions/fra-asked-image2.png)
+
 ### Solicitudes
 
 #### Requisitos para que un usuario interno de Adempiere pueda ver solicitudes

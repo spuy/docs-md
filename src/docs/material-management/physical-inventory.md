@@ -88,3 +88,15 @@ Al generar el reporte **Detalle de Almacenamiento** seleccionando la ubicación 
 ![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image999.png)
 
 Imagen 17. Segundo Reporte de Detalle de Almacenamiento
+
+### Inventario completo a la fecha
+
+La ventana de Detalle de Almacenamiento simple brinda el inventario al día, permitiendo filtrar por los siguientes parámetros:
+
+![Parámetros](/assets/img/docs/frequently-asked-questions/fra-asked-image1.png)
+
+### Inventario completo a una fecha determinada
+
+La ventana Informe de Inventario Valorado permite realizar una consulta sobre el estado del inventario a una fecha determinada (con filtro Fecha). Permite filtrar por los siguientes parámetros
+
+![Parámetros 2](/assets/img/docs/frequently-asked-questions/fra-asked-image2.png)
