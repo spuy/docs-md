@@ -28,6 +28,8 @@ Por último en la sección Documento seleccionaremos en el campo Tipo de pago el
 
 Luego de esto podemos proceder a completar el documento seleccionando el botón Completar.
 
+![Anticipo](/assets/img/docs/balance-management/bam-payment1.png)
+
 ### **Asignación Masiva Automática con Exclusión**
 
 Para realizar una Asignación Masiva Automática con Exclusión se deberán seguir los siguientes pasos:
@@ -39,6 +41,8 @@ Para realizar una Asignación Masiva Automática con Exclusión se deberán segu
 Desde el Proceso **Generar Servicio a Facturar** generaremos los servicios a Facturar No Recurrentes filtrando por las Familias correspondientes a los Socios del Negocio que filtramos anteriormente.
 
 (Este proceso ya está explicado en la guía de Facturación de servicios).
+
+![Gemerar Factura desde cuota de Contrato](/assets/img/docs/balance-management/bam-payment2.png)
 
 #### **2. Generar Servicio a Facturar de SDN sin ANUALIDAD**
 
@@ -54,6 +58,8 @@ En el filtro Grupo SDN deberemos indicar “Familiar Anualidad”.
 
 Luego de generar las facturas es importante corroborar el check de “No Recurrente” en los Documentos por cobrar ya que éstas no deberán ser tomadas en cuenta posteriormente en el proceso de Asignación Automático (Con exclusión).
 
+![No recurrente](/assets/img/docs/balance-management/bam-payment3.png)
+
 #### **5. Correr proceso de “Asignación Automático (Con exclusión)”**
 
 Por último procederemos a correr el proceso Asignación (Asignación Automática con Exclusión).
@@ -67,6 +73,8 @@ Al generar la Asignación si navegamos a la factura en cuestión va a tener el c
 Luego si navegamos a la asignación desde la pestaña Facturas pagadas veremos que la misma informará en el campo “Descripción”, que esta se hizo automáticamente. En la pestaña Asignaciones de esta ventana veremos que este Pago se canceló con la Factura generada.
 
 Si voy a la factura NO RECURRENTE puedo corroborar que esta no quedó paga aún, lo mismo podemos verificar en el reporte de Saldos pendientes.
+
+![Asignación automática con exclusión](/assets/img/docs/balance-management/bam-payment4.png)
 
 ### **Asignación (Automática)**
 
@@ -86,6 +94,8 @@ El proceso de Asignación automática permite generar de manera masiva asignacio
 #### **Descripción:**
 
 Cada Asignación generada desde el proceso de Asignación (Automático) tendrá definido en su Descripción el texto de “Asignación Auto”
+
+![Asignación automática](/assets/img/docs/balance-management/bam-payment5.png)
 
 ### **Asignación de Pagos Masiva**
 
