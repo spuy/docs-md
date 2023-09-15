@@ -14,6 +14,8 @@ Cada una de las asignaciones realizadas en el sistema se podrán ver individualm
 
 El detalle de la asignación se ve en sus líneas donde se pueden realizar diversas combinaciones (Factura – Nota de crédito, Factura – Pago, Factura – Cargo o Pago - Cargo).
 
+![Consulta de asignación](/assets/img/docs/balance-management/bam-am1.png)
+
 ### Trazabilidad de Asignaciones en los Documentos
 
 #### Documentos por Pagar
@@ -22,11 +24,15 @@ Podrá ver las asignaciones a este documento en la pestaña de Pagos Asignados.
 
 Podrá navegar a la asignación haciendo clic en el documento.
 
+![Documento por Pagar](/assets/img/docs/balance-management/bam-am2.png)
+
 #### Documentos por Cobrar
 
-Podrá ver las asignaciones a este documento en la pestaña de Pagos Asignados.
+Podrá ver las asignaciones a este documento en la pestaña de Facturas Pagadas.
 
 Podrá navegar a la asignación haciendo clic en el documento.
+
+![Documento por Cobrar](/assets/img/docs/balance-management/bam-am3.png)
 
 #### Recibo de Pago
 
@@ -34,11 +40,15 @@ Podrá ver las asignaciones a este documento en la pestaña de Documentos Asigna
 
 Podrá navegar a la asignación haciendo clic en el documento.
 
+![Recibo de Pago](/assets/img/docs/balance-management/bam-am4.png)
+
 #### Recibo de Cobro
 
 Podrá ver las asignaciones a este documento en la pestaña de Documentos Asignados.
 
 Podrá navegar a la asignación haciendo clic en el documento.
+
+![Recibo de Cobro](/assets/img/docs/balance-management/bam-am5.png)
 
 ### Asignación
 
