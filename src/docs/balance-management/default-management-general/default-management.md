@@ -9,9 +9,10 @@ article: false
 
 ### **Cálculo de Morosidad**
 
-El cálculo de Morosidad es un documento (o un proceso que se inicia con el objeto de tener una foto de los pendientes por cobrar/pagar y que luego se convierte en una carta de deuda o estado de cuenta por cada cliente/familia morosa). que se genera con el objetivo de presentar todos los Documentos por Pagar o Cobrar que se encuentran con saldo abierto en el momento que se corre según la fecha que se defina.
+El cálculo de Morosidad es un proceso que se inicia con el objeto de tener una foto de los pendientes por cobrar/pagar y que luego se convierte en una carta de deuda o estado de cuenta por cada cliente/familia morosa. 
+Se genera a los efectos de presentar todos los Documentos por Pagar o Cobrar que se encuentran con saldo abierto en el momento que se corre según la fecha que se defina.
 
-Las condiciones exactas que serán consideradas al correr un Cálculo de Morosidad dependerá de la Morosidad que se seleccione así como también su Nivel de Morosidad definido. (Morosidad como concepto se refiere a una característica propia del SDN y es en este maestro donde se define esta cualidad, en la vertical de educación, en general se configura como estado de cuenta, a su vez, en el maestro de morosidad puede setearse en esta característica diversos parámetros como ser mostrar todas las deudas, o bien no mostrarlos y solo enviar un aviso de deuda sin importes, o enviar deudas por rangos fecha, etc)
+Las condiciones exactas que serán consideradas al correr un Cálculo de Morosidad dependerá de la Morosidad que se seleccione así como también su Nivel de Morosidad definido. (Morosidad como concepto se refiere a una característica propia del SDN y es en este maestro donde se define esta cualidad (en general se configura como estado de cuenta), a su vez, en el maestro de morosidad puede setearse en esta característica diversos parámetros como ser mostrar todas las deudas, o bien no mostrarlos y solo enviar un aviso de deuda sin importes, o enviar deudas por rangos fecha, etc)
 
 A partir de un Cálculo de Morosidad se generarán tantas entradas como Socios del Negocio con deuda se encuentren según las condiciones y parámetros aplicados en el proceso.
 
@@ -24,7 +25,7 @@ El envío de estas cartas de morosidad o estados de cuenta podrá ser realizado 
 
 Cada envío será realizado con un proceso de envío de notificaciones del sistema llamado “Notificaciones”. El proceso generará todas las notificaciones necesarias pero las mismas no serán enviadas todas en simultáneo, sino que un proceso posterior que corre según se tenga configurado (Automático o manual) irá realizando el envío del lote que se tenga definido. Normalmente se tiene definido enviar 20 notificaciones cada 5 minutos.
 
-una vez se genere el envío, se crearán tantas Notificaciones como corresponda donde se podrá ver en ellas el Usuario destino, el texto del Correo así como también el Reporte adjunto y el correo destinatario y el correo remitente (este correo remitente varía según la Compañía / Organización / Usuario) 
+Una vez generado el envío, se crearán tantas Notificaciones como corresponda donde se podrá ver en ellas el Usuario destino, el texto del Correo así como también el Reporte adjunto y el correo destinatario y el correo remitente (este correo remitente varía según la Compañía / Organización / Usuario) 
 
 Dentro del cabezal del Cálculo de Morosidad se podrá visualizar la cantidad de Notificaciones que dicho cálculo tiene generada y se podrán ver cada una de ellas en la pestaña de “Correos para enviar” ubicada como hija del cabezal. Un 2do campo de “correos enviados” se podrá ver también en el cabezal donde se sumarán todas aquellas notificaciones que ya han sido enviadas por el proceso de cola de envío de notificaciones.
 
@@ -46,7 +47,7 @@ Dentro de los criterios podemos seleccionar:
 
 **Template de Correo:** Definición de la Plantilla de correo que se enviará como texto en el correo.
 
-**Check de “Send EMail”:** Este check podrá ser desmarcado para realizar pruebas de envios sin enviar realmente el correo al Socio del Negocio. Este envio se pdorá visualizar en la ventana de Bitácora de Emails. Si se define el check en “Y” se enviará también el correo a los usuarios definidos como que se envie mail en la Familia del Responsable de Pago.
+**Check de “Send EMail”:** Este check podrá ser desmarcado para realizar pruebas de envios sin enviar realmente el correo al Socio del Negocio. Si se define el check en “Y” se enviará también el correo a los usuarios definidos como que se envie mail en la Familia del Responsable de Pago.
 
 ### **Reporte de Estado de Cuenta**
 

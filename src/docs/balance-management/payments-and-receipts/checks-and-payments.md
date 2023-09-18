@@ -28,6 +28,8 @@ Para realizar rechazos de Cheques al Día se deberá seguir el siguiente procedi
 
 * Para realizar el Cobro del Cheque Rechazado una vez sea abonado por el Cliente se deberá utilizar el Smart Browser de Depósito de Cheques para que ingrese al banco el nuevo pago correspondiente.
 
+![Rechazo de Pago/Cobro](/assets/img/docs/balance-management/bam-checks1.png)
+
 ### **Opciones Para Emitir Cheques**
 
 Muchas empresas emiten Cheques a Pagar a los efectos de cancelar los compromisos con sus proveedores.
@@ -76,6 +78,10 @@ Luego de guardar el registro, mediante el botón “Generar Líneas” se cargar
 Aquí se podrá ver si ya han sido emitidos, en qué fecha y por qué documento se emitió.
 
 De regreso en la ventana de libreta/resma de cheques, se debe ingresar el nombre, nombre a ser impreso, cuenta bancaria y la secuencia del documento (definida anteriormente).
+
+![Libreta/Resma Cheques](/assets/img/docs/balance-management/bam-checks2.png)
+
+![Secuencia de Documentos Controlados](/assets/img/docs/balance-management/bam-checks3.png)
 
 ### **Visualizar estado de los Cheques emitidos**
 
