@@ -251,9 +251,8 @@ Seleccione en el campo **Crear**, el documento que requiere crear para reabastec
 
 Imagen 18. Campo Crear de la Ventana Reabastecimiento de Almacén
 
-Note
-
-Cuando se requiere generar el documento **Orden de Compra**, es obligatorio seleccionar el socio del negocio proveedor en la columna **Socio del Negocio** de la ventana **Reabastecimiento de Almacén**.
+> [!NOTE]
+> Cuando se requiere generar el documento **Orden de Compra**, es obligatorio seleccionar el socio del negocio proveedor en la columna **Socio del Negocio** de la ventana **Reabastecimiento de Almacén**.
 
 Seleccione en el campo **Tipo de Documento**, el tipo de documento con el que requiere que se genere el documento en estado **Borrador**.
 

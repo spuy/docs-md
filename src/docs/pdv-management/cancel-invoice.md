@@ -34,9 +34,8 @@ Seleccione la acción **Reversar-Corregir** y la opción **OK**, para ejecutar e
 
 Imagen 4. Acción Reversar-Corregir y Opción OK
 
-Note
-
-El procedimiento explicado anteriormente, debe ser realizado con los diferentes cobros que tiene asociado la factura.
+> [!NOTE]
+> El procedimiento explicado anteriormente, debe ser realizado con los diferentes cobros que tiene asociado la factura.
 
 ## Anular Factura
 

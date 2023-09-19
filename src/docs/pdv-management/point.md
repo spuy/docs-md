@@ -80,9 +80,8 @@ A continuación indique el código del cliente (Cédula/RIF) en el campo **Códi
 
 Imagen 7. Código Socio de Negocio
 
-Warning
-
-Solop ERP actualiza de modo automático el campo **Número Identificación**, este campo es utilizado para reportes fiscales (Ejemplo:IGTF).
+> [!WARNING]
+> Solop ERP actualiza de modo automático el campo **Número Identificación**, este campo es utilizado para reportes fiscales (Ejemplo:IGTF).
 
 A continuación indique el nombre o razón social del cliente en el campo **Nombre**.
 

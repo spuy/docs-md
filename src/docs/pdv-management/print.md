@@ -44,8 +44,7 @@ Seleccione la opción **OK**, para generar el reporte requerido en la impresora 
 
 Imagen 5. Opción
 
-Warning
-
-Recuerde que el reporte **X**, debe ser generado todos los días antes de realizar alguna transacción en el punto de venta, ya que este indica el inicio del día en la impresora.
+> [!WARNING]
+> Recuerde que el reporte **X**, debe ser generado todos los días antes de realizar alguna transacción en el punto de venta, ya que este indica el inicio del día en la impresora.
 
 Adicional a ello, el reporte **Z** debe ser generado todos los días al culminar todas las transacciones que se deban realizar en el punto de venta. Este indica el cierre del día en la impresora.
