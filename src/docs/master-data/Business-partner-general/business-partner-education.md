@@ -20,6 +20,8 @@ Un Socio del Negocio corresponde a una entidad con la que se hacen negocios. Hay
 
 En la vertical de Educación tanto el Estudiante como su Responsable de Pago son considerados Socios del Negocio.
 
+![Socio del Negocio](/assets/img/docs/master-data/mad-education1.png)
+
 Grupo de Socio del Negocio (Campo)
 
 Al Estudiante se recomienda definirlo en el campo Grupo de Socio del Negocio: “Estudiantes” así como en los Familiares definir el Grupo de Socio del Negocio “Familiares”.
@@ -51,6 +53,8 @@ Es obligatorio ingresar la localización (domicilio) en un Socio de Negocio. Ing
 La Familia se crea como una agrupación donde dentro de la misma se podrán encontrar sus correspondientes miembros junto con el vínculo que los define (Padre, Madre, Hijo, Tutor).
 
 Los Vínculos podrán ser parametrizados según sea necesario.
+
+![Familia](/assets/img/docs/master-data/mad-education2.png)
 
 **Responsable de Pago:**
 
@@ -84,6 +88,8 @@ Para crear una nueva Familia se deberá seleccionar:
   * Madre
 
 Puede ingresar también los Miembros de la Familia desde el Contrato de Servicios, posicionándose en Alumno, haciendo click derecho y seleccionando Registro nuevo.
+
+![Miembros](/assets/img/docs/master-data/mad-education3.png)
 
  ### **Definir la cantidad de Hermanos en la Familia:**
 

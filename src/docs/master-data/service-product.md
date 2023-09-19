@@ -18,9 +18,13 @@ Todos los productos que se utilizarán deberán estar definidos en la ventana �
 * **Comprado:** Si el producto es comprado definir “Si”.
 * **Vendido:** Si el producto es comprado definir “Si”.
 
+![Productos de Servicios](/assets/img/docs/master-data/mad-serviceproduct1.png)
+
 ### **Pestaña Precio**
 
 En esta pestaña se definirá la Versión de lista de precios que el producto tenga definida en la ventana Lista de Precios.
+
+![Precio](/assets/img/docs/master-data/mad-serviceproduct2.png)
 
 ### **Ventana Lista de Precios**
 
