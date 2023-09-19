@@ -14,6 +14,8 @@ Este Proceso crea de manera automática un Pago en la Cuenta Origen (que emite l
 
 Estas Transferencias podrán involucrar una misma moneda debitada y acreditada o puede involucrar 2 monedas, una moneda de Origen y otra moneda de Destino. Aquí se verá la transferencia de una misma moneda, ya sea de la moneda esquema de la empresa como de cualquier otra. La Transferencia de distinta moneda se puede ver en Moneda Extranjera.
 
+![Transferencia Bancaria](/assets/img/docs/balance-management/bam-transfer1.png)
+
 ### **Transferencias en la misma moneda**
 
 * **Cuenta Bancaria origen:** Cuenta bancaria que emite los fondos
@@ -45,6 +47,8 @@ Esta operación debitará la cuenta bancaria USD y acreditará la cuenta Bancari
 
 La elección del cargo “Transferencia”, determinará los asientos contables de compra y venta utilizando la cuenta puente “Diferencia Compra ME”. La diferencia de cambio correspondiente a esta operación quedará como saldo en dicha cuenta.
 
+![Transferencia Bancaria Multimoneda](/assets/img/docs/balance-management/bam-transfer2.png)
+
 ### **Operación de Cambio de Moneda**
 
 Para ello se utilizará la ventana Operación de Cambio
@@ -62,6 +66,8 @@ Importe: Se deberá seleccionar los siguientes campos para definir el importe de
 Al completar se generará automáticamente un documento de Pago por el importe correspondiente al “Emisor” y un Cobro al “Receptor”
 
 En cada Pago/Cobro que se genere se definirá por defecto el Cargo “Compra/Venta de Moneda Extranjera”. Este campo tendrá definida una cuenta contable donde se utilizará como Puente entre ambas transferencias (Pago - Cobro), permaneciendo en la misma la Diferencia de Cambio generada por la Cotización definida contra la Tasa de Cambio Contable del día.
+
+![Operación de Cambio](/assets/img/docs/balance-management/bam-transfer3.png)
 
 ### **Operación de Cambio de Moneda con Selección de Pagos**
 
