@@ -76,9 +76,8 @@ De igual manera, se puede visualizar en la ventana **Devolución Cliente**, el r
 
 Este documento se genera de manera automática, cuando existe un documento de entrega asociado a la venta.
 
-Note
-
-Recuerde que dicho documento de entrega se puede generar de manera automática según la configuración del tipo de documento, como se indica en el material Gestión PDV.
+> [!NOTE]
+> Recuerde que dicho documento de entrega se puede generar de manera automática según la configuración del tipo de documento, como se indica en el material Gestión PDV.
 
 ![Campo](/assets/img/docs/pdv-management/pdm-pdv-image23.png)
 
