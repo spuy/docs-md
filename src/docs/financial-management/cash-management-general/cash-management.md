@@ -26,3 +26,5 @@ Se podrá crear Cajas para aquellas Cajas reales que tiene la Organización, per
 Ejemplo:
 
 **Cobranzas a Depositar**
+
+![Definición de Cajas](/assets/img/docs/financial-management/fim-financial-cash1.png)
