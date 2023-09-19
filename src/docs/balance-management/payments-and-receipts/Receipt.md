@@ -22,6 +22,8 @@ Para realizar un Recibo de Pago se deberá ingresar a la ventana “Recibo de Pa
 
 **Referencia:** Referencia del Documento, se podrá poner la OC que corresponde por ejemplo.
 
+![Recibo de Pago](/assets/img/docs/balance-management/bam-receipt1.png)
+
 Acciones
 
 ### **Asignar Facturas (Documentos por Pagar)**
@@ -73,6 +75,8 @@ Es un documento emitido por la empresa que relaciona qué está cobrando y con q
 El recibo de cobro tiene un total monetario que está formado por la suma de los “Medios de Pago”, este total nunca puede exceder el total del recibo de cobro
 
 El recibo de cobro tiene documentos afectados o “Documentos Por Cobrar”, que pueden afectarse total o parcialmente, la suma de esta relación puede ser igual o menor que el Recibo de Cobro pero nunca superior.
+
+![Recibo de Cobro](/assets/img/docs/balance-management/bam-receipt2.png)
 
 ### **Ingreso del Recibo de Cobro una moneda**
 
