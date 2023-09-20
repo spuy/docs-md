@@ -30,7 +30,14 @@ export default defineUserConfig({
     },
   },
 
-  theme,
+  theme: hopeTheme({
+    plugins: {
+      mdEnhance: {
+        // this is the default option, so you can use it directly
+        container: true,
+      },
+    },
+  }),
 
   plugins: [
     docsearchPlugin({

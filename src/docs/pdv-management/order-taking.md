@@ -32,8 +32,9 @@ Podrá visualizar la ventana **Selecciona Terminal PDV**, para seleccionar el te
 
 Imagen 3. Ventana Selecciona Terminal PDV
 
-> [!NOTE]
-> Esta opción es habilitada cuando el socio del negocio vendedor tiene configurado más de un terminal de punto de venta.
+::: note
+Esta opción es habilitada cuando el socio del negocio vendedor tiene configurado más de un terminal de punto de venta.
+:::
 
 La interfaz de la ventana **Punto de Venta**, se encuentra definida de forma específica en el documento Interfaz de Punto de Venta, elaborado por Solop ERP. Realice cada uno de los procesos explicados a continuación para obtener un resultado exitoso en la toma de pedido por el punto de venta.
 
@@ -51,8 +52,9 @@ Ubique la información del cliente en el Panel de Socio del Negocio Cliente.
 
 Imagen 5. Seleccionar Cliente para la Venta
 
-> [!NOTE]
-> Recuerde que debe cambiar la información del socio **Cliente Unico** por la información del cliente real de la venta, ya que esta información saldrá impresa en la factura fiscal generada al concluir la venta.
+::: note
+Recuerde que debe cambiar la información del socio **Cliente Unico** por la información del cliente real de la venta, ya que esta información saldrá impresa en la factura fiscal generada al concluir la venta.
+:::
 
 Puede proceder a cargar los productos desde el Catálogo de Productos. De igual manera, puede realizar este proceso desde el Panel de Búsqueda de Productos
 
@@ -102,8 +104,9 @@ El campo **Cambio**, indica el monto total que debe ser devuelto al cliente por 
 
 El check **Cobro Completo**, debe ser utilizado cuando se presente un caso de cobro en efectivo de monto con decimales y se requiera realizar un cobro mayor (completo), para posteriormente generar el egreso por el cambio del mismo. Solop ERP, refleja en el campo **Cambio**, el monto correspondiente al cambio que debe ser entregado al cliente.
 
-> [!NOTE]
-> Cuando el monto a pagar en efectivo es en divisas y con decimales, se tilda el check **Cobro Completo** y se ingresa el monto real a cobrar en el campo **Monto**.
+::: note
+Cuando el monto a pagar en efectivo es en divisas y con decimales, se tilda el check **Cobro Completo** y se ingresa el monto real a cobrar en el campo **Monto**.
+:::
 
 Suponiendo que el día **10/02/2021**, se tiene la orden de venta **OPOS-5184** con monto total a pagar de **75.917.563,54** y el cliente decide cancelar con dólares en efectivo, los siguientes datos serían:
 
@@ -131,8 +134,9 @@ Seleccione en el campo **Forma de Pago**, la forma utilizada por el cliente para
 
 Imagen 12. Campo Forma de Pago del Pago Regular del Icono Pago de la Ventana Punto de Venta
 
-> [!NOTE]
-> Para la forma de pago **Caja**, no es obligatorio ingresar un valor en el campo **No. de Referencia**. Sin embargo, se utiliza para ingresar el serial del billete recibido o cualquier otra forma de identificación del cobro.
+::: note
+Para la forma de pago **Caja**, no es obligatorio ingresar un valor en el campo **No. de Referencia**. Sin embargo, se utiliza para ingresar el serial del billete recibido o cualquier otra forma de identificación del cobro.
+:::
 
 Adicional a ello, para las otras formas de pago si es un valor obligatorio y corresponde al número de referencia de la transacción efectuada en el banco. Este valor es necesario al momento de realizar las conciliaciones bancarias.
 
@@ -174,8 +178,9 @@ Seleccione en el campo **Forma de Pago**, la forma utilizada por el cliente para
 
 Imagen 18. Campo Forma de Pago del Pago Especial del Icono Pago de la Ventana Punto de Venta
 
-> [!NOTE]
-> Para la forma de pago **Caja**, no es obligatorio ingresar un valor en el campo **No. de Referencia**. Sin embargo, se utiliza para ingresar el serial del billete recibido o cualquier otra forma de identificación del cobro.
+::: note
+Para la forma de pago **Caja**, no es obligatorio ingresar un valor en el campo **No. de Referencia**. Sin embargo, se utiliza para ingresar el serial del billete recibido o cualquier otra forma de identificación del cobro.
+:::
 
 Adicional a ello, para las otras formas de pago si es un valor obligatorio y corresponde al número de referencia de la transacción efectuada en el banco. Este valor es necesario al momento de realizar las conciliaciones bancarias.
 
@@ -209,8 +214,9 @@ Seleccione el icono **Más**, para habilitar otro grupo de campos de pago e ingr
 
 Imagen 23. Otra Forma de Pago del Pago Especial del Icono Pago de la Ventana Punto de Venta
 
-> [!NOTE]
-> Si requiere cargar otra forma de pago adicional a las dos anteriores, puede seleccionar nuevamente el icono **Más** y proceder a cargar el cobro con dicha forma de pago.
+::: note
+Si requiere cargar otra forma de pago adicional a las dos anteriores, puede seleccionar nuevamente el icono **Más** y proceder a cargar el cobro con dicha forma de pago.
+:::
 
 Para eliminar una forma de pago ya seleccionada previamente, seleccione el icono **Menos**.
 
@@ -224,8 +230,9 @@ Seleccione la opción **OK**, para generar el cobro de los productos cargados en
 
 Imagen 25. Opción OK del Pago Especial del Icono Pago de la Ventana Punto de Venta
 
-> [!NOTE]
-> Al completar el proceso para generar el cobro de los productos ingresados a la orden de venta POS, se crea automáticamente un documento de cobro en la ventana **Caja**, por cada forma de pago utilizada.
+::: note
+Al completar el proceso para generar el cobro de los productos ingresados a la orden de venta POS, se crea automáticamente un documento de cobro en la ventana **Caja**, por cada forma de pago utilizada.
+:::
 
 Adicional a ello, se crea una factura por cobrar en la ventana **Documento por Cobrar**, asociada a la orden de venta POS y los diferentes cobros asignados a dicha orden.
 

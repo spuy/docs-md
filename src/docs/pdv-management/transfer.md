@@ -48,8 +48,9 @@ Seleccione en el campo **Cuenta Bancaria**, la cuenta caja por la cual requiere 
 
 Imagen 5. Campo Cuenta Bancaria
 
-> [!NOTE]
-> Para el realizar el depósito de caja a banco, se debe seleccionar la cuenta caja administrativa en la cual se encuentran los registros de los monto que serán transferidos a banco.
+::: note
+Para el realizar el depósito de caja a banco, se debe seleccionar la cuenta caja administrativa en la cual se encuentran los registros de los monto que serán transferidos a banco.
+:::
 
 Seleccione en el campo **Socio del Negocio**, el socio del negocio por el cual requiere filtar la búsqueda de la información.
 
@@ -201,8 +202,9 @@ Realice el procedimiento regular para registrar una transferencia bancaria en So
 
 Imagen 24. Transferencia Bancaria
 
-> [!WARNING]
-> Recuerde que se debe realizar una transferencia bancaria por cada pago móvil y transferencia bancaria recibida.
+::: warning
+Recuerde que se debe realizar una transferencia bancaria por cada pago móvil y transferencia bancaria recibida.
+:::
 
 ## Consultar Egreso e Ingreso Generado de la Transferencia
 

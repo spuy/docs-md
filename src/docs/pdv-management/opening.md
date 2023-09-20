@@ -14,15 +14,17 @@ Adicional a ello, crea un registro en dicha ventana **Cierre de Caja**, con la c
 
 Para mejor referencia de lo explicado anteriormente, se presenta a continuación el diagrama del proceso **Apertura de Caja POS**, con la finalidad dar a conocer el comportamiento de Solop ERP ante dicho proceso.
 
-> [!NOTE]
-> Recuerde que este proceso se debe realizar antes de iniciar las ventas del día. Adicional a ello, es un proceso necesario al momento del cierre de caja.
+::: note
+Recuerde que este proceso se debe realizar antes de iniciar las ventas del día. Adicional a ello, es un proceso necesario al momento del cierre de caja.
+:::
 
 ![Campo](/assets/img/docs/pdv-management/pdm-pdv-image125.png)
 
 Imagen 1. Diagrama de Apertura de Caja POS
 
-> [!WARNING]
-> No debe realizar el proceso de apertura de caja si no es entregado fisicamente el dinero en la respectiva caja. De lo contrario, los saldos de la caja en Solop ERP no tendrán ninguna coincidencia con los saldos que existen fisicamente en la caja.
+::: warning
+No debe realizar el proceso de apertura de caja si no es entregado fisicamente el dinero en la respectiva caja. De lo contrario, los saldos de la caja en Solop ERP no tendrán ninguna coincidencia con los saldos que existen fisicamente en la caja.
+:::
 
 ## Ejecución del Proceso
 
@@ -54,8 +56,9 @@ Si la transferencia a realizar es en euros, se debe seleccionar la cuenta caja *
 
 En el campo **Caja a Transferir**, se encuentra la cuenta caja destino seleccionada en el terminal PDV como cuenta bancaria a la cual se realizará la transferencia. El valor de este campo se carga de manera automática, al seleccionar el terminal de la caja en el campo **Terminal PDV**. En este caso, un ejemplo sería: **Caja 01**.
 
-> [!NOTE]
-> Recuerde que el terminal a seleccionar en el campo **Terminal PDV**, debe ser el terminal correspondiente a la caja donde realizará las operaciones de ventas el socio del negocio empleado.
+::: note
+Recuerde que el terminal a seleccionar en el campo **Terminal PDV**, debe ser el terminal correspondiente a la caja donde realizará las operaciones de ventas el socio del negocio empleado.
+:::
 
 En el campo **Socio del Negocio**, se carga de manera automática el socio del negocio empleado que realizará las operaciones en la caja indicada en el campo **Caja a Transferir**, previamente configurado en el terminal seleccionado en el campo **Terminal PDV**. En este caso, un ejemplo sería: **Vendedor**.
 
@@ -63,8 +66,9 @@ En el campo **Tipo de Conversión**, se carga de manera automática el tipo de c
 
 En el campo **Moneda**, se debe seleccionar la moneda a ser utilizada en la transferencia del dinero. En este caso, un ejemplo sería: **USD**
 
-> [!NOTE]
-> Se debe realizar una transferencia por moneda, cuando se necesite aperturar la caja con más de una moneda.
+::: note
+Se debe realizar una transferencia por moneda, cuando se necesite aperturar la caja con más de una moneda.
+:::
 
 En el campo **Cargo**, se debe seleccionar el cargo **Efectivo en Tránsito Administración**.
 
@@ -84,8 +88,9 @@ En el campo **Fecha Contable**, Solop ERP establece la fecha en la que se esta r
 
 Imagen 4. Transferencia Bancaria de Apertura de Caja
 
-> [!NOTE]
-> Recuerde seleccionar la opción **OK**, ubicada en la parte inferior de la ventana **Transferencia Bancaria**, para completar el proceso y simular en Solop ERP el movimiento monetario realizado.
+::: note
+Recuerde seleccionar la opción **OK**, ubicada en la parte inferior de la ventana **Transferencia Bancaria**, para completar el proceso y simular en Solop ERP el movimiento monetario realizado.
+:::
 
 ## Consultar Egreso e Ingreso Generado de la Apertura de Punto de Venta
 
