@@ -256,8 +256,9 @@ Permite realizar una búsqueda por código de producto, de todos los productos p
 
 Imagen 41. Carga de Productos por Búsqueda
 
-> [!NOTE]
-> Esta acción se ejecuta automáticamente al ingresar el código del producto en el campo **Código**.
+::: note
+Esta acción se ejecuta automáticamente al ingresar el código del producto en el campo **Código**.
+:::
 
 **Coincidencia por Código de Producto**: Permite buscar el producto por el código de identificación del mismo.
 
