@@ -67,6 +67,7 @@ export default hopeTheme({
       sup: true,
       tex: true,
       vpre: true,
+      container: true,
     },
 
     pwa: {
