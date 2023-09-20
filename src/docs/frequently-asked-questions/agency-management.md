@@ -132,23 +132,6 @@ De esta manera los Cálculos de comisiones generados antes de aplicar este proce
 
 Se generarán los nuevos  Cálculos de comisiones aplicando los nuevos porcentajes definidos y una nueva Orden de venta honorarios en estado Completo.
 
-##### Actualización de Cálculo de comisiones por Comisiones al proveedor
-
-Se deberán seguir los siguientes pasos:
-
-* Desde el proveedor en la ventana Socio del negocio, pestaña Comisiones del proveedor modificaremos el campo “Multiplicador” a la comisión en cuestión que queramos modificar, indicando aquí el nuevo valor. Guardamos el registro.
-* Luego desde la Orden de compra a la que se aplicaron los honorarios correremos el proceso “Actualizar Cálculo de Comisión de Orden”
-
-De esta manera los Cálculos de comisiones generados antes de aplicar este proceso serán Cerrados al igual que su Orden de venta por la comisión.
-
-Se generarán los nuevos Cálculos de comisiones aplicando los nuevos porcentajes definidos y una nueva Orden de venta en estado Completo.
-
-#### ¿Cuándo se calculan los Cálculos de comisiones al Proveedor?
-
-Los Cálculos de comisiones al proveedor que se aplican a una compra se crearán al completar la Orden de Compra Cliente.
-
-En el caso de las Comisiones tenemos un funcionamiento diferente al de Honorarios ya que estas son nuevamente calculadas cuando llega la factura del proveedor.
-
 #### ¿Cómo se genera la Orden de Venta Honorarios?
 
 La Orden de Venta de Honorarios se generará automáticamente desde el Cálculo de Comisiones siempre y cuando éste tenga un importe mayor a 0.
