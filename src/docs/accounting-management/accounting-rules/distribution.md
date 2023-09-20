@@ -104,9 +104,9 @@ El checklist **Crear Reversión**, indica que el movimiento de reversión se cre
 
 Imagen 9. Checklist Crear Reversión de la Ventana Distribución Contable
 
-Warning
-
+::: warning
 Si se inhabilita el checklist, el movimiento original será borrado.
+:::
 
 Seleccione en el campo **Tipo de Aplicación**, el tipo de aplicación que será utilizado para la distribución que esta realizando.
 
@@ -204,9 +204,9 @@ Al destildar el checklist **Cualquier Usuario 1**, se habilita el campo **Centro
 
 Imagen 25. Campo Centro de Costos del Checklist Cualquier Usuario 1 de la Ventana Distribución Contable
 
-Note
-
+::: note
 Recuerde guardar el registro de los campos de la pestaña antes de posicionarse en otra pestaña de la misma ventana, seleccionando el icono **Guardar Cambios** ubicado en la barra de herramientas de Solop ERP.
+:::
 
 ## Línea
 
@@ -246,9 +246,9 @@ El checklist **Signo de cuenta invertida**,
 
 Imagen 31. Checklist Signo de Cuenta Invertida de la Pestaña Línea de la Ventana Distribución Contable
 
-Note
-
+::: note
 Al seleccionar el checklist **Signo de cuenta invertida**, no se habilita ningún campo.
+:::
 
 El checklist **Sobrescribir tipo de publicación**, Sobreescribe el tipo de publicación con el valor especificado.
 
@@ -340,9 +340,9 @@ El checklist **Sobreescribe Usuario 3**,
 
 Imagen 46. Checklist Sobreescribe Usuario 3 de la Pestaña Línea de la Ventana Distribución Contable
 
-Note
-
+::: note
 Al seleccionar el checklist **Sobreescribe Usuario 3**, no se habilita ningún campo.
+:::
 
 El checklist **Sobreescribe Usuario 4**,
 
@@ -350,9 +350,9 @@ El checklist **Sobreescribe Usuario 4**,
 
 Imagen 47. Checklist Sobreescribe Usuario 4 de la Pestaña Línea de la Ventana Distribución Contable
 
-Note
-
+::: note
 Al seleccionar el checklist **Sobreescribe Usuario 4**, no se habilita ningún campo.
+:::
 
 Regrese a la pestaña **Distribución** y ubique el campo **Porcentaje Total**, ubicado en la parte inferior izquierda de la misma. En este campo podrá visualizar el porcentaje total de todas las distribuciones definidas en cada uno de los registros de la pestaña **Línea**.
 

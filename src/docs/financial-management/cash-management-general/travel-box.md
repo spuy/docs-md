@@ -33,9 +33,9 @@ Se realiza la transferencia bancaria a caja viáticos por el monto correspondien
 
 Imagen 1. Transferencia Bancaria por Viáticos
 
-Note
-
+::: note
 Al realizar el proceso de transferencia bancaria, es generado un egreso de banco y un ingreso a caja viáticos. De igual manera, es creado un cobro en caja y un pago en pago/cobro.
+:::
 
 Al consultar el egreso de banco en la ventana **Pago/Cobro**, se puede visualizar el mismo de la siguiente manera.
 
@@ -65,9 +65,9 @@ Se realiza el procedimiento regular para generar un cierre de caja, seleccionand
 
 Imagen 5. Cierre de Caja Viáticos
 
-Note
-
+::: note
 Se selecciona el registro de la relación de factura realizada anteriormente con el monto total de la factura. Adicional a ello, se selecciona el registro de la transferencia bancaria realizada anteriormente. Lo anterior, con la finalidad de llevar la cuenta caja viáticos a su monto inicial, para este ejemplo el monto inicial es cero (0).
+:::
 
 ### Viáticos Mayor al Gasto
 
@@ -81,9 +81,9 @@ Se realiza la transferencia bancaria a caja viáticos por el monto correspondien
 
 Imagen 6. Transferencia Bancaria por Viáticos
 
-Note
-
+::: note
 Al realizar el proceso de transferencia bancaria, es generado un egreso de banco y un ingreso a caja viáticos. De igual manera, es creado un cobro en caja y un pago en pago/cobro.
+:::
 
 Al consultar el egreso de banco en la ventana **Pago/Cobro**, se puede visualizar el mismo de la siguiente manera.
 
@@ -109,17 +109,17 @@ Imagen 9. Relación de Facturas de Gastos
 
 Realice el procedimiento regular para generar un cierre de caja, explicado en el documento Registro de Cierre de Caja, elaborado por Solop ERP, seleccionando la cuenta **Caja Viáticos** y el tipo de documento **Cierre de Caja Viáticos**.
 
-Note
-
+::: note
 Se selecciona el registro de la relación de factura realizada anteriormente con el monto total de la factura. Adicional a ello, se selecciona el registro de la transferencia bancaria realizada anteriormente. Lo anterior, con la finalidad de llevar la cuenta caja viáticos a su monto inicial, para este ejemplo el monto inicial es cero (0).
+:::
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image401.png)
 
 Imagen 10. Cierre de Caja Viáticos
 
-Warning
-
+::: warning
 Si el monto total de la transferencia bancaria realizada anteriormente a la caja viáticos del empleado es mayor al monto total gastado por el mismo, es necesario que el cierre de caja se genere en estado **Borrador** y se proceda a realizar una transferencia bancaria por el excedente del monto, antes de realizar el cierre de la caja viáticos del empleado nuevamente.
+:::
 
 #### Transferencia Bancaria por Excedente
 
@@ -129,9 +129,9 @@ Realice el procedimiento regular para generar una transferencia bancaria, explic
 
 Imagen 11. Transferencia Bancaria por Excedente de Viáticos
 
-Note
-
+::: note
 Al realizar el proceso de transferencia bancaria, es generado un egreso de caja viáticos y un ingreso a banco. De igual manera, es creado un pago en caja y un cobro en pago/cobro.
+:::
 
 Al consultar el egreso de caja viáticos en la ventana **Caja**, se puede visualizar el mismo de la siguiente manera.
 
@@ -153,9 +153,9 @@ Ubique el registro del cierre de caja **CCV-2**, generado anteriormente en estad
 
 Imagen 14. Cierre de Caja Viáticos
 
-Note
-
+::: note
 Se selecciona el registro de la transferencia bancaria realizada desde la cuenta caja viáticos, por el monto restante abierto en dicha caja. Lo anterior, con la finalidad de llevar la cuenta caja viáticos a su monto inicial, para este ejemplo el monto inicial es cero (0).
+:::
 
 ## Gasto Mayor a Viáticos
 
@@ -169,9 +169,9 @@ Se realiza la transferencia bancaria a caja viáticos por el monto correspondien
 
 Imagen 15. Transferencia Bancaria por Viáticos
 
-Note
-
+::: note
 Al realizar el proceso de transferencia bancaria, es generado un egreso de banco y un ingreso a caja viáticos. De igual manera, es creado un cobro en caja y un pago en pago/cobro.
+:::
 
 Al consultar el egreso de banco en la ventana **Pago/Cobro**, se puede visualizar el mismo de la siguiente manera.
 
@@ -197,17 +197,17 @@ Imagen 18. Relación de Facturas de Gastos
 
 Realice el procedimiento regular para generar un cierre de caja, explicado en el documento Registro de Cierre de Caja, elaborado por Solop ERP, seleccionando la cuenta **Caja Viáticos** y el tipo de documento **Cierre de Caja Viáticos**.
 
-Note
-
+::: note
 Se selecciona el registro de la relación de factura realizada anteriormente con el monto total de la factura. Adicional a ello, se selecciona el registro de la transferencia bancaria realizada anteriormente. Lo anterior, con la finalidad de llevar la cuenta caja viáticos a su monto inicial, para este ejemplo el monto inicial es cero (0).
+:::
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image409.png)
 
 Imagen 19. Cierre de Caja Viáticos
 
-Warning
-
+::: warning
 Si el monto total de la transferencia bancaria realizada anteriormente a la caja viáticos del empleado es menor al monto total gastado por el mismo, es necesario que el cierre de caja se genere en estado **Borrador** y se proceda a realizar una caja con el cargo **Monto no Reembolsable**, reflejando el monto total gastado de más, antes de realizar el cierre de la caja viáticos del empleado nuevamente.
+:::
 
 ### Relación de Montos no Reembolsables
 
@@ -225,6 +225,6 @@ Ubique el registro del cierre de caja **CCV-3**, generado anteriormente en estad
 
 Imagen 21. Cierre de Caja Viáticos
 
-Note
-
+::: note
 Se selecciona el registro de la transferencia bancaria realizada desde la cuenta caja viáticos, por el monto restante abierto en dicha caja. Lo anterior, con la finalidad de llevar la cuenta caja viáticos a su monto inicial, para este ejemplo el monto inicial es cero (0).
+:::

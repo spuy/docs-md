@@ -141,9 +141,9 @@ Ubique el documento de factura por pagar asociado al pago y seleccione la pesta�
 
 Imagen 13. Asignación Factura Pago
 
-Note
-
+::: note
 La asignación **Factura/Pago**, es generada automáticamente después de completar el documento **Pago**, asociado a la factura.
+:::
 
 Al hacer clic contrario sobre el campo **Asignación** en la pestaña **Pagos Asignados** de la ventana **Documentos por Pagar** y seleccionar la opción **Acercar**, podrá visualizar el documento de asignación donde debe seleccionar la opción **Contabilizado**, ubicado en la parte inferior de la ventana **Consulta de Asignación**.
 

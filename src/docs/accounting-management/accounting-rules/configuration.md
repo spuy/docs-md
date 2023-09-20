@@ -88,9 +88,9 @@ Seleccione la pestaña **Contabilidad** para definir la configuración contable 
 
 Imagen 3. Pestaña Contabilidad
 
-Note
-
+::: note
 Por defecto, la pestaña **Contabilidad**, trae precargados los campos **Compañía**, **Organización** y **Producto** con la información ingresada en la pestaña **Producto**. De igual forma, al seleccionar la versión de lista de precios en la pestaña **Precio**, trae cargado el esquema contable configurado.
+:::
 
 Seleccione el icono ubicado del lado derecho del campo **Inventario de Producto**, para seleccionar la combinación contable para el inventario del producto al cual le esta configurando la contabilidad.
 
@@ -316,9 +316,9 @@ Realice el procedimiento regular para configurar una combinación contable, el m
 
 Imagen 10. Combinación Contable del Campo Campo Pago Anticipado de Clientes
 
-Note
-
+::: note
 Recuerde guardar el registro de los campos de la pestaña **Contabilidad Cliente**, seleccionando el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
+:::
 
 ## Proveedor
 
@@ -382,9 +382,9 @@ Realice el procedimiento regular para configurar una combinación contable, el m
 
 Imagen 10. Combinación Contable del Campo Campo Anticipo del Proveedor
 
-Note
-
+::: note
 Recuerde guardar el registro de los campos de la pestaña **Contabilidad Proveedor**, seleccionando el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
+:::
 
 ## Empleado
 
@@ -436,9 +436,9 @@ Realice el procedimiento regular para configurar una combinación contable, el m
 
 Imagen 8. Combinación Contable del Campo Pago Anticipado a Empleados
 
-Note
-
+::: note
 Recuerde guardar el registro de los campos de la pestaña **Contabilidad Empleado**, seleccionando el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
+:::
 
 ## Catálogo de Conceptos
 
@@ -454,9 +454,9 @@ Podrá visualizar la ventana **Catálogo de Concepto**, con los diferentes regis
 
 Imagen 2. Ventana Catálogo de Concepto
 
-Note
-
+::: note
 Todo concepto de asignación debe tener en el campo **Naturaleza de Cuenta**, la opción **Débito**. De igual manera, todo concepto de deducción debe tener en el campo **Naturaleza de Cuenta**, la opción **Crédito**.
+:::
 
 Luego de ubicar el registro del concepto de nómina al cual se le definirá la configuración contable, seleccione la pestaña **Contabilidad de Concepto**.
 
@@ -694,9 +694,9 @@ Realice el procedimiento regular para configurar una combinación contable, el m
 
 Imagen 28. Combinación Contable del Campo Pérdida por Ajuste de la Pestaña Contabilidad de la Ventana Banco
 
-Note
-
+::: note
 Recuerde guardar el registro de los campos de la pestaña **Contabilidad**, seleccionando el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
+:::
 
 ## Caja
 
@@ -868,9 +868,9 @@ Realice el procedimiento regular para configurar una combinación contable, el m
 
 Imagen 28. Combinación Contable del Campo Pérdida por Ajuste de la Pestaña Contabilidad de la Ventana Definición de Diario de Caja
 
-Note
-
+::: note
 Recuerde guardar el registro de los campos de la pestaña **Contabilidad**, seleccionando el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
+:::
 
 ## Impuestos
 
@@ -952,6 +952,6 @@ Realice el procedimiento regular para configurar una combinación contable, el m
 
 Imagen 13. Combinación Contable del Campo Gastos Impuesto de la Pestaña Contabilidad de la Ventana Tasa de Impuesto
 
-Note
-
+::: note
 Recuerde guardar el registro de los campos de la pestaña **Contabilidad**, seleccionando el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
+:::

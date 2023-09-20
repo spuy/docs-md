@@ -99,9 +99,9 @@ Realice el procedimiento regular para generar una factura de cuentas por pagar, 
 
 Imagen 2. Factura por Pagar
 
-Note
-
+::: note
 Es necesario que el documento por pagar no se encuentre en estado completo, de esta manera se pueden aplicar los costos adicionales a los productos.
+:::
 
 Seleccione la pestaña **Costos Adicionales** y proceda al llenado de los campos correspondientes.
 
@@ -115,9 +115,9 @@ Podrá apreciar en el campo **Distribución de Costo**, que por defecto se encue
 
 Imagen 4. Campo Distribución de Costo
 
-Note
-
+::: note
 Este campo permite establecer con que tipología sera realizada la distribución de costos. Solop ERP utiliza cinco (5) tipologías para aplicar la distribución de costo a un producto.
+:::
 
 Cantidad.
 
@@ -141,9 +141,9 @@ Seleccione en el campo **Entrega/Recibo**, el documento de recepción del produc
 
 Imagen 6. Campo Entrega/Recibo
 
-Note
-
+::: note
 Este campo define el producto recepcionado al cual se le aplicará la distribución de costo según la tipología seleccionada anteriormente.
+:::
 
 Si el documento de recepción posee solo una línea de entrega/recibo, no es necesario seleccionar la línea en el campo **Línea entrega/recibo**.
 
@@ -155,9 +155,9 @@ Seleccione la opción **Distribución de Costos**, para aplicar el costo adicion
 
 Imagen 7. Distribución de Costos
 
-Note
-
+::: note
 Según la tipología seleccionada anteriormente, Solop ERP realiza la distribución de costos de la siguiente manera:
+:::
 
 Cantidad, realiza la distribución dividiendo el costo de la factura entre la cantidad del producto recepcionado.
 
@@ -463,9 +463,9 @@ Seleccione en el campo **Almacén**, el almacén por el cual el usuario requiere
 
 Imagen 4. Campo Almacén de la Ventana Valoración de la Transacción
 
-Note
-
+::: note
 Para simular el proceso y generar el reporte de valoración de inventario, se deja el campo **Almacén** en blanco, indicando de esta manera que la búsqueda de la información se debe realizar en todos los almacenes registrados en Solop ERP.
+:::
 
 Seleccione en el campo **Fecha de Movimiento**, el rango de fechas en el que se realizó el movimiento del producto y por el cual el usuario requiere filtrar la información.
 
@@ -479,9 +479,9 @@ Seleccione en el campo **Producto**, el producto por el cual el usuario requiere
 
 Imagen 6. Campo Producto de la Ventana Valoración de la Transacción
 
-Note
-
+::: note
 Para simular el proceso y generar el reporte de valoración de inventario, se selecciona como ejemplo el producto **Cucharilla**.
+:::
 
 Seleccione en el campo **Categoría del Producto**, la categoría a la que pertenece el producto seleccionado y por la cual el usuario requiere filtrar la información.
 

@@ -156,9 +156,9 @@ Seleccione el checklist **Entidad Acumulada**, para indicar que la cuenta en la 
 
 Imagen 17. Checklist Entidad Acumulada de la Pestaña Valor de Elemento de la Ventana Elemento Contable
 
-Note
-
+::: note
 La selección de este checklist, oculta la visibilidad de los demas checklist que se encuentran en la pestaña **Valor de Elemento**.
+:::
 
 Seleccione el checklist **Aplicar Actuales**, para indicar que la cuenta en la cual será utilizado este registro, los valores acutales pueden ser contabilizados.
 

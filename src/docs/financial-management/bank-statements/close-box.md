@@ -73,9 +73,9 @@ Seleccione la acción **Completar** y la opción **OK**, para completar el docum
 
 Imagen 13. Acción Completar y Opción OK
 
-Note
-
+::: note
 Recuerde que el procedimiento para gestionar el cierre de caja debe realizarce diariamente.
+:::
 
 ## Cierre de Caja Nómina
 
@@ -115,9 +115,9 @@ Posteriormente aparecen los movimientos que tenga registrados en su caja, en la 
 
 Imagen 4. Pagos a Cruzar
 
-Note
-
+::: note
 Cabe destacar que en el ejemplo que presentamos se evidencia la transferencia realizada y el pago de un solo empleado que fue con el que realizamos el proceso de nómina, sólo para este caso en específico, en su proceso le deben aparecer todos los empleados qué le procesaron la nómina
+:::
 
 Seleccione todos los pagos de los empleados y el monto de la transferencia bancaria
 
@@ -129,9 +129,9 @@ Por último nos dirigimos a la ventana principal de nuestro cierre de caja y en 
 
 Imagen 5. Saldo Final
 
-Warning
-
+::: warning
 Cabe destacar que el saldo final del cierre de la caja siempre debe quedar en cero 0. Sí no es así posiblemente esté realizando un procedimiento incorrecto
+:::
 
 Al finalizar este proceso proceda a finalizar el proceso completando su cierre de caja.
 

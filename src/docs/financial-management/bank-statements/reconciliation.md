@@ -326,9 +326,9 @@ Imagen 3. Ventana Pago/Cobro
 
 Para aquellos movimientos que se encuentran en el extracto bancario que al momento de realizar la conciliación no se asoció a ningún pago/cobro en Solop ERP por qué no se encontraban registrados pero sí se conoce su procedencia se deben asociar al tipo de transacción **Otro tipo de Pago** ya estando dentro de la opción **Crear Pago desde Estado de Cuenta** se debe realizar los siguientes pasos.
 
-Note
-
+::: note
 Para este caso se tomará como ejemplo un préstamo bancario, el cual el socio de negocio al que se le realizó el préstamo hizo un abono, en su momento esta transferencia no había sido notificada por ello no se realizó el registro del pago/cobro en Solop ERP, pero como se sabe de dónde proviene ese movimiento bancario este entraría dentro de la tipo de transacción **Otro tipo de Pago**.
+:::
 
 En la ventana de búsqueda inteligente **Crear Pago desde Estado de Cuenta** seleccione el o los pagos/cobros correspondientes a otros tipos de pagos.
 
@@ -398,9 +398,9 @@ Al momento de hacer la conciliaciòn bancaria la mayorìa de las veces suelen ha
 
 Para los movimientos bancarios que se desconocen de dónde proviene, en Solop ERP se llevan a pagos/cobros no identificados, para poder completar e identificar todos esos movimientos que posee el extracto bancario.
 
-Note
-
+::: note
 Los **Pago/Cobro** que se pasen a ser no identificados, luego podrán ser identificados una vez se verifique su procedencia.
+:::
 
 Para poder llevar estas transacciones bancarias a **Pagos o Cobros sin Identificar** ya estando dentro de la opción **Crear Pago desde Estado de Cuenta** se debe realizar los siguientes pasos.
 

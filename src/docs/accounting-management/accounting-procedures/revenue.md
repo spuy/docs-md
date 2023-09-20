@@ -14,9 +14,9 @@ Imagen 1. Menú de Solop ERP
 
 Una vez visualizada la ventana **Asientos Contables**, se procede a ubicar el registro del asiento contable que requiere actualizar. Esta búsqueda se puede realizar seleccionando el filtro **Hecho Contable** e ingresando el **ID** del mismo. Como ejemplo se tiene el hecho contable **5726493**.
 
-Note
-
+::: note
 De igual manera, se puede realizar la búsqueda utilizando los filtros **Cuenta**, **Fecha Contable**, **Fecha de la Transacción**, entre otros que van a depender de lo que requiera el usuario en su momento.
+:::
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image626.png)
 
@@ -62,9 +62,9 @@ Imagen 7. Tipo de Conversión y Tasa de Cambio a la Fecha de la Factura
 
 Cuando se tenga el tipo de conversión y tasa de cambio a la fecha de la factura, se debe cambiar el valor que se encuentra en el campo **Tipo de Conversión** de la factura y seleccionar el tipo de conversión creado. Continuando con el ejemplo, el tipo de conversión a seleccionar sería **BCV 16/03/2021**.
 
-Note
-
+::: note
 Si el tipo de conversión no puede ser visualizado, debe hacer clic contario sobre el campo y selecionar la opción **Refrescar**, para actualizar los valores que muestra el mismo.
+:::
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image632.png)
 
@@ -84,9 +84,9 @@ Imagen 10. Registro del Cobro
 
 Una vez ubicado el registro del cobro asociado a la factura, se debe cambiar el tipo de conversión que tiene el mismo y asociar el tipo de conversión creado para luego guardar el registro.
 
-Note
-
+::: note
 Si el tipo de conversión no puede ser visualizado, debe hacer clic contario sobre el campo y selecionar la opción **Refrescar**, para actualizar los valores que muestra el mismo.
+:::
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image635.png)
 
@@ -104,9 +104,9 @@ Al visualizar la ventana **Información Contable**, se activa el check **Forzar*
 
 Imagen 13. Check Forzar y Opción Re-Contabilizar Cobro
 
-Note
-
+::: note
 En la ventana emergente de confirmación, se debe seleccionar la opción **OK** para ejecutar el proceso.
+:::
 
 Finalmente, se debe ubicar de nuevo el registro de la asignación entre el cobro y la factura en la ventana **Consulta de Asignación**, en la cual se debe seleccionar la pestaña principal **Asignación** y la opción **Contabilizado**.
 
