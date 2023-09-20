@@ -84,8 +84,8 @@ Podrá visualizar que el registro de la orden de venta ubicada se encuentra en e
 
 Imagen 6. Orden de Venta en Estado Completo
 
-> [!WARNING]
-> Es importante resaltar que cuando se presenta una devolución, la orden debe ser copiada antes de ejecutar el proceso de devolución ya que al generarse la nota de crédito, la orden pasa de estado **Completo** a estado **Cerrado**.
+> **WARNING**
+> Es importante resaltar que cuando se presenta una devolución, la orden debe ser copiada antes de ejecutar el proceso de devolución ya que al generarse la nota de crédito, la orden pasa de estado Completo a estado Cerrado.
 
 Seleccione la opción **Copiar Orden Desde Otra**, ubicada en el menú desplegado por el icono **Proceso** de la barra de herramientas de la ventana **Punto de Venta**, explicada en el documento Barra de Herramientas del Punto de Venta elaborado por Solop ERP.
 
@@ -93,8 +93,8 @@ Seleccione la opción **Copiar Orden Desde Otra**, ubicada en el menú desplegad
 
 Imagen 7. Opción Copiar Orden Desde Otra
 
-> [!NOTE]
-> En el caso de que el terminal del punto de venta con el cual se encuentra trabajando, este configurado para que requiera PIN al momento de ejecutar ciertas transacciones, se mostrará la ventana **PIN de Usuario** luego de seleccionar la opción **Copiar Orden Desde Otra**. En dicha ventana se debe ingresar el PIN del usuario establecido como supervisor en el terminal y finalmente seleccionar la opción **OK** para ejecutar el proceso.
+> **NOTE**
+> En el caso de que el terminal del punto de venta con el cual se encuentra trabajando, este configurado para que requiera PIN al momento de ejecutar ciertas transacciones, se mostrará la ventana PIN de Usuario luego de seleccionar la opción Copiar Orden Desde Otra. En dicha ventana se debe ingresar el PIN del usuario establecido como supervisor en el terminal y finalmente seleccionar la opción OK para ejecutar el proceso.
 
 Para el presente ejemplo, el terminal con el cual se esta realizando la transacción, no se encuentra configurado para que solicite el PIN.
 
