@@ -114,9 +114,9 @@ Seleccione la acción **Preparar** y la opción **OK**.
 
 Imagen 34. Acción Preparar y Opción OK
 
-Note
-
+::: note
 El documento **Propuesta**, debe quedar en estado **En Proceso**, para ello se debe seleccionar la opción **Preparar**.
+:::
 
 Seleccione el icono **Imprimir**, ubicado en la barra de herramientas de Solop ERP.
 

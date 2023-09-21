@@ -294,9 +294,9 @@ Podrá visualizar la ventana del reporte **Generar Entregas (Manual)**, con el n
 
 Imagen 11. Reporte de Entregas para Imprimir
 
-Note
-
+::: note
 El procedimiento genera una entrega por cada orden de venta seleccionada y muestra en el documento del reporte una página por cada entrega generada.
+:::
 
 Luego de imprimir las entregas, el proceso se regresa a la ventana **Generar Entregas (Manual)**, con el resultado de las entregas generadas, donde se muestra la cantidad de entregas creadas, la fecha exacta en la que fueron creadas y el número de documento de cada una.
 

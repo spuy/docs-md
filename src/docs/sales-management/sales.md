@@ -127,9 +127,9 @@ Campo **Socio del Negocio**: Se debe seleccionar el vendedor que corresponde a l
 
 Imagen 23. Campo Socio del Negocio
 
-Note
-
+::: note
 Recuerde guardar los cambios realizados seleccionando el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP. Para realizar otro registro de vendedor debe seleccionar el icono **Registro Nuevo** y proceder al llenado de los campos correspondientes.
+:::
 
 ## Cálculo de Comisiones de Ventas
 
@@ -177,9 +177,9 @@ Seleccione la pestaña **Total Comisión** para visualizar el total general de l
 
 Imagen 10. Pestaña Total Comisión
 
-Note
-
+::: note
 Esta pestaña es de sólo lectura, el contenido de sus campos se agrega de forma automática según lo configurado en la definición de comisiones.
+:::
 
 ## Pestaña Detalle de Comisión
 
@@ -189,6 +189,6 @@ Seleccione la pestaña **Detalle de Comisión** para visualizar el total de la c
 
 Imagen 11. Pestaña Detalle de Comisión
 
-Note
-
+::: note
 Esta pestaña es de sólo lectura, el contenido de sus campos se agrega de forma automática según lo configurado en la definición de comisiones.
+:::

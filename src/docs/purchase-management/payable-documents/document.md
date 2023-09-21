@@ -181,9 +181,9 @@ De igual manera, podrá visualizar en el campo **Gran Total**, la sumatoria de t
 
 Imagen 61. Campo Gran Total
 
-Note
-
+::: note
 El gran total identifica el total incluyendo impuestos y totales de fletes en la moneda del documento.
+:::
 
 Seleccione la opción **Completar**, ubicada en la parte inferior derecha del documento.
 

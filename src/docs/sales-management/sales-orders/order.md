@@ -122,9 +122,9 @@ Para validar la disponibilidad de los productos en las ventas por medio de las �
 
 Imagen 1. Check Validar Disponibilidad
 
-Note
-
+::: note
 El check **Validar Disponibilidad**, en los tipos de documentos se encuentra deshabilitado por defecto, permitiendo que se complete el registro de la orden de venta desde la ventana **Órdenes de Venta** o desde el formulario **Punto de Venta**, sin validar que tengan disponibilidad en almacén los productos cargados a la orden de venta.
+:::
 
 La validación se realiza en las órdenes de ventas por medio del check **Validar Disponibilidad**, que se encuentra en el tipo de documento utilizado para generar dicha orden. Para que la validación funcione se debe considerar lo siguiente:
 
@@ -138,9 +138,9 @@ El registro del producto debe tener habilitado el check **Almacenado**.
 
 El almacén utilizado para la validación es el que se encuentra en la linea de la orden de venta.
 
-Note
-
+:::note
 Esta configuración no aplica para las Órdenes de Devolución
+:::
 
 ## Funcionalidad de la Validación
 
@@ -150,9 +150,9 @@ Cuando el check se encuentra habilitado, Solop ERP sólo permitirá completar el
 
 Imagen 2. Registro desde Ventana Órdenes de Venta
 
-Note
-
+::: note
 Para crear una orden de venta desde la ventana **Órdenes de Venta**, puede consultar el material Registro de Orden de Venta.
+:::
 
 De igual manera, al estar habilitado el check sólo será agregado el producto a la línea de la orden de venta desde el formulario **Punto de Venta**, si el producto seleccionado tiene disponibilidad en el almacén con el que se este trabajando. De no tener disponibilidad, será mostrado el siguiente mensaje:
 
@@ -160,12 +160,11 @@ De igual manera, al estar habilitado el check sólo será agregado el producto a
 
 Imagen 3. Registro desde Formulario Punto de Venta
 
-Note
-
+::: note
 Para crear una orden de venta desde el formulario **Punto de Venta**, puede consultar el material Toma de Pedido.
+:::
 
 ### **Órdenes de venta (Tipo documento destino: orden de venta)**
-
 
 Se debe seleccionar el socio de negocio.
 
@@ -184,7 +183,6 @@ Es importante en la orden de venta la regla de facturación. En general, se util
 Luego de setear todos los datos obligatorios se completa la orden de venta. Esto genera los documentos que correspondan según el tipo de orden de venta (en este caso en el cual el tipo es: orden de venta, no genera otros documentos).
 
 Los descuentos en la orden de venta pueden ingresarse manualmente o bien setearse en el socio de negocio.
-
 
 ### ***__Órdenes de Venta: Tipo documento destino y subtipo OV__***
 

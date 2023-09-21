@@ -14,6 +14,8 @@ Los descuentos pueden ser simples o tener cortes que le hacen variar el porcenta
 
 Esto se define en la ventana de Esquema de Descuento.
 
+![Esquema de Descuento](/assets/img/docs/sales-management/sam-education4.png)
+
 ### **Esquema de Descuento**
 
 Dentro de la Ventana “Esquema de Descuento” podremos observar todos los diferentes tipos de descuento que tenemos.
@@ -24,3 +26,5 @@ Dentro de la Ventana “Esquema de Descuento” podremos observar todos los dife
 El Descuento llamado “Descuento Hermanos” es de tipo “Corte” en el cual se deberá definir un % de Descuento según la Cantidad de Hermanos (Valor de corte).
 
 A continuación se muestra el % de Descuento según el valor de corte de cada uno.
+
+![Descuentos](/assets/img/docs/sales-management/sam-education5.png)
