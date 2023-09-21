@@ -50,9 +50,9 @@ Campo **N° de Documento** en este campo se puede colocar el número de document
 
 Imagen 5. Campo Nro de documento de ventana de búsqueda Selección de Pago
 
-Note
-
+::: note
 Es importante recordar que Solop ERP cuenta con un comodín de búsqueda el cual es signo porcentual **(%)** el cual puede ser utilizado dentro de un campo de búsqueda colocando un valor de búsqueda con el signo del porcentaje estando al inicio y final de la palabra o valor que se desea buscar ejemplo: %77%.
+:::
 
 Esto permite realizar búsquedas más extensa del valor que se esté colocando, es decir sí en el campo **N° de Documento** es colocado %77% Solop ERP ubicará todas las selecciones de pagos que contengan ese valor en el número de documento, ya sea que se encuentre al iniciar , al final o en la parte central.
 
@@ -88,9 +88,9 @@ Sí al momento de crear la selección de pago de cuentas por pagar, fue asociada
 
 Imagen 10. Campo Cuenta Bancaria
 
-Note
-
+::: note
 Para realizar la creación de una selección de pagos de cuentas por pagar visite el documento Registro desde Selección de Pago.
+:::
 
 Campo **Regla de Pago ** este campo debe traer la regla de pago establecida en la selección de pagos de cuentas por pagar. Cabe destacar, que dependiendo de la regla de pago con la que cuente la selección de pago se definirá la acción que se utilizará para generar los pagos.
 
@@ -252,9 +252,9 @@ Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Saldos Pe
 
 Imagen 28. Ventana Selección de Pago
 
-Note
-
+::: note
 Recuerde que toda ventana en Solop ERP cuenta en la barra de herramientas la opción de búsqueda **Encontrar Registros** la cual puede ser utilizada para ubicar la selección de pagos.
+:::
 
 Una vez ubicada la selección de pago tilde la pestaña **Pago Generado**, dentro de esta pestaña podrá observar un resumen de los pagos generados por socios de negocios con los que cuenta la selección de pago.
 
@@ -322,6 +322,6 @@ Imagen 4. Archivo Descargado
 
 Al culminar este proceso automáticamente serán generados los pagos a cada empleado en Solop ERP
 
-note:
-
+::: note
 Para este ejemplo de Transferencia Bancaria se trabajo con la cuenta de la caja asociada al Banco Nacional de Crédito, y el archivo descargado contiene todos los requisitos exigidos por este banco para su aprobación
+:::

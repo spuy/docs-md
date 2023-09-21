@@ -93,9 +93,9 @@ Seleccione en el campo **Organización**, la organización para la cual esta rea
 
 Imagen 11. Campo Organización de la Pestaña
 
-Note
-
+::: note
 Solop ERP permite que una compañía que posee más de una organización, registre la configuración contable del grupo de activo fijo por organización. El registro podría ser:
+:::
 
 Grupo Activo Fijo **Mobiliario** de la Empresa Estándar con Organización (\*):
 
@@ -133,9 +133,9 @@ Introduzca en el campo **Vida Útil - Años**, la cantidad de años de vida úti
 
 Imagen 16. Campo Vida Útil - Años
 
-Note
-
+::: note
 Al ingresar un valor en el campo **Vida Útil - Años**, Solop ERP refleja en los campos **Vida Útil - Años (Fiscal)**, **Vida Útil - Meses** y **Vida Útil - Meses (Fiscal)**, el equivalente al campo correspondiente.
+:::
 
 Seleccione en el campo **Cuenta Costo Activo**, se refiere a la cuenta de activo del plan de cuentas en la que desea reflejar el costo del activo fijo.
 
@@ -171,9 +171,9 @@ Imagen 21. Campo Perdidas por Disposición
 
 Ubique o cree de manera regular la categoría de producto a la que desea asociar el grupo de activo fijo, de esta manera podrá con los productos bajo esta categoría realizar operaciones de activo fijo, y seleccione en el campo **Grupo de Activo Fijos**, el grupo de activo previamente configurado.
 
-Note
-
+::: note
 Al ingresar un valor en el campo **Grupo de Activo Fijos**, Solop ERP generará un activo fijo al crear una recepción de un producto asociado a esta categoría.
+:::
 
 ## Producto
 

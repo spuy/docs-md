@@ -112,9 +112,9 @@ El tipo de aplicación es un campo obligatorio, le permite clasificar el lote co
 
 Imagen 6. Campo Tipo de Aplicación de la Pestaña Lote Contable de la Ventana Diario Contable
 
-Note
-
+::: note
 Por defecto Solop ERP establece el tipo de aplicación actual.
+:::
 
 Seleccione un tipo de documento en el campo **Tipo de Documento**.
 
@@ -160,9 +160,9 @@ Para este el año fiscal será desde enero a diciembre, se tomaría entonces com
 
 Imagen 11. Campo Período de la Pestaña Lote Contable de la Ventana Diario Contable
 
-Note
-
+::: note
 Por defecto Solop ERP establece el periodo correspondiente a la fecha actual.
+:::
 
 Seleccione la moneda en el campo **Moneda**.
 
@@ -178,9 +178,9 @@ En pro de mantener la integridad del balance, Solop ERP ejecuta la conversión e
 
 Imagen 12. Campo Moneda de la Pestaña Lote Contable de la Ventana Diario Contable
 
-Note
-
+::: note
 Por defecto Solop ERP establece la moneda del esquema principal de la compañía actual.
+:::
 
 Introduzca un monto en el campo **Cifra de Control**.
 
@@ -214,9 +214,9 @@ El total de crédito es un campo solo lectura, actualizado automáticamente, acu
 
 Imagen 16. Campo Total Crédito de la Pestaña Lote Contable de la Ventana Diario Contable
 
-Note
-
+::: note
 Recuerde guardar el registro de los campos con ayuda del icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
+:::
 
 Pasos posterior al registro de la Nota Contable y Linea
 
@@ -238,11 +238,10 @@ Podrá visualizar que el documento pasa de estado **Borrador** a estado **Comple
 
 Imagen 53. Estado del Documento Nota Contable
 
-Note
-
+::: note
 ¡Recuerde!
-
 Para Solop ERP, un documento que no se encuentre en estado **Completo**, es un documento **No Válido**, posterior a ser completado este documento podrá ser reactivado mientras el periodo contable esté activo.
+:::
 
 ## Nota Contable
 
@@ -350,9 +349,9 @@ El total de crédito es un campo solo lectura, actualizado automáticamente, acu
 
 Imagen 29. Campo Total Crédito de la Pestaña Nota Contable de la Ventana Diario Contable
 
-Note
-
+::: note
 Recuerde guardar el registro de los campos con ayuda del icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
+:::
 
 ## Línea
 
@@ -396,11 +395,10 @@ Esta cuenta tiene incidencias en el campo combinación contable, cuando es guard
 
 Imagen 34. Campo Cuenta de la Pestaña Línea de la Ventana Diario Contable
 
-Note
-
+::: note
 ¡Recuerde!
-
 Debe realizar este procedimiento por cada débito o crédito que desee aplicar a cada cuenta.
+:::
 
 Seleccione el socio de negocio en el campo **Socio del Negocio**.
 
@@ -410,11 +408,10 @@ El socio de negocio no es un campo obligatorio, sin embargo, le permite definir 
 
 Imagen 35. Campo Socio del Negocio de la Pestaña Línea de la Ventana Diario Contable
 
-Note
-
+::: note
 ¡Recuerde!
-
 El socio de negocio debe estar registrado previamente en Solop ERP.
+:::
 
 Seleccione en el campo **Producto**, el producto correspondiente al registro que está realizando.
 
@@ -424,11 +421,10 @@ El producto no es un campo obligatorio, sin embargo, le permite definir un produ
 
 Imagen 36. Campo Producto de la Pestaña Línea de la Ventana Diario Contable
 
-Note
-
+::: note
 ¡Recuerde!
-
 El producto debe estar registrado previamente en Solop ERP.
+:::
 
 Seleccione la actividad ABC en el campo **Actividad**.
 
@@ -438,11 +434,10 @@ La actividad no es un campo obligatorio, sin embargo, le permite definir una act
 
 Imagen 37. Campo Actividad de la Pestaña Línea de la Ventana Diario Contable
 
-Note
-
+::: note
 ¡Recuerde!
-
 La actividad ABC debe estar registrada previamente en Solop ERP.
+:::
 
 Seleccione el centro de costo en el campo **Centro de Costos**.
 
@@ -452,11 +447,10 @@ El centro de costo no es un campo obligatorio, sin embargo, le permite definir u
 
 Imagen 38. Campo Centro de Costos de la Pestaña Línea de la Ventana Diario Contable
 
-Note
-
+::: note
 ¡Recuerde!
-
 El centro de costo debe estar registrado previamente en Solop ERP.
+:::
 
 Seleccione un alias de una combinación contable en el campo **Alias**.
 
@@ -466,11 +460,10 @@ El alias no es un campo obligatorio, sin embargo, le permite seleccionar un alia
 
 Imagen 39. Campo Alias de la Pestaña Línea de la Ventana Diario Contable
 
-Note
-
+::: note
 ¡Recuerde!
-
 La combinación debe estar registrada previamente en Solop ERP.
+:::
 
 Seleccione la combinación contable en el campo **Combinación**.
 
@@ -568,6 +561,6 @@ La cantidad no es un campo obligatorio, sin embargo es utilizada para ingresar l
 
 Imagen 50. Campo Cantidad de la Pestaña Línea de la Ventana Diario Contable
 
-Note
-
+::: note
 Recuerde guardar el registro de los campos con ayuda del icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
+:::

@@ -417,8 +417,9 @@ Introduzca en el campo **Teléfono**, el teléfono del socio del negocio contact
 
 Imagen 27. Campo Teléfono
 
-Note
+::: note
 Este procedimiento realizado aplica solo para los Socios del Negocio que cumplan el rol de Proveedor.
+:::
 
 ### Cliente
 
@@ -982,9 +983,9 @@ Imagen 1. Menú de Solop ERP
 
 En la ventana **Empleado (Todos)**, se registran todos los datos personales y laborales que la empresa requiere del socio del negocio empleado, los mismos son utilizados y actualizados a lo largo de su período laboral en dicha empresa. La información del empleado desde el momento en el que inicia su período laboral, hasta el momento actual o el momento en el que termina, se encuentra distribuida en la ventana principal **Empleado** y sus (11) once pestañas, explicadas a continuación.
 
-Note
-
+::: note
 Cada uno de los campos con el símbolo (\*) son obligatorios para el registro.
+:::
 
 A continuación podrá apreciar la ventana **Empleado (Todos)**, dónde debe seleccionar el icono de **Registro Nuevo** que se encuentra ubicado en la barra de herramientas de Solop ERP.
 
@@ -1134,9 +1135,9 @@ Seleccione el icono **Guardar Cambios** ubicado en la barra de herramientas para
 
 Imagen 24. Icono Guardar Cambios
 
-Warning
-
+::: warning
 Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana empleado (todos).
+:::
 
 ### Pestaña Información de Contrato
 
@@ -1156,9 +1157,9 @@ Introduzca en el campo **Nombre**, los (2) dos nombres de la persona a quien va 
 
 Imagen 26. Campo Nombre
 
-Note
-
+::: note
 Se ingresa la información del representante legal del socio del negocio empleado, cuando este es menor de edad al momento de la elaboración del contrato de trabajo.
+:::
 
 Introduzca en el campo **Nombre 2**, los (2) dos apellidos de la persona a quien va emitido el contrato.
 
@@ -1166,9 +1167,9 @@ Introduzca en el campo **Nombre 2**, los (2) dos apellidos de la persona a quien
 
 Imagen 27. Campo Nombre 2
 
-Note
-
+::: note
 Se ingresa la información del representante legal del socio del negocio empleado, cuando este es menor de edad al momento de la elaboración del contrato de trabajo.
+:::
 
 Introduzca en el campo **Código Nacional**, el código que identifica al socio del negocio empleado, este código es diferente a la cédula.
 
@@ -1176,9 +1177,9 @@ Introduzca en el campo **Código Nacional**, el código que identifica al socio 
 
 Imagen 28. Campo Código Nacional
 
-Warning
-
+::: warning
 Se recomienda que al ingresar el valor al campo **Código Nacional** no se ingrese ningún prefijo, punto, guion o cualquier otro carácter.
+:::
 
 Introduzca en el campo **Código Seguridad Social**, el código del seguro social de la persona a quien va emitido el contrato.
 
@@ -1186,9 +1187,9 @@ Introduzca en el campo **Código Seguridad Social**, el código del seguro socia
 
 Imagen 29. Campo Código Seguridad Social
 
-Note
-
+::: note
 El código de seguridad social se refiere al código del seguro social del empleado, es decir, la cédula del empleado.
+:::
 
 Seleccione en el campo **Nacionalidad**, la nacionalidad de la persona a quien va emitido el contrato.
 
@@ -1456,9 +1457,9 @@ Seleccione en el campo **Concepto Nómina**, el Concepto de Nómina con el cual 
 
 Imagen 72. Campo Concepto Nómina
 
-Warning
-
+::: warning
 Al seleccionar cualquier valor en este campo podrá apreciar una serie de conceptos definidos por Solop ERP y que se consideran atributos de cada empleado
+:::
 
 Introduzca en el campo **Descripción**, una breve descripción del registro de concepto de nómina que esta realizando.
 
@@ -1502,9 +1503,9 @@ Seleccione en el campo **Válido Hasta**, la fecha final de aplicación del regi
 
 Imagen 79. Campo Válido Hasta
 
-Warning
-
+::: warning
 Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana empleado (todos).
+:::
 
 ### Pestaña Días Libres de la Semana
 
@@ -1530,9 +1531,9 @@ Seleccione los checklist correspondientes a los días libres del socio del negoc
 
 Imagen 82. Checklist Días Libres de la Semana
 
-Warning
-
+::: warning
 Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana empleado (todos).
+:::
 
 ### Pestaña Detalle de Pago
 
@@ -1564,9 +1565,9 @@ Seleccione en el campo **Regla de Pago**, la forma de pago establecida para el s
 
 Imagen 86. Campo Regla de Pago
 
-Warning
-
+::: warning
 Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana empleado (todos).
+:::
 
 Regrese a la pestaña **Información de Contrato** para que pueda apreciar el comportamiento de los cambios realizados en la pestaña **Detalle de Pago**
 
@@ -1614,9 +1615,9 @@ Introduzca el código de identificación, cédula o rif del titular de la cuenta
 
 Imagen 93. Campo No. Seguro Social
 
-Warning
-
+::: warning
 Se recomienda que al ingresar el valor al campo **No. Seguro Social** no se ingrese ningún prefijo, punto, guion o cualquier otro carácter.
+:::
 
 Introduzca el nombre de referencia en el campo **Nombre**, en este campo va el nombre del titular de la cuenta bancaria que esta registrando.
 
@@ -1636,9 +1637,9 @@ Seleccione el icono **Guardar Cambios** en la barra de herramientas de Solop ERP
 
 Imagen 96. Icono Guardar Cambios
 
-Warning
-
+::: warning
 Si el empleado posee otra cuenta bancaria para registrar, seleccione el icono **Registro Nuevo** en la barra de herramientas de Solop ERP en la pestaña **Cuenta Bancaria** y proceda al llenado de los campos explicados anteriormente.
+:::
 
 ### Pestaña Experiencia Laboral
 
@@ -1692,9 +1693,9 @@ Seleccione el icono **Guardar Cambios** en la barra de herramientas de Solop ERP
 
 Imagen 104. Icono Guardar Cambios
 
-Warning
-
+::: warning
 Si el empleado posee otras referencias laborales para registrar, seleccione el icono **Registro Nuevo** en la barra de herramientas de Solop ERP en la pestaña **Experiencia Laboral** y proceda al llenado de los campos explicados anteriormente.
+:::
 
 ### Pestaña Educación
 
@@ -1744,9 +1745,9 @@ Introduzca en el campo **Comentarios**, cualquier información relevante para el
 
 Imagen 111. Campo Comentarios
 
-Warning
-
+::: warning
 Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana empleado (todos).
+:::
 
 ### Pestaña Dependientes
 
@@ -1770,9 +1771,9 @@ Introduzca el código de identificación, cédula o rif del dependiente que esta
 
 Imagen 114. Campo Código
 
-Warning
-
+::: warning
 Se recomienda que al ingresar el valor al campo **Código** no se ingrese ningún prefijo, punto, guion o cualquier otro carácter.
+:::
 
 Introduzca en el campo **Nombre**, el nombre completo del dependiente que esta registrando.
 
@@ -1786,9 +1787,9 @@ Seleccione en el campo **Socio del Negocio Relacionado**, el socio del negocio e
 
 Imagen 116. Campo Socio del Negocio Relacionado
 
-Warning
-
+::: warning
 El campo **Socio del Negocio Relacionado**, es utilizado cuando se va a realizar algún pago a un dependiente del socio del negocio empleado que esta registrando. Se selecciona el socio del negocio empleado porque sus datos bancarios se encuentran registrados y validados.
+:::
 
 Seleccione en el campo **Cumpleaños**, la fecha de nacimiento del dependiente que esta registrando.
 
@@ -1838,9 +1839,9 @@ Tilde el checklist **Becado**, si el dependiente que esta registrando se encuent
 
 Imagen 124. Checklist Becado
 
-Warning
-
+::: warning
 Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana empleado (todos).
+:::
 
 ### Pestaña Localización
 
@@ -1858,9 +1859,9 @@ Seleccione en el campo **Tipo de Contacto**, el tipo de contacto de la localizac
 
 Imagen 126. Campo Tipo de Contrato
 
-Note
-
+::: note
 En esta pestaña el campo **Tipo de Contacto** posee dos opciones, la opción **Primaria** se utiliza para registrar la dirección principal del socio del negocio empleado que esta registrando, esta opción también es utilizada para registrar la dirección de residencia o hospedaje temporal del empleado cuando el mismo posee otra dirección fija. En el caso de la dirección fija, la misma es registrada con la opción **Emergencia**.
+:::
 
 Introduzca en el campo **Persona de Contacto**, el nombre de la persona de contacto de la localización a registrar para el socio del negocio empleado.
 
@@ -1934,9 +1935,9 @@ Seleccione el icono **Guardar Cambios** en la barra de herramientas de Solop ERP
 
 Imagen 138. Icono Guardar Cambios
 
-Warning
-
+::: warning
 Si el empleado posee otra dirección de localización para registrar, seleccione el icono **Registro Nuevo** en la barra de herramientas de Solop ERP en la pestaña **Localización** y proceda al llenado de los campos explicados anteriormente.
+:::
 
 ### Pestaña Detalle de Seguro
 

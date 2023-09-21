@@ -29,9 +29,9 @@ Imagen 1. Ejemplo de Validación
 
 Crear Tasa Recíproca: Esta funcionalidad permite que al guardar el registro sea creada de manera automática una tasa de cambio como reverso.
 
-Note
-
+::: note
 Un ejemplo de este caso puede ser cuando el usuario crea una tasa de cambio de moneda **UYU** a moneda **USD** con una tasa multiplicadora 2 entonces automáticamente se creará una tasa de cambio de moneda **USD** a **UYU** con la tasa multiplicadora 0.5
+:::
 
 ../../../\_images/tasa-cambio-reciproca.gif
 Video 1. Tasa de Cambio
@@ -94,9 +94,9 @@ Seleccione el checklist **Predeterminado**, para indicar como predeterminado el 
 
 Imagen 10. Checklist Predeterminado de la Ventana Tipo de Conversión
 
-Note
-
+::: note
 Recuerde guardar los cambios realizados seleccionando el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
+:::
 
 ## Tasa de Conversión desde la Ventana Moneda
 
@@ -124,9 +124,9 @@ Seleccione el icono **Registro Nuevo** para crear un nuevo registro de tasas de 
 
 Imagen 14. Icono Registro Nuevo de la Pestaña Tasas de Cambio
 
-Warning
-
+::: warning
 La tasa de cambio se debe crear de dólares a bolívares y de bolívares a dólares.
+:::
 
 Seleccione en el campo **Moneda Hacia**, la moneda para la cual requiere convertir el dinero. Para ejemplificar el registro es utilizada la moneda **UYU**.
 
@@ -158,9 +158,9 @@ Introduzca en el campo **Factor de Base a Destino**, la tasa por la que serán m
 
 Imagen 19. Campo Factor de Base a Destino de la Pestaña Tasas de Cambio
 
-Note
-
+::: note
 Recuerde guardar los cambios realizados seleccionando el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
+:::
 
 ## Tasa de Conversión desde la Ventana Tasa de Cambio
 
@@ -224,9 +224,9 @@ Introduzca en el campo **Factor de Destino a Base**, la tasa por la que serán m
 
 Imagen 29. Campo Factor de Destino a Base
 
-Note
-
+::: note
 Recuerde guardar los cambios realizados seleccionando el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
+:::
 
 ## Conversión Automática
 

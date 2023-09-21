@@ -233,9 +233,9 @@ Luego de que haya culminado el procedimiento, podrá visualizar la ventana **Inf
 
 Imagen 5. Estado de Resultado
 
-Note
-
+::: note
 El reporte de estado de resultado muestra la información en base al periodo de tiempo seleccionado en el campo **Periodo** de la ventana **Crear Informe**.
+:::
 
 ### Reportes Detallados
 

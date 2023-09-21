@@ -60,9 +60,9 @@ La combinación no es un campo obligatorio, sin embargo, le permite definir un n
 
 Imagen 6. Campo Combinación de la Ventana Combinación
 
-Note
-
-Este campo no es obligatorio, ya que al agregar la cuenta y
+::: note
+Este campo no es obligatorio.
+:::
 
 Seleccione con ayuda del identificador del campo **Cuenta**, la cuenta en la cual se van a reflejar los movimientos que se van a realizar.
 

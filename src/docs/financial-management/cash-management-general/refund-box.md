@@ -56,9 +56,9 @@ Realice el procedimiento regular para generar una transferencia bancaria, explic
 
 Imagen 7. Transferencia Bancaria
 
-Note
-
+::: note
 Al realizar el proceso de transferencia bancaria, es generado un egreso de banco y un ingreso a caja. De igual manera, es creado un cobro en caja y un pago en pago/cobro. Adicional a ello, el monto de la caja reembolso queda en cero (0).
+:::
 
 Realice el procedimiento regular para generar un cierre de caja, explicado en el documento Registro de Cierre de Caja, elaborado por Solop ERP, seleccionando en el campo **Tipo de Documento** la opción **Cierre de Caja Reembolso**.
 

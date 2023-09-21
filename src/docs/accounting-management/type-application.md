@@ -62,9 +62,9 @@ El resultado con este tipo de aplicación, sería el siguiente:
 
 Imagen 1. Información Contable Actual
 
-Note
-
+::: note
 El tipo de aplicación actual, es predeterminado en toda transacción realizada y reportes generados desde Solop ERP.
+:::
 
 Compromiso: Se refiere a compromisos mutuos que asume o genera la empresa, generalmente asociados a un contrato o un documento que avala el mismo, como una orden de venta (adquiere un compromiso con el cliente) u orden de compra (genera un compromiso con el proveedor).
 

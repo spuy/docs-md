@@ -172,8 +172,9 @@ Seleccione la opción **OK**, para ejecutar el proceso.
 
 Imagen 22. Opción OK
 
-> [!NOTE]
-> Por cada retiro de fondo realizado desde el punto de venta, Solop ERP crea en la ventana **Caja** los siguientes documentos:
+::: note
+Por cada retiro de fondo realizado desde el punto de venta, Solop ERP crea en la ventana **Caja** los siguientes documentos:
+:::
 
 Un documento de pago asociando en el campo **Cuenta**, la caja POS desde la cual se ejecuta el proceso. Dicho documento se puede visualizar en la ventana **Caja**.
 
