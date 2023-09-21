@@ -35,7 +35,7 @@ Aquí deberán definirse los siguientes datos:
 
       Para que este check pueda ser marcado, para aquellos Socios de Negocio que su contrato tiene definido “OC Necesaria para Facturar” se deberá completar el campo “OC Cliente” con el número de la Orden de Compra del Cliente y luego Marcar el “Permite Facturar” = SI
 
-![Contrato de Servicio](/assets/img/docs/sevice-management/sem-agency1.png)
+![Contrato de Servicio](/assets/img/docs/service-management/sem-agency1.png)
 
 ### **Cálculo de Honorarios**
 
@@ -53,13 +53,13 @@ Podremos acceder a la misma desde la ventana Cálculo de Comisiones mediante el 
 
 Esta se genera en una Orden de Venta distinta de la Orden de Venta de la Inversión del Cliente.
 
-![Honorarios](/assets/img/docs/sevice-management/sem-agency2.png)
+![Honorarios](/assets/img/docs/service-management/sem-agency2.png)
 
 ### **Definición de Honorarios**
 
 Según el Contrato de servicio se obtendrán sus correspondientes Honorarios variables, según la definición que exista en la pestaña Honorarios, es decir, según los filtros definidos en estos registros.
 
-![Definición de Honorarios](/assets/img/docs/sevice-management/sem-agency3.png)
+![Definición de Honorarios](/assets/img/docs/service-management/sem-agency3.png)
 
 ### **Líneas del Contrato de Servicio de Agencia**
 
@@ -79,7 +79,7 @@ Se definen los distintos Productos/Servicios que intervienen en el Contrato de S
 * **Monto de Línea de Contrato** 
   * Precio: Precio a facturarse cada vez
 
-![Líneas del Contrato](/assets/img/docs/sevice-management/sem-agency4.png)
+![Líneas del Contrato](/assets/img/docs/service-management/sem-agency4.png)
 
   ### **Orden de Compra Cliente Obligatoria para Facturar**
 
@@ -115,7 +115,7 @@ A continuación un ejemplo de como se deberá definir un registro de “Parte de
 
 De esta forma en los Proyectos se definirá el “Sello Origen” según el Tipo de empresa que tenga definida el Contrato con el cual estoy trabajando.
 
-![Partes del Contrato](/assets/img/docs/sevice-management/sem-agency5.png)
+![Partes del Contrato](/assets/img/docs/service-management/sem-agency5.png)
 
 ### **Actualización de Cálculo de Honorarios**
 
@@ -128,7 +128,7 @@ De esta manera los Cálculos de comisiones generados antes de aplicar este proce
 
 Se generarán los nuevos Cálculos de comisiones aplicando los nuevos porcentajes definidos y una nueva Orden de venta honorarios en estado Completo.
 
-![Actualizar Cáculo Comisión de orden](/assets/img/docs/sevice-management/sem-agency6.png)
+![Actualizar Cáculo Comisión de orden](/assets/img/docs/service-management/sem-agency6.png)
 
 ### **Devoluciones a Cliente**
 
