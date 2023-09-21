@@ -62,9 +62,9 @@ Seleccione el icono “Registro Nuevo” en la barra de herramientas de Solop ER
 
 Imagen 6. Icono de Registro Nuevo
 
-Warning
-
+::: warning
 Recuerde que cada campo es necesario e importante para obtener el registro exitoso del documento en Solop ERP.
+:::
 
 Seleccione en el campo “Organización”, la organización para la cual esta realizando el documento “Autorización de Devolución a Proveedor”.
 
@@ -134,9 +134,9 @@ Seleccione el icono “Registro Nuevo” en la barra de herramientas de Solop ER
 
 Imagen 20. Icono Registro Nuevo
 
-Warning
-
+::: warning
 Recuerde que cada campo es necesario e importante para obtener el registro exitoso del documento en Solop ERP.
+:::
 
 Seleccione en el campo “Organización”, la organización para la cual esta realizando el documento “Devolución a Proveedor”.
 
@@ -198,9 +198,9 @@ Podrá visualizar la siguiente ventana donde debe seleccionar la opción “OK�
 
 Imagen 32. Ventana Generar Facturas desde Recibos y Seleccionar Opción OK
 
-Note
-
+::: note
 El documento “Nota de Crédito” es generado en estado “Borrador”, el número del mismo se puede visualizar en la parte inferior derecha de la ventana “Devolución a Proveedor”.
+:::
 
 ## Completar Nota de Crédito Generada
 

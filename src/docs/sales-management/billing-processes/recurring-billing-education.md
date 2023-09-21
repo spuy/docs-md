@@ -36,6 +36,8 @@ Por último procederemos a completar la Nota de Crédito.
 
 La misma quedará con el check “pagado” siempre que haya sido por el total de la factura.
 
+![Crear Desde](/assets/img/docs/sales-management/sam-education1.png)
+
 **NOTA: Para ingresar una Nota de crédito Proveedor se utiliza el mismo procedimiento de ingreso de una factura de compra, indicando como Tipo de documento una Nota de crédito.**
 
 ### **Generar Concepto a Facturar no Recurrente**
@@ -52,7 +54,7 @@ Se debe definir el Producto y la Versión de lista de precios deseada. El precio
 
 Para generar el Servicio a facturar se deberá definir la Fecha y la actividad (Definir la misma que el producto para reportes Contables). La Fecha se recomienda definir el primer día del mes así cuando se generan las facturas se puede filtrar por todos los servicios con fecha 1ro del mes y así le aparecerá estos servicios también.
 
-A continuación presentamos un gif con un ejemplo del proceso
+![Generar Concepto a Facturar](/assets/img/docs/sales-management/sam-education2.png)
 
 ### Facturación de Cuotas del Contrato de Servicios
 
@@ -77,3 +79,5 @@ Se deberá definir la Fecha de facturación, el Tipo de Documento que se desea e
 En el caso que se elija la acción de Preparar, deberá completar manualmente el documento luego.
 
 El Proceso generará un único documento por cada Socio de negocio a facturar.
+
+![Generar Factura desde Cuota de Contrato](/assets/img/docs/sales-management/sam-education3.png)

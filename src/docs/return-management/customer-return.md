@@ -223,9 +223,9 @@ Podrá apreciar el documento **Devolución Cliente**, creado desde la ventana de
 
 Imagen 31. Documento Devolución Cliente
 
-Note
-
+::: note
 La elaboración de este proceso permite ingresar nuevamente los productos seleccionados anteriormente al almacén de la empresa.
+:::
 
 ## Nota de Crédito por Devolución (Cliente)
 

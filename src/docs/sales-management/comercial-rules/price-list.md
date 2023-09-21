@@ -188,9 +188,9 @@ Podrá visualizar la ventana **Lista de Precios**, con todos los registros de li
 
 Imagen 2. Ventana Lista de Precios
 
-Warning
-
+::: warning
 La información de los campos que contiene la pestaña **Lista de Precios**, no debe ser modificada por ningún motivo. De igual manera, no se debe tildar o destildar ningún check de los que contiene dicha pestaña.
+:::
 
 Ubique el registro de lista de precios de **Ventas (USD)**.
 
@@ -424,9 +424,9 @@ Podrá visualizar la ventana **Lista de Precios**, con todos los registros de li
 
 Imagen 2. Ventana Lista de Precios
 
-Warning
-
+::: warning
 La información de los campos que contiene la pestaña **Lista de Precios**, no debe ser modificada por ningún motivo. De igual manera, no se debe tildar o destildar ningún check de los que contiene dicha pestaña.
+:::
 
 Ubique el registro de lista de precios de **Ventas (UYU)**.
 

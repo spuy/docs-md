@@ -57,7 +57,9 @@ Debajo del visor podremos observar diferentes campos que se corresponden con los
 
 Al  ejecutar el proceso, los Contratos seleccionados quedarán en estado "Cerrado" y se crearán nuevos contratos a partir de los anteriores (con mismos datos de alumnos, descuentos, etc.) aplicando las nuevas fechas, tipo de servicio, producto y actividad.
 
-**Nota:** Los nuevos contratos quedan disponibles para continuar con los siguientes pasos que serían:
+::: note
+Los nuevos contratos quedan disponibles para continuar con los siguientes pasos que serían:
+:::
 
 * Correr el Proceso de Actualización de Precios: actualiza el precio de contrato de acuerdo a la versión de lista de precio vigente.
 * Correr el Proceso de Generación de cuotas de Contratos: Esto genera las cuotas mensuales según el rango fecha que se seleccione en "Fecha Hasta" (generalmente se elige generar hasta mitad de año por posibles cambios de precio en segundo semestre).

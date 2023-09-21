@@ -32,9 +32,9 @@ Seleccione en el campo **Orden de Salida**, la orden de salida de la cual se va 
 
 Imagen 3. Campo Orden de Salida
 
-Note
-
+::: note
 Para ejemplificar el registro solo es seleccionada la orden de salida como filtro de búsqueda, los filtros de búsqueda son acorde a la comodidad del cliente.
+:::
 
 Seleccione la opción **Comenzar Búsqueda** para realizar la búsqueda de los documentos según los filtros indicados.
 
