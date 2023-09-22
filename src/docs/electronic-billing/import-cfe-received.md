@@ -32,7 +32,7 @@ A partir del Rut del Emisor de los CFE Recibidos es que se buscará si existe en
 
 **Líneas**
 
-En el caso de las líneas, existirán 3 opciones posibles para realizar la correspondiente aplicación del concepto a definir:
+En el caso de las líneas, existirán las siguientes opciones posibles para realizar la correspondiente aplicación del concepto a definir:
 
 * Definición de Cargo por Defecto
 
