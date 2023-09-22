@@ -192,6 +192,10 @@ Cheque Diferido a Cobrar
 
 El asiento se neutraliza.
 
+::: note
+Importante: cuando un Pago/Cobro se encuentra vinculado a una línea de estado de cuenta bancario, al anularlo se marcará (tanto en el documento original como en el reverso) el check **Asignado** mientras que el check **Conciliado** se mantendrá sin marcar. Esto permite conciliar el rechazo del cheque con la reversión del cobro.
+:::
+
 #### **Sustitución de Cheque Devuelto**
 
 Si se sustituye con cheque día, realizar el pago o cobro nuevamente.
