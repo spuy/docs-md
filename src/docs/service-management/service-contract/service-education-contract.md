@@ -48,6 +48,8 @@ Este se generará definiendo en Socio del Negocio al Alumno y en el campo “Res
 
 **Término de pago:** Inmediato, 10 días.
 
+![Contrato de Servicio Educación](/assets/img/docs/service-management/sem-education1.png)
+
 ### **Cuotas**
 
 Las cuotas podrán visualizarse con descuento incluido (en el caso que se definan descuentos en la línea del contrato) o con descuento aparte (en el caso que se definan descuentos como línea negativa) .
@@ -56,6 +58,8 @@ Para poder visualizar desde la Ventana de Contrato de Servicios todas las cuotas
 
 Una vez facturado se agregará el Check de Facturado a la línea de cuota misma como a la línea de su descuento.
 
+![Cuotas](/assets/img/docs/service-management/sem-education2.png)
+
 ### **Descuentos**
 
 Un Contrato de Servicios podrá contar con más de un Descuento establecido, la Suma de ambos descuentos se podrán aplicar de dos maneras distintas: como línea negativa o en la línea del contrato.
@@ -63,6 +67,8 @@ Un Contrato de Servicios podrá contar con más de un Descuento establecido, la 
 Esta pestaña podrá actualizar de manera automática desde el proceso “Crear Descuento de contrato” para que se acualice el Descuento según cantidad de hermanos.
 
 Adicionalmente podrá definir un descuento especial pero de manera manual seleccionando el tipo, el porcentaje que corresponda y la Categoría de Producto sobre la cuál se deberá aplicar el descuento.
+
+![Cuotas](/assets/img/docs/service-management/sem-education3.png)
 
 ### **Líneas del Contrato**
 
@@ -85,6 +91,8 @@ Se define los distintos Productos/Servicios que intervienen en el Contrato de Se
   * Impuesto: Tasa de Impuesto que tendrá el Producto seleccionado. \* Precio de Lista: Precio del
 
 Producto definido en la Lista de Precios.  *% Descuento:*  En el caso que el descuento se defina en la línea del contrato este se definirá aquí mediante el Proceso de Actualizar Descuento de Líneas de Contrato. \* En el caso que el Descuento se defina como línea negativa, este campo indicará “0”.
+
+![Líneas del Contrato](/assets/img/docs/service-management/sem-education4.png)
 
 ### **Actualización del Contrato de Servicio**
 
@@ -121,3 +129,5 @@ Este proceso se puede correr para un contrato específico o de todos los contrat
 * Se pueden actualizar los precios de un contrato específico presionando el ícono Procesos en la barra de herramientas, desde el cabezal de la ventana Contrato de Servicio.
 
 * También se puede correr el proceso de forma masiva para todos los contratos desde la ventana “Actualización de precios de contrato”, dejando el campo “Contrato” vacío.
+
+![Actualización](/assets/img/docs/service-management/sem-education5.png)
