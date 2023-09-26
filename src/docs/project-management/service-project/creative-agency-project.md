@@ -28,7 +28,7 @@ Según la Lista de precio seleccionada:
 
 Moneda
 
-![Proyecto de Agencia](/assets/img/docs/project-management/project1.png)
+![Proyecto de Agencia](/assets/img/docs/project-management/prm-project1.png)
 
 Según el Cliente seleccionado:
 
@@ -60,7 +60,7 @@ Agencia de Medios Digitales
 
 \*Si no se obtuvo sello de origen se lanza una excepción.
 
-![Partes del Contrato](/assets/img/docs/project-management/project2.png)
+![Partes del Contrato](/assets/img/docs/project-management/prm-project2.png)
 
 Según el usuario logueado en el sistema:
 
@@ -168,7 +168,7 @@ Cuando una Campaña cuente con diferentes “Materiales” se deberá definir el
   * Material 2 (FASE)
     * Solicitud (“To-Do”)
 
-![Nivel Fase](/assets/img/docs/project-management/project3.png)
+![Nivel Fase](/assets/img/docs/project-management/prm-project3.png)
 
 #### **Nivel de Línea: Tarea (Producción o Campaña Multimedia) / Tercer Nivel**
 
