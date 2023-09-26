@@ -69,7 +69,9 @@ Proyecto RRPP                  Agencia RRPP
 
 Proyecto de Medios Digitales Agencia de Medios Digitales
 
-\*Si no se obtuvo sello de origen se lanza una excepción.
+::: note
+Si no se obtuvo sello de origen se lanza una excepción.
+:::
 
 * **Almacén:** El almacén en un proyecto se definirá de manera automática según el almacén que tenga definido el Cliente en la pestaña Cliente ventana Socio del Negocio.
 
