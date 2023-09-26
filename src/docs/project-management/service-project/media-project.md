@@ -73,6 +73,8 @@ Proyecto de Medios Digitales Agencia de Medios Digitales
 
 * **Almacén:** El almacén en un proyecto se definirá de manera automática según el almacén que tenga definido el Cliente en la pestaña Cliente ventana Socio del Negocio.
 
+![Proyecto de Medios](/assets/img/docs/project-management/project4.png)
+
 #### **Tamaño del Proyecto (Campo “Nivel de Línea”)**
 
 Un Proyecto podrá tener diferentes niveles según su complejidad o tamaño. Dentro del Nivel seleccionado, se contará con una pestaña de Líneas donde se podrá definir cada uno de los Productos que se estará manejando. Sobre estos Productos definidos se generará una Orden de Venta al Cliente y una Orden de Compra al Proveedor del Medio.
@@ -85,6 +87,10 @@ Los diferentes niveles posibles son: Proyecto, Fase y Tarea.
 
 **Nivel TAREA:** Se utilizará cuando el Proyecto sea de Pre-Compra o Inversión y luego su Consumo (En momentos diferentes).
 
+![Nivel Fase](/assets/img/docs/project-management/project5.png)
+
+![Nivel Tarea](/assets/img/docs/project-management/project6.png)
+
 ### Checkin de la Pauta
 
 Luego de contar con una **“Orden de Publicidad (Compra y Consumo)”** en Estado “Completo”, la misma se deberá confirmar mediante el Checking.
@@ -93,9 +99,13 @@ El checking se puede acceder desde los Procesos definidos en el Proyecto de Medi
 
 Al realizar la búsqueda desde el SmartBrowser de Checkin, deberá seleccionar las líneas que han sido emitidas, confirmando a su vez la cantidad en cuestión de dicha emisión.
 
+![Checking](/assets/img/docs/project-management/project7.png)
+
 #### **Reporte “Detalle de Almacenamiento Simple”**
 
 Se podrá confirmar el ingreso de los productos al almacén mediante el reporte de “Detalle de Almacenamiento Simple” seleccionando el Almacén en cuestión.
+
+![Detalle de Almacenamiento Simple](/assets/img/docs/project-management/project8.png)
 
 #### **Proyecto de Medios Compra y Consumo**
 

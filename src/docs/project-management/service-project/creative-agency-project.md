@@ -28,6 +28,8 @@ Según la Lista de precio seleccionada:
 
 Moneda
 
+![Proyecto de Agencia](/assets/img/docs/project-management/project1.png)
+
 Según el Cliente seleccionado:
 
 Término de pago. Almacén del Cliente: El almacén en un proyecto se definirá de manera automática según el almacén que tenga definido el Cliente en la pestaña Cliente ventana Socio del Negocio. Contrato de Servicio: (En caso que el Cliente posea más de uno, el sistema tomará el primer Contrato creado que encuentre, por lo que se sugiere en estos casos elegir el Contrato en este campo de forma manual). Sello. Sello Origen: Cuando se guarda un proyecto se realiza lo siguiente:
@@ -57,6 +59,8 @@ Proyecto de Medios Digitales
 Agencia de Medios Digitales
 
 \*Si no se obtuvo sello de origen se lanza una excepción.
+
+![Partes del Contrato](/assets/img/docs/project-management/project2.png)
 
 Según el usuario logueado en el sistema:
 
@@ -163,6 +167,8 @@ Cuando una Campaña cuente con diferentes “Materiales” se deberá definir el
     * Solicitud (“To-Do”)
   * Material 2 (FASE)
     * Solicitud (“To-Do”)
+
+![Nivel Fase](/assets/img/docs/project-management/project3.png)
 
 #### **Nivel de Línea: Tarea (Producción o Campaña Multimedia) / Tercer Nivel**
 
