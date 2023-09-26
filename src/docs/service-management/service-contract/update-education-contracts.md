@@ -22,13 +22,26 @@ En la ventana producto, sección "Sustituto" se deberá definir el curso siguien
 
 ![Producto Sustituto](/assets/img/docs/service-management/sem-substitute1.png)
 
+::: note
+Producto: LT (Little Todddlers).
+El producto que le sigue a este sería el "Toddlers" (del ejemplo práctico en la imagen), por esta razón se deberá definir el mismo como "Sustituto".
+:::
+
 En la misma ventana producto, sección "Memo" se deberá definir en el apartado "Referencia" la actividad.
 
 ![Actividad](/assets/img/docs/service-management/sem-activity2.png)
 
+::: note
+Actividad: En la pestaña memo se deberá definir la Actividad que se vinculará con el producto en cuestión. Esta actividad será la que se defina en la línea del los contratos que correponda en la actualización.
+:::
+
 En el cabezal de Producto debe estar definido el "Tipo de Servicio".
 
 ![Tipo de Servicio](/assets/img/docs/service-management/sem-service3.png)
+
+::: note
+Tipo de Servicio: desde el tipo de servicio se tomará la definición de recurrencia de la línea del Contrato. O sea, si se trata de un servicio mensual (kinder, Año Primero) o un servicio específico no mensual (Taller, Natación).
+:::
 
 ### 2. Selección de Filtros
 
