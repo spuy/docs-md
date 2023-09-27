@@ -31,6 +31,8 @@ Aquí se deberán completar los siguientes campos:
 * Dirección del Socio del Negocio
 * Lista de Precios
 
+![Documento por Pagar](/assets/img/docs/purchase-management/pum-payable1.png)
+
 Luego seleccionaremos el botón “Crear Desde”.
 
 Se abrirá un smartbrowser donde deberemos elegir el tipo de documento mediante el cual vamos a querer generar la factura. Estos son:
@@ -39,9 +41,13 @@ Se abrirá un smartbrowser donde deberemos elegir el tipo de documento mediante 
 * Invoice
 * Order
 
+![Crear Desde](/assets/img/docs/purchase-management/pum-payable2.png)
+
 Luego seleccionamos el documento a facturar y realizamos la búsqueda inteligente haciendo click en “Comenzar búsqueda”.
 
 Figurarán en la pantalla las líneas del documento elegido. Debo marcar el “check” a su izquierda a todas las que quiera facturar y seleccionar el botón de OK.
+
+![Ventana Emergente](/assets/img/docs/purchase-management/pum-payable3.png)
 
 **Si el proveedor no entrega exactamente lo solicitado:**
 
@@ -61,6 +67,8 @@ Ajustando las cantidades, y el importe se ajustará automáticamente
 
 Incorporando una línea adicional por el concepto “Ajuste”
 
+![Cantidad](/assets/img/docs/purchase-management/pum-payable4.png)
+
 Seleccionar Líneas
 
 Culminaremos el proceso completando el documento.
@@ -75,6 +83,8 @@ Aquí se deberán completar los siguientes campos:
 * Socio del Negocio
 * Dirección del Socio del Negocio
 * Lista de Precios
+
+![Nota de Crédito](/assets/img/docs/purchase-management/pum-payable5.png)
 
 Luego seleccionaremos el botón “Crear Desde”.
 
