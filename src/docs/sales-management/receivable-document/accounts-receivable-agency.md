@@ -27,9 +27,13 @@ Definición correcta del Contrato de Servicios: el primer paso para comenzar el 
 
 Crear “Cuotas a Facturar”: a partir de la definición de líneas en los contratos con su recurrencia correspondiente e importe, se deberá proceder a generar las “Cuotas a Cobrar” a partir del mismo. Este proceso puede generarse tanto desde la ventana “Contrato de Servicios” mediante el Proceso “Generar Cuotas desde Contrato” ubicado en los procesos asignados al registro, de esta manera se generarán TODAS las Cuotas a Facturar desde 1 solo contrato. También se tiene la opción de realizarlo de manera masiva para todos los contratos desde el proceso “Generar Cuotas a Facturar desde Contrato” ubicado en el menú, en este caso podrá no seleccionar ningún Contrato de Servicios en especial generando así Cuotas para Todos los Contratos.
 
+![Generar Cuotas desde Contrato](/assets/img/docs/sales-management/sam-agency1.png)
+
 Generar Orden de Venta desde Cuota a Facturar de Contrato de Servicios: Una vez se tienen todas las “Cuotas a Facturar de los Contratos de Servicios” creadas, se podrá generar a partir de las mismas las Órdenes de Venta para que puedan ser ingresadas luego al Proceso de Facturación. Estas Órdenes de Venta se sugiere utilizar el Tipo de Documento “Orden de Venta Fee”. En el Proceso se podrán filtrar según el Socio del Negocio, la Organización o la Fecha de la Cuota a facturar. En este proceso se podrá definir un sólo Socio del Negocio o todos los que desee. Se recomienda filtrar según Fecha para asegurarse que se está generando las cuotas correspondiente al mes que desea. En los parámetros del proceso podrá ver que está editable la Fecha del Documento que desea generar.
 
 IMPORTANTE: Para poder generar las Órdenes de Venta FEE desde el proceso “Generar OV desde Cuota de Contrato” es obligatorio que el Cliente tenga creado un Proyecto en el cuál tenga definido el check de “Es por defecto para FEE”.
+
+![Generar OV desde Cuota de Contrato](/assets/img/docs/sales-management/sam-agency2.png)
 
 ### Orden de Venta a Facturar en Cuotas
 
@@ -48,6 +52,8 @@ Para la generación de esta Orden de Venta o Compra, se sugiere definir una CANT
 ### Generar Factura desde Orden de Venta
 
 Las órdenes de venta generadas en el sistema pueden ser facturadas de manera ágil y masiva utilizando el proceso **“Generar Factura desde Línea de Orden”.**
+
+![Generar OV desde Cuota de Contrato](/assets/img/docs/sales-management/sam-agency3.png)
 
 #### Precondiciones
 
@@ -87,6 +93,8 @@ En la parte inferior de esta ventana veremos distintas opciones utilizadas al mo
 * **Impuesto:** Agrupará por Impuesto definido en cada Línea de Orden seleccionada. Se generará una factura por tipo de impuesto encontrado. El criterio de agrupación no es por % (Ej: 22%, 10% o 0%), sino por diferente Tipo de Impuesto.
 * **Orden de Compra Cliente:** Si se selecciona este Criterio de Facturación se generará una Factura por cada Número de la Orden de Compra Cliente que se encuentre en todas las líneas seleccionadas. Este criterio de agrupación incluye además la clasificación según diferentes clientes.
 
+![Ventana Selección](/assets/img/docs/sales-management/sam-agency4.png)
+
 ### **¿Por qué motivo puede no referenciarse un Proyecto en una factura?**
 
 El Proyecto se referenciará en la factura siempre que el criterio de agrupación que se haya elegido para agrupar las lineas de Orden al correr el proceso Generar factura desde línea de Orden haya sido “Proyecto”.
@@ -125,7 +133,9 @@ El Criterio que se definirá en cada factura será el que cada cliente tenga def
 
 Al utilizar como criterio “Proyecto”, el sistema agrupará en una línea a todas las líneas del Proyecto y definirá la descripción de la misma según el campo “Detalle Factura” ubicado en el Proyecto en cuestión.
 
-**\*Siempre se agrupan las líneas que no sean Honorarios ya que éstos van en otra línea a parte.**
+::: note
+Siempre se agrupan las líneas que no sean Honorarios ya que éstos van en otra línea a parte.
+:::
 
 Si utilizamos como criterio “Fase del proyecto”, el sistema agrupará todas las líneas de una fase en una línea, por lo que la factura tendrá tantas líneas de CFE como fases se estén facturando. En la descripción de cada línea se obtendrá según el campo “Detalle Factura” ubicado en cada Fase del Proyecto en cuestión.
 
@@ -137,9 +147,13 @@ Si para alguna factura en especial se desea utilizar un Criterio de Facturación
 
 Si se desea realizar el proceso de forma manual se deben seguir los siguientes pasos luego de generar la factura:
 
-Elegir en el campo “Criterio de Facturación” ubicado en la Factutra el Nuevo Criterio que se desee aplicar.
+Elegir en el campo “Criterio de Facturación” ubicado en la Factura el Nuevo Criterio que se desee aplicar.
+
+![Criterio de Facturación](/assets/img/docs/sales-management/sam-agency5.png)
 
 Luego procederemos a correr el proceso “Generar líneas de factura para CFE”, seleccionando la opción desde los Procesos asociados a la Factura.
+
+![Criterio de Facturación](/assets/img/docs/sales-management/sam-agency6.png)
 
 ## Posibles Errores Controlados
 
@@ -181,15 +195,21 @@ En el cabezal del Documento por Cobrar en la sección Facturación hay un campo 
 * Fase de Proyecto: Descripción de línea: (Línea Factura) -> Descripción de Fase (Ver Nota 2)
 * Línea: Descripción de línea: (Línea Factura) -> Si tengo Producto utilizo su nombre y descripción, Si no tengo Producto pero si Cargo utilizo Nombre y Descripción del Cargo. Si no tengo ninguno retornará un error.
 
-**Nota 1: Siempre que para todas las líneas de Factura tenga el mismo proyecto, en caso contrario quedará vacío**
+::: note
+Siempre que para todas las líneas de Factura tenga el mismo proyecto, en caso contrario quedará vacío
+:::
 
-**Nota 2: Siempre que para todas las líneas de Factura tenga la misma fase de proyecto, en caso contrario quedará vacío**
+:::note
+Siempre que para todas las líneas de Factura tenga la misma fase de proyecto, en caso contrario quedará vacío
+:::
 
 ### **Configuración del Socio del Negocio**
 
 #### **Criterio de Líneas en Factura**
 
 En cada Socio del Negocio se podrá pre configurar el criterio de facturación que se desee. Esto se debe definir en la pestaña Cliente de la ventana Socio del Negocio en el campo Criterio de Facturación.
+
+![Socio del Negocio](/assets/img/docs/sales-management/sam-agency7.png)
 
 #### Facturar al Cliente en moneda diferente al Costo
 
@@ -212,7 +232,9 @@ En la parte inferior de esta ventana veremos distintas opciones utilizadas al mo
 * Organización de la Trans.
 * Criterio de Agrupación: Es el criterio para agrupar las líneas de orden ya sea por Socio de negocio, Contrato, Proyecto, Orden , Impuesto, POReference, Adicionales).
 
-**NOTA: Tener en cuenta que el “Criterio de Agrupación” y el “Criterio de Facturación” NO son lo mismo.**
+::: note
+Tener en cuenta que el “Criterio de Agrupación” y el “Criterio de Facturación” NO son lo mismo.
+:::
 
 Luego seleccionaremos el botón de OK y se generará el Documento por cobrar correspondiente.
 
@@ -226,7 +248,7 @@ Para realizarlo seleccionaremos la opción “Proyecto” en el campo Criterio d
 
 Generará también en la pestaña Línea de la factura CFE una línea cuya Descripción tendrá definida lo mismo que se definió en el campo “Detalle en Factura” en el cabezal del Proyecto.
 
-**\*Siempre se agrupan las líneas que no sean Honorarios ya que éstos van en otra línea a parte.**
+**Siempre se agrupan las líneas que no sean Honorarios ya que éstos van en otra línea a parte.**
 
 ### **Facturación por Fase**
 
@@ -312,6 +334,8 @@ Guardaremos el cabezal y seleccionaremos el botón “Crear desde".
 
 Este botón permitirá crear la Nota de crédito desde una Orden de venta o compra, Factura o Recibo.
 
+![Nota de Crédito](/assets/img/docs/sales-management/sam-agency8.png)
+
 Seleccionaremos el tipo de documento, el documento en cuestión y realizaremos la búsqueda smartbrowser.
 
 Esta búsqueda nos mostrará todas las líneas del documento, las cuales podemos seleccionar mediante un “check” modificando sus cantidades si se desea.
@@ -324,7 +348,11 @@ Por último procederemos a completar la Nota de Crédito.
 
 La misma quedará con el check “pagado” siempre que haya sido por el total de la factura.
 
-**NOTA: Para ingresar una Nota de crédito Proveedor se utiliza el mismo procedimiento de ingreso de una factura de compra, indicando como Tipo de documento una Nota de crédito.**
+![Selección](/assets/img/docs/sales-management/sam-agency9.png)
+
+::: note
+Para ingresar una Nota de crédito Proveedor se utiliza el mismo procedimiento de ingreso de una factura de compra, indicando como Tipo de documento una Nota de crédito.
+:::
 
 ### **Solicitud de Re-facturación**
 
