@@ -14,12 +14,16 @@ Se genera a los efectos de presentar todos los Documentos por Pagar o Cobrar que
 
 Las condiciones exactas que serán consideradas al correr un Cálculo de Morosidad dependerá de la Morosidad que se seleccione así como también su Nivel de Morosidad definido. (Morosidad como concepto se refiere a una característica propia del SDN y es en este maestro donde se define esta cualidad (en general se configura como estado de cuenta), a su vez, en el maestro de morosidad puede setearse en esta característica diversos parámetros como ser mostrar todas las deudas, o bien no mostrarlos y solo enviar un aviso de deuda sin importes, o enviar deudas por rangos fecha, etc)
 
+![Cálculo de Morosidad](/assets/img/docs/balance-management/bam-default18.png)
+
 A partir de un Cálculo de Morosidad se generarán tantas entradas como Socios del Negocio con deuda se encuentren según las condiciones y parámetros aplicados en el proceso.
 
 En la entrada se podrá visualizar para cada Socio del Negocio, el importe total de lo adeudado así como también la cantidad de documentos pendientes. En la pestaña entradas se visualizan tantas líneas como Socios de negocio/familias se encuentren con deuda de acuerdo a los parámetros ingresados.  
 Dentro de cada entrada de morosidad se podrá ver en sus líneas cada uno de esos documentos que se encontró con saldo abierto y se podrá visualizar en cada uno de ellos, el número de documento así como también los Dïas de vencido y el importe pendiente.
 
-La idea de este documento de Cálculo de Morosidad será generar masivamente los reportes de Saldos Pendientes para cada uno de los Socios del negocio (Reporte que normalmente realiza el departamento de cuentas corrientes cliente por cliente) y a su vez lo agrega en un formato de impresión definido que se puede considerar como una “Carta de Morosidad” o estado de cuenta que se podrá enviar al cliente.  
+![Entradas](/assets/img/docs/balance-management/bam-default19.png)
+
+El documento de Cálculo de Morosidad genera masivamente los reportes de Saldos Pendientes para cada uno de los Socios del negocio (Reporte que normalmente realiza el departamento de cuentas corrientes cliente por cliente) y a su vez lo agrega en un formato de impresión definido que se puede considerar como una “Carta de Morosidad” o estado de cuenta que se podrá enviar al cliente.  
   
 El envío de estas cartas de morosidad o estados de cuenta podrá ser realizado masivamente también gracias al proceso de “Envío de Estado de Cuenta Corriente”. Para el envío masivo es importante cómo se encuentren configurados los SDN (con casilla mail) y las familias (marcados como “envía email” aquellos familiares responsables).
 
@@ -48,6 +52,8 @@ Dentro de los criterios podemos seleccionar:
 **Template de Correo:** Definición de la Plantilla de correo que se enviará como texto en el correo.
 
 **Check de “Send EMail”:** Este check podrá ser desmarcado para realizar pruebas de envios sin enviar realmente el correo al Socio del Negocio. Si se define el check en “Y” se enviará también el correo a los usuarios definidos como que se envie mail en la Familia del Responsable de Pago.
+
+![Envío de Estado de Cuenta](/assets/img/docs/balance-management/bam-default20.png)
 
 ### **Reporte de Estado de Cuenta**
 
@@ -83,8 +89,12 @@ La compañia
 
 From Account name: desde donde se origina la notificación.
 
+![Cola de Notificación](/assets/img/docs/balance-management/bam-default21.png)
+
 #### Recipientes de Cola de Notificación
 
 Es un registro de notificaciones generados dentro del sistema y con sus diferentes destinatarios. 
 
 Genera auditoría o historial de envíos de notificación con sus correspondientes estados y descripción de error (en el caso de no haber sido enviados).
+
+![Recipiente](/assets/img/docs/balance-management/bam-default22.png)

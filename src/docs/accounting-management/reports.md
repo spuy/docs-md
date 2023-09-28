@@ -96,61 +96,41 @@ Seleccione la organización en el campo **Organización**.
 
 La organización no es un campo obligatorio, sin embargo, representa una dimensión contable y le permite filtrar la información por organización cuando existe más de una, es decir, el informe financiero podrá emitir saldos contables de una organización al seleccionarla, si por el contrario, el campo está vacío Solop ERP mostrará la información contable de todas las organizaciones.
 
-Campo Organización
-
 Seleccione el socio de negocio en el campo **Socio de Negocio**.
 
 El socio de negocio no es un campo obligatorio, sin embargo, representa una dimensión contable y le permite filtrar la información por socio de negocio según su naturaleza, cliente, proveedor o empleado, es decir, el informe financiero podrá emitir saldos contables de un socio de negocio al seleccionarlo, si por el contrario, el campo está vacío Solop ERP mostrará la información contable de todos los socios de negocios.
-
-Campo Socio del Negocio
 
 Seleccione el producto en el campo **Producto**.
 
 El producto no es un campo obligatorio, sin embargo, representa una dimensión contable y le permite filtrar la información por producto, es decir, el informe financiero podrá emitir saldos contables de un producto al seleccionarlo, si por el contrario, el campo está vacío Solop ERP mostrará la información contable de todos los productos.
 
-Campo Producto
-
 Seleccione la actividad en el campo **Actividad**.
 
 La actividad no es un campo obligatorio, sin embargo, representa una dimensión contable y le permite filtrar la información por actividad, que generalmente es utilizada en contabilidad para distribución de los costos y gastos según las actividades que se desarrollan en la empresa, es decir, el informe financiero podrá emitir saldos contables de una actividad al seleccionarla, si por el contrario, el campo está vacío Solop ERP mostrará la información contable de todas las actividades.
-
-Campo Actividad
 
 Seleccione la región de venta en el campo **Región de Venta**.
 
 La región de venta no es un campo obligatorio, sin embargo, representa una dimensión contable y le permite filtrar la información por región de venta, que generalmente es utilizada para clasificar las zonas en las cuales la empresa establece negocios, es decir, el informe financiero podrá emitir saldos contables de una región de venta al seleccionarla, si por el contrario, el campo está vacío Solop ERP mostrará la información contable de todas las regiones.
 
-Campo Región de Ventas
-
 Seleccione el centro de costo en el campo **Centro de Costo**.
 
 El centro de costo no es un campo obligatorio, sin embargo, representa una dimensión contable y le permite filtrar la información por centro de costo, que generalmente es utilizado para segmentar los costos que genera una organización, permitiendo definir la ganancia o pérdida que le pueden añadir de forma directa o indirecta a una empresa, es decir, el informe financiero podrá emitir saldos contables de una región de venta al seleccionarla, si por el contrario, el campo está vacío Solop ERP mostrará la información contable de todos los centros de costos.
-
-Campo Centro de Costos
 
 Seleccione el tipo de aplicación en el campo **Tipo de Aplicación**.
 
 El tipo de aplicación no es un campo obligatorio, sin embargo, le permite filtrar la información por tipo de aplicación, que generalmente es utilizado para clasificar el tipo de contabilidad aplicado, el tipo de aplicación establecido por defecto es actual, basado en la configuración previa en las **Columnas de Informe** asociada al informe financiero, no obstante, podrá seleccionar entre, actual, presupuesto, reserva, compromiso y estadística, es decir, el informe financiero podrá emitir saldos contables de un tipo de aplicación específico al seleccionarlo, si por el contrario, el campo está vacío Solop ERP mostrará la información contable del tipo de aplicación **Actual**. Para profundizar más este tema vaya a el documento: Tipo de Aplicación
 
-Campo Tipo de Aplicación
-
 Seleccione la opción Si o No en el campo **Desplegar fuentes Fuentes**.
 
 Desplegar fuentes Fuentes no es un campo obligatorio, sin embargo, le permite visualizar el saldo de las cuentas detalle que dan origen al saldo de las cuentas acumulativas, también llamadas cuentas de mayor, es decir, si selecciona la opción **Si**, el informe financiero mostrará el saldo de las cuentas de mayor y el saldo de las cuentas detalle que componen esta cuenta, si por el contrario, la opción seleccionada es **No** o el campo está vacío Solop ERP mostrará el saldo contable únicamente de las cuentas definidas previamente en el **Grupo de Líneas del Informe** asociado al informe financiero.
-
-Campo Desplegar fuentes Fuentes
 
 Seleccione la opción Si o No en el campo **Lista Transacciones**.
 
 Lista Transacciones es un campo dependiente del campo **Desplegar fuentes Fuentes**, es decir solo estará habilitado cuando el campo **Desplegar fuentes Fuentes** esté establecido con la opción **Si**,**Lista Transacciones** no es un campo obligatorio, sin embargo, le permite visualizar el débito o crédito de las transacciones que dan origen al saldo de las cuentas detalles y a su vez a las cuentas acumulativas, también llamadas cuentas de mayor, es decir, si selecciona la opción **Si**, el informe financiero mostrará el monto de las transacciones que componen cada cuenta, si por el contrario, la opción seleccionada es **No** o el campo está vacío Solop ERP mostrará el saldo contable únicamente de las cuentas detalles.
 
-Campo Lista Transacciones
-
 Seleccione la opción Si o No en el campo Listas Fuentes Primero.
 
-Listas Fuentes Primero se encuentra por defecto con la opción **No**, no es un campo obligatorio, sin embargo, le permite organizar su informe financiero, organizando las cuentas fuentes(cuentas detalle) listadas desde la opción **Desplegar fuentes Fuentes** y **Lista Transacciones** de forma que si la opción seleccionada en el campo **Listas Fuentes Primero** es **Si las cuentas detalle junto a las transacciones irán precediendo a las cuentas definidas previamente en el **Grupo de Líneas del Informe** asociado al informe financiero, si por el contrario, el campo está vacío Solop ERP mostrará las cuentas detalle junto a las transacciones sucediendo a las cuentas definidas previamente en el **Grupo de Líneas del Informe\*\* asociado al informe financiero.
-
-Checklist Lista Fuentes Primero
+Listas Fuentes Primero se encuentra por defecto con la opción **No**, no es un campo obligatorio, sin embargo, le permite organizar su informe financiero, organizando las cuentas fuentes(cuentas detalle) listadas desde la opción **Desplegar fuentes Fuentes** y **Lista Transacciones** de forma que si la opción seleccionada en el campo **Listas Fuentes Primero** es **Si las cuentas detalle junto a las transacciones irán precediendo a las cuentas definidas previamente en el **Grupo de Líneas del Informe** asociado al informe financiero, si por el contrario, el campo está vacío Solop ERP mostrará las cuentas detalle junto a las transacciones sucediendo a las cuentas definidas previamente en el **Grupo de Líneas del Informe asociado al informe financiero.
 
 Seleccione el informe por jerarquía en el campo Reportando Jerarquías.
 
@@ -188,11 +168,7 @@ Imagen 5. Cubo de información
 
 Este cruce de la información permite analizar diversas situaciones y resultados llevando a cabo consultas de los datos masivos de manera eficiente y ligera para tomar decisiones acertadas.
 
-Campo Cubo Informe
-
 Luego de verificar los campos que contiene la ventana, el usuario debe seleccionar la opción **OK**, para que sea generado el informe.
-
-Ventana Crear Informe
 
 ### Balance de Comprobación
 
@@ -264,111 +240,57 @@ Imagen 2. Ventana Detalles de Asientos Contables|
 
 Seleccione en el campo **Esquema Contable**, el esquema contable previamente definido para contabilizar las cuentas.
 
-Campo Esquema Contable de la Ventana Detalles de Asientos Contables
-
 Seleccione en el campo Organización, la organización para la cual esta realizando el detalle de asientos contables.
-
-Campo Organización de la Ventana Detalles de Asientos Contables
 
 Seleccione en el campo **Fecha Contable**, el rango de tiempo en el cual fueron realizadas las transacciones y de las cuales requiere el reporte.
 
-Campo Fecha Contable de la Ventana Detalles de Asientos Contables
-
 Seleccione en el campo **Fecha de la Transacción**, el rango de tiempo en el cual fueron realizadas las transacciones y de las cuales requiere el reporte.
-
-Campo Fecha de la Transacción de la Ventana Detalles de Asientos Contables
 
 Seleccione en el campo **Período**, el rango de tiempo para filtrar la búsqueda de la información.
 
-Campo Período de la Ventana Detalles de Asientos Contables
-
 Seleccione en el campo **Código de Cuenta**, el código de cuenta correspondiente.
-
-Campo Código de Cuenta de la Ventana Detalles de Asientos Contables
 
 Seleccione en el campo **Cuenta**, la cuenta de la cual requiere el reporte.
 
-Campo Cuenta de la Ventana Detalles de Asientos Contables
-
 Seleccione en el campo **Tipo de Cuenta**, el tipo de cuenta correspondiente a la cuenta seleccionada.
-
-Campo Tipo de Cuenta de la Ventana Detalles de Asientos Contables
 
 Seleccione en el campo Tipo de Aplicación, el tipo de aplicación por el cual requiere filtrar la información.
 
-Campo Tipo de Aplicación de la Ventana Detalles de Asientos Contables
-
 Seleccione en el campo **Categoría Contabilidad**, la categoría de contabilidad por la cual requiere filtrar la información.
-
-Campo Categoría Contabilidad de la Ventana Detalles de Asientos Contables
 
 Seleccione en el campo **Presupuesto**, el presupuesto por el cual requiere filtrar la información.
 
-Campo Presupuesto de la Ventana Detalles de Asientos Contables
-
 Introduzca en el campo **Descripción**, una breve descripción por la cual requiere filtrar la información.
-
-Campo Descripción de la Ventana Detalles de Asientos Contables
 
 Seleccione en el campo **Moneda**, la moneda por la cual requiere filtrar la información para generar el reporte **Detalles de Asientos Contables**.
 
-Campo Moneda de la Ventana Detalles de Asientos Contables
-
 Seleccione en el campo **Tasa**, la tasa por la cual requiere filtrar la información.
-
-Campo Tasa de la Ventana Detalles de Asientos Contables
 
 Seleccione en el campo **Grupo de Socio del Negocio**, el grupo de socio del negocio por el cual requiere filtrar la información.
 
-Campo Grupo de Socio del Negocio de la Ventana Detalles de Asientos Contables
-
 Seleccione en el campo **Socio del Negocio**, el socio del negocio por el cual requiere filtrar la información.
-
-Campo Socio del Negocio de la Ventana Detalles de Asientos Contables
 
 Seleccione en el campo **Categoría del Producto**, la categoría del producto por la cual requiere filtrar la información.
 
-Campo Categoría del Producto de la Ventana Detalles de Asientos Contables
-
 Seleccione en el campo **Producto**, el producto por el cual requiere filtrar la información.
-
-Campo Producto de la Ventana Detalles de Asientos Contables
 
 Seleccione en el campo **Activo Fijo**, el activo fijo por el cual requiere filtrar la información.
 
-Campo Activo Fijo de la Ventana Detalles de Asientos Contables
-
 Seleccione en el campo **UPC/EAN**, el UPC/EAN por el cual requiere filtrar la información.
-
-Campo UP/EAN de la Ventana Detalles de Asientos Contables
 
 Seleccione en el campo **UM**, la UM por la cual requiere filtrar la información.
 
-Campo UM de la Ventana Detalles de Asientos Contables
-
 Seleccione en el campo **Cantidad**, la cantidad por la cual requiere filtrar la información.
-
-Campo Cantidad de la Ventana Detalles de Asientos Contables
 
 Seleccione en el campo **Ubicación**, la ubicación por la cual requiere filtrar la información.
 
-Campo Ubicación de la Ventana Detalles de Asientos Contables
-
 Seleccione en el campo **Impuesto**, el impuesto por el cual requiere filtrar la información.
-
-Campo Impuesto de la Ventana Detalles de Asientos Contables
 
 Seleccione en el campo **Actividad**, la actividad por la cual requiere filtrar la información.
 
-Campo Actividad de la Ventana Detalles de Asientos Contables
-
 Seleccione en el campo **Centro de Costos**, el centro de costo por el cual requiere filtrar la información.
 
-Campo Centro de Costos de la Ventana Detalles de Asientos Contables
-
 Seleccione la opción **OK** para generar el reporte **Detalle de Asientos Contables**.
-
-Opción OK de la Ventana Detalles de Asientos Contables
 
 Podrá visualizar el reporte **Detalle de Asientos Contables** de la siguiente manera.
 
@@ -394,59 +316,31 @@ Un reporte de estado de cuenta permite generar un informe detallado de las trans
 
 Seleccione en el campo **Esquema Contable**, el esquema contable previamente definido para contabilizar las cuentas.
 
-Campo Esquema Contable de la Ventana Estado de Cuenta
-
 Seleccione en el campo Tipo de Aplicación, el tipo de aplicación por el cual requiere filtrar la información.
-
-Campo Tipo de Aplicación de la Ventana Estado de Cuenta
 
 Seleccione en el campo **Período**, el rango de tiempo para filtrar la búsqueda de la información.
 
-Campo Período de la Ventana Estado de Cuenta
-
 Seleccione en el campo **Fecha Contable**, el rango de tiempo en el cual fueron realizadas las transacciones y de las cuales requiere el reporte.
-
-Campo Fecha Contable de la Ventana Estado de Cuenta
 
 Seleccione en el campo **Tipo de Cuenta**, el tipo de cuenta para filtrar la búsqueda de la información.
 
-Campo Tipo de Cuenta de la Ventana Estado de Cuenta
-
 Seleccione en el campo **Cuenta**, la cuenta de la cual requiere el reporte.
-
-Campo Cuenta de la Ventana Estado de Cuenta
 
 Seleccione en el campo Organización, la organización para la cual esta generando el reporte de estado de cuenta.
 
-Campo Organización de la Ventana Estado de Cuenta
-
 Seleccione en el campo **Socio del Negocio**, el socio del negocio por el cual requiere filtrar la información.
-
-Campo Socio del Negocio de la Ventana Estado de Cuenta
 
 Seleccione en el campo **Producto**, el producto por el cual requiere filtrar la información.
 
-Campo Producto de la Ventana Estado de Cuenta
-
 Seleccione en el campo **Actividad**, la actividad por la cual requiere filtrar la información.
-
-Campo Actividad de la Ventana Estado de Cuenta
 
 Seleccione en el campo Región de Ventas, la región de ventas por la cual requiere filtrar la información.
 
-Campo Región de Ventas de la Ventana Estado de Cuenta
-
 Seleccione en el campo Centro de Costos, el centro de costos por la cual requiere filtrar la información.
-
-Campo Centro de Costos de la Ventana Estado de Cuenta
 
 Seleccione en el campo Reportando Jerarquías, la erarquía por la cual requiere filtrar la información.
 
-Campo Reportando Jerarquías de la Ventana Estado de Cuenta
-
 Seleccione la opción **OK** para generar el reporte de estado de cuenta.
-
-Opción OK de la ventana Estado de Cuenta
 
 Podrá visualizar el reporte **Estado de Cuenta** de la siguiente manera.
 
@@ -470,63 +364,33 @@ Imagen 2. Ventana Reporte Balance de Prueba
 
 Seleccione en el campo **Esquema Contable**, el esquema contable por el cual requiere filtrar la información.
 
-Campo Esquema Contable de la Ventana Balance de Prueba
-
 Seleccione en el campo **Período**, el periodo por el cual requiere filtrar la información.
-
-Campo Período de la Ventana Balance de Prueba
 
 Seleccione en el campo **Fecha Contable**, el rango de fecha por el cual requiere filtrar la información.
 
-Campo Fecha Contable de la Ventana Balance de Prueba
-
 Seleccione en el campo **Organización**, la organización por la cual requiere filtrar la información.
-
-Campo Organización de la Ventana Balance de Prueba
 
 Seleccione en el campo **Cuenta**, la cuenta por la cual requiere filtrar la información.
 
-Campo Cuenta de la Ventana Balance de Prueba
-
 Introduzca en el campo **Código de Cuenta**, el código de la cuenta por el cual requiere filtrar la información.
-
-Campo Código de Cuenta de la Ventana Balance de Prueba
 
 Seleccione en el campo **Socio del Negocio**, el socio del negocio por el cual requiere filtrar la información.
 
-Campo Socio del Negocio de la Ventana Balance de Prueba
-
 Seleccione en el campo **Producto**, el producto por el cual requiere filtrar la información.
-
-Campo Producto de la Ventana Balance de Prueba
 
 Seleccione en el campo **Proyecto**, el proyecto por el cual requiere filtrar la información.
 
-Campo Proyecto de la Ventana Balance de Prueba
-
 Seleccione en el campo **Actividad**, la actividad por la cual requiere filtrar la información.
-
-Campo Actividad de la Ventana Balance de Prueba
 
 Seleccione en el campo **Región de Ventas**, la región de ventas por la cual requiere filtrar la información.
 
-Campo Región de Ventas de la Ventana Balance de Prueba
-
 Seleccione en el campo **Campaña**, la campaña por la cual requiere filtrar la información.
-
-Campo Campaña de la Ventana Balance de Prueba
 
 Seleccione en el campo **Tipo de Aplicación**, el tipo de aplicación por el cual requiere filtrar la información.
 
-Campo Tipo de Aplicación de la Ventana Balance de Prueba
-
 Seleccione en el campo **Reportando Jerarquías**, la jerarquía por la cual requiere filtrar la información.
 
-Campo Reportando Jerarquías de la Ventana Balance de Prueba
-
 Seleccione la opción **OK** para generar el reporte **Balance de Prueba** en base a lo seleccionado en los diferentes campos que contempla la ventana.
-
-Opción OK de la Ventana Balance de Prueba
 
 Podrá visualizar el reporte **Balance de Prueba**, de la siguiente manera.
 
@@ -550,75 +414,39 @@ Imagen 2. Ventana Asientos Diarios de Contabilidad
 
 Seleccione en el campo **Esquema Contable**, el esquema contable por el cual requiere filtrar la búsqueda.
 
-Campo Esquema Contable de la Ventana Asientos Diarios de Contabilidad
-
 Seleccione en el campo **Organización**, la organicación de la cual requiere generar el reporte **Asientos Diarios de Contabilidad**.
-
-Campo Organización de la Ventana Asientos Diarios de Contabilidad
 
 Seleccione en el campo **Fecha Contable**, el rango de fechas por el cual requiere filtrar la búsqueda.
 
-Campo Fecha Contable de la Ventana Asientos Diarios de Contabilidad
-
 Seleccione en el campo **Período**, el período o rango de fechas por el cual requiere filtrar la búsqueda.
-
-Campo Período de la Ventana Asientos Diarios de Contabilidad
 
 Seleccione en el campo **Cuenta**, la cuenta contable por la cual requiere filtrar la búsqueda.
 
-Campo Cuenta de la Ventana Asientos Diarios de Contabilidad
-
 Seleccione en el campo **Categoría Contabilidad**, la categoría de contabilidad por la cual requiere filtrar la búsqueda.
-
-Campo Categoría Contabilidad de la Ventana Asientos Diarios de Contabilidad
 
 Seleccione en el campo **Tipo de Aplicación**, el tipo de aplicación por el cual requiere filtrar la búsqueda.
 
-Campo Tipo de Aplicación de la Ventana Asientos Diarios de Contabilidad
-
 Seleccione en el campo **Presupuesto**, el presupuesto por el cual requiere filtrar la búsqueda.
-
-Campo Presupuesto de la Ventana Asientos Diarios de Contabilidad
 
 Seleccione en el campo **Socio del Negocio**, el socio del negocio por el cual requiere filtrar la búsqueda.
 
-Campo Socio del Negocio de la Ventana Asientos Diarios de Contabilidad
-
 Seleccione en el campo **Producto**, el producto por el cual requiere filtrar la búsqueda.
-
-Campo Producto de la Ventana Asientos Diarios de Contabilidad
 
 Seleccione en el campo **Activo Fijo**, el activo fijo por el cual requiere filtrar la búsqueda.
 
-Campo Activo Fijo de la Ventana Asientos Diarios de Contabilidad
-
 Seleccione en el campo **Ubicación**, la ubicación por la cual requiere filtrar la búsqueda.
-
-Campo Ubicación de la Ventana Asientos Diarios de Contabilidad
 
 Seleccione en el campo **Impuesto**, el impuesto por el cual requiere filtrar la búsqueda.
 
-Campo Impuesto de la Ventana Asientos Diarios de Contabilidad
-
 Seleccione en el campo **Moneda**, la moneda por la cual requiere filtrar la búsqueda.
-
-Campo Moneda de la Ventana Asientos Diarios de Contabilidad
 
 Seleccione en el campo **Tasa**, el rango de tasa, impuesto o conversión por el cual requiere filtrar la búsqueda.
 
-Campo Tasa de la Ventana Asientos Diarios de Contabilidad
-
 Seleccione en el campo **Actividad**, la actividad por la cual requiere filtrar la búsqueda.
-
-Campo Actividad de la Ventana Asientos Diarios de Contabilidad
 
 Seleccione en el campo **Centro de Costos**, el centro de costos por el cual requiere filtrar la búsqueda.
 
-Campo Centro de Costos de la Ventana Asientos Diarios de Contabilidad
-
 Seleccione la opción **OK** de la ventana **Asientos Diarios de Contabilidad** para generar el reporte en base a lo seleccionado en los campos explicados anteriormente.
-
-Opción OK de la Ventana Asientos Diarios de Contabilidad
 
 Podrá visualizar el reporte **Asientos Diarios de Contabilidad** de la siguiente manera.
 
@@ -642,71 +470,37 @@ Imagen 2. Ventana Asientos Contables por Período
 
 Seleccione en el campo **Esquema Contable**, el esquema contable por el cual requiere filtrar la búsqueda de la información.
 
-Campo Esquema Contable de la Ventana Asientos Contables por Período
-
 Seleccione en el campo **Organización**, la organización de la cual requiere generar el reporte **Asientos Contables por Período**.
-
-Campo Organización de la Ventana Asientos Contables por Período
 
 Seleccione en el campo **Período**, el período por el cual requiere filtrar la búsqueda de la información.
 
-Campo Período de la Ventana Asientos Contables por Período
-
 Seleccione en el campo **Cuenta**, la cuenta por la cual requiere filtrar la búsqueda de la información.
-
-Campo Cuenta de la Ventana Asientos Contables por Período
 
 Seleccione en el campo **Categoría Contabilidad**, la categoría de contabilidad por la cual requiere filtrar la búsqueda de la información.
 
-Campo Categoría Contabilidad de la Ventana Asientos Contables por Período
-
 Seleccione en el campo **Presupuesto**, el presupuesto por el cual requiere filtrar la búsqueda de la información.
-
-Campo Presupuesto de la Ventana Asientos Contables por Período
 
 Seleccione en el campo **Tipo de Aplicación**, el tipo de aplicación por el cual requiere filtrar la búsqueda de la información.
 
-Campo Tipo de Aplicación de la Ventana Asientos Contables por Período
-
 Seleccione en el campo **Moneda**, la moneda por la cual requiere filtrar la búsqueda de la información.
-
-Campo Moneda de la Ventana Asientos Contables por Período
 
 Seleccione en el campo **Tasa**, el rango de tasa, impuesto o conversión por el cual requiere filtrar la búsqueda.
 
-Campo Tasa de la Ventana Asientos Contables por Período
-
 Seleccione en el campo **Socio del Negocio**, el socio del negocio por el cual requiere filtrar la búsqueda de la información.
-
-Campo Socio del Negocio de la Ventana Asientos Contables por Período
 
 Seleccione en el campo **Producto**, el producto por el cual requiere filtrar la búsqueda de la información.
 
-Campo Producto de la Ventana Asientos Contables por Período
-
 Seleccione en el campo **Activo Fijo**, el activo fijo por el cual requiere filtrar la búsqueda de la información.
-
-Campo Activo Fijo de la Ventana Asientos Contables por Período
 
 Seleccione en el campo **Ubicación**, la ubicación por la cual requiere filtrar la búsqueda de la información.
 
-Campo Ubicación de la Ventana Asientos Contables por Período
-
 Seleccione en el campo **Impuesto**, el impuesto por el cual requiere filtrar la búsqueda de la información.
-
-Campo Impuesto de la Ventana Asientos Contables por Período
 
 Seleccione en el campo **Actividad**, la actividad por la cual requiere filtrar la búsqueda de la información.
 
-Campo Actividad de la Ventana Asientos Contables por Período
-
-Seleccione en el campo **Centro de Costos**, el centro de costos por el cual requiere filtrar la búsqueda de la información.
-
-Campo Centro de Costos de la Ventana Asientos Contables por Período
+Seleccione en el campo **Centro de Costos**, el centro de costos por el cual requiere filtrar la búsqueda de la información
 
 Seleccione la opción **OK** para generar el reporte **Asientos Contables por Período** en base a lo seleccionado en los campos explicados anteriormente.
-
-Opción OK de la Ventana Asientos Contables por Período
 
 Podrá visualizar de la siguiente manera el reporte **Asientos Contables por Período**.
 
@@ -730,15 +524,9 @@ Imagen 2. Ventana Registros Contables No Conciliados
 
 Seleccione en el campo **Cuenta**, la cuenta contable por la cual requiere filtrar la búsqueda de la información.
 
-Campo Cuenta de la Ventana Registros Contables No Conciliados
-
 Seleccione en el campo **Fecha Contable**, el rango de fechas en las que se realizaron los movimientos.
 
-Campo Fecha Contable de la Ventana Registros Contables No Conciliados
-
 Seleccione la opción **OK**, para generar el reporte **Registros Contables No Conciliados** en base a lo seleccionado en los campos explicados anteriormente.
-
-Opción OK de la Ventana Registros Contables No Conciliados
 
 Podrá visualizar de la siguiente manera el reporte **Registros Contables No Conciliados**.
 

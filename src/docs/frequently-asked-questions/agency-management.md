@@ -243,7 +243,7 @@ Lo que se puede hacer es por un momento dejar el honorario variable definido en 
 
 El funcionamiento actual del sistema es el siguiente:
 
-**1) Con respecto a la Orden de Venta Honorarios:**
+**1. Con respecto a la Orden de Venta Honorarios:**
 
 Al momento de completar la Orden de venta se calcularán tantos Cálculos de comisiones como Tipos de honorarios tenga definido el Contrato de servicio.
 
@@ -251,7 +251,7 @@ La Orden de Venta de Honorarios se generará automáticamente desde el Cálculo 
 
 Por lo tanto al generarse la Orden de venta Honorarios esta no discrimina por cantidad de cuotas de la Orden de venta que lo generó.
 
-**2) Con respecto a la Orden de Venta por las Comisiones al Proveedor:**
+**2. Con respecto a la Orden de Venta por las Comisiones al Proveedor:**
 
 Tendremos una "Orden de Venta Comisión" por el Cálculo de Comisión generado sobre la "Orden de Compra Inversión" original, una vez esta "Orden de Compra Inversión" sea Facturada por el Proveedor se volverá a realizar el Cálculo de Comisión sobre el importe Facturado de dicha Orden de Compra, generando la comisión correspondiente al importe que efectivamente haya sido facturado. Esto es debido a que se entiende que sólo se podrá descontar el importe de Comisión según el % definido pero sobre lo Facturado, ya que lo restante de la Orden de Compra si aún no fue facturado aún no podrá ser Canjeado entre la Agencia y el Proveedor.
 
@@ -295,9 +295,9 @@ Los procesos que se encuentran dentro de los "Navegadores Inteligentes" permiten
 
 Lamentablemente estos Navegadores presentan algunas limitaciones que son las siguientes:
 
-\*No se puede alterar el ordenamiento presentado por el Navegador, los datos se deben simplemente filtrar pero no se puede "Ordenar" según un criterio diferente al presentado.
+1. No se puede alterar el ordenamiento presentado por el Navegador, los datos se deben simplemente filtrar pero no se puede "Ordenar" según un criterio diferente al presentado.
 
-\* No se puede correr más de 1 vez un proceso desde un Navegador Inteligente, estoo quiere decir que sí realizó una selección y corrió un proceso, si desea generar un nuevo proceso con nuevos filtros se deberá abrir una nueva ventana del navegador inteligente para realizar la nueva consulta y el nuevo Proceso.
+2. No se puede correr más de 1 vez un proceso desde un Navegador Inteligente, estoo quiere decir que sí realizó una selección y corrió un proceso, si desea generar un nuevo proceso con nuevos filtros se deberá abrir una nueva ventana del navegador inteligente para realizar la nueva consulta y el nuevo Proceso.
 
 ### Guardar Búsquedas Avanzadas en una Ventana
 
