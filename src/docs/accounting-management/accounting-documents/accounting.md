@@ -363,9 +363,9 @@ Imagen 2. Asiento Contable de la Nómina
 
 Realice el procedimiento regular para reflejar en Solop ERP el pago de la nómina por empleado, el mismo se encuentra explicado en el documento Registro de Pagos de Nómina, elaborado por Solop ERP.
 
-Note
-
+::: note
 El pago de nómina que se genera al cumplir con todos los procesos que indica el documento, rebaja el pasivo.
+:::
 
 Al culminar los procesos de selección de pagos e imprimir/exportar pagos, que indica el documento Registro de Pagos de Nómina, se genera un **Pago de Nómina** en caja. Seleccione la opción **Contabilizado**, ubicada en la parte inferior de la ventana **Caja**.
 

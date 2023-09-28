@@ -56,4 +56,6 @@ Luego de finalizado el proceso, se mostrará un aviso con la información de los
 
 ![Validación de Datos Importación](/assets/img/docs/basic-rules/bid-import-verification.mp4)
 
-**NOTA:** este funcionamiento es similar al de todos los demás procesos de importación en el sistema (diario contable, estados de cuenta, etc).
+::: note
+Este funcionamiento es similar al de todos los demás procesos de importación en el sistema (diario contable, estados de cuenta, etc).
+:::
