@@ -6,7 +6,7 @@ sticky: 9
 article: false
 ---
 
-El préstamo en ADempiere pueden ser generados de dos formas, en la definición del proceso anterior se explicó cómo generar el préstamo desde la simulación, ahora aprenderá cómo crear un préstamo en la ventana de préstamo.
+El préstamo en Solop ERP pueden ser generados de dos formas, en la definición del proceso anterior se explicó cómo generar el préstamo desde la simulación, ahora aprenderá cómo crear un préstamo en la ventana de préstamo.
 
 Vaya a la ventana de Préstamo(Adjunto Imagen)
 
@@ -52,17 +52,17 @@ Proceda a crear el préstamo con las siguientes características puntuales:
 
 Monto de Capital: Indique el monto del préstamo solicitado.
 
-Frecuencia de Pago: ADempiere establece por herencia la frecuencia configurada en el producto financiero seleccionado, sin embargo puede modificarlo.
+Frecuencia de Pago: Solop ERP establece por herencia la frecuencia configurada en el producto financiero seleccionado, sin embargo puede modificarlo.
 
 Fecha Inicio: Indique la fecha de inicio del préstamo.
 
-Fecha Final: ADempiere calcula y establece la fecha basada en la frecuencia y la fecha de inicio, sin embargo puede modificarlo.
+Fecha Final: Solop ERP calcula y establece la fecha basada en la frecuencia y la fecha de inicio, sin embargo puede modificarlo.
 
-Nro de Cuotas: ADempiere establece por herencia el Nro de cuotas basadas en la cantidad mínima de cuotas configurada en el producto financiero seleccionado, sin embargo puede modificarlo.
+Nro de Cuotas: Solop ERP establece por herencia el Nro de cuotas basadas en la cantidad mínima de cuotas configurada en el producto financiero seleccionado, sin embargo puede modificarlo.
 
-Moneda: ADempiere establece por herencia la moneda basada en la configuración del producto financiero seleccionado, sin embargo puede modificarlo.
+Moneda: Solop ERP establece por herencia la moneda basada en la configuración del producto financiero seleccionado, sin embargo puede modificarlo.
 
-Tasa Financiera: ADempiere establece por herencia la tasa financiera basadas en la configuración del producto financiero seleccionado, no puede ser modificado.
+Tasa Financiera: Solop ERP establece por herencia la tasa financiera basadas en la configuración del producto financiero seleccionado, no puede ser modificado.
 
 Guarde el registro
 

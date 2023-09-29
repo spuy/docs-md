@@ -6,7 +6,7 @@ sticky: 9
 article: false
 ---
 
-La selección de pago en ADempiere actúa como una orden de pago, agrupando varios préstamos pendientes por cancelar, la funcionalidad o simplicidad del proceso dependerá de la configuración del documento en la cuenta bancaria o cuenta de caja (Vea Configuración Esencial para el Proceso de Préstamo).
+La selección de pago en Solop ERP actúa como una orden de pago, agrupando varios préstamos pendientes por cancelar, la funcionalidad o simplicidad del proceso dependerá de la configuración del documento en la cuenta bancaria o cuenta de caja (Vea Configuración Esencial para el Proceso de Préstamo).
 
 Fué creado un Smart Browser permitiendo al usuario seleccionar múltiples préstamos y generar de manera eficiente y segura un pago o varios pagos discriminando por préstamo si el usuario así lo desea.
 
