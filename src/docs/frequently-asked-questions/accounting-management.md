@@ -10,20 +10,26 @@ article: false
 
 ### Definición de Impuestos
 
-Para gestionar diferentes cuentas contables definidas para un impuesto, como por ejemplo si es un Impuesto de GASTO o de VENTA, se deberá marcar el check en la Tasa de Impuesto 
+Para gestionar diferentes cuentas contables definidas para un impuesto, como por ejemplo si es un Impuesto de GASTO o de VENTA, se debe marcar el check en la Tasa de Impuesto 
 
-Preguntas Frecuentes:  en un caso se reportó una cuenta que quedó sin número y fuera del árbol en Elemento Contable. El problema con esta cuenta se ve que fue mal creada. Esto sería un error. al parecer al ser creada quedó sin tener definido el MENÚ. 
-Es una funcionalidad del sistema que lo necesita para que se pueda ver en el árbol. cuando pasa esto hay que verificar si tiene bien definido el Árbol en el elemento contable (Cuenta contable)
+Preguntas Frecuentes:  en un caso se reportó una cuenta que quedó sin número y fuera del árbol en Elemento Contable. El problema con esta cuenta se ve que fue mal creada. Al parecer al ser creada quedó sin tener definido el MENÚ. 
+Es una funcionalidad del sistema que lo necesita para que se pueda ver en el árbol. cuando pasa esto hay que verificar si tiene bien definido el Árbol en el elemento contable (Cuenta contable).
 
-Comentario de Soporte: Al parecer la cuenta fue creada sin el MENU definido. Seguramente esto sucedió debido a que se creó manualmente sin "Copiar Cuenta" por lo que no se está seteando el menú por defecto. 
+::: note
+Seguramente esto sucedió debido a que se creó manualmente sin "Copiar Cuenta" por lo que no se está seteando el menú por defecto. 
+:::
 
 ### Balance de Prueba
 
 #### Saldo inicial del Balance de Prueba
 
-El saldo inicial del Balance de Prueba sólo brinda el saldo que se tiene la cuenta en cuestión pero en el AÑO del período que se definió “Desde”. Si la cuenta trae más saldo del año anterior no lo mostrará.
+El saldo inicial del Balance de Prueba sólo brinda el saldo que posee la cuenta en cuestión pero en el AÑO del período que se definió “Desde”. Si la cuenta trae más saldo del año anterior no se mostrará.
 
-**Mejora Pendiente:** Esta funcionalidad está OK si la empresa tiene como Cierre de Ejercicio el 31/12 y si realiza el Cierre y Apertura del Ejercicio. Pero si la empresa tiene como fecha de cierre de ejercicio en una fecha DIFERENTE al 31/12, este reporte presentará errores en caso de ser así y se debería definir un Saldo Inicial según dicha Fecha. 
+**Mejora Pendiente:** Esta funcionalidad está OK si la empresa tiene como Cierre de Ejercicio el 31/12 y si realiza el Cierre y Apertura del Ejercicio. Pero si la empresa tiene como fecha de cierre de ejercicio en una fecha DIFERENTE al 31/12, este reporte presentará inconvenientes. 
+
+::: note
+En este caso de se debería definir un Saldo Inicial según dicha Fecha (Diferente al 31/12). 
+:::
 
 ### Explicación del Saldo de Cuentas Contables PUENTE
 
@@ -31,7 +37,7 @@ El saldo inicial del Balance de Prueba sólo brinda el saldo que se tiene la cue
 
 El saldo de esta cuenta refiere a los Pagos que no han sido asignados aún. 
 
-Si Todos los pagos son generados de manera correcta al completarse y su importe de  “Totales con sobre/sub pago” es correcto, este Reporte de Pagos sin Asignar debería corresponderse con el Mayor “Cheque Depósito no Asignados”
+Si Todos los pagos son generados de manera correcta al completarse y su importe de  “Totales con sobre/sub pago” es correcto, este Reporte de Pagos sin Asignar debería corresponderse con el Mayor “Cheque Depósito no Asignados”.
 
 ### Como abrir período del año y mes
 
@@ -49,7 +55,7 @@ Pestaña: Periodo (boton multiple, seleccionar mes)
 
 Pestaña: Control de Periodo (boton multiple, validar columna “Estado del periodo”) debe decir “Abierto”.
 
-En caso contrario (el campo “Estado del Periodo” debería indicar en este momento “Nunca Abierto”), seleccionar el Documento, boton monoregistro, hacer clic en la ventana desplegable “Accion del Periodo”, seleccionar la acción que se desea (en este caso “Abrir”), luego clic en el boton “Abrir/Cerrar”, se abrira una ventana para “Abrir/Cerrar”, clic en OK.
+En caso contrario (el campo “Estado del Periodo” debería indicar en este momento “Nunca Abierto”), seleccionar el Documento, boton monoregistro, hacer clic en la ventana desplegable “Accion del Periodo”, seleccionar la acción que se desea (en este caso “Abrir”), luego clic en el boton “Abrir/Cerrar” y se abrirá una ventana para “Abrir/Cerrar”, clic en OK.
 
 El estado del Período debería indicar “Abierto”.
 

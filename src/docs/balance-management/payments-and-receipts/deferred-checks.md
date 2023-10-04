@@ -8,19 +8,15 @@ article: false
 
 ## **Cheques Diferidos**
 
-### **Cancelando un Documento por Pagar con un Cheque Recibido**
-
-El sistema actualmente no cuenta con esta funcionalidad de una manera directa pero de todas formas se pueden registrar siguiente los siguientes pasos.
-
-* Crear una Cuenta Bancaria llamada “Endoso de Cheques” (o como guste) con la moneda que realizará este tipo de transacciones.
-* Una vez se tenga la cuenta bancaria creada, deberá realizar el depósito del Cheque Diferido por Cobrar en la Cuenta Bancaria de “Endoso de Cheques”.
-* Luego de hacer el Depósito en dicha cuenta, deberá realizar directamente el pago correspondiente a el Socio de Negocio que desea entregar dicho Cheque Diferido por Cobrar.
-
 ### **Gestión de Cheques Diferidos por Cobrar**
 
 ### **Creación de Cheques Diferidos por Cobrar**
 
-Podrá emitir un cheque diferido por Cobrar desde la ventana de Recibo de Cobro presionando el botón “Generar Cheque Diferido”
+Los Cheques Diferidos por Cobrar son generados al momento de ingresar el Recibo de Cobro, creándolo en ese mismo momento desde esa ventana.
+
+Podrá emitir un cheque diferido por Cobrar desde la ventana de Recibo de Cobro presionando el botón “Generar Cheque Diferido”.
+
+![Generar Cheque Diferido](/assets/img/docs/balance-management/bam-deferred1.png)
 
 ### **Proceso de Generar Cheque Diferido por Cobrar[](https://docs.solop.io/luy/procedures/open-items/deferred-checks/creating-ar-deferred-checks.html#proceso-de-generar-cheque-diferido-por-cobrar "Permalink to this headline")**
 
@@ -34,9 +30,11 @@ Deberá ingresar la información del Cheque Diferido a Cobrar que está recibien
 * Fecha de Vencimiento: Fecha de vencimiento del Cheque Diferido. No podrá ser anterior a la fecha del recibo.
 * Acepte
 
+![Información de Cheque](/assets/img/docs/balance-management/bam-deferred2.png)
+
 El Cheque Diferido por Cobrar será creado y lo podrá ver en la ventana de Cheque Diferido por Cobrar.
 
-Los Cheques Diferidos por Cobrar son ingresados al momento de ingresar el Recibos de Cobro, creándolo en ese mismo momento desde esa ventana.
+![Ventana Cheque Diferido](/assets/img/docs/balance-management/bam-deferred3.png)
 
 ### **Reporte de Cheques Diferidos por Cobrar**
 
@@ -46,7 +44,18 @@ Los cheques diferidos por cobrar se visualizan en la ventana “Cheque Diferido 
 
 Esta ventana es solamente de lectura (consulta), ya que los cheques por cobrar se generan automáticamente desde el recibo de cobro.
 
+![Ventana Cheque Diferido](/assets/img/docs/balance-management/bam-deferred4.png)
+
 El Vencimiento desde la ventana se verá en la Pestaña “Vencimiento”. De todas maneras la manera más ágil de ver estos vencimientos será mediante el Reporte de “Cheques Diferidos”.
+
+![Reporte](/assets/img/docs/balance-management/bam-deferred5.png)
+
+### Depósito de Cheques
+
+En paso posterior a su creación desde recibo de pago un cheque diferido por cobrar es posible depositarlo desde Depósito de Cheques. 
+Presenta filtros de Socio del negocio, moneda, fecha de facturacióm y fecha de vencimiento que permiten agilizar el proceso de depósito de cheques (en forma individual o masiva).
+
+![Depósito de Cheques](/assets/img/docs/balance-management/bam-deferred6.png)
 
 ### **Creación de Libretas/Resmas de Cheques Propios**
 
@@ -66,7 +75,11 @@ De regreso en la ventana de libreta/resma de cheques, se deberá ligar la secuen
 
 Para ello ingrese el nombre, nombre a ser impreso, cuenta bancaria y la secuencia del documento (definida anteriormente).
 
+![Libretas](/assets/img/docs/balance-management/bam-deferred7.png)
+
 En la pestaña “Cheques” se visualiza el estado de los mismos.
+
+![Pestaña Cheques](/assets/img/docs/balance-management/bam-deferred8.png)
 
 #### **Débito de Cheques Propios**
 
@@ -82,6 +95,8 @@ El documento generado por este depósito podrá ser visualizado en la ventana �
 
 Luego veremos el documento generado en la ventana Depósito de Cheque Propio (solapa general).
 
+![Débito de Cheques](/assets/img/docs/balance-management/bam-deferred9.png)
+
 ### **Gestión de Cheques Diferidos por Pagar**
 
 #### **Emisión de Cheque Diferido por Pagar**
@@ -94,6 +109,10 @@ Puede emitir un cheque diferido por pagar de dos formas diferentes:
 #### **Creación de Cheque Diferido a Pagar desde Recibo de Pago**
 
 Podrá generar los cheques recibidos con el botón de la ventana Recibo de pago.
+Desde esta ventana, al completar el recibo de pago se generan dos movimientos, por un lado el movimiento de cheque diferido por pagar y por otro el de pago diferido.
+El Recibo de Pago es un documento que genera asignaciones: Asocia en este caso un cheque diferido con Facturas (una o varias).
+
+![Recibo de Pago](/assets/img/docs/balance-management/bam-deferred10.png)
 
 #### **Creación del/os Cheques desde la Ventana de Cheque Diferido por Pagar**
 
@@ -114,6 +133,8 @@ Recuerde: Una pestaña embebida está contenida en otra pestaña y es necesario 
 Por último, en la pestaña “Vencimiento” se debe indicar la fecha de vencimiento y oprimir el botón “Validar” (el check “Válido” deberá quedar marcado). Para finalizar se procede a Completar el documento.
 
 El Vencimiento desde la ventana se verá en la Pestaña “Vencimiento”. De todas maneras la manera más ágil de ver estos vencimientos será mediante el Reporte de “Cheques Diferidos”.
+
+![Cheque Diferidp por Pagar](/assets/img/docs/balance-management/bam-deferred11.png)
 
 #### **Proceso automático de Debitar los Cheques Diferidos por Pagar**
 
@@ -147,6 +168,14 @@ El documento generado por este depósito podrá ser visualizado en la ventana �
 Esta ventana es igual a la ventana “Depósito Cheque Tercero”, con la diferencia que la cuenta seleccionada en el campo “Cuenta Bancaria” debe ser la cuenta del/los cheque/s a depositar.
 
 ### **Casos Especiales**
+
+### **Cancelando un Documento por Pagar con un Cheque Recibido**
+
+El sistema actualmente no cuenta con esta funcionalidad de una manera directa pero de todas formas se pueden registrar siguiente los siguientes pasos.
+
+* Crear una Cuenta Bancaria llamada “Endoso de Cheques” (o como guste) con la moneda que realizará este tipo de transacciones.
+* Una vez se tenga la cuenta bancaria creada, deberá realizar el depósito del Cheque Diferido por Cobrar en la Cuenta Bancaria de “Endoso de Cheques”.
+* Luego de hacer el Depósito en dicha cuenta, deberá realizar directamente el pago correspondiente a el Socio de Negocio que desea entregar dicho Cheque Diferido por Cobrar.
 
 #### **Cheque Común Devuelto**
 
@@ -245,6 +274,8 @@ Socio del Negocio: socio del negocio del cheque depositado.
 Cheque: aquí se busca y selecciona el cheque a depositar. Si se desea depositar más de un cheque para el mismo socio de negocios, se puede utilizar la pestaña “Depositar Varios Cheques”.
 
 En caso de desear también se podrá generar los depósitos directo desde esta ventana. Para ello se deberá generar un nuevo registro y completar todos los campos. Para finalizar se procederá a Completar el documento, y de esa manera quedará realizado el depósito del cheque en la cuenta bancaria seleccionada.
+
+![Depósito de Cheque Tercero](/assets/img/docs/balance-management/bam-deferred12.png)
 
 ### **Gestión Avanzada de Cheques Diferidos**
 
