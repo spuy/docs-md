@@ -10,3 +10,4 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 
 - [Diario Contable](diary)
 - [Contabilidad de Transacciones](accounting)
+- [Asientos Contables](accounting-entries)
