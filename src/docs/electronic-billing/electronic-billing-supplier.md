@@ -8,7 +8,7 @@ article: false
 
 ### **Validación de datos en InvoiCy:**
 
-Luego de completado un e-Ticket/e-Factura, se puede chequear el CFE emitido en InvoiCy (<http://openupsolutions.invoicy.com.uy>), e ingresando con los datos proporcionados por OpenUp.
+Luego de completado un e-Ticket/e-Factura, se puede chequear el CFE emitido en InvoiCy (<https://solopuy.migrate.info/InvoiCy>), e ingresando con los datos proporcionados por Solop.
 
 Se despliega la página donde se puede ver la lista de todos los CFE (Comprobante Fiscal Electrónico) emitidos a la fecha.
 
