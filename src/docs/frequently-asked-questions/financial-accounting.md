@@ -29,11 +29,11 @@ Ahora cuando se deba depositar este cheque diferido si necesitaremos saber exact
 
 Todas las cuentas bancarias (para cobro) son propias.
 
-Las Cuentas bancarias del Cliente se definen en la ventana del SDN, pestaña Cuenta bancaria
+Las Cuentas bancarias del Cliente se definen en la ventana del Socio del Negocio, pestaña Cuenta bancaria
 
 ### ¿En qué afecta cambiarle el número o nombre a una cuenta contable?
 
-Los registros y las definiciones se rigen por ID de cuenta, no por nombre ni número; lo mismo con los SDN, Productos, etc
+Los registros y las definiciones se rigen por ID de cuenta, no por nombre ni número; lo mismo con los Socio del Negocio, Productos, etc
 
 Como las cuentas se manejan por ID, y no por el número ( a diferencia de Memory por ejemplo); cambiarle el número o el nombre no afecta en nada en toda la definición, el histórico va a pasar a ese número o nombre también (o sea, cambiarán el número o nombre de manera retroactiva, y no solo para tiempo futuro)
 
