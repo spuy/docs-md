@@ -68,7 +68,7 @@ La Solicitud de Notas de Crédito por parte de los usuarios a ADministración se
   
 Para ello hay que tener creado los Tipos de Documento de “Solicitud de Devolución” donde el Usuario definirá la “Entrega” que el Cliente solicita su NC. Dicho Documento debe tener el Tipo de Documento de Recepción así como también el Tipo de Documento de Facturación (en este caso Nota de Crédito).
 
-Luego de desde la Ventana se realiza la Devolución correspondiente y desde la misma se puede generar la Nota de Crédito al Cliente en cuestión. 
+Luego desde la Ventana se realiza la Devolución correspondiente y desde la misma se puede generar la Nota de Crédito al Cliente en cuestión. 
 
 #### Procedimiento para realizar una Nota de Crédito
 
@@ -114,9 +114,8 @@ Como asignar Nota de crédito a su factura de manera automática:
 
 #### Asignar una Nota de Crédito con su correspondiente Factura relacionada de manera automática
 
-* 1\. Desde el proceso de copiar líneas o Crear Desde, además de definir las líneas se agrega dicho DxP en la pestaña de "CFE Relacionado"
-* 2\. Si un DxP está definido en la pestaña de CFE relacionado se genera automáticamente la asignación si es por el 100% del documento.
-* 3\.  En WPP (Aún no se pasó a los demás clientes) se agrega un Importe Asignado en este proceso y SIEMPRE hace la asignación del DXP con la NC si el DxP tiene saldo abierto, sino salta un error
+* 1. Desde el proceso de copiar líneas o Crear Desde, además de definir las líneas se agrega dicho Documento por Pagar en la pestaña de "CFE Relacionado".
+* 2. Si un Documento por Pagar está definido en la pestaña de CFE relacionado se genera automáticamente la asignación (si es por el 100% del documento).
 
 ### Cuándo y por qué se generan Notas de Débito
 
@@ -124,13 +123,13 @@ Como asignar Nota de crédito a su factura de manera automática:
 
 Las notas de débito se hacen cuando una empresa ingresa o genera documentos pero que es sólo un traspaso de gasto. 
 
-Las Notas de Débito Proveedor que ingresa WPP son Facturas que el Proveedor le emite al CLIENTE, es decir pone el RUT del Cliente, pero WPP las ingresa al sistema ya que ellos le pagan al proveedor.
+Las Notas de Débito Proveedor que ingresa WPP son Facturas que el Proveedor le emite al CLIENTE, es decir pone el RUT del Cliente, pero la Organización las ingresa al sistema ya que ellos le pagan al proveedor.
 
 Para luego cobrarle al cliente se genera una Nota de Débito al Cliente por este mismo importe.
 
-NOTA
-
+::: note
 Estas Notas de Débito NO TIENEN IVA, son todas exentas, ya que el que descuenta el iva compras  es el Cliente.
+:::
 
 ### POS (Punto de Venta):
 
@@ -148,7 +147,9 @@ El tipo tasa de cambio esta definida en la ventana Terminal PDV en el campo “T
 
 Cuando el usuario selecciona una Lista de precios, cuya fecha de validez es posterior a la fecha del documento que se está creando, el campo de la moneda no se actualiza. Esto se debe a que en la ventana “Lista de Precios”, seleccionando la lista de precios en cuestion, luego pestaña “Version”, el campo “Valido desde” corresponde a una fecha posterior al documento (por ejemplo Orden de Compra), entonces el campo moneda no refleja el tipo de moneda de la lista de precios en el documento que se esta creando.
 
+::: note
 Para que una lista de precios sea correctamente considerada por un Documento la misma debe tener una Fecha (Válido desde) Desde en la Versión Activa igual o mayor al día del Documento.
+:::
 
 ### FAQ Nota de crédito manual.
 
@@ -164,7 +165,7 @@ El problema es que para  este tipo de Orden de Venta se realizará la Factura y
 
 #### ¿Por que motivo puede NO VISUALIZARSE una Orden de Venta para Facturar?
 
-Puede ser por 3 motivos:
+Puede ser por 4 motivos:
 
 * Que NO esté COMPLETA
 * Que no tenga el check de “Permite facturar”
@@ -173,7 +174,7 @@ Puede ser por 3 motivos:
 
 #### ERROR: Producto no está en lista de precios.
 
-Para solucionarlo se debe navegar al producto e agregar en la pestaña Precio la lista de precio que indica el mensaje.
+Para solucionarlo se debe navegar al producto y agregar en la pestaña Precio la lista de precio que indica el mensaje.
 
 #### Cómo quitar aviso de “Producto sin Inventario” cuando no se desea controlar inventario?
 
@@ -183,7 +184,7 @@ Se soluciona definiendo a los Productos con Tipo “ARTÍCULOS” como Almacenab
 
 Los productos tienen un ID que los identifica dentro de la aplicación. Por lo cual si, es posible cambiar el nombre de los productos (O SDN), pero siempre tendrá afectación en todo lugar del sistema donde se visualice dicho producto (inclusive en forma retroactiva). O sea, el nombre que cambien para ese ID producto cambiará para todos los registros en la aplicación.
 
-Por ejemplo si se utilizó este producto en algún Contrato o Factura pasada, el cambio de nombre afectará el nombre del producto definido en dichas facturas... entiendo que en su operativa podría afectar si existe alguna factura que aún se encuentra pendiente, entonces en un Estado de Cuenta Educación que envíen por Morosidad, se reflejará el nuevo Nombre y no el anterior.
+Por ejemplo si se utilizó este producto en algún Contrato o Factura pasada, el cambio de nombre afectará el nombre del producto definido en dichas facturas... entiendo que en cierta operativa podría afectar si existe alguna factura que aún se encuentra pendiente, entonces en un Estado de Cuenta que se envíe por Morosidad, se reflejará el nuevo Nombre y no el anterior.
 
 #### ¿Por qué al intentar completar una orden de venta  no se completa - POS?
 
@@ -191,7 +192,7 @@ Es posible que la Orden de Venta ya tenga un Pago/Cobro asignado, si es asi, no 
 
 #### ¿Cómo genero una Factura Cliente (Documento por Cobrar) a Crédito manualmente?
 
-selecciona el botón forma de pago “A credito”, una vez seleccionado, se despliega el campo “Término de pago”, donde definirá el término deseado. Esta conducta se puede definir en las propiedades del SDN para el siguiente Documento por cobrar. Luego de ingresados todos los datos, se da clic en “Completar”.
+selecciona el botón forma de pago “A credito”, una vez seleccionado, se despliega el campo “Término de pago”, donde definirá el término deseado. Esta conducta se puede definir en las propiedades del Socio del Negocio para el siguiente Documento por cobrar. Luego de ingresados todos los datos, se da clic en “Completar”.
 
 #### ¿En el Cierre de Caja de Punto de Venta qué muestra el campo “Diferencia Edo. de Cuenta”?
 
