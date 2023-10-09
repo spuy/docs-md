@@ -42,9 +42,9 @@ La ventana Informe de Inventario Valorado permite realizar una consulta sobre el
 
 ### Solicitudes
 
-#### Requisitos para que un usuario interno de Adempiere pueda ver solicitudes
+#### Requisitos para que un usuario interno de Solop ERP pueda ver solicitudes
 
-Para que un usuario de autenticación pueda ver “Solicitudes” en ADempiere de otros usuarios, debe tener asignado un SDN. Luego, ese SDN, en la pestaña “Empleado” debe tener marcada la opción de “Agente Comercial”.
+Para que un usuario de autenticación pueda ver “Solicitudes” en Solop ERP de otros usuarios, debe tener asignado un Socio del Negocio. Luego, ese Socio del Negocio, en la pestaña “Empleado” debe tener marcada la opción de “Agente Comercial”.
 
 ### Contrato de Servicios
 
