@@ -15,9 +15,9 @@ article: false
 Cómo primer paso para emitir cheques manuales en libretas, se deberán crear las libretas/resmas en el sistema, así como las secuencias para las mismas en las ventanas “Libreta/Resma Cheques” y “Secuencia de Documentos Controlados”. 
 
   
-generar un nuevo registro en la ventana “Libreta/Resma Cheques”, completando el Nombre y la cuenta bancaria de la misma.
+Se debe generar un nuevo registro en la ventana “Libreta/Resma Cheques”, completando el Nombre y la cuenta bancaria de la misma.
 
-1. navegar en el campo “Numeración de Libreta”, abriendo la ventana Secuencia de Documentos Controlados.
+1. Navegar en el campo “Numeración de Libreta”, abriendo la ventana Secuencia de Documentos Controlados.
 2. Aquí se debe ingresar el nombre, descripción opcional, número de inicio y fin de la libreta, y si fuera necesario un sufijo o prefijo para la numeración.
 3. Guardar el registro, mediante el botón “Generar Líneas”
 4. De regreso en la ventana de libreta/resma de cheques, se debe ingresar el nombre, nombre a ser impreso, cuenta bancaria y la secuencia del documento (definida anteriormente).
@@ -27,7 +27,6 @@ En la pestaña “Cheques” se visualiza el estado de los mismos.
 ### Cheque Diferido Por Pagar
 
 La emisión de cheques diferidos propios se debe realizar mediante la ventana “Cheque Diferido Por Pagar”. 
-
 En el cabezal de la misma se deberá completar los siguientes campos:
 
 Libreta, Nro. Cheque, Fecha Emisión, Socio del Negocio, Dirección del Socio de Negocio.
@@ -36,7 +35,7 @@ Luego, debe ingresar a la pestaña embebida y abrir una “Línea” accionando 
 
 #### Anular un cheque diferido por pagar
 
-Para anular un cheque diferido por pagar el mismo NO debe estar en Estado de Cheque "Entregado"
+Para anular un cheque diferido por pagar el mismo NO debe estar en Estado de Cheque "Entregado".
 
 El estado del cheque se modifica cuando el mismo se "Entrega" en un Recibo de Pago.
 
@@ -53,7 +52,7 @@ Para hacer un depósito de cheque diferido vamos a la ventana “Depósito de ch
 Luego seleccionamos los cheques a depositar indicando la Cuenta bancaria destino y la Fecha de la transacción y hacemos click en la opción “OK”.
 
   
-Check Conciliado al Anular un Pago/Cobro
+#### Check Conciliado al Anular un Pago/Cobro
 
 Al anularse un depósito de cheque de tercero, al reversar el documento se consulta si para el payment hay una linea de conciliación con dicho payment, si no la hay entonces se le marca el check de conciliado a ambos documentos.
 
@@ -77,21 +76,24 @@ El asiento se neutraliza.
 
 ### Conciliación Bancaria
 
-\*Una conciliación sube y se baja con el pago que tenga asignado. 
+*Una conciliación sube y se baja con el pago que tenga asignado. 
 
 Al navegar al pago deberíamos ver el movimiento de la cuenta que deja en 0 a la misma.
 
-**\***El Saldo Inicial no permite editarlo con 0
-
-El campo saldo inicial se puede modificar a mano, pero nunca podrá ser cero
+::: note
+El Saldo Inicial no permite editarlo con 0.
+El campo saldo inicial se puede modificar a mano, pero nunca podrá ser cero.
+:::
 
 En la conciliación, al seleccionar la cuenta bancaria, el campo "Saldo Inicial" se carga automáticamente el importe del campo "Saldo Actual" de la cuenta bancaria (pestaña Cuenta de la ventana Banco). 
 
 El “Saldo Actual” de la Cuenta Bancaria  (pestaña Cuenta de la ventana Banco). 
 
-se calcula con los saldos de las conciliaciones Completas o Cerradas (que es un estado posterior a Completa)
+se calcula con los saldos de las conciliaciones Completas o Cerradas (que es un estado posterior a Completo).
 
+::: note
 Es importante que no haya conciliaciones en estado CERRADO, ya que pueden no ser consideradas en los reportes.
+:::
 
 ### ¿Qué funcionalidad tiene la ventana Informe Financiero?
 
@@ -103,10 +105,9 @@ Ejemplo de Informes Financieros
 * Informe por Centro de Costos Acumulado
 * Informe por Centro de Costos MES
 
+#### ¿Cómo puedo emitir un balance mensual ?
 
-¿Cómo puedo emitir un balance mensual ?
-
-Los balances mensuales se generan desde la ventana “Informe financiero.
+Los balances mensuales se generan desde la ventana “Informe financiero".
 
 #### ¿Qué representa la columna Total en un Balance mensual ?
 
@@ -134,7 +135,7 @@ Los créditos se componen por :
 
 Representan el Saldo acumulado dentro del ejercicio para el cual emito el Mayor, es decir, si solicito un Mayor para el período 01/04 - 30/04 figurará en éste un Saldo inicial que corresponderá al saldo acumulado del 01/01 al 31/03.
 
-### ¿Cómo puedo obtener un reporte de las Ventas o de la Facturación mensual? (EDUCACIÓN)
+### ¿Cómo puedo obtener un reporte de las Ventas o de la Facturación mensual?
 
 Esta información puede obtenerse mediante el reporte “Diario Compras y Ventas” marcando el check de Transacción de Ventas,.
 
@@ -146,11 +147,11 @@ Luego seleccionamos los cheques a depositar indicando la Cuenta bancaria destino
 
 #### ¿En el proceso de “Generar Cobro Contado” en Recibo de Cobro, en el campo “Cuenta bancaria” aparecen las cuentas bancarias de los clientes o propias también?
 
-Cuentas Bancarias propias. Las cuentas Bancarias de Clientes no se definen de esta manera. 
+Aparecen Cuentas Bancarias propias. Las cuentas Bancarias de Clientes no se definen de esta manera. 
 
 Si bien se puede manejar las cuentas bancarias de clientes, esto es desde la pestaña “Cuenta Bancaria” de la ventana del SDN.
   
-\*\*\*Todas esas cuentas bancarias son las de la Organización. Es donde mandas o desde donde sacas el dinero  de la empresa
+Todas esas cuentas bancarias son las de la Organización. Es de donde se envía o desde donde se extrae el dinero de la empresa
 
 #### Cuándo se crea un Cheque Diferido por Cobrar ¿Qué BANCO se define? 
 
@@ -180,7 +181,7 @@ Este proceso es "Transferencia bancaria multimoneda".
 
 #### ¿Qué Socio del Negocio se debe definir si se quiere hacer una transferencia entre cuentas propias?
 
-Se debería definir el SDN definido en cada Organización. Si no tiene un SDN creado con el nombre de la Organización debería generarlo para estos casos.
+Se debería definir el Socio del Negocio definido en cada Organización. Si no tiene un Socio del Negocio creado con el nombre de la Organización debería generarlo para estos casos.
 
 #### ¿En el proceso "Transferencia bancaria multimoneda" Qué número deberá definirse en nro. Documento destino?
 
@@ -192,7 +193,7 @@ Desde la conciliación: Para buscarlo hay que saber en qué Línea de la Concili
 
 Desde el Pago: si el pago está conciliado entonces se podría visualizar la la línea de Conciliación donde se encuentra conciliado en la pestaña “Bank Statement Line” en la ventana Pago/Cobro.
 
-no se puede reactivar y cambiar la organización de una orden de venta reactivando y cambiando la misma ya que existen "Cantidad Reservada Aplicada para dicha Organización" Para poder modificar la orgnaización, y esto es algo que no está controlado ya que no debería hacerse de esta manera podría siguiendo los siguientes pasos:
+no se puede reactivar y cambiar la organización de una orden de venta reactivando y cambiando la misma ya que existen "Cantidad Reservada Aplicada para dicha Organización" Para poder modificar la orgnaización, y esto es algo que no está controlado ya que no debería hacerse de esta manera, aunque podría siguiendo los siguientes pasos:
 
 1. Reactivar la Orden
 2. quitar la cantidad ordenada y poner 0

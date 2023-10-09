@@ -12,7 +12,7 @@ article: false
 
 Para enviar un E-Ticket, sólo es necesario que el receptor tenga definido el tipo de documento si el monto supera las 10.000 UI a fecha del 31/12 del año anterior.
 
-Si se supera dicho monto, al socio de negocio del comprobante se le puede asignar el tipo de documento “Otros” y colocar cualquier número como número de documento.
+Si se supera dicho monto, al socio del negocio del comprobante se le puede asignar el tipo de documento “Otros” y colocar cualquier número como número de documento.
 
 #### Mensajes de Error CFE
 
@@ -82,15 +82,15 @@ Y también cuando se vence, se tiene que adelantar la secuencia en Solop ERP par
 
 Solop ERP gestiona las secuencia de los documentos que envía a InvoiCy, entonces.
 
-\* Cuando el cae se termina, habiendo llegado a 800 en un caso hipotético, en Solop ERP la siguiente secuencia es la 801 y como DGI te asigna también CAEs en secuencia, va a ser también la 801 por lo cual no se requiere una acción adicional, Solop ERP sigue sin intervención con la siguiente secuencia.
+* Cuando el cae se termina, habiendo llegado a 800 en un caso hipotético, en Solop ERP la siguiente secuencia es la 801 y como DGI te asigna también CAEs en secuencia, va a ser también la 801 por lo cual no se requiere una acción adicional, Solop ERP sigue sin intervención con la siguiente secuencia.
 
-\* Si se vence, (en un segundo caso hipotético) habiendo emitido hasta el 759, Solop ERP está apuntando el próximo número: al 760, por lo que no va a haber ningún cae válido que responda a ese nombre.
+* Si se vence, (en un segundo caso hipotético) habiendo emitido hasta el 759, Solop ERP está apuntando el próximo número: al 760, por lo que no va a haber ningún cae válido que responda a ese nombre.
 
 Cuando se vence un CAE hay que:
 
-\* Adelantar la secuencia en Solop ERP
+* Adelantar la secuencia en Solop ERP
 
-\* En invoicy ANULAR el rango de secuencias del cae vencido que no fueron emitidos para que sea informado en el reporte diario
+* En invoicy ANULAR el rango de secuencias del cae vencido que no fueron emitidos para que sea informado en el reporte diario
 
 #### Como Ver el formato de impresión de una e-Factura desde Solop ERP
 
@@ -106,7 +106,7 @@ Cuando una factura está en Estado "Borrador" (por ej. si se generó manualmente
 
 En estos casos que se genera un DxC manualmente desde la ventana, se debe intentar "Preparar". esto se realiza desde el proceso de Completar.
 
-\*Al preparar se crea automáticamente las Líneas CFE.
+*Al preparar se crea automáticamente las Líneas CFE.
 
 #### ¿Por qué motivo puede aparecer el siguiente error: “Error: CFE  Rechazado”?
 
@@ -120,10 +120,7 @@ El problema aquí es que NOexisten CAEs para las facturas o boletas.
 
 Esto lo debe solicitar el cliente a su estudio contable y subirlo a Invoicy.
 
-  
-De lo contrario si no los puede subir el cliente, nos lo pueden pasar a nosotros y se los subimos.
-
-que no se han utilizado, y se debe adelantar en Solop ERP la secuencia del tipo de documento correspondiente, para coincidir con el número inicial del nuevo CAE vigente. 
+De lo contrario, si no los puede subir el cliente, lo pueden pasar al Soporte de Solop ERP y para subirlos.
 
 #### ¿Por qué puede suceder el siguiente error: “ERROR: "CFE Error: Area Información de Referencia (3) - Error al parsear código de CFE" al completar una e-Nota de Crédito”?
 
@@ -131,13 +128,13 @@ Esto sucede cuando el documento referenciado es previo a facturación electróni
 
 #### ¿Qué hay que tener en cuenta al generar un e-Ticket o una e-Factura?
 
-Puede ocurrir que cuando se esta generando una Orden de Venta, y dependiendo de si se desea generar una e-Factura o un e-Ticket, debe estar definido el RUT en el SDN.
+Puede ocurrir que cuando se esta generando una Orden de Venta, y dependiendo de si se desea generar una e-Factura o un e-Ticket, debe estar definido el RUT o Cédula en el Socio del Negocio según corresponda.
 
-Si lo que se desea es generar una e-Factura entonces el SDN debe tener definido el “Grupo de Impuestos” como RUT.
+Si lo que se desea es generar una e-Factura entonces el Socio del Negocio debe tener definido el “Grupo de Impuestos” como RUT.
 
-Si lo que se desea generar es un e-Ticket, entonces el documento puede ser generado a un SDN generico (como mostrador) ya que no exige la identificacion del mismo, siempre y cuando no supere los 10000 UY.
+Si lo que se desea generar es un e-Ticket, entonces el documento puede ser generado a un Socio del Negocio generico (como mostrador) ya que no exige la identificacion del mismo, siempre y cuando no supere los 10000 UY.
 
-Otra causa posible es que, aunque exista un CAE vigente, se venció la secuencia anterior, quedando números sin usar. En ese caso se deben anular los números del CAE vencido 
+Otra causa posible es que, aunque exista un CAE vigente, se venció la secuencia anterior, quedando números sin usar. En ese caso se deben anular los números del CAE vencido.
 
 #### ¿Por qué motivo puede suceder el siguiente error: “Tipo de documento no definido para Socio de Negocio…”?
 
@@ -145,22 +142,22 @@ Esto puede suceder ya que el Socio de negocio en cuestión tiene en esta ventana
 
 #### ¿Por qué los datos de una factura en el sistema (cabezal, lineas, totales) se ven bien, pero al imprimir, una sale con los datos de otra? (CFE impresión factura se cruza una con la otra)
 
-**Sucede porque** hay un error al procesar los documentos en InvoiCy. Se debe revisar en InvoiCy si lo documentos ya se han ido para DGI (entrar en la consola, en inicio, y validar los datos de los CFE involucrados). Entonces lo que se debe hacer primero es dejar el ambiente de InvoiCy igual al de Solop ERP. Esto puede significar o no que se deba anular una factura en Solop ERP y volverla a hacer luego. Se debe validar los pasos a ejecutar y organizarlos.
+**Sucede porque** hay un error al procesar los documentos en InvoiCy. Se debe revisar en InvoiCy si los documentos ya se han ido para DGI (entrar en la consola, en inicio, y validar los datos de los CFE involucrados). Entonces lo que se debe hacer primero es dejar el ambiente de InvoiCy igual al de Solop ERP. Esto puede significar o no que se deba anular una factura en Solop ERP y volverla a hacer luego. Se debe validar los pasos a ejecutar y organizarlos.
 
 Por ejemplo (las situaciones pueden ser varias):
 
-En Solop ERP Tenemos una factura con el SDN A con un total X y otra factura al SDN B con un total Y. Pero en InvoiCy aparecen dos facturas al SDN B con el total Y. Como las facturas ya se fueron para DGI, lo primero que hay que hacer es replicar el ambiente de InvoiCy en DGI y luego realizar las acciones necesarias para normalizar la situación. En este caso:
+En Solop ERP Tenemos una factura con el Socio del Negocio A con un total X y otra factura al Socio del Negocio B con un total Y. Pero en InvoiCy aparecen dos facturas al Socio del Negocio B con el total Y. Como las facturas ya se fueron para DGI, lo primero que hay que hacer es replicar el ambiente de InvoiCy en DGI y luego realizar las acciones necesarias para normalizar la situación. En este caso:
 
- 1. En Solop ERP anular la factura que esta mal (SDN A con total X)
- 2. Crear una igual a la que esta en InvoiCy (SDN B con total Y)
+ 1. En Solop ERP anular la factura que esta mal (Socio del Negocio A con total X)
+ 2. Crear una igual a la que esta en InvoiCy (Socio del Negocio B con total Y)
  3. Tomar nota de la secuencia definitiva actual para el tipo de documento en Solop ERP (ya sea Factura Cliente, etc.)
  4. Coordinar con el Cliente para que no se facture mas mientras se hacen las correcciones.
- 5. Modificar la secuencia definitiva para que la siguiente factura sea la que se anulo (SDN A con total X).
+ 5. Modificar la secuencia definitiva para que la siguiente factura sea la que se anulo (Socio del Negocio A con total X).
  6. Desactivar el tipo de documento como CFE (isCFE=NO)
  7. Completar la nueva factura que esta en Draft (borrador).
  8. Restaurar la secuencia definitiva.
  9. Habilitar nuevamente el tipo de documento como CFE (isCFE=SI)
-10. Crear una Nota de Crédito para la nueva factura creada con la secuencia correspondiente a SDN A con total X y con los datos de SDN total Y, esto para anular la factura doble que quedo en InvoiCy.
+10. Crear una Nota de Crédito para la nueva factura creada con la secuencia correspondiente a Socio del Negocio A con total X y con los datos de Socio del Negocio total Y, esto para anular la factura doble que quedo en InvoiCy.
 11. Volver a facturar al SDN A con total X para que esta vez salga bien.
 
 Es posible también, que al entrar en InvoiCy y validar el estatus del CFE, se vea que la factura con problemas esta en estado de “RECHAZADO”, si es asi, entonces se puede por base de datos corregir los datos del documento y tratar de completar nuevamente el documento.
@@ -181,7 +178,9 @@ Solo se puede pagar una Factura y ver las opciones de Banco cuando la factura es
 
 Las facturas una vez generadas no podrán borrarse por motivo de auditoría, lo que se debe hacer con ellas en estos casos es anularlas.
 
-**NOTA:** El sistema permite anular facturas que se encuentren en estado borrador.
+::: note
+El sistema permite anular facturas que se encuentren en estado borrador.
+:::
 
 #### Como generar Asignación (Automática) de facturas a los pagos:
 
@@ -192,7 +191,7 @@ A este proceso se le agregó el check “Factura Asignada Totalmente”, mediant
 
 Cuando se marca el check “Asignación a las Primeras” llama a una función que permite asignar todo lo que se pueda, aunque el total de cobros sea distinto al de facturas, creando primero todas las líneas de asignación para los pago/cobro, y luego todas las líneas para las facturas. En este caso, si también se marcó el check “Factura Asignada Totalmente”, se controla e impide que la factura quede con saldo abierto.
 
-\- Funcionamiento con ambos check = Y:
+* Funcionamiento con ambos check = Y:
 
 El importe de cobros es mayor al importe de  facturas -> se genera asignación
 
@@ -215,13 +214,12 @@ Si se agregan varios informes y al menos uno tiene el check “IsSelfService” 
 
   
 Se utilizan los campos en pestaña "CFE Referidos" de "Total Abierto" y "Total Asignado". Estos campos, cuando las líneas en esta pestaña son generadas mediante un proceso, se cargan de la siguiente manera:
-
   
-\- **Desde el botón "Crear Desde" (desde Factura) en cabezal de documento:** se setea el importe abierto de la factura y el importe total asignado, según el total de líneas agregadas a la nota de crédito.
+**Desde el botón "Crear Desde" (desde Factura) en cabezal de documento:** se setea el importe abierto de la factura y el importe total asignado, según el total de líneas agregadas a la nota de crédito.
 
-\- **Desde proceso "Crear Nota de Crédito desde Factura" (en el ícono del engranaje en cabezal de factura):** se setea el importe abierto de la factura y el importe total asignado, según el total de líneas agregadas a la nota de crédito.
+**Desde proceso "Crear Nota de Crédito desde Factura" (en el ícono del engranaje en cabezal de factura):** se setea el importe abierto de la factura y el importe total asignado, según el total de líneas agregadas a la nota de crédito.
 
-\- **Desde proceso "Generar Nota de Crédito desde Devolución":** se setea el importe abierto de la factura y el importe total asignado se toma del importe total del cabezal de RMA (Autorización de Devolución)
+**Desde proceso "Generar Nota de Crédito desde Devolución":** se setea el importe abierto de la factura y el importe total asignado se toma del importe total del cabezal de RMA (Autorización de Devolución)
 
 Si se genera una línea manualmente en pestaña "CFE Referidos", también se carga el importe abierto, y el importe asignado con igual valor.
 
@@ -231,23 +229,20 @@ Al momento de ejecutarse este proceso, se verifica que cada una de las facturas 
 
 Al completarse la Nota de Crédito de Documento por Cobrar, se verifican las líneas de orden de los Documentos por Cobrar asignados en pestaña "CFE Referidos", y en caso de que ninguna línea tenga cantidad ordenada distinta a la facturada, se quita el check de "En Negociacion" del Documento por Cobrar.
 
-**__NOTA__**
-
-**EL SISTEMA NO REALIZA ASIGNACIONES POR LÍNEA SINO POR FACTURA, por lo que si los pagos no cancelan totalmente los Documentos por Cobrar no se deben asignar parcialmente**.
+::: note
+EL SISTEMA NO REALIZA ASIGNACIONES POR LÍNEA SINO POR FACTURA, por lo que si los pagos no cancelan totalmente los Documentos por Cobrar no se deben asignar parcialmente.
+:::
 
 CONTROLES:
 
-\- No se permite guardar una línea en CFE referidos, si hay una factura seleccionada y al menos uno de los campos de importe (total abierto o total asignado) es menor o igual a cero.
+* No se permite guardar una línea en CFE referidos, si hay una factura seleccionada y al menos uno de los campos de importe (total abierto o total asignado) es menor o igual a cero.
 
-\- No se permite completar la NC si el monto total de facturas asignadas es mayor al importe de la NC. En el caso que sea 
-
-menor, entonces la NC se asigna con el importe de las facturas asignadas, quedando un pendiente en la NC.
+* No se permite completar la NC si el monto total de facturas asignadas es mayor al importe de la NC. En el caso que sea menor, entonces la NC se asigna con el importe de las facturas asignadas, quedando un pendiente en la NC.
 
 ### Recibo de Cobro
 
 Es un documento que una entidad (comercial/personal) emite indicando que cobró a un tercero por un bien o servicio.
 
-  
 El recibo de cobro tiene un total monetario que está formado por la suma de los "Medios de Pago", este total nunca puede exceder el total del recibo de cobro (el total de los medios de pago puede ser menor o igual al recibo de cobro), estos medios de pago pueden ser:
 
 * Cheque diferido
@@ -309,8 +304,6 @@ No se permite realizar cambios en el cabezal del recibo, si el mismo ya tiene l�
 * Multimoneda (check)
 * Tasa
 * Tipo de Conversión
-
-
 * Segunda Moneda
 
 Si el recibo es multimoneda y aún no tiene líneas, se vuelve a obtener y cargar la tasa de cambio cuando se modifica alguno de los siguientes campos:
@@ -333,7 +326,7 @@ Luego, al momento de completarse el recibo multimoneda, si el mismo genera una a
 
 Estos datos son necesarios al momento de contabilizar la asignación de pagos, para obtener la tasa utilizada al momento de los cálculos para la pérdida/ganancia realizada.
 
-#### Recibo de anualidad (Educación)
+#### Recibo de anualidad (Servicios)
 
 **Al crear un recibo de anualidad se debe marcar el check "anticipo"**
 
@@ -382,35 +375,32 @@ En la pestaña Documentos a Aplicar se indicarán los documentos en el cual se d
 
 ### Proveedores
 
-En Referencia  se debería definir el Documento que se generará como “Retención” en “Documentos de Retención Generada”: Crear tipo de documento “Retención”
+En Referencia  se debería definir el Documento que se generará como “Retención” en “Documentos de Retención Generada”: Crear tipo de documento “Retención”.
 
 Además se debería generar el Tipo de Documento de “e-Resguardo”. Considerar que se debe aplicar la misma lógica que se aplicó para la generación automática de Facturas definiendo de manera genérica el Documento pero luego al momento de generarlo se deberá tomar el Tipo de Documento que corresponda según la Organización donde se encuentre
 
 ### Impuestos
 
-Cuando se define una retención donde su monto imponible se realiza sobre el impuesto, aparecerá una nueva pestaña donde se indicarán los impuestos que se retendrán
-
-  
+Cuando se define una retención donde su monto imponible se realiza sobre el impuesto, aparecerá una nueva pestaña donde se indicarán los impuestos que se retendrán.
 En esta pestaña se ingresarán todos los impuestos a retener para el documento en cuestión
 
 ### Observaciones
 
 Según la parametrización realizada en el Tipo de Retención, se evaluará si corresponde realizar documento de Withholoding para el documento.
 
-Actualmente está parametrizado para que se revise en la acción Completar de la Factura
+Actualmente está parametrizado para que se revise en la acción Completar de la Factura.
 
 #### Al completar Documento por Pagar
 
-Si el documento cumple para generar retención, según la parametrización indicada más arriba, se generará un documento previo al resguardo en la ventana “Documento Retención Generado”
+Si el documento cumple para generar retención, según la parametrización indicada más arriba, se generará un documento previo al resguardo en la ventana “Documento Retención Generado”.
 
 #### Generar Documento Retención de forma manual
 
 En caso de que por algún motivo algún Documento por Pagar requiera generar su respectivo Documento Retención y no lo tenga generado, este proceso podrá ser lanzado desde la ventana Documentos por Pagar -> Engranaje en la pestaña cabezal -> Re-Procesar Retención
 
 #### Observaciones Documento Retención
-
   
-El Documento Retención Generado va a calcular los montos sin tener en cuenta la moneda del documento de origen y sin convertir montos, por lo tanto, para realizar el resguardo se tomará la línea de Documento por Pagar y calculará la conversión de moneda según la fecha del Documento por Pagar
+El Documento Retención Generado va a calcular los montos sin tener en cuenta la moneda del documento de origen y sin convertir montos, por lo tanto, para realizar el resguardo se tomará la línea de Documento por Pagar y calculará la conversión de moneda según la fecha del Documento por Pagar.
 
 Los resguardos siempre se emiten en Moneda UYU.
 
@@ -438,19 +428,16 @@ Este va a agrupar por retenciones, y evaluará:
 * **Documentos Retención en Resguardos Anulados**: Si se anula un Resguardo, se emitirá un reverso Resguardo cancelandolo como CFE, en este caso, los Documentos Retención Generados para este resguardos quedarán libres para ser enlazados a otro Resguardo cuando se corra nuevamente el proceso de Generación de Resguardos
 * **Observación CFE:** Línea CFE No aplica para Resguardos
 
-Existe el Smart Browser de “Generar Resguardos” donde se estarán mostrando todas las Retenciones generadas que aún no cuentan con un Resguardo generado. 
-
-  
+Existe el Smart Browser de “Generar Resguardos” donde se estarán mostrando todas las Retenciones generadas que aún no cuentan con un Resguardo generado.  
 Mediante este Proceso se podrá ver lo que está pendiente de generar resguardo, seleccionando las mismas y dando OK al proceso generará los Resguardos correspondientes. 
 
-  
 **Retenciones generadas con fecha contable y no con fecha de documento**
 
 Las retenciones las debe generar con fecha contable del documento por pagar y no con fecha de documento como lo viene haciendo, si la genera con fecha de documento, quedan con error de contabilizacion, dado que el periodo esta cerrado.
 
 Controles Resguardos y retención
 
-Si se anula una retención que tuene resguardo no permite. 
+Si se anula una retención que tiene resguardo no permite. 
 
   
 Reporte de Pagos sin Asignar:
@@ -464,7 +451,7 @@ Si Todos los pagos son generados de manera correcta al completarse y su importe 
 
 Para que este reporte se genere igual se debe verificar que la tasa de cambio aplicada en las asignaciones vinculadas a los medios de pago incluidos en el recibo de pago multimoneda tienen la misma tasa de cambio que la tasa definida en el recibo de cobro en cuestión. Actualmente no hay un control para que no te permita seleccionar una tasa diferente al momento de hacer la asignación manual desde la forma asignación de pagos.  
   
-Otro tema es que el recibo multimoneda está hecho para generar un recibo de cobro con 1moneda contra facturas en otra moneda. No está soportado agregar facturas en múltiples monedas en un mismo recibo de cobro
+Otro tema es que el recibo multimoneda está hecho para generar un recibo de cobro con una moneda contra facturas en otra moneda. No está soportado agregar facturas en múltiples monedas en un mismo recibo de cobro
 
 #### ¿Se puede rechazar un cheque diferido de tercero como un cheque diferido propio?
 
@@ -505,8 +492,8 @@ Pedimos un listado de saldos pendientes a la fecha 31/12/2018 (ejemplo) y lo est
 
 1. Verificación de Balance Cierre de Ejercicio
 2. Obtener el Balance Contable a fecha de Cierre de Ejercicio
-3. Obtener el Balance de Prueba con el Informe: “Mayor contable por SDN”. Este reporte brindará el saldo clasificando según Socio del Negocio y Moneda para ver el detalle de las transacciones existentes. 
-4. Obtener el reporte de “Saldos Abiertos a la Fecha” definiendo la fecha del Cierre de Balance. Para validar los saldos así como también los ajustes realizados por Diferencia de Cambio se puede detener sobre un Socio de Negocio en particular para analizar en detalle sus transacciones y su saldo. Comparar los Documentos existentes en el reporte Saldos Abiertos con el Saldo Final de todas las transacciones del Mayor Contable correspondiente según SDN.
+3. Obtener el Balance de Prueba con el Informe: “Mayor contable por Socio del Negocio”. Este reporte brindará el saldo clasificando según Socio del Negocio y Moneda para ver el detalle de las transacciones existentes. 
+4. Obtener el reporte de “Saldos Abiertos a la Fecha” definiendo la fecha del Cierre de Balance. Para validar los saldos así como también los ajustes realizados por Diferencia de Cambio se puede detener sobre un Socio de Negocio en particular para analizar en detalle sus transacciones y su saldo. Comparar los Documentos existentes en el reporte Saldos Abiertos con el Saldo Final de todas las transacciones del Mayor Contable correspondiente según Socio del Negocio.
 5. Tener Cuidado con los ajustes ya realizados sobre la Cuenta Contable para aplicar las Diferencias de Cambio Realizadas cuando las mismas hayan sido cobradas. En estos casos, las líneas de Ganancia/Pérdida por Diferencia de Cambio Realizada se realizan SIEMPRE con Moneda del Esquema Contable, de manera que no estarán clasificadas como con Moneda USD sino con UYU si su esquema contable está en UYU.
 
 #### Cómo me doy cuenta si una Consulta de Asignación fue generada manualemente desde la Forma “Asignación de Pagos”?
