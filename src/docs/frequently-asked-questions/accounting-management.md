@@ -10,7 +10,7 @@ article: false
 
 ### Definición de Impuestos
 
-Para gestionar diferentes cuentas contables definidas para un impuesto, como por ejemplo si es un Impuesto de GASTO o de VENTA, se debe marcar el check en la Tasa de Impuesto 
+Para gestionar diferentes cuentas contables definidas para un impuesto, como por ejemplo si es un Impuesto de GASTO o de VENTA, se debe marcar el check en la Tasa de Impuesto. 
 
 Preguntas Frecuentes:  en un caso se reportó una cuenta que quedó sin número y fuera del árbol en Elemento Contable. El problema con esta cuenta se ve que fue mal creada. Al parecer al ser creada quedó sin tener definido el MENÚ. 
 Es una funcionalidad del sistema que lo necesita para que se pueda ver en el árbol. cuando pasa esto hay que verificar si tiene bien definido el Árbol en el elemento contable (Cuenta contable).
@@ -71,7 +71,7 @@ Observación: si un período se cierra “Permanentemente”, luego no se puede 
 
 #### Creación de Tasas de Cambio:
 
-Entrar como Administrador, y en el caso de que la Compañía tenga varias Organizaciones, entrar como asterisco (\*).
+Entrar como Administrador, y en el caso de que la Compañía tenga varias Organizaciones, entrar como asterisco (*).
 
 Ventana: Tasa de Cambio
 
@@ -91,7 +91,7 @@ Explicar las diferentes ventanas de asientos Diario, Diario Contable, Asientos C
 
 ### Ventana de Asiento Diario
 
-#### Modificar Fecha Asiento Diario Simple:   un documento completo?
+#### Modificar Fecha Asiento Diario Simple:
 
 **Ventana:** Asiento Diario Simple
 

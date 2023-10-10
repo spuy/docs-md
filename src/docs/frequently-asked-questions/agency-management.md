@@ -18,7 +18,7 @@ Cuando se guarda un proyecto de agencia o de medios, se realiza lo siguiente: Se
 
 Según las siguientes Categoría de Proyecto se obtendrá el sello definido para el siguiente tipo de empresa:
 
-Categoría de Proyecto:                      Tipo de Empresa\_  
+Categoría de Proyecto:                      Tipo de Empresa  
 Proyecto de Agencia                           Agencia Creativa
 
 Proyecto de Medios                            Agencia de Medios
@@ -27,13 +27,13 @@ Proyecto de RRP                                 Agencia RRPP
 
 Proyecto de Medios Digitales             Agencia de Medios Digitales
 
-\*Si no se obtuvo sello de origen se lanza una excepción.
+::: note
+Si no se obtuvo sello de origen se lanza una excepción.
+:::
 
 #### Cómo se define un usuario como “Agente Compañía” de un Proyecto, Orden, Factura o Solicitud.
 
-El campo agente compañía en el cabezal de un Proyecto permitirá elegir a todos
-
-aquellos usuarios que tengan asociado un Socio del Negocio que a su vez el mismo tenga marcado el check de "Agente compañia" en "Y", en la Pestaña "Empleado" de la ventana "Socio de negocio".
+El campo agente compañía en el cabezal de un Proyecto permitirá elegir a todos aquellos usuarios que tengan asociado un Socio del Negocio que a su vez el mismo tenga marcado el check de "Agente compañia" en "Y", en la Pestaña "Empleado" de la ventana "Socio de negocio".
 
 ### Definición del almacén en un Proyecto
 
@@ -61,17 +61,17 @@ Opcionalmente, si existieran diferentes porcentajes a aplicar según el Tipo de 
 
 Para que aquí se visualice un cliente para seleccionar, es importante que:
 
-* El Cliente esté creado con la Organización con la que se encuentra logueado el usuario o con Organización (\*).
+* El Cliente esté creado con la Organización con la que se encuentra logueado el usuario o con Organización (*).
 * El Cliente tenga un contrato activo en la Organización en la que se encuentra logueado el usuario.
 * En la ventana Socio de negocio, en su cabezal debe tener marcado el check de "activo" y en la pestaña Cliente el check de "Cliente".
 
 Para que el sistema permita elegir un Proveedor en el campo **Socio del negocio Entrega Directa** es importante que el mismo:
 
-Esté creado con la Organización con la que se encuentra logueado el usuario o con Organzación (\*).
+Esté creado con la Organización con la que se encuentra logueado el usuario o con Organzación (*).
 
 * En la ventana Socio de negocio, en su cabezal debe tener marcado el check de "activo" y en la pestaña Proveedor el check de "Proveedor".
 
-Requisitos para visualizar una Orden de venta a facturar desde el proceso Generar factura desde linea de orden
+Requisitos para visualizar una Orden de venta a facturar desde el proceso Generar factura desde linea de orden:
 
 1. La Orden de venta debe estar COMPLETA.
 2. Tener el ckeck de PERMITE FACTURAR en “Y”.
@@ -87,11 +87,11 @@ Lo que determina que aparezca o no la linea de orden para facturar en el proceso
 
 #### ¿Por qué razón puede ser que un Cálculo de comisión solo haya considerado la línea de la orden que está facturada?
 
-Si generar el Cálculo luego de haber facturado genera este error justamente porque encuentra solo lo facturado. En estos casos lo mejor seria que esto se corrija a mano.
+Si al generar el Cálculo luego de haber facturado genera este error justamente porque encuentra solo lo facturado. En estos casos lo mejor seria que esto se corrija a mano.
 
 #### ¿Si Reactivo una Orden de Honorarios, le cambio el Contrato, la Completo y Recontabilizo el asiento de reconocimiento, cambia el Contrato en el Asiento?
 
-En este caso no lo cambia
+En este caso no lo cambia.
 
 El asiento de reconocimiento se genera desde un proceso de Reconocimiento masivo, no es el asiento del documento Orden de Venta, son documentos diferentes.
 
@@ -179,7 +179,7 @@ Puede ser por 3 motivos:
 
 #### ¿Por qué no se visualiza al correspondiente Socio de Negocio cuando quiero seleccionar el mismo desde el cabezal de la ventana Proyecto de Medios?
 
-Esto puede suceder porque el Socio de Negocio esté definido en otra Organización distinta a la que estoy logueado.
+Esto puede suceder porque el Socio de Negocio esté definido en otra Organización distinta a la que estoy logueado. O bien es posible que se encuentre seteado como Activo = NO.
 
 #### ¿Dónde definir Cantidad de Cuotas y Forma de facturación en Proyecto de medios Compra inventario?
 
@@ -267,25 +267,19 @@ Lo que se debe hacer en este caso es correr el Proceso de "Actualizar Cálculo d
 
 Para definir un Proveedor en un producto se debe ir a la ventana Producto / Pestaña Compras y definir el SDN a quien se compra este producto. es según este dato que se hace la búsqueda de los productos tan fácil desde una fase o línea de fase.
 
-#### ¿Por qué puede suceder que las cantidades entregadas y facturadas en una Orden de compra difieran a las de la Entrega y Factura?
-
-Las Cantidades Facturas de las línea de OV son actualizadas mediante el documento “MatchPO”. Este se genera autoḿaticamente por detrás cuando se completa una Factura o una Entrega definiendo que cantidad fue Facturada o Entregada correspondientemente.
-
-Estamos viendo que hay determinada acción que al ANULAR un DxP estas Cantidades Facturadas por alguna razón no se actualizan correctamente “BAJANDO” las cantidades facturadas como debería.
-
 ### Cuales son los niveles de acceso de los usuarios
 
 #### Nivel de Acceso a Datos en ROL:
 
 Según el Rol se puede definir un nivel de Acceso a Datos determinado. Esto significa que según el nivel de dicho Rol definirá los documentos que pueda visualizar en el sistema.
 
-Por ejemplo si se desea que determinado Rol sólo visualice Documentos de determinada Organización, se deberá definir el nivel “Organización”
+Por ejemplo si se desea que determinado Rol sólo visualice Documentos de determinada Organización, se deberá definir el nivel “Organización”.
 
 #### Nivel de Acceso a Datos en Tabla:
 
 También se puede definir en determinada tabla el nivel de acceso a datos posible de la misma. Si un Rol tiene un Nivel menor al que tiene definido una tabla los usuarios no podrán guardar ni modificar ningún campo de la misma.
 
-Roles Incluídos
+#### Roles Incluídos
 
 Se utiliza para ir creando roles manuales de manera creciente en cuanto a los accesos o  ventanas que se le asigna a cada uno.
 
@@ -297,7 +291,7 @@ Lamentablemente estos Navegadores presentan algunas limitaciones que son las sig
 
 1. No se puede alterar el ordenamiento presentado por el Navegador, los datos se deben simplemente filtrar pero no se puede "Ordenar" según un criterio diferente al presentado.
 
-2. No se puede correr más de 1 vez un proceso desde un Navegador Inteligente, estoo quiere decir que sí realizó una selección y corrió un proceso, si desea generar un nuevo proceso con nuevos filtros se deberá abrir una nueva ventana del navegador inteligente para realizar la nueva consulta y el nuevo Proceso.
+2. No se puede correr más de 1 vez un proceso desde un Navegador Inteligente, esto quiere decir que sí realizó una selección y corrió un proceso, si desea generar un nuevo proceso con nuevos filtros se deberá abrir una nueva ventana del navegador inteligente para realizar la nueva consulta y el nuevo Proceso.
 
 ### Guardar Búsquedas Avanzadas en una Ventana
 
@@ -323,10 +317,10 @@ Para reiniciar desde Solop ERP, en el cajón de búsqueda se escribe “Reinicia
 ### Exportar registros desde una Ventana
 
 1. Abrir la ventana que contiene la información deseada.
-2. Clic en el botón “Informe”
+2. Clic en el botón “Informe”.
 3. Se despliega un documento (formato PDF por defecto), en la barra de herramientas, clic en la lupa, se abre la ventana, seleccionar pestaña “Avanzado”:
-4. Seleccionar los campos por los que quiera Filtrar la información (Rango de fechas por ejemplo) :
-5. Para un rango de fechas, tener presente el operador utilizado
+4. Seleccionar los campos por los que quiera Filtrar la información (Rango de fechas por ejemplo):
+5. Para un rango de fechas, tener presente el operador utilizado.
 6. Clic en Ok.
 7. En la barra de herramientas del reporte, seleccionar la ventana desplegable ubicada en el extremo izquierdo:  y seleccionar el formato deseado (XLSX, HTML, etc.).
 8. El reporte será descargado en el navegador.
@@ -346,7 +340,7 @@ Las acciones sobre el Documento son:
 
 Al Cerrar todas las Cantidades serán llevadas a la Cantidad Entregada. modificando así el importe total de la Orden.
 
-**\*En caso de haber cerrado una Orden por error, existe un proceso que se llama “Reabrir Orden” que la vuelve al estado “Completo” (desde el menú):**
+**En caso de haber cerrado una Orden por error, existe un proceso que se llama “Reabrir Orden” que la vuelve al estado “Completo” (desde el menú):**
 
 **__Reversar - Causación__**
 
