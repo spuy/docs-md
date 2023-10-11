@@ -1,5 +1,5 @@
 ---
-title: Recibo
+title: Recibo de Pago/Cobro
 category: Documentation
 star: 9
 sticky: 9
