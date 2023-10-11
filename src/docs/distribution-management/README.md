@@ -17,6 +17,30 @@ Para mayor detalle sobre órdenes de venta:
 
 - [Orden de Venta](../sales-management/sales-orders/order)
 
+y sobre Tipos de Documentos (Tipo documento destino y subtipo OV):
+
+- [Tipos de Documento](../sales-management/sales-orders/document-type)
+
+### Particularidades sobre las órdenes de venta de Distribución:
+
+Se debe seleccionar el socio de negocio.
+
+Desde línea de orden se pueden elegir los productos. En los casos de ventas recurrentes, existe la posibilidad de copiar líneas de una orden anterior.
+
+Esta función (copiar líneas) copia las líneas tal como fueron generadas en la orden de venta original (hereda descuentos).
+
+En el negocio de retail, la lista de precios utilizada ya posee el impuesto incluido (así está configurado en el check correspondiente, en la entidad lista de precios).
+
+En la orden de venta, la regla de pago se setea por defecto según el socio de negocio seleccionado.
+
+La dirección también la hereda del socio de negocio (pestaña Localización) y se encuentra vinculada a una región de ventas. Esto permite asignar un vendedor para cada región de ventas.
+
+Es importante en la orden de venta la regla de facturación. En general, se utiliza "después de entrega", con el objeto de generar factura por aquello que ha sido efectivamente entregado y evitar así diferencias  por falta de stock.
+
+Luego de setear todos los datos obligatorios se completa la orden de venta. Esto genera los documentos que correspondan según el tipo de orden de venta (en este caso en el cual el tipo es: orden de venta, no genera otros documentos).
+
+Los descuentos en la orden de venta pueden ingresarse manualmente o bien setearse en el socio de negocio.
+
 Una vez generada la orden de venta el siguiente paso es generar la Orden de salida:
 
 ### ***__Generar Orden de Salida__***

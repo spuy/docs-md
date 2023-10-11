@@ -10,3 +10,4 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 
 - [Orden de Venta](order)
 - [Propuesta](proposal)
+- [Tipos de Documento](document-type)
