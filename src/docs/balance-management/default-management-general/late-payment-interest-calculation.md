@@ -20,6 +20,11 @@ En el cálculo de morosidad se obtiene y asigna al campo "Total de Tarifa" el im
 
 Para esto, si el nivel de morosidad tiene marcado el check "Cargo", primero se intenta obtener la tasa financiera definida en el SDN, si no existe entonces se toma la del nivel de morosidad, y como última opción se tomará desde el campo "Total de Tarifa" en el propio nivel de morosidad.
 
+::: note
+Cálculo de la Tasa Financiera:
+Tasa Final = (Días Vencido / Días del Mes) * Tasa de Interés
+:::
+
 ![Cálculo de morosidad](/assets/img/docs/balance-management/bam-default-image1.png)
 
 ![Estado de Cuenta](/assets/img/docs/balance-management/bam-default-image2.png)
