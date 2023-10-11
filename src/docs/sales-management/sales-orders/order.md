@@ -30,7 +30,7 @@ Imagen 2. Icono Registro Nuevo
 
 Seleccione en el campo **Organización**, la organización para la cual esta realizando el documento **Orden de Venta**.
 
-Seleccione el tipo de documento a generar en el campo **Tipo de Documento Destino**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por Solop ERP.
+Seleccione el tipo de documento a generar en el campo **Tipo de Documento Destino**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipos de Documentos elaborado por Solop ERP.
 
 Seleccione en el campo **Fecha de la Orden**, la fecha en la que es ordenado por el cliente el producto o servicio.
 
