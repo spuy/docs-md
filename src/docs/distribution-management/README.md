@@ -15,7 +15,7 @@ Para iniciar el circuito de distribución el primer paso es crear una Orden de V
 Estos documentos presentan diferentes tipos, y a su vez, cada tipo de orden de venta posee un sub tipo con un determinado comportamiento.
 Para mayor detalle sobre órdenes de venta:
 
-- [Orden de Venta](order)
+- [Orden de Venta](../sales-management/sales-orders/order)
 
 Una vez generada la orden de venta el siguiente paso es generar la Orden de salida:
 
