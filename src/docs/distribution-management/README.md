@@ -19,7 +19,7 @@ Para mayor detalle sobre órdenes de venta:
 
 y sobre Tipos de Documentos (Tipo documento destino y subtipo OV):
 
-- [Tipos de Documento](../sales-management/sales-orders/document-type)
+- [Tipos de Documentos](../sales-management/sales-orders/document-type)
 
 ### Particularidades sobre las órdenes de venta de Distribución:
 
