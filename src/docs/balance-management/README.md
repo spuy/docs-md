@@ -13,3 +13,26 @@ Del mismo modo, contar con una buena herramienta de trabajo permite tener actual
 Solop ERP cuenta con la carpeta **Gestión de Saldos Pendientes** el cual proporciona una serie de opciones y procesos que permite llevar a cabo el registro y control de los ingresos y egresos que se llevan en la compañía, los saldos pendientes, transacciones bancarias, conciliaciones.
 
 Por ello, **Solop ERP** presenta la siguiente guía con instrucciones claras y precisas de cómo llevar a cabo cada uno de los procesos involucrados con la gestión saldos financieros y así obtener resultados exitosos; esta documentación está destinada a definir cada uno de los procedimientos para la gestión de los saldos pendientes de Solop ERP para cualquier organización, es importante seguir al pie de la letra cada uno de los procedimientos descritos aquí recuerde que de eso dependerá el buen uso del ERP.
+
+### Gestión de Asignaciones General
+
+- [Gestión de Asignaciones](assignment-management)
+- [Asignación de Pagos](assignment)
+- [Pago y Asignación Educación](payment-and-assignment-education)
+- [Dar de Baja CxC/CxP](unsubscribe-account-receivable)
+
+### Gestión de Morosidad General
+
+- [Gestión de Morosidad](default-management)
+- [Cálculo de Interés por Mora de Facturas](late-payment-interest-calculation)
+
+### Selección de Pagos General
+
+- [Imprimir / Exportar Pagos](print)
+- [Selección de Pago](selection)
+
+### Pagos y Cobros
+
+- [Pago](pay)
+- [Cobro](payment)
+- [Recibo](receipt)
