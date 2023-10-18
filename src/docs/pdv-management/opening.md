@@ -48,7 +48,7 @@ En el campo Terminal PDV, se encuentran los diferentes terminales configurados p
 
 En el campo Caja\*\*, se debe seleccionar la cuenta caja origen desde la cual se realizará la transferencia.
 
-Si la transferencia a realizar es en bolivares, se debe seleccionar la cuenta caja **Administración VES**.
+Si la transferencia a realizar es en pesos uruguayos, se debe seleccionar la cuenta caja **Administración UYU**.
 
 Si la transferencia a realizar es en dolares, se debe seleccionar la cuenta caja **Administración USD**.
 

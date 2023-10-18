@@ -42,7 +42,7 @@ Podrá visualizar en el campo **Tipo de Banco**, el tipo de banco que define el 
 
 Imagen 4. Campo Tipo de Banco
 
-Seleccione en el campo **Cuenta Bancaria**, la cuenta caja por la cual requiere filtar la búsqueda de la información. Para este caso, se utiliza la cuenta **Caja Administración Ventas - –\_Administración VES**.
+Seleccione en el campo **Cuenta Bancaria**, la cuenta caja por la cual requiere filtar la búsqueda de la información. Para este caso, se utiliza la cuenta **Caja Administración Ventas - –_Administración UYU**.
 
 ![Campo](/assets/img/docs/pdv-management/pdm-pdv-image267.png)
 
@@ -176,13 +176,13 @@ Imagen 23. Ingreso Generado en Banco
 
 Realice el procedimiento regular para registrar una transferencia bancaria en Solop ERP, el mismo se encuentra explicado de manera detallada en el documento Registro de Transferencia Bancaria, elaborado por Solop ERP. Considerando las siguientes restricciones:
 
-**Cuenta Bancaria Desde**: La caja desde la cual requiere realizar la transferencia. Para este ejemplo es utilizada la caja **Caja Administración Ventas - –\_Administración VES**.
+**Cuenta Bancaria Desde**: La caja desde la cual requiere realizar la transferencia. Para este ejemplo es utilizada la caja **Caja Administración Ventas - –_Administración UYU**.
 
 **Cuenta Bancaria a Transferir**: El banco al cual requiere realizar la transferencia. Para este ejemplo es utilizado el banco **Banco Provincial S.A. Banco Universal - 0108_01080000000000000019**.
 
 **Socio del Negocio**: El socio del negocio involucrado en la transferencia bancaria. Para este ejemplo es utilizado el socio **Compañía Estándar**.
 
-**Moneda**: La moneda con la cual requiere realizar la transferencia. Para este ejemplo es utilizada la moneda **VES**.
+**Moneda**: La moneda con la cual requiere realizar la transferencia. Para este ejemplo es utilizada la moneda **UYU**.
 
 **Cargo**: El cargo que justifica el movimiento monetario. Para este caso es utilizado el cargo **Efectivo en Tránsito Administración**.
 
@@ -228,7 +228,7 @@ Se selecciona la caja administrativa para llevar esta a cero (0) nuevamente, tra
 
 En la ejecución del procedimiento de cierre de caja, se debe considerar las siguientes restricciones:
 
-**Cuenta**: Caja Administración Ventas - –\_Administración VES
+**Cuenta**: Caja Administración Ventas - –_Administración UYU
 
 **Tipo de Documento**: Cierre de Caja de Administrativo
 
