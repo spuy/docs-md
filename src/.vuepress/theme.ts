@@ -30,7 +30,7 @@ export default hopeTheme({
         intro: "/about/",
         medias: {
           Gmail: "mailto:consultas@solop.uy",
-          Discord: "https://discord.gg/UWcyn7DEzV",
+          Discord: "https://discord.gg/CbrEeQwcqr",
           Linkedin: "https://www.linkedin.com/company/solop/",
         },
       },
