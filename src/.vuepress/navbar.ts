@@ -133,14 +133,14 @@ export const enNavbarConfig = navbar([
  //         "updates/", 
  //         "updates/rs-5.x", 
  //         "updates/rs-4.x",
- //         "updates/rs-3.x",
-  //        "updates/rs-2.x",
-  //        "updates/rs-1.x"
- //       ],
- //     },
-    ],
+ //         "updates/rs-3.x", 
+ //         "updates/rs-2.x",
+//          "updates/rs-1.x"
+//        ],
+//      },
+//    ],
 //  },
-// ]);
+ ]);
 
 export const zhNavbarConfig = navbar([
   "/zh/",
