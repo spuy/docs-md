@@ -39,8 +39,8 @@ export const enNavbarConfig = navbar([
   //        "source-code",
   //      ],
   //    },
-    ],
-  },
+   // ],
+ // },
   {
     text: "Documentación",
     icon: "creative",
@@ -106,7 +106,7 @@ export const enNavbarConfig = navbar([
    //     link: "",
    //     activeMatch: "^/community/$",
   //    },
-      {
+   //   {
    //     text: "Comunidad de SOLOP ERP",
    //     children: ["code-of-conduct", "duties-and-rigths"],
   //    },
@@ -139,8 +139,8 @@ export const enNavbarConfig = navbar([
  //       ],
  //     },
     ],
-  },
-]);
+//  },
+// ]);
 
 export const zhNavbarConfig = navbar([
   "/zh/",
