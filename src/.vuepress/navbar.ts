@@ -24,21 +24,21 @@ export const enNavbarConfig = navbar([
 //      
 //    ],
 //  },
-  {
-    text: "Producto",
-    icon: "engine",
-    prefix: "/product/",
-    children: [
-      { text: "Producto", icon: "engine", link: "", activeMatch: "^/product/$" },      
-      {
-        text: "Tecnología",
-        children: [
-          "technology",
-          "business-process",
-          "benefits",
-          "source-code",
-        ],
-      },
+  // {
+   // text: "Producto",
+   // icon: "engine",
+  //  prefix: "/product/",
+  //  children: [
+  //    { text: "Producto", icon: "engine", link: "", activeMatch: "^/product/$" },      
+  //    {
+   //     text: "Tecnología",
+  //      children: [
+  //        "technology",
+  //        "business-process",
+  //        "benefits",
+  //        "source-code",
+  //      ],
+  //    },
     ],
   },
   {
@@ -95,49 +95,49 @@ export const enNavbarConfig = navbar([
       // },
     ],
   },
-  {
-    text: "Comunidad",
-    icon: "group",
-    prefix: "/community/",
-    children: [
+  // {
+   // text: "Comunidad",
+  //  icon: "group",
+  //  prefix: "/community/",
+  //  children: [
+  //    {
+  //      text: "Comunidad",
+  //      icon: "group",
+   //     link: "",
+   //     activeMatch: "^/community/$",
+  //    },
       {
-        text: "Comunidad",
-        icon: "group",
-        link: "",
-        activeMatch: "^/community/$",
-      },
-      {
-        text: "Comunidad de SOLOP ERP",
-        children: ["code-of-conduct", "duties-and-rigths"],
-      },
-    ],
-  },
-  {
-    text: "Descargas",
-    icon: "software",
-    prefix: "/downloads/",
-    children: [
-      {
-        text: "Descargas",
-        icon: "software",
-        link: "",
-        activeMatch: "^/downloads/$",
-      },
-      {
-        text: "Binarios de Aplicaciones",
-        children: ["docker", "binary"],
-      },
-      {
-        text: "Actualizaciones",
-        children: [
-          "updates/", 
-          "updates/rs-5.x", 
-          "updates/rs-4.x",
-          "updates/rs-3.x",
-          "updates/rs-2.x",
-          "updates/rs-1.x"
-        ],
-      },
+   //     text: "Comunidad de SOLOP ERP",
+   //     children: ["code-of-conduct", "duties-and-rigths"],
+  //    },
+   // ],
+ // },
+//  {
+ //   text: "Descargas",
+ //   icon: "software",
+ //   prefix: "/downloads/",
+ //   children: [
+ //     {
+  //      text: "Descargas",
+  //      icon: "software",
+  //      link: "",
+ //       activeMatch: "^/downloads/$",
+  //    },
+  //    {
+  //      text: "Binarios de Aplicaciones",
+  //      children: ["docker", "binary"],
+//      },
+//      {
+ //       text: "Actualizaciones",
+ //       children: [
+ //         "updates/", 
+ //         "updates/rs-5.x", 
+ //         "updates/rs-4.x",
+ //         "updates/rs-3.x",
+  //        "updates/rs-2.x",
+  //        "updates/rs-1.x"
+ //       ],
+ //     },
     ],
   },
 ]);
