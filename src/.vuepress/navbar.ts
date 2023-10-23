@@ -1,29 +1,29 @@
 import { navbar } from "vuepress-theme-hope";
 
 export const enNavbarConfig = navbar([
-  {
-    text: "Nosotros",
-    icon: "profile",
-    prefix: "/about/",
-    children: [
-      { text: "Nosotros", icon: "profile", link: "", activeMatch: "^/about/$" },      
-      {
-        text: "Noticias",
-        prefix: "news/",
-        children: [
-          "2023-01-01-SOLOP-394",
-        ],
-      },
-      {
-        text: "Nuestros Servicios",
-        children: [
-          "services/",
-          "advanced-functional-support-scheme/"
-        ],
-      },
-      
-    ],
-  },
+//  {
+//    text: "Nosotros",
+//    icon: "profile",
+//    prefix: "/about/",
+//    children: [
+//      { text: "Nosotros", icon: "profile", link: "", activeMatch: "^/about/$" },      
+//      {
+//        text: "Noticias",
+//        prefix: "news/",
+//        children: [
+//          "2023-01-01-SOLOP-394",
+//        ],
+//      },
+//      {
+//        text: "Nuestros Servicios",
+//        children: [
+//          "services/",
+//          "advanced-functional-support-scheme/"
+//        ],
+//      },
+//      
+//    ],
+//  },
   {
     text: "Producto",
     icon: "engine",
