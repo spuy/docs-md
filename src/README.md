@@ -13,7 +13,7 @@ projects:
   - name: Gestor de Incidencias
     desc: Crea ticket de soporte
     link: https://soporte.solop.uy/
-    icon: /assets/img/logo.png
+    icon: /logo.png
   - name: Discord
     desc: Estamos en Discord!
     link: https://discord.gg/CbrEeQwcqr
