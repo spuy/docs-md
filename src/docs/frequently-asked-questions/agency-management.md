@@ -51,12 +51,6 @@ Debe considerarse que estas definiciones actúan como si fuese un Diagrama de Ve
 
 Para que un producto sea considerado por un Honorario es necesario que por lo menos una que incluya el producto contemple el honorario y que este último no tenga alguna que no esté en el producto.
 
-#### Definición de Comisiones al proveedor
-
-Los porcentajes de Comisiones al proveedor se tomarán según la definición que tenga éste en la ventana Socio del negocio pestaña Comisión de Proveedor.
-
-Opcionalmente, si existieran diferentes porcentajes a aplicar según el Tipo de producto, se podrían hacer tantos registros como diferentes porcentajes existan, de manera que el producto se filtre al porcentaje a aplicar.
-
 #### Requisitos para seleccionar Socios del Negocio en un Proyecto
 
 Para que aquí se visualice un cliente para seleccionar, es importante que:

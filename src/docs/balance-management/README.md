@@ -16,23 +16,23 @@ Por ello, **Solop ERP** presenta la siguiente guía con instrucciones claras y p
 
 ### Gestión de Asignaciones General
 
-- [Gestión de Asignaciones](assignment-management)
-- [Asignación de Pagos](assignment)
-- [Pago y Asignación Educación](payment-and-assignment-education)
-- [Dar de Baja CxC/CxP](unsubscribe-account-receivable)
+- [Gestión de Asignaciones](assignment-management-general/assignment-management)
+- [Asignación de Pagos](assignment-management-general/assignment)
+- [Pago y Asignación Educación](assignment-management-general/payment-and-assignment-education)
+- [Dar de Baja CxC/CxP](assignment-management-general/unsubscribe-account-receivable)
 
 ### Gestión de Morosidad General
 
-- [Gestión de Morosidad](default-management)
-- [Cálculo de Interés por Mora de Facturas](late-payment-interest-calculation)
+- [Gestión de Morosidad](default-management-general/default-management)
+- [Cálculo de Interés por Mora de Facturas](default-management-general/late-payment-interest-calculation)
 
 ### Selección de Pagos General
 
-- [Imprimir / Exportar Pagos](print)
-- [Selección de Pago](selection)
+- [Imprimir / Exportar Pagos](payment-selection-general/print)
+- [Selección de Pago](payment-selection-general/selection)
 
 ### Pagos y Cobros
 
-- [Pago](pay)
-- [Cobro](payment)
-- [Recibo](receipt)
+- [Pago](payments-and-receipts/pay)
+- [Cobro](payments-and-receipts/payment)
+- [Recibo](payments-and-receipts/receipt)
