@@ -18,7 +18,7 @@ Podrá emitir un cheque diferido por Cobrar desde la ventana de Recibo de Cobro 
 
 ![Generar Cheque Diferido](/assets/img/docs/balance-management/bam-deferred1.png)
 
-### **Proceso de Generar Cheque Diferido por Cobrar[](https://docs.solop.io/luy/procedures/open-items/deferred-checks/creating-ar-deferred-checks.html#proceso-de-generar-cheque-diferido-por-cobrar "Permalink to this headline")**
+### **Proceso de Generar Cheque Diferido por Cobrar**
 
 Deberá ingresar la información del Cheque Diferido a Cobrar que está recibiendo. Ingrese:
 

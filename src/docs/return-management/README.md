@@ -10,5 +10,18 @@ Esta documentación está destinada a definir la gestión de devoluciones de Sol
 
 Solop ERP contempla la documentación de los siguientes maestros necesarios para generar de manera existosa las transacciones del mismo.
 
+- Devolución de Cliente
+  - Autorización de Devolución (Cliente)
+  - Devolución (Cliente)
+  - Nota de Crédito por Devolución (Cliente)
+  - Consultar Saldos Abiertos
+  - Consultar Detalle de Transacciones
+- Devolución a Proveedor
+  - Autorización de Devolución a Proveedor
+  - Devolución a Proveedor
+  - Completar Nota de Crédito Generada
+  - Consultar Saldos Abiertos
+  - Consultar Detalle de Transacciones
+
 - [Devolución de Cliente](customer-return)
 - [Devolución a Proveedor](provider-return)

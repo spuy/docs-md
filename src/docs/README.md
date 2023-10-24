@@ -30,7 +30,8 @@ Tenga en cuenta que todo el ecosistema [Solop ERP](https://ayuda.solopapp.com/) 
 
 ### Datos Maestros
 
-- [Socio del Negocio](master-data/business-partner)
+- [Socio del Negocio](master-data/business-partner-general/business-partner)
+- [Socio del Negocio para Educación](master-data/business-partner-general/business-partner-education)
 - [Producto](master-data/product)
 - [Almacén](master-data/warehouse)
 - [Reportes de Maestros](master-data/reports)

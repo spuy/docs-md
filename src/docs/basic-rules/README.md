@@ -11,7 +11,12 @@ El presente material se encuentra dirigido a cada uno de los usuarios de Solop E
 - [Inicio de Sesión](login)
 - [Interfaz de Usuario](user-interface)
 - [Iconos de la Interfaz](icons-interface)
-- [Barra de Herramientas](bar)
-- [Accesos Rápidos](access)
+- [Barra de Herramientas](toolbar)
+- [Accesos Rápidos](quick-access)
 - [Utilería](props)
-- [Carga Masiva de Datos](data-import)
+
+### Carga de Datos
+
+- [Carga Masiva de Datos](big-data-import/data-import)
+- [Carga de Contratos Manual (Educación)](big-data-import/import-contracts-manual-education)
+- [Carga de Contratos Masiva (Educación)](big-data-import/import-contracts-education)

@@ -11,7 +11,7 @@ El presente material se encuentra dirigido a cada uno de los usuarios de Solop E
 - [Financiera/Contable](financial-accounting)
 - [Funcionalidad General del Sistema](general-system-functionality)
 - [Compras/Ventas](purchases-sales)
-- [Facturación Electrónica](electronic-billings)
+- [Facturación Electrónica](electronic-billing)
 - [Gestión Financiera](financial-management)
 - [Gestión Contable](accounting-management)
 - [Gestión de Materiales](materials-management)
