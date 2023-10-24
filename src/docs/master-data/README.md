@@ -22,9 +22,9 @@ Nota
 
 Sugerimos crear los registros maestros con organización “\*” para asegurar la disponibilidad en multiples organizaciones.
 
-- [Socio del Negocio](business-partner)
+- [Socio del Negocio](business-partner-general/business-partner)
+- [Socio del Negocio para Educación](business-partner-general/business-partner-education)
 - [Producto](product)
-- [Almacén](store)
-- [Reportes de Maestros](teacher-report)
-- [Socio del negocio para Educación](business-partner-education)
+- [Almacén](warehouse)
+- [Reportes de Maestros](reports)
 - [Producto de Servicio](service-product)

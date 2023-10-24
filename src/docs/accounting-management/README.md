@@ -18,3 +18,27 @@ El propósito de **Solop ERP** es apoyar a nuestros clientes, dar respuestas rá
 
 - [Tipo de Aplicación](type-application)
 - [Reportes Contables](reports)
+
+### Documentos Contables
+
+- [Diario Contable](accounting-documents/diary)
+- [Contabilidad de Transacciones](accounting-documents/accounting)
+- [Asientos Contables](accounting-documents/accounting-entries)
+- [Asientos Contables Por Documentos](accounting-documents/accounting-entries-bydocument)
+
+### Procedimientos Contables
+
+- [Apertura de Período Contable](accounting-procedures/opening)
+- [Re-contabilizar Datos Contables de Cuentas de Ganancia y Perdida](accounting-procedures/revenue)
+
+### Reglas Contables
+
+- [Conversión de Moneda](accounting-rules/currency-management)
+- [Gestión de Costos](accounting-rules/costs)
+- [Documentos sin Aplicar](accounting-rules/document)
+- [Dimensiones Contables](accounting-rules/dimensions)
+- [Combinación Contable](accounting-rules/combination)
+- [Conversión Monetaria](accounting-rules/conversion)
+- [Distribución Contable](accounting-rules/distribution)
+- [Configuración Contable (Maestros)](accounting-rules/configuration)
+- [Elemento Contable](accounting-rules/element)

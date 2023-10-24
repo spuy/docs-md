@@ -8,28 +8,6 @@ article: false
 
 ## **Cheques y Pagos**
 
-### **Rechazo de Cheques al Día**
-
-Para realizar rechazos de Cheques al Día se deberá seguir el siguiente procedimiento:
-
-* Realizar el Match entre el Pago/Cobro en cuestión con su línea de Conciliación Bancaria correspondiente.
-* Desde el Pago/Cobro que fue rechazado al ingresar al banco se deberá correr el proceso de “Rechazo de Pago/Cobro”
-* Se deberá seleccionar el tipo de rechazo y definir la fecha del mismo y darle OK
-
-
-* Luego de Rechazar el Pago/Cobro en el campo “Descripción se agregará el texto “ - RECHAZADO”
-
-
-* Desde la Línea del Estado de Cuenta Bancario se podrá seleccionar el Pago/Cobro Rechazado que estará con el Signo contrario del Documento Rechazado.
-
-
-* Cobro Rechazado por Cobrar: El cobro en cuestión que quedará “Pendiente de Cobrar” se podrá visualizar desde la ventana “Cheques Diferidos por Cobrar” pero con el Tipo de Documento “Cheque Rechazado”.
-
-
-* Para realizar el Cobro del Cheque Rechazado una vez sea abonado por el Cliente se deberá utilizar el Smart Browser de Depósito de Cheques para que ingrese al banco el nuevo pago correspondiente.
-
-![Rechazo de Pago/Cobro](/assets/img/docs/balance-management/bam-checks1.png)
-
 ### **Opciones Para Emitir Cheques**
 
 Muchas empresas emiten Cheques a Pagar a los efectos de cancelar los compromisos con sus proveedores.
@@ -86,6 +64,28 @@ De regreso en la ventana de libreta/resma de cheques, se debe ingresar el nombre
 ### **Visualizar estado de los Cheques emitidos**
 
 En la pestaña “Cheques” se visualiza el estado de los mismos.
+
+### **Rechazo de Cheques al Día**
+
+Para realizar rechazos de Cheques al Día se deberá seguir el siguiente procedimiento:
+
+* Realizar el Match entre el Pago/Cobro en cuestión con su línea de Conciliación Bancaria correspondiente.
+* Desde el Pago/Cobro que fue rechazado al ingresar al banco se deberá correr el proceso de “Rechazo de Pago/Cobro”
+* Se deberá seleccionar el tipo de rechazo y definir la fecha del mismo y darle OK
+
+
+* Luego de Rechazar el Pago/Cobro en el campo “Descripción se agregará el texto “ - RECHAZADO”
+
+
+* Desde la Línea del Estado de Cuenta Bancario se podrá seleccionar el Pago/Cobro Rechazado que estará con el Signo contrario del Documento Rechazado.
+
+
+* Cobro Rechazado por Cobrar: El cobro en cuestión que quedará “Pendiente de Cobrar” se podrá visualizar desde la ventana “Cheques Diferidos por Cobrar” pero con el Tipo de Documento “Cheque Rechazado”.
+
+
+* Para realizar el Cobro del Cheque Rechazado una vez sea abonado por el Cliente se deberá utilizar el Smart Browser de Depósito de Cheques para que ingrese al banco el nuevo pago correspondiente.
+
+![Rechazo de Pago/Cobro](/assets/img/docs/balance-management/bam-checks1.png)
 
 ### **Procesando transacciones de Caja/Bancos**
 
@@ -155,20 +155,4 @@ de la transacción.
 
 Para cada detalle de transacción, puede seleccionar un SDN y un cargo si corresponde.
 
-\-———————————————————————————————————–
-
-#### **Ingreso rápido de un Cobro**
-
-#### **Aprobar una entrada de efectivo**
-
-#### **Visualización de una entrada de efectivo**
-
-#### **Monitoreo de una Transacción de Caja**
-
-#### **Cuenta Caja/Banco detallada**
-
 Puede ver información resumida o la lista completa de transacciones relacionadas con efectivo realizadas en la cuenta durante este período. La información se recopila de los módulos Administración de efectivo, Libro mayor, Cuentas por pagar y Cuentas por cobrar.
-
-#### **Seleccionando la vista**
-
-#### **Entrada rápida de transacciones**
