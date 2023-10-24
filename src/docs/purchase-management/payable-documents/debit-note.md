@@ -40,7 +40,7 @@ Introduzca en el campo **Referencia de Orden de Socio del Negocio**, la referenc
 
 Introduzca en el campo **Descripción**, una breve descripción con respecto al documento que se encuentra realizando.
 
-Seleccione el tipo de documento a generar en el campo **Tipo de Documento Destino**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por ERPyA.
+Seleccione el tipo de documento a generar en el campo **Tipo de Documento Destino**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por Solop ERP.
 
 Seleccione en el campo **Fecha de Facturación**, la fecha en la cual es realizado el documento.
 

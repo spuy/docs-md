@@ -34,7 +34,7 @@ Introduzca en el campo **No. del Documento**, el número de secuencia correspond
 
 Si no es ingresado ningún valor en este campo, Solop ERP tomará el número de documento correspondiente a la secuencia que tiene el tipo de documento establecido.
 
-Seleccione el tipo de documento a generar en el campo **Tipo de Documento Destino**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por ERPyA.
+Seleccione el tipo de documento a generar en el campo **Tipo de Documento Destino**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por Solop ERP.
 
 Seleccione en el campo **Fecha de Movimiento**, la fecha en la cual fue realizado el movimiento.
 
@@ -44,7 +44,7 @@ Podrá visualizar que el campo **Nombre**, donde se debe ingresar el nombre de i
 
 Introduzca en el campo **Descripción**, una breve descripción correspondiente a la producción que se encuentra realizando.
 
-Si no es ingresado ningún valor en este campo al guardar el registro, Solop ERP tomará el valor **Creado Desde Orden de Producción**, seguido del número de documento desde el cual es creado, para este caso el campo descripción queda de la siguiente forma: \*\*Creado Desde Orden de Producción OPP-18.
+Si no es ingresado ningún valor en este campo al guardar el registro, Solop ERP tomará el valor **Creado Desde Orden de Producción**, seguido del número de documento desde el cual es creado, para este caso el campo descripción queda de la siguiente forma: Creado Desde Orden de Producción OPP-18.
 
 Seleccione en el campo **Orden de Producción**, la orden de producción planeada por la cual se va a realizar la producción del producto.
 
@@ -60,7 +60,7 @@ Seleccione en el campo **Centro de Costos**, el centro de costos correspondiente
 
 Seleccione en el campo **Actividad**, la actividad correspondiente al registro que esta realizando.
 
-Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP, para guardar el registro de los campos de la pestaña Producción\*\*.
+Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP, para guardar el registro de los campos de la pestaña Producción.
 
 Al guardar el registro de los campos de la pestaña **Encabezado de Producción**, podrá visualizar que los campos **Descripción** y **Producto**, son cargados automáticamente, con la información de la orden de producción seleccionada en el campo **Orden de Producción**.
 

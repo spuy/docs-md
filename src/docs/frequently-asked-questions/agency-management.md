@@ -245,18 +245,6 @@ La Orden de Venta de Honorarios se generará automáticamente desde el Cálculo 
 
 Por lo tanto al generarse la Orden de venta Honorarios esta no discrimina por cantidad de cuotas de la Orden de venta que lo generó.
 
-**2. Con respecto a la Orden de Venta por las Comisiones al Proveedor:**
-
-Tendremos una "Orden de Venta Comisión" por el Cálculo de Comisión generado sobre la "Orden de Compra Inversión" original, una vez esta "Orden de Compra Inversión" sea Facturada por el Proveedor se volverá a realizar el Cálculo de Comisión sobre el importe Facturado de dicha Orden de Compra, generando la comisión correspondiente al importe que efectivamente haya sido facturado. Esto es debido a que se entiende que sólo se podrá descontar el importe de Comisión según el % definido pero sobre lo Facturado, ya que lo restante de la Orden de Compra si aún no fue facturado aún no podrá ser Canjeado entre la Agencia y el Proveedor.
-
-A medida que vayan llegando las Facturas de Proveedor por lo restante de la Orden de Compra se irán calculando las comisiones correspondientes.
-
-Cuando se genera una Orden de Venta Comisión desde una Factura de Proveedor, siempre se generará una negativa por el mismo importe, justamente para no alterar el "IMPORTE TOTAL DE LA COMISION" que siempre será definido según el Cálculo de Comisión generado sólo desde la Orden de Compra.
-
-#### ¿Qué sucede en caso de no visualizarse el Cálculo de comisiones al Proveedor por el total de las mismas?
-
-Lo que se debe hacer en este caso es correr el Proceso de "Actualizar Cálculo de Comisiones" desde la Orden de Compra correspondiente para que muestre el total de comisiones.
-
 ### ¿Cómo se define un Proveedor en un Producto?
 
 Para definir un Proveedor en un producto se debe ir a la ventana Producto / Pestaña Compras y definir el SDN a quien se compra este producto. es según este dato que se hace la búsqueda de los productos tan fácil desde una fase o línea de fase.
