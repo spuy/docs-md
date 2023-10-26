@@ -61,7 +61,7 @@ export const enNavbarConfig = navbar([
       {
         text: "Datos Maestros",
         children: [
-          "master-data/business-partner",
+          "master-data/business-partner-general/business-partner",
           "master-data/product",
           "master-data/warehouse",
           "master-data/reports"
