@@ -95,3 +95,20 @@ Adicional a ello, se genera un egreso en caja con el tipo de documento **Pago Na
 ![Campo](/assets/img/docs/pdv-management/pdm-pdv-image25.png)
 
 Imagen 12. Consulta de Pago Nacional Generado en Caja
+
+### Devolución
+
+#### Devolución de Cliente desde Punto de Venta
+
+Para realizar una devolución a un cliente de una Factura se deberá realizar los siguientes pasos:
+
+1. Identificar la Orden de Venta la cuál se está devolviendo. Para ello se deberá ir a las “Opciones Rápidas del Punto de Venta” ubicadas ocultas en la parte izquierda del Punto de Venta. Dentro de la sección “Orden de Venta” hacer click en la opción “Histórico de Órdenes”. Se abrirá una ventana emergente donde podrá realizar una búsqueda de la orden de venta correspondiente. Utilizar los filtros existentes para acotar las órdenes a mostrar. Marcar Procesada = SI y la Fecha de la misma. Opcionalmente si el cliente está identificado también podrá buscar por el Socio del Negocio. Una vez encuentre la Orden que corresponde, seleccionarla con un click y darle OK a la ventana. La Orden de Venta será cargada en el Punto de Venta con sus líneas correspondientes.
+2. Una vez tengamos la orden de venta sobre la que se desea realizar la devolución se deberá ir nuevamente a las opciones rápidas del Punto de Venta y hacer click en la acción “Anular Transacción de Venta”. Esta acción abrirá una pequeña ventana de “Descripción” donde se deberá detallar el motivo de la misma. Al hacer click en el Check del proceso, se generará la correspondiente devolución, creando la Nota de Crédito en cuestión así como también la devolución de mercadería y el Pago por la salida de dinero.
+
+Al anular una transacción de venta el sistema lo que realizará será los siguientes:
+
+* La orden de venta original será cerrada quedando la misma inactiva inactiva.
+* De los documentos  asociados a la misma sin ser modificados es decir la factura en cuestión quedará así la orden de venta original será cerrada quedando la misma inactiva  inactiva.
+* De los documentos  asociados a la misma sin ser modificados es decir la factura en cuestión quedar asignada con el cobro realizado originalmente.
+* Por otro lado se generará una nueva orden de venta = las características de la orden de venta original pero sobre la misma se generará un documento por cobrar del tipo nota de crédito un pago es decir una salida de caja haciendo la cancelación correspondiente y quedando la misma asignada a la conciliación del día de la caja en cuestión y también una devolución cliente que realice moverá el inventario gnada con el cobro realizado originalmente.
+* Por otro lado se generará una nueva orden de venta = las características de la orden de venta original pero sobre la misma se generará un documento por cobrar del tipo nota de crédito un pago es decir una salida de caja haciendo la cancelación correspondiente y quedando la misma asignada a la conciliación del día de la caja en cuestión y también una devolución cliente que realice moverá el inventario
