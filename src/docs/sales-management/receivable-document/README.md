@@ -12,3 +12,6 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 - [Nota de Crédito](credit)
 - [Nota de Débito](debit)
 - [Documentos por Cobrar Agencia](accounts-receivable-agency)
+- [Facturación Recurrente Educación](recurring-billing-education)
+- [Generar Factura Desde Orden de Salida](bill)
+- [Generar Factura desde Orden de Salida Consolidado en un Documento](exit)
