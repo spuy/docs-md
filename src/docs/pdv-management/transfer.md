@@ -220,6 +220,20 @@ Al consultar el documento de ingreso generado en la ventana **Pago/Cobro**, con 
 
 Imagen 26. Ingreso Generado en Banco
 
+### Retiro de Dinero PDV
+
+Este proceso debe ser realizado por el Cajero del Punto de Venta antes de realizar el Cierre del Mismo o en cualquier momento a lo largo del día para retirar efectivo.
+
+Tener en cuenta las siguientes consideraciones:
+
+* Se deberá realizar uno por moneda
+* **Caja Destino:** se entregará el Dinero retirado del Punto de Venta desde donde se genera.
+* Cargo por defecto: “Retiro de Caja”. Este cargo es el que será utilizado como “Puente” entre el Retiro de la Caja del POS y la Caja donde ingresará dicho importe.
+* Definir cuánto dinero por Tipo de Pago se está retirando en la Moneda seleccionada
+* Tarjeta de Crédito: Si se desea hacer un Retiro por Cierre de Lote de Tarjeta se recomienda hacer tantos retiros como lotes de Tarjetas se deseen. 
+  * En la columna “Tarjeta de Crédito” podrá seleccionar cada lote a que Tarjeta corresponde.
+  * En Número de Referencia pueden detallar el Número de Lote.
+
 ## Cierre de Caja
 
 Realice el procedimiento regular para registrar un cierre de caja en Solop ERP, el mismo se encuentra explicado de manera detallada en el documento Registro de Cierre de Caja, elaborado por Solop ERP.

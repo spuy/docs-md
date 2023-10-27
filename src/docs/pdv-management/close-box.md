@@ -6,6 +6,10 @@ sticky: 9
 article: false
 ---
 
+### Cierre del Punto de Venta
+
+Cada uno de los Cobros realizados desde un Punto de Venta son ingresados a un Cierre de Caja (Conciliación Bancaria), cuando se realiza el cierre simplemente se debe verificar dicha conciliación, analizando las diferencias que puede tener.
+
 El proceso cierre de caja del punto de venta consiste en ejecutar el mismo desde la ventana **Punto de Venta**. Su finalidad es completar el registro de cierre de caja creado con la cuenta **Caja POS** en la que fueron realizadas las transacciones de venta, dejando la cuenta en su saldo inicial. Para ello, es necesario que se realice el flujo de trabajo regular establecido para el punto de venta, es decir, se deben realizar los siguientes procesos:
 
 La apertura de caja desde el proceso de punto de venta
@@ -153,3 +157,33 @@ Seleccione la acción **Completar** y la opción **OK**, para completar el regis
 ![Campo](/assets/img/docs/pdv-management/pdm-pdv-image54.png)
 
 Imagen 29. Acción Completar y Opción OK del Cierre de Caja
+
+### Quién realiza el Cierre de Caja?
+
+Lo realiza el supervisor, desde el SmartBrowser “Cierre del Punto de Venta”. Puede seleccionar el período que desee, se sugiere que sea uno por día y aparecerán todos los movimientos no conciliados.
+
+Se cargarán los siguientes campos:
+
+* **Total de la Línea:**  Suma de Gran Total de **Órdenes de Venta** en estado Completo generadas por el POS seleccionado para el rango de fechas elegido, tal que se encuentre un estado de cuentas bancario (no completo ni cerrado) en el cual exista un pago para dicha orden. 
+  * **Tiene todo lo que se facturó en el PDV en el período seleccionado.**
+* **Total pagado: Suma de montos de pagos asociados al POS y rango de fechas seleccionados, tal que se encuentre un estado de cuentas bancarias para la Cuenta Bancaria del cierre actual, en estado Completo o Cerrado, y en el cual exista un línea asociada a dicho pago, y que el mismo esté asociado a una orden.** 
+  * **Sumariza todos los pagos de este PDV en el período seleccionado.**
+* **Total abierto: Facturas emitidas desde el Punto de Venta a Crédito.**
+
+**Verificación:** Si todo está bien -> Total de la Línea - Total Abierto debería ser igual a Total Pagado
+
+* **Diferencia Monto: es la suma de montos de pagos, convertidos a moneda de la Caja del POS más el monto de saldo inicial del estado de cuentas que contiene dichos pagos. El filtro de rango de fechas se aplica para la fecha de los pagos.** 
+  * **Esto significa que si se generó mal el Balance Bancario sin hacer el Cierre del Día anterior este saldo quedará mal.**
+  * **Es editable, se puede modificar.**
+
+### Control de Diferencia en Cierre de Caja
+
+El proceso de Cierre de Caja debería dar 0 ya que es la sumatoria de todos los cobros realizados por un POS menos los Retiros que realizó al final del turno. En caso de existir una diferencia en el campo “Diferencia Monto” es porque se realizó un Retiro del POS por un importe menor del que figura en el sistema por lo que se debe decidir qué hacer con esta diferencia (considerar que para que este control sea correctamente aplicado se deberá realizar un Retiro por el 100% del dinero existente en el POS) .
+
+**Aceptar Diferencia**
+
+Si se Acepta la diferencia se tiene que marcar el check de “Sobre/Sub Pago” y se tiene que indicar a qué cargo se va a enviar la diferencia (Por ejemplo Pérdida por diferencia de quebranto de caja)
+
+Se deberá indicar una descripción y la fecha que se va a hacer la conciliación
+
+Tener en cuenta que la columna monto es el monto en la moneda transacción mientras que la columna monto convertido es el monto convertido a la moneda que tiene definido el POS.
