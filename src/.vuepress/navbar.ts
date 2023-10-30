@@ -48,9 +48,9 @@ export const enNavbarConfig = navbar([
     children: [
       { text: "SOLOP Estándar", link: "", icon: "note", activeMatch: "^/docs/$" },
       {
-        text: "Gestión Básica",
+        text: "Índices",
         children: [
-          "basic-rules/login",
+          "master-data/README",
           "basic-rules/user-interface",
           "basic-rules/icons-interface",
           "basic-rules/toolbar",
