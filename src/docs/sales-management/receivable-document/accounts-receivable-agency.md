@@ -11,12 +11,6 @@ article: false
 
 ## Documentos por Cobrar Agencia
 
-Facturar en moneda distinta con la que se generó el Proyecto:
-
-Si se desea facturar en una moneda distinta con la que se generó el Proyecto podremos cambiar la misma en la Orden de Venta indicando la correspondiente tasa de cambio, (en el caso que la misma se encuentre en estado Borrador).
-
-En el caso que las Ordenes de venta estén Completas se deberán anular y generar de nuevo, ya que si se reactivan se tendrán que anular la Ordenes de Venta Honorarios que se generen.
-
 ### Generar Órdenes de Venta recurrente desde Contrato de Servicios
 
 A partir de la definición de las líneas de un contrato se puede generar Órdenes de Venta según los Servicios Recurrentes que deban ser facturados según determinada recurrencia. De esta manera se podrán generar Órdenes de Venta según las mensualidades definidas en los Contratos.
@@ -155,27 +149,11 @@ Luego procederemos a correr el proceso “Generar líneas de factura para CFE”
 
 ![Criterio de Facturación](/assets/img/docs/sales-management/sam-agency6.png)
 
-## Posibles Errores Controlados
+**Facturar en moneda distinta con la que se generó el Proyecto:**
 
-**Varios Términos de Pago en las Órdenes de Venta seleccionadas**
+Si se desea facturar en una moneda distinta con la que se generó el Proyecto podremos cambiar la misma en la Orden de Venta indicando la correspondiente tasa de cambio, (en el caso que la misma se encuentre en estado Borrador).
 
-Cuando se están facturando en una misma factura varias Órdenes de Venta que tienen diferentes Términos de Pago no permitirá generar una única factura y figurará el siguiente mensaje de Error:
-
-Esto se debe a que no puede determinar que término de pago se desea definir en la Factura a Generar.
-
-**Solución: Para solucionarlo lo ideal sería abrir en la ventana de “Órdenes de Venta” todas las Ordenes de venta que se están intentando facturar Varios Términos de Pago en las Órdenes de Venta seleccionadas.**
-
-**Ver las mismas en formato “Grilla” para identificar qué Orden de Venta tiene un Término de Pago diferente.**
-
-**Para modificarlo deberá Rectivar la Orden, modificar el Término de Pago y luego completarla nuevamente.**
-
-**Varios Agentes Comerciales definidos en las Órdenes de Venta**
-
-En principio el proceso definirá el Agente Comercial en la Factura según el Agente que esté definido en la Orden de Venta en cuestión.
-
-En caso de que existan diferentes Agentes Comerciales definidos en las Órdenes de Venta el proceso tomará el Agente Comercial definido en el Socio del Negocio.
-
-Si no tiene ninguno definido en el Socio del Negocio tomará el Agente Comercial definido en las Ordenes de Venta. Si estos son diferentes dará un error.
+En el caso que las Ordenes de venta estén Completas se deberán anular y generar de nuevo, ya que si se reactivan se tendrán que anular la Ordenes de Venta Honorarios que se generen.
 
 ### Generar Líneas de CFE
 

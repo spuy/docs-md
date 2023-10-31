@@ -340,3 +340,25 @@ Setea en valor cero las cantidades.
 ##### No me aparece un Proceso desde los Procesos de la Barra de Herramientas
 
 Los Procesos desde la Barra de Herramientas no se actualizan automáticamente, por lo que si por ejemplo se selecciona desde la Pestaña “Fase” de la Ventana “Proyecto”, recordará los Procesos que existen para dicha pestaña y si luego los quiere visualizar desde la pestaña Padre como puede ser “Proyecto” no se visualizarán. Para solucionarlo deberá ingresar nuevamente a la ventana y presionar “Procesos” desde la pestaña Padre (por ej de proyecto).
+
+## Posibles Errores Controlados al generar factura
+
+**Varios Términos de Pago en las Órdenes de Venta seleccionadas**
+
+Cuando se están facturando en una misma factura varias Órdenes de Venta que tienen diferentes Términos de Pago no permitirá generar una única factura y figurará el siguiente mensaje de Error:
+
+Esto se debe a que no puede determinar que término de pago se desea definir en la Factura a Generar.
+
+**Solución: Para solucionarlo lo ideal sería abrir en la ventana de “Órdenes de Venta” todas las Ordenes de venta que se están intentando facturar Varios Términos de Pago en las Órdenes de Venta seleccionadas.**
+
+**Ver las mismas en formato “Grilla” para identificar qué Orden de Venta tiene un Término de Pago diferente.**
+
+**Para modificarlo deberá Rectivar la Orden, modificar el Término de Pago y luego completarla nuevamente.**
+
+**Varios Agentes Comerciales definidos en las Órdenes de Venta**
+
+En principio el proceso definirá el Agente Comercial en la Factura según el Agente que esté definido en la Orden de Venta en cuestión.
+
+En caso de que existan diferentes Agentes Comerciales definidos en las Órdenes de Venta el proceso tomará el Agente Comercial definido en el Socio del Negocio.
+
+Si no tiene ninguno definido en el Socio del Negocio tomará el Agente Comercial definido en las Ordenes de Venta. Si estos son diferentes dará un error.

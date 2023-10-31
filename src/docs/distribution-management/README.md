@@ -13,15 +13,11 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 
 Para iniciar el circuito de distribución el primer paso es crear una Orden de Venta.
 Estos documentos presentan diferentes tipos, y a su vez, cada tipo de orden de venta posee un sub tipo con un determinado comportamiento.
-Para mayor detalle sobre órdenes de venta:
+Para mayor detalle sobre órdenes de venta: - [Orden de Venta](../sales-management/sales-orders/order)
 
-- [Orden de Venta](../sales-management/sales-orders/order)
+y sobre Tipos de Documentos (Tipo documento destino y subtipo OV): - [Tipos de Documentos](../sales-management/sales-orders/document-type)
 
-y sobre Tipos de Documentos (Tipo documento destino y subtipo OV):
-
-- [Tipos de Documentos](../sales-management/sales-orders/document-type)
-
-### Particularidades sobre las órdenes de venta de Distribución:
+### Orden de Venta Distribución:
 
 Se debe seleccionar el socio de negocio.
 
@@ -44,7 +40,6 @@ Los descuentos en la orden de venta pueden ingresarse manualmente o bien setears
 Una vez generada la orden de venta el siguiente paso es generar la Orden de salida:
 
 ### ***__Generar Orden de Salida__***
-
 
 Luego de completar las órdenes de venta, el paso siguiente es **"generar orden de salida"**. En esta ventana se da origen al proceso de distribución.
 
@@ -93,20 +88,9 @@ En esta instancia, al consultar una orden de venta (vinculada a nuestra orden de
 
 ### ***__Crear Facturas Masivamente__***
 
-
 Una vez generado el picking y entrega, el paso siguiente es **crear las facturas masivamente**.
 
-La facturación se realiza desde la orden de salida (en estado completo) en la ventana "Generar factura desde orden de salida".
-
-Esto crea las facturas por las órdenes de venta vinculadas a la orden de salida.
-
-Para esto, se deben seleccionar todas las líneas. Se configura acción del documento = "completar".
-
-Al aceotar, el sistema brinda la opción de imprimir los documentos generados (una factura por cada orden de venta).
-
-El formato de impresión de las facturas es gestionado por Solop (soporte). Aunque existen ciertos datos que se pueden setear desde el ERP, en la opción "tipo de documento" (vinculado a la factura). Como el dato de adenda, que es un texto fijo que se visualiza en la parte inferior del documento impreso.
-
-Una vez generadas las facturas, al consultar las órdenes de venta vinculadas, se podrá observar además de cantidades entregadas, las cantidades facturadas.
+La facturación se realiza desde la orden de salida (en estado completo) en la ventana "Generar factura desde orden de salida": - [Generar Factura desde Orden de Salida](../sales-management/receivable-document/bill)
 
 ![Filtros Facturas](/assets/img/docs/distribution-management/dim-distribution-image26.png)
 
