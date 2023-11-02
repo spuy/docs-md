@@ -47,4 +47,3 @@ Esta solución pasa a ser entonces un potente Quick Service por estar integrado 
 - [Retiro Detallado de Punto de Venta](detailed)
 - [Cierre de Caja del Punto de Venta](close-box)
 - [Traspaso a Banco](transfer)
-- [Punto de Venta](point)
