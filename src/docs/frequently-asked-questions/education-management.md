@@ -95,3 +95,8 @@ No, el proceso sólo generará asignaciones entre Facturas y Pagos
 El proceso de Asignación (automático) considera Documentos por Pagar contra Documentos por Cobrar?
 
 No, el proceso sólo considerará DxC con Cobros y DxP contra Pagos.
+
+### Fallo de envío Mail de estado de cuenta a uno de los dos familiares ¿Cómo realizo reenvío?
+
+Cuando se da el caso de que un estudiante con familiar Madre y Padre se les envía a ambos el estado de cuenta y uno de los dos envíos por mail falla; la manera de poder realizar un envío nuevamente sería desde el proceso de "Envío de Estado de Cuenta por Correo" filtrando por el Socio del Negocio (familiar) del Responsable de pago y marcando el check de "Impreso" = SI
+
