@@ -8,6 +8,128 @@ article: false
 
 Es un documento que se aplica a una factura, con la finalidad de reflejar un descuento, un cobro de un gasto incurrido de más, o alguna devolución de productos que el socio de negocio tipo cliente haya comprado.
 
+### **Nota de Crédito Cliente**
+
+**Existen las siguientes razones por la cual se debe realizar una Nota de Crédito:**
+
+**Solicitud del Cliente de Re-facturación:** Se recibe solicitud del cliente que necesita que su Orden de Compra sea Facturada nuevamente por lo que se debe hacer una NC sobre la Factura ya realizada.
+
+**Servicio Entregado No Aceptado:** Cuando un servicio se realizó (Delivery) pero que no es aceptado por el Cliente total o parcialmente por lo cual solicita una *Devolución* junto con su correspondiente *Nota de Crédito*.
+
+**Servicio Facturado pero No Entregado:** Cliente solicita Nota de Crédito por la Facturación de un servicio que no fue entregado.
+
+**NC Manual por Diferencia de Precio o Descuento Financiero:** NO RECOMENDADO
+
+#### Generar Devoluciones a Cliente
+
+Se deberá realizar la “Devolución de Cliente” cuando un Cliente solicita o el Ejecutivo de Ventas solicita en nombre del cliente, la emisión de una Nota de Crédito debido a una “Entrega” (Delivery) No aceptada por el cliente. Esta “Devolución Cliente” deberá ser generada desde el Proceso “Generar Devoluciones”, seleccionando la Orden de Venta del Cliente que se querrá devolver.
+
+Este proceso se deberá realizar si se desea “Corregir” un checking ya realizado en un Período anterior que se encuentra ya CERRADO. Lo que realizará esta “Devolución Cliente” son 2 acciones:
+
+Generar un Movimiento contrario a la Entrega realizada por el Checking. Restando así el Ingreso reconocido con dicha “Entrega”
+
+Generar una Devolución de Proveedor Espejo, es decir se generará una Devolución Cliente y una Devolución Proveedor por la MISMA CANTIDAD definida. Dichas devoluciones luego quedarán a la espera de sus correspondientes Notas de Crédito. Administración podrá ver las Devoluciones Cliente que están pendientes de Generar Nota de Crédito y del lado del Proveedor estarán las “Devoluciones Proveedor” (o RMA) pendientes de generar Notas de Crédito Proveedor cuando estas lleguen.
+
+#### **Generación de Nota de Crédito**
+
+Este acto se complementa con la Generación posterior de la “Nota de Crédito Cliente” a partir de la Devolución Cliente. Esta acción se podrá realizar mediante el Proceso “Generar Nota de Crédito por Devolución”
+
+#### **Generar NC Desde Devolución**
+
+Para que aparezca la información se deberá seleccionar el Tipo de Documento “Devolución Cliente” y se recomienda definir en Acción del Documento “Preparar”se generará un Documento por Cobrar del tipo “e-Factura Nota de Crédito” en estado “En Proceso”. El encargado de facturación deberá tomar el mismo, verificar las Línea CFE y simplemente Completarlo. Dicho documento se debería haber generado con toda la información correspondiente de “Sello, Sello Origen, Contrato de Servicios, DxC que Asignará, Proyecto, etc.
+
+#### **Control Nota de Crédito sólo si está facturado**
+
+Las devoluciones se podrán realizar siempre y cuando exista una Entrega/Recepción pero estas, si bien pueden aparecer no podrán ser Facturadas. Si se intenta Facturar dará Error “Not Invoiced” verificando así que dicha devolución sea sobre una línea que está Facturada.
+
+#### **Servicio Facturado pero No Entregado**
+
+Para este caso, debido a que el importe que se deberá generar una Nota de Crédito aún no fue Entregado, es decir no se realizó Checking, para solicitar la creación de una Nota de Crédito por las Cantidades que fueron Facturadas pero no fueron Entregadas bastará que el Usuario “Cierre” la Orden de Venta correspondiente. Al Cerrar una Orden de Venta las “Cantidad Ordenada” de sus líneas son llevadas a la “Cantidad Entregada”.
+
+#### **Control de Facturación correcta en Órdenes de Venta**
+
+El sistema, luego de Cerrar una Orden, realizará un control de verificar si la Orden de Venta está Correctamente Facturada. Este Control implica 2 verificaciones:
+
+Control de Cantidades: En cada una de sus líneas se verificará que su “Cantidad Facturada” NO sea SUPERIOR a la “Cantidad Ordenada”. En caso de encontrar alguna línea que sea superior, es decir que se haya Facturado más de lo Ordenado y que la Orden esté Cerrada, se generará automáticamente una “Solicitud de Nota de Crédito” detallando la Orden de Venta y Factura vinculada y se le asignará al Departamento “Administración”. Este control se aplicará siempre y cuando dicha Orden no haya sido “Modificada”
+
+1. Control de Totales (Orden Modificada): Si en el primer control no encontró nada por lo que deba realizar una Solicitud de NC, se deberá continuar con el siguiente paso que será analizar el “Total de Líneas” de la Orden es Menor que el “Total de Líneas” del Documento por Pagar vinculado a la misma. En caso de que la Orden sea Menor que el DxP entonces deberá correr el proceso de “Solicitud de NC”.
+
+#### **Generar Nota de Crédito Cliente desde la Factura**
+
+Para generar una Nota de Crédito Cliente mediante la opción **“Crear desde”** se utilizará la ventana Documentos por Cobrar.
+
+Se deberá ingresar:
+
+* Tipo de Documento: Nota de Crédito
+* Socio de Negocio: Cliente al que se facturará
+* Tipo Autorización Devolución: Motivo por el cual se hace la Nota de Crédito
+
+Guardaremos el cabezal y seleccionaremos el botón “Crear desde".
+
+Este botón permitirá crear la Nota de crédito desde una Orden de venta o compra, Factura o Recibo.
+
+![Nota de Crédito](/assets/img/docs/sales-management/sam-agency8.png)
+
+Seleccionaremos el tipo de documento, el documento en cuestión y realizaremos la búsqueda smartbrowser.
+
+Esta búsqueda nos mostrará todas las líneas del documento, las cuales podemos seleccionar mediante un “check” modificando sus cantidades si se desea.
+
+Luego correremos el proceso seleccionando el botón de OK.
+
+Inmediatamente el sistema cargará las líneas a la Nota de crédito (donde se podrán modificar las cantidades y los importes) y definirá en la pestaña CFEs Referidos la factura que estoy asignando.
+
+Por último procederemos a completar la Nota de Crédito.
+
+La misma quedará con el check “pagado” siempre que haya sido por el total de la factura.
+
+![Selección](/assets/img/docs/sales-management/sam-agency9.png)
+
+::: note
+Para ingresar una Nota de crédito Proveedor se utiliza el mismo procedimiento de ingreso de una factura de compra, indicando como Tipo de documento una Nota de crédito.
+:::
+
+### **Solicitud de Re-facturación**
+
+En caso que se solicite realizar una Nota de Crédito a un Cliente pero sin modificar la Entrega correspondiente ya que está correcta, se deberá generar una Solicitud del Tipo “Solicitud de Nota de Crédito”.
+
+La Solicitud deberá ser creada desde la ventana de “Órdenes de Venta” o “Documentos por Cobrar” desde el Documento en cuestión en base a cuál se debe generar la Nota de Crédito. La Solicitud debe ser enviada a un Usuario de Administración y también definir el “Departamento”: Administración de manera que pueda visualizar dicha solicitud y proceder con la Generación de la NC.
+
+Para generar la NC se deberá generar la misma desde la Ventana “Documentos por Cobrar” seleccionando el SDN a quien será generada. Para obtener la información de la Factura que se estará cancelando se deberá seleccionar la misma desde el botón “Crear Desde”. Con este proceso se definirá todos los campos igual a como estaba la Factura generada. En caso de tener que modificar la Cantidad que se desea hacer NC se deberá ir a las líneas a modificarlas manualmente.
+
+Luego de “Completar” la Nota de Crédito, la Orden de Venta que había sido Facturada quedará nuevamente disponible para volver a ser Facturada.
+
+El asiento contable es el inverso a la Factura.
+
+### Nota de Crédito Cliente
+
+La Nota de Crédito se generará desde la ventana Documentos por Cobrar a través de la opción “Crear desde”.
+
+En el cabezal de la ventana Documentos por cobrar debemos ingresar:
+
+* Tipo de Documento: Nota de Crédito
+* Socio de Negocio: Cliente al que se facturará
+* Tipo Autorización Devolución: Motivo por el cual se hace la Nota de Crédito
+
+Guardaremos el cabezal y seleccionaremos el botón “Crear desde”
+
+Este botón permitirá crear la Nota de crédito desde una Orden de venta, Factura o Recibo.
+
+Seleccionaremos el tipo de documento, el documento en cuestión y realizaremos la búsqueda smartbrowser.
+
+Esta búsqueda nos mostrará todas las líneas del documento, las cuales podemos seleccionar mediante un “check” modificando sus cantidades si se desea.
+
+Luego correremos el proceso seleccionando el botón de OK.
+
+Inmediatamente el sistema cargará las líneas a la Nota de crédito (donde se podrán modificar las cantidades y los importes) y definirá en la pestaña CFEs Referidos la factura que estoy asignando.
+
+Por último procederemos a completar la Nota de Crédito.
+
+La misma quedará con el check “pagado” siempre que haya sido por el total de la factura.
+
+![Crear Desde](/assets/img/docs/sales-management/sam-education1.png)
+
+**NOTA: Para ingresar una Nota de crédito Proveedor se utiliza el mismo procedimiento de ingreso de una factura de compra, indicando como Tipo de documento una Nota de crédito.**
+
 A continuación es explicado el procedimiento para registrar en Solop ERP una nota de crédito de cuentas por cobrar.
 
 ## Registro de Nota de Crédito

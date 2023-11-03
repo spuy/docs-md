@@ -1,5 +1,5 @@
 ---
-title: Generar Factura desde Orden de Salida
+title: Facturación desde Orden de Salida
 category: Documentation
 star: 9
 sticky: 9
