@@ -1,5 +1,5 @@
 ---
-title: Documentos por Cobrar
+title: Gestión de Documentos por Cobrar
 category: Documentation
 star: 9
 sticky: 9
