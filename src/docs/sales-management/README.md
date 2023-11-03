@@ -12,7 +12,7 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 
 ### Reglas Comerciales
 
-- [Definición de Descuentos Servicios](comercial-rules/discount-definitrion-education)
+- [Definición de Descuentos Servicios](comercial-rules/discount-definition-education)
 - [Lista de Precios](comercial-rules/price-list)
 - [Región de Ventas](comercial-rules/region)
 - [Comisión de Ventas](comercial-rules/sales)
