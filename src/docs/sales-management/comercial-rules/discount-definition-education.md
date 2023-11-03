@@ -1,5 +1,5 @@
 ---
-title: Definición de Descuentos Educación
+title: Definición de Descuentos Servicios
 category: Documentation
 star: 9
 sticky: 9
@@ -8,7 +8,7 @@ tag:
 article: false
 ---
 
-## **Definición de Descuentos Educación**
+## **Definición de Descuentos Servicios**
 
 Los descuentos pueden ser simples o tener cortes que le hacen variar el porcentaje de descuento según una variable.
 
@@ -23,7 +23,7 @@ Dentro de la Ventana “Esquema de Descuento” podremos observar todos los dife
 * El Tipo de Descuento “Porcentaje Simple” se definirá un único % de Descuento.
 * El Tipo de Descuento de tipo “Corte” tendrán varios niveles dentro.
 
-El Descuento llamado “Descuento Hermanos” es de tipo “Corte” en el cual se deberá definir un % de Descuento según la Cantidad de Hermanos (Valor de corte).
+El Descuento llamado “Descuento Hermanos” (para Educación) es de tipo “Corte” en el cual se deberá definir un % de Descuento según la Cantidad de Hermanos (Valor de corte).
 
 A continuación se muestra el % de Descuento según el valor de corte de cada uno.
 
