@@ -14,15 +14,7 @@ A continuación se explica el procedimiento a seguir para configurar correctamen
 
 Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Órdenes de Venta**, por último seleccione la carpeta **Punto de Venta**, finalmente seleccione la ventana **Terminal PDV**.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image62.png)
-
-Imagen 1. Menú de Solop ERP
-
 Podrá visualizar la ventana **Terminal PDV** con diferentes campos que permiten una configuración de la caja, taquilla o auto-servicio en el cual se gestiona la orden, facturación y cobro de los productos por medio del punto de venta.
-
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image63.png)
-
-Imagen 2. Ventana Terminal PDV
 
 La ventana **Terminal PDV** cuenta con los siguientes campos que son necesarios para realizar el proceso del punto de venta:
 

@@ -200,39 +200,15 @@ Es importante resaltar que al completar el proceso, todos los documentos son gen
 
 Ubique la orden de venta generada en la ventana **Órdenes de Venta**, luego seleccione el icono **Visualiza Detalle (Donde es Usado)** y finalmente haga clic sobre la opción **Documentos por Cobrar**, para acercar la factura de la venta.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image169.png)
-
-Imagen 26. Orden de Venta
-
 Al acercar el documento por cobrar, podrá visualizarlo de la siguiente manera
-
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image170.png)
-
-Imagen 27. Factura por Cobrar
 
 ## Consultar Cobro Generado
 
 Ubique el documento de cobro generado en la ventana **Documentos por Cobrar** y luego seleccione la pestaña **Facturas Pagadas**, para visualizar las asignaciones de los diferentes documentos de cobro generados en la ventana **Caja**.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image171.png)
-
-Imagen 28. Pestaña Facturas Pagadas de la Ventana Documentos por Cobrar
-
 Seleccione el icono **Cambiar Mono/Multi Registro** ubicado en la barra de herramientas de Solop ERP para cambiar la vista y visualizar la línea del registro de asignación del cobro que requiere acercar, posteriormente copie el valor del campo **Pago**.
-
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image172.png)
-
-Imagen 29. Icono Cambiar Mono/Multi Registro y Copiar Número del Cobro
 
 Ubique el registro del cobro en la ventana **Caja**, con ayuda del valor copiado anteriormente del campo **Pago**.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image173.png)
-
-Imagen 30. Documento de Cobro Generado en Caja
-
 Consultar Registro en Cierre de Caja
-Cada cobro desde el punto de venta genera un documento de ingreso en la ventana **Caja**, por cada documento de cobro generado se crea una línea con el cobro asociado en la pestaña **Línea de Cierre de Caja**, de la ventana **Cierre de Caja** correspondiente al registro de la **Caja 04**, creado en estado \*\*Borrador al realizar la apertura de caja.
-
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image174.png)
-
-Imagen 31. Cobro Generado en Cierre de Caja
+Cada cobro desde el punto de venta genera un documento de ingreso en la ventana **Caja**, por cada documento de cobro generado se crea una línea con el cobro asociado en la pestaña **Línea de Cierre de Caja**, de la ventana **Cierre de Caja** correspondiente al registro de la **Caja 04**, creado en estado Borrador al realizar la apertura de caja.
