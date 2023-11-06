@@ -30,6 +30,14 @@ Imagen 1. Diagrama de Cierre de Caja POS
 
 A continuación, se específica el procedimiento que se debe realizar para ejecutar correctamente el cierre de caja POS.
 
+### Retiro de Fondos desde Punto de Venta
+
+![Retiro](/assets/img/docs/pdv-management/pdm-pdv-video2.MP4)
+
+### Completar Cierre de Caja
+
+![Cierre](/assets/img/docs/pdv-management/pdm-pdv-video3.MP4)
+
 ## Ejecución del Proceso
 
 Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Órdenes de Venta**, por último seleccione la carpeta **Punto de Venta**. Para finalizar, seleccione la ventana **Punto de Venta**.

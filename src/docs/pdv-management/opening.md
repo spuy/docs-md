@@ -92,6 +92,10 @@ Imagen 4. Transferencia Bancaria de Apertura de Caja
 Recuerde seleccionar la opción **OK**, ubicada en la parte inferior de la ventana **Transferencia Bancaria**, para completar el proceso y simular en Solop ERP el movimiento monetario realizado.
 :::
 
+### Apertura de Caja desde Punto de Venta
+
+![Apertura](/assets/img/docs/pdv-management/pdm-pdv-video1.MP4)
+
 ## Consultar Egreso e Ingreso Generado de la Apertura de Punto de Venta
 
 Al buscar entre los registros de la ventana **Caja**, los valores ingresados en los campos **No. del Documento** y **Documento Destino**, de la ventana **Apertura de Punto de Venta**, se pueden visualizar dos (2) registros resultantes de la transferencia bancaria, entre ellos se encuentran.
