@@ -88,7 +88,7 @@ A continuación indique el nombre o razón social del cliente en el campo **Nomb
 
 Imagen 7. Nombre Socio de Negocio
 
-Imagen 5. Seleccionar Cliente para la Venta
+Seleccionar Cliente para la Venta
 
 ::: note
 Recuerde que debe cambiar la información del socio **Cliente Unico** por la información del cliente real de la venta, ya que esta información saldrá impresa en la factura fiscal generada al concluir la venta.
@@ -96,41 +96,17 @@ Recuerde que debe cambiar la información del socio **Cliente Unico** por la inf
 
 Puede proceder a cargar los productos desde el Catálogo de Productos. De igual manera, puede realizar este proceso desde el Panel de Búsqueda de Productos
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image149.png)
-
-Imagen 6. Carga de Productos
-
 Luego de cargar todos los productos a la orden de venta, la información detallada de los mismos podrá ser visualizada en la Sección de Información de Producto. De igual manera, se puede apreciar en la Línea de la Orden de Venta.
-
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image150.png)
-
-Imagen 7. Información de los Productos
 
 La cantidad a vender de cada producto, el descuento a aplicar y su respectivo precio, pueden ser modificados en la Barra de Edición de Productos.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image151.png)
-
-Imagen 8. Modificar Cantidad de Productos a Vender
-
 Finalmente, podrá visualizar la Información de la Orden y sus Totales (Bs.S).
-
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image152.png)
-
-Imagen 9. Información y Montos Totales de la Orden
 
 ## Cobrar Pedido
 
 Luego de haber cargado todos los productos de la venta en la orden, debe seleccionar el icono **Pago** para generar el cobro de los mismos.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image153.png)
-
-Imagen 10. Icono Pago de la Ventana Punto de Venta
-
 La selección de este icono, habilita el recuadro del cobro, mostrando el total a pagar de la orden, los campos para ingresar la forma de pago, la moneda y el monto. Así como también, las opciones para agregar otro pago o eliminar un pago existente.
-
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image154.png)
-
-Imagen 11. Recuadro del Cobro
 
 Adicional a ello, se muestra los siguientes campos:
 
@@ -168,10 +144,6 @@ El cobro de los productos cargados en la orden de venta se puede ejecutar de dif
 
 Seleccione en el campo **Forma de Pago**, la forma utilizada por el cliente para pagar los productos cargados en la orden de venta.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image155.png)
-
-Imagen 12. Campo Forma de Pago del Pago Regular del Icono Pago de la Ventana Punto de Venta
-
 ::: note
 Para la forma de pago **Caja**, no es obligatorio ingresar un valor en el campo **No. de Referencia**. Sin embargo, se utiliza para ingresar el serial del billete recibido o cualquier otra forma de identificación del cobro.
 :::
@@ -180,42 +152,18 @@ Adicional a ello, para las otras formas de pago si es un valor obligatorio y cor
 
 Seleccione en el campo **Moneda**, la moneda utilizada por el cliente para pagar los productos cargados en la orden de venta.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image156.png)
-
-Imagen 13. Campo Moneda del Pago Regular del Icono Pago de la Ventana Punto de Venta
-
 Introduzca en el campo **Monto**, el monto pagado por el cliente con la forma de pago y moneda seleccionada.
-
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image157.png)
-
-Imagen 14. Campo Monto del Pago Regular del Icono Pago de la Ventana Punto de Venta
 
 Tilde el check **Cobro Completo**, para que posteriormente sea generado el egreso por el cambio del monto pagado por el cliente.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image158.png)
-
-Imagen 15. Check Cobro Completo del Pago Regular del Icono Pago de la Ventana Punto de Venta
-
 Seleccione la opción **OK**, para generar el cobro de los productos cargados en la orden de venta.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image159.png)
-
-Imagen 16. Opción OK del Pago Regular del Icono Pago de la Ventana Punto de Venta
-
 Seleccione el icono **Cancelar**, para cancelar el registro del cobro que encuentra realizando.
-
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image160.png)
-
-Imagen 17. Cancelar Cobro
 
 ## Procedimiento Especial con Diferentes Formas de Pago y Monedas
 
 Seleccione en el campo **Forma de Pago**, la forma utilizada por el cliente para pagar los productos cargados en la orden de venta.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image161.png)
-
-Imagen 18. Campo Forma de Pago del Pago Especial del Icono Pago de la Ventana Punto de Venta
-
 ::: note
 Para la forma de pago **Caja**, no es obligatorio ingresar un valor en el campo **No. de Referencia**. Sin embargo, se utiliza para ingresar el serial del billete recibido o cualquier otra forma de identificación del cobro.
 :::
@@ -224,33 +172,13 @@ Adicional a ello, para las otras formas de pago si es un valor obligatorio y cor
 
 Seleccione en el campo **Moneda**, la moneda utilizada por el cliente para pagar los productos cargados en la orden de venta.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image162.png)
-
-Imagen 19. Campo Moneda del Pago Especial del Icono Pago de la Ventana Punto de Venta
-
 Introduzca en el campo **Monto**, el monto pagado por el cliente con la forma de pago y moneda seleccionada.
-
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image163.png)
-
-Imagen 20. Campo Monto del Pago Especial del Icono Pago de la Ventana Punto de Venta
 
 Introduzca en el campo **No. de Referencia**, el número de referencia correspondiente a la transacción efectuada en el banco.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image164.png)
-
-Imagen 21. Campo No. de Referencia
-
 Seleccione en el campo **Banco**, el banco donde fue efectuada la transacción.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image165.png)
-
-Imagen 22. Campo Banco
-
 Seleccione el icono **Más**, para habilitar otro grupo de campos de pago e ingresar la siguiente forma de pago utilizada por el cliente para terminar de cancelar la orden de venta.
-
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image166.png)
-
-Imagen 23. Otra Forma de Pago del Pago Especial del Icono Pago de la Ventana Punto de Venta
 
 ::: note
 Si requiere cargar otra forma de pago adicional a las dos anteriores, puede seleccionar nuevamente el icono **Más** y proceder a cargar el cobro con dicha forma de pago.
@@ -258,15 +186,7 @@ Si requiere cargar otra forma de pago adicional a las dos anteriores, puede sele
 
 Para eliminar una forma de pago ya seleccionada previamente, seleccione el icono **Menos**.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image167.png)
-
-Imagen 24. Eliminar una Forma de Pago del Icono Pago de la Ventana Punto de Venta
-
 Seleccione la opción **OK**, para generar el cobro de los productos cargados en la orden de venta.
-
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image168.png)
-
-Imagen 25. Opción OK del Pago Especial del Icono Pago de la Ventana Punto de Venta
 
 ::: note
 Al completar el proceso para generar el cobro de los productos ingresados a la orden de venta POS, se crea automáticamente un documento de cobro en la ventana **Caja**, por cada forma de pago utilizada.
