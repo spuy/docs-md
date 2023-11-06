@@ -42,17 +42,9 @@ A continuación, se específica el procedimiento que se debe realizar para ejecu
 
 Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Órdenes de Venta**, por último seleccione la carpeta **Punto de Venta**. Para finalizar, seleccione la ventana **Punto de Venta**.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image27.png)
-
-Imagen 2. Menú de Solop ERP
-
 Luego de realizar desde el punto de venta todas las tomas de pedido del día, seleccione la opción **Cerrar Caja del Punto de Venta**, ubicada en el menú desplegado por el icono **Proceso** de la barra de herramientas de la ventana **Punto de Venta**, explicada en el documento Barra de Herramientas del Punto de Venta elaborado por Solop ERP.
 
 Podrá visualizar la ventana **Cerrar Caja del Punto de Venta**, con diferentes campos que permiten filtrar la búsqueda de información según lo requerido por el socio del negocio vendedor que esta realizando el cierre de caja.
-
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image29.png)
-
-Imagen 4. Ventana Cierre de Caja del Punto de Venta
 
 En el campo **Terminal PDV**, podrá visualizar el terminal configurado para el socio del negocio vendedor.
 
@@ -67,10 +59,6 @@ Indique en el campo **Cobros**, si las tomas de pedido realizadas fueron cobrada
 Seleccione la opción **Comenzar Búsqueda**, para realizar la búsqueda de todas las tomas de pedido realizadas por el socio del negocio vendedor, según lo seleccionado en los campos anteriormente explicados.
 
 Podrá visualizar el listado de todos los cobros realizados por las órdenes de ventas POS generadas desde el punto de venta. Así como también, las transacciones de apertura y retiros de fondos que se realicen en la caja durante el día, para realizar el cierre de caja debe seleccionar todos los registros de transacciones que contiene la misma.
-
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image36.png)
-
-Imagen 11. Listado de Todos los Cobros Realizados por las Órdenes de Ventas del Punto de Venta
 
 En el grupo de campos **Parámetros**, podrá visualizar los siguientes campos:
 
@@ -114,10 +102,6 @@ Seleccione la opción **OK**, para realizar el cierre de caja del punto de venta
 
 Al ejecutar el proceso **Cerrar de Caja del Punto de Venta**, se completa el registro con la cuenta **Caja 01**, creado en la ventana **Cierre de Caja**, llevando la misma a cero (0) nuevamente.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image48.png)
-
-Imagen 23. Cierre de Caja 01 Completada
-
 Podrá visualizar en la pestaña **Línea de Cierre de Caja**, los registros que fueron creados automáticamente a lo largo del día según las transacciones que fueron realizadas en la caja. Basicamente estos son:
 
 Apertura: Crea el registro de cierre de caja (Caja 01), asociando en la línea del mismo el documento de ingreso generado en caja.
@@ -126,41 +110,17 @@ Cobros: Crea en la línea de cierre de caja (Caja 01), un registro por cada docu
 
 Retiro de Fondos: Crea en la línea de cierre de caja (Caja 01), un registro por cada documento de egreso generado en caja, asociando el documento a la línea.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image49.png)
-
-Imagen 24. Pestaña Línea de Cierre de Caja 01 Completada
-
 ## Completar Registro en Cierre de Caja
 
 Ubique el registro de la **Caja Administrativa** generado en la ventna **Cierre de Caja**, el cual se encuentra en estado **Borrador**.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image50.png)
-
-Imagen 25. Cierre de Caja Administrativa en Estado Borrador
-
 Al seleccionar la pestaña **Línea de Cierre de Caja**, podrá visualizar las líneas creadas con los registros asociados de apertura si fue utilizada la caja para realizar apertura y retiro si fueron realizados retiros en la moneda de la caja en la que se encuentra.
-
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image51.png)
-
-Imagen 26. Pestaña Línea de Cierre de Caja
 
 Regrese a la pestaña principal **Cierre de Caja**, para ejecutar el cierre de la misma.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image52.png)
-
-Imagen 27. Pestaña Principal Cierre de Caja
-
 Seleccione la opción **Completar**, para completar el cierre de caja de la **Caja Administrativa**.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image53.png)
-
-Imagen 28. Opción Completar del Cierre de Caja
-
 Seleccione la acción **Completar** y la opción **OK**, para completar el registro.
-
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image54.png)
-
-Imagen 29. Acción Completar y Opción OK del Cierre de Caja
 
 ### Quién realiza el Cierre de Caja?
 

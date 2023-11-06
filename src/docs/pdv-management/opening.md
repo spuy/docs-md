@@ -30,15 +30,7 @@ No debe realizar el proceso de apertura de caja si no es entregado fisicamente e
 
 Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Órdenes de Venta**, por último seleccione la carpeta **Punto de Venta**. Para finalizar, seleccione el proceso **Apertura de Punto de Venta**.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image126.png)
-
-Imagen 2. Menú de Solop ERP
-
 Podrá visualizar la ventana **Apertura de Punto de Venta**, con diferentes campos que permiten simular las transferencias monetarias entre las cuentas bancarias y cajas registradas en Solop ERP.
-
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image127.png)
-
-Imagen 3. Ventana Apertura de Punto de Venta
 
 Realice en la ventana **Apertura de Punto de Venta**, el proceso regular para generar una transferencia bancaria, dicho procedimiento se encuentra explicado en el documento Registro de Transferencia Bancaria, elaborado por Solop ERP.
 
@@ -84,10 +76,6 @@ En el campo **Fecha de Estado de Cuenta**, Solop ERP establece la fecha en la qu
 
 En el campo **Fecha Contable**, Solop ERP establece la fecha en la que se esta realizando la transacción. Esta indica la fecha a ser usada en las cuentas de contabilidad general generadas desde este proceso.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image128.png)
-
-Imagen 4. Transferencia Bancaria de Apertura de Caja
-
 ::: note
 Recuerde seleccionar la opción **OK**, ubicada en la parte inferior de la ventana **Transferencia Bancaria**, para completar el proceso y simular en Solop ERP el movimiento monetario realizado.
 :::
@@ -102,15 +90,7 @@ Al buscar entre los registros de la ventana **Caja**, los valores ingresados en 
 
 El egreso generado en la cuenta **Caja Administrativa** como pago nacional, con toda la información suministrada en el proceso ejecutado en la ventana **Apertura de Punto de Venta**.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image129.png)
-
-Imagen 5. Egreso Generado de la Transferencia Bancaria de Apertura de Caja
-
 El ingreso generado en la cuenta **Caja 04** como cobro nacional, con toda la información suministrada en el proceso ejecutado en la ventana **Apertura de Punto de Venta**.
-
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image130.png)
-
-Imagen 6. Ingreso Generado de la Transferencia Bancaria de Apertura de Caja
 
 ## Consultar Registros Creados en la Ventana Cierre de Caja
 
@@ -132,15 +112,7 @@ Diferencia Edo. De Cuenta: El monto de **-193.349.343,00**, de diferencia entre 
 
 Saldo Final: El monto de **-193.349.343,00**, correspondiente al saldo final o al cierre. El saldo final es el resultado de ajustar el saldo inicial por cualquier pago o desembolso.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image131.png)
-
-Imagen 7. Registro del Cierre de Caja Administración POS
-
 El mismo contiene en la pestaña **Línea de Cierre de Caja**, el registro del egreso por la apertura de caja realizada y contiene asociado el documento de egreso generado en la ventana **Caja**.
-
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image132.png)
-
-Imagen 8. Pestaña Línea de Cierre de Caja Administración POS
 
 ## Caja 01
 
@@ -158,12 +130,4 @@ Diferencia Edo. De Cuenta: El monto de **193.349.343,00**, de diferencia entre e
 
 Saldo Final: El monto de **193.349.343,00**, correspondiente al saldo final o al cierre. El saldo final es el resultado de ajustar el saldo inicial por cualquier pago o desembolso.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image133.png)
-
-Imagen 9. Registro del Cierre de Caja 01
-
 El mismo contiene en la pestaña **Línea de Cierre de Caja**, el registro del ingreso por la apertura de caja realizada y contiene asociado el documento de ingreso generado en la ventana **Caja**.
-
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image134.png)
-
-Imagen 10. Pestaña Línea de Cierre de Caja 01

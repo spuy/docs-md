@@ -12,10 +12,6 @@ Para explicar de manera detallada el procedimiento y la funcionalidad del proces
 
 En una determinada tienda se realiza una venta el día **04/08/2021**. Fecha en la cual se encuentra la tasa de cambio del **BCV-ABC Estándar C.A** en **1.933.493,43**.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image135.png)
-
-Imagen 1. Tasa de Cambio del BCV-ABC Estándar C.A del día 04/08/2021
-
 Transacción de la cual se obtiene como resultado la siguiente factura impresa:
 
 | SENIAT                        |                 |                 |
@@ -45,10 +41,6 @@ Para continuar con el ejemplo planteado anteriormente en el presente documento, 
 
 El día **06/08/2021**, se presenta el cliente de la factura **00000654**, asociada a la orden **OPOS-857**, realizando la devolución del producto **PICO PARA AIRE LARGO TRUPER**. Dicho cliente indica que requiere que el mismo sea cambiado porque se encuentra dañado.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image136.png)
-
-Imagen 2. Tasa de Cambio del BCV-ABC Estándar C.A del día 06/08/2021
-
 Antes de ejecutar el proceso Anular Transacción de Venta, se requiere copiar el registro de la orden **OPOS-857**, generada el día **04/08/2021**, con la tasa de cambio **1.933.493,43** del **BCV-ABC Estándar C.A**, para mantener los valores de la misma.
 
 ::: note
@@ -59,25 +51,13 @@ Para copiar una orden de venta desde el punto de venta, se debe realizar el sigu
 
 Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Órdenes de Venta**, por último seleccione la carpeta **Punto de Venta**. Para finalizar, seleccione la ventana **Punto de Venta**.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image137.png)
-
-Imagen 3. Menú de Solop ERP
-
 La interfaz de la ventana **Punto de Venta**, se encuentra definida de forma específica en el documento Interfaz de Punto de Venta, elaborado por Solop ERP.
 
 Realice la búsqueda de registros de órdenes de venta generadas desde el punto de venta, seleccionando el icono **Registros Históricos** de la barra de herramientas de la ventana **Punto de Venta**, dicho proceso se encuentra explicado en el documento Barra de Herramientas del Punto de Venta, elaborado por Solop ERP.
 
 Seleccione en la ventana **Orden de Venta**, generada del icono **Registros Históricos**, la orden de venta que requiere copiar.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image138.png)
-
-Imagen 4. Selección de Orden de Venta a Copiar
-
 Por último, seleccione la opción **OK** para ubicar en la ventana **Punto de Venta**, el registro de la orden de venta realizada desde el punto de venta.
-
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image139.png)
-
-Imagen 5. Selección de la Opción OK de la Orden de Venta a Copiar
 
 Podrá visualizar que el registro de la orden de venta ubicada se encuentra en estado **Completo**.
 
