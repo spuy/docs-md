@@ -94,7 +94,7 @@ Recuerde seleccionar la opción **OK**, ubicada en la parte inferior de la venta
 
 ### Apertura de Caja desde Punto de Venta
 
-![Apertura](/assets/img/docs/pdv-management/pdm-pdv-video1.MP4)
+![Apertura](/assets/img/docs/pdv-management/pdm-pdv-video1.mp4)
 
 ## Consultar Egreso e Ingreso Generado de la Apertura de Punto de Venta
 

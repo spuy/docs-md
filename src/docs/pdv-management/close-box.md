@@ -32,11 +32,11 @@ A continuación, se específica el procedimiento que se debe realizar para ejecu
 
 ### Retiro de Fondos desde Punto de Venta
 
-![Retiro](/assets/img/docs/pdv-management/pdm-pdv-video2.MP4)
+![Retiro](/assets/img/docs/pdv-management/pdm-pdv-video2.mp4)
 
 ### Completar Cierre de Caja
 
-![Cierre](/assets/img/docs/pdv-management/pdm-pdv-video3.MP4)
+![Cierre](/assets/img/docs/pdv-management/pdm-pdv-video3.mp4)
 
 ## Ejecución del Proceso
 
