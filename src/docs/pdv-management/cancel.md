@@ -42,10 +42,6 @@ Imagen 4. Selección de la Opción OK de la Orden de Venta a Anular
 
 Luego de ubicar la orden de venta que requiere anular, seleccione la opción **Anular Transacción de Venta**, ubicada en el menú desplegado por el icono **Proceso** de la barra de herramientas de la ventana **Punto de Venta**, explicada en el documento Barra de Herramientas del Punto de Venta elaborado por Solop ERP.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image18.png)
-
-Imagen 5. Opción Anular Transacción de Venta del Icono Proceso de la Barra de Herramientas del Punto de Venta
-
 Al seleccionar el proceso **Anular Transacción de Venta**, Solop ERP muestra el mensaje para la confirmación de la ejecución del proceso, en el cual se debe seleccionar la opción **OK**, para ejecutar el mismo.
 
 ![Campo](/assets/img/docs/pdv-management/pdm-pdv-image19.png)

@@ -28,10 +28,6 @@ La interfaz de la ventana **Punto de Venta**, se encuentra definida de forma esp
 
 Luego de realizar desde el punto de venta la toma de pedido, seleccione la opción **Completar Orden Preparada**, ubicada en el menú desplegado por el icono **Proceso** de la barra de herramientas de la ventana **Punto de Venta**, explicada en el documento Barra de Herramientas del Punto de Venta elaborado por Solop ERP.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image57.png)
-
-Imagen 3. Opción Completar Orden Preparada
-
 ## Consulta de Documentos Generados
 
 En la ventana **Orden Venta**, se puede visualizar el registro de la orden de venta con ayuda del número de documento **OPOS-58** mostrado en el grupo de campos Información de la Orden, de la ventana **Punto de Venta**.

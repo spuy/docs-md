@@ -32,10 +32,6 @@ Imagen 4. Seleccionar la Opción OK
 
 Podrá visualizar la ventana **Punto de Venta** con diferentes iconos, campos y opciones, que permiten el correcto funcionamiento del mismo.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image179.png)
-
-Imagen 5. Ventana Punto de Venta
-
 ## Barra de Herramientas del Punto de Venta
 
 Contiene los iconos principales de las ventanas de Solop ERP para realizar una gestión exitosa del punto de venta al momento de la venta de los productos. Dicha ventana cuenta con los siguientes iconos explicados a continuación.
@@ -118,45 +114,17 @@ Imagen 18. Icono Proceso de la Barra de Herramientas del Punto de Venta
 
 **Opción Cerrar Caja del Punto de Venta**: Permite realizar el cierre del punto de venta a través de la ventana de búsqueda inteligente **Cierre del Punto de Ventas**.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image193.png)
-
-Imagen 19. Cerrar Caja del Punto de Venta del Icono Proceso de la Barra de Herramientas del Punto de Venta
-
 **Opción Generar Factura Inmediata**: Permite generar una factura desde el punto de venta.
-
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image194.png)
-
-Imagen 20. Opción Generar Factura Inmediata del Icono Proceso de la Barra de Herramientas del Punto de Venta
 
 **Opción Completar Orden Preparada**: Permite completar una orden preparada desde el punto de venta.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image195.png)
-
-Imagen 21. Opción Completar Orden Preparada del Icono Proceso de la Barra de Herramientas del Punto de Venta
-
 **Opción Anular Transacción de Venta**: Este proceso permite revertir la transaccion de venta.
-
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image196.png)
-
-Imagen 22. Opción Anular Transacción de Venta del Icono Proceso de la Barra de Herramientas del Punto de Venta
 
 **Opción Crear Retiro de POS**: Permite realizar un retiro de punto de venta.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image197.png)
-
-Imagen 23. Opción Crear Retiro de POS del Icono Proceso de la Barra de Herramientas del Punto de Venta
-
 **Opción Imprimir**: Permite generar un reporte para visualizar la orden de venta que esta realizando en el punto de venta. Dicho reporte es visualizado en la ventana **Informe**.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image198.png)
-
-Imagen 24. Opción Imprimir del Icono Proceso de la Barra de Herramientas del Punto de Venta
-
 **Opción Crear Nueva Orden de Devolución**:
-
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image199.png)
-
-Imagen 25. Opción Crear Nueva Orden de Devolución del Icono Proceso de la Barra de Herramientas del Punto de Venta
 
 **Icono Registros Históricos**: Despliega una ventana que permite realizar una búsqueda de todas las órdenes de venta realizadas, según lo seleccionado en los campos o filtros de búsqueda de dicha desplegada por el icono **Registros Históricos**. Esta acción se puede ejecutar seleccionando la tecla **F9**.
 
@@ -497,40 +465,16 @@ Imagen 77. Campo Gran Total
 
 Muestra la información del socio del negocio cliente que esta comprando los productos ingresados al documento **Orden de Venta** realizada por el usuario vendedor.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image252.png)
-
-Imagen 78. Información del Socio del Negocio Cliente
-
 ## Catálogo de Productos
 
 Permite que los productos sean cargados a la orden de venta mediante la selección de los mismos. El catálogo de productos se puede configurar de manera que los mismos se agrupen por categoría, combos u ofertas, permitiendo un mejor orden y ubicación al momento de cargarlos a la orden de venta. Adicional a ello, el catálogo de productos se puede configurar de manera sencilla, sin agrupacipón, combos u ofertas.
-
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image253.png)
-
-Imagen 79. Catálogo de Productos
 
 Uso del Catálogo de Productos Agrupado
 
 Para agregar un producto a las líneas de la orden desde el punto de venta mediante el catálogo de productos, se debe seleccionar la categoría o grupo al que pertenece dicho producto.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image254.png)
-
-Imagen 80. Selección de Categoría o Grupo de Producto
-
 Luego debe seleccionar el recuadro con la opción del producto que requiere cargar a las líneas de la orden.
-
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image255.png)
-
-Imagen 81. Selección de Producto
 
 Podrá visualizar el producto cargado de la siguiente manera.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image256.png)
-
-Imagen 82. Producto Cargado
-
 Para regresar al menú principal del catálogo de productos, seleccione el recuadro con la opción **Regresar**.
-
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image257.png)
-
-Imagen 83. Opción Regresar
