@@ -106,35 +106,8 @@ Seleccione el checklist **POS Compartido**, para indicar que el punto de venta e
 
 Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP para guardar el registro de los campos de la ventana **Terminal PDV**.
 
-# Terminal PDV / Punto de Venta
-
-**Otras Configuraciones de la Terminal PDV**
-
-Para comenzar las pruebas del punto de venta es vital parametrizar de manera correcta la terminal del punto de venta a utilizar.
-
-Dentro de esta ventana veremos la configuración general en la primera pestaña donde se tendrán que definir las características generales del punto de venta .
-
-En la pestaña principal de la terminal de punto de venta se podrá definir los campos este por defecto que utilizará la el punto de venta Quién es el agente comercial definido para estar en el campo agente comercial tendrá un check también le modifique el precio si el punto de venta permite la modificación de precios.
-
-Plantilla de socio de negocio: en este campo se deberá definir el socio de negocio por defecto para los las ventas que no está identificado el socio de negocio por defecto se sugiere usar el socio de negocio mostrador.
-
-Tipo de documento: se definirá el tipo de documento por defecto que utilizará el punto de venta. Este podrá ser modificado desde el punto de venta se deberá definir “POS Order e-ticket'' cuando la venta sea con cédula o sin identificar el cliente o se podrá cambiar manualmente para el “POS Order e-factura” cuando corresponda generar una factura desde el punto de venta.
-
-Disposición de la llave: se definirá la estructura que se utilizará para visualizar los productos en la sección derecha del punto de venta. Dentro de una disposición de la llave se podrá definir diferentes estructuras jerárquicas o agrupaciones para poder seleccionar los productos simplemente clickeando sobre ellos para visualizar la foto se podrá ceder a definir la misma en cada uno de los productos.
-
-Nombre Impresora: en este campo se deberán definir el nombre de la impresora la cual se imprimir se deberá imprimir el ticket de manera automática.
-
-Tipo de conversión: El campo tipo de conversión considerara Qué tipo de conversión se deberá aplicar para convertir monedas en el punto de venta esto es cuando se maneja una lista de precios en moneda nacional por ejemplo Si se desea realizar el pago con moneda extranjera se tomará la tasa que corresponda según el tipo de conversión establecido en este campo.
-
-Supervisor: defina quién es el encargado del punto de venta. Según el supervisor definido se considerará luego El pin para poder hacer alguna acción que requiera la aprobación del encargado o del supervisor.
-
-Vendedor de pasillo (Check): sirve para definir este punto de venta podrá ser utilizado desde el pasillo y se podrán crear órdenes de venta para que luego puedan ser abonadas desde un punto de venta con caja aclarar ese punto.
-
-Moneda para mostrar: este campo sirve para definir qué moneda se va a mostrar la conversación en las líneas del punto de venta en el caso de que su lista de precios sea en moneda nacional Pero además desee Mostrar el precio convertido a moneda extranjera en este campo se deberá definir dicha moneda extranjera a continuación.
-
 Checks de definición en punto de venta:
 
-* Permitir modificar cantidad: este cheque Define si se podrá modificar cantidades desde el punto de venta o no punto aclarar
 * POS compartido: Definir si este punto de venta podrá ser compartido por más de un agente comercial o no Si tiene definido el check será compartido.
 * Permitir devolución: este cheque definirá si se podrá permitir realizar devoluciones desde este punto de venta.
 * Permitir Cobrar: es definida si se podrá generar cobros desde este punto de venta.
@@ -216,33 +189,3 @@ Se puede generar una nueva fácilmente desde el proceso de “Generar Llave Punt
 ### Cajas de Punto de Venta
 
 En cada terminal PDV se deberá definir cuál es su caja asignada. En esta caja se deberá definir el Socio del Negocio (Normalmente se define el de la Organización), así como también los Cargos por defecto que se desea aplicar para la “Apertura” y para los “Retiros”.
-
-**Cierre de Caja**
-
-Al realizar la apertura de Caja se genera un registro de cierre de caja por el recibo de apertura.
-
-En el caso que se omita este paso de realizar la apertura. El ERP debería generar el registro de cierre de caja desde el primer cobro. Aun así, se han detectado casos en los cuales el registro de cierre de caja no se realiza.
-
-Para estos casos, posteriormente, se debió generar el registro de cierre de caja de forma manual vinculando las transacciones del día a la caja correspondiente (con el objeto de poder realizar el cierre del punto de venta).
-
-Se configura como Tipo documento apertura: recibo de caja.
-
-Cada vez que se genera un cobro o pago se crea una línea al registro de cierre de caja.
-
-Se trata de una conciliación bancaria aplicada a las cuentas de Caja.
-
-La cuenta de caja es un Bank account excepto que es una definición de caja (cuenta de caja, y no bancaria).
-
-Debe definirse un cargo predeterminado por apertura, de lo contrario no podrá operar el punto de venta.
-
-Al generar una nueva orden se visualizarán valores pre seteados para el punto de venta pero que pueden ser modificados. Tal como el tipo de documento (e ticket o e factura), Socio de negocio (por default estará configurado como "Mostrador" (socio no identificado) pero se podrán seleccionar diferentes socio clientes o bien crear uno nuevo (si el usuario posee permisos para dicha función.
-
-Para completar la orden de venta, primero debe cobrarse.
-
-Al generar el cobro, se mostrarán los diferente métodos de pago vinculados al punto de venta.
-
-Al crear el cobro se la orden de venta queda en estado completo. Se genera documento por cobrar (estado pagado) y el pago/cobro correspondiente.
-
-Se agrega el movimiento (de la orden de venta cobrada) al cierre de caja en estado borrador (no la concilia).
-
-El paso anterior al cierre de caja es realizar un retiro de caja: se elige un agente cobrador y se genera un movimiento retiro de caja como línea del cierre de caja.

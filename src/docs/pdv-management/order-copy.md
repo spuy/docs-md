@@ -8,56 +8,21 @@ article: false
 
 El proceso de **Copiar Orden Desde Otra**, pemite realizar una copia exacta de una orden determinada, repestando los precios que tienen los productos en la misma, así como la tasa de cambio con la que fue generada.
 
-Para explicar de manera detallada el procedimiento y la funcionalidad del proceso se presenta el siguiente escenario:
-
-En una determinada tienda se realiza una venta el día **04/08/2021**. Fecha en la cual se encuentra la tasa de cambio del **BCV-ABC Estándar C.A** en **1.933.493,43**.
-
-Transacción de la cual se obtiene como resultado la siguiente factura impresa:
-
-| SENIAT                        |                 |                 |
-| ----------------------------- | --------------- | --------------- |
-| RIF/C.I.: V00000000           |
-| RAZON SOCIAL: Cliente Unico   |
-| Araure - Portuguesa           |
-| Orden OPOS-857                |
-| Empleado Vendedor             |
-| FACTURA                       |
-| FACTURA:                      | 00000654        |
-| FECHA: 21-12-2020             | HORA: 11:59     |
-| 1908                          |
-| PICO PARA AIRE LARGO TRUPER   | (G)             | Bs 8.068.152.07 |
-| SUBTTL                        | Bs 8.068.152.07 |
-| BI G16.00% Bs 8.068.152.07    | IVA G16.00%     | Bs 1.290.904.33 |
-| TOTAL                         | Bs 9.359.056.40 |
-| EFECTIVO 1                    | Bs 9.359.056.40 |
-| Cant. Articulos: 1            |
-| Empleado Vendedor             |
-| Terminal PDV Caja 01 Vendedor |
-| MH                            | Z7C0001234      |
-
-Un registro de orden de compra puede ser copiado cuando el mismo se encuentre en estado **Completo**. La unica condición que tiene el proceso para su ejecución, es que el registro de la orden que requiere copiar, no se encuentre en estado **Cerrado**. Si la orden a copiar se encuentra en estado **Cerrado**, el proceso no se ejecuta.
-
-Para continuar con el ejemplo planteado anteriormente en el presente documento, se tiene lo siguiente:
-
-El día **06/08/2021**, se presenta el cliente de la factura **00000654**, asociada a la orden **OPOS-857**, realizando la devolución del producto **PICO PARA AIRE LARGO TRUPER**. Dicho cliente indica que requiere que el mismo sea cambiado porque se encuentra dañado.
-
-Antes de ejecutar el proceso Anular Transacción de Venta, se requiere copiar el registro de la orden **OPOS-857**, generada el día **04/08/2021**, con la tasa de cambio **1.933.493,43** del **BCV-ABC Estándar C.A**, para mantener los valores de la misma.
-
 ::: note
 Mayormente las órdenes son copiadas desde el punto de venta para mantener la tasa de cambio de la misma y generar una orden con fecha actual, en la cual se mantengan los mismos precios. Este proceso se debe utilizar cuando se va a generar una nota de crédito desde el punto de venta, ya que permite crear una orden bajo la misma tasa de cambio.
 :::
 
 Para copiar una orden de venta desde el punto de venta, se debe realizar el siguiente procedimiento:
 
-Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Órdenes de Venta**, por último seleccione la carpeta **Punto de Venta**. Para finalizar, seleccione la ventana **Punto de Venta**.
+1. Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Órdenes de Venta**, por último seleccione la carpeta **Punto de Venta**. Para finalizar, seleccione la ventana **Punto de Venta**.
 
 La interfaz de la ventana **Punto de Venta**, se encuentra definida de forma específica en el documento Interfaz de Punto de Venta, elaborado por Solop ERP.
 
-Realice la búsqueda de registros de órdenes de venta generadas desde el punto de venta, seleccionando el icono **Registros Históricos** de la barra de herramientas de la ventana **Punto de Venta**, dicho proceso se encuentra explicado en el documento Barra de Herramientas del Punto de Venta, elaborado por Solop ERP.
+2. Realice la búsqueda de registros de órdenes de venta generadas desde el punto de venta, seleccionando el icono **Registros Históricos** de la barra de herramientas de la ventana **Punto de Venta**, dicho proceso se encuentra explicado en el documento Barra de Herramientas del Punto de Venta, elaborado por Solop ERP.
 
-Seleccione en la ventana **Orden de Venta**, generada del icono **Registros Históricos**, la orden de venta que requiere copiar.
+3. Seleccione en la ventana **Orden de Venta**, generada del icono **Registros Históricos**, la orden de venta que requiere copiar.
 
-Por último, seleccione la opción **OK** para ubicar en la ventana **Punto de Venta**, el registro de la orden de venta realizada desde el punto de venta.
+4. Por último, seleccione la opción **OK** para ubicar en la ventana **Punto de Venta**, el registro de la orden de venta realizada desde el punto de venta.
 
 Podrá visualizar que el registro de la orden de venta ubicada se encuentra en estado **Completo**.
 

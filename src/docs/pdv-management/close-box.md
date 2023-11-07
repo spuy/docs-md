@@ -12,15 +12,15 @@ Cada uno de los Cobros realizados desde un Punto de Venta son ingresados a un Ci
 
 El proceso cierre de caja del punto de venta consiste en ejecutar el mismo desde la ventana **Punto de Venta**. Su finalidad es completar el registro de cierre de caja creado con la cuenta **Caja POS** en la que fueron realizadas las transacciones de venta, dejando la cuenta en su saldo inicial. Para ello, es necesario que se realice el flujo de trabajo regular establecido para el punto de venta, es decir, se deben realizar los siguientes procesos:
 
-La apertura de caja desde el proceso de punto de venta
+1. La apertura de caja desde el proceso de punto de venta
 
-La venta de los productos desde el punto de venta
+2. La venta de los productos desde el punto de venta
 
-El retiro de fondos desde el punto de venta
+3. El retiro de fondos desde el punto de venta
 
-Cada uno de los procesos anteriormente nombrados, generan documentos que se asocian de manera automática a la línea de los registros creados en la ventana **Cierre de Caja**, con las cuentas **Caja POS** y **Caja Administrativa**.
+Cada uno de los procesos anteriormente nombrados, generan documentos que se asocian de manera automática a la línea de los registros creados en la ventana **Cierre de Caja**, con las cuentas **Caja POS** y **Caja**.
 
-Adicional a ello, al ejecutar el proceso cierre de caja del punto de venta, Solop ERP deja el cierre de caja creado con la cuenta **Caja Administrativa**, en estado **Borrador**, para que este sea completado de forma manual.
+Adicional a ello, al ejecutar el proceso cierre de caja del punto de venta, Solop ERP deja el cierre de caja creado con la cuenta **Caja**, en estado **Borrador**, para que este sea completado de forma manual.
 
 Para mejor referencia de lo explicado anteriormente, se presenta a continuación el diagrama del proceso **Cierre de Caja**, con la finalidad dar a conocer el comportamiento de Solop ERP ante dicho proceso.
 

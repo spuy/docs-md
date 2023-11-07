@@ -141,6 +141,36 @@ Esa funcionalidad no esta implementada todavia en el POS, para hacerlo debe real
 
 El tipo tasa de cambio esta definida en la ventana Terminal PDV en el campo “Tipo de Conversión”. Si es “Company” no se carga automaticamente, la define el Cliente o la define OpenUp con una duración especifica. Si es “Spot”, existe un proceso que se ejecuta por medio del CRON y carga la tasa de forma automatica a diario.
 
+### Cierre de Caja (qué ocurre si no genero la apertura de caja)
+
+Al realizar la apertura de Caja se genera un registro de cierre de caja por el recibo de apertura.
+
+En el caso que se omita este paso de realizar la apertura. El ERP debería generar el registro de cierre de caja desde el primer cobro. Aun así, se han detectado casos en los cuales el registro de cierre de caja no se realiza.
+
+Para estos casos, posteriormente, se debió generar el registro de cierre de caja de forma manual vinculando las transacciones del día a la caja correspondiente (con el objeto de poder realizar el cierre del punto de venta).
+
+Se configura como Tipo documento apertura: recibo de caja.
+
+Cada vez que se genera un cobro o pago se crea una línea al registro de cierre de caja.
+
+Se trata de una conciliación bancaria aplicada a las cuentas de Caja.
+
+La cuenta de caja es un Bank account excepto que es una definición de caja (cuenta de caja, y no bancaria).
+
+Debe definirse un cargo predeterminado por apertura, de lo contrario no podrá operar el punto de venta.
+
+Al generar una nueva orden se visualizarán valores pre seteados para el punto de venta pero que pueden ser modificados. Tal como el tipo de documento (e ticket o e factura), Socio de negocio (por default estará configurado como "Mostrador" (socio no identificado) pero se podrán seleccionar diferentes socio clientes o bien crear uno nuevo (si el usuario posee permisos para dicha función.
+
+Para completar la orden de venta, primero debe cobrarse.
+
+Al generar el cobro, se mostrarán los diferente métodos de pago vinculados al punto de venta.
+
+Al crear el cobro, la orden de venta queda en estado completo. Se genera documento por cobrar (estado pagado) y el pago/cobro correspondiente.
+
+Se agrega el movimiento (de la orden de venta cobrada) al cierre de caja en estado borrador (no la concilia).
+
+El paso anterior al cierre de caja es realizar un retiro de caja: se elige un agente cobrador y se genera un movimiento retiro de caja como línea del cierre de caja.
+
 ### Lista de Precio
 
 #### No se actualiza Moneda en Documento según Lista de Precio:
