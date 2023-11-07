@@ -122,22 +122,6 @@ El check **Cobro Completo**, debe ser utilizado cuando se presente un caso de co
 Cuando el monto a pagar en efectivo es en divisas y con decimales, se tilda el check **Cobro Completo** y se ingresa el monto real a cobrar en el campo **Monto**.
 :::
 
-Suponiendo que el día **10/02/2021**, se tiene la orden de venta **OPOS-5184** con monto total a pagar de **75.917.563,54** y el cliente decide cancelar con dólares en efectivo, los siguientes datos serían:
-
-Tasa de Cambio USD: 1.933.493,43
-
-Forma de Pago Seleccionada: Caja (efectivo)
-
-Moneda Seleccionada: USD
-
-Monto Total de la Orden en Moneda USD: 39,264453844045 (monto resultante del **Monto Total de la Orden** entre la **Tasa de Cambio** de la moneda seleccionada)
-
-Monto Real a Pagar: 40,00 (monto que debe ser ingresado en el campo **Monto**)
-
-Cambio en Moneda UYU: 1.422.173,66 (cambio que debe ser entregado al cliente)
-
-Cobro Completo: SI (tildar)
-
 El cobro de los productos cargados en la orden de venta se puede ejecutar de diferentes formas, explicadas a continuación.
 
 ## Procedimiento Regular con una Forma de Pago y una Moneda Específica

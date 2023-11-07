@@ -130,7 +130,7 @@ Tener en cuenta las siguientes consideraciones:
 
 Realice el procedimiento regular para registrar un cierre de caja en Solop ERP, el mismo se encuentra explicado de manera detallada en el documento Registro de Cierre de Caja, elaborado por Solop ERP.
 
-Se selecciona la caja administrativa para llevar esta a cero (0) nuevamente, transfiriendo el saldo de la caja al banco. Este proceso se debe realizar por cada caja administrativa a la que igreso dinero por las ventas del día.
+Se selecciona la caja para llevar esta a cero (0) nuevamente, transfiriendo el saldo de la caja al banco. Este proceso se debe realizar por cada caja administrativa a la que igreso dinero por las ventas del día.
 
 En la ejecución del procedimiento de cierre de caja, se debe considerar las siguientes restricciones:
 
