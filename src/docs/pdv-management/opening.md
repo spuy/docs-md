@@ -30,10 +30,6 @@ No debe realizar el proceso de apertura de caja si no es entregado fisicamente e
 Recuerde seleccionar la opción **OK**, ubicada en la parte inferior de la ventana **Transferencia Bancaria**, para completar el proceso y simular en Solop ERP el movimiento monetario realizado.
 :::
 
-### Apertura de Caja desde Punto de Venta
-
-![Apertura](/assets/img/docs/pdv-management/pdm-pdv-video1.mp4)
-
 ::: note
 Se debe realizar una transferencia por moneda, cuando se necesite aperturar la caja con más de una moneda.
 :::
