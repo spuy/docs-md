@@ -60,6 +60,16 @@ Debido a que el ERP puede tener una definición muy detallada de las “líneas 
 
 De esta manera, el **Criterio de Facturación** que tendrá cada Factura será criterio que se va a utilizar para generar las líneas que se detallarán en el CFE (e-Factura o e-Ticket).
 
+#### Facturación de Honorarios en Línea independiente
+
+El Criterio de Facturación aplicará siempre para las líneas de “Inversión” del cliente, agrupando según el criterio seleccionado. Esto quiere decir que el criterio nunca aplicará la agrupación para aquellas líneas que correspondan a Honorarios Variables calculados en un Proyecto o Fase de Proyecto, estos siempre irán en una línea aparte detallando que son Honorarios.
+
+**Facturar en moneda distinta con la que se generó el Proyecto:**
+
+Si se desea facturar en una moneda distinta con la que se generó el Proyecto podremos cambiar la misma en la Orden de Venta indicando la correspondiente tasa de cambio, (en el caso que la misma se encuentre en estado Borrador).
+
+En el caso que las Ordenes de venta estén Completas se deberán anular y generar de nuevo, ya que si se reactivan se tendrán que anular la Ordenes de Venta Honorarios que se generen.
+
 #### **Otros Criterios**
 
 Además de los criterios definidos manualmente, siempre se agrupará una factura teniendo en cuenta que deben ser:

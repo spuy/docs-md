@@ -12,6 +12,11 @@ article: false
 
 ## Documentos por Cobrar Servicios
 
+Este documento está destinado a definir las diferentes formas de facturar un Contrato de Servicios.
+La explicación detallada sobre Contrato de Servicios se encuentra en la sección Gestión de Servicios, en el apartado Contrato de Servicio.
+
+El Contrato es un acuerdo sobre determinadas condiciones entre nuestra organización y un cliente (o un proveedor). Dentro de esas condiciones se encuentra la manera en la cual será facturado respecto a su frecuencia (mensual, anual), respecto a si se trata de un pago único o en cuotas. Así como acuerdos de otra índole como pactar Honorarios sobre determinados productos/servicios.
+
 ### Generar Órdenes de Venta recurrente desde Contrato de Servicios
 
 A partir de la definición de las líneas de un contrato se puede generar Órdenes de Venta según los Servicios Recurrentes que deban ser facturados según determinada recurrencia. De esta manera se podrán generar Órdenes de Venta según las mensualidades definidas en los Contratos.
@@ -43,16 +48,6 @@ Para la generación de esta Orden de Venta o Compra, se sugiere definir una CANT
 * **Producto a Facturar:** Como la facturación no se realizará producto a Producto que fue solicitado, se debe definir un Producto Genérico que será el que finalmente será facturado.
 * **Descripción:** Escribir en la Descripción de la FASE cómo se desea que sea Facturado para que Administración se entere y
 * **Cantidad:** Además en el Campo “Cantidad” de la Fase se deberá definir la Cantidad de Cuotas que se desea Facturar, ya sea por el Medio o al Cliente. Ver que como Precio Unitario se deberá visualizar el importe de cada una de las cuotas a ser Facturado.
-
-### Facturación de Honorarios en Línea independiente
-
-El Criterio de Facturación aplicará siempre para las líneas de “Inversión” del cliente, agrupando según el criterio seleccionado. Esto quiere decir que el criterio nunca aplicará la agrupación para aquellas líneas que correspondan a Honorarios Variables calculados en un Proyecto o Fase de Proyecto, estos siempre irán en una línea aparte detallando que son Honorarios.
-
-**Facturar en moneda distinta con la que se generó el Proyecto:**
-
-Si se desea facturar en una moneda distinta con la que se generó el Proyecto podremos cambiar la misma en la Orden de Venta indicando la correspondiente tasa de cambio, (en el caso que la misma se encuentre en estado Borrador).
-
-En el caso que las Ordenes de venta estén Completas se deberán anular y generar de nuevo, ya que si se reactivan se tendrán que anular la Ordenes de Venta Honorarios que se generen.
 
 ## Facturación Recurrente de Servicios en cuotas
 
