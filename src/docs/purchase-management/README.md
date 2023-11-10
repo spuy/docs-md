@@ -14,3 +14,10 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 - [Recepción de Productos](reception)
 - [Asignación de Factura a Recepción](assignment)
 - [Tasa de Conversión Negociada](conversion)
+
+### Documentos por Pagar
+
+- [Nota de Crédito](payable-documents/credit-note)
+- [Nota de Débito](payable-documents/debit-note)
+- [Documento por Pagar](payable-documents/document)
+- [Documentos por Pagar Agencia](payable-documents/accounts-payable-agency)
