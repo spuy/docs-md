@@ -43,11 +43,11 @@ Una vez generada la orden de venta el siguiente paso es generar la Orden de sali
 
 Luego de completar las órdenes de venta, el paso siguiente es **"generar orden de salida"**. En esta ventana se da origen al proceso de distribución.
 
-Se debe seleccionar la organización y el almacén. Luego puede filtrarse por región de ventas y/o por fechadocumento (no es obligatorio).
+Se debe seleccionar la organización y el almacén. Luego puede filtrarse por región de ventas y/o por fecha documento (no es obligatorio).
 
 Al seleccionar "buscar", muestra todas las órdenes pendientes de entrega (según los filtros utilizados).
 
-A medida que se van seleccionando las órdenes a entregar en la parte superior, en la parte inferiorse van agregando las líneas de esas órdenes.
+A medida que se van seleccionando las órdenes a entregar en la parte superior, en la parte inferior se van agregando las líneas de esas órdenes.
 
 Dentro de esas líneas, si se utliza el inventario correctamente, el ERP realiza una comparación entre la cantidad a entregar y la cantidad en existencia.
 
@@ -72,6 +72,17 @@ En este caso se recomienda setear "en proceso", porque aun en esta instancia se 
 **Parámetros**
 
 ![Parámetros](/assets/img/docs/distribution-management/dim-distribution-image24.png)
+
+### Reporte de Orden de Salida
+
+El paso posterior a generar la Orden de salida es imprimir el reporte de Orden de Salida para realizar la búsqueda de los productos a distribuir (el pickeo).
+Este reporte presenta diferentes formatos de acuerdo a lo que se requiera:
+
+* Un formato con listado general de los productos incluidos en la Orden de Salida para (generar Picking)
+
+* Un formato de listado por Socio del Negocio (por cliente) para armar cada pedido individual (generar Packing).
+
+* Un formato de listado más detallado incluyendo importes para el transportista (generar el Shiping)
 
 ### ***__Generar picking y entregas desde orden de salida__***
 
@@ -103,7 +114,7 @@ En esta opción (Generar cobros desde orden de salida) se visualizarán todas aq
 
 En el caso de cheque, se ingresa el número (número de pago), se selecciona en parámetros la cuenta bancaria que corresponda y la fecha de pago.
 
-Al seleccionar aceptar se podrá observar el docuemnto por cobrar marcado como "pagado" y el pago generado correspondiente (registro de pago/cobro).
+Al seleccionar aceptar se podrá observar el documento por cobrar marcado como "pagado" y el pago generado correspondiente (registro de pago/cobro).
 
 ![Filtros Cobros](/assets/img/docs/distribution-management/dim-distribution-image27.png)
 
