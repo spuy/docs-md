@@ -237,3 +237,13 @@ Las Cantidades Facturadas y Entregadas son definidas según la o las Entregas qu
 Diferente es “Igualar la Cantidad Ordenada a la Cantidad Entregada”. 
 
 Al Cerrar la Orden de Venta / Compra se llevan las cantidades Ordenadas a la cantidad Entregada dejando NINGUNA Cantidad Pendiente de entregar. Esto es “Cerrar una Orden”. a su vez, se actualiza el importe de la orden según la nueva Cantidad definida. 
+
+### Documentos por Pagar
+
+#### Por qué motivo puede no mostrarse vinculado un Pago a un Proveedor en el estado de cuenta corriente?
+
+Si el Pago tiene asignado un "Cargo" no se visualizará en el estado de cuenta corriente del proveedor.
+
+#### Por qué motivo un Documento por pagar genera comisión solo por una de sus líneas y no genera comisión por las demás líneas?
+
+No está soportado por el sistema que un Documento por Pagar se vincule a más de una Orden de Compra. La relación es de 1 a 1 (generar una orden de compra ppr cada documento por pagar). Otra opción para resolverlo sería generar diferentes líneas en una misma orden de compra
