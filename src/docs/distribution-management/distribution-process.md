@@ -112,6 +112,10 @@ La facturación se realiza desde la orden de salida (en estado completo) en la v
 
 ![Filtros Facturas](/assets/img/docs/distribution-management/dim-distribution-image26.png)
 
+:::
+Los procesos "Generar picking y entregas desde orden de salida" y "Generar factura desde orden de salida", permiten entregar y facturar por cantidad mayor a la ordenada (por ejemplo para aquellos productos que se vendan por bolsa y su valor sea por unidad, pero su peso pueda variar).
+::: 
+
 ### ***__Generar Cobros desde Orden de Salida__***
 
 
