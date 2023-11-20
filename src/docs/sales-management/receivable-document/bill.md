@@ -48,6 +48,14 @@ Seleccione la orden de salida por la cual será generada la factura.
 
 Imagen 5. Seleccionar Orden de Salida
 
+En el visor pueden observarse columnas con datos específicos de cada orden de salida. Entre ellas pueden visualizarse columnas con los siguientes datos importantes:
+
+Cantidad a Facturar = cantidad de picking de línea de orden de salida
+
+Importe a Facturar = "Cantidad a Facturar"
+
+![Campo](/assets/img/docs/sales-management/sam-sales-image513.png)
+
 Seleccione la opción **OK**, para generar la factura desde la orden de salida seleccionada.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image6.png)

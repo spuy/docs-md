@@ -1,5 +1,5 @@
 ---
-title: Gestión de Distribución
+title: Proceso de Distribución
 category: Documentation
 star: 9
 sticky: 9
@@ -36,7 +36,7 @@ Los descuentos en la orden de venta pueden ingresarse manualmente o bien setears
 
 Una vez generada la orden de venta el siguiente paso es generar la Orden de salida:
 
-### ***__Generar Orden de Salida__***
+### Generar Orden de Salida
 
 Luego de completar las órdenes de venta, el paso siguiente es **"generar orden de salida"**. En esta ventana se da origen al proceso de distribución.
 
@@ -86,6 +86,10 @@ Este reporte presenta diferentes formatos de acuerdo a lo que se requiera:
 * Un formato de listado por Socio del Negocio (por cliente) para armar cada pedido individual (generar Packing).
 
 * Un formato de listado más detallado incluyendo importes para el transportista (generar el Shiping)
+
+Dicho proceso puede ubicarse desde el Menú, y también es posible ejecutarlo directo desde la ventana para la orden actual:
+
+![Proceso](/assets/img/docs/distribution-management/dim-distribution-image28.png)
 
 ### ***__Generar picking y entregas desde orden de salida__***
 
