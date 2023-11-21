@@ -58,6 +58,10 @@ El proceso genera un lote de transacción financiera para cada factura procesada
 Si el término de pago de la factura tiene definido días de gracia, se considera esto para comparar con los días de vencido de la factura, y en caso que los días de vencido sean menores o  
 iguales a los días de gracia, entonces se genera el lote pero con importe en cero, y el informe de gasto no se genera.
 
+::: note
+Si el informe financiero tiene vinculado un lote de transacción financiera, entonces se asigna a la factura generada el tipo de documento correspondiente de "Nota de Débito" según la organización y grupo de impuestos del SDN (estos documentos Nota de débito no generan cálculo por mora).
+:::
+
 ![Condición de Pago](/assets/img/docs/balance-management/bam-default-image8.png)
 
 ![Lote de Transacción](/assets/img/docs/balance-management/bam-default-image9.png)
@@ -120,3 +124,11 @@ Se obtienen los días de vencido a partir de la fecha de vencimiento de la factu
 En la asignación indica que se trata de una asignación de nota de crédito, este tipo de asignación no es considerada en esta funcionalidad.
 
 ![Asignación](/assets/img/docs/balance-management/bam-default-image5.png)
+
+### Cálculo de Pagos Parciales
+
+Cuando la factura tiene más de una asignación, se considera los días de vencido de la línea de asignación, y no los del cabezal de la factura. Tambíen se hace un prorrateo para saber qué porcentaje de la factura se ha asignado en cada una de las asignaciones.
+
+::: note
+Los lotes de transacción financiera se generan según la cantidad de asignaciones que tenga la factura.
+:::

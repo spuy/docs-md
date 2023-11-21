@@ -92,3 +92,14 @@ Se debe definir el Producto y la Versión de lista de precios deseada. El precio
 Para generar el Servicio a facturar se deberá definir la Fecha y la actividad (Definir la misma que el producto para reportes Contables). La Fecha se recomienda definir el primer día del mes así cuando se generan las facturas se puede filtrar por todos los servicios con fecha 1ro del mes y así le aparecerá estos servicios también.
 
 ![Generar Concepto a Facturar](/assets/img/docs/sales-management/sam-education2.png)
+
+### Facturación Electrónica de servicios en cuotas recurrentes/no recurrentes (Bandeja CFE)
+
+Bandeja CFE audite toda la transacción. La ventana "Bandeja CFE" audita toda la transacción respecto al proceso de facturación electrónica.
+Se deberán primero importar todos los Informes de gasto que se desean facturar para luego generar el proceso de facturación masivamente.
+
+::: note
+Los Tipo de Documento de CFE se asignan automáticamente según el tipo de Documento de cada Socio del Negocio:
+RUT: Tipo de documento e-factura
+Cédula: Tipo de documento e-ticket
+:::

@@ -100,3 +100,11 @@ No, el proceso sólo considerará DxC con Cobros y DxP contra Pagos.
 
 Cuando se da el caso de que un estudiante con familiar Madre y Padre se les envía a ambos el estado de cuenta y uno de los dos envíos por mail falla; la manera de poder realizar un envío nuevamente sería desde el proceso de "Envío de Estado de Cuenta por Correo" filtrando por el Socio del Negocio (familiar) del Responsable de pago y marcando el check de "Impreso" = SI
 
+### Bandeja CFE (Generar Factura desde Conceptos)
+
+**¿Cómo se define el Tipo de documento CFE al momento de generar las facturas?**
+Los Tipo de Documento de CFE se asignan automáticamente según el tipo de Documento de cada Socio del Negocio:
+
+RUT: Tipo de documento e-factura
+
+Cédula: Tipo de documento e-ticket
