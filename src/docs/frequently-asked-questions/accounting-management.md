@@ -136,6 +136,11 @@ Se debe abrir el asiento desde el documento en cuestión y hacer click en el bot
 
 El Período de la fecha que dicho asiento fue contabilizado debe estar ABIERTO para permitir re-contabilizar.
 
+#### ¿Desde donde recontabilizo en el caso que haya fallado la contabilización por no existir tasa de cambio del día?
+
+Existen casos (no frecuentes) en los cuales la carga de la tasa automática falla por temas de comunicación u otros motivos. En estos casos hay documentos en estado completo que no se encuentren contabilizados debido a la falta de la tasa de cambio (operaciones en moneda extranjera).
+En estos casos la solución es ingresar en la ventana **Documentos sin Aplicar**, realizar la búsqueda del documento en cuestión por fecha y estado. Y desde allí realizar la recontabilización (botón azul debajo del campo Estado del documento).
+
 #### ¿Cómo se puede sortear los controles de Cuenta Controlada en los asientos diarios?
 
 Para poder sortear los controles de "Cuenta Controlada" en los asientos diarios en Lote se debe marcar en Y el check de Apertura/Cierre de Ejercicio. CUIDADO esto no se debe realizar sin verificación de un consultor.

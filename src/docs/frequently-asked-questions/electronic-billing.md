@@ -78,6 +78,11 @@ En caso de que se haya vencido, es muy probable que queden números de ese CAE s
   
 Y también cuando se vence, se tiene que adelantar la secuencia en Solop ERP para ese tipo de documento para que comience con la numeración del nuevo CAE que está mas adelante.
 
+En síntesis, el CAE se carga porque se termina la secuencia y sería transparente al cargarlo. O si se les vence el CAE, y cargan uno nuevo, la secuencia del cae viejo no la pueden seguir utilizando, porque pertenece al cae que se venció.
+Entonces se deben realizar 2 acciones:
+* Adelantar la Secuencia Definitiva del documento que envían con ese CAE en ADempiere
+* Anular las secuencias del cae viejo en InvoiCy para los números no utilizados.
+
 #### **Evaluar que hacer con el CAE si había un cae previo si se vence o termina**
 
 Solop ERP gestiona las secuencia de los documentos que envía a InvoiCy, entonces.

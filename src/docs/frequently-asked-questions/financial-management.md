@@ -105,6 +105,15 @@ Ejemplo de Informes Financieros
 * Informe por Centro de Costos Acumulado
 * Informe por Centro de Costos MES
 
+#### ¿Por qué motivo puede ocurrir que en el Balance comparativo mensual falten columnas de ciertos meses?
+
+De manera aleatoria puede ocurrir que al solicitar el mismo reporte en diferentes fechas quede guardada en memoria la búsqueda anterior y en la nueva búsqueda le falten columnas de meses.
+Para corregirlo debería bastar con una de las siguientes opciones:
+
+1. Refrescar directo el reporte desde el formato HTML
+2. Borrar Caché y volver a generar el reporte
+3. Salir y volver a ingresar al sistema
+
 #### ¿Cómo puedo emitir un balance mensual ?
 
 Los balances mensuales se generan desde la ventana “Informe financiero".
