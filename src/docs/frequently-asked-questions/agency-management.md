@@ -245,6 +245,11 @@ La Orden de Venta de Honorarios se generará automáticamente desde el Cálculo 
 
 Por lo tanto al generarse la Orden de venta Honorarios esta no discrimina por cantidad de cuotas de la Orden de venta que lo generó.
 
+#### ¿Por qué motivo se puede generar un Documento por cobrar vinculado a una orden de venta servicio con el Socio del negocio del Contrato y no con el Socio del negocio de la orden de venta?
+
+Este problema puede ocurrir debido a que el Contrato que se generó quedó con una nueva funcionalidad de "Socio del Negocio a Facturar" definido, esto aplica para permitir generar facturas de determinados contratos a diferentes Socios del Negocio.
+Para evitar que esto ocurra se agregó una configuración en la definición de las comisiones para que jamás permita que una comisión se facture al Socio del Negocio del Contrato. 
+
 ### ¿Cómo se define un Proveedor en un Producto?
 
 Para definir un Proveedor en un producto se debe ir a la ventana Producto / Pestaña Compras y definir el SDN a quien se compra este producto. es según este dato que se hace la búsqueda de los productos tan fácil desde una fase o línea de fase.

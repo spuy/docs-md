@@ -24,6 +24,10 @@ Dentro de cada entrada de morosidad se podrá ver en sus líneas cada uno de eso
 ![Entradas](/assets/img/docs/balance-management/bam-default19.png)
 
 El documento de Cálculo de Morosidad genera masivamente los reportes de Saldos Pendientes para cada uno de los Socios del negocio (Reporte que normalmente realiza el departamento de cuentas corrientes cliente por cliente) y a su vez lo agrega en un formato de impresión definido que se puede considerar como una “Carta de Morosidad” o estado de cuenta que se podrá enviar al cliente.  
+
+::: note
+Es posible configurar en el sistema si se excluirán o incluirán en el cálculo de morosidad los anticipos marcados con el check de "Anticipo".
+:::
   
 El envío de estas cartas de morosidad o estados de cuenta podrá ser realizado masivamente también gracias al proceso de “Envío de Estado de Cuenta Corriente”. Para el envío masivo es importante cómo se encuentren configurados los SDN (con casilla mail) y las familias (marcados como “envía email” aquellos familiares responsables).
 
