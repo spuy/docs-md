@@ -21,6 +21,11 @@ A partir de un Cálculo de Morosidad se generarán tantas entradas como Socios d
 En la entrada se podrá visualizar para cada Socio del Negocio, el importe total de lo adeudado así como también la cantidad de documentos pendientes. En la pestaña entradas se visualizan tantas líneas como Socios de negocio/familias se encuentren con deuda de acuerdo a los parámetros ingresados.  
 Dentro de cada entrada de morosidad se podrá ver en sus líneas cada uno de esos documentos que se encontró con saldo abierto y se podrá visualizar en cada uno de ellos, el número de documento así como también los Dïas de vencido y el importe pendiente.
 
+::: note
+si se marca el check "No Muestra Deuda" en el nivel de morosidad, se consideran las facturas no vencidas.
+Si los dias de vencido es menor a cero, y este check (No Muestra Deuda) NO se marcó, entonces no muestra la factura. Si está marcado entonces la factura se visualiza.
+:::
+
 ![Entradas](/assets/img/docs/balance-management/bam-default19.png)
 
 El documento de Cálculo de Morosidad genera masivamente los reportes de Saldos Pendientes para cada uno de los Socios del negocio (Reporte que normalmente realiza el departamento de cuentas corrientes cliente por cliente) y a su vez lo agrega en un formato de impresión definido que se puede considerar como una “Carta de Morosidad” o estado de cuenta que se podrá enviar al cliente.  

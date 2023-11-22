@@ -53,6 +53,10 @@ Podremos acceder a la misma desde la ventana Cálculo de Comisiones mediante el 
 
 Esta se genera en una Orden de Venta distinta de la Orden de Venta de la Inversión del Cliente.
 
+::: note
+Se marca como permite facturar = SI la Orden de Venta Honorarios cuando se configura permite facturar = Si en la orden de venta inversión (que le dio origen).
+:::
+
 ![Honorarios](/assets/img/docs/service-management/sem-agency2.png)
 
 ### **Definición de Honorarios**
