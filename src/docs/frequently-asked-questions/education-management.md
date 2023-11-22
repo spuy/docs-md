@@ -108,3 +108,19 @@ Los Tipo de Documento de CFE se asignan automáticamente según el tipo de Docum
 RUT: Tipo de documento e-factura
 
 Cédula: Tipo de documento e-ticket
+
+### Estado de Cuenta Educación (descuento en la misma línea)
+
+ la columna "Descuento" (en el PDF de estado de cuenta educación) muestra el importe de descuento de línea de DxC, el cual es el resultado de la siguiente operación:
+
+(Precio de Lista - Precio ingresado) * Cantidad
+
+### ¿Por qué motivo puede ocurrir que en un estado de cuenta corriente de un cliente se muestren pendientes comprobantes que ya fueron pagados?
+
+Una posibilidad es que los comprobantes sean en una determinada moneda (UYU) y que el cobro se haya realizado en otra moneda (dolar). Y que se haya generado el pago/cobro definiendo la Tasa de Cambio acordada como Texto en el campo Descripción y no desde la ventana "Recibo de cobro" donde se define que un documento es "Multimoneda" y se puede definir una tasa de cambio específica sobre la cuál se realicen la asignación con las facturas en pesos.
+
+Solución:
+
+**Cuándo se muestran documentos en diferentes monedas en el estado de cuenta corriente?**
+
+La manera de que se puedan ver Pagos o Cobros en una moneda diferente a la que se obtiene un reporte de "Estado de Cuenta Corriente" es que los mismos sean generados desde el documento "Recibo de Cobro" o "Recibo de Pago" y tengan marcado que es un documento "multimoneda". De esta manera se solicitará también que se defina en dicho documento la tasa de cambio que se desea considerar para hacer la asignación contra los documentos en una moneda diferente al cobro. Esta tasa de cambio será la que se considerará para realizar la conversión de este documento y así mostrarlo en un estado de cuenta corriente en la moneda de asignación y no la moneda original del Pago.

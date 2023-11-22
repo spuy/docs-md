@@ -504,3 +504,9 @@ Pedimos un listado de saldos pendientes a la fecha 31/12/2018 (ejemplo) y lo est
 #### Cómo me doy cuenta si una Consulta de Asignación fue generada manualemente desde la Forma “Asignación de Pagos”?
 
 Siempre muestra el nombre del Usuario en el campo “Descripción”
+
+#### ¿Por qué motivo puede darse el caso de dejar de recibir facturas electrónicamente?
+
+Es posible que en el Panel de DGI no actualizaron el correo de comunicación entre empresas, o sea, que hayan cambiado la casilla de mail para el sistema y no se haya cambiado en DGI.
+
+Para que los Emisores Electrónicos puedan enviar los CFEs por correo a La Organización que corresponda como Receptor Electrónico, deben actualizar esta información en el panel de DGI. 

@@ -79,6 +79,24 @@ En esta ventana, el Botón "Set Project Type" sirve para definir el Tipo de Proy
 
 Lo que determina que aparezca o no la linea de orden para facturar en el proceso Generar factura desde linea de orden son las cantidades facturadas de la orden. Si ya se encuentran todas sus cantidades facturadas ésta no figurará. Por el contrario, se mostrarán cuando presente un pendiente de facturación.
 
+### Errores frecuentes en Proyectos
+
+#### **Error 1: No me aparece el Cliente para elegir en el proyecto:**
+
+**Solución:**
+
+Un Proyecto se podrá generar sólo a un Cliente que tenga un Contrato Activo en la Organización que estoy logueado.
+
+Además se deberá verificar que el contrato que se obtenga para ese Cliente tenga definido un Sello Origen en Contrato en cuestión para el Tipo de Proyecto que se esté generando (Medios, Creativo, Digital, RRPP).
+
+#### **Error 2: No se encuentra Sello Origen**
+
+**Solución:**
+
+Cuando esto sucede es probable que el contrato del proyecto en cuestión no tenga definido un sello origen para este Tipo de empresa, por lo que deberemos navegar al Contrato y en la pestaña Partes del contrato crear el sello origen correspondiente.
+
+inida mismo en la Ventana de Proyecto de Agencia. En ella podrán ver de manera resumida todos los datos referente a una Orden de Venta que necesitan.
+
 #### ¿Por qué razón puede ser que un Cálculo de comisión solo haya considerado la línea de la orden que está facturada?
 
 Si al generar el Cálculo luego de haber facturado genera este error justamente porque encuentra solo lo facturado. En estos casos lo mejor seria que esto se corrija a mano.
@@ -161,6 +179,8 @@ Se define según el Tipo de Documento. En el Tipo de documento debe tener defini
 Las Ordenes de Venta deben tener seteado "HONORARIOS"
 
 Las órdenes de Compra deben tener configurado "Comisiones"
+
+
 
 #### ¿Por que motivo puede NO VISUALIZARSE una Orden de Venta para Facturar?
 
