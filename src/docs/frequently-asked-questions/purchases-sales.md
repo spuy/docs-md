@@ -181,6 +181,14 @@ Cuando el usuario selecciona una Lista de precios, cuya fecha de validez es post
 Para que una lista de precios sea correctamente considerada por un Documento la misma debe tener una Fecha (Válido desde) Desde en la Versión Activa igual o mayor al día del Documento.
 :::
 
+#### ¿Existe alguna rutina automática que actualice el precio de la versión de lista de precio?
+
+Mediante la activación de una configuración de sistema se obtiene la versión de lista vigente según la fecha de factura (DateInvoiced) o fecha de orden (DateOrdered) según corresponda.
+
+Si para una línea se encuentra que el precio es distinto, respecto del precio en la versión vigente, entonces se actualiza el precio en la versión.
+
+Además, en el campo "Comentarios" en la pestaña de "Precio de Producto", se guardan los datos relacionados a la modificación de ese precio.
+
 ### FAQ Nota de crédito manual.
 
 Error: Monto total asignado de facturas no puede ser mayor al monto de la nota de crédito

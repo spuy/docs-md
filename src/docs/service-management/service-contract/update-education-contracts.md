@@ -79,6 +79,27 @@ Los nuevos contratos quedan disponibles para continuar con los siguientes pasos 
 
 ![Actualización de Precio y Generación de cuotas de Contrato](/assets/img/docs/service-management/sem-update5.png)
 
+### Ventana Motivo de Cancelación del Contrato
+
+En esta ventana se deben definir todos los motivos a utilizar para cerrar un contrato.
+
+El motivo "Egreso" presenta marcado el check "Motivo Final", para que sea el motivo que el proceso tome por defecto para cerrar un contrato cuyo producto no tiene un sustituto.
+
+![Motivo Egreso](/assets/img/docs/service-management/sem-image1.png)
+
+El proceso de "Actualización de Contratos" presenta el campo "Acción", según este campo se despliegan los demás campos necesarios. El mismo despliega las siguientes opciones:
+
+Cerrar Contrato: se debe seleccionar un motivo, y el contrato se cierra y se asigna el motivo elegido al contrato
+Cerrar y Crear Nuevo Contrato: el contrato se cierra y se crea uno nuevo, pero en caso de que el producto del contrato a cerrar no tenga un sustituto, entonces el contrato se cierra con el motivo "Egreso" (motivo Final), y no se crea un nuevo contrato
+
+![Motivo Egreso](/assets/img/docs/service-management/sem-image2.png)
+
+![Motivo Egreso](/assets/img/docs/service-management/sem-image3.png)
+
+Motivo en ventana de Contrato:
+
+![Motivo Egreso](/assets/img/docs/service-management/sem-image4.png)
+
 ### Ejemplo de Actualización de Contrato por cambio de año:
 
 ![Actualización de Contrato](/assets/img/docs/service-management/sem-update-contract.mp4)
