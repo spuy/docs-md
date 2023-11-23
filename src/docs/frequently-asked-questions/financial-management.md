@@ -209,6 +209,14 @@ no se puede reactivar y cambiar la organización de una orden de venta reactivan
 3. Complear la orden (de esta manera no habrá más ninguna Cantidad Reservada)
 4. Reactivar la orden y ahora si cambiar la organización y poner la línea con cantidad y el precio que deseen.
 
+#### ¿ Cuál es el comportamiento del sistema cuando anulo un cobro que se encuentra en una línea de conciliación?
+
+cuando se anula un pago/cobro que se encuentra en una conciliación bancaria que no está completa, tanto el pago/cobro anulado como el reversado quedarán con el check de "Conciliado" = N
+
+Si la conciliación está completa, el pago/cobro anulado quedará con el check "Conciliado" = Y, y el reversado con "Conciliado" = N
+
+Este comportamiento es el deseado, debido a que de no realizarse de esta manera (o sea, si se marcaran como Conciliado = Y) el saldo de la conciliación quedaría mal a menos que se borre la línea manualmente.
+
 #### ¿Cómo se puede sortear los controles de Cuenta Controlada en los asientos diarios?
 
 Para poder sortear los controles de "Cuenta Controlada" en los asientos diarios en Lote se debe marcar en Y el check de Apertura/Cierre de Ejercicio. CUIDADO esto no se debe realizar sin verificación de un consultor.
