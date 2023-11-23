@@ -247,3 +247,7 @@ Si el Pago tiene asignado un "Cargo" no se visualizará en el estado de cuenta c
 #### Por qué motivo un Documento por pagar genera comisión solo por una de sus líneas y no genera comisión por las demás líneas?
 
 No está soportado por el sistema que un Documento por Pagar se vincule a más de una Orden de Compra. La relación es de 1 a 1 (generar una orden de compra ppr cada documento por pagar). Otra opción para resolverlo sería generar diferentes líneas en una misma orden de compra
+
+#### ¿Por qué motivo pueden mostrarse saldos pendientes en documentos por pagar y que no puedan ajustarse en el proceso de Dar de baja CxC y CxP?
+
+El sistema antes consideraba una tolerancia de +- 0.99 para marcar como asignada una factura, lo que hacía que a las facturas se les marque el check de PAGADO cuando existe un saldo abierto que entra en dicha tolerancia. Esta tolerancia se quitó, para que las facturas queden con el check de PAGADO = NO, y puedan ser consideradas por este proceso (Dar de baja CxC y CxP). Por lo cual estos casos solo pueden darse en documentos antiguos.

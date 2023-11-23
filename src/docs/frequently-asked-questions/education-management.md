@@ -124,3 +124,19 @@ Solución:
 **Cuándo se muestran documentos en diferentes monedas en el estado de cuenta corriente?**
 
 La manera de que se puedan ver Pagos o Cobros en una moneda diferente a la que se obtiene un reporte de "Estado de Cuenta Corriente" es que los mismos sean generados desde el documento "Recibo de Cobro" o "Recibo de Pago" y tengan marcado que es un documento "multimoneda". De esta manera se solicitará también que se defina en dicho documento la tasa de cambio que se desea considerar para hacer la asignación contra los documentos en una moneda diferente al cobro. Esta tasa de cambio será la que se considerará para realizar la conversión de este documento y así mostrarlo en un estado de cuenta corriente en la moneda de asignación y no la moneda original del Pago.
+
+### Reportes
+
+#### ¿Cómo podemos visualizar fácilmente los nuevos contratos año a año para obtener del sistema cuantos nuevos alumnos tenemos?
+
+Para obtener esta información en el reporte "Detalle de Lineas de Contrato" existe (como filtro y columna) el campo "Fecha de Ingreso". El mismo corresponde a la menor fecha de inicio de todos los contratos del alumno, en cualquier estado que se encuentren los mismos.
+
+#### ¿Desde dónde se puede imprimir el "Estado de cuenta corriente"?
+
+Existe un proceso denominado "Imprimir Estado de Cuenta Corriente", a ejecutarse desde la entrada de morosidad (en cálculo de morosidad), el cual ejecuta un PDF u otro, según el nivel de morosidad.
+
+El nivel de morosidad tiene asignado el formato de impresión correspondiente con sus dos opciones:
+
+Estado de Cuenta Corriente cuando el nivel de morosidad es Estado de Cuenta.
+
+Resumen de Saldos Pendientes cuando el nivel de morisidad es Deuda Atrasada.

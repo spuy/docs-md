@@ -46,3 +46,8 @@ Si se emite el reporte desde la fecha desde pero para atrás debería dar el mis
 ### ¿Qué es un split?
 
 Split es un proceso masivo de reparto de ingresos en cada Contrato según la definición de Split que tenga. En el proceso de Split se generan cálculos de Comisión de tipo “Split” y a partir de ellas se generan Órdenes de Compra y Venta en las organizaciones que corresponden.
+
+### cuando creamos pagos desde el botón procesos y se pagan gastos sin facturas qué debemos elegir en el campo proveedor?
+
+Si se selecciona la opción en el Tipo de Transacción: Cargo Bancario, el pago será generado con el cargo seleccionado en el campo "Cargo" pero le definirá siempre el Socio del Negocio definido en el Banco de la Cuenta Bancaria desde donde se genera, justamente para que no tengan que elegir el Socio del Negocio que corresponde.
+Opcionalmente la lista que se desplega como "Cargo" cuando selecciona la opción de Cargo Bancario también puede ser filtrada para que sólo apareszcan los cargos definidos como Cargos Bancarios.
