@@ -107,3 +107,12 @@ Es un registro de notificaciones generados dentro del sistema y con sus diferent
 Genera auditoría o historial de envíos de notificación con sus correspondientes estados y descripción de error (en el caso de no haber sido enviados).
 
 ![Recipiente](/assets/img/docs/balance-management/bam-default22.png)
+
+#### Proceso Empaquetar Estados de Cuenta
+
+Este proceso genera la impresión de todas las entradas en pdf y las empaqueta en el cabezal del Cálculo de Morosidad como zip, queda adjunto al registro para descargar.
+Los registros adjuntos no se borran, se van acumulando.
+Esto permite descargar todos los Estados de Cuenta Educación generados en un Cálculo de Morosidad desde una sola acción.
+
+![Empaquetar Estados de Cuenta](/assets/img/docs/balance-management/bam-default23.png)
+

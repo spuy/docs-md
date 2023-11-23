@@ -180,8 +180,6 @@ Las Ordenes de Venta deben tener seteado "HONORARIOS"
 
 Las órdenes de Compra deben tener configurado "Comisiones"
 
-
-
 #### ¿Por que motivo puede NO VISUALIZARSE una Orden de Venta para Facturar?
 
 Puede ser por 3 motivos:
@@ -395,3 +393,28 @@ El Proyecto se referenciará en la factura siempre que el criterio de agrupació
 Por ejemplo se puede tener N proyectos por Contrato pero solo Un Contrato por cada proyecto. Por lo que si se agrupa por Contrato, como las lineas de orden pueden ser de varios proyectos, al generar la factura no establece el campo de Proyecto en el cabezal.
 
 Respecto al Tipo de documento, el sistema controlará si el Socio del Negocio a quien se está facturando tiene definido un RUT o una Cédula y le generará una e-Factura o un e-ticket según corresponda.
+
+### ¿Cuál es la diferencia entre el Listado de Órdenes y el Listado de Órdenes completo?
+
+* El listado de órdenes muestra las líneas de las Órdenes, tanto Órdenes de Venta como Órdenes de Compra.
+indicando Transacción de Venta: SI/NO
+Este informe no muestra las órdenes de inversión, honorarios, comisiones.
+
+* El listado de órdenes completo muestra en detalle la totalidad de líneas de órdenes, incluyendo las de inversión, honorarios y comisiones. También se muestran datos relacionados al reconocimiento de la orden, para los casos en que la línea tenga plan de reconocimento.
+
+El reporte obtiene la tasa de cambio a utilizar de tipo AVERAGE, para convertir de USD a UYU, según la fecha de ejecución del reporte.
+
+Se consideran órdenes cuyo tipo de documento no sea de nombre "Descuento de Venta Paquete".
+
+Además, se considera órdenes en estado COMPLETO cuando el tipo de documento de la orden se encuentra definido en el campo "Tipo de documento para la orden", en una definición de comisión activa, y su base del cálculo es "Honorarios" o "Comisión". Si esto no se cumple, entonces se considera el estado COMPLETO o CERRADO.
+
+Filtros Estado:
+
+Pendiente de Facturar: órdenes que están en Estado Completo o Cerrado con "Permite Facturar = Y" y "Facturado completamente = NO".
+
+Pendiente de OK para Facturar: órdenes que estén en Estado Completo o Cerrado con el check de "Permite Facturar" = NO, y que el tipo de documento de la orden tenga definido el campo "Tipo de documento para la factura" y que la orden no tenga marcado el check "Factura Directa a Cliente".
+
+Ordenes Entregadas no Facturadas: líneas de orden sin cantidad disponible para entregar y con cantidad disponible para facturar, y que el tipo de documento de la orden tenga definido el campo "Tipo de documento para la factura".
+
+Ordenes Facturadas no Entregadas: líneas de orden con cantidad disponible para entregar y sin cantidad disponible para facturar.
+
