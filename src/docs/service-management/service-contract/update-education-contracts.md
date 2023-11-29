@@ -92,6 +92,10 @@ El proceso de "Actualización de Contratos" presenta el campo "Acción", según 
 Cerrar Contrato: se debe seleccionar un motivo, y el contrato se cierra y se asigna el motivo elegido al contrato
 Cerrar y Crear Nuevo Contrato: el contrato se cierra y se crea uno nuevo, pero en caso de que el producto del contrato a cerrar no tenga un sustituto, entonces el contrato se cierra con el motivo "Egreso" (motivo Final), y no se crea un nuevo contrato
 
+::: note
+al cerrar, anular o completar un contrato se ejecuta el proceso de actualización de hijos.
+:::
+
 ![Motivo Egreso](/assets/img/docs/service-management/sem-image2.png)
 
 ![Motivo Egreso](/assets/img/docs/service-management/sem-image3.png)
