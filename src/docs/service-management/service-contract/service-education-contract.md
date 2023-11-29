@@ -24,6 +24,10 @@ Este se generará definiendo en Socio del Negocio al Alumno y en el campo “Res
 
 **Familia:** Se deberá definir la Familia a la que pertenece el Estudiante. Este dato es utilizado para definir el “Responsable de Pago” y también para la definición de los Descuentos por Hijos.
 
+::: note
+El proceso de actualización de cantidad de hijos, en cabezal de Familia, considera que el hijo tenga un contrato en estado COMPLETO.
+:::
+
 **Curso:** Se podrá identificar el Curso al que pertenece el Alumno. Este dato podrá irse actualizando año a año a medida que se avance en el curso.
 
 ### **Fechas del Contrato**

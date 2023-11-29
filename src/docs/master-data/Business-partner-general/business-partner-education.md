@@ -44,6 +44,10 @@ Ejemplo de relleno de cabezal para un Estudiante:
 * Lista de Precios: Venta pesos para Estudiantes
 * Es Cliente: SI
 
+::: note
+ Por configurador del sistema es posible indicar si al guardar un Socio del Negocio se debe asignar su número de identificación al código del Socio del Negocio.
+:::
+
 ### **Pestaña Localización**
 
 Es obligatorio ingresar la localización (domicilio) en un Socio de Negocio. Ingrese dónde está marcado.

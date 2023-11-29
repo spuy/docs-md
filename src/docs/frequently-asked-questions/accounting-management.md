@@ -145,6 +145,15 @@ En estos casos la solución es ingresar en la ventana **Documentos sin Aplicar**
 
 Para poder sortear los controles de "Cuenta Controlada" en los asientos diarios en Lote se debe marcar en Y el check de Apertura/Cierre de Ejercicio. CUIDADO esto no se debe realizar sin verificación de un consultor.
 
+#### ¿Como evitar que cuentas integrales generen diferencia de cambio?
+
+Deben presentar las siguientes condiciones:
+
+* La cuenta contable debe tener marcado el check "Cuenta en moneda extranjera"
+* El tipo de cuenta deber ser Activo, Pasivo o Capital de Accionistas
+* Moneda del esquema debe ser distinta a la del asiento contable
+* Fecha contable de asientos debe ser menor o igual a la fecha contable seleccionada
+
 #### ¿Qué es un split?
 
 Split es un proceso masivo de reparto de ingresos en cada Contrato según la definición de Split que tenga. En el proceso de Split se generan cálculos de Comisión de tipo “Split” y a partir de ellas se generan Órdenes de Compra y Venta en las organizaciones que corresponden.
@@ -158,3 +167,8 @@ El asiento de reconocimiento se genera desde un proceso de Reconocimiento masivo
 En todo caso, se tendría que también reactivar, modificar el contrato en el Asiento (Lote de Asiento Diario) y modificar ahi el Contrato de servicio. De todos modos esto es riesgoso ya que se estaría haciendo muy manual y uno se podría olvidar de algo.
 
 Lo mejor en este caso sería realizar el ajuste de un reconocimento generando el Documento NEGATIVO que se desea corregir (IGUAL AL QUE SE GENERO MAL) y generar uno nuevo con el dato correcto.
+
+#### ¿Es posible generar el cierre de ejercicio cuentas integrales con fecha diferente al 31/12?
+
+Existen organizaciones que tienen manejan una fecha distinta de cierre (por ejemplo 31/03). 
+Para estos casos en los cuales se generará el cierre de 3 meses de un año y 9 de un año diferente, se debe tildar el check "Considerar Salto Total".

@@ -79,7 +79,7 @@ En esta ventana, el Botón "Set Project Type" sirve para definir el Tipo de Proy
 
 Lo que determina que aparezca o no la linea de orden para facturar en el proceso Generar factura desde linea de orden son las cantidades facturadas de la orden. Si ya se encuentran todas sus cantidades facturadas ésta no figurará. Por el contrario, se mostrarán cuando presente un pendiente de facturación.
 
-### Errores frecuentes en Proyectos
+###  Proyectos
 
 #### **Error 1: No me aparece el Cliente para elegir en el proyecto:**
 
