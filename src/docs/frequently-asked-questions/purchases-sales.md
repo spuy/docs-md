@@ -34,6 +34,10 @@ No se muestran en el reporte Saldos Pendientes justamente porque este reporte mu
 
 El campo “Diferencia Monto” representa el monto resultante de la sumatoria del Monto total de la apertura más el Total cobrado menos el Total de los retiros.
 
+El proceso de Cierre del Punto de venta permite generar un cierre pese a que no cierre la caja en 0, sin definir la diferencia de quiebre de caja obligatoriamente.
+El parámetro "Diferencia Monto" del proceso de cierre de caja, muestra el resultado de restar el monto total de cobros al total de importes de OV, para el POS en cuestión.
+El mencionado parámetro parámetero se encuentra editable, para poder digitar manualmente el monto de diferencia, quedando de esa forma correctamente la línea de la conciliación.
+
 ### Documentos por Cobrar
 
 **Cómo realizar un pago:**

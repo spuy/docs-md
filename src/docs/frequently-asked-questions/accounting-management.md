@@ -130,6 +130,10 @@ con cheques diferidos aparecerán en la parte inferior de la pantalla, junto con
 
 facturas, ya que éstos funcionan como una Nota de crédito.
 
+#### ¿Que registros se consideran en el reporte de Pagos sin Conciliar?
+
+Solamente considera pagos "procesados" (para que se vean sólo en estado "Completo, Anulado, Cerrado o Reversado"), y que además el banco de la cuenta bancaria del pago sea "Banco Propio".
+
 #### ¿Cómo hago para re contabilizar un asiento?
 
 Se debe abrir el asiento desde el documento en cuestión y hacer click en el botón “Re-Contabilizar” ubicado abajo a la izquierda. 
