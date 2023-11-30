@@ -21,6 +21,10 @@ Para conocer mejor este procedimiento de la selección de pagos Solop ERP ofrece
 - Registro desde Nómina
 - Registro desde Selección de Pago
 
+::: note
+Por configurador del sistema se puede definir si se utiliza selección de pagos con documentos de otras organizaciones.
+:::
+
 ### Registro desde Orden
 
 En muchas ocasiones se necesitan realizar anticipos a proveedores, una vez que se concrete la compra dependiendo de las reglas del negocio con la que cuente la compañía y el proveedor se realizan anticipos, los anticipos son aquellos pagos que se generan antes de una factura, por ello como ya existe una compra a un proveedor y se requiere aplicar un anticipo; para aplicar un anticipo a proveedores en Solop ERP y realizar una **Orden de Pago** a través de una **Orden de Compra** se deben aplicar los siguientes pasos.
@@ -604,3 +608,7 @@ Al aplicar esta acción **Completar** el documento pasará a esta completo y est
 Es muy importante tener en cuenta que todo documento transaccional una vez se culmine con el llenado de los datos debe ser completado, para que Solop ERP tome como válido los datos cargados en el documento.
 
 Hasta este punto llegaría el registro y la definición de los documentos que serán cancelados a través de una **Selección de Pago**, este paso a pesar de que se complete no garantiza que los pagos se han generados, para poder generar los pagos correspondientes a cada uno de los documentos asociados se necesita completar el procedimiento Registro de Imprimir / Exportar Pagos
+
+::: note
+Por configurador del sistema se puede definir si la asignación de pagos generada, por el proceso de "Asignación de Pagos", deberá tener la fecha del día o según los documentos asignados.
+:::

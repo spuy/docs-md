@@ -48,6 +48,10 @@ A medida que se van seleccionando las órdenes a entregar en la parte superior, 
 
 Dentro de esas líneas, si se utliza el inventario correctamente, el ERP realiza una comparación entre la cantidad a entregar y la cantidad en existencia.
 
+::: note
+Desde el proceso Generar Orden de Salida desde OV se puede visualizar la columna Cantidad Existencia, que muestra la cantidad en existencia para el producto y el almacén de la Orden de Venta.
+:::
+
 También es posible configurar la secuencia de carga (orden en la cual se realizarán las entregas).
 
 En el extremos inferior de la ventana existe una sección (resumen de inventario por producto) donde es posible visualizar en qué almacén se encuentra la cantidad en existencia por cada producto.
