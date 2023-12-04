@@ -15,7 +15,7 @@ Adicional a ello, crea un registro en dicha ventana **Cierre de Caja**, con la c
 Para mejor referencia de lo explicado anteriormente, se presenta a continuación el diagrama del proceso **Apertura de Caja POS**, con la finalidad dar a conocer el comportamiento de Solop ERP ante dicho proceso.
 
 ::: note
-Recuerde que este proceso se debe realizar antes de iniciar las ventas del día. Adicional a ello, es un proceso necesario al momento del cierre de caja.
+Recuerde que este proceso se debe realizar antes de iniciar las ventas del día. Es un proceso necesario al momento del cierre de caja (la apertura genera el registro de cierre de caja con el primer movimiento por el ingreso del dinero).
 :::
 
 ![Campo](/assets/img/docs/pdv-management/pdm-pdv-image125.png)

@@ -263,3 +263,13 @@ No está soportado por el sistema que un Documento por Pagar se vincule a más d
 #### ¿Por qué motivo pueden mostrarse saldos pendientes en documentos por pagar y que no puedan ajustarse en el proceso de Dar de baja CxC y CxP?
 
 El sistema antes consideraba una tolerancia de +- 0.99 para marcar como asignada una factura, lo que hacía que a las facturas se les marque el check de PAGADO cuando existe un saldo abierto que entra en dicha tolerancia. Esta tolerancia se quitó, para que las facturas queden con el check de PAGADO = NO, y puedan ser consideradas por este proceso (Dar de baja CxC y CxP). Por lo cual estos casos solo pueden darse en documentos antiguos.
+
+##### ¿Existe algún control sobre las líneas de factura en el proceso de Importar Documentos CxC/CxP?
+
+Posee un control antes de ejecutarse la acción sobre cada factura (dejar Completo o En Proceso), que verifica si la factura tiene la cantidad de líneas que debe tener (se obtiene la cantidad de líneas desde la tabla de importación, para el mismo número. de documento, Socio del Negocio y tipo de documento).
+
+Si la cantidad de líneas de la factura no es la que debe tener, entonces se borra la factura, y al final del proceso se muestra el contador de facturas borradas por error en sus líneas.
+
+##### ¿Dónde se define el cargo de una factura importada?
+
+la obtención del cargo para el Socio del Negocio se realiza en el proceso "Importar CFE Recibidos".

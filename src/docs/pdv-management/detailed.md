@@ -92,6 +92,10 @@ Un documento de pago asociando en el campo **Cuenta**, la caja POS desde la cual
 
 De igual manera crea un documento de cobro asociando en el campo **Cuenta**, la caja adiministrativa seleccionada en el campo **Cuenta Bancaria** del proceso **Retiro de Caja (Detallado)**. Dicho documento se puede visualizar en la ventana **Caja**.
 
+::: note
+En el caso que el punto de venta haya tenido transacciones tanto en efectivo como con tarjeta, se deberán realizar dos retiros, uno por cada método de pago (uno por el efectivo y uno por las tarjetas).
+:::
+
 ## Consulta de Pago y Cobro Generados en Caja
 
 Ubique los registros creados por el retiro de fondos en la ventana **Caja**, con ayuda del número de documento ingresado en el campo **No. del Documento**, de la ventana **Retiro de Caja (Detallado)**.
@@ -104,8 +108,12 @@ Seleccione el icono **Próximo Registro**, ubicado en la barra de herramientas p
 
 ## Consultar Registro en Cierre de Caja
 
-Cada forma de pago y moneda por la que se realiza un retiro de fondos, se genera un documento de egreso y uno de ingreso en la ventana **Caja**. Por cada documento generado se crea una línea con el mismo asociado, en la pestaña **Línea de Cierre de Caja**, de la ventana **Cierre de Caja** correspondiente a los registros creados en estado \*\*Borrador al realizar la apertura de caja.
+Cada forma de pago y moneda por la que se realiza un retiro de fondos, se genera un documento de egreso y uno de ingreso en la ventana **Caja**. Por cada documento generado se crea una línea con el mismo asociado, en la pestaña **Línea de Cierre de Caja**, de la ventana **Cierre de Caja** correspondiente a los registros creados en estado Borrador al realizar la apertura de caja.
 
 Registro de **Caja Administrativa** en la ventana **Cierre de Caja**.
 
 Registro de **Caja 01** en la ventana **Cierre de Caja**.
+
+::: note
+En el reporte Detalles de Caja es posible visualizar los ingresos de un punto de venta por sus diferentes métodos de pago (seleccionando los fitros fecha, cuenta del Punto de venta y Estado de Documento COMPLETO) y de esa forma tener la posibilidad de analizar el caso ante una posible diferencia de caja.
+:::
