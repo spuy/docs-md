@@ -15,13 +15,13 @@ El presente material elaborado por Solop ERP, pretende ofrecerle una explicació
 
 Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Materiales**, luego seleccione la carpeta **Reglas de Gestión de Materiales**, por último seleccione la ventana **Almacén y Ubicaciones**.
 
-![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-image229.png)
+![Menú](/assets/img/docs/master-data/mad-master-image277.png)
 
 Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana **Almacén y Ubicaciones**, con los diferentes registros de almacenes creados en Solop ERP con sus respectivas ubicaciones.
 
-![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-image230.png)
+![Ventana Almacén](/assets/img/docs/master-data/mad-master-image278.png)
 
 Imagen 2. Ventana Almacén y Ubicaciones
 
@@ -53,7 +53,7 @@ Seleccione el icono **Guardar Cambios**, para guardar el registro de los campos 
 
 Seleccione del lado izquierdo de la ventana **Almacén y Ubicaciones**, la pestaña **Ubicación** y proceda al llenado de los campos correspondientes.
 
-![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-image241.png)
+![Pestaña ubicación](/assets/img/docs/master-data/mad-master-image279.png)
 
 Imagen 3. Pestaña Ubicación
 
