@@ -20,7 +20,7 @@ Un Socio del Negocio corresponde a una entidad con la que se hacen negocios. Hay
 
 En la vertical de Educación tanto el Estudiante como su Responsable de Pago son considerados Socios del Negocio.
 
-![Socio del Negocio](/assets/img/docs/master-data/mad-education1.png)
+![Socio del Negocio](/assets/img/docs/master-data/mad-education4.png)
 
 Grupo de Socio del Negocio (Campo)
 
@@ -58,7 +58,7 @@ La Familia se crea como una agrupación donde dentro de la misma se podrán enco
 
 Los Vínculos podrán ser parametrizados según sea necesario.
 
-![Familia](/assets/img/docs/master-data/mad-education2.png)
+![Familia](/assets/img/docs/master-data/mad-education5.png)
 
 **Responsable de Pago:**
 
@@ -93,7 +93,7 @@ Para crear una nueva Familia se deberá seleccionar:
 
 Puede ingresar también los Miembros de la Familia desde el Contrato de Servicios, posicionándose en Alumno, haciendo click derecho y seleccionando Registro nuevo.
 
-![Miembros](/assets/img/docs/master-data/mad-education3.png)
+![Miembros](/assets/img/docs/master-data/mad-education6.png)
 
  ### **Definir la cantidad de Hermanos en la Familia:**
 
@@ -116,10 +116,10 @@ En ese momento se actualizará automáticamente en la Ventana Familia el Campo �
 
 ## **Documentos compartidos entre Organizaciones**
 
-Cuando un Documento deba ser compartido entre diferentes Organizaciones se deberán crear con Organización “ \* ”
+Cuando un Documento deba ser compartido entre diferentes Organizaciones se deberán crear con Organización “ * ”
 
 Los Productos en la Vertical de Educación normalmente son comunes entre todas las Organizaciones, por lo que se deben definir en la organización \* .
 
 Los Estudiantes sin embargo normalmente no son compartidos entre las organizaciones así que los Socios del Negocio de Estudiantes así como sus Contrato de Servicios deberán ser creados siempre con la Organización que corresponda.
 
-Los Proveedores y Empleados que puedan ser Compartidos entre las Organizaciones si podrían ser creados con la Organización “ \* ” en caso que se deseen compartir entre todas las Organizaciones.
+Los Proveedores y Empleados que puedan ser Compartidos entre las Organizaciones si podrían ser creados con la Organización “ * ” en caso que se deseen compartir entre todas las Organizaciones.
