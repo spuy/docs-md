@@ -284,7 +284,7 @@ Luego de culminar el procedimieto de registro de socio del negocio, seleccione l
 
 Esta pestaña le indica a Solop ERP si el socio del negocio que se esta registrando es un proveedor
 
-![Pestaña Proveedor](/assets/img/docs/master-data/mad-master-proveedor.png)
+![Pestaña Proveedor](/assets/img/docs/master-data/mad-master-proveedor1.png)
 
 Imagen 1. Pestaña Proveedor
 
@@ -299,10 +299,6 @@ Seleccione el checklist **Proveedor** para habilitar en Solop ERP el socio del n
 De no ser tildado el checklist **Proveedor**, Solop ERP no tomará el socio del negocio como proveedor.
 
 Al tildar el checklist **Proveedor** podrá apreciar un grupo de campos necesarios para la compra de productos al mismo, dichos campos no son obligatorios ya que pueden ser definidos en el documento **Orden de Compra** al momento de su elaboración.
-
-![Grupo de Campos Generados por el Checklist Proveedor](/assets/img/docs/master-data/mad-master-checklist-2.png)
-
-Imagen 3. Grupo de Campos Generados por el Checklist Proveedor
 
 El campo **Regla de Pago** establece la regla de pago definitiva para las compras al socio del negocio proveedor que se esta registrando, para este ejemplo la regla de pago utilizada es **A Crédito**.
 
@@ -320,7 +316,7 @@ En esta pestaña se registran los datos bancarios del socio del negocio proveedo
 
 Seleccione la pestaña **Cuenta Bancaria** que se encuentra ubicada del lado izquierdo de la ventana socio del negocio. Por defecto se encuentra tildado el checklist **Activo**.
 
-![Pestaña Cuenta Bancaria](/assets/img/docs/master-data/mad-master-count.png)
+![Pestaña Cuenta Bancaria](/assets/img/docs/master-data/mad-master-count1.png)
 
 Imagen 9. Pestaña Cuenta Bancaria
 
@@ -348,7 +344,7 @@ En el campo **Banco** seleccione el banco a registrar con ayuda del icono identi
 
 A continuación visualizará la siguiente ventana con los diferentes bancos, dónde debe seleccionar el banco que posee el socio del negocio proveedor y la opción **OK** para cargar los datos a la ventana.
 
-![Ventana Bancos](/assets/img/docs/master-data/mad-master-windows.png)
+![Ventana Bancos](/assets/img/docs/master-data/mad-master-windows1.png)
 
 Imagen 10. Ventana Bancos
 
@@ -364,18 +360,19 @@ La localización de un socio del negocio es muy importante por diferentes motivo
 
 Seleccione la pestaña **Localización** que se encuentra ubicada del lado izquierdo de la ventana socio del negocio.
 
-![Pestaña Localización](/assets/img/docs/master-data/mad-master-location.png)
+![Pestaña Localización](/assets/img/docs/master-data/mad-master-location1.png)
 
 Imagen 22. Pestaña Localización
 
-A continuación visualizará la siguiente ventana, dónde debe resourcesdsocio-proveedorr la dirección exacta del socio del negocio proveedor que esta registrando.
+A continuación visualizará la siguiente ventana, dónde debe ingresar la dirección exacta del socio del negocio proveedor que esta registrando.
 
-![Ventana de Localización](/assets/img/docs/master-data/mad-master-location-2.png)
+![Ventana de Localización](/assets/img/docs/master-data/mad-master-location-4.png)
 
 Imagen 23. Ventana de Localización
 
-Warning
+::: warning
 Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana socio del negocio.
+:::
 
 ### Pestaña Contacto
 
@@ -383,27 +380,15 @@ En esta pestaña se registran todos los datos de contacto que se tengan del soci
 
 Seleccione la pestaña **Contacto** que se encuentra ubicada del lado izquierdo de la ventana socio del negocio, para proceder a llenar los campos necesarios.
 
-![Pestaña Contacto](/assets/img/docs/master-data/mad-master-contac.png)
+![Pestaña Contacto](/assets/img/docs/master-data/mad-master-contac1.png)
 
 Imagen 24. Pestaña Contacto
 
 Introduzca en el campo **Nombre**, el nombre del socio del negocio contacto para las transacciones entre las empresas.
 
-![Campo Nombre de Contacto](/assets/img/docs/master-data/mad-master-contac-2.png)
-
-Imagen 25. Campo Nombre de Contacto
-
 Introduzca en el campo **Email**, el email del socio del negocio contacto para las transacciones entre las empresas.
 
-![Campo Email](/assets/img/docs/master-data/mad-master-email.png)
-
-Imagen 26. Campo Email
-
 Introduzca en el campo **Teléfono**, el teléfono del socio del negocio contacto para las transacciones entre las empresas.
-
-![Campo Teléfono](/assets/img/docs/master-data/mad-master-telephone.png)
-
-Imagen 27. Campo Teléfono
 
 ::: note
 Este procedimiento realizado aplica solo para los Socios del Negocio que cumplan el rol de Proveedor.
@@ -478,13 +463,13 @@ Luego de culminar el procedimieto de registro de socio del negocio, seleccione l
 
 En esta pestaña es registrada la información que la empresa requiere del socio del negocio cliente al momento de una venta al mismo. Cada uno de los campos que la misma contiene son necesarios en algún punto de la transacción de ventas.
 
-![Pestaña Cliente](/assets/img/docs/master-data/mad-master-client.png)
+![Pestaña Cliente](/assets/img/docs/master-data/mad-master-client1.png)
 
 Imagen 1. Pestaña Cliente
 
 A continuación visualizará la siguiente imagen, dónde debe tildar el checklist **Cliente**.
 
-![Checklist Cliente](/assets/img/docs/master-data/mad-master-checklist-client.png)
+![Checklist Cliente](/assets/img/docs/master-data/mad-master-checklist-client1.png)
 
 Imagen 2. Checklist Cliente
 
@@ -534,409 +519,156 @@ Introduzca en el campo **Tiempo Gracia Cobro**, los días de gracia que tiene el
 
 En esta pestaña se registran los datos bancarios del socio del negocio cliente, con el checklist **Activo** se pueden registrar los datos de la tarjeta de crédito del socio del negocio. Así mismo, con el checklist **ACH** se pueden registrar los datos de la cuenta bancaria del socio del negocio.
 
-Seleccione la pestaña **Cuenta Bancaria** que se encuentra ubicada del lado izquierdo de la ventana socio del negocio. Por defecto se encuentra tildado el checklist **Activo**.
-
-![Pestaña Cuenta Bancaria](/assets/img/docs/master-data/mad-master-banking-2.png)
-
-Imagen 23. Pestaña Cuenta Bancaria
+Seleccione la pestaña **Cuenta Bancaria** que se encuentra ubicada del lado izquierdo de la ventana socio del negocio. Por defecto se encuentra tildado el checklist **Activo** (idéntica pestaña que cuenta bancaria proveedor)
 
 #### Checklist Activo
 
 Seleccione en el campo **Tarjeta de Crédito**, el tipo de tarjeta de crédito que posee el socio del negocio cliente que esta registrando.
 
-![Campo Tarjeta de Crédito](/assets/img/docs/master-data/mad-master-card-credit.png)
-
-Imagen 24. Campo Tarjeta de Crédito
-
 Introduzca en el campo **Número**, el número de tarjeta de crédito del socio del negocio cliente que esta registrando.
-
-![Campo Número](/assets/img/docs/master-data/mad-master-number-2.png)
-
-Imagen 25. Campo Número
 
 Introduzca en el campo **Código Verificación**, el código de verificación de la tarjeta de crédito del socio del negocio cliente que esta registrando, este código son los últimos tres números del reverso de la tarjeta.
 
-![Campo Código de Verificación](/assets/img/docs/master-data/mad-master-check-2.png)
-
-Imagen 26. Campo Código de Verificación
-
 Introduzca en el campo **Mes de Expiración**, el mes de expiración de la tarjeta de crédito del socio del negocio cliente que esta registrando.
 
-![Campo Mes de Expiración](/assets/img/docs/master-data/mad-master-month-2.png)
-
-Imagen 27. Campo Mes de Expiración
-
 Introduzca el año de expiración de la tarjeta de crédito del socio del negocio cliente que esta registrando en el campo **Año de Expiración**.
-
-![Campo Año de Expiración](/assets/img/docs/master-data/mad-master-year-2.png)
-
-Imagen 28. Campo Año de Expiración
 
 Este proceso se realiza con la finalidad de registrar la tarjeta de crédito del socio del negocio.
 
 #### Checklist ACH
 
-Para registros de cuentas bancarias, tilde el checklist **ACH**, a continuación se reflejarán los campos para el registro de la cuenta bancaria del socio del negocio.
-
-![Checklist ACH](/assets/img/docs/master-data/mad-master-ach-2.png)
-
-Imagen 29. Checklist ACH
+Para registros de cuentas bancarias, tilde el checklist **ACH**, a continuación se reflejarán los campos para el registro de la cuenta bancaria del socio del negocio (mismo check que en cuenta bancaria proveedor).
 
 Introduzca en el campo **IBAN**, el código IBAN conformado por el código del país (2 dígitos) más el código de control de la localidad donde se encuentra la sucursal del banco (2 dígitos). Para ejemplificar el registro es utilizado el código **UY21**
 
-![Campo IBAN](/assets/img/docs/master-data/mad-master-iban.png)
+En el campo **Banco** seleccione el banco a registrar con ayuda del ícono identificador.
 
-Imagen 30. Campo IBAN
-
-En el campo **Banco** seleccione el banco a registrar con ayuda del ícono identificador (adjunto imagen).
-
-![Campo Banco](/assets/img/docs/master-data/mad-master-bank-2.png)
-
-Imagen 31. Campo Banco
-
-A continuación visualizará la siguiente ventana con los diferentes bancos, dónde debe seleccionar el banco que posee el socio del negocio cliente y la opción **OK** para cargar los datos al formulario.
-
-![Opción OK](/assets/img/docs/master-data/mad-master-ok-2.png)
-
-Imagen 32. Opción OK
+A continuación visualizará la ventana con los diferentes bancos (misma ventana que en cuenta bancaria proveedor), dónde debe seleccionar el banco que posee el socio del negocio cliente y la opción **OK** para cargar los datos al formulario.
 
 Seleccione el tipo de cuenta correspondiente a la cuenta del socio del negocio cliente en el campo **Tipo de Cuenta Bancaria**.
 
-![Campo Tipo de Cuenta Bancaria](/assets/img/docs/master-data/mad-banking-3.png)
-
-Imagen 33. Campo Tipo de Cuenta Bancaria
-
 Introduzca en el campo **No. De Cuenta**, el número de cuenta del socio del negocio cliente que esta registrando.
-
-![Campo No. De Cuenta](/assets/img/docs/master-data/mad-no-2.png)
-
-Imagen 34. Campo No. De Cuenta
 
 Este proceso se realiza con la finalidad de registrar la cuenta del socio del negocio.
 
 Introduzca el nombre de referencia en el campo **Nombre**, en este campo va el nombre del titular de la tarjeta de crédito o de la cuenta bancaria que esta registrando.
 
-![Campo Nombre de Titular de Cuenta](/assets/img/docs/master-data/mad-master-title-2.png)
-
-Imagen 35. Campo Nombre de Titular de Cuenta
-
 Introduzca en el campo **Dirección**, la dirección de la entidad bancaria poseedora de la tarjeta de crédito.
-
-![Campo Dirección de Entidad Bancaria](/assets/img/docs/master-data/mad-master-direcc.png)
-
-Imagen 36. Campo Dirección de Entidad Bancaria
 
 Introduzca en el campo **Ciudad**, el nombre de la ciudad donde se encuentra la entidad bancaria poseedora de la tarjeta de crédito.
 
-![Campo Ciudad de Entidad Bancaria](/assets/img/docs/master-data/mad-master-city.png)
-
-Imagen 37. Campo Ciudad de Entidad Bancaria
-
 Introduzca en el campo **Código Postal**, el código postal de la ciudad donde se encuentra la entidad bancaria poseedora de la tarjeta de crédito.
-
-![Campo Código Postal](/assets/img/docs/master-data/mad-master-postal.png)
-
-Imagen 38. Campo Código Postal
 
 Introduzca en el campo **Estado**, el nombre del estado donde se encuentra la entidad bancaria poseedora de la tarjeta de crédito.
 
-![Campo Estado de Entidad Bancaria](/assets/img/docs/master-data/mad-master-state.png)
-
-Imagen 39. Campo Estado de Entidad Bancaria
-
 Introduzca en el campo **País Cuenta**, el nombre del país donde se encuentra la entidad bancaria poseedora de la tarjeta de crédito.
-
-![Campo País Cuenta](/assets/img/docs/master-data/mad-master-country.png)
-
-Imagen 40. Campo País Cuenta
-
 Introduzca en el campo **Licencia de Conducir**, el número de licencia de conducir del socio del negocio cliente que esta registrando.
-
-![Campo Licencia de Conducir](/assets/img/docs/master-data/mad-master-license.png)
-
-Imagen 41. Campo Licencia de Conducir
 
 Introduzca en el campo **No. Seguro Social**, el número de cédula del titular de la tarjeta de crédito o cuenta bancaria que esta registrando.
 
-![Campo No. Seguro Social](/assets/img/docs/master-data/mad-master-sure.png)
-
-Imagen 42. Campo No. Seguro Social
-
 Introduzca en el campo **Cta. Correo Electrónico**, el correo electrónico asociado a la tarjeta de crédito o cuenta bancaria que esta registrando.
-
-![Campo Cta. Correo Electrónico](/assets/img/docs/master-data/mad-master-mail.png)
-
-Imagen 43. Campo Cta. Correo Electrónico
 
 Seleccione en el campo **Dirección Verificada**, si la dirección de la entidad bancaria se encuentra verificada.
 
-![Campo Dirección Verificada](/assets/img/docs/master-data/mad-master-direcc-2.png)
-
-Imagen 44. Campo Dirección Verificada
-
 Seleccione en el campo **Código Postal Verificado**, si el código postal de la entidad bancaria se encuentra verificado.
-
-![Campo Código Postal Verificado](/assets/img/docs/master-data/mad-master-postal-2.png)
-
-Imagen 45. Campo Código Postal Verificado
 
 ### Pestaña Localización
 
 La localización de un socio del negocio cliente es muy importante por diferentes motivos, ya que las transacciones de ventas serán realizadas al mismo, en esta pestaña se deben registrar con exactitud los datos de la dirección del socio del negocio.
 
-Seleccione la pestaña **Localización** que se encuentra ubicada del lado izquierdo de la ventana socio del negocio.
-
-![Pestaña Localización](/assets/img/docs/master-data/mad-master-location-3.png)
-
-Imagen 46. Pestaña Localización
+Seleccione la pestaña **Localización** que se encuentra ubicada del lado izquierdo de la ventana socio del negocio (misma que Localización proveedor).
 
 Introduzca en el campo **Localización / Dirección**, la dirección de localización del socio del negocio cliente con ayuda del identificador.
 
-![Campo Localización / Dirección](/assets/img/docs/master-data/mad-master-location-direcc.png)
-
-Imagen 47. Campo Localización / Dirección
-
 Seleccione en el campo **País**, el país donde se encuentra domiciliado el socio del negocio que esta registrando
-
-![Campo País](/assets/img/docs/master-data/mad-master-country-2.png)
-
-Imagen 48. Campo País
 
 Seleccione en el campo **Estado**, el estado donde se encuentra domiciliado el socio del negocio que esta registrando.
 
-![Campo Estado](/assets/img/docs/master-data/mad-master-state-2.png)
-
-Imagen 49. Campo Estado
-
 Seleccione en el campo **Ciudad**, la ciudad donde se encuentra domiciliado el socio del negocio que esta registrando.
-
-![Campo Ciudad](/assets/img/docs/master-data/mad-master-city-2.png)
-
-Imagen 50. Campo Ciudad
 
 Introduzca la dirección detallada del socio del negocio cliente en el campo **Dirección 1** y seleccione la opción **OK**
 
-![Campo Dirección 1](/assets/img/docs/master-data/mad-master-direcc-4.png)
-
-Imagen 51. Campo Dirección 1
-
 Introduzca en el campo **Teléfono**, el número de teléfono local para contactar al socio del negocio cliente.
-
-![Campo Teléfono](/assets/img/docs/master-data/mad-master-telephone-2.png)
-
-Imagen 52. Campo Teléfono
 
 Introduzca en el campo **Teléfono Móvil**, el número de teléfono móvil para contactar al socio del negocio cliente.
 
-![Campo Teléfono Móvil](/assets/img/docs/master-data/mad-master-telephone-movil.png)
-
-Imagen 53. Campo Teléfono Móvil
-
 Introduzca en el campo **Fax**, el fax para contactar al socio del negocio cliente.
-
-![Campo Fax](/assets/img/docs/master-data/mad-master-fax.png)
-
-Imagen 54. Campo Fax
 
 Introduzca en el campo **ISDN**, el ISDN para contactar al socio del negocio cliente.
 
-![ISDN](/assets/img/docs/master-data/mad-master-isdn..png)
-
-Imagen 55. ISDN
-
 Podrá apreciar tildados los checklist **Dirección Entregar-A**, **Dirección Facturar-A**, **Dirección Pagar-Desde** y **Dirección Remitir-A**, indicando cada uno de ellos un comportamiento diferente.
-
-![Campo Dirección Entregar-A](/assets/img/docs/master-data/mad-master-direcc-a.png)
-
-Imagen 56. Campo Dirección Entregar-A
 
 El checklist **Dirección Facturar-A** establece la localización ingresada como la dirección para facturar.
 
-![Campo Dirección Facturar-A](/assets/img/docs/master-data/mad-master-factura-a.png)
-
-Imagen 57. Campo Dirección Facturar-A
-
 El checklist **Dirección Pagar-Desde** establece la localización ingresada como la dirección desde donde paga las facturas el socio del negocio y donde son enviadas las cartas de morosidad.
-
-![Campo Dirección Pagar-Desde](/assets/img/docs/master-data/mad-master-price-desde.png)
-
-Imagen 58. Campo Dirección Pagar-Desde
 
 El checklist **Dirección Remitir-A** establece la localización ingresada como la dirección para el envío de los pagos.
 
-![Dirección Remitir-A](/assets/img/docs/master-data/mad-master-remitir.png)
-
-Imagen 59. Dirección Remitir-A
-
 Seleccione en el campo **Región de Ventas**, la región o área de ventas en la que se encuentra localizado el socio del negocio cliente.
-
-![Campo Región de Ventas](/assets/img/docs/master-data/mad-master-region.png)
-
-Imagen 60. Campo Región de Ventas
 
 Para conocer más sobre las regiones de ventas que puede tener una compañía u organización, visite el documento **Registro de Región de Ventas**, elaborado por **Solop ERP**.
 
 Introduzca en el campo **Código SICA**, el código SICA del socio del negocio cliente.
 
-![Campo Código SICA](/assets/img/docs/master-data/mad-master-sica.png)
-
-Imagen 61. Campo Código SICA
-
 Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana socio del negocio.
 
 ### Pestaña Contacto
 
-En esta pestaña se registran todos los datos de contacto que se posea el socio del negocio cliente. De igual manera, es creado su usuario de acceso en Solop ERP.
+En esta pestaña se registran todos los datos de contacto que se posea el socio del negocio cliente. De igual manera, es creado su usuario de acceso en Solop ERP (idéntica pestaña que Contacto proveedor).
 
 Seleccione la pestaña **Contacto** que se encuentra ubicada del lado izquierdo de la ventana socio del negocio, para proceder a llenar los campos necesarios.
-
-![Pestaña Contacto](/assets/img/docs/master-data/mad-master-contact.png)
-
-Imagen 62. Pestaña Contacto
 
 El contacto (Usuario) permite registrar las diferentes personas de contacto que tiene la empresa con el socio del negocio cliente que esta registrando. Un ejemplo de esta pestaña puede ser, un jefe o persona de contacto por departamento para que a la hora de alguna venta de productos o servicios al socio del negocio cliente, se contacte a la persona correspondiente.
 
 Introduzca en el campo **Nombre**, el nombre completo de la persona de contacto con el socio del negocio cliente que esta registrando.
 
-![Nombre de Contacto](/assets/img/docs/master-data/mad-master-name-contact.png)
-
-Imagen 63. Nombre de Contacto
-
 Introduzca en el campo **Descripción**, una breve descripción de la persona de contacto con el socio del negocio cliente que esta registrando
-
-![Campo Descripción](/assets/img/docs/master-data/mad-master-description-3.png)
-
-Imagen 64. Campo Descripción
 
 Introduzca en el campo **Comentarios**, los comentarios o información adicional sobre el registro de la persona de contacto con el socio del negocio cliente.
 
-![Campo Comentarios](/assets/img/docs/master-data/mad-master-coment.png)
-
-Imagen 65. Campo Comentarios
-
 El checklist **Activo**, indica que el registro se encuentra activo en el sistema.
-
-![Checklist Activos](/assets/img/docs/master-data/mad-master-checklist-3.png)
-
-Imagen 66. Checklist Activo
 
 Seleccione el checklist **Es Gerente de Proyecto**, para indicar que la persona de contacto con el socio del negocio cliente es gerente de proyecto.
 
-![Campo Es Gerente de Proyecto](/assets/img/docs/master-data/mad-master-manager.png)
-
-Imagen 67. Campo Es Gerente de Proyecto
-
 Seleccione el checklist **Es Miembro de un Proyecto**, para indicar que la persona de contacto con el socio del negocio cliente es miembro de un proyecto.
-
-![Campo Es Miembro de un Proyecto](/assets/img/docs/master-data/mad-master-proyect.png)
-
-Imagen 68. Campo Es Miembro de un Proyecto
 
 Seleccione el checklist **Usuario de Autenticación** para que sean reflejados los campos necesarios para crear el usuario del socio del negocio cliente.
 
-![Usuario de Autenticación](/assets/img/docs/master-data/mad-master-user.png)
-
-Imagen 69. Usuario de Autenticación
-
 Seleccione el checklist **Usuario Interno**, para indicar que la persona de contacto con el socio del negocio cliente es usuario interno.
 
-![Campo Usuario Interno](/assets/img/docs/master-data/mad-master-internal.png)
-
-Imagen 70. Campo Usuario Interno
-
 Introduzca en el campo **Código**, el usuario de la persona de contacto con el socio del negocio cliente para ingresar a Solop ERP.
-
-![Campo Código](/assets/img/docs/master-data/mad-master-code-2.png)
-
-Imagen 71. Campo Código
 
 Solop ERP tiene establecido como estándar de creación de usuario y contraseña en Solop ERP, la inicial del primer nombre en minúscula, seguido del primer apellido completo, con la primera letra del mismo en mayúscula.
 
 Introduzca en el campo **Contraseña**, la contraseña de la persona de contacto con el socio del negocio cliente para ingresar a Solop ERP.
 
-![Campo Contraseña](/assets/img/docs/master-data/mad-master-password.png)
-
-Imagen 72. Campo Contraseña
-
 Solop ERP tiene establecido como estándar de creación de usuario y contraseña en Solop ERP, la inicial del primer nombre en minúscula, seguido del primer apellido completo, con la primera letra del mismo en mayúscula.
 
 Seleccione el checklist **Usuario de Tienda Web**, para indicar que la persona de contacto con el socio del negocio es usuario de tienda web.
 
-![Checklist Usuario de Tienda Web](/assets/img/docs/master-data/mad-master-web-2.png)
-
-Imagen 73. Checklist Usuario de Tienda Web
-
 Introduzca en el campo **Email**, el correo electrónico de la persona de contacto con el socio del negocio para las transacciones entre las empresas.
-
-![Campo Email](/assets/img/docs/master-data/mad-master-email-2.png)
-
-Imagen 74. Campo Email
 
 Seleccione en el campo **Saludo**, la forma de saludar a la persona de contacto con el socio del negocio en los documentos a ser enviados.
 
-![Campo Saludo](/assets/img/docs/master-data/mad-master-saludo.png)
-
-Imagen 75. Campo Saludo
-
 Seleccione en el campo **Dirección del Socio del Negocio**, la dirección de ubicación de la persona de contacto con el socio del negocio.
-
-![Campo Dirección del Socio del Negocio](/assets/img/docs/master-data/mad-master-partner-2.png)
-
-Imagen 76. Campo Dirección del Socio del Negocio
 
 Introduzca en el campo **Título**, el nombre del socio del negocio cliente.
 
-![Campo Título](/assets/img/docs/master-data/mad-master-title-3.png)
-
-Imagen 77. Campo Título
-
 Seleccione en el campo **Cumpleaños**, la fecha de nacimiento de la persona de contacto con el socio del negocio.
-
-![Campo Cumpleaños](/assets/img/docs/master-data/mad-master-birthday.png)
-
-Imagen 78. Campo Cumpleaños
 
 Introduzca en el campo **Teléfono**, el teléfono para localizar a la persona de contacto con el socio del negocio para las transacciones entre las empresas.
 
-![Campo Teléfono de Contacto](/assets/img/docs/master-data/mad-master-telephone-contact.png)
-
-Imagen 79. Campo Teléfono de Contacto
-
 Introduzca en el campo **Teléfono Móvil**, el teléfono móvil para localizar a la persona de contacto con el del socio del negocio.
-
-![Campo Teléfono Móvil](/assets/img/docs/master-data/mad-master-movil.png)
-
-Imagen 80. Campo Teléfono Móvil
 
 Introduzca en el campo **Fax**, el fax de contacto del socio del negocio.
 
-![Campo Fax](/assets/img/docs/master-data/mad-master-fax-2.png)
-
-Imagen 81. Campo Fax
-
 Seleccione en el campo **Tipo de Notificación**, la forma de enviar notificaciones a la persona de contacto con el socio del negocio.
-
-![Campo Tipo de Notificación](/assets/img/docs/master-data/mad-master-notification.png)
-
-Imagen 82. Campo Tipo de Notificación
 
 Seleccione en el campo **Posición**, la posición de trabajo de la persona de contacto con el socio del negocio.
 
-![Campo Posición](/assets/img/docs/master-data/mad-master-position.png)
-
-Imagen 83. Campo Posición
-
 Podrá apreciar el checklist **Acceso Total Socio del Negocio**, que al estar tildado indica que la persona de contacto con el socio del negocio cliente posee acceso total a su rol.
 
-![Campo Acceso Total Socio del Negocio](/assets/img/docs/master-data/mad-master-access.png)
-
-Imagen 84. Campo Acceso Total Socio del Negocio
-
 Seleccione el icono **Guardar Cambios** en la barra de herramientras de Solop ERP, para guardar el registro de los campos.
-
-![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-save.png)
-
-Imagen 85. Icono Guardar Cambios
 
 Este procedimiento realizado aplica solo para los Socios del Negocio que cumplan el rol de Cliente.
 
@@ -965,14 +697,14 @@ Dentro de sus funcionalidades, Solop ERP permite a las organizaciones realizar d
 
 En el menú de Solop ERP, ubique y seleccione la carpeta **Gestión de Recursos Humanos y Nómina**, luego seleccione la carpeta **Recursos Humanos**, por último seleccione la carpeta **Configuración de Empleado** y la ventana **Empleado (Todos)**.
 
-![Menú de Solop ERP](/assets/img/docs/master-data/mad-master-menu-2.png)
+![Menú de Solop ERP](/assets/img/docs/master-data/mad-master-menu-3.png)
 
 Imagen 1. Menú de Solop ERP
 
 En la ventana **Empleado (Todos)**, se registran todos los datos personales y laborales que la empresa requiere del socio del negocio empleado, los mismos son utilizados y actualizados a lo largo de su período laboral en dicha empresa. La información del empleado desde el momento en el que inicia su período laboral, hasta el momento actual o el momento en el que termina, se encuentra distribuida en la ventana principal **Empleado** y sus (11) once pestañas, explicadas a continuación.
 
 ::: note
-Cada uno de los campos con el símbolo (\*) son obligatorios para el registro.
+Cada uno de los campos con el símbolo (*) son obligatorios para el registro.
 :::
 
 A continuación podrá apreciar la ventana **Empleado (Todos)**, dónde debe seleccionar el icono de **Registro Nuevo** que se encuentra ubicado en la barra de herramientas de Solop ERP.
