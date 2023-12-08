@@ -23,7 +23,7 @@ En esta ocasión **Solop ERP** pretende ofrecerle una guía fácil para la defin
 
 En el menú de Solop ERP, ubique y seleccione la carpeta **Relación con Socio del Negocio**, luego seleccione la carpeta **Reglas de Socios del Negocio** y finalmente seleccione la ventana **Socio del Negocio**.
 
-![Menú de Solop ERP](/assets/img/docs/master-data/mad-master-menu.png)
+![Menú de Solop ERP](/assets/img/docs/master-data/mad-master-menu1.png)
 
 Imagen 1. Menú de Solop ERP
 
@@ -31,7 +31,7 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
 A continuación visualizará la ventana **Socio del Negocio**, dónde debe seleccionar el icono de **Registro Nuevo** que se encuentra ubicado en la barra de herramientas de Solop ERP.
 
-![Ventana Principal Socio del Negocio](/assets/img/docs/master-data/mad-master-window.png)
+![Ventana Principal Socio del Negocio](/assets/img/docs/master-data/mad-master-window1.png)
 
 Imagen 2. Ventana Principal Socio del Negocio
 
@@ -89,10 +89,6 @@ El estado del crédito no es un campo obligatorio, sin embargo, le permite defin
 
 **Crédito Detenido**: Establecido de forma manual, bloqueando la posibilidad de completar ordenes de ventas, completar facturas y emitir entregas.
 
-![Campo Estado de Crédito](/assets/img/docs/master-data/mad-master-credit.png)
-
-Imagen 9. Campo Estado de Crédito
-
 Podrá visualizar el saldo actual que posee el cliente en el campo **Saldo Actual**.
 
 El saldo actual es un campo solo lectura, actualizado de forma automática, aumentando o disminuyendo al emitir cuentas por cobrar o cuentas por pagar, controlando el estado de crédito.
@@ -122,10 +118,6 @@ El número de Referencia no es un campo obligatorio, sin embargo, le permite int
 Introduzca el código NAICS o SIC del socio del negocio en el campo **NAICS/SIC**.
 
 El código NAICS/SIC no es un campo obligatorio, sin embargo, le permite introducir el código NAICS (American Industry Classification System ó Sistema de Clasificación Industrial de América del Norte), este es un código utilizado en los Estados Unidos, Canadá y México para clasificar la industria y actividades económicas.
-
-![Campo NAICS/SIC](/assets/img/docs/master-data/mad-master-naics.png)
-
-Imagen 16. Campo NAICS/SIC
 
 Introduzca la valuación ABC en el campo **Valuación ABC**.
 
@@ -164,10 +156,6 @@ El tipo de cuenta no es un campo obligatorio, sin embargo, le permite a los vend
 Seleccione el lenguaje en el campo **Lenguaje**.
 
 El lenguaje no es un campo obligatorio, sin embargo, define el idioma con que será impreso los formatos de impresión asociados a este Socio de Negocio.
-
-![Campo Lenguaje](/assets/img/docs/master-data/mad-master-language.png)
-
-Imagen 20. Campo Lenguaje
 
 Seleccione el tipo de industria en el campo **Tipo de Industria**.
 

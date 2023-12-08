@@ -48,7 +48,7 @@ export const enNavbarConfig = navbar([
     children: [
       { text: "SOLOP Estándar", link: "", icon: "note", activeMatch: "^/docs/$" },
       {
-        text: "Datos Maestros",
+        text: "Introducción",
         children: [
           "basic-rules/login",
           "basic-rules/user-interface",
@@ -68,13 +68,17 @@ export const enNavbarConfig = navbar([
         ],
       },
       {
-        text: "Gestión de Materiales",
+        text: "Preguntas Frecuentes (FAQs)",
         children: [
-          "material-management/inventory-move",
-          "material-management/internal-use-inventory",
-          "material-management/physical-inventory",
-          "material-management/ldm",
-          "material-management/replenishment",
+          "frequently-asked-questions/accounting-management",
+          "frequently-asked-questions/agency-management",
+          "frequently-asked-questions/education-management",
+          "frequently-asked-questions/electronic-billing",
+          "frequently-asked-questions/financial-accounting",
+          "frequently-asked-questions/financial-management",
+          "frequently-asked-questions/general-system-functionality",
+          "frequently-asked-questions/materials-management",
+          "frequently-asked-questions/purchases-sales",
         ],
       },
       {
