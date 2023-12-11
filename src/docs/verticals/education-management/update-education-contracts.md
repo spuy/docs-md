@@ -1,5 +1,5 @@
 ---
-title: Actualizar Contratos Educación (Cambio de Año)
+title: Actualizar Contratos Educación
 category: Documentation
 star: 9
 sticky: 9
