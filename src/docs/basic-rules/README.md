@@ -1,5 +1,5 @@
 ---
-title: Introducción
+title: Actividades Básicas
 category: Documentation
 star: 9
 sticky: 9
