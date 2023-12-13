@@ -18,7 +18,7 @@ Para acceder o iniciar sesión en Solop ERP, el usuario requiere lo siguiente:
 
 Al ingresar a la url del servicio de Solop ERP facilitada por un consultor de Solop ERP, podrá visualizar la ventana **Login** o **Iniciar Sesión**, la cual cuenta con los campos necesarios para iniciar sesión en el idioma que el usuario lo requiera.
 
-![Ventana Login o Iniciar Sesión en Solop ERP](/assets/img/docs/basic-rules/bar-login-login1.png)
+![Ventana Login o Iniciar Sesión en Solop ERP](/assets/img/docs/basic-rules/bar-login-login2.png)
 Imagen 1. Ventana Login o Iniciar Sesión en Solop ERP
 
 Introduzca en el campo **Usuario**, el usuario previamente facilitado por el consultor de Solop ERP.
@@ -46,6 +46,8 @@ Por último, para iniciar sesión en el servicio de Solop ERP, debe seleccionar 
 ## Recuperar Contrasena
 
 Si el usuario no recuerda la contraseña para iniciar sesión puede recuperarla seleccionando la interrogante **¿Se te olvidó tu contraseña?**.
+
+![Ventana Login Recuperar Contraseña](/assets/img/docs/basic-rules/bar-login-login3.png)
 
 Podrá visualizar la ventana **Login** o **Iniciar Sesión**, con el campo **ID de usuario**, donde debe ingresar el usuario de acceso al servicio de Solop ERP.
 
