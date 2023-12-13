@@ -18,5 +18,3 @@ El presente material se encuentra dirigido a cada uno de los usuarios de Solop E
 ### Carga de Datos
 
 - [Carga Masiva de Datos](big-data-import/data-import)
-- [Carga de Contratos Manual (Educación)](big-data-import/import-contracts-manual-education)
-- [Carga de Contratos Masiva (Educación)](big-data-import/import-contracts-education)
