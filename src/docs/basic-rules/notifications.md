@@ -26,7 +26,7 @@ Este registro define el tipo de aplicación (ejemplo: correo electrónico) y la 
 
   Este proceso busca líneas de morosidad a enviar. Permite seleccionar por nivel de morosidad, por socio de negocio, por fecha. Y como parámetro se define el patrón de correo (de la organización correspondiente): generación de notificaciones desde línea de morosidad.
 
-  ![Envio de Estado de cuenta por Correo](/assets/img/docs/basic-rules/bar-not-estado.png)
+  ![Envio de Estado de cuenta por Correo](/assets/img/docs/basic-rules/bar-not-estado1.png)
 
 * Notificación desde Solicitudes
 
@@ -38,7 +38,7 @@ Este registro define el tipo de aplicación (ejemplo: correo electrónico) y la 
 
   Una vez guardada la solicitud, desde la opcipon de Recipiente de cola de notificación se podrán visualizar las diferentes solicitudes creadas y su estado.
 
- ![Solicitud](/assets/img/docs/basic-rules/bar-not-solicitud.png)
+ ![Solicitud](/assets/img/docs/basic-rules/bar-not-solicitud1.png)
 
 * Notificación desde Proyectos
 
@@ -50,15 +50,15 @@ Este registro define el tipo de aplicación (ejemplo: correo electrónico) y la 
 
   El objetivo de la vinculación entre proyecto y solicitud responde a la necesidad de ligar las diferentes tareas y requerimientos que se vayan generando a diferentes usuarios, y que tengan relación con un determinado proyecto.
 
-   ![Proyecto](/assets/img/docs/basic-rules/bar-not-proyecto.png)
+   ![Proyecto](/assets/img/docs/basic-rules/bar-not-proyecto1.png)
 
 * Notificación desde Reportes
 
   Desde las diferentes entidades del ERP existe una opción en la barra de comandos denominada "Informes". Desde allí es posible generar un reporte con aquella información que se esté visualizando en pantalla, seleccionar una extensión (ejemplo, PDF, HTML,, excel) y luego exportarlo. A su vez, esta exportación es posible enviarla por mail desde el sistema. Esto genera un registro de cola de notificación).
 
-   ![Informe](/assets/img/docs/basic-rules/bar-not-report.png)
+   ![Informe](/assets/img/docs/basic-rules/bar-not-report3.png)
 
-    ![Reporte](/assets/img/docs/basic-rules/bar-not-report2.png)
+    ![Reporte](/assets/img/docs/basic-rules/bar-not-report4.png)
 
 ### Configuración de Notificaciones por Usuario
 
@@ -79,7 +79,7 @@ Motor de Templates para reemplazo de campos en template
 
 El template admite poder referenciar campos locales y referentes en otras tablas, se debe ingresar como texto en el template el nombre de la columna entre @ (arrobas), a su vez podrá referenciarse información desde otra tabla indicando el nombre de la tabla, punto, el nombre del campo.
 
- ![Plantilla de Correo por Evento](/assets/img/docs/basic-rules/bar-not-event.png)
+ ![Plantilla de Correo por Evento](/assets/img/docs/basic-rules/bar-not-event1.png)
 
 ### Cuando se genera cada Notificación?
 
@@ -100,7 +100,7 @@ Cada Solicitud envía **notificaciones** de sus actualizaciones a los usuarios d
 
 Además de los usuarios vinculados, dentro de cada Solicitud se podrá agregar diferentes usuarios para que les llegue vía correo electrónico las **notificaciones** por actualización de las mismas, independientemente de los demás criterios. Para ello simplemente se deberá navegar a la pestaña “Aviso de Actualización” y agregar manualmente el o los usuarios a recibir notificaciones.
 
- ![Aviso de Actualización](/assets/img/docs/basic-rules/bar-not-act.png)
+ ![Aviso de Actualización](/assets/img/docs/basic-rules/bar-not-act1.png)
 
 ### Proceso de Envío de Cola de Notificaciones
 
@@ -118,7 +118,7 @@ El envío de notificación tiene diferentes funcionalidades: se puede generar de
 
 From Account name: desde donde se origina la notificación.
 
- ![Cola de Notificación](/assets/img/docs/basic-rules/bar-not-notification.png)
+ ![Cola de Notificación](/assets/img/docs/basic-rules/bar-not-notification1.png)
 
 ### Recipientes de Cola de Notificación
 
@@ -126,4 +126,4 @@ Es un registro de notificaciones generados dentro del sistema y con sus diferent
 
 Es como una auditoría o historial de envíos de notificación con sus correspondientes estados y descripción de error (en el caso de no haber sido enviados).
 
- ![Recipiente de Cola de Notificación](/assets/img/docs/basic-rules/bar-not-recipient.png)
+ ![Recipiente de Cola de Notificación](/assets/img/docs/basic-rules/bar-not-recipient1.png)
