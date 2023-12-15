@@ -10,25 +10,19 @@ En Solop ERP la utilería no es más que un conjunto de instrumentos o herramien
 
 **Buscar**: Le permitirá realizar una búsqueda de un documento en específico
 
-![Buscar](/assets/img/docs/basic-rules/bar-props-props.png)
+![Buscar](/assets/img/docs/basic-rules/bar-props-props1.png)
 
 Imagen 1. Buscar
 
-**Calculadora:** En Solop ERP contamos con una herramienta básica que le permitirá realizar una operación matemática dentro de un campo.
-
-![Calculadora](/assets/img/docs/basic-rules/bar-props-calculator.png)
-
-Imagen 2. Calculadora
-
 **Reinicia Cache:** Permitirá cerrar todas las ventanas, para reiniciar cache ingrese reinicia caché en el buscador rápido del menú explicado anteriormente y reinicie.
 
-![Reiniciar Cache](/assets/img/docs/basic-rules/bar-props-cache.png)
+![Reiniciar Cache](/assets/img/docs/basic-rules/bar-props-cache1.png)
 
 Imagen 3. Reiniciar Cache
 
 **Reinicia Contraseña:** Permitirá cambiar la contraseña del usuario, para reiniciar contraseña ingrese reinicia contraseña en el buscador rápido del menú explicado anteriormente y reinicie.
 
-![Reiniciar Contraseña](/assets/img/docs/basic-rules/bar-props-passw.png)
+![Reiniciar Contraseña](/assets/img/docs/basic-rules/bar-props-passw1.png)
 
 Imagen 4. Reiniciar Contraseña
 
