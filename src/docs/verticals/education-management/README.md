@@ -10,16 +10,6 @@ Esta documentación está destinada a definir cada uno de los procedimientos de 
 
 Solop ERP brinda un sólido circuito de trabajo al organizar la gestión de educación para las Instituciones en sus diferentes niveles.
 
-## Flujo Instituciones educativas completo
-
-### Circuito inicial
-
-![Flujo educación 1](/assets/img/docs/education-management/edum-image1.png)
-
-### Circuito final
-
-![Flujo educación 2](/assets/img/docs/education-management/edum-image2.png)
-
 - [Socio del negocio para Educación](business-partner-education)
 - [Carga de Contratos Manual (Educación)](import-contracts-manual-education)
 - [Carga de Contratos Masiva (Educación)](import-contracts-education)
