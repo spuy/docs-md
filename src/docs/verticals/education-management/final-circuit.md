@@ -130,6 +130,6 @@ Representación Impresa del PDF: Formato de Impresión definido para el Estado d
 
 Template de Correo: Definición de la Plantilla de correo que se enviará como texto en el correo.
 
-Check de “Send EMail”: este check podrá ser desmarcado para realizar pruebas de envios sin enviar realmente el correo al Socio del Negocio. Este envio se pdorá visualizar en la ventana de Bitácora de Emails. Si se define el check en “Y” se enviará también el correo a los usuarios definidos como que se envie mail en la Familia del Responsable de Pago.
+El envío de mails podrá verificarse en la ventana Cálculo de Morosidad (en el secuencial correspondiente a los envíos), pestaña Emails Enviados.
 
 ![Envío por Mail](/assets/img/docs/education-management/edum-image16.png)
