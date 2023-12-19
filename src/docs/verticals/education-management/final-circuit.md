@@ -53,11 +53,83 @@ Al seleccionar "Aceptar" se generan los correspondientes Conceptos a Facturar po
 
 ### Generar Facturas desde Cuota de Contrato
 
+Desde la ventana CFE es posible generar las cuotas creadas desde los contratos.
+Se inicia generando un registro de Bandeja CFE ingresando un nombre (y descripción opcional).
+Al grabar el registro se habilita la generación masiva de facturas (documentos por cobrar) en tres pasos y a partir de los conceptos a facturar previamente creados.
 
+* Primer paso: Seleccionar Conceptos a Facturar. Desde esta opción se abre una ventana emergente en la cual se pueden elegir los filtros con el objeto de agrupar aquellos conceptos a facturar que deseamos facturar masivamente (y se vincularán al registro de Bandeja CFE creado).
+Posee filtros tales como Socio del Negocio, Socio del Negocio a Facturar, Fecha del concepto, lista de precios, etc, para acotar la búsqueda de conceptos que deseemos facturar.
+
+* Segundo paso: Generar Facturas desde Conceptos. Luego de haber seleccionado los conceptos, podemos verificar en la solapa Conceptos a facturar que se hayan vinculado todos los conceptos deseados. Posteriormente al elegir la opción de Generar Facturas desde Conceptos se abrirá una ventana emergente en la cual nos indicará en qué estado se crearán los documentos por cobrar (siempre definido como en borrador o en proceso). 
+
+* Tercer paso: Completar Facturas Generadas. La instancia anterior genera los documentos por cobrar y permite verificarlos en la solapa Facturas. Si todos sus datos están correctos podemos seleccionar Completar Facturas Generadas lo cual cambiará a estado Completo en forma masiva a todas las facturas generadas.
+
+La ventana de Bandeja CFE audita todo el proceso de Facturación electrónica, y asignará el tipo de comprobante de acuerdo al grupo de impuesto del Responsable de Pago (si posee RUT genera E-factura y si posee Cedula genera E-ticket).
+
+**Bandeja CFE**
+
+![Bandeja CFE](/assets/img/docs/education-management/edum-image10.png)
+
+**Filtros Seleccionar Conceptos a Faturar**
+
+![Filtros](/assets/img/docs/education-management/edum-image11.png)
 
 ### Generar Cálculo de Morosidad
 
+Una vez realizado el proceso de facturación (de lo recurrente y no recurrente) el siguiente paso es crear cálculo de Morosidad (estado de cuenta a los clientes con lo adeudado).
 
+* **Paso 1.** Se genera nuevo registro nivel Estado de Cuenta (y Morosidad = Estado de cuenta y check tildado en Mostrar todas las deudas).
+
+Morosidad Tipo Estado de Cuenta: Este tipo de Morosidad tendrá el criterio de obtener todas las facturas que están pendientes de Pago para ese momento, generando un registro en la pestaña “Entrada” por cada Socio del Negocio que tenga al menos una factura pendiente.
+
+Es posible crear otros tipos de Morosidad (en la ventana del mismo nombre) configurando las preferencias y nombre del tipo que se desee crear (Ejemplo: Morosidad o deuda atrasada, y pre setear controles como mostrar pagos o detener crédito).
+
+En la ventana emergente del proceso se selecciona Organización, agente comercial, Moneda y check tildado de Solo facturas de ventas, en No muestra deuda e Incluir Payments.
+
+Al aceptar, emite un mensaje con la cantidad de entradas generadas por cálculo de morosidad.
+
+Desde cada Entrada es posible desde el botón de procesos generar el Estado de cuenta corriente, y desde las líneas es posible visualizar las facturas correspondientes a cada Entrada (cada SDN a facturar).
+
+![Cálculo de Morosidad](/assets/img/docs/education-management/edum-image12.png)
+
+* **Paso 2.** Para generar los registros en el Cálculo de Morosidad deberá oprimir en el botón de “Crear cálculo de Morosidad”
+
+Al oprimir el botón se desplegará una ventana del proceso donde se deberán seleccionar los criterios o filtros del proceso a generar. En este caso se deberá definir la Organización, el Agente Comercial la Moneda, la fecha (definir un día más de la fecha de facturas) de las facturas que se desean filtrar y la Morosidad (Estado de Cuenta) de los Socios de Negocio.
+
+![Crear Cálculo de Morosidad](/assets/img/docs/education-management/edum-image13.png)
+
+Como resultado le deberá responder la cantidad de entradas que se generaron en el Estado de Cuenta.
+
+Luego de correr el proceso podrá ir a las Entradas para ver todos los registros encontrados.
+
+Dentro de cada Registro en la pestaña “Entrada” se podrá obtener el Reporte de “Estado de Cuenta” oprimiendo desde los procesos de la Barra de Herramientas.
+
+![Entradas](/assets/img/docs/education-management/edum-image14.png)
+
+![Estado de Cuenta](/assets/img/docs/education-management/edum-image15.png)
 
 ###  Envío de Estado de Cuenta Corriente
 
+Este proceso buscará todas aquellas entradas de morosidad que existan a partir de los filtros que se le defina y generará el envío de los estados de cuenta correspondientes a cada uno de los Socio del Negocios.
+
+**Definición de Correo**
+
+Correo según Familia: Correo que esté definido en los miembros de la familia que tengan marcado el check de “Envio de mail”. En estos casos se podrá realizar más de un envío del estado de cuenta según tantos miembros tengan definidos.
+
+#### Envío de Estado de Cuenta por Mail
+
+Una vez se generaron todas las entradas en el cálculo de morosidad “Estado de Cuenta” se podrá ir al Proceso de Envío de Estado de Cuenta por Correo”.
+
+En este proceso se deberá definir los filtros deseados y se buscará las Entradas de “Estado de Cuenta” que se desea enviar mediante correo.
+
+Luego de seleccionar los Estados de Cuenta que se desean enviar, se debe seleccionar en los Parámetros del Proceso los criterios de envío.
+
+Dentro de los criterios podemos seleccionar:
+
+Representación Impresa del PDF: Formato de Impresión definido para el Estado de Cuenta. Esto por el momento será fijo para todos los estados de cuenta.
+
+Template de Correo: Definición de la Plantilla de correo que se enviará como texto en el correo.
+
+Check de “Send EMail”: este check podrá ser desmarcado para realizar pruebas de envios sin enviar realmente el correo al Socio del Negocio. Este envio se pdorá visualizar en la ventana de Bitácora de Emails. Si se define el check en “Y” se enviará también el correo a los usuarios definidos como que se envie mail en la Familia del Responsable de Pago.
+
+![Envío por Mail](/assets/img/docs/education-management/edum-image16.png)
