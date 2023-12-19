@@ -70,7 +70,7 @@ Desde la solicitud será posible la carga de horas por usuario (timesheet).
 
 En la opción de Plantilla de notificación es posible configurar templates por tipo de plantilla (ejemplo: solicitudes, proyectos).
 
- ![Plantilla de Correo](/assets/img/docs/basic-rules/bar-not-plantilla.png)
+ ![Plantilla de Correo](/assets/img/docs/basic-rules/bar-not-plantilla1.png)
 
 ### Plantilla de Correo por Evento (¿Qué se envía?)
 
