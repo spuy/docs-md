@@ -1,5 +1,5 @@
 ---
-title: A.a. Circuito Inicial
+title: A. Circuito Inicial
 category: Documentation
 star: 9
 sticky: 9
