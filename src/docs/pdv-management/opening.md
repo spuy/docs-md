@@ -34,6 +34,10 @@ Recuerde seleccionar la opción **OK**, ubicada en la parte inferior de la venta
 Se debe realizar una transferencia por moneda, cuando se necesite aperturar la caja con más de una moneda.
 :::
 
+![Apertura 1](/assets/img/docs/pdv-management/pdm-pdv-image292.png)
+
+![Apertura 2](/assets/img/docs/pdv-management/pdm-pdv-image293.png)
+
 ## Consultar Egreso e Ingreso Generado de la Apertura de Punto de Venta
 
 Al buscar entre los registros de la ventana **Caja**, los valores ingresados en los campos **No. del Documento** y **Documento Destino**, de la ventana **Apertura de Punto de Venta**, se pueden visualizar dos (2) registros resultantes de la transferencia bancaria, entre ellos se encuentran.

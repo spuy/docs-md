@@ -1,5 +1,5 @@
 ---
-title: A. Circuito Inicial
+title: 1. Proceso Inicial
 category: Documentation
 star: 9
 sticky: 9
