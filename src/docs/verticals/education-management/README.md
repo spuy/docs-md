@@ -10,8 +10,8 @@ Esta documentación está destinada a definir cada uno de los procedimientos de 
 
 Solop ERP brinda un sólido circuito de trabajo al organizar la gestión de educación para las Instituciones en sus diferentes niveles.
 
-- [A. Circuito Inicial](initial-circuit)
-- [B. Circuito Final](final-circuit)
+- [1. Circuito Inicial](initial-circuit)
+- [2. Circuito Final](final-circuit)
 - [Socio del negocio para Educación](business-partner-education)
 - [Carga de Contratos Manual (Educación)](import-contracts-manual-education)
 - [Carga de Contratos Masiva (Educación)](import-contracts-education)

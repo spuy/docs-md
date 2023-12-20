@@ -52,7 +52,7 @@ El proceso de actualización de cantidad de hijos, en cabezal de Familia, consid
 
 **Término de pago:** Inmediato, 10 días.
 
-![Contrato de Servicio Educación](/assets/img/docs/service-management/sem-education1.png)
+![Contrato de Servicio Educación](/assets/img/docs/service-management/sem-education100.png)
 
 ### **Cuotas**
 
@@ -62,7 +62,7 @@ Para poder visualizar desde la Ventana de Contrato de Servicios todas las cuotas
 
 Una vez facturado se agregará el Check de Facturado a la línea de cuota misma como a la línea de su descuento.
 
-![Cuotas](/assets/img/docs/service-management/sem-education2.png)
+![Cuotas](/assets/img/docs/service-management/sem-education200.png)
 
 ### **Descuentos**
 
@@ -72,7 +72,7 @@ Esta pestaña podrá actualizar de manera automática desde el proceso “Crear 
 
 Adicionalmente podrá definir un descuento especial pero de manera manual seleccionando el tipo, el porcentaje que corresponda y la Categoría de Producto sobre la cuál se deberá aplicar el descuento.
 
-![Cuotas](/assets/img/docs/service-management/sem-education3.png)
+![Cuotas](/assets/img/docs/service-management/sem-education300.png)
 
 ### **Líneas del Contrato**
 
@@ -96,7 +96,7 @@ Se define los distintos Productos/Servicios que intervienen en el Contrato de Se
 
 Producto definido en la Lista de Precios.  *% Descuento:*  En el caso que el descuento se defina en la línea del contrato este se definirá aquí mediante el Proceso de Actualizar Descuento de Líneas de Contrato. \* En el caso que el Descuento se defina como línea negativa, este campo indicará “0”.
 
-![Líneas del Contrato](/assets/img/docs/service-management/sem-education4.png)
+![Líneas del Contrato](/assets/img/docs/service-management/sem-education400.png)
 
 ### **Actualización del Contrato de Servicio**
 
@@ -134,4 +134,4 @@ Este proceso se puede correr para un contrato específico o de todos los contrat
 
 * También se puede correr el proceso de forma masiva para todos los contratos desde la ventana “Actualización de precios de contrato”, dejando el campo “Contrato” vacío.
 
-![Actualización](/assets/img/docs/service-management/sem-education5.png)
+![Actualización](/assets/img/docs/service-management/sem-education500.png)
