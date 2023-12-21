@@ -53,7 +53,7 @@ Una vez realizadas las configuraciones previas, al momento de correr el proceso 
 * F. Documento: permite filtrar por fecha de documento (en el caso que se posean contratos de diferentes años.
 * Actividad: es el filtro más utilizado, permite buscar los contratos de cada curso a actualizar.
 
-![Filtros y Nuevos Datos](/assets/img/docs/education-management/sem-filter4.png)
+![Filtros y Nuevos Datos](/assets/img/docs/education-management/sem-filter5.png)
 
 ### 3. Definición de nuevos datos y Ejecución del Proceso
 
