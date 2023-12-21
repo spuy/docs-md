@@ -19,6 +19,8 @@ article: false
 El Contrato de Servicio es un acuerdo de condiciones entre la institución educativa y el estudiante. 
 Es posible definir estas condiciones desde entidades vinculadas al mismo Contrato como ser: Descuentos, tipo de recurrencia (anual, mensual), etc.
 
+Para mayor información sobre Contrato de Servicios: - [Contrato de Servicio](service-education-contract)
+
 Una vez creados los diferentes Cursos como productos de servicio (el sistema permite importarlos de forma masiva), es posible cargar los contratos desde un importador, cargando en la misma importación tanto el contrato, el socio del negocio (estudiante), la familia (y sus miembros) y definir el responsable de pago.
 
 ![Contrato de Servicio](/assets/img/docs/education-management/edum-image3.png)
@@ -36,6 +38,8 @@ En la pestaña Cuotas podrán visualizarse los conceptos a facturar vinculados a
 
 En la pestaña Descuento de Línea se definirá el tipo de descuento y su valor (por ejemplo descuento hermano o descuento beca).
 Se define el descuento correspondiente en base a las líneas del Contrato.
+
+Para mayor información sobre Descuentos de Contrato: - [Definición de Descuentos Servicios](../sales-management/comercial-rules/discount-definition-education)
 
 ### Actualización de Precios de Contrato
 
