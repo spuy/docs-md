@@ -20,16 +20,16 @@ Para que el sistema actualice correctamente los contratos por pasaje de año, se
 
 En la ventana producto, sección "Sustituto" se deberá definir el curso siguiente (producto correlativo siguiente) en el campo Sustituto.
 
-![Producto Sustituto](/assets/img/docs/service-management/sem-substitute1.png)
+![Producto Sustituto](/assets/img/docs/education-management/sem-substitute2.png)
 
 ::: note
 Producto: LT (Little Todddlers).
 El producto que le sigue a este sería el "Toddlers" (del ejemplo práctico en la imagen), por esta razón se deberá definir el mismo como "Sustituto".
 :::
 
-En la misma ventana producto, sección "Memo" se deberá definir en el apartado "Referencia" la actividad.
+En la misma ventana producto, sección "Memo" se deberá definir la Actividad.
 
-![Actividad](/assets/img/docs/service-management/sem-activity2.png)
+![Actividad](/assets/img/docs/education-management/sem-activity3.png)
 
 ::: note
 Actividad: En la pestaña memo se deberá definir la Actividad que se vinculará con el producto en cuestión. Esta actividad será la que se defina en la línea del los contratos que correponda en la actualización.
@@ -37,7 +37,7 @@ Actividad: En la pestaña memo se deberá definir la Actividad que se vinculará
 
 En el cabezal de Producto debe estar definido el "Tipo de Servicio".
 
-![Tipo de Servicio](/assets/img/docs/service-management/sem-service3.png)
+![Tipo de Servicio](/assets/img/docs/education-management/sem-service4.png)
 
 ::: note
 Tipo de Servicio: desde el tipo de servicio se tomará la definición de recurrencia de la línea del Contrato. O sea, si se trata de un servicio mensual (kinder, Año Primero) o un servicio específico no mensual (Taller, Natación).
@@ -53,7 +53,7 @@ Una vez realizadas las configuraciones previas, al momento de correr el proceso 
 * F. Documento: permite filtrar por fecha de documento (en el caso que se posean contratos de diferentes años.
 * Actividad: es el filtro más utilizado, permite buscar los contratos de cada curso a actualizar.
 
-![Filtros y Nuevos Datos](/assets/img/docs/service-management/sem-filter4.png)
+![Filtros y Nuevos Datos](/assets/img/docs/education-management/sem-filter5.png)
 
 ### 3. Definición de nuevos datos y Ejecución del Proceso
 
@@ -77,7 +77,7 @@ Los nuevos contratos quedan disponibles para continuar con los siguientes pasos 
 * Correr el Proceso de Actualización de Precios: actualiza el precio de contrato de acuerdo a la versión de lista de precio vigente.
 * Correr el Proceso de Generación de cuotas de Contratos: Esto genera las cuotas mensuales según el rango fecha que se seleccione en "Fecha Hasta" (generalmente se elige generar hasta mitad de año por posibles cambios de precio en segundo semestre).
 
-![Actualización de Precio y Generación de cuotas de Contrato](/assets/img/docs/service-management/sem-update5.png)
+![Actualización de Precio y Generación de cuotas de Contrato](/assets/img/docs/education-management/sem-update6.png)
 
 ### Ventana Motivo de Cancelación del Contrato
 
