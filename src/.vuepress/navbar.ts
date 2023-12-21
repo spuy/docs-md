@@ -48,121 +48,102 @@ export const enNavbarConfig = navbar([
     children: [
       { text: "SOLOP Estándar", link: "", icon: "note", activeMatch: "^/docs/$" },
       {
-        text: "Introducción",
+        text: "Funcionalidades",
         children: [
           "basic-rules",
         ],
       },
       {
-        text: "Datos Maestros",
         children: [
           "master-data",
         ],
       },
       {
-        text: "Facturación Electrónica",
         children: [
           "electronic-billing",
         ],
       },
       {
-        text: "Gestión Contable",
         children: [
           "accounting-management",
         ],
       },
       {
-        text: "Gestión de Activos",
         children: [
           "asset-management",
         ],
       },
       {
-        text: "Gestión de Compras",
         children: [
           "purchase-management",
         ],
       },
       {
-        text: "Gestión de Devoluciones",
         children: [
           "return-management",
         ],
       },
       {
-        text: "Gestión de Distribución",
         children: [
           "distribution-management",
         ],
       },
       {
-        text: "Gestión de Materiales",
         children: [
           "material-management",
         ],
       },
       {
-        text: "Gestión de Producción",
         children: [
           "production-management",
         ],
       },
       {
-        text: "Gestión de Proyectos",
         children: [
           "project-management",
         ],
       },
       {
-        text: "Gestión de Punto de Venta",
         children: [
           "pdv-management",
         ],
       },
       {
-        text: "Gestión de Recursos Humanos",
         children: [
           "human-management",
         ],
       },
       {
-        text: "Gestión de Relaciones con Clientes",
         children: [
           "customer-relationship-management",
         ],
       },
       {
-        text: "Gestión de Saldos Pendientes",
         children: [
           "balance-management",
         ],
       },
       {
-        text: "Gestión de Servicios",
         children: [
           "service-management",
         ],
       },
       {
-        text: "Gestión de Ventas",
         children: [
           "sales-management",
         ],
       },
       {
-        text: "Gestión Financiera",
         children: [
           "financial-management",
         ],
       },
       {
-        text: "Gestión de Activos",
         children: [
           "asset-management",
         ],
       },
       {
-        text: "Preguntas Frecuentes (FAQs)",
         children: [
           "frequently-asked-questions",
         ],
