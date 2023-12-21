@@ -50,35 +50,121 @@ export const enNavbarConfig = navbar([
       {
         text: "Introducción",
         children: [
-          "basic-rules/login",
-          "basic-rules/user-interface",
-          "basic-rules/icons-interface",
-          "basic-rules/toolbar",
-          "basic-rules/quick-access",
-          "basic-rules/props",
+          "basic-rules",
         ],
       },
       {
         text: "Datos Maestros",
         children: [
-          "master-data/business-partner-general/business-partner",
-          "master-data/product",
-          "master-data/warehouse",
-          "master-data/reports"
+          "master-data",
+        ],
+      },
+      {
+        text: "Facturación Electrónica",
+        children: [
+          "electronic-billing",
+        ],
+      },
+      {
+        text: "Gestión Contable",
+        children: [
+          "accounting-management",
+        ],
+      },
+      {
+        text: "Gestión de Activos",
+        children: [
+          "asset-management",
+        ],
+      },
+      {
+        text: "Gestión de Compras",
+        children: [
+          "purchase-management",
+        ],
+      },
+      {
+        text: "Gestión de Devoluciones",
+        children: [
+          "return-management",
+        ],
+      },
+      {
+        text: "Gestión de Distribución",
+        children: [
+          "distribution-management",
+        ],
+      },
+      {
+        text: "Gestión de Materiales",
+        children: [
+          "material-management",
+        ],
+      },
+      {
+        text: "Gestión de Producción",
+        children: [
+          "production-management",
+        ],
+      },
+      {
+        text: "Gestión de Proyectos",
+        children: [
+          "project-management",
+        ],
+      },
+      {
+        text: "Gestión de Punto de Venta",
+        children: [
+          "pdv-management",
+        ],
+      },
+      {
+        text: "Gestión de Recursos Humanos",
+        children: [
+          "human-management",
+        ],
+      },
+      {
+        text: "Gestión de Relaciones con Clientes",
+        children: [
+          "customer-relationship-management",
+        ],
+      },
+      {
+        text: "Gestión de Saldos Pendientes",
+        children: [
+          "balance-management",
+        ],
+      },
+      {
+        text: "Gestión de Servicios",
+        children: [
+          "service-management",
+        ],
+      },
+      {
+        text: "Gestión de Ventas",
+        children: [
+          "sales-management",
+        ],
+      },
+      {
+        text: "Gestión Financiera",
+        children: [
+          "financial-management",
+        ],
+      },
+      {
+        text: "Gestión de Activos",
+        children: [
+          "asset-management",
         ],
       },
       {
         text: "Preguntas Frecuentes (FAQs)",
         children: [
-          "frequently-asked-questions/accounting-management",
-          "frequently-asked-questions/agency-management",
-          "frequently-asked-questions/education-management",
-          "frequently-asked-questions/electronic-billing",
-          "frequently-asked-questions/financial-accounting",
-          "frequently-asked-questions/financial-management",
-          "frequently-asked-questions/general-system-functionality",
-          "frequently-asked-questions/materials-management",
-          "frequently-asked-questions/purchases-sales",
+          "frequently-asked-questions",
         ],
       },
       {
@@ -86,6 +172,7 @@ export const enNavbarConfig = navbar([
         children: [
           "verticals/fap",
           "verticals/investment-and-loan",
+          "verticals/education-management",
         ],
       },
 //       {
