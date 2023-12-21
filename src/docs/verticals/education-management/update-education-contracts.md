@@ -77,7 +77,7 @@ Los nuevos contratos quedan disponibles para continuar con los siguientes pasos 
 * Correr el Proceso de Actualización de Precios: actualiza el precio de contrato de acuerdo a la versión de lista de precio vigente.
 * Correr el Proceso de Generación de cuotas de Contratos: Esto genera las cuotas mensuales según el rango fecha que se seleccione en "Fecha Hasta" (generalmente se elige generar hasta mitad de año por posibles cambios de precio en segundo semestre).
 
-![Actualización de Precio y Generación de cuotas de Contrato](/assets/img/docs/education-management/sem-update5.png)
+![Actualización de Precio y Generación de cuotas de Contrato](/assets/img/docs/education-management/sem-update6.png)
 
 ### Ventana Motivo de Cancelación del Contrato
 
