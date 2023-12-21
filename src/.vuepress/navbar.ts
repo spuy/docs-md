@@ -64,6 +64,7 @@ export const enNavbarConfig = navbar([
           "pdv-management",
           "human-management",
           "customer-relationship-management",
+          "balance-management",
           "service-management",
           "sales-management",
           "financial-management",
