@@ -51,100 +51,23 @@ export const enNavbarConfig = navbar([
         text: "Funcionalidades",
         children: [
           "basic-rules",
-        ],
-      },
-      {
-        children: [
           "master-data",
-        ],
-      },
-      {
-        children: [
           "electronic-billing",
-        ],
-      },
-      {
-        children: [
           "accounting-management",
-        ],
-      },
-      {
-        children: [
           "asset-management",
-        ],
-      },
-      {
-        children: [
           "purchase-management",
-        ],
-      },
-      {
-        children: [
           "return-management",
-        ],
-      },
-      {
-        children: [
           "distribution-management",
-        ],
-      },
-      {
-        children: [
           "material-management",
-        ],
-      },
-      {
-        children: [
           "production-management",
-        ],
-      },
-      {
-        children: [
           "project-management",
-        ],
-      },
-      {
-        children: [
           "pdv-management",
-        ],
-      },
-      {
-        children: [
           "human-management",
-        ],
-      },
-      {
-        children: [
           "customer-relationship-management",
-        ],
-      },
-      {
-        children: [
-          "balance-management",
-        ],
-      },
-      {
-        children: [
           "service-management",
-        ],
-      },
-      {
-        children: [
           "sales-management",
-        ],
-      },
-      {
-        children: [
           "financial-management",
-        ],
-      },
-      {
-        children: [
           "asset-management",
-        ],
-      },
-      {
-        children: [
           "frequently-asked-questions",
         ],
       },
