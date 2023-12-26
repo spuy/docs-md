@@ -21,11 +21,22 @@ Imagen 1. Ejemplo de una Carpeta
 Las ventanas se encuentran representadas por el Icono de una Ventana en el menú de Solop ERP. De igual manera, cada ventana que contempla Solop ERP, representa la interfaz de usuario, mostrando la salida y permitiendo la entrada de datos para uno o varios procesos que se ejecutan.
 
 Para más información sobre Campos de Ventanas: - [Accesos Rápidos](quick-access)
+
 Para más información sobre Controles de Ventanas: - [Barra de Herramientas](toolbar)
 
 ![Ejemplo de una Ventana](/assets/img/docs/basic-rules/bar-icons-windows1.png)
 
-Imagen 2. Ejemplo de una Ventana
+**Las Ventanas poseen dos formas de visualización:**
+
+Una visual de grilla o multi registro que permite visualizar una cantidad determinada de documentos (según la paginación seleccionada) con sus diferentes campos ordenados tipo columna (las mismas pueden agregarse, ocultarse o cambiar su orden).
+
+![Ejemplo de una Ventana](/assets/img/docs/basic-rules/bar-icons-windows2.png)
+
+Una visual de documento individual o mono registro que posibilita consultar un documento específico con sus diferentes datos o campos (los cuales se pueden agregar, ocultar o cambiar su orden en la ventana).
+
+A su vez, esta forma de visualización permite navegar entre las diferentes pestañas del registro (cada pestaña con sus campos correspondientes y con la misma variantes de mono registro o multi registro).
+
+![Ejemplo de una Ventana](/assets/img/docs/basic-rules/bar-icons-windows3.png)
 
 ## Reportes
 
