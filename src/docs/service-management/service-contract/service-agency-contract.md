@@ -65,6 +65,8 @@ Según el Contrato de servicio se obtendrán sus correspondientes Honorarios var
 
 ![Definición de Honorarios](/assets/img/docs/service-management/sem-agency3.png)
 
+![Definición de Honorarios](/assets/img/docs/service-management/sem-agency13.png)
+
 ### **Líneas del Contrato de Servicio de Agencia**
 
 Se definen los distintos Productos/Servicios que intervienen en el Contrato de Servicios de manera recurrente.
