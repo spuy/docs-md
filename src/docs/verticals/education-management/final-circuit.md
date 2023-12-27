@@ -37,7 +37,7 @@ Esta rutina cuenta un protocolo para realizar la asignación de un cobro a una f
 * Por importe exacto.
 * Por importe superior al documento por cobrar (siempre asignando a la factura de menor fecha).
 
-Para mayor información sobre Asignación de Pagos Masiva: - [Pago y Asignación Educación](payment-and-assignment-education)
+**Para mayor información sobre Asignación de Pagos Masiva:** - [Pago y Asignación Educación](payment-and-assignment-education)
 
 En los casos de un cobro por importe menor al documento por cobrar no genera la asignación (ya que no admite asignaciones parciales de forma automática, estas solo se realizan manualmente).
 
@@ -68,7 +68,7 @@ Posee filtros tales como Socio del Negocio, Socio del Negocio a Facturar, Fecha 
 
 La ventana de Bandeja CFE audita todo el proceso de Facturación electrónica, y asignará el tipo de comprobante de acuerdo al grupo de impuesto del Responsable de Pago (si posee RUT genera E-factura y si posee Cedula genera E-ticket).
 
-Para mayor información sobre Generar Facturas desde Cuota de Contrato: - [Orden de Venta](../sales-management/receivable-document/accounts-receivable-agency)
+**Para mayor información sobre Generar Facturas desde Cuota de Contrato:** - [Orden de Venta](../sales-management/receivable-document/accounts-receivable-agency)
 
 **Bandeja CFE**
 
@@ -100,7 +100,7 @@ Desde cada Entrada es posible desde el botón de procesos generar el Estado de c
 
 Al oprimir el botón se desplegará una ventana del proceso donde se deberán seleccionar los criterios o filtros del proceso a generar. En este caso se deberá definir la Organización, el Agente Comercial la Moneda, la fecha (definir un día más de la fecha de facturas) de las facturas que se desean filtrar y la Morosidad (Estado de Cuenta) de los Socios de Negocio.
 
-Para mayor información sobre Cálculo de Morosidad: - [Cálculo de Morosidad](../balance-management/default-management-general/default-management)
+**Para mayor información sobre Cálculo de Morosidad:** - [Cálculo de Morosidad](../balance-management/default-management-general/default-management)
 
 ![Crear Cálculo de Morosidad](/assets/img/docs/education-management/edum-image13.png)
 
