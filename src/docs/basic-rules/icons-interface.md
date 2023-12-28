@@ -38,6 +38,33 @@ A su vez, esta forma de visualización permite navegar entre las diferentes pest
 
 ![Ejemplo de una Ventana](/assets/img/docs/basic-rules/bar-icons-windows3.png)
 
+### Funciones y Accesos Directos de Ventanas
+
+Cada ventana cuenta con funciones y accesos directos para una interacción y navegabilidad óptima:
+
+![Ejemplo de una Ventana](/assets/img/docs/basic-rules/bar-icons-windows4.png)
+
+* Buscar Registros: es un campo de búsqueda que permite ubicar un registro por alguna de sus características (por número, nombre, etc.). A su vez permite abrir la búsqueda avanzada por diferentes filtros.
+Esta búsqueda avanzada posee diferentes métodos de búsqueda por cada filtro (igual a, diferente a, no incluye, etc.) para lograr ubicar un registro determinado de manera ágil y eficiente.
+
+![Ejemplo de una Ventana](/assets/img/docs/basic-rules/bar-icons-windows5.png)
+
+* No. del Documento: es un control que permite agregar y quitar datos (campos) de la ventana. Cada campo/dato de la ventana se despliega en combo/lista y al tildar o destildarlos, los hace visible o los oculta.
+
+![Ejemplo de una Ventana](/assets/img/docs/basic-rules/bar-icons-windows6.png)
+
+* Icono de tres puntos: este botón abre los diferentes procesos a ejecutar en el registro consultado (en este caso por ejemplo: Asignar pago cobro, enviar por mail, Impresión de CFE, exportar, compartir, etc.)
+
+![Ejemplo de una Ventana](/assets/img/docs/basic-rules/bar-icons-windows7.png)
+
+* Icono de tres líneas: este botón permite cambiar el formato de visualización de la ventana (por ejemplo: minimalista, mostrar campos por defecto, mostrar todos los campos, etc.).
+
+![Ejemplo de una Ventana](/assets/img/docs/basic-rules/bar-icons-windows8.png)
+
+* Icono de líneas en azul: este botón ubicado en el lateral derecho permite visualizar pestañas relacionadas con el registro (por ejemplo: histórico de cambios. documentos relacionados, adjuntos, notas, solicitudes, información contable, etc.).
+
+![Ejemplo de una Ventana](/assets/img/docs/basic-rules/bar-icons-windows9.png)
+
 ## Reportes
 
 Los reportes se encuentran representados por el icono Icono de un Reporte en el menú de Solop ERP. Así mismo, permiten visualizar informes acerca de algún documento en específico, transacciones y procesos previamente ejecutados.
