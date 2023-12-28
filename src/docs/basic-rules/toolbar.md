@@ -27,13 +27,3 @@ A continuación se define la operatividad de dicha barra de herramientas.
 * Anular: Es un cotrol que permite el cambio de estado del documento consultado. Su nombre irá cambiando dependiendo del estado actual del documento (mostrando la próxima posible acción). Por ejemplo, cuando se encuentra el documento en estado borrador, mostrará el botón el nombre "Completo". En este caso al estar Completo, muestra el nombre Anular.
 
 * Completo: este botón describe el estado del documento y al presionarlo es posible visualizar los diferentes estados que ha transitado el registro.
-
-* Buscar Registros: es un campo de búsqueda que permite ubicar un registro por alguna de sus características (por número, nombre, etc.). A su vez permite abrir la búsqueda avanzada por diferentes filtros.
-
-* No. del Documento: es un control que permite agregar y quitar datos (campos) de la ventana.
-
-* Icono de tres puntos: este botón abre los diferentes procesos a ejecutar en el registro consultado (en este caso por ejemplo: Asignar pago cobro, enviar por mail, Impresión de CFE, exportar, compartir, etc.)
-
-* Icono de tres líneas: este botón permite cambiar el formato de visualización de la ventana (por ejemplo: minimalista, mostrar campos por defecto, mostrar todos los campos, etc.).
-
-* Icono de líneas en azul: este botón ubicado en el lateral derecho permite visualizar pestañas relacionadas con el registro (por ejemplo: histórico de cambios. documentos relacionados, adjuntos, notas, solicitudes, información contable, etc.).
