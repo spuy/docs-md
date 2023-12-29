@@ -2,8 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es-ES">
   <id>https://ayuda.solopapp.com/</id>
   <title/>
-  <subtitle>Página oficial de documentación ERP Consultores y Asociados, C.A.</subtitle>
-  <updated>2023-12-29T19:59:53.284Z</updated>
+  <subtitle>Página oficial de documentación Solop ERP</subtitle>
+  <updated>2023-12-29T20:29:38.146Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://ayuda.solopapp.com/atom.xml"/>
   <link rel="alternate" href="https://ayuda.solopapp.com/"/>

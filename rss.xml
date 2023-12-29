@@ -4,10 +4,10 @@
     <atom:link href="https://ayuda.solopapp.com/rss.xml" rel="self" type="application/rss+xml"/>
     <title></title>
     <link>https://ayuda.solopapp.com/</link>
-    <description>Página oficial de documentación ERP Consultores y Asociados, C.A.</description>
+    <description>Página oficial de documentación Solop ERP</description>
     <language>es-ES</language>
-    <pubDate>Fri, 29 Dec 2023 19:59:53 GMT</pubDate>
-    <lastBuildDate>Fri, 29 Dec 2023 19:59:53 GMT</lastBuildDate>
+    <pubDate>Fri, 29 Dec 2023 20:29:38 GMT</pubDate>
+    <lastBuildDate>Fri, 29 Dec 2023 20:29:38 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
   </channel>
