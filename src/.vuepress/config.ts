@@ -26,7 +26,7 @@ export default defineUserConfig({
     "/": {
       lang: "es-ES",
       title: "",
-      description: "Página oficial de documentación ERP Consultores y Asociados, C.A.",
+      description: "Página oficial de documentación Solop ERP",
     },
   },
 
