@@ -28,7 +28,7 @@ Por último en la sección Documento seleccionaremos en el campo Tipo de pago el
 
 Luego de esto podemos proceder a completar el documento seleccionando el botón Completar.
 
-![Anticipo](/assets/img/docs/balance-management/bam-payment1.png)
+![Anticipo](/assets/img/docs/education-management/edum-image17.png)
 
 ### **Asignación Masiva Automática con Exclusión**
 
@@ -42,7 +42,7 @@ Desde el Proceso **Generar Servicio a Facturar** generaremos los servicios a Fac
 
 (Este proceso ya está explicado en la guía de Facturación de servicios).
 
-![Gemerar Factura desde cuota de Contrato](/assets/img/docs/balance-management/bam-payment2.png)
+![Gemerar Factura desde cuota de Contrato](/assets/img/docs/education-management/edum-image18.png)
 
 #### **2. Generar Servicio a Facturar de SDN sin ANUALIDAD**
 
@@ -58,8 +58,6 @@ En el filtro Grupo SDN deberemos indicar “Familiar Anualidad”.
 
 Luego de generar las facturas es importante corroborar el check de “No Recurrente” en los Documentos por cobrar ya que éstas no deberán ser tomadas en cuenta posteriormente en el proceso de Asignación Automático (Con exclusión).
 
-![No recurrente](/assets/img/docs/balance-management/bam-payment3.png)
-
 #### **5. Correr proceso de “Asignación Automático (Con exclusión)”**
 
 Por último procederemos a correr el proceso Asignación (Asignación Automática con Exclusión).
@@ -74,7 +72,7 @@ Luego si navegamos a la asignación desde la pestaña Facturas pagadas veremos q
 
 Si voy a la factura NO RECURRENTE puedo corroborar que esta no quedó paga aún, lo mismo podemos verificar en el reporte de Saldos pendientes.
 
-![Asignación automática con exclusión](/assets/img/docs/balance-management/bam-payment4.png)
+![Asignación automática con exclusión](/assets/img/docs/education-management/edum-image19.png)
 
 ### **Asignación (Automática)**
 
@@ -95,7 +93,7 @@ El proceso de Asignación automática permite generar de manera masiva asignacio
 
 Cada Asignación generada desde el proceso de Asignación (Automático) tendrá definido en su Descripción el texto de “Asignación Auto”
 
-![Asignación automática](/assets/img/docs/balance-management/bam-payment5.png)
+![Asignación automática](/assets/img/docs/education-management/edum-image20.png)
 
 ### **Asignación de Pagos Masiva**
 
@@ -109,7 +107,7 @@ Posee los siguientes filtros:
 * CP-CC: Permite seleccionar si solo se realizará la asignación masiva sobre documentos por pagar, sobre documentos por Cobrar o sobre ambos.
 * Factura asignada totalmente: es un check que se encuentra tildado por defecto con el objeto de que no genere asignaciones parciales (sino sobre el importe total abierto de la factura).
 
-![Filtros](/assets/img/docs/balance-management/bam-assignment-image2.png)
+![Filtros](/assets/img/docs/education-management/edum-image21.png)
 
 El proceso aplica asignación en las siguientes condiciones:
 
@@ -132,4 +130,4 @@ Se creará una asignación automática sólo si se cumple una de estas dos condi
 
 Mensaje del Resultado del Proceso:
 
-![Mensaje](/assets/img/docs/balance-management/bam-assignment-image1.png)
+![Mensaje](/assets/img/docs/education-management/edum-image22.png)
