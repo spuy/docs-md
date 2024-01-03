@@ -1,5 +1,5 @@
 ---
-title: Órdenes de Trabajo
+title: 1. Órdenes de Trabajo
 category: Documentation
 star: 9
 sticky: 9
@@ -34,6 +34,6 @@ Esto permite al departamento de Administración entrar en la orden de trabajo vi
 ### Generar Orden desde Proyecto
 
 Una orden de trabajo ya confirmada y con su correspondiente línea de orden generada con los productos vinculados al sericio realizado se encuentra en condiciones de facturar.
-Para esto, desde el proceso de Generar orden desde proyecto se la selecciona y le crea en forma automática (heredando los datos de la orden de trabajo) una orden de venta, una orden de compra y un documento por pagar (este último corresónde al servicio realizado por el agente comercial o recurso).
+Para esto, desde el proceso de Generar orden desde proyecto se la selecciona y le crea en forma automática (heredando los datos de la orden de trabajo) una orden de venta, una orden de compra y un documento por pagar (este último corresponde al servicio realizado por el agente comercial o recurso).
 
 ![Generar Orden desde Proyecto](/assets/img/docs/field-services-management/fis-services5.png)

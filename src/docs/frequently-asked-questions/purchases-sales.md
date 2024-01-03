@@ -211,8 +211,12 @@ Puede ser por 4 motivos:
 
 * Que NO esté COMPLETA
 * Que no tenga el check de “Permite facturar”
-* Ver que Regla de facturación tiene la misma
 * Verificar en la línea de la Orden que no tenga Cantidades facturadas
+* Ver que Regla de facturación tiene la misma:
+
+**Si la regla de facturacion es "Despues de entrega" entonces la cantidad entregada de la linea debe ser mayor a la facturada**
+
+**Si la regla de facturacion NO es  "Despues de entrega" entonces la cant.  facturada debe ser distinta a la cant ordenada**
 
 #### ERROR: Producto no está en lista de precios.
 
