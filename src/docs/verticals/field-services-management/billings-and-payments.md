@@ -1,5 +1,5 @@
 ---
-title: Facturación y Pagos
+title: 2. Facturación y Pagos
 category: Documentation
 star: 9
 sticky: 9
@@ -19,6 +19,6 @@ Los documentos por pagar (por los servicios realizados por los diferentes agente
 Esto puede realizarse diariamente, o periódicamente (de forma semanal, quincenal, etc.)
 En la ventana Selección de Pago debe seleccionarse El tipo de documento (Orden de Pago), la cuenta bancaria, la fecha del documento y la moneda.
 La selección de pago puede realizarse sobre un agente comercial en particular o bien sobre los documentos por pagar pendientes de pago (uno, varios o todos), mediante el botón de seleccionar Documentos por pagar.
-En paso posterior se seleccona la forma de pago y es posible imprimir el Pago generado.
+En paso posterior se selecciona la forma de pago y es posible imprimir el Pago generado.
 
 ![Selección de Pago](/assets/img/docs/field-services-management/fis-services7.png)
