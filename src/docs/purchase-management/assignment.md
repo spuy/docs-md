@@ -8,19 +8,19 @@ article: false
 
 Para realizar el procedimiento de asignación correctamente, es necesario cumplir con los siguientes requerimientos:
 
-Un documento de **Orden de Compra** directa, para este caso se presenta la orden de compra número **OCN-24**, relacionada con el socio del negocio **Estándar**, por la compra del producto **DOIS-000001 \_Estandar** y con monto total de **2.500.000,00**.
+Un documento de **Orden de Compra** directa, para este caso se presenta la orden de compra, relacionada con el socio del negocio **Proveedor Ejemplo**, por la compra del productos..
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image64.png)
 
 Imagen 1. Orden de Compra
 
-Un documento de **Recepción de Productos** desde la orden de compra previamente realizada, para este caso se presenta la recepción de productos número **RN-2**, relacionada con la orden de compra número **OCN-24** y el producto **DOIS-000001 \_Estandar**.
+Un documento de **Recepción de Productos** desde la orden de compra previamente realizada, para este caso se presenta la recepción de productos, relacionada con la orden de compra.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image65.png)
 
 Imagen 2. Recepción de Productos
 
-Una **Factura** manual, sin llamar dentro de la misma a la orden de compra o recepción anteriormente realizada. Para este caso se presenta la factura número **1000112**, relacionada con el socio del negocio **Estándar**, por la compra del producto **DOIS-000001 \_Estandar** y con monto total de **2.500.000,00**.
+Una **Factura** manual, sin llamar dentro de la misma a la orden de compra o recepción anteriormente realizada. Para este caso se presenta la factura relacionada con el socio del negocio **Proveedor Ejemplo**, por la compra de productos consistentes con la OC creada y con mismo importe.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image66.png)
 
@@ -40,51 +40,19 @@ Imagen 5. Ventana Asignar OC Recepción Factura
 
 Seleccione en el campo **Asignar Desde**, el documento que requiere asignar.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image69.png)
-
-Imagen 6. Campo Asignar Desde de la Ventana Asignar OC Recepción Factura
-
 Seleccione en el campo **Asignar Hasta**, el documento al cual se requiere asignar.
-
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image70.png)
-
-Imagen 7. Campo Asignar Hasta de la Ventana Asignar OC Recepción Factura
 
 Seleccione en el campo **Modo de Búsqueda**, el método utilizado para filtrar la búsqueda de los documentos.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image71.png)
-
-Imagen 8. Campo Modo de Búsqueda de la Ventana Asignar OC Recepción Factura
-
 Seleccione en el campo **Socio del Negocio**, el socio del negocio por el cual requiere filtrar la búsqueda.
-
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image72.png)
-
-Imagen 9. Campo Socio del Negocio de la Ventana Asignar OC Recepción Factura
 
 Seleccione en el campo **Producto**, el producto por el cual requiere filtrar la búsqueda.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image73.png)
-
-Imagen 10. Campo Producto de la Ventana Asignar OC Recepción Factura
-
 Seleccione en el campo **Fecha Desde**, el inicio del rango de fechas por el cual requiere filtrar la búsqueda.
-
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image74.png)
-
-Imagen 11. Campo Fecha Desde de la Ventana Asignar OC Recepción Factura
 
 Seleccione en el campo **Fecha Hasta**, la fecha final del rango de fechas por el cual requiere filtrar la búsqueda.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image75.png)
-
-Imagen 12. Campo Fecha Hasta de la Ventana Asignar OC Recepción Factura
-
 Seleccione la opción **Buscar Registros**, para realizar la búsqueda en base a lo seleccionado en los campos anteriormente explicados.
-
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image76.png)
-
-Imagen 13. Opción Buscar Registros de la Ventana Asignar OC Recepción Factura
 
 Seleccione en la sección **Factura**, la factura que requiere asignar.
 

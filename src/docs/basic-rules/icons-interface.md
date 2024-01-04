@@ -26,6 +26,8 @@ Las ventanas se encuentran representadas por el Icono de una Ventana en el menú
 
 ![Ejemplo de una Ventana](/assets/img/docs/basic-rules/bar-icons-windows1.png)
 
+### Modos de Visualización
+
 **Las Ventanas poseen dos formas de visualización:**
 
 Una visual de grilla o multi registro que permite visualizar una cantidad determinada de documentos (según la paginación seleccionada) con sus diferentes campos ordenados tipo columna (las mismas pueden agregarse, ocultarse o cambiar su orden).
@@ -38,32 +40,64 @@ A su vez, esta forma de visualización permite navegar entre las diferentes pest
 
 ![Ejemplo de una Ventana](/assets/img/docs/basic-rules/bar-icons-windows3.png)
 
-### Funciones y Accesos Directos de Ventanas
+### Búsqueda de Registros
 
 Cada ventana cuenta con funciones y accesos directos para una interacción y navegabilidad óptima:
 
 ![Ejemplo de una Ventana](/assets/img/docs/basic-rules/bar-icons-windows4.png)
 
-* Buscar Registros: es un campo de búsqueda que permite ubicar un registro por alguna de sus características (por número, nombre, etc.). A su vez permite abrir la búsqueda avanzada por diferentes filtros.
+**Búsqueda Individual**
+
+* Buscar Registros: es un campo de búsqueda que permite ubicar un registro por alguna de sus características (por número, nombre, etc.). 
+
+**Consulta Avanzada**
+
+A su vez permite abrir la búsqueda avanzada por diferentes filtros.
 Esta búsqueda avanzada posee diferentes métodos de búsqueda por cada filtro (igual a, diferente a, no incluye, etc.) para lograr ubicar un registro determinado de manera ágil y eficiente.
+La consulta avanzada presenta un campo que despliega en combo los diferentes filtros para agregarse u ocultarse de la búsqueda.
+Cada filtro posee las siguientes opciones de búsqueda por cada entidad:
+
+* Igual a: realizará la búsqueda que sea identico/s al dato ingresado.
+* Diferente a: realizará la búsqueda sobre registros que sean diferente al ingresado
+* Tiene un valor: mostrará aquellos registros que posean un valor en el campo seleccionado
+* No tiene un valor: mostrará aquellos registros que no posean un valor en el campo seleccionado
+* Contiene: mostrará aquellos registros que posean el valor ingresado (aunque sea una parte del registro, pueden ser letras o números)
+* No contiene: mostrará registros que no contengan el valor ingresado (aunque sea parte del registro, en letras o números)
 
 ![Ejemplo de una Ventana](/assets/img/docs/basic-rules/bar-icons-windows5.png)
 
-* No. del Documento: es un control que permite agregar y quitar datos (campos) de la ventana. Cada campo/dato de la ventana se despliega en combo/lista y al tildar o destildarlos, los hace visible o los oculta.
+### Control de Campos
+
+Es un elemento que permite agregar y quitar datos (campos) de la ventana. Cada campo/dato de la ventana se despliega en combo/lista y al tildar o destildarlos, los hace visible o los oculta.
 
 ![Ejemplo de una Ventana](/assets/img/docs/basic-rules/bar-icons-windows6.png)
 
-* Icono de tres puntos: este botón abre los diferentes procesos a ejecutar en el registro consultado (en este caso por ejemplo: Asignar pago cobro, enviar por mail, Impresión de CFE, exportar, compartir, etc.)
+### Pestaña de Ejecución de Procesos
+
+Este botón abre los diferentes procesos a ejecutar en el registro consultado (en este caso por ejemplo: Asignar pago cobro, enviar por mail, Impresión de CFE, exportar, compartir, etc.)
 
 ![Ejemplo de una Ventana](/assets/img/docs/basic-rules/bar-icons-windows7.png)
 
-* Icono de tres líneas: este botón permite cambiar el formato de visualización de la ventana (por ejemplo: minimalista, mostrar campos por defecto, mostrar todos los campos, etc.).
+### Formato de Visualización
+
+Este botón permite cambiar el formato de visualización de la ventana (por ejemplo: minimalista, mostrar campos por defecto, mostrar todos los campos, etc.).
 
 ![Ejemplo de una Ventana](/assets/img/docs/basic-rules/bar-icons-windows8.png)
 
-* Icono de líneas en azul: este botón ubicado en el lateral derecho permite visualizar pestañas relacionadas con el registro (por ejemplo: histórico de cambios. documentos relacionados, adjuntos, notas, solicitudes, información contable, etc.).
+### Solapa de Elementos Relacionados
+
+Este botón ubicado en el lateral derecho permite visualizar pestañas relacionadas con el registro (por ejemplo: histórico de cambios. documentos relacionados, adjuntos, notas, solicitudes, información contable, etc.).
 
 ![Ejemplo de una Ventana](/assets/img/docs/basic-rules/bar-icons-windows9.png)
+
+**Información de Solapas**
+
+* Histórico de cambios: permite visualizar la auditoría de cambios en el registro.
+* Documentos Relacionados: en esta pestaña se pueden consultar las diferentes entidades relacionadas al registro y navegar hacia ellas.
+* Adjuntos: permite consultar y descargar los diferentes archivos adjuntos al registro
+* Notas: en esta pestaña se pueden visualizar las notas generadas para el registro.
+* Solicitudes: Es posible crear solicitudes o consultar solicitudes vinculadas al registro.
+* Histórico de Flujo de Trabajo: permite visualizar los diferentes estados que ha transitado el registro.
 
 ## Reportes
 
