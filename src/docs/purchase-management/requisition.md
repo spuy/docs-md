@@ -26,7 +26,7 @@ Seleccione el icono **Registro Nuevo** en la barra de herramientas de Solop ERP,
 
 Imagen 2. Icono Registro Nuevo
 
-Seleccione en el campo **Organización**, la organización para la cual se esta realizando el documento de requisición de productos o servicios, el valor en el mismo debe ser diferente del símbolo (\*).
+Seleccione en el campo **Organización**, la organización para la cual se esta realizando el documento de requisición de productos o servicios, el valor en el mismo debe ser diferente del símbolo (*).
 
 Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por Solop ERP.
 
@@ -69,7 +69,3 @@ Regrese a la ventana principal **Requisición** y seleccione la opción **Comple
 Imagen 18. Opción Completar
 
 Seleccione la acción **Completar** y la opción **OK** para completar el documento.
-
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image496.png)
-
-Imagen 19. Completar Documento
