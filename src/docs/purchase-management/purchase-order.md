@@ -32,7 +32,7 @@ El presente material elaborado por Solop ERP, pretende ofrecerle una explicació
 
 ### Registro de Orden de Compra desde Requisición
 
-Para ejemplificar el registro de crear orden de compra desde requisición, es utilizado el documento de requisición **RCN-1000004**.
+Para ejemplificar el registro de crear orden de compra desde requisición, es utilizado el documento de requisición.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image315.png)
 
@@ -62,10 +62,6 @@ Seleccione la opción **OK**, para generar la orden de compra desde la requisici
 
 Podrá visualizar en la ventana del proceso **Crear OC desde Requisición**, el número del documento de **Orden de Compra** generado.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image322.png)
-
-Imagen 8. Ventana del Proceso Crear OC desde Requisición con el Número de Documento Generado
-
 ### Consultar y Completar Orden de Compra Generada
 
 Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Compras**, luego seleccione la ventana **Órdenes de Compra**.
@@ -84,11 +80,7 @@ Imagen 10. Orden de Compra Generada desde el Proceso Crear OC desde Requisición
 El proceso genera el documento **Orden de Compra** en estado **Borrador** y la opción establecida de estado del documento es **Preparar**.
 :::
 
-Seleccione en el campo **Agente Compañía**, el usuario que esta realizando la orden de compra. Para ejemplificar el registro es utilizado el agente de compañía **Compañía Estándar C.A.**.
-
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image325.png)
-
-Imagen 11. Campo Agente Compañía
+Seleccione en el campo **Agente Compañía**, el usuario que esta realizando la orden de compra.
 
 Seleccione la pestaña **Línea Orden Compra**, para ingresar el precio unitario de los productos solicitados.
 
@@ -98,10 +90,6 @@ Imagen 12. Pestaña Línea Orden Compra
 
 Introduzca en el campo **Precio**, el precio unitario de los productos solicitados en el documento **Requisición**.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image327.png)
-
-Imagen 13. Campo Precio
-
 Seleccione la pestaña **Orden de Compra** para regresar a la ventana principal del registro, luego seleccione la opción **Preparar**, ubicado en la parte inferior derecha del documento para completar el mismo.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image328.png)
@@ -109,10 +97,6 @@ Seleccione la pestaña **Orden de Compra** para regresar a la ventana principal 
 Imagen 14. Opción Preparar
 
 Seleccione la acción **Completar** y la opción **OK**, para completar el documento **Orden de Compra**.
-
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image329.png)
-
-Imagen 15. Acción Completar y Opción OK
 
 ### Crear Orden de Compra desde Líneas de la Requisición
 
@@ -124,13 +108,13 @@ Crear Orden de Compra desde Líneas de la Requisición
 
 ### Crear Orden de Compra desde Líneas de la Requisición
 
-Para ejecutar el procedimiento de manera correcta, debe existir obligatoriamente un registro de requisición en estado **Completo. En este caso, se tiene como ejemplo la requisición **RCN-4\*\*.
+Para ejecutar el procedimiento de manera correcta, debe existir obligatoriamente un registro de requisición en estado **Completo**.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image330.png)
 
 Imagen 1. Requisición
 
-Dicha requisición contiene cuatro (4) líneas.
+Dicha requisición contiene dos (2) líneas.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image331.png)
 
@@ -208,10 +192,6 @@ Imagen 31. Resultados de Búsqueda
 
 Seleccione las líneas de la requisición para crear la orden de compra desde las mismas.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image361.png)
-
-Imagen 32. Seleccione de Líneas de Requisición
-
 ::: note
 Al seleccionar cualquiera de los registros, se habilitan diferentes campos que le permiten al usuario ingresar o modificar los valores en los mismos.
 :::
@@ -258,25 +238,13 @@ Imagen 46. Pestaña Línea de Orden
 
 Introduzca en el campo **Precio**, el precio del producto correspondiente al registro de la línea en la que se encuentra.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image376.png)
-
-Imagen 47. Campo Precio
-
 ::: note
 Recuerde guardar el registro de los campos en pestaña **Línea Orden Compra**
 :::
 
 Seleccione la pestaña principal **Orden de Compra** para proceder a completar el registro.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image377.png)
-
-Imagen 48. Pestaña Orden de Compra
-
 Seleccione la opción **Preparar**, ubicado en la parte inferior de la ventana **Órdenes de Compra**.
-
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image378.png)
-
-Imagen 49. Opción Preparar
 
 Seleccione la acción **Completar** y la opción **OK**, para completar el proceso.
 
@@ -304,10 +272,6 @@ Asegúrese de que cada campo que se encuentre identificado como carácter obliga
 
 Ubique en el menú de Solop ERP la carpeta **Gestión de Compras**, luego seleccione la ventana **Órdenes de Compra**, adjunto imagen para referencia.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image380.png)
-
-Imagen 1. Menú de Solop ERP
-
 Seleccione el icono **Registro Nuevo** en la barra de herramientas de Solop ERP para crear un nuevo documento.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image381.png)
@@ -334,13 +298,13 @@ En el campo **Socio del Negocio**, debe seleccionar el nombre del socio del nego
 
 Si el Socio de negocio, tiene más de una dirección registrada, debe seleccionar la dirección del socio del negocio, caso contrario, si posee dirección única, esta información se refleja automáticamente en el campo **Dirección del Socio del Negocio** una vez haya seleccionado el nombre del socio de negocio.
 
-En la sección de **Entrega\*\***, se encuentran los siguientes grupos de campos: almacén, entrega directa y usuario, estos hacen referencia a:
+En la sección de **Entrega**, se encuentran los siguientes grupos de campos: almacén, entrega directa y usuario, estos hacen referencia a:
 
-\*\*Almacén, en el cual se requiere el producto o servicio (Es de Carácter obligatorio)
+* Almacén, en el cual se requiere el producto o servicio (Es de Carácter obligatorio)
 
-\*\*Entrega Directa, Indica que el proveedor realizará la entrega directamente al cliente.
+* Entrega Directa, Indica que el proveedor realizará la entrega directamente al cliente.
 
-\*\*Usuario, Indica el Nombre del usuario de sistema.
+* Usuario, Indica el Nombre del usuario de sistema.
 
 En el campo seleccionable **Vía de Entrega**, debe seleccionar la opción que indique, de qué manera serán entregados los productos o servicios de la orden.
 
@@ -360,7 +324,7 @@ En la sección de **Facturación**, se encuentran los siguientes grupos de campo
 
 Recuerde guardar el registro de la ventana, seleccionando el icono **Guardar** ubicado en la barra de herramientas, una vez guardado el nuevo registro, podrá avanzar a la pestaña **Línea Orden Compra**.
 
-Seleccione la pestaña **Línea Orden Compra** y proceda seleccionando el Producto o Servicio a ordenar. Si la orden de compra contiene varios productos, el campo **Nro. de Línea\*\***, indicará el orden y despliegue de los mismos dentro del documento. Una vez que guarde el primer producto, deberá seleccionar nuevo, incrementando así el número de líneas por productos en el documento.
+Seleccione la pestaña **Línea Orden Compra** y proceda seleccionando el Producto o Servicio a ordenar. Si la orden de compra contiene varios productos, el campo **Nro. de Línea**, indicará el orden y despliegue de los mismos dentro del documento. Una vez que guarde el primer producto, deberá seleccionar nuevo, incrementando así el número de líneas por productos en el documento.
 
 Los campos **Compañía**, **Organización**, **Orden de Compra**, **Socio del Negocio** y **Dirección del Socio del Negocio**, vienen precargados de la ventana principal **Orden de Compra**.
 
@@ -408,23 +372,11 @@ Recuerde guardar el registro de la pestaña **Línea Orden Compra** con el icono
 
 Regrese a la ventana principal **Orden de Compra** y seleccione la opción **Completar** ubicada en la parte inferior derecha del documento.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image417.png)
-
-Imagen 38. Opción Completar
-
 ## Orden de Compra Multimoneda
 
 Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Compras**, luego seleccione la ventana **Órdenes de Compra**.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image418.png)
-
-Imagen 1. Menú de Solop ERP
-
 Seleccione el icono **Registro Nuevo** en la barra de herramientas de Solop ERP para crear un nuevo documento.
-
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image419.png)
-
-Imagen 2. Registro Nuevo
 
 Seleccione en el campo **Organización**, el nombre de la organización de la cual se está emitiendo el documento **Orden de Compra Multimoneda**.
 
@@ -448,7 +400,7 @@ Seleccione en el campo **Socio del Negocio a Facturar**, el socio del negocio a 
 
 Si el socio de negocio, tiene más de una dirección registrada, debe seleccionar la dirección del socio del negocio, caso contrario, si posee dirección única, esta información se refleja automáticamente en el campo **Dirección del Socio del Negocio** una vez haya seleccionado el nombre del socio de negocio.
 
-Seleccione en el campo **\*Dirección Factura**, la dirección del socio del negocio para la factura.
+Seleccione en el campo **Dirección Factura**, la dirección del socio del negocio para la factura.
 
 Seleccione en el campo **Usuario**, el usuario del socio del negocio seleccionado.
 
@@ -478,7 +430,7 @@ Seleccione la prioridad de la orden en el campo **Prioridad**, este campo indica
 
 Seleccione en el campo **Lista de Precios**, la lista de precios con la cual será generada la orden de compra.
 
-Por tratarse de una orden de compra multimoneda, la lista de precios que se debe seleccionar debe ser **Compras (USD)** o **Compras (EUR)**. Esta determina el precio, margen y costo de los artículos comprados.
+Por tratarse de una orden de compra multimoneda, la lista de precios que se debe seleccionar debe ser **Compras (USD)** o **Compras (UYU)**. Esta determina el precio, margen y costo de los artículos comprados.
 
 El valor en el campo **Moneda**, dependerá de la lista de precios seleccionada en el campo **Lista de Precios**.
 
@@ -500,10 +452,6 @@ Seleccione la pestaña **Línea Orden Compra** y proceda al llenado de los campo
 
 Los campos **Compañía**, **Organización**, **Orden de Compra**, **Socio del Negocio** y **Dirección del Socio del Negocio**, vienen precargados de la ventana principal **Orden de Compra**.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image446.png)
-
-Imagen 29. Línea Orden Compra
-
 Seleccione en el campo **Producto**, el producto correspondiente a la orden de compra que se encuentra realizando.
 
 Introduzca en el campo **Cantidad**, la cantidad del producto seleccionado.
@@ -522,7 +470,7 @@ Este campo estará en cero (0), hasta que sea generado un documento de recepció
 
 En el campo **Cantidad Reservada**, se indica la cantidad del producto que ha sido reservado para otras órdenes.
 
-Seleccione en el campo \*\*Cantidad Facturada, la cantidad de un producto que ha sido facturado.
+Seleccione en el campo **Cantidad Facturada**, la cantidad de un producto que ha sido facturado.
 
 Este campo estará en cero (0), hasta que sea generado un documento de cuentas por pagar (factura) con dicho producto, asociando la orden de compra.
 
@@ -548,12 +496,4 @@ Recuerde guardar el registro de la pestaña **Línea Orden Compra** con el icono
 
 Regrese a la pestaña principal **Orden de Compra** y seleccione la opción **Completar** ubicada en la parte inferior derecha del documento.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image461.png)
-
-Imagen 44. Pestaña Principal Orden de Compra y Opción Completar
-
 Seleccione la acción **Completar** y la opción **OK**.
-
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image462.png)
-
-Imagen 45. Acción Completar y Opción OK

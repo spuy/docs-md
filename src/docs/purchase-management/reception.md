@@ -42,13 +42,13 @@ Seleccione en el campo **Almacén**, el almacén en que cual se guardarán los p
 
 Selecione la opción **Crear Desde** para crear el documento de recepción desde una factura o una orden de compra.
 
-Seleccione en el campo **Crear Desde Tipo**, el tipo de documento desde donde se va a crear el documento de recepción, para este ejemplo se crea desde tipo **Factura**.
+Seleccione en el campo **Crear Desde Tipo**, el tipo de documento desde donde se va a crear el documento de recepción, para este ejemplo se crea desde tipo **Orden**.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image472.png)
 
 Imagen 10. Campo Crear Desde Tipo
 
-Seleccione en el campo **Factura**, la factura desde donde va a crear el documento de recepción.
+Seleccione en el campo **Orden**, la forden desde donde va a crear el documento de recepción.
 
 Seleccione la opción **Comenzar Búsqueda** para buscar la factura a seleccionar.
 
@@ -56,7 +56,7 @@ Seleccione la factura desde donde va a crear el documento de recepción.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image475.png)
 
-Imagen 13. Selección de Factura
+Imagen 13. Selección de Orden
 
 Seleccione la opción **OK** para cargar la factura al documento de recepción.
 
@@ -67,7 +67,3 @@ Seleccione la opción **Completar** en la parte inferior derecha del documento d
 Imagen 15. Opción Completar
 
 Seleccione la acción **Completar** y la opción **OK** para completar el documento.
-
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image477.png)
-
-Imagen 16. Completar Documento
