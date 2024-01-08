@@ -334,29 +334,13 @@ Imagen 50. Ventana Validación de Respuesta
 
 Ubique en la ventana **Solicitud para Cotización** el registro del **Caso 2: Solicitud para Cotización por Tipo Cotiza Sólo el Total** y seleccione la opción **Valuación de Respuestas**.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image51.png)
-
-Imagen 51. Registro del Caso 2
-
 Podrá visualizar la ventana **Validación de Respuestas** donde debe seleccionar la opción **OK**.
-
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image52.png)
-
-Imagen 52. Ventana Validación de Respuesta
 
 ### Caso 3: Solicitud para Cotización por Tipo Cótiza todas las Líneas
 
 Ubique en la ventana **Solicitud para Cotización** el registro del **Caso 3: Solicitud para Cotización por Tipo Cótiza todas las Líneas** y seleccione la opción **Valuación de Respuestas**.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image53.png)
-
-Imagen 53. Registro del Caso 3
-
 Podrá visualizar la ventana **Validación de Respuestas** donde debe seleccionar la opción **OK**.
-
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image54.png)
-
-Imagen 54. Ventana Validación de Respuesta
 
 ## Consulta de Ganador Seleccionado en la Solicitud para Cotización con Respuesta
 
