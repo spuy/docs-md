@@ -1,5 +1,5 @@
 ---
-title: Documento por Pagar
+title: Gestión de Documento por Pagar
 category: Documentation
 star: 9
 sticky: 9
@@ -177,10 +177,6 @@ Imagen 60. Campo Total de Líneas
 
 De igual manera, podrá visualizar en el campo **Gran Total**, la sumatoria de todos los montos reflejados en el campo **Total de la Línea**, de todas las líneas que contiene el documento por pagar.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image277.png)
-
-Imagen 61. Campo Gran Total
-
 ::: note
 El gran total identifica el total incluyendo impuestos y totales de fletes en la moneda del documento.
 :::
@@ -193,23 +189,11 @@ Imagen 62. Opción Completar
 
 Seleccione la acción **Completar** y la opción **OK** para completar el documento.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image279.png)
-
-Imagen 63. Acción Completar Documento
-
 ## Crear Factura desde Orden de Compra
 
-Ubique en el menú de Solop ERP la carpeta **Gestión de Compras**, luego seleccione la ventana **Documentos por Pagar**, adjunto imagen para referencia.
-
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image280.png)
-
-Imagen 1. Menú de Solop ERP
+Ubique en el menú de Solop ERP la carpeta **Gestión de Compras**, luego seleccione la ventana **Documentos por Pagar**.
 
 Podrá visualizar la ventana **Documentos por Pagar**, con todos los registros de documentos por pagar que se encuentran en Solop ERP.
-
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image281.png)
-
-Imagen 2. Ventana Documentos por Pagar
 
 Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de Solop ERP para crear un nuevo registro.
 
@@ -249,6 +233,8 @@ Podrá visualizar la ventana **Crear Desde una Orden/ADM/Factura/Recepción en u
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image298.png)
 
+![Campo](/assets/img/docs/purchase-management/pum-purchase-image299.png)
+
 Imagen 19. Ventana Crear Desde una Orden ADM Factura Recepción en una Factura
 
 Seleccione en el campo **Crear Desde Tipo**, la opción **Orden**, para crear el documento por pagar desde una orden de compra.
@@ -264,10 +250,6 @@ Seleccione el registro de la orden de compra desde la cual requiere crear el doc
 Imagen 23. Selección de Orden de Compra en la Ventana Crear Desde una Orden ADM Factura Recepción en una Factura
 
 Seleccione la opción **OK**, para cargar a la ventana **Documento por Pagar**, la información de la orden de compra seleccionada.
-
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image303.png)
-
-Imagen 24. Opción OK de la Ventana Crear Desde una Orden ADM Factura Recepción en una Factura
 
 El proceso regresa a la ventana **Documentos por Pagar**, donde se debe seleccionar el icono **Refrescar**, ubicado en la barra de herramientas de Solop ERP, para actualizar los campos en dicha ventana y sean visualizados los datos cargados desde el proceso anteriormente explicado.
 
@@ -289,15 +271,7 @@ Imagen 27. Pestaña Línea de Factura de la Ventana Documentos por Pagar desde O
 
 Seleccione la pestaña principal **Factura**, para ubicar la opción **Completar**, en la parte inferior derecha del documento.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image307.png)
-
-Imagen 28. Pestaña Principal Factura de la Ventana Documentos por Pagar desde Orden de Compra
-
 Seleccione la opción **Completar**, para completar el registro realizado en la ventana **Documentos por Pagar**.
-
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image308.png)
-
-Imagen 29. Opción Completar de la Ventana Documentos por Pagar desde Orden de Compra
 
 Seleccione la acción **Completar** y la opción **OK**, para culminar el procedimiento.
 
@@ -309,15 +283,7 @@ Imagen 30. Acción Completar y Opción OK de la Ventana Documentos por Pagar des
 
 Cree una orden de compra de forma habitual con divisas, de no conocer el procedimiento puede consultar el material Registro de Orden de Compra Directa, para este ejemplo hemos realizado una orden con moneda USD.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image310.png)
-
-Imagen 1. Orden de Compra
-
 Cree un documento por pagar de manera habitual, de no conocer el procedimiento puede consultar el material Crear Factura desde Orden de Compra, para este ejemplo realizaremos una factura en BS para convertirla.
-
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image311.png)
-
-Imagen 2. Factura
 
 Tome como salvedad los siguientes campos importantes para el proceso:
 
@@ -325,22 +291,10 @@ Seleccione la opción **Crear Desde Orden/Recibo**, para crear el documento por 
 
 Seleccione la orden creada inicialmente, al ejecutar el proceso verá que son cambiados automáticamente los campos **Lista de Precio**, **Moneda** y **Tipo de Conversión**.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image312.png)
-
-Imagen 3. Lista de Precio
-
 Proceda a cambiar de manera manual la **Lista de Precio** y el **Tipo de Conversión** de ser necesario, recuerde, que el **Tipo de Conversión** determina la tasa de cambio con la que se realizará la conversión del documento.
 
 Ejecute el proceso **Recalcular Tasa Para Lineas de la Factura** que realiza la conversión del documento por pagar, ubicado en la barra de herramientas.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image313.png)
-
-Imagen 4. Proceso Convertir Documento
-
 La ejecución del proceso dejará como resultado las lineas del documento convertidas, los impuestos y el gran total, evitando así tener que realizar la conversión de forma manual.
 
 Sabiendo que el ejemplo es de una Orden de Compra de 500 USD con un 16% de IVA quedando un total de 580 USD, al crear la factura y convertir con una tasa de 5,771 el resultado convertido debe ser 3.347,18.
-
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image314.png)
-
-Imagen 5. Factura Convertida
