@@ -36,3 +36,12 @@ Si se abre una ventana desde el menú, el sistema lo hace mostrando todos los re
 Si ésta se abre desde el Acceso Rápido de "Últimos Documentos" o se navega a la misma desde un campo en especial, la ventana se abre pero con un "FILTRO APLICADO".
 
 El problema se da cuando desde una ventana con un filtro aplicado, generan un NUEVO REGISTRO, el mismo se podrá editar y guardar sin problema siempre y cuando estemos en la misma Pestaña; ahora si se baja a una pestaña Hija al volver a subir a la pestaña PADRE, se volverá a aplicar el Filtro Inicial que teníamos definido; si este filtro NO INCLUYE el nuevo Registro que habíamos generado, el mismo no se verá.
+
+### ¿Cómo anular o cerrar masivamente órdenes de venta?
+
+Es posible accionar masivamente modificando el estado de órdenes de venta desde el proceso "Procesar Órdenes en Lote".
+Cuenta con filtros o parámetros con el objeto de ajustar la búsqueda.
+El campo Estado del Documento es de llenado obligatorio.
+Una vez seleccionados los filtros, se realiza la búsqueda y esto permite seleccionar un registro, varios o todos. 
+Luego se selecciona la "Acción en el Documento" (el estado que se desea definir para los documentos).
+Al presionar Ok el proceso ejecutará el cambio de estado en los documentos seleccionados.

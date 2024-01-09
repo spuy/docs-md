@@ -8,14 +8,6 @@ article: false
 
 Los Componentes en Solop ERP son aquellos que representan carpetas, ventanas, reportes, procesos y navegadores. A continuación se definen y visualizan cada uno de ellos.
 
-## Carpetas
-
-Las carpetas se encuentran representadas por el Icono de una Carpeta en el menú de Solop ERP. Estas conforman el directorio del menú (árbol del menú) y pueden contener una serie de reportes, ventanas o procesos.
-
-![Ejemplo de una Carpeta](/assets/img/docs/basic-rules/bar-icons-folders1.png)
-
-Imagen 1. Ejemplo de una Carpeta
-
 ## Ventanas
 
 Las ventanas se encuentran representadas por el Icono de una Ventana en el menú de Solop ERP. De igual manera, cada ventana que contempla Solop ERP, representa la interfaz de usuario, mostrando la salida y permitiendo la entrada de datos para uno o varios procesos que se ejecutan.
@@ -25,8 +17,6 @@ Las ventanas se encuentran representadas por el Icono de una Ventana en el menú
 **Para más información sobre Controles de Ventanas:** - [Barra de Herramientas](toolbar)
 
 ![Ejemplo de una Ventana](/assets/img/docs/basic-rules/bar-icons-windows1.png)
-
-### Modos de Visualización
 
 **Las Ventanas poseen dos formas de visualización:**
 
@@ -40,11 +30,15 @@ A su vez, esta forma de visualización permite navegar entre las diferentes pest
 
 ![Ejemplo de una Ventana](/assets/img/docs/basic-rules/bar-icons-windows3.png)
 
+::: note
+Para realizar el cambio de visualización utilizamos el botón Multi registro o mono registro (dependiendo de la visual actual de la ventana) del extremo superior izquierdo.
+:::
+
 ### Búsqueda de Registros
 
 Cada ventana cuenta con funciones y accesos directos para una interacción y navegabilidad óptima:
 
-![Ejemplo de una Ventana](/assets/img/docs/basic-rules/bar-icons-windows4.png)
+![Búsqueda](/assets/img/docs/basic-rules/bar-icons-windows4.png)
 
 **Búsqueda Individual**
 
@@ -57,22 +51,37 @@ Esta búsqueda avanzada posee diferentes métodos de búsqueda por cada filtro (
 La consulta avanzada presenta un campo que despliega en combo los diferentes filtros para agregarse u ocultarse de la búsqueda.
 Cada filtro posee las siguientes opciones de búsqueda por cada entidad:
 
-* Igual a: realizará la búsqueda que sea identico/s al dato ingresado.
-* Diferente a: realizará la búsqueda sobre registros que sean diferente al ingresado
-* Tiene un valor: mostrará aquellos registros que posean un valor en el campo seleccionado
-* No tiene un valor: mostrará aquellos registros que no posean un valor en el campo seleccionado
-* Contiene: mostrará aquellos registros que posean el valor ingresado (aunque sea una parte del registro, pueden ser letras o números)
-* No contiene: mostrará registros que no contengan el valor ingresado (aunque sea parte del registro, en letras o números)
+#### Igual a: 
+
+Realizará la búsqueda que sea identico/s al dato ingresado.
+
+#### Diferente a:
+
+Realizará la búsqueda sobre registros que sean diferente al ingresado.
+
+#### Tiene un valor:
+
+Mostrará aquellos registros que posean un valor en el campo seleccionado.
+
+#### No tiene un valor:
+
+Mostrará aquellos registros que no posean un valor en el campo seleccionado.
+
+#### Contiene: 
+
+Mostrará aquellos registros que posean el valor ingresado (aunque sea una parte del registro, pueden ser letras o números).
+
+#### No contiene:
+
+Mostrará registros que no contengan el valor ingresado (aunque sea parte del registro, en letras o números).
 
 ![Ejemplo de una Ventana](/assets/img/docs/basic-rules/bar-icons-windows5.png)
 
-### Control de Campos
+Desde el botón con icono de "lupa" es posible desplegar la búsqueda avanzada. Dentro de la ventana emergente de búsqueda avanzada, el visor de filtros permite desplegar todos los filtros y agregar o quitar los que correspondan:
 
-Es un elemento que permite agregar y quitar datos (campos) de la ventana. Cada campo/dato de la ventana se despliega en combo/lista y al tildar o destildarlos, los hace visible o los oculta.
+![Ejemplo de una Ventana](/assets/img/docs/basic-rules/bar-icons-windows100.png)
 
-![Ejemplo de una Ventana](/assets/img/docs/basic-rules/bar-icons-windows6.png)
-
-### Pestaña de Ejecución de Procesos
+### Procesos desde Ventana
 
 Este botón abre los diferentes procesos a ejecutar en el registro consultado (en este caso por ejemplo: Asignar pago cobro, enviar por mail, Impresión de CFE, exportar, compartir, etc.)
 
@@ -84,20 +93,61 @@ Este botón permite cambiar el formato de visualización de la ventana (por ejem
 
 ![Ejemplo de una Ventana](/assets/img/docs/basic-rules/bar-icons-windows8.png)
 
-### Solapa de Elementos Relacionados
+#### Control de Campos
+
+Es un elemento que permite agregar y quitar datos (campos) de la ventana. Cada campo/dato de la ventana se despliega en combo/lista y al tildar o destildarlos, los hace visible o los oculta.
+
+![Control de Campos](/assets/img/docs/basic-rules/bar-icons-windows6.png)
+
+### Pestañas Laterales
 
 Este botón ubicado en el lateral derecho permite visualizar pestañas relacionadas con el registro (por ejemplo: histórico de cambios. documentos relacionados, adjuntos, notas, solicitudes, información contable, etc.).
 
-![Ejemplo de una Ventana](/assets/img/docs/basic-rules/bar-icons-windows9.png)
-
 **Información de Solapas**
 
-* Histórico de cambios: permite visualizar la auditoría de cambios en el registro.
-* Documentos Relacionados: en esta pestaña se pueden consultar las diferentes entidades relacionadas al registro y navegar hacia ellas.
-* Adjuntos: permite consultar y descargar los diferentes archivos adjuntos al registro
-* Notas: en esta pestaña se pueden visualizar las notas generadas para el registro.
-* Solicitudes: Es posible crear solicitudes o consultar solicitudes vinculadas al registro.
-* Histórico de Flujo de Trabajo: permite visualizar los diferentes estados que ha transitado el registro.
+#### Histórico de cambios: 
+
+Permite visualizar la auditoría de cambios en el registro, con datos de fecha y hora, el usuario que realizó el cambio, así como el valor anterior y el valor nuevo.
+
+![Elementos Relacionados](/assets/img/docs/basic-rules/bar-icons-windows9.png)
+
+#### Documentos Relacionados: 
+
+En esta pestaña se pueden consultar las diferentes entidades relacionadas al registro y navegar hacia ellas.
+
+![Elementos Relacionados](/assets/img/docs/basic-rules/bar-icons-windows101.png)
+
+#### Adjuntos: 
+
+Permite consultar y descargar los diferentes archivos adjuntos al registro.
+
+![Elementos Relacionados](/assets/img/docs/basic-rules/bar-icons-windows102.png)
+
+#### Notas: 
+
+En esta pestaña se pueden visualizar las notas generadas para el registro.
+
+![Elementos Relacionados](/assets/img/docs/basic-rules/bar-icons-windows103.png)
+
+#### Solicitudes: 
+
+Es posible crear solicitudes o consultar solicitudes vinculadas al registro.
+
+![Elementos Relacionados](/assets/img/docs/basic-rules/bar-icons-windows104.png)
+
+#### Histórico de Flujo de Trabajo: 
+
+Permite visualizar los diferentes estados que ha transitado el registro.
+
+![Elementos Relacionados](/assets/img/docs/basic-rules/bar-icons-windows105.png)
+
+#### Información Contable
+
+Esta solapa permite visualizar el asiento que corresponde a la transacción del documento consultado, así como las cuentas intervinientes e importes.
+
+#### Panel de Control
+
+Esta solapa permite visualizar gráficas del registro consultado.
 
 ## Reportes
 
@@ -108,7 +158,25 @@ Uno de los reportes que permite generar Solop ERP es el siguiente:
 
 ![Ejemplo de un Reporte](/assets/img/docs/basic-rules/bar-icons-reports1.png)
 
-Imagen 3. Ejemplo de un Reporte
+### Procesos desde Reporte
+
+Es posible ejecutar procesos desde el reporte generado:
+
+![Ejemplo de un Reporte](/assets/img/docs/basic-rules/bar-icons-reports100.png)
+
+**Opciones de Procesos**
+
+* Generar: Permite generar archivo del reporte con extensión por defecto.
+* Generar Como: Permite cambiar la extensión del archivo a generar.
+* Cambiar Parámetros: Permite modificar los patrones de búsqueda del reporte.
+* Limpiar Parámetros: Limpia los parámetros previamente seteados.
+* Compartir Enlace: Comparte la ruta en el porta papeles.
+
+### Configuración del Reporte
+
+Esta solapa permite modificar tanto las Preferencias, como los parámetros del reporte (por ejemplo: en tipo de reporte permite modificar la extensión por defecto).
+
+![Ejemplo de un Reporte](/assets/img/docs/basic-rules/bar-icons-reports101.png)
 
 ## Procesos
 
@@ -118,6 +186,14 @@ Los mismos cuentan con diferentes parámetros y criterios de búsqueda para ejec
 Uno de los procesos que contempla Solop ERP es el siguiente:
 
 ![Ejemplo de un Proceso](/assets/img/docs/basic-rules/bar-icons-process1.png)
+
+Desde el campo superior derecho se despliegan los diferentes filtros. Desde allí es posible habilitarlos u ocultarlos según corresponda de acuerdo a los parámetros que requieran aplicarse para obtener el resultado deseado en el proceso a generar:
+
+![Ejemplo de un Proceso](/assets/img/docs/basic-rules/bar-icons-process100.png)
+
+Una vez seteados los parámetros correspondientes, al seleccionar "Ejecutar" se genera el proceso (botón superior derecho). Posteriormente se muestran las entidades creadas.
+
+![Ejemplo de un Proceso](/assets/img/docs/basic-rules/bar-icons-process101.png)
 
 Imagen 4. Ejemplo de un Proceso
 
@@ -130,3 +206,12 @@ Uno de los navegadores que contempla Solop ERP es el siguiente:
 ![Ejemplo de un Navegador](/assets/img/docs/basic-rules/bar-icons-navigators1.png)
 
 Imagen 5. Ejemplo de un Navegador
+
+Desde el campo superior derecho se despliegan los diferentes filtros. Desde allí es posible habilitarlos u ocultarlos según corresponda de acuerdo a los parámetros que requieran aplicarse para obtener el resultado deseado:
+
+![Ejemplo de un Navegador](/assets/img/docs/basic-rules/bar-icons-navigators100.png)
+
+Una vez seteados los parámetros correspondientes, es posible seleccionar (de acuerdo a los parámetros fijados) un registro, varios o todos para de esta forma realizar la ejecución en forma individual (de cada registro) o masiva. 
+Al seleccionar "Anular Conceptos" se genera el proceso (botón superior derecho). Posteriormente se muestran las entidades creadas.
+
+![Ejemplo de un Navegador](/assets/img/docs/basic-rules/bar-icons-navigators101.png)
