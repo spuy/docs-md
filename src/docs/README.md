@@ -18,20 +18,17 @@ Tenga en cuenta que todo el ecosistema [Solop ERP](https://ayuda.solopapp.com/) 
 
 ## Menú Principal de Documentos
 
-### Gestión Básica
+### Actividades Básicas
 
 - [Inicio de Sesión](basic-rules/login)
 - [Interfaz de Usuario](basic-rules/user-interface)
-- [Iconos de la Interfaz](basic-rules/icons-interface)
-- [Barra de Herramientas](basic-rules/toolbar)
-- [Accesos Rápidos](basic-rules/quick-access)
-- [Utilería](basic-rules/props)
-
+- [Componentes](basic-rules/icons-interface)
+- [Notificaciones](basic-rules/notifications)
+- [Flujos de Trabajo](basic-rules/workflows)
 
 ### Datos Maestros
 
 - [Socio del Negocio](master-data/business-partner-general/business-partner)
-- [Socio del Negocio para Educación](master-data/business-partner-general/business-partner-education)
 - [Producto](master-data/product)
 - [Almacén](master-data/warehouse)
 - [Reportes de Maestros](master-data/reports)
@@ -48,3 +45,5 @@ Tenga en cuenta que todo el ecosistema [Solop ERP](https://ayuda.solopapp.com/) 
 
 - [Gestión de Asistencia al Agricultor](verticals/fap)
 - [Gestión de Préstamos e Inversiones](verticals/investment-and-loan)
+- [Gestión de Educación](verticals/education-management)
+- [Gestión de Servicios Tercerizados](verticals/field-services-management)
