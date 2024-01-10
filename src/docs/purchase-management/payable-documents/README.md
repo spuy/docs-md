@@ -10,5 +10,5 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 
 - [Nota de Crédito](credit-note)
 - [Nota de Débito](debit-note)
-- [Documento por Pagar](document)
+- [Gestión de Documento por Pagar](document)
 - [Documentos por Pagar Agencia](accounts-payable-agency)

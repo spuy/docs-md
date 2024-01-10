@@ -10,7 +10,7 @@ El presente material se encuentra dirigido a cada uno de los usuarios de Solop E
 
 - [Inicio de Sesión](login)
 - [Interfaz de Usuario](user-interface)
-- [Iconos de la Interfaz](icons-interface)
+- [Componentes](icons-interface)
 - [Notificaciones](notifications)
 - [Flujos de Trabajo](workflows)
 
