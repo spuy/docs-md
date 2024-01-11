@@ -142,10 +142,6 @@ Seleccione en el campo **Actividad**, la actividad correspondiente a la entrega 
 
 Seleccione la pestaña principal **Entrega** y la opción **Completar**, ubicada en la parte inferior de la ventana **Entregas (Cliente)**.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image177.png)
-
-Imagen 54. Pestaña Entrega de la Ventana Entregas Cliente y Opción Completar
-
 Seleccione la acción **Completar** y la opción **OK**, para completar el documento **Entrega**.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image178.png)
@@ -204,17 +200,17 @@ Podrá visualizar en la parte inferior izquierda de la ventana **Generar Entrega
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image194.png)
 
+![Campo](/assets/img/docs/sales-management/sam-sales-image1940.png)
+
 Imagen 16. Resultado de la Entrega Generada desde Líneas de la Orden
 
 ## Consultar Entregas Generadas
 
-Para consultar la entrega generada en la ventana **Entregas (Cliente)**, debe seleccionar el icono **Encontrar Registro** ubicado en la barra de herramientas de Solop ERP, para luego visualizar la ventana **Encontrar Registro: Entrega**.
+Para consultar la entrega generada en la ventana **Entregas (Cliente)**, debe utilizar el campo **Buscar Registro** ubicado en la barra de herramientas de Solop ERP, para luego ingresar allí un dato del registro con el objeto de localizarlo (por ejemplo el número del documento).
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image195.png)
+Seleccione el botón de **Consulta Avanzada**, para filtrar la búsqueda por la orden de venta.
 
-Imagen 17. Ventana Encontrar Registro Entrega
-
-Seleccione la pestaña **Avanzado**, para filtrar la búsqueda por la orden de venta.
+Dos opciones de búsqueda. Buscar Registro y Consulta Avanzada:
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image196.png)
 
@@ -222,15 +218,7 @@ Imagen 18. Pestaña Avanzado de la Ventana Encontrar Registro Entrega
 
 Seleccione en el campo correspondiente a la **Columna**, la opción **Orden de Venta**, para filtrar la búsqueda por la orden de venta.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image197.png)
-
-Imagen 19. Opción Orden de Venta de la Ventana Encontrar Registro Entrega
-
 Luego introduzca en el campo correspondiente al **Valor Consulta**, el número de documento de la orden de venta utilizado para generar la entrega.
-
-![Campo](/assets/img/docs/sales-management/sam-sales-image198.png)
-
-Imagen 20. Número de Orden de Venta en la Ventana Encontrar Registro Entrega
 
 Por último, seleccione la opción **OK**, para realizar la búsqueda.
 

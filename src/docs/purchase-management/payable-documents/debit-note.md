@@ -14,13 +14,13 @@ A continuación es explicado el procedimiento para generar en Solop ERP, una not
 
 Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Compras**, luego seleccione la ventana **Documentos por Pagar**.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image158.png)
+![Campo](/assets/img/docs/purchase-management/pum-purchase-image217.png)
 
 Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana **Documentos por Pagar**, con los diferentes registros de documentos por pagar cargados a Solop ERP.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image159.png)
+![Campo](/assets/img/docs/purchase-management/pum-purchase-image275.png)
 
 Imagen 2. Ventana Documentos por Pagar
 
@@ -94,7 +94,7 @@ Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de 
 
 Seleccione la pestaña **Línea de la Factura**, para cargar los detalles de la nota de débito que se encuentra realizando.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image192.png)
+![Campo](/assets/img/docs/purchase-management/pum-purchase-image218.png)
 
 Imagen 35. Pestaña Línea de la Factura de la Ventana Documentos por Pagar
 
@@ -134,19 +134,11 @@ Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de 
 
 Seleccione la pestaña principal **Factura** y ubique la opción **Completar**, en la parte inferior izquierda de la ventana.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image210.png)
-
-Imagen 53. Pestaña Principal Factura de la Ventana Documentos por Pagar
-
 Seleccione la opción **Completar**, para completar el documento **Nota de Débito de CxP**.
-
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image211.png)
-
-Imagen 54. Opción Completar de la Ventana Documentos por Pagar
 
 Seleccione la acción **Completar** y la opción **OK**, para culminar el proceso.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image212.png)
+![Campo](/assets/img/docs/purchase-management/pum-purchase-image309.png)
 
 Imagen 55. Acción Completar y Opción OK de la Ventana Documentos por Pagar
 
@@ -154,24 +146,24 @@ Imagen 55. Acción Completar y Opción OK de la Ventana Documentos por Pagar
 
 Ubique el registro de la factura asociada a la nota de débito, en este caso se ubica la factura **1000110** y posteriormente seleccione la pestaña **Facturas Pagadas**.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image213.png)
+![Campo](/assets/img/docs/purchase-management/pum-purchase-image154.png)
 
 Imagen 56. Registro de la Factura Asociada a la Nota de débito de CxP
 
 Haga clic contrario en el campo **Asignación** y seleccione la opción **Acercar** en el menú visualizado.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image214.png)
+![Campo](/assets/img/docs/purchase-management/pum-purchase-image155.png)
 
 Imagen 57. Acercar Asignación de Nota de débito de CxP
 
 Podrá visualizar el registro de la asignación creada al completar el documento **Nota de Débito de CxP**.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image215.png)
+![Campo](/assets/img/docs/purchase-management/pum-purchase-image156.png)
 
 Imagen 58. Registro de Asignación de Nota de débito de CxP
 
 Seleccione la pestaña **Asignaciones**, para visualizar la información del monto de la nota de débito aplicada a la factura.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image216.png)
+![Campo](/assets/img/docs/purchase-management/pum-purchase-image157.png)
 
 Imagen 59. Pestaña Asignaciones de la Ventana Consulta de Asignación

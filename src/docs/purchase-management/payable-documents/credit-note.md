@@ -14,13 +14,13 @@ A continuación es explicado el procedimiento para generar en Solop ERP, una not
 
 Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Compras**, luego seleccione la ventana **Documentos por Pagar**.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image99.png)
+![Campo](/assets/img/docs/purchase-management/pum-purchase-image217.png)
 
 Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana **Documentos por Pagar**, con los diferentes registros de documentos por pagar cargados a Solop ERP.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image100.png)
+![Campo](/assets/img/docs/purchase-management/pum-purchase-image218.png)
 
 Imagen 2. Ventana Documentos por Pagar
 
@@ -94,7 +94,7 @@ Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de 
 
 Seleccione la pestaña **Línea de la Factura**, para cargar los detalles de la nota de crédito que se encuentra realizando.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image133.png)
+![Campo](/assets/img/docs/purchase-management/pum-purchase-image306.png)
 
 Imagen 35. Pestaña Línea de la Factura de la Ventana Documentos por Pagar
 
@@ -135,25 +135,17 @@ Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de 
 
 Seleccione la pestaña principal **Factura** y ubique la opción **Completar**, en la parte inferior derecha de la ventana.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image151.png)
-
-Imagen 53. Pestaña Principal Factura de la Ventana Documentos por Pagar
-
 Seleccione la opción **Completar**, para completar el documento **Nota de Crédito de CxP**.
-
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image152.png)
-
-Imagen 54. Opción Completar de la Ventana Documentos por Pagar
 
 Seleccione la acción **Completar** y la opción **OK**, para culminar el proceso.
 
-![Campo](/assets/img/docs/purchase-management/pum-purchase-image153.png)
+![Campo](/assets/img/docs/purchase-management/pum-purchase-image309.png)
 
 Imagen 55. Acción Completar y Opción OK de la Ventana Documentos por Pagar
 
 ## Consultar Asignación de Nota de Crédito Aplicada
 
-Ubique el registro de la factura asociada a la nota de crédito, en este caso se ubica la factura **1000108** y posteriormente seleccione la pestaña **Pagos Asignados**.
+Ubique el registro de la factura asociada a la nota de crédito, en este caso se ubica la factura, y posteriormente seleccione la pestaña **Pagos Asignados**.
 
 ![Campo](/assets/img/docs/purchase-management/pum-purchase-image154.png)
 
