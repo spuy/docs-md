@@ -31,10 +31,6 @@ Proyecto de Medios Digitales             Agencia de Medios Digitales
 Si no se obtuvo sello de origen se lanza una excepción.
 :::
 
-#### Cómo se define un usuario como “Agente Compañía” de un Proyecto, Orden, Factura o Solicitud.
-
-El campo agente compañía en el cabezal de un Proyecto permitirá elegir a todos aquellos usuarios que tengan asociado un Socio del Negocio que a su vez el mismo tenga marcado el check de "Agente compañia" en "Y", en la Pestaña "Empleado" de la ventana "Socio de negocio".
-
 ### Definición del almacén en un Proyecto
 
 El almacén en un proyecto se definirá de manera automática según el almacén que tenga definido el Cliente en la pestaña Cliente ventana Socio del Negocio.
@@ -180,15 +176,6 @@ Las Ordenes de Venta deben tener seteado "HONORARIOS"
 
 Las órdenes de Compra deben tener configurado "Comisiones"
 
-#### ¿Por que motivo puede NO VISUALIZARSE una Orden de Venta para Facturar?
-
-Puede ser por 3 motivos:
-
-* Que NO esté COMPLETA
-* Que no tenga el check de “Permite facturar”
-* Ver que Regla de facturación tiene la misma
-* Verificar en la línea de la Orden que no tenga Cantidades facturadas
-
 #### ¿Por qué no se visualiza al correspondiente Socio de Negocio cuando quiero seleccionar el mismo desde el cabezal de la ventana Proyecto de Medios?
 
 Esto puede suceder porque el Socio de Negocio esté definido en otra Organización distinta a la que estoy logueado. O bien es posible que se encuentre seteado como Activo = NO.
@@ -199,25 +186,6 @@ Se realiza en la fase, en los campos:
 
 * **Descripción:** Escribir en la Descripción de la FASE cómo se desea que sea Facturado para que Administración se entere y
 * **Cantidad:** Además en el Campo “Cantidad” de la Fase se deberá definir la Cantidad de Cuotas que se desea Facturar, ya sea por el Medio o al Cliente. Ver que como Precio Unitario se deberá visualizar el importe de cada una de las cuotas a ser Facturado.
-
-#### ¿Puedo modificar los importes de una factura si el proveedor no entrega exactamente lo solicitado?
-
-Es posible, en el caso que el proveedor **no entrega** exactamente lo solicitado:
-
-El sistema permite modificar las cantidades en las líneas.
-
-El sistema NO permite modificar importes.
-
-Por lo tanto, para modificar un importe será necesario modificar las cantidades.
-
-Si lo que se conoce de una factura al registrarla es únicamente el importe final, se deberá definir en cantidad la cantidad exacta (con decimales) para que el importe de la factura del proveedor coincida.
-
-Ajuste del registro de la factura proveedor al comprobante físico.
-
-Existen 2 maneras de ajustar el registro de la factura al documento físico:
-
-* Ajustando las cantidades, y el importe se ajustará automáticamente
-* Incorporando una línea adicional por el concepto “Ajuste”
 
 #### ¿Por qué motivo al completar una Orden de Venta Compra consumo no se genera Orden de Compra enlazada?
 
@@ -263,158 +231,11 @@ La Orden de Venta de Honorarios se generará automáticamente desde el Cálculo 
 
 Por lo tanto al generarse la Orden de venta Honorarios esta no discrimina por cantidad de cuotas de la Orden de venta que lo generó.
 
-#### ¿Por qué motivo se puede generar un Documento por cobrar vinculado a una orden de venta servicio con el Socio del negocio del Contrato y no con el Socio del negocio de la orden de venta?
+### ¿Por qué motivo se puede generar un Documento por cobrar vinculado a una orden de venta servicio con el Socio del negocio del Contrato y no con el Socio del negocio de la orden de venta?
 
 Este problema puede ocurrir debido a que el Contrato que se generó quedó con una nueva funcionalidad de "Socio del Negocio a Facturar" definido, esto aplica para permitir generar facturas de determinados contratos a diferentes Socios del Negocio.
 Para evitar que esto ocurra se agregó una configuración en la definición de las comisiones para que jamás permita que una comisión se facture al Socio del Negocio del Contrato. 
 
-### ¿Cómo se define un Proveedor en un Producto?
+### Por qué motivo un Documento por pagar genera comisión solo por una de sus líneas y no genera comisión por las demás líneas?
 
-Para definir un Proveedor en un producto se debe ir a la ventana Producto / Pestaña Compras y definir el SDN a quien se compra este producto. es según este dato que se hace la búsqueda de los productos tan fácil desde una fase o línea de fase.
-
-### Cuales son los niveles de acceso de los usuarios
-
-#### Nivel de Acceso a Datos en ROL:
-
-Según el Rol se puede definir un nivel de Acceso a Datos determinado. Esto significa que según el nivel de dicho Rol definirá los documentos que pueda visualizar en el sistema.
-
-Por ejemplo si se desea que determinado Rol sólo visualice Documentos de determinada Organización, se deberá definir el nivel “Organización”.
-
-#### Nivel de Acceso a Datos en Tabla:
-
-También se puede definir en determinada tabla el nivel de acceso a datos posible de la misma. Si un Rol tiene un Nivel menor al que tiene definido una tabla los usuarios no podrán guardar ni modificar ningún campo de la misma.
-
-#### Roles Incluídos
-
-Se utiliza para ir creando roles manuales de manera creciente en cuanto a los accesos o  ventanas que se le asigna a cada uno.
-
-### BÚSQUEDA INTELIGENTE (SMARTBROWSER)
-
-Los procesos que se encuentran dentro de los "Navegadores Inteligentes" permiten una gestión fácil y rápida de los registros sobre los cuales se desea correr cierto proceso.
-
-Lamentablemente estos Navegadores presentan algunas limitaciones que son las siguientes:
-
-1. No se puede alterar el ordenamiento presentado por el Navegador, los datos se deben simplemente filtrar pero no se puede "Ordenar" según un criterio diferente al presentado.
-
-2. No se puede correr más de 1 vez un proceso desde un Navegador Inteligente, esto quiere decir que sí realizó una selección y corrió un proceso, si desea generar un nuevo proceso con nuevos filtros se deberá abrir una nueva ventana del navegador inteligente para realizar la nueva consulta y el nuevo Proceso.
-
-### Guardar Búsquedas Avanzadas en una Ventana
-
-Es posible que hayan ciertas búsquedas que se repiten y se usan constantemente, en esos casos puede resultar útil guardar la consulta con un nombre para poder seleccionarla y utilizarla rápidamente. Para ello:
-
-1. Abrir la ventana que contiene la información que se desea
-2. Clic en el icono de la lupa  para buscar.
-3. Seleccionar “Buscar registros” (en algunos casos la ventana se abre directamente).
-4. Clic en la pestaña “Avanzado”.
-5. Agregar el/los criterios de búsqueda con los filtros de acuerdo a la información de la ventana.
-6. Colocar un nombre a la consulta y guardarla con el disquete como indica la figura:
-
-   La próxima vez que entre en esta ventana, en la pestaña “Avanzado”, encontrara esta búsqueda en la ventana desplegable con el nombre establecido.
-
-### Reiniciar Cache
-
-En algunos casos no hay acceso a la información, o por ejemplo no da acceso a botones de la barra de herramientas cuando de forma normal estarían habilitados. Por ejemplo: El usuario se puede comunicar indicando que está generando una Factura (Documentos Por Cobrar), genera el cabezal y cuando va a agregar “Líneas” el botón de registro nuevo está deshabilitado.
-
-Otros casos del uso de Reinicia Cache es cuando se ha creado un formulario o reporte nuevo y no se visualiza el cambio en la apariencia del reporte por ejemplo.
-
-Para reiniciar desde Solop ERP, en el cajón de búsqueda se escribe “Reinicia cache”, se selecciona, y se abrirá la ventana, con un botón en la parte inferior derecha con aspecto de “check”. Dar clic y se mostrará un mensaje en azul indicando que el cache se ha reiniciado.
-
-### Exportar registros desde una Ventana
-
-1. Abrir la ventana que contiene la información deseada.
-2. Clic en el botón “Informe”.
-3. Se despliega un documento (formato PDF por defecto), en la barra de herramientas, clic en la lupa, se abre la ventana, seleccionar pestaña “Avanzado”:
-4. Seleccionar los campos por los que quiera Filtrar la información (Rango de fechas por ejemplo):
-5. Para un rango de fechas, tener presente el operador utilizado.
-6. Clic en Ok.
-7. En la barra de herramientas del reporte, seleccionar la ventana desplegable ubicada en el extremo izquierdo:  y seleccionar el formato deseado (XLSX, HTML, etc.).
-8. El reporte será descargado en el navegador.
-
-### Acciones sobre un Documento
-
-Las acciones sobre el Documento son:
-
-* Cerrar
-* Reversar - Causación
-* Reversar - Corregir
-* Anular
-
-#### **Cerrar un Documento**
-
-**__Cerrar Orden de Venta/Compra:__**
-
-Al Cerrar todas las Cantidades serán llevadas a la Cantidad Entregada. modificando así el importe total de la Orden.
-
-**En caso de haber cerrado una Orden por error, existe un proceso que se llama “Reabrir Orden” que la vuelve al estado “Completo” (desde el menú):**
-
-**__Reversar - Causación__**
-
-Restaurar extornando la transacción con la fecha de HOY.
-
-**__Reversar - Corregir__**
-
-Restaurar extornando la transacción con la fecha del Documento extornado.  
-Anular
-
-Setea en valor cero las cantidades.
-
-##### Barra de Herramientas
-
-##### No me aparece un Proceso desde los Procesos de la Barra de Herramientas
-
-Los Procesos desde la Barra de Herramientas no se actualizan automáticamente, por lo que si por ejemplo se selecciona desde la Pestaña “Fase” de la Ventana “Proyecto”, recordará los Procesos que existen para dicha pestaña y si luego los quiere visualizar desde la pestaña Padre como puede ser “Proyecto” no se visualizarán. Para solucionarlo deberá ingresar nuevamente a la ventana y presionar “Procesos” desde la pestaña Padre (por ej de proyecto).
-
-## Posibles Errores Controlados al generar factura
-
-**Varios Términos de Pago en las Órdenes de Venta seleccionadas**
-
-Cuando se están facturando en una misma factura varias Órdenes de Venta que tienen diferentes Términos de Pago no permitirá generar una única factura y figurará el siguiente mensaje de Error:
-
-Esto se debe a que no puede determinar que término de pago se desea definir en la Factura a Generar.
-
-**Solución: Para solucionarlo lo ideal sería abrir en la ventana de “Órdenes de Venta” todas las Ordenes de venta que se están intentando facturar Varios Términos de Pago en las Órdenes de Venta seleccionadas.**
-
-**Ver las mismas en formato “Grilla” para identificar qué Orden de Venta tiene un Término de Pago diferente.**
-
-**Para modificarlo deberá Rectivar la Orden, modificar el Término de Pago y luego completarla nuevamente.**
-
-**Varios Agentes Comerciales definidos en las Órdenes de Venta**
-
-En principio el proceso definirá el Agente Comercial en la Factura según el Agente que esté definido en la Orden de Venta en cuestión.
-
-En caso de que existan diferentes Agentes Comerciales definidos en las Órdenes de Venta el proceso tomará el Agente Comercial definido en el Socio del Negocio.
-
-Si no tiene ninguno definido en el Socio del Negocio tomará el Agente Comercial definido en las Ordenes de Venta. Si estos son diferentes dará un error.
-
-### **¿Por qué motivo puede no referenciarse un Proyecto en una factura?**
-
-El Proyecto se referenciará en la factura siempre que el criterio de agrupación que se haya elegido para agrupar las lineas de Orden al correr el proceso Generar factura desde línea de Orden haya sido “Proyecto”.
-
-Por ejemplo se puede tener N proyectos por Contrato pero solo Un Contrato por cada proyecto. Por lo que si se agrupa por Contrato, como las lineas de orden pueden ser de varios proyectos, al generar la factura no establece el campo de Proyecto en el cabezal.
-
-Respecto al Tipo de documento, el sistema controlará si el Socio del Negocio a quien se está facturando tiene definido un RUT o una Cédula y le generará una e-Factura o un e-ticket según corresponda.
-
-### ¿Cuál es la diferencia entre el Listado de Órdenes y el Listado de Órdenes completo?
-
-* El listado de órdenes muestra las líneas de las Órdenes, tanto Órdenes de Venta como Órdenes de Compra.
-indicando Transacción de Venta: SI/NO
-Este informe no muestra las órdenes de inversión, honorarios, comisiones.
-
-* El listado de órdenes completo muestra en detalle la totalidad de líneas de órdenes, incluyendo las de inversión, honorarios y comisiones. También se muestran datos relacionados al reconocimiento de la orden, para los casos en que la línea tenga plan de reconocimento.
-
-El reporte obtiene la tasa de cambio a utilizar de tipo AVERAGE, para convertir de USD a UYU, según la fecha de ejecución del reporte.
-
-Se consideran órdenes cuyo tipo de documento no sea de nombre "Descuento de Venta Paquete".
-
-Además, se considera órdenes en estado COMPLETO cuando el tipo de documento de la orden se encuentra definido en el campo "Tipo de documento para la orden", en una definición de comisión activa, y su base del cálculo es "Honorarios" o "Comisión". Si esto no se cumple, entonces se considera el estado COMPLETO o CERRADO.
-
-Filtros Estado:
-
-Pendiente de Facturar: órdenes que están en Estado Completo o Cerrado con "Permite Facturar = Y" y "Facturado completamente = NO".
-
-Pendiente de OK para Facturar: órdenes que estén en Estado Completo o Cerrado con el check de "Permite Facturar" = NO, y que el tipo de documento de la orden tenga definido el campo "Tipo de documento para la factura" y que la orden no tenga marcado el check "Factura Directa a Cliente".
-
-Ordenes Entregadas no Facturadas: líneas de orden sin cantidad disponible para entregar y con cantidad disponible para facturar, y que el tipo de documento de la orden tenga definido el campo "Tipo de documento para la factura".
-
-Ordenes Facturadas no Entregadas: líneas de orden con cantidad disponible para entregar y sin cantidad disponible para facturar.
-
+No está soportado por el sistema que un Documento por Pagar se vincule a más de una Orden de Compra. La relación es de 1 a 1 (generar una orden de compra ppr cada documento por pagar). Otra opción para resolverlo sería generar diferentes líneas en una misma orden de compra

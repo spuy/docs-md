@@ -39,36 +39,3 @@ La ventana de Detalle de Almacenamiento simple brinda el inventario al día, per
 La ventana Informe de Inventario Valorado permite realizar una consulta sobre el estado del inventario a una fecha determinada (con filtro Fecha). Permite filtrar por los siguientes parámetros
 
 ![Parámetros 2](/assets/img/docs/frequently-asked-questions/fra-asked-image2.png)
-
-### Solicitudes
-
-#### Requisitos para que un usuario interno de Solop ERP pueda ver solicitudes
-
-Para que un usuario de autenticación pueda ver “Solicitudes” en Solop ERP de otros usuarios, debe tener asignado un Socio del Negocio. Luego, ese Socio del Negocio, en la pestaña “Empleado” debe tener marcada la opción de “Agente Comercial”.
-
-### Contrato de Servicios
-
-#### Crear Cuotas desde Contrato de Servicios
-
-Las cuotas se crean desde el proceso “crear Cuota desde contrato de Servicios” que está en la ventana Contrato de Servicios. Estas se generarán según la definición que tenga en las líneas. 
-
-Las líneas deberá tener si es “Recurrente” y hay que definir el Producto, el precio y la cantidad.
-
-El precio se define desde la Lista de precios.
-
-* FECHAS DE CONTRATO: para poder crear Cuotas desde un Contrato se debe definir OBLIGATORIAMENTE la fecha inicio y fecha fin. Ya que el proceso generará las cuotas RECURRENTES entre estas fechas.
-
-#### Definición de precios en las Lineas de Contratos
-
-Los precios en las líneas de los Contratos se pueden definir o manualmente o Según Lista de Precios. 
-
-##### Definición de Precios en Contrato según Lista de Precios:
-
-Los precios se definen según la Versión de Lista de Precios que esté Activa con fecha menor a la fecha de hoy de la “Lista de Precios” que tiene definido el Contrato.
-
-  
-¿Cómo puedo hacer para borrar o quitar un Contrato de Servicios generado a un Socio del Negocio cuando ya existe otro que es el correcto?
-
-Los Contratos de Servicio una vez guardados con un Socio del Negocio ya no se podrán Borrar ni Anular por razones de Auditoría. Si se desea que un Contrato de Servicio no figure más como selección el mismo se deberá “INACTIVAR”. Se inactiva simplemenete 
-
-definiendo el Check de “Activo” = NO

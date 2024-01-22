@@ -39,10 +39,6 @@ El saldo de esta cuenta refiere a los Pagos que no han sido asignados aún. 
 
 Si Todos los pagos son generados de manera correcta al completarse y su importe de  “Totales con sobre/sub pago” es correcto, este Reporte de Pagos sin Asignar debería corresponderse con el Mayor “Cheque Depósito no Asignados”.
 
-### Como abrir período del año y mes
-
-#### Año, Calendario y Período:
-
 #### Abrir periodo del año y del mes:
 
 Ventana: Año Calendario y Periodo
@@ -59,9 +55,9 @@ En caso contrario (el campo “Estado del Periodo” debería indicar en este mo
 
 El estado del Período debería indicar “Abierto”.
 
-### Errores
+### Errores Controlados
 
-**Error: Período cerrado**
+#### Error: Período cerrado
 
 Para abrir un periodo se debe ir a la ventana Año Calendario y Periodo seleccionar el periodo que corresponda y luego en Control de periodo se podrán visualizar todos los documentos para los cuales ese periodo está abierto.
 
@@ -158,21 +154,28 @@ Deben presentar las siguientes condiciones:
 * Moneda del esquema debe ser distinta a la del asiento contable
 * Fecha contable de asientos debe ser menor o igual a la fecha contable seleccionada
 
-#### ¿Qué es un split?
-
-Split es un proceso masivo de reparto de ingresos en cada Contrato según la definición de Split que tenga. En el proceso de Split se generan cálculos de Comisión de tipo “Split” y a partir de ellas se generan Órdenes de Compra y Venta en las organizaciones que corresponden.
-
-#### ¿Si Reactivo una Orden de Honorarios, le cambio el Contrato, la Completo y Recontabilizo el asiento de reconocimiento, cambia el Contrato en el Asiento?
-
-No, el contrato no cambia.
-
-El asiento de reconocimiento se genera desde un proceso de Reconocimiento masivo, no es el asiento del documento Orden de Venta, son documentos diferentes.
-
-En todo caso, se tendría que también reactivar, modificar el contrato en el Asiento (Lote de Asiento Diario) y modificar ahi el Contrato de servicio. De todos modos esto es riesgoso ya que se estaría haciendo muy manual y uno se podría olvidar de algo.
-
-Lo mejor en este caso sería realizar el ajuste de un reconocimento generando el Documento NEGATIVO que se desea corregir (IGUAL AL QUE SE GENERO MAL) y generar uno nuevo con el dato correcto.
-
 #### ¿Es posible generar el cierre de ejercicio cuentas integrales con fecha diferente al 31/12?
 
 Existen organizaciones que tienen manejan una fecha distinta de cierre (por ejemplo 31/03). 
 Para estos casos en los cuales se generará el cierre de 3 meses de un año y 9 de un año diferente, se debe tildar el check "Considerar Salto Total".
+
+### Proceso de Asignación
+
+El proceso de Asignación (automático) considera Notas de Crédito?
+
+No, el proceso sólo generará asignaciones entre Facturas y Pagos
+
+El proceso de Asignación (automático) considera Documentos por Pagar contra Documentos por Cobrar?
+
+No, el proceso sólo considerará DxC con Cobros y DxP contra Pagos.
+
+### cuando creamos pagos desde el botón procesos y se pagan gastos sin facturas qué debemos elegir en el campo proveedor?
+
+Si se selecciona la opción en el Tipo de Transacción: Cargo Bancario, el pago será generado con el cargo seleccionado en el campo "Cargo" pero le definirá siempre el Socio del Negocio definido en el Banco de la Cuenta Bancaria desde donde se genera, justamente para que no tengan que elegir el Socio del Negocio que corresponde.
+Opcionalmente la lista que se desplega como "Cargo" cuando selecciona la opción de Cargo Bancario también puede ser filtrada para que sólo apareszcan los cargos definidos como Cargos Bancarios.
+
+### ¿Cómo re contabilizar un asiento?
+
+Para re contabilizar un asiento se debe abrir el asiento desde el documento en cuestión y hacer click en el botón “Re-Contabilizar” ubidado en el extremo inferior izquierdo. 
+
+El Período de la fecha que dicho asiento fue contabilizado debe estar ABIERTO para permitir re-contabilizar (caso contrario, se deberá abrir el mismo desde la ventana Año, Calendario y Período).
