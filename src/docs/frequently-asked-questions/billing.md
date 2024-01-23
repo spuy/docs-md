@@ -40,7 +40,7 @@ Existen 2 maneras de ajustar el registro de la factura al documento físico:
 
 selecciona el botón forma de pago “A credito”, una vez seleccionado, se despliega el campo “Término de pago”, donde definirá el término deseado. Esta conducta se puede definir en las propiedades del Socio del Negocio para el siguiente Documento por cobrar. Luego de ingresados todos los datos, se da clic en “Completar”.
 
-## Posibles Errores Controlados al generar factura
+## Posibles Errores Controlados al generar factura desde Línea de Orden
 
 ### Varios Términos de Pago en las Órdenes de Venta seleccionadas
 
@@ -54,6 +54,11 @@ Esto se debe a que no puede determinar que término de pago se desea definir en 
 Ver las mismas en formato “Grilla” para identificar qué Orden de Venta tiene un Término de Pago diferente.
 Para modificarlo deberá Rectivar la Orden, modificar el Término de Pago y luego completarla nuevamente.
 :::
+
+### Error: Campo OC cliente debe ser el mismo para todas las órdenes del grupo
+
+Al generar factura desde línea de orden, si se seleccionan diferentes órdenes, el sistema valida que el campo Referencia de orden del socio de negocio posea el mismo dato en las diferentes órdenes seleccionadas para la generación de factura.
+
 
 ### Varios Agentes Comerciales definidos en las Órdenes de Venta
 
@@ -70,6 +75,10 @@ El Proyecto se referenciará en la factura siempre que el criterio de agrupació
 Por ejemplo se puede tener N proyectos por Contrato pero solo Un Contrato por cada proyecto. Por lo que si se agrupa por Contrato, como las lineas de orden pueden ser de varios proyectos, al generar la factura no establece el campo de Proyecto en el cabezal.
 
 Respecto al Tipo de documento, el sistema controlará si el Socio del Negocio a quien se está facturando tiene definido un RUT o una Cédula y le generará una e-Factura o un e-ticket según corresponda.
+
+### Precios de factura son modificados debido a Lista de precios diferente entre Orden de Venta y Documento por Cobrar
+
+Cuando se selecciona el criterio de agrupación facturación “Contrato” para poder facilitar y evitar trancar el proceso, se toman varios datos según el Contrato de Servicios y no directamente desde la orden de venta en cuestión. Dentro de estos campos que se toman del contrato está por ejemplo el Agente Comercial que se define, el término de pago y también la Lista de Precios. 
 
 ## Bandeja CFE 
 

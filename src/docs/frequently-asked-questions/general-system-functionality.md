@@ -6,17 +6,77 @@ sticky: 9
 article: false
 ---
 
-## Funcionalidad General del Sistema
+## Mantenimiento
 
-### BÚSQUEDA INTELIGENTE (SMARTBROWSER)
+### No me aparece un Proceso desde los Procesos de la Barra de Herramientas
 
-Los procesos que se encuentran dentro de los "Navegadores Inteligentes" permiten una gestión fácil y rápida de los registros sobre los cuales se desea correr cierto proceso.
+Los Procesos desde la Barra de Herramientas no se actualizan automáticamente, por lo que si por ejemplo se selecciona desde la Pestaña “Fase” de la Ventana “Proyecto”, recordará los Procesos que existen para dicha pestaña y si luego los quiere visualizar desde la pestaña Padre como puede ser “Proyecto” no se visualizarán. Para solucionarlo deberá ingresar nuevamente a la ventana y presionar “Procesos” desde la pestaña Padre (por ej de proyecto).
 
-Lamentablemente estos Navegadores presentan algunas limitaciones que son las siguientes:
+### Cuales son los niveles de acceso de los usuarios
 
-1. No se puede alterar el ordenamiento presentado por el Navegador, los datos se deben simplemente filtrar pero no se puede "Ordenar" según un criterio diferente al presentado.
+### Nivel de Acceso a Datos en ROL:
 
-2. No se puede correr más de 1 vez un proceso desde un Navegador Inteligente, esto quiere decir que sí realizó una selección y corrió un proceso, si desea generar un nuevo proceso con nuevos filtros se deberá abrir una nueva ventana del navegador inteligente para realizar la nueva consulta y el nuevo Proceso.
+Según el Rol se puede definir un nivel de Acceso a Datos determinado. Esto significa que según el nivel de dicho Rol definirá los documentos que pueda visualizar en el sistema.
+
+Por ejemplo si se desea que determinado Rol sólo visualice Documentos de determinada Organización, se deberá definir el nivel “Organización”.
+
+### Nivel de Acceso a Datos en Tabla:
+
+También se puede definir en determinada tabla el nivel de acceso a datos posible de la misma. Si un Rol tiene un Nivel menor al que tiene definido una tabla los usuarios no podrán guardar ni modificar ningún campo de la misma.
+
+### Roles Incluídos
+
+Se utiliza para ir creando roles manuales de manera creciente en cuanto a los accesos o  ventanas que se le asigna a cada uno.
+
+### ¿Por qué al modificar los permisos de un ROL el usuario sigue sin ver la Ventana, Proceso, Smartbrowser o Reporte?
+
+Si una Ventana, Proceso, Smartbrowser o Reporte no se encuentra en el arbol del menú para determinado ROL, por mas que se le de permiso en el rol, el usuario no lo va a ver. Por lo tanto se debe agregar al MENU que usan esos roles, mediante SYSTEM.
+
+### ¿Cómo me doy cuenta que es una opción del sistema es un proceso?
+
+Básicamente por el icono del menú y que al abrirlo se muestra un proceso (filtros de búsqueda) y no una ventana con Campos. Brinda la opción de dar check y tiene ciertos parámetros con un título y descripción.
+
+### ¿Cómo solicitar un Update de un Registro (actualización)?
+
+Se debe solicitar un update cuando se desea modificar un dato en un documento y el mismo ya está Completo o el campo está Sólo lectura. (verificar antes si el dato no puede ser modificado de otra manera, por ejemplo si el registro no está INACTIVO o si se puede borrar y generar nuevamente.) Se debe intentar generar lo menos posible.
+
+**Datos a solicitar:** 
+
+* Id del Registro que se quiere cambiar (Tabla del registro con su ID). 
+  * Se obtiene al hacer click en la esquina inferior derecha donde está la auditoría
+* Campo que se quiere cambiar (ID del campo que se quiere actualizar) 
+  * Botón derecho en el campo, seleccionar Bitácora de Cambios. copiar el nombre del campo.
+* Busco el ID del Registro que se quiere definir en el campo de la tabla mediante una actualización y aclarararlo.
+
+::: note
+*(No siempre es un ID lo que se quiere actualizar, también puede ser un código por ejemplo o cualquier campo de una tabla.)
+:::
+
+### ¿Qué puede suceder si luego de generar un Documento, bajo a la pestaña hija y al volver a subir no lo veo?
+
+Si se abre una ventana desde el menú, el sistema lo hace mostrando todos los registros de la misma, sin aplicar ningún filtro. 
+
+Si ésta se abre desde el Acceso Rápido de "Últimos Documentos" o se navega a la misma desde un campo en especial, la ventana se abre pero con un "FILTRO APLICADO".
+
+El problema se da cuando desde una ventana con un filtro aplicado, generan un NUEVO REGISTRO, el mismo se podrá editar y guardar sin problema siempre y cuando estemos en la misma Pestaña; ahora si se baja a una pestaña Hija al volver a subir a la pestaña PADRE, se volverá a aplicar el Filtro Inicial que teníamos definido; si este filtro NO INCLUYE el nuevo Registro que habíamos generado, el mismo no se verá.
+
+### ¿Cómo saber si un registro está guardado?
+
+En un documento podemos saber si un registro está guardado visualizando el mismo abajo a la derecha. En este caso por ejemplo, aparece un *1 esto quiere decir que aún no tiene número de registro guardado.
+
+### No se actualiza Moneda en Documento según Lista de Precio:
+
+Cuando el usuario selecciona una Lista de precios, cuya fecha de validez es posterior a la fecha del documento que se está creando, el campo de la moneda no se actualiza. Esto se debe a que en la ventana “Lista de Precios”, seleccionando la lista de precios en cuestion, luego pestaña “Version”, el campo “Valido desde” corresponde a una fecha posterior al documento (por ejemplo Orden de Compra), entonces el campo moneda no refleja el tipo de moneda de la lista de precios en el documento que se esta creando.
+
+::: note
+Para que una lista de precios sea correctamente considerada por un Documento la misma debe tener una Fecha (Válido desde) Desde en la Versión Activa igual o mayor al día del Documento.
+:::
+
+### ERROR: Producto no está en lista de precios.
+
+Para solucionarlo se debe navegar al producto y agregar en la pestaña Precio la lista de precio que indica el mensaje.
+
+## Acciones
 
 ### Guardar Búsquedas Avanzadas en una Ventana
 
@@ -59,7 +119,7 @@ Las acciones sobre el Documento son:
 * Reversar - Corregir
 * Anular
 
-#### Cerrar un Documento
+### Cerrar un Documento
 
 **__Cerrar Orden de Venta/Compra:__**
 
@@ -77,61 +137,6 @@ Restaurar extornando la transacción con la fecha del Documento extornado.
 Anular
 
 Setea en valor cero las cantidades.
-
-## Barra de Herramientas
-
-### No me aparece un Proceso desde los Procesos de la Barra de Herramientas
-
-Los Procesos desde la Barra de Herramientas no se actualizan automáticamente, por lo que si por ejemplo se selecciona desde la Pestaña “Fase” de la Ventana “Proyecto”, recordará los Procesos que existen para dicha pestaña y si luego los quiere visualizar desde la pestaña Padre como puede ser “Proyecto” no se visualizarán. Para solucionarlo deberá ingresar nuevamente a la ventana y presionar “Procesos” desde la pestaña Padre (por ej de proyecto).
-
-### Cuales son los niveles de acceso de los usuarios
-
-### Nivel de Acceso a Datos en ROL:
-
-Según el Rol se puede definir un nivel de Acceso a Datos determinado. Esto significa que según el nivel de dicho Rol definirá los documentos que pueda visualizar en el sistema.
-
-Por ejemplo si se desea que determinado Rol sólo visualice Documentos de determinada Organización, se deberá definir el nivel “Organización”.
-
-### Nivel de Acceso a Datos en Tabla:
-
-También se puede definir en determinada tabla el nivel de acceso a datos posible de la misma. Si un Rol tiene un Nivel menor al que tiene definido una tabla los usuarios no podrán guardar ni modificar ningún campo de la misma.
-
-### Roles Incluídos
-
-Se utiliza para ir creando roles manuales de manera creciente en cuanto a los accesos o  ventanas que se le asigna a cada uno.
-
-### ¿Por qué al modificar los permisos de un ROL el usuario sigue sin ver la Ventana, Proceso, Smartbrowser o Reporte?
-
-Si una Ventana, Proceso, Smartbrowser o Reporte no se encuentra en el arbol del menú para determinado ROL, por mas que se le de permiso en el rol, el usuario no lo va a ver. Por lo tanto se debe agregar al MENU que usan esos roles, mediante SYSTEM.
-
-### ¿Cómo me doy cuenta que es una opción del sistema es un proceso?
-
-Básicamente por el icono del menú y que al abrirlo se muestra un proceso (filtros de búsqueda) y no una ventana con Campos. Brinda la opción de dar check y tiene ciertos parámetros con un título y descripción.
-
-
-### ¿Cómo solicitar un Update de un Registro (actualización)?
-
-Se debe solicitar un update cuando se desea modificar un dato en un documento y el mismo ya está Completo o el campo está Sólo lectura. (verificar antes si el dato no puede ser modificado de otra manera, por ejemplo si el registro no está INACTIVO o si se puede borrar y generar nuevamente.) Se debe intentar generar lo menos posible.
-
-**Datos a solicitar:** 
-
-* Id del Registro que se quiere cambiar (Tabla del registro con su ID). 
-  * Se obtiene al hacer click en la esquina inferior derecha donde está la auditoría
-* Campo que se quiere cambiar (ID del campo que se quiere actualizar) 
-  * Botón derecho en el campo, seleccionar Bitácora de Cambios. copiar el nombre del campo.
-* Busco el ID del Registro que se quiere definir en el campo de la tabla mediante una actualización y aclarararlo.
-
-::: note
-*(No siempre es un ID lo que se quiere actualizar, también puede ser un código por ejemplo o cualquier campo de una tabla.)
-:::
-
-### ¿Qué puede suceder si luego de generar un Documento, bajo a la pestaña hija y al volver a subir no lo veo?
-
-Si se abre una ventana desde el menú, el sistema lo hace mostrando todos los registros de la misma, sin aplicar ningún filtro. 
-
-Si ésta se abre desde el Acceso Rápido de "Últimos Documentos" o se navega a la misma desde un campo en especial, la ventana se abre pero con un "FILTRO APLICADO".
-
-El problema se da cuando desde una ventana con un filtro aplicado, generan un NUEVO REGISTRO, el mismo se podrá editar y guardar sin problema siempre y cuando estemos en la misma Pestaña; ahora si se baja a una pestaña Hija al volver a subir a la pestaña PADRE, se volverá a aplicar el Filtro Inicial que teníamos definido; si este filtro NO INCLUYE el nuevo Registro que habíamos generado, el mismo no se verá.
 
 ### ¿Cuáles son los requisitos para poder eliminar un documento?
 
@@ -158,35 +163,9 @@ En el caso que se quiera modificar un producto de tipo “Servicio” se deberá
 
 La actividad se toma desde el "Grupo" del producto, mediante un callout en la línea de contrato al momento de seleccionar el producto.
 
-#### Definir “Valor de Preferencia” en Campo
+### Definir “Valor de Preferencia” en Campo
 
 En cada documento si queres definir una opción de un campo por defecto puede realizarse oprimiendo botón derecho sobre el campo y seleccionando “Valor de Preferencia”. Ahora cada vez que ingreses a dicha ventana te aparecerá definido en el campo el valor seleccionado. 
-
-#### ¿Cómo saber si un registro está guardado?
-
-En un documento podemos saber si un registro está guardado visualizando el mismo abajo a la derecha. En este caso por ejemplo, aparece un *1 esto quiere decir que aún no tiene número de registro guardado.
-
-## Lista de Precio
-
-### No se actualiza Moneda en Documento según Lista de Precio:
-
-Cuando el usuario selecciona una Lista de precios, cuya fecha de validez es posterior a la fecha del documento que se está creando, el campo de la moneda no se actualiza. Esto se debe a que en la ventana “Lista de Precios”, seleccionando la lista de precios en cuestion, luego pestaña “Version”, el campo “Valido desde” corresponde a una fecha posterior al documento (por ejemplo Orden de Compra), entonces el campo moneda no refleja el tipo de moneda de la lista de precios en el documento que se esta creando.
-
-::: note
-Para que una lista de precios sea correctamente considerada por un Documento la misma debe tener una Fecha (Válido desde) Desde en la Versión Activa igual o mayor al día del Documento.
-:::
-
-### ¿Existe alguna rutina automática que actualice el precio de la versión de lista de precio?
-
-Mediante la activación de una configuración de sistema se obtiene la versión de lista vigente según la fecha de factura (DateInvoiced) o fecha de orden (DateOrdered) según corresponda.
-
-Si para una línea se encuentra que el precio es distinto, respecto del precio en la versión vigente, entonces se actualiza el precio en la versión.
-
-Además, en el campo "Comentarios" en la pestaña de "Precio de Producto", se guardan los datos relacionados a la modificación de ese precio.
-
-### ERROR: Producto no está en lista de precios.
-
-Para solucionarlo se debe navegar al producto y agregar en la pestaña Precio la lista de precio que indica el mensaje.
 
 ### Cómo quitar aviso de “Producto sin Inventario” cuando no se desea controlar inventario?
 
@@ -197,3 +176,23 @@ Se soluciona definiendo a los Productos con Tipo “ARTÍCULOS” como Almacenab
 Los productos tienen un ID que los identifica dentro de la aplicación. Por lo cual si, es posible cambiar el nombre de los productos (O SDN), pero siempre tendrá afectación en todo lugar del sistema donde se visualice dicho producto (inclusive en forma retroactiva). O sea, el nombre que cambien para ese ID producto cambiará para todos los registros en la aplicación.
 
 Por ejemplo si se utilizó este producto en algún Contrato o Factura pasada, el cambio de nombre afectará el nombre del producto definido en dichas facturas... entiendo que en cierta operativa podría afectar si existe alguna factura que aún se encuentra pendiente, entonces en un Estado de Cuenta que se envíe por Morosidad, se reflejará el nuevo Nombre y no el anterior.
+
+## Procesos
+
+### BÚSQUEDA INTELIGENTE (SMARTBROWSER)
+
+Los procesos que se encuentran dentro de los "Navegadores Inteligentes" permiten una gestión fácil y rápida de los registros sobre los cuales se desea correr cierto proceso.
+
+Lamentablemente estos Navegadores presentan algunas limitaciones que son las siguientes:
+
+1. No se puede alterar el ordenamiento presentado por el Navegador, los datos se deben simplemente filtrar pero no se puede "Ordenar" según un criterio diferente al presentado.
+
+2. No se puede correr más de 1 vez un proceso desde un Navegador Inteligente, esto quiere decir que sí realizó una selección y corrió un proceso, si desea generar un nuevo proceso con nuevos filtros se deberá abrir una nueva ventana del navegador inteligente para realizar la nueva consulta y el nuevo Proceso.
+
+### ¿Existe alguna rutina automática que actualice el precio de la versión de lista de precio?
+
+Mediante la activación de una configuración de sistema se obtiene la versión de lista vigente según la fecha de factura (DateInvoiced) o fecha de orden (DateOrdered) según corresponda.
+
+Si para una línea se encuentra que el precio es distinto, respecto del precio en la versión vigente, entonces se actualiza el precio en la versión.
+
+Además, en el campo "Comentarios" en la pestaña de "Precio de Producto", se guardan los datos relacionados a la modificación de ese precio.
