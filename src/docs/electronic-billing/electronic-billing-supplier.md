@@ -28,7 +28,18 @@ En el caso de un documento hubiera sido rechazado, es posible desde ahí editarl
 
 Utilizando el lápiz se puede editar el documento para volver a intentar el envío. Sugerimos buscar apoyo en nuestro soporte para validar la información antes de intentar cualquier cambio.
 
-Si la empresa a la que se le está facturando también está en el sistema de Facturación Electrónica InvoiCy envía una copia del documento por email a esta Empresa y una copia a DGI.
+Si la empresa a la que se le está facturando también está en el sistema de Facturación Electrónica InvoiCy envía una copia del documento por email a esta Empresa (el cliente) y una copia a DGI.
+
+#### Requisitos para generar el envío de documentos a clientes
+
+Existen dos maneras de definir la dirección de envío de un CFE por correo electrónico a los clientes:
+
+* Dirección que cada empresa declara ante DGI para recibir CFE que le son generadas a su nombre.
+
+* Dirección que un Proveedor le defina a sus Clientes de una Dirección de Correo electrónico diferente a la definida por DGI para asegurarse que el departamento de "Pagos del Cliente" reciba la Representación Impresa del CFE.
+
+La segunda opción se configura a través de Solop ERP:
+Para definir una nueva dirección de correo electrónico para enviar a Administración del Cliente se debe definir el correo en la pestaña de Localización del Socio del Negocio en el campo "EMail Adress".
 
 ### **Otros tipos de documentos:**
 
