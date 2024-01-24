@@ -6,7 +6,7 @@ sticky: 9
 article: false
 ---
 
-## Mantenimiento
+## Mantenimientos
 
 ### Error: Período cerrado
 

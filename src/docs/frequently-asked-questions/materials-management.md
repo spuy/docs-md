@@ -36,6 +36,9 @@ La ventana de Detalle de Almacenamiento simple brinda el inventario al día, per
 
 #### Descargar inventario completo a una fecha determinada
 
-La ventana Informe de Inventario Valorado permite realizar una consulta sobre el estado del inventario a una fecha determinada (con filtro Fecha). Permite filtrar por los siguientes parámetros
+La ventana Informe de Inventario Valorado permite realizar una consulta sobre el estado del inventario a una fecha determinada (con filtro Fecha). 
+La existencia del producto se obtiene para la fecha indicada, el precio siempre es el último según la versión de lista elegida.
+Este reporte "no muestra" los productos sin existencia a la fecha seleccionada.
+Permite filtrar por los siguientes parámetros:
 
 ![Parámetros 2](/assets/img/docs/frequently-asked-questions/fra-asked-image2.png)
