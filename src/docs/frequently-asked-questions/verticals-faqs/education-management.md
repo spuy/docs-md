@@ -6,15 +6,7 @@ sticky: 9
 article: false
 ---
 
-## Gestión de Educación
-
-#### Definición del Socio del Negocio a Facturar en un Contrato de Servicios
-
-Para poder seleccionar a un Socio del Negocio diferente al definido en el Contrato se deberá establecer una Relación entre ambos Socios del Negocio.
-
-En el caso de Educación esta relación se define en la ventana “FAMILIA” y en la pestaña miembros se debe definir al “Socio del Negocio” que se desea definir como “Socio del Negocio a Facturar” como “Responsable de Pago = SI”. Luego de haber marcado este check se debe refrescar el campo del “SDN a Facturar” en el Contrato y seleccionar el mismo
-
-## Errores Frecuentes
+## Mantenimientos
 
 ### Documentos generados al Alumno en vez de al responsable de pago
 
@@ -22,13 +14,7 @@ Una vez definida la relación entre el alumno y el responsable de pago en la ven
 
 ### Fallo de envío Mail de estado de cuenta a uno de los dos familiares ¿Cómo realizo reenvío?
 
-Cuando se da el caso de que un estudiante con familiar Madre y Padre se les envía a ambos el estado de cuenta y uno de los dos envíos por mail falla; la manera de poder realizar un envío nuevamente sería desde el proceso de "Envío de Estado de Cuenta por Correo" filtrando por el Socio del Negocio (familiar) del Responsable de pago y marcando el check de "Impreso" = SI
-
-### Estado de Cuenta Educación (descuento en la misma línea)
-
- la columna "Descuento" (en el PDF de estado de cuenta educación) muestra el importe de descuento de línea de DxC, el cual es el resultado de la siguiente operación:
-
-(Precio de Lista - Precio ingresado) * Cantidad
+Cuando se da el caso de que un estudiante con familiar Madre y Padre se les envía a ambos el estado de cuenta y uno de los dos envíos por mail falla; la manera de poder realizar un envío nuevamente sería desde el proceso de "Envío de Estado de Cuenta por Correo" filtrando por el Socio del Negocio (familiar) del Responsable de pago y marcando el check de "Impreso" = SI.
 
 ### ¿Por qué motivo puede ocurrir que en un estado de cuenta corriente de un cliente se muestren pendientes comprobantes que ya fueron pagados?
 
@@ -40,13 +26,43 @@ Solución:
 
 La manera de que se puedan ver Pagos o Cobros en una moneda diferente a la que se obtiene un reporte de "Estado de Cuenta Corriente" es que los mismos sean generados desde el documento "Recibo de Cobro" o "Recibo de Pago" y tengan marcado que es un documento "multimoneda". De esta manera se solicitará también que se defina en dicho documento la tasa de cambio que se desea considerar para hacer la asignación contra los documentos en una moneda diferente al cobro. Esta tasa de cambio será la que se considerará para realizar la conversión de este documento y así mostrarlo en un estado de cuenta corriente en la moneda de asignación y no la moneda original del Pago.
 
-### Reportes
+### ¿Por qué un Estado de cuenta atrasada no muestra pago cobro con saldo abierto en ultimos pagos?
 
-#### ¿Cómo podemos visualizar fácilmente los nuevos contratos año a año para obtener del sistema cuantos nuevos alumnos tenemos?
+Lo que sucede es que la consulta de últimos pagos toma los pagos cuya fecha de creado sea menor o igual a la fecha de morosidad, y lo mismo para la fecha de transacción del pago.
 
-Para obtener esta información en el reporte "Detalle de Lineas de Contrato" existe (como filtro y columna) el campo "Fecha de Ingreso". El mismo corresponde a la menor fecha de inicio de todos los contratos del alumno, en cualquier estado que se encuentren los mismos.
+En un caso hipotético si un cálculo de morosidad tiene fecha 10/12/2023, el pago en cuestión tiene fecha de transacción 4/12/23, pero su fecha de creado es 11/12/23 (mayor a la fecha de morosidad), por esa razón no se mostraría en la sección de últimos pagos.
 
-#### ¿Desde dónde se puede imprimir el "Estado de cuenta corriente"?
+## Acciones
+
+### Definición del Socio del Negocio a Facturar en un Contrato de Servicios
+
+Para poder seleccionar a un Socio del Negocio diferente al definido en el Contrato se deberá establecer una Relación entre ambos Socios del Negocio.
+
+En el caso de Educación esta relación se define en la ventana “FAMILIA” y en la pestaña miembros se debe definir al “Socio del Negocio” que se desea definir como “Socio del Negocio a Facturar” como “Responsable de Pago = SI”. Luego de haber marcado este check se debe refrescar el campo del “SDN a Facturar” en el Contrato y seleccionar el mismo.
+
+### Estado de Cuenta Educación (descuento en la misma línea)
+
+ la columna "Descuento" (en el PDF de estado de cuenta educación) muestra el importe de descuento de línea de DxC, el cual es el resultado de la siguiente operación:
+
+(Precio de Lista - Precio ingresado) * Cantidad
+
+### Definición de precios en las Lineas de Contratos
+
+Los precios en las líneas de los Contratos se pueden definir o manualmente o Según Lista de Precios. 
+
+### Definición de Precios en Contrato según Lista de Precios:
+
+Los precios se definen según la Versión de Lista de Precios que esté Activa con fecha menor a la fecha de hoy de la “Lista de Precios” que tiene definido el Contrato.
+
+### ¿Cómo borrar o quitar un Contrato de Servicios cuando ya existe otro para mismo Socio del Negocio?
+
+Los Contratos de Servicio una vez guardados con un Socio del Negocio ya no se podrán Borrar ni Anular por razones de Auditoría. Si se desea que un Contrato de Servicio no figure más como selección el mismo se deberá “INACTIVAR”. Se inactiva simplemenete 
+
+definiendo el Check de “Activo” = NO
+
+## Procesos
+
+### ¿Desde dónde se puede imprimir el "Estado de cuenta corriente"?
 
 Existe un proceso denominado "Imprimir Estado de Cuenta Corriente", a ejecutarse desde la entrada de morosidad (en cálculo de morosidad), el cual ejecuta un PDF u otro, según el nivel de morosidad.
 
@@ -56,9 +72,7 @@ Estado de Cuenta Corriente cuando el nivel de morosidad es Estado de Cuenta.
 
 Resumen de Saldos Pendientes cuando el nivel de morisidad es Deuda Atrasada.
 
-### Contrato de Servicios
-
-#### Crear Cuotas desde Contrato de Servicios
+### Crear Cuotas desde Contrato de Servicios
 
 Las cuotas se crean desde el proceso “crear Cuota desde contrato de Servicios” que está en la ventana Contrato de Servicios. Estas se generarán según la definición que tenga en las líneas. 
 
@@ -68,17 +82,20 @@ El precio se define desde la Lista de precios.
 
 * FECHAS DE CONTRATO: para poder crear Cuotas desde un Contrato se debe definir OBLIGATORIAMENTE la fecha inicio y fecha fin. Ya que el proceso generará las cuotas RECURRENTES entre estas fechas.
 
-#### Definición de precios en las Lineas de Contratos
+### ¿Existe un proceso para anular conceptosa facturar?
 
-Los precios en las líneas de los Contratos se pueden definir o manualmente o Según Lista de Precios. 
+Si, existen dos procesos para realizar la anulación dependiendo del tipo de concepto a facturar que se desee anular:
 
-##### Definición de Precios en Contrato según Lista de Precios:
+Anular conceptos recurrentes: posee filtro de Socio del Negocio obligatorio (se utiliza para anular los conceptos recurrentes).
 
-Los precios se definen según la Versión de Lista de Precios que esté Activa con fecha menor a la fecha de hoy de la “Lista de Precios” que tiene definido el Contrato.
+Anular conceptos no recurrentes: posee filtros de producto y fecha obligatorios (se utiliza para anular los conceptos no recurrentes).
 
-  
-#### ¿Cómo borrar o quitar un Contrato de Servicios cuando ya existe otro para mismo Socio del Negocio?
+::: note
+El check "Self-Service" se traduce como "No Recurrente"
+:::
 
-Los Contratos de Servicio una vez guardados con un Socio del Negocio ya no se podrán Borrar ni Anular por razones de Auditoría. Si se desea que un Contrato de Servicio no figure más como selección el mismo se deberá “INACTIVAR”. Se inactiva simplemenete 
+## Reportes
 
-definiendo el Check de “Activo” = NO
+### ¿Cómo podemos visualizar fácilmente los nuevos contratos año a año para obtener del sistema cuantos nuevos alumnos tenemos?
+
+Para obtener esta información en el reporte "Detalle de Lineas de Contrato" existe (como filtro y columna) el campo "Fecha de Ingreso". El mismo corresponde a la menor fecha de inicio de todos los contratos del alumno, en cualquier estado que se encuentren los mismos.
