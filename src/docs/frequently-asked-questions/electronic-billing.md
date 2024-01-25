@@ -165,6 +165,12 @@ Se puede saber si envía o no CFE desde la ventana "LUY Sender".
 
 Si envía CFE debe estar en “Y”.
 
+### ¿Puedo deshabilitar el envío automático de Documentos por Cobrar al cliente?
+
+Es posible deshabilitar el envío automático. Deberán solicitarlo a Soporte Solop ERP por ser una configuración no visible para usuarios:
+
+![Deshabilitar envío de email](/assets/img/docs/frequently-asked-questions/fra-asked-image3.png)
+
 ### ¿Por qué motivo al ingresar un pago para una Factura (Documentos por Pagar) e ir a la opción de cheque no veo las opciones de Banco?
 
 Solo se puede pagar una Factura y ver las opciones de Banco cuando la factura esta en estado de “Completo”, si está en “Borrador” no dejará ver las opciones de pago. Debe completar la Factura.

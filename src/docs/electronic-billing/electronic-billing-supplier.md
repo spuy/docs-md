@@ -30,18 +30,26 @@ Utilizando el lápiz se puede editar el documento para volver a intentar el env�
 
 Si la empresa a la que se le está facturando también está en el sistema de Facturación Electrónica InvoiCy envía una copia del documento por email a esta Empresa (el cliente) y una copia a DGI.
 
-#### Requisitos para generar el envío de documentos a clientes
+### Envío Automático de documentos a clientes
 
-Existen dos maneras de definir la dirección de envío de un CFE por correo electrónico a los clientes:
+Existen dos maneras de definir la dirección de envío de un CFE por correo electrónico a los clientes.
 
-* Dirección que cada empresa declara ante DGI para recibir CFE que le son generadas a su nombre.
+* Dirección que cada empresa declara ante DGI para recibir CFE que le son generadas a su nombre: 
 
-* Dirección que un Proveedor le defina a sus Clientes de una Dirección de Correo electrónico diferente a la definida por DGI para asegurarse que el departamento de "Pagos del Cliente" reciba la Representación Impresa del CFE.
+En este caso el envío lo realiza Invoicy y es independiente del sistema Solop ERP.
 
-La segunda opción se configura a través de Solop ERP:
-Para definir una nueva dirección de correo electrónico para enviar a Administración del Cliente se debe definir el correo en la pestaña de Localización del Socio del Negocio en el campo "EMail Adress".
+* Dirección que un Proveedor le defina a sus Clientes de una Dirección de Correo electrónico diferente a la definida por DGI para asegurarse que el departamento de "Pagos del Cliente" reciba la Representación Impresa del CFE:
 
-![Casilla e mail Cliente](/assets/img/docs/electronic-billing/elb-billing4.png)
+Esta segunda opción se configura a través de Solop ERP.
+Para definir una nueva dirección de correo electrónico para enviar a Administración del Cliente se debe configurar el correo en la pestaña de Localización del Socio del Negocio en el campo "EMail Adress" (permite ingresar varios correos separados por coma y sin espacio).
+
+![Casilla e mail Cliente](/assets/img/docs/electronic-billing/elb-billing4.png).
+
+De esta forma, cuando se complete un documento por cobrar se enviará en forma automática la representación impresa del documento al cliente.
+Es posible validar este envío ingresando en invoicy, consultando el comprobante emitido. En la solapa Receptor podrá visualizar en campo E mail receptor la/s casilla/s de destino. 
+A su vez, desde esta consulta de invoicy es posible reimprimir la representación gráfica del documento así como también reenviarlo nuevamente al receptor.
+
+El sistema permite deshabilitar este envío automático de documentos desde Solop ERP solicitándolo a nuestro Soporte (se trata de una configuración interna no visible por el usuario en la ventana Luy Sender, tildando el check "Deshabilitar Envío de mail a BP").
 
 ### **Otros tipos de documentos:**
 

@@ -38,12 +38,6 @@ Existen 2 maneras de ajustar el registro de la factura al documento físico:
 * Ajustando las cantidades, y el importe se ajustará automáticamente
 * Incorporando una línea adicional por el concepto “Ajuste”
 
-### ¿Puedo deshabilitar el envío automático de Documentos por Cobrar al cliente?
-
-Es posible deshabilitar el envío automático. Deberán solicitarlo a Soporte Solop ERP por ser una configuración no visible para usuarios:
-
-![Deshabilitar envío de email](/assets/img/docs/frequently-asked-questions/fra-asked-image3.png)
-
 ### ¿Cómo genero una Factura Cliente (Documento por Cobrar) a Crédito manualmente?
 
 selecciona el botón forma de pago “A credito”, una vez seleccionado, se despliega el campo “Término de pago”, donde definirá el término deseado. Esta conducta se puede definir en las propiedades del Socio del Negocio para el siguiente Documento por cobrar. Luego de ingresados todos los datos, se da clic en “Completar”.
