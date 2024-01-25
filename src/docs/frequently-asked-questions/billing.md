@@ -6,9 +6,9 @@ sticky: 9
 article: false
 ---
 
-# Mantenimientos
+## Mantenimientos
 
-## ¿Por que motivo puede NO VISUALIZARSE una Orden de Venta para Facturar?
+### ¿Por que motivo no se visualiza una Orden de Venta para Facturar?
 
 Puede ser por 3 motivos:
 
@@ -17,9 +17,9 @@ Puede ser por 3 motivos:
 * Ver que Regla de facturación tiene la misma
 * Verificar en la línea de la Orden que no tenga Cantidades facturadas
 
-# Acciones
+## Acciones
 
-## ¿Puedo modificar los importes de una factura si el proveedor no entrega exactamente lo solicitado?
+### ¿Puedo modificar los importes de una factura si el proveedor no entrega exactamente lo solicitado?
 
 Es posible, en el caso que el proveedor **no entrega** exactamente lo solicitado:
 
@@ -38,11 +38,17 @@ Existen 2 maneras de ajustar el registro de la factura al documento físico:
 * Ajustando las cantidades, y el importe se ajustará automáticamente
 * Incorporando una línea adicional por el concepto “Ajuste”
 
-## ¿Cómo genero una Factura Cliente (Documento por Cobrar) a Crédito manualmente?
+### ¿Puedo deshabilitar el envío automático de Documentos por Cobrar al cliente?
+
+Es posible deshabilitar el envío automático. Deberán solicitarlo a Soporte Solop ERP por ser una configuración no visible para usuarios:
+
+![Deshabilitar envío de email](/assets/img/docs/frequently-asked-questions/fra-asked-image3.png)
+
+### ¿Cómo genero una Factura Cliente (Documento por Cobrar) a Crédito manualmente?
 
 selecciona el botón forma de pago “A credito”, una vez seleccionado, se despliega el campo “Término de pago”, donde definirá el término deseado. Esta conducta se puede definir en las propiedades del Socio del Negocio para el siguiente Documento por cobrar. Luego de ingresados todos los datos, se da clic en “Completar”.
 
-## Cómo generar una Nota de crédito
+### Cómo generar una Nota de crédito
 
 ### Solicitud de Nota de Crédito
 
@@ -121,9 +127,9 @@ Cuando las Notas de crédito se crean desde el Botón Crear desde en el cabezal 
 
 El problema surge cuando la Nota de crédito se crea manualmente, aquí hay que ajustar manualmente el campo Total asignado de la pestaña CFE Referidos en la Nota de crédito, ya que el importe asignado de la factura quedará como todo el disponible de la misma, siendo mayor al de la Nota de crédito.
 
-# Procesos
+## Procesos
 
-## Generar factura desde Línea de Orden
+### Generar factura desde Línea de Orden
 
 ### Varios Términos de Pago en las Órdenes de Venta seleccionadas
 
@@ -163,17 +169,6 @@ Respecto al Tipo de documento, el sistema controlará si el Socio del Negocio a 
 
 Cuando se selecciona el criterio de agrupación facturación “Contrato” para poder facilitar y evitar trancar el proceso, se toman varios datos según el Contrato de Servicios y no directamente desde la orden de venta en cuestión. Dentro de estos campos que se toman del contrato está por ejemplo el Agente Comercial que se define, el término de pago y también la Lista de Precios. 
 
-## Bandeja CFE 
-
-### Generar Factura desde Conceptos
-
-**¿Cómo se define el Tipo de documento CFE al momento de generar las facturas?**
-Los Tipo de Documento de CFE se asignan automáticamente según el tipo de Documento de cada Socio del Negocio:
-
-RUT: Tipo de documento e-factura
-
-Cédula: Tipo de documento e-ticket
-
 ### Controles para Facturar Orden de Venta
 
 * Check “Permite Facturar”: Para poder facturar una orden de venta luego de completarla debe tener el check de permite facturar, y su regla de facturación debe ser inmediata.
@@ -194,3 +189,14 @@ Si la cantidad de líneas de la factura no es la que debe tener, entonces se bor
 ### ¿Dónde se define el cargo de una factura importada?
 
 la obtención del cargo para el Socio del Negocio se realiza en el proceso "Importar CFE Recibidos".
+
+### Bandeja CFE 
+
+### Generar Factura desde Conceptos
+
+**¿Cómo se define el Tipo de documento CFE al momento de generar las facturas?**
+Los Tipo de Documento de CFE se asignan automáticamente según el tipo de Documento de cada Socio del Negocio:
+
+RUT: Tipo de documento e-factura
+
+Cédula: Tipo de documento e-ticket

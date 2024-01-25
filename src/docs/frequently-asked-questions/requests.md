@@ -6,17 +6,13 @@ sticky: 9
 article: false
 ---
 
-## Solicitudes
-
-### Requisitos para que un usuario interno de Solop ERP pueda ver solicitudes
-
-Para que un usuario de autenticación pueda ver “Solicitudes” en Solop ERP de otros usuarios, debe tener asignado un Socio del Negocio. Luego, ese Socio del Negocio, en la pestaña “Empleado” debe tener marcada la opción de “Agente Comercial”.
+## Mantenimientos
 
 ### ERROR en envío de emails
 
 El motivo del error puede ser que la casilla de gmail no está permitiendo la conexión del sistema con el gmail.
 
-SOLUCIÓN:
+**SOLUCIÓN:**
 
 En acceso de Aplicaciones poco seguras se debe Permitir el acceso de aplicaciones poco seguras.
 
@@ -53,3 +49,10 @@ Puede pasar de que al enviar correos una vez por mes de esta manera, se desactiv
     * Timestamp Actual
   * Sufijo:
     * .pdf (o la extensión que corresponda)
+
+## Acciones
+
+### Requisitos para que un usuario interno de Solop ERP pueda ver solicitudes
+
+Para que un usuario de autenticación pueda ver “Solicitudes” en Solop ERP de otros usuarios, debe tener asignado un Socio del Negocio. Luego, ese Socio del Negocio, en la pestaña “Empleado” debe tener marcada la opción de “Agente Comercial”.
+
