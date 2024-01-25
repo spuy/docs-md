@@ -71,17 +71,13 @@ Podrá visualizar en el campo **Neto de Línea**, el resultado del cálculo del 
 
 Recuerde guardar el registro de los campos con ayuda del icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
 
-Seleccione la pestaña principal **Factura** y luego seleccione la opción **Completar** ubicada en la parte inferior del documento por cobrar.
-
-![Campo](/assets/img/docs/sales-management/sam-sales-image235.png)
-
-Imagen 20. Pestaña Factura
+Seleccione la pestaña principal **Factura** y luego seleccione la opción **Procesar Factura** ubicada en la parte inferior del documento por cobrar.
 
 Seleccione la acción **Completar** y la opción **OK** para completar el documento.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image236.png)
 
-Imagen 21. Acción Completar y Opción OK
+Imagen 21. Acción Procesar Factura y Opción OK
 
 ## Generar Factura desde Líneas de la Orden
 
@@ -115,6 +111,8 @@ Seleccione las líneas de la orden desde las cuales requiere que sea generada la
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image245.png)
 
+![Campo](/assets/img/docs/sales-management/sam-sales-image2450.png)
+
 Imagen 9. Selección de Líneas de la Orden de la Ventana Generar Factura desde Líneas de la Orden
 
 Seleccione en el campo **Fecha de Facturación**, la fecha en la cual se esta realizando la facturación.
@@ -131,7 +129,7 @@ Seleccione el checklist **Agregar Línea de Referencia en Factura**, para que la
 
 Seleccione la opción **OK**, para generar el documento en base a lo seleccionado en los campos anteriormente explicados.
 
-Podrá visualizar en la parte inferior de la ventana **Genera Factura desde Líneas de la Orden**, el resultado del proceso realizado anteriormente.
+Podrá visualizar en histórico de Procesos, el resultado del proceso realizado anteriormente.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image253.png)
 

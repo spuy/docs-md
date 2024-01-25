@@ -16,9 +16,9 @@ Cada evento que dispara un envío de información desde el sistema genera un reg
 
 Este registro define el tipo de aplicación (ejemplo: correo electrónico) y la aplicación soportada (linkedin, facebook, etc).
 
-### Tipos de Notificaciones
+## Tipos de Notificaciones
 
-* Notificación desde Cálculo de Morosidad
+### Notificación desde Cálculo de Morosidad
 
   En la opción de Cálculo de Morosidad se generan las diferente entradas por deuda.
 
@@ -28,7 +28,7 @@ Este registro define el tipo de aplicación (ejemplo: correo electrónico) y la 
 
   ![Envio de Estado de cuenta por Correo](/assets/img/docs/basic-rules/bar-not-estado1.png)
 
-* Notificación desde Solicitudes
+### Notificación desde Solicitudes
 
   Generación de notificaciones desde solicitudes de trabajo (task, issues, request): es una entidad que puede vincularse a diferentes actores (usuarios) o documentos (proyecto, orden de venta, compra, facturas, etc.). Se puede generar desde cualquier documento.
 
@@ -40,7 +40,7 @@ Este registro define el tipo de aplicación (ejemplo: correo electrónico) y la 
 
  ![Solicitud](/assets/img/docs/basic-rules/bar-not-solicitud1.png)
 
-* Notificación desde Proyectos
+### Notificación desde Proyectos
 
   Es posible vincular una solicitud a un proyecto (así como a otras entidades). O bien, en sentido contrario, es posible generar una solicitud que posteriormente será origen de un proyecto (en ambos casos quedarán vinculados). 
 
@@ -52,7 +52,7 @@ Este registro define el tipo de aplicación (ejemplo: correo electrónico) y la 
 
    ![Proyecto](/assets/img/docs/basic-rules/bar-not-proyecto1.png)
 
-* Notificación desde Reportes
+### Notificación desde Reportes
 
   Desde las diferentes entidades del ERP existe una opción en la barra de comandos denominada "Informes". Desde allí es posible generar un reporte con aquella información que se esté visualizando en pantalla, seleccionar una extensión (ejemplo, PDF, HTML,, excel) y luego exportarlo. A su vez, esta exportación es posible enviarla por mail desde el sistema. Esto genera un registro de cola de notificación).
 
@@ -60,7 +60,7 @@ Este registro define el tipo de aplicación (ejemplo: correo electrónico) y la 
 
     ![Reporte](/assets/img/docs/basic-rules/bar-not-report4.png)
 
-### Configuración de Notificaciones por Usuario
+## Configuración de Notificaciones por Usuario
 
 En la opción de Solicitudes, pestaña Aviso de Actualización puede observarse a aquellos usuarios que serán notificados por cambios en una determinada solicitud (ya sea por autor, por asignado, o por seguidor, y las diferentes modificaciones de la solicitud).
 
@@ -81,13 +81,13 @@ El template admite poder referenciar campos locales y referentes en otras tablas
 
  ![Plantilla de Correo por Evento](/assets/img/docs/basic-rules/bar-not-event1.png)
 
-### Cuando se genera cada Notificación?
+### ¿Cuando se genera cada Notificación?
 
 Al crearse un evento (al grabar solicitud por ejemplo) dentro de la aplicación que aplique un envío de información (una solicitud o bien, un envío de estado de cuenta de educación), se genera un registro de cola de notificación. Luego, un programador de procesos arma la cola de notificación (cada cinco minutos corre el proceso automático). Se limita el envío a 20 notificaciones por lote.
 
 Solicitudes automáticas: se está avanzando en la automatización de solicitudes ante escenarios específicos que se van generando en el ERP. Puede ser el caso de una factura recibida que no cuadre su importe con la orden. En este caso se cerrará la orden y se emitirá una solicitud (automática) para pedir la generación de nota de crédito (esto generará notificaciones por correo).
 
-### A quién se envía notificación?
+### ¿A quién se envía notificación?
 
 Es posible confirmar quienes son los destinatarios de una notificación desde la opción de Solicitudes, pestaña Aviso de Actualización (usuarios que serán notificados) por cambios en determinada solicitud por ejemplo.
 
