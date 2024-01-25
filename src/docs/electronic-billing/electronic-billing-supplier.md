@@ -41,6 +41,8 @@ Existen dos maneras de definir la dirección de envío de un CFE por correo elec
 La segunda opción se configura a través de Solop ERP:
 Para definir una nueva dirección de correo electrónico para enviar a Administración del Cliente se debe definir el correo en la pestaña de Localización del Socio del Negocio en el campo "EMail Adress".
 
+![Casilla e mail Cliente](/assets/img/docs/electronic-billing/elb-billing4.png)
+
 ### **Otros tipos de documentos:**
 
 También se puede consultar otros tipos de documentos, para verlos, en la ventana “Inicio” se pasa el mouse por encima de la barra que da acceso a filtros inmediatos de “Tipo” “Número”, “Fecha” y “Estado” y se selecciona.
