@@ -3,9 +3,6 @@ title: Documentos por Cobrar Servicios
 category: Documentation
 star: 9
 sticky: 9
-tag:
-  - Agencia
-  - Educación
 article: false
 
 ---

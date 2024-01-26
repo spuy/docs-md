@@ -26,21 +26,11 @@ Podrá visualizar la ventana **Generar Factura desde Orden de Salida** y procede
 
 Imagen 2. Ventana Generar Factura desde Orden de Salida
 
-Seleccione en el campo **Orden de Salida**, la orden de salida de la cual se va a filtrar la búsqueda.
-
-![Campo](/assets/img/docs/sales-management/sam-sales-image3.png)
-
-Imagen 3. Campo Orden de Salida
+Seleccione en el campo **Orden de Salida** (inbound & Outbound order ID), la orden de salida de la cual se va a filtrar la búsqueda.
 
 ::: note
 Para ejemplificar el registro solo es seleccionada la orden de salida como filtro de búsqueda, los filtros de búsqueda son acorde a la comodidad del cliente.
 :::
-
-Seleccione la opción **Comenzar Búsqueda** para realizar la búsqueda de los documentos según los filtros indicados.
-
-![Campo](/assets/img/docs/sales-management/sam-sales-image4.png)
-
-Imagen 4. Opción Comenzar Búsqueda
 
 Seleccione la orden de salida por la cual será generada la factura.
 
