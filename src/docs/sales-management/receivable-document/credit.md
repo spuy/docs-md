@@ -100,36 +100,6 @@ Luego de “Completar” la Nota de Crédito, la Orden de Venta que había sido 
 
 El asiento contable es el inverso a la Factura.
 
-### Nota de Crédito desde Factura
-
-La Nota de Crédito se generará desde la ventana Documentos por Cobrar a través de la opción “Crear desde”.
-
-En el cabezal de la ventana Documentos por cobrar debemos ingresar:
-
-* Tipo de Documento: Nota de Crédito
-* Socio de Negocio: Cliente al que se facturará
-* Tipo Autorización Devolución: Motivo por el cual se hace la Nota de Crédito
-
-Guardaremos el cabezal y seleccionaremos el botón “Crear desde”
-
-Este botón permitirá crear la Nota de crédito desde una Orden de venta, Factura o Recibo.
-
-Seleccionaremos el tipo de documento, el documento en cuestión y realizaremos la búsqueda smartbrowser.
-
-Esta búsqueda nos mostrará todas las líneas del documento, las cuales podemos seleccionar mediante un “check” modificando sus cantidades si se desea.
-
-Luego correremos el proceso seleccionando el botón de OK.
-
-Inmediatamente el sistema cargará las líneas a la Nota de crédito (donde se podrán modificar las cantidades y los importes) y definirá en la pestaña CFEs Referidos la factura que estoy asignando.
-
-Por último procederemos a completar la Nota de Crédito.
-
-La misma quedará con el check “pagado” siempre que haya sido por el total de la factura.
-
-![Crear Desde](/assets/img/docs/sales-management/sam-education1.png)
-
-**NOTA: Para ingresar una Nota de crédito Proveedor se utiliza el mismo procedimiento de ingreso de una factura de compra, indicando como Tipo de documento una Nota de crédito.**
-
 A continuación es explicado el procedimiento para registrar en Solop ERP una nota de crédito de cuentas por cobrar.
 
 ## Registro de Nota de Crédito
@@ -142,7 +112,13 @@ Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana **Documentos por Cobrar**, con todos los registros de documentos por cobrar cargados a Solop ERP.
 
+* Monoregistro
+
 ![Campo](/assets/img/docs/sales-management/sam-sales-image11.png)
+
+* Multi registro
+
+![Campo](/assets/img/docs/sales-management/sam-sales-image1111.png)
 
 Imagen 2. Ventana Documentos por Cobrar
 
@@ -250,16 +226,6 @@ Podrá visualizar en el campo **Neto de Línea**, el neto de la línea.
 Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP, para guardar el registro de los campos de la pestaña **Línea de la Factura**.
 
 Seleccione la pestaña principal **Factura** y ubique la opción **Completar**, en la parte inferior izquierda de la ventana.
-
-![Campo](/assets/img/docs/sales-management/sam-sales-image60.png)
-
-Imagen 51. Pestaña Factura de la Ventana Documentos por Cobrar
-
-Seleccione la opción **Completar**, para completar el documento **Nota de Crédito de CxC**.
-
-![Campo](/assets/img/docs/sales-management/sam-sales-image61.png)
-
-Imagen 52. Opción Completar de la Pestaña Factura de la Ventana Documentos por Cobrar
 
 Seleccione la acción **Completar** y la opción **OK**, para culminar el proceso.
 

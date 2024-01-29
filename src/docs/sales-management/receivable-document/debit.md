@@ -14,13 +14,19 @@ A continuación es explicado el procedimiento para registrar en Solop ERP una no
 
 Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Facturas de Ventas**, por último seleccione la ventana **Documentos por Cobrar**.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image67.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image10.png)
 
 Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana **Documentos por Cobrar**, con todos los registros de documentos por cobrar cargados a Solop ERP.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image68.png)
+* Monoregistro
+
+![Campo](/assets/img/docs/sales-management/sam-sales-image11.png)
+
+* Multi registro
+
+![Campo](/assets/img/docs/sales-management/sam-sales-image1111.png)
 
 Imagen 2. Ventana Documentos por Cobrar
 
@@ -92,7 +98,7 @@ Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de 
 
 Seleccione la pestaña **Línea de la Factura**, para cargar los detalles de la nota de débito que se encuentra realizando.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image99.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image42.png)
 
 Imagen 33. Pestaña Línea de la Factura de la Ventana Documentos por Cobrar
 
@@ -132,19 +138,9 @@ Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de 
 
 Seleccione la pestaña principal **Factura** y ubique la opción **Completar**, en la parte inferior izquierda de la ventana.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image117.png)
-
-Imagen 51. Pestaña Factura de la Ventana Documentos por Cobrar
-
-Seleccione la opción **Completar**, para completar el documento **Nota de Débito de CxC**.
-
-![Campo](/assets/img/docs/sales-management/sam-sales-image118.png)
-
-Imagen 52. Opción Completar de la Pestaña Factura de la Ventana Documentos por Cobrar
-
 Seleccione la acción **Completar** y la opción **OK**, para culminar el proceso.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image119.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image62.png)
 
 Imagen 53. Acción Completar y Opción OK de la Ventana Documentos por Cobrar
 
@@ -152,24 +148,24 @@ Imagen 53. Acción Completar y Opción OK de la Ventana Documentos por Cobrar
 
 Ubique el registro de la factura asociada a la nota de débito, en este caso se ubica la factura **76** y posteriormente seleccione la pestaña **Facturas Pagadas**.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image120.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image63.png)
 
 Imagen 54. Pestaña Facturas Pagadas de la Ventana Documentos por Cobrar
 
 Haga clic contrario en el campo **Asignación** y seleccione la opción **Acercar** en el menú visualizado.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image121.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image64.png)
 
 Imagen 55. Acercar Asignación de Pago de la Factura por Cobrar
 
 Podrá visualizar el registro de la asignación creada al completar el documento **Nota de débito de CxC**.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image122.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image65.png)
 
 Imagen 56. Registro de Asignación de Pago de Nota de débito de CxC
 
 Seleccione la pestaña **Asignaciones**, para visualizar la información del monto de la nota de débito aplicada a la factura.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image123.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image66.png)
 
 Imagen 57. Pestaña Asignaciones de la Ventana Consulta de Asignación
