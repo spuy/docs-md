@@ -104,10 +104,6 @@ Podrá apreciar en el campo **Neto de Línea**, el monto neto del producto por l
 
 Regrese a la ventana principal **Orden** y seleccione la opción **Completar**.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image299.png)
-
-Imagen 38. Opción Completar
-
 Seleccione la acción **Completar** y la opción **OK**, para completar el documento.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image300.png)
