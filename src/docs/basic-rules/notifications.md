@@ -32,7 +32,7 @@ En la opción de Plantilla de notificación es posible configurar templates por 
 
   En la opción de Cálculo de Morosidad se generan las diferente entradas por deuda.
 
-  **Para mayor información sobre Cálculo de Morosidad:** - [Gestión de Morosidad](../../balance-management/default-management-general/default-management)
+  **Para mayor información sobre Cálculo de Morosidad:** - [Gestión de Morosidad](../balance-management/default-management-general/default-management)
 
   Luego, el envío de estado de morosidad se realiza desde "Envío de Estado de cuenta por correo".
 
