@@ -14,9 +14,11 @@ article: false
 
 ```mermaid
 flowchart LR
-Acuerdo entre Institución y Estudiante. Se define responsable de pago, miembros de familia y curso --> Crear Contrato de Servicios
-Crear Contrato de Servicios --> Crear Líneas de Contrato
-Crear Líneas de Contrato <-- Solapas Descuentos y Cuotas. Definir Productos del Contrato en base a la Lista de Precio vigente
+    A[1. Crear Contrato de Servicios] --> B(Acuerdo entre Institución y Estudiante. Se define responsable de pago, miembros de familia y curso)
+    C[2. Crear Líneas de Contrato] --> D(Solapas Descuentos y Cuotas. Definir Productos del Contrato en base a la Lista de Precio vigente)
+    E[3. Crear Descuentos de Contrato] --> F(En base a las líneas de contrato define el descuento correspondiente)
+    G[4. Actualización de Precios de Contrato] --> H(Define Precios de Productos de Contrato en base a la Lista de Precio vigente)
+    I[5. Generar Cuotas desde Contrato de Servicio] --> J(Generar Cuotas a Facturar según recurrencia definida en Contrato)
 ```
 
 ![Flujo educación 1](/assets/img/docs/education-management/edum-image1.png)
@@ -46,7 +48,7 @@ En la pestaña Cuotas podrán visualizarse los conceptos a facturar vinculados a
 En la pestaña Descuento de Línea se definirá el tipo de descuento y su valor (por ejemplo descuento hermano o descuento beca).
 Se define el descuento correspondiente en base a las líneas del Contrato.
 
-**Para mayor información sobre Descuentos de Contrato:** - [Definición de Descuentos Servicios](../sales-management/comercial-rules/discount-definition-education)
+**Para mayor información sobre Descuentos de Contrato:** - [Definición de Descuentos Servicios](../../sales-management/comercial-rules/discount-definition-education)
 
 ### Actualización de Precios de Contrato
 

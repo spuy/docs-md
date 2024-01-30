@@ -12,6 +12,26 @@ article: false
 
 ### Circuito final
 
+```mermaid
+flowchart TD
+    A[Christmas] -->|Get money| B(Go shopping)
+    B --> C{Let me think}
+    C -->|One| D[Laptop]
+    C -->|Two| E[iPhone]
+    C -->|Three| F[fa:fa-car Car]
+```
+
+```mermaid
+flowchart LR
+A[1. Carga de Extracto de Cuenta Bancaria] --> B(Importa los Movimientos Bancarios y los identifica)
+C[2. Crear Cobros desde Movimientos Bancarios] --> D(Crea Pagos y Cobros desde los Movimientos Importados)
+E[3. Asignación de Pagos Masiva] --> F(Genera Asignación entre Documentos por Cobrar impagos y Cobros)
+G[4. Crear Conceptos a Facturar No Recurrentes] --> H(Genera los Conceptos a Facturar por Contrato y Estudiante)
+I[5. Generar Facturas desde Cuota de Contrato] --> J(Generación Masiva de Facturas unificando por Responsable de Pago, se consideran conceptos Recurrentes y No Recurrentes)
+K[6. Generar Cálculo de Morosidad] --> L(Crea Estados de Cuenta para cada responsable de Pago)
+M[7. Envío de Estado de Cuenta Corriente] --> N(Genera Envío por mail de Estado de Cuenta Corriente a Responsables de Pago)
+```
+
 ![Flujo educación 2](/assets/img/docs/education-management/edum-image2.png)
 
 ### Carga de Extracto de Cuenta Bancaria
@@ -68,7 +88,7 @@ Posee filtros tales como Socio del Negocio, Socio del Negocio a Facturar, Fecha 
 
 La ventana de Bandeja CFE audita todo el proceso de Facturación electrónica, y asignará el tipo de comprobante de acuerdo al grupo de impuesto del Responsable de Pago (si posee RUT genera E-factura y si posee Cedula genera E-ticket).
 
-**Para mayor información sobre Generar Facturas desde Cuota de Contrato:** - [Orden de Venta](../sales-management/receivable-document/accounts-receivable-agency)
+**Para mayor información sobre Generar Facturas desde Cuota de Contrato:** - [Orden de Venta](../../sales-management/receivable-document/accounts-receivable-agency)
 
 **Bandeja CFE**
 
@@ -100,7 +120,7 @@ Desde cada Entrada es posible desde el botón de procesos generar el Estado de c
 
 Al oprimir el botón se desplegará una ventana del proceso donde se deberán seleccionar los criterios o filtros del proceso a generar. En este caso se deberá definir la Organización, el Agente Comercial la Moneda, la fecha (definir un día más de la fecha de facturas) de las facturas que se desean filtrar y la Morosidad (Estado de Cuenta) de los Socios de Negocio.
 
-**Para mayor información sobre Cálculo de Morosidad:** - [Cálculo de Morosidad](../balance-management/default-management-general/default-management)
+**Para mayor información sobre Cálculo de Morosidad:** - [Gestión de Morosidad](../../balance-management/default-management-general/default-management)
 
 ![Crear Cálculo de Morosidad](/assets/img/docs/education-management/edum-image13.png)
 
