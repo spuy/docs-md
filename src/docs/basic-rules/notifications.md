@@ -8,13 +8,23 @@ article: false
 
 ## Definición de Notificaciones
 
+Por definición entendemos que una notificación es un Mensaje con una determinada información enviada a través de un vehículo seleccionado, con un formato definido y siempre a un destinatario predeterminado.
+
 Existen determinados eventos que generan notificaciones automáticas desde el ERP. 
 
-Estas notificaciones pueden originarse por solicitudes entre diferentes usuarios del sistema, también por la ejecución de cálculo de morosidad con envío de estado de cuenta al cliente (envío de facturas o cuotas adeudadas), o bien desde reportes.
+Estas notificaciones pueden originarse por solicitudes entre diferentes usuarios del sistema, también por la ejecución de cálculo de morosidad con envío de estado de cuenta al cliente (envío de facturas o cuotas adeudadas), desde Proyectos o bien desde reportes.
 
-Cada evento que dispara un envío de información desde el sistema genera un registro de "cola de notificación". 
+## Configuración de Notificaciones por Usuario
 
-Este registro define el tipo de aplicación (ejemplo: correo electrónico) y la aplicación soportada (linkedin, facebook, etc).
+En la opción de Solicitudes, pestaña Aviso de Actualización puede observarse a aquellos usuarios que serán notificados por cambios en una determinada solicitud (ya sea por autor, por asignado, o por seguidor, y las diferentes modificaciones de la solicitud).
+
+Desde la solicitud será posible la carga de horas por usuario (timesheet).
+
+### Plantilla de Correo
+
+En la opción de Plantilla de notificación es posible configurar templates por tipo de plantilla (ejemplo: solicitudes, proyectos).
+
+ ![Plantilla de Correo](/assets/img/docs/basic-rules/bar-not-plantilla1.png)
 
 ## Tipos de Notificaciones
 
@@ -22,9 +32,13 @@ Este registro define el tipo de aplicación (ejemplo: correo electrónico) y la 
 
   En la opción de Cálculo de Morosidad se generan las diferente entradas por deuda.
 
+  **Para mayor información sobre Cálculo de Morosidad:** - [Gestión de Morosidad](../../balance-management/default-management-general/default-management)
+
   Luego, el envío de estado de morosidad se realiza desde "Envío de Estado de cuenta por correo".
 
   Este proceso busca líneas de morosidad a enviar. Permite seleccionar por nivel de morosidad, por socio de negocio, por fecha. Y como parámetro se define el patrón de correo (de la organización correspondiente): generación de notificaciones desde línea de morosidad.
+
+  Una vez ejecutado el proceso, es posible visualizar la cantidad enviada desde el cálculo de morosidad, pestaña Ejecutar Morosidad, en el campo Cantidad Entregada (también es posible realizar el seguimiento de envíos desde las opciones de Cola de Notificación y Recipiente de Cola de Notificación)
 
   ![Envio de Estado de cuenta por Correo](/assets/img/docs/basic-rules/bar-not-estado1.png)
 
@@ -59,18 +73,6 @@ Este registro define el tipo de aplicación (ejemplo: correo electrónico) y la 
    ![Informe](/assets/img/docs/basic-rules/bar-not-report3.png)
 
     ![Reporte](/assets/img/docs/basic-rules/bar-not-report4.png)
-
-## Configuración de Notificaciones por Usuario
-
-En la opción de Solicitudes, pestaña Aviso de Actualización puede observarse a aquellos usuarios que serán notificados por cambios en una determinada solicitud (ya sea por autor, por asignado, o por seguidor, y las diferentes modificaciones de la solicitud).
-
-Desde la solicitud será posible la carga de horas por usuario (timesheet).
-
-### Plantilla de Correo
-
-En la opción de Plantilla de notificación es posible configurar templates por tipo de plantilla (ejemplo: solicitudes, proyectos).
-
- ![Plantilla de Correo](/assets/img/docs/basic-rules/bar-not-plantilla1.png)
 
 ### Plantilla de Correo por Evento (¿Qué se envía?)
 
@@ -107,6 +109,9 @@ Además de los usuarios vinculados, dentro de cada Solicitud se podrá agregar d
 El registro de cola de notificación se genera con un destinatario (es uno a uno). El estado de procesado = NO cambia a "SI" cuando se realiza el envío de la notificación. En el caso de fallar o emitir error por envío, queda configurado como Procesado = NO (descripción del error) y Activo = no para que no ingrese en el siguiente lote de envío.
 
 ### Cola de Notificación
+
+Cada evento que ejecuta un envío de información desde el sistema genera un registro de "cola de notificación". 
+Este registro define el tipo de aplicación (ejemplo: correo electrónico) y la aplicación soportada (linkedin, facebook, etc).
 
 Cuando se dispara una notificación desde el ERP, al generarse registro de cola de notificación, se graba como procesado = No (no enviado) y con el check de Activo = SI
 

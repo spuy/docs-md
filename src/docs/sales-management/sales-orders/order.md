@@ -211,3 +211,54 @@ Reglas de Entrega:
 
 * Disponibilidad: El ERP verifica que se posea el stock necesario de acierdp al producto y cantidades.
 * Forzado: el sistema realiza la entrega completa sin verificar stock. En caso que el stock sea insuficiente, quedará con cantidad "negativa".
+
+### Generar Órdenes de Venta recurrente desde Contrato de Servicios
+
+A partir de la definición de las líneas de un contrato se puede generar Órdenes de Venta según los Servicios Recurrentes que deban ser facturados según determinada recurrencia. De esta manera se podrán generar Órdenes de Venta según las mensualidades definidas en los Contratos.
+
+El proceso será el siguiente:
+
+Definición correcta del Contrato de Servicios: el primer paso para comenzar el proceso es verificar que todos los contratos estén correctamente definidos, tanto según las fechas del mismo como también las líneas.
+
+Crear “Cuotas a Facturar”: a partir de la definición de líneas en los contratos con su recurrencia correspondiente e importe, se deberá proceder a generar las “Cuotas a Cobrar” a partir del mismo. Este proceso puede generarse tanto desde la ventana “Contrato de Servicios” mediante el Proceso “Generar Cuotas desde Contrato” ubicado en los procesos asignados al registro, de esta manera se generarán TODAS las Cuotas a Facturar desde 1 solo contrato. También se tiene la opción de realizarlo de manera masiva para todos los contratos desde el proceso “Generar Cuotas a Facturar desde Contrato” ubicado en el menú, en este caso podrá no seleccionar ningún Contrato de Servicios en especial generando así Cuotas para Todos los Contratos.
+
+![Generar Cuotas desde Contrato](/assets/img/docs/sales-management/sam-agency1.png)
+
+Generar Orden de Venta desde Cuota a Facturar de Contrato de Servicios: Una vez se tienen todas las “Cuotas a Facturar de los Contratos de Servicios” creadas, se podrá generar a partir de las mismas las Órdenes de Venta para que puedan ser ingresadas luego al Proceso de Facturación. Estas Órdenes de Venta se sugiere utilizar el Tipo de Documento “Orden de Venta Fee”. En el Proceso se podrán filtrar según el Socio del Negocio, la Organización o la Fecha de la Cuota a facturar. En este proceso se podrá definir un sólo Socio del Negocio o todos los que desee. Se recomienda filtrar según Fecha para asegurarse que se está generando las cuotas correspondiente al mes que desea. En los parámetros del proceso podrá ver que está editable la Fecha del Documento que desea generar.
+
+IMPORTANTE: Para poder generar las Órdenes de Venta FEE desde el proceso “Generar OV desde Cuota de Contrato” es obligatorio que el Cliente tenga creado un Proyecto en el cuál tenga definido el check de “Es por defecto para FEE”.
+
+![Generar OV desde Cuota de Contrato](/assets/img/docs/sales-management/sam-agency2.png)
+
+### Orden de Venta a Facturar en Cuotas
+
+Una Orden de venta podrá definirse que se pueda facturar en N Cuotas.
+
+Para ello se definió el campo de “Regla de Facturación” donde se podrá escribir cómo se desea que una Orden de Venta sea facturada o bien como una Orden de compra deberá ser facturada por el Proveedor.
+
+Para la generación de esta Orden de Venta o Compra, se sugiere definir una CANTIDAD que sea igual al número de cuotas que se deberá facturar y el importe unitario por el valor de dicha cuota.
+
+**Para el caso que una Orden de Venta u Orden de Compra deba ser Facturada en diferentes “Cuotas” se deberá definir en la Fase del Proyecto:**
+
+* **Producto a Facturar:** Como la facturación no se realizará producto a Producto que fue solicitado, se debe definir un Producto Genérico que será el que finalmente será facturado.
+* **Descripción:** Escribir en la Descripción de la FASE cómo se desea que sea Facturado para que Administración se entere y
+* **Cantidad:** Además en el Campo “Cantidad” de la Fase se deberá definir la Cantidad de Cuotas que se desea Facturar, ya sea por el Medio o al Cliente. Ver que como Precio Unitario se deberá visualizar el importe de cada una de las cuotas a ser Facturado.
+
+### Generar Concepto a Facturar no Recurrente
+
+Para ciertos servicios que requieren ser facturados se sustituye la noción de "orden de venta" por la definición de "Concepto" (o Concepto a Facturar) también conocido como "Informe de Gasto".
+Se trata de entidades diferentes entre sí, con datos obligatorios distintos, que sin embargo comparten un objetivo similar.
+
+Para la generación de Servicios a Facturar que no son recurrentes, es decir como por ejemplo Natación, Talleres, etc, se podrá utilizar el proceso de “Generar Servicio a Facturar”.
+
+Mediante este Navegador se podrá visualizar los contratos de servicio sobre los cuáles se desea generar el Servicio a Facturar. Opcionalmente podrá definir un filtro para seleccionar que Contratos visualizar, dentro de los filtros posibles se encuentra la Organización, la Actividad y la Familia. De esta manera si se desea generar un servicio de “Taller” a todos los contratos de una familia por ejemplo, simplemente puede aplicar el filtro correspondiente y sólo se presentará la familia seleccionada.
+
+Una vez con todos los contratos filtrados pueden marcar todos o desmarcar si en algún caso no aplica.
+
+Una vez seleccionados los Contratos sobre los que se desea generar el “Servicio a Facturar” se deberá definir en los Parámetros del Proceso el Servicio que se desea generar.
+
+Se debe definir el Producto y la Versión de lista de precios deseada. El precio será tomado según el Precio de lista que tiene definido el Producto en la versión de lista de precios seleccionada. En caso que se desee definir un precio específico y no el definido en la lista de precios podrá definir el mismo en el campo “Precio”. Si este campo “Precio” queda en 0 el proceso tomará por defecto el precio de lista de la versión definida.
+
+Para generar el Servicio a facturar se deberá definir la Fecha y la actividad (Definir la misma que el producto para reportes Contables). La Fecha se recomienda definir el primer día del mes así cuando se generan las facturas se puede filtrar por todos los servicios con fecha 1ro del mes y así le aparecerá estos servicios también.
+
+![Generar Concepto a Facturar](/assets/img/docs/sales-management/sam-education2.png)

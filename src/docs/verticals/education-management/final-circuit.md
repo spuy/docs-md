@@ -12,26 +12,6 @@ article: false
 
 ### Circuito final
 
-```mermaid
-flowchart TD
-    A[Christmas] -->|Get money| B(Go shopping)
-    B --> C{Let me think}
-    C -->|One| D[Laptop]
-    C -->|Two| E[iPhone]
-    C -->|Three| F[fa:fa-car Car]
-```
-
-```mermaid
-flowchart LR
-A[1. Carga de Extracto de Cuenta Bancaria] --> B(Importa los Movimientos Bancarios y los identifica)
-C[2. Crear Cobros desde Movimientos Bancarios] --> D(Crea Pagos y Cobros desde los Movimientos Importados)
-E[3. Asignación de Pagos Masiva] --> F(Genera Asignación entre Documentos por Cobrar impagos y Cobros)
-G[4. Crear Conceptos a Facturar No Recurrentes] --> H(Genera los Conceptos a Facturar por Contrato y Estudiante)
-I[5. Generar Facturas desde Cuota de Contrato] --> J(Generación Masiva de Facturas unificando por Responsable de Pago, se consideran conceptos Recurrentes y No Recurrentes)
-K[6. Generar Cálculo de Morosidad] --> L(Crea Estados de Cuenta para cada responsable de Pago)
-M[7. Envío de Estado de Cuenta Corriente] --> N(Genera Envío por mail de Estado de Cuenta Corriente a Responsables de Pago)
-```
-
 ![Flujo educación 2](/assets/img/docs/education-management/edum-image2.png)
 
 ### Carga de Extracto de Cuenta Bancaria
@@ -75,28 +55,9 @@ Al seleccionar "Aceptar" se generan los correspondientes Conceptos a Facturar po
 
 ### Generar Facturas desde Cuota de Contrato
 
-Desde la ventana CFE es posible generar las cuotas creadas desde los contratos.
-Se inicia generando un registro de Bandeja CFE ingresando un nombre (y descripción opcional).
-Al grabar el registro se habilita la generación masiva de facturas (documentos por cobrar) en tres pasos y a partir de los conceptos a facturar previamente creados.
-
-* Primer paso: Seleccionar Conceptos a Facturar. Desde esta opción se abre una ventana emergente en la cual se pueden elegir los filtros con el objeto de agrupar aquellos conceptos a facturar que deseamos facturar masivamente (y se vincularán al registro de Bandeja CFE creado).
-Posee filtros tales como Socio del Negocio, Socio del Negocio a Facturar, Fecha del concepto, lista de precios, etc, para acotar la búsqueda de conceptos que deseemos facturar.
-
-* Segundo paso: Generar Facturas desde Conceptos. Luego de haber seleccionado los conceptos, podemos verificar en la solapa Conceptos a facturar que se hayan vinculado todos los conceptos deseados. Posteriormente al elegir la opción de Generar Facturas desde Conceptos se abrirá una ventana emergente en la cual nos indicará en qué estado se crearán los documentos por cobrar (siempre definido como en borrador o en proceso). 
-
-* Tercer paso: Completar Facturas Generadas. La instancia anterior genera los documentos por cobrar y permite verificarlos en la solapa Facturas. Si todos sus datos están correctos podemos seleccionar Completar Facturas Generadas lo cual cambiará a estado Completo en forma masiva a todas las facturas generadas.
-
 La ventana de Bandeja CFE audita todo el proceso de Facturación electrónica, y asignará el tipo de comprobante de acuerdo al grupo de impuesto del Responsable de Pago (si posee RUT genera E-factura y si posee Cedula genera E-ticket).
 
-**Para mayor información sobre Generar Facturas desde Cuota de Contrato:** - [Orden de Venta](../../sales-management/receivable-document/accounts-receivable-agency)
-
-**Bandeja CFE**
-
-![Bandeja CFE](/assets/img/docs/education-management/edum-image10.png)
-
-**Filtros Seleccionar Conceptos a Faturar**
-
-![Filtros](/assets/img/docs/education-management/edum-image11.png)
+**Para mayor información sobre Generar Facturas desde Cuota de Contrato:** - [Bandeja CFE](../../sales-management/receivable-document/cfe-tray)
 
 ### Generar Cálculo de Morosidad
 

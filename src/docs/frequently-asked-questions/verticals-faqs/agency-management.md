@@ -1,5 +1,5 @@
 ---
-title: Gestión de Agencia
+title: Gestión de Agencia de Publicidad
 category: Documentation
 star: 9
 sticky: 9

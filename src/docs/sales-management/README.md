@@ -22,7 +22,7 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 - [Documento por Cobrar](receivable-document/document)
 - [Nota de Crédito](receivable-document/credit)
 - [Nota de Débito](receivable-document/debit)
-- [Documentos por Cobrar Servicios](receivable-document/accounts-receivable-agency)
+- [Bandeja CFE](receivable-document/cfe-tray)
 - [Facturación desde Línea de Orden de Venta](receivable-document/billing-from-orderline)
 - [Facturación desde Orden de Salida](receivable-document/bill)
 

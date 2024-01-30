@@ -8,12 +8,7 @@ article: false
 
 Una factura en cuentas por cobrar, es el documento legal que representa una deuda contraída por un cliente determinado con la compañía u organización, por la compra de productos y servicios que el mismo necesita de forma directa o indirecta.
 
-En Solop ERP es posible generar una factura de cuentas por cobrar de forma directa. El presente material elaborado por Solop ERP, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar una factura de cuentas por cobrar en Solop ERP, en su versión 3.9.2.
-
-- Registro de Documento por Cobrar
-- Generar Factura desde Líneas de la Orden
-  - Consultar Facturas Generadas
-  - Imprimir Facturas Generadas
+En Solop ERP es posible generar una factura de cuentas por cobrar de forma directa. El presente material elaborado por Solop ERP, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar una factura de cuentas por cobrar en Solop ERP.
 
 ## Registro de Documento por Cobrar
 
@@ -79,62 +74,6 @@ Seleccione la acción **Completar** y la opción **OK** para completar el docume
 
 Imagen 21. Acción Procesar Factura y Opción OK
 
-## Generar Factura desde Líneas de la Orden
-
-Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Facturas de Ventas**, por último seleccione la ventana **Genera Factura desde Líneas de la Orden**.
-
-![Campo](/assets/img/docs/sales-management/sam-sales-image237.png)
-
-Imagen 1. Menú de Solop ERP
-
-Podrá visualizar la ventana **Genera Factura desde Líneas de la Orden** y proceder al llenado de los campos correspondientes para filtrar la búsqueda.
-
-![Campo](/assets/img/docs/sales-management/sam-sales-image238.png)
-
-Imagen 2. Ventana Generar Factura desde Líneas de la Orden
-
-Seleccione en el campo **Agente Comercial**, el agente comercial por el cual se va a filtrar la búsqueda.
-
-Seleccione en el campo **Fecha de la Orden**, la fecha de orden por la cual se va a filtrar la búsqueda.
-
-Seleccione en el campo **Fecha Prometida**, la fecha prometida por la cual se va a filtrar la búsqueda.
-
-Seleccione en el campo **Socio del Negocio**, el socio del negocio por el cual se va a filtrar la búsqueda.
-
-Seleccione en el campo **Producto**, el producto por cual se va a filtrar la búsqueda.
-
-La selección del producto puede realizarce ingresando en el campo **Producto**, el **Código** del producto requerido. De igual manera, se puede realizar la búsqueda ingresando el **Código de Barra** o **UPC/EAN** en lugar del código del producto.
-
-Seleccione la opción **Comenzar Búsqueda**, para realizar la búsqueda de la información en base a los campos seleccionados.
-
-Seleccione las líneas de la orden desde las cuales requiere que sea generada la factura.
-
-![Campo](/assets/img/docs/sales-management/sam-sales-image245.png)
-
-![Campo](/assets/img/docs/sales-management/sam-sales-image2450.png)
-
-Imagen 9. Selección de Líneas de la Orden de la Ventana Generar Factura desde Líneas de la Orden
-
-Seleccione en el campo **Fecha de Facturación**, la fecha en la cual se esta realizando la facturación.
-
-Podrá visualizar que el checklist **Consolidado en un Documento**, se encuentra tildado por defecto.
-
-Seleccione en el campo **Organización de la Trans**, la organización para la cual esta generando la factura.
-
-Seleccione en el campo **Acción en el Documento**, la acción con la cual se generará la factura.
-
-Seleccione el tipo de documento a generar en el campo **Tipo de Documento Destino**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por Solop ERP.
-
-Seleccione el checklist **Agregar Línea de Referencia en Factura**, para que las líneas de referencia sean agregadas a la factura.
-
-Seleccione la opción **OK**, para generar el documento en base a lo seleccionado en los campos anteriormente explicados.
-
-Podrá visualizar en histórico de Procesos, el resultado del proceso realizado anteriormente.
-
-![Campo](/assets/img/docs/sales-management/sam-sales-image253.png)
-
-Imagen 17. Resultado del Proceso Realizado
-
 ## Consultar Facturas Generadas
 
 Al consultar el registro en la ventana **Documentos por Cobrar**, puede visualizar la factura de cuentas por cobrar generada desde la línea de la orden.
@@ -150,3 +89,36 @@ Al imprimir el registro en la ventana **Documentos por Cobrar**, seleccionando e
 ![Campo](/assets/img/docs/sales-management/sam-sales-image255.png)
 
 Imagen 19. Imprimir Facturas Generadas
+
+## Documentos por Cobrar Servicios
+
+Este documento está destinado a definir las diferentes formas de facturar un Contrato de Servicios.
+La explicación detallada sobre Contrato de Servicios se encuentra en la sección Gestión de Servicios, en el apartado Contrato de Servicio.
+
+El Contrato es un acuerdo sobre determinadas condiciones entre nuestra organización y un cliente (o un proveedor). Dentro de esas condiciones se encuentra la manera en la cual será facturado respecto a su frecuencia (mensual, anual), respecto a si se trata de un pago único o en cuotas. Así como acuerdos de otra índole como pactar Honorarios sobre determinados productos/servicios.
+
+## Facturación Recurrente de Servicios en cuotas
+
+### Facturación de Cuotas del Contrato de Servicios
+
+Para generar facturas de manera masiva se deberá utilizar el proceso de “Generar Factura desde Cuota de Contrato”.
+
+El primer paso será realizar la búsqueda “smartbrowser” utilizando los siguientes filtros:
+
+* Socio del Negocio
+* Servicio
+* Fecha del Concepto
+
+Luego se deberán seleccionar mediante los checks de la izquierda izquierda todas las cuotas que se deseen facturar.
+
+Seleccionar Líneas
+
+Las Facturas serán generadas al momento de marcar el check de OK en la sección inferior de los “Parámetros”.
+
+Se deberá definir la Fecha de facturación, el Tipo de Documento que se desea emitir así como la acción que se desea realizar al documento (preparar, completar).
+
+En el caso que se elija la acción de Preparar, deberá completar manualmente el documento luego.
+
+El Proceso generará un único documento por cada Socio de negocio a facturar.
+
+![Generar Factura desde Cuota de Contrato](/assets/img/docs/sales-management/sam-education3.png)

@@ -12,15 +12,6 @@ article: false
 
 ### Circuito inicial
 
-```mermaid
-flowchart LR
-    A[1. Crear Contrato de Servicios] --> B(Acuerdo entre Institución y Estudiante. Se define responsable de pago, miembros de familia y curso)
-    C[2. Crear Líneas de Contrato] --> D(Solapas Descuentos y Cuotas. Definir Productos del Contrato en base a la Lista de Precio vigente)
-    E[3. Crear Descuentos de Contrato] --> F(En base a las líneas de contrato define el descuento correspondiente)
-    G[4. Actualización de Precios de Contrato] --> H(Define Precios de Productos de Contrato en base a la Lista de Precio vigente)
-    I[5. Generar Cuotas desde Contrato de Servicio] --> J(Generar Cuotas a Facturar según recurrencia definida en Contrato)
-```
-
 ![Flujo educación 1](/assets/img/docs/education-management/edum-image1.png)
 
 ### Crear Contrato de Servicios
