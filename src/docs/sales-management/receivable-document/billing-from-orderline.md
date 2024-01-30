@@ -8,6 +8,12 @@ article: false
 
 ### Generar Factura desde Línea de Orden de Venta
 
+Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Facturas de Ventas**, por último seleccione la ventana **Genera Factura desde Líneas de la Orden**.
+
+![Campo](/assets/img/docs/sales-management/sam-sales-image237.png)
+
+Imagen 1. Menú de Solop ERP
+
 Las órdenes de venta generadas en el sistema pueden ser facturadas de manera ágil y masiva utilizando el proceso **“Generar Factura desde Línea de Orden”.**
 
 ![Generar OV desde Cuota de Contrato](/assets/img/docs/sales-management/sam-agency3.png)
@@ -23,6 +29,18 @@ Para poder facturar una Orden de Venta, esta tiene que estar
 En este proceso se podrá aplicar el filtro que desee para encontrar aquellas líneas de ordenes que cumplan con dichas condiciones.
 
 Dentro de los filtros a definir podemos encontrar:
+
+Seleccione en el campo **Agente Comercial**, el agente comercial por el cual se va a filtrar la búsqueda.
+
+Seleccione en el campo **Fecha de la Orden**, la fecha de orden por la cual se va a filtrar la búsqueda.
+
+Seleccione en el campo **Fecha Prometida**, la fecha prometida por la cual se va a filtrar la búsqueda.
+
+Seleccione en el campo **Socio del Negocio**, el socio del negocio por el cual se va a filtrar la búsqueda.
+
+Seleccione en el campo **Producto**, el producto por cual se va a filtrar la búsqueda.
+
+La selección del producto puede realizarce ingresando en el campo **Producto**, el **Código** del producto requerido. De igual manera, se puede realizar la búsqueda ingresando el **Código de Barra** o **UPC/EAN** en lugar del código del producto.
 
 #### Generar Factura
 
@@ -50,7 +68,31 @@ En la parte inferior de esta ventana veremos distintas opciones utilizadas al mo
 * **Impuesto:** Agrupará por Impuesto definido en cada Línea de Orden seleccionada. Se generará una factura por tipo de impuesto encontrado. El criterio de agrupación no es por % (Ej: 22%, 10% o 0%), sino por diferente Tipo de Impuesto.
 * **Orden de Compra Cliente:** Si se selecciona este Criterio de Facturación se generará una Factura por cada Número de la Orden de Compra Cliente que se encuentre en todas las líneas seleccionadas. Este criterio de agrupación incluye además la clasificación según diferentes clientes.
 
+Seleccione las líneas de la orden desde las cuales requiere que sea generada la factura.
+
 ![Ventana Selección](/assets/img/docs/sales-management/sam-agency4.png)
+
+![Campo](/assets/img/docs/sales-management/sam-sales-image2450.png)
+
+Seleccione en el campo **Fecha de Facturación**, la fecha en la cual se esta realizando la facturación.
+
+Podrá visualizar que el checklist **Consolidado en un Documento**, se encuentra tildado por defecto.
+
+Seleccione en el campo **Organización de la Trans**, la organización para la cual esta generando la factura.
+
+Seleccione en el campo **Acción en el Documento**, la acción con la cual se generará la factura.
+
+Seleccione el tipo de documento a generar en el campo **Tipo de Documento Destino**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por Solop ERP.
+
+Seleccione el checklist **Agregar Línea de Referencia en Factura**, para que las líneas de referencia sean agregadas a la factura.
+
+Seleccione la opción **OK**, para generar el documento en base a lo seleccionado en los campos anteriormente explicados.
+
+Podrá visualizar en histórico de Procesos, el resultado del proceso realizado anteriormente.
+
+![Campo](/assets/img/docs/sales-management/sam-sales-image253.png)
+
+Imagen 17. Resultado del Proceso Realizado
 
 #### **Criterio de Facturación (definición de Líneas de Factura)**
 
@@ -60,7 +102,7 @@ Debido a que el ERP puede tener una definición muy detallada de las “líneas 
 
 De esta manera, el **Criterio de Facturación** que tendrá cada Factura será criterio que se va a utilizar para generar las líneas que se detallarán en el CFE (e-Factura o e-Ticket).
 
-#### Facturación de Honorarios en Línea independiente
+### Facturación de Honorarios en Línea independiente
 
 El Criterio de Facturación aplicará siempre para las líneas de “Inversión” del cliente, agrupando según el criterio seleccionado. Esto quiere decir que el criterio nunca aplicará la agrupación para aquellas líneas que correspondan a Honorarios Variables calculados en un Proyecto o Fase de Proyecto, estos siempre irán en una línea aparte detallando que son Honorarios.
 
