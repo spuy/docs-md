@@ -12,6 +12,13 @@ article: false
 
 ### Circuito inicial
 
+```mermaid
+flowchart LR
+Acuerdo entre Institución y Estudiante. Se define responsable de pago, miembros de familia y curso --> Crear Contrato de Servicios
+Crear Contrato de Servicios --> Crear Líneas de Contrato
+Crear Líneas de Contrato <-- Solapas Descuentos y Cuotas. Definir Productos del Contrato en base a la Lista de Precio vigente
+```
+
 ![Flujo educación 1](/assets/img/docs/education-management/edum-image1.png)
 
 ### Crear Contrato de Servicios
