@@ -1,5 +1,5 @@
 ---
-title: Selección de Pagos General
+title: Selección de Pagos
 category: Documentation
 star: 9
 sticky: 9
@@ -10,3 +10,4 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 
 - [Imprimir / Exportar Pagos](print)
 - [Selección de Pago](selection)
+- [Flujo de Pago a Proveedores](payment-flow-to-suppliers)

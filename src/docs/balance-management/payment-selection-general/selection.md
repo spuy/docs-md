@@ -1,12 +1,12 @@
 ---
-title: Selección de Pago
+title: Selección de Pago General
 category: Documentation
 star: 9
 sticky: 9
 article: false
 ---
 
-### Selección de Pago
+## Selección de Pago General
 
 Una selección de pagos en Solop ERP no es más que la agrupación de documentos de CxP o de compras que se necesitan ser cancelados ya sean en su totalidad o de manera parcial, dentro de la selección de pagos se encuentran los tipos de documentos **Orden de Pago** y la **Selección de Pagos de Cuentas por Pagar**, los cuales son utilizados para seguir los canales regulares entre los departamentos de compras, cuenta por pagar y tesorería.
 

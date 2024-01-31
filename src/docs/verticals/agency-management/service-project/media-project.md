@@ -30,9 +30,7 @@ En cada proyecto se definirá los siguientes puntos:
 
 **Reportes:** se podrá generar diferentes Reportes financieros sobre el estado de los proyectos.
 
-#### Campos del Proyecto
-
-#### **Campos Manuales**
+### Campos del Proyecto Manuales
 
 Se deberán definir manualmente de forma obligatoria los siguientes campos:
 
@@ -45,7 +43,7 @@ La moneda del Proyecto la determina la moneda que Facturará el Proveedor
 
 *En caso que al Cliente se le deba Facturar en otra moneda, la Orden de Venta deberá ser en la misma moneda que se comprará al Proveedor, pero se podrá definir en la Orden de Venta una moneda diferente a ser Facturado junto con su Tasa de Cambio acordada.* 
 
-#### **Campos Automáticos:**
+### Campos del Proyecto Automáticos
 
 Los siguientes campos, entre otros, se definirán de manera automática (igualmente se podrán modificar si se desea).
 
@@ -77,7 +75,7 @@ Si no se obtuvo sello de origen se lanza una excepción.
 
 ![Proyecto de Medios](/assets/img/docs/project-management/prm-project4.png)
 
-#### **Tamaño del Proyecto (Campo “Nivel de Línea”)**
+### Tamaño del Proyecto (Campo “Nivel de Línea”)
 
 Un Proyecto podrá tener diferentes niveles según su complejidad o tamaño. Dentro del Nivel seleccionado, se contará con una pestaña de Líneas donde se podrá definir cada uno de los Productos que se estará manejando. Sobre estos Productos definidos se generará una Orden de Venta al Cliente y una Orden de Compra al Proveedor del Medio.
 
@@ -103,13 +101,13 @@ Al realizar la búsqueda desde el SmartBrowser de Checkin, deberá seleccionar l
 
 ![Checking](/assets/img/docs/project-management/prm-project7.png)
 
-#### **Reporte “Detalle de Almacenamiento Simple”**
+### Reporte “Detalle de Almacenamiento Simple”
 
 Se podrá confirmar el ingreso de los productos al almacén mediante el reporte de “Detalle de Almacenamiento Simple” seleccionando el Almacén en cuestión.
 
 ![Detalle de Almacenamiento Simple](/assets/img/docs/project-management/prm-project8.png)
 
-#### **Proyecto de Medios Compra y Consumo**
+### Proyecto de Medios Compra y Consumo
 
 Se entiende como “Compra y Consumo” cuando se desee realizar una compra a un Medio en nombre de un Cliente y a su vez, en el mismo documento se solicita también su emisión.
 
@@ -121,13 +119,16 @@ Se entiende como “Compra y Consumo” cuando se desee realizar una compra a un
 
 Para poder generar una Orden de Compra en nombre de un Cliente, primero se deberá generar una Orden de Venta al Cliente. A continuación se detallan los pasos a seguir para su operativa:
 
-### **Se comienza generando un Proyecto con nivel de línea “Fase”**
+**Se comienza generando un Proyecto con nivel de línea “Fase”**
 
-**Una vez con el Proyecto creado se deberá crear una Fase definiendo el Proveedor a quien se realizará la compra. Se deberá generar una Fase por proveedor.**
+Una vez con el Proyecto creado se deberá crear una Fase definiendo el Proveedor a quien se realizará la compra. Se deberá generar una Fase por proveedor.
 
 Luego de definir el Proveedor en la Fase, se deberá ir a la pestaña “Línea de la Fase” donde se deberán definir los Productos a ser Emitidos. En este caso tenemos dos opciones:
 
-* **Crear una línea por Producto: en este Caso se deberá definir en cada línea:**
+::: note
+ Crear una línea por Producto: en este Caso se deberá definir en cada línea:
+:::
+
   * Fechas Desde: Fecha obligatoria a definir a partir de cuando es la Emisión
   * Fecha Hasta: opcionalmente si desea definir un Hasta puede definirlo.
   * Descripción: Datos extra que desea aclarar del Producto.
@@ -135,9 +136,12 @@ Luego de definir el Proveedor en la Fase, se deberá ir a la pestaña “Línea 
   * Producto
   * Precio
   * Cantidad
-* **Crear una línea por Emisión de Producto: esta opción es más detallada definiendo una línea por Emisión y no las cantidades totales en una línea. Se deberán definir los mismos datos el punto a tantas emisiones como hayan.**
 
-Algunas ayudas aplicables:
+::: note
+Crear una línea por Emisión de Producto: esta opción es más detallada definiendo una línea por Emisión y no las cantidades totales en una línea. Se deberán definir los mismos datos el punto a tantas emisiones como hayan.
+:::
+
+### Algunas ayudas aplicables:
 
 **Creando una Línea:** Las líneas se desplegarán en formato grilla, para completarlas se deberá hacer click en el primer campo “Fecha Emisión”, para avanzar al siguiente campo podrá hacerlo con la tecla “Intro”.
 
@@ -157,11 +161,11 @@ La Orden de Venta se deberá Completar, de manera que se genere automáticamente
 
 La Orden de Compra será del Tipo “Orden de Publicidad (Compra y Consumo)” se generará en estado Borrador por lo que se deberá navegar a la misma y Completarla para terminar con el proceso.
 
-#### **Representación impresa:**
+### Representación impresa:
 
 Desde la Ventana Orden de Compra se podrá obtener la Representación Impresa de la misma que deberá ser enviada al Proveedor del Medio.
 
-#### **Checkin de la Pauta**
+### Checkin de la Pauta
 
 Luego de contar con una “Orden de Publicidad (Compra y Consumo)” en Estado “Completo”, la misma se deberá confirmar mediante el Checking.
 
@@ -169,7 +173,7 @@ El checking se puede acceder desde los Procesos definidos en el Proyecto de Medi
 
 Al realizar la búsqueda desde el SmarBrowser de Checkin, deberá seleccionar las líneas que han sido emitidas, confirmando a su vez la cantidad en cuestión de dicha emisión.
 
-### **Compra paquete por importe**
+### Compra paquete por importe
 
 Se considera una Pre-Compra o Compra con Inversión cuando se realiza una compra a un Medio en nombre de un Cliente para que la misma pueda ser Consumida en un momento diferente a la Compra en cuestión.
 
@@ -181,7 +185,7 @@ En este caso los niveles serán clasificados de la siguiente manera:
 
 **TAREAS:** Dentro de cada Fase se crearán las diferentes TAREAS por cada Consumo que se consumirá la Inversión en cuestión. Los Productos se deberán definir en las Líneas de Tarea, definiendo Producto, Fecha Emisión, Descripción del Programa, Cantidad y Precio.
 
-### **Pre-Compra**
+### Pre-Compra
 
 Se comienza generando un Proyecto con nivel de línea “Tarea”:
 
@@ -236,7 +240,7 @@ La Orden de Venta (Consumo) se deberá Completar, de manera que se genere autom�
 
 Ambas consumirán sus Órdenes de Pre-Compra correspondientes (Orden de Venta y Orden de Compra), quedando a la espera de ser confirmados mediante el “Checking”.
 
-#### Checking
+### Checking
 
 Luego de contar con una “Orden de Publicidad (Consumo)” o una “Orden de Publicidad (Compra y Consumo)” en Estado “Completo”, la misma se deberá confirmar mediante el Checking.
 
@@ -252,7 +256,7 @@ Creación de un “Proyecto de Medios” donde realizará la Inversión del clie
 
 ### Compra Inventario
 
-#### **Se comienza generando un Proyecto con nivel de línea “Tarea”**
+#### Se comienza generando un Proyecto con nivel de línea “Tarea”
 
 * En la ventana de Proyecto de Medios se deberá crear un proyecto definiendo:
   * **Cliente**
@@ -267,16 +271,16 @@ Creación de un “Proyecto de Medios” donde realizará la Inversión del clie
 * Término de pago
 * Almacén del cliente
 
-#### **Definición del Proveedor de la Inversión:**
+### Definición del Proveedor de la Inversión:
 
-#### **En la Fase del Proyecto se deberá definir el Proveedor donde se realizará la inversión**
+#### En la Fase del Proyecto se deberá definir el Proveedor donde se realizará la inversión
 
 Para que el sistema permita elegir un Proveedor en el campo **Socio del negocio Entrega Directa** es importante que el mismo:
 
 * Esté creado con la Organización con la que se encuentra logueado el usuario o con Organización (\*).
 * En la ventana Socio de negocio, en su cabezal debe tener marcado el check de “activo” y en la pestaña Proveedor el check de “Proveedor”.
 
-#### Orden de Inventario:
+### Orden de Inventario:
 
 Desde la Tarea se crea la **Orden de Inventario** donde se definirán los Productos a comprar. El proceso de generar una Compra de Inventario deberá comenzar realizando la definición de todos los Productos que se estarán adquiriendo para consumir en el futuro dentro las líneas de una Tarea de Proyecto.
 
@@ -290,11 +294,7 @@ Al Completar la Orden de Venta se generará la Orden de Compra al Proveedor defi
 
 Al completar la Orden de Compra de tipo de documento “Orden de Compra Inventario”, los Productos definidos en ella se habrán recepcionado automáticamente en el Almacén definido en el Proyecto. Ésta Almacén debería ser el Almacén definido para el Cliente por el cual se compró los productos.
 
-#### **Reporte “Detalle de Almacenamiento Simple”**
-
-Se podrá confirmar el ingreso de los productos al almacén mediante el reporte de “Detalle de Almacenamiento Simple” seleccionando el Almacén en cuestión.
-
-#### **Orden de Venta y Orden de Compra a Facturar**
+### Orden de Venta y Orden de Compra a Facturar
 
 Desde la **FASE** se deberá crear una “Orden de Venta Inversión”, ésta será realizada según el Producto genérico definido en la FASE (Ej: Inversión TV) y por el Importe Total. Este producto será el que finalmente será facturado, tanto al Cliente como por el Proveedor.
 
@@ -304,14 +304,14 @@ Para el caso que una Orden de Venta u Orden de Compra deba ser Facturada en dife
 * **Descripción:** Escribir en la Descripción de la FASE cómo se desea que sea Facturado para que Administración se entere.
 * **Cantidad:** Además se deberá definir en Cantidad las diferentes Cuotas que tendrá. Además en el Campo “Cantidad” de la Fase se deberá definir la Cantidad de Cuotas que se desea Facturar, ya sea por el Medio o al Cliente. Ver que como Precio Unitario se deberá visualizar el importe de cada una de las cuotas a ser Facturado.
 
-### **Consumo de Inventario**
+### Consumo de Inventario
 
 Cuando un cliente cuente con inventario previamente comprado y se quiera consumir parte del mismo, se deberá crear directamente una Orden de Venta del tipo “Orden de Pauta”. En la misma se deberá definir el *Proveedor* y el *Almacén* del Cliente definiendo “Entrega Directa” = N. En las líneas se deberá definir cada uno de los Productos que se desean emitir así como su Cantidad correspondiente. Esta Orden de Pauta una vez se confirme es la que generará la Entrega del Inventario bajándolo de stock.
 
 * Pendiente de definir: Ver cómo se quiere gestionar el Precio en las Órdenes de Pauta.
 * Esta Orden de Pauta no será facturada nunca ya que se entiende que ya se facturó mediante la Orden de Venta Inversión que se compró el Inventario.
 
-#### **Conversión de Productos en Inventario**
+### Conversión de Productos en Inventario
 
 Los productos que existan en inventario podrán ser canjeados por otros productos desde la ventana de “Inventario Uso Interno” (podrá definirse el nombre que deseen). En esta ventana se podrá realizar una Conversión entre un Producto que está actualmente en inventario por otro nuevo, disminuyendo el inventario de uno y aumentando el otro. Esta Conversión se realizará sin ningún tipo de control, siendo responsabilidad del usuario controlar que dicha conversión sea según lo acordado con el Proveedor.
 
@@ -319,66 +319,15 @@ Contablemente el sistema actualmente Descuenta el importe en cuestión por el pr
 
 Se quiere que contabilice correctamente dando la entrada contablemente del nuevo producto. No se desea realizar ningún asiento contable por esta transacción.
 
-#### **Vista de la Orden de Venta navegando desde el Proyecto**
+### Vista de la Orden de Venta navegando desde el Proyecto
 
 Otra opción puede ser utilizando la Navegación a Documentos Relacionados existente en todos los documentos
 
 Tener en cuenta que la Orden de Venta que se genere siempre tendrá en su Descripción el nombre del Proyecto / Fase / Tarea desde donde se generó. Además, se definirá en la Descripción de la línea de Orden de Venta la *Descripción* que se defina en la línea del Proyecto.
 
-#### **Controles en la Orden de Venta**
+### Controles en la Orden de Venta
 
 * Aprobado por Cliente
 * Archivo Adjunto
 
 Las Órdenes de Venta cuentan con un control de Aprobación de Clientes. Para poder completar la Orden de Venta se deberá Marcar en “Y” el Check “Aprobado por Cliente” y además contar con un archivo adjunto a dicha Orden. La idea es que se adjunte la autorización que se tuvo del cliente para proceder con dicho pedido.
-
-### **Agencia de Producción**
-
-#### **Cotizaciones**
-
-#### **Cotización para Clientes**
-
-El Ejecutivo de Cuentas creará un Proyecto en el cual definirá lo solicitado por el cliente.
-
-En caso de que incluya la Cotización de determinados servicios/productos a proveedores externos se deberá seleccionar un Tipo de Proyecto que contemple la “Cotización”.
-
-Estos pueden ser:
-
-* **Creatividad + Cotización:** En caso que se necesite trabajos de creatividad como también cotización a proveedores. Al seleccionarla se crearán automáticamente 2 Fases:
-  * Fase Creativa
-  * Fase de Producción
-* **Cotización:** En caso que sólo se deba gestionar la cotización de determinados servicios o trabajos. Al seleccionarla se creará automáticamente 1 Fase:
-  * Fase de Producción
-
-**El nivel de línea de un Proyecto con Cotización debe ser “Tarea”.**
-
-Dentro de la Fase *Producción*, el Ejecutivo de Cuenta deberá crear como TAREAS todos las diferentes Cotizaciones que se deberán realizar clasificando según “Tema a Cotizar”.
-
-En cada TAREA se podrá definir una *Categoría* de “Cotización a Proveedores” para que facilite su identificación. Además se podrá asignar a un *Responsable* de la misma; (para hacerlo el mismo deberá estar definido como “Miembro del Proyecto”).
-
-#### **Fase generada automáticamente.**
-
-Sólo se deberá agregar en el campo “Detalle Cotización” el detalle de lo que se desea Cotizar.
-
-#### **Tareas con cada Cotización a realizar.**
-
-* **Descripción:** Se deberá definir el el texto que se enviará al Proveedor en la Solicitud de Cotización. Este podrá ser modificado si se desea luego por Producción.
-* **Ayuda:** Se podrá agregar un comentario para que Producción considere en caso de ser necesario para realizar la cotización.
-
-#### **Generando Cotizaciones (Producción)**
-
-#### **Ventana: Tarea de Proyecto**
-
-Dentro de la ventana Tarea de Proyecto, Producción podrá visualizar todas las Tareas que se deberán realizar en cada uno de los Proyectos.
-
-Se recomienda definir un Filtro en *Búsqueda Avanzada* “A Cotizar” para que sólo se considere las Tareas de Categoría “Cotización a Proveedores”. En caso de ser necesario, cada usuario también podría aplicar un filtro para sólo ver las Tareas que uno esté asignado como “Responsable” de la misma.
-
-El Cabezal de la Ventana Tarea de Proyecto presenta las Tareas tal como se visualizan dentro de los Proyectos junto con la Pestaña de Líneas de Tarea correspondientes.
-
-La idea es que Tarea a Tarea, se defina en las Líneas de Tarea los Productos/Servicios que se deben Cotizar, así como la Descripción de los mismos.
-
-En caso de requerir cotizar diferentes cantidades, en la definición de la línea de Tarea sugerimos detallarlas solamente en la descripción, no utilizando las Cantidades (más adelante explicaremos con mayor detalle)
-
-**Fecha Límite:** Tener en cuenta que es obligatorio contar con el campo “Fecha Límite” definido en la tarea para poder generar la Solicitud de Cotización. Dicha Fecha será utilizada para definir la Fecha Límite que se necesita contar con la Respuesta de Cotización entregada por el Proveedor.
-
-**Si no se ingresa Fecha Límite, se desplegará el siguiente mensaje de error en la parte inferior izquierda de la ventana.**

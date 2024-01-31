@@ -20,7 +20,7 @@ De igual forma se puede chequear para cada documento detalles como los totales, 
 
 Finalmente, y en la parte inferior de la ventana de la ventana, hay controles que permiten realizar diferentes acciones.
 
-### **Estado del CFE:**
+### Estado del CFE:
 
 Finalmente en esta parte, se encuentra el “Estado” de los CFE.
 
@@ -41,7 +41,7 @@ En este caso el envío lo realiza Invoicy y es independiente del sistema Solop E
 * Dirección que un Proveedor le defina a sus Clientes de una Dirección de Correo electrónico diferente a la definida por DGI para asegurarse que el departamento de "Pagos del Cliente" reciba la Representación Impresa del CFE:
 
 Esta segunda opción se configura a través de Solop ERP.
-Para definir una nueva dirección de correo electrónico para enviar a Administración del Cliente se debe configurar el correo en la pestaña de Localización del Socio del Negocio en el campo "EMail Adress" (permite ingresar varios correos separados por coma y sin espacio).
+Para definir una nueva dirección de correo electrónico y enviar a Administración del Cliente se debe configurar el correo en la pestaña de Localización del Socio del Negocio en el campo "EMail Adress" (permite ingresar varios correos separados por coma y sin espacio).
 
 ![Casilla e mail Cliente](/assets/img/docs/electronic-billing/elb-billing4.png).
 
@@ -51,7 +51,7 @@ A su vez, desde esta consulta de invoicy es posible reimprimir la representació
 
 El sistema permite deshabilitar este envío automático de documentos desde Solop ERP solicitándolo a nuestro Soporte (se trata de una configuración interna no visible por el usuario en la ventana Luy Sender, tildando el check "Deshabilitar Envío de mail a BP").
 
-### **Otros tipos de documentos:**
+### Otros tipos de documentos:
 
 También se puede consultar otros tipos de documentos, para verlos, en la ventana “Inicio” se pasa el mouse por encima de la barra que da acceso a filtros inmediatos de “Tipo” “Número”, “Fecha” y “Estado” y se selecciona.
 
@@ -71,7 +71,7 @@ Con lo cual al filtrar se puede obtener una cantidad limitada de registros a con
 
 Al hacer clic en alguno de los campos de cualquier fila, se abre el documento mostrando sus detalles organizados en pestañas.
 
-### **Reportes de CFE:**
+### Reportes de CFE:
 
 Para acceder a la pantalla de los reportes diarios se debe hacer clic sobre el botón “Reporte Diario” en la pantalla de Reportes.
 
@@ -97,7 +97,7 @@ La pantalla de edición del reporte fue creada para solucionar problemas de emis
 
 Cuando el reporte diario es rechazado, busque la orientación de nuestro soporte antes de editar la información del reporte e intentar reenviarlo, pues, probablemente el problema está en los CFE emitidos y estos deben ser corregidos antes del reporte en sí.
 
-### **CFE Recibidos:**
+### CFE Recibidos:
 
 En la pantalla de CFE recibidos serán mostrados todos los CFE emitidos para el RUT de la empresa, como muestra la figura más adelante:
 
@@ -131,7 +131,7 @@ La primera empresa que aparece en la lista es la empresa que está actualmente s
 
 También es posible digitar para buscar una casa principal o sucursal. El contenido de esa lista puede ser cambiado haciendo clic en “Mostrar todos los registros”, la siguiente imagen muestra la pantalla que será exhibida:
 
-### **Notificaciones en InvoiCy:**
+### Notificaciones en InvoiCy:
 
 InvoiCy posee un sistema de notificaciones para las más variadas situaciones del sistema. El ícono de las notificaciones se encuentra en el encabezado de la pantalla del sistema, como muestra la siguiente imagen:
 

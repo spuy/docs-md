@@ -20,4 +20,3 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 - [Nota de Crédito](payable-documents/credit-note)
 - [Nota de Débito](payable-documents/debit-note)
 - [Documento por Pagar](payable-documents/document)
-- [Documentos por Pagar Agencia](payable-documents/accounts-payable-agency)

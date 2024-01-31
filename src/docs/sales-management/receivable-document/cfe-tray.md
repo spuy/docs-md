@@ -37,11 +37,13 @@ Seleccionar Conceptos
 
 ### Segundo paso: Generar Facturas desde Conceptos 
 
-Luego de haber seleccionado los conceptos, podemos verificar en la solapa Conceptos a facturar que se hayan vinculado todos los conceptos deseados. Posteriormente al elegir la opción de Generar Facturas desde Conceptos se abrirá una ventana emergente en la cual nos indicará en qué estado se crearán los documentos por cobrar (siempre definido como en borrador o en proceso). 
+Luego de haber seleccionado los conceptos, podemos verificar en la solapa Conceptos a facturar que se hayan vinculado todos los conceptos deseados **(también se actualizará el número de Total Conceptos a Facturar de Solapa Principal)**.
 
 ![Solapa Conceptos a Facturar](/assets/img/docs/sales-management/sam-sales-image517.png)
 
 Solapa Conceptos a Facturar
+
+Posteriormente al elegir la opción de Generar Facturas desde Conceptos se abrirá una ventana emergente en la cual nos indicará en qué estado se crearán los documentos por cobrar (siempre definido como en borrador o en proceso). 
 
 ![Generar Facturas](/assets/img/docs/sales-management/sam-sales-image516.png)
 
@@ -49,11 +51,15 @@ Generar Facturas
 
 ### Tercer paso: Completar Facturas Generadas 
 
-La instancia anterior genera los documentos por cobrar y permite verificarlos en la solapa Facturas. Si todos sus datos están correctos podemos seleccionar Completar Facturas Generadas lo cual cambiará a estado Completo en forma masiva a todas las facturas generadas.
+La instancia anterior genera los documentos por cobrar y permite verificarlos en la solapa Facturas **(también se actualizará el número de Total CFE Generados de Solapa Principal)**.
 
 ![Solapa Facturas](/assets/img/docs/sales-management/sam-sales-image518.png)
 
 Solapa Facturas
+
+Si todos sus datos están correctos podemos seleccionar Completar Facturas Generadas lo cual cambiará a estado Completo en forma masiva a todas las facturas generadas.
+
+
 
 ::: note
 Los Tipo de Documento de CFE se asignan automáticamente según el tipo de Documento de cada Socio del Negocio:
