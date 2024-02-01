@@ -167,7 +167,7 @@ Para ejecutar correctamente el proceso de reabastecimiento de almacén, es neces
 
 Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Materiales**, luego seleccione la carpeta **Reglas de Gestión de Materiales**, por último seleccione la ventana **Producto**.
 
-[Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image998.png)
+![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image998.png)
 
 Menú de Solop ERP
 

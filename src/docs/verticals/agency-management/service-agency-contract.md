@@ -9,11 +9,11 @@ article: false
 
 ---
 
-## **Contrato de Servicio de Agencia**
+## Contrato de Servicio de Agencia
 
 El Contrato con un Socio de Negocio resume en un documento la representación de determinado acuerdo realizado con un Tercero. Este Acuerdo puede ser tanto con un Cliente como con un Proveedor y regulará condiciones para las transacciones a realizar entre ambos.
 
-### **Cabezal de la ventana Contrato de Servicio**
+### Cabezal de la ventana Contrato de Servicio
 
 Aquí deberán definirse los siguientes datos:
 
@@ -37,7 +37,7 @@ Aquí deberán definirse los siguientes datos:
 
 ![Contrato de Servicio](/assets/img/docs/service-management/sem-agency1.png)
 
-### **Cálculo de Honorarios**
+### Cálculo de Honorarios
 
 El cálculo automático de honorarios (Cálculo de comisiones) se calculará al momento de completar las Órdenes de venta y lo harán sobre éstas, no sobre la Facturación.
 
@@ -59,7 +59,7 @@ Se marca como permite facturar = SI la Orden de Venta Honorarios cuando se confi
 
 ![Honorarios](/assets/img/docs/service-management/sem-agency2.png)
 
-### **Definición de Honorarios**
+### Definición de Honorarios
 
 Según el Contrato de servicio se obtendrán sus correspondientes Honorarios variables, según la definición que exista en la pestaña Honorarios, es decir, según los filtros definidos en estos registros.
 
@@ -67,7 +67,7 @@ Según el Contrato de servicio se obtendrán sus correspondientes Honorarios var
 
 ![Definición de Honorarios](/assets/img/docs/service-management/sem-agency13.png)
 
-### **Líneas del Contrato de Servicio de Agencia**
+### Líneas del Contrato de Servicio de Agencia
 
 Se definen los distintos Productos/Servicios que intervienen en el Contrato de Servicios de manera recurrente.
 
@@ -87,13 +87,13 @@ Se definen los distintos Productos/Servicios que intervienen en el Contrato de S
 
 ![Líneas del Contrato](/assets/img/docs/service-management/sem-agency4.png)
 
-  ### **Orden de Compra Cliente Obligatoria para Facturar**
+  ### Orden de Compra Cliente Obligatoria para Facturar
 
 Según el Contrato con el cliente se puede definir si es obligatorio o no que el Nro. de la Orden de Compra del Cliente esté definido en las Factura al cliente o no.
 
 Para aquellos Socios de Negocio que su contrato tiene definido en Y el check de “OC Necesaria para Facturar” en su contrato, para que el check de “Permite Facturar” pueda ser marcado en las Órdenes de Venta, se deberá completar el campo “OC Cliente” con el número de la Orden de Compra del Cliente y luego Marcar el “Permite Facturar” = SI\*\*
 
-### **Partes del Contrato de Servicio de Agencia**
+### Partes del Contrato de Servicio de Agencia
 
 Esta pestaña define las diferentes partes que intervienen en un Contrato de Servicios.
 
@@ -123,47 +123,3 @@ De esta forma en los Proyectos se definirá el “Sello Origen” según el Tipo
 
 ![Partes del Contrato](/assets/img/docs/service-management/sem-agency5.png)
 
-### **Actualización de Cálculo de Honorarios**
-
-Se deberán seguir los siguientes pasos:
-
-* Desde el Contrato de servicio, pestaña Honorarios modificaremos el campo “Multiplicador” al Honorario en cuestión que queramos modificar, indicando aquí el nuevo valor. Guardamos el registro.
-* Luego desde la Orden de venta a la que se aplicaron los honorarios correremos el proceso “Actualizar Cálculo de Comisión de Orden”
-
-De esta manera los Cálculos de comisiones generados antes de aplicar este proceso serán Cerrados al igual que su Orden de venta Honorarios.
-
-Se generarán los nuevos Cálculos de comisiones aplicando los nuevos porcentajes definidos y una nueva Orden de venta honorarios en estado Completo.
-
-![Actualizar Cáculo Comisión de orden](/assets/img/docs/service-management/sem-agency6.png)
-
-### **Devoluciones a Cliente**
-
-Se deberá realizar la “Devolución de Cliente” cuando un Cliente solicita o el Ejecutivo de Ventas solicita en nombre del cliente, la emisión de una Nota de Crédito debido a una “Entrega” (Delivery) No aceptada por el cliente.
-
-Esta “Devolución Cliente” deberá ser generada desde el Proceso “Generar Devoluciones”, seleccionando la Orden de Venta del Cliente que se querrá devolver.
-
-**Generar Devoluciones Sb**
-
-Este proceso se deberá realizar si se desea “Corregir” un checking ya realizado en un Período anterior que se encuentra ya CERRADO. Lo que realizará esta “Devolución Cliente” son 2 acciones:
-
-Generar un Movimiento contrario a la Entrega realizada por el Checking. Restando así el Ingreso reconocido con dicha “Entrega”
-
-Generar una Devolución de Proveedor Espejo, es decir se generará una Devolución Cliente y una Devolución Proveedor por la MISMA CANTIDAD definida. Dichas devoluciones luego quedarán a la espera de sus correspondientes Notas de Crédito. Administración podrá ver las Devoluciones Cliente que están pendientes de Generar Nota de Crédito y del lado del Proveedor estarán las “Devoluciones Proveedor” (o RMA) pendientes de generar Notas de Crédito Proveedor cuando estas lleguen.
-
-### **Devolución al Proveedor**
-
-El proceso de “Generar Devoluciones” generará también una “Devolución Proveedor” por la Cantidad que se definió en el proceso, el precio será tomado desde la Orden de Compra correspondiente a la Recepción que se estará devolviendo.
-
-Para generar la Nota de Crédito del Proveedor se deberá ir directo a la ventana “Documentos por Pagar” y crear el cabezal de la Nota de Crédito Proveedor correspondiente. Luego se deberá crear las líneas a partir del Proceso “Crear Desde” desd donde se deberá seleccionar la opción “RMA”
-
-### **Crear Marca del Cliente obligatoria**
-
-Una Marca Cliente se creará desde la ventana “Campaña de Mercadeo”.
-
-En el cabezal de la ventana se deberá indicar el nombre de la Marca.
-
-Luego bajaremos a la pestaña Cliente donde deberemos completar los siguientes campos:
-
-* Sales Stage: Donde seleccionaremos “Marca Cliente”.
-* Socio del Negocio: Será el Socio del negocio al que le estamos creando dicha Marca.
-* Expected Close Date: Fecha de cierre esperada.
