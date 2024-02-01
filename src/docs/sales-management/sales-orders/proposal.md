@@ -14,13 +14,13 @@ El presente material elaborado por **Solop ERP**, pretende ofrecerle una explica
 
 Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Órdenes de Venta** y por último seleccione la ventana **Órdenes de Venta**.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image429.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image262.png)
 
 Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana **Órdenes de Venta**, con los diferentes registros realizados en dicha ventana.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image430.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image263.png)
 
 Imagen 2. Órdenes de Venta
 
@@ -64,7 +64,7 @@ Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de 
 
 Seleccione la pestaña **Línea de la Orden** y proceda al llenado de los campos correspondientes.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image449.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image291.png)
 
 Imagen 21. Pestaña Línea de la Orden
 
@@ -86,31 +86,15 @@ Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de 
 
 Seleccione la pestaña principal **Orden**, para proceder a preparar el documento.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image458.png)
-
-Imagen 30. Pestaña Principal Orden
-
 En el campo **Total de Líneas**, podrá visualizar el total de todas las líneas (sin impuestos) que contiene el documento.
-
-![Campo](/assets/img/docs/sales-management/sam-sales-image459.png)
-
-Imagen 31. Campo Total de Líneas
 
 En el campo **Gran Total**, podrá visualizar el total de todas las líneas (con impuestos) que contiene el documento.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image460.png)
-
-Imagen 32. Campo Gran Total
-
 Seleccione la opción **Completar**, para procesar la orden.
-
-![Campo](/assets/img/docs/sales-management/sam-sales-image461.png)
-
-Imagen 33. Opción Completar
 
 Seleccione la acción **Preparar** y la opción **OK**.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image462.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image300.png)
 
 Imagen 34. Acción Preparar y Opción OK
 
