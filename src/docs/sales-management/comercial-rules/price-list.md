@@ -36,7 +36,7 @@ Imagen 2. Ventana Esquema de Lista de Precios
 
 Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de Solop ERP y proceda al llenado de los campos correspondientes.
 
-Seleccione en el campo \*\*Organización la organización para la cual se encuentra realizando el registro.
+Seleccione en el campo Organización la organización para la cual se encuentra realizando el registro.
 
 Introduzca en el campo **Nombre**, el nombre del esquema de lista de precios que se encuentra realizando.
 
@@ -100,7 +100,7 @@ Introduzca en el campo **Grupo 1**, el grupo 1 correspondiente al registro que s
 
 Introduzca en el campo **Grupo 2**, el grupo 2 correspondiente al registro que se encuentra realizando.
 
-El campo \*\*Base del Precio de Lista, indica el precio a usar como la base para el cálculo de una nueva lista de precios.
+El campo Base del Precio de Lista, indica el precio a usar como la base para el cálculo de una nueva lista de precios.
 
 El presente campo contiene predeterminada la opción **Precio de Lista**.
 
@@ -192,7 +192,7 @@ Imagen 2. Ventana Lista de Precios
 La información de los campos que contiene la pestaña **Lista de Precios**, no debe ser modificada por ningún motivo. De igual manera, no se debe tildar o destildar ningún check de los que contiene dicha pestaña.
 :::
 
-Ubique el registro de lista de precios de **Ventas (USD)**.
+Ubique el registro de lista de precios de **Venta Mayorista**.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image355.png)
 
@@ -238,7 +238,7 @@ Seleccione la opción **Crear Lista de Precios**.
 
 Imagen 12. Opción Crear Lista de Precios
 
-También puede acceder al proceso, seleccionando la opción **Crear Lista de Precios** desplegada del icono \*\*Proceso ubicado en la barra de herramientas de Solop ERP.
+También puede acceder al proceso, seleccionando la opción **Crear Lista de Precios** desplegada del icono Proceso ubicado en la barra de herramientas de Solop ERP.
 
 Podrá visualizar la ventana **Crear Lista de Precios**, con diferentes campos que permiten generar la lista de precios en base a lo requerido por el usuario.
 
@@ -306,27 +306,27 @@ Para ejemplificar el caso de creación de una lista de precios desde otra, se ti
 
 Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Materiales**, luego seleccione la carpeta **Reglas de Gestión de Materiales**, por último seleccione la ventana **Lista de Precios**.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image378.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image353.png)
 
 Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana **Lista de Precios**, con todos los registros de listas de precios de compras y ventas.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image379.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image354.png)
 
 Imagen 2. Ventana Lista de Precios
 
 La información de los campos que contiene la pestaña **Lista de Precios**, no debe ser modificada por ningún motivo. De igual manera, no se debe tildar o destildar ningún check de los que contiene dicha pestaña.
 
-Ubique el registro de lista de precios de **Ventas (UYU)**.
+Ubique el registro de lista de precios de **Venta Mayorista**.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image380.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image355.png)
 
 Imagen 3. Lista de Precios Ventas (UYU)
 
 Seleccione la pestaña **Versión**, para crear la versión de lista de precios desde otra versión de lista de precios.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image381.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image356.png)
 
 Imagen 4. Pestaña Versión
 
@@ -352,11 +352,11 @@ Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de 
 
 Seleccione la opción **Crear Lista de Precios**.
 
-También puede acceder al proceso, seleccionando la opción **Crear Lista de Precios** desplegada del icono \*\*Proceso ubicado en la barra de herramientas de Solop ERP.
+También puede acceder al proceso, seleccionando la opción **Crear Lista de Precios** desplegada del icono Proceso ubicado en la barra de herramientas de Solop ERP.
 
 Podrá visualizar la ventana **Crear Lista de Precios**, con diferentes campos que permiten generar la lista de precios en base a lo requerido por el usuario.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image391.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image365.png)
 
 Imagen 14. Ventana Crear Lista de Precios
 
@@ -384,7 +384,7 @@ Seleccione la opción **OK**, para ejecutar el proceso y generar la lista de pre
 
 Seleccione la pestaña **Precio de Producto** para verificar los precios de los productos, creados desde la lista de precios base seleccionada previamente.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image398.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image371.png)
 
 Imagen 21. Pestaña Precio de Producto
 
@@ -414,13 +414,13 @@ En base a las especificaciones nombradas anteriormente, se procede a explicar el
 
 Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Materiales**, luego seleccione la carpeta **Reglas de Gestión de Materiales**, por último seleccione la ventana **Lista de Precios**.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image399.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image353.png)
 
 Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana **Lista de Precios**, con todos los registros de listas de precios de compras y ventas.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image400.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image354.png)
 
 Imagen 2. Ventana Lista de Precios
 
@@ -428,15 +428,15 @@ Imagen 2. Ventana Lista de Precios
 La información de los campos que contiene la pestaña **Lista de Precios**, no debe ser modificada por ningún motivo. De igual manera, no se debe tildar o destildar ningún check de los que contiene dicha pestaña.
 :::
 
-Ubique el registro de lista de precios de **Ventas (UYU)**.
+Ubique el registro de lista de precios de **Venta Mayorista**.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image401.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image355.png)
 
 Imagen 3. Lista de Precios Ventas (UYU)
 
 Seleccione la pestaña **Versión**.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image402.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image356.png)
 
 Imagen 4. Pestaña Versión
 
@@ -468,7 +468,7 @@ También puede acceder al proceso, seleccionando la opción **Crear Lista de Pre
 
 Podrá visualizar la ventana **Crear Lista de Precios**, con diferentes campos que permiten generar la lista de precios en base a lo requerido por el usuario.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image411.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image365.png)
 
 Imagen 13. Ventana Crear Lista de Precios
 
@@ -496,7 +496,7 @@ Seleccione la opción **OK**, para ejecutar el proceso y generar la lista de pre
 
 Seleccione la pestaña **Precio de Producto** para verificar los precios de los productos, creados desde la pestaña **Compras** de cada producto.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image418.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image371.png)
 
 Imagen 20. Pestaña Precio de Producto
 
@@ -524,19 +524,19 @@ Ejemplo:
 
 Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Materiales**, luego seleccione la carpeta **Reglas de Gestión de Materiales**, por último seleccione la ventana **Lista de Precios**.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image419.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image353.png)
 
 Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana **Lista de Precios**, donde debe ubicar el registro de la lista de precios a utilizar.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image420.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image354.png)
 
 Imagen 2. Ventana Lista de Precios
 
 Seleccione la pestaña **Versión**, para establecer la lista de precios de los productos.
 
-![Campo](/assets/img/docs/sales-management/sam-sales-image421.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image356.png)
 
 Imagen 3. Pestaña Versión
 
@@ -546,7 +546,7 @@ Seleccione ĺa opción **Crear Entradas de Productos en Lista de Precios**, para
 
 Imagen 4. Opción Crear Entradas de Productos en Lista de Precios
 
-También puede acceder al proceso, seleccionando la opción **Crear Entradas de Productos en Lista de Precios** desplegada del icono \*\*Proceso ubicado en la barra de herramientas de Solop ERP.
+También puede acceder al proceso, seleccionando la opción **Crear Entradas de Productos en Lista de Precios** desplegada del icono Proceso ubicado en la barra de herramientas de Solop ERP.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image423.png)
 
@@ -572,11 +572,7 @@ En el campo **Precio Límite**, se debe indicar el pprecio más bajo para un pro
 
 Imagen 6. Ingresar Precios de Productos
 
-Luego de ingresar todos los precios de los productos requeridos, seleccione la opción **OK** para cargar dichos precios a la pestaña **Precio Producto**.
-
-![Campo](/assets/img/docs/sales-management/sam-sales-image426.png)
-
-Imagen 7. Opción OK para Cargar Precios
+Luego de ingresar todos los precios de los productos requeridos, seleccione la opción de ejecutar para cargar dichos precios a la pestaña **Precio Producto**.
 
 Seleccione el icono **Refrescar**, ubicado en la barra de herramientas de Solop ERP, para cargar a la pestaña **Precio Producto**, la información ingresada en la ventana del proceso **Crear Entradas de Productos en Lista de Precios**.
 
