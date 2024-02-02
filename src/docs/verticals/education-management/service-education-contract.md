@@ -8,15 +8,15 @@ tag:
 article: false
 ---
 
-## **Contrato de Servicio Educación**
+## Contrato de Servicio Educación
 
 El Contrato de Servicios resume en un documento la representación de determinado acuerdo realizado entre una Institución Educativa y un Alumno y regulará condiciones para las transacciones a realizar entre ambos.
 
 Este se generará definiendo en Socio del Negocio al Alumno y en el campo “Responsable de Pago” al responsable de pago que se define en la Familia. La Factura por los servicios brindados en cada contrato será generada al Responsable de Pago definido.
 
-### **Cabezal ventana de Contrato de Servicio**
+### Cabezal ventana de Contrato de Servicio
 
-### **Socio del Negocio**
+### Socio del Negocio
 
 **Alumno:** Identifique la contraparte del contrato.
 
@@ -30,7 +30,7 @@ El proceso de actualización de cantidad de hijos, en cabezal de Familia, consid
 
 **Curso:** Se podrá identificar el Curso al que pertenece el Alumno. Este dato podrá irse actualizando año a año a medida que se avance en el curso.
 
-### **Fechas del Contrato**
+### Fechas del Contrato
 
 **Fecha del Documento:** Fecha en que se suscribe el Contrato.
 
@@ -42,7 +42,7 @@ El proceso de actualización de cantidad de hijos, en cabezal de Familia, consid
 
 **Duración:** Duración del Contrato en Unidad de duración.
 
-### **Facturación**
+### Facturación
 
 **Lista de Precio:** Seleccionar la Lista de Precios que le corresponda.
 
@@ -54,7 +54,7 @@ El proceso de actualización de cantidad de hijos, en cabezal de Familia, consid
 
 ![Contrato de Servicio Educación](/assets/img/docs/education-management/sem-education100.png)
 
-### **Cuotas**
+### Cuotas
 
 Las cuotas podrán visualizarse con descuento incluido (en el caso que se definan descuentos en la línea del contrato) o con descuento aparte (en el caso que se definan descuentos como línea negativa) .
 
@@ -64,17 +64,7 @@ Una vez facturado se agregará el Check de Facturado a la línea de cuota misma 
 
 ![Cuotas](/assets/img/docs/education-management/sem-education200.png)
 
-### **Descuentos**
-
-Un Contrato de Servicios podrá contar con más de un Descuento establecido, la Suma de ambos descuentos se podrán aplicar de dos maneras distintas: como línea negativa o en la línea del contrato.
-
-Esta pestaña podrá actualizar de manera automática desde el proceso “Crear Descuento de contrato” para que se acualice el Descuento según cantidad de hermanos.
-
-Adicionalmente podrá definir un descuento especial pero de manera manual seleccionando el tipo, el porcentaje que corresponda y la Categoría de Producto sobre la cuál se deberá aplicar el descuento.
-
-![Cuotas](/assets/img/docs/education-management/sem-education300.png)
-
-### **Líneas del Contrato**
+### Líneas del Contrato
 
 Se define los distintos Productos/Servicios que intervienen en el Contrato de Servicios de manera recurrente.
 
@@ -98,31 +88,35 @@ Producto definido en la Lista de Precios.  *% Descuento:*  En el caso que el des
 
 ![Líneas del Contrato](/assets/img/docs/education-management/sem-education400.png)
 
-### **Actualización del Contrato de Servicio**
+### Proceso Crear Descuentos de Contrato
 
-### **Actualización de Descuentos en Linea de Contrato**
+Un Contrato de Servicios podrá contar con más de un Descuento establecido, la Suma de ambos descuentos se podrán aplicar de dos maneras distintas: como línea negativa o en la línea del contrato.
 
-### **Actualización de Descuentos**
+La pestaña "Descuentos de Línea" podrá actualizarse de manera automática desde el proceso “Crear Descuento de contrato” para que se actualice el Descuento según cantidad de hermanos (valor definido en la ventana Familia, campo Cantidad de hermanos) y según el esquema de descuentos establecidos (suelen variar los porcentajes si son dos hermanos, o tres, etc.).
 
-Este proceso se utilizará en caso que se decida definir los descuentos desde la línea del contrato.
+Adicionalmente podrá definir un descuento especial pero de manera manual seleccionando el tipo, el porcentaje que corresponda y la Categoría de Producto sobre la cuál se deberá aplicar el descuento.
 
-Desde el cabezal de la ventana Contrato de Servicio, seleccionando el icono de Procesos se puede correr el Proceso que Actualizará el campo “Descuento” en las líneas del Contrato según la sumatoria de los descuentos definidos en el Contrato.
+![Cuotas](/assets/img/docs/education-management/sem-education300.png)
 
-En base a todos los descuentos que tenga definido un Contrato se le definirá el Descuento final que tendrá realmente en las líneas de Servicios que entre en la condición de los Descuentos. Por ejemplo que sólo apliquen sobre los Productos de Categoría de Producto: Servicios Educativos (Cuotas).
+Es válido mencionar que el proceso Crear Descuentos de Contrato es posible generarlo desde la ventana Contrato de Servicio (su ejecución solo afecta al contrato consultado):
 
-### **Actualización de Precios**
+![Crear Descuentos de Contratos](/assets/img/docs/education-management/sem-education600.png)
 
-### **Listas de Precio**
+También es posible generarlo desde el menú para aplicarlo de forma masiva a los contratos:
+
+![Crear Descuentos de Contratos](/assets/img/docs/education-management/sem-education700.png)
+
+### Actualización de Precios (Listas de Precio)
 
 Existen Listas de Precios de Venta y de Compra, y a cada Socio del Negocio se le debe definir una. A los Alumnos, como son considerados Clientes se le debe definir en el cabezal de la ventana Socio de Negocio la Lista de Precios “Venta Pesos”
 
-### **Versiones de Listas de Precios**
+### Versiones de Listas de Precios
 
 A su vez existen versiones de una Lista de Precios, por ejemplo:
 
 Lista de Precios Venta Pesos
 
-### **Actualización de Precios del Contrato**
+### Actualización de Precios del Contrato
 
 Mediante este proceso se puede actualizar los precios de un contrato específico o de todos los contratos, definiendo el Precio del Producto de las Líneas de Contrato al Precio que tenga el Producto en la lista de Precios definida en el Contrato de Servicios según la Versión de Lista de Precios vigente.
 
