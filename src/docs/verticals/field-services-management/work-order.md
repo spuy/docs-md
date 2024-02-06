@@ -12,24 +12,28 @@ Una orden de trabajo es considerado un Proyecto para Solop ERP.
 Se trata de una unidad de gestión que agrupa un conjunto de entidades que le dan forma y describen un determinado Servicio.
 
 El primer paso para la creación de una Orden de trabajo es ingresar en la ventana el nombre del cliente (Socio del negocio del cual hereda la dirección y precio de lista), la fecha de inicio del servicio a realizar y seleccionar una categoría de Proyecto (y la unidad o departamento).
-En este paso solo se genera el evento (no se asignan recursos o productos).
+En este paso solo se genera el evento (no se asignan recursos o productos). Además el sistema creará una línea de proyecto vacía para agilizar el proceso.
 
 ![Orden de Trabajo](/assets/img/docs/field-services-management/fis-services2.png)
 
 ### Asignación de Recursos
 
 Desde la ventana de Navegador de Proyectos es posible visualizar aquellas órdenes de trabajo que aun no posean agente comercial (es quien realizará el servicio).
-Una vez asignado a un agente comercial, el sistema le envía una notificación (solicitud) por el servicio a realizar al agente comercial en cuestión (es posible configurar el envío del mensaje por diferentes vehículos de comunicación).
+Una vez asignado a un agente comercial, el sistema le envía una notificación (solicitud) por el servicio a realizar al agente comercial en cuestión (es posible configurar el envío del mensaje por diferentes vehículos de comunicación). Además, esta acción cambiará el estado de la orden de trabajo de "Nuevo" a "Asignado"
 El agente comercial podrá aceptar el servicio a realizar. Y posteriormente a haberlo realizado, podrá enviar una confirmación del trabajo realizado (esto habilita los pasos posteriores para generar las órdenes y la facturación).
 
 ![Navegador de Proyectos](/assets/img/docs/field-services-management/fis-services3.png)
 
-### Confirmación de Servicio realizado
+### Confirmación de Servicio realizado - Navegador de Líneas de Proyectos
 
 Una vez realizado el servicio (ejemplo: painting), el agente comercial enviará una notificación confirmando el trabajo realizado.
 Esto permite al departamento de Administración entrar en la orden de trabajo vinculada a ese servicio y generar una línea de orden de trabajo (de Proyecto) agregando el/los productos confirmados por el agente comercial y dejar preparado el proyecto para la generación de órdenes y su posterior facturación.
 
+Para agilizar este flujo es posible realizarlo desde el proceso "Navegador de líneas de proyectos", el cual, posee parámetros para filtrar las líneas de proyecto tales como Organización, Socio del Negocio, Agente Comercial, Fecha Inicio e Inicio Programado. Al tildar cada línea de proyecto permite seleccionar el producto (servicio), el cual se graba en la correspondiente orden de trabajo (definiendo el importe según Lista de Precio).
+
 ![Línea de Proyecto](/assets/img/docs/field-services-management/fis-services4.png)
+
+![Línea de Proyecto](/assets/img/docs/field-services-management/fis-services10.png)
 
 ### Generar Orden desde Proyecto
 
