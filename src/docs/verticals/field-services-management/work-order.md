@@ -18,8 +18,8 @@ En este paso solo se genera el evento (no se asignan recursos o productos). Adem
 
 ### Asignación de Recursos
 
-Desde la ventana de Navegador de Proyectos es posible visualizar aquellas órdenes de trabajo que aun no posean agente comercial (es quien realizará el servicio).
-Una vez asignado a un agente comercial, el sistema le envía una notificación (solicitud) por el servicio a realizar al agente comercial en cuestión (es posible configurar el envío del mensaje por diferentes vehículos de comunicación). Además, esta acción cambiará el estado de la orden de trabajo de "Nuevo" a "Asignado"
+Desde la ventana de Navegador de Proyectos es posible visualizar aquellas órdenes de trabajo que aun no posean agente de comercial (es quien realizará el servicio).
+Una vez asignado a un agente comercial, el sistema le envía una notificación (solicitud) por el servicio a realizar al agente comercial en cuestión (es posible configurar el envío del mensaje por diferentes vehículos de comunicación). Además, esta acción cambiará el estado de la orden de trabajo de "Nuevo" a "Asignado".
 El agente comercial podrá aceptar el servicio a realizar. Y posteriormente a haberlo realizado, podrá enviar una confirmación del trabajo realizado (esto habilita los pasos posteriores para generar las órdenes y la facturación).
 
 ![Navegador de Proyectos](/assets/img/docs/field-services-management/fis-services3.png)
@@ -27,7 +27,7 @@ El agente comercial podrá aceptar el servicio a realizar. Y posteriormente a ha
 ### Confirmación de Servicio realizado - Navegador de Líneas de Proyectos
 
 Una vez realizado el servicio (ejemplo: painting), el agente comercial enviará una notificación confirmando el trabajo realizado.
-Esto permite al departamento de Administración entrar en la orden de trabajo vinculada a ese servicio y generar una línea de orden de trabajo (de Proyecto) agregando el/los productos confirmados por el agente comercial y dejar preparado el proyecto para la generación de órdenes y su posterior facturación.
+Esto permite al departamento de Administración entrar en la orden de trabajo vinculada a ese servicio y agregar en la línea de orden de trabajo (creada en el primer paso) el/los productos confirmados por el agente comercial y dejar preparado el proyecto para la generación de órdenes y su posterior facturación.
 
 Para agilizar este flujo es posible realizarlo desde el proceso "Navegador de líneas de proyectos", el cual, posee parámetros para filtrar las líneas de proyecto tales como Organización, Socio del Negocio, Agente Comercial, Fecha Inicio e Inicio Programado. Al tildar cada línea de proyecto permite seleccionar el producto (servicio), el cual se graba en la correspondiente orden de trabajo (definiendo el importe según Lista de Precio).
 
@@ -38,6 +38,6 @@ Para agilizar este flujo es posible realizarlo desde el proceso "Navegador de l�
 ### Generar Orden desde Proyecto
 
 Una orden de trabajo ya confirmada y con su correspondiente línea de orden generada con los productos vinculados al sericio realizado se encuentra en condiciones de facturar.
-Para esto, desde el proceso de Generar orden desde proyecto se la selecciona y le crea en forma automática (heredando los datos de la orden de trabajo) una orden de venta, una orden de compra y un documento por pagar (este último corresponde al servicio realizado por el agente comercial o recurso).
+Para esto, desde el proceso de Generar orden desde proyecto se la selecciona y le crea en forma automática (heredando los datos de la orden de trabajo) una orden de venta en estado completo. Además. esta orden en estado completo genera una orden de compra y un documento por pagar (este último corresponde al servicio realizado por el agente comercial o recurso).
 
 ![Generar Orden desde Proyecto](/assets/img/docs/field-services-management/fis-services5.png)
