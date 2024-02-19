@@ -1,4 +1,4 @@
---
+---
 title: Cierre de Balance
 category: Documentation
 star: 9
@@ -130,4 +130,3 @@ Este proceso crea un Lote Contable de cada cuenta de Activo y la contracuenta de
 El resultado es la apertura de todas las cuentas Integrales. El saldo de la cuenta parámetro es cero.
 
 Este Asiento Contable se Completa automáticamente.
-
