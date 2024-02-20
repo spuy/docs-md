@@ -17,3 +17,4 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 - [Distribución Contable](distribution)
 - [Configuración Contable (Maestros)](configuration)
 - [Elemento Contable](element)
+- [Esquema Contable](accounting-scheme)

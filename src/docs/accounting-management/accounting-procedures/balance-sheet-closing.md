@@ -13,7 +13,7 @@ El Proceso de Cierre de Balance en Solop consta de varios pasos y controles que 
 
 A continuación les detallaremos cada uno de ellos.
 
-## Diferencia de Cambio no Realizada 
+## 1. Diferencia de Cambio no Realizada 
 
 Solop ERP cuenta con un proceso para realizar el cálculo y aplicación contable correspondiente a la actualización de los saldos contables de las Cuentas por Cobrar y Cuentas por Pagar (que aún no hayan sido canceladas a la fecha de revaluación). 
 
@@ -74,7 +74,7 @@ b. Verificar Cuentas por Pagar:
 i. Obtener el reporte de “Saldos Abiertos a la Fecha”, con el filtro de “Transacción de Ventas = No”
 ii. Obtener el Balance de Prueba para la cuenta “21100 - Cuentas por Pagar Comerciales” y utilizar la vista del reporte “ Mayor Contable por Moneda / SDN”.
 
-## Diferencia de Cambio Cuentas Monetarias
+## 2. Diferencia de Cambio Cuentas Integrales
 
 Este Proceso tomará todas las Cuentas Contables Integrales “definidas” como Moneda Extranjera. Considera la moneda que tenga asignada dicha cuenta. 
 
@@ -95,7 +95,7 @@ El mismo lo podrán encontrar en la Ventana de Diario Contable
 
 El Lote del Asiento Contable deberá completarse
 
-## Proceso de Cierre de Cuentas Diferenciales
+## 3. Cierre del Período Anual Fiscal
 
 Este proceso cierra las cuentas de gastos/ingresos al final del Periodo Financiero. 
  
@@ -113,7 +113,7 @@ Categoría Contabilidad: Seleccionar la Categoría “Manual”
 
 El Lote del  Asiento Contable deberá completarse
 
-## Proceso de Cierre Cuentas Integrales (Opcional)
+## 4. Cierre Ejercicio Cuentas Integrales (Opcional)
 
 Este proceso cierra las cuentas Integrales al final del periodo anual fiscal para luego volver a abrirlas el 1er día del período siguiente como “Saldo Apertura”. La cuenta destinataria se escoge como parámetro. El proceso de cierre crea un Lote de Notas Contables, con una Nota Contable con cada cuenta Integral con saldo. 
 

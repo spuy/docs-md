@@ -25,7 +25,7 @@ El proceso para realizar la verificación Contable con los Saldos Abiertos que e
    3. Obtención de Reporte de Saldos Abiertos cuentas por Pagar
    4. Balance de Prueba Cuenta “Cuenta por Pagar Comerciales”
 
-### **Explicación del Ajuste realziado por el Proceso de DIferencia de Cambio No Realizada**
+### **Explicación del Ajuste realizado por el Proceso de DIferencia de Cambio No Realizada**
 
 El proceso de diferencia de cambio No Realizada puede controlarse, para ello deberá exportar a Excel el Reporte que brinda el proceso del cálculo de Diferencia de Cambio No Realizada al momento que la ejecuta. Cuidado, este reporte presentará el cálculo realizado y no podrá obtenerse nuevamente a menos que genere el proceso una vez más, generando así el Asiento del Ajuste nuevamente.
 

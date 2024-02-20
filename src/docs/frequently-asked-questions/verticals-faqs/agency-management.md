@@ -231,3 +231,8 @@ Se generarán los nuevos  Cálculos de comisiones aplicando los nuevos porcenta
 ### ¿Cuándo se generan los cálculos de comisiones?
 
 Los Cálculos de comisiones se generan al completar una Orden de venta o al correr el proceso desde la barra de herramientas.
+
+### ¿Por qué motivo no me permite marcar el check Factura directa a cliente en las órdenes?
+
+El permiso sobre ese check se controla por el Tipo de Documento. En este caso se debe crear para el tipo de documento utilizado uno tildando el check de "Factura directa a cliente" (tanto para tipo de documento de orden de venta como para orden de compra).
+Esto permitirá activar esa opción en las órdenes.
