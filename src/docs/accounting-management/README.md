@@ -30,8 +30,8 @@ El propósito de **Solop ERP** es apoyar a nuestros clientes, dar respuestas rá
 
 - [Apertura de Período Contable](accounting-procedures/opening)
 - [Re-contabilizar Datos Contables de Cuentas de Ganancia y Perdida](accounting-procedures/revenue)
-- [Cierre de Balance](balance-sheet-closing)
-- [Análisis de Diferencias](difference-analysis)
+- [Cierre de Balance](accounting-procedures/balance-sheet-closing)
+- [Análisis de Diferencias](accounting-procedures/difference-analysis)
 
 ### Reglas Contables
 
@@ -44,4 +44,4 @@ El propósito de **Solop ERP** es apoyar a nuestros clientes, dar respuestas rá
 - [Distribución Contable](accounting-rules/distribution)
 - [Configuración Contable (Maestros)](accounting-rules/configuration)
 - [Elemento Contable](accounting-rules/element)
-- [Esquema Contable](accounting-scheme)
+- [Esquema Contable](accounting-rules/accounting-scheme)
