@@ -31,6 +31,7 @@ El propósito de **Solop ERP** es apoyar a nuestros clientes, dar respuestas rá
 - [Apertura de Período Contable](accounting-procedures/opening)
 - [Re-contabilizar Datos Contables de Cuentas de Ganancia y Perdida](accounting-procedures/revenue)
 - [Cierre de Balance](balance-sheet-closing)
+- [Análisis de Diferencias](difference-analysis)
 
 ### Reglas Contables
 

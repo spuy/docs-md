@@ -11,3 +11,4 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 - [Apertura de Período Contable](opening)
 - [Re-contabilizar Datos Contables de Cuentas de Ganancia y Perdida](revenue)
 - [Cierre de Balance](balance-sheet-closing)
+- [Análisis de Diferencias](difference-analysis)
