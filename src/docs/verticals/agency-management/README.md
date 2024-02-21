@@ -12,6 +12,7 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 - [Actualización de Cálculo de Honorarios](fee-calculation-update)
 - [Crear Marca del Cliente obligatoria](Create-customer-brand)
 - [Devolución Cliente/proveedor](returns)
+- [Honorarios Variables](variable-fees)
 
 ### Proyecto de Servicios
 
