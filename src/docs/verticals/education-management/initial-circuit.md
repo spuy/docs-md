@@ -8,6 +8,26 @@ tag:
 article: false
 ---
 
+```mermaid
+flowchart LR
+A[1. Carga de Extracto de Cuenta Bancaria] --> B(Importa los Movimientos Bancarios y los identifica)
+C[2. Crear Cobros desde Movimientos Bancarios] --> D(Crea Pagos y Cobros desde los Movimientos Importados)
+E[3. Asignación de Pagos Masiva] --> F(Genera Asignación entre Documentos por Cobrar impagos y Cobros)
+G[4. Crear Conceptos a Facturar No Recurrentes] --> H(Genera los Conceptos a Facturar por Contrato y Estudiante)
+I[5. Generar Facturas desde Cuota de Contrato] --> J(Generación Masiva de Facturas unificando por Responsable de Pago, se consideran conceptos Recurrentes y No Recurrentes)
+K[6. Generar Cálculo de Morosidad] --> L(Crea Estados de Cuenta para cada responsable de Pago)
+M[7. Envío de Estado de Cuenta Corriente] --> N(Genera Envío por mail de Estado de Cuenta Corriente a Responsables de Pago)
+```
+
+```mermaid
+flowchart TD
+A[Christmas] -->|Get money| B(Go shopping)
+B --> C{Let me think}
+C -->|One| D[Laptop]
+C -->|Two| E[iPhone]
+C -->|Three| F[fa:fa-car Car]
+```
+
 ## Flujo Instituciones educativas
 
 ### Circuito inicial
