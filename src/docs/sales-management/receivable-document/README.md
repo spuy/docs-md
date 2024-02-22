@@ -14,3 +14,4 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 - [Nota de Débito](debit)
 - [Facturación desde Línea de Orden de Venta](billing-from-orderline)
 - [Facturación desde Orden de Salida](bill)
+- [Facturación de Conceptos](concepts-billing)
