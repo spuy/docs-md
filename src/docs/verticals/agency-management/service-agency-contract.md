@@ -6,7 +6,6 @@ sticky: 9
 tag: 
   - Agencia
 article: false
-
 ---
 
 ## Contrato de Servicio de Agencia
@@ -37,7 +36,7 @@ Aquí deberán definirse los siguientes datos:
 
 ![Contrato de Servicio](/assets/img/docs/service-management/sem-agency1.png)
 
-### Cálculo de Honorarios
+### Honorarios del contrato
 
 El cálculo automático de honorarios (Cálculo de comisiones) se calculará al momento de completar las Órdenes de venta y lo harán sobre éstas, no sobre la Facturación.
 
@@ -58,14 +57,6 @@ Se marca como permite facturar = SI la Orden de Venta Honorarios cuando se confi
 :::
 
 ![Honorarios](/assets/img/docs/service-management/sem-agency2.png)
-
-### Definición de Honorarios
-
-Según el Contrato de servicio se obtendrán sus correspondientes Honorarios variables, según la definición que exista en la pestaña Honorarios, es decir, según los filtros definidos en estos registros.
-
-![Definición de Honorarios](/assets/img/docs/service-management/sem-agency3.png)
-
-![Definición de Honorarios](/assets/img/docs/service-management/sem-agency13.png)
 
 ### Líneas del Contrato de Servicio de Agencia
 

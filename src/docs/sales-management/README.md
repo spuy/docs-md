@@ -25,6 +25,7 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 - [Bandeja CFE](receivable-document/cfe-tray)
 - [Facturación desde Línea de Orden de Venta](receivable-document/billing-from-orderline)
 - [Facturación desde Orden de Salida](receivable-document/bill)
+- [Facturación de Conceptos](concepts-billing)
 
 ### Órdenes de Venta
 

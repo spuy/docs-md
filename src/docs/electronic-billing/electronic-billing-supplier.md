@@ -6,7 +6,7 @@ sticky: 9
 article: false
 ---
 
-### **Validación de datos en InvoiCy:**
+### Validación de datos en InvoiCy:
 
 Luego de completado un e-Ticket/e-Factura, se puede chequear el CFE emitido en InvoiCy (<https://solopuy.migrate.info/InvoiCy>), e ingresando con los datos proporcionados por Solop.
 
@@ -43,7 +43,7 @@ En este caso el envío lo realiza Invoicy y es independiente del sistema Solop E
 Esta segunda opción se configura a través de Solop ERP.
 Para definir una nueva dirección de correo electrónico y enviar a Administración del Cliente se debe configurar el correo en la pestaña de Localización del Socio del Negocio en el campo "EMail Adress" (permite ingresar varios correos separados por coma y sin espacio).
 
-![Casilla e mail Cliente](/assets/img/docs/electronic-billing/elb-billing4.png).
+![Casilla e mail Cliente](/assets/img/docs/electronic-billing/elb-billing4.png)
 
 De esta forma, cuando se complete un documento por cobrar se enviará en forma automática la representación impresa del documento al cliente.
 Es posible validar este envío ingresando en invoicy, consultando el comprobante emitido. En la solapa Receptor podrá visualizar en campo E mail receptor la/s casilla/s de destino. 
@@ -152,3 +152,19 @@ En la columna acciones, están las opciones:
 Con este botón se marca la notificación como leída.
 
 Con este botón se abrirá una nueva pantalla que posibilita solucionar el problema que generó la notificación.
+
+### Aviso de Límite de CAE por Cantidad
+
+El aviso de límite de CAE por cantidad restante se configura y se emite directo desde la página de "Invoicy".
+
+Esto se puede configurar desde: Panel de Control > Datos de la Sucursal
+
+![Configuración](/assets/img/docs/electronic-billing/elb-billing5.png)
+
+Se puede configurar de qué forma se recibirán las notificaciones (Modo de notificación) desde: Panel de Control > Configuración de las Notificaciones 
+
+![Configuración de notificaciones](/assets/img/docs/electronic-billing/elb-billing6.png)
+
+Según el modo de notificación elegido para cada notificación, los avisos serán enviados por mail, o serán mostrados en el ícono de notificaciones en Invoicy
+
+![Configuración de notificaciones](/assets/img/docs/electronic-billing/elb-billing6.png)
