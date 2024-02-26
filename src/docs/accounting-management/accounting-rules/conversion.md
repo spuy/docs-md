@@ -23,7 +23,13 @@ Tasa de Conversión Diaria: Al trabajar con diferentes monedas en los procesos d
 
 En el caso de que el usuario intente crear una tasa de cambio con el mismo tipo de conversión y moneda utilizado previamente el mismo día, al intentar guardar el registro existirá una validación que no permitirá completar el proceso.
 
+Vista monoregistro:
+
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image997.png)
+
+Vista multiregistro:
+
+![Campo](/assets/img/docs/accounting-management/acm-accounting-image9970.png)
 
 Imagen 1. Ejemplo de Validación
 
@@ -43,7 +49,13 @@ Imagen 2. Menú de Solop ERP
 
 Podrá visualizar la ventana **Tipo de Conversión**, con los diferentes registros que contiene dicha ventana.
 
+Vista monoregistro:
+
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image208.png)
+
+Vista multiregistro:
+
+![Campo](/assets/img/docs/accounting-management/acm-accounting-image2008.png)
 
 Imagen 3. Ventana Tipo de Conversión
 
@@ -51,9 +63,9 @@ Seleccione el icono **Registro Nuevo**, ubicado en la barra de herramientas de S
 
 Seleccione en el campo **Organización**, la organización para la cual esta creando el registro de tipo de conversión.
 
-Introduzca en el campo **Código**, el código correspondiente al registro de tipo de conversión que se encuentra realizando, para este caso es utilizado el código **BCV**.
+Introduzca en el campo **Código**, el código correspondiente al registro de tipo de conversión que se encuentra realizando, para este caso es utilizado el código **BCU**.
 
-Introduzca en el campo **Nombre** el nombre correspondiente al registro de tipo de conversión que se encuentra realizando, para este caso es utilizado el nombre de conversión **BCV**.
+Introduzca en el campo **Nombre** el nombre correspondiente al registro de tipo de conversión que se encuentra realizando, para este caso es utilizado el nombre de conversión **BCU**.
 
 Introduzca en el campo **Descripción**, una breve descripción correspondiente al registro de tipo de conversión que se encuentra realizando.
 
@@ -93,13 +105,13 @@ La tasa de cambio se debe crear de dólares a pesos y de pesos a dólares.
 
 Seleccione en el campo **Moneda Hacia**, la moneda para la cual requiere convertir el dinero. Para ejemplificar el registro es utilizada la moneda **UYU**.
 
-Seleccione en el campo **Tipo de Conversión**, el tipo de conversión a utilizar. Para este caso es utilizado el tipo de conversión **BCV**, creado anteriormente.
+Seleccione en el campo **Tipo de Conversión**, el tipo de conversión a utilizar. Para este caso es utilizado el tipo de conversión **BCU**, creado anteriormente.
 
 Seleccione en el campo **Válido Desde**, la fecha desde la cual es válida la tasa de conversión que se encuentra realizando.
 
 Seleccione en el campo **Válido Hasta**, la fecha hasta la cual es válida la tasa de conversión que se encuentra realizando.
 
-Introduzca en el campo **Factor de Base a Destino**, la tasa por la que serán multiplicados los montos de las transacciones donde sea utilizado el tipo de conversión seleccionado anteriormente. Para ejemplificar el registro es utilizada la tasa **82.000,0**.
+Introduzca en el campo **Factor de Base a Destino**, la tasa por la que serán multiplicados los montos de las transacciones donde sea utilizado el tipo de conversión seleccionado anteriormente. Para ejemplificar el registro es utilizada la tasa **40,0**.
 
 ::: note
 Recuerde guardar los cambios realizados seleccionando el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
@@ -133,7 +145,7 @@ Seleccione en el campo **Válido Desde**, la fecha de inicio del periodo de vali
 
 Seleccione en el campo **Válido Hasta**, la fecha final del periodo de validez de la tasa de cambio.
 
-Introduzca en el campo **Factor de Destino a Base**, la tasa por la que serán multiplicados los montos de las transacciones donde sea utilizado el tipo de conversión seleccionado anteriormente. Para ejemplificar el registro es utilizada la tasa **82.000,0**.
+Introduzca en el campo **Factor de Destino a Base**, la tasa por la que serán multiplicados los montos de las transacciones donde sea utilizado el tipo de conversión seleccionado anteriormente. Para ejemplificar el registro es utilizada la tasa **40,0**.
 
 ::: note
 Recuerde guardar los cambios realizados seleccionando el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
