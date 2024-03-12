@@ -168,3 +168,28 @@ Se puede configurar de qué forma se recibirán las notificaciones (Modo de noti
 Según el modo de notificación elegido para cada notificación, los avisos serán enviados por mail, o serán mostrados en el ícono de notificaciones en Invoicy
 
 ![Configuración de notificaciones](/assets/img/docs/electronic-billing/elb-billing6.png)
+
+### Carga de CAE en Invoicy
+
+Antes de cargar el CAE en InvoiCy, es necesario descargar el XML de CAE del DGI:
+
+* Para descargar el XML de un CAE es necesario ingresar en los Servicios en Línea de DGI en la opción "eFactura - CAE - Consulta Autorizaciones Emitidas".
+
+* En esa opción podrá ver cada uno de los CAE solicitados y descargar el respectivo XML.
+
+Posteriormente, para cargar el CAE en el InvoiCy, es necesario ingresar en el 'Panel Control' > 'CAE'> 'Importar CAE'.
+
+* Se debe seleccionar el botón 'Elegir archivo', seleccionar el XML descargado del portal Servicios en Línea DGI y confirmar la carga de datos del CAE.
+
+![Cargar CAE](/assets/img/docs/electronic-billing/elb-billing8.png)
+
+* Al cargar el archivo deberá seleccionar la opción que corresponda: 
+
+**Atribuir CAE a una única sucursal**
+
+**Asignar CAE para varias sucursales y/o definir rangos por tipo de emisión**
+
+* En caso de gestionar solo una sucursal deberá seleccionar la primera opción y posteriormente deberá definir la sucursal correspondiente (estará definida por default la sucursal que utilicen) y la forma de emisión (en este caso web service).
+
+* Al aceptar quedará cargado el nuevo CAE indicando el N° inicial, N° final y la cantidad de CFE disponibles.
+
