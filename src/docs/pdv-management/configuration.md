@@ -1,5 +1,5 @@
 ---
-title: Configuración de Terminal PDV
+title: Configuración del Punto de Venta
 category: Documentation
 star: 9
 sticky: 9

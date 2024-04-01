@@ -26,10 +26,11 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 - [Facturación desde Línea de Orden de Venta](receivable-document/billing-from-orderline)
 - [Facturación desde Orden de Salida](receivable-document/bill)
 - [Facturación de Conceptos](concepts-billing)
+- [Reportes de Facturas](../purchase-management/payable-documents/invoice-reports)
 
 ### Órdenes de Venta
 
 - [Orden de Venta](sales-orders/order)
 - [Propuesta](sales-orders/proposal)
 - [Tipos de Documentos](sales-orders/document-type)
-- [Reportes de Órdenes](sales-orders/order-reports)
+- [Reportes de Órdenes](../purchase-management/order-reports)

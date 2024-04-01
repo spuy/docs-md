@@ -11,4 +11,4 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 - [Orden de Venta](order)
 - [Propuesta](proposal)
 - [Tipos de Documentos](document-type)
-- [Reportes de Órdenes](order-reports)
+- [Reportes de Órdenes](../../purchase-management/order-reports)

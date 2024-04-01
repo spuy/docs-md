@@ -24,13 +24,6 @@ El Punto de Ventas No deberá tener un Cierre de caja con fecha distinta a la de
 
 Imagen 1. Proceso de Punto de Venta
 
-- [Configuración de Terminal PDV](configuration)
-- [Interfaz de Punto de Venta](point-interface)
-- [Apertura de Caja](opening)
-- [Toma de Pedido](order-taking)
-- [Copiar Orden Desde Otra](order-copy)
-- [Anular Transacción de Venta](cancel)
-- [Completar Orden Preparada](complete)
-- [Retiro Detallado de Punto de Venta](detailed)
-- [Cierre de Caja del Punto de Venta](close-box)
-- [Traspaso a Banco](transfer)
+- [Configuración del Punto de Venta](configuration)
+- [Uso del Punto de Venta](point-interface)
+- [Acciones del Punto de venta](opening)
