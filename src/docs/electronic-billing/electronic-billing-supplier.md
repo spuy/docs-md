@@ -193,3 +193,30 @@ Posteriormente, para cargar el CAE en el InvoiCy, es necesario ingresar en el 'P
 
 * Al aceptar quedará cargado el nuevo CAE indicando el N° inicial, N° final y la cantidad de CFE disponibles.
 
+### Vencimiento de CAE
+
+cuando un CAE vence, se deben anular todos los números que no fueron utilizados de ese CAE.
+
+* En InvoiCy, eso implica anular los número no utilizados de ese CAE y también los CFE que están con estado RECHAZADO en InvoiCy.
+
+* Anular desde InvoiCy en la opción "Configuraciones > Anular rango de CFE" (tuerca del extremo superior derecho), informando el CAE que pertenece el CFE con el número inicial y final de los CFE que desea anular.
+
+* Para confirmar el número inicial se deberá buscar en invoicy, "inicio" por el tipo de comprobante sin ingresar numero inicial, e indicando el número final del CAE vencido (ejemplo: 30000). Esto arrojará cual fue el último CFE emitido en ese CAE, por lo tanto, el número siguiente será el "inicial" y el final será el último número del CAE vencido (ver imagen de ejemplo).
+
+* Se deberán completar los datos:
+
+**Tipo del CFE: el que corresponda al CAE vencido (por ejemplo Nota de Crédito e-ticket).**
+
+**Anular por: seleccionar "Anulación por Rango de CFE".**
+
+**CAE (destildar Nuevos campos para ver este campo): seleccionar el CAE vencido correspondiente al tipo del CFE seleccionado.**
+
+**Número inicial: El número posterior al último CFE emitodo para ese CAE.**
+
+**Número final: El último CFE correspondiente al CAE vencido.**
+
+* Invoicy posee una limitante de CFE a anular de 5000, por lo cual si deben anular un número superior, debe realizarse por "tramos" (en el ejemplo de la imagen se anularán del 21548 al 25000 y luego del 25001 al 30000).
+
+![Anular CFE de CAE vencido](/assets/img/docs/electronic-billing/elb-billing9.png)
+
+Al presionar Anular CFE, luego de realizar el proceso quedará anulado el lote CFE seleccionado.
