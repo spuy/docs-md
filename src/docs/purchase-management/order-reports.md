@@ -10,9 +10,7 @@ article: false
 
 ### Listado de Ordenes
 
-Muestra las **líneas de las Órdenes**, tanto Órdenes de Venta como Órdenes de Compra.
-
-indicando Transacción de Venta: SI/NO
+Muestra las **líneas de las Órdenes**, tanto Órdenes de Venta como Órdenes de Compra (indicando Transacción de Venta: SI/NO)
 
 Este informe **no** muestra las órdenes de inversión, honorarios, comisiones.
 
@@ -57,8 +55,6 @@ Se puede verificar que los importes definidos por este Reporte de “Listado de 
 Este informe muestra la totalidad de las Órdenes incluyendo las de inversión, honorarios, comisiones.
 
 ![Listado de Órdenes Completo](/assets/img/docs/sales-management/sam-report2.png)
-  
-Vistas:
 
 Diferentes Vistas: 
 
