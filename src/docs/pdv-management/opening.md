@@ -42,11 +42,11 @@ Se debe realizar una transferencia por moneda, cuando se necesite aperturar la c
 
 ### Consultar Egreso e Ingreso Generado de la Apertura de Punto de Venta
 
-Al buscar entre los registros de la ventana **Caja**, los valores ingresados en los campos **No. del Documento** y **Documento Destino**, de la ventana **Apertura de Punto de Venta**, se pueden visualizar dos (2) registros resultantes de la transferencia bancaria, entre ellos se encuentran.
+Al buscar entre los registros de la ventana **Caja**, los valores ingresados en los campos **No. del Documento** y **Documento Destino**, de la ventana **Apertura de Punto de Venta**, se pueden visualizar dos (2) registros resultantes de la transferencia bancaria, entre ellos se encuentran:
 
-El egreso generado en la cuenta **Caja Administrativa** como pago nacional, con toda la información suministrada en el proceso ejecutado en la ventana **Apertura de Punto de Venta**.
+* El egreso generado en la cuenta **Caja Administrativa** como pago nacional, con toda la información suministrada en el proceso ejecutado en la ventana **Apertura de Punto de Venta**.
 
-El ingreso generado en la cuenta **Caja 04** como cobro nacional, con toda la información suministrada en el proceso ejecutado en la ventana **Apertura de Punto de Venta**.
+* El ingreso generado en la cuenta **Caja 04** como cobro nacional, con toda la información suministrada en el proceso ejecutado en la ventana **Apertura de Punto de Venta**.
 
 ### Consultar Registros Creados en la Ventana Cierre de Caja
 
