@@ -8,25 +8,25 @@ article: false
 
 ### Unbilled General
 
-Este reporte mostrará todas las Entregas/Recepciones que tengan líneas que aún no cuenten con un Match invoice realizado vinculandolo con una Factura.
+Este reporte muestra todas las Entregas/Recepciones que tengan líneas que aún no cuenten con un Match invoice realizado, que lo vincule con una Factura.
 
 Se podrá obtener el mismo reporte tanto para Ventas como para Compras mediante el check de “Transacción de Ventas = SI/NO”
 
 Parámetros del Reporte:
 
-* Organización:
-* Fecha Estado de Cuenta: Se deberá definir Fecha Hasta que se desea obtener los documentos.
-* Socio del Negocio:
-* Grupo de Socio del Negocio:
-* Moneda:
-* Tio de Conversión: 
+* Organización
+* Fecha Estado de Cuenta: Se deberá definir Fecha Hasta la cual desea obtener los documentos.
+* Socio del Negocio
+* Grupo de Socio del Negocio
+* Moneda
+* Tipo de Conversión
 * Spot: Se deberá elegir “Spot” para realizar una comparación contable durante cualquier momento del mes. Las conversiones de Entregas o Recepciones en Moneda Extranjera se realizarán según la tasa de cambio del día de la transacción.
 * Period End: Se deberá utilizar este Tipo de Conversión para realizar una comparación al Cierre de Ejercicio. Este importe se deberá comparar con la Contabilidad luego de haber generado el Proceso de “Ajuste Diferencia de Cambio Entregas y Recepciones no Facturadas”.
 * Proyecto
 * Categoría Proyecto: Proyecto de Agencia, Proyecto de Medios, etc. Si se deja vacío tomará todos los Proyectos
 * Contrato de Servicios: Si se desea obtener el reporte sólo para un contrato.
 * Transacción de Ventas: (SI/NO) Según si el check está en Y o N se obtendrán transacciones de Ventas o Transacciones de Compras correspondientemente.
-* Costos Asociados:
+* Costos Asociados
 * Todas las Transacciones: Tomará todas las transacciones, con Costo Asociado y Sin Costo Asociado. Se deberá definir esta opción para verificar con la Contabilidad.
 * Con Costo Asociado: Si se define con “Costo Asociado = Y” se obtendrán las Ventas que tienen un Costo Asociado, por ejemplo para el caso de Medios y Producción.
 * Sin Costo Asociado: Si se desea obtener sólo entregas de Producción Interna se deberá elegir esta opción.
@@ -57,9 +57,9 @@ Muestra el total pendiente de facturar en moneda contable, agrupado por Proyecto
 
 Se utiliza para comparar con el IF 121 Monitor de Venta por Proyecto, ingresando su contrato,  columna Unbilled.
 
-**FIltros de OV que considera:**
+**FIltros de OV que considera**
 
-Estos son los tipos de doc que filtra, falta el doc de esas órdenes
+Estos son los tipos de documentos que filtra:
 
 * "Orden de Venta (Compra y Consumo)"
 * "OV Compra Consumo (Factura Medio-Cliente)"
@@ -72,7 +72,7 @@ Estos son los tipos de doc que filtra, falta el doc de esas órdenes
 
 ### Facturas Cliente sin Entrega
 
-Documentos Órdenes de Venta (Estado Completo o Cerrado) que ya tienen Factura emitida al Cliente (completa) pero que aún no se han Entregado al cliente (no tiene una entrega completa).
+Muestra Documentos Órdenes de Venta (Estado Completo o Cerrado) que ya tienen Factura emitida al Cliente (completa) pero que aún no se han Entregado al cliente (no tiene una entrega completa).
 
 Parámetros:
 
@@ -102,7 +102,7 @@ Columnas:
 
 ### Facturas Proveedor sin Entregar
 
-Funcionamiento igual a “Facturas Clientes sin Entregar”, utilizan la misma tabla molde para cargar la información.
+Funcionamiento idéntico a “Facturas Clientes sin Entregar”, pero aplicado para documentos de proveedor (Documentos ordenes de compra en estado completo/cerrado con factura proveedor emitida pero sin recepción)
 
 No se consideran en el reporte los tipos de documento de factura que tienen categoría de contabilidad “AP Invoice - Nota de Débito”.
 
@@ -120,7 +120,7 @@ Vistas:
 
 ### Trade Creditors
 
-Órdenes de Compra que tienen un Proyecto asociado de Categoría (Agencia Creativa), cuyo DxP aún está pendiente de Pago y tiene al menos una Recepción.
+Muestra Órdenes de Compra que tienen un Proyecto asociado de Categoría (Agencia Creativa), cuyo Documento por Pagar aún está pendiente de Pago y tiene al menos una Recepción.
 
 **Filtros:**
 
@@ -138,7 +138,7 @@ Vistas:
 
 ### Billing de Cliente por Producto
 
-Clasifica la facturación por Cliente desglosando lo facturado según Categoría de Producto y el Soporte.
+Este Listado clasifica la facturación por Cliente desglosando lo facturado según Categoría de Producto y el Soporte.
 
 Vistas:
 
@@ -150,6 +150,7 @@ Billings por Producto y Moneda
 
 ### Detalles de Facturas y Márgenes
 
+El informe refleja los detalles de las facturas de clientes y proveedores con márgenes.
 Muestra todas las facturas y sus líneas vinculadas con sus Órdenes.
 
 En este reporte se podrán obtener todas las facturas emitidas entre determinadas fechas.
@@ -166,11 +167,11 @@ Se podrá filtra por:
 
 ### Facturas Cobradas sin pagar a Proveedores
 
-Muestra los DXP vinculados a DXC que ya fueron cobrados. Muestra toda la información relacionada a esas transacciones.
+Muestra los Documentos por Pagar vinculados a Documentos por Cobrar que ya fueron cobrados. Muestra toda la información relacionada a esas transacciones.
 
 Descripción:
 
-Este reporte mira las OV cuyos DxC se encuentren en un recibo de cobro en estado completo (estén cobrados), y que los DxP completos, asociados a las OC enlazadas a dichas OV, aún no estén pagados (Pagado = N en el DxP).
+Este reporte visualiza las Órdenes de Venta cuyos Documentos por Cobrar se encuentren en un recibo de cobro en estado completo (estén cobrados), y que los Documentos por Pagar completos, asociados a las Órdenes de Compra enlazadas a dichas OV, aún no estén pagados (Pagado = N en el DxP).
 
 Parámetros:
 
@@ -206,7 +207,7 @@ Parámetros:
 
 ### Diario Compras y Ventas
 
-Muestra todos los DXP o DXC emitidos, mostrando de forma separada los importes fuentes, tasas de cambio del documento y los valores contables.
+Este informe muestra todos los Documentos por Pagar o Documentos por Cobrar emitidos, mostrando de forma separada los importes fuentes, tasas de cambio del documento y los valores contables.
 
 Vistas:
 
@@ -225,7 +226,7 @@ Parámetros:
 
 ### Reporte de Notas de Crédito Emitidas a Clientes
 
-Muestra las Notas de Crédito emitidas a clientes y su asignación.
+Este informe muestra las Notas de Crédito emitidas a clientes y su asignación.
 
 Parámetros:
 

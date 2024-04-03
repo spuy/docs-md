@@ -29,7 +29,7 @@ Vistas del Reporte de Ordenes:
 * Listado de Ordenes por Moneda Contrato y Soporte
 * Listado de Ordenes por Moneda y Proyecto
 
-El listado de Ordenes detalla todas las órdenes existentes en el sistema, tanto de Venta como de Compra detallando los siguientes importes:
+El listado de Ordenes detalla todas las órdenes existentes en el sistema, tanto de Venta como de Compra informando los siguientes importes:
 
 * Importe Ordenado
 * Importe Entregado
@@ -52,7 +52,7 @@ Se puede verificar que los importes definidos por este Reporte de “Listado de 
 
 ### Listado de Ordenes Completo
 
-Este informe muestra la totalidad de las Órdenes incluyendo las de inversión, honorarios, comisiones.
+Este informe muestra la totalidad de las Órdenes incluyendo las de inversión, honorarios, comisiones. También se muestran datos relacionados al reconocimiento de la orden, para los casos en que la línea tenga plan de reconocimiento.
 
 ![Listado de Órdenes Completo](/assets/img/docs/sales-management/sam-report2.png)
 
@@ -65,7 +65,7 @@ Diferentes Vistas: 
 
 ### Transacción de la Orden
 
-Reporte que presenta cabezales de las Órdenes de Compra o de Venta entre determinadas fechas.
+Reporte que presenta cabezales de las Órdenes de Compra o de Venta (seleccionando el check Transacción de venta SI/NO) entre determinadas fechas.
 
 Filtros: 
 
@@ -87,6 +87,6 @@ Parámetros:
 
 ### Órdenes no Entregadas
 
-Reporte de órdenes que no fueron Entregadas o que no fueron Facturadas.
+Reporte de órdenes que muestra aquellas que no fueron Entregadas o que no fueron Facturadas.
 
 ![Órdenes no Entregadas](/assets/img/docs/sales-management/sam-report4.png)
