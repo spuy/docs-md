@@ -14,7 +14,7 @@ Los Reportes Operativos muestran transacciones de documentos.
 
 ### Reporte Miembros de Familia
 
-Muestra los miembros que componen cada Familia
+Este informe muestra los miembros que componen cada Familia
 
 Parámetros:
 
@@ -28,7 +28,7 @@ Miembros de Familia por Organización y Familia
 
 ### Detalle de Líneas del Contrato
 
-Muestra las líneas que integran cada Contrato de Servicio
+Este reporte muestra las líneas que integran cada Contrato de Servicio
 
 Parámetros:
 
@@ -43,7 +43,7 @@ Parámetros:
 
 ### Listado de Ordenes de Compras y Ventas
 
-Muestra las líneas de las Órdenes, tanto Órdenes de Venta como Órdenes de Compra.
+Este informe muestra las líneas de las Órdenes, tanto Órdenes de Venta como Órdenes de Compra.
 Indicando Transacción de Venta: SI/NO
                    
 Vistas del Reporte de Ordenes:
@@ -65,7 +65,7 @@ El listado de Ordenes detalla todas las órdenes existentes en el sistema, tanto
 
 ### Transacción de la Orden
 
-Reporte que presenta cabezales de las Órdenes de Compra o de Venta entre determinadas fechas.
+El Reporte presenta cabezales de las Órdenes de Compra o de Venta entre determinadas fechas.
 
 Filtros: 
 
@@ -76,7 +76,7 @@ Filtros:
 
 ### Requisiciones Abiertas
 
-Reporte presenta un listado de Requisiciones en el sistema
+El Reporte presenta un listado de Requisiciones en el sistema
 
 Filtros:
 
@@ -86,11 +86,11 @@ Filtros:
 
 ### Reporte de Solicitudes de Cotización (sin respuesta)
 
-Muestra las líneas que de las solicitudes no respondidas
+El informe muestra las líneas de las solicitudes no respondidas
 
 ### Reporte de Solicitudes de Cotización (con respuesta)
 
-Muestra las líneas que de las solicitudes respondidas:
+Muestra las líneas de las solicitudes respondidas:
 
 * Proveedor
 * Producto
@@ -102,7 +102,7 @@ Muestra las líneas que de las solicitudes respondidas:
 
 ### Saldos Pendientes
 
-Muestra los documentos por cobrar y documentos por pagar abiertos de los Socios del Negocio y los Pago/Cobros y Recibos no asignados a una fecha determinada.
+Este informe muestra los documentos por cobrar y documentos por pagar abiertos de los Socios del Negocio y los Pago/Cobros y Recibos no asignados a una fecha determinada.
 
 Vistas:
 
@@ -110,9 +110,9 @@ Vistas:
 
 ### Saldos Abiertos a la Fecha
 
-Muestra los documentos por cobrar y documentos por pagar con saldos pendientes de los Socios del Negocio, a una fecha determinada.
+El informe muestra los documentos por cobrar y documentos por pagar con saldos pendientes de los Socios del Negocio, a una fecha determinada.
 No considera los Pago/Cobro sin asignar.
-No se emite por moneda de forma separada.
+No se emite discriminado por moneda.
 
 Parámetros:
 
@@ -128,7 +128,7 @@ Vistas:
 
 ### Estado de Cuenta Corriente
 
-Muestra todas las transacciones tanto de Ventas como de Compras de los Socios del Negocio, con sus respectivos pagos y cobros entre fechas (Marcando Ventas SI/NO).
+El informe muestra todas las transacciones tanto de Ventas como de Compras de los Socios del Negocio, con sus respectivos pagos y cobros entre fechas (Marcando Ventas SI/NO).
 
 Parámetros:
 
@@ -138,7 +138,7 @@ Parámetros:
 
 ### Diario de Compras y Ventas
 
-Muestra todos los documentos por cobrar y documentos por pagar emitidos, mostrando de forma separada el importe fuente, tasa de cambio del documento y los valores contables.
+El reporte muestra todos los documentos por cobrar y documentos por pagar emitidos, discriminando por importe fuente, tasa de cambio del documento y los valores contables.
 
 Vistas:
 
@@ -157,7 +157,7 @@ Parámetros:
 
 ### Antigüedad de Documentos 
 
-Muestra la antigüedad  de los documentos por cobrar y documentos por pagar que están pendientes de cancelación (Indicando Ventas SI/NO).
+El informe muestra la antigüedad  de los documentos por cobrar y documentos por pagar que están pendientes de cancelación (Indicando Ventas SI/NO).
 Los Documentos en Moneda Extranjera los muestra en la moneda esquema al TC de contabilización.
 
 Parámetros:
@@ -165,17 +165,17 @@ Parámetros:
 * Tipo de conversión: Puede seleccionar SPOT o Period End
 * Moneda: Puede seleccionar una moneda o todas las monedas
 * Transacción de Venta: Puede seleccionar SI para obtener los documentos de Venta o NO para obtener los documentos de compra
-* Grupo de Socio del Negocio:
-* Organización:
-* Socio del Negocio:
+* Grupo de Socio del Negocio
+* Organización
+* Socio del Negocio
 * Lista Fuentes: Para obtener detalle de los documentos
 
 ### Antigüedad de Documentos con Pagos Revaluados
 
-Muestra la antigüedad  de los documentos por cobrar y documentos por pagar que están pendientes de cancelación incluyendo los pagos sin asignar y la revaluación de los documentos.
+Este informe muestra la antigüedad  de los documentos por cobrar y documentos por pagar que están pendientes de cancelación incluyendo los pagos sin asignar y la revaluación de los documentos.
 
-Los Documentos en ME los muestra en la moneda esquema al TC de contabilización.
-Revalúa al Tipo de Conversión seleccionado al TC del día del reporte los saldos de los documentos por cobrar y documentos por pagar, y Pagos pendientes de asignar en ME.	
+Los Documentos en moneda extranjera los muestra en la moneda esquema al TC de contabilización.
+Revalúa al Tipo de Conversión seleccionado al Tipo de Cambio del día del reporte, los saldos de los documentos por cobrar y documentos por pagar, y Pagos pendientes de asignar en ME.	
 
 Parámetros:
 
@@ -196,7 +196,7 @@ Vistas:
 
 ### Reporte Orden de Pago
 
-Imprime la Selección de Pago realizada
+Este informe permite imprimir la Selección de Pago generada
 
 ### Pagos Generados por Selección de Pagos
 
