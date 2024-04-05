@@ -10,9 +10,9 @@ article: false
 
 ### Listado de Ordenes
 
-Muestra las **líneas de las Órdenes**, tanto Órdenes de Venta como Órdenes de Compra (indicando Transacción de Venta: SI/NO)
+Este informe muestra las **líneas de las Órdenes**, tanto Órdenes de Venta como Órdenes de Compra (indicando Transacción de Venta: SI/NO)
 
-Este informe **no** muestra las órdenes de inversión, honorarios, comisiones.
+Este listado **no** muestra las órdenes de inversión, honorarios, comisiones.
 
 Parámetros:
 
