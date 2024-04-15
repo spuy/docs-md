@@ -16,6 +16,26 @@ En este paso solo se genera el evento (no se asignan recursos o productos). Adem
 
 ![Orden de Trabajo](/assets/img/docs/field-services-management/fis-services2.png)
 
+#### Estados de la Orden de Trabajo
+
+La orden presentará diferentes estados de acuerdo a su condición o momento del proceso donde se encuentre:
+
+**New:** es el estado por defecto al crear nuevo proyecto.
+
+**Assigned:** cuando se asigna el agente comercial por primera vez.
+
+**Confirmed:** cuando se asigna el producto a la línea/s del proyecto.
+
+Este estado se asigna cuando todas las líneas del proyecto tienen asignado producto.
+
+**Documented:** cuando se han generado órdenes de venta.
+
+Al crearlo desde el proceso Generar Orden desde Proyecto, o desde el proceso de la propia orden de trabajo
+
+**Invoiced:** el proyecto ha sido facturado al cliente
+
+Este estado se debe asignar cuando se marque el check de 'Facturado' en un OV que tenga el proyecto.
+
 ### Asignación de Recursos
 
 Desde la ventana de Navegador de Proyectos es posible visualizar aquellas órdenes de trabajo que aun no posean agente de comercial (es quien realizará el servicio).
@@ -24,12 +44,12 @@ El agente comercial podrá aceptar el servicio a realizar. Y posteriormente a ha
 
 ![Navegador de Proyectos](/assets/img/docs/field-services-management/fis-services3.png)
 
-### Confirmación de Servicio realizado - Navegador de Líneas de Proyectos
+### Confirmación de Servicio realizado
 
 Una vez realizado el servicio (ejemplo: painting), el agente comercial enviará una notificación confirmando el trabajo realizado.
-Esto permite al departamento de Administración entrar en la orden de trabajo vinculada a ese servicio y agregar en la línea de orden de trabajo (creada en el primer paso) el/los productos confirmados por el agente comercial y dejar preparado el proyecto para la generación de órdenes y su posterior facturación.
+Esto permite al departamento de Administración entrar en la orden de trabajo vinculada a ese servicio y agregar en la línea (o líneas si es más de un trabajo realizado) de orden de trabajo (creada en el primer paso) el/los productos confirmados por el agente comercial y dejar preparado el proyecto para la generación de órdenes y su posterior facturación.
 
-Para agilizar este flujo es posible realizarlo desde el proceso "Navegador de líneas de proyectos", el cual, posee parámetros para filtrar las líneas de proyecto tales como Organización, Socio del Negocio, Agente Comercial, Fecha Inicio e Inicio Programado. Al tildar cada línea de proyecto permite seleccionar el producto (servicio), el cual se graba en la correspondiente orden de trabajo (definiendo el importe según Lista de Precio).
+Para agilizar este flujo es posible realizarlo desde el proceso "Navegador de proyectos" y utilizar el campo Notas para agregar los trabajos confirmados por el agente de compañia. Este dato quedará grabado en la orden de trabajo para posteriormente consultarla y agregar los trabajos realizados y confirmados en línea/s de la orden de trabajo.
 
 ![Línea de Proyecto](/assets/img/docs/field-services-management/fis-services4.png)
 
@@ -41,3 +61,24 @@ Una orden de trabajo ya confirmada y con su correspondiente línea de orden gene
 Para esto, desde el proceso de Generar orden desde proyecto se la selecciona y le crea en forma automática (heredando los datos de la orden de trabajo) una orden de venta en estado completo. Además. esta orden en estado completo genera una orden de compra y un documento por pagar (este último corresponde al servicio realizado por el agente comercial o recurso).
 
 ![Generar Orden desde Proyecto](/assets/img/docs/field-services-management/fis-services5.png)
+
+### Diferentes definiciones de Precio de Compra
+
+* Definición Simple
+
+En este caso el producto/servicio posee un precio fijo que se obtiene de una lista de precio (Compra).
+
+* Definición por Porcentaje de Costo
+
+En estos casos no se aplica el precio de lista de compra, sino que se utiliza un importe a partir de un porcentaje según el precio de venta definido (de la lista de precio venta que corresponda). Es decir, permite aplicar como precio de compra, un porcentaje (el cual es posible definir de antemano) del precio de venta.
+
+* Definición con Porcentaje de Dificultad
+
+Existe un criterio de "dificultad del servicio" donde es posible definir manualmente en cada orden de trabajo la ponderación de la dificultad del mismo. Este porcentaje aplica solamente a la definición del precio de compra de dicho servicio.
+
+El porcentaje se debe definir en la línea del proyecto. 
+Por defecto el valor es "1" (sigue siendo el % definido incialmente de costo), pero podría suceder que si el trabajo puntual presenta una mayor dificultad se agregue un "10 usd" más, es decir que se defina en la línea del proyecto un 1.1 y entonces se considera este importe en la multiplicación para definir el precio de compra.
+
+* Definición para Servicios realizados por empleados internos (sin costo directo)
+
+Pueden existir productos/servicios que no posean un costo asociado. En estos casos no se genera ninguna orden de compra al emitir facturas de este tipo de productos ya que serán realizados por personal de la empresa (no facturan por servicio realizado).
