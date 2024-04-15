@@ -38,27 +38,32 @@ Este estado se debe asignar cuando se marque el check de 'Facturado' en un OV qu
 
 ### Asignación de Recursos
 
-Desde la ventana de Navegador de Proyectos es posible visualizar aquellas órdenes de trabajo que aun no posean agente de comercial (es quien realizará el servicio).
-Una vez asignado a un agente comercial, el sistema le envía una notificación (solicitud) por el servicio a realizar al agente comercial en cuestión (es posible configurar el envío del mensaje por diferentes vehículos de comunicación). Además, esta acción cambiará el estado de la orden de trabajo de "Nuevo" a "Asignado".
-El agente comercial podrá aceptar el servicio a realizar. Y posteriormente a haberlo realizado, podrá enviar una confirmación del trabajo realizado (esto habilita los pasos posteriores para generar las órdenes y la facturación).
+Desde la ventana de Navegador de Proyectos es posible visualizar aquellas órdenes de trabajo que aun no posean agente de comercial (es quien realizará el servicio), seteando el parámetro Agente Compañía como filtro "No tiene valor".
+
+Una vez asignado a un agente comercial (se selecciona el que corresponda y se ejecuta desde el botón "Project Selection"), el sistema le envía una notificación (solicitud) por el servicio a realizar al agente comercial en cuestión (es posible configurar el envío del mensaje por diferentes vehículos de comunicación).
+
+Esta acción cambiará el estado de la orden de trabajo de "Nuevo" a "Asignado".
 
 ![Navegador de Proyectos](/assets/img/docs/field-services-management/fis-services3.png)
 
 ### Confirmación de Servicio realizado
 
-Una vez realizado el servicio (ejemplo: painting), el agente comercial enviará una notificación confirmando el trabajo realizado.
-Esto permite al departamento de Administración entrar en la orden de trabajo vinculada a ese servicio y agregar en la línea (o líneas si es más de un trabajo realizado) de orden de trabajo (creada en el primer paso) el/los productos confirmados por el agente comercial y dejar preparado el proyecto para la generación de órdenes y su posterior facturación.
+Una vez realizado el servicio (ejemplo: painting), el agente comercial confirma el trabajo realizado.
 
-Para agilizar este flujo es posible realizarlo desde el proceso "Navegador de proyectos" y utilizar el campo Notas para agregar los trabajos confirmados por el agente de compañia. Este dato quedará grabado en la orden de trabajo para posteriormente consultarla y agregar los trabajos realizados y confirmados en línea/s de la orden de trabajo.
+Esto permite al departamento de Administración buscar desde el navegador de proyectos (por agente comercial) e ingresar en el campo Trabajo realizado los trabajos a facturar y setear "Trabajo verificado" = SI. 
+
+Posteriormente en la orden de trabajo vinculada a ese servicio se agregará en la línea (o líneas si es más de un trabajo realizado) de orden de trabajo el/los productos confirmados por el agente comercial.
 
 ![Línea de Proyecto](/assets/img/docs/field-services-management/fis-services4.png)
 
-![Línea de Proyecto](/assets/img/docs/field-services-management/fis-services10.png)
-
 ### Generar Orden desde Proyecto
 
-Una orden de trabajo ya confirmada y con su correspondiente línea de orden generada con los productos vinculados al sericio realizado se encuentra en condiciones de facturar.
-Para esto, desde el proceso de Generar orden desde proyecto se la selecciona y le crea en forma automática (heredando los datos de la orden de trabajo) una orden de venta en estado completo. Además. esta orden en estado completo genera una orden de compra y un documento por pagar (este último corresponde al servicio realizado por el agente comercial o recurso).
+Es posible generar este proceso de dos formas
+
+* Desde el proceso de Generar orden desde proyecto se la selecciona y le crea en forma automática (heredando los datos de la orden de trabajo) una orden de venta en estado completo. 
+Esta orden en estado completo genera una orden de compra y un documento por pagar (este último corresponde al servicio realizado por el agente comercial o recurso).
+
+* Desde la misma orden de trabajo, se selecciona el proceso de generar orden.
 
 ![Generar Orden desde Proyecto](/assets/img/docs/field-services-management/fis-services5.png)
 
@@ -72,11 +77,13 @@ En este caso el producto/servicio posee un precio fijo que se obtiene de una lis
 
 En estos casos no se aplica el precio de lista de compra, sino que se utiliza un importe a partir de un porcentaje según el precio de venta definido (de la lista de precio venta que corresponda). Es decir, permite aplicar como precio de compra, un porcentaje (el cual es posible definir de antemano) del precio de venta.
 
+Este porcentaje se define en el campo esquema de descuento asociado en la ventana Socio del Negocio, pestaña proveedor, para definir los % de descuento para cada categoría de producto.
+
 * Definición con Porcentaje de Dificultad
 
 Existe un criterio de "dificultad del servicio" donde es posible definir manualmente en cada orden de trabajo la ponderación de la dificultad del mismo. Este porcentaje aplica solamente a la definición del precio de compra de dicho servicio.
 
-El porcentaje se debe definir en la línea del proyecto. 
+El porcentaje se debe definir en la línea del proyecto, campo "Multiplicador de dificultad". 
 Por defecto el valor es "1" (sigue siendo el % definido incialmente de costo), pero podría suceder que si el trabajo puntual presenta una mayor dificultad se agregue un "10 usd" más, es decir que se defina en la línea del proyecto un 1.1 y entonces se considera este importe en la multiplicación para definir el precio de compra.
 
 * Definición para Servicios realizados por empleados internos (sin costo directo)
