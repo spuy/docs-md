@@ -6,7 +6,7 @@ sticky: 9
 article: false
 ---
 
-### Generación de órdenes de trabajo
+## Generación de órdenes de trabajo
 
 Una orden de trabajo es considerado un Proyecto para Solop ERP.
 Se trata de una unidad de gestión que agrupa un conjunto de entidades que le dan forma y describen un determinado Servicio.
@@ -16,7 +16,7 @@ En este paso solo se genera el evento (no se asignan recursos o productos). Adem
 
 ![Orden de Trabajo](/assets/img/docs/field-services-management/fis-services2.png)
 
-#### Estados de la Orden de Trabajo
+### Estados de la Orden de Trabajo
 
 La orden presentará diferentes estados de acuerdo a su condición o momento del proceso donde se encuentre:
 
@@ -36,7 +36,7 @@ Al crearlo desde el proceso Generar Orden desde Proyecto, o desde el proceso de 
 
 Este estado se debe asignar cuando se marque el check de 'Facturado' en un OV que tenga el proyecto.
 
-### Asignación de Recursos
+## Asignación de Recursos
 
 Desde la ventana de Navegador de Proyectos es posible visualizar aquellas órdenes de trabajo que aun no posean agente de comercial (es quien realizará el servicio), seteando el parámetro Agente Compañía como filtro "No tiene valor".
 
@@ -46,7 +46,7 @@ Esta acción cambiará el estado de la orden de trabajo de "Nuevo" a "Asignado".
 
 ![Navegador de Proyectos](/assets/img/docs/field-services-management/fis-services3.png)
 
-### Confirmación de Servicio realizado
+## Confirmación de Servicio realizado
 
 Una vez realizado el servicio (ejemplo: painting), el agente comercial confirma el trabajo realizado.
 
@@ -56,7 +56,7 @@ Posteriormente en la orden de trabajo vinculada a ese servicio se agregará en l
 
 ![Línea de Proyecto](/assets/img/docs/field-services-management/fis-services4.png)
 
-### Generar Orden desde Proyecto
+## Generar Orden desde Proyecto
 
 Es posible generar este proceso de dos formas
 
@@ -67,25 +67,40 @@ Esta orden en estado completo genera una orden de compra y un documento por paga
 
 ![Generar Orden desde Proyecto](/assets/img/docs/field-services-management/fis-services5.png)
 
-### Diferentes definiciones de Precio de Compra
+## Diferentes definiciones de Precio de Compra
 
-* Definición Simple
+Solop ERP contempla diferente formas de calcular el precio de compra ajustándose a las necesidades del negocio y aplicando diferentes lógicas por Categoría de Producto, por dificultad del trabajo realizado, por lista de precios o por tareas ejecutadas por personal interno (sin valor de compra).
+
+### Definición Simple
 
 En este caso el producto/servicio posee un precio fijo que se obtiene de una lista de precio (Compra).
+Un mismo producto/servicio puede contar con una lista de precio, la cual puede presentar múltiples "versiones de lista de precio". 
 
-* Definición por Porcentaje de Costo
+En este sentido, existirá la lista de precio "Venta", la cual puede tener una versión de lista de precio por cada cliente. Y a su vez una lista de precio de compra (con precio único o con versiones de lista de precio por proveedor).
+
+### Definición por Porcentaje de Costo
 
 En estos casos no se aplica el precio de lista de compra, sino que se utiliza un importe a partir de un porcentaje según el precio de venta definido (de la lista de precio venta que corresponda). Es decir, permite aplicar como precio de compra, un porcentaje (el cual es posible definir de antemano) del precio de venta.
 
 Este porcentaje se define en el campo esquema de descuento asociado en la ventana Socio del Negocio, pestaña proveedor, para definir los % de descuento para cada categoría de producto.
 
-* Definición con Porcentaje de Dificultad
+Al momento de crearse la Orden de Compra, cuando el producto no tiene precio de compra o su precio es cero, se toma el precio de la línea de orden de venta, y se obtiene el porcentaje de descuento según el esquema del proveedor.
+
+En la línea de la Orden Compra creada es posible visualizar el porcentaje aplicado.
+
+### Definición con Porcentaje de Dificultad
 
 Existe un criterio de "dificultad del servicio" donde es posible definir manualmente en cada orden de trabajo la ponderación de la dificultad del mismo. Este porcentaje aplica solamente a la definición del precio de compra de dicho servicio.
 
 El porcentaje se debe definir en la línea del proyecto, campo "Multiplicador de dificultad". 
 Por defecto el valor es "1" (sigue siendo el % definido incialmente de costo), pero podría suceder que si el trabajo puntual presenta una mayor dificultad se agregue un "10 usd" más, es decir que se defina en la línea del proyecto un 1.1 y entonces se considera este importe en la multiplicación para definir el precio de compra.
 
-* Definición para Servicios realizados por empleados internos (sin costo directo)
+Al momento de crearse la Orden de Compra, si la línea de proyecto asociada a la línea de la Orden de Venta tiene definido una dificultad mayor a cero, entonces se multiplica el precio de lista de la orden de compra por el multiplicador de dificultad (ejemplo: 1.1).
 
-Pueden existir productos/servicios que no posean un costo asociado. En estos casos no se genera ninguna orden de compra al emitir facturas de este tipo de productos ya que serán realizados por personal de la empresa (no facturan por servicio realizado).
+De esta forma se obtiene el nuevo precio de lista, al cual luego se aplica el porcentaje de descuento, en caso que se obtenga desde el proveedor.
+
+### Definición para Servicios realizados por empleados internos (sin costo directo)
+
+Pueden existir productos/servicios que no posean un costo asociado. En estos casos no se genera ningún Documento por pagar al al generar órdenes de este tipo de productos ya que serán realizados por personal de la empresa (no facturan por servicio realizado).
+
+Al momento de aplicar el proceso de generar órdenes se crea normalmente la Orden de Venta (para su posterior facturación al cliente) y la orden de compra se genera en valor cero y estado "no válido".
