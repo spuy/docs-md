@@ -126,7 +126,7 @@ El asiento se neutraliza.
 
 ### Conciliación Bancaria
 
-*Una conciliación sube y se baja con el pago que tenga asignado. 
+* Una conciliación sube y se baja con el pago que tenga asignado. 
 
 Al navegar al pago deberíamos ver el movimiento de la cuenta que deja en 0 a la misma.
 
@@ -160,6 +160,11 @@ Este proceso es "Transferencia bancaria multimoneda".
 ### ¿En el proceso "Transferencia bancaria multimoneda" Qué número deberá definirse en nro. Documento destino?
 
 El nro. que debe definirse en este campo es el mismo que se defina en el campo anterior “nro Documento origen”. para mayor facilidad de encontrar el Pago y el Cobro que se generará se sugiere definir el mismo número tanto de origen como de destino.
+
+### Transferencia bancaria entre bancos propios con cobro "sin conciliar"
+
+Puede existir la posibilidad de que en la transferencia solo se realice la "Conciliación" del "PAGO", y que no deseen conciliar el "COBRO".
+Cuando se requiere "Contabilizar" el Cobro (de la transferencia) en una cuenta contable del "BANCO" y no una cuenta de Tránsito como lo es "CHEQUES EN TRANSITO" (cuenta puente) pero no lo quieren CONCILIAR -> entonces deben definir la cuenta contable del banco en el campo de "Pagos sin Conciliar" y ahi quedará correctamente contabilizado (en ventana Banco, pestaña Contabilidad).
 
 ## Reportes
 
