@@ -14,7 +14,7 @@ Este informe muestra las **líneas de las Órdenes**, tanto Órdenes de Venta co
 
 Este listado **no** muestra las órdenes de inversión, honorarios, comisiones.
 
-Parámetros:
+* Parámetros:
 
 ![Listado de Órdenes](/assets/img/docs/sales-management/sam-report1.png)
 
@@ -39,6 +39,16 @@ El listado de Ordenes detalla todas las órdenes existentes en el sistema, tanto
 * Importe Pendiente de Facturar
 * Importe Entregado No Facturado
 * Importe Facturado No Entregado
+
+* Detalle de Campos que integran el reporte
+
+|           Campo        |              Descripción                   |                            Ayuda                                 |  
+| ---------------------- | ------------------------------------------ | ---------------------------------------------------------------- |
+|        Estado          |       Estado actual del documento          |                  Indica el estado de un documento                |
+| Categoría del Producto |        Categoría de un Producto            |      Identifica la categoría a la que pertenece el producto      |
+|        Moneda          |      La moneda para este registro          | Moneda que se utiliza al procesar o informar sobre este registro |
+|        Precio          |         Precio basado en la UM             | El precio ingresado convierte a precio real por conversión de UM |
+|       Producto         |       Producto, Servicio, Artículo         |        Identifica un artículo que se compra o vende              |
 
 **Verificación Reporte con Contabilidad:**
 
