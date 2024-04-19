@@ -14,20 +14,20 @@ Este informe muestra las **líneas de las Órdenes**, tanto Órdenes de Venta co
 
 Este listado **no** muestra las órdenes de inversión, honorarios, comisiones.
 
-* Parámetros:
+#### Parámetros:
 
 ![Listado de Órdenes](/assets/img/docs/sales-management/sam-report1.png)
 
-Vistas del Reporte de Ordenes:
+#### Vistas del Reporte de Ordenes:
 
-* Listado de Ordenes de Compra por Nro de Orden
-* Listado de Ordenes de Compra por Tipo de Orden
-* Listado de Ordenes por Moneda y Contrato
-* Listado de Ordenes por Moneda Contrato y Proyecto
-* Listado de Ordenes por Contrato y Moneda
-* Listado de Ordenes por Moneda Contrato y Categoría
-* Listado de Ordenes por Moneda Contrato y Soporte
-* Listado de Ordenes por Moneda y Proyecto
+* Ordenes de Compra por Nro de Orden
+* Ordenes de Compra por Tipo de Orden
+* Ordenes por Moneda y Contrato
+* Ordenes por Moneda Contrato y Proyecto
+* Ordenes por Contrato y Moneda
+* Ordenes por Moneda Contrato y Categoría
+* Ordenes por Moneda Contrato y Soporte
+* Ordenes por Moneda y Proyecto
 
 El listado de Ordenes detalla todas las órdenes existentes en el sistema, tanto de Venta como de Compra informando los siguientes importes:
 
@@ -40,17 +40,24 @@ El listado de Ordenes detalla todas las órdenes existentes en el sistema, tanto
 * Importe Entregado No Facturado
 * Importe Facturado No Entregado
 
-* Detalle de Campos que integran el reporte
+#### Detalle de Columnas que integran el reporte
 
-|           Campo        |              Descripción                   |                            Ayuda                                 |  
+|         Columna        |              Descripción                   |                            Ayuda                                 |  
 | ---------------------- | ------------------------------------------ | ---------------------------------------------------------------- |
 |        Estado          |       Estado actual del documento          |                  Indica el estado de un documento                |
 | Categoría del Producto |        Categoría de un Producto            |      Identifica la categoría a la que pertenece el producto      |
 |        Moneda          |      La moneda para este registro          | Moneda que se utiliza al procesar o informar sobre este registro |
 |        Precio          |         Precio basado en la UM             | El precio ingresado convierte a precio real por conversión de UM |
 |       Producto         |       Producto, Servicio, Artículo         |        Identifica un artículo que se compra o vende              |
+|       Proyecto         |           Proyecto Financiero              | Permite rastrear y controlar actividades internas o externas     |
+|   Socio del Negocio    |      Identifica un Socio Comercial         | Persona con quien realiza transacciones. Cliente, proveedor, etc |
+|     Nro. Orden         |                Orden                       |                       Documento de control                       |
+|       F. Orden         |           Fecha de pedido                  |          Indica la fecha en que se ordenó un artículo            |
+|    Tipo de Orden       |          Tipo de documento destino         | Puede convertir tipos de documentos de oferta a pedido o factura |
+|       Proveedor        |             Socio Comercial                |                 Socio comercial que abastece                     |
+|      Total Neto        |   Monto de línea sin flete ni cargos       | Monto de línea según cantidad y precio (Cantidad * Precio actual)|
 
-**Verificación Reporte con Contabilidad:**
+#### Finalidad del reporte
 
 Se puede verificar que los importes definidos por este Reporte de “Listado de Órdenes” se pueda corresponder con los siguientes:
 
@@ -72,6 +79,8 @@ Diferentes Vistas: 
 * Listado de Ordenes Completo por Moneda, Contrato y Proyecto
 * Listado de Ordenes Completo por Moneda, Contrato y Socio del Negocio (Para Compras)
 * Listado de Ordenes Completo por Moneda, Contrato, Proyecto y Socio del Negocio (Para Compras)
+
+**Detalle de Columnas**: es muy similar al detalle de columnas del listado de órdenes (simple)
 
 ### Transacción de la Orden
 
@@ -100,3 +109,4 @@ Parámetros:
 Reporte de órdenes que muestra aquellas que no fueron Entregadas o que no fueron Facturadas.
 
 ![Órdenes no Entregadas](/assets/img/docs/sales-management/sam-report4.png)
+
