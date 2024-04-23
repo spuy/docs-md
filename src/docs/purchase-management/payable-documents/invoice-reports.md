@@ -8,7 +8,12 @@ article: false
 
 ### Unbilled General
 
-Este reporte muestra todas las Entregas/Recepciones que tengan líneas que aún no cuenten con un Match invoice realizado, que lo vincule con una Factura.
+* Nombre Reporte: Unbilled General
+* Descripción del Reporte: Entregas/Recepciones pendiente de facturar.
+* Ayuda del Reporte: Este reporte Entregas/Recepciones sin facturar.
+* Nombre en Menú: Unbilled General
+
+* Documentación: Este reporte muestra todas las Entregas/Recepciones que tengan líneas que aún no cuenten con un Match invoice realizado, que lo vincule con una Factura.
 
 Se podrá obtener el mismo reporte tanto para Ventas como para Compras mediante el check de “Transacción de Ventas = SI/NO”
 
@@ -72,7 +77,12 @@ Estos son los tipos de documentos que filtra:
 
 ### Facturas Cliente sin Entrega
 
-Muestra Documentos Órdenes de Venta (Estado Completo o Cerrado) que ya tienen Factura emitida al Cliente (completa) pero que aún no se han Entregado al cliente (no tiene una entrega completa).
+* Nombre Reporte: Facturas Cliente sin Entrega
+* Descripción del Reporte: Órdenes facturadas sin Entregar.
+* Ayuda del Reporte: Muestra Órdenes con factura y con entrega pendiente.
+* Nombre en Menú: Facturas Cliente sin Entrega
+
+* Documentación: Muestra Documentos Órdenes de Venta (Estado Completo o Cerrado) que ya tienen Factura emitida al Cliente (completa) pero que aún no se han Entregado al cliente (no tiene una entrega completa).
 
 Parámetros:
 
@@ -102,7 +112,12 @@ Columnas:
 
 ### Facturas Proveedor sin Entregar
 
-Funcionamiento idéntico a “Facturas Clientes sin Entregar”, pero aplicado para documentos de proveedor (Documentos ordenes de compra en estado completo/cerrado con factura proveedor emitida pero sin recepción)
+* Nombre Reporte: Facturas Proveedor sin Entrega
+* Descripción del Reporte: Órdenes facturadas sin Entregar.
+* Ayuda del Reporte: Muestra Órdenes con factura y con entrega pendiente.
+* Nombre en Menú: Facturas Proveedor sin Entrega
+
+* Documentación: Funcionamiento idéntico a “Facturas Clientes sin Entregar”, pero aplicado para documentos de proveedor (Documentos ordenes de compra en estado completo/cerrado con factura proveedor emitida pero sin recepción)
 
 No se consideran en el reporte los tipos de documento de factura que tienen categoría de contabilidad “AP Invoice - Nota de Débito”.
 
@@ -120,7 +135,12 @@ Vistas:
 
 ### Trade Creditors
 
-Muestra Órdenes de Compra que tienen un Proyecto asociado de Categoría (Agencia Creativa), cuyo Documento por Pagar aún está pendiente de Pago y tiene al menos una Recepción.
+* Nombre Reporte: Trade Creditors
+* Descripción del Reporte: Órdenes de compra con factura pendiente de pago.
+* Ayuda del Reporte: Muestra Órdenes con factura emitidas e impagas.
+* Nombre en Menú: Trade Creditors
+
+* Documentación: Muestra Órdenes de Compra que tienen un Proyecto asociado de Categoría (Agencia Creativa), cuyo Documento por Pagar aún está pendiente de Pago y tiene al menos una Recepción.
 
 **Filtros:**
 
@@ -138,7 +158,12 @@ Vistas:
 
 ### Billing de Cliente por Producto
 
-Este Listado clasifica la facturación por Cliente desglosando lo facturado según Categoría de Producto y el Soporte.
+* Nombre Reporte: Billing de Cliente por Producto
+* Descripción del Reporte: Facturación por Cliente desglosado por Categoria de producto.
+* Ayuda del Reporte: Muestra la facturación por cliente y desglosado por categoría de producto y soporte.
+* Nombre en Menú: Billing de Cliente por Producto
+
+* Documentación: Este Listado clasifica la facturación por Cliente desglosando lo facturado según Categoría de Producto y el Soporte.
 
 Vistas:
 
@@ -150,7 +175,12 @@ Billings por Producto y Moneda
 
 ### Detalles de Facturas y Márgenes
 
-El informe refleja los detalles de las facturas de clientes y proveedores con márgenes.
+* Nombre Reporte: Detalles de Facturas y Margen
+* Descripción del Reporte: Informe de detalles y márgenes de líneas de factura.
+* Ayuda del Reporte: Este informe muestra los detalles y márgenes por líneas de factura.
+* Nombre en Menú: Detalles de Facturas y Margen
+
+* Documentación: El informe refleja los detalles de las facturas de clientes y proveedores con márgenes.
 Muestra todas las facturas y sus líneas vinculadas con sus Órdenes.
 
 En este reporte se podrán obtener todas las facturas emitidas entre determinadas fechas.
@@ -167,11 +197,12 @@ Se podrá filtra por:
 
 ### Facturas Cobradas sin pagar a Proveedores
 
-Muestra los Documentos por Pagar vinculados a Documentos por Cobrar que ya fueron cobrados. Muestra toda la información relacionada a esas transacciones.
+* Nombre Reporte: Facturas Cobradas sin pagar a Proveedores
+* Descripción del Reporte: Facturas de Proveedor en relación a facturas de Cliente cobradas.
+* Ayuda del Reporte: Muestra los Documentos por Pagar vinculados a Documentos por Cobrar que ya fueron cobrados. Muestra toda la información relacionada a esas transacciones.
+* Nombre en Menú: Facturas Cobradas sin pagar a Proveedores
 
-Descripción:
-
-Este reporte visualiza las Órdenes de Venta cuyos Documentos por Cobrar se encuentren en un recibo de cobro en estado completo (estén cobrados), y que los Documentos por Pagar completos, asociados a las Órdenes de Compra enlazadas a dichas OV, aún no estén pagados (Pagado = N en el DxP).
+* Documentación: Este reporte visualiza las Órdenes de Venta cuyos Documentos por Cobrar se encuentren en un recibo de cobro en estado completo (cobrados), en relación a Documentos por Pagar completos, asociados a las Órdenes de Compra enlazadas a dichas Orden, que aún no estén pagados.
 
 Parámetros:
 
@@ -188,6 +219,11 @@ Parámetros:
 * Recibo de Cobro
 
 ### Facturas Cobradas a Cliente sin recibir Factura Proveedor
+
+* Nombre Reporte: Facturas Cobradas a Cliente sin recibir Factura Proveedor
+* Descripción del Reporte: Facturación por Cliente desglosado por Categoria de producto.
+* Ayuda del Reporte: Muestra los Documentos por Pagar vinculados a Documentos por Cobrar que ya fueron cobrados. Muestra toda la información relacionada a esas transacciones.
+* Nombre en Menú: Facturas Cobradas a Cliente sin recibir Factura Proveedor
 
 Este reporte mira los Documentos por Cobrar vinculados a las Órdenes de Venta que estén en un recibo de cobro Completo. A su vez, muestra registros si las respectivas Órdenes de Compra tienen líneas que no estén vinculadas a líneas de Documentos por Pagar. Si la Orden de Compra tiene todas sus líneas vinculadas a Documento por Cobrar, entonces no aparecerá en el reporte.
 
@@ -207,7 +243,12 @@ Parámetros:
 
 ### Diario Compras y Ventas
 
-Este informe muestra todos los Documentos por Pagar o Documentos por Cobrar emitidos, mostrando de forma separada los importes fuentes, tasas de cambio del documento y los valores contables.
+* Nombre Reporte: Diario Compras y Ventas
+* Descripción del Reporte: Diario de Compras y Ventas
+* Ayuda del Reporte: Este reporte muestra las facturas (ventas y compras) emitidas
+* Nombre en Menú: Diario Compras y Ventas
+
+* Documentación: Este informe muestra todos los Documentos por Pagar o Documentos por Cobrar emitidos, mostrando de forma separada los importes fuentes, tasas de cambio del documento y los valores contables.
 
 Vistas:
 
@@ -226,7 +267,12 @@ Parámetros:
 
 ### Reporte de Notas de Crédito Emitidas a Clientes
 
-Este informe muestra las Notas de Crédito emitidas a clientes y su asignación.
+* Nombre Reporte: Reporte de Notas de Crédito Emitidas a Clientes
+* Descripción del Reporte: Notas de Crédito  cliente y asignadas.
+* Ayuda del Reporte: Muestra Motas de crédito emitidas al cliente y con asignación.
+* Nombre en Menú: Reporte de Notas de Crédito Emitidas a Clientes
+
+* Documentación: Este informe muestra las Notas de Crédito emitidas a clientes y su asignación.
 
 Parámetros:
 
@@ -235,3 +281,87 @@ Parámetros:
 * Fecha: Desde Hasta
 * SDN
 * Grupo de SDN
+
+### Transacción de Facturas
+
+* Nombre Reporte: Transacción de Facturas
+* Descripción del Reporte: Informe de transacciones de facturas por fecha contable.
+* Ayuda del Reporte: Este informe muestra los cabezales de facturas por fecha contable.
+* Nombre en Menú: Transacción de Facturas
+
+### Resumen de Facturas
+
+* Nombre Reporte: Resumen de Facturas
+* Descripción del Reporte: Informe de facturas por fecha de factura..
+* Ayuda del Reporte: Este informe muestra los cabezales de facturas por fecha de factura.
+* Nombre en Menú: Resumen de Facturas
+
+### Facturación Diaria
+
+* Nombre Reporte: Facturación Diaria
+* Descripción del Reporte: Informe de factura por día.
+* Ayuda del Reporte: Este informe muestra totales de facturas por Socio de negocio y por día.
+* Nombre en Menú: Facturación Diaria
+
+### Facturación Semanal
+
+* Nombre Reporte: Facturación Semanal
+* Descripción del Reporte: Informe de facturas por semana..
+* Ayuda del Reporte: Este informe muestra un total de factura por Socio del negocio y por semana.
+* Nombre en Menú: Facturación Semanal
+
+### Facturación Semanal de Producto
+
+* Nombre Reporte: Facturación Semanal de producto
+* Descripción del Reporte: Informe de facturas semanal por categoría de producto
+* Ayuda del Reporte: Este informe muestra un total de facturas por semana y por categoría de producto
+* Nombre en Menú: Facturación Semanal de producto
+
+### Facturación Mensual
+
+* Nombre Reporte: Facturación Mensual
+* Descripción del Reporte: Informe de facturas por mes
+* Ayuda del Reporte: Este informe muestra los totales de facturas por mes y por Socio del Negocio
+* Nombre en Menú: Facturación Mensual
+
+### Facturación Mensual de Producto
+
+* Nombre Reporte: Facturación Mensual de Producto
+* Descripción del Reporte: Informe de facturas mensual por categoría de Producto
+* Ayuda del Reporte: Este informe muestra totales de facturas mensual por categoría de Producto
+* Nombre en Menú: Facturación Mensual de Producto
+
+### Facturación Mensual de Proveedor
+
+* Nombre Reporte: Facturación Mensual de Proveedor
+* Descripción del Reporte: Informe de facturas mensual por proveedor de producto
+* Ayuda del Reporte: Este informe muestra totales de facturas mensual por proveedor y categoría de producto.
+* Nombre en Menú: Facturación Mensual de Proveedor
+
+### Producto Facturado Mensualmente
+
+* Nombre Reporte: Producto Facturado Mensualmente
+* Descripción del Reporte: Informe de Factura por Producto por Més
+* Ayuda del Reporte: Este informe muestra la cantidad facturada mensualmente por producto.
+* Nombre en Menú: Producto Facturado Mensualmente
+
+### Facturación Trimestral a Clientes por Proveedor
+
+* Nombre Reporte: Facturación Trimestral a Clientes por Proveedor
+* Descripción del Reporte: Informe de Facturas por Proveedor y cliente de Productos por Trimestre.
+* Ayuda del Reporte: Este informe muestra totales de facturas por Proveedor y Cliente de productos por trimestre
+* Nombre en Menú: Facturación Trimestral a Clientes por Proveedor
+
+### Facturación Trimestral a Clientes por Producto
+
+* Nombre Reporte: Facturación Trimestral a Clientes por Producto
+* Descripción del Reporte: Informe de Facturas trimestral por cliente y categoría de producto
+* Ayuda del Reporte: Este informe muestra totales de facturas en forma trimestral por cliente y categoría de producto
+* Nombre en Menú: Facturación Trimestral a Clientes por Producto
+
+### Facturación Trimestral por Producto
+
+* Nombre Reporte: Facturación Trimestral por producto
+* Descripción del Reporte: Reporte de facturación de productos por trimestre
+* Ayuda del Reporte: Este informe muestra totales de facturas en forma trimestral por producto y por Socio del Negocio
+* Nombre en Menú: Facturación Trimestral por producto
