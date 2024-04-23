@@ -10,29 +10,13 @@ article: false
 
 ### Listado de Ordenes
 
-* Nombre Reporte: Listado de Órdenes
-* Descripción del Reporte: Detalle de líneas de órdenes
-* Ayuda del Reporte: Este informe muestra todas las líneas de órdenes (no incluyen las de inversión, honorarios y comisiones). También muestra datos relacionados al reconocimiento de la orden, para aquellas líneas que tengan plan de reconocimiento.
-* Nombre en Menú: Listado de Órdenes
-
-* Documentación: Este informe muestra las **líneas de las Órdenes**, tanto Órdenes de Venta como Órdenes de Compra (indicando Transacción de Venta: SI/NO)
-
-Este listado **no** muestra las órdenes de inversión, honorarios, comisiones.
-
-#### Parámetros:
-
-![Listado de Órdenes](/assets/img/docs/sales-management/sam-report1.png)
+Este informe muestra todas las líneas de órdenes tanto Órdenes de Venta como Órdenes de Compra (indicando Transacción de Venta: SI/NO).
 
 #### Vistas del Reporte de Ordenes:
 
-* Ordenes de Compra por Nro de Orden
 * Ordenes de Compra por Tipo de Orden
 * Ordenes por Moneda y Contrato
 * Ordenes por Moneda Contrato y Proyecto
-* Ordenes por Contrato y Moneda
-* Ordenes por Moneda Contrato y Categoría
-* Ordenes por Moneda Contrato y Soporte
-* Ordenes por Moneda y Proyecto
 
 El listado de Ordenes detalla todas las órdenes existentes en el sistema, tanto de Venta como de Compra informando los siguientes importes:
 
@@ -72,41 +56,9 @@ Se puede verificar que los importes definidos por este Reporte de “Listado de 
 
 **Pendiente de Entregar:** se corresponderá con la columna de “Compromiso” del Monitor de Compras o de Ventas respectivamente.
 
-### Listado de Ordenes Completo
-
-* Nombre Reporte: Listado de Órdenes Completo
-* Descripción del Reporte: Detalle de líneas de órdenes
-* Ayuda del Reporte: Este informe muestra todas las líneas de órdenes (incluyen las de inversión, honorarios y comisiones). También muestra datos relacionados al reconocimiento de la orden, para aquellas líneas que tengan plan de reconocimiento.
-* Nombre en Menú: Listado de Órdenes Completo
-
-* Documentación: Este informe muestra la totalidad de las Órdenes incluyendo las de inversión, honorarios, comisiones. También se muestran datos relacionados al reconocimiento de la orden, para los casos en que la línea tenga plan de reconocimiento.
-
-![Listado de Órdenes Completo](/assets/img/docs/sales-management/sam-report2.png)
-
-Diferentes Vistas: 
-
-* Listado de Ordenes Completo por Moneda y Contrato
-* Listado de Ordenes Completo por Moneda, Contrato y Proyecto
-* Listado de Ordenes Completo por Moneda, Contrato y Socio del Negocio (Para Compras)
-* Listado de Ordenes Completo por Moneda, Contrato, Proyecto y Socio del Negocio (Para Compras)
-
-**Detalle de Columnas**: es muy similar al detalle de columnas del listado de órdenes (simple)
-
 ### Transacción de la Orden
 
-* Nombre Reporte: Transacción de Órdenes
-* Descripción del Reporte: Informe de transacciones de las órdenes.
-* Ayuda del Reporte: Este informe muestra todos los cabezales de órdenes con su información y status.
-Nombre en Menú: Transacción de Órdenes
-
-* Documentación: Reporte que presenta cabezales de las Órdenes de Compra o de Venta (seleccionando el check Transacción de venta SI/NO) entre determinadas fechas.
-
-Filtros: 
-
-* Organización
-* Fecha de la Orden Desde-hasta
-* Tipo de Documento
-* Estado de la Orden
+Este reporte presenta cabezales de las Órdenes de Compra o de Venta (seleccionando el check Transacción de venta SI/NO) entre determinadas fechas y con su correspondiente información y status.
 
 Muestra los cabezales de las Órdenes, tanto de Ventas como de Compras.
 
@@ -114,10 +66,6 @@ Muestra los cabezales de las Órdenes, tanto de Ventas como de Compras.
 * Proyecto
 * Orden Enlazada
 * Importes Totales
-
-Parámetros:
-
-![Transacción de la Orden](/assets/img/docs/sales-management/sam-report3.png)
 
 #### Detalle de Columnas que integran el reporte
 
@@ -146,7 +94,4 @@ Parámetros:
 
 ### Órdenes no Entregadas
 
-Reporte de órdenes que muestra aquellas que no fueron Entregadas o que no fueron Facturadas.
-
-![Órdenes no Entregadas](/assets/img/docs/sales-management/sam-report4.png)
-
+Es un reporte de órdenes que muestra aquellas que no fueron Entregadas o que no fueron Facturadas.
