@@ -10,7 +10,12 @@ article: false
 
 ### Listado de Ordenes
 
-Este informe muestra las **líneas de las Órdenes**, tanto Órdenes de Venta como Órdenes de Compra (indicando Transacción de Venta: SI/NO)
+* Nombre Reporte: Listado de Órdenes
+* Descripción del Reporte: Detalle de líneas de órdenes
+* Ayuda del Reporte: Este informe muestra todas las líneas de órdenes (no incluyen las de inversión, honorarios y comisiones). También muestra datos relacionados al reconocimiento de la orden, para aquellas líneas que tengan plan de reconocimiento.
+* Nombre en Menú: Listado de Órdenes
+
+* Documentación: Este informe muestra las **líneas de las Órdenes**, tanto Órdenes de Venta como Órdenes de Compra (indicando Transacción de Venta: SI/NO)
 
 Este listado **no** muestra las órdenes de inversión, honorarios, comisiones.
 
@@ -69,7 +74,12 @@ Se puede verificar que los importes definidos por este Reporte de “Listado de 
 
 ### Listado de Ordenes Completo
 
-Este informe muestra la totalidad de las Órdenes incluyendo las de inversión, honorarios, comisiones. También se muestran datos relacionados al reconocimiento de la orden, para los casos en que la línea tenga plan de reconocimiento.
+* Nombre Reporte: Listado de Órdenes Completo
+* Descripción del Reporte: Detalle de líneas de órdenes
+* Ayuda del Reporte: Este informe muestra todas las líneas de órdenes (incluyen las de inversión, honorarios y comisiones). También muestra datos relacionados al reconocimiento de la orden, para aquellas líneas que tengan plan de reconocimiento.
+* Nombre en Menú: Listado de Órdenes Completo
+
+* Documentación: Este informe muestra la totalidad de las Órdenes incluyendo las de inversión, honorarios, comisiones. También se muestran datos relacionados al reconocimiento de la orden, para los casos en que la línea tenga plan de reconocimiento.
 
 ![Listado de Órdenes Completo](/assets/img/docs/sales-management/sam-report2.png)
 
@@ -84,7 +94,12 @@ Diferentes Vistas: 
 
 ### Transacción de la Orden
 
-Reporte que presenta cabezales de las Órdenes de Compra o de Venta (seleccionando el check Transacción de venta SI/NO) entre determinadas fechas.
+* Nombre Reporte: Transacción de Órdenes
+* Descripción del Reporte: Informe de transacciones de las órdenes.
+* Ayuda del Reporte: Este informe muestra todos los cabezales de órdenes con su información y status.
+Nombre en Menú: Transacción de Órdenes
+
+* Documentación: Reporte que presenta cabezales de las Órdenes de Compra o de Venta (seleccionando el check Transacción de venta SI/NO) entre determinadas fechas.
 
 Filtros: 
 
@@ -103,6 +118,31 @@ Muestra los cabezales de las Órdenes, tanto de Ventas como de Compras.
 Parámetros:
 
 ![Transacción de la Orden](/assets/img/docs/sales-management/sam-report3.png)
+
+#### Detalle de Columnas que integran el reporte
+
+|         Columna        |              Descripción                   |                            Ayuda                                 |  
+| ---------------------- | ------------------------------------------ | ---------------------------------------------------------------- |
+|    No del Documento    |    Número de secuencia del documento       | El N° lo genera en automático el sistema por tipo de documento   |
+|      Moneda Hacia      |            Moneda a convertir              |      Define la Moneda destino para esa tasa de conversión        |
+|         Tasa           |      Tasa de conversión de moneda          |  define la tasa para convertir moneda fuente a moneda contable   |
+|    Región de Venta     |       Región de cobertura de ventas        |         Indica un área de cobertura de ventas específica         |
+|  Cálculo de comisiones |       Cálculo o proceso de comisiones      |   identificador único define ejecución específica de comisiones  |
+|   Socio del Negocio    |      Identifica un Socio del Negocio       | Persona con quien realiza transacciones. Cliente, proveedor, etc |
+|       F. Orden         |           Fecha de la orden                |             Indica la fecha en que se ordenó un artículo         |
+|      Descripción       |  Descripción corta opcional del registro   |            Descripción limitada a 255 caracteres                 |
+|    Agente Comercial    |           Agente de la Compañía            |           Indica el agente comercial para esa región             |
+|        Almacén         |          Almacén y punto de servicio       |    Indica locación única donde los productos son almacenados     |
+|  Regla de Facturación  |    Frecuencia y métodos de facturación     |  Define forma y frecuencia de facturación a un socio del negocio |
+|      Proyecto          |          Proyecto Financiero               |          Permite realizar un seguimiento y control interno       |
+|   Lista de Precio      |     Identificador de Lista de Precio       | Determinan el precio, margen y costo de artículos (compra/venta) |	
+|        Moneda          |             Moneda del registro            | Indica moneda utilizada cuando se procesa o informa el registro  |
+|   Total de Líneas      |  Total de todas las líneas del documento   |  Despliega total de todas las líneas en la moneda del documento  |
+|      Gran Total        |           Total del Documento              | Identifica el total incluyendo impuestos en moneda del documento |
+|  Estado del Documento  |        Estado Actual del Documento         |     Indica el estado del documento en un momento determinado     |
+|   Tipo de Documento    |        Tipo de documento o reglas          |    Determina la secuencia del documento y reglas del proceso     |
+|    Fecha Contable      |  Fecha de contabilización del registro     |   Indica la fecha a utilizar en cuentas de contabilidad general  |
+
 
 ### Órdenes no Entregadas
 
