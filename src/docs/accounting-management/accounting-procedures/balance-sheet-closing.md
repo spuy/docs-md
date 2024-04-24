@@ -84,6 +84,16 @@ Monedas: moneda a considerar en revaluación
 Tipo de Conversión:  Tipo Conversión utilizada en el proceso
 Revalorización Tipo de Documento: GL   (General Ledger) donde genera el asiento de revaluación.
 
+### Descripción del Proceso
+
+El proceso de cambio de cuentas integrales analiza aquellas cuentas contables que estén definidos como "Moneda Extranjera=Y", considerando todos los movimientos que estén en moneda extranjera. Verifica que su saldo acumulado final sea realizado a la conversión correcta comparando con la Tasa de Cambio de la fecha definida (normalmente cierre de ejercicio). 
+
+Si dicha cuenta tiene un saldo en alguna moneda extranjera, aplicará un asiento de ajuste por el importe en UYU que falte para que los USD queden registrados con su correcta conversión.
+
+::: note
+Importante: El proceso de "Diferencia de Cambio Cuentas Integrales" no mira saldos totales de cuentas contables a la fecha, sino que mira exclusivamente el saldo en cada una de las correspondientes monedas fuente. Esto significa que si bien una cuenta pueda tener un saldo cero a final de ejercicio, luego que se corra el proceso de diferencia de cambio, se actualizarán los USD que no estén actualizados correctamente y le aplicará un asiento de ajuste por diferencia de cambio de cuenta integral (Monetaria).
+:::
+
 ### Comprobación del Proceso de Diferencia de Cambio de Cuentas Monetarias
 
 Compare el saldo  actual (en la moneda esquema) de las cuentas contables monetarias y el saldo que debería tener a la fecha de cierre del Período como producto de multiplicar los saldos en moneda extranjera por la Tasa de Cambio de cierre del Período.
