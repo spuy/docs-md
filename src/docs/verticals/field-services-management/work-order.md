@@ -46,6 +46,16 @@ Esta acción cambiará el estado de la orden de trabajo de "Nuevo" a "Asignado".
 
 ![Navegador de Proyectos](/assets/img/docs/field-services-management/fis-services3.png)
 
+### Requisitos para el envío automático de la notificación
+
+Existen dos condiciones para que aplique el envío de la solicitud:
+
+* El estado de la orden de trabajo debe ser la definida como "Predeterminada" (Estado: Nuevo)
+
+* Se realiza una validación para establecer si ha cambiado el valor "Agente Comercial".
+
+Al cumplirse estas condiciones el sistema genera el envío de la notificación, y modifica el Estado "Nuevo" por el siguiente estado de la Orden de Trabajo (Asignado).
+
 ## Confirmación de Servicio realizado
 
 Una vez realizado el servicio (ejemplo: painting), el agente comercial confirma el trabajo realizado.

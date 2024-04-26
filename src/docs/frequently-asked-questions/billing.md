@@ -121,6 +121,89 @@ Cuando las Notas de crédito se crean desde el Botón Crear desde en el cabezal 
 
 El problema surge cuando la Nota de crédito se crea manualmente, aquí hay que ajustar manualmente el campo Total asignado de la pestaña CFE Referidos en la Nota de crédito, ya que el importe asignado de la factura quedará como todo el disponible de la misma, siendo mayor al de la Nota de crédito.
 
+### ¿Cómo llegar a un recibo desde Documentos por cobrar?
+
+Para llegar a un recibo desde la ventana de Documentos por cobrar se debe ir a la pestaña “Facturas pagadas”, elegir la factura y dentro de la misma hacer click en “Asignación”. Esto nos abrirá la ventana “Consulta de asignación” donde en el campo “Descripción” nos dirá que Recibo de cobro la generó la misma.
+
+### ¿Cómo podemos ver el saldo pendiente de una factura?
+
+El saldo pendiente de un Documento por cobrar lo podemos ver desde la pestaña “Facturas pagadas”.
+
+### ¿Cómo puedo vincular una NC de valor parcial sobre factura a un Contrato de Servicio?
+
+ Es posible vincular la Nota de crédito parcial en el campo "Línea de Contrato" en pestaña de líneas de la Factura, en ventana Documentos por Cobrar. 
+ 
+ El campo filtra las líneas de contratos en estado COMPLETO (deben pertenecer a contratos cuyo socio del negocio a facturar sea el mismo socio del negocio de la factura en cuestión).
+
+De esta manera se puede elegir manualmente la línea de contrato requerida.
+
+El campo desplegará dos números por registro (por ejemplo: "0-590") en el campo de línea de contrato, lo que significa:
+
+0 = Nro de línea de contrato
+590 = Nro. de contrato
+
+### ¿Cómo puedo eliminar el automatismo que genera la asignación al aplicar NC desde el proceso de "Crear Desde" o "Copiar Líneas"?
+
+Existe un configurador del sistema para indicar si se debe crear o no la asignación automática al completarse una Nota de Crédito.
+
+El valor por defecto, en caso de no existir el configurador, es SI.
+En el caso de requerir cambiar esta esta función (no generar asignación automática), deben comunicarse con Soporte de Solop ERP para aplicar la definición deseada.
+
+### Como generar Asignación (Automática) de facturas a los pagos:
+
+El proceso permite asignar facturas a los pagos para un socio de negocio o grupo de socios de negocio.
+A este proceso se le agregó el check “Factura Asignada Totalmente”, mediante el cual se indica que una factura no puede quedar asignada parcialmente, sino que siempre se debe asignar por el total de su monto abierto. También se modificó para no considerar notas de crédito, solamente facturas.
+
+Cuando se marca el check “Asignación a las Primeras” llama a una función que permite asignar todo lo que se pueda, aunque el total de cobros sea distinto al de facturas, creando primero todas las líneas de asignación para los pago/cobro, y luego todas las líneas para las facturas. En este caso, si también se marcó el check “Factura Asignada Totalmente”, se controla e impide que la factura quede con saldo abierto.
+
+* Funcionamiento con ambos check = Y:
+
+El importe de cobros es mayor al importe de  facturas -> se genera asignación
+
+El importe de cobros es igual al importe de  facturas -> se genera asignación
+
+Hay N facturas y 1 cobro por el total de las facturas -> se genera asignación
+
+  
+En estos casos no quedarán saldos abiertos en las facturas, y para cualquier otro caso (diferentes combinaciones de facturas y cobros), si una factura llegara a quedar con saldo abierto, **el proceso no realizará la asignación y devolverá mensaje de error.**
+
+### como generar Asignación (Automática con Exclusión)
+
+Este proceso funciona igual al anterior, con la diferencia de que NO considera las facturas que tengan marcado el check “IsSelfService” (Auto Servicio).
+
+A los Informes de Gasto que se generan desde el proceso "Generar Servicio a Facturar" se les define el check de "IsSelfService" en Y por defecto.
+
+Las Facturas que se generan desde el Proceso "Generar Factura desde Cuota Contrato" consideran si el Informe de Gasto que se está facturando tiene el check "IsSelfService=Y", y en ese caso la factura se genera con el check en Y. 
+
+Si se agregan varios informes y al menos uno tiene el check “IsSelfService” en Y,  entonces se define el check en la factura.
+
+  
+Se utilizan los campos en pestaña "CFE Referidos" de "Total Abierto" y "Total Asignado". Estos campos, cuando las líneas en esta pestaña son generadas mediante un proceso, se cargan de la siguiente manera:
+  
+**Desde el botón "Crear Desde" (desde Factura) en cabezal de documento:** se setea el importe abierto de la factura y el importe total asignado, según el total de líneas agregadas a la nota de crédito.
+
+**Desde proceso "Crear Nota de Crédito desde Factura" (en el ícono del engranaje en cabezal de factura):** se setea el importe abierto de la factura y el importe total asignado, según el total de líneas agregadas a la nota de crédito.
+
+**Desde proceso "Generar Nota de Crédito desde Devolución":** se setea el importe abierto de la factura y el importe total asignado se toma del importe total del cabezal de RMA (Autorización de Devolución)
+
+Si se genera una línea manualmente en pestaña "CFE Referidos", también se carga el importe abierto, y el importe asignado con igual valor.
+
+Luego, al momento de completarse la Nota de Crédito, se genera la asignación automática creando una línea por la Nota de Crédito, y las N líneas por cada una de las facturas presentes en los CFE Referidos, por el importe asignado indicado en cada una.
+
+Al momento de ejecutarse este proceso, se verifica que cada una de las facturas siga teniendo un saldo abierto igual o mayor al indicado en la Nota de Crédito, y también que la moneda sea la misma de la Nota de Crédito, de lo contrario se retorna mensaje de error indicando el motivo.
+
+Al completarse la Nota de Crédito de Documento por Cobrar, se verifican las líneas de orden de los Documentos por Cobrar asignados en pestaña "CFE Referidos", y en caso de que ninguna línea tenga cantidad ordenada distinta a la facturada, se quita el check de "En Negociacion" del Documento por Cobrar.
+
+::: note
+EL SISTEMA NO REALIZA ASIGNACIONES POR LÍNEA SINO POR FACTURA, por lo que si los pagos no cancelan totalmente los Documentos por Cobrar no se deben asignar parcialmente.
+:::
+
+CONTROLES:
+
+* No se permite guardar una línea en CFE referidos, si hay una factura seleccionada y al menos uno de los campos de importe (total abierto o total asignado) es menor o igual a cero.
+
+* No se permite completar la NC si el monto total de facturas asignadas es mayor al importe de la NC. En el caso que sea menor, entonces la NC se asigna con el importe de las facturas asignadas, quedando un pendiente en la NC.
+
 ## Procesos
 
 ### Generar factura desde Línea de Orden
@@ -194,3 +277,16 @@ Los Tipo de Documento de CFE se asignan automáticamente según el tipo de Docum
 RUT: Tipo de documento e-factura
 
 Cédula: Tipo de documento e-ticket
+
+### ¿Por qué una factura puede aparecer duplicada en el reporte de Saldos Pendientes?
+
+Se debe ver si tiene varios esquemas de pagos incorrectos.
+
+El término de pago se define en la factura mismo, pero al completar la factura, según el término de pago definido, se crea (o NO) su correspondiente Esquema de Pagos.
+
+El problema es que el término de pago definido tiene ciertos esquemas, para definir cuotas, pero si este está mal definido, puede generar 2 líneas en esquema de pagos de manera incorrecta.
+
+### ¿Cuándo aparece una Nota de crédito en el reporte de saldos pendientes? 
+
+Aparece cuando tiene SALDO ABIERTO pendiente de asignar. Si está COMPLETAMENTE asignada entonces no aparecerá. Si NO ESTÁ completamente asignada entonces sí aparecerá.
+

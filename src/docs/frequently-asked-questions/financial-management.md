@@ -108,6 +108,10 @@ Este comportamiento es el deseado, debido a que de no realizarse de esta manera 
 
 Para poder sortear los controles de "Cuenta Controlada" en los asientos diarios en Lote se debe marcar en Y el check de Apertura/Cierre de Ejercicio. CUIDADO esto no se debe realizar sin verificación de un consultor.
 
+### ¿Se puede rechazar un cheque diferido de tercero como un cheque diferido propio?
+
+No es posible, pero no por ser de terceros sino por ser “diferido”. Para Rechazar un cheque hay que primero depositarlo, el cheque diferido en si no se deposita sino que se genera otro tipo de documento de “Depósito de cheque” que es quién se deposita (el Depósito actúa como un PAGO/COBRO y un Cheque Diferido actúa como una FACTURA). Para rechazar un Ch. Diferido habría que primero depositarlo y lo que se rechazaría sería el Depósito, no el cheque diferido.
+
 ## Procesos
 
 ### Débito automático de cheques diferidos por Pagar

@@ -89,3 +89,23 @@ Pendiente de OK para Facturar: órdenes que estén en Estado Completo o Cerrado 
 Ordenes Entregadas no Facturadas: líneas de orden sin cantidad disponible para entregar y con cantidad disponible para facturar, y que el tipo de documento de la orden tenga definido el campo "Tipo de documento para la factura".
 
 Ordenes Facturadas no Entregadas: líneas de orden con cantidad disponible para entregar y sin cantidad disponible para facturar.
+
+### ¿Qué función cumple el Proceso "Generar Orden desde Línea de Proyecto"?
+
+Muestra líneas de proyectos a partir de las cuales se crearán las líneas de órden de venta.
+
+#### Cómo se obtienen los siguientes datos de columnas desde la línea de proyecto:
+
+* Cantidad a Facturar: es la cantidad comiteada menos la cantidad facturada
+
+* Porcentaje Facturado: es el importe facturado multiplicado por 100, y dividido por el importe planeado (si el importe planeado es cero el % facturado será cero)
+
+* Porcentaje a Facturar: es el % de trabajo terminado menos el % facturado
+
+* Importe a Facturar: es la cantidad a facturar multiplicado por el precio planeado
+
+Al procesar se debe indicar la fecha de las OV a crear y el estado para las mismas.
+
+::: note
+El proceso generará una Orden de Venta por cada proyecto, en el estado y fecha seleccionados
+:::
