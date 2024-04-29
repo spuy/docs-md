@@ -207,6 +207,14 @@ La Orden de Venta de Honorarios se generará automáticamente desde el Cálculo 
 
 Por lo tanto al generarse la Orden de venta Honorarios esta no discrimina por cantidad de cuotas de la Orden de venta que lo generó.
 
+### En los casos de recibo canje, al generar recibo de pago nos solicita el sistema el recibo emitido por nostros, ¿qué número debemos ingresar?
+
+En el caso de recibo de canje, si no se ingresa el número del recibo de canje, entonces se obtiene desde la secuencia correspondiente del tipo de documento Recibo de Cobro (secuencia automática incremental)
+
+::: note
+ Este cambio aplica solamente a la ventana de "Recibo de Pago", en la ventana de "Recibo de Cobro" el número de recibo de canje seguirá siendo obligatorio su ingreso manual
+:::
+
 ## Procesos
 
 ### ¿Cómo se Actualizan los Cálculos de Comisiones?
@@ -236,3 +244,17 @@ Los Cálculos de comisiones se generan al completar una Orden de venta o al corr
 
 El permiso sobre ese check se controla por el Tipo de Documento. En este caso se debe crear para el tipo de documento utilizado uno tildando el check de "Factura directa a cliente" (tanto para tipo de documento de orden de venta como para orden de compra).
 Esto permitirá activar esa opción en las órdenes.
+
+### ¿Es posible Generar Cheque Diferido desde Selección de Pago Customizada?
+
+Si. Actualmente existe el proceso "Generar Cheque Diferido" que se ejecuta desde la ventana de selección de pago customizada.
+
+En este proceso se permite elegir solamente libretas de cheque que pertenezcan a la cuenta bancaria de la SDP.
+
+Para que el cheque se genere, debe existir una línea de "Pago Generado" que no esté Procesada y no tenga un Pago asignado, en caso contrario indicaría que:
+
+No hay línea de pago generado porque no hay cuenta bancaria definida en la SDP
+Hay línea de pago generada, pero previamente se ha generado un pago desde el proceso "Generar Pago/Cobro"
+Si el cheque se genera, se asigna el mismo a la línea de pago generado, en el nuevo campo "Cheque Diferido".
+
+La creación de recibo de pago desde SDP incorpora también los cheques diferidos que pueda contener la SDP seleccionada.
