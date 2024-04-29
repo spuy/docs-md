@@ -204,6 +204,11 @@ CONTROLES:
 
 * No se permite completar la NC si el monto total de facturas asignadas es mayor al importe de la NC. En el caso que sea menor, entonces la NC se asigna con el importe de las facturas asignadas, quedando un pendiente en la NC.
 
+### ¿Dónde puedo consultar la descripción de error CFE de una factura a cliente?
+
+Desde la ventana Respuestas CFE es posible realizar la búsqueda de un envío de CFE desde Solop ERP cuando se emite una POSOrder y la factura no se genera si emite un error (por CFE rechazado por parte de entidad fiscal).
+Para una búsqueda más eficiente, en la solapa búsqueda avanzada permite filtrar por columna "Número de Serie CFE" (número de factura) o bien por "Código Mensaje CFE" (por ejemplo: CFE rechazado es código 159).
+
 ## Procesos
 
 ### Generar factura desde Línea de Orden
@@ -290,3 +295,11 @@ El problema es que el término de pago definido tiene ciertos esquemas, para def
 
 Aparece cuando tiene SALDO ABIERTO pendiente de asignar. Si está COMPLETAMENTE asignada entonces no aparecerá. Si NO ESTÁ completamente asignada entonces sí aparecerá.
 
+### ¿Es posible definor el medio de pago en proceso "Importar Documentos CxC/CxP"?
+
+Si. Existe el campo "Regla de Pago" en el proceso "Importar Documentos CxC/CxP" y a los formatos de importación siguientes:
+
+* Carga Documentos por Pagar AR
+* Carga Documentos por Pagar COP
+
+De esta forma, la factura a crear tendrá la regla de pago que se indique en la planilla, y en su defecto tomará la del socio del negocio.

@@ -177,6 +177,17 @@ Los productos tienen un ID que los identifica dentro de la aplicación. Por lo c
 
 Por ejemplo si se utilizó este producto en algún Contrato o Factura pasada, el cambio de nombre afectará el nombre del producto definido en dichas facturas... entiendo que en cierta operativa podría afectar si existe alguna factura que aún se encuentra pendiente, entonces en un Estado de Cuenta que se envíe por Morosidad, se reflejará el nuevo Nombre y no el anterior.
 
+### Es posible modificar la Organización de un Socio del Negocio o Producto?
+
+Es posible realizar esta acción desde el proceso "Socio del Negocio de la Organización".
+
+El proceso permite cambiar y/o verificar la propiedad de la organización de la entidad Socios del Negocio.
+Es posible seleccionar cualquier grupo de Socios del Negocio o un Socio del Negocio especifico.
+
+:::note
+En el caso de seleccionar un grupo de socio del negocio, se actualizará la organización para todos los socios de negocios ligados a ese grupo
+:::
+
 ## Procesos
 
 ### BÚSQUEDA INTELIGENTE (SMARTBROWSER)

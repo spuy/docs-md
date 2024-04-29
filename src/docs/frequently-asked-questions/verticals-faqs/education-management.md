@@ -82,7 +82,7 @@ El precio se define desde la Lista de precios.
 
 * FECHAS DE CONTRATO: para poder crear Cuotas desde un Contrato se debe definir OBLIGATORIAMENTE la fecha inicio y fecha fin. Ya que el proceso generará las cuotas RECURRENTES entre estas fechas.
 
-### ¿Existe un proceso para anular conceptosa facturar?
+### ¿Existe un proceso para anular conceptos a facturar?
 
 Si, existen dos procesos para realizar la anulación dependiendo del tipo de concepto a facturar que se desee anular:
 
@@ -94,8 +94,39 @@ Anular conceptos no recurrentes: posee filtros de producto y fecha obligatorios 
 El check "Self-Service" se traduce como "No Recurrente"
 :::
 
+### ¿Es posible importar contrato manual de hermano en familia existente?
+
+En el proceso de importación de Contrato manual, al seleccionar una familia existente, todos los campos de los grupos de Contacto 1, 2 y 3 se visualizan como sólo lectura, y no se importa ningún dato de ellos, por lo cual el contrato nuevo creado tendrá como Responsable de Pago el mismo que la familia seleccionada.
+
+Si la familia no tiene un RP, entonces los datos de Socio del Negocio a facturar del contrato quedarán vacíos, debiendo completarse a mano luego de finalizar la importación.
+
+### ¿Como ingresar el número de Cédula del Contacto 2 del alumno (que no es responsable de pago)?
+
+Existe el campo de "Cédula" en grupo de "Contacto 2", para las ventanas de importación de contrato (manual y con planilla).
+
+La cédula ingresada para el Contacto 2 se guarda en el campo "Código" del usuario (usuario sin socio del negocio asociado).
+
+Esta cédula se muestra en el reporte de miembros de familia, en la misma columna "CI" ya existente, mediante la siguiente lógica en el reporte:
+
+* Si existe SDN, se toma el número de identificación del SDN
+* Si No existe SDN, se toma el código del usuario (cédula)
+
 ## Reportes
 
 ### ¿Cómo podemos visualizar fácilmente los nuevos contratos año a año para obtener del sistema cuantos nuevos alumnos tenemos?
 
 Para obtener esta información en el reporte "Detalle de Lineas de Contrato" existe (como filtro y columna) el campo "Fecha de Ingreso". El mismo corresponde a la menor fecha de inicio de todos los contratos del alumno, en cualquier estado que se encuentren los mismos.
+
+### ¿Dónde se puede visualizar un desglose de descuento por líneas de Contrato?
+
+En el reporte "Detalle de Líneas de Contratos". Se muestran tantas líneas como cantidad de descuentos haya en pestaña de "Descuentos de Líneas", y cualquiera sea el esquema de descuento.
+
+Para esto se cuenta con las siguientes columnas:
+
+* % Total Desc. en Líneas: es la sumatoria del porcentaje de descuento de las "líneas" del contrato
+
+* Esquema Descuentos: es el nombre del esquema definido en la línea de descuento
+
+* Descripción: es la descripción del esquema de descuento
+
+* % Descuento: es el porcentaje de descuento definido en la línea de descuento del contrato
