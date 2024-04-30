@@ -10,9 +10,11 @@ article: false
 
 ### Error: Período cerrado
 
-Para abrir un periodo se debe ir a la ventana Año Calendario y Periodo seleccionar el periodo que corresponda y luego en Control de periodo se podrán visualizar todos los documentos para los cuales ese periodo está abierto.
+Para abrir un periodo se debe ingresar en la ventana Año Calendario y Periodo, seleccionar el período que corresponda y luego, en Control de periodo se podrán visualizar todos los documentos para los cuales ese periodo está abierto.
 
-Observación: si un período se cierra “Permanentemente”, luego no se puede volver a abrir, ya que la SQL del update que realiza el sistema, filtra para no tomar en cuenta los registros con estado “P” (cerrado permanentemente). Lo que se debe hacer en ese caso, es actualizar los registros cambiando su estado a “C” (Cerrado).
+::: note
+Si un período se cierra “Permanentemente”, luego no se puede volver a abrir, ya que el control que realiza el sistema, filtra para no tomar en cuenta los registros con estado “P” (cerrado permanentemente). En ese caso se debe solicitar actualizar los registros cambiando su estado a “C” (Cerrado).
+:::
 
 ## Acciones
 
@@ -20,7 +22,7 @@ Observación: si un período se cierra “Permanentemente”, luego no se puede 
 
 Para gestionar diferentes cuentas contables definidas para un impuesto, como por ejemplo si es un Impuesto de GASTO o de VENTA, se debe marcar el check en la Tasa de Impuesto. 
 
-En un caso se reportó una cuenta que quedó sin número y fuera del árbol en Elemento Contable. El problema con esta cuenta se ve que fue mal creada. Al parecer al ser creada quedó sin tener definido el MENÚ. 
+En el caso que una cuenta quede sin número y por fuera del árbol en Elemento Contable. El problema con esta cuenta será que ha sido incorrectamente creada (qued sin tener definido el MENÚ). 
 Es una funcionalidad del sistema que lo necesita para que se pueda ver en el árbol. cuando pasa esto hay que verificar si tiene bien definido el Árbol en el elemento contable (Cuenta contable).
 
 ::: note
@@ -35,7 +37,7 @@ Ventana: Tasa de Cambio
 
 Se debe tener los valores de: Moneda desde y hacia, factor de conversión y rango de fecha de validez. Con esos valores se crea el registro en el caso de que se requiera.
 
-En un soporte ocurrió que falló la actualización automática de la tasa de cambio diaria. Por lo cual, quedaron días sin cotización y al iniciar el proceso de cierre de mes identificaron que había asientos con valor cero. Se debió generar la actualización de los tipos de cambio por los días faltantes y luego recontabiliizar los casos reportados.
+Puede ocurrir que falle la actualización automática de la tasa de cambio diaria. Por lo cual, quedan días sin cotización y al iniciar el proceso de cierre de mes identifican que existen asientos con valor cero. En este caso se debe generar la actualización de los tipos de cambio por los días faltantes y luego recontabiliizar los casos reportados.
 
 ### Creación de Moneda:
 
@@ -45,25 +47,29 @@ Ventana: Moneda
 
 Se crea la moneda, se puede dejar por defecto los valores de precisión. Si es una moneda nueva automáticamente queda activada.
 
-Explicar las diferentes ventanas de asientos Diario, Diario Contable, Asientos Contables etc
-
 ### Modificar Fecha Asiento Diario Simple:
 
 **Ventana:** Asiento Diario Simple
 
-En el campo F.Documento y Fecha Contable (fecha documento), se actualiza el campo F.Documento y luego se toca le boton “Contabilizado”.
+En el campo F.Documento y Fecha Contable (fecha documento), se actualiza el campo F.Documento y luego se toca el boton “Contabilizado”.
 
-A la derecha del campo, hay un boton de control, con el se cambia la fecha, al presionar el boton “Contabilizado” se abre la ventana “Informacion Contable” con dos subventanas llamadas “Entrar consulta” y “Ver resultado”. Estando parado en “Ver resultado”, presionar el boton “Re-Contabilizar”.
+A la derecha del campo, hay un boton de control, con el se cambia la fecha. Al presionar el boton “Contabilizado” se abre la ventana “Informacion Contable” con dos subventanas llamadas “Entrar consulta” y “Ver resultado”. Estando parado en “Ver resultado”, presionar el boton “Re-Contabilizar”.
 
 En los casos en los que el documento esta reversado, se debe actualizar por base de datos, con el comando (es solo un ejemplo, el ID del registro despues del signo de igual sera obviamente distinto, asi como la fecha que se quiera actualizar)
 
-TODO cambio de documentos que involucre cambio de fecha, requiere que luego del cambio se toque el boton de “Recontabilizar” dado que el cambio de fecha implica la ubicacion en el tiempo de movimientos contables y si no se reorganiza las cantidades, el resultado del analisis contable no sera correcto.
+TODO cambio de documentos que involucre cambio de fecha, requiere que luego del cambio se toque el boton de “Recontabilizar” dado que el cambio de fecha implica la ubicacion en el tiempo de movimientos contables y si no se reorganiza las cantidades, el resultado del analisis contable no será correcto.
 
+::: note
 El Período de la fecha que dicho asiento fue contabilizado debe estar ABIERTO para permitir re-contabilizar.
+:::
 
 ### ¿Cómo se puede sortear los controles de Cuenta Controlada en los asientos diarios?
 
-Para poder sortear los controles de "Cuenta Controlada" en los asientos diarios en Lote se debe marcar en Y el check de Apertura/Cierre de Ejercicio. CUIDADO esto no se debe realizar sin verificación de un consultor.
+Para poder sortear los controles de "Cuenta Controlada" en los asientos diarios en Lote se debe marcar en "Y" el check de Apertura/Cierre de Ejercicio. 
+
+::: warning
+CUIDADO esto no se debe realizar sin verificación de un consultor.
+:::
 
 ### ¿Cómo re contabilizar un asiento?
 
@@ -131,7 +137,7 @@ con cheques diferidos aparecerán en la parte inferior de la pantalla, junto con
 
 facturas, ya que éstos funcionan como una Nota de crédito.
 
-### ¿Dóonde recontabilizo en el caso que haya fallado la contabilización por no existir tasa de cambio del día?
+### ¿Dónde recontabilizo en el caso que haya fallado la contabilización por no existir tasa de cambio del día?
 
 Existen casos (no frecuentes) en los cuales la carga de la tasa automática falla por temas de comunicación u otros motivos. En estos casos hay documentos en estado completo que no se encuentren contabilizados debido a la falta de la tasa de cambio (operaciones en moneda extranjera).
 En estos casos la solución es ingresar en la ventana **Documentos sin Aplicar**, realizar la búsqueda del documento en cuestión por fecha y estado. Y desde allí realizar la recontabilización (botón azul debajo del campo Estado del documento).

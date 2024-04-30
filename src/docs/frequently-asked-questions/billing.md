@@ -17,6 +17,14 @@ Puede ser por 3 motivos:
 * Ver que Regla de facturación tiene la misma
 * Verificar en la línea de la Orden que no tenga Cantidades facturadas
 
+### Nota de crédito manual.
+
+Error: Monto total asignado de facturas no puede ser mayor al monto de la nota de crédito
+
+Cuando las Notas de crédito se crean desde el Botón Crear desde en el cabezal de la ventana se crean los registros en la pestaña CFE Referidos y quedarán las lineas de la factura con el monto asignado correcto.
+
+El problema surge cuando la Nota de crédito se crea manualmente, aquí hay que ajustar manualmente el campo Total asignado de la pestaña CFE Referidos en la Nota de crédito, ya que el importe asignado de la factura quedará como todo el disponible de la misma, siendo mayor al de la Nota de crédito.
+
 ## Acciones
 
 ### ¿Puedo modificar los importes de una factura si el proveedor no entrega exactamente lo solicitado?
@@ -112,14 +120,6 @@ Para luego cobrarle al cliente se genera una Nota de Débito al Cliente por este
 ::: note
 Estas Notas de Débito NO TIENEN IVA, son todas exentas, ya que el que descuenta el iva compras  es el Cliente.
 :::
-
-### Nota de crédito manual.
-
-Error: Monto total asignado de facturas no puede ser mayor al monto de la nota de crédito
-
-Cuando las Notas de crédito se crean desde el Botón Crear desde en el cabezal de la ventana se crean los registros en la pestaña CFE Referidos y quedarán las lineas de la factura con el monto asignado correcto.
-
-El problema surge cuando la Nota de crédito se crea manualmente, aquí hay que ajustar manualmente el campo Total asignado de la pestaña CFE Referidos en la Nota de crédito, ya que el importe asignado de la factura quedará como todo el disponible de la misma, siendo mayor al de la Nota de crédito.
 
 ### ¿Cómo llegar a un recibo desde Documentos por cobrar?
 

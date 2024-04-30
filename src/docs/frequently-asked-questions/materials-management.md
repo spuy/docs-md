@@ -6,7 +6,7 @@ sticky: 9
 article: false
 ---
 
-## Gestión de Materiales
+## Acciones
 
 ### Costos
 
@@ -14,7 +14,7 @@ Al crearse un producto, se crean los costos para el mismo cuando la categoría d
 
 Para que se permita completar una OC con RECEPCIÓN, se controla que todos los productos tengan un costo definido con la organización, Costo Estándar y todos los campos con importe (incluyendo el campo "Costo Precio Actual de Niveles Inferiores").
 
-## Gestión de Inventario
+### Gestión de Inventario
 
 ### Aviso de Falta de Inventario
 
@@ -58,6 +58,23 @@ Permite filtrar por los siguientes parámetros:
 
 ![Parámetros 2](/assets/img/docs/frequently-asked-questions/fra-asked-image2.png)
 
+### ¿Qué función cumplen los campos "Unidad de Duración" y "Duración" de la ventana Producto?
+
+Estos campos de Producto tienen como objetivo definir el tiempo de Mano de Obra que lleve su ejecución/creación (normalmente aplicable sobre un proyecto).
+
+Cuando el producto no tiene definida una lista de materiales (LDM), estos campos se pueden modificar manualmente.
+
+Cuando el producto tiene definida una LDM (check "Lista de Materiales" marcado), estos campos se muestran como sólo lectura y no se pueden modificar manualmente. En este caso se van a definir automáticamente, según la sumatoria de las duraciones de los productos que estén definidos en las lineas de la LDM.
+
+El sistema dispara las verificaciones para actualizar la duración de los productos que contengan al producto modificado en su LDM.
+
+Estas verificaciones se ejecutan cuando se realizan las acciones siguientes:
+
+* Se crea un producto o se modifica uno existente
+* Se crea o se borra una línea de la lista de materiales de un producto
+
+## Procesos
+
 ### ¿Qué función cumple el Proceso "Reabastecimiento desde Línea de Proyecto"?
 
 Visualiza líneas de proyecto y permite generar documentos de orden de compra o requisición, según la “Cantidad Planeada” indicada en la línea de proyecto.
@@ -94,21 +111,6 @@ Para ambas opciones del "Crear Desde", cuando se crea la salida de proyecto, se 
 * Cantidad Cometida: se actualiza con la cantidad de movimiento de la salida creada
 
 * Total Comprometido: se actualiza con el costo obtenido para la salida creada
-
-### ¿Qué función cumplen los campos "Unidad de Duración" y "Duración" de la ventana Producto?
-
-Estos campos de Producto tienen como objetivo definir el tiempo de Mano de Obra que lleve su ejecución/creación (normalmente aplicable sobre un proyecto).
-
-Cuando el producto no tiene definida una lista de materiales (LDM), estos campos se pueden modificar manualmente.
-
-Cuando el producto tiene definida una LDM (check "Lista de Materiales" marcado), estos campos se muestran como sólo lectura y no se pueden modificar manualmente. En este caso se van a definir automáticamente, según la sumatoria de las duraciones de los productos que estén definidos en las lineas de la LDM.
-
-El sistema dispara las verificaciones para actualizar la duración de los productos que contengan al producto modificado en su LDM.
-
-Estas verificaciones se ejecutan cuando se realizan las acciones siguientes:
-
-* Se crea un producto o se modifica uno existente
-* Se crea o se borra una línea de la lista de materiales de un producto
 
 ### ¿Cuál es la función del proceso "Agregar Productos a Fase de Proyecto" de ventana Proyectos?
 
