@@ -8,7 +8,7 @@ article: false
 
 ## Mantenimientos
 
-### ¿ Por qué se ven Facturas ya pagadas en el Estado de Cuenta Corriente y en Saldos pendientes?
+### ¿Por qué se ven Facturas ya pagadas en el Estado de Cuenta Corriente y en Saldos pendientes?
 
 En el estado de cuenta se ven las facturas Pagas porque muestra todos los documentos (facturas y pagos) sin filtrar si se encuentra o no pagada (no muestra los documentos con estado cerrado).
 No se muestran en el reporte Saldos Pendientes justamente porque este reporte muestra solo facturas con saldo abierto o pendiente.
@@ -30,7 +30,7 @@ Representa el saldo de todos los documentos de tiempo pasado, su saldo abierto.
 
 Si se emite el reporte desde la "fecha desde" pero hacia el pasado debería dar el mismo importe.
 
-### Cómo me doy cuenta si una Consulta de Asignación fue generada manualemente desde la Forma “Asignación de Pagos”?
+### Cómo me doy cuenta si una Consulta de Asignación fue generada manualmente desde la Forma “Asignación de Pagos”?
 
 Siempre muestra el nombre del Usuario en el campo “Descripción”
 
@@ -49,12 +49,14 @@ Otro tema es que el recibo multimoneda está hecho para generar un recibo de cob
 
 ### Reporte de saldos Pendientes y Reporte de Estado de Cuenta Corriente no da igual saldo (Caso 2)
 
-Pedimos un listado de saldos pendientes a la fecha 31/12/2018 (ejemplo) y lo estamos verificando con el estado de cuenta corriente de cada socio de negocio, debería de dar lo mismo, pero eso no ocurre, cual puede ser el motivo?
-
-**Respuesta:**
+Cuando no coinciden estos dos reportes deben realizarse los siguientes pasos de verificación:
 
 1. Verificación de Balance Cierre de Ejercicio
+
 2. Obtener el Balance Contable a fecha de Cierre de Ejercicio
+
 3. Obtener el Balance de Prueba con el Informe: “Mayor contable por Socio del Negocio”. Este reporte brindará el saldo clasificando según Socio del Negocio y Moneda para ver el detalle de las transacciones existentes. 
+
 4. Obtener el reporte de “Saldos Abiertos a la Fecha” definiendo la fecha del Cierre de Balance. Para validar los saldos así como también los ajustes realizados por Diferencia de Cambio se puede detener sobre un Socio de Negocio en particular para analizar en detalle sus transacciones y su saldo. Comparar los Documentos existentes en el reporte Saldos Abiertos con el Saldo Final de todas las transacciones del Mayor Contable correspondiente según Socio del Negocio.
+
 5. Tener Cuidado con los ajustes ya realizados sobre la Cuenta Contable para aplicar las Diferencias de Cambio Realizadas cuando las mismas hayan sido cobradas. En estos casos, las líneas de Ganancia/Pérdida por Diferencia de Cambio Realizada se realizan SIEMPRE con Moneda del Esquema Contable, de manera que no estarán clasificadas como con Moneda USD sino con UYU si su esquema contable está en UYU.

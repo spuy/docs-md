@@ -112,6 +112,112 @@ Para poder sortear los controles de "Cuenta Controlada" en los asientos diarios 
 
 No es posible, pero no por ser de terceros sino por ser “diferido”. Para Rechazar un cheque hay que primero depositarlo, el cheque diferido en si no se deposita sino que se genera otro tipo de documento de “Depósito de cheque” que es quién se deposita (el Depósito actúa como un PAGO/COBRO y un Cheque Diferido actúa como una FACTURA). Para rechazar un Ch. Diferido habría que primero depositarlo y lo que se rechazaría sería el Depósito, no el cheque diferido.
 
+### Recibo de Cobro
+
+Es un documento que una entidad (comercial/personal) emite indicando que cobró a un tercero por un bien o servicio.
+
+El recibo de cobro tiene un total monetario que está formado por la suma de los "Medios de Pago", este total nunca puede exceder el total del recibo de cobro (el total de los medios de pago puede ser menor o igual al recibo de cobro), estos medios de pago pueden ser:
+
+* Cheque diferido
+* Efectivo
+* Canje
+
+El recibo de cobro tiene documentos afectados o "Documentos Por Cobrar", la suma de esta relación puede ser igual o menor que el Recibo de Cobro pero nunca superior.
+
+**Es posible que esta misma Entidad a su vez deba pagar por un bien o servicio al mismo tercero al que le está cobrando, pero que, en vez de pagarlo en Cheque diferido o Efectivo, lo paga en "Canje"**
+
+En ese caso, por ejemplo, si la Entidad debe pagar 1000 y a su vez debe cobrar 300, generará un Recibo de pago cuyos Medios de Pago serán ya sea Efectivo o Chequeo por 700 y un documento en "Canje" por 300.
+
+Del lado de la otra Empresa (la que debía pagar 300 a la Entidad), la deuda quedaría saldada.
+
+Solop ERP tiene una funcionalidad en su menú de "Recibo de Cobro" o "Recibo de Pago", con una caja de verificación llamada "Transacción de Venta". Cuando el menú es "Recibo de Cobro" y está marcada la caja de verificación, el sistema mostrará la relación de los "Documentos Por Cobrar".
+
+Cuando el menú es "Recibo de Pago" y está marcada la caja de verificación, el sistema mostrará la relación de los "Documentos Por Cobrar", con lo cual, se habilitará la opción de pagar por medio de la generación de un documento en "Canje".
+
+Este documento debe relacionar los Documentos Por Cobrar que se canjearán por el/los Documentos Por Pagar. Y cuando se completa, genera de forma automática el "Recibo de Pago".
+
+Solop ERP tiene una funcionalidad en el Documento / Ventana de "Recibo de Cobro" o "Recibo de Pago" para incorporar al Recibo un Documento de CANJE. 
+
+Si estamos en un Recibo de Pago, el CANJE es realizado asignando un Documento por Cobrar desde la Asignación. Para ello se debe hacer click en el Botón de Asignar Facturas donde se abrirá la ventana para seleccionar los Documentos a Asignar. 
+
+Por defecto la misma mostrará Documentos por Pagar (Transacción de Ventas = N), se debe marcar el Check "Transacción de Venta" en Y para que la ventana muestre todos los Documentos por Cobrar que existen para dicho Socio Del Negocio.
+  
+Luego de seleccionar el mismo, al Completar el Recibo de Pago se generará un Recibo de COBRO por el importe de dicho CANJE. Este importe lo determinará la suma total de Documentos CANJEADOS (DxC asignados al Recibo de PAGO). 
+
+Por último, se deberá definir el NRO del Recibo de COBRO que será generado automáticamente. Este nro se debe definir en el campo “Nro. Recibo de Cobro”
+
+### Canje en Recibo de Cobro
+
+Para el caso de la funcionalidad en el Documento / Ventana de “Recibo de Pago” se entiende al revés, pero la lógica es la misma.
+
+### Como realizar recibo pago/cobro multimoneda
+
+Cuando se marca el check “Multimoneda” en un recibo, se habilitan los siguientes campos obligatorios:
+
+* **Segunda Moneda:** indica la segunda moneda a considerar para seleccionar las  facturas a asignar
+
+* **Tipo de Conversión:** indica el tipo de conversión a utilizar, si se elige SPOT o COMPANY se cargan dichas tasas en modo sólo lectura, se se elige DOCUMENTO, entonces el usuario debe ingresar la tasa a utilizar, que será válida solamente para el recibo en cuestión.
+
+* **Tasa:** indica la tasa a utilizar para convertir en las dos monedas del recibo
+
+No se permite realizar cambios en el cabezal del recibo, si el mismo ya tiene líneas y se está queriendo cambiar alguno de los siguientes campos:
+
+* Socio del negocio
+* Moneda
+* Número
+* Fecha
+* En Representación
+* Proyecto
+* Tipo de Documento
+* Es Anticipo
+* Multimoneda (check)
+* Tasa
+* Tipo de Conversión
+* Segunda Moneda
+
+Si el recibo es multimoneda y aún no tiene líneas, se vuelve a obtener y cargar la tasa de cambio cuando se modifica alguno de los siguientes campos:
+
+* Fecha
+* Moneda
+* Segunda Moneda
+* Tipo de Conversión
+* Multimoneda (check)
+
+En este caso, si es multimoneda y el tipo de conversión es SPOT o COMPANY, se obtiene y carga la tasa. Si no es multimoneda, entonces se setea vacía la segunda moneda.
+
+Luego de guardarse el cabezal de recibo, si se modificó alguno de los 4 campos de multimoneda, se borran las tasas de conversión creadas y, si el tipo de conversión seleccionado es DOCUMENTO, entonces se vuelven a generar (ventana de Tasa de Cambio).
+
+Luego, al momento de completarse el recibo multimoneda, si el mismo genera una asignación, en dicha asignación se le setea también los siguientes campos:
+
+* Multimoneda (check)
+* Tipo de Conversión
+* Tasa
+
+Estos datos son necesarios al momento de contabilizar la asignación de pagos, para obtener la tasa utilizada al momento de los cálculos para la pérdida/ganancia realizada.
+
+### Recibo de anualidad (Servicios)
+
+**Al crear un recibo de anualidad se debe marcar el check "anticipo"**
+
+**Cómo realizar** Redondeo en Recibo de Cobro (**Check Redondeo)**
+
+Si no se marca el check, el Asignado de Facturas y el Asignado de Pago debe ser IGUAL.
+
+### Situación: FACTURAS SUPERIOR AL COBRO - Signo POSITIVO
+
+ ¿Se puede hacer una asignación Parcial del Cobro y dejar el resto "Pendiente de Asignar"?
+
+1. **Check Redondeo = N** Asignación por importe de Facturas, menor al Cobro dejando saldo abierto del Cobro.
+
+2. **Check Redondeo = Y** Asignar el 100% del Cobro mandando el resto a un Cargo.
+
+### Situación: FACTURAS SUPERIOR AL COBRO - Signo POSITIVO
+
+  
+1. **Check Redondeo = N** Asignación Parcial: Para poder hacer una asignación Parcial de las Facturas se deberá seleccionar las mismas desde el proceso de Asignar Facturas por el importe que se desea asignar. No debería permitir asignar de más si no se marca el Redondeo en Y. CONTROL
+
+2. **Check Redondeo = Y** si se tiene un importe superior de las facturas al Cobro, se marca el check "redondeo" y se enviará dicha diferencia al Cargo Redondeo.
+
 ## Procesos
 
 ### Débito automático de cheques diferidos por Pagar
@@ -217,7 +323,7 @@ Los créditos se componen por :
 1. Los Cobros 
 2. Parte negativa de las Asignaciones.
 
-### ¿ Qué representan los Saldos iniciales que aparecen en los mayores?
+### ¿Qué representan los Saldos iniciales que aparecen en los mayores?
 
 Representan el Saldo acumulado dentro del ejercicio para el cual emito el Mayor, es decir, si solicito un Mayor para el período 01/04 - 30/04 figurará en éste un Saldo inicial que corresponderá al saldo acumulado del 01/01 al 31/03.
 

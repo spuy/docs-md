@@ -68,11 +68,11 @@ Si es POS, se puede validar el error directamente en InvoiCy, con el numero de F
 
 ### ¿Por qué motivo puede aparecer el siguiente error: “Error: CFE - Rechazado - 607 Ninguna CAE Autorizada encontrada”?
 
-El problema aquí es que NOexisten CAEs para las facturas o boletas.
+El problema aquí es que NO existen CAEs para las facturas o boletas.
 
 Esto lo debe solicitar el cliente a su estudio contable y subirlo a Invoicy.
 
-De lo contrario, si no los puede subir el cliente, lo pueden pasar al Soporte de Solop ERP y para subirlos.
+De lo contrario, si no los puede subir el cliente, lo pueden pasar al Soporte de Solop ERP para subirlos.
 
 ### ¿Por qué puede suceder el siguiente error: “ERROR: "CFE Error: Area Información de Referencia (3) - Error al parsear código de CFE" al completar una e-Nota de Crédito”?
 
@@ -100,11 +100,13 @@ En ambos casos se tiene que hacer la carga del nuevo CAE
 
 En caso de que se haya vencido, es muy probable que queden números de ese CAE sin utilizar, por lo que tienen que ser anulados para que se envíen en el reporte diario
   
-Y también cuando se vence, se tiene que adelantar la secuencia en Solop ERP para ese tipo de documento para que comience con la numeración del nuevo CAE que está mas adelante.
+Y también cuando se vence, se tiene que adelantar la secuencia en Solop ERP para ese tipo de documento para que comience con la numeración del nuevo CAE.
 
-En síntesis, el CAE se carga porque se termina la secuencia y sería transparente al cargarlo. O si se les vence el CAE, y cargan uno nuevo, la secuencia del cae viejo no la pueden seguir utilizando, porque pertenece al cae que se venció.
+En síntesis, el CAE se carga porque se termina la secuencia y sería transparente al cargarlo. O si se les vence el CAE, y cargan uno nuevo, la secuencia del cae viejo no la pueden seguir utilizando, porque pertenece al cae vencido.
 Entonces se deben realizar 2 acciones:
+
 * Adelantar la Secuencia Definitiva del documento que envían con ese CAE en ADempiere
+
 * Anular las secuencias del cae viejo en InvoiCy para los números no utilizados.
 
 ### Evaluar que hacer con el CAE si había un cae previo si se vence o termina
@@ -133,15 +135,17 @@ Si lo que se desea es generar una e-Factura entonces el Socio del Negocio debe t
 
 Si lo que se desea generar es un e-Ticket, entonces el documento puede ser generado a un Socio del Negocio generico (como mostrador) ya que no exige la identificacion del mismo, siempre y cuando no supere los 10000 UY.
 
-Otra causa posible es que, aunque exista un CAE vigente, se venció la secuencia anterior, quedando números sin usar. En ese caso se deben anular los números del CAE vencido.
-
 ### ¿Por qué los datos de una factura en el sistema (cabezal, lineas, totales) se ven bien, pero al imprimir, una sale con los datos de otra? (CFE impresión factura se cruza una con la otra)
 
-Sucede porque hay un error al procesar los documentos en InvoiCy. Se debe revisar en InvoiCy si los documentos ya se han ido para DGI (entrar en la consola, en inicio, y validar los datos de los CFE involucrados). Entonces lo que se debe hacer primero es dejar el ambiente de InvoiCy igual al de Solop ERP. Esto puede significar o no que se deba anular una factura en Solop ERP y volverla a hacer luego. Se debe validar los pasos a ejecutar y organizarlos.
+Sucede porque hay un error al procesar los documentos en InvoiCy. Se debe revisar en InvoiCy si los documentos ya se han ido para DGI (entrar en la consola, en inicio, y validar los datos de los CFE involucrados). 
+
+Entonces lo que se debe hacer primero es dejar el ambiente de InvoiCy igual al de Solop ERP. Esto puede significar o no que se deba anular una factura en Solop ERP y volverla a hacer luego. Se debe validar los pasos a ejecutar y organizarlos.
 
 Por ejemplo (las situaciones pueden ser varias):
 
-En Solop ERP Tenemos una factura con el Socio del Negocio A con un total X y otra factura al Socio del Negocio B con un total Y. Pero en InvoiCy aparecen dos facturas al Socio del Negocio B con el total Y. Como las facturas ya se fueron para DGI, lo primero que hay que hacer es replicar el ambiente de InvoiCy en DGI y luego realizar las acciones necesarias para normalizar la situación. En este caso:
+En Solop ERP Tenemos una factura con el Socio del Negocio A con un total X y otra factura al Socio del Negocio B con un total Y. 
+
+Pero en InvoiCy aparecen dos facturas al Socio del Negocio B con el total Y. Como las facturas ya se fueron para DGI, lo primero que hay que hacer es replicar el ambiente de InvoiCy en DGI y luego realizar las acciones necesarias para normalizar la situación. En este caso:
 
  1. En Solop ERP anular la factura que esta mal (Socio del Negocio A con total X)
  2. Crear una igual a la que esta en InvoiCy (Socio del Negocio B con total Y)
@@ -173,7 +177,7 @@ Es posible deshabilitar el envío automático. Deberán solicitarlo a Soporte So
 
 ### ¿Por qué motivo al ingresar un pago para una Factura (Documentos por Pagar) e ir a la opción de cheque no veo las opciones de Banco?
 
-Solo se puede pagar una Factura y ver las opciones de Banco cuando la factura esta en estado de “Completo”, si está en “Borrador” no dejará ver las opciones de pago. Debe completar la Factura.
+Solo se puede pagar una Factura y ver las opciones de Banco cuando la factura esta en estado “Completo”, si está en “Borrador” no dejará ver las opciones de pago. Debe completar la Factura.
 
 ### ¿Se pueden borrar facturas?
 
@@ -182,108 +186,6 @@ Las facturas una vez generadas no podrán borrarse por motivo de auditoría, lo 
 ::: note
 El sistema permite anular facturas que se encuentren en estado borrador.
 :::
-
-### Recibo de Cobro
-
-Es un documento que una entidad (comercial/personal) emite indicando que cobró a un tercero por un bien o servicio.
-
-El recibo de cobro tiene un total monetario que está formado por la suma de los "Medios de Pago", este total nunca puede exceder el total del recibo de cobro (el total de los medios de pago puede ser menor o igual al recibo de cobro), estos medios de pago pueden ser:
-
-* Cheque diferido
-* Efectivo
-* Canje
-
-El recibo de cobro tiene documentos afectados o "Documentos Por Cobrar", la suma de esta relación puede ser igual o menor que el Recibo de Cobro pero nunca superior.
-
-**Es posible que esta misma Entidad a su vez deba pagar por un bien o servicio al mismo tercero al que le está cobrando, pero que, en vez de pagarlo en Cheque diferido o Efectivo, lo paga en "Canje"**
-
-En ese caso, por ejemplo, si la Entidad debe pagar 1000 y a su vez debe cobrar 300, generará un Recibo de pago cuyos Medios de Pago serán ya sea Efectivo o Chequeo por 700 y un documento en "Canje" por 300.
-
-Del lado de la otra Empresa (la que debía pagar 300 a la Entidad), la deuda quedaría saldada.
-
-Solop ERP tiene una funcionalidad en su menú de "Recibo de Cobro" o "Recibo de Pago", con una caja de verificación llamada "Transacción de Venta". Cuando el menú es "Recibo de Cobro" y está marcada la caja de verificación, el sistema mostrará la relación de los "Documentos Por Cobrar".
-
-Cuando el menú es "Recibo de Pago" y está marcada la caja de verificación, el sistema mostrará la relación de los "Documentos Por Cobrar", con lo cual, se habilitará la opción de pagar por medio de la generación de un documento en "Canje".
-
-Este documento debe relacionar los Documentos Por Cobrar que se canjearán por el/los Documentos Por Pagar. Y cuando se completa, genera de forma automática el "Recibo de Pago".
-
-Solop ERP tiene una funcionalidad en el Documento / Ventana de "Recibo de Cobro" o "Recibo de Pago" para incorporar al Recibo un Documento de CANJE. 
-
-Si estamos en un Recibo de Pago, el CANJE es realizado asignando un Documento por Cobrar desde la Asignación. Para ello se debe hacer click en el Botón de Asignar Facturas donde se abrirá la ventana para seleccionar los Documentos a Asignar. Por defecto la misma mostrará Documentos por Pagar (Transacción de Ventas = N), se debe marcar el Check "Transacción de Venta" en Y para que la ventana muestre todos los Documentos por Cobrar que existen para dicho SDN.
-  
-Luego de seleccionar el mismo, al Completar el Recibo de Pago se generará un Recibo de COBRO por el importe de dicho CANJE. Este importe lo determinará la suma total de Documentos CANJEADOS (DxC asignados al Recibo de PAGO). 
-
-Por último, se deberá definir el NRO del Recibo de COBRO que será generado automáticamente. Este nro se debe definir en el campo “Nro. Recibo de Cobro”
-
-### Canje en Recibo de Cobro
-
-Para el caso de la funcionalidad en el Documento / Ventana de “Recibo de Pago” se entiende al revés, pero la lógica es la misma.
-
-### Como realizar recibo pago/cobro multimoneda
-
-Cuando se marca el check “Multimoneda” en un recibo, se habilitan los siguientes campos obligatorios:
-
-* **Segunda Moneda:** indica la segunda moneda a considerar para seleccionar las  facturas a asignar
-* **Tipo de Conversión:** indica el tipo de conversión a utilizar, si se elige SPOT o COMPANY se cargan dichas tasas en modo sólo lectura, se se elige DOCUMENTO, entonces el usuario debe ingresar la tasa a utilizar, que será válida solamente para el recibo en cuestión.
-* **Tasa:** indica la tasa a utilizar para convertir en las dos monedas del recibo
-
-No se permite realizar cambios en el cabezal del recibo, si el mismo ya tiene líneas y se está queriendo cambiar alguno de los siguientes campos:
-
-* Socio del negocio
-* Moneda
-* Número
-* Fecha
-* En Representación
-* Proyecto
-* Tipo de Documento
-* Es Anticipo
-* Multimoneda (check)
-* Tasa
-* Tipo de Conversión
-* Segunda Moneda
-
-Si el recibo es multimoneda y aún no tiene líneas, se vuelve a obtener y cargar la tasa de cambio cuando se modifica alguno de los siguientes campos:
-
-* Fecha
-* Moneda
-* Segunda Moneda
-* Tipo de Conversión
-* Multimoneda (check)
-
-En este caso, si es multimoneda y el tipo de conversión es SPOT o COMPANY, se obtiene y carga la tasa. Si no es multimoneda, entonces se setea vacía la segunda moneda.
-
-Luego de guardarse el cabezal de recibo, si se modificó alguno de los 4 campos de multimoneda, se borran las tasas de conversión creadas y, si el tipo de conversión seleccionado es DOCUMENTO, entonces se vuelven a generar (ventana de Tasa de Cambio).
-
-Luego, al momento de completarse el recibo multimoneda, si el mismo genera una asignación, en dicha asignación se le setea también los siguientes campos:
-
-* Multimoneda (check)
-* Tipo de Conversión
-* Tasa
-
-Estos datos son necesarios al momento de contabilizar la asignación de pagos, para obtener la tasa utilizada al momento de los cálculos para la pérdida/ganancia realizada.
-
-### Recibo de anualidad (Servicios)
-
-**Al crear un recibo de anualidad se debe marcar el check "anticipo"**
-
-**Cómo realizar** Redondeo en Recibo de Cobro (**Check Redondeo)**
-
-Si no se marca el check, el Asignado de Facturas y el Asignado de Pago debe ser IGUAL!!!
-
-Situación: COBRO SUPERIOR A FACTURAS - Signo Negativo
-
-Se puede hacer una asignación Parcial del Cobro? y dejar el resto "Pendiente de Asignar"?
-
-1. **Check Redondeo = N** Asignación por importe de Facturas, menor al Cobro dejando saldo abierto del Cobro.
-
-2. **Check Redondeo = Y** Asignar el 100% del Cobro mandando el resto a un Cargo.
-
-Situación: FACTURAS SUPERIOR AL COBRO - Signo POSITIVO
-
-  
-1. **Check Redondeo = N** Asignación Parcial: Para poder hacer una asignación Parcial de las Facturas se deberá seleccionar las mismas desde el SB de Asignar Facturas por el importe que se desea asignar. No debería permitir asignar de más si no se marca el Redondeo en Y. CONTROL
-
-2. **Check Redondeo = Y** si se tiene un importe superior de las facturas al Cobro, se marca el check "redondeo" y se enviará dicha diferencia al Cargo Redondeo.
 
 ### Configuración de Retenciones (cómo parametrizar retenciones DGI)
 
@@ -363,7 +265,7 @@ Este va a agrupar por retenciones, y evaluará:
 Existe el Smart Browser de “Generar Resguardos” donde se estarán mostrando todas las Retenciones generadas que aún no cuentan con un Resguardo generado.  
 Mediante este Proceso se podrá ver lo que está pendiente de generar resguardo, seleccionando las mismas y dando OK al proceso generará los Resguardos correspondientes. 
 
-**Retenciones generadas con fecha contable y no con fecha de documento**
+### Retenciones generadas con fecha contable y no con fecha de documento
 
 Las retenciones las debe generar con fecha contable del documento por pagar y no con fecha de documento como lo viene haciendo, si la genera con fecha de documento, quedan con error de contabilizacion, dado que el periodo esta cerrado.
 
