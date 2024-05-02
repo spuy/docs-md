@@ -116,14 +116,15 @@ El estado del Período debería indicar “Abierto”.
 
 ### Proceso de “Factura Pérdida/Ganancia Diferencia de Cambio No Realizada”
 
-En proceso “Factura Pérdida/Ganancia No Realizada”, si al ejecutarlo se obtiene error de que obtiene más de un registro para el mismo ID de asiento, esto se debe a que la factura tiene asociados más de un programa de pagos (pestaña de vencimientos).
+En proceso “Factura Pérdida/Ganancia No Realizada”, si al ejecutarlo se genera error de que obtiene más de un registro para el mismo ID de asiento, esto se debe a que la factura tiene asociados más de un programa de pagos (pestaña de vencimientos).
 
 ### Proceso Diferencia de Cambio Realizada
 
 Esta es la manera como se comporta el sistema:
 
-* Envía Cuentas de **GANANCIA** en los **Documentos por Cobrar** o **Recibos de COBRO** y envía a cuentas de **PERDIDA** en los **Documentos por Pagar** y **Recibo de Pago**
-* Envía a Cuentas De Impuestos DIFERENTES según sea el Documento por Cobrar o por Pagar (Factura cliente o Factura Proveedor) o si es según un Ajuste por Diferencia de Cambio (Asignación)
+* Envía Cuentas de **GANANCIA** en los **Documentos por Cobrar** o **Recibos de COBRO** y envía a cuentas de **PERDIDA** en los **Documentos por Pagar** y **Recibo de Pago**.
+
+* Envía a Cuentas De Impuestos DIFERENTES según sea el Documento por Cobrar o por Pagar (Factura cliente o Factura Proveedor) o si es según un Ajuste por Diferencia de Cambio (Asignación).
 
 ### Asignación entre Documentos por Pagar/Cobrar
 
@@ -131,24 +132,20 @@ Cuando se realiza una Asignación entre Factura y Nota de Crédito, el ajuste de
 
 ### Proceso “Asignación de pagos”
   
-En el proceso de "Asignación de pagos" los pagos sin asignar que se hayan hecho 
-
-con cheques diferidos aparecerán en la parte inferior de la pantalla, junto con las 
-
-facturas, ya que éstos funcionan como una Nota de crédito.
+En el proceso de "Asignación de pagos", los pagos sin asignar que se hayan hecho con cheques diferidos aparecerán en la parte inferior de la pantalla, junto con las facturas, ya que éstos funcionan como una Nota de crédito.
 
 ### ¿Dónde recontabilizo en el caso que haya fallado la contabilización por no existir tasa de cambio del día?
 
-Existen casos (no frecuentes) en los cuales la carga de la tasa automática falla por temas de comunicación u otros motivos. En estos casos hay documentos en estado completo que no se encuentren contabilizados debido a la falta de la tasa de cambio (operaciones en moneda extranjera).
+Existen casos (no frecuentes) en los cuales la carga de la tasa automática falla por temas de comunicación con el BCU u otros motivos. En estos casos hay documentos en estado completo que no se encuentren contabilizados debido a la falta de la tasa de cambio (operaciones en moneda extranjera).
 En estos casos la solución es ingresar en la ventana **Documentos sin Aplicar**, realizar la búsqueda del documento en cuestión por fecha y estado. Y desde allí realizar la recontabilización (botón azul debajo del campo Estado del documento).
 
 ### Proceso de Asignación
 
- El proceso de Asignación (automático) considera Notas de Crédito?
+* El proceso de Asignación (automático) considera Notas de Crédito?
 
 No, el proceso sólo generará asignaciones entre Facturas y Pagos
 
-El proceso de Asignación (automático) considera Documentos por Pagar contra Documentos por Cobrar?
+* El proceso de Asignación (automático) considera Documentos por Pagar contra Documentos por Cobrar?
 
 No, el proceso sólo considerará DxC con Cobros y DxP contra Pagos.
 
@@ -158,7 +155,7 @@ No, el proceso sólo considerará DxC con Cobros y DxP contra Pagos.
 
 El saldo inicial del Balance de Prueba sólo brinda el saldo que posee la cuenta en cuestión pero en el AÑO del período que se definió “Desde”. Si la cuenta trae más saldo del año anterior no se mostrará.
 
-**Mejora Pendiente:** Esta funcionalidad está OK si la empresa tiene como Cierre de Ejercicio el 31/12 y si realiza el Cierre y Apertura del Ejercicio. Pero si la empresa tiene como fecha de cierre de ejercicio en una fecha DIFERENTE al 31/12, este reporte presentará inconvenientes. 
+Esta funcionalidad presenta un comportamiento correcto si la empresa tiene como Cierre de Ejercicio el 31/12 y si realiza el Cierre y Apertura del Ejercicio. Pero si la empresa tiene como fecha de cierre de ejercicio en una fecha DIFERENTE al 31/12, este reporte presentará inconvenientes. 
 
 ::: note
 En este caso de se debería definir un Saldo Inicial según dicha Fecha (Diferente al 31/12). 

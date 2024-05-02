@@ -14,7 +14,7 @@ Puede ser por 3 motivos:
 
 * Que NO esté COMPLETA
 * Que no tenga el check de “Permite facturar”
-* Ver que Regla de facturación tiene la misma
+* Ver que Regla de facturación tiene la misma (debería ser "Inmediato")
 * Verificar en la línea de la Orden que no tenga Cantidades facturadas
 
 ### Nota de crédito manual.
@@ -54,9 +54,12 @@ selecciona el botón forma de pago “A credito”, una vez seleccionado, se des
 
 ### Solicitud de Nota de Crédito
 
-La Solicitud de Notas de Crédito por parte de los usuarios a ADministración se realiza en Solop ERP mediante la creación de una Solicitud de Devolución de Cliente. Administración recepciona todas las Autorización de Devolución de Cliente para definir cuáles corresponden y si se les debe generar una Nota de Crédito sobre las cantidades definidas.
+La Solicitud de Notas de Crédito por parte de los usuarios a ADministración se realiza en Solop ERP mediante la creación de una Solicitud de Devolución de Cliente. 
 
-Para ello hay que tener creado los Tipos de Documento de “Solicitud de Devolución” donde el Usuario definirá la “Entrega” que el Cliente solicita su NC. Dicho Documento debe tener el Tipo de Documento de Recepción así como también el Tipo de Documento de Facturación (en este caso Nota de Crédito).
+Administración recepciona todas las Autorización de Devolución de Cliente para definir cuáles corresponden y si se les debe generar una Nota de Crédito sobre las cantidades definidas.
+
+Para ello, deben estar creados los Tipos de Documento de “Solicitud de Devolución” donde el Usuario definirá la “Entrega” que el Cliente solicita su Nota de Crédito. 
+Dicho Documento debe tener el Tipo de Documento de Recepción así como también el Tipo de Documento de Facturación (en este caso Nota de Crédito).
 
 Luego desde la Ventana se realiza la Devolución correspondiente y desde la misma se puede generar la Nota de Crédito al Cliente en cuestión. 
 
@@ -69,7 +72,7 @@ Hay varios procesos de generar Notas de Crédito (Nota de Débito es otra cosa, 
 3. Proceso de Crear NC desde Devolución.
 
 ::: note
-Educación y Agencia utilizan el 1 generalmente.
+Educación y Agencia utilizan el primero generalmente.
 :::
 
 ### Nota de Crédito Cliente/Proveedor utilizando la opción de Copiar líneas
@@ -102,18 +105,17 @@ Este botón permitirá crear la Nota de crédito desde una Orden de venta, Factu
 
 Luego de ingresado el documento permitirá modificarse en la línea de la factura, las cantidades y los importes de la misma para luego proceder a completarla.
 
-Como asignar Nota de crédito a su factura de manera automática:
-
 ### Asignar una Nota de Crédito con su correspondiente Factura relacionada de manera automática
 
 * 1. Desde el proceso de copiar líneas o Crear Desde, además de definir las líneas se agrega dicho Documento por Pagar en la pestaña de "CFE Relacionado".
+
 * 2. Si un Documento por Pagar está definido en la pestaña de CFE relacionado se genera automáticamente la asignación (si es por el 100% del documento).
 
 ### Funcionalidad de la Nota de débito en el sistema
 
 Las notas de débito se hacen cuando una empresa ingresa o genera documentos pero que es sólo un traspaso de gasto. 
 
-Las Notas de Débito Proveedor que ingresa WPP son Facturas que el Proveedor le emite al CLIENTE, es decir pone el RUT del Cliente, pero la Organización las ingresa al sistema ya que ellos le pagan al proveedor.
+Las Notas de Débito Proveedor son Facturas que el Proveedor le emite al CLIENTE, es decir pone el RUT del Cliente, pero la Organización las ingresa al sistema ya que ellos le pagan al proveedor.
 
 Para luego cobrarle al cliente se genera una Nota de Débito al Cliente por este mismo importe.
 
@@ -152,7 +154,7 @@ En el caso de requerir cambiar esta esta función (no generar asignación autom�
 ### Como generar Asignación (Automática) de facturas a los pagos:
 
 El proceso permite asignar facturas a los pagos para un socio de negocio o grupo de socios de negocio.
-A este proceso se le agregó el check “Factura Asignada Totalmente”, mediante el cual se indica que una factura no puede quedar asignada parcialmente, sino que siempre se debe asignar por el total de su monto abierto. También se modificó para no considerar notas de crédito, solamente facturas.
+A este proceso se le agregó el check “Factura Asignada Totalmente”, mediante el cual se indica que una factura no puede quedar asignada parcialmente, sino que siempre se debe asignar por el total de su monto abierto. También realiza un control para no considerar notas de crédito, solamente facturas.
 
 Cuando se marca el check “Asignación a las Primeras” llama a una función que permite asignar todo lo que se pueda, aunque el total de cobros sea distinto al de facturas, creando primero todas las líneas de asignación para los pago/cobro, y luego todas las líneas para las facturas. En este caso, si también se marcó el check “Factura Asignada Totalmente”, se controla e impide que la factura quede con saldo abierto.
 
@@ -206,7 +208,7 @@ CONTROLES:
 
 ### ¿Dónde puedo consultar la descripción de error CFE de una factura a cliente?
 
-Desde la ventana Respuestas CFE es posible realizar la búsqueda de un envío de CFE desde Solop ERP cuando se emite una POSOrder y la factura no se genera si emite un error (por CFE rechazado por parte de entidad fiscal).
+Desde la ventana Respuestas CFE es posible realizar la búsqueda de un envío de CFE desde Solop ERP cuando se emite una POSOrder y la factura no se genera, se emite un error (por CFE rechazado por parte de entidad fiscal).
 Para una búsqueda más eficiente, en la solapa búsqueda avanzada permite filtrar por columna "Número de Serie CFE" (número de factura) o bien por "Código Mensaje CFE" (por ejemplo: CFE rechazado es código 159).
 
 ## Procesos
@@ -259,7 +261,10 @@ Cuando se selecciona el criterio de agrupación facturación “Contrato” para
 
 Este proceso tomará todos los Informes de Gastos (Conceptos a Facturar) que existan creados en los contratos y generará la factura al “SDN a Facturar” que ellos tengan definido.
 
-Importante: El proceso de Facturación, si bien en el Contrato se define un Precio de Lista, al generar la Factura el Precio de lista se define automáticamente directo desde la Versión de Lista de Precios vigente para la fecha y no la obtendrá desde la Línea del Contrato. Esto puede llevar a que si no se Actualiza correctamente los precios de las Líneas del Contrato (tanto Precio de Lista como Precio), si bien el precio si será definido según el definido en la línea y en la Cuota del Contrato (Informe de Gastos), no así el Precio de Lista, definiendo siempre el ACTUALIZADO. 
+Importante: El proceso de Facturación, si bien en el Contrato se define un Precio de Lista, al generar la Factura el Precio de lista se define automáticamente directo desde la Versión de Lista de Precios vigente para la fecha y no la obtendrá desde la Línea del Contrato. 
+
+Esto puede llevar a que si no se Actualiza correctamente los precios de las Líneas del Contrato (tanto Precio de Lista como Precio), si bien el precio si será definido según el seteado en la línea y en la Cuota del Contrato (Informe de Gastos), no así el Precio de Lista, definiendo siempre el ACTUALIZADO. 
+
 Esto puede llevar a que el % de Descuento REAL definido en la línea de La Factura quede desactualizado (ya que el Precio es el "con descuento" pero según un Precio de lista viejo, y el Precio de Lista que se defina en la factura será uno nuevo).
 
 ### ¿Existe algún control sobre las líneas de factura en el proceso de Importar Documentos CxC/CxP?
@@ -274,9 +279,8 @@ la obtención del cargo para el Socio del Negocio se realiza en el proceso "Impo
 
 ### Bandeja CFE 
 
-### Generar Factura desde Conceptos
+### ¿Cómo se define el Tipo de documento CFE al momento de generar las facturas?
 
-**¿Cómo se define el Tipo de documento CFE al momento de generar las facturas?**
 Los Tipo de Documento de CFE se asignan automáticamente según el tipo de Documento de cada Socio del Negocio:
 
 RUT: Tipo de documento e-factura
@@ -285,7 +289,7 @@ Cédula: Tipo de documento e-ticket
 
 ### ¿Por qué una factura puede aparecer duplicada en el reporte de Saldos Pendientes?
 
-Se debe ver si tiene varios esquemas de pagos incorrectos.
+Se debe verificar si tiene varios esquemas de pagos incorrectos.
 
 El término de pago se define en la factura mismo, pero al completar la factura, según el término de pago definido, se crea (o NO) su correspondiente Esquema de Pagos.
 
