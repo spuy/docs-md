@@ -49,6 +49,17 @@ Diferente es “Igualar la Cantidad Ordenada a la Cantidad Entregada”. 
 
 Al Cerrar la Orden de Venta / Compra se llevan las cantidades Ordenadas a la cantidad Entregada dejando NINGUNA Cantidad Pendiente de entregar. Esto es “Cerrar una Orden”. a su vez, se actualiza el importe de la orden según la nueva Cantidad definida. 
 
+### ¿Es posible cambiarle la organización a una orden de venta?
+
+No se puede reactivar y cambiar la organización de una orden de venta solo reactivando y cambiando la misma ya que existen "Cantidad Reservada Aplicada para dicha Organización".
+
+ Para poder modificar la orgnaización, y esto es algo que no está controlado, ya que no debería hacerse de esta manera, aunque podría realizarse siguiendo los siguientes pasos:
+
+1. Reactivar la Orden
+2. Quitar la cantidad ordenada y poner 0
+3. Complear la orden (de esta manera no habrá más ninguna Cantidad Reservada)
+4. Reactivar la orden y ahora si cambiar la organización y poner la línea con cantidad y el precio que deseen.
+
 ## Procesos
 
 ### ¿Cómo anular o cerrar masivamente órdenes de venta?
