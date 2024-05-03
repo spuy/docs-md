@@ -12,12 +12,15 @@ article: false
 
 ### Libretas/Resmas de Cheques Propios
 
-Cómo primer paso para emitir cheques manuales en libretas, se deberán crear las libretas/resmas en el sistema, así como las secuencias para las mismas en las ventanas “Libreta/Resma Cheques” y “Secuencia de Documentos Controlados”.
+Para emitir cheques manuales en libretas, se deben crear las libretas/resmas en el sistema, así como las secuencias para las mismas en las ventanas “Libreta/Resma Cheques” y “Secuencia de Documentos Controlados”.
 Se debe generar un nuevo registro en la ventana “Libreta/Resma Cheques”, completando el Nombre y la cuenta bancaria de la misma.
 
 1. Navegar en el campo “Numeración de Libreta”, abriendo la ventana Secuencia de Documentos Controlados.
+
 2. Aquí se debe ingresar el nombre, descripción opcional, número de inicio y fin de la libreta, y si fuera necesario un sufijo o prefijo para la numeración.
-3. Guardar el registro, mediante el botón “Generar Líneas”
+
+3. Guardar el registro, mediante el botón “Generar Líneas”.
+
 4. De regreso en la ventana de libreta/resma de cheques, se debe ingresar el nombre, nombre a ser impreso, cuenta bancaria y la secuencia del documento (definida anteriormente).
 
 En la pestaña “Cheques” se visualiza el estado de los mismos.
@@ -29,7 +32,7 @@ En el cabezal de la misma se deberá completar los siguientes campos:
 
 Libreta, Nro. Cheque, Fecha Emisión, Socio del Negocio, Dirección del Socio de Negocio.
 
-Luego, debe ingresar a la pestaña embebida y abrir una “Línea” accionando Nuevo, clickeando en la línea, se debe ingresar el importe del cheque (el Cargo aparecerá de manera predeterminada).
+Luego, debe ingresar a la siguiente pestaña y abrir una “Línea” accionando Nuevo, clickeando en la línea, se debe ingresar el importe del cheque (el Cargo aparecerá de manera predeterminada).
 
 ### Anular un cheque diferido por pagar
 
@@ -37,25 +40,24 @@ Para anular un cheque diferido por pagar el mismo NO debe estar en Estado de Che
 
 El estado del cheque se modifica cuando el mismo se "Entrega" en un Recibo de Pago.
 
-Para anular el cheque primero hay que anular el recibo y luego si permitirá anular el Cheque diferido por pagar.
+Para anular el cheque primero hay que anular el recibo. Esto permite anular el Cheque diferido por pagar.
 
 ### Depósito de un cheque diferido
 
-Para hacer un depósito de cheque diferido vamos a la ventana “Depósito de cheques” aplicamos los filtros que deseemos aplicar y realizamos la búsqueda “Smart browser”.
+Para hacer un depósito de cheque diferido, debe ingresarse en ventana “Depósito de cheques”. 
+Definimos los filtros que deseemos aplicar y realizamos la búsqueda “Smart browser”.
 
 Luego seleccionamos los cheques a depositar indicando la Cuenta bancaria destino y la Fecha de la transacción y hacemos click en la opción “OK”.
   
 ### Check Conciliado al Anular un Pago/Cobro
 
-Al anularse un depósito de cheque de tercero, al reversar el documento se consulta si para el payment hay una linea de conciliación con dicho payment, si no la hay entonces se le marca el check de conciliado a ambos documentos.
+Al anularse un depósito de cheque de tercero, al reversar el documento, se consulta si para el pago hay una linea de conciliación con dicho pago, si no existe entonces se marca el check de conciliado a ambos documentos.
 
 ### Rechazo de Cheque
 
 Para hacer un rechazo de un pago/cobro se debe utilizar el siguiente proceso:
 
 En el mismo se debe indicar el tipo de documento de rechazo y la fecha.
-
-En este caso se indicó que el nuevo cheque es el 1235, al momento de hacer el depósito.
 
 ### Cuándo se crea un Cheque Diferido por Cobrar ¿Qué BANCO se define? 
 
@@ -65,11 +67,11 @@ El banco que se define es el del “CHEQUE DIFERIDO” que el cliente nos está 
 
 Las cuentas bancarias son con Nro de cuenta y no es necesario al momento de crear un cheque diferido del cliente.
 
-Ahora cuando se deba depositar este cheque diferido si necesitaremos saber exactamente la cuenta bancaria NUESTRA donde se debe depositar.
+Ahora cuando se deba depositar este cheque diferido, necesitaremos saber exactamente la cuenta bancaria propia donde se debe depositar.
 
 ### ¿Cómo sé si una cuenta bancaria es propia o de un cliente?
 
-Todas las cuentas bancarias esas son propias.
+Todas las cuentas bancarias son propias.
 
 Las Cuentas bancarias del Cliente se definen en la ventana del SDN, pestaña Cuenta bancaria
 
@@ -87,14 +89,7 @@ Se debería definir el Socio del Negocio definido en cada Organización. Si no t
 
 Desde la conciliación: Para buscarlo hay que saber en qué Línea de la Conciliación está el Pago, luego ese nro. se puede ver en la descripción.
 
-Desde el Pago: si el pago está conciliado entonces se podría visualizar la la línea de Conciliación donde se encuentra conciliado en la pestaña “Bank Statement Line” en la ventana Pago/Cobro.
-
-no se puede reactivar y cambiar la organización de una orden de venta reactivando y cambiando la misma ya que existen "Cantidad Reservada Aplicada para dicha Organización" Para poder modificar la orgnaización, y esto es algo que no está controlado ya que no debería hacerse de esta manera, aunque podría siguiendo los siguientes pasos:
-
-1. Reactivar la Orden
-2. quitar la cantidad ordenada y poner 0
-3. Complear la orden (de esta manera no habrá más ninguna Cantidad Reservada)
-4. Reactivar la orden y ahora si cambiar la organización y poner la línea con cantidad y el precio que deseen.
+Desde el Pago: si el pago está conciliado entonces se podría visualizar la línea de Conciliación donde se encuentra conciliado en la pestaña “Bank Statement Line” en la ventana Pago/Cobro.
 
 ### ¿ Cuál es el comportamiento del sistema cuando anulo un cobro que se encuentra en una línea de conciliación?
 
@@ -106,7 +101,11 @@ Este comportamiento es el deseado, debido a que de no realizarse de esta manera 
 
 ### ¿Cómo se puede sortear los controles de Cuenta Controlada en los asientos diarios?
 
-Para poder sortear los controles de "Cuenta Controlada" en los asientos diarios en Lote se debe marcar en Y el check de Apertura/Cierre de Ejercicio. CUIDADO esto no se debe realizar sin verificación de un consultor.
+Para poder sortear los controles de "Cuenta Controlada" en los asientos diarios en Lote se debe marcar en Y el check de Apertura/Cierre de Ejercicio. 
+
+::: warning
+Esto no se debe realizar sin verificación de un consultor
+:::
 
 ### ¿Se puede rechazar un cheque diferido de tercero como un cheque diferido propio?
 
