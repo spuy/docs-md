@@ -17,6 +17,15 @@ Puede ser por 3 motivos:
 * Ver que Regla de facturación tiene la misma (debería ser "Inmediato")
 * Verificar en la línea de la Orden que no tenga Cantidades facturadas
 
+### ¿Por qué puede ser que al generar documento por cobrar manual no me muestre ningún producto?
+
+Es importante primero verificar que la lista de precios definida en el cabezal del documento por cobrar tenga vinculados productos.
+el problema podría ser que esa lista de precios no presente productos. 
+
+Si se navega de la lista de precio a la solapa precio de producto es posible confirmar si existen productos vinculados (en cada línea de producto verán el campo activo SI/NO pero esto solo define si el precio está activo, no el producto).
+Es posbible que los productos que estén asociados a esa lista de precio se encuentren como Activos = no (navegando al producto es posible confirmar esto).
+Y es por ese motivo que no los muestra al abrir la ventana de producto en la línea de factura.
+
 ### Nota de crédito manual.
 
 Error: Monto total asignado de facturas no puede ser mayor al monto de la nota de crédito
@@ -24,6 +33,28 @@ Error: Monto total asignado de facturas no puede ser mayor al monto de la nota d
 Cuando las Notas de crédito se crean desde el Botón Crear desde en el cabezal de la ventana se crean los registros en la pestaña CFE Referidos y quedarán las lineas de la factura con el monto asignado correcto.
 
 El problema surge cuando la Nota de crédito se crea manualmente, aquí hay que ajustar manualmente el campo Total asignado de la pestaña CFE Referidos en la Nota de crédito, ya que el importe asignado de la factura quedará como todo el disponible de la misma, siendo mayor al de la Nota de crédito.
+
+### ¿De qué manera se define la Forma de pago como Contado en un documento por cobrar?
+
+La definición de la Forma de Pago en el CFE se definirá según la Regla de Pago definida en el Documento por Cobrar en Solop.
+
+Entre las diferentes Reglas de pago disponibiles en Solop podremos separar por un lado la que serían de "Forma de Pago = Contado", que normalmente sólo se maneja una única regla de pago que es "Efectivo".
+
+Por otro lado tenemos todas las Reglas de Pago que tienen como Forma de Pago "Crédito" que serían todas las demás.
+
+El criterio que se maneja es que sólo será Contado una factura si junto al completarse la misma, se genere un cobro de manera automática por el importe del Documento en cuestión.
+
+En caso de que el Cobro no se genere automáticamente con la facturación, se entiende que serán siempre a crédito aunque su crédito sea con un plazo de vencimiento "inmediato".
+
+::: note
+Para poder generar una factura con Regla de Pago "Efectivo" será necesario crear una caja chica (en ventana Definición de Cajas) en la organización en cuestión.
+:::
+
+### En la representación física de la factura cliente está incorrecta la dirección de la empresa. ¿Dónde puedo cambiar ese dato?
+
+Este dato es posible definirlo/modificarlo en la ventana "Organización", solapa Información de la Organización, campo Localización/Dirección.
+
+
 
 ## Acciones
 

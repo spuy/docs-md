@@ -8,14 +8,50 @@ article: false
 
 ## Definición de Retenciones
 
-Cada vez que se completa un Documento por pagar (Factura Proveedor o Nota de Crédito Proveedor), automáticamente el sistema verifica si el Proveedor al que se ingresó la factura tiene alguna retención definida, (esto lo podemos ver en las ventanas “Definición de retenciones" o ventana “Socio del Negocio” pestaña "Retenciones".
+En la ventana Definición de Retenciones se parametrizan todas las retenciones de DGI, más las que necesite agregar customizada la empresa.
+
+Datos a configurar en el registro de retención (cabezal):
+
+* Código: El código establecido por DGI, enviado en el CFE
+* Nombre: Nombre de la retención
+* Tipo de Retención: Parametrización interna, por lo general se deberá seleccionar la única definida
+* WHAmtType: Monto imponible, si se aplica sobre el impuesto, total o subtotal
+* Porcentaje: Porcentaje a retener (0-100)
+* Monto máximo: a retener
+
+Mono registro:
+
+![Definición de Retenciones](/assets/img/docs/balance-management/bam-ret1.png)
+
+Multi registro:
+
+![Definición de Retenciones](/assets/img/docs/balance-management/bam-ret2.png)
+
+En la pestaña Documentos a Aplicar se indicarán los documentos en el cual se deben generar retenciones (ejemplo: Factura Proveedor).
+
+![Definición de Retenciones](/assets/img/docs/balance-management/bam-ret3.png)
+
+En la pestaña Proveedores se indicarán los Proveedores a los que se debe aplicar esta Retención. Estas retenciones también se pueden visualizar desde la ventana “Socio del Negocio” para cada uno de ellos, seleccionando la pestaña “Proveedor” y luego la pestaña “Retención”.
+
+![Definición de Retenciones](/assets/img/docs/balance-management/bam-ret4.png)
+
+Cada vez que se completa un Documento por pagar (Factura Proveedor o Nota de Crédito Proveedor), automáticamente el sistema verifica si el Proveedor al que se ingresó la factura tiene alguna retención definida.
+
+::: note
+Esto lo podemos ver en las ventanas “Definición de retenciones" o ventana “Socio del Negocio” pestaña "Retenciones".
+:::
+
 Si el proveedor tiene una retención definida y la factura cumple con la definición de la misma, una retención será generada automáticamente por el importe correspondiente al completar el Documento por pagar.
 Al completar el mismo también se completa de forma automática la retención.
 Para poder acceder a ella desde el Documento por Pagar podremos navegar desde los Documentos relacionados en la barra de herramientas.
 
+![Definición de Retenciones](/assets/img/docs/balance-management/bam-ret5.png)
+
+![Definición de Retenciones](/assets/img/docs/balance-management/bam-ret6.png)
+
 ## Resguardos
 
-Una vez con las retenciones generadas automáticamente a medida que se vayan generando los Documentos por Pagar, para generar los resguardos se deberá buscar aquellas Retenciones que aún no hayan sido generados sus correspondientes resguardos para generarlos.
+Una vez creadas las retenciones automáticamente a medida que se vayan generando los Documentos por Pagar, para realizar los resguardos se deberá buscar aquellas Retenciones que aún no hayan sido generados sus correspondientes resguardos para emitirlos.
 Para generar los resguardos podremos realizarlos mediante el proceso de Generar Resguardos Masivos. Realizaremos la búsqueda inteligente, la cual permite filtrar por:
 
 * Socio del Negocio (Proveedor)
@@ -24,6 +60,8 @@ Para generar los resguardos podremos realizarlos mediante el proceso de Generar 
 * Retención
 * Factura fuente
 * Tipo de retención
+
+![Definición de Retenciones](/assets/img/docs/balance-management/bam-ret7.png)
 
 Una vez seleccionemos todas aquellas retenciones sobre las cuales se desea generar un resguardo, procederemos a correr el proceso, el cual va a generar los documentos "Resguardo" requeridos a partir de los “Documentos Retención” Completos. 
 En este caso se selecciona Preparar el documento para completarlo posteriormente.
