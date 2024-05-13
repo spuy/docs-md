@@ -118,7 +118,7 @@ Muestra todas las facturas y sus líneas vinculadas con sus Órdenes.
 En este reporte se podrán obtener todas las facturas emitidas entre determinadas fechas.
 Podrán ser Documentos por cobrar o por pagar, dependiendo si se selecciona Transacción de Ventas SI o NO.
 
-![Detalles de Facturas y Margen](/assets/img/docs/purchase-management/payable-documents/pum-reports3.png)
+![Detalles de Facturas y Margen](/assets/img/docs/purchase-management/pum-reports3.png)
 
 ### Facturas Cobradas sin pagar a Proveedores
 
@@ -132,7 +132,7 @@ Este reporte mira los Documentos por Cobrar vinculados a las Órdenes de Venta q
 
 Este informe muestra todos los Documentos por Pagar o Documentos por Cobrar emitidos, mostrando de forma separada los importes fuentes, tasas de cambio del documento y los valores contables.
 
-![Diario Compras y Ventas](/assets/img/docs/purchase-management/payable-documents/pum-reports4.png)
+![Diario Compras y Ventas](/assets/img/docs/purchase-management/pum-reports4.png)
 
 Vistas:
 
@@ -148,70 +148,70 @@ Este informe muestra las Notas de Crédito emitidas a clientes con asignación.
 
 Este informe muestra los cabezales de facturas por fecha contable, incluyendo su información detallada y estado.
 
-![Diario Compras y Ventas](/assets/img/docs/purchase-management/payable-documents/pum-reports5.png)
+![Diario Compras y Ventas](/assets/img/docs/purchase-management/pum-reports5.png)
 
 ### Resumen de Facturas
 
 Este informe muestra los cabezales de facturas por fecha de factura, incluyendo su información detallada y estado.
 
-![Diario Compras y Ventas](/assets/img/docs/purchase-management/payable-documents/pum-reports6.png)
+![Diario Compras y Ventas](/assets/img/docs/purchase-management/pum-reports6.png)
 
 ### Facturación Diaria
 
 Este informe muestra totales de facturas por Socio de negocio y por día.
 
-![Diario Compras y Ventas](/assets/img/docs/purchase-management/payable-documents/pum-reports7.png)
+![Diario Compras y Ventas](/assets/img/docs/purchase-management/pum-reports7.png)
 
 ### Facturación Semanal
 
 Este informe muestra un total de factura por Socio del negocio y por semana.
 
-![Diario Compras y Ventas](/assets/img/docs/purchase-management/payable-documents/pum-reports8.png)
+![Diario Compras y Ventas](/assets/img/docs/purchase-management/pum-reports8.png)
 
 ### Facturación Semanal de Producto
 
 Este informe muestra un total de facturas por semana y por categoría de producto
 
-![Diario Compras y Ventas](/assets/img/docs/purchase-management/payable-documents/pum-reports9.png)
+![Diario Compras y Ventas](/assets/img/docs/purchase-management/pum-reports9.png)
 
 ### Facturación Mensual
 
 Este informe muestra los totales de facturas por mes y por Socio del Negocio
 
-![Diario Compras y Ventas](/assets/img/docs/purchase-management/payable-documents/pum-report10.png)
+![Diario Compras y Ventas](/assets/img/docs/purchase-management/pum-reports10.png)
 
 ### Facturación Mensual de Producto
 
 Este informe muestra totales de facturas mensual por categoría de Producto
 
-![Diario Compras y Ventas](/assets/img/docs/purchase-management/payable-documents/pum-report11.png)
+![Diario Compras y Ventas](/assets/img/docs/purchase-management/pum-reports11.png)
 
 ### Facturación Mensual de Proveedor
 
 Este informe muestra totales de facturas mensual por proveedor y categoría de producto.
 
-![Diario Compras y Ventas](/assets/img/docs/purchase-management/payable-documents/pum-report12.png)
+![Diario Compras y Ventas](/assets/img/docs/purchase-management/pum-reports12.png)
 
 ### Producto Facturado Mensualmente
 
 Este informe muestra la cantidad facturada mensualmente por producto.
 
-![Diario Compras y Ventas](/assets/img/docs/purchase-management/payable-documents/pum-report13.png)
+![Diario Compras y Ventas](/assets/img/docs/purchase-management/pum-reports13.png)
 
 ### Facturación Trimestral a Clientes por Proveedor
 
 Este informe muestra totales de facturas por Proveedor y Cliente de productos por trimestre
 
-![Diario Compras y Ventas](/assets/img/docs/purchase-management/payable-documents/pum-report14.png)
+![Diario Compras y Ventas](/assets/img/docs/purchase-management/pum-reports14.png)
 
 ### Facturación Trimestral a Clientes por Producto
 
  Este informe muestra totales de facturas en forma trimestral por cliente y categoría de producto
 
- ![Diario Compras y Ventas](/assets/img/docs/purchase-management/payable-documents/pum-report15.png)
+ ![Diario Compras y Ventas](/assets/img/docs/purchase-management/pum-reports15.png)
 
 ### Facturación Trimestral por Producto
 
 Este informe muestra totales de facturas en forma trimestral por producto y por Socio del Negocio
 
- ![Diario Compras y Ventas](/assets/img/docs/purchase-management/payable-documents/pum-report16.png)
+ ![Diario Compras y Ventas](/assets/img/docs/purchase-management/pum-reports16.png)
