@@ -6,11 +6,17 @@ sticky: 9
 article: false
 ---
 
-## Reportes de Órdenes
+## Reportes Comerciales (Órdenes)
+
+Los reportes de órdenes son listados que denominamos "Comerciales".
+Se utilizan para obtener una vista parametrizada (por fecha, por Socio del negocio, por estado, etc.) de los diferentes registros con su información detallada de entidades relacionadas, importes y estado.
+Cada reporte mantiene sus particularidades y sirven a distintas finalidades (de acuerdo a su nivel de detalle).
 
 ### Listado de Ordenes
 
 Este informe muestra todas las líneas de órdenes tanto Órdenes de Venta como Órdenes de Compra (indicando Transacción de Venta: SI/NO).
+
+![Listado de Órdenes](/assets/img/docs/purchase-management/pum-reports1.png)
 
 #### Vistas del Reporte de Ordenes:
 
@@ -56,9 +62,11 @@ Se puede verificar que los importes definidos por este Reporte de “Listado de 
 
 **Pendiente de Entregar:** se corresponderá con la columna de “Compromiso” del Monitor de Compras o de Ventas respectivamente.
 
-### Transacción de la Orden
+### Transacción de Orden
 
 Este reporte presenta cabezales de las Órdenes de Compra o de Venta (seleccionando el check Transacción de venta SI/NO) entre determinadas fechas y con su correspondiente información y status.
+
+![Transacción de Orden](/assets/img/docs/purchase-management/pum-reports2.png)
 
 Muestra los cabezales de las Órdenes, tanto de Ventas como de Compras.
 
