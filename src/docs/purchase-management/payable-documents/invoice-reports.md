@@ -120,6 +120,23 @@ Podrán ser Documentos por cobrar o por pagar, dependiendo si se selecciona Tran
 
 ![Detalles de Facturas y Margen](/assets/img/docs/purchase-management/pum-reports3.png)
 
+#### Detalle de Columnas que integran el reporte
+
+|         Columna        |              Descripción                   |                            Ayuda                                 |  
+| ---------------------- | ------------------------------------------ | ---------------------------------------------------------------- |
+|   Socio del Negocio    |       Identifica un Socio del Negocio      | Persona con quien realiza transacciones. Cliente, proveedor, etc |
+| Grupo de Socio del Neg |     ID del Grupo de Socio del Negocio      | Proporciona un método de definir valores para conjuntos de SDN   |
+|       Producto         |       Producto, Servicio, Artículo         |        Identifica un artículo que se compra o vende              |
+| Categoría del Producto |          Categoría de ese producto         |   Identifica Categoría del Producto para cálculo de precio       |
+|        Cantidad        |  La cantidad se basa en la UM seleccionada |  La cantidad se convierte a la cantidad baja de UM del producto  |
+|        Precio          |         Precio basado en la UM             | El precio ingresado convierte a precio real por conversión de UM |
+|   Precio de Lista      |          Valor de Lista de Precio          |    Es el precio de lista oficial en la moneda del documento      |
+|    Neto de Línea       |    Monto de línea sin flete ni cargos      | Monto de línea según cantidad y precio (Cantidad * Precio actual)|
+|     Importe Margen     |             Valor Margen                   |    Diferencia entre precio Actual y Límite * por la Cantidad     |
+|     Tipo Documento     |        Tipo de documento o reglas          |  Determina la secuencia del documento y las reglas de proceso    |
+|        Factura         |      	Identificador de la factura       |  La ID de Factura identifica únicamente un documento de Factura  |
+| Transacción de Ventas  |    Identifica tipo de transacción          |      Informa si la transacción es de Venta o Compra (SI/NO)      |
+
 ### Facturas Cobradas sin pagar a Proveedores
 
 Este reporte visualiza las Órdenes de Venta cuyos Documentos por Cobrar se encuentren en un recibo de cobro en estado completo (cobrados), en relación a Documentos por Pagar completos, asociados a las Órdenes de Compra enlazadas a dichas Orden, que aún no estén pagados. Es decir, Facturas de Proveedor en relación a facturas de Cliente cobradas
@@ -140,6 +157,20 @@ Vistas:
 * Por Día
 * Por Impuesto
 
+#### Detalle de Columnas que integran el reporte
+
+|         Columna        |              Descripción                   |                            Ayuda                                 |  
+| ---------------------- | ------------------------------------------ | ---------------------------------------------------------------- |
+|         Número         |          Número del Documento              |          Número de secuencia del documento para cada registro    |
+|     Tipo Documento     |        Tipo de documento o reglas          |  Determina la secuencia del documento y las reglas de proceso    |
+|   Socio del Negocio    |       Identifica un Socio del Negocio      | Persona con quien realiza transacciones. Cliente, proveedor, etc |
+|       F.Facturación    |        Fecha impresa en la factura         |   La fecha de la factura indica la fecha impresa en la factura   |
+|      	Impuesto         |         Identificador del Impuesto         |    Indica el tipo de impuesto para esta línea del documento      |
+|          Tasa          |   	  Tasa, impuesto o conversión         |	Porcentaje a ser multiplicado por la fuente para la conversión   |
+|Total Base del Impuesto |  Base para calcular el total del impuesto  |   Indica el total base usado para calcular el total de impuesto  |
+|    Total Impuesto      |   Total del impuesto para un documento     |         Despliega el total de impuesto para un documento         |
+
+
 ### Reporte de Notas de Crédito Emitidas a Clientes
 
 Este informe muestra las Notas de Crédito emitidas a clientes con asignación.
@@ -156,17 +187,47 @@ Este informe muestra los cabezales de facturas por fecha de factura, incluyendo 
 
 ![Diario Compras y Ventas](/assets/img/docs/purchase-management/pum-reports6.png)
 
+#### Detalle de Columnas que integran el reporte
+
+|         Columna        |              Descripción                   |                            Ayuda                                 |  
+| ---------------------- | ------------------------------------------ | ---------------------------------------------------------------- |
+|         Número         |          Número del Documento              |          Número de secuencia del documento para cada registro    |
+|     Tipo Documento     |        Tipo de documento o reglas          |  Determina la secuencia del documento y las reglas de proceso    |
+|   Socio del Negocio    |       Identifica un Socio del Negocio      | Persona con quien realiza transacciones. Cliente, proveedor, etc |
+|         Moneda         |          Moneda para este registro         |    Indica la moneda a ser usada cuando se informe el registro    |
+|       Gran Total       |            Total del documento             |          Identifica el total, incluye impuestos y fletes         |
+|  Tipo de Conversión    |   Tipo de í­ndice de conversión de moneda   |I­ndice de conversión de monedas permite definir diferentes tarifas|
+|     Fecha Contable     |   Fecha de contabilización del documento   |indica la fecha a ser usada en las cuentas de contabilidad general|
+|      Descripción       |  Descripción corta opcional del registro   |         Una descripción esta limitada a 255 caracteres           |
+
 ### Facturación Diaria
 
 Este informe muestra totales de facturas por Socio de negocio y por día.
 
 ![Diario Compras y Ventas](/assets/img/docs/purchase-management/pum-reports7.png)
 
+#### Detalle de Columnas que integran el reporte
+
+|         Columna        |              Descripción                   |                            Ayuda                                 |  
+| ---------------------- | ------------------------------------------ | ---------------------------------------------------------------- |
+| Transacción de Ventas  |    Identifica tipo de transacción          |      Informa si la transacción es de Venta o Compra (SI/NO)      |
+|   Socio del Negocio    |       Identifica un Socio del Negocio      | Persona con quien realiza transacciones. Cliente, proveedor, etc |
+| Grupo de Socio del Neg |     ID del Grupo de Socio del Negocio      | Proporciona un método de definir valores para conjuntos de SDN   |
+|       F.Facturación    |        Fecha impresa en la factura         |   La fecha de la factura indica la fecha impresa en la factura   |
+|    Neto de Línea       |    Monto de línea sin flete ni cargos      | Monto de línea según cantidad y precio (Cantidad * Precio actual)|
+|% de Descuento de Línea |   Descuento de línea como un porcentaje    |       Indica el descuento para esta línea como un porcentaje     |
+|   Agente Comercial     |           Agente de la Compañía            |            Indica el Agente comercial para esta región           |
+| Tipo Documento Destino | Documento Destino para convertir Documentos|      La conversión documento es reflejada en el tipo actual      |
+
 ### Facturación Semanal
 
 Este informe muestra un total de factura por Socio del negocio y por semana.
 
 ![Diario Compras y Ventas](/assets/img/docs/purchase-management/pum-reports8.png)
+
+#### Detalle de Columnas que integran el reporte
+
+El despliegue de campos es idéntico al reporte de Facturación Diaria. Lo que se modifica es la forma de reflejar la información. En este caso muestra la facturación "Por semana".
 
 ### Facturación Semanal de Producto
 
