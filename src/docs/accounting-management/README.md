@@ -45,3 +45,9 @@ El propósito de **Solop ERP** es apoyar a nuestros clientes, dar respuestas rá
 - [Configuración Contable (Maestros)](accounting-rules/configuration)
 - [Elemento Contable](accounting-rules/element)
 - [Esquema Contable](accounting-rules/accounting-scheme)
+
+### Reportes Contables
+
+- [Dimensiones Contables](accounting-reports/accounting-reports)
+- [Informes Financieros](accounting-reports/costs)
+- [Reportes Detallados](accounting-reports/reports)
