@@ -28,7 +28,13 @@ En esta ventana se registran los datos principales que la empresa requiere conoc
 
 Podrá visualizar la ventana **Producto**, dónde debe seleccionar el icono **Registro Nuevo**, que se encuentra ubicado en la barra de herramientas de Solop ERP.
 
-![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-image154.png)
+Mono registro:
+
+![Pestaña producto](/assets/img/docs/master-data/mad-master-image154.png)
+
+Multi registro:
+
+![Pestaña producto](/assets/img/docs/master-data/mad-master-image154b.png)
 
 Imagen 2. Icono Registro Nuevo
 
@@ -170,8 +176,6 @@ Para el caso de la mercancía en consignación, esta pestaña no debe ser modifi
 
 Seleccione la pestaña **Compras**, ubicada del lado izquierdo de la ventana **Producto** y proceda al llenado de los campos correspondientes.
 
-### Pestaña Compras
-
 ![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-image210.png)
 
 Imagen 4. Pestaña Compras
@@ -205,8 +209,6 @@ Seleccione el icono **Guardar Cambios** en la barra de herramientas de Solop ERP
 En esta ventana se registran las listas de precios utilizadas por la empresa, con sus diferentes precios de lista, límite y estándar que poseen los productos, con la finalidad de ser utilizada al momento de realizar alguna compra / venta con los mismos. Cada uno de los campos con el símbolo (\*) son obligatorios para el registro.
 
 Seleccione la pestaña **Precio**, ubicada del lado izquierdo de la ventana **Producto** y proceda al llenado de los campos correspondientes.
-
-### Pestaña Precio
 
 ![Icono Guardar Cambios](/assets/img/docs/master-data/mad-master-image223.png)
 
