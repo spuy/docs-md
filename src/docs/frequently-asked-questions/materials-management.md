@@ -43,13 +43,13 @@ Se crea una nueva instancia, si se desea se crea un nuevo Tipo de documento para
 
 4- Verificar para algunos productos que hayan quedado con la cantidad deseada a esa fecha
 
-#### Descargar inventario completo a la fecha
+### Descargar inventario completo a la fecha
 
 La ventana de Detalle de Almacenamiento simple brinda el inventario al día, permitiendo filtrar por los siguientes parámetros:
 
 ![Parámetros](/assets/img/docs/frequently-asked-questions/fra-asked-image1.png)
 
-#### Descargar inventario completo a una fecha determinada
+### Descargar inventario completo a una fecha determinada
 
 La ventana Informe de Inventario Valorado permite realizar una consulta sobre el estado del inventario a una fecha determinada (con filtro Fecha). 
 La existencia del producto se obtiene para la fecha indicada, el precio siempre es el último según la versión de lista elegida.
@@ -104,7 +104,7 @@ Al elegir esta opción, se muestran todos los productos y su cantidad disponible
 
 Al procesar, se crea una recepción de compra por cada Orden de Compra (se agrupa por Orden), y para la misma se crea la salida de proyecto.
 
-#### Actualización en línea de proyecto
+### Actualización en línea de proyecto
 
 Para ambas opciones del "Crear Desde", cuando se crea la salida de proyecto, se actualizan los siguientes campos de la línea de proyecto asociada, incrementando sus valores según los generados por la nueva salida creada:
 

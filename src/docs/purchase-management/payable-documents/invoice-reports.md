@@ -6,9 +6,9 @@ sticky: 9
 article: false
 ---
 
-## Reportes Comerciales (Facturas)
+### Concepto
 
-Los reportes de facturas son listados que denominamos "Comerciales".
+Los reportes de facturas son listados que que nos brindan información detallada sobre las diferentes facturas de Venta o Compra.
 Se utilizan para obtener una vista parametrizada (por fecha, por Socio del negocio, por estado, etc.) de los diferentes registros con su información detallada de entidades relacionadas, importes y estado.
 Cada reporte mantiene sus particularidades y sirven a distintas finalidades (de acuerdo a su nivel de detalle).
 
@@ -22,7 +22,7 @@ Se podrá obtener el mismo reporte tanto para Ventas como para Compras mediante 
 
 Las devoluciones de cliente y proveedor se muestran de igual manera que entregas y recepciones, pero con signo negativo.
 
-Vistas:
+#### Vistas (aplican al ordenamiento de datos, y se pueden crear las que sean necesarias):
 
 * Unbilled General por Moneda y SDN
 * Unbilled General por Contrato Moneda y Proyecto
@@ -55,6 +55,8 @@ Estos son los tipos de documentos que filtra:
 
 ### Facturas Cliente sin Entrega
 
+Este tipo de reporte es común en empresas que venden productos o servicios y emiten facturas antes de que se realice la entrega o cumplimiento de la transacción.
+
 Muestra Documentos Órdenes de Venta (Estado Completo o Cerrado) que ya tienen Factura emitida al Cliente (completa) pero que aún no se han Entregado al cliente (no tiene una entrega completa). O sea, Órdenes con factura y con entrega pendiente.
 
 Columnas:
@@ -73,13 +75,27 @@ Columnas:
 * Monto entregado
 * Monto facturado no entregado
 
+#### Finalidad del reporte
+
+El propósito principal del reporte de "Facturas Cliente Sin Entrega" es brindar información sobre las transacciones pendientes de entrega a clientes, incluyendo:
+
+Detalle de las facturas: Muestra información detallada sobre cada factura emitida a clientes, como el número de factura, la fecha de emisión, el monto total, los productos o servicios incluidos, los impuestos aplicados y las condiciones de pago.
+
+Estado de la entrega: Indica si la entrega física de los productos o la prestación de los servicios asociados a cada factura se ha completado o si está pendiente de realizarse.
+
+Control de inventario: Ayuda a gestionar el inventario al identificar las ventas realizadas que aún no han sido entregadas, lo que permite planificar la logística de distribución y garantizar la disponibilidad de productos para satisfacer las órdenes de entrega.
+
+Seguimiento de cobros: Facilita el seguimiento de los cobros pendientes asociados a las facturas emitidas, ya que las ventas pueden haberse realizado pero el pago aún no se ha efectuado debido a que la entrega está pendiente.
+
+Gestión de clientes: Permite gestionar de manera eficiente las relaciones con los clientes al tener visibilidad sobre las transacciones pendientes de entrega, lo que facilita la comunicación con los clientes y el cumplimiento de los compromisos comerciales.
+
 ### Facturas Proveedor sin Entregar
 
 Funcionamiento idéntico a “Facturas Clientes sin Entregar”, pero aplicado para documentos de proveedor (Documentos ordenes de compra en estado completo/cerrado con factura proveedor emitida pero sin recepción). O sea, Órdenes con factura y con entrega pendiente.
 
 No se consideran en el reporte los tipos de documento de factura que tienen categoría de contabilidad “AP Invoice - Nota de Débito”.
 
-Vistas:
+#### Vistas (aplican al ordenamiento de datos, y se pueden crear las que sean necesarias):
 
 * Unbilled General por SDN y Moneda, Contrato y Proyecto
 * Unbilled General por Moneda y SDN
@@ -94,7 +110,7 @@ Vistas:
 
 * Documentación: Muestra Órdenes de Compra que tienen un Proyecto asociado de Categoría (Agencia Creativa), cuyo Documento por Pagar aún está pendiente de Pago y tiene al menos una Recepción. O sea Órdenes con factura emitidas e impagas
 
-Vistas:
+#### Vistas (aplican al ordenamiento de datos, y se pueden crear las que sean necesarias):
 
 * Unbilled General por SDN y Moneda
 * Unbilled General por Moneda y SDN
@@ -104,7 +120,7 @@ Vistas:
 
 Este Listado clasifica la facturación por Cliente desglosando lo facturado según Categoría de Producto y el Soporte.
 
-Vistas:
+#### Vistas (aplican al ordenamiento de datos, y se pueden crear las que sean necesarias):
 
 * Billings por Producto y Moneda
 * Billings por Tipo de Billing
@@ -147,17 +163,33 @@ Este reporte mira los Documentos por Cobrar vinculados a las Órdenes de Venta q
 
 ### Diario Compras y Ventas
 
+Reporte contable donde se registran todas las operaciones relacionadas con compras y ventas que realiza una empresa durante un período específico, generalmente diario, semanal o mensual. Este registro es fundamental en contabilidad para llevar un control detallado de las transacciones comerciales de una empresa.
+
 Este informe muestra todos los Documentos por Pagar o Documentos por Cobrar emitidos, mostrando de forma separada los importes fuentes, tasas de cambio del documento y los valores contables.
 
 ![Diario Compras y Ventas](/assets/img/docs/purchase-management/pum-reports4.png)
 
-Vistas:
+#### Finalidad del reporte
+
+El "Diario de Compras y Ventas" sirve para varios propósitos importantes:
+
+Registro de transacciones: Permite registrar todas las transacciones de compras y ventas realizadas por la empresa, incluyendo la fecha, descripción de la operación, proveedores o clientes involucrados, cantidades, precios unitarios, importes totales y condiciones de pago.
+
+Control de cuentas por pagar y por cobrar: Facilita el control de las cuentas por pagar a proveedores y las cuentas por cobrar a clientes al registrar las operaciones de compra y venta de bienes o servicios a crédito.
+
+Análisis de cash flow: Ayuda a analizar el cash flow de la empresa al registrar las operaciones de compra de inventario, pago de proveedores, ventas de productos o servicios, y cobro de clientes.
+
+Registro de impuestos: Permite cumplir con las obligaciones fiscales al registrar las operaciones sujetas a impuestos, como el IVA (Impuesto al Valor Agregado) en el caso de Argentina, y calcular los montos a pagar o a recuperar.
+
+Base para estados financieros: Sirve como base para preparar estados financieros como el Estado de Resultados y el Balance General, al proporcionar información detallada sobre las transacciones comerciales de la empresa.
+
+#### Vistas (aplican al ordenamiento de datos, y se pueden crear las que sean necesarias):
 
 * Por Documento
 * Por Día
 * Por Impuesto
 
-#### Detalle de Columnas que integran el reporte
+#### Detalle de Columnas que integran el reporte (vista ejemplo: por documento)
 
 |         Columna        |              Descripción                   |                            Ayuda                                 |  
 | ---------------------- | ------------------------------------------ | ---------------------------------------------------------------- |
@@ -179,13 +211,29 @@ Este informe muestra las Notas de Crédito emitidas a clientes con asignación.
 
 Este informe muestra los cabezales de facturas por fecha contable, incluyendo su información detallada y estado.
 
-![Diario Compras y Ventas](/assets/img/docs/purchase-management/pum-reports5.png)
+![Reporte de NC](/assets/img/docs/purchase-management/pum-reports5.png)
 
 ### Resumen de Facturas
 
-Este informe muestra los cabezales de facturas por fecha de factura, incluyendo su información detallada y estado.
+Reporte que recopila de manera resumida la información clave relacionada con las transacciones de compras y ventas de una empresa. Este resumen proporciona una visión general de las facturas emitidas a clientes y recibidas de proveedores durante un periodo determinado.
 
-![Diario Compras y Ventas](/assets/img/docs/purchase-management/pum-reports6.png)
+Más específicamente, este informe muestra los cabezales de facturas por fecha de factura, incluyendo su información detallada, entidades relacionadas y estado.
+
+![Resumen de facturas](/assets/img/docs/purchase-management/pum-reports6.png)
+
+#### Finalidad del reporte
+
+El propósito principal del resumen de "Facturas Cliente y Proveedor" es brindar una visión panorámica de las transacciones comerciales de la empresa, incluyendo:
+
+Facturas a clientes: Incluye un resumen de todas las facturas emitidas a clientes durante el periodo especificado, mostrando información como el número de factura, la fecha de emisión, el monto total facturado, los productos o servicios vendidos, los impuestos aplicados y las condiciones de pago.
+
+Facturas de proveedores: También presenta un resumen de las facturas recibidas de proveedores en el mismo periodo, indicando el número de factura, la fecha de recepción, el monto total facturado por los productos o servicios adquiridos, los impuestos aplicados y las condiciones de pago.
+
+Control financiero: Facilita el control financiero al proporcionar una visión general de las obligaciones pendientes de pago por parte de los clientes y las deudas pendientes de cobro de los proveedores, lo que ayuda a gestionar el flujo de efectivo y mantener la liquidez adecuada.
+
+Análisis de cuentas por cobrar y por pagar: Permite analizar las cuentas por cobrar a clientes y por pagar a proveedores, identificando las facturas vencidas, los saldos pendientes de cobro y pago, y evaluando la salud financiera de la empresa en relación con sus operaciones comerciales.
+
+Gestión de relaciones comerciales: Ayuda a gestionar las relaciones comerciales con clientes y proveedores al tener una visión resumida de las transacciones realizadas, lo que facilita la comunicación, la negociación de términos comerciales y la toma de decisiones estratégicas.
 
 #### Detalle de Columnas que integran el reporte
 
@@ -202,9 +250,23 @@ Este informe muestra los cabezales de facturas por fecha de factura, incluyendo 
 
 ### Facturación Diaria
 
+Reporte que resume todas las facturas emitidas por una empresa en un día específico. Este reporte es una herramienta importante en la gestión financiera y comercial, ya que proporciona información detallada sobre las transacciones de ventas realizadas en un periodo breve de tiempo, en este caso, en un día.
+
 Este informe muestra totales de facturas por Socio de negocio y por día.
 
-![Diario Compras y Ventas](/assets/img/docs/purchase-management/pum-reports7.png)
+![Facturación Diaria](/assets/img/docs/purchase-management/pum-reports7.png)
+
+#### Finalidad del reporte
+
+Control de ventas: Permite tener un registro detallado de todas las ventas realizadas en un día, incluyendo el número de factura, la fecha de emisión, el nombre o identificación del cliente, la descripción de los productos o servicios vendidos, los precios unitarios, los impuestos aplicados y el monto total facturado.
+
+Seguimiento de ingresos: Facilita el seguimiento de los ingresos diarios de la empresa al mostrar de manera clara y organizada las ventas realizadas y los montos facturados, lo que ayuda a evaluar el desempeño financiero y la productividad comercial en un periodo corto de tiempo.
+
+Control de inventario: Permite vincular las ventas registradas en el reporte con el inventario de productos disponibles, lo que ayuda a gestionar el stock, identificar productos más vendidos y planificar la reposición de inventario según la demanda diaria.
+
+Análisis de tendencias: Al recopilar información diaria sobre las ventas, el reporte de facturación diaria permite analizar tendencias de ventas a corto plazo, identificar picos o variaciones en la demanda de productos o servicios, y tomar decisiones estratégicas en función de estos análisis.
+
+Cumplimiento fiscal: Ayuda en el cumplimiento de obligaciones fiscales al proporcionar un registro detallado de las transacciones comerciales diarias, lo que facilita la generación de informes para la declaración de impuestos y la determinación de ingresos gravables.
 
 #### Detalle de Columnas que integran el reporte
 
@@ -223,7 +285,7 @@ Este informe muestra totales de facturas por Socio de negocio y por día.
 
 Este informe muestra un total de factura por Socio del negocio y por semana.
 
-![Diario Compras y Ventas](/assets/img/docs/purchase-management/pum-reports8.png)
+![Facturación Semanal](/assets/img/docs/purchase-management/pum-reports8.png)
 
 #### Detalle de Columnas que integran el reporte
 
@@ -233,46 +295,46 @@ El despliegue de campos es idéntico al reporte de Facturación Diaria. Lo que s
 
 Este informe muestra un total de facturas por semana y por categoría de producto
 
-![Diario Compras y Ventas](/assets/img/docs/purchase-management/pum-reports9.png)
+![Semanal de producto](/assets/img/docs/purchase-management/pum-reports9.png)
 
 ### Facturación Mensual
 
 Este informe muestra los totales de facturas por mes y por Socio del Negocio
 
-![Diario Compras y Ventas](/assets/img/docs/purchase-management/pum-reports10.png)
+![Facturación Mensual](/assets/img/docs/purchase-management/pum-reports10.png)
 
 ### Facturación Mensual de Producto
 
 Este informe muestra totales de facturas mensual por categoría de Producto
 
-![Diario Compras y Ventas](/assets/img/docs/purchase-management/pum-reports11.png)
+![Mensual de producto](/assets/img/docs/purchase-management/pum-reports11.png)
 
 ### Facturación Mensual de Proveedor
 
 Este informe muestra totales de facturas mensual por proveedor y categoría de producto.
 
-![Diario Compras y Ventas](/assets/img/docs/purchase-management/pum-reports12.png)
+![Mensual de Proveedor](/assets/img/docs/purchase-management/pum-reports12.png)
 
 ### Producto Facturado Mensualmente
 
 Este informe muestra la cantidad facturada mensualmente por producto.
 
-![Diario Compras y Ventas](/assets/img/docs/purchase-management/pum-reports13.png)
+![Producto facturado mensualmente](/assets/img/docs/purchase-management/pum-reports13.png)
 
 ### Facturación Trimestral a Clientes por Proveedor
 
 Este informe muestra totales de facturas por Proveedor y Cliente de productos por trimestre
 
-![Diario Compras y Ventas](/assets/img/docs/purchase-management/pum-reports14.png)
+![trimestral a clientes por proveedor](/assets/img/docs/purchase-management/pum-reports14.png)
 
 ### Facturación Trimestral a Clientes por Producto
 
  Este informe muestra totales de facturas en forma trimestral por cliente y categoría de producto
 
- ![Diario Compras y Ventas](/assets/img/docs/purchase-management/pum-reports15.png)
+ ![Trimestral a clientes por producto](/assets/img/docs/purchase-management/pum-reports15.png)
 
 ### Facturación Trimestral por Producto
 
 Este informe muestra totales de facturas en forma trimestral por producto y por Socio del Negocio
 
- ![Diario Compras y Ventas](/assets/img/docs/purchase-management/pum-reports16.png)
+ ![Trimestral por producto](/assets/img/docs/purchase-management/pum-reports16.png)

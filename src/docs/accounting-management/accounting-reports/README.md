@@ -10,4 +10,4 @@ El presente material se encuentra dirigido a cada uno de los usuarios de Solop E
 
 - [Dimensiones Contables](accounting-reports)
 - [Informes Financieros](reports)
-- [Reportes Detallados](accounting-reports)
+- [Reportes Detallados](detailed-reports)

@@ -90,6 +90,12 @@ Esto puede suceder ya que el Socio de negocio en cuestión tiene en esta ventana
 
 Para asignar el cheque al cobro, en el caso de que el estado del documento (Recio de Cobro) este en “Completo” se realiza la ventana Asignación manualmente.
 
+### ¿Por qué motivo puede suceder el siguiente error al completar resguardo?: CFE Error. Tasa de cambio no establecida para UI para la fecha xxxx/12/31.
+
+En este caso ocurre el mensaje porque los CFEs e-Ticket menores a 5000UI pueden no llevar identificación de receptor, si supera ese monto por mas que sea e-Ticket tienen que definir a quien va dirigido
+Para calcular si se pasa, DGI define utilizar la cotización de UI al 31/12 del año anterior.
+Para resolverlo se debe cargar la tasa UI en el sistema para esa fecha.
+
 ## Acciones
 
 ### Cómo cargar un CAE en InvoiCy?
