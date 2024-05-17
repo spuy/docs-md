@@ -73,6 +73,10 @@ Tener en cuenta que los Resguardos son CFE y se generarán siempre en la moneda 
 
 En la ventana Resguardos, desde el ícono de procesos podremos acceder a “Impresión de resguardo” para visualizar el formato de impresión del mismo.
 
+El proceso permite seleccionar al momento de seleccionar los resguardos a generar, si desean crearse en estado Completo o En Proceso.
+
+Al completarse los resguardos se genera automáticamente la asignación correspondiente.
+
 ### Asignar un Resguardo
 
 Un Resguardo se agrega en un Recibo de Pago como una Nota de Crédito Proveedor, descontando el Importe a Pagar o en una Selección de pagos.
