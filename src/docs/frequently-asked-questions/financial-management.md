@@ -217,6 +217,16 @@ Si no se marca el check, el Asignado de Facturas y el Asignado de Pago debe ser 
 
 2. **Check Redondeo = Y** si se tiene un importe superior de las facturas al Cobro, se marca el check "redondeo" y se enviará dicha diferencia al Cargo Redondeo.
 
+### ¿Puede ocurrir en el estado de cuenta bancario que en una de sus líneas el SDN sea diferente al Socio de Negocio que tiene el pago/cobro asociado?
+
+No. Existe un control para evitar completar el estado de cuenta bancario si existen líneas con socio del negocio distinto al del pago/cobro asociado. En este caso emite mensaje informando esta situación.
+
+### ¿Qué ocurre en el caso de que alguna fecha de una línea de estado bancario no tenga tasa de cambio, permite completar igual el documento?
+
+No. Existe control antes de completar el documento de estado de cuentas bancario, el cual verifica que exista tasa de cambio para todas las fechas contables (sin repetir) de las líneas del documento.
+
+En caso de no existir tasa para una fecha, se muestra mensaje de error indicando la fecha correspondiente, no pudiendo ser completado el documento.
+
 ## Procesos
 
 ### Débito automático de cheques diferidos por Pagar
