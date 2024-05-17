@@ -96,6 +96,17 @@ En este caso ocurre el mensaje porque los CFEs e-Ticket menores a 5000UI pueden 
 Para calcular si se pasa, DGI define utilizar la cotización de UI al 31/12 del año anterior.
 Para resolverlo se debe cargar la tasa UI en el sistema para esa fecha.
 
+###  Al intentar generar factura cliente se produjo mensaje de CFE rechazado. ¿Es posible visualizar el mensaje con el motivo de rechazo en el sistema?
+
+Para estos casos existe la ventana en menú llamada "Respuestas CFE", (muestra la misma información que la pestaña CFE de la ventna Documentos por Cobrar).
+Muestra todas las respuestas CFE (tengan o no documento por cobrar vinculado), por lo cual en vez de consultar desde cada factura, permite ver todas las respuestas juntas y navegar a sus respectivos documentos.
+También posee una columna llamada "Existe Registro Vinculado" que indica en Y (SI) cuando el registro de la LUY_Document tenga un registro vinculado a su tabla CFE (a una factura).
+La ventana permite realizar búsqueda avanzada por diferentes filtros como ser Número de serie CFE o Código de mensaje CFE ("159" es el código de CFE rechazado).
+
+Campo "Existe Registro Vinculado"
+
+La finalidad de este check es poder filtrar rápidamente todos los CFEs enviados que quedaron registrados, que por persistirse en una transacción aparte siempre quedan, mientras que en algunas ocaciones, hay CFEs ya enviados a InvoiCy que por algúna razón no se genera el documento por cobrar pese a que están en InvoiCy.
+
 ## Acciones
 
 ### Cómo cargar un CAE en InvoiCy?
@@ -192,6 +203,22 @@ Las facturas una vez generadas no podrán borrarse por motivo de auditoría, lo 
 ::: note
 El sistema permite anular facturas que se encuentren en estado borrador.
 :::
+
+### ¿Es posible anular Facturas cliente?
+
+En el cabezal de ventana de Documentos por Cobrar existe un check denominado "Permite Anular" el cual se muestra visible cuando el documento no está en ninguno de los estados siguientes:
+
+* Anulado
+* Cerrado
+* Reversado
+
+Cuando se quiera anular o reversar un DxC, el sistema consultará si existe un registro en pestaña de CFE tal que tenga uno de los siguientes mensajes
+
+* CFE Firmado
+* CFE enviado para DGI
+
+Si existe un registro "Activo" para alguno de ambos valores, no se permitirá anular/reversar el DxC, salvo que se haya marcado el check de "Permite Anular".
+Es posible configurar el nivel de accesibilidad del check para un determiando rol o usuario.
 
 ### Configuración de Retenciones (cómo parametrizar retenciones DGI)
 
