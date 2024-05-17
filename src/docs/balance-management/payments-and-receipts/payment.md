@@ -17,7 +17,7 @@ El presente material elaborado por Solop ERP, pretende ofrecerle una explicació
 
 ## Registro de Cobro
 
-Para ejemplificar el procedimiento de generar un cobro en Solop ERP, es utilizada la factura por cobrar **88**.
+Para ejemplificar el procedimiento de generar un cobro en Solop ERP, es utilizada la factura por cobrar **A10001**.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image85.png)
 
@@ -30,6 +30,12 @@ Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Saldos Pe
 Imagen 2. Menú de Solop ERP
 
 Luego podrá visualizar la ventana **Pago/Cobro**, donde debe seleccionar el icono **Registro Nuevo** que se encuentra ubicado en la barra de herramientas de Solop ERP para crear un nuevo registro en la ventana **Pago/Cobro**.
+
+Mono registro:
+
+![Campo](/assets/img/docs/balance-management/bam-balance-image87.png)
+
+Multi registro:
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image87.png)
 
