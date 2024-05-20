@@ -73,6 +73,43 @@ Estas verificaciones se ejecutan cuando se realizan las acciones siguientes:
 * Se crea un producto o se modifica uno existente
 * Se crea o se borra una línea de la lista de materiales de un producto
 
+### Es posible obtener el reporte Costos de Proyectos por fase con importes desglosados por su tipo de costo Elemento?
+
+Es posible obtener ese reporte con dicho desglose, pero requiere una parametrización:
+
+Se debe definir el tipo de costo del elemento en el Producto. Para esta funcionalidad se consideran los siguientes tipos:
+
+* Material
+* Recurso
+* Herramientas
+
+Cuando en una línea de Proyecto o Fase, se selecciona el producto, se carga en la línea en cuestión los datos siguientes:
+
+* Tipo de costo definido en el producto
+* Costo (costo obtendio para el producto multiplicado por la cantidad planeada en la línea)
+
+Cuando se selecciona producto o se modifica cantidad planeada, se obtiene nuevamente el costo del producto multiplicado por la cantidad, esto debe ser así porque el costo siempre está multiplicado por la cantidad planeada.
+
+**Proceso "Calcular Costos y Rendimiento de Fases"**
+
+Al ejecutar este proceso desde el cabezal de proyecto, también se calculan y setean los nuevos campos de costos planeados agregados en la Fase.
+
+En cada uno de los siguientes campos se calcula y asigna la suma de los costos de cada una de las líneas de Fase, para cada tipo de costo definido en la línea.
+
+**Proceso "Calcular Costos y Rendimiento"**
+
+Al ejecutar este proceso desde el cabezal de proyecto, también se calculan y setean los nuevos campos de costos planeados agregados en la pestaña "Rendimiento".
+
+En cada uno de los siguientes campos se calcula y asigna la suma de los costos de cada una de las líneas de Proyecto, para cada tipo de costo definido en la línea.
+
+**Reporte "Costos de Proyectos por Fase"**
+
+Posee las siguientes columnas en las cuales se visualizan los importes desglosados:
+
+* Costo Planeado Materiales
+* Costo Planeado Recursos
+* Costo Planeado Herramientas
+
 ## Procesos
 
 ### ¿Qué función cumple el Proceso "Reabastecimiento desde Línea de Proyecto"?

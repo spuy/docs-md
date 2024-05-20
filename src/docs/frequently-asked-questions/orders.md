@@ -64,6 +64,16 @@ No se puede reactivar y cambiar la organización de una orden de venta solo reac
 3. Complear la orden (de esta manera no habrá más ninguna Cantidad Reservada)
 4. Reactivar la orden y ahora si cambiar la organización y poner la línea con cantidad y el precio que deseen.
 
+### ¿Es posible que al correr el proceso de Generar Orden (desde menú o desde proyecto) no se genere la orden de compra en forma automática?
+
+Los procesos asociados al botón "Generar Orden" desde el proyecto, y el proceso "Generar Orden desde Proyecto", tienen el check "Costo Asociado" marcado en Y (SI) por defecto. 
+Al tener marcada la Orden Venta el check "Costo Asociado", es por esa razón que se crea la Orden de Compra.
+Para que no se genera la OC, debe destildarse el mencionado check.
+
+### Es posible en la ventana Definición de comisiones filtrar solo los registros del Agente Comercial indicado en la pestaña "Definición de Comisión"?
+
+Esta acción es posible marcando en la linea de comisión el campo "Comisión sólo en Ordenes Específicas". De esta forma los registros se generarán solo para el Representante de Ventas especificado.
+
 ## Procesos
 
 ### ¿Cómo anular o cerrar masivamente órdenes de venta?
