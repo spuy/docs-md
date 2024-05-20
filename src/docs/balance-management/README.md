@@ -15,6 +15,7 @@ Solop ERP cuenta con la carpeta **Gestión de Saldos Pendientes** el cual propor
 Por ello, **Solop ERP** presenta la siguiente guía con instrucciones claras y precisas de cómo llevar a cabo cada uno de los procesos involucrados con la gestión saldos financieros y así obtener resultados exitosos; esta documentación está destinada a definir cada uno de los procedimientos para la gestión de los saldos pendientes de Solop ERP para cualquier organización, es importante seguir al pie de la letra cada uno de los procedimientos descritos aquí recuerde que de eso dependerá el buen uso del ERP.
 
 - [Resguardos](withholding)
+- [Reportes de Saldos Pendientes](pending-balance-reports)
 
 ### Gestión de Asignaciones General
 

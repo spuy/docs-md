@@ -34,6 +34,10 @@ Si se emite el reporte desde la "fecha desde" pero hacia el pasado debería dar 
 
 Siempre muestra el nombre del Usuario en el campo “Descripción”
 
+### ¿Si genero un pago por compra Venta de Moneda extranjera utilizando el proceso de "Generar pago desde Estado de cuenta" qué fecha le define, la fecha de transacción o la Fecha del Estado de Cuenta Bancario?
+
+El proceso de "Crear Pagos desde Estado de Cuenta", cuando se elije la opción "Transferencia entre Cuentas", la fecha transacción a definir en el pago y cobro generados, es la "Fecha de Estado de Linea" de la línea seleccionada para realizar el movimiento. Es decir, define la fecha de transacción y no la del estado de cuenta bancario.
+
 ## Reportes
   
 ### Reporte de Pagos sin Asignar:

@@ -242,6 +242,26 @@ CONTROLES:
 Desde la ventana Respuestas CFE es posible realizar la búsqueda de un envío de CFE desde Solop ERP cuando se emite una POSOrder y la factura no se genera, se emite un error (por CFE rechazado por parte de entidad fiscal).
 Para una búsqueda más eficiente, en la solapa búsqueda avanzada permite filtrar por columna "Número de Serie CFE" (número de factura) o bien por "Código Mensaje CFE" (por ejemplo: CFE rechazado es código 159).
 
+### ¿Es posible habilitar y deshabilitar el descuento en las lineas de la Factura CFE?
+
+Esto es posible realizarlo en la ventana "LUY Sender" con el check "Utiliza Lista de Precios":
+
+* Si este check está desactivado el envío de CFE no manejará descuentos de linea, y se utilizará solamente el monto del campo "Precio" (PriceEntered) como monto base para Precio Unitario, de ahí se calculará el total de linea (Cantidad * Precio (PriceEntered)).
+
+* Si el check está activado, se manejará como monto base el monto del campo "Precio de Lista" (PriceList) donde aplicando un porcentaje de descuento en el campo Descuento (Discount) se aplicará dicho porcentaje en el campo "Precio" (PriceEntered).
+Para realizar el envío a InvoiCy se tomará el Precio de Lista como monto base, se le calculará el monto de descuento para enviar como descuento y se calculará el total de linea como (Cantidad * (Precio de Lista - descuento)).
+
+### ¿Al contabilizar/reversar documentos, cuál es la fecha que el sistema toma como referencia para aplicar la tasa de cambio?
+
+Esta acción posee el siguiente comportamiento:
+
+* Para todo documento (todas las tablas) al momento de contabilizarse, se utiliza la fecha de transacción en vez de la contable, para obtener la tasa de cambio a aplicar.
+
+* Al generarse el reverso de una Invoice, al mismo se le asigna como fecha de facturación, la fecha de facturación de la invoice original.
+
+Al generarse el reverso de una Invoice, a la asignación de pagos creada se le asigna como fecha de facturación, la fecha de facturación de la invoice original.
+
+
 ## Procesos
 
 ### Generar factura desde Línea de Orden
