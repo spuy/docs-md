@@ -123,3 +123,44 @@ Estado de la orden: Indica el estado actual de la orden de venta o compra, como 
 |  Cálculo de comisiones |       Cálculo o proceso de comisiones      |   identificador único define ejecución específica de comisiones  |
 |      Descripción       |  Descripción corta opcional del registro   |            Descripción limitada a 255 caracteres                 |	
 |    Fecha Contable      |  Fecha de contabilización del registro     |   Indica la fecha a utilizar en cuentas de contabilidad general  |
+
+## Detalle de la Orden
+
+Es un informe que proporciona una descripción completa de las órdenes de compra y venta realizadas por una empresa durante un período específico. Este reporte incluye información detallada sobre cada orden, como la fecha, los productos o servicios involucrados, las cantidades, los precios, los proveedores o clientes, y el estado de la orden.
+
+![Detalle de la Orden](/assets/img/docs/purchase-management/pum-reports17.png)
+
+#### Finalidad del reporte
+
+* Monitoreo de Transacciones: Permite realizar un seguimiento detallado de todas las órdenes de compra y venta, asegurando que cada transacción se lleve a cabo según lo planeado y ayudando a identificar cualquier problema o retraso en el proceso.
+
+* Gestión de Inventarios: Ayuda a gestionar los niveles de inventario al proporcionar una visión clara de los productos que se han ordenado para compra y los que se han vendido, facilitando una mejor planificación y reposición de stock.
+
+* Control Financiero: Proporciona información detallada sobre los costos y los ingresos asociados con las órdenes de compra y venta, lo que es esencial para la gestión y el análisis financiero de la empresa.
+
+* Relaciones con Proveedores y Clientes: Facilita la gestión de relaciones con proveedores y clientes al mantener un registro claro y detallado de todas las transacciones, ayudando a resolver disputas y a mantener una comunicación efectiva.
+
+* Cumplimiento y Auditoría: Asegura el cumplimiento con las normativas contables y fiscales al proporcionar un registro detallado de todas las órdenes de compra y venta, lo cual es vital para las auditorías internas y externas.
+
+* Análisis de Rendimiento: Permite evaluar el rendimiento de proveedores y clientes, identificando aquellos que son más confiables o rentables, y ayudando a tomar decisiones informadas sobre futuras transacciones.
+
+* Optimización de Procesos: Ayuda a identificar ineficiencias en el proceso de compra y venta, proporcionando datos que pueden utilizarse para mejorar los tiempos de entrega, reducir costos y optimizar la gestión del inventario.
+
+* Planificación Estratégica: Proporciona información valiosa para la planificación estratégica, ayudando a prever la demanda futura, planificar las compras y ajustar las estrategias de ventas.
+
+#### Vistas
+
+* Detalle de la Orden
+*Detalle de la Orden Simple
+
+#### Detalle de Columnas que integran el reporte  (ejemplo vista: Detalle de la Orden Simple)
+
+|         Columna        |              Descripción                   |                            Ayuda                                 |  
+| ---------------------- | ------------------------------------------ | ---------------------------------------------------------------- |
+|       F. Orden         |           Fecha de la orden                |             Indica la fecha en que se ordenó un artículo         |
+|     Orden de Venta     |                Orden de Venta              |      La ID de la orden de ventas es un identificador único       |
+|   Socio del Negocio    |      Identifica un Socio del Negocio       | Persona con quien realiza transacciones. Cliente, proveedor, etc |
+|       Producto         |       Producto, Servicio, Artículo         |        Identifica un artículo que se compra o vende              |
+|        Precio          |         Precio basado en la UM             | El precio ingresado convierte a precio real por conversión de UM |
+|    Cantidad Ordenada   |             Cantidad Ordenada              |        Indica la cantidad de un producto que fue ordenada        |
+|   Cantidad a Facturar  |             Cantidad Facturada             |     Indica la cantidad de un producto que ha sido facturado      |
