@@ -13,3 +13,4 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 - [Inventario Físico](physical-inventory)
 - [Lista de Materiales](ldm)
 - [Reabastecimiento](replenishment)
+- [Reportes de inventario](inventory-reports)
