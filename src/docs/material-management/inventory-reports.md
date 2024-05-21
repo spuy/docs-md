@@ -111,6 +111,7 @@ Es un informe que proporciona un registro exhaustivo de todas las transacciones 
 |         Columna        |              Descripción                   |                            Ayuda                                 |  
 | ---------------------- | ------------------------------------------ | ---------------------------------------------------------------- |
 |        Almacén         |        Almacén y punto de servicio         |   Identifica un punto único donde los productos son almacenados  |
+| Categoría del Producto |     Categoría vinculada al producto        |     Identifica la categorí­a a la que pertenece este producto     |
 |      F. de Mov.        |            Fecha del Movimiento            |           Indica la fecha en que el producto fue movido          |
 |        Producto        |       Producto; servicio o artí­culo.       |  Identifica un artí­culo (comprado o vendido en la Organización)  |
 |   Socio del Negocio    |      Identifica un Socio Comercial         | Persona con quien realiza transacciones. Cliente, proveedor, etc |
@@ -119,3 +120,46 @@ Es un informe que proporciona un registro exhaustivo de todas las transacciones 
 |      Descripción       |  Descripción corta opcional del registro   |         Una descripción esta limitada a 255 caracteres           |
 |Cantidad del movimiento |       Cantidad del producto movido         |        Indica la cantidad de un producto que ha sido movido      |
 |      Proyecto          |          Proyecto Financiero               |          Permite realizar un seguimiento y control interno       |
+
+## Detalle de Almacenamiento Simple
+
+Es un informe que proporciona una visión detallada de cómo se almacenan los productos en un almacén o centro de distribución. Este tipo de reporte generalmente incluye información sobre la ubicación de los productos, las cantidades almacenadas (en existencia, reservada, disponible, ordenada), y las condiciones de almacenamiento.
+
+![Detalle de Almacenamiento Simple](/assets/img/docs/materials-management/mam-reports4.png)
+
+#### Finalidad del reporte
+
+* Gestión de Inventarios: Facilita el control y la gestión del inventario al proporcionar información precisa sobre la ubicación y la cantidad de cada producto en el almacén. Esto ayuda a optimizar el espacio de almacenamiento y a garantizar que los productos estén fácilmente accesibles cuando se necesiten.
+
+* Optimización del Almacenamiento: Ayuda a identificar áreas del almacén que pueden estar infrautilizadas o sobrecargadas, permitiendo una mejor organización y uso del espacio disponible.
+
+* Rastreo de Productos: Permite rastrear la ubicación exacta de cada producto dentro del almacén, lo cual es esencial para la eficiencia operativa, especialmente en operaciones de picking y packing.
+
+* Reducción de Pérdidas: Ayuda a minimizar las pérdidas por productos extraviados o mal ubicados, asegurando que todos los artículos estén registrados y localizables.
+
+* Rotación de Inventarios: Facilita la gestión de la rotación de inventarios, asegurando que los productos más antiguos se utilicen o vendan primero, lo cual es especialmente importante para productos perecederos.
+
+* Cumplimiento Normativo: Ayuda a cumplir con las normativas de almacenamiento y seguridad, proporcionando un registro detallado de cómo y dónde se almacenan los productos.
+
+* Planificación y Reposición: Proporciona datos esenciales para la planificación de la reposición de inventarios, ayudando a determinar cuándo y cuánto reabastecer para mantener niveles óptimos de stock.
+
+* Análisis de Datos: Permite realizar análisis detallados sobre el uso del espacio, la eficiencia del almacenamiento y los patrones de entrada y salida de productos.
+
+#### Vistas:
+
+* Detalle de Almacenamiento Simple
+* Detalle de Almacenamiento por Cliente
+
+#### Detalle de Columnas que integran el reporte
+
+|         Columna        |              Descripción                   |                            Ayuda                                 |  
+| ---------------------- | ------------------------------------------ | ---------------------------------------------------------------- |
+|        Almacén         |        Almacén y punto de servicio         |   Identifica un punto único donde los productos son almacenados  |
+|      F. de Mov.        |            Fecha del Movimiento            |           Indica la fecha en que el producto fue movido          |
+|          Clase         |         Clasificación de Producto          |   Identifica la clasificación a la que pertenece este producto   |
+|          Código        | Código del registro en el formato requerido|  Permite un método rápido de encontrar un registro en particular |
+|          Nombre        |  Identificador alfanumérico de la entidad  |        Nombre de una entidad (registro) adicional al Código      |
+|Cantidad en Existencia  |          Cantidad en existencia            |  Indica cantidad de un producto que se encuentra en inventario   |
+|   Cantidad Reservada   |      Cantidad Reservada en Órdenes         |   Indica la cantidad de un producto que se encuentra reservada   |
+|  Cantidad disponible   |     Cantidad disponible para prometer      |           Cantidad disponible (Existencia - Reservada)           |
+|   Cantidad Ordenada    |           Cantidad Ordenada                |        Indica la cantidad de un producto que fue ordenada        |
