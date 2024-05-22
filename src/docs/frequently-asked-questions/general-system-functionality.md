@@ -188,6 +188,12 @@ Es posible seleccionar cualquier grupo de Socios del Negocio o un Socio del Nego
 En el caso de seleccionar un grupo de socio del negocio, se actualizará la organización para todos los socios de negocios ligados a ese grupo
 :::
 
+### ¿Existe una forma de definir el tiempo en el cual expira la sesión de usuario?
+
+En Ventana Usuario, Campo "Expiración de Sesión" es posible definir el timeout en milisegundos de la sesión. Aquí se puede definir cada cuanto se cierra la sesión del usuario.
+
+Esta configuración es por cada Usuario, lo que permite tener un usuario exclusivo para la consulta de precios y que se reinicie cada una semana.
+
 ## Procesos
 
 ### BÚSQUEDA INTELIGENTE (SMARTBROWSER)

@@ -227,6 +227,14 @@ No. Existe control antes de completar el documento de estado de cuentas bancario
 
 En caso de no existir tasa para una fecha, se muestra mensaje de error indicando la fecha correspondiente, no pudiendo ser completado el documento.
 
+### ¿Es posible imprimir un recibo de cobro con un estado de documento diferente a "Completo?
+
+Si. Se puede imprimir el recibo de cobro cuando no esté completo. Pero en esos casos tiene el siguiente comportamiento:
+
+* Si se encuentra en estado Borrador: agrega un texto a la impresión informando el estado BORRADOR.
+
+* Si se encuentra en estado Anulado: agrega un texto a la impresión informando el estado ANULADO.
+
 ## Procesos
 
 ### Débito automático de cheques diferidos por Pagar

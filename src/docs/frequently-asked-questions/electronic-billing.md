@@ -107,6 +107,18 @@ Campo "Existe Registro Vinculado"
 
 La finalidad de este check es poder filtrar rápidamente todos los CFEs enviados que quedaron registrados, que por persistirse en una transacción aparte siempre quedan, mientras que en algunas ocaciones, hay CFEs ya enviados a InvoiCy que por algúna razón no se genera el documento por cobrar pese a que están en InvoiCy.
 
+### ¿Por qué motivo puede ocurrir que una Factura proveedor no sea importada a CFE importados?
+
+En este caso puede ocurrir que en Invoicy (https://solopuy.migrate.info/InvoiCy/) no se encuentre como CFE recibido el Documento por Pagar del proveedor, pero sí se eencuentre en DGI (https://www.efactura.dgi.gub.uy).
+
+Para verificar el motivo se puede acceder a la casilla de Mail (cfe.solopuruguay@gmail.com) a la cual llegan las facturas emitidas de los proveedores, y desde la cual son leídos por Invoicy como CFEs recibidos, para confirmar que no se encuentre el mail del proveedor para este Documento por Pagar.
+
+Si esto se confirma (si no se encuentra el mail de factura proveedor) el problema pasa a estar de lado del proveedor y el software que utiliza, ya que el comprobante no fue enviado como corresponde.
+
+Si el mail fuese enviado por el proveedor, y en ese caso se visualizara en la casilla de Mail mencionada, entonces el problema estaría del lado de Invoicy, y en ese caso se requiere elevar la consulta a Migrate.
+
+Al realizar en Solop ERP la importación de CFE recibidos, las casillas de mail siempre deben ser las mismas tanto en DGI como Invoicy.
+
 ## Acciones
 
 ### Cómo cargar un CAE en InvoiCy?
