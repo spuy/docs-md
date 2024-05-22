@@ -33,6 +33,14 @@ Si la regla de facturacion NO es  "Despues de entrega" entonces la cant.  factur
 
 El problema es que para  este tipo de Orden de Venta se realizará la Factura y el Pago de manera automática. Si la misma es generada desde la ventana de Orden de Venta puede que no encuentre Punto de Venta por lo tanto no tendrá Cuenta Bancaria definida para hacer el Cobro. 
 
+### ¿Por qué motivo puede no habilitarse en las órdenes el botón de preparar/completar ni tampoco en los procesos?
+
+En opción "Ventana, pestaña y campo": Campo "VentanaTipo", al seleccionar "Transacción", habilita que se visualice el workflow al apretar los íconos flotantes de la derecha al medio.
+
+Campo "Is Document" en "Tabla y Columna" habilita la acción de documentos en la barra de herramientas.
+
+Puede ocurrir en algún Por algún caso que el check isDocument en C_Order esté destildado y por esto no permita completar esos Documentos.
+
 ## Acciones
 
 ### ¿Si Reactivo una Orden de Honorarios, le cambio el Contrato, la Completo y Recontabilizo el asiento de reconocimiento, cambia el Contrato en el Asiento?
@@ -108,6 +116,17 @@ Al procesar se debe indicar la fecha de las OV a crear y el estado para las mism
 ::: note
 El proceso generará una Orden de Venta por cada proyecto, en el estado y fecha seleccionados
 :::
+
+### ¿Cuál es la condición o parámetro que utiliza el proceso de "Generar Orden desde Proyecto" para crear en forma automática la Orden de Compra?
+
+Posee un parámetro para indicar si se debe asignar los datos de entrega directa a la Orden de Venta generada, siendo estos los datos siguientes:
+
+* Check "Costo Asociado"
+* Socio Del Negocio "Entrega Directa"
+* Dirección Entrega Directa
+
+Al tener estos datos la Orden de Venta, al completarse va a generar automáticamente la Orden de Compra enlazada. 
+Para que la OC se complete durante el proceso, se creó un configurador del sistema (el valor por defecto del configurador, en caso de no existir, es N).
 
 ## Reportes
 

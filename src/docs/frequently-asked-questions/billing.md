@@ -261,6 +261,24 @@ Esta acción posee el siguiente comportamiento:
 
 Al generarse el reverso de una Invoice, a la asignación de pagos creada se le asigna como fecha de facturación, la fecha de facturación de la invoice original.
 
+### ¿Existe alguna rutina que valide una tolerancia para el importe asignado de una factura (compra y venta), para que a la misma se le marcara el check PAGADO = Y, si fue asignada con un cobro menor o mayor dentro de dicha tolerancia?
+
+No, actualmente no existe rutina que marqué con check pagado SI la factura por tolerancia de centavos respecto al cobro. En ese caso el comprobante quedaría como pagado = NO. Y esos saldos abiertos o picos pendientes pueden eliminarse mediante el proceso de "Dar de baja Cuentas por Cobrar" (solo da de baja saldos abiertos de facturas y no de pagos o cobros).
+
+### ¿Como diferencia el sistema la generación de retenciones de proveedor, de la generación de retenciones de cliente?
+
+Al momento de crearse la Retención cuando se completa la factura o mediante el proceso manual; el tipo de documento para la misma es obtenido según el check de transacción de ventas de la factura. Para esto se existe el documento "Retención Cliente", y el comportamiento es el siguiente:
+
+* Si es Documento por Pagar, se obtiene un tipo de documento con check transacción de ventas = N, y tipo de documento base "Retencion" --> "Documento Retención"
+
+* Si es Documento por Cobrar, se obtiene un tipo de documento con check transacción de ventas = Y, y tipo de documento base "Retencion" --> "Retención Cliente"
+
+En el proceso del "Generar Resguardos Masivo", para que el tipo de documento para el resguardo sea obtenido según el tipo de documento de la retención, presenta el siguiente comportamiento:
+
+* Si tipo de doc de retención es transacción de ventas, se obtiene el tipo de doc definido en el campo "Tipo de Documento de Retencion (Débito)" en la definición de retenciones asociada a la retención.
+
+* Si tipo de doc de retención no es transacción de ventas, se obtiene el tipo de doc desde la ventana "LUY CFE Type" para la organización correspondiente y el tipo de CFE "e-Resguardo"
+
 
 ## Procesos
 
@@ -358,3 +376,7 @@ Si. Existe el campo "Regla de Pago" en el proceso "Importar Documentos CxC/CxP" 
 * Carga Documentos por Pagar COP
 
 De esta forma, la factura a crear tendrá la regla de pago que se indique en la planilla, y en su defecto tomará la del socio del negocio.
+
+### ¿El proceso "Copiar Líneas" en cabezal de factura permite copiar líneas de un comprobante de Socio de negocio distinto al documento de origen?
+
+No. EL proceso del botón "Copiar Lineas" en cabezal de factura devuelve mensaje de error en el caso que se esté haciendo una nota de crédito cliente, y se hayan copiado líneas de un documento cuyo Socio Del Negocio sea distinto al de la nota de crédito que se esté creando.
