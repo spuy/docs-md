@@ -353,3 +353,9 @@ Esta información puede obtenerse mediante el reporte “Diario Compras y Ventas
 Para hacer un depósito de cheque diferido vamos a la ventana “Depósito de cheques” aplicamos los filtros que deseemos aplicar y realizamos la búsqueda “Smart browser”.
 
 Luego seleccionamos los cheques a depositar indicando la Cuenta bancaria destino y la Fecha de la transacción y hacemos click en la opción “OK”.
+
+### ¿Es posible hacer una converión a cierta moneda en columnas de importe en el Informe Financiero?
+
+En ventana "Columna de Informe", pestaña "Columna del Informe" existe un check "Convertir Importe" y "Moneda Hacia" para estos fines.
+
+Al marcarse este check y elegir la moneda hacia, se obtiene la tasa de cambio del tipo "Period End" para el período seleccionado al ejecutar el informe (si no se encuentra se devuelve mensaje de error), y se convierte el importe de la columna en cuestión con dicha tasa, a la moneda de destino elegida.
