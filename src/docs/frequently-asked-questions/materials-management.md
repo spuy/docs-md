@@ -110,6 +110,16 @@ Posee las siguientes columnas en las cuales se visualizan los importes desglosad
 * Costo Planeado Recursos
 * Costo Planeado Herramientas
 
+### ¿Cómo obtiene el dato Costo el sistema al contabilizar las salidas de proyecto?
+
+Al momento de contabilizar las salidas de proyectos, el costo se intenta obtener en el siguiente orden:
+
+* Si el documento tiene una Línea de orden, se obtiene el precio actual de la línea de la orden
+
+* Si el documento tiene una línea de informe de gasto, se obtiene el monto convertido multiplicado por la cantidad en la línea del informe de gastos
+
+* Se trata de obtener los costos desde el Detalle de Costo
+
 ## Procesos
 
 ### ¿Qué función cumple el Proceso "Reabastecimiento desde Línea de Proyecto"?

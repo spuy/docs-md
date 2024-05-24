@@ -279,6 +279,19 @@ En el proceso del "Generar Resguardos Masivo", para que el tipo de documento par
 
 * Si tipo de doc de retención no es transacción de ventas, se obtiene el tipo de doc desde la ventana "LUY CFE Type" para la organización correspondiente y el tipo de CFE "e-Resguardo"
 
+### ¿Como identifica el sistema cuando un CFE Recibidos tiene descuentos en sus líneas?
+
+Realiza la identificación del descuento porque el CFE Recibido posee dos campos de Precio.
+Uno es el campo Precio de Lista (I_Invoice.PriceList) donde se agrega el precio del producto sin descuento y el segundo es el Precio Actual (I_Invoice.PriceActual) donde muestra el precio con descuento.
+
+
+::: note
+En el xml de respuesta, el MontoTiemTotal viene multiplicado por la cantidad, el sistema procede a dividir la cantidad para tener el monto de item por el valor real. De esta forma el Precio Actual refleja correctamente el monto con descuento.
+:::
+
+### ¿Existe la posibilidad de modificar la secuencia de Documentos para los casos en qué la numeración por algún problema en invoicy sea afectada?
+
+Para estos casos existe la ventana de "Adelantar Secuencia de CFE" que permite modificar la secuencia por tipo de documento (CFE type) con el objeto de corregir el número siguiente (que se espera en invoicy).
 
 ## Procesos
 
