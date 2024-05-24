@@ -8,7 +8,9 @@ article: false
 
 ## Definición de Retenciones
 
-En la ventana Definición de Retenciones se parametrizan todas las retenciones de DGI, más las que necesite agregar customizada la empresa.
+La ventana Definición de Retenciones permite a los usuarios configurar y gestionar las retenciones fiscales que deben aplicarse a los pagos y transacciones financieras. Las retenciones son montos que se retienen de un pago y se entregan directamente a la autoridad fiscal en nombre del receptor del pago. Este proceso es común en muchas jurisdicciones y puede aplicarse a impuestos sobre ingresos, IVA, y otros impuestos específicos.
+
+Es posible parametrizar todas las retenciones de DGI, más las que necesite agregar customizada la empresa (agregar nuevas o modificar retenciones existentes según la necesidad).
 
 Datos a configurar en el registro de retención (cabezal):
 
@@ -18,6 +20,20 @@ Datos a configurar en el registro de retención (cabezal):
 * WHAmtType: Monto imponible, si se aplica sobre el impuesto, total o subtotal
 * Porcentaje: Porcentaje a retener (0-100)
 * Monto máximo: a retener
+
+### Finalidad de la ventana
+
+* Cumplimiento Fiscal: Asegura que la empresa cumpla con las obligaciones fiscales al retener y remitir los impuestos correspondientes a las autoridades fiscales de acuerdo con las leyes y regulaciones vigentes.
+
+* Automatización de Procesos: Automatiza el proceso de cálculo y aplicación de retenciones en las transacciones financieras, reduciendo errores manuales y mejorando la eficiencia.
+
+* Contabilidad Precisa: Facilita una contabilidad precisa al registrar automáticamente las retenciones en los libros contables, asegurando que los estados financieros reflejen correctamente las obligaciones fiscales de la empresa.
+
+* Reportes Fiscales: Genera reportes detallados sobre las retenciones aplicadas, lo cual es esencial para la presentación de declaraciones fiscales y la auditoría.
+
+* Gestión de Pagos: Permite una gestión adecuada de los pagos a proveedores y empleados, asegurando que las retenciones se apliquen correctamente y que los pagos netos se calculen de manera precisa.
+
+* Transparencia y Control: Proporciona transparencia y control sobre las retenciones fiscales, permitiendo a los administradores revisar y ajustar las configuraciones según sea necesario.
 
 Mono registro:
 
