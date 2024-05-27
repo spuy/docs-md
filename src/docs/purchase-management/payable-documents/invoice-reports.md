@@ -281,6 +281,65 @@ Cumplimiento fiscal: Ayuda en el cumplimiento de obligaciones fiscales al propor
 |   Agente Comercial     |           Agente de la Compañía            |            Indica el Agente comercial para esta región           |
 | Tipo Documento Destino | Documento Destino para convertir Documentos|      La conversión documento es reflejada en el tipo actual      |
 
+
+
+### Facturas sin Asignar
+
+Es un informe que proporciona un listado de todas las facturas emitidas a clientes (cuentas por cobrar) y las facturas recibidas de proveedores (cuentas por pagar) que aún no han sido asignadas a pagos específicos. Este reporte es fundamental para la gestión financiera y de tesorería.
+
+![Facturación Diaria](/assets/img/docs/purchase-management/pum-reports19.png)
+
+#### Finalidad del reporte
+
+1. Gestión de Cuentas por Cobrar y Pagar:
+
+* Clientes: Permite a la empresa realizar un seguimiento de las facturas pendientes de cobro de los clientes, asegurando una gestión efectiva de las cuentas por cobrar.
+
+* Proveedores: Facilita el seguimiento de las facturas pendientes de pago a los proveedores, gestionando adecuadamente las cuentas por pagar.
+
+2. Control del Flujo de Caja:
+
+* Ingresos: Proporciona una visión clara de los ingresos esperados al listar las facturas pendientes de cobro.
+
+* Egresos: Ayuda a prever los desembolsos necesarios al listar las facturas pendientes de pago.
+
+3. Seguimiento y Recordatorios:
+
+* Clientes: Ayuda a identificar a los clientes con pagos pendientes y permite enviar recordatorios de pago y hacer un seguimiento proactivo para cobrar las facturas.
+
+* Proveedores: Facilita el control de las obligaciones de pago, asegurando que las facturas se paguen a tiempo y evitando retrasos y posibles penalidades.
+
+4. Análisis Financiero:
+
+* Permite realizar un análisis financiero completo, evaluando la salud de las cuentas por cobrar y por pagar, y tomando decisiones estratégicas para mejorar la gestión de crédito y cobro.
+
+5. Cumplimiento y Auditoría:
+
+* Mantener un registro detallado de las facturas pendientes es esencial para auditorías internas y externas, asegurando que todas las transacciones se registren y gestionen correctamente.
+
+6. Relaciones con Clientes y Proveedores:
+
+* Clientes: Ayuda a mantener buenas relaciones con los clientes mediante una comunicación clara sobre sus obligaciones financieras.
+
+* Proveedores: Facilita la gestión de relaciones con los proveedores al asegurar pagos oportunos y mejorar la transparencia en las transacciones.
+
+7. Optimización del Capital de Trabajo:
+
+* Clientes: Asegura que los ingresos se reciban de manera oportuna, mejorando la liquidez de la empresa.
+
+* Proveedores: Ayuda a gestionar adecuadamente los desembolsos, manteniendo el capital de trabajo optimizado.
+
+#### Detalle de Columnas que integran el reporte
+
+|         Columna        |              Descripción                   |                            Ayuda                                 |  
+| ---------------------- | ------------------------------------------ | ---------------------------------------------------------------- |
+|   Socio del Negocio    |       Identifica un Socio del Negocio      | Persona con quien realiza transacciones. Cliente, proveedor, etc |
+|    No. del Documento   |          Número del Documento              |          Número de secuencia del documento para cada registro    |
+|     Tipo Documento     |        Tipo de documento o reglas          |  Determina la secuencia del documento y las reglas de proceso    |
+|       F.Facturación    |        Fecha impresa en la factura         |   La fecha de la factura indica la fecha impresa en la factura   |
+|        Factura         |      	Identificador de la factura       |  La ID de Factura identifica únicamente un documento de Factura  |
+|       Gran Total       |            Total del documento             |          Identifica el total, incluye impuestos y fletes         |
+
 ### Facturación Semanal
 
 Este informe muestra un total de factura por Socio del negocio y por semana.
