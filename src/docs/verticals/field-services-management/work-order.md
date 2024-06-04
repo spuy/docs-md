@@ -11,7 +11,7 @@ article: false
 Una orden de trabajo es considerado un Proyecto para Solop ERP.
 Se trata de una unidad de gestión que agrupa un conjunto de entidades que le dan forma y describen un determinado Servicio.
 
-El primer paso para la creación de una Orden de trabajo es ingresar en la ventana el nombre del cliente (Socio del negocio del cual hereda la dirección y precio de lista), la fecha de inicio del servicio a realizar y seleccionar una categoría de Proyecto (y la unidad o departamento).
+El primer paso para la creación de una Orden de trabajo es ingresar en la ventana el nombre del cliente (Socio del negocio del cual hereda la dirección, lista de precio y región de ventas), la fecha de inicio del servicio a realizar y seleccionar una categoría de Proyecto (y la unidad o departamento).
 En este paso solo se genera el evento (no se asignan recursos o productos). Además el sistema creará una línea de proyecto vacía para agilizar el proceso.
 
 ![Orden de Trabajo](/assets/img/docs/field-services-management/fis-services2.png)
@@ -38,7 +38,7 @@ Este estado se debe asignar cuando se marque el check de 'Facturado' en un OV qu
 
 ## Asignación de Recursos
 
-Desde la ventana de Navegador de Proyectos es posible visualizar aquellas órdenes de trabajo que aun no posean agente de comercial (es quien realizará el servicio), seteando el parámetro Agente Compañía como filtro "No tiene valor".
+Desde la ventana de Navegador de Proyectos es posible visualizar aquellas órdenes de trabajo que aun no posean agente comercial (es quien realizará el servicio), seteando el parámetro Agente de Compañía como filtro "No tiene valor".
 
 Una vez asignado a un agente comercial (se selecciona el que corresponda y se ejecuta desde el botón "Project Selection"), el sistema le envía una notificación (solicitud) por el servicio a realizar al agente comercial en cuestión (es posible configurar el envío del mensaje por diferentes vehículos de comunicación).
 
@@ -60,7 +60,7 @@ Al cumplirse estas condiciones el sistema genera el envío de la notificación, 
 
 Una vez realizado el servicio (ejemplo: painting), el agente comercial confirma el trabajo realizado.
 
-Esto permite al departamento de Administración buscar desde el navegador de proyectos (por agente comercial) e ingresar en el campo Trabajo realizado los trabajos a facturar y setear "Trabajo verificado" = SI. 
+Esto permite al departamento de Administración buscar desde el navegador de proyectos (por agente comercial) e ingresar en el campo Trabajo realizado los trabajos a facturar y setear "Trabajo verificado" = SI (así como agregar las notas correspondientes al servicio realizado).
 
 Posteriormente en la orden de trabajo vinculada a ese servicio se agregará en la línea (o líneas si es más de un trabajo realizado) de orden de trabajo el/los productos confirmados por el agente comercial.
 
@@ -111,6 +111,6 @@ De esta forma se obtiene el nuevo precio de lista, al cual luego se aplica el po
 
 ### Definición para Servicios realizados por empleados internos (sin costo directo)
 
-Pueden existir productos/servicios que no posean un costo asociado. En estos casos no se genera ningún Documento por pagar al al generar órdenes de este tipo de productos ya que serán realizados por personal de la empresa (no facturan por servicio realizado).
+Pueden existir productos/servicios que no posean un costo asociado. En estos casos no se genera ningún Documento por pagar al generar órdenes de este tipo de productos, ya que serán realizados por personal de la empresa (no facturan por servicio realizado).
 
 Al momento de aplicar el proceso de generar órdenes se crea normalmente la Orden de Venta (para su posterior facturación al cliente) y la orden de compra se genera en valor cero y estado "no válido".
