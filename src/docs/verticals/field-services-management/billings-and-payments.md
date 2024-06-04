@@ -8,7 +8,7 @@ article: false
 
 ### Generar Facturas desde Línea de Orden
 
-Una vez generada la Orden de venta (junto con la orden de compra y documento por pagar desde generar orden desde proyecto), desde el proceso Generar Factura desde línea de orden es posible de forma automática crear los documentos por cobrar (factura al cliente).
+Una vez generada la Orden de venta (junto con la orden de compra y documento por pagar desde generar orden desde proyecto), a través del proceso Generar Factura desde línea de orden es posible de forma automática crear los documentos por cobrar (factura al cliente).
 Para esto como requisito la Orden de Venta debe estar seteada como Permite Facturar = SI. Debe seleccionarse la fecha de facturación, la accion en el documento (si la factura se genera en estado completo o en estado borrador) y el tipo de agrupación (por ejemplo: por orden).
 
 ![Generar Factura desde Línea de orden](/assets/img/docs/field-services-management/fis-services6.png)
