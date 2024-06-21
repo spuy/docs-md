@@ -18,3 +18,4 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 - [Proyecto de Medios](service-project/media-project)
 - [Proyecto de Agencia Creativa](service-project/creative-agency-project)
 - [Proyecto de Producción](service-project/production-project)
+- [Proyecto Agencia de Marketin](service-project/marketing-agency)
