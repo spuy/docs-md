@@ -17,7 +17,9 @@ Asimismo, ofrece opciones con las cuales la empresa puede acceder a datos estad�
 El propósito de **Solop ERP** es apoyar a nuestros clientes, dar respuestas rápidas y eficientes con el manejo de información para permitir la toma de decisiones y minimizar los costes.
 
 - [Tipo de Aplicación](type-application)
-- [Reportes Contables](reports)
+- [Parametrización de cuentas Contables predeterminadas](default-accounts)
+- [Analizando Cuentas Contables de Tránsito](accounts-in-transit)
+- [Generalidades de la Contabilidad Solop ERP](account-overview)
 
 ### Documentos Contables
 
