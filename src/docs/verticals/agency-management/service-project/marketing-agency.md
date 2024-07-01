@@ -58,3 +58,13 @@ Una vez generadas las tareas por cada línea de orden de trabajo, el paso poster
 La gestión de carga de horas y estado de las tareas se realiza desde Solicitudes (Asunto) y una vez que todas las tareas vinculadas a una orden de trabajo se encuentran finalizadas, la misma podrá ser facturada a cliente.
 
 ![Generar Orden](/assets/img/docs/agency-management/agm-agency5.png)
+
+### Crear Marcas de Clientes
+
+Ventana: **"Campaña"**
+
+En la pestña de clientes se debe definir el cliente(s) para un correcto funcionamiento del link del campo, para que desde el Proyecto se muestren las marcas que posee cada cliente (una vez se defina el cliente en el proyecto).
+
+![Generar Orden](/assets/img/docs/agency-management/agm-agency6.png)
+
+![Generar Orden](/assets/img/docs/agency-management/agm-agency7.png)

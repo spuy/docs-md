@@ -13,6 +13,7 @@ Cada vertical se encuentra diseñada por Solop ERP para satisfacer las necesidad
 - [Gestión de Agencias de Publicidad](agency-management)
 - [Gestión Educación](education-management)
 - [Gestión de Asistencia al Agricultor](fap)
+- [Gestión de Constructora](construction-management)
 - [Gestión de Servicios Tercerizados](field-services)
 - [Gestión de Préstamos e Inversiones](investment-and-loan)
 
