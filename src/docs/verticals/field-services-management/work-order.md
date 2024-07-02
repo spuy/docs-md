@@ -64,6 +64,11 @@ Esto permite al departamento de Administración buscar desde el navegador de pro
 
 Posteriormente en la orden de trabajo vinculada a ese servicio se agregará en la línea (o líneas si es más de un trabajo realizado) de orden de trabajo el/los productos confirmados por el agente comercial.
 
+En ventana de orden de trabajo es posible visualizar el campo "Fecha de Verificación", en modo de sólo lectura.
+En este campo se asigna la fecha en la cual el check "Trabajo Verificado" se marca en 'Y', ya sea de forma manual en la ventana, o mediante en proceso "Navegador de Proyectos" (si el check de verificado se marca en 'N', la actual fecha de verificación se borra).
+
+En dicho proceso se existe una columna con el dato "Fecha de Verificación" y también como filtro.
+
 ![Línea de Proyecto](/assets/img/docs/field-services-management/fis-services4.png)
 
 ## Generar Orden desde Proyecto
