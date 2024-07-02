@@ -106,7 +106,7 @@ Seleccione el checklist **POS Compartido**, para indicar que el punto de venta e
 
 Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP para guardar el registro de los campos de la ventana **Terminal PDV**.
 
-Checks de definición en punto de venta:
+### Checks de definición en punto de venta:
 
 * POS compartido: Definir si este punto de venta podrá ser compartido por más de un agente comercial o no Si tiene definido el check será compartido.
 * Permitir devolución: este cheque definirá si se podrá permitir realizar devoluciones desde este punto de venta.
@@ -117,7 +117,7 @@ Checks de definición en punto de venta:
 * Permitir confirmar entrega: este check definida si se podrá Define confirmar una entrega en este punto de venta.
 * Permitir crear Cliente Nuevo: este check definiriá si esta terminal puede generar un nuevo cliente o no
 
-**Definición de Máximo:**
+### Definición de Máximo:
 
 Reembolso máximo diario permitido en este campo se podrá definir un importe de reembolso máximo permitido para un día esto se manejara en moneda de la lista de precio del punto de venta si están cero no tendrá máximo definido
 
@@ -127,14 +127,14 @@ Campaña por defecto: este campo definirá una campaña por defecto que se le De
 
 Máximo descuento: este campo define el máximo descuento que se podrá brindar en el punto de venta
 
-**Operaciones permitidas para El vendedor**
+### Operaciones permitidas para El vendedor
 
 * Permitir asignar vendedor: si tiene el check definido El vendedor podrá asignar un nuevo vendedor a una orden de venta.
 * Permitir uso concurrente: Esto permitirá que un punto de venta pueda ser utilizado a la misma vez por más de un vendedor.
 * Permitir Apertura de Caja: Este cheque definirá si se podrá hacer una apertura de caja desde el punto de venta.
 * Permitir Retiro de Caja: Este check define si se podrán realizar retiros de caja desde el punto de venta.
 
-**Documentos por defecto:**
+### Documentos por defecto:
 
 * Documento de apertura punto de venta: Este documento será el utilizado para realizar las aperturas del punto de venta desde el punto de venta. Se deberá definir en este Tipo de Documento como Documento Controlado y se deberá definir una secuencia única.
 * Documento para retiro de caja: Este documento será el utilizado para realizar los retiros desde el punto de venta. Se deberá definir en este Tipo de Documento como Documento Controlado y se deberá definir una secuencia única.
@@ -172,7 +172,7 @@ En cada tipo de documento se podrá definir Si requiere el control de Pin o no
 
 En esta pestaña se definirán los esquemas de descuentos que podrán ser utilizados en el punto de venta
 
-**Vendedores asignados**
+### Vendedores asignados
 
 En esta pestaña se definirán aquellos vendedores que podrán utilizar el punto de venta.
 

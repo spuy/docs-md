@@ -49,3 +49,36 @@ Se selecciona la fecha del documento y la acción sobre el documento (preparar o
 En el caso de seleccionar la acción "Completar" ingresa en el circuito de envío de facturas a la entidad fiscal (según corresponda) así como el envío de la representación gráfica a los clientes vía e mail.
 
 ![Generar Factura](/assets/img/docs/construction-management/com-image7.png)
+
+## Reporte "Detalle de Avance de Proyecto"
+
+El reporte Detalle de Avance de Proyecto muestra los mismos datos que el smart browser "Generar Orden desde Línea de Proyecto".
+Permite filtrar por parámetros de "Proyecto" y "Fase de Proyecto".
+
+### Detalle de columnas
+
+- Total Planeado: es el total planeado de la línea de proyecto
+
+- Cant. Planeada: es la cantidad planeada de la línea de proyecto
+
+- Cuenta Facturada: es el importe de cuenta facturada de la línea de proyecto
+
+- Cant. Facturada: es la cantidad facturada de la línea de proyecto
+
+- Cant. Cometida: es la cantidad cometida de la línea de proyecto
+
+- % Trabajo Terminado: es el % de trabajo terminado de la línea de proyecto
+
+- % Facturado: si la cant. planeada de la línea de proyecto es mayor a cero entonces será el resultado de (cuenta facturada * 100)/cant. planeada, de lo contrario el valor de esta columna será cero
+
+- % a Facturar: es el resultado de (% trabajo terminado - % facturado)
+
+- Cant. a Facturar: es el resultado de (cant. cometida - cant. facturada)
+
+- Importe a Facturar: es el resultado de (cant. a facturar * precio planeado de línea de proyecto)
+
+### Reporte disponible para los roles:
+
+* Administrador
+
+* Constructora - Admin

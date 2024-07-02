@@ -36,6 +36,11 @@ El Cheque Diferido por Cobrar será creado y lo podrá ver en la ventana de Cheq
 
 ![Ventana Cheque Diferido](/assets/img/docs/balance-management/bam-deferred3.png)
 
+### Anular un cheque diferido por Cobrar
+
+En este caso, para anular el cheque diferido por cobrar se deberá anular el documento que generó el Cheque Diferido por Cobrar. Desde el Recibo de Cobro que lo generó.
+Al anular el recibo de cobro se anulará el cheque diferido por cobrar generado.
+
 ### **Reporte de Cheques Diferidos por Cobrar**
 
 ### **Ventana de Cheques Diferidos por Cobrar**

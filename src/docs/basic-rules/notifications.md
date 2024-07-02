@@ -125,6 +125,20 @@ From Account name: desde donde se origina la notificación.
 
  ![Cola de Notificación](/assets/img/docs/basic-rules/bar-not-notification1.png)
 
+ #### Parametrización de Cola de Notificación
+
+ La Cola de Notificaiones funciona como una aplicación que se configura en el Registro de Aplicaciones de Solop ERP y utiliza para el envío de correos la configuración de envío de correos de la Compañía y/o Organización.
+
+Siguiendo los siguientes pasos se podrá realizar la configuración inicial de este aplicativo.
+
+**Configuración Inicial de Cóla de Notificaciones**
+
+* Se deben crear 2 App Registrations
+
+* Y una entrada en el Programador de Procesos
+
+Al configurar la Cola de Notificaciones se deberá también realizar la configuración de Correo de la Compañía y/o de la Organización para que las notificaciones por correo sean enviadas y no queden registradas con error en el Programador de Procesos
+
 ### Recipientes de Cola de Notificación
 
 Es un registro de notificaciones generados dentro del sistema y con sus diferentes destinatarios. 
