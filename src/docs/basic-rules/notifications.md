@@ -54,6 +54,43 @@ En la opción de Plantilla de notificación es posible configurar templates por 
 
  ![Solicitud](/assets/img/docs/basic-rules/bar-not-solicitud1.png)
 
+ ### Ventana Todas las Solicitudes
+
+### Solicitudes Asignadas a uno
+
+Esta ventana será la que el usuario siempre ingresará para ver todo lo que tiene pendiente de realizar, viendo claramente todo lo que tiene pendiente.
+
+En la ventana “Solicitudes” se podrán visualizar todas las Solicitudes que estén asignadas a uno mismo (su Usuario) o al Departamento que uno pertenece.
+
+### Ventana Solicitud (acceso directo a la ventana)
+
+Esta ventana será de muy fácil acceso, existiendo un acceso directo desde la Bandeja de Entrada del usuario con el Botón “Solicitudes”. Al costado del nombre del botón se podrá visualizar la cantidad de sus Solicitudes que tiene “Vencidas”
+
+### Todas las Solicitudes
+
+En esta Ventana de “Todas las Solicitudes” se podrá visualizar todas las Solicitudes que estén creadas en el sistema. Cada usuario podrá ver las que le permita su Rol y en la misma se podrá aplicar los filtros deseados para buscar las que necesite ver.
+
+### Solicitudes de Cuentas
+
+La Ventana de “Solicitudes de Cuentas” está creada para que los Ejecutivos de cuenta específicamente (que serán “Gerentes de Proyecto” de todos aquellos proyectos que estén bajo su control) puedan visualizar en una misma ventana todas las Solicitudes que están pendientes dentro de los sus Proyectos.
+
+Estas podrán estar asignadas a ellos o a cualquier otro usuario.
+
+### Historial de Actualizaciones de Solicitud (Feed)
+
+Dentro de cada Solicitud se podrá visualizar el historial de actualizaciones que tuvo la misma a lo largo del tiempo. En cada Actualización se podrá visualizar el cambio realizado y por quién fue realizado. En caso de haber adjuntado una imagen la misma se podrá visualizar en modo “Registro único” sin tener que ver el adjunto en la Barra de Herramientas.
+
+### Notificaciones de Actualización
+
+Cada Solicitud envía notificaciones de sus actualizaciones a los usuarios definidos como:
+
+* Asignado A
+* Creado Por
+* Departamento
+* Aviso de Actualización
+
+Como verá, además de los usuarios vinculados, dentro de cada Solicitud se podrá agregar diferentes usuarios para que les llegue vía correo electrónico las notificaciones por actualización de las mismas, independientemente de los demás criterios. Para ello simplemente se deberá navegar a la pestaña “Aviso de Actualización” y agregar manualmente el o los usuarios a recibir notificaciones.
+
 ### Notificación desde Proyectos
 
   Es posible vincular una solicitud a un proyecto (así como a otras entidades). O bien, en sentido contrario, es posible generar una solicitud que posteriormente será origen de un proyecto (en ambos casos quedarán vinculados). 

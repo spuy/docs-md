@@ -66,7 +66,7 @@ Los asientos contables en Solop no son comprimidos, sino que son tan detallados 
 
 Esto trae como consecuencia que los reportes contables en Solop ERP sean un resumen de muchos asientos contables. Eso es una diferencia con también con las otras contabilidades que prácticamente del asiento contable ya está resumido, en Solop ERP no; el asiento contable es muy detallado.
 
-## **Cuentas Puente**
+## Cuentas Puente
 
 Debido a la alta automatización con la que cuenta Solop ERP permitiendo que cada Documento genere el impacto contable que le corresponde, esto ocasiona que en varios de los procesos normales empresariales, Solop ERP maneje Cuentas Puente que irán regularizando lo que "El Documento" en sí sabe que puede aplicar contablemente. Esto permite que siempre se cuente con una realidad exacta, permitiendo cada una de las acciones que pueden ser posibles de darse en el ámbito empresarial, puedan ser reflejada automáticamente en la contabilidad y no requiera de ningún ajuste posterior ni control de que ocurra alguna acción adicional para poderlo contabilizar.
 

@@ -41,17 +41,17 @@ Debita con Conciliación Bancaria
 
 Acredita con: Pagos
 
-## Reporte de Pagos/Cobros sin conciliar
+### Reporte de Pagos/Cobros sin conciliar
 
 La composición de la Cuenta Contable Cheques en Tránsito se analiza en el **Reporte de Pagos sin Conciliar.**
 
 Dicho reporte mostrará aquellos documentos de Pago/Cobro que involucren a Cuentas Bancarias y que no han sido conciliados aún.
 
-## Analizando Pagos/Cobros sin conciliar mediante el Balance de Prueba.
+### Analizando Pagos/Cobros sin conciliar mediante el Balance de Prueba.
 
 Podrá realizar los siguientes pasos que le ayudará a comprender y verificar el saldo de esta cuenta:
 
-### Transacciones con una sola moneda
+#### Transacciones con una sola moneda
 
 1. Emitir el Balance de Prueba de la cuenta contable "Cheques en Tránsito" por Socio de Negocio.
 2. Exportar con formato XLSX.
@@ -62,7 +62,7 @@ Podrá realizar los siguientes pasos que le ayudará a comprender y verificar el
 7. Las transacciones que quedaron sin identificar corresponderá al saldo de la cuenta. Es decir a los Pagos/Cobros sin Conciliar.
 8. También podrá emitir el Reporte de Pagos sin Conciliar (le mostrará los pagos no conciliados a la fecha, cualquier estado).
 
-### Transacciones en varias monedas
+#### Transacciones en varias monedas
 
 1. Emitir el Balance de Prueba de la cuenta contable "Cheques en Tránsito" por Socio de Negocio y Moneda.
 2. Exportar con formato XLSX.
@@ -159,7 +159,7 @@ Debita con: Documento por Pagar                Acredita con: Asignación
 
 La cuenta Ajustes a Costos de Productos se parametriza en la ventana Esquema Contable, pestaña por Defecto sector Producto.
 
-# Depósitos sin Facturar (Pasivo)    21190
+## Depósitos sin Facturar (Pasivo)    21190
 
 La cuenta Depósitos sin Facturar (o Recepciones sin Facturar) se parametriza en la ventana Esquema Contable, pestaña por Defecto sector Socio del Negocio.
 
@@ -169,7 +169,7 @@ Esta cuenta de verificación refleja los Productos recepcionados y cuya recepci�
 
 Debita con: Asignación                               Acredita con: Recepción
 
-### **Identificación de los documentos Entregas/Delivery sin facturar mediante Reporte**
+### Identificación de los documentos Entregas/Delivery sin facturar mediante Reporte
 
 La composición de la Cuenta Contable Entrega Pendiente de Facturar se analiza en el **Reporte Recepciones sin Facturar**
 
@@ -177,7 +177,7 @@ Dicho reporte mostrará aquellos documentos de Recepción que no han sido asigna
 
 ### Identificación de la composición del Saldo mediante el balance de Prueba
 
-# Entrega pendiente de Facturar
+## Entrega pendiente de Facturar
 
 La cuenta Pendiente de Facturar se parametriza en la ventana Esquema Contable, pestaña por Defecto sector Socio del Negocio.
 
@@ -187,7 +187,7 @@ La cuenta contable de *Entrega Pendiente de Facturar* (o Cuentas por Cobrar sin 
 
 Debita con: Entrega/Delivery                                Acredita con: Documento por Cobrar
 
-### **Identificación de los documentos Entregas/Delivery sin facturar mediante Reporte**
+### Identificación de los documentos Entregas/Delivery sin facturar mediante Reporte
 
 La composición de la Cuenta Contable Entrega Pendiente de Facturar se analiza en el **Reporte Entregas sin Facturar**
 
