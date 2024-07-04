@@ -10,6 +10,8 @@ article: false
 
 ## Proyecto de Agencia Creativa
 
+Los Proyectos de Agencia Creativa se utilizan para crear, implementar y gestionar estrategias y campañas de marketing para ayudar a otras empresas a promover sus productos o servicios. Estas agencias ofrecen una variedad de servicios, que pueden incluir marketing digital, publicidad, relaciones públicas, diseño gráfico, desarrollo de contenido, gestión de redes sociales, SEO (optimización de motores de búsqueda), SEM (marketing en motores de búsqueda) y análisis de datos. Su objetivo principal es aumentar la visibilidad, el alcance y las ventas de sus clientes a través de tácticas efectivas y personalizadas. Solop ERP contempla estos procesos, diseñando un circuito que se adapta a sus necesidades.
+
 El Proyecto de Agencia Creativa será donde se deba ingresar todo pedido realizado por el cliente. Desde el Proyecto se vinculará todos los documentos que se haya generado a causa dicho Pedido a lo largo de toda la organización (Solicitudes, Orden de Compra, Orden de Venta, Cotizaciones, Tareas, etc) y será desde donde se defina la facturación a realizar.
 
 Cada Proyecto de Agencia podrá tener un Brief, este será la descripción del servicio solicitado por el Cliente. Este se puede definir tanto en un Campo Texto o bien adjuntando un archivo directo en el Proyecto. Según el tamaño y complejidad del mismo, este podrá Fases, Tareas y Solicitudes vinculadas separando así el trabajo a realizar.
@@ -56,7 +58,9 @@ Proyecto de Medios Digitales
 
 Agencia de Medios Digitales
 
-\*Si no se obtuvo sello de origen se lanza una excepción.
+::: note
+Si no se obtuvo sello de origen se lanza una excepción.
+:::
 
 ![Partes del Contrato](/assets/img/docs/project-management/prm-project2.png)
 
@@ -64,27 +68,65 @@ Según el usuario logueado en el sistema:
 
 Agente Comercial: Este campo en el cabezal de un Proyecto tomará de forma automática al usuario logueado en el sistema siempre que este tenga el check de “Agente comercial” en “Y”, en la Pestaña “Empleado” de la ventana “Socio de negocio”.
 
-### Cotización para Clientes
+## Generación de órdenes de trabajo
 
-El Ejecutivo de Cuentas creará un Proyecto en el cual definirá lo solicitado por el cliente. En caso de que el mismo incluya realizar una Cotización de determinados servicios/productos a diferentes proveedores externos se deberá seleccionar un Tipo de Proyecto que contemple la “Cotización”.
+Una orden de trabajo es considerado un Proyecto para Solop ERP.
+Se trata de una unidad de gestión que agrupa un conjunto de entidades que le dan forma y describen un determinado Servicio.
+Además, se trata de una dimensión contable, con el fin de poder obtener reportes financieros por Proyecto.
 
-Los Tipos de Proyecto pueden ser:
+El primer paso para la creación de una Orden de trabajo es ingresar en la ventana el nombre del cliente (Socio del negocio del cual hereda la dirección y lista de precio), el campo Nombre (nombre de la campaña), fechas (opcionales), seleccionar una categoría de Proyecto, clase de Proyecto y una Descripción (o brief, dato manual opcional).
+Al grabado queda generado el registro de orden de trabajo (cabezal).
 
-Producción Interna + Cotización: En caso que se necesite trabajos de creatividad como también cotización a proveedores. Al seleccionarla se crearán automáticamente 2 Fases:
+![Proyecto de Marketing](/assets/img/docs/agency-management/agm-agency1.png)
 
-Cotización: En caso que sólo se deba gestionar la cotización de determinados servicios o trabajos. Al seleccionarla se creará automáticamente 1 Fase:
+### Líneas de Orden de Trabajo
 
-En ambos Tipos de Proyecto se deberá también definir el Nivel de Línea “Tarea”.
+Una vez creado el cabezal de la orden de trabajo (Proyecto) el ejecutivo puede crear la/s líneas de la orden.
+Se trata de las tareas vinculadas al proyecto, o sea, los diferentes pedidos de un cliente para un determinado negocio.
+Este circuito se realiza en dos partes:
 
-Dentro de la Fase *Producción*, el Ejecutivo de Cuenta deberá crear como TAREAS todos las diferentes Cotizaciones que se deberán realizar clasificando según “Tema a Cotizar”.
+* Primero el ejecutivo carga en el campo descripción el pedido específico de la tarea. Ingresa el nombre de la tarea en el campo "Material". Incorpora la cantidad, la unidad de duración (en general es "Hora") y fecha prometida (opcional).
 
-En cada TAREA se podrá definir una *Categoría* de “Cotización a Proveedores” para que facilite su identificación. Además se podrá asignar a un *Responsable* de la misma (Considerar que para poder asignar como responsable a un usuario, el mismo deberá estar definido como “Miembro del Proyecto”).
+* En un segundo paso el responsable de ejecutivos de cuentas (o quien cotiza) define el producto de las líneas. Cada producto posee un tarifario propio, el cual determina el precio del trabajo a realizar.
 
-Fase generada automáticamente. Sólo se deberá agregar en el campo “Detalle Cotización” el detalle de lo que se desea Cotizar.
+![Línea de Proyecto](/assets/img/docs/agency-management/agm-agency2.png)
 
-*Descripción*: se deberá definir el el texto que se enviará al Proveedor en la Solicitud de Cotización. Este podrá ser modificado si se desea luego por Producción.
+### Proceso Generar Orden
 
-Campo “Ayuda”: se podrá agregar un comentario para que Producción considere en caso de ser necesario para realizar la cotización.
+Cuando cada línea de orden de trabajo posee su producto definido (así como el resto de sus datos obligatorios) el responsable de ejecutivos de cuentas (o quien realiza cotización) corre el proceso "Generar Orden" desde el cabezal de la orden de trabajo definiendo en el campo Sub tipo ov = Propuesta, y en el campo Tipo de Documento = Cotización de Venta.
+Esto genera la orden de venta con la correspondiente cotización al cliente.
+Es posible imprimir/exportar para envío y aprobación por parte del contacto de nuestro cliente.
+
+![Generar Orden](/assets/img/docs/agency-management/agm-agency3.png)
+
+### Convertir Cotización
+
+Cuando el cliente notifica la aprobación de la cotización enviada, desde el proceso de menú "Convertir Cotización" es posible generar la Orden de Venta firme (definitiva).
+
+Esto realiza en automático la marca de Aprobación por cliente = SI en la Orden de trabajo vinculada, así como la creación de tantas tareas como líneas posea la orden de trabajo (genera solicitudes). También genera el cierre de la Orden de Venta Cotización.
+
+Las tareas pueden visualizarse desde los documentos relacionados o solapa Solicitudes en la misma orden de trabajo.
+
+![Generar Orden](/assets/img/docs/agency-management/agm-agency4.png)
+
+### Asignación de agentes de compañía a las diferentes tareas
+
+Una vez generadas las tareas por cada línea de orden de trabajo, el paso posterior es asignar recurso a cada una de estas tareas (diseñadores) con el fin de dar seguimiento al status de cada trabajo.
+
+La gestión de carga de horas y estado de las tareas se realiza desde Solicitudes (Asunto) y una vez que todas las tareas vinculadas a una orden de trabajo se encuentran finalizadas, la misma podrá ser facturada a cliente.
+
+![Generar Orden](/assets/img/docs/agency-management/agm-agency5.png)
+
+### Crear Marcas de Clientes
+
+Ventana: **"Campaña"**
+
+En la pestña de clientes se debe definir el cliente(s) para un correcto funcionamiento del link del campo, para que desde el Proyecto se muestren las marcas que posee cada cliente (una vez se defina el cliente en el proyecto).
+
+![Generar Orden](/assets/img/docs/agency-management/agm-agency6.png)
+
+![Generar Orden](/assets/img/docs/agency-management/agm-agency7.png)
+
 
 ### Generar Orden de Venta desde Solicitud de Cotización
 
@@ -101,45 +143,6 @@ Al Completar la Orden de Venta luego de la aprobación del Cliente, automáticam
 ### Orden de Venta con Margen
 
 En caso de contar con “% de Margen” (Mark-Up), el precio real enviado por la Cotización se definirá en la línea de la Orden de Compra. En caso de no existir “Mark-Up” los precios de la Orden de Venta y los precios de la Orden de Compra serán iguales.
-
-### Compra Directa a un Proveedor en nombre de Cliente
-
-Cuando el Proyecto incluya realizar una compra específica a un proveedor pero que no es necesario pasar por el proceso de generar una Solicitud de Cotización (RFQ), se podrá gestionar la misma de forma directa desde una Fase.
-
-En este caso, los pasos a seguir serán:
-
-Definir el Proyecto mínimo con Nivel de Línea “Fase”
-
-En la Fase activar el check Entrega Directa
-
-Definir un Proveedor como “Socio del Negocio de Entrega Directa”
-
-En las Líneas de Tarea definir el Producto, precio y cantidad
-
-Desde la Fase generar una Orden de Venta al Cliente pero Generar la Orden desde el botón de Generar Orden de Venta ubicado en la Fase.
-
-Seleccionar Tipo de Orden “Orden de Venta con Aprobación”
-
-Dicho Proceso generará una Orden de Venta con el Proveedor definido como Entrega Directa. Esto hará que al completarse la Orden de Venta, se genera automáticamente una Orden de Compra al Proveedor enlazada con esta Orden de Venta.
-
-La Orden de Compra se podrá encontrar en el campo “Orden enlazada” de la Orden de Venta.
-
-IMPORTANTE: Tener en cuenta que el Producto definido en la línea de la Orden de Venta, deberá estar definido tanto en la Lista de Precios de la Orden de Venta, como también en la Lista de Precios que el Proveedor tenga definida por defecto en su definición de Socio del Negocio. Para evitar esto podemos dejar el campo Lista de Precios de Compra del Proveedor vacío.
-
-### Checking
-
-Luego de contar con una “Orden de Compra” en Estado “Completo”, la misma se deberá confirmar mediante su delivery mediante el Checkin.
-
-El checking se puede acceder de dos maneras:
-
-1. Barra de Herramientas/Procesos (engranaje). Desde los Procesos definido en el Proyecto que se estará verificando el delivery. Para ver los procesos del Proyecto se deberá oprimir el botón de proceso ubicado en la Barra de Herramientas seleccionando “Checkin”.
-2. Menú. Desde el proceso Checkin ubicado en el menú, en este caso se podrá filtrar según desee pudiendo ver más de un proyecto a la vez para confirmar.
-
-Documentos sobre los que se debe realizar checking:
-
-* Se debe realizar checking sobre todas las órdenes de venta inversión del cliente menos la “OV compra paquete” dónde el checking se realiza sobre las órdenes de consumo.
-
-Los Procesos desde la Barra de Herramientas no se actualizan automáticamente, por lo que si lo presionó desde la Fase, recordará los Procesos de la Fase. para solucionarlo deberá ingresar nuevamente a la ventana y presionar “Procesos” desde la pestaña de proyecto.
 
 ### Nivel de Línea: Proyecto (Creativo Simple) / Primer Nivel
 
@@ -227,46 +230,7 @@ Dentro de una Solicitud se podrá agregar *Comentarios* y modificar el “*Asign
 
 Cada Actualización que se realice sobre la Solicitud, el sistema estará enviando automáticamente notificaciones a cada usuario que esté vinculado a la misma. El tipo de Notificación a enviar dependerá de la Configuración de Notificaciones que cada usuario tenga definida (e-mail o aviso interno).
 
-*\*para ver más en detalle sobre las notificaciones ver “Notificaciones del Sistema”.*
-
-## **Ventana Todas las Solicitudes**
-
-### **Solicitudes Asignadas a uno**
-
-Esta ventana será la que el usuario siempre ingresará para ver todo lo que tiene pendiente de realizar, viendo claramente todo lo que tiene pendiente.
-
-En la ventana “Solicitudes” se podrán visualizar todas las Solicitudes que estén asignadas a uno mismo (su Usuario) o al Departamento que uno pertenece.
-
-### Ventana Solicitud (acceso directo a la ventana)
-
-Esta ventana será de muy fácil acceso, existiendo un acceso directo desde la Bandeja de Entrada del usuario con el Botón “Solicitudes”. Al costado del nombre del botón se podrá visualizar la cantidad de sus Solicitudes que tiene “Vencidas”
-
-### Todas las Solicitudes
-
-En esta Ventana de “Todas las Solicitudes” se podrá visualizar todas las Solicitudes que estén creadas en el sistema. Cada usuario podrá ver las que le permita su Rol y en la misma se podrá aplicar los filtros deseados para buscar las que necesite ver.
-
-### Solicitudes de Cuentas
-
-La Ventana de “Solicitudes de Cuentas” está creada para que los Ejecutivos de cuenta específicamente (que serán “Gerentes de Proyecto” de todos aquellos proyectos que estén bajo su control) puedan visualizar en una misma ventana todas las Solicitudes que están pendientes dentro de los sus Proyectos.
-
-Estas podrán estar asignadas a ellos o a cualquier otro usuario.
-
-### Historial de Actualizaciones de Solicitud (Feed)
-
-Dentro de cada Solicitud se podrá visualizar el historial de actualizaciones que tuvo la misma a lo largo del tiempo. En cada Actualización se podrá visualizar el cambio realizado y por quién fue realizado. En caso de haber adjuntado una imagen la misma se podrá visualizar en modo “Registro único” sin tener que ver el adjunto en la Barra de Herramientas.
-
-### Notificaciones de Actualización
-
-Cada Solicitud envía notificaciones de sus actualizaciones a los usuarios definidos como:
-
-* Asignado A
-* Creado Por
-* Departamento
-* Aviso de Actualización
-
-Como verá, además de los usuarios vinculados, dentro de cada Solicitud se podrá agregar diferentes usuarios para que les llegue vía correo electrónico las notificaciones por actualización de las mismas, independientemente de los demás criterios. Para ello simplemente se deberá navegar a la pestaña “Aviso de Actualización” y agregar manualmente el o los usuarios a recibir notificaciones.
-
-### Solicitud Pestaña Aviso de Actualizaciones
+para ver más en detalle sobre las notificaciones ver “Notificaciones del Sistema”.
 
 ### Tipo de Proyecto
 
