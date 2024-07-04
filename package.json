@@ -29,6 +29,7 @@
     "@vuepress/client": "2.0.0-beta.48",
     "@vuepress/plugin-docsearch": "2.0.0-beta.48",
     "axios": "^0.27.2",
+    "pnpm": "8.6.5",
     "sass-loader": "13.0.0",
     "vue": "3.2.37",
     "vuepress-theme-hope": "2.0.0-beta.84",
@@ -40,7 +41,7 @@
     "markdownlint-cli": "0.31.1",
     "prettier": "2.6.2"
   },
-  "packageManager": "pnpm@7.3.0",
+  "packageManager": "pnpm@9.1.1",
   "pnpm": {
     "peerDependencyRules": {
       "ignoreMissing": [
