@@ -6,7 +6,7 @@ sticky: 9
 article: false
 ---
 
-### **e-Factura**
+### e-Factura
 
 Si se requiere generar una e-Factura, es requisito que el Cliente disponga de un RUT definido en la definición del Socio del Negocio.
 
@@ -15,19 +15,23 @@ Ventana Socio del Negocio:
 * **Grupo de Impuestos:** Debe seleccionarse “RUT”
 * **Número de Identificación:** Debe ir el número del RUT
 
-### **e-Ticket**
+### e-Ticket
 
 Para los “e-ticket” no es requisito identificar el cliente a quién se está realizando el mismo (siempre y cuando no supere los 10.000 UI) permitiendo en estos casos generar e-Ticket a un Cliente por defecto (por ej: Mostrador) donde la venta sería un “Consumidor Final”.
 
 Sólo para aquellos casos que supere los 10.000 UI se deberá identificar el Cliente con su Nombre y Número de Cédula.
 
-#### **¿Cómo defino el número de Cédula en un Cliente?**
+#### ¿Cómo defino el número de Cédula en un Cliente?
 
 En el caso de que se requiera incluir la Cédula en un Cliente, se puede hacer desde la ventana “Socio del Negocio”
 
-* **En el campo “Número de Identificación” se coloca la cédula del SDN.**
+::: note
+En el campo “Número de Identificación” se coloca la cédula del SDN.
+:::
 
-### **Envío del Comprobante Fiscal a DGI**
+![Socio del negocio](/assets/img/docs/electronic-billing/elb-billing10.png)
+
+### Envío del Comprobante Fiscal a DGI
 
 El Envío del Comprobante Fiscal Electrónico (CFE), ya sea e-Factura o e-Ticket se genera cuando se “Completa” el Documento en cuestión desde Solop ERP.
 
@@ -40,9 +44,11 @@ Al confirmar con el botón del check desde el “POS” o con el botón “Compl
 * **Genera la Factura y la completa, realizando el envío a Invoicy y generando la Representación Impresa del CFE.**
 * **Si en InvoiCy todo esta OK, esta devuelve la representación impresa en una nueva pestaña.**
 
-**NOTA:** Este lapso entre que el documento va a InvoiCy y DGI y es devuelto puede tener un tiempo de espera que variara dependiendo de diversas condiciones (ancho de banda del ISP, estado de procesamiento en DGI, etc.)
+::: note
+Este lapso entre que el documento va a InvoiCy y DGI y es devuelto puede tener un tiempo de espera que variara dependiendo de diversas condiciones (ancho de banda del ISP, estado de procesamiento en DGI, etc.)
+:::
 
-### **Datos del CFE en Solop ERP:**
+### Datos del CFE en Solop ERP:
 
 Todos la información referente a la Facturación Electrónica del CFE se puede visualizar en la Pestaña CFE ubicada en la Ventana de Documentos por Cobrar.
 
@@ -58,9 +64,11 @@ Todos la información referente a la Facturación Electrónica del CFE se puede 
 
 **Estado del CFE:** Para visualizar el Estado actualizado del Envío del CFE a DGI se deberá ingresar a la Plataforma de Facturación Electrónica. Por Solop ERP sólo se podrá contar con la respuesta inicial, si es Firmado OK o si es Rechazado por algún error.
 
+::: note
 Los mensajes de Error si no se logra Firmar el CFE se podrán visualizar en el campo “Información Extra del CFE”.
+:::
 
-### **Nota de Crédito en Facturación Electrónica**
+### Nota de Crédito en Facturación Electrónica
 
 La opción de Nota de Crédito para la ventana del POS aun no esta implementada, para generarla, se ingresa en Solop ERP mediante la ventana “Factura Cliente Simple” y se ingresa la información obligatoria como se muestra.
 
@@ -82,7 +90,7 @@ Hasta este punto el documento está en estado “Borrador” (campo “Estado de
 
 Este paso, si se generó las Líneas desde el Proceso de “Copiar Líneas”, no será necesario ya que el documento se habrá definido de manera automática en el campo “Documento Asignado”.
 
-### **Asignación Automática de Nota de Crédito**
+### Asignación Automática de Nota de Crédito
 
 Si una Nota de Crédito se define el Documento que está referenciado mediante el campo de “Documento Asignado”, al Completar la misma se realizará de manera automática la asignación entre la misma y la Factura asignada. De esta manera, el saldo pendiente de la Factura se verá cancelado por el importe de la Nota de Crédito.
 
