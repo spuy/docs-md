@@ -77,6 +77,7 @@ export const enNavbarConfig = navbar([
           "verticals/investment-and-loan",
           "verticals/education-management",
           "verticals/field-services-management",
+          "verticals/construction-management",
         ],
       },
 //       {
