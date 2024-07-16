@@ -210,3 +210,33 @@ Columna Saldo Contable del Pago = 11130 - Cheques Depósitos No Asignados
 #### Detalle de Columnas que integran el reporte
 
 En este caso, el detalle de campos es en general idéntico al de Antiguedad de Documentos, solo que se agregan dos columnas correspondientes a los pagos sin asignar y Diferencia por revaluación de documentos.
+
+## Reporte de Asignación de Pago
+
+El reporte de Asignación de Pago es un informe detallado que muestra cómo se han aplicado los pagos realizados por la empresa. Incluye información sobre los pagos recibidos, las facturas o deudas a las que se han aplicado estos pagos, y cualquier saldo pendiente que pueda existir.
+Permite visualizar como es el detalle de todas las asignaciones generadas a un Socio del Negocio. En dicho reporte también podrá obtener diferentes vistas sobre la información. 
+
+#### Finalidad del reporte
+
+* Transparencia Financiera: Proporciona una visión clara y detallada de cómo se han asignado los pagos, lo que ayuda a mantener la transparencia en la gestión financiera de la empresa.
+
+* Conciliación Bancaria: Ayuda a conciliar los pagos realizados con los registros bancarios, asegurando que no haya discrepancias entre los pagos registrados en el ERP y los extractos bancarios.
+
+* Control de Cuentas por Pagar: Facilita el seguimiento de las cuentas por pagar, mostrando qué facturas han sido pagadas, cuáles están pendientes, y cómo se han distribuido los pagos.
+
+* Gestión de Tesorería: Ayuda a la gestión de tesorería al proporcionar información sobre los flujos de efectivo salientes, permitiendo una mejor planificación y control del efectivo disponible.
+
+* Auditoría y Cumplimiento: Sirve como documento de respaldo en auditorías financieras, proporcionando evidencia clara de las transacciones y pagos realizados, y asegurando el cumplimiento de las políticas y regulaciones financieras.
+
+* Mejora en la Relación con Proveedores: Al mantener un registro detallado de los pagos, la empresa puede responder de manera más efectiva a las consultas de los proveedores sobre el estado de sus pagos, mejorando así las relaciones comerciales.
+
+* Análisis Financiero: Proporciona datos valiosos para el análisis financiero, permitiendo identificar tendencias, patrones de pago, y áreas donde se pueden realizar mejoras en la gestión financiera.
+
+#### Vistas
+
+* Asignación por Factura: Si desea ver Factura por Factura la asignación correspondiente puede seleccionar la vista “Detalle de Asignación por Factura”.
+
+* Asignación de pagos por Asignación: Si desea ver por Recibo o por Asignación puede seleccionar la vista “Detalle de Asignación por Asignación”
+
+#### Detalle de Columnas que integran el reporte
+
