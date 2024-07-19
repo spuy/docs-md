@@ -216,6 +216,8 @@ En este caso, el detalle de campos es en general idéntico al de Antiguedad de D
 El reporte de Asignación de Pago es un informe detallado que muestra cómo se han aplicado los pagos realizados por la empresa. Incluye información sobre los pagos recibidos, las facturas o deudas a las que se han aplicado estos pagos, y cualquier saldo pendiente que pueda existir.
 Permite visualizar como es el detalle de todas las asignaciones generadas a un Socio del Negocio. En dicho reporte también podrá obtener diferentes vistas sobre la información. 
 
+![Asignación de Pago](/assets/img/docs/balance-management/bam-rep7.png)
+
 #### Finalidad del reporte
 
 * Transparencia Financiera: Proporciona una visión clara y detallada de cómo se han asignado los pagos, lo que ayuda a mantener la transparencia en la gestión financiera de la empresa.
@@ -240,3 +242,105 @@ Permite visualizar como es el detalle de todas las asignaciones generadas a un S
 
 #### Detalle de Columnas que integran el reporte
 
+|         Columna        |              Descripción                   |                            Ayuda                                 |  
+| ---------------------- | ------------------------------------------ | ---------------------------------------------------------------- |
+|     No. Asignación     |      Número del documento o registro       |          Identifica el número del documento o registro           |
+|         Línea          |               ID del Registro              |                Identificador único del registro                  |
+|    Fecha Contable      |           Fecha de Contabilización         |                 Fecha de contabilización del documento           |
+|   Socio del Negocio    |      Identifica un Socio Comercial         | Persona con quien realiza transacciones. Cliente, proveedor, etc |
+|        Factura         |            Número del Documento            |                Identificador del número de Comprobante           |
+|          Pago          |            Número del pago o cobro         |             Identificador del número de pago o cobro             |
+|         Monto          |    Monto/Importe en una moneda definida    |           Indica el monto para esta línea del documento          |
+|        Moneda          |      La moneda para este registro          | Moneda que se utiliza al procesar o informar sobre este registro |
+|     Descripción        |   Descripión corta opcional del registro   |            Una Descripción está limitada a 255 caracteres        |
+|  Estado del Documento  |            Estado del Documento            |            Indica el estado del documento en este momento        |
+|Totales c/sobre/sub pago|       	Totales con sobre/sub pago        | Sobre pagos: totales no contabilizados. Sub pagos: pago parcial  |
+|   Total del Ajuste     |             Total del Ajuste               |           Indica el total a ser ajustado como incobrable         |
+
+## Pagos sin Conciliar
+
+Es un informe que muestra todos los pagos que han sido registrados en el sistema, pero que aún no han sido confirmados o emparejados con las transacciones correspondientes en los extractos bancarios o en la contabilidad de la empresa. Estos pagos pueden incluir transferencias bancarias, cheques, pagos electrónicos, entre otros.
+
+![Pagos Sin Conciliar](/assets/img/docs/balance-management/bam-rep6.png)
+
+#### Finalidad del reporte
+
+* Conciliación Bancaria: Ayuda a realizar la conciliación bancaria al identificar los pagos que aún no han sido reconciliados. La conciliación bancaria es el proceso de comparar los registros internos de pagos con los extractos bancarios para asegurar que ambos coincidan.
+
+* Detección de Errores: Permite identificar y corregir errores o discrepancias entre los registros internos y los extractos bancarios, como pagos duplicados, montos incorrectos o transacciones no registradas.
+
+* Gestión de Efectivo: Ayuda en la gestión del flujo de efectivo al proporcionar una visión clara de los pagos pendientes de reconciliación, lo cual es crucial para la planificación financiera y la toma de decisiones.
+
+* Transparencia Financiera: Mantiene la transparencia en las finanzas de la empresa al proporcionar un registro detallado de los pagos pendientes de conciliación, lo que facilita las auditorías y la revisión por parte de la gerencia.
+
+* Mejora de Procesos: Identifica áreas donde los procesos de pago pueden ser mejorados. Si hay muchos pagos sin conciliar, esto puede indicar problemas en el proceso de registro de pagos o en la comunicación con los bancos.
+
+* Control Interno: Fortalece el control interno al proporcionar una herramienta para monitorear y gestionar los pagos que aún no han sido conciliados, reduciendo el riesgo de fraude o errores financieros.
+
+* Reducción de Riesgos: Al tener un reporte de pagos sin conciliar, la empresa puede tomar medidas proactivas para resolver discrepancias antes de que se conviertan en problemas mayores, reduciendo así el riesgo financiero.
+
+#### Vistas
+
+* Pagos sin Conciliar
+
+#### Detalle de Columnas que integran el reporte
+
+|         Columna        |              Descripción                   |                            Ayuda                                 |  
+| ---------------------- | ------------------------------------------ | ---------------------------------------------------------------- |
+|      No de Cuenta      |              Cuenta bancaria               |                Identifica una cuenta en este banco               |
+|    Tipo de Documento   |         Tipo de documento o reglas         |    Determina la secuencia del documento y las reglas de proceso  |
+|   Socio del Negocio    |      Identifica un Socio Comercial         | Persona con quien realiza transacciones. Cliente, proveedor, etc |
+|          Pago          |              Número del pago               |                 Identificador del número de pago                 |
+|        Moneda          |      La moneda para este registro          | Moneda que se utiliza al procesar o informar sobre este registro |
+|     F. Transacción     |          Fecha de la Transacción           |          Indica la fecha en que se ejecutó la transacción   	 |
+|    Fecha Contable      |           Fecha de Contabilización         |                 Fecha de contabilización del documento           |
+|        Asignado        |      Indica si el pago ha sido asignado    |  Indica si el pago ha sido asignado o asociado con una factura   |
+|       No. Cheque       |            Número de Cheque                |                    Indica el número en el cheque                 |
+|  Estado del Documento  |            Estado del Documento            |            Indica el estado del documento en este momento        |
+|        Factura         |               ID Factura                   |                Identificador único de la factura                 |
+|        Número          |      Número de Tarjeta de Crédito          |         Indica el Número de tarjeta de crédito sin espacios      |
+|   No del Documento     |          Número del Documento              |          Número de secuencia del documento para cada registro    |
+|    Total del Pago      |              Total a pagar                 |                       Indica el total a pagar                    |
+
+
+## Pagos sin Identificar
+
+Es un informe que detalla los pagos recibidos por la empresa que no han podido ser asociados a una factura específica, cliente, o cuenta debido a la falta de información suficiente o discrepancias en los datos.
+
+![Pagos Sin identificar](/assets/img/docs/balance-management/bam-rep8.png)
+
+#### Finalidad del reporte
+
+* Identificación y Asignación de Pagos: Ayuda a identificar y asignar correctamente los pagos a las facturas o cuentas correspondientes, asegurando que los registros financieros reflejen con precisión las transacciones reales.
+
+* Mejora de la Gestión de Cuentas por Cobrar: Facilita la gestión de las cuentas por cobrar al proporcionar una lista de pagos que aún necesitan ser identificados y asignados, lo que puede ayudar a reducir el tiempo de procesamiento y mejorar el flujo de efectivo.
+
+* Reducción de Discrepancias Contables: Ayuda a reducir las discrepancias contables al identificar pagos que no han sido asignados, lo que permite tomar medidas para resolver estas discrepancias antes de que afecten los estados financieros.
+
+* Control Interno y Auditoría: Proporciona un registro detallado de los pagos no identificados, lo que es útil para las auditorías internas y externas, asegurando que todas las transacciones sean rastreadas y documentadas correctamente.
+
+* Comunicación con Clientes: Permite a la empresa comunicarse con los clientes para obtener información adicional sobre los pagos no identificados, mejorando la relación con los clientes y asegurando que los pagos se asignen correctamente.
+
+* Prevención de Fraude: Ayuda a prevenir el fraude al identificar y rastrear pagos que no han sido asignados correctamente, lo que puede ser una señal de actividades fraudulentas o errores en los procesos de pago.
+
+* Optimización de Procesos: Proporciona información valiosa que puede ser utilizada para optimizar los procesos de recepción y asignación de pagos, reduciendo el número de pagos no identificados en el futuro.
+
+#### Vistas
+
+* Pagos sin Identificar
+
+#### Detalle de Columnas que integran el reporte
+
+|         Columna        |              Descripción                   |                            Ayuda                                 |  
+| ---------------------- | ------------------------------------------ | ---------------------------------------------------------------- |
+|   Socio del Negocio    |      Identifica un Socio Comercial         | Persona con quien realiza transacciones. Cliente, proveedor, etc |
+|          Pago          |              Número del pago               |                 Identificador del número de pago                 |
+|     F. Transacción     |          Fecha de la Transacción           |          Indica la fecha en que se ejecutó la transacción   	 |
+|    Tipo de Documento   |         Tipo de documento o reglas         |    Determina la secuencia del documento y las reglas de proceso  |
+|      Tipo de Pago      |               Método de Pago               |                       Indica el método de pago                   |
+|      No de Cuenta      |              Cuenta bancaria               |                Identifica una cuenta en este banco               |
+|  Estado del Documento  |            Estado del Documento            |            Indica el estado del documento en este momento        |
+|        Asignado        |      Indica si el pago ha sido asignado    |  Indica si el pago ha sido asignado o asociado con una factura   |
+|        Moneda          |      La moneda para este registro          | Moneda que se utiliza al procesar o informar sobre este registro |
+|    Total del Pago      |              Total a pagar                 |                       Indica el total a pagar                    |
+|     Descripción        |   Descripión corta opcional del registro   |            Una Descripción está limitada a 255 caracteres        |
