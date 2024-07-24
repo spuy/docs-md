@@ -73,12 +73,12 @@ En dicho proceso se existe una columna con el dato "Fecha de Verificación" y ta
 
 ## Generar Orden desde Proyecto
 
-Es posible generar este proceso de dos formas
+Es posible generar este proceso de dos formas:
 
-* Desde el proceso de Generar orden desde proyecto se la selecciona y le crea en forma automática (heredando los datos de la orden de trabajo) una orden de venta en estado completo. 
+* Desde el **navegador Generar orden desde proyecto** se la selecciona y le crea en forma automática (heredando los datos de la orden de trabajo) una orden de venta en estado completo. 
 Esta orden en estado completo genera una orden de compra y un documento por pagar (este último corresponde al servicio realizado por el agente comercial o recurso).
 
-* Desde la misma orden de trabajo, se selecciona el proceso de generar orden.
+* Desde la misma **orden de trabajo**, se selecciona el proceso de generar orden.
 
 ![Generar Orden desde Proyecto](/assets/img/docs/field-services-management/fis-services5.png)
 
@@ -93,6 +93,8 @@ Un mismo producto/servicio puede contar con una lista de precio, la cual puede p
 
 En este sentido, existirá la lista de precio "Venta", la cual puede tener una versión de lista de precio por cada cliente. Y a su vez una lista de precio de compra (con precio único o con versiones de lista de precio por proveedor).
 
+![Definición Simple](/assets/img/docs/field-services-management/fis-services14.png)
+
 ### Definición por Porcentaje de Costo
 
 En estos casos no se aplica el precio de lista de compra, sino que se utiliza un importe a partir de un porcentaje según el precio de venta definido (de la lista de precio venta que corresponda). Es decir, permite aplicar como precio de compra, un porcentaje (el cual es posible definir de antemano) del precio de venta.
@@ -102,6 +104,8 @@ Este porcentaje se define en el campo esquema de descuento asociado en la ventan
 Al momento de crearse la Orden de Compra, cuando el producto no tiene precio de compra o su precio es cero, se toma el precio de la línea de orden de venta, y se obtiene el porcentaje de descuento según el esquema del proveedor.
 
 En la línea de la Orden Compra creada es posible visualizar el porcentaje aplicado.
+
+![Porcentaje de Costo](/assets/img/docs/field-services-management/fis-services13.png)
 
 ### Definición con Porcentaje de Dificultad
 
@@ -114,8 +118,16 @@ Al momento de crearse la Orden de Compra, si la línea de proyecto asociada a la
 
 De esta forma se obtiene el nuevo precio de lista, al cual luego se aplica el porcentaje de descuento, en caso que se obtenga desde el proveedor.
 
+![Porcentaje Dificultad](/assets/img/docs/field-services-management/fis-services12.png)
+
 ### Definición para Servicios realizados por empleados internos (sin costo directo)
 
 Pueden existir productos/servicios que no posean un costo asociado. En estos casos no se genera ningún Documento por pagar al generar órdenes de este tipo de productos, ya que serán realizados por personal de la empresa (no facturan por servicio realizado).
 
-Al momento de aplicar el proceso de generar órdenes se crea normalmente la Orden de Venta (para su posterior facturación al cliente) y la orden de compra se genera en valor cero y estado "no válido".
+Para que este caso se cumpla, existe una condición para que no se genere la línea de Orden de Compra:
+
+* El producto debe estar definido como Comprado = NO
+
+Al momento de aplicar el proceso de generar órdenes se crea normalmente la Orden de Venta (para su posterior facturación al cliente) y la orden de compra se genera en valor cero.
+
+![Servicios sin costo directo](/assets/img/docs/field-services-management/fis-services11.png)
