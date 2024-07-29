@@ -99,7 +99,7 @@ En este sentido, existirá la lista de precio "Venta", la cual puede tener una v
 
 En estos casos no se aplica el precio de lista de compra, sino que se utiliza un importe a partir de un porcentaje según el precio de venta definido (de la lista de precio venta que corresponda). Es decir, permite aplicar como precio de compra, un porcentaje (el cual es posible definir de antemano) del precio de venta.
 
-Este porcentaje se define en el campo esquema de descuento asociado en la ventana Socio del Negocio, pestaña proveedor, para definir los % de descuento para cada categoría de producto.
+Este porcentaje se define en el campo **esquema de descuento** asociado en la ventana Socio del Negocio, pestaña proveedor, para definir los % de descuento para cada categoría de producto.
 
 Al momento de crearse la Orden de Compra, cuando el producto no tiene precio de compra o su precio es cero, se toma el precio de la línea de orden de venta, y se obtiene el porcentaje de descuento según el esquema del proveedor.
 
@@ -131,3 +131,13 @@ Para que este caso se cumpla, existe una condición para que no se genere la lí
 Al momento de aplicar el proceso de generar órdenes se crea normalmente la Orden de Venta (para su posterior facturación al cliente) y la orden de compra se genera en valor cero.
 
 ![Servicios sin costo directo](/assets/img/docs/field-services-management/fis-services11.png)
+
+### Servicios Adicionales sin Precio de Lista
+
+Ciertos servicios pueden requerir el cobro de adicionales o recargos variables por tareas preparatorias o actividades "extra".
+Para estos casos se cuenta con Productos en cada Lista de Precio como "Other Clean" u "Other Paint" con valor "0" (cero).
+Al confirmar este tipo de servicios, en la orden de trabajo se generan dos líneas:
+
+* Una por el servicio específico a realizar
+
+* Y otra línea por el adicional o recargo (agregando el valor que corresponda manualmente). Podrá ser solo una línea adicional o las que correspondan de acuerdo a los recargos a facturar posteriormente.
