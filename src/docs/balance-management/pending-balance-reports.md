@@ -408,7 +408,7 @@ Facilita la generación de informes financieros precisos, reflejando la situaci�
 
 Es un informe que contiene información específica sobre los pagos, incluyendo detalles como el monto del pago, la fecha de la transacción, el método de pago utilizado, el destinatario o remitente, y cualquier referencia asociada (como números de factura o pedido). Este reporte puede abarcar tanto los pagos realizados por la empresa a proveedores y empleados como los pagos recibidos de clientes.
 
-![Detalles del Pago](/assets/img/docs/balance-management/bam-rep9.png)
+![Detalles del Pago](/assets/img/docs/balance-management/bam-rep10.png)
 
 #### Finalidad del reporte
 
@@ -465,3 +465,77 @@ Ayuda a asegurar que los pagos se realicen a tiempo y según lo acordado, evitan
 |      Tipo de Pago      |               Método de Pago               |                       Indica el método de pago                   |
 |     F. Transacción     |          Fecha de la Transacción           |          Indica la fecha en que se ejecutó la transacción   	 |
 
+## Detalle de Selección de Pagos
+
+Es un informe que muestra todas las transacciones de pago que han sido seleccionadas para su procesamiento. Este reporte incluye información detallada sobre cada pago pendiente, permitiendo a los responsables de la gestión financiera revisar, aprobar, y priorizar los pagos que deben realizarse.
+
+![Detalles del Pago](/assets/img/docs/balance-management/bam-rep11.png)
+
+#### Finalidad del reporte
+
+* Planificación y Gestión de Pagos:
+
+Ayuda a planificar y gestionar los pagos pendientes, asegurando que todos los desembolsos necesarios se incluyan en el proceso de pagos.
+Facilita la priorización de pagos basándose en criterios como fechas de vencimiento, importancia del proveedor, o términos contractuales.
+
+* Control y Aprobación de Pagos:
+
+Proporciona una herramienta para que los gerentes financieros revisen y aprueben los pagos antes de que se procesen, asegurando el cumplimiento de las políticas internas de la empresa.
+Permite verificar la exactitud y la validez de cada pago seleccionado, minimizando el riesgo de errores o fraudes.
+
+* Optimización del Flujo de Caja:
+
+Ayuda a mantener un control efectivo del flujo de caja, permitiendo a la empresa planificar los pagos en función de la disponibilidad de fondos.
+Facilita la administración del capital de trabajo al asegurar que los pagos se realicen de manera oportuna sin comprometer la liquidez de la empresa.
+
+* Conciliación y Transparencia Financiera:
+
+Facilita la conciliación bancaria y contable al proporcionar un registro detallado de los pagos seleccionados y aprobados para su procesamiento.
+Mejora la transparencia financiera al mantener un historial claro y accesible de todas las transacciones de pago.
+
+* Cumplimiento y Auditoría:
+
+Proporciona un registro completo y detallado de todas las transacciones de pago seleccionadas, lo cual es esencial para auditorías internas y externas.
+Asegura el cumplimiento de las normativas y políticas financieras, manteniendo un control riguroso sobre el proceso de pagos.
+
+* Mejora de las Relaciones con Proveedores y Empleados:
+
+Garantiza que los pagos a proveedores y empleados se realicen de manera puntual y precisa, mejorando las relaciones comerciales y laborales.
+Ayuda a evitar retrasos en los pagos y posibles sanciones por incumplimiento de términos contractuales.
+
+#### Detalle de Columnas que integran el reporte
+
+|         Columna        |              Descripción                   |                            Ayuda                                 |  
+| ---------------------- | ------------------------------------------ | ---------------------------------------------------------------- |
+|         Nombre         | Identificador alfanumérico de la entidad   |     Se usa como una opción de búsqueda adicional al código   	 |
+|        Aprobado        | Indica si el documento requiere aprobación |  Indica el documento requiere aprobación antes de ser procesado	 |
+|      No de Cuenta      |              Cuenta bancaria               |                Identifica una cuenta en este banco               |
+|Cta Bancar. a transferir| Usada para transferir dinero entre cuentas |      Cuenta Bancaria a Transferir desde la cuenta de banco       |
+|   Socio del Negocio    |      Identifica un Socio Comercial         | Persona con quien realiza transacciones. Cliente, proveedor, etc |
+|          Cargo         |          Indica un tipo de cargo           |                 Cargos adicionales del documento                 |
+|     Tasa de Cambio     |    Tasa usada para conversión de monedas   | Define tasa que se debe usar para convertir de una moneda a otra |
+|        Moneda          |      La moneda para este registro          | Moneda que se utiliza al procesar o informar sobre este registro |
+|  Tipo de Conversión    |        Tipo de Conversión de Moneda        |                   Índice de Conversión de monedas                |
+|     Descripción        |   Descripión corta opcional del registro   |            Una Descripción está limitada a 255 caracteres        |
+|    Total Descuento     |       Total descuento calculado            |       Indica el total de descuento para un documento o línea     |
+| Acción en el Documento |      El estado destino del documento       | Se puede ver el Estado actual del documento en el campo Estado   |
+|      F. Documento      |            Fecha del documento             |           Indica la fecha en que el documento fue generado  	 |
+|   No del Documento     |          Número del Documento              |          Número de secuencia del documento para cada registro    |
+|  Estado del Documento  |            Estado del Documento            |            Indica el estado del documento en este momento        |
+|    Tipo de Documento   |         Tipo de documento o reglas         |    Determina la secuencia del documento y las reglas de proceso  |
+|        Factura         |               ID Factura                   |                Identificador único de la factura                 |
+| Programa Pagos de Fact |         Agenda de pagos de facturas        |         Se determina cuando los pagos parciales son debidos      |
+|       No. Línea        |     No. Línea único para este documento    | Controla el orden de despliegue de Lí­neas dentro de un documento |
+|         Manual         |      Indica que es un proceso manual       |            Indica si el proceso será hecho manualmente           |
+|     Total Abierto      |              Total Abierto                 |                   Importe total abierto (pendiente)              |
+|    Orden de Venta      |                ID Orden                    |                 Identificador único de la orden                  |
+|          Pago          |              Número del pago               |                 Identificador del número de pago                 |
+|    Total del Pago      |              Total a pagar                 |                       Indica el total a pagar                    |
+|       F. Pago          |       Fecha cuando se hizo el pago         |          Indica la fecha en que el pago fue realizado            |
+|     Regla de Pago      |     Forma en que se paga la factura        |                Indica el método de pago de la factura       	 |
+|   Selección de Pago    |              Selección de Pago             |                     Identifica un pago único       	             |
+|        Anticipo        |     El Pago/Recibo es un anticipo          |Pagos no asignados a una fact. se fijan con una carga para la asig|
+|       Procesado        |   	El documento ha sido procesado        |               Indica que un documento ha sido procesado     	 |
+|       Cantidad         |   	         Cantidad                     |   Indica el número de un producto específico en el documento 	 |
+|  Transacción de Ventas |   Indica si es una transacción de venta    |             Indica si este ítem es una transacción de venta   	 |
+|  Total del Documento   |   	          Total Total                 |                   Indica el total total del documento	         |
