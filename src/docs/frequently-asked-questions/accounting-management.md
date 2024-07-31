@@ -77,14 +77,23 @@ Para re contabilizar un asiento se debe abrir el asiento desde el documento en c
 
 El Período de la fecha que dicho asiento fue contabilizado debe estar ABIERTO para permitir re-contabilizar (caso contrario, se deberá abrir el mismo desde la ventana Año, Calendario y Período).
 
-### ¿Como evitar que cuentas integrales generen diferencia de cambio?
+### ¿Qué realiza el proceso de Cierre de Cuentas Integrales? ¿Se puede evitar que genere diferencias?
 
-Deben presentar las siguientes condiciones:
+Este proceso cierra las cuentas de Activo/Pasivo al final del periodo anual fiscal llevándolas a cero y generando un nuevo asiento de Apertura al día siguiente con los mismos valores que cerró. 
 
-* La cuenta contable debe tener marcado el check "Cuenta en moneda extranjera"
-* El tipo de cuenta deber ser Activo, Pasivo o Capital de Accionistas
-* Moneda del esquema debe ser distinta a la del asiento contable
-* Fecha contable de asientos debe ser menor o igual a la fecha contable seleccionada
+La cuenta destinataria se escoge como parámetro. El proceso crea un Lote de Notas Contables con la fecha definida, con una Nota Contable con cada cuenta de Activo/Pasivo con saldo. 
+
+Luego de completar el lote, el saldo de todas las cuentas de Activo/Pasivo será cero para el período que se esté Cerrando. 
+
+También se generará un nuevo Lote de Notas Contables para la “Apertura del Saldo Contable” con fecha del día siguiente al definida inicialmente, con una Nota Contable donde se incluirá todos los saldos que fueron cerrados en el lote anterior dejando el mismo saldo que se tenía en el período anterior que fue cerrado.
+
+Y si, es posible evitar generar diferencias.
+Para esto existe un check "Considerar Saldo Total" en ventana del proceso de cierre de ejercicio de cuentas integrales.
+Mediante este check se indica cómo se obtiene el saldo de balance para las cuentas, de la manera siguiente:
+
+Y (tildado) = realiza la consulta de saldo con fecha menor o igual a la fecha contable seleccionada
+N (destildado) = realiza la consulta de saldo con fecha HASTA igual a la fecha contable seleccionada, y fecha DESDE igual a la fecha contable menos 12 meses.
+
 
 ### ¿Es posible generar el cierre de ejercicio cuentas integrales con fecha diferente al 31/12?
 
