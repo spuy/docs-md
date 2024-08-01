@@ -30,7 +30,7 @@ El proceso de reabastecimiento permite generar los respectivos documentos de mov
 Para simular el proceso de reabastecimiento, se presentan los siguientes datos como ejemplo:
 
 |       Producto       | Almacén Fuente | Tipo de Reabastecimiento |    UM     | Nivel Mínimo | Nivel Máximo |Cantidad en Existencia |
-| ---------------------------- | ----- | ----------------------- | ---------- | ---------- | ---------- | ---------- |
+| -------------------- | ----- | ----------------- | ---------- | ---------- | ---------- | ---------- |
 | DOIS-000001_Estandar         |       | Mantener El Nivel Máximo              |   Unidad  |     20     |    40     |     60     | 
 | ACAP-000003_Cable de Red     |       | Mantener El Nivel Máximo              |   Unidad  |     20     |    40     |     41     |
 | Estándar_Estándar            |       | Mantener El Nivel Máximo              |   Unidad  |     20     |    40     |     35     |
