@@ -29,16 +29,16 @@ El proceso de reabastecimiento permite generar los respectivos documentos de mov
 
 Para simular el proceso de reabastecimiento, se presentan los siguientes datos como ejemplo:
 
-|       Producto       | Almacén Fuente | Tipo de Reabastecimiento |    UM     | Nivel Mínimo | Nivel Máximo |Cantidad en Existencia |
+|       Producto      | Almacén Fuente | Tipo de Reabastecimiento |    UM   | Nivel Mínimo | Nivel Máximo |Cantidad en Existencia |
 | -------------------- | ----- | ----------------- | ---------- | ---------- | ---------- | ---------- |
-| DOIS-000001_Estandar         |       | Mantener El Nivel Máximo              |   Unidad  |     20     |    40     |     60     | 
-| ACAP-000003_Cable de Red     |       | Mantener El Nivel Máximo              |   Unidad  |     20     |    40     |     41     |
-| Estándar_Estándar            |       | Mantener El Nivel Máximo              |   Unidad  |     20     |    40     |     35     |
-| DOIS-000005_Guante           |       |  Mantener El Nivel Máximo             |   Unidad  |     20     |    40     |     36     |
-| INAR-000001_Hoja tamaño carta|       | Reordenar por debajo del nivel mínimo |   Unidad  |     20     |    40     |     20     |
-| INAR-000002_Bolígrafo        |       | Reordenar por debajo del nivel mínimo |   Unidad  |     20     |    40     |     5      |
-| INAR-000003_Cuaderno         |       | Reordenar por debajo del nivel mínimo |   Unidad  |     20     |    40     |     25     |
-| INAR-000004_Marcador         |       | Reordenar por debajo del nivel mínimo |   Unidad  |     20     |    40     |     7      |
+| DOIS-000001_Estandar         |       | Mantener El Nivel Máximo              |  Unidad  |    20    |    40    |    60    | 
+| ACAP-000003_Cable de Red     |       | Mantener El Nivel Máximo              |  Unidad  |    20    |    40    |    41    |
+| Estándar_Estándar            |       | Mantener El Nivel Máximo              |  Unidad  |    20    |    40    |    35    |
+| DOIS-000005_Guante           |       |  Mantener El Nivel Máximo             |  Unidad  |    20    |    40    |    36    |
+| INAR-000001_Hoja tamaño carta|       | Reordenar por debajo del nivel mínimo |  Unidad  |    20    |    40    |    20    |
+| INAR-000002_Bolígrafo        |       | Reordenar por debajo del nivel mínimo |  Unidad  |    20    |    40    |    5     |
+| INAR-000003_Cuaderno         |       | Reordenar por debajo del nivel mínimo |  Unidad  |    20    |    40    |    25    |
+| INAR-000004_Marcador         |       | Reordenar por debajo del nivel mínimo |  Unidad  |    20    |    40    |    7     |
 
 Para ejecutar correctamente el proceso de reabastecimiento de almacén, es necesario que se realicen los procedimientos que a continuación se explican.
 
