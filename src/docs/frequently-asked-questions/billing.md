@@ -54,7 +54,11 @@ Para poder generar una factura con Regla de Pago "Efectivo" será necesario crea
 
 Este dato es posible definirlo/modificarlo en la ventana "Organización", solapa Información de la Organización, campo Localización/Dirección.
 
+### ¿Por qué motivo al generar un Documento por cobrar de una Organización a otra se pudo haber generado un Documento por pagar en la Organización destino de la factura cliente?
 
+Esto ocurre debido a la funcionalidad de "Contra Documentos" que existe en el sistema considerando que el Tipo de Documento "Factura Cliente" está definido como "Crea Contra-Documentos" = SI, lo que genera automáticamente el documento en cuestión.
+
+la idea de esta funcionalidad es simplemente facilitar el trabajo ahorrando que deban digitar la misma (la función genera el documento por pagar en estado borrador).
 
 ## Acciones
 
