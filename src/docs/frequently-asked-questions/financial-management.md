@@ -293,6 +293,20 @@ El nro. que debe definirse en este campo es el mismo que se defina en el campo a
 Puede existir la posibilidad de que en la transferencia solo se realice la "Conciliación" del "PAGO", y que no deseen conciliar el "COBRO".
 Cuando se requiere "Contabilizar" el Cobro (de la transferencia) en una cuenta contable del "BANCO" y no una cuenta de Tránsito como lo es "CHEQUES EN TRANSITO" (cuenta puente) pero no lo quieren CONCILIAR -> entonces deben definir la cuenta contable del banco en el campo de "Pagos sin Conciliar" y ahi quedará correctamente contabilizado (en ventana Banco, pestaña Contabilidad).
 
+### Al completar la conciliación de un mes, ¿por qué motivo no se actualiza el saldo inicial de mes siguiente?
+
+ El saldo inicial de la cuenta se actualiza al crear nueva cuenta. Cuando se crea un nuevo estado de cuenta, o sea, una conciliación, va a definir en saldo inicial el mismo saldo que tiene definido en la cuenta bancaria desde la ventana banco pestaña cuenta bancaria, saldo actual.
+
+El saldo de la cuenta bancaria se nutre de todas los movimientos de las conciliaciones en estado completo por eso es vital siempre crear nuevas conciliaciones luego de haber completado la anterior.
+
+::: note
+No se recomiennda dejar conciliaciones vivas(en estado borrador).
+:::
+
+Si dejan conciliaciones en proceso (y muchas) todos los saldos iniciales van a estar mal, entonces se tiene, para para que quede correctamente el saldo, ir modificando el saldo correcto para que luego se defina el saldo final que corresponda (esta editable el campo saldo inicial cuando esta en proceso la conciliación).
+
+dDe lo contrario los saldos finales también quedarán mal (esta editable el campo saldo inicial cuando esta en proceso la conciliación).
+
 ## Reportes
 
 ### ¿Qué funcionalidad tiene la ventana Informe Financiero?

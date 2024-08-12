@@ -32,6 +32,15 @@ Lo que sucede es que la consulta de últimos pagos toma los pagos cuya fecha de 
 
 En un caso hipotético si un cálculo de morosidad tiene fecha 10/12/2023, el pago en cuestión tiene fecha de transacción 4/12/23, pero su fecha de creado es 11/12/23 (mayor a la fecha de morosidad), por esa razón no se mostraría en la sección de últimos pagos.
 
+### ¿Por qué motivo puede quedar la contabilización de un anticipo abierta por Edificio?
+
+Es posible que esté considerando una distribución contable al momento de realizar el asiento.
+
+Lo primero a revisar son las distribuciones contables que tienen definidas.
+Puede existir alguna creada que no le hayn marcaron ninguna "Campaña" (Marca) que sería donde se debe seleccionar el "EDIFICIO" que se desea distribuir.
+
+La solución en tal caso sería confirmar que todas las distribuciones contables tengan correctamente definidos sus Parámetros de selección y volver a recontabilizar el pago/Cobro.
+
 ## Acciones
 
 ### Definición del Socio del Negocio a Facturar en un Contrato de Servicios

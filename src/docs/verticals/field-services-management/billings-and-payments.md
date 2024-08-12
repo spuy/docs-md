@@ -18,6 +18,11 @@ Seleccionar un tipo de agrupación permite definir la forma en la cual se confec
 Si se selecciona como tipo de agrupación "Proyecto" se emitirá un documento por cobrar por cada proyecto (previamente seleccionado). 
 En el caso de seleccionar "Contrato", y elegir registros que estén vinculados a un mismo contrato, se emitirán todos en un mismo documento por cobrar (de existir diferentes contratos, se emitirá un comprobante por cada contrato).
 
+Si se selecciona agrupar por Unidad, el proceso unificará en un mismo documento por cobrar aquellas wo de mismo Socio del Negocio y mismo dato Unidad (que se ingresa en la orden de trabajo). Este agrupamiento es similar al de PO reference (En este caso en lugar de agrupar por el dato Unidad, lo hará por el de referencia oc Cliente).
+
+También cuenta con la opción de agrupar por "Socio del Negocio". En este caso al seleccionar un grupo de órdenes de trabajo para facturar, se agrupará por Socio de Negocio (y por contrato) en cada documento por cobrar.
+Por último, al agrupar por "Orden" se generarán documentos por cobrar por las líneas de orden de trabajo que correspondan a una misma orden de venta.
+
 ![Generar Factura desde Línea de orden](/assets/img/docs/field-services-management/fis-services6.png)
 
 ### Selección de Pago
