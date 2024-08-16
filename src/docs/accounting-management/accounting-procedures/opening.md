@@ -18,13 +18,13 @@ Podrá visualizar la ventana **Año Calendario Período** con los registros que 
 
 Imagen 2. Ventana Año Calendario Período
 
-Seleccione la pestaña **Año** y posteriormente ubique el registro del año en el cual requiere abrir el período contable. En este caso, el registro utilizado es el **2020**.
+Seleccione la pestaña **Año** y posteriormente ubique el registro del año en el cual requiere abrir el período contable. En este caso, el registro utilizado es el **2024**.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image488.png)
 
 Imagen 3. Pestaña Año de la Ventana Año Calendario Período
 
-Seleccione la pestaña **Período** y posteriormente ubique el registro correspondiente al mes en el cual requiere abrir el período contable. En este caso, el registro utilizado es el **2020-07**.
+Seleccione la pestaña **Período** y posteriormente ubique el registro correspondiente al mes en el cual requiere abrir el período contable. En este caso, el registro utilizado es el **2024-11**.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image489.png)
 
