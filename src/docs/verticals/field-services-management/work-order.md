@@ -40,6 +40,9 @@ Este estado se debe asignar cuando se marque el check de 'Facturado' en un OV qu
 
 Desde la ventana de Navegador de Proyectos es posible visualizar aquellas órdenes de trabajo que aun no posean agente comercial (es quien realizará el servicio), seteando el parámetro Agente de Compañía como filtro "No tiene valor".
 
+Para agilizar la búsqueda, el navegador posee diferente parámetros como Cliente, Agente Compañía, Fecha Inicio, Categoría de Trabajo, Región. 
+Estos parámetros también se visualizan en el resultado de la búsqueda como columnas para poder identificar el registro que se desea actualizar.
+
 Una vez asignado a un agente comercial (se selecciona el que corresponda y se ejecuta desde el botón "Project Selection"), el sistema le envía una notificación (solicitud) por el servicio a realizar al agente comercial en cuestión (es posible configurar el envío del mensaje por diferentes vehículos de comunicación).
 
 Esta acción cambiará el estado de la orden de trabajo de "Nuevo" a "Asignado".
@@ -69,18 +72,48 @@ En este campo se asigna la fecha en la cual el check "Trabajo Verificado" se mar
 
 En dicho proceso se existe una columna con el dato "Fecha de Verificación" y también como filtro.
 
+## Navegador de Líneas de Proyeccto
+
+El navegador de proyectos permite hacer más eficiente la tarea de definir productos en las órdenes de trabajo de manera masiva.
+En la sección "Criterio de búsqueda" cuenta con diferentes parámetros para encontrar de manera ágil aquellos registros que se deseen actualizar tales como Orden de Trabajo, Cliente, Región, Agente Compañía, Fecha Inicio, Categoría de Trabajo.
+En el resultado de la búsqueda se verán estos datos en columna a los fines de encontrar los registros a aplicar producto.
+
+Al seleccionar un registro habilita la posibilidad de asignar un producto y en otra columna puede agregarse una descripción de línea (como nota aclaratoria). 
+Al ejecutar el proceso quedará el producto definido en la línea de la orden de trabajo seleccionada y cambiará su estado de Asignado a "Confirmado".
+
+Es válido mencionar que en particular, este navegador se utiliza para definir producto solo en los casos en los cuales la orden de trabajo tenga pactado un solo servicio. 
+Para los casos en los cuales deban generarse más cantidad de líneas (más de un producto/servicio) se deberá definir desde la consulta de la orden de trabajo, en sus líneas.
+
 ![Línea de Proyecto](/assets/img/docs/field-services-management/fis-services4.png)
 
-## Generar Orden desde Proyecto
+## Generar Orden desde Línea de Proyecto
 
 Es posible generar este proceso de dos formas:
 
-* Desde el **navegador Generar orden desde proyecto** se la selecciona y le crea en forma automática (heredando los datos de la orden de trabajo) una orden de venta en estado completo. 
-Esta orden en estado completo genera una orden de compra y un documento por pagar (este último corresponde al servicio realizado por el agente comercial o recurso).
+* Desde el **navegador Generar orden desde Línea de Proyecto** se la selecciona y le crea en forma automática (heredando los datos de la orden de trabajo) una orden de venta en estado completo. 
+Esta orden en estado completo genera una orden de compra (si la orden de venta posee costo asociado) y un documento por pagar (este último corresponde al servicio realizado por el agente comercial o recurso).
 
-* Desde la misma **orden de trabajo**, se selecciona el proceso de generar orden.
+Cuenta con parámetros para agilizar la búsqueda de los registros tales como Socio del Negocio, Proyecto, Agente Comercial, Fecha Inicio, Lista de Precios. 
+El filtro de Estado del Proyecto posee un valor por defecto: "Confirmado", con el objeto de que solo se muestren los registros que tienen definido producto (con posibilidad de cambiar el valor del parámetro).
 
-![Generar Orden desde Proyecto](/assets/img/docs/field-services-management/fis-services5.png)
+Este navegador muestra líneas de proyectos abiertos y permite generar las órdenes de venta según los filtros aplicados.
+
+La "cantidad a facturar" de cada línea será la diferencia entre la cantidad planeada y la "cantidad ordenada" (suma de cantidades en Órdenes de Venta completas o cerradas, para la línea de proyecto en cuestión).
+
+El "importe a facturar" es la cantidad a facturar multiplicado por el precio planeado de la línea de proyecto.
+
+El navegador sólo mostrará las líneas de proyecto que tengan cantidad a facturar mayor a cero.
+
+Al procesar se genera una Orden de Venta por cada proyecto, con el tipo de documento, estado y fecha seleccionados. 
+Emite mensaje restrictivo si una línea no tiene definido el producto.
+
+También se genera la Orden de Compra por costo asociado, y su correspondiente Documento por Pagar (según parametrización del tipo de documento de la Orden de Compra). El Proveedor de la Orden de Compra será el que tiene asociado el agente comercial del proyecto, siempre y cuando éste Socio del Negocio esté marcado como "Proveedor".
+
+El proceso devolverá la cantidad de Órdenes de Venta creadas y sus identificadores numéricos.
+
+* Desde la misma **orden de trabajo**, es posible seleccionar el proceso de generar orden y se corre individualmente para el proyecto consultado.
+
+![Generar Orden desde Línea de Proyecto](/assets/img/docs/field-services-management/fis-services5.png)
 
 ## Diferentes definiciones de Precio de Compra
 
