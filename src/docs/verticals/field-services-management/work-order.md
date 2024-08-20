@@ -81,6 +81,8 @@ En el resultado de la búsqueda se verán estos datos en columna a los fines de 
 Al seleccionar un registro habilita la posibilidad de asignar un producto y en otra columna puede agregarse una descripción de línea (como nota aclaratoria). 
 Al ejecutar el proceso quedará el producto definido en la línea de la orden de trabajo seleccionada y cambiará su estado de Asignado a "Confirmado".
 
+![Línea de Proyecto](/assets/img/docs/field-services-management/fis-services10.png)
+
 Es válido mencionar que en particular, este navegador se utiliza para definir producto solo en los casos en los cuales la orden de trabajo tenga pactado un solo servicio. 
 Para los casos en los cuales deban generarse más cantidad de líneas (más de un producto/servicio) se deberá definir desde la consulta de la orden de trabajo, en sus líneas.
 
