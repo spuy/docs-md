@@ -265,7 +265,7 @@ Realice el procedimiento regular para generar una conciliación en Solop ERP, el
 
 Luego de que el documento de conciliación automática se encuentre en estado **Completo**, seleccione la opción **Contabilizado**, ubicada en la parte inferior de la ventana **Estado de Cuentas Bancario**.
 
-![Campo](/assets/img/docs/accounting-management/acm-accounting-image29.png)
+![Campo](/assets/img/docs/accounting-management/acm-accounting-image16.png)
 
 Imagen 12. Opción Contabilizado de la Ventana Estado de Cuentas Bancario
 
@@ -383,7 +383,7 @@ Adicional a ello, al culminar el proceso de transferencia bancaria que indica el
 
 Seleccione la opción **Contabilizado**, ubicada en la parte inferior de la ventana **Pago/Cobro**.
 
-![Campo](/assets/img/docs/accounting-management/acm-accounting-image43.png)
+![Campo](/assets/img/docs/accounting-management/acm-accounting-image24.png)
 
 Imagen 5. Opción Contabilizado de la Ventana Pago/Cobro
 
@@ -394,10 +394,6 @@ Podrá visualizar el asiento contable que se genera por el egreso de la transfer
 Imagen 6. Asiento Contable por el Egreso de la Transferencia Bancaria
 
 Seleccione la opción **Contabilizado**, ubicada en la parte inferior de la ventana **Caja**.
-
-![Campo](/assets/img/docs/accounting-management/acm-accounting-image45.png)
-
-Imagen 7. Opción Contabilizado de la Ventana Caja
 
 Podrá visualizar el asiento contable que se genera por el ingreso de la transferencia bancaria anteriormente realizada.
 

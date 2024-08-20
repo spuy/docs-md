@@ -35,7 +35,7 @@ Por último, al agrupar por "Orden" se generarán documentos por cobrar por las 
 El navegador Enviar Facturas por Email permite realizar el envío de los Documentos por Cobrar en estado Completo a cada uno de sus clientes.
 
 Cuenta con una sección de Criterio de Búsqueda para encontrar con mayor eficiencia los registros a ser enviados con parámetros tales como Agente Comercial, Factura, Proyecto, Orden.
-El parámetro Impreso = NO posibilita visualizar solo aquellos Documentos por cobrar pendientes de envío (mientras que seteando SI, se podrán observar los ya enviados y al dejar vacío el filtro se verán todos).
+El parámetro Impreso = NO posibilita visualizar solo aquellos Documentos por cobrar que no se imprimieron manualmente desde la consulta del documento (mientras que seteando SI, se podrán observar los ya impresos de forma individual y al dejar vacío el filtro se verán todos).
 
 Dentro de los filtros es posible definir en "Enviar Factura A" si se desea enviar al Socio del Negocio (se envía al email definido en la pestaña Localización de Socio del Negocio), o al Representante de Ventas (se envía al email del Contacto vinculado al Socio del Negocio). En el caso de dejar vacío el filtro se enviará a ambos.
 
