@@ -1,5 +1,5 @@
 ---
-title: Retenciones
+title: Retenciones y Resguardos
 category: Documentation
 star: 9
 sticky: 9
@@ -97,8 +97,14 @@ Al completarse los resguardos se genera automáticamente la asignación correspo
 
 Un Resguardo se agrega en un Recibo de Pago como una Nota de Crédito Proveedor, descontando el Importe a Pagar o en una Selección de pagos.
 
-Contra Resguardos:
+### Contra Resguardos:
+
 Cuando se anula un resguardo se genera un reverso (contra-resguardo) que tendrá la siguiente secuencia y será el negativo del original.
+El ContraResguardo se genera cuando se Anula un Resguardo (Completo y Enviado a InvoiCy).
+
+::: note
+Este Contra-resguardo se envía automáticamente a invoicy al anular el Resguardo origen
+:::
 
 ### Registro de un resguardo recibido
 
