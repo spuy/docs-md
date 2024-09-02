@@ -46,10 +46,6 @@ Imagen 5. Registo en Caja Reembolso
 
 Realice el procedimiento regular para generar un cierre de caja, explicado en el documento Registro de Cierre de Caja, elaborado por Solop ERP, seleccionando en el campo **Tipo de Documento** la opción **Cierre de Caja Reembolso**.
 
-![Campo](/assets/img/docs/balance-management/bam-balance-image211.png)
-
-Imagen 6. Cierre de Caja Reembolso
-
 Realice el procedimiento regular para generar una transferencia bancaria, explicado en el documento Registro de Transferencia Bancaria, elaborado por Solop ERP.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image212.png)
@@ -61,7 +57,3 @@ Al realizar el proceso de transferencia bancaria, es generado un egreso de banco
 :::
 
 Realice el procedimiento regular para generar un cierre de caja, explicado en el documento Registro de Cierre de Caja, elaborado por Solop ERP, seleccionando en el campo **Tipo de Documento** la opción **Cierre de Caja Reembolso**.
-
-![Campo](/assets/img/docs/balance-management/bam-balance-image213.png)
-
-Imagen 8. Cierre de Caja Reembolso
