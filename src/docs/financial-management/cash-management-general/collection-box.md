@@ -56,15 +56,7 @@ Imagen 9. Opción Completar
 
 Seleccione la acción **Completar** y la opción **Ok** para completar el documento **Caja**.
 
-![Campo](/assets/img/docs/balance-management/bam-balance-image45.png)
-
-Imagen 10. Acción Completar
-
 Realice el procedimiento regular para generar un cierre de caja, explicado en el documento Registro de Cierre de Caja, elaborado por Solop ERP, seleccionando en el campo **Tipo de Documento** la opción **Cierre de Caja Cobranza**.
-
-![Campo](/assets/img/docs/balance-management/bam-balance-image46.png)
-
-Imagen 11. Cierre de Caja Cobranza
 
 Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Saldos Pendientes**, luego seleccione la carpeta **Diario de Caja**, por último seleccione la ventana **Depósito de Caja**.
 

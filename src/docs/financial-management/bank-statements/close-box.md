@@ -57,21 +57,9 @@ Imagen 10. Selección de Transferencia y Opción OK
 
 Seleccione el icono **Refrescar** en la barra de herramientas de Solop ERP, para refrescar el registro en la ventana **Cierre de Caja**.
 
-![Campo](/assets/img/docs/balance-management/bam-balance-image27.png)
-
-Imagen 11. Icono Refrescar
-
 Seleccione la opción **Completar**, ubicada en la parte inferior del documento.
 
-![Campo](/assets/img/docs/balance-management/bam-balance-image28.png)
-
-Imagen 12. Opción Completar
-
 Seleccione la acción **Completar** y la opción **OK**, para completar el documento.
-
-![Campo](/assets/img/docs/balance-management/bam-balance-image29.png)
-
-Imagen 13. Acción Completar y Opción OK
 
 ::: note
 Recuerde que el procedimiento para gestionar el cierre de caja debe realizarce diariamente.
@@ -93,27 +81,11 @@ Seleccione en el Campo **Fecha de Estado de Cuenta** la fecha que registró en l
 
 Seleccione en el campo **Descripción**una información adicional que le ayude a identificar su cierre de caja, este campo no es obligatorio por lo tanto es opcional colocar la información en él.
 
-![Campo](/assets/img/docs/balance-management/bam-balance-image30.png)
-
-Imagen 1. Registro Cierre de Caja
-
 Seguidamente nos dirigimos a seleccionar el campo que dice **Crear a Partir de Caja**,
-
-![Campo](/assets/img/docs/balance-management/bam-balance-image31.png)
-
-Imagen 2 .Campo Crear a Partir de Caja
 
 Luego nos aparecerá una ventana donde estará seleccionada el nombre de nuestra caja de nómina, también tendrá otras opciones disponibles de las cuales usted puede seleccionar la que más se adapte a su búsqueda para encontrar los movimientos que posee su caja. En este caso utilizaremos la fecha para encontrar los movimientos que posee la caja durante esa fecha.
 
-![Campo](/assets/img/docs/balance-management/bam-balance-image32.png)
-
-Imagen 3. Búsqueda de Parámetros
-
 Posteriormente aparecen los movimientos que tenga registrados en su caja, en la fecha que determinó en su búsqueda. En este caso nos aparecen el pago generado a los empleados en la selección de pago y por otro lado tendremos el monto total de la transferencia que realizamos con el monto total de la nómina.
-
-![Campo](/assets/img/docs/balance-management/bam-balance-image33.png)
-
-Imagen 4. Pagos a Cruzar
 
 ::: note
 Cabe destacar que en el ejemplo que presentamos se evidencia la transferencia realizada y el pago de un solo empleado que fue con el que realizamos el proceso de nómina, sólo para este caso en específico, en su proceso le deben aparecer todos los empleados qué le procesaron la nómina
@@ -125,16 +97,8 @@ Seguidamente nos dirigimos a la ventana principal de nuestro cierre de caja y en
 
 Por último nos dirigimos a la ventana principal de nuestro cierre de caja y en el campo **Saldo Final** nos debe quedar un saldo de cero (0), eso quiere decir que los montos de la caja están correctos, el egreso de dinero que salió de nuestra caja para el pago de la nómina de los empleados y en monto ingresado a nuestra caja a través de la transferencia bancaria está correcto.
 
-![Campo](/assets/img/docs/balance-management/bam-balance-image34.png)
-
-Imagen 5. Saldo Final
-
 ::: warning
 Cabe destacar que el saldo final del cierre de la caja siempre debe quedar en cero 0. Sí no es así posiblemente esté realizando un procedimiento incorrecto
 :::
 
 Al finalizar este proceso proceda a finalizar el proceso completando su cierre de caja.
-
-![Campo](/assets/img/docs/balance-management/bam-balance-image35.png)
-
-Imagen 6. Completar el cierre de Caja
