@@ -54,14 +54,14 @@ Podrá navegar a la asignación haciendo clic en el documento.
 
 Es un documento que vincula dos o más elementos, de forma que se pueda tener una trazabilidad perfecta a causa de esta vinculación.
 
-#### **Tipos de Documentos de Asignación**
+#### Tipos de Documentos de Asignación
 
 * Asignación Factura - Pago/Cobro
 * Asignación Factura - Nota de Crédito
 * Asignación por Anulación
 * Asignación por Documento Diferido
 
-#### **Asignación Factura Pago/Cobro**
+#### Asignación Factura Pago/Cobro
 
 **Documento por Cobrar/Pagar                          Pago/cobro, Cargo Contable**
 
@@ -69,7 +69,7 @@ Asignación entre Facturas a Pagar y Pagos o entre Facturas a Cobrar y Cobros.
 
 La Asignación disminuirá el Saldo Pendiente del Documento por Pagar/Cobrar.
 
-#### **Asignación por Nota de Crédito**
+#### Asignación por Nota de Crédito
 
 Documentos por Cobrar/Pagar                    Nota de Crédito de documento por Cobrar/Pagar
 
@@ -79,13 +79,13 @@ Asignación Nota de Crédito 2
 
 Asignación Nota de Crédito 3
 
-#### **Asignación por Anulación**
+#### Asignación por Anulación
 
 Documentos por Cobrar/Pagar                    Anulación de documento por Cobrar/Pagar
 
 En cada oportunidad que un documento completo es Anulado el Sistema crea el Reverso de ese mismo documento y lo asigna mediante este documento.
 
-#### **Asignación por Documento Diferido[](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#asignacion-por-documento-diferido "Permalink to this headline")**
+#### Asignación por Documento Diferido[](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#asignacion-por-documento-diferido "Permalink to this headline")
 
 Es la que se realiza cuando el Documento a Pagar / Cobrar se sustituye por un Documento por Pagar/Cobrar de otro Tipo Diferido (por ejemplo una Factura se paga o cobra con un Documentos Cheque de Pago/Cobro Diferido).
 
@@ -97,7 +97,7 @@ El Saldo Abierto del Documento por Pagar que se estará Cancelando con el docume
 
 El Documento por Cobrar (Factura Cliente) se sustituye por otro Documento a Cobrar (Cheque Diferido a Cobrar)
 
-#### **Asignación Automática de Nota de Crédito[](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#asignacion-automatica-de-nota-de-credito "Permalink to this headline")**
+#### Asignación Automática de Nota de Crédito[](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#asignacion-automatica-de-nota-de-credito "Permalink to this headline")
 
 Se utilizan los campos en pestaña “CFE Referidos” de “Total Abierto” y “Total Asignado”. Estos campos, cuando las líneas en esta pestaña son generadas mediante un proceso, se cargan de la siguiente manera:
 
@@ -133,7 +133,7 @@ En ningún caso se toman en cuenta las lineas de CFE referidos que no tienen fac
 
 ### Documentos por Pagar
 
-#### **Pago (contado)**
+#### Pago (contado)
 
 \+=============================+============+==========+ [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id1)21300 - Payment Selection [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id3)4\.700,00 [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id5)0\.00 | +—————————–+————+———-+ [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id7)11110 - Checking In-Transfer [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id9)143\.459,81 [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id11)4\.700,00 | +—————————–+————+———-+
 
@@ -151,12 +151,12 @@ En ningún caso se toman en cuenta las lineas de CFE referidos que no tienen fac
 
 \+===============================+======+=====+ [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id37)21100 - Accounts Payable Trade [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id39)500 [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id41)0\.00 | +——————————-+——+—–+ [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id43)21300 - Payment Selection [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id45)0\.00 [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id47)500 | +——————————-+——+—–+
 
-#### **Asignación por Depósito**
+#### Asignación por Depósito
 
 Cheque Diferido por Cobrar/Pagar        Depósito Cheque/Débito Cheque
 
-#### **Asignación Cliente Proveedor**
+#### Asignación Cliente Proveedor
 
-#### **Asignación Pago Cobro**                                                                               
+#### Asignación Pago Cobro                                                                         
 
 Pago                 Cobro/Cargo
