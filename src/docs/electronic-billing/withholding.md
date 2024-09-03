@@ -102,6 +102,8 @@ Un Resguardo se agrega en un Recibo de Pago como una Nota de Crédito Proveedor,
 Cuando se anula un resguardo se genera un reverso (contra-resguardo) que tendrá la siguiente secuencia y será el negativo del original.
 El ContraResguardo se genera cuando se Anula un Resguardo (Completo y Enviado a InvoiCy).
 
+Se genera por ContraDocumento, este al ver que tiene Reversal_ID (campo para indicar a que documento reversa) entra en modo ContraResguardo en vez de hacer un Resguardo.
+
 ::: note
 Este Contra-resguardo se envía automáticamente a invoicy al anular el Resguardo origen
 :::

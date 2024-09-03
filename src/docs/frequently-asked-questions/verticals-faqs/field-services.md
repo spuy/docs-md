@@ -24,6 +24,12 @@ Tanto para consulta de precios de producto como para actualizar precios, se cuen
 
 Desde ella es posible tener una visual completa de los productos con sus precios y gestionar cualquier cambio relacionado al importe/valor por producto.
 
+### ¿Cómo se define la Localización de Socio del Negocio?
+
+El configurador del sistema "UY_SET_BPLOCATION_NAME_FROM_COUNTRY" indica si el nombre de la localización de Socio Del Negocio se debe generar a partir del formato definido en el país.
+
+En ese caso se obtiene primero la dirección/es (address1, address2, address3, address4), y luego según el formato definido en el país en el campo "Formato de impresión de dirección", se concatenan los demás datos de ciudad, región y código postal. El texto resultante será el definido en el nombre de la localización del Socio Del Negocio.
+
 ## Procesos
 
 ### ¿Existe un proceso para agilizar la creación del Socio de Negocio con su correspondiente Contrato de servico y Lista de Precio?
