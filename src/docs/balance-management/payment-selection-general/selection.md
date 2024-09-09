@@ -37,7 +37,13 @@ Imagen 1. Menú de Solop ERP
 
 Podrá visualizar la ventana **Selección de Pago**, con los diferentes registros realizados en dicha ventana.
 
+* Mono registro:
+
 ![Campo](/assets/img/docs/balance-management/bam-balance-image215.png)
+
+* Multi registro:
+
+![Campo](/assets/img/docs/balance-management/bam-balance-image215b.png)
 
 Imagen 2. Ventana Selección de Pago
 
@@ -213,13 +219,13 @@ Para realizar una **Orden de Pagos** en Solop ERP el cual permite montar una sol
 
 Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Saldos Pendientes**, luego seleccione la ventana **Selección de Pagos**.
 
-![Campo](/assets/img/docs/balance-management/bam-balance-image267.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image214.png)
 
 Imagen 1. Menú de Solop ERP para el Documento Orden de Pago desde Factura
 
 Podrá visualizar la ventana **Selección de Pago**, con los diferentes registros en dicha ventana.
 
-![Campo](/assets/img/docs/balance-management/bam-balance-image268.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image215.png)
 
 Imagen 2. Ventana Selección de Pago para el Documento Orden de Pago desde Factura
 
@@ -435,7 +441,7 @@ Campo **Cuenta Bancaria**: la Cuenta Bancaria que se va a disponer para el pago 
 
 Campo **Nombre de Referencia**: puede colocarle un nombre referencia qué le ayude a identificar claramente la selección de pago, por ejemplo: Selección de Pago de la Nómina Semanal
 
-Campo **Descripción**: puede colocar también una breve descripción de la selección de pago, por ejemplo: Selección de pago de la nómina semanal del 01/06/2020 hasta el 07/06/2020
+Campo **Descripción**: puede colocar también una breve descripción de la selección de pago, por ejemplo: Selección de pago de la nómina semanal del 01/09/2024 hasta el 07/09/2024
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image329.png)
 
@@ -455,10 +461,6 @@ Luego de seleccionar estos filtros se le desplegará una lista con la cantidad d
 
 Presione el check de OK.
 
-![Campo](/assets/img/docs/balance-management/bam-balance-image332.png)
-
-Imagen 3. Selección de Movimiento de Nómina
-
 Diríjase a la pestaña **Línea de Selección de Pago**, en esta ventana verificaremos que estén correctamente todos los montos que le fueron asignados a cada empleado, es decir que en el concepto neto a pagar esté la cantidad correcta, además de esto usted debe verificar que se encuentren todos los empleados. Otro de los factores que debe tener en cuenta es que la regla del pago de los empleados sea Débito Directo, sí el empleado no tiene está regla de pago no serán regenerados por pagos para esté empleado, para conocer cómo determinar la regla de pago puede dirigirse al documento Pestaña Detalle de Pago en el cual se le detallan todos los pagos a seguir para configurar la regla de pago del socio de negocio empleado.
 
 Seleccione nuevamente la ventana principal Selección de Pago y verifique en el campo **Total Total** aparezca el monto total de lo que usted va a cancelar en su nómina.
@@ -473,7 +475,7 @@ Es muy importante tener en cuenta que para poder seguir el paso a paso que se de
 
 Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Saldos Pendientes**, luego seleccione la ventana **Selección de Pagos**.
 
-![Campo](/assets/img/docs/balance-management/bam-balance-image336.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image214.png)
 
 Imagen 1. Menú de Solop ERP
 
@@ -531,10 +533,6 @@ Dependiendo del criterio de búsqueda seleccionado tilde la opción **Comenzar B
 
 Al tildar la opción **Comenzar Búsqueda**, se desplegará en la parte inferior de la ventana los documentos asociados a la **Orden de Pagos** seleccionada anteriormente.
 
-![Campo](/assets/img/docs/balance-management/bam-balance-image354.png)
-
-Imagen 3. Listado de Documento por Pagar de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
-
 Seleccione los documentos que deseen asociar a la **Selección de Pago**.
 
 La selección de los documentos dependerá de la toma de decisión que tenga el personal de tesorería, ya que dependiendo del banco asociado a la selección de pago ellos sabrán qué documentos podrán ser cancelados por ese banco y la regla de pago con la que contará ya que estos deben ser agrupados sí los pagos serán por transferencia solo se deben seleccionar los documentos que se les generarán los pagos por transferencia (Débito Directo) sí en tal caso serán cancelados por cheques deben ser seleccionado solo los que serán cancelados por esa regla de pago; si los documentos asociados a la **Orden de Pago** no son seleccionados en su totalidad para esta selección de pago, estos pueden ser asociados en otra seleccion de pago.
@@ -569,19 +567,19 @@ Solop ERP cuenta cuenta con cinco (5) reglas de pagos, las cuales debe ser utili
 
 Para lo pagos que serán generados a través de transferencia bancarias se deben tildar las siguientes reglas de pago:
 
-A crédito.
+* A crédito.
 
-Débito directo.
+* Débito directo.
 
-Depósito directo.
+* Depósito directo.
 
 Para los pagos que serán generados a través de cheques o tarjetas se deben utilizar las siguientes reglas de pago:
 
-A crédito.
+* A crédito.
 
-Cheque.
+* Cheque.
 
-Tarjeta de crédito.
+* Tarjeta de crédito.
 
 En una **Selección de Pagos de Cuentas por Pagar** no se pueden mezclar los métodos de pagos es decir, si los pagos a realizar son solo transferencia bancaria solamente se deben seleccionar los documentos que se les realizará los pagos por transferencia bancaria y asociar las reglas de pagos correspondientes, si los pagos a generar son a través de cheques o tarjetas sólo se deben crear una selección de pagos para este método de pago, no se pueden asociar asociar un método de pago de transferencia con cheques ya que esto alteraría el proceso de Registro de Imprimir / Exportar Pagos
 
@@ -607,7 +605,11 @@ Al aplicar esta acción **Completar** el documento pasará a esta completo y est
 
 Es muy importante tener en cuenta que todo documento transaccional una vez se culmine con el llenado de los datos debe ser completado, para que Solop ERP tome como válido los datos cargados en el documento.
 
-Hasta este punto llegaría el registro y la definición de los documentos que serán cancelados a través de una **Selección de Pago**, este paso a pesar de que se complete no garantiza que los pagos se han generados, para poder generar los pagos correspondientes a cada uno de los documentos asociados se necesita completar el procedimiento Registro de Imprimir / Exportar Pagos
+Hasta este punto llegaría el registro y la definición de los documentos que serán cancelados a través de una **Selección de Pago**, este paso a pesar de que se complete no garantiza que los pagos se han generados, para poder generar los pagos correspondientes a cada uno de los documentos asociados se necesita completar el procedimiento Registro de Imprimir / Exportar Pagos.
+Desde este proceso es posible generar la exportación o impresión del pago en cuestión.
+Posterior a este paso, al consultar la Selección de pago se verán reflejados los datos del registro en la pestaña "Pago Generado".
+
+![Campo](/assets/img/docs/balance-management/bam-balance-image346b.png)
 
 ::: note
 Por configurador del sistema se puede definir si la asignación de pagos generada, por el proceso de "Asignación de Pagos", deberá tener la fecha del día o según los documentos asignados.
