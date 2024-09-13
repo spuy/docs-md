@@ -30,9 +30,9 @@ El smart browser "Agregar Productos a Fase de Proyecto" se ejecuta desde el cabe
 
 Al procesar, se debe seleccionar la Fase, y se crea una línea de fase de proyecto por cada línea de producto seleccionada en el SB, donde cada línea tendrá los datos siguientes:
 
-Producto
-Cantidad Planeada
-Precio Planeado (si se encontró precio en la versión lista de precios del proyecto)
+* Producto
+* Cantidad Planeada
+* Precio Planeado (si se encontró precio en la versión lista de precios del proyecto)
 
 ![Agregar Productos a Fase de Proyecto](/assets/img/docs/construction-management/com-image8.png)
 
