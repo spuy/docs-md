@@ -26,6 +26,16 @@ En las fases se crean las líneas de proyecto listando los productos necesarios 
 
 Para lograr un circuito óptimo y eficiente de selección de productos en las líneas, es posible utilizar un proceso denominado "**Agregar Productos a Fase de Proyecto**". Este SB permite seleccionar los productos a través de parámetros para agilizar la selección y definición en las fases.
 
+El smart browser "Agregar Productos a Fase de Proyecto" se ejecuta desde el cabezal del proyecto, y permite seleccionar productos (sólo productos "Activos"), y para cada uno definir una cantidad.
+
+Al procesar, se debe seleccionar la Fase, y se crea una línea de fase de proyecto por cada línea de producto seleccionada en el SB, donde cada línea tendrá los datos siguientes:
+
+* Producto
+* Cantidad Planeada
+* Precio Planeado (si se encontró precio en la versión lista de precios del proyecto)
+
+![Agregar Productos a Fase de Proyecto](/assets/img/docs/construction-management/com-image8.png)
+
 Cada producto tiene definido un determinado "Tipo de costo" (ejemplo: tipo de costo Herramientas).
 
 Este tipo de costo define un costo para el producto en particular y ese costo multiplicado por la cantidad que se encuentre definido en la línea de la fase del proyecto será el que se muestre como importe costo de la línea del proyecto.
@@ -40,10 +50,21 @@ Determinando estas dos entidades y de acuerdo a la unidad de medida (y cantidad)
 
 Esta función propone un cálculo eficiente (aproximado) de la cantidad de recursos (mano de obra) necesaria para un determinado proyecto).
 
-## Reabastecimiento desde Línea de Proyecto
+Cuando el producto no tiene definida una lista de materiales (LDM), estos campos (Duración y Unidad de Duración) se pueden modificar manualmente.
 
-Desde el SB Reabastecimiento desde Línea de Proyecto es posible seleccionar el proyecto y la Fase (opcional). Al aceptar se desplegará el listado de todo lo que necesita alimentar ese proyecto (o Fase) para llevarse a cabo (los productos).
+Cuando el producto tiene definida una LDM (check 'Lista de Materiales' está marcado), estos campos se muestran como sólo lectura y no se pueden modificar manualmente. En este caso se van a definir automáticamente, según la sumatoria de las duraciones de los productos que estén definidos en las lineas de la LDM.
+
+El sistema dispara las verificaciones para actualizar la duración de los productos que contengan al producto modificado en su LDM.
+
+Estas verificaciones se ejecutan cuando se realizan las acciones siguientes:
+
+* Se crea un producto o se modifica uno existente
+* Se crea o se borra una línea de la lista de materiales de un producto
+
+## Necesidades de Proyecto
+
+Desde el SB Necesidades de Proyecto es posible seleccionar el proyecto y la Fase (opcional). Al aceptar se desplegará el listado de todo lo que necesita alimentar ese proyecto (o Fase) para llevarse a cabo (los productos).
 
 Luego, desde los parámetros es posible seleccionar si se desea generar una Orden de compra (para abastecer con los productos necesarios al proyecto/fase) o bien una requisición (una solicitud interna de compra).
 
-![Reabastecimiento](/assets/img/docs/construction-management/com-image3.png)
+![Necesidades de Proyecto](/assets/img/docs/construction-management/com-image3.png)
