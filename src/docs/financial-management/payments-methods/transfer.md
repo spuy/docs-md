@@ -67,11 +67,7 @@ Si desea que los pagos/cobros que se generen de esta transferencia bancarias se 
 
 Seleccione la opción **OK**, para generar en Solop ERP la transferencia entre cuentas bancarias.
 
-Podrá apreciar el resultado del proceso de la siguiente manera.
-
-![Campo](/assets/img/docs/balance-management/bam-balance-image384.png)
-
-Imagen 16. Resultado de Transferencia
+Podrá apreciar el resultado del proceso luego de su ejecución.
 
 ::: note
 Al realizar el proceso de transferencia bancaria, es generado un egreso en la cuenta seleccionada en el campo **Cuenta bancaria desde** y un ingreso en la cuenta seleccionada en el campo **Cuenta Bancaria a Transferir**.
@@ -151,7 +147,7 @@ Seleccione en el campo **Fecha de Estado de Cuenta** la misma fecha con la que r
 
 Seleccione en el campo **Fecha Contable** la misma fecha con la que registró su selección de pago.
 
-![Campo](/assets/img/docs/balance-management/bam-balance-image389.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image370.png)
 
 Imagen 1. Transferencia Bancaria
 
@@ -161,12 +157,5 @@ Por favor NO tildar el check que dice conciliación automática
 
 Luego de que tenga todos los datos correctos proceda a culminar el proceso de transferencia bancaria tildando la opción de **OK**
 
-![Campo](/assets/img/docs/balance-management/bam-balance-image390.png)
+Luego de ejecutar proceso aparecerá una ventana indicando que su transferencia bancaria fué creada.
 
-Imagen 2. Opción OK
-
-Después de esto le aparecerá una ventana indicando que su transferencia bancaria fué creada
-
-![Campo](/assets/img/docs/balance-management/bam-balance-image391.png)
-
-Imagen 3. Transferencia Creada
