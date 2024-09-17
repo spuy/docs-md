@@ -6,7 +6,7 @@ sticky: 9
 article: false
 ---
 
-## **Transferencia Bancaria misma moneda**
+## Transferencia Bancaria misma moneda
 
 El Proceso de Transferencia Bancaria se utiliza para debitar y acreditar simultáneamente cuentas bancarias.
 
@@ -16,7 +16,7 @@ Estas Transferencias podrán involucrar una misma moneda debitada y acreditada o
 
 ![Transferencia Bancaria](/assets/img/docs/balance-management/bam-transfer1.png)
 
-### **Transferencias en la misma moneda**
+### Transferencias en la misma moneda
 
 * **Cuenta Bancaria origen:** Cuenta bancaria que emite los fondos
 * **Cuenta Bancaria destino:** Cuenta bancaria que recibe los fondos
@@ -33,7 +33,7 @@ En el caso que la transferencia sea en una moneda diferente a la moneda de la em
 
 Es importante destacar que el Cargo determina el asiento contable que realizará, estipulando la cuenta puente que corresponda, por lo tanto el Cargo debe ser “Transferencia”.
 
-### **Transferencia Bancaria Multimoneda**
+### Transferencia Bancaria Multimoneda
 
 Desde el proceso “Transferencia Bancaria Multimoneda”, se podrá realizar una transferencia cuando las monedas de la Cuenta Bancaria origen y Cuenta Bancaria destino son diferentes, es decir, una moneda es la moneda base y la otra es una moneda extranjera.
 
@@ -49,7 +49,7 @@ La elección del cargo “Transferencia”, determinará los asientos contables 
 
 ![Transferencia Bancaria Multimoneda](/assets/img/docs/balance-management/bam-transfer2.png)
 
-### **Operación de Cambio de Moneda**
+### Operación de Cambio de Moneda
 
 Para ello se utilizará la ventana Operación de Cambio
 
@@ -69,7 +69,7 @@ En cada Pago/Cobro que se genere se definirá por defecto el Cargo “Compra/Ven
 
 ![Operación de Cambio](/assets/img/docs/balance-management/bam-transfer3.png)
 
-### **Operación de Cambio de Moneda con Selección de Pagos**
+### Operación de Cambio de Moneda con Selección de Pagos
 
 Opcionalmente también se puede generar una Operación de Cambio pero que en vez de generar directamente un Pago y un Cobro según los datos definidos, se generará según los datos una “Selección de Pagos” de manera que luego el Departamento de Tesorería pueda avalar la Compra/Venta de los dólares y realizar la transacción desde el Banco.
 

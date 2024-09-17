@@ -6,9 +6,7 @@ sticky: 9
 article: false
 ---
 
-## **Cheques y Pagos**
-
-### **Opciones Para Emitir Cheques**
+## Opciones Para Emitir Cheques
 
 Muchas empresas emiten Cheques a Pagar a los efectos de cancelar los compromisos con sus proveedores.
 
@@ -26,11 +24,11 @@ Este proceso normalmente utiliza la emisión manual de cheques.
 
 En este proceso se utiliza la Funcionalidad de Selección de Pagos, flujos de trabajo a los efectos de autorizar los pagos a emitir y luego impresión de Cheques mediante el sistema.
 
-### **Gestión de Cheques Manuales por pagar**
+## Gestión de Cheques Manuales por pagar
 
-#### **Libretas de Cheques Propios**
+### Libretas de Cheques Propios
 
-#### **Libreta de Cheques**
+### Libreta de Cheques
 
 Para emitir cheques manuales en libretas, se deberán:
 
@@ -61,11 +59,11 @@ De regreso en la ventana de libreta/resma de cheques, se debe ingresar el nombre
 
 ![Secuencia de Documentos Controlados](/assets/img/docs/balance-management/bam-checks3.png)
 
-### **Visualizar estado de los Cheques emitidos**
+### Visualizar estado de los Cheques emitidos
 
 En la pestaña “Cheques” se visualiza el estado de los mismos.
 
-### **Rechazo de Cheques al Día**
+### Rechazo de Cheques al Día
 
 Para realizar rechazos de Cheques al Día se deberá seguir el siguiente procedimiento:
 
@@ -87,13 +85,13 @@ Para realizar rechazos de Cheques al Día se deberá seguir el siguiente procedi
 
 ![Rechazo de Pago/Cobro](/assets/img/docs/balance-management/bam-checks1.png)
 
-### **Procesando transacciones de Caja/Bancos**
+### Procesando transacciones de Caja/Bancos
 
 En Solop ERP puede agregar rápidamente transacciones que registran los cobros de los clientes, los pagos a los proveedores, los reembolsos recibidos de proveedores, cargos y comisiones bancarias, retiros de Caja/Banco y diversos ajustes. Además, puede controlar las cuentas de Caja/Banco y administrar efectivamente estas transacciones.
 
 Aquí, leerá cómo registrar rápidamente las transacciones en dinero de cualquier tipo y cómo el sistema las procesa.
 
-### **Comprender los tipos de transacciones de Caja/Banco**
+### Tipos de transacciones de Caja/Banco
 
 Dependiendo del propósito de la transacción, puede registrar y procesar transacciones de Caja/Banco de los siguientes tipos:
 
@@ -117,7 +115,7 @@ Para una transferencia de fondos, siempre hay una transacción del tipo Transfer
 
 *Depósito Bancario* anulado: crea una transacción de este tipo si desea anular un depósito. Las transacciones de este tipo afectan a las cuentas contables que participaron en el depósito relacionado.
 
-### **Ingresando Transacciones de Pago/Cobro**
+### Ingresando Transacciones de Pago/Cobro
 
 Dependiendo el Tipo de Transacción que desee ingresar debe tener claro que siempre deberá ingresar:
 
@@ -127,7 +125,7 @@ Dependiendo el Tipo de Transacción que desee ingresar debe tener claro que siem
 * Fecha
 * Socio de Negocio
 
-### **Procesando Pagos de Documentos por Pagar**
+### Procesando Pagos de Documentos por Pagar
 
 Al momento de ingresar un Pago, si éste está vinculado a un Documento por Pagar, puede asignarlo en ese momento.
 
@@ -135,7 +133,7 @@ También puede asignarlo posteriormente de manera manual en Asignación de Pagos
 
 En ambos casos se realizará el asiento contable de asignación.
 
-### **Procesando Cobro de Documentos por Cobrar**
+### Procesando Cobro de Documentos por Cobrar
 
 Al momento de ingresar un Cobro, si éste está vinculado a un Documento por Cobrar, puede asignarlo en ese momento.
 
@@ -143,9 +141,9 @@ También puede asignarlo posteriormente de manera manual en Asignación de Pagos
 
 En ambos casos se realizará el asiento contable de asignación.
 
-### **Procesamiento de una entrada de Caja/Banco**
+### Procesamiento de una entrada de Caja/Banco
 
-### **Registro de un Pago/Cobro**
+### Registro de un Pago/Cobro
 
 Usted crea una entrada de Caja/Banco utilizando la ventana de Pago/Cobro. Selecciona una cuenta Bancaria y un tipo de entrada, moneda,
 
