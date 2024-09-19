@@ -26,7 +26,7 @@ En las fases se crean las líneas de proyecto listando los productos necesarios 
 
 Para lograr un circuito óptimo y eficiente de selección de productos en las líneas, es posible utilizar un proceso denominado "**Agregar Productos a Fase de Proyecto**". Este SB permite seleccionar los productos a través de parámetros para agilizar la selección y definición en las fases.
 
-El smart browser "Agregar Productos a Fase de Proyecto" se ejecuta desde el cabezal del proyecto, y permite seleccionar productos (sólo productos "Activos"), y para cada uno definir una cantidad.
+El Navegador *Agregar Productos a Fase de Proyecto* se ejecuta desde el cabezal del proyecto, y permite seleccionar productos (sólo productos "Activos"), y para cada uno definir una cantidad.
 
 Al procesar, se debe seleccionar la Fase, y se crea una línea de fase de proyecto por cada línea de producto seleccionada en el SB, donde cada línea tendrá los datos siguientes:
 
@@ -60,11 +60,3 @@ Estas verificaciones se ejecutan cuando se realizan las acciones siguientes:
 
 * Se crea un producto o se modifica uno existente
 * Se crea o se borra una línea de la lista de materiales de un producto
-
-## Necesidades de Proyecto
-
-Desde el SB Necesidades de Proyecto es posible seleccionar el proyecto y la Fase (opcional). Al aceptar se desplegará el listado de todo lo que necesita alimentar ese proyecto (o Fase) para llevarse a cabo (los productos).
-
-Luego, desde los parámetros es posible seleccionar si se desea generar una Orden de compra (para abastecer con los productos necesarios al proyecto/fase) o bien una requisición (una solicitud interna de compra).
-
-![Necesidades de Proyecto](/assets/img/docs/construction-management/com-image3.png)
