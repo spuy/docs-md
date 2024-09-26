@@ -95,7 +95,7 @@ Dicho proceso puede ubicarse desde el Menú, y también es posible ejecutarlo di
 
 ![Proceso](/assets/img/docs/distribution-management/dim-distribution-image28.png)
 
-### ***__Generar picking y entregas desde orden de salida__***
+### Generar picking y entregas desde orden de salida
 
 
 Se debe marcar todo lo que se encontró de los productos a entregar (resultado del picking) y se modifican las cantidades de acuerdo a las existencias reales.
@@ -108,7 +108,7 @@ En esta instancia, al consultar una orden de venta (vinculada a nuestra orden de
 
 ![Filtros picking](/assets/img/docs/distribution-management/dim-distribution-image25.png)
 
-### ***__Crear Facturas Masivamente__***
+### Crear Facturas Masivamente
 
 Una vez generado el picking y entrega, el paso siguiente es **crear las facturas masivamente**.
 
@@ -120,7 +120,7 @@ La facturación se realiza desde la orden de salida (en estado completo) en la v
 Los procesos "Generar picking y entregas desde orden de salida" y "Generar factura desde orden de salida", permiten entregar y facturar por cantidad mayor a la ordenada (por ejemplo para aquellos productos que se vendan por bolsa y su valor sea por unidad, pero su peso pueda variar).
 ::: 
 
-### ***__Generar Cobros desde Orden de Salida__***
+### Generar Cobros desde Orden de Salida
 
 
 El último paso de este proceso es **generar los cobros desde orden de salida.**  Se debe seleccionar la orden de salida.

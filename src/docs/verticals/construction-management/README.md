@@ -23,4 +23,5 @@ La vertical de constructora es un módulo o conjunto de funcionalidades específ
 Este módulo ayuda a optimizar procesos, mejorar la eficiencia y proporcionar una visión integral del estado y progreso de los proyectos de construcción.
 
 - [1. Presupuestación](Budgeting)
-- [2. Facturación](Billing)
+- [2. Aprovisionamiento de Proyecto](Project-provisioning)
+- [3. Facturación](Billing)
