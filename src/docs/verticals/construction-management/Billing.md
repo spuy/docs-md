@@ -46,7 +46,7 @@ En el caso de seleccionar la acción "Completar" ingresa en el circuito de enví
 
 ![Generar Factura](/assets/img/docs/construction-management/com-image7.png)
 
-**Para mayor información sobre Generar Factura desde Línea de Orden:** - [Facturación desde línea de Orden de Venta](../sales-management/receivable-document/billing-from-orderline)
+**Para mayor información sobre Generar Factura desde Línea de Orden:** - [Facturación desde línea de Orden de Venta](../../sales-management/receivable-document/billing-from-orderline)
 
 ## Reporte "Detalle de Avance de Proyecto"
 
