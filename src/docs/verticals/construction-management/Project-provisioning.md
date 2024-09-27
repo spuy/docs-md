@@ -55,6 +55,6 @@ Permite seleccionar las órdenes de compra recibidas (o bien permite seleccionar
 
 En el caso de realizarlo desde una compra, genera dos movimientos en un solo paso: realiza la recepción de los productos de la compra, y genera la salida por proyecto (o sea, los baja de stock por cosumo en un proyecto determinado).
 
-**Para mayor información sobre Recepción de Productos:** - [Recepción de Productos](../purchase-management/reception)
+**Para mayor información sobre Recepción de Productos:** - [Recepción de Productos](../../purchase-management/reception)
 
-**Para mayor información sobre Movimiento de inventario:** - [Movimiento de inventario](../material-management/inventory-move)
+**Para mayor información sobre Movimiento de inventario:** - [Movimiento de inventario](../../material-management/inventory-move)
