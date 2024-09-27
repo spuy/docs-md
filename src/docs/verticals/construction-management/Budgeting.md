@@ -6,9 +6,31 @@ sticky: 9
 article: false
 ---
 
+La presupuestación desde un proyecto de Constructora es una herramienta clave para gestionar y planificar los recursos financieros, materiales, y humanos necesarios para la ejecución de un proyecto de construcción. El objetivo principal de esta función es proporcionar un control exhaustivo sobre los costos asociados al proyecto, garantizando que se mantengan dentro del presupuesto previsto y facilitando la toma de decisiones informadas durante todo el proceso.
+
+La presupuestación es el proceso de estimar los costos que se esperan durante las diversas etapas de un proyecto de construcción. Dentro de un sistema ERP, la presupuestación permite:
+
+* Definir y asignar recursos (materiales, mano de obra, equipos) y estimar sus costos.
+* Establecer los límites financieros para cada fase o tarea del proyecto.
+* Llevar un control y seguimiento continuo de las desviaciones entre el presupuesto inicial y los costos reales durante la ejecución.
+
 ## Generar Proyecto de Constructora
 
-El Proyecto de Constructora es una presupuestación sobre un determinado plan de obra que puede contener diversas "Fases", donde case estará compuesta por un determinado universo de productos.
+El proyecto de constructora es un módulo o conjunto de funcionalidades diseñado específicamente para gestionar y controlar todos los aspectos de un proyecto de construcción.
+
+Integra múltiples áreas clave como la planificación, presupuestación, recursos humanos, inventario, compras, ventas, y finanzas, todo relacionado con el ciclo de vida de un proyecto de construcción.
+
+Es la representación detallada de todos los elementos y actividades necesarias para llevar a cabo un proyecto de construcción, desde su planificación inicial hasta su ejecución y cierre. El ERP permite centralizar la información de cada proyecto en un solo sistema, permitiendo la gestión y seguimiento de aspectos como:
+
+* Presupuesto del proyecto.
+* Planificación de recursos (materiales, mano de obra, maquinaria).
+* Control de costos y flujo de caja.
+* Cronogramas y plazos.
+* Inventario y aprovisionamiento de materiales.
+* Facturación y cobros.
+* El ERP organiza y almacena toda la información relevante del proyecto y la hace accesible en tiempo real a las diferentes áreas involucradas (ingeniería, compras, finanzas, logística, etc.).
+
+El Proyecto de Constructora es, en la práctica, una presupuestación sobre un determinado plan de obra que puede contener diversas "Fases", donde case estará compuesta por un determinado universo de productos.
 
 Se trata de una unidad de gestión que agrupa un conjunto de entidades que le dan forma y describen un determinado Servicio.
 
