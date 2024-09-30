@@ -151,6 +151,12 @@ Introduzca en el campo **Factor de Destino a Base**, la tasa por la que serán m
 Recuerde guardar los cambios realizados seleccionando el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
 :::
 
+### Tipo de Conversión Spot o Documento
+
+El tipo de conversión Spot es el que se carga de forma diaria (ya sea automáticamente por la consulta al BCU o manualmente cuando por algún motivo de conexión pudo no haberse cargado). Se utilizará esa tasa Spot diaria para las diferentes operaciones/transacciones realizadas en el dia.
+
+El tipo conversión Documento se trata de una tasa de cambio específica para un documento en particular que sea multimoneda. Por ejemplo en un recibo de cobro multimoneda al seleccionar el tipo conversión "Documento" se habilitará un campo para ingresar la tasa manualmente y al grabar el recibo de cobro se guardará esa tasa de tipo Documento en el registro de tasa de cambio del día (como tasa tipo Documento)
+
 ## Conversión Automática
 
 Ubique y seleccione en el menú de Solop ERP, la carpeta **Análisis de Desempeño**, luego seleccione el proceso **Consultar Tasa de Cambio al BCU**.

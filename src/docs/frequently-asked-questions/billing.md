@@ -158,6 +158,10 @@ Para luego cobrarle al cliente se genera una Nota de Débito al Cliente por este
 Estas Notas de Débito NO TIENEN IVA, son todas exentas, ya que el que descuenta el iva compras  es el Cliente.
 :::
 
+### ¿Es posible vincular notas de crédito manuales a facturas en tiempo posterior a su creación?
+
+En el caso de no haber generado una Nota de Crédito desde "copiar líneas" o "Crear Desde" es posible generar la vinculación desde el proceso de *Asignación de Pagos*. Desde esta opción es posible seleccionar factura y Nota de crédito que se deseen vincular.
+
 ### ¿Cómo llegar a un recibo desde Documentos por cobrar?
 
 Para llegar a un recibo desde la ventana de Documentos por cobrar se debe ir a la pestaña “Facturas pagadas”, elegir la factura y dentro de la misma hacer click en “Asignación”. Esto nos abrirá la ventana “Consulta de asignación” donde en el campo “Descripción” nos dirá que Recibo de cobro la generó la misma.
