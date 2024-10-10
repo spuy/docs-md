@@ -10,15 +10,27 @@ Esta documentación está destinada a definir cada uno de los procedimientos de 
 
 La vertical de constructora es un módulo o conjunto de funcionalidades específicamente diseñado para gestionar las necesidades y operaciones del sector de la construcción. Este tipo de vertical sirve para:
 
+## Presupuestación
+
 * Gestión de proyectos: Planificación, seguimiento y control de proyectos de construcción, incluyendo cronogramas y presupuestos.
 
 * Gestión de recursos: Administración de mano de obra, maquinaria y materiales.
 
 * Costos y presupuestos: Control de costos, presupuestos y facturación.
 
+## Aprovisionamiento de Proyecto
+
 * Compras y proveedores: Gestión de compras, inventarios y proveedores.
 
 * Finanzas: Integración con contabilidad y finanzas para un control financiero preciso.
+
+* Movimientos de inventario por Salida de Proyecto o movimiento entre almacenes
+
+## Facturación
+
+* Gestión de Órdenes de Venta por proyectos.
+
+* Facturación a cliente por proyecto o por avance de proyecto.
 
 Este módulo ayuda a optimizar procesos, mejorar la eficiencia y proporcionar una visión integral del estado y progreso de los proyectos de construcción.
 

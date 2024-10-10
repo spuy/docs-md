@@ -34,7 +34,7 @@ El Proyecto de Constructora es, en la práctica, una presupuestación sobre un d
 
 Se trata de una unidad de gestión que agrupa un conjunto de entidades que le dan forma y describen un determinado Servicio.
 
-El primer paso para la creación de un Proyecto de Constructora es ingresar en la ventana el nombre del cliente (Socio del negocio del cual hereda la dirección, lista de precio y el almacén), la fecha de inicio del servicio a realizar y seleccionar una categoría de Proyecto (y la unidad o departamento). En este paso solo se genera el evento (no se asignan recursos o productos). Además el sistema creará una línea de proyecto vacía para agilizar el proceso.
+El primer paso para la creación de un Proyecto de Constructora es ingresar en la ventana el nombre del cliente (Socio del negocio del cual hereda la dirección, lista de precio y el almacén), la fecha de inicio del servicio a realizar y seleccionar una categoría de Proyecto (y la unidad o departamento). En este paso solo se genera el evento (no se asignan recursos o productos).
 
 ![Proyecto](/assets/img/docs/construction-management/com-image1.png)
 

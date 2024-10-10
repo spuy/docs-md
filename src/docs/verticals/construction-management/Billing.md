@@ -44,6 +44,10 @@ Se selecciona la fecha del documento y la acción sobre el documento (preparar o
 
 En el caso de seleccionar la acción "Completar" ingresa en el circuito de envío de facturas a la entidad fiscal (según corresponda) así como el envío de la representación gráfica a los clientes vía e mail.
 
+::: note
+La condición para que se encuentre una orden de venta pendiente de facturar es que se defina a la misma como Permite Facturar = SI
+:::
+
 ![Generar Factura](/assets/img/docs/construction-management/com-image7.png)
 
 **Para mayor información sobre Generar Factura desde Línea de Orden:** - [Facturación desde línea de Orden de Venta](../../sales-management/receivable-document/billing-from-orderline)
