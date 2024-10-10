@@ -23,7 +23,7 @@ Incluye la evaluación de los requerimientos del proyecto con base en el plan de
 
 Desde el *Navegador Necesidades de Proyecto* es posible seleccionar el proyecto y la Fase (opcional). Al aceptar se desplegará el listado de todo lo que necesita alimentar ese proyecto (o Fase) para llevarse a cabo (los productos).
 
-Luego, desde los parámetros es posible seleccionar si se desea generar una Orden de compra (para abastecer con los productos necesarios al proyecto/fase) o bien una requisición (una solicitud interna de compra).
+Luego, desde los parámetros es posible seleccionar si se desea generar una Orden de compra (para abastecer con los productos necesarios al proyecto/fase) o bien una requisición (una solicitud interna de compra), o un Movimiento de Inventario (del almacén fuente al Proyecto)
 
 ![Necesidades de Proyecto](/assets/img/docs/construction-management/com-image3.png)
 
@@ -42,6 +42,30 @@ En el caso de no poseer precios de productos, es posible generar la orden de com
 ![Crear OC](/assets/img/docs/construction-management/com-image4.png)
 
 ### *Salida de Proyecto desde Compra/Inventario*
+
+Este proceso en el ERP está diseñado para optimizar la gestión de materiales en los proyectos de construcción, integrando en un solo paso tanto la recepción de los productos como su inmediata asignación y baja del stock por su consumo en un proyecto específico.
+
+#### Descripción:
+
+* Recepción de productos:
+
+Se registran los productos que llegan a la obra o al almacén relacionados con un proyecto en particular.
+Se actualiza el stock de la empresa, indicando que los productos han sido recibidos de acuerdo con la orden de compra o planificación del proyecto.
+
+* Salida automática por consumo en el proyecto:
+
+En el mismo paso, el Solop ERP registra la salida inmediata de estos productos del inventario, asignándolos directamente al consumo del proyecto para el cual están destinados.
+Se vincula el consumo de estos materiales a los costos del proyecto de manera automática, reflejando el gasto en tiempo real en la contabilidad del proyecto.
+
+* Propósito y beneficios:
+
+Automatización del flujo de materiales: Este proceso evita pasos manuales adicionales al combinar la recepción y el consumo en un solo movimiento, lo que optimiza el tiempo y reduce errores administrativos.
+
+Control de costos en tiempo real: La empresa tiene visibilidad inmediata sobre los costos de materiales que se van asignando al proyecto, lo que facilita un control financiero más preciso y una gestión eficiente del presupuesto.
+
+Trazabilidad: Se garantiza la trazabilidad de los productos desde su llegada hasta su consumo, proporcionando un historial detallado de cada material vinculado al proyecto, algo esencial para auditorías y gestión de calidad.
+
+Reducción de tareas administrativas: Al hacer coincidir en un único paso la entrada y salida de materiales, se reducen las tareas administrativas, como la creación de movimientos separados para la recepción y el consumo, aumentando la eficiencia operativa.
 
 El Navegador Salida de proyecto desde Compra/Inventario se refiere al procedimiento mediante el cual los materiales y recursos adquiridos o almacenados en inventario son asignados y transferidos a un proyecto específico para su utilización en las obras.
 
