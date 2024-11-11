@@ -67,3 +67,43 @@ Seleccione la opción **Completar** en la parte inferior derecha del documento d
 Imagen 15. Opción Completar
 
 Seleccione la acción **Completar** y la opción **OK** para completar el documento.
+
+## Recepción Rápida
+
+La opción de Recepción Rápida permite registrar la entrada de productos de una orden de compra, simplificando el proceso de ingreso al almacén.
+
+### Instrucciones para realizar una Recepción Rápida:
+
+1. Acceder a la opción Recepción Rápida en el menú del sistema.
+
+2. Seleccionar el Socio de Negocio:
+
+* Indique el proveedor que figura en la orden de compra.
+
+3. Ingresar el Número de Orden de Compra:
+
+* Escriba el número de la orden de compra relacionada con el producto a recibir.
+
+4. Ingresar el Código de Producto:
+
+* Especifique el código del producto a recibir.
+
+::: note
+Utilizar un lector de código de barras agiliza esta operación ya que no requiere ingresar código de producto.
+:::
+
+5. Elegir la Cantidad a Recibir:
+
+* Marque la casilla de Cantidad Completa de la Línea si desea recibir la cantidad total de la orden de compra.
+
+* Si desea ingresar una cantidad diferente, desmarque la casilla e ingrese la cantidad deseada.
+
+6. Confirmar la recepción:
+
+* Una vez completados los datos, confirme la operación para registrar la entrada del producto en el almacén.
+
+::: note
+Asegúrese de verificar los datos antes de confirmar cada operación para evitar errores en el registro de recepción.
+:::
+
+![Campo](/assets/img/docs/purchase-management/pum-purchase-image1000.png)
