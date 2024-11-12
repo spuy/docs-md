@@ -75,10 +75,6 @@ Recuerde guardar los cambios realizados en los campos de la pestaña **Línea de
 
 Seleccione la pestaña principal **Movimiento**, luego seleccione la opción **Completar** ubicada en la parte inferior derecha de la ventana **Movimiento de Inventario**.
 
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image35.png)
-
-Imagen 17. Pestaña Movimiento y Opción Completar
-
 Seleccione la acción **Completar** y la opción **OK** para completar el documento **Movimiento de Inventario**.
 
 ![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image36.png)
@@ -88,10 +84,6 @@ Imagen 18. Acción Completar y Opción OK
 ### Consultar Reporte de Almacenamiento
 
 Al generar el reporte **Detalle de Almacenamiento** del producto **Bolígrafo** en el almacén **Insumos de Oficina**, el mismo es visualizado de la siguiente manera después del movimiento de inventario.
-
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image37.png)
-
-Imagen 19. Reporte Detalle Almacenamiento Después del Movimiento
 
 ## Movimiento Rápido
 
@@ -121,4 +113,4 @@ La opción de Movimiento Rápido permite transferir productos de un almacén a o
 Asegúrese de verificar los datos antes de confirmar cada operación para evitar errores en el registro de movimientos.
 :::
 
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image37.png)
+![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image1000.png)
