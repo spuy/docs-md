@@ -126,8 +126,9 @@ Seleccionar con qué medio de pago se estará cobrando. Contado, Cheque al día,
 
 En caso de que exista una diferencia entre los Medios de Pago y los Documentos a Asignar, se podrá enviar dicha diferencia a un Cargo.
 
-| Si existe una diferencia pero no se selecciona un Cargo, los importes no cerrarán por lo que no se generará la Asignación automática. |
-|---------------------------------------------------------------------------------------------------------------------------------------|
+::: note
+Si existe una diferencia pero no se selecciona un Cargo, los importes no cerrarán por lo que no se generará la Asignación automática.
+:::
 
 Cargo: Seleccionar entre los cargos definidos allí que se desea enviar la diferencia.
 
@@ -189,8 +190,6 @@ El Recibo de cobro posee un check de “Redondeo” donde será obligatorio el i
 
 Si no se marca el check de Redondeo, el importe asignado de Facturas y el importe asignado de Pago deben ser iguales.
 
-**Pueden existir dos situaciones:**
-
 ### COBRO SUPERIOR A FACTURAS (Signo Negativo)
 
 * Puede ser que la Asignación por importe de Facturas sea menor al Cobro y se desee dejar un saldo abierto del Cobro.
@@ -209,11 +208,13 @@ Aquí **SI** deberemos marcar el check de Redondeo.
 Para poder asignar parcialmente un DxC en un recibo de cobro, al asignarlo, deben modificar en la columna "total del pago" el importe (inferior al total de la factura) que quieran aplicar. Esto dejará un importe abierto del Documento por Cobrar
 :::
 
-**El sistema NO PERMITE asignar de más si no se marca el check de Redondeo.**
-
 * **Asignación total:** Si se tiene un importe superior de las facturas al Cobro, se marca el check “redondeo” y se enviará dicha diferencia al Cargo Redondeo.
 
 Como último paso en todos los casos se deberá Completar el documento mediante el botón Completar.
+
+::: note
+El sistema NO PERMITE asignar de más si no se marca el check de Redondeo.
+:::
 
 ### Impresión de Recibo de Cobro
 
