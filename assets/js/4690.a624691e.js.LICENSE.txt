@@ -4,7 +4,7 @@
   * @license MIT
   */
 
-/*! @docsearch/js 3.7.0 | MIT License | © Algolia, Inc. and contributors | https://docsearch.algolia.com */
+/*! @docsearch/js 3.8.0 | MIT License | © Algolia, Inc. and contributors | https://docsearch.algolia.com */
 
 /**
  * NProgress, (c) 2013, 2014 Rico Sta. Cruz - http://ricostacruz.com/nprogress
