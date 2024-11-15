@@ -78,15 +78,15 @@ La opción de Recepción Rápida permite registrar la entrada de productos de un
 
 2. Seleccionar el Socio de Negocio:
 
-* Indique el proveedor que figura en la orden de compra.
+  * Indique el proveedor que figura en la orden de compra.
 
 3. Ingresar el Número de Orden de Compra:
 
-* Escriba el número de la orden de compra relacionada con el producto a recibir.
+  * Escriba el número de la orden de compra relacionada con el producto a recibir.
 
 4. Ingresar el Código de Producto:
 
-* Especifique el código del producto a recibir.
+  * Especifique el código del producto a recibir.
 
 ::: note
 Utilizar un lector de código de barras agiliza esta operación ya que no requiere ingresar código de producto.
@@ -94,13 +94,13 @@ Utilizar un lector de código de barras agiliza esta operación ya que no requie
 
 5. Elegir la Cantidad a Recibir:
 
-* Marque la casilla de Cantidad Completa de la Línea si desea recibir la cantidad total de la orden de compra.
+  * Marque la casilla de Cantidad Completa de la Línea si desea recibir la cantidad total de la orden de compra.
 
-* Si desea ingresar una cantidad diferente, desmarque la casilla e ingrese la cantidad deseada.
+  * Si desea ingresar una cantidad diferente, desmarque la casilla e ingrese la cantidad deseada.
 
 6. Confirmar la recepción:
 
-* Una vez completados los datos, confirme la operación para registrar la entrada del producto en el almacén.
+  * Una vez completados los datos, confirme la operación para registrar la entrada del producto en el almacén.
 
 ::: note
 Asegúrese de verificar los datos antes de confirmar cada operación para evitar errores en el registro de recepción.
