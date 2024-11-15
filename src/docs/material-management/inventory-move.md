@@ -95,19 +95,19 @@ La opción de Movimiento Rápido permite transferir productos de un almacén a o
 
 2. Seleccionar el Almacén Base:
 
-* Indique el almacén de origen desde donde se transferirá el producto.
+  * Indique el almacén de origen desde donde se transferirá el producto.
 
 3. Seleccionar el Almacén Destino:
 
-* Indique el almacén al que desea transferir el producto.
+  * Indique el almacén al que desea transferir el producto.
 
 4. Ingresar el Código de Producto:
 
-* Escriba o seleccione el código del producto a transferir.
+  * Escriba o seleccione el código del producto a transferir.
 
 5. Confirmar el movimiento:
 
-* Una vez completados los datos, confirme la operación para registrar el movimiento de stock.
+  * Una vez completados los datos, confirme la operación para registrar el movimiento de stock.
 
 ::: note
 Asegúrese de verificar los datos antes de confirmar cada operación para evitar errores en el registro de movimientos.
