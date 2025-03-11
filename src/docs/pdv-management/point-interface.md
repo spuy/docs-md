@@ -8,184 +8,87 @@ article: false
 
 ## Interfaz de Punto de Venta
 
-Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Ventas**, luego seleccione la carpeta **Órdenes de Venta**, por último seleccione la carpeta **Punto de Venta**, finalmente seleccione la ventana **Punto de Venta**.
+Para acceder a la interfaz de Punto de Venta, siga estos pasos:
 
-Podrá visualizar la ventana **Selecciona Terminal PDV**, con la opción para seleccionar el terminal previamente configurado con el cual va a trabajar el vendedor.
+* En el menú de Solop ERP, vaya a Gestión de Ventas > Órdenes de Venta > Punto de Venta.
 
-Navegue entre las opciones disponibles en la ventana **Selecciona Terminal PDV**, seleccionando el terminal correspondiente en el cual va a trabajar el vendedor.
+* En la ventana Selecciona Terminal PDV, elija el terminal con el que trabajará el vendedor.
 
-Seleccione la opción **OK**, para acceder al punto de venta correspondiente al terminal PDV seleccionado.
+* Seleccione OK para acceder al punto de venta correspondiente.
 
-Podrá visualizar la ventana **Punto de Venta** con diferentes iconos, campos y opciones, que permiten el correcto funcionamiento del mismo.
+Una vez dentro, visualizará la ventana Punto de Venta, que contiene diferentes iconos, campos y opciones que permiten la gestión eficiente de las ventas.
 
 ## Barra de Herramientas del Punto de Venta
 
-Contiene los iconos principales de las ventanas de Solop ERP para realizar una gestión exitosa del punto de venta al momento de la venta de los productos. Dicha ventana cuenta con los siguientes iconos explicados a continuación.
+La barra de herramientas contiene iconos esenciales para la gestión del punto de venta:
 
-**Icono Registro Nuevo**: Permite crear un nuevo registro de orden de venta en el punto de venta configurado para el vendedor, la forma más facil de realizar este proceso es por medio de la tecla de acceso directo **F2**.
-
-**Icono Imprimir**: Permite visualizar en la ventana **Informe**, el reporte de la orden de venta que esta realizando, en la cual cuenta con diferentes opciones por medio de las cuales el usuario puede acercar, alejar, guardar e imprimir el documento de orden de venta creado en el punto de venta previmente configurado para el vendedor. Esta acción se puede ejecutar por medio de la tecla de acceso directo **F12**.
-
-Al generar el reporte, tendrá la posibilidad de imprimir la orden de venta seleccionando el icono **Imprimir**, de la ventana **Informe**.
-
-**Icono Tipo de Documento**: Permite cambiar el tipo de documento cargado por defecto, el mismo define el comportamiento del documento que se esta generando y se encuentra explicado en el material Tipo de Documento elaborado por Solop ERP. Adicional a ello, se puede ejecutar esta acción seleccionando la tecla **F10**.
-
-La selección de este icono permite la visualización de la ventana **Tipo de Documento**, para seleccionar el tipo de documento con el cual requiere generar el documento.
-
-**Icono Información de Producto**: Permite realizar una búsqueda de los productos para consultar su información, en cuanto a categoría, código, nombre, UPC/EAN (código de barra), UM (unidad de medida), precios, disponibilidad, cantidad en existencia, cantidad reservada, cantidad ordenada y proveedor, por medio de la selección de los mismos en la ventana desplegada **Información de Producto**. De igual manera, se puede ejecutar esta acción seleccionando la convinación de las teclas **Alt+I**.
-
-La selección de este icono permite la visualización de la ventana **Información de Producto**, para buscar el producto con el cual requiere generar el documento.
-
-**Icono Cliente**: Despliega una ventana que permite cambiar el cliente por defecto, con el fin de crear documentos personalizados.
-
-La selección de este icono permite la visualización de la ventana **Socio del Negocio**, con diferentes campos que pueden ser utilizados como filtros de búsqueda de clientes ya registrados.
-
-La información de los clientes puede ser visualizada debajo del grupo de campo **Entrar Consulta**.
-
-Adicional a ello, la ventana cuenta con seis (6) iconos que permiten el registro de un nuevo cliente, la modificación de los registros existentes, el borrado de la consulta o búsqueda realizada, la recarga de la ventana para que sean actualizados los registros, la aceptación del cliente seleccionado y la cancelación de la selección del cliente. Esta acción se puede ejecutar seleccionando la convinación de las teclas **Alt+B**.
-
-**Icono Proceso**: Permite realizar diversas acciones desde la selección de las diferentes opciones que contempla el menú de dicho icono. A continuación se explica cada una de las opciones del **Icono Proceso**.
-
-**Opción Cerrar Caja del Punto de Venta**: Permite realizar el cierre del punto de venta a través de la ventana de búsqueda inteligente **Cierre del Punto de Ventas**.
-
-**Opción Generar Factura Inmediata**: Permite generar una factura desde el punto de venta.
-
-**Opción Completar Orden Preparada**: Permite completar una orden preparada desde el punto de venta.
-
-**Opción Anular Transacción de Venta**: Este proceso permite revertir la transaccion de venta.
-
-**Opción Crear Retiro de POS**: Permite realizar un retiro de punto de venta.
-
-**Opción Imprimir**: Permite generar un reporte para visualizar la orden de venta que esta realizando en el punto de venta. Dicho reporte es visualizado en la ventana **Informe**.
-
-**Opción Crear Nueva Orden de Devolución**:
-
-**Icono Registros Históricos**: Despliega una ventana que permite realizar una búsqueda de todas las órdenes de venta realizadas, según lo seleccionado en los campos o filtros de búsqueda de dicha desplegada por el icono **Registros Históricos**. Esta acción se puede ejecutar seleccionando la tecla **F9**.
-
-La selección de este icono permite la visualización de la ventana **Orden de Venta**, con diferentes campos que pueden ser utilizados como filtros de búsqueda de las órdenes ya registradas.
-
-El grupo de campos **Entrar Consulta**, permite filtrar la búsqueda de información de la siguiente manera:
-
-Se puede filtrar la información con ayuda del número de documento de la orden, ingresando en el mismo en el campo **Documento No.**.
-
-Se puede filtrar la información con ayuda del socio del negocio de la orden, ingresando en el mismo en el campo **Socio del Negocio**.
-
-Se puede filtrar la información por rango de fecha, seleccionando el checklist **Fecha**, para que se habiliten los campos **Desde** y \*\*Hasta, e ingresando en dichos campos el rango de fecha para buscar la orden.
-
-Se puede filtrar la información por ordenes procesadas desde el punto de venta, seleccionando el checklist **Procesado**.
-
-Se puede filtrar la información por las ordenes de venta realizadas por el socio del negocio tildado como vendedor de pasillo en la configuración del terminal, seleccionando el checklist **Vendedor de Pasillo**.
-
-Podrá visualizar el resultado de la búsqueda de las órdenes, debajo del grupo de campo **Entrar Consulta**.
-
-Adicional a ello, la ventana cuenta con seis (6) iconos que permiten un nuevo registro, la modificación de los registros existentes, el borrado de la consulta o búsqueda realizada, la recarga de la ventana para que sean actualizados los registros, la aceptación del registro seleccionado y la cancelación de la selección del registro.
-
-**Icono Registro Anterior**: Es un icono de desplazamiento que permite navegar entre los registros que se encentran ubicados antes que el registro en el cual se encuentra el usuario. Esta acción se puede ejecutar seleccionando la convinación de las teclas **Alt+Left**.
-
-**Icono Próximo Registro**: Es un icono de desplazamiento que permite navegar entre los registros que se encentran ubicados despues que el registro en el cual se encuentra el usuario. Esta acción se puede ejecutar seleccionando la convinación de las teclas **Alt+Right**.
-
-**Icono Pago**: Esta acción se puede ejecutar seleccionando la tecla **F4**.
-
-**Icono Anular Orden**: Permite cancelar o anular la orden de venta que esta realizando el usuario vendedor, al seleccionar este icono dicha orden dejará de estar disponible. Esta acción se puede ejecutar seleccionando la tecla **F3**.
-
-**Icono Finalizar Ventana**: Permite cerrar la ventana **Punto de Venta** en la cual se encuentra el usuario vendedor. Esta acción se puede ejecutar seleccionando la convinación de las teclas **Alt+L**.
+* Registro Nuevo (F2): Crea una nueva orden de venta.
+* Imprimir (F12): Genera un reporte de la orden de venta en la ventana Informe.
+* Tipo de Documento (F10): Permite cambiar el tipo de documento generado.
+* Información de Producto (Alt+I): Abre una ventana con detalles del producto (código, nombre, stock, precio, proveedor, etc.).
+* Cliente (Alt+B): Permite seleccionar o registrar un nuevo cliente.
+* Proceso: Incluye opciones como Cerrar Caja, Generar Factura Inmediata, Completar Orden Preparada, Anular * Transacción de Venta y Crear Retiro de POS.
+* Registros Históricos (F9): Permite buscar órdenes de venta anteriores.
+* Pago (F4): Accede al proceso de cobro.
+* Anular Orden (F3): Cancela la orden en curso.
+* Finalizar Ventana (Alt+L): Cierra la ventana de Punto de Venta.
 
 ## Panel de Búsqueda de Productos
 
-Permite realizar una búsqueda por código de producto, de todos los productos para la venta registrados en Solop ERP que tengan coincidencia con lo que se introduzca en el campo **Código**.
+Permite buscar productos por:
+
+* Código de Producto
+* Nombre del Producto
+* Disponibilidad
+* Precio Estándar
+* Precio de Lista
 
 ::: note
-Esta acción se ejecuta automáticamente al ingresar el código del producto en el campo **Código**.
+La búsqueda se ejecuta automáticamente al ingresar el código del producto.
 :::
-
-**Coincidencia por Código de Producto**: Permite buscar el producto por el código de identificación del mismo.
-
-**Coincidencia por Nombre de Producto**: Permite buscar el producto por el nombre del mismo.
-
-**Coincidencia por Disponibilidad de Producto**: Muestra la disponibilidad del producto buscado.
-
-**Coincidencia por Precio Estándar de Producto**: Muestra el precio estándar del producto buscado.
-
-**Coincidencia por Precio de Lista de Producto**: Muestra el precio de lista del producto buscado.
 
 ## Sección de Información de Producto
 
-Luego de incluir los productos a la orden de venta, se visualizará su información principal en la sección **Información de Producto** de la ventana **Punto de Venta**.
+Muestra detalles de los productos agregados a la orden de venta:
 
-**Código del Producto**: Muestra el código identificador del producto seleccionado.
-
-**Precio del Producto**: Muestra los precios estándar y en lista de precios para la venta del producto seleccionado.
-
-**Nombre del Producto**: Muestra el nombre del producto seleccionado.
-
-**Unidad de Medida del Producto**: Muestra la unidad de medida en la que se presenta el producto seleccionado.
-
-**Categoría del Producto**: Muestra la categoría a la que pertenece el producto seleccionado.
-
-**Categoría del Impuesto del Producto**: Muestra la categoría del impuesto a la que pertenece el producto seleccionado.
+* Código del Producto
+* Nombre
+* Precio (Estándar y de Lista)
+* Unidad de Medida
+* Categoría
+* Categoría de Impuesto
 
 ## Barra de Edición de Productos
 
-Contiene los campos para modificar la cantidad del producto a vender, el precio actual y el descuento del producto. Adicional a ello, contiene el icono para eliminar la línea de la orden donde se encuentra el producto, los iconos para sumar y restar la cantidad del producto a vender, los botones de navegación entre las líneas de la orden.
+Barra de Edición de ProductosDesde aquí se pueden modificar cantidades, precios y descuentos. También se pueden eliminar líneas de productos de la orden.
 
-**Icono Borrar Línea**: Permite borrar el registro del producto creado en la línea seleccionada de la orden de venta. Esta acción se puede ejecutar seleccionando la convinación de las teclas **Ctrl+F3**.
-
-**Icono Añadir**: Permite sumar a la cantidad ordenada del producto seleccionado, la cantidad ingresada en el campo **Cantidad Ordenada**. Esta acción se puede ejecutar seleccionando la convinación de las teclas **Ctrl+0**.
-
-**Icono Menos**: Permite restar a la cantidad ordenada del producto seleccionado, la cantidad ingresada en el campo **Cantidad Ordenada**. Esta acción se puede ejecutar seleccionando la convinación de las teclas **Ctrl+0**.
-
-**Icono Registro Anterior**: Es un icono de desplazamiento que permite navegar entre los registros que se encentran ubicados antes que el registro en el cual se encuentra el usuario. Esta acción se puede ejecutar seleccionando la convinación de las teclas **Alt+Up**.
-
-**Icono Próximo Registro**: Es un icono de desplazamiento que permite navegar entre los registros que se encentran ubicados despues que el registro en el cual se encuentra el usuario. Esta acción se puede ejecutar seleccionando la convinación de las teclas **Alt+Down**.
-
-**Campo Cantidad Ordenada**: Corresponde a la cantidad de productos ordenados por el socio del negocio cliente, la misma puede modificarse desde los iconos **Añadir**, **Menos** y **Calculadora**, el último icono nombrado se encuentra ubicado del lado derecho del campo **Cantidad Ordenada**.
-
-**Campo Precio Actual**: Corresponde al precio unitario para la venta que tiene el producto seleccionado, el mismo puede ser modificado con ayuda del icono **Calculadora** que se encuentra ubicado del lado derecho del campo **Precio Actual**.
-
-**Campo Descuentos**: Corresponde al descuento que será aplicado al producto seleccionado al momento de la venta del mismo.
+* Borrar Línea (Ctrl+F3)
+* Añadir Cantidad (Ctrl+0)
+* Reducir Cantidad (Ctrl+0)
+* Navegar entre Registros (Alt+Up/Alt+Down)
 
 ## Línea de la Orden de Venta
 
-Es el espacio establecido para el listado de los productos seleccionados o ingresados en la orden de venta, en el cual se detalla el nombre del producto, la cantidad ordenada, la unidad de medida del producto, el precio unitario, el descuento del mismo, el neto de la línea, el impuesto y el gran total de la cantidad ordenada del producto.
+Aquí se listan los productos agregados con su información detallada:
 
-**Columna Nombre del Producto**: Columna en la cual se muestran los nombres de los productos agregados en las diferentes líneas de la orden de venta.
-
-**Columna Cantidad Ordenada**: Columna en la cual se muestran las cantidades ordenadas de los productos agregados en las diferentes líneas de la orden de venta, las mismas pueden ser modificadas con ayuda del icono **Calculadora** ubicado del lado derecho del campo.
-
-**Columna UM**: Columna en la cual se muestra la unidad de medida en la que se venderán los productos agregados en las diferentes líneas de la orden de venta.
-
-**Columna Precio Actual**: Columna en la cual se muestra el precio unitario de los productos agregados en las diferentes líneas de la orden de venta.
-
-**Columna Descuentos**: Columna en la cual se muestra el descuento de los productos agregados en las diferentes líneas de la orden de venta.
-
-**Columna Neto de Línea**: Columna en la cual se muestra el monto total sin impuestos, de los productos agregados en las diferentes líneas la orden de venta.
-
-**Columna Impuesto**: Columna en la cual se muestra el impuesto de las diferentes líneas de la orden de venta.
-
-**Columna Gran Total**: Columna en la cual se muestra el monto total con impuestos, de las diferentes líneas de la orden de venta.
+* Cantidad Ordenada
+* Unidad de Medida
+* Precio Unitario
+* Descuento
+* Subtotal sin Impuestos
+* Impuestos
+* Total con Impuestos
 
 ### Información de la Orden
 
-Contiene la información relacionada al encabezado de la orden de venta que esta realizando el usuario vendedor.
+Muestra datos del documento de venta:
 
-**Documento No.**: Muestra el número de documento de la orden de venta que esta realizando el usuario vendedor.
-
-**Tipo de Documento**: Muestra el tipo de documento con el cual fue creada la orden de venta desde el punto de venta.
-
-**Estado del Documento**: Muestra el estado del documento en el que se encuentra la orden de venta que esta realizando el usuario vendedor.
-
-**Agente Comercial**: Muestra el nombre y el apellido del usuario vendedor relacionado a la orden de venta.
-
-Totales (Bs.S)
-Contiene la información detallada de los montos totales de la orden y la fecha de la creación de la misma.
-
-**Fecha de la Orden**: Muestra la fecha en la cual fue creada la orden de venta.
-
-**Subtotal**: Muestra el total del pago sin impuestos de la orden de venta.
-
-**Impuesto**: Muestra el total de impuestos de la orden de venta.
-
-**Gran Total**: Muestra el total a pagar por el cliente, el mismo se compone de la sumatoria del monto del subtotal más el monto del impuesto.
+* Número de Documento
+* Tipo de Documento
+* Estado
+* Agente Comercial
+* Fecha de Creación
+* Subtotal, Impuestos y Total
 
 ## Panel de Socio del Negocio Cliente
 
@@ -193,31 +96,31 @@ Muestra la información del socio del negocio cliente que esta comprando los pro
 
 ## Catálogo de Productos
 
-Permite que los productos sean cargados a la orden de venta mediante la selección de los mismos. El catálogo de productos se puede configurar de manera que los mismos se agrupen por categoría, combos u ofertas, permitiendo un mejor orden y ubicación al momento de cargarlos a la orden de venta. Adicional a ello, el catálogo de productos se puede configurar de manera sencilla, sin agrupacipón, combos u ofertas.
+Los productos pueden agruparse en categorías, combos u ofertas para facilitar su selección.
 
-Uso del Catálogo de Productos Agrupado
+Para agregar un producto:
 
-Para agregar un producto a las líneas de la orden desde el punto de venta mediante el catálogo de productos, se debe seleccionar la categoría o grupo al que pertenece dicho producto.
-
-Luego debe seleccionar el recuadro con la opción del producto que requiere cargar a las líneas de la orden.
-
-Podrá visualizar el producto cargado de la siguiente manera.
-
-Para regresar al menú principal del catálogo de productos, seleccione el recuadro con la opción **Regresar**.
+* Seleccione la categoría o grupo.
+* Escoja el producto.
+* El producto se agregará automáticamente a la orden.
 
 ## Toma de Pedido
 
-El proceso toma de pedido consiste en la venta de los productos por medio del documento **Orden de Venta**, en el cual se cargan los datos del cliente, los productos y el cobro. Al realizar el cobro de la misma, se generan de manera automática los documentos **Cobro**, **Entrega** y **Factura por Cobrar**.
+El proceso de Toma de Pedido consiste en registrar los productos y el cobro, generando automáticamente los documentos:
 
-El documento del cobro se genera en la ventana **Caja**, con la cuenta caja pos en la cual se realizó dicho cobro. Este es asociado a la línea del registro de cierre de caja de la cuenta **Caja POS**, creado al momento de la apertura de caja.
+* Cobro en la ventana Caja.
+* Factura por Cobrar en Documentos por Cobrar.
+* Entrega en la ventana Entrega (Cliente).
 
-Adicional a ello, el documento **Factura por Cobrar**, es generado en la ventana **Documentos por Cobrar**. Mientras que el documento **Entrega**, es generado en la ventana **Entrega (Cliente)**.
+Para registrar un pedido:
 
-Para mejor referencia de lo explicado anteriormente, se presenta a continuación el diagrama del proceso **Toma de Pedido POS**, con la finalidad dar a conocer el comportamiento de Solop ERP ante dicho proceso.
-
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image144.png)
-
-Imagen 1. Diagrama de Toma de Pedido POS
+1. Vaya a Gestión de Ventas > Órdenes de Venta > Punto de Venta.
+2. Haga clic en Nueva Orden.
+3. Seleccione el terminal de PDV.
+4. Escoja un cliente o cree uno nuevo.
+5. Agregue productos mediante el Catálogo de Productos o el Panel de Búsqueda.
+6. Modifique cantidades, descuentos y precios según sea necesario.
+7. Revise la información de la orden.
 
 ## Registro de Pedido
 
@@ -242,8 +145,6 @@ Podrá visualizar la ventana **Selecciona Terminal PDV**, para seleccionar el te
 ::: note
 Esta opción es habilitada cuando el socio del negocio vendedor tiene configurado más de un terminal de punto de venta.
 :::
-
-Imagen 3. Icono Registro Nueva Orden
 
 Si desea relacionar su venta a un cliente fiscalmente, puede seleccionar un cliente existente o crear un nuevo cliente:
 
@@ -305,27 +206,26 @@ Finalmente, podrá visualizar la Información de la Orden y sus Totales (Bs.S).
 
 ## Cobrar Pedido
 
-Luego de haber cargado todos los productos de la venta en la orden, debe seleccionar el icono **Pago** para generar el cobro de los mismos.
+Seleccione el icono Pago (F4) para procesar el cobro. Se abrirá un cuadro donde podrá:
 
-La selección de este icono, habilita el recuadro del cobro, mostrando el total a pagar de la orden, los campos para ingresar la forma de pago, la moneda y el monto. Así como también, las opciones para agregar otro pago o eliminar un pago existente.
+* Seleccionar Forma de Pago (efectivo, tarjeta, transferencia, etc.).
+* Elegir la Moneda.
+* Ingresar el Monto.
+* Agregar varias formas de pago si es necesario.
+* Ver el Cambio a entregar al cliente.
 
-Adicional a ello, se muestra los siguientes campos:
+Si se requiere más de una forma de pago:
 
-El campo **Total del Pago**, indica la suma de todos los montos ingresados en las diferentes formas de pago seleccionadas.
-
-El campo **Abierto**, indica el monto pendiente por pagar de la orden de venta.
-
-El campo **Cambio**, indica el monto total que debe ser devuelto al cliente por el concepto **Cambio del Pago**.
-
-El check **Cobro Completo**, debe ser utilizado cuando se presente un caso de cobro en efectivo de monto con decimales y se requiera realizar un cobro mayor (completo), para posteriormente generar el egreso por el cambio del mismo. Solop ERP, refleja en el campo **Cambio**, el monto correspondiente al cambio que debe ser entregado al cliente.
+1. Presione Más para agregar otra forma de pago.
+2. Complete la información.
+3. Para eliminar una forma de pago, seleccione Menos.
+4. Presione OK para confirmar el cobro.
 
 ::: note
-Cuando el monto a pagar en efectivo es en divisas y con decimales, se tilda el check **Cobro Completo** y se ingresa el monto real a cobrar en el campo **Monto**.
+Cada forma de pago genera un documento de cobro en la ventana Caja.
 :::
 
-El cobro de los productos cargados en la orden de venta se puede ejecutar de diferentes formas, explicadas a continuación.
-
-## Procedimiento Regular con una Forma de Pago y una Moneda Específica
+#### Procedimiento Regular con una Forma de Pago y una Moneda Específica
 
 Seleccione en el campo **Forma de Pago**, la forma utilizada por el cliente para pagar los productos cargados en la orden de venta.
 
@@ -345,7 +245,7 @@ Seleccione la opción **OK**, para generar el cobro de los productos cargados en
 
 Seleccione el icono **Cancelar**, para cancelar el registro del cobro que encuentra realizando.
 
-## Procedimiento Especial con Diferentes Formas de Pago y Monedas
+#### Procedimiento Especial con Diferentes Formas de Pago y Monedas
 
 Seleccione en el campo **Forma de Pago**, la forma utilizada por el cliente para pagar los productos cargados en la orden de venta.
 
@@ -381,19 +281,19 @@ Adicional a ello, se crea una factura por cobrar en la ventana **Documento por C
 
 Es importante resaltar que al completar el proceso, todos los documentos son generados en estado **Completo**.
 
-## Consultar Factura Generada
+## Consultas de Facturas y Cobros
 
-Ubique la orden de venta generada en la ventana **Órdenes de Venta**, luego seleccione el icono **Visualiza Detalle (Donde es Usado)** y finalmente haga clic sobre la opción **Documentos por Cobrar**, para acercar la factura de la venta.
+### Consultar Factura Generada
 
-Al acercar el documento por cobrar, podrá visualizarlo de la siguiente manera
+1. En Órdenes de Venta, seleccione Visualiza Detalle (Donde es Usado).
+2. Haga clic en Documentos por Cobrar para visualizar la factura.
 
-## Consultar Cobro Generado
+### Consultar Cobro Generado
 
-Ubique el documento de cobro generado en la ventana **Documentos por Cobrar** y luego seleccione la pestaña **Facturas Pagadas**, para visualizar las asignaciones de los diferentes documentos de cobro generados en la ventana **Caja**.
+1. En Documentos por Cobrar, vaya a la pestaña Facturas Pagadas.
+2. Copie el valor del campo Pago.
+3. Busque el cobro en la ventana Caja.
 
-Seleccione el icono **Cambiar Mono/Multi Registro** ubicado en la barra de herramientas de Solop ERP para cambiar la vista y visualizar la línea del registro de asignación del cobro que requiere acercar, posteriormente copie el valor del campo **Pago**.
+### Consultar Registro en Cierre de Caja
 
-Ubique el registro del cobro en la ventana **Caja**, con ayuda del valor copiado anteriormente del campo **Pago**.
-
-Consultar Registro en Cierre de Caja
-Cada cobro desde el punto de venta genera un documento de ingreso en la ventana **Caja**, por cada documento de cobro generado se crea una línea con el cobro asociado en la pestaña **Línea de Cierre de Caja**, de la ventana **Cierre de Caja** correspondiente al registro de la **Caja 04**, creado en estado Borrador al realizar la apertura de caja.
+Cada cobro desde el punto de venta genera un documento de ingreso en la ventana Caja y se asocia automáticamente a la pestaña Línea de Cierre de Caja en Cierre de Caja.
