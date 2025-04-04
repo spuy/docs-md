@@ -17,3 +17,4 @@ El presente material se encuentra dirigido a cada uno de los usuarios de Solop E
 ### Carga de Datos
 
 - [Carga Masiva de Datos](big-data-import/data-import)
+- [Reglas de Datos](big-data-import/data-rules)
