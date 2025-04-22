@@ -687,3 +687,81 @@ Luego de culminar el procedimieto de registro de socio del negocio, seleccione l
 En esta pestaña es registrada la información que la empresa requiere del socio del negocio empleado al momento de interactuar o generar operaciones para el mismo. Cada uno de los campos que la misma contiene son necesarios en algún punto de la transacción con el empleado.
 
 ![Menú de Solop ERP](/assets/img/docs/master-data/mad-master-menu-4.png)
+
+🧾 Guía de Usuario: Creación de Socio del Negocio desde un campo
+
+Esta guía está destinada a explicar el proceso para crear un nuevo Socio del Negocio dentro del sistema desde otra entidad (Ejemplo: documento por cobrar)
+
+🟢 1. Ingreso a ventana Documentos por Cobrar (aplica sobre ventanas estándar como documentos por pagar, órdenes de venta/compra, etc.)
+
+* Acceder al campo "Socio del Negocio" de la ventana haciendo click izquierdo sobre el menú desplegable.
+
+* Seleccionar la opción "Crear Socio".
+
+Esta ventana puede personalizarse según la definición de pantalla (Display Definition), similar a la utilizada en otros módulos como Calendarios.
+
+💡 Es posible configurar otras vistas adicionales como "Información del Socio" o "Saldos del Socio del Negocio", según las necesidades de la organización.
+
+![Pestaña Contacto](/assets/img/docs/master-data/mad-master-contact3.png)
+
+![Pestaña Contacto](/assets/img/docs/master-data/mad-master-contact4.png)
+
+![Pestaña Contacto](/assets/img/docs/master-data/mad-master-contact5.png)
+
+### 📝 2. Datos Iniciales
+
+Campos obligatorios y personalizables:
+
+* Clave de Búsqueda: identificador del socio (código).
+
+* Nombre: Nombre del Socio del Negocio
+
+Otros campos visibles pueden agregarse o quitarse según la configuración del sistema.
+
+::: note
+🔧 Esta ventana es flexible y puede ser adaptada para mostrar los campos relevantes según cada tipo de negocio.
+:::
+
+### 📍 3. Direcciones del Socio
+
+Al momento de crear el socio, se puede ingresar información de dirección.
+
+Tipos de direcciones disponibles:
+
+* Dirección de Entrega
+
+* Dirección de Facturación
+
+Se puede seleccionar una sola opción o ambas, según corresponda.
+
+📌 La referencia de dirección indica el uso que se le dará (entrega, factura o ambas).
+
+### 🔒 4. Consideraciones sobre campos editables
+
+Si el campo "Socio del Negocio" aparece como solo lectura, no se asigna automáticamente al momento de la creación (es decir, que permitirá crear SDN desde el campo Socio del Negocio cuando este se encuentre editable).
+
+En entornos donde ese campo esté habilitado, el sistema asigna directamente el nombre en el alta.
+
+### 🔍 5. Consulta de información del Socio
+
+A través del botón "Información del Socio" se puede visualizar:
+
+* Datos básicos del socio
+
+* Direcciones vinculadas
+
+* Agregar nuevas direcciones desde esta vista
+
+✅ Esta funcionalidad permite consultar y editar información sin necesidad de ingresar completamente a la ventana del socio. Ahorra pasos y mejora la experiencia del usuario.
+
+::: note
+✅ Recomendaciones Finales
+
+Utilizar la personalización de la pantalla para optimizar los datos según el tipo de socio (cliente, proveedor, empleado).
+
+Aprovechar los accesos directos a información complementaria sin salir de la pantalla principal.
+
+Verificar que los campos obligatorios estén correctamente cargados antes de validar la creación.
+:::
+
+Esta guía permite al usuario crear un nuevo Socio del Negocio de forma fácil, flexible y adaptada a las necesidades operativas del sistema.

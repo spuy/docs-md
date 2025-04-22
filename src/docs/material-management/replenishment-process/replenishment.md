@@ -1,12 +1,12 @@
 ---
-title: Reabastecimiento
+title: Reabastecimiento de Almacén
 category: Documentation
 star: 9
 sticky: 9
 article: false
 ---
 
-El presente material elaborado por Solop ERP, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar en Solop ERP un proceso de reabastecimiento.
+El presente proceso de reabastecimiento sólo permite reabastecer en base a reglas de reabastecimiento fijas y por el mínimo y máximo de cada producto
 
 - Proceso de Reabastecimiento
   - Configuración Esencial
