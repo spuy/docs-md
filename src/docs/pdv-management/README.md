@@ -27,3 +27,5 @@ Imagen 1. Proceso de Punto de Venta
 - [Configuración del Punto de Venta](configuration)
 - [Uso del Punto de Venta](point-interface)
 - [Acciones del Punto de venta](opening)
+- [Cierre de Caja del Punto de Venta](close)
+- [Toma de Pedido en Punto de Venta](order-taking)
