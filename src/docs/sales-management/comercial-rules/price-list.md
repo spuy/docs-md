@@ -585,3 +585,53 @@ Seleccione la pestaña **Precio Producto**, para visualizar los registros cargad
 ![Campo](/assets/img/docs/sales-management/sam-sales-image428.png)
 
 Imagen 9. Pestaña Precio Producto
+
+## 🔄 Conversión de Moneda desde Lista de Precios en Punto de Venta (PDV)
+
+Esta funcionalidad permite asignar automáticamente un precio a un producto que no tiene valor definido en la lista de precios principal, utilizando como referencia una segunda lista de precios en otra moneda. 
+
+Es especialmente útil cuando se maneja una lista de precios base en USD y otra local en moneda nacional.
+
+### 🧾 ¿Cómo funciona?
+
+El sistema utiliza una Lista de Precios principal (por ejemplo, “Ventas POS”).
+
+Si un producto en esta lista tiene el precio en cero (0), el sistema buscará ese mismo producto en una Lista de Precios de Referencia (por ejemplo, “General USD”).
+
+Si el producto se encuentra en la lista de referencia con un valor definido, el sistema:
+
+* Toma ese precio de referencia.
+
+* Lo convierte automáticamente a la moneda de la lista principal.
+
+* Usa la tasa de conversión vigente según el tipo de cambio asignado al documento (ej: orden de venta).
+
+### ✅ Condiciones necesarias para que la conversión se aplique
+
+* El producto debe existir en ambas listas de precios.
+
+* El precio en la lista principal (PDV) debe estar en cero (0).
+
+* El producto debe tener precio asignado en la lista de referencia.
+
+* La conversión solo ocurre cuando se crea una nueva línea de venta o se modifica el producto.
+
+#### 🧮 Ejemplo
+
+Lista Ventas POS: Producto X = 0
+
+Lista General USD: Producto X = 10 USD
+
+Tasa de conversión: 40
+
+Resultado: Al seleccionar el producto, el sistema asigna 400 en moneda local automáticamente.
+
+#### 🔒 Importante
+
+::: note
+Si el producto ya tiene un precio distinto de cero, no se aplica conversión.
+
+Si se modifica la cantidad o el precio manualmente, el sistema ya no vuelve a recalcular.
+
+La conversión se realiza una sola vez al momento de agregar el producto o modificarlo.
+:::

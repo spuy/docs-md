@@ -20,17 +20,18 @@ Esta guía tiene como objetivo explicar las diferentes reglas y mecanismos dispo
 
 Reabastecer implica reponer el inventario de un producto que ha salido del almacén por diversos motivos: ventas, movimientos internos, ajustes, producción o consumo. El sistema puede reabastecer de diferentes maneras:
 
-A través de una orden de distribución desde otro almacén.
+* A través de una orden de distribución desde otro almacén.
 
-Mediante una orden de compra a un proveedor.
+* Mediante una orden de compra a un proveedor.
 
-Usando una requisición, si aplica al proceso de compras.
+* Usando una requisición, si aplica al proceso de compras.
 
-Con un movimiento de inventario directo entre almacenes, sin orden asociada.
+* Con un movimiento de inventario directo entre almacenes, sin orden asociada.
 
 ### 📊 Mecanismos y reglas de reabastecimiento
 
-Reabastecimiento por mínimos y máximos
+#### Reabastecimiento por mínimos y máximos
+
 El sistema permite establecer niveles mínimos y máximos de inventario para cada producto y almacén.
 Cuando el stock cae por debajo del mínimo, se genera una sugerencia de reabastecimiento.
 
@@ -67,6 +68,7 @@ Reabastece sin importar el motivo de salida (venta, ajuste, traslado, producció
 Ideal para mantener un stock constante y parejo.
 
 ### ⚙️ ¿Cómo aplica el sistema la regla?
+
 Si el campo de Regla de Reabastecimiento está vacío en el producto, el sistema tomará la regla definida a nivel de almacén.
 
 Si se especifica una regla en el producto, esta tendrá prioridad sobre la del almacén.
@@ -90,21 +92,21 @@ Esta guía explica paso a paso cómo se configura el sistema para aplicar reglas
 
 #### ¿Qué hace el sistema?
 
-El sistema identifica qué productos deben reponerse basándose en:
+* El sistema identifica qué productos deben reponerse basándose en:
 
-Las ventas realizadas.
+* Las ventas realizadas.
 
-El nivel mínimo/máximo configurado por producto.
+* El nivel mínimo/máximo configurado por producto.
 
-Las reglas personalizadas aplicadas a nivel de almacén o producto.
+* Las reglas personalizadas aplicadas a nivel de almacén o producto.
 
 #### 🧪 ¿Cómo calcula el sistema qué reponer?
 
-Tipo de transacción relevante: El sistema considera los movimientos que representen salida de mercadería —por ejemplo, "embarque a cliente".
+1. Tipo de transacción relevante: El sistema considera los movimientos que representen salida de mercadería —por ejemplo, "embarque a cliente".
 
-Fecha de corte: El usuario realiza un corte manual. Desde ese momento hacia atrás, el sistema calcula cuántas unidades salieron y lo toma como base para el reabastecimiento.
+2. Fecha de corte: El usuario realiza un corte manual. Desde ese momento hacia atrás, el sistema calcula cuántas unidades salieron y lo toma como base para el reabastecimiento.
 
-Acción posterior: Tras el corte, el sistema espera una acción concreta:
+3. Acción posterior: Tras el corte, el sistema espera una acción concreta:
 
 * Requisición
 
@@ -140,7 +142,7 @@ Se debe usar el smart browser llamado Reabastecimiento de Producto, y no el de R
 
 ### 🧠 Tipos de configuración de reabastecimiento disponibles
 
-Tipo de Reabastecimiento
+#### Tipo de Reabastecimiento
 
 Descripción
 
@@ -156,15 +158,15 @@ Siempre que el stock esté por debajo del máximo, reordena automáticamente.
 
 Ejecutan cálculos específicos antes de sugerir reabastecimientos.
 
-📋 Informativo
+* 📋 Informativo
 
 No genera acción automática, pero muestra en pantalla para evaluación manual.
 
-⚠️ No soportado
+* ⚠️ No soportado
 
 Algunos tipos como “calculado” o “EDM del proyecto” no están habilitados para este proceso.
 
-📝 Notas clave
+* 📝 Notas clave
 
 ::: note
 Importante: Si un producto no tiene regla asignada, no aparecerá en el módulo de reabastecimiento, incluso si tuvo ventas.
@@ -204,7 +206,7 @@ Para mejorar la eficiencia del proceso, el sistema permite aplicar múltiples fi
 
 ✅ Socio de negocio (importante si el producto requiere ser adquirido a un proveedor)
 
-note :::
+::: note
 📌 Nota: Si el producto no tiene un socio de negocio definido, no podrá ser reabastecido mediante una orden de compra.
 :::
 

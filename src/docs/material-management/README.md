@@ -12,6 +12,9 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 - [Inventario de Uso Interno](internal-use-inventory)
 - [Inventario Físico](physical-inventory)
 - [Lista de Materiales](ldm)
-- [Reabastecimiento de Almacén](replenishment)
-- [Reabastecimiento de Producto](replenishment-product)
 - [Reportes de inventario](inventory-reports)
+
+### Procesos de Reabastecimiento
+
+- [Reabastecimiento de Almacén](replenishment/process/replenishment)
+- [Reabastecimiento de Producto](replenishment/process/replenishment-product)
