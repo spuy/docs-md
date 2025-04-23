@@ -39,9 +39,9 @@ Proceda al llenado de los campos necesarios que a continuación se detallan.
 
 Seleccione la organización en el campo **Organización**.
 
-La organización le permite definir la entidad legal ó una sub-unidad a la cual pertenece el socio de negocio, si la organización es (\*), este estará disponible para todas las organizaciones al procesar documentos y transacciones, pero si por el contrario, ha seleccionado una organización diferente, este registro únicamente estará disponible para la organización seleccionada.
+La organización le permite definir la entidad legal ó una sub-unidad a la cual pertenece el socio de negocio, si la organización es "*", este estará disponible para todas las organizaciones al procesar documentos y transacciones, pero si por el contrario, ha seleccionado una organización diferente, este registro únicamente estará disponible para la organización seleccionada.
 
-Generalmente los **Socios de Negocios** son registros compartidos entre entidades organizacionales, por esta razón **Solop ERP** recomienda la creación con organización (\*) para evitar duplicidad e inconvenientes contables, de esta forma garantizamos la homogeneidad de los datos maestros.
+Generalmente los **Socios de Negocios** son registros compartidos entre entidades organizacionales, por esta razón **Solop ERP** recomienda la creación con organización "*" para evitar duplicidad e inconvenientes contables, de esta forma garantizamos la homogeneidad de los datos maestros.
 
 Introduzca el código de socio del negocio en el campo **Código**.
 
@@ -149,7 +149,7 @@ Adicionalmente, define en el socio de negocio funciones y parámetros a partir d
 
 **Contabilidad**: Define cuentas contables en la que se realizarán los asientos contables dependiendo de la naturaleza del socio de negocio (Clientes o Proveedores).
 
-Seleccione el tipo de cuenta en el campo **Tipo de Cuenta\*\***.
+Seleccione el tipo de cuenta en el campo **Tipo de Cuenta**.
 
 El tipo de cuenta no es un campo obligatorio, sin embargo, le permite a los vendedores conocer con perfección las características de sus clientes y los diferentes tipos de clientes definidos en la empresa y así realizar un mejor estudio de mercado.
 
@@ -688,7 +688,7 @@ En esta pestaña es registrada la información que la empresa requiere del socio
 
 ![Menú de Solop ERP](/assets/img/docs/master-data/mad-master-menu-4.png)
 
-🧾 Guía de Usuario: Creación de Socio del Negocio desde un campo
+## 🧾 Guía de Usuario: Creación de Socio del Negocio desde un campo
 
 Esta guía está destinada a explicar el proceso para crear un nuevo Socio del Negocio dentro del sistema desde otra entidad (Ejemplo: documento por cobrar)
 

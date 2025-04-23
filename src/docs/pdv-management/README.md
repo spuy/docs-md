@@ -20,10 +20,6 @@ Puntos necesarios para comenzar a utilizar el Punto de Venta (tips):
 
 El Punto de Ventas No deberá tener un Cierre de caja con fecha distinta a la de HOY en estado completo y deberá tener un “Cierre de Caja” en Borrador con fecha HOY. Para que se genere un Cierre de Caja con fecha hoy se debe haber generado una “Apertura de Caja” con fecha HOY.
 
-![Campo](/assets/img/docs/pdv-management/pdm-pdv-image992.png)
-
-Imagen 1. Proceso de Punto de Venta
-
 - [Configuración del Punto de Venta](configuration)
 - [Uso del Punto de Venta](point-interface)
 - [Acciones del Punto de venta](opening)

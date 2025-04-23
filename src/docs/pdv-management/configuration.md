@@ -16,7 +16,6 @@ article: false
 
 * Al seleccionar esta opción, se abrirá la ventana Terminal PDV, que incluye los campos necesarios para configurar cajas, taquillas o autoservicios donde se gestionarán órdenes, facturación y cobro. 
 
-
 ### Campos Principales de Configuración 
 
 A continuación, se detalla cada campo y su función dentro de la ventana: 
@@ -41,7 +40,6 @@ A continuación, se detalla cada campo y su función dentro de la ventana:
 
 * Transferencia de Caja a Banco: Configure la cuenta a la que se transferirán las transacciones. 
 
-
 ### Documentos Asociados y Reglas 
 
 * Tipo de Documento: Seleccione el tipo de documento para ventas y devoluciones. Consulte el documento "Tipo de Documento" de Solop ERP para detalles adicionales. 
@@ -59,8 +57,6 @@ A continuación, se detalla cada campo y su función dentro de la ventana:
 
 * Teclados en Pantalla: Active teclados específicos para entradas de texto o numéricas. 
 
- 
-
 ### Checks y Configuraciones Adicionales 
 
 * POS Compartido: Determine si el terminal puede ser utilizado por más de un vendedor. 
@@ -71,7 +67,6 @@ A continuación, se detalla cada campo y su función dentro de la ventana:
 
 * Vendedores Asignados: Defina qué vendedores pueden usar el terminal y qué operaciones pueden realizar. 
 
-
 ### Pestañas de Configuración Específica 
 
 * Asignación de Almacenes: Configure los almacenes accesibles desde el punto de venta. 
@@ -79,6 +74,8 @@ A continuación, se detalla cada campo y su función dentro de la ventana:
 * Formas de Pago: Establezca métodos de pago aceptados y reglas de reembolso. 
 
 * Listas de Precios y Tipos de Documento: Configure las opciones disponibles para las transacciones. 
+
+Para más información sobre Listas de Precio: [Lista de Precios](../sales-management/comercial-rules/price-list)
 
 * Esquema de Descuentos: Defina políticas de descuento aplicables en el terminal. 
 
