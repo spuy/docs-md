@@ -118,3 +118,65 @@ Por cada retiro realizado, Solop ERP genera en la ventana Caja:
 :::
 
 Si el punto de venta tiene transacciones en efectivo y tarjeta, se deben realizar dos retiros por separado
+
+## 💱 Cobro y Cambio en Moneda Diferente a la Factura
+
+Esta funcionalidad permite realizar cobros y entregar cambio en una moneda distinta a la de la factura, siempre que la configuración del punto de venta lo permita.
+
+### 🔄 Cobros en Moneda Diferente
+
+Para que sea posible cobrar en una moneda distinta a la de la factura, el método de pago configurado en el punto de venta no debe tener una moneda predeterminada.
+
+#### ✅ Ejemplo funcional: El método de pago Mastercard permite seleccionar una moneda diferente porque no tiene moneda fija asignada.
+
+::: note
+❌ Excepción: El método de pago Efectivo tiene una moneda fija configurada, por lo tanto no permite seleccionar otra moneda al momento del cobro.
+:::
+
+### 🌍 Monedas disponibles para el cobro
+
+Las monedas que se muestran en el punto de venta para seleccionar dependen de los siguientes criterios:
+
+* Que la moneda tenga una tasa de conversión configurada.
+
+* Que dicha tasa esté configurada para el mismo tipo de conversión que utiliza la moneda principal del punto de venta.
+
+Q* ue la tasa esté vigente a la fecha actual.
+
+### 💵 Cambio en Otra Moneda
+
+* La lógica para el cambio en otra moneda es similar a la del cobro:
+
+* Si el método de pago tiene una moneda predeterminada, no se podrá seleccionar otra.
+
+* Si no tiene moneda asignada, sí se podrá seleccionar otra al momento de entregar el cambio.
+
+### ✔️ Recomendación
+
+Para habilitar el cambio en otra moneda:
+
+* Crear un nuevo método de pago, por ejemplo llamado Cambio.
+
+* Asociarlo al mismo tipo de método de pago que “Efectivo”.
+
+* Activar el campo “Is Allowed To Refund”.
+
+::: note
+Este check es indispensable para que el método de pago esté disponible en la pantalla de cambio.
+:::
+
+Cambio Predeterminado:
+
+![Predeterminado](/assets/img/docs/pdv-management/pdm-pdv-image294.png)
+
+Pago Diferido:
+
+![Pago Diferido](/assets/img/docs/pdv-management/pdm-pdv-image295.png)
+
+Ajuste:
+
+![Ajuste](/assets/img/docs/pdv-management/pdm-pdv-image296.png)
+
+Resultado:
+
+![Ajuste](/assets/img/docs/pdv-management/pdm-pdv-image297.png)
