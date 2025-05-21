@@ -27,6 +27,7 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 - [Facturación desde Orden de Salida](receivable-document/bill)
 - [Facturación de Conceptos](concepts-billing)
 - [Reportes de Facturas](../purchase-management/payable-documents/invoice-reports)
+- [Facturas en Lote](receivable-document/batch-invoices)
 
 ### Órdenes de Venta
 
