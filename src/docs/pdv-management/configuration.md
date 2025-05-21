@@ -97,3 +97,36 @@ Para más información sobre Listas de Precio: [Lista de Precios](../sales-manag
 ### Consideraciones Finales 
 
 Al finalizar la configuración, no olvide guardar los cambios utilizando el ícono correspondiente en la barra de herramientas de Solop ERP. 
+
+## 🛠️ Configuración de la Terminal PDV para Permitir Definir Socio de Negocio con RUT o Cédula
+
+### 🎯 Objetivo
+
+Permitir la creación de socios de negocio desde el Punto de Venta (POS), ya sea con cédula o con RUT, a través de la configuración de plantillas predefinidas (templates).
+
+### ✅ Pasos:
+
+* 🧭 Acceder a la Terminal de Punto de Venta (POS):
+Ir a la ventana de configuración de terminales POS. Posicionarse en la terminal que se desea configurar, por ejemplo, POS 1.
+
+* 🗂️ Ir a la pestaña “Business Partner Template”
+Esta pestaña puede estar en inglés y puede requerir traducción al español. Contiene las plantillas de socios de negocio que se usarán al momento de crearlos desde el POS.
+
+### 🧹 Gestionar las Plantillas Existentes:
+
+* Verificar que solo estén activos los templates necesarios: uno para RUT y otro para Cédula.
+
+* 🗑️ Borrar cualquier plantilla innecesaria.
+
+Ejemplo: dejar solo dos plantillas activas: RUT Template y Cédula Template.
+
+### 🔍 Verificar configuración de las plantillas activas:
+
+a. Cada socio de negocio utilizado como plantilla debe tener asignado un Grupo de Impuestos correspondiente (por ejemplo, grupo “RUT” 🧾).
+
+b. Asegurarse de que estos socios estén activos en todos los clientes.
+
+c. El tipo de impuesto debe coincidir con el documento: empresa (RUT 🏢) o persona física (Cédula 🧍).
+
+💾 Guardar configuración:
+La terminal POS ya queda preparada para crear socios de negocio directamente con los datos proporcionados en el punto de venta.

@@ -1,5 +1,5 @@
 ---
-title: Gestión de Servicios Tercerizados
+title: Gestión de Servicios
 category: Documentation
 star: 9
 sticky: 9
@@ -14,6 +14,8 @@ Diagrama del Circuito de trabajo:
 
 ![Flujo de Trabajo Servicios Tercerizados](/assets/img/docs/field-services-management/fis-services1.png)
 
-- [Órdenes de Trabajo](work-order)
+- [Órdenes de Trabajo Field Services](work-order)
 - [Facturación y Pagos](billings-and-payments)
 - [Reporte](report)
+- [Órdenes de Trabajo Services](work-order-services)
+- [Carga de Órdenes Rondanet (Services)](rondanet-order)

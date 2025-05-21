@@ -180,3 +180,55 @@ Ajuste:
 Resultado:
 
 ![Ajuste](/assets/img/docs/pdv-management/pdm-pdv-image297.png)
+
+## 🧾 Creación de un Socio de Negocio desde la Ventana de Punto de Venta
+
+### 🎯 Objetivo
+
+Crear directamente un nuevo Socio de Negocio desde la ventana de ventas del POS, con la posibilidad de ingresar número de cédula o RUT.
+
+### ✅ Pasos:
+
+* 🛒 Abrir el Punto de Venta (POS):
+
+Ingresar al POS con la terminal configurada (Ver Configuración del Punto de Venta)
+
+* 🧾 Iniciar una nueva orden de venta:
+
+Crear una nueva orden y seleccionar la opción de crear un nuevo socio de negocio.
+
+* 📄 Seleccionar tipo de identificación:
+
+Elegir si se va a ingresar una cédula 🧍 o un RUT 🏢.
+
+Si es persona física ➡️ seleccionar el template de cédula.
+
+Si es empresa ➡️ seleccionar el template de RUT.
+
+* ✍️ Completar datos del nuevo socio:
+
+Nombre del cliente o empresa
+
+📧 Correo electrónico
+
+📞 Teléfono
+
+🏠 Dirección (Calle, Departamento, País)
+
+* ✅ Confirmar creación:
+
+Al guardar, se crea automáticamente el socio de negocio y se vincula a la orden.
+
+* 📤 Validación automática de documentos:
+
+Si el tipo de documento es “POS Order” y está configurado para emitir factura electrónica:
+
+a. Se genera la factura 📑
+
+b. Se emite el ticket 🧾 sin requerir etiquetas adicionales
+
+* 🔄 Notas adicionales:
+
+Si se vuelve a ingresar un RUT ya definido, el sistema lo detecta automáticamente y reutiliza el socio.
+
+El proceso está automatizado para facilitar la operación en POS 💡
