@@ -21,3 +21,4 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 - [Checking](service-project/Checking)
 - [Compra Directa a un Proveedor en nombre de Cliente](service-project/direct-purchase-from-supplier)
 - [Proyecto de Medios](service-project/quote-for-clients)
+- [Proyecto de Media Retail](service-project/media-retail-project)
