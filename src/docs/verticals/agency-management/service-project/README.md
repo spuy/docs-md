@@ -24,3 +24,4 @@ El proyecto enlaza estas relaciones vinculantes con otras Organizaciones y permi
 - [Checking](Checking)
 - [Compra Directa a un Proveedor en nombre de Cliente](direct-purchase-from-supplier)
 - [Proyecto de Medios](quote-for-clients)
+- [Proyecto de Media Retail](media-retail-project)
