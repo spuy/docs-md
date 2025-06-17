@@ -6,109 +6,195 @@ sticky: 9
 article: false
 ---
 
-### e-Factura
+## Guía de uso - Facturación Electrónica
 
-Si se requiere generar una e-Factura, es requisito que el Cliente disponga de un RUT definido en la definición del Socio del Negocio.
+### 1. ¿Qué es la Facturación Electrónica?
 
-Ventana Socio del Negocio:
+La facturación electrónica consiste en la emisión de comprobantes fiscales que deben ser reportados y enviados a la entidad fiscal correspondiente (como la DGI en Uruguay), cumpliendo con la normativa vigente del país. Este proceso se realiza automáticamente a través del sistema una vez que el documento ha sido correctamente configurado y completado.
 
-* **Grupo de Impuestos:** Debe seleccionarse “RUT”
-* **Número de Identificación:** Debe ir el número del RUT
+### 2. Acceso a la Facturación Electrónica
 
-### e-Ticket
+Se puede ingresar desde dos lugares principales:
 
-Para los “e-ticket” no es requisito identificar el cliente a quién se está realizando el mismo (siempre y cuando no supere los 10.000 UI) permitiendo en estos casos generar e-Ticket a un Cliente por defecto (por ej: Mostrador) donde la venta sería un “Consumidor Final”.
+* Ventana de documentos por cobrar
 
-Sólo para aquellos casos que supere los 10.000 UI se deberá identificar el Cliente con su Nombre y Número de Cédula.
+* Punto de venta (POS)
 
-#### ¿Cómo defino el número de Cédula en un Cliente?
+### 3. Configuración previa necesaria
 
-En el caso de que se requiera incluir la Cédula en un Cliente, se puede hacer desde la ventana “Socio del Negocio”
+#### 3.1 Socio de negocio
 
-::: note
-En el campo “Número de Identificación” se coloca la cédula del SDN.
-:::
+Es indispensable elegir un socio de negocio válido (cliente) antes de emitir un documento. Ejemplo: Casa Gutiérrez.
 
-![Socio del negocio](/assets/img/docs/electronic-billing/elb-billing10.png)
+#### 3.2 Grupo de impuestos del socio
 
-### Envío del Comprobante Fiscal a DGI
+El grupo de impuestos asociado al socio de negocio define el tipo de documento fiscal electrónico que se utilizará. Algunos ejemplos:
 
-El Envío del Comprobante Fiscal Electrónico (CFE), ya sea e-Factura o e-Ticket se genera cuando se “Completa” el Documento en cuestión desde Solop ERP.
+Cédula/DNI/Pasaporte/Otros → e-Ticket
 
-Para el caso de Retail, al completar una Orden de Venta del Tipo “POS Order” desde el Punto de Venta se genera automáticamente el Documento por Cobrar correspondiente y envía a DGI el mismo.
+Empresas u organizaciones → e-Factura
 
-Al confirmar con el botón del check desde el “POS” o con el botón “Completar” desde la ventana “Documentos por Cobrar”, y de forma automática el sistema:
-
-* **Genera la Orden de Venta y la completa.**
-* **Genera el Cobro definido según la Forma de pago seleccionada en la Caja definida en el Punto de Venta.**
-* **Genera la Factura y la completa, realizando el envío a Invoicy y generando la Representación Impresa del CFE.**
-* **Si en InvoiCy todo esta OK, esta devuelve la representación impresa en una nueva pestaña.**
+Se debe verificar que estos tipos estén correctamente definidos en el grupo de impuestos correspondiente. Si no hay uno definido, el sistema no podrá completar ni enviar correctamente el documento.
 
 ::: note
-Este lapso entre que el documento va a InvoiCy y DGI y es devuelto puede tener un tiempo de espera que variara dependiendo de diversas condiciones (ancho de banda del ISP, estado de procesamiento en DGI, etc.)
+❗ Importante: Solo debe haber un tipo de documento fiscal por instancia, y no por organización.
 :::
 
-### Datos del CFE en Solop ERP:
+### 4. Creación del documento de venta (factura)
 
-Todos la información referente a la Facturación Electrónica del CFE se puede visualizar en la Pestaña CFE ubicada en la Ventana de Documentos por Cobrar.
+#### 4.1 Desde la ventana “Documentos por cobrar”:
 
-**Serie de CFE:** Letra inicial del CFE
+* Elegí el socio de negocio.
 
-**Número de Serie CFE:** Número de CAE que utilizó el CFE
+* Asegurate de que el tipo de documento seleccionado tenga marcada la opción:
 
-**Descripción Mensaje CFE:** Se visualizará el 1er estado que respondió Invoicy.
+“¿Maneja facturación electrónica?” → Sí
 
-**Representación Impresa CFE:** Enlace con el cual puede abrir la representación impresa del documento generado.
+“¿Enviar después de completar?” → Sí
 
-**Información extra de CFE:** Aquí se listaran los estatus del envío del documento a InvoiCy y DGI.
+* Seleccioná el tipo de documento fiscal que corresponda.
 
-**Estado del CFE:** Para visualizar el Estado actualizado del Envío del CFE a DGI se deberá ingresar a la Plataforma de Facturación Electrónica. Por Solop ERP sólo se podrá contar con la respuesta inicial, si es Firmado OK o si es Rechazado por algún error.
+#### 4.2 Agregar líneas al documento
+
+* Seleccioná un producto y la cantidad.
+
+* Al guardar la línea, el sistema actualizará automáticamente los totales del documento.
+
+#### 4.3 Completar y enviar
+
+* Hacé clic en “Completar”.
+
+* Si la configuración es correcta, el sistema enviará automáticamente el documento a la entidad fiscal.
+
+### 5. Verificación del envío
+
+Una vez enviado, podés consultar el estado en la ventana:
+
+"Bitácora de documento electrónico", donde se muestra:
+
+* QR
+
+* URL de descarga
+
+* Número fiscal asignado
+
+* Código de seguridad
+
+* Estado de firma y envío
+
+* Observaciones o errores (si existen)
+
+✔ Si el estado indica "Archivo firmado correctamente", significa que el documento fue aceptado por la entidad fiscal.
+
+❗ Si hubo un error (por ejemplo, rechazo del comprobante), aparecerá en la sección “Notas” o “Información adicional”.
+
+### 6. Consideraciones sobre numeración
+
+Una vez asignado un número por el facturador electrónico, no se puede reutilizar.
+
+Si el documento es rechazado, se pierde ese número y el siguiente será el próximo disponible.
+
+Esto garantiza que no se repitan ni se pisen numeraciones.
+
+### 7. Visualización e impresión
+
+La representación impresa de la factura se puede obtener de dos formas:
+
+* Desde el botón “Imprimir comprobante fiscal” (único habilitado).
+
+* Desde la URL de descarga, que abre el PDF del comprobante generado.
 
 ::: note
-Los mensajes de Error si no se logra Firmar el CFE se podrán visualizar en el campo “Información Extra del CFE”.
+❗ No se deben usar otros botones de impresión que aparecen por defecto en la interfaz, ya que no están soportados
 :::
 
-### Nota de Crédito en Facturación Electrónica
+### 8. Reenvío y errores comunes
 
-La opción de Nota de Crédito para la ventana del POS aun no esta implementada, para generarla, se ingresa en Solop ERP mediante la ventana “Factura Cliente Simple” y se ingresa la información obligatoria como se muestra.
+Si un documento queda “completo” pero no fue enviado:
 
-Para seleccionar la Factura a la que se le hace el descuento, se puede usar el botón “Copiar Líneas”, del área “Estado”, esto traerá un popup similar al siguiente donde se selecciona la factura.
+* Usar el proceso: "Autorizar documento por cobrar".
 
-Si sabemos el no. de la factura se ingresa aqui, de lo contrario se da clic en el botón a la derecha del campo “Factura” y se abrirá una ventana con todos los documentos.
+* Elegir tipo de autorización: Enviar.
 
-Es posible que si la factura ya ha sido pagada, si el check “Pagado” no está seleccionado, el documento no aparezca, de ser así, seleccionarlo, la ventana se refrescara y aparecerá el documento para seleccionarlo.
+* Luego ejecutar: “Enviar factura a servicio de facturación electrónica”.
 
-Se selecciona la Factura en cuestión y se da clic en el check. Se volverá a la ventana anterior con el número de la factura.
+* Esto permite volver a enviar un documento que por error quedó sin transmisión.
 
-Al seleccionar una Factura desde Copiar Líneas el proceso copiará todas las líneas que ésta tenga al Documento que estoy generando. Se podrá verificar que el importe total del documento será el mismo que la Factura que seleccioné.
+### 9. Anulación de comprobantes
 
-En caso que se desee realizar una Nota de Crédito por alguna línea en especial se deberá ir a la pestaña de Líneas para realizar la modificación pertinente.
+Solo se puede anular si el comprobante fue rechazado por la entidad fiscal.
 
-*Recomendación: InvoiCy recomienda anular toda la factura de ser posible en vez de hacer anulaciones parciales.*
+En ese caso, el sistema permite marcarlo como “anulado” y liberar el documento.
 
-Hasta este punto el documento está en estado “Borrador” (campo “Estado del Documento“), para que sea válido para DGI, el documento debe estar “Completo”, antes de tratar de completar, para este caso con una Nota de Crédito/Débito, DGI requiere que se haga referencia al documento que se está anulando, para ello, se selecciona la pestaña “CFE Referidos” y se ingresa la información:
+Si fue aceptado y firmado, no se puede anular.
 
-Este paso, si se generó las Líneas desde el Proceso de “Copiar Líneas”, no será necesario ya que el documento se habrá definido de manera automática en el campo “Documento Asignado”.
+### 10. Nota de crédito
 
-### Asignación Automática de Nota de Crédito
+Para emitir una nota de crédito:
 
-Si una Nota de Crédito se define el Documento que está referenciado mediante el campo de “Documento Asignado”, al Completar la misma se realizará de manera automática la asignación entre la misma y la Factura asignada. De esta manera, el saldo pendiente de la Factura se verá cancelado por el importe de la Nota de Crédito.
+* Hacer copia del documento original.
 
-Luego de guardado, se puede completar el Documento para enviar a DGI.
+* Cambiar el tipo a “Nota de crédito”.
 
-Al hacer clic en el botón de Procesar Documento aparecerá la ventana.
+* Utilizar la función de "Crear Desde" para ligar las líneas de factura.
 
-Dar clic en el botón del check para procesar.
+* En el campo “Factura asignada”, debe quedar definida la factura original. Este dato es obligatorio.
 
-Al completar, se hace el envio a InvoiCy y posteriormente a DGI. Al completar, el estado del documento queda como “Completo”.
+* Completar el documento.
 
-Las Notas Crédito también se pueden generar desde la ventana “Documentos por Cobrar”.
+::: note
+❗ Si no queda definida la factura asignada, el sistema no debería permitir completar la nota de crédito.
+:::
 
-Recordar que en el caso en que se desee generar una e-Factura, el Cliente debe tener RUT y dirección bien definidos, de lo contrario, al intentar completar el documento, se generará un error indicando qué información queda pendiente por ingresar para poder continuar.
+### 11. Campo “Adenda” y “Descripción”
 
-En la representación impresa se puede apreciar los distintos datos del e-Ticket.
+* Estos campos permiten enviar información adicional en el comprobante.
 
-En la ventana de la representación impresa puede utilizar el icono de la impresora para enviar el documento a imprimir.
+* Aparecen en la representación impresa como texto informativo adicional.
+
+### 12. Recomendaciones finales
+
+* Verificar siempre que el grupo de impuestos esté correctamente definido antes de emitir un documento.
+
+* No completar documentos si no se visualiza el tipo fiscal correctamente en el cabezal.
+
+* Usar siempre los botones habilitados y descriptos en esta guía.
+
+* Documentar todo evento o incidencias reproducibles y reportarlos al equipo de soporte.
+
+### ✅ Guía rápida para emitir una Factura Electrónica
+
+* Seleccionar el socio de negocio correcto
+* Asegurarse de que tenga un grupo de impuestos asignado con tipo de CFE definido (e-ticket, e-factura, etc.).
+
+#### Tipo de documento fiscal
+
+El documento debe tener:
+
+* Tipo de CFE válido
+
+* “¿Maneja facturación electrónica?” = Sí
+
+* “¿Enviar después de completar?” = Sí
+
+* Ingresar líneas de productos
+Al guardar la línea, el sistema actualiza los totales.
+
+* Completar el documento
+Se genera la numeración fiscal y se envía automáticamente a la DGI si está correctamente configurado.
+
+* Verificar en la bitácora
+Consultar el estado de envío, firma, errores, QR, y URL de descarga en la Bitácora de Documento Electrónico.
+
+* Imprimir
+Usar solamente el botón “Imprimir Comprobantes Fiscales” o la URL de descarga generada.
+
+* Errores o reenvíos
+Si no se envió, ejecutar:
+
+“Autorizar documento por cobrar” con opción “Enviar”
+
+Luego: “Enviar factura a servicio de facturación electrónica”
 
 
 ## 🧾 Cola de Envío y Procesamiento de Documentos
@@ -119,31 +205,31 @@ En la ventana de la representación impresa puede utilizar el icono de la impres
 
 Antes de iniciar el envío de facturas electrónicas, es importante verificar:
 
-🏢 a. El emisor debe tener una ubicación configurada
+ a. El emisor debe tener una ubicación configurada
 
            El proveedor de CFE exige que el emisor tenga una dirección registrada.
-          🔴 Si no se configura, se producirá un error al intentar enviar la primera factura.
+           Si no se configura, se producirá un error al intentar enviar la primera factura.
 
 📄 b. El documento debe estar marcado como electrónico
 
             Solo se enviarán documentos que tengan habilitado el check
-           ✅ “Maneja Facturación Electrónica”
+            “Maneja Facturación Electrónica”
             en su tipo de documento.
 
-📌 Si no está marcado, se descartará automáticamente del proceso de envío.
+ Si no está marcado, se descartará automáticamente del proceso de envío.
 
 ### 🛠️ 2. Envío manual de documentos electrónicos
 
 Si una factura no fue enviada automáticamente (por ejemplo, porque se completó antes de habilitar FE), se puede enviar manualmente:
 
     a. Ir al proceso:
-    🧭 “Enviar factura a servicios de facturación electrónica”
+     “Enviar factura a servicios de facturación electrónica”
 
     b. Seleccionar la factura pendiente.
 
     c. Ejecutar el proceso.
 
-     ⚠️ El sistema validará que:
+      El sistema validará que:
 
      El documento esté marcado como electrónico.
 
@@ -171,17 +257,17 @@ los documentos se agregan a una cola de procesamiento electrónico.
 
 ### ⚙️ 4. Configuración técnica de la cola
 
-📑 Para verificar cómo funciona:
+ Para verificar cómo funciona:
 
     a. Ir a Tipo de Cola.
 
     b. Seleccionar la cola de facturación electrónica.
 
-   🟢 Esta cola específica está configurada con:
-   🧩 “Procesamiento en paralelo”
+    Esta cola específica está configurada con:
+    “Procesamiento en paralelo”
    Esto significa que los documentos no esperan uno al otro y se procesan simultáneamente, ahorrando tiempo.
 
-🧠 Recomendaciones finales
+🧠 Recomendaciones finales:
 ✔️ Siempre configurar ubicación del emisor antes del primer envío.
 ✔️ Validar que el tipo de documento tenga el check de FE activo.
 ✔️ Utilizar la cola para optimizar el procesamiento en grandes volúmenes.
