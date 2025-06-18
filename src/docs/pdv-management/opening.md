@@ -189,46 +189,102 @@ Crear directamente un nuevo Socio de Negocio desde la ventana de ventas del POS,
 
 ### ✅ Pasos:
 
-* 🛒 Abrir el Punto de Venta (POS):
+* Abrir el Punto de Venta (POS):
 
 Ingresar al POS con la terminal configurada (Ver Configuración del Punto de Venta)
 
-* 🧾 Iniciar una nueva orden de venta:
+* Iniciar una nueva orden de venta:
 
 Crear una nueva orden y seleccionar la opción de crear un nuevo socio de negocio.
 
-* 📄 Seleccionar tipo de identificación:
+* Seleccionar tipo de identificación:
 
-Elegir si se va a ingresar una cédula 🧍 o un RUT 🏢.
+Elegir si se va a ingresar una cédula o un RUT.
 
-Si es persona física ➡️ seleccionar el template de cédula.
+Si es persona física seleccionar el template de cédula.
 
-Si es empresa ➡️ seleccionar el template de RUT.
+Si es empresa seleccionar el template de RUT.
 
-* ✍️ Completar datos del nuevo socio:
+* Completar datos del nuevo socio:
 
 Nombre del cliente o empresa
 
-📧 Correo electrónico
+Correo electrónico
 
-📞 Teléfono
+Teléfono
 
-🏠 Dirección (Calle, Departamento, País)
+Dirección (Calle, Departamento, País)
 
-* ✅ Confirmar creación:
+* Confirmar creación:
 
 Al guardar, se crea automáticamente el socio de negocio y se vincula a la orden.
 
-* 📤 Validación automática de documentos:
+* Validación automática de documentos:
 
 Si el tipo de documento es “POS Order” y está configurado para emitir factura electrónica:
 
-a. Se genera la factura 📑
+a. Se genera la factura 
 
-b. Se emite el ticket 🧾 sin requerir etiquetas adicionales
+b. Se emite el ticket sin requerir etiquetas adicionales
 
-* 🔄 Notas adicionales:
+* Notas adicionales:
 
 Si se vuelve a ingresar un RUT ya definido, el sistema lo detecta automáticamente y reutiliza el socio.
 
-El proceso está automatizado para facilitar la operación en POS 💡
+El proceso está automatizado para facilitar la operación en POS
+
+## 🧾 FUNCIONALIDAD: Precio convertido en punto de venta
+
+### 🛠️ CONFIGURACIÓN DE LISTA DE PRECIOS
+
+En la terminal PDV se utiliza una lista de precios principal (por ejemplo, Ventas POS) que puede tener productos con precio definido o en cero.
+
+Esta lista puede referenciar una lista de precios de respaldo o referencia (por ejemplo, en otra moneda como USD).
+
+El sistema aplica la lógica de conversión solo si se cumplen ambas condiciones:
+
+El producto está en la lista de precios activa del punto de venta.
+
+El producto tiene precio cero en esa lista.
+
+### 🧾 FUNCIONALIDAD EN PUNTO DE VENTA
+
+Si al cargar un producto su precio está en cero en la lista de precios activa, el sistema busca el mismo producto en la lista de precios de referencia.
+
+Si lo encuentra, toma ese valor, lo convierte a la moneda local (la del punto de venta) utilizando la tasa de cambio vigente, y lo carga automáticamente en la orden.
+
+Este proceso de conversión ocurre únicamente en los siguientes casos:
+
+* Al agregar una nueva línea en la orden de venta.
+
+* Al cambiar de producto en una línea ya existente.
+
+No se aplica la conversión si:
+
+Se modifica la cantidad: simplemente se multiplica por el precio ya asignado.
+
+Se edita manualmente el precio en la línea: en ese caso se respeta el valor ingresado y no se vuelve a calcular.
+
+Esta funcionalidad permite mantener listas de precios simplificadas en moneda local, tomando como base precios definidos en moneda extranjera, sin necesidad de duplicar valores o mantener listas paralelas completas.
+
+#### EJEMPLO ILUSTRATIVO
+Producto: Zapatilla Modelo X
+
+Lista de precios activa en PDV: Ventas POS (moneda: Pesos ARS)
+→ Precio definido: $0
+
+Lista de precios de referencia: Precios USD Público (moneda: Dólares USD)
+→ Precio definido: USD 10
+
+Tasa de cambio del día: 1 USD = $950
+
+#### Resultado en PDV al agregar el producto:
+
+El sistema detecta que el precio está en cero en la lista activa.
+
+Busca en la lista de referencia y encuentra el precio: USD 10.
+
+Aplica la conversión:
+USD 10 × $950 = $9.500
+
+El producto se carga automáticamente con $9.500 en la orden de venta.
