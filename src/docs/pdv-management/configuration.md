@@ -90,7 +90,7 @@ Para más información sobre Listas de Precio: [Lista de Precios](../sales-manag
 
   Modifique productos favoritos desde la pestaña Llave PDV. También puede asignar imágenes y categorías a los productos. 
 
-* Cajas de Punto de Venta: 
+* Cajas de *Punto de Venta*: 
 
   Asigne la caja correspondiente a cada terminal, vinculando el socio del negocio y los cargos predeterminados. 
 
@@ -98,15 +98,15 @@ Para más información sobre Listas de Precio: [Lista de Precios](../sales-manag
 
 Al finalizar la configuración, no olvide guardar los cambios utilizando el ícono correspondiente en la barra de herramientas de Solop ERP. 
 
-## 🛠️ Configuración de la Terminal PDV para Permitir Definir Socio de Negocio con RUT o Cédula
+## 🛠️ Configuración de la *Terminal PDV* para Permitir Definir Socio de Negocio con RUT o Cédula
 
 ### 🎯 Objetivo
 
-Permitir la creación de socios de negocio desde el Punto de Venta (POS), ya sea con cédula o con RUT, a través de la configuración de plantillas predefinidas (templates).
+Permitir la creación de socios de negocio desde el *Punto de Venta* (POS), ya sea con cédula o con RUT, a través de la configuración de plantillas predefinidas (templates).
 
 ### ✅ Pasos:
 
-* 🧭 Acceder a la Terminal de Punto de Venta (POS):
+* 🧭 Acceder a la Terminal de *Punto de Venta* (POS):
 Ir a la ventana de configuración de terminales POS. Posicionarse en la terminal que se desea configurar, por ejemplo, POS 1.
 
 * 🗂️ Ir a la pestaña “Business Partner Template”
@@ -130,3 +130,39 @@ c. El tipo de impuesto debe coincidir con el documento: empresa (RUT 🏢) o per
 
 💾 Guardar configuración:
 La terminal POS ya queda preparada para crear socios de negocio directamente con los datos proporcionados en el punto de venta.
+
+## 🧾 FUNCIONALIDAD: Cambio en otra moneda y conversión de precios en PDV
+
+### 🛠️ CONFIGURACIÓN EN *TERMINAL PDV*
+
+Si en la configuración de la terminal PDV se define una moneda específica, no se permitirá cambiar la moneda en el momento del cobro ni para entregar el cambio.
+
+Si no se establece una moneda, el sistema permitirá seleccionar una moneda distinta para dar el cambio.
+
+Para habilitar un método de pago como opción válida para devolver cambio, debe estar marcado el check:
+
+✅ Is Allowed To Refund
+
+Puede utilizarse el mismo método de pago que se usa para cobro (por ejemplo, efectivo), o crear un nuevo método específicamente para cambio, con un nombre distinto como "Cambio".
+
+### 🧾 FUNCIONALIDAD EN *PUNTO DE VENTA*
+
+La conversión de precios se activa cuando un producto no tiene precio definido en la lista de precios asignada al punto de venta.
+
+El sistema verifica si ese producto tiene un precio en una lista de precios de referencia, que puede estar definida en otra moneda (por ejemplo, dólares).
+
+Si encuentra un precio en esa lista de referencia, lo convierte automáticamente a la moneda definida en el punto de venta (por ejemplo, pesos), aplicando la tasa de cambio vigente del día.
+
+De esta manera, el producto puede agregarse a la orden con un precio en la moneda local, incluso si originalmente solo tenía precio en otra lista y otra moneda.
+
+Esta funcionalidad permite operar con mayor flexibilidad en entornos donde se utilizan múltiples monedas, evitando errores de carga o necesidad de mantener precios duplicados.
+
+### ✅ Observaciones clave:
+
+* La lista de precios principal es la que está definida en la *terminal PDV*.
+
+* Si el producto no tiene precio en esa lista, el sistema consulta la lista de referencia (en otra moneda).
+
+* El precio se convierte automáticamente usando la tasa de cambio vigente.
+
+* Esto permite operar en el PDV con múltiples monedas sin necesidad de duplicar productos o listas.
