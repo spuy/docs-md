@@ -1,11 +1,11 @@
 ---
-title: Emisión de e-factura
+title: Emisión CFE
 category: Documentation
 star: 9
 sticky: 9
 article: false
 ---
-### Verificación del envío
+### Verificación Envío CFE
 
 Una vez enviado, podés consultar el estado en la ventana:
 
