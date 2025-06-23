@@ -15,3 +15,6 @@ La facturación electrónica consiste en la emisión de comprobantes fiscales qu
 - [Invoicy - Plataforma Facturación Electrónica](electronic-billing-supplier)
 - [Importación CFE Recibidos](import-cfe-received)
 - [Retenciones y Resguardos](withholding)
+- [Configuración CFE](configuration)
+- [Emisión CFE](inssuance)
+- [FAQs CFE](frequently_ask)
