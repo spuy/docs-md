@@ -8,15 +8,15 @@ article: false
 
 ## Configuración previa necesaria
 
-El circuito de facturación electrónica requiere setear ciertas definiciones en el sistema para lograr un correcto envío de comprobantes digitales a la entidad fiscal
+El circuito de facturación electrónica requiere setear ciertas definiciones en el sistema para lograr un correcto envío de comprobantes digitales a la entidad fiscal.
 
 ### Socio de negocio
 
-Es indispensable elegir un socio de negocio válido (cliente) antes de emitir un documento. Ejemplo: Casa Gutiérrez.
+Es indispensable elegir un |socio del negocio válido| (cliente) antes de emitir un documento. Ejemplo: Casa Gutiérrez.
 
 #### Grupo de impuestos del socio
 
-El grupo de impuestos asociado al socio de negocio define el tipo de documento fiscal electrónico que se utilizará. Algunos ejemplos:
+El |grupo de impuestos| asociado al |socio del negocio| define el |tipo de documento| fiscal electrónico que se utilizará. Algunos ejemplos:
 
 Cédula/DNI/Pasaporte/Otros → e-Ticket
 

@@ -5,6 +5,9 @@ star: 9
 sticky: 9
 article: false
 ---
+
+Una vez generados los documentos por cobrar desde Solop ERP, es posible verificar el proceso de envío a la entidad fiscal para los casos en los cuales hubiese un defecto de la factura que impidiera la generación del CFE (por ejemplo: que un dato obligatorio para el organismo fiscal no se encuentre definido en el documento).
+
 ### Verificación Envío CFE
 
 Una vez enviado, podés consultar el estado en la ventana:
@@ -47,11 +50,11 @@ La representación impresa de la factura se puede obtener de dos formas:
 ❗ No se deben usar otros botones de impresión que aparecen por defecto en la interfaz, ya que no están soportados
 :::
 
-## 🧾 Cola de Envío y Procesamiento de Documentos
+## Procesamiento de Documentos
 
-📦 Esta sección detalla cómo funciona el proceso de envío de facturas electrónicas, la validación de documentos, y la gestión de colas para el procesamiento masivo.
+Esta sección detalla cómo funciona el proceso de envío de facturas electrónicas, la validación de documentos, y la gestión de colas de envío para el procesamiento masivo.
 
-### ✅ 1. Validaciones previas al envío
+### 1. Validaciones previas al envío
 
 Antes de iniciar el envío de facturas electrónicas, es importante verificar:
 
@@ -60,7 +63,7 @@ Antes de iniciar el envío de facturas electrónicas, es importante verificar:
            El proveedor de CFE exige que el emisor tenga una dirección registrada.
            Si no se configura, se producirá un error al intentar enviar la primera factura.
 
-📄 b. El documento debe estar marcado como electrónico
+ b. El documento debe estar marcado como electrónico
 
             Solo se enviarán documentos que tengan habilitado el check
             “Maneja Facturación Electrónica”
@@ -68,7 +71,7 @@ Antes de iniciar el envío de facturas electrónicas, es importante verificar:
 
  Si no está marcado, se descartará automáticamente del proceso de envío.
 
-### 🛠️ 2. Envío manual de documentos electrónicos
+### 2. Envío documentos electrónicos
 
 Si una factura no fue enviada automáticamente (por ejemplo, porque se completó antes de habilitar FE), se puede enviar manualmente:
 
@@ -89,15 +92,15 @@ Si una factura no fue enviada automáticamente (por ejemplo, porque se completó
 
      Si no cumple, mostrará mensajes como:
       
-    ❌ “Error: el documento no es electrónico”
+    “Error: el documento no es electrónico”
      y no permitirá continuar.
 
-### 🔄 3. Uso de la cola de procesamiento
+### 3. Cola de procesamiento
 
-📬 Si el envío automático está desactivado (el check “Enviar después de completar” está desmarcado),
+Si el envío automático está desactivado (el check “Enviar después de completar” está desmarcado),
 los documentos se agregan a una cola de procesamiento electrónico.
 
-     🗂️ Esta cola de procesamiento:
+     Esta cola de procesamiento:
 
      a. Se puede configurar para ejecutarse cada cierto tiempo.
 
@@ -105,7 +108,7 @@ los documentos se agregan a una cola de procesamiento electrónico.
 
      c. Es ideal para grandes volúmenes o procesos en segundo plano.
 
-### ⚙️ 4. Configuración técnica de la cola de procesamiento
+### 4. Configuración cola procesamiento
 
  Para verificar cómo funciona:
 
@@ -117,7 +120,7 @@ los documentos se agregan a una cola de procesamiento electrónico.
     “Procesamiento en paralelo”
    Esto significa que los documentos no esperan uno al otro y se procesan simultáneamente, ahorrando tiempo.
 
-🧠 Recomendaciones finales:
+Recomendaciones finales:
 ✔️ Siempre configurar ubicación del emisor antes del primer envío.
 ✔️ Validar que el tipo de documento tenga el check de FE activo.
 ✔️ Utilizar la cola para optimizar el procesamiento en grandes volúmenes.

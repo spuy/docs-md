@@ -92,7 +92,7 @@ Este proceso permite realizar la devolución total de una venta, generando autom
 
 ![Anular Transacción de venta](/assets/img/docs/pdv-management/pdm-pdv-image291.png)
 
-## Retiro Detallado de Punto de Venta
+## Retiro Detallado de PDV
 
 Un retiro de fondos ocurre cuando se extrae dinero de una caja del punto de venta, ya sea por alivio de caja, cancelación de un gasto, entre otros.
 
@@ -119,21 +119,21 @@ Por cada retiro realizado, Solop ERP genera en la ventana Caja:
 
 Si el punto de venta tiene transacciones en efectivo y tarjeta, se deben realizar dos retiros por separado
 
-## 💱 Cobro y Cambio en Moneda Diferente a la Factura
+## Cambio en otra Moneda
 
 Esta funcionalidad permite realizar cobros y entregar cambio en una moneda distinta a la de la factura, siempre que la configuración del punto de venta lo permita.
 
-### 🔄 Cobros en Moneda Diferente
+### Cobros Diferente Moneda
 
 Para que sea posible cobrar en una moneda distinta a la de la factura, el método de pago configurado en el punto de venta no debe tener una moneda predeterminada.
 
-#### ✅ Ejemplo funcional: El método de pago Mastercard permite seleccionar una moneda diferente porque no tiene moneda fija asignada.
+#### Ejemplo funcional: El método de pago Mastercard permite seleccionar una moneda diferente porque no tiene moneda fija asignada.
 
 ::: note
 ❌ Excepción: El método de pago Efectivo tiene una moneda fija configurada, por lo tanto no permite seleccionar otra moneda al momento del cobro.
 :::
 
-### 🌍 Monedas disponibles para el cobro
+### Monedas para el cobro
 
 Las monedas que se muestran en el punto de venta para seleccionar dependen de los siguientes criterios:
 
@@ -143,7 +143,7 @@ Las monedas que se muestran en el punto de venta para seleccionar dependen de lo
 
 Q* ue la tasa esté vigente a la fecha actual.
 
-### 💵 Cambio en Otra Moneda
+### Cambio en Otra Moneda
 
 * La lógica para el cambio en otra moneda es similar a la del cobro:
 
@@ -151,7 +151,7 @@ Q* ue la tasa esté vigente a la fecha actual.
 
 * Si no tiene moneda asignada, sí se podrá seleccionar otra al momento de entregar el cambio.
 
-### ✔️ Recomendación
+### Recomendación
 
 Para habilitar el cambio en otra moneda:
 
@@ -181,13 +181,13 @@ Resultado:
 
 ![Ajuste](/assets/img/docs/pdv-management/pdm-pdv-image297.png)
 
-## 🧾 Creación de un Socio de Negocio desde la Ventana de Punto de Venta
+## Crear SDN en PDV
 
-### 🎯 Objetivo
+### Objetivo
 
 Crear directamente un nuevo Socio de Negocio desde la ventana de ventas del POS, con la posibilidad de ingresar número de cédula o RUT.
 
-### ✅ Pasos:
+### Pasos:
 
 * Abrir el Punto de Venta (POS):
 
@@ -233,9 +233,7 @@ Si se vuelve a ingresar un RUT ya definido, el sistema lo detecta automáticamen
 
 El proceso está automatizado para facilitar la operación en POS
 
-## 🧾 FUNCIONALIDAD: Precio convertido en punto de venta
-
-### 🛠️ CONFIGURACIÓN DE LISTA DE PRECIOS
+## Precio convertido en PDV
 
 En la terminal PDV se utiliza una lista de precios principal (por ejemplo, Ventas POS) que puede tener productos con precio definido o en cero.
 
@@ -247,7 +245,7 @@ El producto está en la lista de precios activa del punto de venta.
 
 El producto tiene precio cero en esa lista.
 
-### 🧾 FUNCIONALIDAD EN PUNTO DE VENTA
+### Conversión en PDV
 
 Si al cargar un producto su precio está en cero en la lista de precios activa, el sistema busca el mismo producto en la lista de precios de referencia.
 
@@ -268,6 +266,7 @@ Se edita manualmente el precio en la línea: en ese caso se respeta el valor ing
 Esta funcionalidad permite mantener listas de precios simplificadas en moneda local, tomando como base precios definidos en moneda extranjera, sin necesidad de duplicar valores o mantener listas paralelas completas.
 
 #### EJEMPLO ILUSTRATIVO
+
 Producto: Zapatilla Modelo X
 
 Lista de precios activa en PDV: Ventas POS (moneda: Pesos ARS)

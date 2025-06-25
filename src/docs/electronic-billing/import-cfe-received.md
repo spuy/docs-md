@@ -56,7 +56,7 @@ Para aquellos casos que se generan órdenes de compra y esta es obligatoria para
 
 ![Importar CFE Recibidos](/assets/img/docs/electronic-billing/elb-billing2.png)
 
-## 3. Completar Datos de Factura Importada
+## 3. Completar Datos
 
 Desde el botón de acción "Procesos" se selecciona **Completar Datos de Factura recibida**. Esto abre un smart browser (buscador inteligente) con filtros de búsqueda, tales como impuesto, Fecha de facturación, Número de Documento, Número de Identificación.
 
@@ -64,7 +64,7 @@ Al ejecutar este proceso se mostrarán todas las líneas que le falte setear un 
 
 En este paso se deberán seleccionar las diferentes líneas y aplicar el dato faltante que corresponda a cada registro para luego poder realizar efectivamente la importación de Documentos por pagar (utilizando los campos de la parte inferior de la ventana).
 
-## 4. Generación de las Facturas
+## 4. Generación de Facturas
 
 Una vez completados los datos de cada registro de los documentos por pagar a importar, se Selecciona el Proceso "Importación de Facturas".
 
