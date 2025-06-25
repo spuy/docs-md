@@ -6,7 +6,7 @@ sticky: 9
 article: false
 ---
 
-### Validación de datos en InvoiCy:
+### Validación datos InvoiCy:
 
 Luego de completado un e-Ticket/e-Factura, se puede chequear el CFE emitido en InvoiCy (<https://solopuy.migrate.info/InvoiCy>), e ingresando con los datos proporcionados por Solop.
 
@@ -153,7 +153,7 @@ Con este botón se marca la notificación como leída.
 
 Con este botón se abrirá una nueva pantalla que posibilita solucionar el problema que generó la notificación.
 
-### Aviso de Límite de CAE por Cantidad
+### Aviso Límite de CAE
 
 El aviso de límite de CAE por cantidad restante se configura y se emite directo desde la página de "Invoicy".
 
@@ -169,7 +169,7 @@ Según el modo de notificación elegido para cada notificación, los avisos ser�
 
 ![Configuración de notificaciones](/assets/img/docs/electronic-billing/elb-billing6.png)
 
-### Carga de CAE en Invoicy
+### Carga de CAE Invoicy
 
 Antes de cargar el CAE en InvoiCy, es necesario descargar el XML de CAE del DGI:
 
@@ -185,9 +185,9 @@ Posteriormente, para cargar el CAE en el InvoiCy, es necesario ingresar en el 'P
 
 * Al cargar el archivo deberá seleccionar la opción que corresponda: 
 
-**Atribuir CAE a una única sucursal**
+* Atribuir CAE a una única sucursal
 
-**Asignar CAE para varias sucursales y/o definir rangos por tipo de emisión**
+* Asignar CAE para varias sucursales y/o definir rangos por tipo de emisión
 
 * En caso de gestionar solo una sucursal deberá seleccionar la primera opción y posteriormente deberá definir la sucursal correspondiente (estará definida por default la sucursal que utilicen) y la forma de emisión (en este caso web service).
 
@@ -203,17 +203,17 @@ cuando un CAE vence, se deben anular todos los números que no fueron utilizados
 
 * Para confirmar el número inicial se deberá buscar en invoicy, "inicio" por el tipo de comprobante sin ingresar numero inicial, e indicando el número final del CAE vencido (ejemplo: 30000). Esto arrojará cual fue el último CFE emitido en ese CAE, por lo tanto, el número siguiente será el "inicial" y el final será el último número del CAE vencido (ver imagen de ejemplo).
 
-* Se deberán completar los datos:
+Se deberán completar los datos:
 
-**Tipo del CFE: el que corresponda al CAE vencido (por ejemplo Nota de Crédito e-ticket).**
+* Tipo del CFE: el que corresponda al CAE vencido (por ejemplo Nota de Crédito e-ticket).
 
-**Anular por: seleccionar "Anulación por Rango de CFE".**
+* Anular por: seleccionar "Anulación por Rango de CFE".
 
-**CAE (destildar Nuevos campos para ver este campo): seleccionar el CAE vencido correspondiente al tipo del CFE seleccionado.**
+* CAE (destildar Nuevos campos para ver este campo): seleccionar el CAE vencido correspondiente al tipo del CFE seleccionado.
 
-**Número inicial: El número posterior al último CFE emitodo para ese CAE.**
+* Número inicial: El número posterior al último CFE emitodo para ese CAE.
 
-**Número final: El último CFE correspondiente al CAE vencido.**
+* Número final: El último CFE correspondiente al CAE vencido.
 
 * Invoicy posee una limitante de CFE a anular de 5000, por lo cual si deben anular un número superior, debe realizarse por "tramos" (en el ejemplo de la imagen se anularán del 21548 al 25000 y luego del 25001 al 30000).
 

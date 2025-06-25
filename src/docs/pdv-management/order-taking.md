@@ -38,11 +38,11 @@ Podrá visualizar la ventana **Punto de Venta** en Solop ERP.
 
 Imagen 2. Ventana Punto de Venta
 
-Seleccione el icono **Nueva Orden**, ubicado en la barra de herramientas superior derecha.
+Seleccione el icono |Nueva Orden|, ubicado en la barra de herramientas superior derecha.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image306.png)
 
-Podrá visualizar la ventana **Selecciona Terminal PDV**, para seleccionar el terminal del punto de venta con el cual va a gestionar la toma de pedido y posteriormente la opción **OK** para cargar la ventana **Punto de Venta** para el terminal seleccionado.
+Podrá visualizar la ventana Selecciona |Terminal PDV|, para seleccionar el terminal del punto de venta con el cual va a gestionar la toma de pedido y posteriormente la opción **OK** para cargar la ventana |Punto de Venta| para el terminal seleccionado.
 
 ::: note
 Esta opción es habilitada cuando el socio del negocio vendedor tiene configurado más de un terminal de punto de venta.
@@ -62,13 +62,13 @@ Para seleccionar cliente existente, proceda a tipear el nombre, RUT o cédula de
 
 Imagen 4. Nuevo Cliente
 
-Seleccione la opción **Crear Nuevo Socio de Negocio**.
+Seleccione la opción |Crear Nuevo Socio de Negocio|.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image309.png)
 
 Imagen 5. Opción Nuevo Cliente
 
-A continuación Seleccione la opción **Crear Nuevo Socio de Negocio**, y se desplegará la siguiente ventana.
+A continuación Seleccione la opción |Crear Nuevo Socio de Negocio|, y se desplegará la siguiente ventana.
 
 ![Campo](/assets/img/docs/sales-management/sam-sales-image310.png)
 

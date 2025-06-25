@@ -6,7 +6,7 @@ sticky: 9
 article: false
 ---
 
-## Interfaz de Punto de Venta
+## Interfaz de PDV
 
 Para acceder a la interfaz de Punto de Venta, siga estos pasos:
 
@@ -18,7 +18,7 @@ Para acceder a la interfaz de Punto de Venta, siga estos pasos:
 
 Una vez dentro, visualizará la ventana Punto de Venta, que contiene diferentes iconos, campos y opciones que permiten la gestión eficiente de las ventas.
 
-## Barra de Herramientas del Punto de Venta
+## Barra de Herramientas
 
 La barra de herramientas contiene iconos esenciales para la gestión del punto de venta:
 
@@ -33,7 +33,7 @@ La barra de herramientas contiene iconos esenciales para la gestión del punto d
 * Anular Orden (F3): Cancela la orden en curso.
 * Finalizar Ventana (Alt+L): Cierra la ventana de Punto de Venta.
 
-## Panel de Búsqueda de Productos
+## Búsqueda de Productos
 
 Permite buscar productos por:
 
@@ -47,7 +47,7 @@ Permite buscar productos por:
 La búsqueda se ejecuta automáticamente al ingresar el código del producto.
 :::
 
-## Sección de Información de Producto
+## Información de Producto
 
 Muestra detalles de los productos agregados a la orden de venta:
 
@@ -58,7 +58,7 @@ Muestra detalles de los productos agregados a la orden de venta:
 * Categoría
 * Categoría de Impuesto
 
-## Barra de Edición de Productos
+## Edición de Productos
 
 Barra de Edición de ProductosDesde aquí se pueden modificar cantidades, precios y descuentos. También se pueden eliminar líneas de productos de la orden.
 
@@ -67,7 +67,7 @@ Barra de Edición de ProductosDesde aquí se pueden modificar cantidades, precio
 * Reducir Cantidad (Ctrl+0)
 * Navegar entre Registros (Alt+Up/Alt+Down)
 
-## Línea de la Orden de Venta
+## Línea de Orden de Venta
 
 Aquí se listan los productos agregados con su información detallada:
 
@@ -90,7 +90,7 @@ Muestra datos del documento de venta:
 * Fecha de Creación
 * Subtotal, Impuestos y Total
 
-## Panel de Socio del Negocio Cliente
+## Panel de SDN
 
 Muestra la información del socio del negocio cliente que esta comprando los productos ingresados al documento **Orden de Venta** realizada por el usuario vendedor.
 

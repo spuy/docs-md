@@ -6,11 +6,11 @@ sticky: 9
 article: false
 ---
 
-## Cierre de Caja del Punto de Venta
+## Cierre de Caja del PDV
 
 Cada cobro realizado en un Punto de Venta se registra en un Cierre de Caja. Su finalidad es conciliar los ingresos y detectar diferencias.
 
-#### Pasos para el cierre de caja:
+#### Pasos para el cierre:
 
 * Apertura de caja desde el punto de venta.
 
@@ -32,7 +32,7 @@ Para ejecutar correctamente el cierre de caja en Solop ERP, siga estos pasos:
 
 3. Se mostrarán los ingresos así como los retiros. Al aceptar se generará el cierre de caja (define el cierre de caja del día y punto de venta actual en estado completo).
 
-### Consulta de Registro en Cierre de Caja
+### Consulta de Registro
 
 Tras ejecutar el cierre de caja, los registros generados pueden consultarse en la pestaña Línea de Cierre de Caja, donde se mostrarán:
 
@@ -42,7 +42,7 @@ Tras ejecutar el cierre de caja, los registros generados pueden consultarse en l
 
 * Retiros de Fondos: Documentos de egreso generados en caja.
 
-### Control de Diferencia en Cierre de Caja
+### Control de Diferencia
 
 Si el cierre de caja no cuadra y muestra una diferencia, siga estos pasos:
 
