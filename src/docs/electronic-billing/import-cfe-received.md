@@ -1,80 +1,133 @@
 ---
-title: Importación CFE Recibidos
+title: Importación Comprobantes Fiscales Electrónicos Recibidos
 category: Documentation
 star: 9
 sticky: 9
 article: false
 ---
 
-Cuando una empresa es un Emisor Electrónico, también obtiene la oportunidad de poder recibir las facturas electrónicas que le emiten sus proveedores de manera digital. Esto, si cuenta con un sistema avanzado, puede aprovecharlo y obtener dichos comprobantes fiscales electrónicos (CFE) y cargarlos automáticamente en su sistema, ahorrando un tiempo importante en su imputación manual.
+## Descripción
 
-Para poder realizar esto en el sistema se deberán realizar los siguientes pasos:
+Las empresas emisoras electrónicas también pueden recibir comprobantes fiscales electrónicos (CFE) de sus proveedores. Con un sistema integrado, estos documentos pueden importarse automáticamente, optimizando tiempos y reduciendo errores manuales.
+
+Esta guía describe el proceso de importación de CFE recibidos en Solop ERP desde InvoiCy, con control de datos y validación previa.
+
+---
+
+## Requisitos Previos
+
+- Ser emisor electrónico autorizado.
+- Tener acceso a la plataforma InvoiCy.
+- Contar con configuración base del proveedor (Socio del Negocio, productos, cargos).
+
+---
 
 ## 1. Carga de Datos
 
-Este proceso se deberá realizar por organización y se podrá seleccionar Fecha desde - Fecha Hasta para obtener los CFE Recibidos que existan y que aún no hayan sido importados (también es posible filtrar por período). 
+La carga inicial se realiza por organización. Se deben indicar los rangos de fechas o período para obtener los CFE recibidos aún no importados.
 
-Al correr el proceso, se cargarán todas las líneas de los CFE Recibidos en una ventana de “Importar Documentos CxC/CxP”. La ventana del proceso muestra un Log con el resultado de la carga de datos correspondientes a los CFE recibidos en invoicy (informa las facturas cargadas, sus líneas así como los errores que puedan haberse generado).
+### Procedimiento:
 
-Esto genera una carga de datos por los documentos recibidos en una tabla intermedia (en este paso aun no se realiza la importación de documentos al sistema).
+1. Ingresar a la ventana **Importar Documentos CxC/CxP**.
+2. Ejecutar la carga con fechas definidas.
+3. Se mostrará un **Log de proceso**, detallando:
+   - CFE cargados
+   - Cantidad de líneas detectadas
+   - Posibles errores
 
-Como un control interno, es posible previamente verificar aquellos CFE recibidos desde invoicy (plataforma de comunicación con entidad fiscal) a los efectos de corroborar que coincida la cantidad de documentos.
+::: note
+Esta etapa genera una carga preliminar en una **tabla intermedia**, pero aún no crea documentos en el sistema.
+:::
+
+### Verificación previa:
+
+Es posible comparar los CFE en InvoiCy para confirmar que coincidan con los detectados por el sistema.
 
 ![Importar CFE Recibidos](/assets/img/docs/electronic-billing/elb-billing1.png)
 
-## 2. Verificación de Líneas
+---
 
-La ventana “Importar Documentos CxC/CxP” refleja los datos por línea de la tabla intermedia tal como están definidas en la Facturación electrónica y donde el sistema brinda la posibilidad de:
+## 2. Control de Líneas
 
-* Realizar la verificación de datos por línea a importar
+En la ventana **Importar Documentos CxC/CxP**, se presentan las líneas a importar tal como figuran en los CFE. Desde aquí se puede:
 
-* Agregarle información para lograr que puedan terminar de importarse los Documentos por pagar correctamente identificados e imputados en el sistema.
+- Verificar la información línea por línea.
+- Completar datos faltantes (productos, cargos, socios del negocio).
 
 ### Identificación del Proveedor
 
-A partir del Rut del Emisor de los CFE Recibidos se buscará si existe en el sistema un Proveedor con dicho Número de identificación. En caso de existir, automáticamente se definirá el Socio del Negocio en la línea de Importar documentos por pagar.
+El sistema buscará un proveedor existente a partir del **RUT del emisor**. Si existe, se asignará automáticamente al campo **Socio del Negocio**.
 
-### Líneas
+---
 
-En el caso de las líneas, existirán las siguientes opciones posibles para realizar la correspondiente aplicación del concepto a definir:
+### Asociación de líneas
 
-#### Definición de Cargo por Defecto
+#### a. Cargo por Defecto
 
-Para aquellos casos que un proveedor siempre nos facture determinado concepto, se puede aplicar un automatismo de definir un Cargo al Socio del Negocio para que el mismo sea utilizado en cada una de las líneas de los Documentos por Pagar que nos genera. De esta manera, se podrá contar con un matcheo inmediato y la creación e imputación del concepto del gasto en todas las facturas que este proveedor nos genere, quedando sólo pendiente la correcta verificación de la misma para luego Completar el Documento por Pagar. Para definir el Cargo por defecto en el Socio del Negocio deberá crear el cargo y definir el Socio del Negocio en el campo “Socio del Negocio” ubicada en la ventana “Cargo”.
+- Útil cuando un proveedor factura siempre el mismo concepto.
+- Se define un **Cargo** al Socio del Negocio.
+- Se configura desde la ventana **Cargo**, en el campo “Socio del Negocio”.
 
-#### Creación de Documento por Pagar con importe en borrador
+#### b. Importe y líneas en borrador
 
-En el caso que el proveedor varíe en los conceptos que le factura y desea identificar sus líneas con su correspondiente producto o servicio, podrá generar el Documento por Pagar definiendo su importe total así como sus líneas con su descripción cantidad y precio, dejando simplemente la identificación de producto en cada una de las líneas para que sea realizado de forma manual. Este proceso agiliza la acción de ingreso manual de documentos por pagar y le permite flexibilidad para definir el concepto o producto que desee.
+- Permite importar factura con líneas descriptivas (cantidad, precio, descripción).
+- La asignación de productos se realiza manualmente luego.
+- Útil si el proveedor varía los conceptos facturados.
 
-#### Creación de Documento por Pagar con sus productos
+#### c. Productos definidos
 
-Para poder utilizar esta opción, es necesario contar con los productos creados con los códigos que el proveedor identifica cada producto. De esta manera, las facturas proveedor serán generadas completamente en el sistema, definiendo en las líneas tanto la cantidad, el precio, como el producto que corresponda. La asociación del producto será según el Código de Proveedor que sea definido en la pestaña Compras de cada Producto.
+- Requiere que los productos estén creados en el sistema con el **Código de Proveedor** configurado.
+- Asocia líneas automáticamente por producto, cantidad y precio.
 
-#### Creación de Documento por Pagar según Orden de Compra
+#### d. Documento por pagar vinculado a Orden de Compra
 
-Para aquellos casos que se generan órdenes de compra y esta es obligatoria para la creación de las Facturas proveedor, se podrá utilizar este documento para validar precios así como la definición de qué producto utilizar en cada línea de facturas de los CFE Recibidos. Para que esto sea posible es necesario que el  proveedor detalle la Orden de Compra a la que corresponde la factura en el campo de “Orden de Compra” del CFE. La lógica a aplicar para la identificación de qué línea de Orden de Compra corresponde a qué línea de factura se realizará a partir de un algoritmo de Código Proveedor, Precio, Cantidad, número de línea y Descripción.
+- Si el proveedor indica la **Orden de Compra** en el CFE, se puede asociar automáticamente.
+- La identificación de líneas se realiza mediante coincidencia por:
+  - Código de proveedor
+  - Precio
+  - Cantidad
+  - Descripción
 
 ![Importar CFE Recibidos](/assets/img/docs/electronic-billing/elb-billing2.png)
 
+---
+
 ## 3. Completar Datos
 
-Desde el botón de acción "Procesos" se selecciona **Completar Datos de Factura recibida**. Esto abre un smart browser (buscador inteligente) con filtros de búsqueda, tales como impuesto, Fecha de facturación, Número de Documento, Número de Identificación.
+Desde el botón **Procesos**, seleccionar **Completar Datos de Factura recibida**.
 
-Al ejecutar este proceso se mostrarán todas las líneas que le falte setear un dato obligatorio (Socio del Negocio, Producto o Cargo).
+### Procedimiento:
 
-En este paso se deberán seleccionar las diferentes líneas y aplicar el dato faltante que corresponda a cada registro para luego poder realizar efectivamente la importación de Documentos por pagar (utilizando los campos de la parte inferior de la ventana).
+1. Se abrirá un **buscador inteligente** con filtros:
+   - Impuesto
+   - Fecha
+   - Número de documento
+   - Número de identificación
+
+2. Se mostrarán las líneas con datos obligatorios faltantes (producto, cargo o socio).
+
+3. Seleccionar cada línea y completar los datos en la parte inferior de la ventana.
+
+---
 
 ## 4. Generación de Facturas
 
-Una vez completados los datos de cada registro de los documentos por pagar a importar, se Selecciona el Proceso "Importación de Facturas".
+Una vez completada toda la información, ejecutar el proceso **Importación de Facturas**.
 
-Esto abre una ventana emergente para configurar la Organización, y la acción a definir sobre el documento (Preparar o Completar).
+### Pasos:
 
-Al aceptar genera un Log en ventana emergente con el resultado del proceso (cantidad de facturas importada, cantidad de líneas y cantidad de errores según corresponda).
+1. Seleccionar organización y acción:
+   - Preparar (estado Borrador)
+   - Completar (estado Finalizado)
 
-En el caso de los posibles errores, se podrá visualizar el motivo de cada registro en la columna "Mensaje Error Importación" (en la misma ventana de Importar Documentos por Pagar).
+2. Se mostrará una ventana con el resultado:
+   - Cantidad de facturas generadas
+   - Total de líneas procesadas
+   - Mensajes de error (si corresponde)
 
-Esta última acción genera los registros por cada Documento por Pagar en el sistema con sus correspondientes líneas (en estado Borrador o Completo según se haya definido previamente).
+3. Consultar la columna **Mensaje Error Importación** para revisar problemas específicos.
+
+> Al finalizar, se habrán generado los Documentos por Pagar en el sistema, listos para seguimiento.
 
 ![Importar CFE Recibidos](/assets/img/docs/electronic-billing/elb-billing3.png)
 

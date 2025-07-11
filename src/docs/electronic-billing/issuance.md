@@ -1,127 +1,134 @@
 ---
-title: Emisión CFE
+title: Emisión Comprobantes Fiscales Electrónicos
 category: Documentation
 star: 9
 sticky: 9
 article: false
 ---
 
-Una vez generados los documentos por cobrar desde Solop ERP, es posible verificar el proceso de envío a la entidad fiscal para los casos en los cuales hubiese un defecto de la factura que impidiera la generación del CFE (por ejemplo: que un dato obligatorio para el organismo fiscal no se encuentre definido en el documento).
+## Descripción
 
-### Verificación Envío CFE
+Una vez generados los documentos por cobrar en Solop ERP, el sistema puede enviar los comprobantes fiscales electrónicos (CFE) a la entidad fiscal correspondiente. Este proceso incluye validaciones clave para garantizar la integridad fiscal y cumplir con los requisitos normativos.
 
-Una vez enviado, podés consultar el estado en la ventana:
+---
 
-"Bitácora de documento electrónico", donde se muestra:
+## Verificación del Envío
 
-* QR
+Una vez completado un documento, se puede consultar su estado desde la ventana:
 
-* URL de descarga
+**Bitácora de Documento Electrónico**, donde se visualiza:
 
-* Número fiscal asignado
+- Código QR generado
+- URL de descarga
+- Número fiscal asignado
+- Código de seguridad
+- Estado de firma y envío
+- Notas u observaciones
 
-* Código de seguridad
+✔ **"Archivo firmado correctamente"** indica aceptación por parte del organismo fiscal.
 
-* Estado de firma y envío
-
-* Observaciones o errores (si existen)
-
-✔ Si el estado indica "Archivo firmado correctamente", significa que el documento fue aceptado por la entidad fiscal.
-
-❗ Si hubo un error (por ejemplo, rechazo del comprobante), aparecerá en la sección “Notas” o “Información adicional”.
-
-### Consideraciones sobre numeración
-
-Una vez asignado un número por el facturador electrónico, no se puede reutilizar.
-
-Si el documento es rechazado, se pierde ese número y el siguiente será el próximo disponible.
-
-Esto garantiza que no se repitan ni se pisen numeraciones.
-
-### Visualización e impresión
-
-La representación impresa de la factura se puede obtener de dos formas:
-
-* Desde el botón “Imprimir comprobante fiscal” (único habilitado).
-
-* Desde la URL de descarga, que abre el PDF del comprobante generado.
-
-::: note
-❗ No se deben usar otros botones de impresión que aparecen por defecto en la interfaz, ya que no están soportados
+::: warning
+En caso de error o rechazo, se mostrará en la sección **Notas** o **Información adicional**.
 :::
+
+---
+
+## Numeración Fiscal
+
+- Una vez asignado un número fiscal, **no puede reutilizarse**.
+- Si el documento es **rechazado**, se pierde ese número y el siguiente disponible será utilizado.
+- Esta lógica garantiza una numeración fiscal consecutiva y no duplicada.
+
+---
+
+## Visualización e Impresión
+
+La representación impresa del comprobante puede obtenerse de las siguientes maneras:
+
+- Desde el botón **"Imprimir Comprobante Fiscal"** (único habilitado).
+- Desde la **URL de descarga**, que genera el PDF oficial.
+
+::: warning
+No se deben utilizar otros botones de impresión que ofrece la interfaz por defecto, ya que no están soportados para CFEs.
+:::
+
+---
 
 ## Procesamiento de Documentos
 
-Esta sección detalla cómo funciona el proceso de envío de facturas electrónicas, la validación de documentos, y la gestión de colas de envío para el procesamiento masivo.
+Esta sección describe cómo funciona el envío de documentos electrónicos, sus validaciones, y el uso de colas de procesamiento.
 
-### 1. Validaciones previas al envío
+### 1. Control Previo a Envío
 
-Antes de iniciar el envío de facturas electrónicas, es importante verificar:
+Antes del envío, asegurarse de:
 
- a. El emisor debe tener una ubicación configurada
+* a. Configuración de ubicación del emisor
 
-           El proveedor de CFE exige que el emisor tenga una dirección registrada.
-           Si no se configura, se producirá un error al intentar enviar la primera factura.
+- El proveedor de facturación electrónica exige una *dirección registrada* para el emisor.
+- Si falta, el sistema generará un error al intentar el primer envío.
 
- b. El documento debe estar marcado como electrónico
+* b. Tipo de documento electrónico habilitado
 
-            Solo se enviarán documentos que tengan habilitado el check
-            “Maneja Facturación Electrónica”
-            en su tipo de documento.
+- Solo se enviarán documentos cuyo tipo tenga activado:
+  - `¿Maneja Facturación Electrónica? = Sí`
+- Documentos sin esta marca serán *omitidos automáticamente* del envío.
 
- Si no está marcado, se descartará automáticamente del proceso de envío.
+---
 
-### 2. Envío documentos electrónicos
+### 2. Envío Manual de Documentos
 
-Si una factura no fue enviada automáticamente (por ejemplo, porque se completó antes de habilitar FE), se puede enviar manualmente:
+Si un documento no fue enviado automáticamente, puede reenviarse desde el proceso:
 
-    a. Ir al proceso:
-     “Enviar factura a servicios de facturación electrónica”
+**"Enviar factura a servicios de facturación electrónica"**
 
-    b. Seleccionar la factura pendiente.
+Pasos:
 
-    c. Ejecutar el proceso.
+1. Seleccionar el documento pendiente.
+2. Ejecutar el proceso.
 
-      El sistema validará que:
+El sistema validará que:
 
-     El documento esté marcado como electrónico.
+- El documento sea electrónico.
+- No haya sido enviado previamente.
+- Cumpla con todos los datos fiscales requeridos.
 
-     No haya sido enviado previamente.
+❌ Si alguna validación falla, se mostrará un error como:
 
-     Cumpla con todos los requisitos fiscales.
+> `"Error: el documento no es electrónico"`
 
-     Si no cumple, mostrará mensajes como:
-      
-    “Error: el documento no es electrónico”
-     y no permitirá continuar.
+---
 
-### 3. Cola de procesamiento
+### 3. Cola de Procesamiento
 
-Si el envío automático está desactivado (el check “Enviar después de completar” está desmarcado),
-los documentos se agregan a una cola de procesamiento electrónico.
+Si la opción `¿Enviar después de completar?` está desactivada, los documentos se agregan a una **cola de procesamiento**.
 
-     Esta cola de procesamiento:
+* Características:
 
-     a. Se puede configurar para ejecutarse cada cierto tiempo.
+- Ejecutable en intervalos programados.
+- Permite **procesamiento masivo** de facturas.
+- Funciona de forma **paralela**, sin bloquear otros documentos.
 
-     b. Permite el envío masivo y paralelo de documentos.
+Ideal para:
 
-     c. Es ideal para grandes volúmenes o procesos en segundo plano.
+- Procesos en segundo plano
+- Volúmenes altos de emisión
 
-### 4. Configuración cola procesamiento
+---
 
- Para verificar cómo funciona:
+### 4. Configuración de la Cola
 
-    a. Ir a Tipo de Cola.
+Pasos para revisar o configurar la cola:
 
-    b. Seleccionar la cola de facturación electrónica.
+1. Ir a la ventana **Tipo de Cola**.
+2. Seleccionar la cola de **Facturación Electrónica**.
 
-    Esta cola específica está configurada con:
-    “Procesamiento en paralelo”
-   Esto significa que los documentos no esperan uno al otro y se procesan simultáneamente, ahorrando tiempo.
+* Esta cola está configurada con procesamiento en paralelo, lo que permite mayor velocidad y eficiencia.
 
-Recomendaciones finales:
-✔️ Siempre configurar ubicación del emisor antes del primer envío.
-✔️ Validar que el tipo de documento tenga el check de FE activo.
-✔️ Utilizar la cola para optimizar el procesamiento en grandes volúmenes.
-✔️ Las validaciones automáticas garantizan integridad fiscal y evitan errores en producción.
+---
+
+## Recomendaciones Finales
+
+✔ Verificar y configurar la **ubicación del emisor** antes del primer envío.  
+✔ Asegurarse de que el tipo de documento tenga el check de **Facturación Electrónica** activo.  
+✔ Utilizar la **cola de procesamiento** para manejar grandes volúmenes.  
+✔ Aprovechar las validaciones automáticas para evitar errores en producción y asegurar cumplimiento fiscal.

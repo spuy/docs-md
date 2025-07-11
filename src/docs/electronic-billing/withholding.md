@@ -6,111 +6,134 @@ sticky: 9
 article: false
 ---
 
-## Definición de Retenciones
+## Descripción
 
-La ventana Definición de Retenciones permite a los usuarios configurar y gestionar las retenciones fiscales que deben aplicarse a los pagos y transacciones financieras. Las retenciones son montos que se retienen de un pago y se entregan directamente a la autoridad fiscal en nombre del receptor del pago. Este proceso es común en muchas jurisdicciones y puede aplicarse a impuestos sobre ingresos, IVA, y otros impuestos específicos.
+Este módulo permite configurar, aplicar y gestionar las retenciones fiscales y los resguardos generados automáticamente al procesar documentos por pagar en Solop ERP. Las funcionalidades están orientadas a cumplir con las normativas fiscales, automatizar procesos y asegurar la trazabilidad contable.
 
-Es posible parametrizar todas las retenciones de DGI, más las que necesite agregar customizada la empresa (agregar nuevas o modificar retenciones existentes según la necesidad).
+---
 
-Datos a configurar en el registro de retención (cabezal):
+## Configuración de Retenciones
 
-* Código: El código establecido por DGI, enviado en el CFE
-* Nombre: Nombre de la retención
-* Tipo de Retención: Parametrización interna, por lo general se deberá seleccionar la única definida
-* WHAmtType: Monto imponible, si se aplica sobre el impuesto, total o subtotal
-* Porcentaje: Porcentaje a retener (0-100)
-* Monto máximo: a retener
+La ventana **Definición de Retenciones** permite configurar los tipos de retenciones requeridos por DGI y también retenciones personalizadas.
 
-### Finalidad de la ventana
+### Datos del Registro (Cabezal)
 
-* Cumplimiento Fiscal: Asegura que la empresa cumpla con las obligaciones fiscales al retener y remitir los impuestos correspondientes a las autoridades fiscales de acuerdo con las leyes y regulaciones vigentes.
+- **Código**: Código fiscal oficial utilizado en el CFE.
+- **Nombre**: Nombre descriptivo de la retención.
+- **Tipo de Retención**: Tipo interno definido en el sistema.
+- **WHAmtType**: Base imponible de la retención (total, subtotal, o impuesto).
+- **Porcentaje**: Tasa de retención (0-100%).
+- **Monto máximo**: Monto tope a retener.
 
-* Automatización de Procesos: Automatiza el proceso de cálculo y aplicación de retenciones en las transacciones financieras, reduciendo errores manuales y mejorando la eficiencia.
+![Mono registro](/assets/img/docs/balance-management/bam-ret1.png)  
+![Multi registro](/assets/img/docs/balance-management/bam-ret2.png)
 
-* Contabilidad Precisa: Facilita una contabilidad precisa al registrar automáticamente las retenciones en los libros contables, asegurando que los estados financieros reflejen correctamente las obligaciones fiscales de la empresa.
+### Pestañas Complementarias
 
-* Reportes Fiscales: Genera reportes detallados sobre las retenciones aplicadas, lo cual es esencial para la presentación de declaraciones fiscales y la auditoría.
+- **Documentos a Aplicar**: Define sobre qué tipo de documentos (ej. Factura Proveedor) se aplicará la retención.  
+  ![Doc aplicar](/assets/img/docs/balance-management/bam-ret3.png)
 
-* Gestión de Pagos: Permite una gestión adecuada de los pagos a proveedores y empleados, asegurando que las retenciones se apliquen correctamente y que los pagos netos se calculen de manera precisa.
+- **Proveedores**: Indica qué socios del negocio están alcanzados por la retención.  
+  Esta relación también se puede consultar desde la pestaña *Retenciones* en la ventana “Socio del Negocio”.  
+  ![Proveedores](/assets/img/docs/balance-management/bam-ret4.png)
 
-* Transparencia y Control: Proporciona transparencia y control sobre las retenciones fiscales, permitiendo a los administradores revisar y ajustar las configuraciones según sea necesario.
+---
 
-Mono registro:
+## Aplicación de Retenciones
 
-![Definición de Retenciones](/assets/img/docs/balance-management/bam-ret1.png)
+Cuando se completa un documento por pagar, el sistema:
 
-Multi registro:
+1. Verifica si el proveedor tiene retenciones asociadas.
+2. Si cumple los criterios, *genera automáticamente la retención* al completar la factura.
 
-![Definición de Retenciones](/assets/img/docs/balance-management/bam-ret2.png)
+Estas retenciones quedan vinculadas al documento original y se puede navegar desde:
 
-En la pestaña Documentos a Aplicar se indicarán los documentos en el cual se deben generar retenciones (ejemplo: Factura Proveedor).
+> **Documentos relacionados** (barra de herramientas del documento por pagar)
 
-![Definición de Retenciones](/assets/img/docs/balance-management/bam-ret3.png)
+![Retención automática](/assets/img/docs/balance-management/bam-ret5.png)  
+![Relación documento](/assets/img/docs/balance-management/bam-ret6.png)
 
-En la pestaña Proveedores se indicarán los Proveedores a los que se debe aplicar esta Retención. Estas retenciones también se pueden visualizar desde la ventana “Socio del Negocio” para cada uno de ellos, seleccionando la pestaña “Proveedor” y luego la pestaña “Retención”.
 
-![Definición de Retenciones](/assets/img/docs/balance-management/bam-ret4.png)
+* Las retenciones también pueden consultarse desde:  
 
-Cada vez que se completa un Documento por pagar (Factura Proveedor o Nota de Crédito Proveedor), automáticamente el sistema verifica si el Proveedor al que se ingresó la factura tiene alguna retención definida.
+- Ventana **Definición de Retenciones**  
+- Ventana **Socio del Negocio** > Pestaña *Proveedor* > Subpestaña *Retención*
 
-::: note
-Esto lo podemos ver en las ventanas “Definición de retenciones" o ventana “Socio del Negocio” pestaña "Retenciones".
-:::
-
-Si el proveedor tiene una retención definida y la factura cumple con la definición de la misma, una retención será generada automáticamente por el importe correspondiente al completar el Documento por pagar.
-Al completar el mismo también se completa de forma automática la retención.
-Para poder acceder a ella desde el Documento por Pagar podremos navegar desde los Documentos relacionados en la barra de herramientas.
-
-![Definición de Retenciones](/assets/img/docs/balance-management/bam-ret5.png)
-
-![Definición de Retenciones](/assets/img/docs/balance-management/bam-ret6.png)
+---
 
 ## Resguardos
 
-Una vez creadas las retenciones automáticamente a medida que se vayan generando los Documentos por Pagar, para realizar los resguardos se deberá buscar aquellas Retenciones que aún no hayan sido generados sus correspondientes resguardos para emitirlos.
-Para generar los resguardos podremos realizarlos mediante el proceso de Generar Resguardos Masivos. Realizaremos la búsqueda inteligente, la cual permite filtrar por:
+Los **resguardos** se generan en base a las retenciones aplicadas. Funcionan como una **Nota de Crédito Proveedor** y se gestionan desde el proceso:
 
-* Socio del Negocio (Proveedor)
-* Organización
-* Fecha del documento
-* Retención
-* Factura fuente
-* Tipo de retención
+* Generar Resguardos Masivos
 
-![Definición de Retenciones](/assets/img/docs/balance-management/bam-ret7.png)
+### Filtros disponibles
 
-Una vez seleccionemos todas aquellas retenciones sobre las cuales se desea generar un resguardo, procederemos a correr el proceso, el cual va a generar los documentos "Resguardo" requeridos a partir de los “Documentos Retención” Completos. 
-En este caso se selecciona Preparar el documento para completarlo posteriormente.
-Estos resguardos generados es posible visualizarlos en la ventana “Resguardos” y funcionarán como una Nota de Crédito Proveedor.
+- Socio del Negocio
+- Organización
+- Fecha del Documento
+- Tipo de Retención
+- Factura fuente
 
-::: note
-Tener en cuenta que los Resguardos son CFE y se generarán siempre en la moneda pesos uruguayos convertidos según Tasa de Cambio de la fecha del Documento por Pagar
-:::
+![Generar resguardos](/assets/img/docs/balance-management/bam-ret7.png)
 
-En la ventana Resguardos, desde el ícono de procesos podremos acceder a “Impresión de resguardo” para visualizar el formato de impresión del mismo.
+### Características
 
-El proceso permite seleccionar al momento de seleccionar los resguardos a generar, si desean crearse en estado Completo o En Proceso.
-
-Al completarse los resguardos se genera automáticamente la asignación correspondiente.
-
-### Asignar un Resguardo
-
-Un Resguardo se agrega en un Recibo de Pago como una Nota de Crédito Proveedor, descontando el Importe a Pagar o en una Selección de pagos.
-
-### Contra Resguardos:
-
-Cuando se anula un resguardo se genera un reverso (contra-resguardo) que tendrá la siguiente secuencia y será el negativo del original.
-El ContraResguardo se genera cuando se Anula un Resguardo (Completo y Enviado a InvoiCy).
-
-Se genera por ContraDocumento, este al ver que tiene Reversal_ID (campo para indicar a que documento reversa) entra en modo ContraResguardo en vez de hacer un Resguardo.
+- Se generan a partir de **Documentos Retención** completos.
+- Se pueden preparar o completar inmediatamente.
+- Los resguardos se visualizan en la ventana **Resguardos**.
 
 ::: note
-Este Contra-resguardo se envía automáticamente a invoicy al anular el Resguardo origen
+Los resguardos siempre se generan en *moneda local*, convertida con la *tasa de cambio* del documento por pagar.
 :::
 
-### Registro de un resguardo recibido
+### Impresión
 
-Los resguardos que nos realiza un cliente y nos lo descuenta en un Recibo de Cobro los ingresaremos desde la ventana Recibo de Cobro.
+Desde la ventana de **Resguardos**, acceder a la opción:
 
-Aquí seleccionaremos el botón Cobro Contado y completaremos los campos seleccionando “Resguardo” en el campo Regla de pago, y el banco “Retenciones Recibidas” en el campo Cuenta Bancaria.
-Este banco tiene una definición contable que va a mover la cuenta de "Retenciones Recibidas" (Ver definición de Cuentas Bancarias).
+> `Impresión de Resguardo`
+
+---
+
+## Asignación de Resguardos
+
+Un resguardo puede aplicarse de dos maneras:
+
+- En un **Recibo de Pago** como **Nota de Crédito Proveedor**.
+- En una **Selección de pagos**, aplicando el monto a cancelar.
+
+---
+
+## Contra-Resguardos
+
+Si se anula un resguardo ya completo y enviado a InvoiCy, el sistema:
+
+- Genera automáticamente un **Contra-Resguardo** (negativo del original).
+- Se enlaza al documento original mediante el campo `Reversal_ID`.
+
+::: note
+El Contra-Resguardo se envía automáticamente a InvoiCy al anular el documento original.
+:::
+
+---
+
+## Resguardos Recibidos
+
+Cuando un cliente descuenta un resguardo en un **Recibo de Cobro**, se debe registrar desde la ventana correspondiente:
+
+1. Usar botón **Cobro Contado**
+2. Completar los campos:
+   - **Regla de Pago**: `Resguardo`
+   - **Cuenta Bancaria**: `Retenciones Recibidas`
+
+La cuenta bancaria debe estar configurada con la cuenta contable correspondiente a retenciones recibidas.
+
+---
+
+## Beneficios del Módulo
+
+- ✔️ Cumplimiento Fiscal Automatizado
+- ✔️ Trazabilidad de Retenciones y Resguardos
+- ✔️ Aplicación automática en facturas proveedor
+- ✔️ Emisión de CFE y reporte en moneda local
+- ✔️ Gestión desde documentos relacionados
