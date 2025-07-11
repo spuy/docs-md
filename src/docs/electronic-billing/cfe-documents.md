@@ -1,120 +1,116 @@
 ---
-title: Documentos CFE
+title: Comprobantes Fiscales Electrónicos
 category: Documentation
 star: 9
 sticky: 9
 article: false
 ---
 
-### Creación de CFE
+## Descripción
 
-La creación de CFE se refiere a la generación de documentos electrónicos generados desde Solop ERP que se envían a la entidad fiscal (siguiendo la estructura y requisitos de cada país).
+La funcionalidad de Comprobantes Fiscales Electrónicos (CFE) permite generar documentos electrónicos desde Solop ERP, los cuales se envían automáticamente a la entidad fiscal correspondiente, siguiendo la estructura y normativa de cada país.
 
-#### |Documentos por Cobrar|:
+Este documento describe cómo crear, completar, anular y emitir notas de crédito sobre comprobantes fiscales electrónicos, así como una guía rápida para su emisión correcta.
 
-Existen diferentes maneras (ventanas) de generar los CFE para enviar al organismo fiscal. 
-El circuito estándar del sistema es crear un documento por cobrar (desde la ventana de mismo nombre o desde un proceso) y generar el envío al completar el registro.
+---
 
-Los pasos son los siguientes:
+## Requisitos Previos
 
-* Elegí el |socio del negocio|.
+- Contar con un socio del negocio registrado.
+- El tipo de documento utilizado debe tener activadas las siguientes opciones:
+  - "¿Maneja facturación electrónica?" = Sí
+  - "¿Enviar después de completar?" = Sí
+- Tener asignado un grupo de impuestos al socio del negocio, con tipo de CFE válido (e-ticket, e-factura, etc.).
 
-* Asegurate de que el |tipo de documento| seleccionado tenga marcada la opción:
+---
 
-“¿Maneja facturación electrónica?” → Sí
+## Creación CFE
 
-“¿Enviar después de completar?” → Sí
+### 1. Nuevo documento
 
-* Seleccioná el |tipo de documento| fiscal que corresponda.
+1. Ingresar a la ventana **Documentos por Cobrar** o acceder desde el proceso correspondiente.
+2. Seleccionar el **socio del negocio**.
+3. Verificar que el **tipo de documento** tenga habilitadas las opciones:
+   - “¿Maneja facturación electrónica?” = Sí
+   - “¿Enviar después de completar?” = Sí
+4. Seleccionar el **tipo de documento fiscal** correspondiente.
 
-#### Agregar líneas al documento
+![Documento por Cobrar](/assets/img/docs/electronic-billing/elb-billing11.png)
 
-El agregado de líneas a un documento por cobrar puede realizarse manualmente (registro nuevo) o bien, desde el cabezal, utilizando la función de |Crear desde|, en donde se selecciona el documento sobre el cual se crearán las líneas de la factura cliente (ejemplo: desde orden, desde recibo).
+---
 
-Los pasos son los siguientes al agregar manualmente:
+### 2. Agregar líneas
 
-* Seleccioná un |producto| y la |cantidad|.
+Se pueden agregar manualmente o utilizar la función **Crear desde** para importar líneas desde otros documentos (como órdenes o recibos).
 
-* Al guardar la línea, el sistema actualizará automáticamente los totales del documento.
+* Para agregar manualmente:
 
-#### Completar y enviar
+1. Seleccionar un **producto** y definir la **cantidad**.
+2. Al guardar la línea, el sistema actualizará automáticamente los totales del documento.
 
-* Hacé clic en |Completar|.
+---
 
-* Si la configuración es correcta, el sistema enviará automáticamente el documento a la entidad fiscal.
+### 3. Completar y enviar
 
-### Anulación de comprobantes
+1. Hacer clic en el botón **Completar**.
+2. Si la configuración es correcta, el documento se enviará automáticamente a la entidad fiscal.
 
-Solo se puede anular si el comprobante fue rechazado por la entidad fiscal.
+---
 
-En ese caso, el sistema permite marcarlo como “anulado” y liberar el documento.
+## Anulación de Comprobantes
 
-Si fue aceptado y firmado, no se puede anular (en este caso se debe aplicar Nota de crédito)
+- Solo se puede anular un comprobante si fue *rechazado* por la entidad fiscal.
+- En ese caso, se puede marcar como *anulado* y el documento quedará liberado.
 
 ::: warning
-Las facturas anuladas por el organismo fiscal deben ser anuladas manualmente en el ERP
+Las facturas anuladas por el organismo fiscal deben ser anuladas manualmente en el ERP.
 :::
 
-### Nota de crédito
+- Si el comprobante fue *aceptado y firmado*, no se puede anular. En su lugar, se debe emitir una **nota de crédito**.
 
-Los documentos por cobrar que hayan sido enviados a la entidad fiscal no pueden ser anulados (excepto que sean rechazados por el organismo).
-Para estos casos (en los cuales por defecto de la factura) si debe volverse a facturar, es posible aplicar nota de crédito sobre el documento.
+---
 
-Para emitir una nota de crédito:
+## Emisión Nota de Crédito
 
-* Hacer copia del documento original.
+Cuando un comprobante ya fue enviado y no puede anularse, se debe emitir una nota de crédito.
 
-* Cambiar el tipo a |Nota de crédito|.
+Pasos:
 
-* Utilizar la función de |Crear Desde| para ligar las líneas de factura.
+1. Hacer una copia del documento original.
+2. Cambiar el tipo de documento a **Nota de crédito**.
+3. Usar la función **Crear desde** para replicar las líneas del documento original.
+4. En el campo **Factura asignada**, seleccionar la factura original (obligatorio).
+5. Completar el documento.
 
-* En el campo |Factura asignada|, debe quedar definida la factura original. Este dato es obligatorio.
-
-* Completar el documento.
-
-::: note
-❗ Si no queda definida la factura asignada, el sistema no debería permitir completar la nota de crédito.
+::: warning 
+Si no se define la factura asignada, el sistema no permitirá completar la nota de crédito.
 :::
 
-### Campo |Adenda| y |Descripción|
+---
 
-* Estos campos permiten enviar información adicional en el comprobante.
+## Guía Rápida: Emisión
 
-* Aparecen en la representación impresa como texto informativo adicional.
+1. Seleccionar el **socio del negocio**.
+2. Verificar que tenga un grupo de impuesto con *tipo de CFE definido*.
+3. Seleccionar un **tipo de documento fiscal** con:
+   - Tipo de CFE válido.
+   - “¿Maneja facturación electrónica?” = Sí
+   - “¿Enviar después de completar?” = Sí
+4. Ingresar líneas de productos.
+   - Al guardar, el sistema actualiza los totales.
+5. Completar el documento.
+   - Se genera la numeración fiscal y se envía automáticamente a la DGI si la configuración es correcta.
+6. Verificar el estado en la **Bitácora de Documento Electrónico**:
+   - Envío, firma, errores, QR, URL de descarga.
+7. Imprimir el comprobante:
+   - Utilizar únicamente el botón **Imprimir Comprobantes Fiscales** o la URL de descarga.
+8. En caso de errores o reenvíos:
+   - Ejecutar la opción **Autorizar documento por cobrar** con “Enviar”.
+   - Luego utilizar **Enviar factura a servicio de facturación electrónica**.
 
-### Guía rápida 
+---
 
-Emisión de Facturación Electrónica:
+## Resultado Esperado
 
-* Seleccionar el socio de negocio correcto
+Al finalizar el procedimiento, el comprobante se emite y envía correctamente a la entidad fiscal. El estado del documento se puede verificar en la bitácora, y es posible descargar o imprimir el comprobante validado.
 
-* Asegurarse de que tenga un 'grupo de impuesto' asignado con tipo de CFE definido (e-ticket, e-factura, etc.).
-
-#### Tipo de documento fiscal
-
-El documento debe tener:
-
-* Tipo de CFE válido
-
-* “¿Maneja facturación electrónica?” = Sí
-
-* “¿Enviar después de completar?” = Sí
-
-* Ingresar líneas de productos
-Al guardar la línea, el sistema actualiza los totales.
-
-* Completar el documento
-Se genera la numeración fiscal y se envía automáticamente a la DGI si está correctamente configurado.
-
-* Verificar en la bitácora
-Consultar el estado de envío, firma, errores, QR, y URL de descarga en la |Bitácora de Documento Electrónico|.
-
-* Imprimir
-Usar solamente el botón “Imprimir Comprobantes Fiscales” o la URL de descarga generada.
-
-* Errores o reenvíos
-Si no se envió, ejecutar:
-
-|Autorizar documento por cobrar| con opción “Enviar”
-
-Luego: |Enviar factura a servicio de facturación electrónica|
