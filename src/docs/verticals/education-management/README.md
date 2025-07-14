@@ -17,3 +17,5 @@ Solop ERP brinda un sólido circuito de trabajo al organizar la gestión de educ
 - [Carga de Contratos Masiva (Educación)](import-contracts-education)
 - [Contrato de Servicio Educación](service-education-contract)
 - [Actualizar Contratos Educación](update-education-contracts)
+- [Pago y Asignación Educación](payment-and-assignment-education)
+- [Reportes Educación](education-reports)
