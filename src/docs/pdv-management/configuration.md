@@ -6,165 +6,138 @@ sticky: 9
 article: false
 ---
 
-### Ventana |Terminal PDV|
+## Descripción
 
-La ventana |Terminal PDV| permite realizar toda configuración previa con el objeto de realizar definiciones para un correcto comportamiento del |Punto de Venta|.
+Este módulo permite configurar las terminales del Punto de Venta (PDV) en Solop ERP, estableciendo reglas de operación, control de caja, dispositivos asociados y condiciones comerciales. Asegura un comportamiento correcto del sistema durante las ventas, cobranzas y devoluciones.
 
-* En el menú de Solop ERP, diríjase a: 
+---
 
-  1. Gestión de Ventas > Órdenes de Venta > Punto de Venta > Terminal PDV. 
+## Terminal PDV
 
-* Al seleccionar esta opción, se abrirá la ventana Terminal PDV, que incluye los campos necesarios para configurar cajas, taquillas o autoservicios donde se gestionarán órdenes, facturación y cobro. 
+### Acceso
 
-### Campos Principales de Configuración 
+Desde el menú de Solop ERP:  
+**Gestión de Ventas > Órdenes de Venta > Punto de Venta > Terminal PDV**
 
-A continuación, se detalla cada campo y su función dentro de la ventana: 
+La ventana **Terminal PDV** permite configurar cajas, taquillas o autoservicios donde se gestionarán órdenes, facturación y cobro.
 
-* |Organización|: Seleccione la organización a la que pertenece el vendedor que usará el terminal. 
+### Campos Principales
 
-* |Nombre| y |Descripción|: Ingrese un identificador y una breve descripción de la caja o taquilla. 
+- **Organización**: Define a qué entidad pertenece el terminal.
+- **Nombre / Descripción**: Identificación del PDV.
+- **Agente Comercial**: Vendedor asignado.
+- **Retraso de Cierre Automático**: Tiempo de inactividad antes del cierre de sesión.
+- **Lista de Precios**: Lista utilizada para las ventas.
+- **Modificación de Precio**: Permite cambios de precio con autorización.
+- **Caja Menor**: Caja asociada para pagos en efectivo.
+- **Plantilla de Socio del Negocio**: Cliente genérico para registrar ventas rápidas.
+- **Cuenta Bancaria**: Cuenta vinculada a las operaciones de cobro.
+- **Transferencia a Banco**: Cuenta destino para transferencias.
 
-* |Agente Comercial|: Asigne el vendedor responsable de las operaciones. 
+### Documentos y Reglas
 
-* Retraso de Cierre de Sesión Automático: Configure el tiempo de inactividad antes de cerrar la sesión automáticamente. 
+- **Tipo de Documento**: Para ventas, devoluciones, cobros, etc.
+- **Reglas de Facturación / Entrega**: Definen cómo se generan y gestionan los documentos.
 
-* |Lista de Precios|: Determine la lista de precios que se usará para las ventas. 
+### Parámetros de Dispositivos
 
-* Modificación de Precio: Active esta opción para permitir que el supervisor ajuste precios en la caja. 
+- **Impresora Fiscal**
+- **Registradora / Balanzas**
+- **PIN POS Requerido**
+- **Teclado en Pantalla**: Habilita entrada por pantalla táctil.
 
-* Caja Menor: Vincule la caja menor para registrar transacciones de caja chica. 
+### Checks y Configuraciones Adicionales
 
-* Plantilla de Socio del Negocio: Configure un socio del negocio predeterminado para registrar clientes rápidamente. 
+- **POS Compartido**
+- **Permitir Crear Cliente Nuevo**
+- **Límites de Reembolso y Descuento**
+- **Vendedores Asignados**
 
-* |Cuenta Bancaria|: Seleccione la cuenta vinculada para registrar transacciones del vendedor. 
+---
 
-* Transferencia de Caja a Banco: Configure la cuenta a la que se transferirán las transacciones. 
+## Pestañas de Configuración Específica
 
-#### Documentos Asociados y Reglas 
+- **Almacenes**: Definen desde dónde se realiza la entrega.
+- **Formas de Pago**: Métodos disponibles y reglas de cambio.
+- **Listas de Precios / Tipos de Documento**
+- **Esquemas de Descuento**
+- **Vendedores Asignados**: Usuarios habilitados para operar en ese PDV.
 
-* |Tipo de Documento|: Seleccione el tipo de documento para ventas y devoluciones. Consulte el documento  |Tipo de Documento| de Solop ERP para detalles adicionales. 
+Para más información sobre precios:  
+[Lista de Precios](../sales-management/comercial-rules/price-list)
 
-* Reglas de Facturación y Entrega: Defina métodos específicos para generar facturas y gestionar entregas. 
- 
+---
 
-#### Parámetros de Hardware y Funcionalidad 
+## Operaciones en el PDV
 
-* Impresora Fiscal: Asigne la impresora fiscal para facturación y notas de crédito. 
+### Documentos por Defecto
 
-* Registradora y Balanzas Electrónicas: Configure los dispositivos para registrar operaciones. 
+Tipos predefinidos para apertura, retiro de caja, cobros y devoluciones.
 
-* PIN POS Requerido: Especifique si se necesita un PIN de supervisor para ciertas tareas. 
+### Productos Favoritos
 
-* Teclados en Pantalla: Active teclados específicos para entradas de texto o numéricas. 
+Desde la pestaña **Llave PDV**, se pueden asignar productos destacados, imágenes y categorías.
 
-#### Checks y Configuraciones Adicionales 
+### Cajas del Punto de Venta
 
-* POS Compartido: Determine si el terminal puede ser utilizado por más de un vendedor. 
+Definición de caja asociada a la terminal, socio del negocio y cargo contable predeterminado.
 
-* Permitir Crear Cliente Nuevo: Habilite la creación de nuevos clientes desde el terminal. 
-
-* Máximos Permitidos: Configure límites diarios para reembolsos y descuentos aplicables. 
-
-* Vendedores Asignados: Defina qué vendedores pueden usar el terminal y qué operaciones pueden realizar. 
-
-### Pestañas de Configuración Específica 
-
-* Asignación de Almacenes: Configure los almacenes accesibles desde el punto de venta. 
-
-* Formas de Pago: Establezca métodos de pago aceptados y reglas de reembolso. 
-
-* |Listas de Precios| y |Tipos de Documento|: Configure las opciones disponibles para las transacciones. 
-
-Para más información sobre |Listas de Precio|: [Lista de Precios](../sales-management/comercial-rules/price-list)
-
-* Esquema de Descuentos: Defina políticas de descuento aplicables en el terminal. 
-
-* Vendedores Asignados: Permite agregar usuarios del sistema como vendedores a terminales específicas para que operen desde el |Punto de Venta|
-
-
-## Operaciones Específicas en el PDV 
-
-* Documentos por Defecto: 
-
-  Configure los tipos de documento para aperturas, retiros de caja, cobros y devoluciones. 
-
-* Productos Favoritos del PDV: 
-
-  Modifique productos favoritos desde la pestaña Llave PDV. También puede asignar imágenes y categorías a los productos. 
-
-* Cajas de *Punto de Venta*: 
-
-  Asigne la caja correspondiente a cada terminal, vinculando el socio del negocio y los cargos predeterminados. 
-
-### Consideraciones Finales 
-
-Al finalizar la configuración, no olvide guardar los cambios utilizando el ícono correspondiente en la barra de herramientas de Solop ERP. 
+---
 
 ## Definir SDN con RUT o Cédula
 
 ### Objetivo
 
-Permitir la creación de socios de negocio desde el *Punto de Venta* (POS), ya sea con cédula o con RUT, a través de la configuración de plantillas predefinidas (templates).
+Permitir la creación rápida de socios de negocio (clientes) en el PDV usando plantillas según si es empresa (RUT) o persona física (Cédula).
 
-### Pasos:
+### Pasos
 
-* Acceder a la Terminal de *Punto de Venta* (POS):
-Ir a la ventana de configuración de terminales POS. Posicionarse en la terminal que se desea configurar, por ejemplo, POS 1.
+1. Acceder a la ventana de **Terminal PDV**.
+2. Ir a la pestaña **Business Partner Template**.
+3. Dejar activos solo dos templates:  
+   - RUT Template  
+   - Cédula Template
+4. Verificar en cada plantilla:
+   - Grupo de Impuestos correcto.
+   - Activo en todos los clientes.
+   - Tipo de impuesto correspondiente.
 
-* Ir a la pestaña “Business Partner Template”
-Esta pestaña puede estar en inglés y puede requerir traducción al español. Contiene las plantillas de socios de negocio que se usarán al momento de crearlos desde el POS.
+Una vez guardado, el sistema podrá crear automáticamente socios desde el PDV.
 
-### Gestionar Plantillas Existentes:
+---
 
-* Verificar que solo estén activos los templates necesarios: uno para RUT y otro para Cédula.
+## Cambio en Otra Moneda
 
-* Borrar cualquier plantilla innecesaria.
+### Configuración en Terminal PDV
 
-Ejemplo: dejar solo dos plantillas activas: RUT Template y Cédula Template.
+- Si se define una moneda específica: **No** se puede cambiar la moneda al cobrar ni al entregar cambio.
+- Si no se define: el sistema **permite seleccionar otra moneda**.
 
-### Verificar configuración:
+Para que un método de pago pueda usarse como cambio:  
+✅ Marcar **Is Allowed To Refund**
 
-a. Cada socio de negocio utilizado como plantilla debe tener asignado un Grupo de Impuestos correspondiente (por ejemplo, grupo “RUT”).
+Podés usar un método existente (ej. efectivo) o crear uno específico llamado “Cambio”.
 
-b. Asegurarse de que estos socios estén activos en todos los clientes.
+### Funcionamiento
 
-c. El tipo de impuesto debe coincidir con el documento: empresa (RUT) o persona física (Cédula).
+Si un producto **no tiene precio** en la lista principal, el sistema busca en una **lista de referencia**, aunque esté en otra moneda.
 
-Guardar configuración:
-La terminal POS ya queda preparada para crear socios de negocio directamente con los datos proporcionados en el punto de venta.
+> Convierte automáticamente el precio usando la **tasa de cambio del día**.
 
-## Cambio en otra moneda
+Esto permite vender productos con precios en distintas monedas sin duplicar listas.
 
-### CONFIGURACIÓN EN |TERMINAL PDV|
+### Observaciones Clave
 
-Si en la configuración de la terminal PDV se define una moneda específica, no se permitirá cambiar la moneda en el momento del cobro ni para entregar el cambio.
+- La **lista principal** es la configurada en el terminal.
+- Si no hay precio allí, consulta la lista secundaria.
+- El precio se convierte automáticamente.
 
-Si no se establece una moneda, el sistema permitirá seleccionar una moneda distinta para dar el cambio.
+---
 
-Para habilitar un método de pago como opción válida para devolver cambio, debe estar marcado el check:
+## Beneficios
 
-* Is Allowed To Refund
-
-Puede utilizarse el mismo método de pago que se usa para cobro (por ejemplo, efectivo), o crear un nuevo método específicamente para cambio, con un nombre distinto como "Cambio".
-
-### FUNCIONALIDAD EN PDV
-
-La conversión de precios se activa cuando un producto no tiene precio definido en la lista de precios asignada al punto de venta.
-
-El sistema verifica si ese producto tiene un precio en una lista de precios de referencia, que puede estar definida en otra moneda (por ejemplo, dólares).
-
-Si encuentra un precio en esa lista de referencia, lo convierte automáticamente a la moneda definida en el punto de venta (por ejemplo, pesos), aplicando la tasa de cambio vigente del día.
-
-De esta manera, el producto puede agregarse a la orden con un precio en la moneda local, incluso si originalmente solo tenía precio en otra lista y otra moneda.
-
-Esta funcionalidad permite operar con mayor flexibilidad en entornos donde se utilizan múltiples monedas, evitando errores de carga o necesidad de mantener precios duplicados.
-
-### Observaciones clave:
-
-* La lista de precios principal es la que está definida en la *terminal PDV*.
-
-* Si el producto no tiene precio en esa lista, el sistema consulta la lista de referencia (en otra moneda).
-
-* El precio se convierte automáticamente usando la tasa de cambio vigente.
-
-* Esto permite operar en el PDV con múltiples monedas sin necesidad de duplicar productos o listas.
+- ✔️ Configuración completa por terminal.
+- ✔️ Flexibilidad en el uso de múltiples monedas.
+- ✔️ Automatización para creación de clientes.
+- ✔️ Integración con dispositivos físicos.
+- ✔️ Control por permisos, reglas y límites.

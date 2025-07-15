@@ -6,86 +6,119 @@ sticky: 9
 article: false
 ---
 
-## Cierre de Caja del PDV
+## Descripción
 
-Cada cobro realizado en un Punto de Venta se registra en un Cierre de Caja. Su finalidad es conciliar los ingresos y detectar diferencias.
+El cierre de caja del Punto de Venta (PDV) permite consolidar y conciliar los ingresos registrados durante la jornada, asegurando el control de fondos, la detección de diferencias y su correspondiente gestión contable en Solop ERP.
 
-#### Pasos para el cierre:
+---
 
-* Apertura de caja desde el punto de venta.
+## Flujo General
 
-* Venta de productos.
+Cada operación en el PDV genera automáticamente registros vinculados al cierre de caja:
 
-* Retiro de fondos.
+1. **Apertura de Caja**
+2. **Ventas**
+3. **Retiros de Fondos**
+4. **Cierre**
 
-Cada proceso genera documentos automáticamente vinculados a la ventana Cierre de Caja. Al ejecutar el proceso de cierre, Solop ERP deja el registro en estado Borrador, permitiendo su validación manual antes de completarlo.
+Al ejecutar el proceso de cierre, el sistema genera un registro en **Estado Borrador**, que debe ser validado manualmente antes de ser completado.
 
-A continuación, se específica el procedimiento que se debe realizar para ejecutar correctamente el cierre de caja POS.
+---
 
-#### Ejecución del Proceso
+## Proceso de Cierre
 
-Para ejecutar correctamente el cierre de caja en Solop ERP, siga estos pasos:
+### Acceso a cierre de caja
 
-1. Ubicarse en la solapa [Opciones Rápidas del Punto de Ventas], en sección [Gestión de Caja].
+1. Ir a la solapa **Opciones Rápidas del Punto de Ventas**.
+2. Ingresar en la sección **Gestión de Caja**.
+3. Seleccionar la opción **Cierre**.
+4. Visualizar los ingresos y retiros registrados.
+5. Confirmar para generar el **cierre del día en estado completo**.
 
-2. Seleccione la opción [Cierre]
+---
 
-3. Se mostrarán los ingresos así como los retiros. Al aceptar se generará el cierre de caja (define el cierre de caja del día y punto de venta actual en estado completo).
+## Consulta del Registro
 
-### Consulta de Registro
+Una vez generado el cierre, los detalles se visualizan en la pestaña:
 
-Tras ejecutar el cierre de caja, los registros generados pueden consultarse en la pestaña Línea de Cierre de Caja, donde se mostrarán:
+> `Línea de Cierre de Caja`
 
-* Apertura: Registro de ingresos en caja.
+### Datos visibles:
 
-* Cobros: Registros de documentos de cobro.
+- **Apertura**: Registro de inicio de caja.
+- **Cobros**: Documentos de cobro asociados.
+- **Retiros de Fondos**: Egresos manuales registrados.
 
-* Retiros de Fondos: Documentos de egreso generados en caja.
+---
 
-### Control de Diferencia
+## Control de Diferencias
 
-Si el cierre de caja no cuadra y muestra una diferencia, siga estos pasos:
+En caso de diferencias entre lo registrado y lo contado:
 
-* Verifique la columna Diferencia Monto.
+1. Verificar la columna `Diferencia Monto`.
+2. Si se acepta la diferencia:
+   - Tildar `Sobre/Sub Pago`.
+   - Asignar un cargo (ej. `Pérdida por quebranto de caja`).
+   - Registrar una descripción y la fecha de conciliación.
 
-* Si la diferencia es aceptada, marque la casilla Sobre/Sub Pago.
+---
 
-* Indique el cargo al que se asignará la diferencia (ej. "Pérdida por diferencia de quebranto de caja").
+## Traspaso de Fondos a Banco
 
-* Introduzca una descripción y la fecha de conciliación.
+Dependiendo del método de cobro, se deberán realizar diferentes pasos antes del cierre:
 
-### Traspaso a Banco
+### Solo pagos con tarjeta
 
-Para registrar un traspaso monetario de caja a banco:
+- Ejecutar `Depósito de Caja`
+- Luego realizar el `Cierre de Caja`.
 
-* Si solo hay transacciones con tarjeta, ejecute Depósito de Caja y luego Cierre de Caja.
+### Pagos con transferencia bancaria
 
-* Si hay pagos por transferencia bancaria, realice una Transferencia Bancaria y luego el Cierre de Caja.
+- Ejecutar `Transferencia Bancaria`
+- Luego realizar el `Cierre de Caja`.
 
-* Si existen ambos tipos de pagos, realice primero el Depósito de Caja, luego la Transferencia Bancaria y, por último, el Cierre de Caja.
+### Pagos mixtos
 
-### Retiro de Dinero en PDV
+1. `Depósito de Caja`
+2. `Transferencia Bancaria`
+3. `Cierre de Caja`
 
-Este proceso debe realizarse antes del cierre del punto de venta. Pasos:
+---
 
-* Seleccione [Retiro] desde solapa Opciones Rápidas del Punto de Ventas.
+## Retiro de Dinero desde PDV
 
-* Defina el monto y la moneda.
+Este paso se realiza *antes* del cierre del día.
 
-* Seleccione la caja destino.
+1. Ir a `Opciones Rápidas del Punto de Ventas`.
+2. Seleccionar **Retiro**.
+3. Completar:
+   - Monto
+   - Moneda
+   - Caja destino
+   - Cargo asociado: `Retiro de Caja`
+4. En caso de lotes de tarjetas, hacer un retiro por cada lote cerrado.
 
-* Indique el cargo "Retiro de Caja".
+---
 
-* En caso de cierre de lote de tarjetas, realice retiros separados por cada lote.
+## Cierre Final de Caja
 
-### Cierre de Caja Final
+Al finalizar el proceso diario:
 
-Para completar el proceso de cierre de caja:
+1. Seleccionar la **Caja a cerrar**.
+2. Filtrar movimientos por:
+   - `Cuenta Bancaria`
+   - `Fecha de Estado de Cuenta`
+3. Usar la opción **Crear a partir de Caja** para incluir los movimientos de:
+   - Depósitos
+   - Transferencias Bancarias
+4. Confirmar haciendo clic en **OK**.
 
-* Seleccione la caja a cerrar y transfiera el saldo al banco.
+---
 
-* Filtre las transacciones por Cuenta Bancaria y Fecha de Estado de Cuenta.
+## Beneficios del Módulo
 
-* Seleccione Crear a partir de Caja para incluir los movimientos de Depósito y Transferencia Bancaria.
-
-* Haga clic en OK para finalizar el cierre.
+- ✔️ Control diario de caja y fondos por PDV  
+- ✔️ Registro y trazabilidad de cobros, retiros y cierres  
+- ✔️ Conciliación automática de diferencias  
+- ✔️ Flujo integrado con módulos bancarios  
+- ✔️ Información centralizada por punto de venta
