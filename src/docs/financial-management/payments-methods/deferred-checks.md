@@ -62,30 +62,6 @@ Presenta filtros de **Socio del negocio**, **moneda**, **fecha de facturación**
 
 ![Depósito de Cheques](/assets/img/docs/balance-management/bam-deferred6.png)
 
-### Libretas/Resmas Cheques Propios
-
-Cómo primer paso para emitir cheques manuales en libretas, se deberán crear las libretas/resmas en el sistema, así como las secuencias para las mismas. Para ello se deberá ir a la ventana **Libreta/Resma Cheques** y **Secuencia de Documentos Controlados**.
-
-Antes que nada se deberá generar un nuevo registro en la ventana **Libreta/Resma Cheques**, completando el **Nombre** y la **cuenta bancaria** de la misma.
-
-Luego de generada la libreta se deberá asignar la numeración que tendrá dicha libreta de Cheques. Para ello se deberá generar la secuencia de números que corresponderá a esa libreta de cheques.
-
-Para ello deberá navegar en el campo *“Numeración de Libreta”*, abriendo la ventana *Secuencia de Documentos Controlados*.
-
-En la ventana de secuencia de documentos controlados, se debe ingresar el nombre, descripción opcional, número de inicio y fin de la libreta, y si fuera necesario un sufijo o prefijo para la numeración que tendrá esa libreta de cheques.
-
-Luego de guardar el registro, mediante el botón **Generar Líneas** se cargarán los datos en la pestaña **Control**, donde se visualizará el estado de los cheques, pudiendo ver si ya han sido emitidos, en qué fecha y por qué documento se emitió.
-
-De regreso en la ventana de **libreta/resma de cheques**, se deberá ligar la secuencia definida y la libreta de cheques.
-
-Para ello ingrese el nombre, nombre a ser impreso, cuenta bancaria y la secuencia del documento (definida anteriormente).
-
-![Libretas](/assets/img/docs/balance-management/bam-deferred7.png)
-
-En la pestaña **Cheques** se visualiza el estado de los mismos.
-
-![Pestaña Cheques](/assets/img/docs/balance-management/bam-deferred8.png)
-
 #### Débito Cheques Propios
 
 Los Débitos de Cheques Propios se deben realizar mediante el proceso automatizado de **Débito de Cheques**, el cual representa la salida de fondos de la empresa a causa del vencimiento de la fecha del cheque diferido.
@@ -104,6 +80,22 @@ Luego veremos el documento generado en la ventana **Depósito de Cheque Propio**
 
 ### Cheque por Pagar
 
+Un "cheque diferido por pagar" (o cheque de pago diferido) es una orden de pago emitida a una fecha futura, no a la vista. Es decir, el cheque se emite hoy, pero se indica una fecha posterior para su cobro. Esto permite al emisor (el que escribe el cheque) tener tiempo para reunir los fondos necesarios en su cuenta bancaria antes de que el cheque pueda ser cobrado. 
+
+### Libreta de Cheques
+
+Cómo primer paso para emitir cheques manuales en libretas, se deberán crear las libretas de Cheques en el sistema, así como las secuencias para las mismas. Para ello se deberá ir a la ventana **Libreta de Cheques** y (Pestaña) **Secuencia de Cheques**.
+
+Antes que nada se deberá generar un nuevo registro en la ventana **Libreta de Cheques**, completando el **Nombre** y la **cuenta bancaria**, **Número de Cheque Inicial** y **Número de Cheque Final** de la misma.
+
+Luego de guardar la libreta, en la pestaña **Secuencia de Cheques** se asignará en forma automática la numeración que tendrá dicha libreta de Cheques.
+
+![Libretas](/assets/img/docs/balance-management/bam-deferred7.png)
+
+En la pestaña **Secuencia de Cheques** se visualiza el estado de los mismos.
+
+![Pestaña Cheques](/assets/img/docs/balance-management/bam-deferred8.png)
+
 Puede emitir un cheque diferido por pagar de dos formas diferentes:
 
 1. Con Proceso desde **Recibo de Pago**
@@ -117,29 +109,25 @@ El **Recibo de Pago** es un documento que genera asignaciones: Asocia en este ca
 
 ![Recibo de Pago](/assets/img/docs/balance-management/bam-deferred10.png)
 
-#### 2. Ventana cheque por pagar
+#### 2. Cheque por pagar
 
-La emisión de cheques diferidos propios a Pagar se puede realizar mediante la ventana **Cheque Diferido Por Pagar**.
+La emisión de cheques diferidos propios a Pagar se puede realizar mediante la opciòn **Generar Cheque Diferido Por Pagar**.
 
-En el cabezal de la misma se deberá completar los siguientes campos:
+Deberá completar los siguientes campos:
 
-* **Libreta**: permite elegir de todas las libretas activas en una Cuenta Bancaria.
-* **Nro. Cheque**: permite seleccionar el cheque a emitir, entre todos los que aún no han sido emitidos para la libreta seleccionada.
-* **Fecha Emisión**: Fecha de emisión del cheque.
+* **Moneda**: Moneda del cheque.
+* **Chequera**: Se debe seleccionar la libreta previamente generada.
+* **Nro. de Cheque**: Número correspondiente al cheque.
 * **Socio del Negocio**: un cheque siempre deberá ser nominado a un Socio de Negocio.
-* **Dirección del Socio de Negocio**: dirección del socio de negocio seleccionado.
+* **Monto**: Importe del cheque.
+* **Fecha de la Transacción**: Fecha de emisión del cheque
+* **Fecha de Vencimiento**: Fecha de vencimiento del Cheque
 
-Luego, debe ingresar a la pestaña embebida y abrir una “Línea” accionando **Nuevo**, clickeando en la línea, se debe ingresar el importe del cheque (el Cargo aparecerá de manera predeterminada).
-
-::: note
-Recuerde: Una pestaña embebida está contenida en otra pestaña y es necesario presionarla para que el sistema cambie el “foco”. El indicador de “foco” es la línea de color en sentido vertical. Cuando cambia el “foco” cambia la línea vertical.
-:::
-
-Por último, en la pestaña **Vencimiento** se debe indicar la fecha de vencimiento y oprimir el botón **Validar** (el check **Válido** deberá quedar marcado). Para finalizar se procede a **Completar** el documento.
+Al aceptar se creará el cheque de acuerdo a los datos ingresados. El mismo podrá visualizar desde la ventana cheque diferido por pagar
 
 El Vencimiento desde la ventana se verá en la Pestaña **Vencimiento**. De todas maneras la manera más ágil de ver estos vencimientos será mediante el **Reporte de Cheques Diferidos**.
 
-![Cheque Diferidp por Pagar](/assets/img/docs/balance-management/bam-deferred11.png)
+![Cheque Diferido por Pagar](/assets/img/docs/balance-management/bam-deferred11.png)
 
 #### Proceso automático de Debitar los Cheques Diferidos por Pagar
 
