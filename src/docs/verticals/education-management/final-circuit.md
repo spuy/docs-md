@@ -14,15 +14,24 @@ article: false
 
 ![Flujo educación 2](/assets/img/docs/education-management/edum-image2.png)
 
-### Carga de Extracto de Cuenta Bancaria
+### Extracto de Cuenta Bancaria
 
-Desde la ventana de Estados de Cuenta Bancario generamos un registro para la Cuenta bancaria correspondiente (se ingresa un nombre y la fecha del estado de cuenta). Se aplica tipo de documento "Conciliación Bancaria" y desde Procesos seleccionamos "Carga de Estado de Cuenta".
+Desde la ventana de Estados de Cuenta Bancario generamos un registro para la Cuenta bancaria correspondiente (se ingresa un nombre y la fecha del estado de cuenta). Se aplica tipo de documento "Conciliación Bancaria" y desde Procesos seleccionamos **Carga de Estado de Cuenta**.
 En la ventana emergente del proceso seleccionamos la cuenta y desde "Cargador de Archivo" es posible montar al sistema el extracto de cuenta bancaria, seleccionando el formato del banco correspondiente (ejemplo: ITAU dólares), así como su lista de conjunto de caracteres (ejemplo: UTF-8).
-Cada movimiento del extracto de cuenta cargado se visualizará en diferentes lineas del registro de Estado de cuenta bancario.
+
+Este proceso tambièn puede realizarse desde la opción de Menú **Carga de Estado de Cuentas**
 
 ![Carga de Extracto](/assets/img/docs/education-management/edum-image6.png)
 
-### Crear Cobros desde Movimientos Bancarios
+![Carga de Extracto](/assets/img/docs/education-management/edum-image23.png)
+
+Una vez cargado el extracto, desde la opciòn **Importar Estado de Cuenta** es pobible terminar la importación de los registros definitivamente en el sistema.
+Para identificarlos con mayor precisiòn puede utilizarse el buscador definiendo Importado = NO. Se verifican los registros cargados y si están correctos desde el botón de **Importar Extractos de Cuentas**.
+Cada movimiento del extracto de cuenta cargado se visualizará en diferentes lineas del registro de Estado de cuenta bancario una vez importado.
+
+![Carga de Extracto](/assets/img/docs/education-management/edum-image24.png)
+
+### Cobros de Movimientos Bancarios
 
 Sobre cada movimiento bancario, que se visualiza como una línea del estado de cuenta bancario se crean los Pago/cobros (dependiendo de si el movimiento es positivo o negativo en el extracto). Una vez identificados todos los movimientos es posible Completar el estado de cuenta bancario.
 
@@ -43,21 +52,22 @@ En los casos de un cobro por importe menor al documento por cobrar no genera la 
 
 ![Asignación de Pagos Masiva](/assets/img/docs/education-management/edum-image8.png)
 
-### Crear Conceptos a Facturar No Recurrentes
+### Crear Conceptos No Recurrentes
 
-Desde el proceso Crear Conceptos a Facturar es posible generar estos conceptos utilizando filtros de Organización y actividad.
-La búsqueda muestra los contratos activos de alumnos.
-En la sección de "parámetros" se deben definir:
-Producto, Precio, Actividad, Fecha (del concepto a generar) y Lista de Precio.
+Desde el proceso la ventana **Facturas por Lote** es posible generar estos conceptos a facturar utilizando **Crear Desde Informe de Gastos**, utilizando el filtro **Auto-Servicio**.
+En la ventana emergente se cuenta con "parámetros" donde pueden definir:
+Producto, Actividad, Fecha, Lista de Precio.
 Al seleccionar "Aceptar" se generan los correspondientes Conceptos a Facturar por aquellos registros seleccionados.
 
-![Conceptos a facturar](/assets/img/docs/education-management/edum-image9.png)
+![Campo](/assets/img/docs/sales-management/sam-sales-image1000.png)
 
-### Generar Facturas desde Cuota de Contrato
+![Campo](/assets/img/docs/sales-management/sam-sales-image1001.png)
 
-La ventana de Bandeja CFE audita todo el proceso de Facturación electrónica, y asignará el tipo de comprobante de acuerdo al grupo de impuesto del Responsable de Pago (si posee RUT genera E-factura y si posee Cedula genera E-ticket).
+### Facturas por Lote
 
-**Para mayor información sobre Generar Facturas desde Cuota de Contrato:** - [Bandeja CFE](../../sales-management/receivable-document/cfe-tray)
+La ventana de **Facturas por Lote** audita todo el proceso de Facturación electrónica, y asignará el tipo de comprobante de acuerdo al grupo de impuesto del Responsable de Pago (si posee RUT genera E-factura y si posee Cedula genera E-ticket).
+
+**Para mayor información sobre Generar Facturas documentos por cobrar desde Facturas por lote:** - [Facturas por Lote](../../sales-management/receivable-document/batch-invoices)
 
 ### Generar Cálculo de Morosidad
 
@@ -95,7 +105,7 @@ Dentro de cada Registro en la pestaña “Entrada” se podrá obtener el Report
 
 ![Estado de Cuenta](/assets/img/docs/education-management/edum-image15.png)
 
-###  Envío de Estado de Cuenta Corriente
+### Envío de Estado Cuenta Corriente
 
 Este proceso buscará todas aquellas entradas de morosidad que existan a partir de los filtros que se le defina y generará el envío de los estados de cuenta correspondientes a cada uno de los Socio del Negocios.
 
@@ -103,7 +113,7 @@ Este proceso buscará todas aquellas entradas de morosidad que existan a partir 
 
 Correo según Familia: Correo que esté definido en los miembros de la familia que tengan marcado el check de “Envio de mail”. En estos casos se podrá realizar más de un envío del estado de cuenta según tantos miembros tengan definidos.
 
-#### Envío de Estado de Cuenta por Mail
+#### Envío por Mail
 
 Una vez se generaron todas las entradas en el cálculo de morosidad “Estado de Cuenta” se podrá ir al Proceso de Envío de Estado de Cuenta por Correo”.
 
