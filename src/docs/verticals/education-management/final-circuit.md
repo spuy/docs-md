@@ -19,7 +19,7 @@ article: false
 Desde la ventana de Estados de Cuenta Bancario generamos un registro para la Cuenta bancaria correspondiente (se ingresa un nombre y la fecha del estado de cuenta). Se aplica tipo de documento "Conciliación Bancaria" y desde Procesos seleccionamos **Carga de Estado de Cuenta**.
 En la ventana emergente del proceso seleccionamos la cuenta y desde "Cargador de Archivo" es posible montar al sistema el extracto de cuenta bancaria, seleccionando el formato del banco correspondiente (ejemplo: ITAU dólares), así como su lista de conjunto de caracteres (ejemplo: UTF-8).
 
-Este proceso tambièn puede realizarse desde la opción de Menú **Carga de Estado de Cuentas**
+Este proceso tambièn puede realizarse desde la opción de Menú **Carga de Estados de Cuentas**
 
 ![Carga de Extracto](/assets/img/docs/education-management/edum-image6.png)
 
