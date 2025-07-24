@@ -1,12 +1,10 @@
 ---
-title: Conciliaciones Automáticas
+title: Conciliaciones Bancarias
 category: Documentation
 star: 9
 sticky: 9
 article: false
 ---
-
-## Conciliaciones Automáticas
 
 El área de tesorería en una empresa organiza y gestiona todas las acciones relacionadas con operaciones de flujo monetario, dentro de esas operaciones se encuentra la gestión bancaria el cual se encarga de garantizar y verificar todos los movimientos de dinero qué entran y salen en la empresa.
 
@@ -16,7 +14,7 @@ Solop ERP cuenta con un proceso de conciliaciones automáticas el cual permite d
 
 Una conciliación automática es un proceso que se realiza con la finalidad de garantizar los saldos de las cuentas por cobrar y las cuentas por pagar que posee una empresa, el mismo compara la información del estado de cuenta real del banco con los registros y movimientos bancarios existentes en Solop ERP para corroborar que ambos coincidan y no existan errores en los saldos bancarios y en la contabilidad de la empresa.
 
-**Solop ERP** pretende ofrecer una explicación eficiente a nuestros clientes del procedimiento de conciliación automática a través de una guía fácil y sencilla para así obtener resultados exitosos al momento de generar una conciliación en la versión 3.9.2 de Solop ERP. A continuación se explica el procedimiento que se debe realizar para generar una conciliación bancaria de manera automática en Solop ERP.
+**Solop ERP** pretende ofrecer una explicación eficiente a nuestros clientes del procedimiento de conciliación automática a través de una guía fácil y sencilla para así obtener resultados exitosos al momento de generar una conciliación en la versión 3.9.2 de Solop ERP. A continuación se explica el procedimiento que se debe realizar para generar una conciliación bancaria de manera automática en Solop ERP a partir de la ventana **Estado de Cuentas Bancario**.
 
 - Descarga de Extracto Bancario desde Banco
 - Registro de Conciliación Automática
@@ -53,10 +51,6 @@ Para realizar la importación del extracto bancario este proceso se explica en e
 Para poder crear una conciliación automática en Solop ERP debe seguir los siguientes pasos:
 
 Ubique en el menú de Solop ERP la carpeta **Gestión de Saldos Pendientes** y luego seleccione la ventana **Estado de Cuenta Bancario**.
-
-![Campo](/assets/img/docs/balance-management/bam-balance-image139.png)
-
-Imagen 1. Menú de Solop ERP
 
 Seleccione el icono **Registro Nuevo** en la barra de herramientas de Solop ERP y proceda al llenado de los campos correspondientes.
 
@@ -109,6 +103,18 @@ Podrá visualizar en la ventana un mensaje el cual indica la importación exitos
 Imagen 5. Estado de Cuenta
 
 Una vez cargado el extracto de cuenta bancario se puede proceder a realizar la conciliación automática, si el extracto de cuenta bancario no es importado Solop ERP no podrá realizar el proceso.
+
+La carga del extracto tambièn puede realizarse desde la opción de Menù.
+
+![Carga de Extracto](/assets/img/docs/education-management/edum-image23.png)
+
+El siguiente paso es la importaciòn del extracto cargado (el primer paso solo graba los registros en una tabla intermedia).
+Esto se ejecuta desde la ventana **Importar Estado de Cuentas**.
+
+Para una búsqueda más ágil se puede definir el buscador "Importado" = NO.
+Esto mostrará todos los registros no importados y con el botón **Importar Extractos de Cuentas** quedarán los registros importados en la tabla definitiva. Esto genera la entidad de **Estado de Cuentas Bancario** con sus correspondientes líneas.
+
+![Carga de Extracto](/assets/img/docs/education-management/edum-image24.png)
 
 ### Conciliación Automática
 
