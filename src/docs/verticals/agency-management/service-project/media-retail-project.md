@@ -59,7 +59,7 @@ Se crea automáticamente una orden de venta asociada al completar la cotizaciño
 
 ![Oportunidad](/assets/img/docs/project-management/prm-project10.png)
 
-### 3. Asignación de recursos
+## 3. Asignación de recursos
 
 Luego de crear la cotización y completarla, regresamos a la ventana Oportunidad para asignar recursos.
 
@@ -83,7 +83,7 @@ Se puede editar si hay errores.
 
 ![Oportunidad](/assets/img/docs/project-management/prm-project11.png)
 
-### 4. Visualización y envío de cotización
+## 4. Visualización y envío de cotización
 
 La cotización generada puede:
 
@@ -180,7 +180,7 @@ Revisar o confirmar los siguientes datos:
 
 ![Oportunidad](/assets/img/docs/project-management/prm-project13.png)
 
-## Consideraciones
+## 9. Consideraciones
 
 * Las órdenes de compra creadas quedan en estado borrador o pendientes de aprobación, según la configuración del flujo de trabajo de la organización.
 
