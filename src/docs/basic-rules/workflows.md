@@ -6,6 +6,9 @@ sticky: 9
 article: false
 ---
 
+Un flujo de trabajo (workflow) en Solop ERP es una herramienta que permite automatizar y controlar procesos empresariales, definiendo una secuencia de pasos, aprobaciones y decisiones que deben seguirse para completar una tarea específica dentro del sistema.
+Es un modelo visual y lógico que representa cómo fluye una actividad dentro del sistema, involucrando a distintos usuarios, reglas de negocio, documentos y estados.
+
 **Flujo de Trabajo Activo:** Cuando se genera el siguiente mensaje como consecuencia de un flujo de trabajo activo en Solop ERP.
 
 ![Flujo de Trabajo Activo](/assets/img/docs/basic-rules/bar-props-flow.png)

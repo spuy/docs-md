@@ -6,8 +6,6 @@ sticky: 9
 article: false
 ---
 
-## Descripción
-
 La funcionalidad de Comprobantes Fiscales Electrónicos (CFE) permite generar documentos electrónicos desde Solop ERP, los cuales se envían automáticamente a la entidad fiscal correspondiente, siguiendo la estructura y normativa de cada país.
 
 Este documento describe cómo crear, completar, anular y emitir notas de crédito sobre comprobantes fiscales electrónicos, así como una guía rápida para su emisión correcta.

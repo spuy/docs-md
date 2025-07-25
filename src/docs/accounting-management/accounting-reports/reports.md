@@ -61,7 +61,7 @@ Lista Transacciones es un campo dependiente del campo **Desplegar fuentes Fuente
 
 Seleccione la opción Si o No en el campo Listas Fuentes Primero.
 
-Listas Fuentes Primero se encuentra por defecto con la opción **No**, no es un campo obligatorio, sin embargo, le permite organizar su informe financiero, organizando las cuentas fuentes(cuentas detalle) listadas desde la opción **Desplegar fuentes Fuentes** y **Lista Transacciones** de forma que si la opción seleccionada en el campo **Listas Fuentes Primero** es **Si las cuentas detalle junto a las transacciones irán precediendo a las cuentas definidas previamente en el **Grupo de Líneas del Informe** asociado al informe financiero, si por el contrario, el campo está vacío Solop ERP mostrará las cuentas detalle junto a las transacciones sucediendo a las cuentas definidas previamente en el **Grupo de Líneas del Informe asociado al informe financiero.
+Listas Fuentes Primero se encuentra por defecto con la opción **No**, no es un campo obligatorio, sin embargo, le permite organizar su informe financiero, organizando las cuentas fuentes(cuentas detalle) listadas desde la opción **Desplegar fuentes Fuentes** y **Lista Transacciones** de forma que si la opción seleccionada en el campo **Listas Fuentes Primero** es "Si" las cuentas detalle junto a las transacciones irán precediendo a las cuentas definidas previamente en el **Grupo de Líneas del Informe** asociado al informe financiero, si por el contrario, el campo está vacío Solop ERP mostrará las cuentas detalle junto a las transacciones sucediendo a las cuentas definidas previamente en el **Grupo de Líneas del Informe** asociado al informe financiero.
 
 Seleccione el informe por jerarquía en el campo Reportando Jerarquías.
 

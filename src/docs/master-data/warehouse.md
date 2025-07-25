@@ -6,6 +6,8 @@ sticky: 9
 article: false
 ---
 
+En Solop ERP, un almacén (o warehouse) es una unidad física o lógica de almacenamiento donde se gestionan productos, lotes y existencias. Representa un lugar donde se recibe, guarda, mueve o despacha mercadería.
+
 El presente material elaborado por Solop ERP, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para registrar en Solop ERP un almacén.
 
 - Registro de Almacén

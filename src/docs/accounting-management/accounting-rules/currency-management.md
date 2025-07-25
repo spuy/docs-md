@@ -6,6 +6,10 @@ sticky: 9
 article: false
 ---
 
+La conversión de moneda en Solop ERP es el mecanismo que permite transformar montos expresados en una moneda determinada a otra moneda, utilizando una tasa de cambio vigente. Es fundamental para operaciones en entornos multimoneda, donde una empresa trabaja con distintas divisas.
+
+
+
 ## Diferencias de Cambio sobre Documentos por Cobrar o Pagar
 
 Si su compañía usa diferentes monedas como monedas base, es posible que deba re expresar los saldos de las cuentas de la moneda base a cualquier moneda extranjera configurada para su uso en contabilidad. Esta operación se llama Conversión de Monedas.

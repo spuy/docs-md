@@ -6,6 +6,9 @@ sticky: 9
 article: false
 ---
 
+Los documentos sin aplicar en Adempiere son registros contables o comerciales que ya fueron ingresados al sistema (como pagos, cobranzas, notas de crédito o débitos), pero que aún no se han vinculado o imputado a una factura u obligación específica.
+Significa que el monto del documento está disponible, pero todavía no se ha usado para cancelar o afectar otra transacción.
+
 Ubique y seleccione en el menú de Solop ERP, la carpeta **Análisis de Desempeño**, luego seleccione la carpeta **Reglas Contables**, por último seleccione la ventana **Documentos sin Aplicar**.
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image460.png)

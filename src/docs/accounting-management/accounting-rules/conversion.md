@@ -77,7 +77,7 @@ Seleccione el checklist **Predeterminado**, para indicar como predeterminado el 
 Recuerde guardar los cambios realizados seleccionando el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
 :::
 
-## Tasa de Conversión desde la Ventana Moneda
+#### Tasa de Conversión desde la Ventana Moneda
 
 Ubique y seleccione en el menú de Solop ERP, la carpeta **Análisis de Desempeño**, luego seleccione la carpeta **Reglas Contables**, por último seleccione la ventana **Moneda**.
 
@@ -117,7 +117,7 @@ Introduzca en el campo **Factor de Base a Destino**, la tasa por la que serán m
 Recuerde guardar los cambios realizados seleccionando el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
 :::
 
-## Tasa de Conversión desde la Ventana Tasa de Cambio
+#### Tasa de Conversión desde la Ventana Tasa de Cambio
 
 Ubique y seleccione en el menú de Solop ERP, la carpeta **Análisis de Desempeño**, luego seleccione la carpeta **Reglas Contables**, por último seleccione la ventana **Tasa de Cambio**.
 
@@ -151,7 +151,7 @@ Introduzca en el campo **Factor de Destino a Base**, la tasa por la que serán m
 Recuerde guardar los cambios realizados seleccionando el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
 :::
 
-### Tipo de Conversión Spot o Documento
+### Tipo Conversión Spot o Documento
 
 El tipo de conversión Spot es el que se carga de forma diaria (ya sea automáticamente por la consulta al BCU o manualmente cuando por algún motivo de conexión pudo no haberse cargado). Se utilizará esa tasa Spot diaria para las diferentes operaciones/transacciones realizadas en el dia.
 

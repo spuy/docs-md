@@ -6,8 +6,6 @@ sticky: 9
 article: false
 ---
 
-## Descripción
-
 La plataforma InvoiCy permite visualizar, validar y gestionar los comprobantes fiscales electrónicos (CFE) generados desde Solop ERP. También centraliza el seguimiento de envíos, la reimpresión, las notificaciones y la administración de CAEs. Esta guía describe los procesos clave de validación, control de estados, gestión de reportes y anulación de comprobantes vencidos.
 
 ---
