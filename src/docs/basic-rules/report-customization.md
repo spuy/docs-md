@@ -6,7 +6,9 @@ sticky: 9
 article: false
 ---
 
-### Elementos
+Los reportes cuentan con una forma de parametrizarlos de acuerdo a la necesidad. Cuentan con una amplia flexibilidad para realizar cambios de visibilidad de columnas, de secuencia de visualización de las mismas, así como su nomenclatura, ordenamiento (order by), sumarización, etc.
+
+## Elementos
 
  Solop ERP le permite cambiar los siguientes elementos de cada Reporte:
 
@@ -34,7 +36,7 @@ XLSX
 9- Navegar al Registro
 10- Resumen: Muestra sólo Sub-totales
 
-### Formato de Impresión
+## Formato de Impresión
 
 ![Formato](/assets/img/docs/basic-rules/bar-report2.png)
 

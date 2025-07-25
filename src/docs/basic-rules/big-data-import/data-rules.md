@@ -1,16 +1,29 @@
 ---
-title: Reglas de Datos
+title: Reglas de Datos en Carga Socio del Negocio
 category: Documentation
 star: 9
 sticky: 9
 article: false
 ---
 
-## Guía para el Envío de Datos para Carga Masiva de Socios del Negocio (SDN) 
-
 Esta guía detalla cómo deben enviarse los datos para realizar una carga masiva de Socios del Negocio (Clientes, Proveedores, Empleados) en el sistema. 
  
 Todos los campos marcados como obligatorios deben completarse correctamente. En caso contrario, los datos faltantes deberán ser cargados manualmente luego de la importación. 
+
+## Fases
+
+La importación de datos al sistema tiene un mismo circuito para cualquier registro que esté importando (Socio del Negocio, Producto, Inventario, Documentos por Pagar, etc.) que deben cumplirse cronológicamente para lograr una efectiva carga de datos.
+
+### Cargador de Archivo
+
+Siempre partimos de un **formato de importación de datos**, en esa ventana generamos el formato para la tabla correspondiente al tipo de datos que deseamos cargar (Socio del Negocio en este caso). Una vez creado el formato con las columnas de datos a validar, se crea una planilla con los datos a importar respetando el orden de columna/dato del formato generado.
+
+Por último, desde **Cargador de Archivo** seleccionando el formato que corresponda podremos cargar la planilla. Esto guarda los datos en una tabla intermedia.
+
+### Importación de Datos
+
+Desde la ventana **Importar Socio del Negocio** (o el importador que se corresponda con el dato a importar) es posible realizar una búsqueda de los registros cargados y aun no importados seleccionando **Importado** = NO. 
+Ejecutando el botón **Importar Socios del Negocio** se cargarán a tabla definitiva todos los registros cargados que se encuentren sin importar.
 
 ### Campos a completar en la planilla 
 

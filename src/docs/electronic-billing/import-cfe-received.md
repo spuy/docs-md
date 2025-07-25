@@ -6,8 +6,6 @@ sticky: 9
 article: false
 ---
 
-## Descripción
-
 Las empresas emisoras electrónicas también pueden recibir comprobantes fiscales electrónicos (CFE) de sus proveedores. Con un sistema integrado, estos documentos pueden importarse automáticamente, optimizando tiempos y reduciendo errores manuales.
 
 Esta guía describe el proceso de importación de CFE recibidos en Solop ERP desde InvoiCy, con control de datos y validación previa.

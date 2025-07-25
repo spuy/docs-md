@@ -6,6 +6,8 @@ sticky: 9
 article: false
 ---
 
+La Carga Masiva de Datos es una funcionalidad que permite importar al sistema lotes de registros en simultáneo, partiendo desde un formato de importación de datos donde se definen las columnas/datos. En base a ese formato se crea una planilla con el mismo orden de los datos concatenados definidos en el formato. Un cargador de archivo mediante el cual se suben los registros al sistema en una tabla intermedia y finalmente un importador que guarda en tabla definitiva los registros importados.
+
 ## Carga Masiva: Presupuesto Contable
 
 La aplicación gestiona diferentes tipos de contabilidad:

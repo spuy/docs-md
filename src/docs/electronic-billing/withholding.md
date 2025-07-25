@@ -6,8 +6,6 @@ sticky: 9
 article: false
 ---
 
-## Descripción
-
 Este módulo permite configurar, aplicar y gestionar las retenciones fiscales y los resguardos generados automáticamente al procesar documentos por pagar en Solop ERP. Las funcionalidades están orientadas a cumplir con las normativas fiscales, automatizar procesos y asegurar la trazabilidad contable.
 
 ---

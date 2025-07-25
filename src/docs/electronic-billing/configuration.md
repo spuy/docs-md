@@ -6,8 +6,6 @@ sticky: 9
 article: false
 ---
 
-## Descripción
-
 El circuito de facturación electrónica requiere configurar correctamente distintos elementos del sistema para permitir la emisión y el envío exitoso de comprobantes fiscales electrónicos (CFE) a la entidad fiscal correspondiente.
 
 Este documento detalla la configuración previa necesaria en el ERP antes de emitir comprobantes fiscales.

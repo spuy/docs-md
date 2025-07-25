@@ -6,14 +6,12 @@ sticky: 9
 article: false
 ---
 
-## Panel de Control
-
 La interfaz de usuario es el medio por el cual el usuario podrá comunicarse con Solop ERP, comprende todos los puntos de contacto entre el usuario y Solop ERP. Su objetivo principal es que el usuario se familiarice con Solop ERP a través de ciertos elementos, la interfaz cuenta con una serie de elementos los cuales se describen a continuación.
 
 ![Interfaz del Usuario](/assets/img/docs/basic-rules/bar-interface-user1.png)
 Imagen 1. Interfaz del Usuario
 
-### Buscador del Menú
+## Buscador del Menú
 
 Permite realizar una búsqueda de las ventanas, procesos, reportes y smart browser que contiene el menú.
 
@@ -21,7 +19,7 @@ Permite realizar una búsqueda de las ventanas, procesos, reportes y smart brows
 
 Imagen 3. Buscador del Menú
 
-### Favoritos del Usuario
+## Favoritos del Usuario
 
 Muestra las ventanas, procesos, reportes y smart browser establecidas como favoritos por el usuario. Para agregar dichos elementos a esta sección se debe arrastrar y sueltar aquí, los elementos desde el menú. Otra forma de agregar los elementos es haciendo clic derecho para agregar carpetas.
 
@@ -29,21 +27,21 @@ Muestra las ventanas, procesos, reportes y smart browser establecidas como favor
 
 Imagen 5. Favoritos del Usuario
 
-### Últimos Documentos
+## Últimos Documentos
 
 Muestra los artículos recientemente abiertos y modificados, puede hacer clic en cualquiera de los elementos para abrirlos. El listado de esta sección se actualiza periódicamente
 
-### Tareas Pendientes
+## Tareas Pendientes
 
 Muestra todos los procesos o documentos que el usuario tiene pendientes por finalizar.
 
-### Actividades
+## Actividades
 
 Indica los documentos que se encuentran en estado pendiente, es decir un documento que se ha realizado pero que por algún motivo no ha podido ser completado.
 
 Pueden visualizarse tanto los Avisos, Solicitudes y Flujos de trabajo en el extremo superior derecho de la interfaz de usuario.
 
-### Calendario
+## Calendario
 
 Se visualiza el calendario con intervalos de días, meses y años.
 
@@ -51,7 +49,7 @@ Se visualiza el calendario con intervalos de días, meses y años.
 
 Imagen 19. Calendarios
 
-### Desempeño
+## Desempeño
 
 Señalará la cantidad de documentos (según su estado) que existen a través de gráficos.
 
@@ -67,7 +65,7 @@ Se encuentra conformado por una serie de carpetas que contienen sub-carpetas, ve
 
 Imagen 2 Menú de Solop ERP
 
-### Carpetas
+## Carpetas
 
 Las carpetas se encuentran representadas por el Icono de una Carpeta en el menú de Solop ERP. Estas conforman el directorio del menú (árbol del menú) y pueden contener una serie de reportes, ventanas o procesos.
 
@@ -75,37 +73,37 @@ Las carpetas se encuentran representadas por el Icono de una Carpeta en el menú
 
 Imagen 1. Ejemplo de una Carpeta
 
-### Guía
+## Guía
 
 La página de guía es útil para algunas personas que ingresaron al proyecto por primera vez. Puede presentar brevemente las características del proyecto. La demostración está basada en driver.js.
 
 ![Guia](/assets/img/docs/basic-rules/bar-interface-guia1.png)
 
-### Calendario
+## Calendario
 
 El Calendario es parte de las herramientas internas que permiten dar un ordenamiento al flujo de trabajo. Permite definir diferente eventos en una línea de tiempo.
 
 ![Calendario](/assets/img/docs/basic-rules/bar-interface-calendario1.png)
 
-### Accounting Viewer
+## Accounting Viewer
 
 Accounting viewer permite re contabilizar una transacción del sistema realizando la búsqueda por registros.
 
 ![Viewer](/assets/img/docs/basic-rules/bar-interface-viewer1.png)
 
-### Histórico de Procesos
+## Histórico de Procesos
 
 El Histórico de procesos nos permite visualizar aquellos procesos finalizados con éxito, procesos que no se han completado debido a una inconsistencia (se detalla en el histórico) y aquellos procesos que se encuentran en ejecución.
 
 ![Procesos](/assets/img/docs/basic-rules/bar-interface-procesos1.png)
 
-### Gráficos
+## Gráficos
 
 Esta opción permite visibilizar y ponderar de forma estadística y clara, diferentes resultados relacionados con el trabajo diario (como por ejemplo "Ventas por Cliente").
 
 ![Gráficos](/assets/img/docs/basic-rules/bar-interface-graficos1.png)
 
-### Información de Producto
+## Información de Producto
 
 En Información de producto es posible visualizar datos de un determinado producto o varios (permite buscar por código o nombre o parte del nombre) tales como su precio y su existencia (cantidad en stock).
 

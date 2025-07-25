@@ -6,8 +6,6 @@ sticky: 9
 article: false
 ---
 
-## Descripción
-
 Una vez generados los documentos por cobrar en Solop ERP, el sistema puede enviar los comprobantes fiscales electrónicos (CFE) a la entidad fiscal correspondiente. Este proceso incluye validaciones clave para garantizar la integridad fiscal y cumplir con los requisitos normativos.
 
 ---
@@ -25,7 +23,7 @@ Una vez completado un documento, se puede consultar su estado desde la ventana:
 - Estado de firma y envío
 - Notas u observaciones
 
-✔ **"Archivo firmado correctamente"** indica aceptación por parte del organismo fiscal.
+* **"Archivo firmado correctamente"** indica aceptación por parte del organismo fiscal.
 
 ::: warning
 En caso de error o rechazo, se mostrará en la sección **Notas** o **Información adicional**.
@@ -92,7 +90,7 @@ El sistema validará que:
 - No haya sido enviado previamente.
 - Cumpla con todos los datos fiscales requeridos.
 
-❌ Si alguna validación falla, se mostrará un error como:
+* Si alguna validación falla, se mostrará un error como:
 
 > `"Error: el documento no es electrónico"`
 

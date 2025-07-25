@@ -19,7 +19,7 @@ En esta ocasión **Solop ERP** pretende ofrecerle una guía fácil para la defin
   - Cliente
   - Empleado
 
-### Registro de Socio del Negocio
+## Registro de Socio del Negocio
 
 En el menú de Solop ERP, ubique y seleccione la carpeta **Relación con Socio del Negocio**, luego seleccione la carpeta **Reglas de Socios del Negocio** y finalmente seleccione la ventana **Socio del Negocio**.
 

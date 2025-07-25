@@ -6,8 +6,6 @@ sticky: 9
 article: false
 ---
 
-## Descripción
-
 Este documento recopila respuestas a preguntas frecuentes relacionadas con la emisión, reenvío y validación de Comprobantes Fiscales Electrónicos (CFE) en Solop ERP e InvoiCy. Incluye soluciones a errores comunes y recomendaciones generales para evitar incidencias.
 
 ---

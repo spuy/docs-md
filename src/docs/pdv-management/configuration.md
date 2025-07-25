@@ -6,8 +6,6 @@ sticky: 9
 article: false
 ---
 
-## Descripción
-
 Este módulo permite configurar las terminales del Punto de Venta (PDV) en Solop ERP, estableciendo reglas de operación, control de caja, dispositivos asociados y condiciones comerciales. Asegura un comportamiento correcto del sistema durante las ventas, cobranzas y devoluciones.
 
 ---
@@ -114,7 +112,7 @@ Una vez guardado, el sistema podrá crear automáticamente socios desde el PDV.
 - Si no se define: el sistema **permite seleccionar otra moneda**.
 
 Para que un método de pago pueda usarse como cambio:  
-✅ Marcar **Is Allowed To Refund**
+* Marcar **Is Allowed To Refund**
 
 Podés usar un método existente (ej. efectivo) o crear uno específico llamado “Cambio”.
 

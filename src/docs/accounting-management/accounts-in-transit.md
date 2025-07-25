@@ -6,7 +6,7 @@ sticky: 9
 article: false
 ---
 
-También llamadas cuentas de Control.
+Las cuentas contables de tránsito también llamadas cuentas de Control en Solop ERP son cuentas temporales utilizadas para registrar movimientos contables intermedios, que luego se compensan cuando se completa el circuito de una operación. Sirven para reflejar correctamente el estado contable en cada etapa del proceso, especialmente cuando hay diferencia de tiempo entre el ingreso físico y el registro contable final.
 
 Se podrá analizar los saldos contables y su correspondencia con los reportes auxiliares (documentos) vinculados a cada una de estas cuentas.
 

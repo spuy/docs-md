@@ -6,8 +6,6 @@ sticky: 9
 article: false
 ---
 
-## Descripción
-
 El cierre de caja del Punto de Venta (PDV) permite consolidar y conciliar los ingresos registrados durante la jornada, asegurando el control de fondos, la detección de diferencias y su correspondiente gestión contable en Solop ERP.
 
 ---

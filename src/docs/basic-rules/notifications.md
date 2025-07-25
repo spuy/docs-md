@@ -6,8 +6,6 @@ sticky: 9
 article: false
 ---
 
-## Definición de Notificaciones
-
 Por definición entendemos que una notificación es un Mensaje con una determinada información enviada a través de un vehículo seleccionado, con un formato definido y siempre a un destinatario predeterminado.
 
 Existen determinados eventos que generan notificaciones automáticas desde el ERP. 
@@ -111,7 +109,7 @@ Como verá, además de los usuarios vinculados, dentro de cada Solicitud se podr
 
     ![Reporte](/assets/img/docs/basic-rules/bar-not-report4.png)
 
-### Plantilla de Correo por Evento (¿Qué se envía?)
+#### Plantilla de Correo por Evento (¿Qué se envía?)
 
 Permite configurar diferentes formatos o templates por cada evento de aquella información que deseamos enviar por cada notificación.
 Motor de Templates para reemplazo de campos en template
@@ -120,13 +118,13 @@ El template admite poder referenciar campos locales y referentes en otras tablas
 
  ![Plantilla de Correo por Evento](/assets/img/docs/basic-rules/bar-not-event1.png)
 
-### ¿Cuando se genera cada Notificación?
+#### ¿Cuando se genera cada Notificación?
 
 Al crearse un evento (al grabar solicitud por ejemplo) dentro de la aplicación que aplique un envío de información (una solicitud o bien, un envío de estado de cuenta de educación), se genera un registro de cola de notificación. Luego, un programador de procesos arma la cola de notificación (cada cinco minutos corre el proceso automático). Se limita el envío a 20 notificaciones por lote.
 
 Solicitudes automáticas: se está avanzando en la automatización de solicitudes ante escenarios específicos que se van generando en el ERP. Puede ser el caso de una factura recibida que no cuadre su importe con la orden. En este caso se cerrará la orden y se emitirá una solicitud (automática) para pedir la generación de nota de crédito (esto generará notificaciones por correo).
 
-### ¿A quién se envía notificación?
+#### ¿A quién se envía notificación?
 
 Es posible confirmar quienes son los destinatarios de una notificación desde la opción de Solicitudes, pestaña Aviso de Actualización (usuarios que serán notificados) por cambios en determinada solicitud por ejemplo.
 
@@ -141,7 +139,7 @@ Además de los usuarios vinculados, dentro de cada Solicitud se podrá agregar d
 
  ![Aviso de Actualización](/assets/img/docs/basic-rules/bar-not-act1.png)
 
-### Proceso de Envío de Cola de Notificaciones
+### Envío: Cola de Notificaciones
 
 El registro de cola de notificación se genera con un destinatario (es uno a uno). El estado de procesado = NO cambia a "SI" cuando se realiza el envío de la notificación. En el caso de fallar o emitir error por envío, queda configurado como Procesado = NO (descripción del error) y Activo = no para que no ingrese en el siguiente lote de envío.
 

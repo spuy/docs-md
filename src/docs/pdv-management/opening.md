@@ -119,29 +119,69 @@ Por cada retiro realizado, Solop ERP genera en la ventana Caja:
 
 Si el punto de venta tiene transacciones en efectivo y tarjeta, se deben realizar dos retiros por separado
 
+## Dar Cambio desde PDV
+
+En Solop ERP, cuando se usa el Punto de Venta (POS) y un cliente paga con un importe superior al total de la venta, el sistema permite registrar el cambio entregado como parte de la operación.
+
+### Pasos a seguir:
+
+1. Abrir el Punto de Venta
+
+Accedé al módulo de POS (Punto de Venta) desde el menú principal de Solop ERP.
+
+2. Cargar los productos
+
+Escanear o seleccionar los productos que el cliente está comprando. Verificar que los precios y cantidades sean correctos.
+
+Ejemplo: Total de la venta = $530
+
+3. Ingresar el monto recibido
+
+En el campo **Total del Pago**, ingresar el valor entregado por el cliente.
+
+Ejemplo: el cliente entrega $600
+
+4. Seleccionar la forma de pago
+
+Elegir la opción de pago correspondiente, por ejemplo: Efectivo.
+
+5. Presionar el botón de cobro
+
+Hacer clic en el botón "Pago" (➕). El monto recibido se visualizará en la línea de "Pago".
+
+![Dar Cambio](/assets/img/docs/pdv-management/pdm-pdv-image298.png)
+
+6. Verificar el cambio a entregar
+
+El sistema calcula automáticamente el cambio a entregar y lo muestra en pantalla (en la lína de "Cambio"):
+
+Cambio a entregar: $70
+
+7. Confirmar la operación
+
+Presionar "Aceptar" (botón azul de carrito) para cerrar la venta.
+
+![Dar Cambio](/assets/img/docs/pdv-management/pdm-pdv-image299.png)
+
+8. Entregar el cambio al cliente
+
+Entregar al cliente el monto del cambio indicado por el sistema.
+
+![Dar Cambio](/assets/img/docs/pdv-management/pdm-pdv-image300.png)
+
+* Resultado:
+
+La venta queda registrada por el monto real de la compra ($530).
+
+El sistema deja constancia del importe recibido ($600) y el cambio entregado ($70).
+
+La caja registra correctamente el efectivo neto.
+
 ## Cambio en otra Moneda
 
 Esta funcionalidad permite realizar cobros y entregar cambio en una moneda distinta a la de la factura, siempre que la configuración del punto de venta lo permita.
 
-### Cobros Diferente Moneda
-
-Para que sea posible cobrar en una moneda distinta a la de la factura, el método de pago configurado en el punto de venta no debe tener una moneda predeterminada.
-
-#### Ejemplo funcional: El método de pago Mastercard permite seleccionar una moneda diferente porque no tiene moneda fija asignada.
-
-::: note
-❌ Excepción: El método de pago Efectivo tiene una moneda fija configurada, por lo tanto no permite seleccionar otra moneda al momento del cobro.
-:::
-
-### Monedas para el cobro
-
-Las monedas que se muestran en el punto de venta para seleccionar dependen de los siguientes criterios:
-
-* Que la moneda tenga una tasa de conversión configurada.
-
-* Que dicha tasa esté configurada para el mismo tipo de conversión que utiliza la moneda principal del punto de venta.
-
-Q* ue la tasa esté vigente a la fecha actual.
+![Dar Cambio](/assets/img/docs/pdv-management/pdm-pdv-image301.png)
 
 ### Cambio en Otra Moneda
 
@@ -165,21 +205,41 @@ Para habilitar el cambio en otra moneda:
 Este check es indispensable para que el método de pago esté disponible en la pantalla de cambio.
 :::
 
-Cambio Predeterminado:
+Cambio Predeterminado: Está definido como default el devolver el cambio al cliente por la diferencia.
 
 ![Predeterminado](/assets/img/docs/pdv-management/pdm-pdv-image294.png)
 
-Pago Diferido:
+Otra forma de pago: Se devuelve el cambio en otro modo de pago (como ejemplo pago diferido)
 
 ![Pago Diferido](/assets/img/docs/pdv-management/pdm-pdv-image295.png)
 
-Ajuste:
+Ajuste: Realiza un ajuste por pérdida o ganancia por la diferencia.
 
 ![Ajuste](/assets/img/docs/pdv-management/pdm-pdv-image296.png)
 
 Resultado:
 
 ![Ajuste](/assets/img/docs/pdv-management/pdm-pdv-image297.png)
+
+### Cobros Diferente Moneda
+
+Para que sea posible cobrar en una moneda distinta a la de la factura, el método de pago configurado en el punto de venta no debe tener una moneda predeterminada.
+
+#### Ejemplo funcional: El método de pago Mastercard permite seleccionar una moneda diferente porque no tiene moneda fija asignada.
+
+::: note
+Excepción: El método de pago Efectivo tiene una moneda fija configurada, por lo tanto no permite seleccionar otra moneda al momento del cobro.
+:::
+
+### Monedas para el cobro
+
+Las monedas que se muestran en el punto de venta para seleccionar dependen de los siguientes criterios:
+
+* Que la moneda tenga una tasa de conversión configurada.
+
+* Que dicha tasa esté configurada para el mismo tipo de conversión que utiliza la moneda principal del punto de venta.
+
+* Que la tasa esté vigente a la fecha actual.
 
 ## Crear SDN en PDV
 
@@ -265,7 +325,7 @@ Se edita manualmente el precio en la línea: en ese caso se respeta el valor ing
 
 Esta funcionalidad permite mantener listas de precios simplificadas en moneda local, tomando como base precios definidos en moneda extranjera, sin necesidad de duplicar valores o mantener listas paralelas completas.
 
-#### EJEMPLO ILUSTRATIVO
+#### Ejemplo Práctico
 
 Producto: Zapatilla Modelo X
 
