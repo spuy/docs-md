@@ -92,6 +92,140 @@ Este proceso permite realizar la devolución total de una venta, generando autom
 
 ![Anular Transacción de venta](/assets/img/docs/pdv-management/pdm-pdv-image291.png)
 
+## Cambio de Producto con Nota de Crédito y Nueva Factura
+
+Esta función permitir al usuario realizar la devolución de un producto para generar una Nota de Crédito (NC), la cual será utilizada como saldo a favor para adquirir otros productos en una nueva orden. Si el nuevo total supera el importe de la devolución, se deberá abonar la diferencia.
+
+### Flujo General
+
+1. Buscar la factura original del producto devuelto.
+
+2. Seleccionar el producto a devolver.
+
+3. Generar una Nota de Crédito sin reintegro de dinero.
+
+4. Crear una nueva orden sustituta agregando nuevos productos.
+
+5. Aplicar la NC como medio de pago parcial.
+
+6. Abonar la diferencia (si corresponde).
+
+7. Emitir la nueva factura.
+
+### Paso a Paso
+
+#### 1️⃣ Buscar la factura original
+
+* Ingresal al Punto de Venta (Ejemplo: Caja 1).
+
+* Ir a Histórico de Órdenes.
+
+![Devolución de Producto](/assets/img/docs/pdv-management/pdm-pdv-image302.png)
+
+![Devolución de Producto](/assets/img/docs/pdv-management/pdm-pdv-image303.png)
+
+* Usar el buscador para encontrar la factura, ya sea por:
+
+* Fecha
+
+* Número de factura (proporcionado por el cliente)
+
+* Seleccioná la factura correspondiente.
+
+![Devolución de Producto](/assets/img/docs/pdv-management/pdm-pdv-image304.png)
+
+![Devolución de Producto](/assets/img/docs/pdv-management/pdm-pdv-image305.png)
+
+#### 2️⃣ Iniciar la devolución del producto
+
+Una vez visualizada la factura, hacer clic en Devolver Producto.
+
+Seleccionar la línea del producto que el cliente desea devolver.
+
+El sistema controla la cantidad para que solo pueda devolverse lo comprado.
+
+Confirmar la operación:
+
+* Se generará automáticamente una Nota de Crédito (NC).
+
+#### 3️⃣ Visualizar o imprimir la Nota de Crédito
+
+Opcionalmente, es posible imprimir la NC desde el Facturador Electrónico.
+
+Verificar el importe generado (incluye IVA).
+
+#### 4️⃣ Crear nueva orden sustituta
+
+Seleccionar la opción Crear Nueva Orden.
+
+El sistema copiará la línea del producto devuelto.
+
+* Borrar esa línea, si el cliente quiere llevar productos distintos.
+
+Agregar los nuevos productos que el cliente desea llevar.
+
+#### 5️⃣ Aplicar la NC como medio de pago
+
+Proceder a cobrar la orden.
+
+En Medios de Pago, seleccionar:
+
+* Nota de Crédito
+
+![Devolución de Producto](/assets/img/docs/pdv-management/pdm-pdv-image306.png)
+
+Aparecerá la NC recién generada (ej: A3539).
+
+Al seleccionarla:
+
+Se aplicará el importe como saldo a favor.
+
+Se completará automáticamente la referencia y la fecha.
+
+#### 6️⃣ Abonar la diferencia (si aplica)
+
+Si el nuevo total supera el monto de la NC, se mostrará el saldo pendiente.
+
+* Seleccionar el medio de pago para cubrir la diferencia (ej: efectivo, tarjeta, etc.).
+
+* Confirmar el pago total.
+
+![Devolución de Producto](/assets/img/docs/pdv-management/pdm-pdv-image307.png)
+
+#### 7️⃣ Generar la nueva factura
+
+Una vez cancelado el total:
+
+Se emitirá una nueva factura, con múltiples medios de pago.
+
+La factura reflejará:
+
+* Parte pagada con NC.
+
+* Parte abonada por el cliente.
+
+El ticket estará disponible con todos los detalles.
+
+![Devolución de Producto](/assets/img/docs/pdv-management/pdm-pdv-image308.png)
+
+### Inventario
+
+Al completar este proceso:
+
+* El producto devuelto se ingresa nuevamente al inventario.
+
+* Los nuevos productos salen como una venta normal.
+
+### Resultado Final
+
+- El cliente recibe una nueva factura con productos nuevos.
+
+- El importe de la devolución fue correctamente utilizado como saldo a favor.
+
+- La diferencia fue pagada según el medio seleccionado.
+
+- Todo el proceso queda documentado y trazable.
+
 ## Retiro Detallado de PDV
 
 Un retiro de fondos ocurre cuando se extrae dinero de una caja del punto de venta, ya sea por alivio de caja, cancelación de un gasto, entre otros.
