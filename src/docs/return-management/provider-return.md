@@ -12,7 +12,7 @@ Este módulo permite gestionar el proceso completo de **devoluciones de producto
 
 ## Flujo General del Proceso
 
-1. Identificación del documento a devolver (Orden de Venta / Factura / Entrega).
+1. Identificación del documento a devolver (Orden de Compra / Factura / Recepción).
 2. Creación de la **Orden de Devolución (Proveedor)**.
 3. Generación de la **Orden de Devolución** desde la entrega o recibo.
 4. Creación de la **Devolución a Proveedores**, que genera el movimiento de ingreso a inventario.
