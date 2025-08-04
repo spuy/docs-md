@@ -143,7 +143,7 @@ Seleccione la acción **Completar** y la opción **OK**, para culminar el proces
 
 Imagen 55. Acción Completar y Opción OK de la Ventana Documentos por Pagar
 
-## Asignación automática de documentos desde Nota de Crédito
+## Asignación automática desde NC
 
 
 Configurar y utilizar la funcionalidad de asignación automática al completar una Nota de Crédito, de forma que se vincule automáticamente con la factura correspondiente, sin necesidad de realizar la asignación manualmente.
