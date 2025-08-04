@@ -143,6 +143,118 @@ Seleccione la acción **Completar** y la opción **OK**, para culminar el proces
 
 Imagen 55. Acción Completar y Opción OK de la Ventana Documentos por Pagar
 
+## Asignación automática de documentos desde Nota de Crédito
+
+
+Configurar y utilizar la funcionalidad de asignación automática al completar una Nota de Crédito, de forma que se vincule automáticamente con la factura correspondiente, sin necesidad de realizar la asignación manualmente.
+
+### 1. Configuración previa
+
+Para que la asignación automática funcione, es necesario configurar previamente el tipo de documento correspondiente.
+
+#### Paso 1.1 – Acceder a la configuración del tipo de documento
+
+Navegar al menú: Tipo de Documento.
+
+Seleccionar el tipo de documento utilizado para las Notas de Crédito de Cuentas por Pagar.
+
+Verificar que se trate de un documento de tipo: API Invoice (Nota de Crédito - Cuentas por Pagar).
+
+#### Paso 1.2 – Activar la opción de asignación automática
+
+En el formulario de configuración del documento, activar la opción:
+
+Asignado automáticamente: Sí
+
+![Campo](/assets/img/docs/purchase-management/pum-purchase-image1001.png)
+
+### 2. Generación de Nota de Crédito y asignación automática
+
+#### Paso 2.1 – Crear una nueva Nota de Crédito
+
+* Ir a la ventana: Documentos por Pagar.
+
+* Crear una nueva transacción para el Socio del Negocio.
+
+* Seleccionar como Tipo de Documento: Nota de Crédito.
+
+* Guardar el documento.
+
+![Campo](/assets/img/docs/purchase-management/pum-purchase-image1002.png)
+
+#### Paso 2.2 – Usar la función "Crear desde"
+
+* Una vez creada la Nota de Crédito, utilizar la función Crear desde para vincularla a una factura existente.
+
+* Hacer clic en el botón Crear desde.
+
+* En la ventana emergente, buscar las facturas disponibles por fecha.
+
+* Seleccionar la factura deseada (ejemplo: la del día actual).
+
+* Verificar los productos y las cantidades disponibles.
+
+* Asignar las cantidades a vincular desde la Nota de Crédito (ejemplo: 20 unidades).
+
+* Hacer clic en Agregar.
+
+![Campo](/assets/img/docs/purchase-management/pum-purchase-image1003.png)
+
+#### Paso 2.3 – Verificación de líneas e importes
+
+Una vez agregada la factura:
+
+* Las líneas de producto se definen automáticamente.
+
+* Se visualizan los precios unitarios, los impuestos, y el documento de referencia.
+
+* Se define también el importe total automáticamente.
+
+* El sistema define la factura que debe asignarse.
+
+#### Paso 2.4 – Completar la transacción
+
+* Hacer clic en Completar.
+
+* El sistema ejecuta la asignación de manera automática, sin necesidad de intervención manual.
+
+* Se muestra la relación con la factura original.
+
+### 3. Verificación posterior
+
+#### Paso 3.1 – Consultar la asignación realizada
+
+* Navegar a la **Consulta de Asignación**.
+
+* Navegar al detalle de la Nota de Crédito recientemente completada.
+
+Se podrá verificar que:
+
+* No queda saldo pendiente en la Nota de Crédito.
+
+* La asignación fue realizada correctamente.
+
+* La contabilidad muestra los movimientos de la Nota de Crédito y de la Factura.
+
+#### Paso 3.2 – Revisión de líneas en la orden de compra
+
+Al visualizar la orden de compra vinculada, se puede observar que:
+
+* La cantidad original facturada (por ejemplo, 100 unidades) ahora se ajusta (por ejemplo, 80 unidades facturadas).
+
+* Las cantidades devueltas mediante Nota de Crédito quedan liberadas para poder ser facturadas nuevamente, si corresponde.
+
+### 4. Resultado final esperado
+
+El flujo automatizado permite:
+
+* Reducir errores humanos al momento de asignar documentos manualmente.
+
+* Acelerar el proceso contable.
+
+* Facilitar la trazabilidad entre la Nota de Crédito, la factura y la orden de compra.
+
+
 ## Consultar Asignación de Nota de Crédito Aplicada
 
 Ubique el registro de la factura asociada a la nota de crédito, en este caso se ubica la factura, y posteriormente seleccione la pestaña **Pagos Asignados**.
