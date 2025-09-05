@@ -210,7 +210,7 @@ Seleccione la opción **Crear Pago desde Estado de Cuenta**.
 
 Podrá visualizar la siguiente ventana de búsqueda inteligente con los **Pagos/Cobros** que no tuvieron coincidencias al momento de conciliar.
 
-![Campo](/assets/img/docs/balance-management/bam-balance-image172.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image194.png)
 
 Imagen 1. Ventana de Búsqueda Inteligente
 
