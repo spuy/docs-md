@@ -62,7 +62,7 @@ export default hopeTheme({
       flowchart: true,
       footnote: true,
       imageMark: true,
-      presentation: true,
+      presentation: ["search"],
       sub: true,
       sup: true,
       tex: true,
