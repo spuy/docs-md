@@ -57,17 +57,44 @@ export default hopeTheme({
 
     mdEnhance: {
       align: true,
-      codetabs: true,
-      demo: true,
-      flowchart: true,
-      footnote: true,
-      imageMark: true,
-      presentation: true,
-      sub: true,
-      sup: true,
-      tex: true,
-      vpre: true,
-      container: true,
+        attrs: true,
+        chart: true,
+        codetabs: true,
+        container: true,
+        card: true,
+        demo: true,
+        echarts: true,
+        figure: true,
+        flowchart: true,
+        gfm: true,
+        imgLazyload: true,
+        imgSize: true,
+        include: true,
+        katex: true,
+        mark: true,
+        mermaid: true,
+        playground: {
+          presets: ["ts", "vue"],
+        },
+        presentation: ["highlight", "math", "search", "notes", "zoom"],
+        stylize: [
+          {
+            matcher: "Recommended",
+            replacer: ({ tag }) => {
+              if (tag === "em")
+                return {
+                  tag: "Badge",
+                  attrs: { type: "tip" },
+                  content: "Recommended",
+                };
+            },
+          },
+        ],
+        sub: true,
+        sup: true,
+        tabs: true,
+        vPre: true,
+        vuePlayground: true,
     },
 
     pwa: {
