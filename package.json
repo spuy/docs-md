@@ -7,7 +7,7 @@
     "build:vite-debug": "cross-env DEBUG=vuepress* vuepress-vite build src",
     "build:webpack": "vuepress-webpack build src",
     "build:webpack-debug": "cross-env DEBUG=vuepress* vuepress-webpack build src",
-    "dev:vite": "vuepress-vite dev src",
+    "dev:vite": "SASS_SILENCE_DEPRECATIONS=* vuepress-vite dev src",
     "dev:vite-clean": "vuepress-vite dev src --clean-cache",
     "dev:vite-debug": "cross-env DEBUG=vuepress* vuepress-vite dev src",
     "dev:webpack": "vuepress-webpack dev src",
@@ -18,35 +18,41 @@
     "lint-md": "markdownlint **/*.md --ignore node_modules --fix",
     "test": "echo \"Warning: no test specified\" && exit 0"
   },
-  "author": "Mr.Hope",
+  "author": "Solop",
   "license": "MIT",
   "keywords": [
     "vuepress",
     "personal-blog"
   ],
   "dependencies": {
-    "@vuepress/cli": "2.0.0-beta.48",
-    "@vuepress/client": "2.0.0-beta.48",
-    "@vuepress/plugin-docsearch": "2.0.0-beta.48",
-    "axios": "^0.27.2",
+    "@vuepress/cli": "2.0.0-beta.63",
+    "@vuepress/client": "2.0.0-beta.63",
+    "@vuepress/core": "2.0.0-beta.63",
+    "@vuepress/shared": "2.0.0-beta.63",
+    "@vuepress/utils": "2.0.0-beta.63",
+    "axios": "0.27.2",
     "pnpm": "8.6.5",
-    "sass-loader": "13.0.0",
-    "vue": "3.2.37",
-    "vuepress-theme-hope": "2.0.0-beta.84",
-    "vuepress-vite": "2.0.0-beta.48",
-    "vuepress-webpack": "2.0.0-beta.48"
+    "sass-loader": "13.3.2",
+    "vue": "3.3.4",
+    "vue-router": "4.2.2",
+    "vuepress": "2.0.0-beta.63",
+    "vuepress-plugin-blog2": "2.0.0-beta.228",
+    "vuepress-plugin-comment2": "2.0.0-beta.228",
+    "vuepress-theme-hope": "2.0.0-beta.228",
+    "vuepress-vite": "2.0.0-beta.63",
+    "vuepress-webpack": "2.0.0-beta.63"
   },
   "devDependencies": {
     "@vuepress/plugin-search": "2.0.0-beta.63",
     "cross-env": "7.0.3",
     "markdownlint-cli": "0.31.1",
-    "prettier": "2.6.2"
+    "prettier": "2.6.2",
+    "typescript": "^5.7.2"
   },
   "packageManager": "pnpm@9.1.1",
   "pnpm": {
     "peerDependencyRules": {
       "ignoreMissing": [
-        "@algolia/client-search",
         "@types/react",
         "react",
         "react-dom",
