@@ -1,6 +1,6 @@
 import { defineUserConfig } from "@vuepress/cli";
-import { searchPlugin } from '@vuepress/plugin-search';
 import theme from "./theme";
+import { searchPlugin } from '@vuepress/plugin-search'
 import { path } from "@vuepress/utils";
 
 export default defineUserConfig({
@@ -10,6 +10,7 @@ export default defineUserConfig({
   dest: "dist",
 
   head: [
+    ["link", { rel: "icon", href: "/favicon.ico" }],
     ["meta", { name: "baidu-site-verification", content: "4H7tszevS8" }],
     ["meta", { name: "baidu-site-verification", content: "nGf5yi0Gec" }],
     [
@@ -40,7 +41,7 @@ export default defineUserConfig({
           placeholder: 'Buscar',
         },
       },
-    }),
+    })
   ],
 
   shouldPrefetch: false,

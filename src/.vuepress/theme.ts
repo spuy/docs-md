@@ -24,7 +24,6 @@ export default hopeTheme({
   locales: {
     "/": {
       navbar: enNavbarConfig,
-
       blog: {
         description: "Documentación Solop ERP",
         intro: "/about/",
@@ -61,12 +60,11 @@ export default hopeTheme({
       demo: true,
       flowchart: true,
       footnote: true,
-      imageMark: true,
+      imgMark: true,
       presentation: ["search"],
       sub: true,
       sup: true,
-      tex: true,
-      vpre: true,
+      vPre: true,
       container: true,
     },
 
