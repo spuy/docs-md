@@ -6,8 +6,6 @@ sticky: 9
 article: false
 ---
 
-## Proceso de Distribución
-
 El proceso de distribución para una distribuidora es el conjunto de actividades que permite gestionar de manera integral la logística y el flujo de productos desde el proveedor hasta el cliente final. Este circuito abarca varias funciones claves como la gestión de inventarios, pedidos, transporte, almacenamiento y facturación. El objetivo es optimizar las operaciones de distribución, mejorando la eficiencia y minimizando costos.
 
 Funciones principales del proceso de distribución en un ERP para distribuidoras:
@@ -64,7 +62,7 @@ Los descuentos en la orden de venta pueden ingresarse manualmente o bien setears
 
 Una vez generada la orden de venta el siguiente paso es generar la Orden de salida:
 
-### 2. *Generar Orden de Salida*
+### 2. Generar Orden de Salida
 
 Una orden de salida de una distribuidora es un documento o instrucción que autoriza el despacho de productos desde el almacén hacia el cliente u otro destino, como una sucursal o centro de distribución. Está directamente relacionada con una orden de venta, ya que es el paso donde se ejecuta físicamente la entrega de los productos solicitados.
 
@@ -110,7 +108,7 @@ Al momento de aceptar la orden de salida es importante seleccionar la acción qu
 En este caso es posible generar la orden de salida en estado "preparar" o directamente con estado "completar".
 ![Generar Orden de Salida](/assets/img/docs/distribution-management/dim-distribution-image23.png)
 
-### *Reportes de Orden de Salida*
+### 3. Reportes de Orden de Salida
 
 Los reportes de orden de salida de distribuidora son informes generados por el sistema que recopila y muestra información detallada sobre las órdenes de salida emitidas desde el almacén. Este reporte proporciona una visión clara del estado de los productos que han sido despachados o están en proceso de serlo, permitiendo a los responsables de la logística y la distribución tener un control completo sobre las operaciones de salida.
 
@@ -142,7 +140,7 @@ Dicho proceso puede ubicarse desde el Menú, y también es posible ejecutarlo di
 
 Actualmente, están disponibles **tres reportes principales**:
 
-#### 1. Reporte de Picking (Preparación de Productos)
+#### Reporte de Picking (Preparación de Productos)
 
 Objetivo: Identificar y agrupar los productos necesarios para cumplir las órdenes de venta asociadas a la orden de salida.
 
@@ -157,7 +155,7 @@ Uso: Permite al personal de depósito localizar los productos correctos para pre
 ![Proceso](/assets/img/docs/distribution-management/dim-distribution-image29.png)
 
 
-#### 2. Reporte de Packing (Armado de Pedidos)
+#### Reporte de Packing (Armado de Pedidos)
 
 Objetivo: Facilitar el armado de pedidos según orden de venta o cliente.
 
@@ -173,7 +171,7 @@ Uso: Guía para armar los paquetes de cada cliente con los productos y cantidade
 
 ![Proceso](/assets/img/docs/distribution-management/dim-distribution-image30.png)
 
-#### 3. Reporte de Orden de Salida (Hoja de Ruta de Entrega)
+#### Reporte de Orden de Salida (Hoja de Ruta de Entrega)
 
 Objetivo: Servir como guía de distribución para el transportista.
 
@@ -215,7 +213,7 @@ Una vez que los productos han sido recogidos, el ERP gestiona la etapa de entreg
 
 ![Generar Entregas y Facturas](/assets/img/docs/distribution-management/dim-distribution-image25.png)
 
-### Crear Facturas Masivamente
+### 4. Crear Facturas Masivamente
 
 Una vez generado el picking y entrega, el paso siguiente es **crear las facturas masivamente**.
 
@@ -227,7 +225,7 @@ La facturación se realiza desde la orden de salida (en estado completo) en la v
 Los procesos "Generar entregas desde orden de salida" y "Generar factura desde orden de salida", permiten entregar y facturar por cantidad mayor a la ordenada (por ejemplo para aquellos productos que se vendan por bolsa y su valor sea por unidad, pero su peso pueda variar).
 ::: 
 
-### Impresión Masiva de Facturas
+### 5. Impresión Masiva de Facturas
 
 La funcionalidad de impresión masiva de facturas permite generar en un solo paso todas las facturas asociadas a una Orden de Salida.
 Esto agiliza el proceso de facturación y facilita la gestión logística y administrativa.
@@ -264,7 +262,7 @@ Ejemplo: si la orden de salida contiene 8 órdenes de venta, se generará un lot
 
 ![Proceso](/assets/img/docs/distribution-management/dim-distribution-image32.png)
 
-### *Generar Cobros desde Orden de Salida*
+### 6. Generar Cobros desde Orden de Salida
 
 El proceso de Generar cobros desde la orden de salida de distribuidora consiste en la automatización de la gestión de cobros relacionados con las órdenes de salida, que están directamente vinculadas a las ventas y a los despachos de productos. Este proceso facilita la gestión de las transacciones financieras derivadas de la venta de productos, desde la entrega de los mismos hasta el cobro de las facturas correspondientes.
 
