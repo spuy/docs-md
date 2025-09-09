@@ -1,0 +1,17 @@
+.vp-navbar-logo,
+.navbar-brand,
+.vp-brand,
+a[class*="logo"] {
+  cursor: pointer !important;
+  transition: opacity 0.3s ease;
+}
+
+.vp-navbar-logo:hover,
+.navbar-brand:hover,
+.vp-brand:hover,
+a[class*="logo"]:hover {
+  opacity: 0.8;
+}
+.vp-navbar-logo {
+  text-decoration: none !important;
+}
