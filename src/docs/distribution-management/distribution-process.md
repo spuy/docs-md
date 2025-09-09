@@ -30,7 +30,7 @@ Para mayor detalle sobre órdenes de venta: - [Orden de Venta](../sales-manageme
 
 y sobre Tipos de Documentos (Tipo documento destino y subtipo OV): - [Tipos de Documentos](../sales-management/sales-orders/document-type)
 
-### Orden de Venta Distribución:
+### 1. Orden de Venta Distribución:
 
 La orden de venta de una distribuidora es un documento clave dentro del proceso comercial que representa el compromiso de un cliente de adquirir un determinado producto o servicio. Es generada cuando un cliente realiza un pedido y detalla la información relevante sobre la transacción, como los productos solicitados, cantidades, precios, fechas de entrega y condiciones de pago.
 
@@ -64,7 +64,7 @@ Los descuentos en la orden de venta pueden ingresarse manualmente o bien setears
 
 Una vez generada la orden de venta el siguiente paso es generar la Orden de salida:
 
-### *Generar Orden de Salida*
+### 2. *Generar Orden de Salida*
 
 Una orden de salida de una distribuidora es un documento o instrucción que autoriza el despacho de productos desde el almacén hacia el cliente u otro destino, como una sucursal o centro de distribución. Está directamente relacionada con una orden de venta, ya que es el paso donde se ejecuta físicamente la entrega de los productos solicitados.
 
@@ -107,22 +107,12 @@ La impresión cuenta con diferentes formatos (tipos de agrupación): por product
 
 Al momento de aceptar la orden de salida es importante seleccionar la acción que se ejecutará sobre el documento: puede ser "completo" o "en proceso".
 
-En este caso se recomienda setear "en proceso", porque aun en esta instancia se encuentra pendiente realizar el "pickeo" para determinar la existencia real de los productos para completar los pedidos.
+En este caso es posible generar la orden de salida en estado "preparar" o directamente con estado "completar".
 ![Generar Orden de Salida](/assets/img/docs/distribution-management/dim-distribution-image23.png)
 
-### *Generar Orden de salida desde OV*
+### *Reportes de Orden de Salida*
 
-En este proceso, el smart browser no está abierto por línea de OV, sino que se visualiza **por cabezales de orden**.
-
-Se genera una orden de salida que incluye a todas las líneas de OV, de todas las OV seleccionadas en el browser.
-
-**Parámetros**
-
-![Parámetros](/assets/img/docs/distribution-management/dim-distribution-image24.png)
-
-### *Reporte de Orden de Salida*
-
-El reporte de orden de salida de distribuidora es un informe generado por el sistema que recopila y muestra información detallada sobre las órdenes de salida emitidas desde el almacén. Este reporte proporciona una visión clara del estado de los productos que han sido despachados o están en proceso de serlo, permitiendo a los responsables de la logística y la distribución tener un control completo sobre las operaciones de salida.
+Los reportes de orden de salida de distribuidora son informes generados por el sistema que recopila y muestra información detallada sobre las órdenes de salida emitidas desde el almacén. Este reporte proporciona una visión clara del estado de los productos que han sido despachados o están en proceso de serlo, permitiendo a los responsables de la logística y la distribución tener un control completo sobre las operaciones de salida.
 
 Es un documento que puede generarse en cualquier momento y que detalla la información relevante sobre las órdenes de salida en el sistema, tales como:
 
@@ -150,31 +140,80 @@ Dicho proceso puede ubicarse desde el Menú, y también es posible ejecutarlo di
 
 ![Proceso](/assets/img/docs/distribution-management/dim-distribution-image28.png)
 
-### *Generar picking y entregas desde orden de salida*
+Actualmente, están disponibles **tres reportes principales**:
 
-El proceso de *Generar picking y entregas desde la orden de salida* de distribuidora es un flujo clave que permite organizar la preparación y entrega de productos de manera eficiente. Este proceso involucra dos etapas principales: el picking (selección y recolección de productos en el almacén) y la entrega (despacho y transporte de los productos al cliente final). 
+#### 1. Reporte de Picking (Preparación de Productos)
+
+Objetivo: Identificar y agrupar los productos necesarios para cumplir las órdenes de venta asociadas a la orden de salida.
+
+Contenido:
+
+* Lista de productos requeridos.
+
+* Cantidades totales agrupadas entre todas las órdenes de venta vinculadas.
+
+Uso: Permite al personal de depósito localizar los productos correctos para preparar la entrega.
+
+![Proceso](/assets/img/docs/distribution-management/dim-distribution-image29.png)
+
+
+#### 2. Reporte de Packing (Armado de Pedidos)
+
+Objetivo: Facilitar el armado de pedidos según orden de venta o cliente.
+
+Contenido:
+
+* Productos separados por cliente u orden de venta.
+
+* Número de factura asociado (para pedidos ya facturados).
+
+* Dirección de entrega (tomada del socio de negocio).
+
+Uso: Guía para armar los paquetes de cada cliente con los productos y cantidades correctas.
+
+![Proceso](/assets/img/docs/distribution-management/dim-distribution-image30.png)
+
+#### 3. Reporte de Orden de Salida (Hoja de Ruta de Entrega)
+
+Objetivo: Servir como guía de distribución para el transportista.
+
+Contenido:
+
+* Número de factura.
+
+* Importe correspondiente.
+
+* Condición/regla de pago.
+
+* Dirección del cliente.
+
+Uso: Funciona como hoja de ruta simplificada para que el camión realice la entrega de cada pedido.
+
+![Proceso](/assets/img/docs/distribution-management/dim-distribution-image31.png)
+
+### Crear Entregas
+
+El proceso de Generar entregas (posterior al Picking) desde la orden de salida de distribuidora es un flujo clave que permite organizar la preparación y entrega de productos de manera eficiente. Este proceso involucra dos etapas principales: el picking (selección y recolección de productos en el almacén) y la entrega (despacho y transporte de los productos al cliente final).
 
 Está directamente vinculado con la orden de salida, que es la autorización para que los productos sean despachados del almacén.
 
-**Picking:**
+#### Picking:
 
-Es el proceso de recolección de productos en el almacén para cumplir con un pedido o una orden de salida. El ERP genera una lista de los productos que deben ser recogidos (picking list), que indica el almacén, la ubicación exacta de los productos, la cantidad solicitada y cualquier detalle adicional para asegurar que se recojan los productos correctos.
-El sistema también puede optimizar el picking, sugiriendo la mejor ruta dentro del almacén para minimizar el tiempo de recolección.
+Es el proceso de recolección de productos en el almacén para cumplir con un pedido o una orden de salida. El ERP genera una lista de los productos que deben ser recogidos (picking list), que indica el almacén, la ubicación exacta de los productos, la cantidad solicitada y cualquier detalle adicional para asegurar que se recojan los productos correctos. El sistema también puede optimizar el picking, sugiriendo la mejor ruta dentro del almacén para minimizar el tiempo de recolección.
 
-**Entrega:**
+#### Entrega:
 
-Una vez que los productos han sido recogidos, el ERP gestiona la etapa de entrega, que incluye la preparación del envío, la coordinación del transporte y la emisión de los documentos de entrega, como las guías de remisión o etiquetas de envío.
-El ERP puede registrar cuándo los productos han sido enviados, generar un número de seguimiento, y actualizar el estado de la entrega hasta que los productos lleguen al cliente.
+Una vez que los productos han sido recogidos, el ERP gestiona la etapa de entrega, que incluye la preparación del envío, la coordinación del transporte y la emisión de los documentos de entrega, como las guías de remisión o etiquetas de envío. El ERP puede registrar cuándo los productos han sido enviados, generar un número de seguimiento, y actualizar el estado de la entrega hasta que los productos lleguen al cliente.
 
-Se debe marcar todo lo que se encontró de los productos a entregar (resultado del picking) y se modifican las cantidades de acuerdo a las existencias reales.
+* Se debe marcar todo lo que se encontró de los productos a entregar (resultado del picking) y se modifican las cantidades de acuerdo a las existencias reales.
 
-Al completar documento, define en estado completo la orden de salida y realiza las entregas.
+* Al completar documento, realiza las entregas.
 
-El motivo por el cual puede haber diferencias entre la existencia que muestra el ERP y el resultado del pickeo responde a que no se encuentra correctamente actualizado el stock del producto.
+* El motivo por el cual puede haber diferencias entre la existencia que muestra el ERP y el resultado del pickeo responde a que no se encuentra correctamente actualizado el stock del producto.
 
-En esta instancia, al consultar una orden de venta (vinculada a nuestra orden de salida con estado completo) se puede observar la cantidad "entregada". Aun no se visualizará cantidad facturada.
+* En esta instancia, al consultar una orden de venta (vinculada a nuestra orden de salida con estado completo) se puede observar la cantidad "entregada". Aun no se visualizará cantidad facturada.
 
-![Filtros picking](/assets/img/docs/distribution-management/dim-distribution-image25.png)
+![Generar Entregas y Facturas](/assets/img/docs/distribution-management/dim-distribution-image25.png)
 
 ### Crear Facturas Masivamente
 
@@ -185,8 +224,45 @@ La facturación se realiza desde la orden de salida (en estado completo) en la v
 ![Filtros Facturas](/assets/img/docs/distribution-management/dim-distribution-image26.png)
 
 :::
-Los procesos "Generar picking y entregas desde orden de salida" y "Generar factura desde orden de salida", permiten entregar y facturar por cantidad mayor a la ordenada (por ejemplo para aquellos productos que se vendan por bolsa y su valor sea por unidad, pero su peso pueda variar).
+Los procesos "Generar entregas desde orden de salida" y "Generar factura desde orden de salida", permiten entregar y facturar por cantidad mayor a la ordenada (por ejemplo para aquellos productos que se vendan por bolsa y su valor sea por unidad, pero su peso pueda variar).
 ::: 
+
+### Impresión Masiva de Facturas
+
+La funcionalidad de impresión masiva de facturas permite generar en un solo paso todas las facturas asociadas a una Orden de Salida.
+Esto agiliza el proceso de facturación y facilita la gestión logística y administrativa.
+
+#### Pasos del Proceso
+
+- Acceso a la Orden de Salida
+
+* Ingresar al documento Orden de Salida previamente generado.
+
+* Seleccionar la orden de salida deseada.
+
+* Visualización de Facturas Asociadas
+
+* Dentro de la orden de salida se muestran todas las órdenes de venta vinculadas (ejemplo: OV #35, #08, #74).
+
+* En cada caso se visualizan las entregas realizadas y las facturas generadas (ejemplo: Facturas #53, #54, #55, #56).
+
+- Generación de Impresión Masiva
+
+* Seleccionar la opción de impresión masiva de facturas.
+
+* El sistema agrupa todas las facturas asociadas a las órdenes de venta incluidas en la orden de salida.
+
+::: note
+Ejemplo: si la orden de salida contiene 8 órdenes de venta, se generará un lote de 8 facturas listas para imprimir.
+:::
+
+- Impresión
+
+* El sistema prepara cada factura con su información correspondiente (cliente, productos, cantidades, importes).
+
+* Una vez generado el lote, se puede enviar la impresión directamente a la impresora configurada.
+
+![Proceso](/assets/img/docs/distribution-management/dim-distribution-image32.png)
 
 ### *Generar Cobros desde Orden de Salida*
 
