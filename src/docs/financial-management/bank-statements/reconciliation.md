@@ -110,7 +110,7 @@ Opciones:
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image1003.png)
 
-![Campo](/assets/img/docs/balance-management/bam-balance-image1043.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image1004 .png)
 
 ### 7. Emitir Reportes
 
@@ -122,7 +122,7 @@ Opciones:
 
 * Se pueden generar vistas filtradas por balance, socio de negocio o tipo de transacción.
 
-![Campo](/assets/img/docs/balance-management/bam-balance-image1045.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image1005.png)
 
 ### Consideraciones Finales
 
