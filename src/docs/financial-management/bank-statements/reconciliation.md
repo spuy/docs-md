@@ -6,372 +6,134 @@ sticky: 9
 article: false
 ---
 
-El área de tesorería en una empresa organiza y gestiona todas las acciones relacionadas con operaciones de flujo monetario, dentro de esas operaciones se encuentra la gestión bancaria el cual se encarga de garantizar y verificar todos los movimientos de dinero qué entran y salen en la empresa.
+Este módulo permite gestionar el proceso completo de conciliación bancaria dentro de VIO, desde la carga del estado de cuenta hasta la generación de pagos o cobros asociados. El objetivo es garantizar que los movimientos registrados en el sistema coincidan con los del banco, asegurando exactitud en la contabilidad y trazabilidad en las operaciones financieras.
 
-Para garantizar dichos movimientos de dinero se aplican operaciones como las conciliaciones bancarias, que no es más qué la verificación y comparación de entradas y salidas de dinero (Pagos/Cobros) en una cuenta bancaria con los registros físicos qué son llevados a Solop ERP, la verificación de estos movimientos suele ser un tema importante y tedioso para muchas empresas, por el tiempo y trabajo manual qué en algunos casos suelen aplicar.
+## Flujo General del Proceso
 
-Solop ERP cuenta con un proceso de conciliaciones automáticas el cual permite de una manera rápida y eficaz comparar los movimientos generados a través de movimientos bancarios con los movimientos registrados en Solop ERP.
+* Crear un nuevo Estado de Cuenta Bancario.
 
-Una conciliación automática es un proceso que se realiza con la finalidad de garantizar los saldos de las cuentas por cobrar y las cuentas por pagar que posee una empresa, el mismo compara la información del estado de cuenta real del banco con los registros y movimientos bancarios existentes en Solop ERP para corroborar que ambos coincidan y no existan errores en los saldos bancarios y en la contabilidad de la empresa.
+* Cargar el archivo del estado de cuenta en formato válido (ej. TXT desde Multicash).
 
-**Solop ERP** pretende ofrecer una explicación eficiente a nuestros clientes del procedimiento de conciliación automática a través de una guía fácil y sencilla para así obtener resultados exitosos al momento de generar una conciliación en la versión 3.9.2 de Solop ERP. A continuación se explica el procedimiento que se debe realizar para generar una conciliación bancaria de manera automática en Solop ERP a partir de la ventana **Estado de Cuentas Bancario**.
+* Importar las líneas del extracto bancario.
 
-- Descarga de Extracto Bancario desde Banco
-- Registro de Conciliación Automática
-  - Carga e Importación de Extracto Bancario
-  - Conciliación Automática
-  - Coincidencia Bancarias
-  - Revisión de Conciliaciones
-  - Crear Pagos Desde Línea de Estado de Cuenta
-- Crear Pagos desde Estado de Cuenta
-- Pagos/Cobros sin Registros
-  - Pagos o Cobros de Comisiones
-  - Otros Tipos de Pagos o Cobros
-  - Pagos o Cobros sin Identificar
-  - Completar Conciliación Bancaria
+* Ejecutar la conciliación automática y/o manual.
 
-### Descarga de Extracto Bancario desde Banco
+* Generar pagos y cobros asociados a las transacciones.
 
-Para que un extracto bancario pueda ser importado en Solop ERP este debe cumplir por Banco un formato en específico para que la importación sea exitosa, el siguiente material explica el procedimiento para descargar los formatos correctos de los estados de cuentas bancarios:
+* Revisar saldos y diferencias.
 
-La descarga de cada estado de cuenta bancario va a variar según el banco que este utilizando, la descargas de estos archivos son datos confidenciales el cual el agente autorizado tendrá el acceso a los bancos de la compañía para poder realizar dicho procedimiento.
+* Emitir reportes del Estado de Cuenta Bancario.
 
-### Extracto Bancario 
+## Paso a Paso
 
-Para poder hacer la descarga del extracto bancario debe iniciar sesión en el banco, una vez ingrese al banco siga las siguientes instrucciones indicadas bajo la plataforma Web del banco correspondiente donde se describe el paso a paso de como realizar la descarga de archivos o movimientos bancarios; el estado de cuenta bancario a descargar de este banco debe ser en el formato **.csv**, el cual es el formato que aceptara Solop ERP al momento de realizar la importación del extracto bancario.
+### 1. Crear Estado de Cuenta Bancario
 
-Solop ERP ofrece a nuestros clientes el ejemplo de extracto bancario, con la finalidad de que sea descargado y utilizado para realizar el proceso de conciliación automática en Solop ERP.
+* Ir a la ventana Estado de Cuenta Bancario.
 
-Ningún estado de cuenta bancario puede ser modificado o convertido manualmente a cualquiera de los formatos existentes, el usuario solo debe descargar el estado de cuenta bancario en los formatos indicados e importarlos a Solop ERP.
+* Crear un nuevo registro (ejemplo: Conciliación 1).
 
-Para realizar la importación del extracto bancario este proceso se explica en el documento Conciliaciones Automáticas elaborado por Solop ERP.
+* Completar los datos:
 
-### Registro de Conciliación Automática
+* Cuenta bancaria (ej. 1030).
 
-Para poder crear una conciliación automática en Solop ERP debe seguir los siguientes pasos:
+* Tipo de documento: Conciliación Bancaria.
 
-Ubique en el menú de Solop ERP la carpeta **Gestión de Saldos Pendientes** y luego seleccione la ventana **Estado de Cuenta Bancario**.
+* Fecha: seleccionar la correspondiente (ej. último día de febrero).
 
-Seleccione el icono **Registro Nuevo** en la barra de herramientas de Solop ERP y proceda al llenado de los campos correspondientes.
+* Guardar el registro.
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image140.png)
 
-Imagen 2. Icono de Registro Nuevo
+### 2. Cargar el Estado de Cuenta
 
-Seleccione en el campo **Organización**, la organización para la cual se está realizando el documento de estado de cuenta bancario, el valor en el mismo debe ser diferente del símbolo (*).
+Desde el registro creado, ir a Acciones > Selección > Carga de Estado de Cuenta.
 
-Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por Solop ERP.
+* Seleccionar el cargador configurado y el archivo en formato TXT.
 
-Seleccione en el campo **Cuenta Bancaria**, el banco con el que va a trabajar la conciliación.
+* Cargar el archivo.
 
-Seleccione el icono **Guardar** en la barra de herramientas de Solop ERP para guardar los cambios realizados en el documento.
+* Confirmar que se carguen las líneas en el registro.
 
-Hasta este paso es el llenado del encabezado de la conciliación, donde se define el banco en el cual se va a realizar la conciliación de los pagos/cobros que ha tenido la empresa en un rango determinado. En adelante se procederá a realizar la conciliación.
-
-### Importación de Extracto Bancario
-
-Para que Solop ERP pueda conciliar y verificar los pagos/cobros en una cuenta bancaria y los registrados pagos/cobros en Solop ERP, se debe importar el extracto bancario generado del banco para ello se deben seguir los siguientes pasos.
-
-Ya estando posicionados en la ventana **Estado de Cuenta Bancario** seleccione el botón **Acciones** en la barra de herramientas de Solop ERP.
-
-Seleccione la opción **Carga de Estado de Cuentas** en el menú desplegado por el icono **Acciones** (también puede realizarse desde la opción de Menú del mismo nombre Carga de Estado de Cuentas).
-
-Podrá apreciar la siguiente ventana y proceder al llenado de los campos correspondientes para cargar el extracto bancario.
+![Campo](/assets/img/docs/balance-management/bam-balance-image1000.png)
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image147.png)
 
-Imagen 3. Ventana Extracto Bancario
+### 3. Importar Líneas del Extracto
 
-Seleccione en el campo **Cargador de Estado de Cuenta**, el banco seleccionado en el campo **Cuenta Bancaria** de la ventana principal **Estado de Cuentas Bancario**.
+* Ir a **Importar Estado de Cuenta**
 
-Seleccione en el campo **Nombre del Archivo** el estado de cuenta bancario a importar, correspondiente al banco seleccionado.
+* Visualizar las transacciones cargadas desde el archivo (para búsqueda más ágil se puede definir el buscador "Importado" = NO)
 
-Seleccione la opción **Seleccionar Archivo**, para buscar el archivo a importar.
+* Presionar importar (definir datos de Organización y cuenta bancaria) y aceptar.
 
-Seleccione la opción **Cargar Archivo (Upload)**, para cargar el archivo seleccionado.
-
-Seleccione la opción **OK**, para importar el archivo a Solop ERP.
-
-Podrá visualizar en la ventana un mensaje el cual indica la importación exitosa en Solop ERP del extracto bancario y la cantidad de movimientos que posee el extracto bancario, para este caso como ejemplo está indicando que tiene 598 movimientos el extracto bancario.
-
-![Campo](/assets/img/docs/balance-management/bam-balance-image153.png)
-
-Imagen 5. Estado de Cuenta
-
-Una vez cargado el extracto de cuenta bancario se puede proceder a realizar la conciliación automática, si el extracto de cuenta bancario no es importado Solop ERP no podrá realizar el proceso.
-
-La carga del extracto tambièn puede realizarse desde la opción de Menù.
-
-![Carga de Extracto](/assets/img/docs/education-management/edum-image23.png)
-
-El siguiente paso es la importaciòn del extracto cargado (el primer paso solo graba los registros en una tabla intermedia).
-Esto se ejecuta desde la ventana **Importar Estado de Cuentas**.
-
-Para una búsqueda más ágil se puede definir el buscador "Importado" = NO.
-Esto mostrará todos los registros no importados y con el botón **Importar Extractos de Cuentas** quedarán los registros importados en la tabla definitiva. Esto genera la entidad de **Estado de Cuentas Bancario** con sus correspondientes líneas.
+* Esto generará las líeas en el Estado de Cuentas Bancario.
 
 ![Carga de Extracto](/assets/img/docs/education-management/edum-image24.png)
 
-### Conciliación Automática
+### 4. Ejecutar la Conciliación Bancaria
 
-Una vez seleccionado el banco con el que se realizará la conciliación bancaria e importado el extracto bancario se procede a realizar la conciliación automática:
+* Ir a la ventana Conciliación de Estado de Cuenta.
 
-Estando posicionados en la ventana **Estado de Cuenta bancario** Seleccione el icono **Acciones** en la barra de herramientas de Solop ERP.
+* Revisar las líneas importadas y validar coincidencias.
 
-Seleccione la opción **Conciliación de Estado de Cuenta** en el menú que es desplegado por el icono **Acciones**.
+* Iniciar el proceso de conciliación bancaria.
 
-Se le desplegará una ventana de búsqueda inteligente con campos por los cuales se filtrará la búsqueda para realizar la conciliación.
+* El sistema intentará machear automáticamente las líneas con los pagos/cobros existentes (ejemplo: un cobro registrado el 10/02 por 110.000).
 
-Puede observar que la ventana de búsqueda inteligente trae precargado el campo **Cuenta Bancaria** con la información del banco seleccionado en la ventana principal **Estado de Cuentas Bancario**. Los otros campos reflejados en esta ventana serán utilizados acorde al criterio de búsqueda que se requiera.
+* En caso de diferencias de signo o formato, ajustar manualmente.
 
-Una vez definido el criterio de búsqueda, seleccione la opción **Refrescar** para que se muestre la información del estado de cuenta bancario importado y los pagos/cobros realizados en Solop ERP.
-
-Podrá apreciar los movimientos del estado de cuenta del lado izquierdo de la venta de busqueda inteligente.
-
-Podrá apreciar del lado derecho de la ventana de búsqueda inteligente los movimientos registrados en Solop ERP.
-
-Seleccione la opción **Simular Conciliación** para buscar coincidencia entre la información reflejada en ambos lados de la ventana de búsqueda inteligente.
-
-La simulación de conciliación consiste en verificar las coincidencias que tenga los pagos/cobros del extracto bancario con los registrados en Solop ERP, está verificación parte en identificar qué los números de referencia de la transacciones bancarias coinciden con el número de documento del registro en Solop ERP, qué ambos montos sean iguales y qué estén trabajando con la misma moneda , sí ambos movimientos (los del extracto bancario y los de Solop ERP) coinciden en su totalidad con estas tres características **N° referencias / N° Documento , monto /monto, moneda/moneda** Solop ERP identificara y lo marcará como una coincidencia.
-
-Podrá apreciar los movimientos con coincidencia en la parte inferior de la ventana de búsqueda inteligente.
+![Campo](/assets/img/docs/balance-management/bam-balance-image1001.png)
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image161.png)
 
-Imagen 8. Pagos con Coincidencia
+### 5. Revisar Saldos y Diferencias
 
-Si existe coincidencia entre los pagos/cobros y el extracto bancario se le mostrarán los movimientos con coincidencias, de lo contrario no se le mostrará ningún movimiento con coincidencia.
+* Verificar que el sistema muestre el saldo inicial, movimientos conciliados y diferencias pendientes.
 
-Seleccione la opción **OK** para guardar el registro de coincidencia entre los movimientos reflejados en la ventana de búsqueda inteligente. Automáticamente se importan en la pestaña **Línea Estado Cuentas**, todos movimientos del extracto bancario que han sido identificados y los que no tengan registro en .Solop ERP
+* Completar acciones manuales si es necesario hasta que no existan diferencias.
 
-Para los casos en los que el extracto bancario corresponda al **Banco del Tesoro** y al momento de realizar la simulación no se refleje ningún tipo de movimientos con coincidencia, se debe seleccionar de igual manera la opción **OK**, para que sean importados a la pestaña **Línea Estado Cuentas**, todos los registros del extracto bancario.
+![Campo](/assets/img/docs/balance-management/bam-balance-image1002.png)
 
-El extracto bancario puede poseer algunos registros que no han sido cargados en Solop ERP, estos pueden ser cobros no identificados, comisiones bancarias entre otros, los cuales no van a ser identificados al momento de hacer la simulación, sin embargo para estos pagos/cobros no conciliados se aplicará un proceso que se detalla en el documento Crear Pagos desde Estado de Cuenta.
+### 6. Generar Pagos y Cobros desde el Estado de Cuenta
 
-Al seleccionar **Ok** Solop ERP lo llevará nuevamente a la ventana principal **Estado de Cuenta Bancario**.
+Ir a Acciones > Generar Pagos desde Extracto.
 
-#### Coincidencia Bancarias
+Opciones:
 
-Al momento de realizar la conciliación bancaria Solop ERP maneja una serie verificaciones para poder encontrar las coincidencias bancarias.
+* Generación automática: si está configurada la lógica, el sistema creará pagos/cobros leyendo la descripción y vinculando el socio de negocio.
 
-#### Revisión de Conciliaciones
+* Generación manual: seleccionar las líneas pendientes e indicar tipo de transacción (ej. pago de sueldos, intereses bancarios, cargos varios).
 
-Una vez aplicado el proceso de conciliación automática, se debe verificar que tanto los pagos/cobros que coincidieron como los que no coincidieron se carguen correctamente dentro del registro de la conciliación bancaria en la que se este trabajando, para ello debe seguir los siguientes paso:
+* Confirmar y guardar. Se generarán los pagos/cobros correspondientes.
 
-Seleccione la pestaña **Línea Estado Cuentas** para verificar que se encuentren los registros de todos los movimientos del estado de cuenta bancario cargado desde la ventana de búsqueda inteligente.
+* Visualizar las transacciones generadas en la pestaña Bank Statement Line.
 
-![Campo](/assets/img/docs/balance-management/bam-balance-image163.png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image1003.png)
 
-Imagen 9. Pestaña Línea Estado Cuentas
+![Campo](/assets/img/docs/balance-management/bam-balance-image1043.png)
 
-Podrá apreciar en la parte inferior derecha del documento, la cantidad de movimientos cargados a la pestaña **Línea Estado Cuentas**, estos deben coincidir con la cantidad de movimientos que se refleja al momento de hacer la importación del extracto bancario
+### 7. Emitir Reportes
 
-#### Cantidad de Movimientos Cargados a la Pestaña Línea Estado Cuentas
+* Ir al reporte Estado de Cuenta Bancario.
 
-Por cada movimiento del estado de cuenta bancario es un registro en la pestaña **Línea Estado Cuentas** es decir, si el estado de cuenta bancario tiene 26 movimientos, la pestaña tendrá 26 líneas de registro el cual verá identificado como N° de líneas de 10 en 10 (10,20,30,40); de click en la palabra **importación** si desea visualizar nuevamente el paso a paso de la importación del extracto bancario.
+* Seleccionar la cuenta bancaria (ej. 1030 – Santander).
 
-### Crear Pagos Desde Línea de Estado de Cuenta
+* Visualizar todas las líneas cargadas, con el detalle de pagos conciliados, pendientes y saldos.
 
-Si al realizar la conciliación existen movimientos sin registros en Solop ERP, se debe realizar el proceso **Crear pagos desde Estado de Cuenta** para generar los pagos/cobros correspondientes a cada uno de los movimientos,ya que es muy importante que todos los movimientos bancarios coincidan en su totalidad con los registros en Solop ERP o que los mismos logren ser identificados, ya que de lo contrario la conciliación no podrá ser completada en Solop ERP, del mismo modo este proceso también es explicado en el documento Crear Pagos desde Estado de Cuenta.
+* Se pueden generar vistas filtradas por balance, socio de negocio o tipo de transacción.
 
-En el caso de que existan movimientos con registros en Solop ERP pero sin documentos de pagos/cobros asociados en la línea, se debe seleccionar de la siguiente manera el documento **Pago/Cobro**.
+![Campo](/assets/img/docs/balance-management/bam-balance-image1045.png)
 
-Ubique el registro de la línea sin documento **Pagos/Cobros** asociado y seleccione el documento con ayuda del identificador del campo **Pago**.
+### Consideraciones Finales
 
-#### Registro del Movimiento en la Pestaña Línea Estado Cuentas
+* El proceso admite conciliaciones parciales o totales.
 
-Este proceso es realizado cuando no coinciden los números de referencia del movimiento y del documento **Pago/Cobro**. Sin embargo, existe el conocimiento de que dicho movimiento pertenece un documento determinado ya que existe una coincidencia en el monto, el socio del negocio y el banco.
+* La conciliación automática depende de la configuración de algoritmos y la correcta carga de pagos/cobros en el sistema.
 
-Seleccione el icono **Guardar Cambios** en la barra de herramientas de Solop ERP, para guardar los cambios realizados.
+* Todos los movimientos quedan trazados en el Estado de Cuenta Bancario, garantizando control y transparencia.
 
-Regrese a la ventana principal Estado Cuentas Bancario y seleccione la opción Completar.
-
-Seleccione la acción **Completar** y la opción **OK** para completar el documento.
-
-## Diferentes pagos de Estado de Cuenta
-
-### Crear Pagos desde Estado de Cuenta
-
-El proceso **Crear Pagos desde Estado de Cuenta** es realizado por consecuencia de la existencia de **Pagos/Cobros** que se encuentran en el extracto bancario y al momento de la conciliación no se encuentra ninguna coincidencia con los movimientos registrados en Solop ERP; el mismo parte del proceso de conciliación automática donde al importar el extracto bancario verifica los movimientos registrado en Solop ERP, este realiza una verificación de coincidencias de **Pagos/Cobros** en ambos lados (Movimientos del extracto / Movimientos en Solop ERP), mayormente se encuentran muchos movimientos en el extracto bancario que no han sido registrados en Solop ERP y no solo es por que no se lleve un buen control de los registros si no que los extractos bancarios poseen detalladamente otros tipo de transacciones como comisiones bancarias que en algunos casos no son registrados en Solop ERP o poseen movimientos bancarios que se desconoce su procedencia, pero para este tipo de casos se encuentra el proceso **Crear Pagos desde Estado de Cuenta**, ya que es muy importante que todos los movimientos bancarios coincidan en su totalidad con los registros en Solop ERP o que los mismos logren ser identificados, ya que de lo contrario la conciliación no podrá ser completada en Solop ERP.
-
-El presente material elaborado por Solop ERP pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para la creación de pagos y cobros sin registros en Solop ERP, partiendo desde el proceso de Conciliación Automática registro de pagos / cobros existentes en el extracto bancario importado, obteniendo un resultado exitoso al momento de conciliación de cuentas en Solop ERP.
-
-### Pagos/Cobros sin Registros
-
-Los pagos o cobros sin registro en Solop ERP pueden presentarse en las empresas por diferentes motivos los cuales pueden ser que no fueron registrados a tiempo o correctamente, o la cuenta bancaria a recibido un cobro por adelantado y este no ha sido notificado al personal que lleva los registros de los pagos/cobros en Solop ERP, el registro de los mismos puede realizarse de tres formas explicadas a continuación.
-
-Luego de realizar el proceso de conciliación, ubique la pestaña **Línea Estado Cuentas**.
-
-Pestaña Estado Cuentas para Pagos Cobros sin Registros
-
-Seleccione el icono **Proceso**, en la barra de herramientas de Solop ERP.
-
-Seleccione la opción **Crear Pago desde Estado de Cuenta**.
-
-Podrá visualizar la siguiente ventana de búsqueda inteligente con los **Pagos/Cobros** que no tuvieron coincidencias al momento de conciliar.
-
-![Campo](/assets/img/docs/balance-management/bam-balance-image194.png)
-
-Imagen 1. Ventana de Búsqueda Inteligente
-
-Hasta este punto solo se puede visualizar los movimientos bancarios sin conciliar, pero la mayoría de estos movimientos bancarios pertenecen a otros tipos de transacciones como lo son los **Cargos Bancarios**, **Otro Tipo de Pagos** y los **Pagos sin Identificar**, estas transacciones bancarias deben ser identificadas para poder completar la conciliación bancaria**.
-
-### Pagos o Cobros de Comisiones
-
-Para aquellos movimientos que pertenezcan a comisiones bancarias estos deben ser asociados al tipo de transacción **Cargos Bancarios**, ya estando dentro de la opción **Crear Pago desde Estado de Cuenta** se debe realizar los siguientes pasos.
-
-En la ventana de búsqueda inteligente de **Crear Pago desde Estado de Cuenta** seleccione el o los pagos/cobros correspondientes a las comisiones.
-
-![Campo](/assets/img/docs/balance-management/bam-balance-image173.png)
-
-Imagen 2. Selección de Pagos/Cobros
-
-Opción Cargo Bancario del Campo Tipo de Transacción
-
-Seleccione en el campo **Cargo** el cargo de comisión correspondiente, para este ejemplo es **Comisión FLAT**.
-
-Seleccione la opción **OK** para generar automáticamente el documento de pago/cobro en Solop ERP.
-
-Si Solop ERP refleja el error **No encontrado Factura / Socio del Negocio**, es porque está buscando una factura asignada al pago/cobro o un socio del negocio asociado al banco y no existe registro de ello. En este caso, es necesario abrir registro del banco y seleccionar un socio del negocio.
-
-Podrá visualizar el **Pago/Cobro** de cargos bancarios en la pestaña **Línea Estado de Cuentas**, como la pestaña cuenta con varios registros, esté puede ser ubicado por el monto del movimiento bancario. Al ubicar el registro esté debe contar con las siguientes características:
-
-En el campo **Pago** debe tener asociado el número del documento del **Pago/Cobro** que se seleccionó al momento de aplicar el proceso **Cargo Bancario**.
-
-El número de documento a mostrar en el campo **Pago** debe coincidir con el número que se muestra el campo **N° de Referencia** el cual es el número de la referencia bancaria de ese movimiento.
-
-En el grupo de campos **Referencia** podrá visualizar lo siguiente:
-
-En el campo **Socio de Negocio** debe aparecer el banco con el que se está trabajando la conciliación.
-
-Para este caso el socio del negocio a mostrar es el banco **Banesco** por que es el banco con el que se está trabajando la conciliación, pero ese socio de negocio va a variar según el banco con el que esté trabajando la conciliación, sí está trabajando con el banco **Mercantil** tomará ese banco, si está trabajando la conciliación con el banco **Banesco** tomará **Banesco** y así sucesivamente.
-
-En el campo **Cuenta Beneficiario TEF** debe aparecer **COMISIÓN TRF OTROS BCOS**.
-
-En el campo **Cantidad TEF** debe aparecer el mismo monto del movimiento bancario.
-
-El monto que aparece en el campo **Cantidad TEF** debe ser el mismo monto que aparece en el campo **Total de la Transacción**.
-
-Si desea verificar el registro del pago/cobro generado en Solop ERP puede realizarlo tildando el campo **Pago** y lo llevará a la ventana **Pago/Cobro** de Solop ERP.
-
-Puede presionar click derecho y seleccionar la opción **Acercar** y lo llevará a la ventana **Pago/Cobro** de Solop ERP.
-
-Al encontrarse en la ventana **Pago/Cobro** puede observar que el registro contará con los mismos datos anteriormente mencionados que se encuentran en grupo de campos **Referencia**.
-
-![Campo](/assets/img/docs/balance-management/bam-balance-image182.png)
-
-Imagen 3. Ventana Pago/Cobro
-
-### Otros Tipos de Pagos o Cobros
-
-Para aquellos movimientos que se encuentran en el extracto bancario que al momento de realizar la conciliación no se asoció a ningún pago/cobro en Solop ERP por qué no se encontraban registrados pero sí se conoce su procedencia se deben asociar al tipo de transacción **Otro tipo de Pago** ya estando dentro de la opción **Crear Pago desde Estado de Cuenta** se debe realizar los siguientes pasos.
+* El Estado de Cuentas Bancario debe completarse luego de realizar la identificación de los pagos y cobros (para que impacte en el saldo de la cuenta). 
 
 ::: note
-Para este caso se tomará como ejemplo un préstamo bancario, el cual el socio de negocio al que se le realizó el préstamo hizo un abono, en su momento esta transferencia no había sido notificada por ello no se realizó el registro del pago/cobro en Solop ERP, pero como se sabe de dónde proviene ese movimiento bancario este entraría dentro de la tipo de transacción **Otro tipo de Pago**.
+Es importante que estos estado de cuentas bancarios se completen de forma cronológica para que los saldos se actualocen correctamente
 :::
-
-En la ventana de búsqueda inteligente **Crear Pago desde Estado de Cuenta** seleccione el o los pagos/cobros correspondientes a otros tipos de pagos.
-
-![Campo](/assets/img/docs/balance-management/bam-balance-image183.png)
-
-Imagen 4. Selección de Pagos/Cobros
-
-Seleccione en el campo **Tipo de Transacción** la opción **Otro Tipo de Pago**.
-
-Seleccione el socio del negocio en el campo **Socio del Negocio**, para este ejemplo el socio a utilizar es **Estándar**.
-
-Para este caso el socio de negocio es la persona que realizó la transferencia bancaria.
-
-Seleccione en el campo **Cargo** el cargo correspondiente al pago/cobro,siguiendo el ejemplo anteriormente comentado el cargo a utilizar es **Préstamo Bancario**.
-
-El cargo a utilizar dependerá del tipo de transacción que se esté registrando.
-
-Seleccione la opción **OK** para generar automáticamente el documento de pago/cobro en Solop ERP.
-
-Podrá visualizar el **Pago/Cobro** creado de **Otro Tipo de Pago** en la pestaña **Línea Estado de Cuentas**, como la pestaña cuenta con varios registros, esté puede ser ubicado por el monto del movimiento bancario. Al ubicar el registro esté debe contar con las siguientes características:
-
-En el campo **Pago** debe tener asociado el número del documento del **Pago/Cobro** que se seleccionó al momento de aplicar el tipo de transacción **Otro Tipo de Pago**.
-
-El número de documento a mostrar en el campo **Pago** debe coincidir con el número que se muestra el campo **N° de Referencia** el cual es el número de la referencia bancaria de ese movimiento.
-
-En el grupo de campos **Referencia** podrá visualizar lo siguiente:
-
-En el campo **Socio de Negocio** debe aparecer el socio de negocio asociado al momento de aplicar el tipo de transacción **Otro Tipo de Pago**.
-
-En el campo **Referencia TEF** debe aparecer el número de referencia del movimiento bancario.
-
-En el campo **Cantidad TEF** debe aparecer el mismo monto del movimiento bancario.
-
-El monto que aparece en el campo **Cantidad TEF** debe ser el mismo monto que aparece en el campo **Total de la Transacción**.
-
-Si desea verificar el registro del pago/cobro generado en Solop ERP puede realizarlo tildando el campo **Pago** y lo llevará a la ventana **Pago/Cobro** de Solop ERP.
-
-Puede presionar click derecho y seleccionar la opción **Acercar** y lo llevará a la ventana **Pago/Cobro** de Solop ERP.
-
-Al encontrarse en la ventana **Pago/Cobro** puede observar que el registro contará con los mismos datos anteriormente mencionados que se encuentran en grupo de campos **Referencia**.
-
-![Campo](/assets/img/docs/balance-management/bam-balance-image193.png)
-
-Imagen 5. Pago/Cobro Otro tipo de Pagos
-
-### Pagos o Cobros sin Identificar
-
-Al momento de hacer la conciliaciòn bancaria la mayorìa de las veces suelen haber movimientos en el extracto bancario que se desconocen de donde provienen, y para Solop ERP todos los movimiento que tiene el extracto bancario deben ser identificados o asociados a un **Pago/Cobro** ya que de no ser identificados Solop ERP no permitirá completar la conciliación bancaria, el cual implica que dentro de Solop ERP no se ha realizado ninguna conciliación.
-
-Para los movimientos bancarios que se desconocen de dónde proviene, en Solop ERP se llevan a pagos/cobros no identificados, para poder completar e identificar todos esos movimientos que posee el extracto bancario.
-
-::: note
-Los **Pago/Cobro** que se pasen a ser no identificados, luego podrán ser identificados una vez se verifique su procedencia.
-:::
-
-Para poder llevar estas transacciones bancarias a **Pagos o Cobros sin Identificar** ya estando dentro de la opción **Crear Pago desde Estado de Cuenta** se debe realizar los siguientes pasos.
-
-Podrá observar la ventana de búsqueda inteligente donde se muestran todos los movimientos bancarios que no se les encontró una coincidencia al momento de hacer la conciliación automática.
-
-![Campo](/assets/img/docs/balance-management/bam-balance-image194.png)
-
-Imagen 6. Movimientos Bancarios Pagos sin Identificar
-
-Seleccione el o los **Pago/Cobro** con procedencia desconocida.
-
-Selección Pago sin Identificar
-
-Seleccione en el campo **Tipo de Transacción** la opción **Pago Sin Identificar**.
-
-Seleccione la opción **OK** para generar automáticamente el documento de **Pago/Cobro** en Solop ERP y esté pueda ser asociado con el movimiento bancario desconocido.
-
-Al seleccionar la opción **OK** Solop ERP creará un **Pago/Cobro** con las mismas características del movimiento bancario desconocido en cuanto monto, fecha, y moneda.
-
-Podrá visualizar el **Pago/Cobro** creado de **Pago sin Identificar** en la pestaña **Línea Estado de Cuentas**, como la pestaña cuenta con varios registros, esté puede ser ubicado por el monto del movimiento bancario. Al ubicar el registro esté debe contar con las siguientes características:
-
-La descripción de la **Línea Estado de Cuenta** debe tener como descripción **Pago no identificado**
-
-En el campo **Pago** debe tener asociado el número del documento del **Pago/Cobro** que se creó al momento de aplicar el proceso **Pago Sin Identificar**
-
-El n° de documento a mostrar debe coincidir con el n° que se muestra el campo **N° de Referencia** el cual es el número de la referencia bancaria de ese movimiento.
-
-En el grupo de campos **Referencia** debe aparecer como **Socio de Negocio** **Pagos/Cobros Sin Identificar**, este es un socio de negocio que tomará temporalmente el **Pago/Cobro** sin identificar.
-
-El socio de negocio **Pagos/Cobros Sin Identificar** es un socio de negocio que toma temporalmente el **Pago/Cobro** sin identificar, el cual más adelante será modificado una vez se desee identificar ese **Pago/Cobro**.
-
-Si desea verificar el registro del pago/cobro generado en Solop ERP puede realizarlo tildado el campo **Pago** y lo llevará a la ventana **Pago/Cobro** de Solop ERP.
-
-Puede presionar click derecho y seleccionar la opción **Acercar** y lo llevará a la ventana **Pago/Cobro** de Solop ERP.
-
-Al encontrarse en la ventana **Pago/Cobro** puede observar que el registro contará con los mismos datos anteriormente mencionados que se encuentran en grupo de campos **Referencia**.
-
-### Completar Conciliación Bancaria
-
-Una vez identificado todos los movimientos bancarios y conciliado correctamente se puede completar la conciliación Bancaria, para ello debe seguir los siguientes pasos:
-
-Debe posicionarse en la ventana padre **Estado de Cuenta Bancario**.
-
-Ubicar al finalizar la ventana en el grupo de campo **Estado** y el botón que debe tener por nombre **Completar**
-
-El nombre del botón cambiará dependiendo del estado en el que se encuentre el documento si el documento se encuentra en estado **Borrador** la acción a mostrar en el botón es **Completar** caso que se está aplicando para este documento, si el estado del documento está en estado **Completo** el botón cambiará su nombre a la posible siguiente acción que se pueda aplicar en el documento.
-
-Dar click a botón **Completar** y tildar **Ok** para la acción de documento seleccionada.
-
-Al aplicar esta acción **Completar** el documento pasará a esta completo y este no podrá ser modificado.
-
-Es muy importante tener en cuenta que todo documento transaccional una vez se culmine con el llenado de los datos debe ser completado, para que Solop ERP tome como válido los datos cargados en el documento.
