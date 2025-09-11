@@ -5,114 +5,153 @@ star: 9
 sticky: 9
 article: false
 ---
-## **Gestión de Morosidad**
 
-### **Cálculo de Morosidad**
+El Cálculo de Morosidad es un proceso que permite obtener una “foto” de los documentos pendientes de cobro/pago y convertirla en una Carta de Deuda o Estado de Cuenta por cada cliente/familia morosa.
+El proceso se utiliza para presentar todos los Documentos por Pagar o Cobrar con saldo abierto al momento de la ejecución, según la fecha definida.
 
-El cálculo de Morosidad es un proceso que se inicia con el objeto de tener una foto de los pendientes por cobrar/pagar y que luego se convierte en una carta de deuda o estado de cuenta por cada cliente/familia morosa. 
-Se genera a los efectos de presentar todos los Documentos por Pagar o Cobrar que se encuentran con saldo abierto en el momento que se corre según la fecha que se defina.
+## Flujo General del Proceso
 
-Las condiciones exactas que serán consideradas al correr un Cálculo de Morosidad dependerá de la Morosidad que se seleccione así como también su Nivel de Morosidad definido. (Morosidad como concepto se refiere a una característica propia del SDN y es en este maestro donde se define esta cualidad (en general se configura como estado de cuenta), a su vez, en el maestro de morosidad puede setearse en esta característica diversos parámetros como ser mostrar todas las deudas, o bien no mostrarlos y solo enviar un aviso de deuda sin importes, o enviar deudas por rangos fecha, etc)
+1. Selección de la Morosidad y Nivel de Morosidad.
+
+2. Generación de entradas por Socio de Negocio (SDN).
+
+3. Visualización de documentos pendientes con saldos abiertos.
+
+4. Generación de reportes de Estado de Cuenta / Cartas de Morosidad.
+
+5. Envío masivo de Estados de Cuenta vía correo electrónico.
+
+6. Gestión de Notificaciones y Cola de Envíos.
+
+7. Empaquetado y descarga de estados de cuenta en formato ZIP.
+
+## Paso a Paso
+
+### 1. Definición de Morosidad
+
+La Morosidad se configura en el maestro correspondiente.
+
+Puede incluir parámetros como:
+
+* Mostrar todas las deudas.
+
+* Solo enviar aviso sin importes.
+
+* Enviar deudas por rangos de fecha.
+
+* El Nivel de Morosidad define las condiciones exactas de inclusión/exclusión de documentos.
 
 ![Cálculo de Morosidad](/assets/img/docs/balance-management/bam-default18.png)
 
-A partir de un Cálculo de Morosidad se generarán tantas entradas como Socios del Negocio con deuda se encuentren según las condiciones y parámetros aplicados en el proceso.
+### 2. Generación de Entradas
 
-En la entrada se podrá visualizar para cada Socio del Negocio, el importe total de lo adeudado así como también la cantidad de documentos pendientes. En la pestaña entradas se visualizan tantas líneas como Socios de negocio/familias se encuentren con deuda de acuerdo a los parámetros ingresados.  
-Dentro de cada entrada de morosidad se podrá ver en sus líneas cada uno de esos documentos que se encontró con saldo abierto y se podrá visualizar en cada uno de ellos, el número de documento así como también los Dïas de vencido y el importe pendiente.
+Al correr el cálculo, se generan tantas entradas como Socios de Negocio con deuda existan.
 
-::: note
-si se marca el check "No Muestra Deuda" en el nivel de morosidad, se consideran las facturas no vencidas.
-Si los dias de vencido es menor a cero, y este check (No Muestra Deuda) NO se marcó, entonces no muestra la factura. Si está marcado entonces la factura se visualiza.
-:::
+Cada entrada muestra:
+
+* Importe total adeudado.
+
+* Cantidad de documentos pendientes.
+
+En las líneas de cada entrada se visualiza:
+
+* Número de documento.
+
+* Importe pendiente.
+
+* Días vencidos.
 
 ![Entradas](/assets/img/docs/balance-management/bam-default19.png)
 
-El documento de Cálculo de Morosidad genera masivamente los reportes de Saldos Pendientes para cada uno de los Socios del negocio (Reporte que normalmente realiza el departamento de cuentas corrientes cliente por cliente) y a su vez lo agrega en un formato de impresión definido que se puede considerar como una “Carta de Morosidad” o estado de cuenta que se podrá enviar al cliente.  
-
 ::: note
-Es posible configurar en el sistema si se excluirán o incluirán en el cálculo de morosidad los anticipos marcados con el check de "Anticipo".
+Si el check “No Muestra Deuda” está marcado, también se mostrarán facturas no vencidas.
+Si el check no está marcado, facturas con días de vencido < 0 no se mostrarán.
 :::
-  
-El envío de estas cartas de morosidad o estados de cuenta podrá ser realizado masivamente también gracias al proceso de “Envío de Estado de Cuenta Corriente”. Para el envío masivo es importante cómo se encuentren configurados los SDN (con casilla mail) y las familias (marcados como “envía email” aquellos familiares responsables).
 
-Cada envío será realizado con un proceso de envío de notificaciones del sistema llamado “Notificaciones”. El proceso generará todas las notificaciones necesarias pero las mismas no serán enviadas todas en simultáneo, sino que un proceso posterior que corre según se tenga configurado (Automático o manual) irá realizando el envío del lote que se tenga definido. Normalmente se tiene definido enviar 20 notificaciones cada 5 minutos.
+### 3. Estado de Cuenta
 
-Una vez generado el envío, se crearán tantas Notificaciones como corresponda donde se podrá ver en ellas el Usuario destino, el texto del Correo así como también el Reporte adjunto y el correo destinatario y el correo remitente (este correo remitente varía según la Compañía / Organización / Usuario) 
+* Desde cada entrada se puede generar el Estado de Cuenta (carta de deuda en PDF).
 
-Dentro del cabezal del Cálculo de Morosidad se podrá visualizar la cantidad de Notificaciones que dicho cálculo tiene generada y se podrán ver cada una de ellas en la pestaña de “Correos para enviar” ubicada como hija del cabezal. Un 2do campo de “correos enviados” se podrá ver también en el cabezal donde se sumarán todas aquellas notificaciones que ya han sido enviadas por el proceso de cola de envío de notificaciones.
+* El sistema muestra un cuadro de confirmación y luego genera el PDF con el formato definido.
 
-Puede darse el escenario de que todas las notificaciones estén marcadas por la aplicación como “procesadas” pero esto no significa que se hayan enviado todas, sino que se debe consultarlas para confirmar que no existan rebotes por error en la dirección de mail por ejemplo.
+* Estos reportes se consideran Cartas de Morosidad y pueden ser enviadas al cliente.
 
-### **Estado de Cuenta por Cliente**
+### 4. Envío Masivo de Estados de Cuenta
 
-### **Envío masivo de Estado de Cuenta**
+* Acceder al proceso Envío de Estado de Cuenta por Correo.
 
-Una vez se generaron todas las entradas en el cálculo de morosidad “Estado de Cuenta” se podrá ir al Proceso de Envío de Estado de Cuenta por Correo”.
+* Seleccionar las entradas de cálculo que se desean enviar.
 
-En este proceso se deberá definir los filtros deseados y se buscará las Entradas de “Estado de Cuenta” que se desea enviar mediante correo.
+Definir parámetros de envío:
 
-Luego de seleccionar los Estados de Cuenta que se desean enviar, se debe seleccionar en los Parámetros del Proceso los criterios de envío.
+* Formato PDF: plantilla de impresión del Estado de Cuenta.
 
-Dentro de los criterios podemos seleccionar:
+* Template de correo: cuerpo del mensaje a enviar.
 
-**Representación Impresa del PDF:** Formato de Impresión definido para el Estado de Cuenta. Esto por el momento será fijo para todos los estados de cuenta.
+* Check “Send Email”: permite enviar o solo simular el envío.
 
-**Template de Correo:** Definición de la Plantilla de correo que se enviará como texto en el correo.
-
-**Check de “Send EMail”:** Este check podrá ser desmarcado para realizar pruebas de envios sin enviar realmente el correo al Socio del Negocio. Si se define el check en “Y” se enviará también el correo a los usuarios definidos como que se envie mail en la Familia del Responsable de Pago.
+* Si está marcado, además de enviar al cliente, también se remite a familiares responsables configurados en la Familia del SDN.
 
 ![Envío de Estado de Cuenta](/assets/img/docs/balance-management/bam-default20.png)
 
-### **Reporte de Estado de Cuenta**
+### 5. Notificaciones y Cola de Envío
 
-Luego de generado el Cálculo de Morosidad, dentro de cada Registro en la pestaña “Entrada” se podrá obtener el Reporte de “Estado de Cuenta” oprimiendo desde los procesos de la Barra de Herramientas.
+Cada envío genera Notificaciones en el sistema con:
 
-Luego, nos figurará el siguiente cuadro al que confirmaremos mediante el botón de OK para así generar el reporte
+* Usuario destino.
 
-### Notificaciones
+* Texto del correo.
 
-* Notificación desde Cálculo de Morosidad
+* Reporte adjunto.
 
-En la opción de Cálculo de Morosidad se generan las diferente entradas por deuda.
+* Dirección de correo remitente/destinatario.
 
-Luego, el envío de estado de morosidad se realiza desde "Envío de Estado de cuenta por correo".
+El proceso de envío no es simultáneo:
 
-Este proceso busca líneas de morosidad a enviar. Permite seleccionar por nivel de morosidad, por socio de negocio, por fecha. Y como parámetro se define el patrón de correo (de la organización correspondiente): generación de notificaciones desde línea de morosidad.
+* Normalmente se procesan 20 notificaciones cada 5 minutos.
 
-#### Proceso de Envío de Cola de Notificaciones
+En el cálculo se pueden visualizar:
 
-El registro de cola de notificación se genera con un destinatario (es uno a uno). El estado de procesado = NO cambia a "SI" cuando se realiza el envío de la notificación. En el caso de fallar o emitir error por envío, queda configurado como Procesado = NO (descripción del error) y Activo = no para que no ingrese en el siguiente lote de envío.
+* Correos para enviar.
 
-#### Cola de Notificación
-
-Cuando se dispara una notificación desde el ERP, al generar registro de cola de notificación, se graba como procesado = No (no enviado) y con el check de Activo = SI
-
-El envío de notificación tiene diferentes funcionalidades: se puede generar desde
-
-El usuario
-
-La organización
-
-La compañia
-
-From Account name: desde donde se origina la notificación.
+* Correos enviados.
 
 ![Cola de Notificación](/assets/img/docs/balance-management/bam-default21.png)
 
-#### Recipientes de Cola de Notificación
+#### Importante
 
-Es un registro de notificaciones generados dentro del sistema y con sus diferentes destinatarios. 
+* Notificación marcada como procesada no significa necesariamente que haya sido enviada (pueden existir rebotes o errores de dirección).
 
-Genera auditoría o historial de envíos de notificación con sus correspondientes estados y descripción de error (en el caso de no haber sido enviados).
+* En caso de error, el registro queda con:
 
-![Recipiente](/assets/img/docs/balance-management/bam-default22.png)
+Procesado = NO.
 
-#### Proceso Empaquetar Estados de Cuenta
+Activo = NO (para que no reingrese al próximo lote).
 
-Este proceso genera la impresión de todas las entradas en pdf y las empaqueta en el cabezal del Cálculo de Morosidad como zip, queda adjunto al registro para descargar.
-Los registros adjuntos no se borran, se van acumulando.
-Esto permite descargar todos los Estados de Cuenta Educación generados en un Cálculo de Morosidad desde una sola acción.
+### 6. Empaquetado de Estados de Cuenta
+
+* Existe un proceso para empaquetar en ZIP todos los estados de cuenta generados en un cálculo de morosidad.
+
+* El archivo queda adjunto al cabezal del cálculo.
+
+* Los archivos no se sobrescriben: se van acumulando, lo que permite descargar todos los estados de cuenta desde una sola acción.
 
 ![Empaquetar Estados de Cuenta](/assets/img/docs/balance-management/bam-default23.png)
 
+## Consideraciones Finales
+
+* El Cálculo de Morosidad automatiza tareas que normalmente realiza Cuentas Corrientes cliente por cliente.
+
+* Es posible incluir o excluir anticipos en el cálculo.
+
+El proceso garantiza:
+
+* Centralización de la deuda de cada SDN/familia.
+
+* Generación masiva de estados de cuenta.
+
+* Envío automático de notificaciones con trazabilidad.
+
+::: note
+Se recomienda siempre revisar la Cola de Notificaciones para confirmar que no existan rebotes o errores de envío.
+:::
