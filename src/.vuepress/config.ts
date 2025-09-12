@@ -21,8 +21,6 @@ export default defineUserConfig({
         color: "#5c92d1",
       },
     ],
-    ["script", { src: "/logo-redirect.js" }],
-    ["link", { rel: "stylesheet", href: "/logo-styles.css" }]
   ],
 
   locales: {
