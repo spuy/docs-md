@@ -10,19 +10,19 @@ Este módulo permite gestionar el proceso completo de conciliación bancaria den
 
 ## Flujo General del Proceso
 
-* Crear un nuevo Estado de Cuenta Bancario.
+1. Crear un nuevo Estado de Cuenta Bancario.
 
-* Cargar el archivo del estado de cuenta en formato válido (ej. TXT desde Multicash).
+2. Cargar el archivo del estado de cuenta en formato válido (ej. TXT desde Multicash).
 
-* Importar las líneas del extracto bancario.
+3. Importar las líneas del extracto bancario.
 
-* Ejecutar la conciliación automática y/o manual.
+4. Ejecutar la conciliación automática y/o manual.
 
-* Generar pagos y cobros asociados a las transacciones.
+5. Generar pagos y cobros asociados a las transacciones.
 
-* Revisar saldos y diferencias.
+6. Revisar saldos y diferencias.
 
-* Emitir reportes del Estado de Cuenta Bancario.
+7. Emitir reportes del Estado de Cuenta Bancario.
 
 ## Paso a Paso
 
@@ -86,15 +86,7 @@ Desde el registro creado, ir a Acciones > Selección > Carga de Estado de Cuenta
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image161.png)
 
-### 5. Revisar Saldos y Diferencias
-
-* Verificar que el sistema muestre el saldo inicial, movimientos conciliados y diferencias pendientes.
-
-* Completar acciones manuales si es necesario hasta que no existan diferencias.
-
-![Campo](/assets/img/docs/balance-management/bam-balance-image1002.png)
-
-### 6. Generar Pagos y Cobros desde el Estado de Cuenta
+### 5. Generar Pagos y Cobros desde el Estado de Cuenta
 
 Ir a Acciones > Generar Pagos desde Extracto.
 
@@ -102,7 +94,14 @@ Opciones:
 
 * Generación automática: si está configurada la lógica, el sistema creará pagos/cobros leyendo la descripción y vinculando el socio de negocio.
 
-* Generación manual: seleccionar las líneas pendientes e indicar tipo de transacción (ej. pago de sueldos, intereses bancarios, cargos varios).
+* Generación manual: seleccionar las líneas pendientes e indicar tipo de transacción.
+
+Los tipos de transacción pueden ser:
+
+- Cargo Bancario
+- Otro Tipo de Pago
+- Pago sin Identificar
+- Tranferencia entre Cuentas
 
 * Confirmar y guardar. Se generarán los pagos/cobros correspondientes.
 
@@ -110,7 +109,19 @@ Opciones:
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image1003.png)
 
-![Campo](/assets/img/docs/balance-management/bam-balance-image1004 .png)
+![Campo](/assets/img/docs/balance-management/bam-balance-image1004.png)
+
+![Campo](/assets/img/docs/balance-management/bam-balance-image1006.png)
+
+![Campo](/assets/img/docs/balance-management/bam-balance-image1007.png)
+
+### 6. Revisar Saldos y Diferencias
+
+* Verificar que el sistema muestre el saldo inicial, movimientos conciliados y diferencias pendientes.
+
+* Completar acciones manuales si es necesario hasta que no existan diferencias.
+
+![Campo](/assets/img/docs/balance-management/bam-balance-image1002.png)
 
 ### 7. Emitir Reportes
 
