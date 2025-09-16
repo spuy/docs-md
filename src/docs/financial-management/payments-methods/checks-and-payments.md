@@ -154,3 +154,141 @@ de la transacción.
 Para cada detalle de transacción, puede seleccionar un SDN y un cargo si corresponde.
 
 Puede ver información resumida o la lista completa de transacciones relacionadas con efectivo realizadas en la cuenta durante este período. La información se recopila de los módulos Administración de efectivo, Libro mayor, Cuentas por pagar y Cuentas por cobrar.
+
+## Movimientos de Cheques y Depósitos
+
+Esta funcionalidad permite gestionar los cheques en cartera desde el momento en que se registran a través de un recibo de cobro, hasta su posterior depósito y conciliación bancaria. El proceso incluye la consulta de movimientos en la caja de cheques en cartera, la confirmación de saldos y la generación de depósitos agrupados o divididos.
+
+### Objetivo
+
+* Brindar a los usuarios una guía práctica para:
+
+* Registrar correctamente los cheques en cartera.
+
+* Visualizar y controlar los movimientos y saldos en caja.
+
+* Realizar la confirmación de movimientos (cierre de caja).
+
+* Ejecutar los depósitos de cheques hacia las cuentas bancarias.
+
+* Asegurar la conciliación de los saldos entre el sistema y el banco.
+
+### Flujo del Proceso
+
+1. Generar Recibo de Cobro → Registro inicial del cheque (estado borrador → completado).
+
+2. Caja de Cheques en Cartera → Consulta de saldos y movimientos.
+
+3. Cierre de Caja → Confirmación de movimientos y conciliación interna.
+
+4. Depósito de Caja → Selección de cheques a depositar (agrupados o divididos).
+
+5. Reporte Detalle de Caja → Validación de entradas/salidas y conciliación bancaria.
+
+![Flujo](/assets/img/docs/balance-management/bam-checks4.png)
+
+### Procedimiento
+
+#### 1. Generar Recibo de Cobro
+
+* Acceder a Recibo de Cobro.
+
+* Seleccionar cliente.
+
+* Generar Cobro (cheques).
+
+* Completar el recibo → Los cheques pasan a la cuenta Cheques en Cartera.
+
+![Flujo](/assets/img/docs/balance-management/bam-checks5.png)
+
+![Flujo](/assets/img/docs/balance-management/bam-checks6.png)
+
+#### 2. Consultar Movimientos en Caja de Cheques en Cartera
+
+* Ir a Gestión Financiera → Diario de Caja → Detalle de Caja.
+
+* Generar reporte para visualizar:
+
+* Saldos anteriores.
+
+* Nuevos movimientos.
+
+* Entradas y salidas por cliente.
+
+* Número de documento y de cheque.
+
+* Desde este reporte, se puede navegar al detalle del pago o recibo correspondiente.
+
+![Flujo](/assets/img/docs/balance-management/bam-checks7.png)
+
+![Flujo](/assets/img/docs/balance-management/bam-checks8.png)
+
+#### 3. Confirmar Movimientos (Cierre de Caja)
+
+* Ingresar en Cierre de Caja.
+
+* Seleccionar la cuenta Cheques en Cartera.
+
+* Agregar los pagos pendientes de confirmación.
+
+* Completar el cierre → El saldo final concuerda con el saldo en caja.
+
+![Flujo](/assets/img/docs/balance-management/bam-checks9.png)
+
+![Flujo](/assets/img/docs/balance-management/bam-checks10.png)
+
+#### 4. Generar Depósitos de Cheques
+
+* Ir a Depósito de Caja.
+
+* Seleccionar la cuenta Cheques en Cartera.
+
+* Marcar los cheques pendientes de depósito.
+
+Definir:
+
+- Fecha.
+
+- Socio de negocio.
+
+- Número de depósito.
+
+- Cuenta bancaria destino.
+
+Opciones:
+
+- Depósito agrupado → un solo depósito por todos los cheques.
+
+- Depósito dividido → un depósito por cada cheque.
+
+![Flujo](/assets/img/docs/balance-management/bam-checks11.png)
+
+![Flujo](/assets/img/docs/balance-management/bam-checks12.png)
+
+#### 5. Validar en Reportes
+
+* Emitir el Reporte Detalle de Caja para confirmar:
+
+* Salida de cheques desde caja.
+
+* Entrada en la cuenta bancaria.
+
+Revisar el estado del documento:
+
+- Pendiente de conciliar.
+
+- Conciliado.
+
+### Ejemplos
+
+* Caso 1: Tres cheques en un solo depósito → salida de $125 y entrada de $125 (saldo sin variación).
+
+* Caso 2: Dos cheques con depósito dividido → dos movimientos separados hacia la cuenta Santander Pesos.
+
+### Observaciones
+
+* Es fundamental realizar el cierre de caja antes de depositar.
+
+* Si se selecciona la opción Dividir depósito, no se solicita número de depósito, ya que se genera uno por cada cheque.
+
+* Verificar siempre el estado del documento en el reporte para asegurar que quede conciliado correctamente en banco.
