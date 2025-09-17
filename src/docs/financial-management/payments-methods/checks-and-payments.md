@@ -292,3 +292,112 @@ Revisar el estado del documento:
 * Si se selecciona la opción Dividir depósito, no se solicita número de depósito, ya que se genera uno por cada cheque.
 
 * Verificar siempre el estado del documento en el reporte para asegurar que quede conciliado correctamente en banco.
+
+## Control de Cheques – Remesas
+
+El proceso de Remesas de Cheques permite gestionar y controlar los movimientos de cheques entre los distintos locales y la central administrativa.
+Cada cheque registrado debe atravesar tres movimientos principales:
+
+- Ingreso en la caja del local (cheque recibido en el punto de venta).
+
+- Cheque en tránsito (traslado del local hacia la central administrativa).
+
+- Ingreso en la caja de la administración (recepción final del cheque en la central).
+
+De esta manera, el sistema asegura la trazabilidad completa del cheque y permite verificar en qué etapa se encuentra en todo momento.
+
+### Flujo general del proceso
+
+1. Cheque recibido en el local → queda registrado en la caja como "cheque en cartera".
+
+2. Envío de remesa desde el local → se realiza un depósito de caja, que genera los documentos de retiro y el movimiento hacia la "remesa en tránsito".
+
+3. Cheque en tránsito → queda en estado pendiente hasta que la administración lo reciba.
+
+4. Recepción en administración → mediante depósito de caja se confirma la entrada del cheque en la caja de administración (ej. "Cheques en cartera – Administración").
+
+### Pasos del proceso
+
+#### 1. Verificación inicial en Caja
+
+* Ingresar al reporte de Detalles de Caja para visualizar el saldo y los cheques disponibles en cartera.
+
+* Identificar los cheques que formarán parte de la remesa (ejemplo: cheques A25 y A31).
+
+![Flujo](/assets/img/docs/balance-management/bam-checks13.png)
+
+![Flujo](/assets/img/docs/balance-management/bam-checks14.png)
+
+#### 2. Envío de cheques a Remesa en Tránsito
+
+* Acceder al proceso Depósito de Caja desde el local.
+
+* Seleccionar la caja origen (ej. “Cheques en Cartera – Local”).
+
+* Marcar los cheques a enviar.
+
+* Definir como destino la Remesa en Tránsito y el socio de negocio correspondiente (ej. Remesa Admin).
+
+El sistema generará automáticamente:
+
+* Documento de retiro en el local.
+
+* Documento de ingreso en la cuenta de remesa en tránsito.
+
+En cada movimiento se registran:
+
+* Pago relacionado → número único que identifica el cheque desde su ingreso.
+
+* Pago referido → documento que refleja el egreso/ingreso de cada movimiento posterior.
+
+![Flujo](/assets/img/docs/balance-management/bam-checks15.png)
+
+![Flujo](/assets/img/docs/balance-management/bam-checks16.png)
+
+![Flujo](/assets/img/docs/balance-management/bam-checks17.png)
+
+#### 3. Cheques en Tránsito
+
+Los cheques enviados quedan en la cuenta de Remesa en Tránsito, visibles para la administración.
+
+Opcionalmente, se puede agregar información complementaria (ej. persona que recibe el cheque, descripción del envío).
+
+![Flujo](/assets/img/docs/balance-management/bam-checks18.png)
+
+![Flujo](/assets/img/docs/balance-management/bam-checks19.png)
+
+#### 4. Recepción en Administración
+
+* Ingresar a Depósito de Caja desde la organización administrativa.
+
+* Seleccionar como origen la Remesa en Tránsito.
+
+* Marcar los cheques pendientes de recepción.
+
+* Confirmar el ingreso en la caja de administración (ej. “Cheques en Cartera – Administración”).
+
+* El cheque queda registrado en la central como disponible para su posterior gestión (cobro, depósito bancario, etc.).
+
+![Flujo](/assets/img/docs/balance-management/bam-checks20.png)
+
+![Flujo](/assets/img/docs/balance-management/bam-checks21.png)
+
+![Flujo](/assets/img/docs/balance-management/bam-checks22.png)
+
+### Notas importantes
+
+- El Pago Relacionado permanece constante durante todo el ciclo del cheque, garantizando la trazabilidad.
+
+- Cada traslado genera un Pago Referido que documenta el egreso/ingreso intermedio.
+
+- Es posible configurar socios de negocio específicos para cada local o para la administración (ej. Remesa Admin).
+
+- Se recomienda revisar periódicamente la Remesa en Tránsito para evitar cheques pendientes sin recepcionar.
+
+### Ejemplo visual (resumen)
+
+- Cheque A25 ingresado en Local Puerto Arenal → Caja Local (Cheques en Cartera).
+
+- Envío a Remesa en Tránsito → documento de retiro (local) + ingreso en cuenta de tránsito.
+
+- Recepción en Administración → Depósito de Caja → Cheques en Cartera Administración.
