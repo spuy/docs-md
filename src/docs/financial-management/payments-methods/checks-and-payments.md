@@ -382,7 +382,7 @@ Opcionalmente, se puede agregar información complementaria (ej. persona que rec
 
 ![Flujo](/assets/img/docs/balance-management/bam-checks21.png)
 
-![Flujo](/assets/img/docs/balance-management/bam-checks21.png)
+![Flujo](/assets/img/docs/balance-management/bam-checks22.png)
 
 ### Notas importantes
 
