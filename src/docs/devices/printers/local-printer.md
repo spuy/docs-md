@@ -65,7 +65,7 @@ https://solop.nyc3.digitaloceanspaces.com/public/downloads/ERP-App-Service-2.0.1
 
 ![Excepción en Firewall](/assets/img/docs/devices/printers/local-printer-12.png)
 
-7. Debe tener el driver de la impresora instalado previamente, eso puede consutar la sección de ![Drivers de Impresoras](custom-printers)
+7. Debe tener el driver de la impresora instalado previamente, eso puede consutar la sección de ![Drivers de Impresoras](custom-printers/README.md)
 
 8. Para el servicio de impresión se va a tomar la impresora por defecto, entonces debe marcarse la misma en el sistema operativo como por defecto
 
