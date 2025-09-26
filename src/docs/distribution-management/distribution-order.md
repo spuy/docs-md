@@ -13,15 +13,15 @@ Nunca se mueve directamente de origen a destino: siempre existen dos movimientos
 
 Asegurar que los movimientos de inventario entre locales/almacenes:
 
-    * Registren las cantidades confirmadas.
+    1. Registren las cantidades confirmadas.
 
-    * Mantengan control en tránsito.
+    2. Mantengan control en tránsito.
 
-    * Finalicen con la correcta recepción en el almacén destino.
+    3. Finalicen con la correcta recepción en el almacén destino.
 
 ## Alcance / Audiencia
 
-    Usuarios de logística, inventarios y operaciones que gestionan movimientos entre almacenes en el ERP.
+    * Usuarios de logística, inventarios y operaciones que gestionan movimientos entre almacenes en el ERP.
 
 ## Requisitos Previos
 
