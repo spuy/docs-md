@@ -161,29 +161,29 @@ Esta funcionalidad permite gestionar los cheques en cartera desde el momento en 
 
 ### Objetivo
 
-* Brindar a los usuarios una guía práctica para:
+Brindar a los usuarios una guía práctica para:
 
-* Registrar correctamente los cheques en cartera.
+   * Registrar correctamente los cheques en cartera.
 
-* Visualizar y controlar los movimientos y saldos en caja.
+   * Visualizar y controlar los movimientos y saldos en caja.
 
-* Realizar la confirmación de movimientos (cierre de caja).
+   * Realizar la confirmación de movimientos (cierre de caja).
 
-* Ejecutar los depósitos de cheques hacia las cuentas bancarias.
+   * Ejecutar los depósitos de cheques hacia las cuentas bancarias.
 
-* Asegurar la conciliación de los saldos entre el sistema y el banco.
+   * Asegurar la conciliación de los saldos entre el sistema y el banco.
 
 ### Flujo del Proceso
 
-1. Generar Recibo de Cobro → Registro inicial del cheque (estado borrador → completado).
+   1. Generar Recibo de Cobro → Registro inicial del cheque (estado borrador → completado).
 
-2. Caja de Cheques en Cartera → Consulta de saldos y movimientos.
+   2. Caja de Cheques en Cartera → Consulta de saldos y movimientos.
 
-3. Cierre de Caja → Confirmación de movimientos y conciliación interna.
+   3. Cierre de Caja → Confirmación de movimientos y conciliación interna.
 
-4. Depósito de Caja → Selección de cheques a depositar (agrupados o divididos).
+   4. Depósito de Caja → Selección de cheques a depositar (agrupados o divididos).
 
-5. Reporte Detalle de Caja → Validación de entradas/salidas y conciliación bancaria.
+   5. Reporte Detalle de Caja → Validación de entradas/salidas y conciliación bancaria.
 
 ![Flujo](/assets/img/docs/balance-management/bam-checks4.png)
 
@@ -191,13 +191,13 @@ Esta funcionalidad permite gestionar los cheques en cartera desde el momento en 
 
 #### 1. Generar Recibo de Cobro
 
-* Acceder a Recibo de Cobro.
+   * Acceder a Recibo de Cobro.
 
-* Seleccionar cliente.
+   * Seleccionar cliente.
 
-* Generar Cobro (cheques).
+   * Generar Cobro (cheques).
 
-* Completar el recibo → Los cheques pasan a la cuenta Cheques en Cartera.
+   * Completar el recibo → Los cheques pasan a la cuenta Cheques en Cartera.
 
 ![Flujo](/assets/img/docs/balance-management/bam-checks5.png)
 
@@ -205,19 +205,19 @@ Esta funcionalidad permite gestionar los cheques en cartera desde el momento en 
 
 #### 2. Consultar Movimientos en Caja de Cheques en Cartera
 
-* Ir a Gestión Financiera → Diario de Caja → Detalle de Caja.
+   * Ir a Gestión Financiera → Diario de Caja → Detalle de Caja.
 
-* Generar reporte para visualizar:
+   * Generar reporte para visualizar:
 
-* Saldos anteriores.
+   * Saldos anteriores.
 
-* Nuevos movimientos.
+   * Nuevos movimientos.
 
-* Entradas y salidas por cliente.
+   * Entradas y salidas por cliente.
 
-* Número de documento y de cheque.
+   * Número de documento y de cheque.
 
-* Desde este reporte, se puede navegar al detalle del pago o recibo correspondiente.
+   * Desde este reporte, se puede navegar al detalle del pago o recibo correspondiente.
 
 ![Flujo](/assets/img/docs/balance-management/bam-checks7.png)
 
@@ -225,13 +225,13 @@ Esta funcionalidad permite gestionar los cheques en cartera desde el momento en 
 
 #### 3. Confirmar Movimientos (Cierre de Caja)
 
-* Ingresar en Cierre de Caja.
+   * Ingresar en Cierre de Caja.
 
-* Seleccionar la cuenta Cheques en Cartera.
+   * Seleccionar la cuenta Cheques en Cartera.
 
-* Agregar los pagos pendientes de confirmación.
+   * Agregar los pagos pendientes de confirmación.
 
-* Completar el cierre → El saldo final concuerda con el saldo en caja.
+   * Completar el cierre → El saldo final concuerda con el saldo en caja.
 
 ![Flujo](/assets/img/docs/balance-management/bam-checks9.png)
 
@@ -239,27 +239,27 @@ Esta funcionalidad permite gestionar los cheques en cartera desde el momento en 
 
 #### 4. Generar Depósitos de Cheques
 
-* Ir a Depósito de Caja.
+   * Ir a Depósito de Caja.
 
-* Seleccionar la cuenta Cheques en Cartera.
+   * Seleccionar la cuenta Cheques en Cartera.
 
-* Marcar los cheques pendientes de depósito.
+   * Marcar los cheques pendientes de depósito.
 
 Definir:
 
-- Fecha.
+  - Fecha.
 
-- Socio de negocio.
+  - Socio de negocio.
 
-- Número de depósito.
+  - Número de depósito.
 
-- Cuenta bancaria destino.
+  - Cuenta bancaria destino.
 
 Opciones:
 
-- Depósito agrupado → un solo depósito por todos los cheques.
+  - Depósito agrupado → un solo depósito por todos los cheques.
 
-- Depósito dividido → un depósito por cada cheque.
+  - Depósito dividido → un depósito por cada cheque.
 
 ![Flujo](/assets/img/docs/balance-management/bam-checks11.png)
 
@@ -267,62 +267,62 @@ Opciones:
 
 #### 5. Validar en Reportes
 
-* Emitir el Reporte Detalle de Caja para confirmar:
+Emitir el Reporte Detalle de Caja para confirmar:
 
-* Salida de cheques desde caja.
+  * Salida de cheques desde caja.
 
-* Entrada en la cuenta bancaria.
+  * Entrada en la cuenta bancaria.
 
 Revisar el estado del documento:
 
-- Pendiente de conciliar.
+  - Pendiente de conciliar.
 
-- Conciliado.
+  - Conciliado.
 
 ### Ejemplos
 
-* Caso 1: Tres cheques en un solo depósito → salida de $125 y entrada de $125 (saldo sin variación).
+   * Caso 1: Tres cheques en un solo depósito → salida de $125 y entrada de $125 (saldo sin variación).
 
-* Caso 2: Dos cheques con depósito dividido → dos movimientos separados hacia la cuenta Santander Pesos.
+   * Caso 2: Dos cheques con depósito dividido → dos movimientos separados hacia la cuenta Santander Pesos.
 
 ### Observaciones
 
-* Es fundamental realizar el cierre de caja antes de depositar.
+   * Es fundamental realizar el cierre de caja antes de depositar.
 
-* Si se selecciona la opción Dividir depósito, no se solicita número de depósito, ya que se genera uno por cada cheque.
+   * Si se selecciona la opción Dividir depósito, no se solicita número de depósito, ya que se genera uno por cada cheque.
 
-* Verificar siempre el estado del documento en el reporte para asegurar que quede conciliado correctamente en banco.
+   * Verificar siempre el estado del documento en el reporte para asegurar que quede conciliado correctamente en banco.
 
 ## Control de Cheques – Remesas
 
 El proceso de Remesas de Cheques permite gestionar y controlar los movimientos de cheques entre los distintos locales y la central administrativa.
 Cada cheque registrado debe atravesar tres movimientos principales:
 
-- Ingreso en la caja del local (cheque recibido en el punto de venta).
+  - Ingreso en la caja del local (cheque recibido en el punto de venta).
 
-- Cheque en tránsito (traslado del local hacia la central administrativa).
+  - Cheque en tránsito (traslado del local hacia la central administrativa).
 
-- Ingreso en la caja de la administración (recepción final del cheque en la central).
+  - Ingreso en la caja de la administración (recepción final del cheque en la central).
 
 De esta manera, el sistema asegura la trazabilidad completa del cheque y permite verificar en qué etapa se encuentra en todo momento.
 
 ### Flujo general del proceso
 
-1. Cheque recibido en el local → queda registrado en la caja como "cheque en cartera".
+   1. Cheque recibido en el local → queda registrado en la caja como "cheque en cartera".
 
-2. Envío de remesa desde el local → se realiza un depósito de caja, que genera los documentos de retiro y el movimiento hacia la "remesa en tránsito".
+   2. Envío de remesa desde el local → se realiza un depósito de caja, que genera los documentos de retiro y el movimiento hacia la "remesa en tránsito".
 
-3. Cheque en tránsito → queda en estado pendiente hasta que la administración lo reciba.
+   3. Cheque en tránsito → queda en estado pendiente hasta que la administración lo reciba.
 
-4. Recepción en administración → mediante depósito de caja se confirma la entrada del cheque en la caja de administración (ej. "Cheques en cartera – Administración").
+   4. Recepción en administración → mediante depósito de caja se confirma la entrada del cheque en la caja de administración (ej. "Cheques en cartera – Administración").
 
 ### Pasos del proceso
 
 #### 1. Verificación inicial en Caja
 
-* Ingresar al reporte de Detalles de Caja para visualizar el saldo y los cheques disponibles en cartera.
+   * Ingresar al reporte de Detalles de Caja para visualizar el saldo y los cheques disponibles en cartera.
 
-* Identificar los cheques que formarán parte de la remesa (ejemplo: cheques A25 y A31).
+   * Identificar los cheques que formarán parte de la remesa (ejemplo: cheques A25 y A31).
 
 ![Flujo](/assets/img/docs/balance-management/bam-checks13.png)
 
@@ -330,25 +330,25 @@ De esta manera, el sistema asegura la trazabilidad completa del cheque y permite
 
 #### 2. Envío de cheques a Remesa en Tránsito
 
-* Acceder al proceso Depósito de Caja desde el local.
+   * Acceder al proceso Depósito de Caja desde el local.
 
-* Seleccionar la caja origen (ej. “Cheques en Cartera – Local”).
+   * Seleccionar la caja origen (ej. “Cheques en Cartera – Local”).
 
-* Marcar los cheques a enviar.
+   * Marcar los cheques a enviar.
 
-* Definir como destino la Remesa en Tránsito y el socio de negocio correspondiente (ej. Remesa Admin).
+   * Definir como destino la Remesa en Tránsito y el socio de negocio correspondiente (ej. Remesa Admin).
 
 El sistema generará automáticamente:
 
-* Documento de retiro en el local.
+   * Documento de retiro en el local.
 
-* Documento de ingreso en la cuenta de remesa en tránsito.
+   * Documento de ingreso en la cuenta de remesa en tránsito.
 
 En cada movimiento se registran:
 
-* Pago relacionado → número único que identifica el cheque desde su ingreso.
+   * Pago relacionado → número único que identifica el cheque desde su ingreso.
 
-* Pago referido → documento que refleja el egreso/ingreso de cada movimiento posterior.
+   * Pago referido → documento que refleja el egreso/ingreso de cada movimiento posterior.
 
 ![Flujo](/assets/img/docs/balance-management/bam-checks15.png)
 
@@ -368,15 +368,15 @@ Opcionalmente, se puede agregar información complementaria (ej. persona que rec
 
 #### 4. Recepción en Administración
 
-* Ingresar a Depósito de Caja desde la organización administrativa.
+   * Ingresar a Depósito de Caja desde la organización administrativa.
 
-* Seleccionar como origen la Remesa en Tránsito.
+   * Seleccionar como origen la Remesa en Tránsito.
 
-* Marcar los cheques pendientes de recepción.
+   * Marcar los cheques pendientes de recepción.
 
-* Confirmar el ingreso en la caja de administración (ej. “Cheques en Cartera – Administración”).
+   * Confirmar el ingreso en la caja de administración (ej. “Cheques en Cartera – Administración”).
 
-* El cheque queda registrado en la central como disponible para su posterior gestión (cobro, depósito bancario, etc.).
+   * El cheque queda registrado en la central como disponible para su posterior gestión (cobro, depósito bancario, etc.).
 
 ![Flujo](/assets/img/docs/balance-management/bam-checks20.png)
 
@@ -386,18 +386,18 @@ Opcionalmente, se puede agregar información complementaria (ej. persona que rec
 
 ### Notas importantes
 
-- El Pago Relacionado permanece constante durante todo el ciclo del cheque, garantizando la trazabilidad.
+   - El Pago Relacionado permanece constante durante todo el ciclo del cheque, garantizando la trazabilidad.
 
-- Cada traslado genera un Pago Referido que documenta el egreso/ingreso intermedio.
+   - Cada traslado genera un Pago Referido que documenta el egreso/ingreso intermedio.
 
-- Es posible configurar socios de negocio específicos para cada local o para la administración (ej. Remesa Admin).
+   - Es posible configurar socios de negocio específicos para cada local o para la administración (ej. Remesa Admin).
 
-- Se recomienda revisar periódicamente la Remesa en Tránsito para evitar cheques pendientes sin recepcionar.
+   - Se recomienda revisar periódicamente la Remesa en Tránsito para evitar cheques pendientes sin recepcionar.
 
 ### Ejemplo visual (resumen)
 
-- Cheque A25 ingresado en Local Puerto Arenal → Caja Local (Cheques en Cartera).
+   - Cheque A25 ingresado en Local Puerto Arenal → Caja Local (Cheques en Cartera).
 
-- Envío a Remesa en Tránsito → documento de retiro (local) + ingreso en cuenta de tránsito.
+   - Envío a Remesa en Tránsito → documento de retiro (local) + ingreso en cuenta de tránsito.
 
-- Recepción en Administración → Depósito de Caja → Cheques en Cartera Administración.
+   - Recepción en Administración → Depósito de Caja → Cheques en Cartera Administración.

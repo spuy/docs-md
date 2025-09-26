@@ -6,150 +6,187 @@ sticky: 9
 article: false
 ---
 
-El proceso de Órdenes de Distribución permite gestionar el movimiento de productos entre distintos almacenes o sucursales de la compañía. Asegura que las transferencias de stock se registren de manera controlada y transparente, utilizando un almacén en tránsito como etapa intermedia obligatoria.
+El proceso de Orden de Distribución permite transferir productos entre almacenes de una organización, utilizando un almacén en tránsito como paso intermedio obligatorio.
+Nunca se mueve directamente de origen a destino: siempre existen dos movimientos intermedios que garantizan el control de stock durante el transporte.
 
-## 1. Requerimiento y creación
+## Objetivo
 
-La orden de distribución permite mover productos entre almacenes u ubicaciones dentro de la organización, utilizando un almacén en tránsito como paso intermedio. Esto garantiza que el traslado no sea inmediato, sino que refleje el tiempo en tránsito.
+Asegurar que los movimientos de inventario entre locales/almacenes:
 
-### Requisitos previos
+  * Registren las cantidades confirmadas.
 
-* Debe existir un almacén en tránsito configurado con su ubicación y marcado como almacén predeterminado.
+  * Mantengan control en tránsito.
 
-* Los productos a mover deben tener stock en la ubicación origen.
+  * Finalicen con la correcta recepción en el almacén destino.
 
-![Almacén](/assets/img/docs/distribution-management/dim-distribution-image33.png)
+## Alcance / Audiencia
 
-Al crear Orden de Distribución se debe definir:
+  Usuarios de logística, inventarios y operaciones que gestionan movimientos entre almacenes en el ERP.
 
-  - Almacén en tránsito en el cabezal de la orden.
+## Requisitos Previos
 
-  - Ubicación origen (de dónde sale el producto).
+  * Almacén en tránsito configurado (crear almacén "En tránsito")
 
-  - Ubicación destino (a dónde llegará el producto).
+     1. Se crea en Menú → Almacenes y ubicaciones.
 
-### Pasos
+     2. Debe tener su ubicación definida.
 
-  1. Crear un almacén en tránsito con su ubicación y marcarlo como predeterminado.
+     3. Debe marcarse como predeterminado.
 
-  2. Generar una orden de distribución en el sistema:
+![Almacén](/assets/img/docs/distribution-management/dim-distribution-image33.png) 
 
-     - Definir el almacén en tránsito en el cabezal.
+  * Existencias disponibles en el almacén origen
 
-     - Completar los campos obligatorios y guardar.
+     1. Los productos a mover deben tener stock suficiente en la ubicación de origen.
 
-  3. En la línea de la orden:
+  * Orden de Distribución creada
 
-     - Seleccionar producto.
+     1. Se genera en Menú → Distribución → Orden de distribución.
 
-     - Definir cantidad y cantidad confirmada (la confirmada es la que efectivamente se moverá).
+     2. En el cabezal, se debe definir el almacén en tránsito.
 
-     - Establecer ubicación origen y ubicación destino.
+     3. Completar todos los campos obligatorios y guardar (completar orden).
 
-     - Guardar.
+ ![Almacén](/assets/img/docs/distribution-management/dim-distribution-image34.png)
 
-  4. Se pueden incluir varios productos en la misma orden, incluso con distintos orígenes y destinos.
+## Flujo general
 
-  5. Completar la orden de distribución desde el cabezal → se genera un número de documento.
+1. Crear Orden de Distribución con almacén en tránsito.
 
-  ![Almacén](/assets/img/docs/distribution-management/dim-distribution-image34.png)
+2. Cargar líneas de productos: cantidades solicitadas y cantidad confirmada.
 
-### Notas importantes
+3. Guardar y Completar la Orden de Distribución.
 
-- Si la cantidad confirmada es mayor que la existencia en origen, el sistema solo moverá hasta el stock disponible (a menos que la orden esté configurada como regla de entrega forzada).
+4. Ejecutar proceso Generar movimiento (origen → tránsito).
 
-- Toda orden de distribución genera dos procesos posteriores:
+5. Validar stock en tránsito con Detalle de almacenamiento.
 
-- Envío: movimiento de inventario desde la ubicación origen hacia el almacén en tránsito (realizado por la sucursal que envía).
+6. Ejecutar proceso Recibos de materiales de la orden (tránsito → destino).
 
-- Recepción: movimiento de inventario desde tránsito hacia la ubicación destino final.
+7. Confirmar actualización de cantidades (entregada vs en tránsito).
 
-## 2. Generar movimiento (origen a tránsito)
+## Paso a paso detallado
 
-Este proceso corresponde al primer movimiento físico de la orden de distribución: trasladar productos desde la ubicación origen hasta el almacén en tránsito.
+### 1. Crear Orden Distribución
 
-### Requisitos previos
+1.1. Navegar a: Menú → Distribución → Orden de Distribución.
 
-* La orden de distribución debe estar creada y completada (Ver Paso 1).
+1.2. En el cabezal, definir:
 
-* Las líneas de la orden deben tener definida la cantidad confirmada, ya que sin este dato el proceso no se mostrará en la lista de pendientes.
+  * Organización.
 
-### Pasos
+  * Almacén en tránsito.
 
-  1. Acceder al menú y seleccionar la opción "Generar movimiento".
+  * Campos obligatorios adicionales (ej. fechas, socio, etc.).
 
-  2. El sistema mostrará los registros pendientes de mover.
+  * Guardar la orden.
 
-    - No se detallan los productos en columnas, ya que este proceso representa una salida desde el origen hacia tránsito.
+### 2. Definir líneas de productos
 
-    - Solo aparecen las órdenes con cantidades confirmadas.
+2.1. Seleccionar el producto desde la ubicación de origen.
 
-  3. Seleccionar el registro y presionar Aceptar.
+2.2. Completar los campos:
 
-  4. En la ventana emergente, definir la fecha de movimiento y confirmar con Aceptar.
+  * Cantidad solicitada.
 
-  5. Verificar el resultado:
+  * Cantidad confirmada (ejemplo: 25).
 
-    - Ir a la orden de distribución.
+  * Ubicación origen (donde se encuentra el producto).
 
-    - Refrescar la vista en las líneas.
-
-    - Confirmar que la cantidad en tránsito se haya actualizado correctamente.
-
-  ![Generar Movimiento](/assets/img/docs/distribution-management/dim-distribution-image35.png)
-
-  ![Generar Movimiento](/assets/img/docs/distribution-management/dim-distribution-image36.png)
+  * Ubicación destino.
 
 ::: note
-Si la línea de orden no tiene cantidad confirmada, el proceso no aparecerá en la lista de pendientes, por lo que es obligatorio cargar este dato previamente.
+- Si cantidad confirmada > existencia, el sistema solo mueve lo disponible (ej. existencia 20 → moverá 20).
+- Solo se moverá lo cantidad mayor a existencia si la orden está marcada como regla de entrega forzada.
 :::
 
-### 3. Generar movimiento (Tránsito a Destino)
+### 3. Guardar y completar la orden desde el cabezal.
 
-Este proceso corresponde a la recepción de productos en el almacén destino. Los productos que se habían movido al almacén en tránsito ahora deben ser confirmados y registrados como entregados en el destino.
+  * Ejemplo: se genera la Orden de Distribución Nº 2.
 
-### Requisitos previos
+### 4. Generar movimiento (origen → tránsito)
 
-  * El movimiento desde el almacén origen a tránsito debe estar generado (ver Parte 2).
+  1. Navegar a: Menú → Procesos → Generar movimiento.
 
-  * Los productos deben figurar como disponibles en el almacén tránsito.
+  2. Ingresar el número de la Orden de Distribución (ejemplo: 2).
 
-### Pasos
+  3. Verificar que aparezcan registros pendientes (solo se muestran si hay cantidad confirmada).
 
-  1. Verificar cantidades en tránsito:
+  4. Seleccionar el registro y hacer clic en Aceptar.
 
-    - Consultar el reporte “Detalle de almacenamiento”.
+  5. En la ventana emergente:
 
-    - Confirmar que los productos estén registrados en el almacén tránsito (ejemplo: 25 unidades).
+   * Definir Fecha de Movimiento.
 
-  2. Acceder al proceso “Recibos de materiales de la Orden”.
+   * Confirmar con Aceptar.
 
-  3. Ingresar el número de la orden de distribución en el criterio de búsqueda.
+  6. Validar en la Orden de Distribución que la cantidad pasó a En tránsito.
 
-    - El sistema mostrará las líneas de la orden, no los movimientos individuales.
+![Generar Movimiento](/assets/img/docs/distribution-management/dim-distribution-image35.png)
 
-    - Esto se debe a que un camión puede salir con múltiples destinos, y se recepciona según cada ubicación de destino.
+![Generar Movimiento](/assets/img/docs/distribution-management/dim-distribution-image36.png) 
 
-  4. Seleccionar el registro correspondiente (línea en tránsito).
+### 5. Confirmar stock en tránsito
 
-  5. Presionar Aceptar.
+  1. Consultar el reporte Detalle de almacenamiento.
 
-  6. En la ventana emergente, definir la Fecha de movimiento y confirmar con Aceptar.
+  2. Verificar que las cantidades movidas (ejemplo: 25) figuren en el almacén en tránsito.
 
-  7. Validar el resultado:
+### 6. Recibir en el destino (tránsito → destino)
 
-    - En la orden de distribución, revisar que la cantidad en tránsito haya disminuido (ejemplo: de 25 → 0).
+  1. Navegar a: Menú → Procesos → Recibos de materiales de la orden.
 
-    - Confirmar que la cantidad entregada se actualizó (ejemplo: 25).
+  2. Ingresar el número de la Orden de Distribución.
 
-![Generar Movimiento](/assets/img/docs/distribution-management/dim-distribution-image37.png)
+  3. Seleccionar el registro en tránsito que será recibido.
 
-4. Notas importantes
+  4. Hacer clic en Aceptar.
 
-  * Una vez recepcionados los productos, la orden queda liberada.
+  5. En la ventana emergente:
 
-  * En caso de anulación de documentos, los movimientos se revierten:
+   * Definir Fecha de Movimiento.
 
-    - De destino a tránsito.
+   * Confirmar con Aceptar.
 
-    - De tránsito a origen.
+### 7. Validar en la Orden de Distribución que:
+
+  1. Cantidad en tránsito = 0.
+
+  2. Cantidad entregada = cantidad confirmada (ejemplo: 25).
+
+![Generar Movimiento](/assets/img/docs/distribution-management/dim-distribution-image37.png) 
+
+### Casos especiales
+
+  1. Entrega forzada: si confirmada > existencia, solo mueve stock real salvo que la orden tenga regla de entrega forzada.
+
+  2. Anulación: al anular documentos, el sistema revierte movimientos:
+
+   * De destino → tránsito.
+
+   * De tránsito → origen.
+
+### Reportes y verificaciones
+
+  1. Detalle de almacenamiento: confirma cantidades en tránsito.
+
+  2. Orden de distribución: refleja cambios en los campos En tránsito y Entregado.
+
+### Checklist de control
+
+✔️ Almacén en tránsito creado y con ubicación.
+✔️ Orden de distribución generada con almacén en tránsito.
+✔️ Cantidades confirmadas definidas.
+✔️ Movimiento origen → tránsito generado.
+✔️ Detalle de almacenamiento actualizado.
+✔️ Movimiento tránsito → destino completado.
+✔️ Orden de distribución liberada.
+
+### Resumen final
+
+El circuito de Orden de Distribución asegura el traslado controlado de inventario entre almacenes en dos pasos: primero de origen a tránsito, y luego de tránsito a destino.
+El control de cantidades confirmadas, validación de existencias y posibilidad de reversión garantizan trazabilidad completa y seguridad en los movimientos.
+
+Versión: 1.0
+Autor: Equipo Funcional ERP
+Fecha: 25/09/2025
