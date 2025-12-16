@@ -70,7 +70,7 @@ Esto genera un reporte (informe) constituyendo diferentes columnas: actual (cont
 
 Es una herramienta útil de control para identificar desvíos entre lo presupuestado y la realidad.
 
-![Ventana Cargador de Archivo](/assets/img/docs/basic-rules/bar-data-import3.mp4)
+<VideoPlayer src="/assets/img/docs/basic-rules/bar-data-import3.mp4" />
 
 ## Carga Masiva: Asiento Diario
 
